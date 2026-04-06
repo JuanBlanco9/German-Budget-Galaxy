@@ -23,6 +23,23 @@ Every sphere represents a real budget allocation. The size is proportional to th
 
 **[germanbudgetgalaxy.com](http://germanbudgetgalaxy.com)** *(coming soon)*
 
+## Screenshots
+
+### Budget Galaxy
+<p align="center">
+  <img src="images/Budget Galaxy 1.jpg" alt="Budget Galaxy" width="800"/>
+</p>
+
+### Budget Explorer
+<p align="center">
+  <img src="images/Budget Explorer 1.jpg" alt="Budget Explorer" width="800"/>
+</p>
+
+### Ministry Detail
+<p align="center">
+  <img src="images/Budget Explorer 2.jpg" alt="Budget Explorer Detail" width="800"/>
+</p>
+
 ## Features
 
 ### Budget Galaxy
