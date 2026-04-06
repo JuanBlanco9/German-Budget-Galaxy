@@ -3,7 +3,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, Query
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -166,6 +166,36 @@ def budget_country_history(country_id: str):
 
     return result
 
+
+# ── SEO endpoints ───────────────────────────────────
+
+@app.get("/robots.txt", response_class=PlainTextResponse)
+def robots_txt():
+    return """User-agent: *
+Allow: /
+Sitemap: https://budgetgalaxy.com/sitemap.xml
+"""
+
+
+@app.get("/sitemap.xml")
+def sitemap_xml():
+    urls = [
+        ("https://budgetgalaxy.com/", "1.0"),
+        ("https://budgetgalaxy.com/app?country=de", "0.9"),
+        ("https://budgetgalaxy.com/app?country=us", "0.9"),
+        ("https://budgetgalaxy.com/app?country=fr", "0.8"),
+        ("https://budgetgalaxy.com/app?country=uk", "0.8"),
+    ]
+    xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for loc, priority in urls:
+        xml += f"  <url><loc>{loc}</loc><changefreq>monthly</changefreq><priority>{priority}</priority></url>\n"
+    xml += "</urlset>\n"
+    return Response(content=xml, media_type="application/xml")
+
+
+# Serve data files (enrichments, etc.)
+app.mount("/data", StaticFiles(directory=str(DATA_DIR)), name="data")
 
 # Serve static frontend files (images, CSS, etc.)
 app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="frontend")

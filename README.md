@@ -156,6 +156,14 @@ All budget data has been audited against official sources:
 - Enrichment data is approximate, from various reporting periods (2023-2024)
 - 4 minor EPL totals differ from official values by <3.6% due to CSV parsing edge cases
 
+## Support
+
+Budget Galaxy is free and open source. If you find it useful, consider supporting its development:
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/JuanBlanco9?style=social)](https://github.com/sponsors/JuanBlanco9)
+
+Your support helps add more countries, keep the data updated, and improve the platform.
+
 ## License
 
 MIT
