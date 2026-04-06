@@ -8,6 +8,18 @@
   <img src="images/gbg_banner_budget_galaxy.jpg" alt="Budget Galaxy" width="900"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/D3.js-7.9-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chart.js-4-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vanilla_JS-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/nginx-reverse_proxy-009639?style=flat-square&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Let's_Encrypt-SSL-003A70?style=flat-square&logo=letsencrypt&logoColor=white" />
+  <img src="https://img.shields.io/badge/4_countries-13,400+_items-4fc3f7?style=flat-square" />
+  <img src="https://img.shields.io/badge/4,035-enrichments-ff7043?style=flat-square" />
+</p>
+
 ---
 
 ## What is Budget Galaxy?
