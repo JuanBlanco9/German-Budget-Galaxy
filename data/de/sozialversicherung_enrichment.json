@@ -1,0 +1,355 @@
+{
+  "Sozialversicherung": {
+    "y": 2024,
+    "d": "Germany's social insurance system (Sozialversicherung), the backbone of the welfare state since Bismarck's reforms in the 1880s. It is a compulsory, contribution-based system with five pillars: health, pension, unemployment, long-term care, and accident insurance. Total expenditure exceeds EUR 800 billion per year, making it larger than the entire federal budget.",
+    "b": "Virtually the entire resident population of Germany. Over 90% of the population is covered by at least one branch of social insurance."
+  },
+  "Gesetzliche Krankenversicherung (GKV)": {
+    "y": 2024,
+    "d": "Germany's statutory health insurance system, the oldest universal healthcare system in the world (est. 1883). Financed by income-based contributions shared equally between employers and employees (14.6% base rate plus an insurer-specific supplementary contribution). Covers around 73 million insured members across roughly 95 competing non-profit sickness funds (Krankenkassen).",
+    "b": "Approximately 73 million insured persons (about 88% of the population), including employed workers, pensioners, unemployed persons, and their non-earning dependents who are covered free of charge (Familienversicherung)."
+  },
+  "Gesetzliche Rentenversicherung (GRV)": {
+    "y": 2024,
+    "d": "Germany's statutory pension insurance, established in 1889 as the world's first contributory pension system. Operates on a pay-as-you-go basis: current workers' contributions directly finance current retirees' pensions. The contribution rate is 18.6% of gross wages (split equally between employer and employee). Managed by Deutsche Rentenversicherung (DRV) with total expenditures around EUR 390 billion.",
+    "b": "Approximately 21 million pensioners receiving monthly payments, plus around 57 million active contributors building future entitlements. Also covers disability pensions and survivors' benefits for widows, widowers, and orphans."
+  },
+  "Bundesagentur für Arbeit (BA)": {
+    "y": 2024,
+    "d": "The Federal Employment Agency, Germany's public employment service headquartered in Nuremberg. Funded primarily by unemployment insurance contributions (2.6% of gross wages, split employer/employee). Operates 156 local employment agencies (Agenturen fuer Arbeit) and around 300 branch offices. Responsible for unemployment benefits (ALG I), active labor market policies, job placement, and vocational training support.",
+    "b": "Unemployed workers receiving Arbeitslosengeld I, job seekers using placement services, employees in short-time work (Kurzarbeit), employers receiving wage subsidies, and workers undergoing retraining or vocational rehabilitation."
+  },
+  "Soziale Pflegeversicherung": {
+    "y": 2024,
+    "d": "Germany's statutory long-term care insurance, the newest pillar of social insurance (est. 1995). Provides partial coverage for care costs when individuals can no longer manage daily life independently. Contribution rate is 3.4% of gross wages (with surcharges for childless adults), managed by the same sickness funds that run health insurance. Total expenditure around EUR 60 billion.",
+    "b": "Approximately 5 million people receiving long-term care benefits (Pflegebedürftige), classified across five care grades (Pflegegrade 1-5). Benefits also flow to family caregivers through cash allowances and social security contributions on their behalf."
+  },
+  "Gesetzliche Unfallversicherung (DGUV)": {
+    "y": 2024,
+    "d": "Germany's statutory accident insurance system, managed by the Deutsche Gesetzliche Unfallversicherung. Unlike other social insurance branches, it is funded entirely by employers through risk-based premiums (Umlagen). Covers workplace accidents, commuting accidents, and occupational diseases. Also responsible for workplace safety prevention and rehabilitation. Total expenditure around EUR 17 billion.",
+    "b": "All employees, students, schoolchildren, and volunteers are automatically insured. Benefits go to workers injured on the job or suffering occupational diseases, covering medical treatment, rehabilitation, and disability pensions. Employers benefit from prevention programs that reduce workplace accidents."
+  },
+
+  "Krankenhausbehandlung": {
+    "y": 2024,
+    "d": "Hospital treatment expenditures under the GKV, covering inpatient stays, surgeries, and emergency care in Germany's approximately 1,900 hospitals. This is the single largest spending category in statutory health insurance, accounting for roughly one-third of total GKV benefit expenditures. Hospital reimbursement follows a DRG-based case-fee system (G-DRG).",
+    "b": "All GKV-insured patients requiring hospital treatment. Around 17 million inpatient hospital cases per year are billed to statutory health insurance."
+  },
+  "Ärztliche Behandlung": {
+    "y": 2024,
+    "d": "Expenditures for outpatient physician services under the GKV, covering consultations, diagnostic procedures, minor surgeries, and specialist referrals in the ambulatory care sector. Reimbursement is channeled through regional Associations of Statutory Health Insurance Physicians (Kassenärztliche Vereinigungen) using a points-based fee schedule (EBM).",
+    "b": "All GKV-insured persons visiting office-based physicians. Germany has about 180,000 outpatient physicians and psychotherapists under contract with the GKV system."
+  },
+  "Arzneimittel": {
+    "y": 2024,
+    "d": "Pharmaceutical expenditures under the GKV, covering prescription drugs dispensed through pharmacies. Subject to various cost-containment instruments including reference pricing (Festbeträge), mandatory manufacturer rebates (AMNOG), and patient co-payments (EUR 5-10 per prescription). The third-largest spending category in the GKV.",
+    "b": "GKV-insured patients requiring prescription medications. Germany's pharmaceutical market is one of the largest in Europe."
+  },
+  "Zahnärztliche Behandlung": {
+    "y": 2024,
+    "d": "Dental care expenditures under the GKV, covering preventive checkups, fillings, root canals, periodontal treatment, and fixed allowances toward dentures (Festzuschüsse). Patients with a complete bonus booklet (Bonusheft) documenting annual checkups receive higher subsidies for dental prosthetics.",
+    "b": "All GKV-insured persons receiving dental care. Germany has approximately 55,000 dentists providing services under the statutory system."
+  },
+  "Krankengeld": {
+    "y": 2024,
+    "d": "Sick pay (Krankengeld) provided by statutory health insurance after employer-paid sick leave (Entgeltfortzahlung) ends at six weeks. Pays 70% of gross wages (capped at 90% of net wages) for up to 78 weeks per illness within a three-year period. A key income-protection benefit during extended illness.",
+    "b": "GKV-insured employees who are unable to work due to illness beyond the initial six weeks of employer-paid sick leave. Excludes voluntarily insured self-employed unless they opt in."
+  },
+  "Heilmittel": {
+    "y": 2024,
+    "d": "Expenditures for therapeutic remedies prescribed by physicians, including physiotherapy, speech therapy (Logopädie), occupational therapy (Ergotherapie), and podiatric treatment. Services are provided by licensed therapists in outpatient practices. Growth has been driven by an aging population and expanded therapy access.",
+    "b": "GKV-insured patients with prescriptions for therapeutic remedies, particularly those recovering from surgery, stroke, or musculoskeletal conditions, as well as children with developmental or speech disorders."
+  },
+  "Hilfsmittel": {
+    "y": 2024,
+    "d": "Medical aids and devices covered by the GKV, including hearing aids, wheelchairs, prosthetics, orthopedic shoes, incontinence products, respiratory devices, and other assistive technologies. Products must be listed in the official aids register (Hilfsmittelverzeichnis) maintained by the GKV-Spitzenverband.",
+    "b": "GKV-insured persons requiring medical aids due to disability, chronic illness, or age-related functional limitations."
+  },
+  "Sonstige Leistungsausgaben": {
+    "y": 2024,
+    "d": "Other benefit expenditures of the GKV not captured in the main categories, including home nursing care (Häusliche Krankenpflege), ambulance and patient transport, preventive health programs, maternity benefits, rehabilitation, hospice care, and disease management programs (DMPs).",
+    "b": "Various groups of GKV-insured persons including pregnant women (maternity benefits), chronically ill patients (DMPs), patients requiring home nursing, and those in need of rehabilitation services."
+  },
+
+  "Rentenzahlungen (netto)": {
+    "y": 2024,
+    "d": "Net pension payments to retirees, survivors, and disability pensioners — the core expenditure of the GRV, accounting for about 88% of total pension insurance spending. Pensions are calculated based on individual earnings points (Entgeltpunkte) accumulated over a working lifetime, multiplied by the current pension value (Rentenwert).",
+    "b": "Approximately 21 million pensioners, including old-age retirees, reduced-earning-capacity pensioners (Erwerbsminderungsrentner), and survivors (widows, widowers, orphans)."
+  },
+  "Krankenversicherung der Rentner (KVdR, netto)": {
+    "y": 2024,
+    "d": "The GRV's contribution to health insurance premiums for retirees (Krankenversicherung der Rentner). The pension insurance fund pays the employer-equivalent share of health insurance contributions on behalf of pensioners, mirroring the employer-employee split that applied during their working lives.",
+    "b": "Pensioners enrolled in statutory health insurance (GKV). The GRV pays roughly half of their health insurance contributions, reducing the financial burden of healthcare costs in retirement."
+  },
+  "Leistungen zur Teilhabe / Rehabilitation (netto)": {
+    "y": 2024,
+    "d": "Rehabilitation and participation benefits funded by the GRV, aimed at restoring or maintaining the earning capacity of insured persons. Includes medical rehabilitation (e.g., post-surgery rehab stays), vocational rehabilitation (retraining, workplace adaptation), and supplementary benefits (transitional allowance during rehab).",
+    "b": "Insured workers and pensioners whose earning capacity is at risk due to illness or disability. Approximately 1 million rehabilitation services are approved by the GRV each year."
+  },
+  "Verwaltungs- und Verfahrenskosten": {
+    "y": 2024,
+    "d": "Administrative and procedural costs of the statutory pension insurance system, covering staff salaries, IT systems, office infrastructure, pension calculation and payment processing, legal proceedings, and counseling services at local advice centers (Auskunfts- und Beratungsstellen).",
+    "b": "Indirectly benefits all insured persons and pensioners by ensuring accurate and timely pension administration. The GRV operates one of the largest administrative systems in Germany with over 60,000 employees."
+  },
+
+  "Passive Leistungen (Kapitel 4)": {
+    "y": 2024,
+    "d": "Passive labor market benefits paid by the Bundesagentur für Arbeit, primarily unemployment benefit I (Arbeitslosengeld). These are insurance-based entitlement payments triggered by involuntary job loss, calculated as a percentage of previous net earnings. Also includes insolvency pay and reimbursements to other social insurance carriers.",
+    "b": "Workers who have lost their jobs and meet the qualifying contribution period (typically 12 months within the last 30 months). In 2024, approximately 730,000 people received Arbeitslosengeld I on average each month."
+  },
+  "Arbeitslosengeld bei Arbeitslosigkeit": {
+    "y": 2024,
+    "d": "Unemployment benefit I (ALG I), the primary income replacement for workers who become unemployed. Pays 60% of previous net earnings (67% for parents) for a duration of 6 to 24 months depending on age and contribution history. Distinct from Buergergeld (formerly Hartz IV), which is a tax-funded basic income support.",
+    "b": "Unemployed workers who have paid into the unemployment insurance system for at least 12 of the past 30 months. Benefits are time-limited and earnings-related, incentivizing return to employment."
+  },
+  "Insolvenzgeld": {
+    "y": 2024,
+    "d": "Insolvency pay (Insolvenzgeld) that compensates employees when their employer becomes insolvent. Covers outstanding wages for the last three months before insolvency is declared. Funded through a separate employer-only levy (Insolvenzgeldumlage). A critical worker protection in cases of corporate bankruptcy.",
+    "b": "Employees whose employer has filed for insolvency, ensuring they receive their earned but unpaid wages for up to three months."
+  },
+  "Kurzarbeitergeld (konjunkturell)": {
+    "y": 2024,
+    "d": "Short-time work allowance (Kurzarbeitergeld), which compensates workers for reduced working hours during economic downturns. Pays 60% (67% for parents) of the net pay difference caused by reduced hours. Played a massive role during the COVID-19 pandemic, when expenditures peaked at over EUR 22 billion in 2020 (including social security reimbursements).",
+    "b": "Employees whose working hours are temporarily reduced due to economic conditions, and their employers who can retain skilled workers instead of resorting to layoffs."
+  },
+  "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)": {
+    "y": 2024,
+    "d": "Administrative expenditures of the Bundesagentur für Arbeit covering its core operations under SGB III (unemployment insurance), the Familienkasse (child benefit administration), and resources provided for SGB II (Buergergeld) implementation. Includes personnel costs, IT infrastructure, office rents, and operational supplies.",
+    "b": "Indirectly benefits all users of BA services: job seekers, employers, child benefit recipients (Kindergeld is administered by the BA's Familienkasse), and Buergergeld recipients served through joint institutions (Jobcenter)."
+  },
+  "Aktive Arbeitsförderung (Kapitel 3)": {
+    "y": 2024,
+    "d": "Active labor market policy instruments funded by the BA, including vocational training grants, wage subsidies for employers, activation and placement vouchers, rehabilitation measures, and support for disabled workers. Also includes Kurzarbeitergeld and seasonal short-time work allowance. Aims to prevent unemployment and support labor market integration.",
+    "b": "Job seekers, unemployed persons undergoing retraining, workers with disabilities, employees in short-time work, and employers receiving hiring incentives or wage subsidies."
+  },
+  "Eingliederungstitel (Kapitel 2)": {
+    "y": 2024,
+    "d": "The integration budget (Eingliederungstitel) of the BA, a decentralized allocation under Paragraph 71b SGB IV that local employment agencies can deploy flexibly for placement and integration measures. The budget is distributed to individual agencies based on labor market conditions in their region.",
+    "b": "Job seekers and unemployed persons in each local labor market area, with funds allocated by local employment agencies based on regional needs and priorities."
+  },
+  "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)": {
+    "y": 2024,
+    "d": "Personnel and overhead costs borne by the BA for staff deployed in joint institutions (gemeinsame Einrichtungen / Jobcenter) that administer Buergergeld (SGB II). While Buergergeld benefit payments come from the federal budget, the BA provides and pays for much of the operational staff in Jobcenters.",
+    "b": "Buergergeld recipients who are served by Jobcenter staff funded through this budget line. There are approximately 300 joint Jobcenters across Germany."
+  },
+
+  "Pflegegeld": {
+    "y": 2024,
+    "d": "Cash care allowance (Pflegegeld) paid directly to care-dependent persons who are looked after by family members or other informal caregivers at home. The amount varies by care grade (Pflegegrad 2-5), ranging from EUR 332 to EUR 765 per month. The most widely used benefit of long-term care insurance, reflecting Germany's preference for home-based care.",
+    "b": "Care-dependent persons (Pflegebedürftige) in care grades 2-5 who receive home care from family members or volunteers. The cash is freely disposable and typically used to compensate informal caregivers."
+  },
+  "Vollstationäre Pflege": {
+    "y": 2024,
+    "d": "Benefits for full inpatient nursing home care (vollstationäre Pflege), covering part of the care costs in residential nursing facilities. The insurance pays a fixed monthly amount by care grade, but a significant co-payment (Eigenanteil) remains for the resident. The average out-of-pocket cost for nursing home residents has risen above EUR 2,500 per month.",
+    "b": "Approximately 800,000 people living in residential nursing homes (Pflegeheime) across Germany. The benefit partially offsets care costs but does not cover room, board, or investment charges."
+  },
+  "Pflegesachleistung": {
+    "y": 2024,
+    "d": "Professional outpatient care services (Pflegesachleistungen) provided by licensed ambulatory care services (ambulante Pflegedienste). Covers personal care, mobility assistance, and household support delivered by trained care workers in the home. Benefits range from EUR 761 to EUR 2,200 per month depending on care grade.",
+    "b": "Care-dependent persons in care grades 2-5 who receive professional home care services. Can be combined with Pflegegeld (cash allowance) as a combination benefit (Kombinationsleistung)."
+  },
+  "Soziale Sicherung der Pflegepersonen": {
+    "y": 2024,
+    "d": "Social security contributions paid by the long-term care insurance fund on behalf of informal (family) caregivers, covering their pension insurance and, in some cases, accident insurance. Ensures that family members who reduce their working hours to provide care do not suffer pension gaps.",
+    "b": "Family caregivers (pflegende Angehörige) who provide care for at least 10 hours per week across at least two days, and who are not employed more than 30 hours per week."
+  },
+  "Verhinderungspflege": {
+    "y": 2024,
+    "d": "Respite care (Verhinderungspflege) that provides substitute care when the primary caregiver is temporarily unable to provide care due to illness, vacation, or other reasons. Covers up to EUR 1,612 per calendar year for up to six weeks of replacement care, either by professional services or by other informal caregivers.",
+    "b": "Care-dependent persons and their primary caregivers, ensuring continuity of care during the caregiver's absence and preventing caregiver burnout."
+  },
+  "Tages-/Nachtpflege": {
+    "y": 2024,
+    "d": "Day care and night care (Tages- und Nachtpflege), providing partial inpatient care in specialized facilities during the day or night while the person continues to live at home. Benefits are available in addition to home care benefits (Pflegegeld or Pflegesachleistung), supporting a hybrid care arrangement.",
+    "b": "Care-dependent persons who live at home but benefit from structured daytime or nighttime supervision and care, often those with dementia. Also relieves family caregivers during working hours."
+  },
+  "Kurzzeitpflege": {
+    "y": 2024,
+    "d": "Short-term inpatient care (Kurzzeitpflege) for up to eight weeks per year, typically used after hospital discharge, during care crises, or when home care arrangements temporarily break down. Covers up to EUR 1,774 per calendar year. Unused respite care budget can be transferred to extend the short-term care budget.",
+    "b": "Care-dependent persons in transitional situations, particularly after hospital stays, and their families who need temporary relief while arranging longer-term care solutions."
+  },
+  "Sonstige Leistungen": {
+    "y": 2024,
+    "d": "Other benefits of long-term care insurance, including care aids and home adaptations (Pflegehilfsmittel, Wohnraumanpassung), care courses for family members, digital care applications (Digitale Pflegeanwendungen), supplementary care assistance (Entlastungsbetrag of EUR 125/month), and group care arrangements.",
+    "b": "Care-dependent persons and their informal caregivers, including those using assistive devices at home, those adapting their living spaces for accessibility, and caregivers seeking training and support."
+  },
+
+  "Renten und Entschädigungsleistungen": {
+    "y": 2024,
+    "d": "Pension payments and compensation benefits for victims of workplace accidents and occupational diseases under the statutory accident insurance. Includes injury pensions (Verletztenrenten) for workers with lasting impairment, survivor pensions (Hinterbliebenenrenten), and one-time compensation payments. The largest expenditure category of the DGUV.",
+    "b": "Workers who suffered permanent impairment from workplace or commuting accidents, those diagnosed with recognized occupational diseases, and surviving dependents of fatally injured workers."
+  },
+  "Heilbehandlung (medizinische Versorgung)": {
+    "y": 2024,
+    "d": "Medical treatment and rehabilitation expenditures of the statutory accident insurance for workplace injuries and occupational diseases. Covers all necessary medical care without patient co-payments, including hospital treatment, outpatient care, medication, physical therapy, prosthetics, and occupational rehabilitation. The DGUV's principle is full restitution (Rehabilitation vor Rente).",
+    "b": "Workers and insured persons who have suffered a workplace accident, commuting accident, or occupational disease. The DGUV covers all treatment costs with no out-of-pocket charges for the patient."
+  },
+  "Prävention": {
+    "y": 2024,
+    "d": "Workplace safety and health prevention programs funded by the DGUV, including workplace inspections, safety research, training and education, development of safety standards, and occupational health services. Germany's workplace fatality rate has declined dramatically over decades, partly due to sustained prevention investment.",
+    "b": "All insured workers and employers. Prevention programs benefit workplaces across all industries through reduced accident rates, fewer occupational diseases, and improved working conditions."
+  },
+  "Verwaltung, Verfahren und Sonstige": {
+    "y": 2024,
+    "d": "Administrative, procedural, and miscellaneous costs of the statutory accident insurance system, including personnel for claims processing, legal proceedings, IT systems, and other operational expenditures. Also includes smaller benefit items such as vocational rehabilitation allowances and transitional payments.",
+    "b": "Indirectly benefits all stakeholders in the accident insurance system through efficient administration of claims, benefit payments, and employer contribution assessments."
+  },
+
+  "Besondere Finanzierungsausgaben (Kapitel 1)": {
+    "y": 2024,
+    "d": "Special financing transactions of the BA, including transfers to reserve funds (Rücklage), the insolvency pay reserve (Insolvenzgeldrücklage), and the winter construction reserve (Winterbeschäftigungsrücklage). These are internal financial transactions rather than program expenditures.",
+    "b": "Not directly applicable. These reserve-building transactions ensure the financial stability of the unemployment insurance system across economic cycles."
+  },
+  "Saison-Kurzarbeitergeld": {
+    "y": 2024,
+    "d": "Seasonal short-time work allowance (Saison-Kurzarbeitergeld) that replaces the former winter construction allowance. Compensates construction and outdoor workers for weather-related work stoppages during the winter months (December-March). Funded through the winter construction levy paid by construction industry employers.",
+    "b": "Workers in construction and other outdoor industries affected by seasonal weather disruptions, and their employers who can maintain employment relationships through the winter."
+  },
+  "Transferkurzarbeitergeld": {
+    "y": 2024,
+    "d": "Transfer short-time work allowance (Transferkurzarbeitergeld) paid to employees in transfer companies (Transfergesellschaften) during corporate restructuring. Supports workers who would otherwise face dismissal by funding their participation in retraining and job placement programs for up to 12 months.",
+    "b": "Workers affected by corporate restructuring, plant closures, or mass layoffs who are transferred to a Transfergesellschaft for requalification and job search support."
+  },
+  "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)": {
+    "y": 2024,
+    "d": "Miscellaneous expenditures of the GRV including child-raising benefit supplements (Kindererziehungsleistungen/KLG), contribution refunds, and care insurance contributions for pensioners (Pflegeversicherung der Rentner). A residual category combining several smaller spending items.",
+    "b": "Mothers (primarily) who raised children before 1992 and receive additional pension credits (KLG), persons requesting contribution refunds, and pensioners whose care insurance contributions are partially covered."
+  },
+  "Sonstige Ausgaben (inkl. ZV/SV-Saldo, KLG, Beitragserstattungen)": {
+    "y": 2024,
+    "d": "Miscellaneous expenditures of the GRV including inter-branch transfer balances (Wanderungsausgleich), child-raising benefit supplements (KLG), and contribution refunds. This variant of the sonstige category appears in the 2025 budget estimate and reflects a different accounting treatment of transfer payments between pension insurance branches.",
+    "b": "Mothers (primarily) who raised children before 1992, persons requesting contribution refunds, and accounting adjustments between the general and miners' pension insurance branches."
+  },
+
+  "Zuweisungen an andere Sozialversicherungsträger": {
+    "y": 2024,
+    "d": "Transfers from the BA's passive benefits budget to other social insurance carriers, primarily covering health and pension insurance contributions for unemployment benefit recipients. When a person receives ALG I, the BA pays their social insurance contributions to maintain coverage.",
+    "b": "Arbeitslosengeld I recipients whose health, pension, and care insurance contributions continue to be paid during unemployment."
+  },
+  "Erstattung ggü. ausländischen Versicherungsträgern": {
+    "y": 2024,
+    "d": "Reimbursements to foreign social insurance carriers under EU coordination regulations and bilateral social security agreements. Covers cases where unemployment benefits are exported or where cross-border workers claim benefits in another EU member state.",
+    "b": "Cross-border workers and EU mobile workers whose unemployment insurance claims involve coordination between German and foreign social insurance systems."
+  },
+
+  "Personalausgaben": {
+    "y": 2024,
+    "d": "Personnel expenditures within the BA's administrative budget, covering salaries, social insurance contributions, and supplementary benefits for BA employees across its network of employment agencies, regional directorates, and the Nuremberg headquarters.",
+    "b": "BA employees who provide job placement, counseling, and administrative services. The BA is one of Germany's largest public employers."
+  },
+  "Sächliche Verwaltungsausgaben": {
+    "y": 2024,
+    "d": "Material and operational administrative costs of the BA, including office supplies, IT systems, telecommunications, building maintenance, travel costs, and external service contracts needed to run the employment agency network.",
+    "b": "Indirectly benefits all BA service users through maintained infrastructure and IT systems that enable efficient job placement and benefit processing."
+  },
+  "Zuweisungen und Zuschüsse": {
+    "y": 2024,
+    "d": "Grants and subsidies within the BA's administrative budget, including transfers to the Familienkasse for child benefit (Kindergeld) administration, contributions to international organizations, and funding for labor market research (IAB).",
+    "b": "Child benefit recipients (Kindergeld is administered by the BA's Familienkasse on behalf of the federal government), and the broader labor market through research conducted by the IAB."
+  },
+  "Investitionen": {
+    "y": 2024,
+    "d": "Capital investment expenditures of the BA, covering construction and renovation of employment agency buildings, major IT system upgrades, and acquisition of equipment and vehicles.",
+    "b": "BA staff and service users who benefit from modernized facilities and digital infrastructure."
+  },
+
+  "Sonstige aktive Arbeitsförderung": {
+    "y": 2024,
+    "d": "Other active labor market promotion instruments outside of Kurzarbeitergeld, including vocational training grants (Berufsausbildungsbeihilfe), wage subsidies (Eingliederungszuschüsse), activation and placement vouchers, rehabilitation measures for disabled workers, and support for self-employment.",
+    "b": "Job seekers, unemployed persons in retraining programs, workers with disabilities, start-up founders receiving bridging allowances, and employers receiving subsidies for hiring hard-to-place workers."
+  },
+  "SV-Erstattungen bei Kurzarbeitergeld": {
+    "y": 2024,
+    "d": "Reimbursement of social insurance contributions to employers for workers on short-time work (Kurzarbeit). During COVID-19, full reimbursement of social insurance contributions was temporarily introduced as an additional incentive for employers to use Kurzarbeit rather than laying off workers.",
+    "b": "Employers using the Kurzarbeit scheme, who receive reimbursement of the social insurance contributions they continue to pay on the reduced-hours portion of their workers' wages."
+  },
+  "Foerderung von Transfermassnahmen": {
+    "y": 2024,
+    "d": "Funding for transfer measures (Transfermassnahmen), supporting counseling and qualification activities for workers threatened by mass layoffs during corporate restructuring. These measures help affected employees find new employment before their current positions are eliminated.",
+    "b": "Workers in companies undergoing restructuring who receive early counseling, skills assessment, and job placement support before actual job loss occurs."
+  },
+  "Förderung von Transfermaßnahmen": {
+    "y": 2024,
+    "d": "Funding for transfer measures (Transfermaßnahmen), supporting counseling and qualification activities for workers threatened by mass layoffs during corporate restructuring. These measures help affected employees find new employment before their current positions are eliminated.",
+    "b": "Workers in companies undergoing restructuring who receive early counseling, skills assessment, and job placement support before actual job loss occurs."
+  },
+
+  "Bundesagentur fuer Arbeit (BA)": {
+    "y": 2024,
+    "d": "The Federal Employment Agency, Germany's public employment service headquartered in Nuremberg. Funded primarily by unemployment insurance contributions (2.6% of gross wages, split employer/employee). Operates 156 local employment agencies and around 300 branch offices. Responsible for unemployment benefits (ALG I), active labor market policies, job placement, and vocational training support.",
+    "b": "Unemployed workers receiving Arbeitslosengeld I, job seekers using placement services, employees in short-time work (Kurzarbeit), employers receiving wage subsidies, and workers undergoing retraining or vocational rehabilitation."
+  },
+  "Aktive Arbeitsfoerderung (Kapitel 3)": {
+    "y": 2024,
+    "d": "Active labor market policy instruments funded by the BA, including vocational training grants, wage subsidies for employers, activation and placement vouchers, rehabilitation measures, and support for disabled workers. Also includes Kurzarbeitergeld and seasonal short-time work allowance. Aims to prevent unemployment and support labor market integration.",
+    "b": "Job seekers, unemployed persons undergoing retraining, workers with disabilities, employees in short-time work, and employers receiving hiring incentives or wage subsidies."
+  },
+  "Sonstige aktive Arbeitsfoerderung": {
+    "y": 2024,
+    "d": "Other active labor market promotion instruments outside of Kurzarbeitergeld, including vocational training grants (Berufsausbildungsbeihilfe), wage subsidies (Eingliederungszuschuesse), activation and placement vouchers, rehabilitation measures for disabled workers, and support for self-employment.",
+    "b": "Job seekers, unemployed persons in retraining programs, workers with disabilities, start-up founders receiving bridging allowances, and employers receiving subsidies for hiring hard-to-place workers."
+  },
+  "Zuweisungen an andere Sozialversicherungstraeger": {
+    "y": 2024,
+    "d": "Transfers from the BA's passive benefits budget to other social insurance carriers, primarily covering health and pension insurance contributions for unemployment benefit recipients. When a person receives ALG I, the BA pays their social insurance contributions to maintain coverage.",
+    "b": "Arbeitslosengeld I recipients whose health, pension, and care insurance contributions continue to be paid during unemployment."
+  },
+  "Erstattung ggue. auslaendischen Versicherungstraegern": {
+    "y": 2024,
+    "d": "Reimbursements to foreign social insurance carriers under EU coordination regulations and bilateral social security agreements. Covers cases where unemployment benefits are exported or where cross-border workers claim benefits in another EU member state.",
+    "b": "Cross-border workers and EU mobile workers whose unemployment insurance claims involve coordination between German and foreign social insurance systems."
+  },
+
+  "Rentenzahlungen": {
+    "y": 2024,
+    "d": "Net pension payments to retirees, survivors, and disability pensioners — the core expenditure of the GRV, accounting for about 88% of total pension insurance spending. Pensions are calculated based on individual earnings points (Entgeltpunkte) accumulated over a working lifetime, multiplied by the current pension value (Rentenwert).",
+    "b": "Approximately 21 million pensioners, including old-age retirees, reduced-earning-capacity pensioners (Erwerbsminderungsrentner), and survivors (widows, widowers, orphans)."
+  },
+  "Krankenversicherung der Rentner (KVdR)": {
+    "y": 2024,
+    "d": "The GRV's contribution to health insurance premiums for retirees (Krankenversicherung der Rentner). The pension insurance fund pays the employer-equivalent share of health insurance contributions on behalf of pensioners, mirroring the employer-employee split that applied during their working lives.",
+    "b": "Pensioners enrolled in statutory health insurance (GKV). The GRV pays roughly half of their health insurance contributions, reducing the financial burden of healthcare costs in retirement."
+  },
+  "Leistungen zur Teilhabe / Rehabilitation": {
+    "y": 2024,
+    "d": "Rehabilitation and participation benefits funded by the GRV, aimed at restoring or maintaining the earning capacity of insured persons. Includes medical rehabilitation (e.g., post-surgery rehab stays), vocational rehabilitation (retraining, workplace adaptation), and supplementary benefits (transitional allowance during rehab).",
+    "b": "Insured workers and pensioners whose earning capacity is at risk due to illness or disability. Approximately 1 million rehabilitation services are approved by the GRV each year."
+  },
+  "Sonstige Ausgaben": {
+    "y": 2024,
+    "d": "Miscellaneous expenditures of the GRV including child-raising benefit supplements (Kindererziehungsleistungen/KLG), contribution refunds, and care insurance contributions for pensioners (Pflegeversicherung der Rentner). A residual category combining several smaller spending items.",
+    "b": "Mothers (primarily) who raised children before 1992 and receive additional pension credits (KLG), persons requesting contribution refunds, and pensioners whose care insurance contributions are partially covered."
+  },
+  "Deutsche Rentenversicherung Bund (nur DRV Bund, ~45% der GRV)": {
+    "y": 2024,
+    "d": "The largest carrier within the statutory pension insurance system, Deutsche Rentenversicherung Bund, which handles roughly 45% of all GRV insured persons and pensioners. DRV Bund also serves as the umbrella organization for the entire pension insurance system, setting common guidelines and operating shared IT infrastructure.",
+    "b": "Approximately 9-10 million pensioners and around 25 million actively insured workers assigned to DRV Bund as their pension carrier."
+  },
+
+  "Sächliche Verwaltungsausgaben (SGB II üKo)": {
+    "y": 2024,
+    "d": "Material and operational costs (Überörtliche Kosten) for SGB II administration in joint Jobcenter institutions, covering IT systems, office supplies, and other overhead costs for the delivery of Buergergeld-related services.",
+    "b": "Buergergeld recipients served by Jobcenters, who benefit from maintained administrative infrastructure supporting their benefit processing and case management."
+  },
+  "Zuführung zur Rücklage": {
+    "y": 2024,
+    "d": "Transfer to the BA's general reserve fund (Rücklage), building a financial buffer against economic downturns when unemployment benefit claims rise sharply. The reserve was largely depleted during the COVID-19 pandemic and is being rebuilt.",
+    "b": "Not directly applicable. The reserve ensures the BA can meet its obligations during recessions without requiring immediate federal loans."
+  },
+  "Zuführung Insolvenzgeldrücklage": {
+    "y": 2024,
+    "d": "Transfer to the insolvency pay reserve (Insolvenzgeldrücklage), a separate fund maintained to cover insolvency pay claims. Funded by the Insolvenzgeldumlage, a small employer-only levy (currently 0.06% of wages).",
+    "b": "Employees who may face employer insolvency in the future. The reserve ensures insolvency pay can be disbursed promptly when needed."
+  },
+  "Zuführung Winterbeschäftigungsrücklage": {
+    "y": 2024,
+    "d": "Transfer to the winter employment reserve (Winterbeschäftigungsrücklage), funding seasonal short-time work allowance for construction workers during winter months. Built up from a winter construction levy paid by construction industry employers.",
+    "b": "Construction industry workers and employers who rely on the seasonal short-time work scheme during weather-related work stoppages in winter."
+  },
+
+  "Personalausgaben (SGB II)": {
+    "y": 2024,
+    "d": "Personnel expenditures for BA staff deployed in Jobcenter joint institutions (gemeinsame Einrichtungen) to administer Buergergeld. Covers salaries, social insurance contributions, and benefits for case managers, placement officers, and administrative staff in Jobcenters.",
+    "b": "Buergergeld recipients who are served by Jobcenter staff providing case management, job placement, and benefit administration."
+  }
+}

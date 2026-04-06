@@ -1,0 +1,56 @@
+{
+  "id": "laender",
+  "name": "Länder (Bundesländer)",
+  "value": 580861000000,
+  "year": 2022,
+  "source": "Eurostat gov_10a_exp, sector S1312 (State government), 2022",
+  "unit": "EUR",
+  "note": "Aggregate only (no per-state breakdown). 10 COFOG Level-1 categories.",
+  "children": [
+    {
+      "id": "laender_allg_dienste",
+      "name": "Allgemeine öffentliche Verwaltung",
+      "value": 133617000000
+    },
+    {
+      "id": "laender_soziales",
+      "name": "Soziale Sicherung",
+      "value": 132962000000
+    },
+    {
+      "id": "laender_bildung",
+      "name": "Bildungswesen",
+      "value": 129528000000
+    },
+    {
+      "id": "laender_wirtschaft",
+      "name": "Wirtschaftliche Angelegenheiten",
+      "value": 76144000000
+    },
+    {
+      "id": "laender_sicherheit",
+      "name": "Öffentliche Ordnung und Sicherheit",
+      "value": 43955000000
+    },
+    {
+      "id": "laender_gesundheit",
+      "name": "Gesundheitswesen",
+      "value": 30933000000
+    },
+    {
+      "id": "laender_kultur_freizeit",
+      "name": "Freizeit, Sport, Kultur und Religion",
+      "value": 19454000000
+    },
+    {
+      "id": "laender_wohnungswesen",
+      "name": "Wohnungswesen und kommunale Einrichtungen",
+      "value": 8352000000
+    },
+    {
+      "id": "laender_umwelt",
+      "name": "Umweltschutz",
+      "value": 5916000000
+    }
+  ]
+}

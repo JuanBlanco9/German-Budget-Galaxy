@@ -1,0 +1,55 @@
+{
+  "id": "kommunen",
+  "name": "Kommunen (Gemeinden)",
+  "value": 280297000000,
+  "year": 2018,
+  "source": "Eurostat gov_10a_exp, sector S1313 (Local government), 2018",
+  "unit": "EUR",
+  "children": [
+    {
+      "id": "kommunen_soziales",
+      "name": "Soziale Sicherung",
+      "value": 91938000000
+    },
+    {
+      "id": "kommunen_allg_dienste",
+      "name": "Allgemeine öffentliche Verwaltung",
+      "value": 48822000000
+    },
+    {
+      "id": "kommunen_wirtschaft",
+      "name": "Wirtschaftliche Angelegenheiten",
+      "value": 46559000000
+    },
+    {
+      "id": "kommunen_bildung",
+      "name": "Bildungswesen",
+      "value": 43726000000
+    },
+    {
+      "id": "kommunen_kultur_freizeit",
+      "name": "Freizeit, Sport, Kultur und Religion",
+      "value": 15136000000
+    },
+    {
+      "id": "kommunen_umwelt",
+      "name": "Umweltschutz",
+      "value": 9871000000
+    },
+    {
+      "id": "kommunen_sicherheit",
+      "name": "Öffentliche Ordnung und Sicherheit",
+      "value": 9275000000
+    },
+    {
+      "id": "kommunen_wohnungswesen",
+      "name": "Wohnungswesen und kommunale Einrichtungen",
+      "value": 8961000000
+    },
+    {
+      "id": "kommunen_gesundheit",
+      "name": "Gesundheitswesen",
+      "value": 6009000000
+    }
+  ]
+}

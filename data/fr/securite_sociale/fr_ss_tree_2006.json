@@ -1,0 +1,43 @@
+{
+  "id": "fr_ss",
+  "name": "Protection Sociale 2006",
+  "value": 532268167269,
+  "year": 2006,
+  "currency": "EUR",
+  "source": "DREES - Comptes de la Protection Sociale (CPS)",
+  "source_url": "https://data.drees.solidarites-sante.gouv.fr",
+  "filter": "nom_regime contains \"Total tous\" (all regimes combined)",
+  "note": "Values originally in millions EUR, converted to EUR units",
+  "children": [
+    {
+      "id": "fr_ss_vieillesse_survie",
+      "name": "VIEILLESSE-SURVIE",
+      "value": 236200236920
+    },
+    {
+      "id": "fr_ss_sante",
+      "name": "SANTÉ",
+      "value": 186613410799
+    },
+    {
+      "id": "fr_ss_famille",
+      "name": "FAMILLE",
+      "value": 47986582025
+    },
+    {
+      "id": "fr_ss_emploi",
+      "name": "EMPLOI",
+      "value": 32355256072
+    },
+    {
+      "id": "fr_ss_pauvrete",
+      "name": "PAUVRETÉ-EXCLUSION SOCIALE",
+      "value": 14699024917
+    },
+    {
+      "id": "fr_ss_logement",
+      "name": "LOGEMENT",
+      "value": 14413656537
+    }
+  ]
+}

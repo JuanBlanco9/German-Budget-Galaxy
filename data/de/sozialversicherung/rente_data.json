@@ -1,0 +1,551 @@
+{
+  "_metadata": {
+    "description": "Gesetzliche Rentenversicherung (GRV) - Expenditure breakdown",
+    "sources": {
+      "2025": "DRV Kennzahlen zur Finanzentwicklung, https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Kennzahlen-zur-Finanzentwicklung/kennzahlen-zur-finanzentwicklung_node.html (fetched 2026-04-06). Values in Mio EUR from the official table, converted to EUR integers (100k precision).",
+      "2024_drv_bund": "DRV Bund Geschäftsbericht / Rechnungsergebnisse 2024. NOTE: DRV Bund covers ~45% of total GRV. Total GRV 2024 not yet available from Kennzahlen page.",
+      "2015_to_2024": "DRV \"Rentenversicherung in Zeitreihen\" 2025, 31. Auflage, DRV-Schriften Band 22, Datenstand Oktober 2025. Pages 240-241 (Einnahmen/Ausgaben RV, Insgesamt). Source: Statistik der Deutschen Rentenversicherung - Rechnungsergebnisse, verschiedene Jahrgaenge. PDF: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/rv_in_zeitreihen.pdf"
+    },
+    "notes": [
+      "All historical data (2015-2024) covers the entire GRV (allgemeine RV + knappschaftliche RV, Insgesamt).",
+      "The 2025 data covers the entire GRV and comes from DRV Kennzahlen zur Finanzentwicklung (Soll-Zahlen).",
+      "The 2024 entry under '2024' is from Rechnungsergebnisse (actual/final accounts); the '2025' entry is Soll (estimated).",
+      "The 2024_drv_bund entry is DRV Bund only (not total GRV) - clearly labeled.",
+      "Historical data excludes Transferzahlungen between RV branches (Wanderungsausgleich).",
+      "Sonstige Ausgaben from 2005 onward includes PVdR (Pflegeversicherung der Rentner).",
+      "The 'sonstige' child combines: KEL/KLG (Kindererziehungsleistungen), Beitragserstattungen, and Sonstige Ausgaben (inkl. PVdR ab 2005).",
+      "Values in Mio EUR from official tables, converted to EUR integers (Mio precision).",
+      "Children values sum to parent within +/-2 Mio EUR rounding at source.",
+      "Minor line items (KEL/KLG, Beitragserstattungen) are grouped into Sonstige to match the 2025 five-category structure."
+    ],
+    "updated": "2026-04-06"
+  },
+  "2025": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 426521200000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 379419800000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR, netto)",
+        "value": 32198800000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation (netto)",
+        "value": 8709100000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 5646200000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. ZV/SV-Saldo, KLG, Beitragserstattungen)",
+        "value": 547300000,
+        "_detail": "Includes: Sonstige 447.6 Mio, Beitragserstattungen 96.5 Mio, KLG 3.2 Mio, net ZV/SV -414.6 Mio, plus rounding at Mio-level precision."
+      }
+    ],
+    "_revenue": {
+      "total": 422604600000,
+      "breakdown": {
+        "beitraege": 321552100000,
+        "bundeszuschuss_allgemein": 65754400000,
+        "bundeszuschuss_zusaetzlich": 32103600000,
+        "erstattungen": 1381500000,
+        "vermoegensertrage": 1510700000,
+        "sonstige_einnahmen": 302300000
+      },
+      "note": "Revenue from DRV Kennzahlen 2025."
+    }
+  },
+  "2024": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 402768000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 360144000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 28679000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 8134000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 5317000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 494000000,
+        "_detail": "KEL/KLG: 5 Mio, Beitragserstattungen: 92 Mio, Sonstige (inkl. PVdR): 397 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 401993000000,
+      "breakdown": {
+        "beitraege": 305905000000,
+        "bundeszuschuss_allgemein": 61819000000,
+        "bundeszuschuss_zusaetzlich": 30835000000,
+        "erstattungen": 1292000000,
+        "vermoegensertrage": 1905000000,
+        "sonstige_einnahmen": 237000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2024."
+    }
+  },
+  "2023": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 379753000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 340355000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 26635000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 7464000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 4867000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 432000000,
+        "_detail": "KEL/KLG: 8 Mio, Beitragserstattungen: 81 Mio, Sonstige (inkl. PVdR): 343 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 381220000000,
+      "breakdown": {
+        "beitraege": 289662000000,
+        "bundeszuschuss_allgemein": 59169000000,
+        "bundeszuschuss_zusaetzlich": 30037000000,
+        "erstattungen": 1228000000,
+        "vermoegensertrage": 877000000,
+        "sonstige_einnahmen": 246000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2023."
+    }
+  },
+  "2022": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 359549000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 322703000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 25038000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6796000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 4576000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 436000000,
+        "_detail": "KEL/KLG: 14 Mio, Beitragserstattungen: 72 Mio, Sonstige (inkl. PVdR): 350 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 362983000000,
+      "breakdown": {
+        "beitraege": 275622000000,
+        "bundeszuschuss_allgemein": 57084000000,
+        "bundeszuschuss_zusaetzlich": 29131000000,
+        "erstattungen": 1106000000,
+        "vermoegensertrage": -139000000,
+        "sonstige_einnahmen": 180000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2022."
+    }
+  },
+  "2021": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 346471000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 310727000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 23956000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6958000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 4372000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 458000000,
+        "_detail": "KEL/KLG: 21 Mio, Beitragserstattungen: 75 Mio, Sonstige (inkl. PVdR): 362 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 347664000000,
+      "breakdown": {
+        "beitraege": 262604000000,
+        "bundeszuschuss_allgemein": 56453000000,
+        "bundeszuschuss_zusaetzlich": 27473000000,
+        "erstattungen": 1095000000,
+        "vermoegensertrage": -149000000,
+        "sonstige_einnahmen": 188000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2021."
+    }
+  },
+  "2020": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 338300000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 303676000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 23056000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6883000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 4183000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 502000000,
+        "_detail": "KEL/KLG: 33 Mio, Beitragserstattungen: 77 Mio, Sonstige (inkl. PVdR): 393 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 334413000000,
+      "breakdown": {
+        "beitraege": 252730000000,
+        "bundeszuschuss_allgemein": 53396000000,
+        "bundeszuschuss_zusaetzlich": 27149000000,
+        "erstattungen": 1030000000,
+        "vermoegensertrage": -104000000,
+        "sonstige_einnahmen": 213000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2020."
+    }
+  },
+  "2019": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 324816000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 291359000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 22119000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6742000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 4077000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 519000000,
+        "_detail": "KEL/KLG: 48 Mio, Beitragserstattungen: 84 Mio, Sonstige (inkl. PVdR): 386 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 326677000000,
+      "breakdown": {
+        "beitraege": 247979000000,
+        "bundeszuschuss_allgemein": 51474000000,
+        "bundeszuschuss_zusaetzlich": 26087000000,
+        "erstattungen": 1008000000,
+        "vermoegensertrage": -29000000,
+        "sonstige_einnahmen": 158000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2019."
+    }
+  },
+  "2018": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 307851000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 277102000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 19645000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6589000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 3981000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 534000000,
+        "_detail": "KEL/KLG: 55 Mio, Beitragserstattungen: 86 Mio, Sonstige (inkl. PVdR): 393 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 312282000000,
+      "breakdown": {
+        "beitraege": 236404000000,
+        "bundeszuschuss_allgemein": 49849000000,
+        "bundeszuschuss_zusaetzlich": 24915000000,
+        "erstattungen": 998000000,
+        "vermoegensertrage": -49000000,
+        "sonstige_einnahmen": 165000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2018."
+    }
+  },
+  "2017": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 298932000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 268860000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 19072000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6383000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 4039000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 578000000,
+        "_detail": "KEL/KLG: 79 Mio, Beitragserstattungen: 89 Mio, Sonstige (inkl. PVdR): 412 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 299461000000,
+      "breakdown": {
+        "beitraege": 225244000000,
+        "bundeszuschuss_allgemein": 49046000000,
+        "bundeszuschuss_zusaetzlich": 24001000000,
+        "erstattungen": 1019000000,
+        "vermoegensertrage": -48000000,
+        "sonstige_einnahmen": 200000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2017."
+    }
+  },
+  "2016": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 288430000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 259345000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 18393000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6193000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 3878000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 621000000,
+        "_detail": "KEL/KLG: 109 Mio, Beitragserstattungen: 88 Mio, Sonstige (inkl. PVdR): 423 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 286188000000,
+      "breakdown": {
+        "beitraege": 215422000000,
+        "bundeszuschuss_allgemein": 46602000000,
+        "bundeszuschuss_zusaetzlich": 23107000000,
+        "erstattungen": 834000000,
+        "vermoegensertrage": 42000000,
+        "sonstige_einnahmen": 182000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2016."
+    }
+  },
+  "2015": {
+    "id": "sv_rente",
+    "name": "Gesetzliche Rentenversicherung (GRV)",
+    "value": 277749000000,
+    "children": [
+      {
+        "id": "sv_rente_renten",
+        "name": "Rentenzahlungen (netto)",
+        "value": 249568000000
+      },
+      {
+        "id": "sv_rente_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 17686000000
+      },
+      {
+        "id": "sv_rente_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 6022000000
+      },
+      {
+        "id": "sv_rente_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 3820000000
+      },
+      {
+        "id": "sv_rente_sonstige",
+        "name": "Sonstige Ausgaben (inkl. KEL/KLG, Beitragserstattungen, PVdR ab 2005)",
+        "value": 653000000,
+        "_detail": "KEL/KLG: 146 Mio, Beitragserstattungen: 87 Mio, Sonstige (inkl. PVdR): 421 Mio"
+      }
+    ],
+    "_revenue": {
+      "total": 276161000000,
+      "breakdown": {
+        "beitraege": 207317000000,
+        "bundeszuschuss_allgemein": 45498000000,
+        "bundeszuschuss_zusaetzlich": 22203000000,
+        "erstattungen": 753000000,
+        "vermoegensertrage": 69000000,
+        "sonstige_einnahmen": 322000000
+      },
+      "note": "Revenue from DRV Rechnungsergebnisse 2015."
+    }
+  },
+  "2024_drv_bund": {
+    "id": "sv_rente_drv_bund",
+    "name": "Deutsche Rentenversicherung Bund (nur DRV Bund, ~45% der GRV)",
+    "value": 183220000000,
+    "children": [
+      {
+        "id": "sv_rente_bund_renten",
+        "name": "Rentenzahlungen",
+        "value": 164530000000
+      },
+      {
+        "id": "sv_rente_bund_kvdr",
+        "name": "Krankenversicherung der Rentner (KVdR)",
+        "value": 12478000000
+      },
+      {
+        "id": "sv_rente_bund_teilhabe",
+        "name": "Leistungen zur Teilhabe / Rehabilitation",
+        "value": 3594000000
+      },
+      {
+        "id": "sv_rente_bund_verwaltung",
+        "name": "Verwaltungs- und Verfahrenskosten",
+        "value": 2529000000
+      },
+      {
+        "id": "sv_rente_bund_sonstige",
+        "name": "Sonstige Ausgaben",
+        "value": 89000000
+      }
+    ],
+    "_note": "DRV Bund only. Do NOT use as proxy for total GRV. Total GRV 2024 not yet available from Kennzahlen page. Parent value = sum of children = 183,220 Mio EUR."
+  }
+}

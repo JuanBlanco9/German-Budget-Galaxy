@@ -1,0 +1,42 @@
+{
+  "_description": "Data limitations to display in the UI when users explore these nodes. Each entry should show as a note in the right panel (info bar) and Explorer view.",
+  "laender_2024": {
+    "applies_to": "Länder tree 2024",
+    "note_en": "Total expenditure per state from quarterly cash statistics (Kassenergebnis Q1-Q4 2024). Functional breakdown by Aufgabenbereiche not yet published by Destatis for this year.",
+    "note_de": "Gesamtausgaben je Land aus der vierteljährlichen Kassenstatistik (Q1-Q4 2024). Funktionale Gliederung nach Aufgabenbereichen für dieses Jahr noch nicht veröffentlicht.",
+    "source": "Destatis Kassenergebnis Gesamthaushalt 2024, Tabelle 71511-09"
+  },
+  "laender_2025": {
+    "applies_to": "Länder tree 2025",
+    "note_en": "Partial year data (January-September 2025). Full year and functional breakdown pending. Source: Destatis quarterly cash statistics.",
+    "note_de": "Daten für Januar-September 2025. Gesamtjahr und funktionale Gliederung noch nicht verfügbar.",
+    "source": "Destatis Kassenergebnis Gesamthaushalt Q1-Q3 2025, Tabelle 71511-09"
+  },
+  "laender_2022_2023": {
+    "applies_to": "Länder Eurostat trees 2022-2023",
+    "note_en": "National aggregate spending by COFOG function (Eurostat). Individual state breakdown not yet published by Destatis for these years.",
+    "note_de": "Nationale Gesamtausgaben nach COFOG-Funktion (Eurostat). Länderspezifische Aufgliederung noch nicht verfügbar.",
+    "source": "Eurostat gov_10a_exp, sector S1312, unit MIO_EUR"
+  },
+  "kommunen_2025": {
+    "applies_to": "Kommunen tree 2025",
+    "note_en": "Partial year data (January-September 2025). Only total expenditure available; functional breakdown pending.",
+    "note_de": "Daten für Januar-September 2025. Nur Gesamtausgaben verfügbar.",
+    "source": "Destatis Kassenergebnis Gesamthaushalt Q1-Q3 2025"
+  },
+  "dguv_no_2025": {
+    "applies_to": "DGUV (Unfallversicherung)",
+    "note_en": "Latest available: 2024. The DGUV annual financial report for 2025 is expected around mid-2026.",
+    "note_de": "Neueste Daten: 2024. Der DGUV-Jahresbericht 2025 wird voraussichtlich Mitte 2026 veröffentlicht."
+  },
+  "kassenergebnis_vs_eurostat": {
+    "applies_to": "General note for Länder/Kommunen",
+    "note_en": "Kassenergebnis (cash-basis) and Eurostat (ESA2010 accrual) totals may differ due to different accounting methodologies. Both are official.",
+    "note_de": "Kassenergebnis (Kassenrechnung) und Eurostat (ESVG 2010) können aufgrund unterschiedlicher Buchungsmethoden voneinander abweichen."
+  },
+  "uk_la_england_only": {
+    "applies_to": "UK Local Authorities",
+    "note_en": "Covers England only. Scotland, Wales, and Northern Ireland have separate devolved administrations publishing their own local authority data.",
+    "source": "MHCLG Revenue Outturn Multi-Year Time Series"
+  }
+}

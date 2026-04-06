@@ -1,0 +1,91 @@
+{
+  "id": "laender",
+  "name": "Länder (Bundesländer)",
+  "value": 414491900000,
+  "year": 2025,
+  "source": "Destatis Kassenergebnis Q1-Q3 2025 (Tabelle 71511-09), Bereinigte Ausgaben der Länder (ohne Gemeinden)",
+  "unit": "EUR",
+  "note": "PARTIAL YEAR: Q1-Q3 only (January-September 2025). Cash-basis quarterly data. Functional breakdown per state not available. No Eurostat COFOG data for 2025 yet.",
+  "children": [
+    {
+      "id": "laender_nw",
+      "name": "Nordrhein-Westfalen",
+      "value": 82734300000
+    },
+    {
+      "id": "laender_by",
+      "name": "Bayern",
+      "value": 57689300000
+    },
+    {
+      "id": "laender_bw",
+      "name": "Baden-Württemberg",
+      "value": 51164800000
+    },
+    {
+      "id": "laender_ni",
+      "name": "Niedersachsen",
+      "value": 34528800000
+    },
+    {
+      "id": "laender_be",
+      "name": "Berlin",
+      "value": 32703900000
+    },
+    {
+      "id": "laender_he",
+      "name": "Hessen",
+      "value": 30422700000
+    },
+    {
+      "id": "laender_hh",
+      "name": "Hamburg",
+      "value": 21275200000
+    },
+    {
+      "id": "laender_rp",
+      "name": "Rheinland-Pfalz",
+      "value": 18653600000
+    },
+    {
+      "id": "laender_sn",
+      "name": "Sachsen",
+      "value": 18121300000
+    },
+    {
+      "id": "laender_sh",
+      "name": "Schleswig-Holstein",
+      "value": 14037200000
+    },
+    {
+      "id": "laender_bb",
+      "name": "Brandenburg",
+      "value": 13166400000
+    },
+    {
+      "id": "laender_st",
+      "name": "Sachsen-Anhalt",
+      "value": 10485300000
+    },
+    {
+      "id": "laender_th",
+      "name": "Thüringen",
+      "value": 9634500000
+    },
+    {
+      "id": "laender_mv",
+      "name": "Mecklenburg-Vorpommern",
+      "value": 8327200000
+    },
+    {
+      "id": "laender_hb",
+      "name": "Bremen",
+      "value": 6761900000
+    },
+    {
+      "id": "laender_sl",
+      "name": "Saarland",
+      "value": 5559300000
+    }
+  ]
+}

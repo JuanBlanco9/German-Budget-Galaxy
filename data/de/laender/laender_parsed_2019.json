@@ -1,0 +1,4640 @@
+{
+  "id": "laender",
+  "name": "Länder (Bundesländer)",
+  "value": 421419000000,
+  "year": 2019,
+  "source": "Destatis Rechnungsergebnis 2019, Tabelle 71711-12, Bereinigte Ausgaben der Länder",
+  "unit": "EUR",
+  "children": [
+    {
+      "id": "laender_nw",
+      "name": "Nordrhein-Westfalen",
+      "value": 80241000000,
+      "children": [
+        {
+          "id": "laender_nw_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 18102000000,
+          "children": [
+            {
+              "id": "laender_nw_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 13923000000
+            },
+            {
+              "id": "laender_nw_schulden",
+              "name": "Schulden",
+              "value": 2790000000
+            },
+            {
+              "id": "laender_nw_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 827000000
+            },
+            {
+              "id": "laender_nw_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 294000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 12627000000,
+          "children": [
+            {
+              "id": "laender_nw_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 9133000000
+            },
+            {
+              "id": "laender_nw_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 1587000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 10720000000,
+          "children": [
+            {
+              "id": "laender_nw_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 3399000000
+            },
+            {
+              "id": "laender_nw_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 1991000000
+            },
+            {
+              "id": "laender_nw_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 1794000000
+            },
+            {
+              "id": "laender_nw_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 1077000000
+            },
+            {
+              "id": "laender_nw_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 591000000
+            },
+            {
+              "id": "laender_nw_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 100000000
+            },
+            {
+              "id": "laender_nw_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 84000000
+            },
+            {
+              "id": "laender_nw_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 43000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 9801000000
+        },
+        {
+          "id": "laender_nw_hochschulen",
+          "name": "Hochschulen",
+          "value": 8933000000
+        },
+        {
+          "id": "laender_nw_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 3415000000
+        },
+        {
+          "id": "laender_nw_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 3392000000,
+          "children": [
+            {
+              "id": "laender_nw_polizei",
+              "name": "Polizei",
+              "value": 3275000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 2833000000,
+          "children": [
+            {
+              "id": "laender_nw_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 1632000000
+            },
+            {
+              "id": "laender_nw_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 1172000000
+            },
+            {
+              "id": "laender_nw_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 1028000000
+            },
+            {
+              "id": "laender_nw_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 101000000
+            },
+            {
+              "id": "laender_nw_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 6000000
+            },
+            {
+              "id": "laender_nw_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 1000000
+            },
+            {
+              "id": "laender_nw_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 2426000000,
+          "children": [
+            {
+              "id": "laender_nw_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 873000000
+            },
+            {
+              "id": "laender_nw_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 770000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 1881000000,
+          "children": [
+            {
+              "id": "laender_nw_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 1320000000
+            },
+            {
+              "id": "laender_nw_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 389000000
+            },
+            {
+              "id": "laender_nw_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 166000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 1538000000
+        },
+        {
+          "id": "laender_nw_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 1392000000,
+          "children": [
+            {
+              "id": "laender_nw_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 793000000
+            },
+            {
+              "id": "laender_nw_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 212000000
+            },
+            {
+              "id": "laender_nw_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 106000000
+            },
+            {
+              "id": "laender_nw_versicherungswesen",
+              "name": "Geld- und Versicherungswesen",
+              "value": 81000000
+            },
+            {
+              "id": "laender_nw_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 39000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 730000000
+        },
+        {
+          "id": "laender_nw_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 648000000,
+          "children": [
+            {
+              "id": "laender_nw_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 351000000
+            },
+            {
+              "id": "laender_nw_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 298000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 545000000
+        },
+        {
+          "id": "laender_nw_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 543000000
+        },
+        {
+          "id": "laender_nw_kultur",
+          "name": "Kultur und Religion",
+          "value": 374000000,
+          "children": [
+            {
+              "id": "laender_nw_theater_musik",
+              "name": "Theater und Musik",
+              "value": 130000000
+            }
+          ]
+        },
+        {
+          "id": "laender_nw_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 329000000
+        },
+        {
+          "id": "laender_nw_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 11000000,
+          "children": [
+            {
+              "id": "laender_nw_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 5000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_by",
+      "name": "Bayern",
+      "value": 70906000000,
+      "children": [
+        {
+          "id": "laender_by_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 15374000000,
+          "children": [
+            {
+              "id": "laender_by_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 13564000000
+            },
+            {
+              "id": "laender_by_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 645000000
+            },
+            {
+              "id": "laender_by_schulden",
+              "name": "Schulden",
+              "value": 568000000
+            },
+            {
+              "id": "laender_by_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 207000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 13568000000,
+          "children": [
+            {
+              "id": "laender_by_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 5595000000
+            },
+            {
+              "id": "laender_by_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 2502000000
+            },
+            {
+              "id": "laender_by_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 2011000000
+            },
+            {
+              "id": "laender_by_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 1726000000
+            },
+            {
+              "id": "laender_by_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 491000000
+            },
+            {
+              "id": "laender_by_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 232000000
+            },
+            {
+              "id": "laender_by_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 131000000
+            },
+            {
+              "id": "laender_by_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 97000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 8895000000,
+          "children": [
+            {
+              "id": "laender_by_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 7064000000
+            },
+            {
+              "id": "laender_by_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 1627000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 6990000000
+        },
+        {
+          "id": "laender_by_hochschulen",
+          "name": "Hochschulen",
+          "value": 5680000000
+        },
+        {
+          "id": "laender_by_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 3499000000,
+          "children": [
+            {
+              "id": "laender_by_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 1891000000
+            },
+            {
+              "id": "laender_by_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 1364000000
+            },
+            {
+              "id": "laender_by_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 560000000
+            },
+            {
+              "id": "laender_by_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 516000000
+            },
+            {
+              "id": "laender_by_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 82000000
+            },
+            {
+              "id": "laender_by_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 78000000
+            },
+            {
+              "id": "laender_by_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 70000000
+            },
+            {
+              "id": "laender_by_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 7000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 2766000000,
+          "children": [
+            {
+              "id": "laender_by_polizei",
+              "name": "Polizei",
+              "value": 2611000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 2313000000,
+          "children": [
+            {
+              "id": "laender_by_versicherungswesen",
+              "name": "Geld- und Versicherungswesen",
+              "value": 1230000000
+            },
+            {
+              "id": "laender_by_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 353000000
+            },
+            {
+              "id": "laender_by_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 115000000
+            },
+            {
+              "id": "laender_by_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 66000000
+            },
+            {
+              "id": "laender_by_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 42000000
+            },
+            {
+              "id": "laender_by_abfall",
+              "name": "Abfallwirtschaft",
+              "value": 5000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 2185000000
+        },
+        {
+          "id": "laender_by_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 1715000000,
+          "children": [
+            {
+              "id": "laender_by_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 781000000
+            },
+            {
+              "id": "laender_by_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 693000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 1516000000,
+          "children": [
+            {
+              "id": "laender_by_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 1171000000
+            },
+            {
+              "id": "laender_by_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 273000000
+            },
+            {
+              "id": "laender_by_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 66000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 1265000000
+        },
+        {
+          "id": "laender_by_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 1164000000,
+          "children": [
+            {
+              "id": "laender_by_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 635000000
+            },
+            {
+              "id": "laender_by_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 452000000
+            },
+            {
+              "id": "laender_by_gemeinschaftsdienste",
+              "name": "Kommunale Gemeinschaftsdienste",
+              "value": 76000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 1134000000
+        },
+        {
+          "id": "laender_by_kultur",
+          "name": "Kultur und Religion",
+          "value": 923000000,
+          "children": [
+            {
+              "id": "laender_by_theater_musik",
+              "name": "Theater und Musik",
+              "value": 368000000
+            }
+          ]
+        },
+        {
+          "id": "laender_by_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 886000000
+        },
+        {
+          "id": "laender_by_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 876000000
+        },
+        {
+          "id": "laender_by_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 143000000
+        },
+        {
+          "id": "laender_by_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 11000000,
+          "children": [
+            {
+              "id": "laender_by_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 3000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_bw",
+      "name": "Baden-Württemberg",
+      "value": 54392000000,
+      "children": [
+        {
+          "id": "laender_bw_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 16436000000,
+          "children": [
+            {
+              "id": "laender_bw_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 13091000000
+            },
+            {
+              "id": "laender_bw_schulden",
+              "name": "Schulden",
+              "value": 1455000000
+            },
+            {
+              "id": "laender_bw_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 1210000000
+            },
+            {
+              "id": "laender_bw_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 498000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 8850000000,
+          "children": [
+            {
+              "id": "laender_bw_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 6383000000
+            },
+            {
+              "id": "laender_bw_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 1818000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 6548000000
+        },
+        {
+          "id": "laender_bw_hochschulen",
+          "name": "Hochschulen",
+          "value": 5393000000
+        },
+        {
+          "id": "laender_bw_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 4062000000,
+          "children": [
+            {
+              "id": "laender_bw_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 1120000000
+            },
+            {
+              "id": "laender_bw_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 1069000000
+            },
+            {
+              "id": "laender_bw_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 623000000
+            },
+            {
+              "id": "laender_bw_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 533000000
+            },
+            {
+              "id": "laender_bw_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 265000000
+            },
+            {
+              "id": "laender_bw_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 47000000
+            },
+            {
+              "id": "laender_bw_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 29000000
+            },
+            {
+              "id": "laender_bw_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 24000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 2378000000,
+          "children": [
+            {
+              "id": "laender_bw_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 1646000000
+            },
+            {
+              "id": "laender_bw_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 726000000
+            },
+            {
+              "id": "laender_bw_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 333000000
+            },
+            {
+              "id": "laender_bw_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 237000000
+            },
+            {
+              "id": "laender_bw_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 26000000
+            },
+            {
+              "id": "laender_bw_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 3000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 1895000000,
+          "children": [
+            {
+              "id": "laender_bw_polizei",
+              "name": "Polizei",
+              "value": 1795000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 1669000000,
+          "children": [
+            {
+              "id": "laender_bw_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 535000000
+            },
+            {
+              "id": "laender_bw_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 386000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 1346000000
+        },
+        {
+          "id": "laender_bw_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 1032000000,
+          "children": [
+            {
+              "id": "laender_bw_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 704000000
+            },
+            {
+              "id": "laender_bw_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 194000000
+            },
+            {
+              "id": "laender_bw_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 91000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 977000000,
+          "children": [
+            {
+              "id": "laender_bw_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 353000000
+            },
+            {
+              "id": "laender_bw_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 109000000
+            },
+            {
+              "id": "laender_bw_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 37000000
+            },
+            {
+              "id": "laender_bw_versicherungswesen",
+              "name": "Geld- und Versicherungswesen",
+              "value": 21000000
+            },
+            {
+              "id": "laender_bw_abfall",
+              "name": "Abfallwirtschaft",
+              "value": 3000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 841000000
+        },
+        {
+          "id": "laender_bw_kultur",
+          "name": "Kultur und Religion",
+          "value": 650000000,
+          "children": [
+            {
+              "id": "laender_bw_theater_musik",
+              "name": "Theater und Musik",
+              "value": 311000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 626000000
+        },
+        {
+          "id": "laender_bw_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 608000000
+        },
+        {
+          "id": "laender_bw_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 535000000
+        },
+        {
+          "id": "laender_bw_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 424000000,
+          "children": [
+            {
+              "id": "laender_bw_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 275000000
+            },
+            {
+              "id": "laender_bw_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 148000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bw_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 110000000
+        },
+        {
+          "id": "laender_bw_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 12000000,
+          "children": [
+            {
+              "id": "laender_bw_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 3000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_ni",
+      "name": "Niedersachsen",
+      "value": 34644000000,
+      "children": [
+        {
+          "id": "laender_ni_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 7023000000,
+          "children": [
+            {
+              "id": "laender_ni_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 4912000000
+            },
+            {
+              "id": "laender_ni_schulden",
+              "name": "Schulden",
+              "value": 1045000000
+            },
+            {
+              "id": "laender_ni_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 796000000
+            },
+            {
+              "id": "laender_ni_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 316000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 6179000000,
+          "children": [
+            {
+              "id": "laender_ni_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 3371000000
+            },
+            {
+              "id": "laender_ni_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 1162000000
+            },
+            {
+              "id": "laender_ni_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 639000000
+            },
+            {
+              "id": "laender_ni_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 436000000
+            },
+            {
+              "id": "laender_ni_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 208000000
+            },
+            {
+              "id": "laender_ni_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 64000000
+            },
+            {
+              "id": "laender_ni_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 41000000
+            },
+            {
+              "id": "laender_ni_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 22000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 5114000000,
+          "children": [
+            {
+              "id": "laender_ni_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 4093000000
+            },
+            {
+              "id": "laender_ni_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 794000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 4324000000
+        },
+        {
+          "id": "laender_ni_hochschulen",
+          "name": "Hochschulen",
+          "value": 3444000000
+        },
+        {
+          "id": "laender_ni_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 1653000000,
+          "children": [
+            {
+              "id": "laender_ni_polizei",
+              "name": "Polizei",
+              "value": 1546000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 1236000000
+        },
+        {
+          "id": "laender_ni_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 1088000000,
+          "children": [
+            {
+              "id": "laender_ni_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 344000000
+            },
+            {
+              "id": "laender_ni_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 104000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 761000000,
+          "children": [
+            {
+              "id": "laender_ni_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 319000000
+            },
+            {
+              "id": "laender_ni_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 166000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 671000000
+        },
+        {
+          "id": "laender_ni_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 649000000,
+          "children": [
+            {
+              "id": "laender_ni_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 482000000
+            },
+            {
+              "id": "laender_ni_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 102000000
+            },
+            {
+              "id": "laender_ni_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 42000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 520000000
+        },
+        {
+          "id": "laender_ni_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 520000000,
+          "children": [
+            {
+              "id": "laender_ni_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 439000000
+            },
+            {
+              "id": "laender_ni_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 121000000
+            },
+            {
+              "id": "laender_ni_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 48000000
+            },
+            {
+              "id": "laender_ni_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 28000000
+            },
+            {
+              "id": "laender_ni_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 15000000
+            },
+            {
+              "id": "laender_ni_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 449000000
+        },
+        {
+          "id": "laender_ni_kultur",
+          "name": "Kultur und Religion",
+          "value": 335000000,
+          "children": [
+            {
+              "id": "laender_ni_theater_musik",
+              "name": "Theater und Musik",
+              "value": 202000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 331000000
+        },
+        {
+          "id": "laender_ni_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 206000000,
+          "children": [
+            {
+              "id": "laender_ni_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 202000000
+            },
+            {
+              "id": "laender_ni_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 4000000
+            }
+          ]
+        },
+        {
+          "id": "laender_ni_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 140000000
+        }
+      ]
+    },
+    {
+      "id": "laender_he",
+      "name": "Hessen",
+      "value": 31876000000,
+      "children": [
+        {
+          "id": "laender_he_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 9193000000,
+          "children": [
+            {
+              "id": "laender_he_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 5951000000
+            },
+            {
+              "id": "laender_he_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 1039000000
+            },
+            {
+              "id": "laender_he_schulden",
+              "name": "Schulden",
+              "value": 999000000
+            },
+            {
+              "id": "laender_he_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 270000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 3884000000,
+          "children": [
+            {
+              "id": "laender_he_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 379000000
+            },
+            {
+              "id": "laender_he_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 22000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 3549000000
+        },
+        {
+          "id": "laender_he_hochschulen",
+          "name": "Hochschulen",
+          "value": 3102000000
+        },
+        {
+          "id": "laender_he_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 2981000000,
+          "children": [
+            {
+              "id": "laender_he_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 951000000
+            },
+            {
+              "id": "laender_he_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 820000000
+            },
+            {
+              "id": "laender_he_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 609000000
+            },
+            {
+              "id": "laender_he_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 447000000
+            },
+            {
+              "id": "laender_he_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 39000000
+            },
+            {
+              "id": "laender_he_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 26000000
+            },
+            {
+              "id": "laender_he_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 25000000
+            },
+            {
+              "id": "laender_he_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 10000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 2119000000,
+          "children": [
+            {
+              "id": "laender_he_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 985000000
+            },
+            {
+              "id": "laender_he_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 574000000
+            },
+            {
+              "id": "laender_he_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 265000000
+            },
+            {
+              "id": "laender_he_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 44000000
+            },
+            {
+              "id": "laender_he_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 4000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 1531000000,
+          "children": [
+            {
+              "id": "laender_he_polizei",
+              "name": "Polizei",
+              "value": 1320000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 1319000000,
+          "children": [
+            {
+              "id": "laender_he_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 543000000
+            },
+            {
+              "id": "laender_he_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 443000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 1165000000
+        },
+        {
+          "id": "laender_he_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 639000000,
+          "children": [
+            {
+              "id": "laender_he_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 492000000
+            },
+            {
+              "id": "laender_he_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 127000000
+            },
+            {
+              "id": "laender_he_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 19000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 611000000
+        },
+        {
+          "id": "laender_he_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 472000000
+        },
+        {
+          "id": "laender_he_kultur",
+          "name": "Kultur und Religion",
+          "value": 328000000,
+          "children": [
+            {
+              "id": "laender_he_theater_musik",
+              "name": "Theater und Musik",
+              "value": 134000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 271000000,
+          "children": [
+            {
+              "id": "laender_he_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 197000000
+            },
+            {
+              "id": "laender_he_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 42000000
+            },
+            {
+              "id": "laender_he_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 17000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 235000000
+        },
+        {
+          "id": "laender_he_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 223000000
+        },
+        {
+          "id": "laender_he_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 164000000,
+          "children": [
+            {
+              "id": "laender_he_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 135000000
+            },
+            {
+              "id": "laender_he_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 29000000
+            }
+          ]
+        },
+        {
+          "id": "laender_he_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 90000000
+        },
+        {
+          "id": "laender_he_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 1000000,
+          "children": [
+            {
+              "id": "laender_he_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 1000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_be",
+      "name": "Berlin",
+      "value": 31025000000,
+      "children": [
+        {
+          "id": "laender_be_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 8788000000,
+          "children": [
+            {
+              "id": "laender_be_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 2408000000
+            },
+            {
+              "id": "laender_be_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 2201000000
+            },
+            {
+              "id": "laender_be_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 1756000000
+            },
+            {
+              "id": "laender_be_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 887000000
+            },
+            {
+              "id": "laender_be_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 527000000
+            },
+            {
+              "id": "laender_be_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 453000000
+            },
+            {
+              "id": "laender_be_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 282000000
+            },
+            {
+              "id": "laender_be_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 59000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 5009000000,
+          "children": [
+            {
+              "id": "laender_be_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 3272000000
+            },
+            {
+              "id": "laender_be_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 518000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_hochschulen",
+          "name": "Hochschulen",
+          "value": 2445000000
+        },
+        {
+          "id": "laender_be_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 2283000000
+        },
+        {
+          "id": "laender_be_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 2159000000,
+          "children": [
+            {
+              "id": "laender_be_polizei",
+              "name": "Polizei",
+              "value": 1552000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 1938000000,
+          "children": [
+            {
+              "id": "laender_be_schulden",
+              "name": "Schulden",
+              "value": 1169000000
+            },
+            {
+              "id": "laender_be_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 682000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 1634000000,
+          "children": [
+            {
+              "id": "laender_be_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 832000000
+            },
+            {
+              "id": "laender_be_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 718000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 1354000000,
+          "children": [
+            {
+              "id": "laender_be_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 1036000000
+            },
+            {
+              "id": "laender_be_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 229000000
+            },
+            {
+              "id": "laender_be_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 112000000
+            },
+            {
+              "id": "laender_be_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 18000000
+            },
+            {
+              "id": "laender_be_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 2000000
+            },
+            {
+              "id": "laender_be_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 982000000
+        },
+        {
+          "id": "laender_be_kultur",
+          "name": "Kultur und Religion",
+          "value": 948000000,
+          "children": [
+            {
+              "id": "laender_be_theater_musik",
+              "name": "Theater und Musik",
+              "value": 512000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 920000000,
+          "children": [
+            {
+              "id": "laender_be_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 417000000
+            },
+            {
+              "id": "laender_be_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 372000000
+            },
+            {
+              "id": "laender_be_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 130000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 806000000,
+          "children": [
+            {
+              "id": "laender_be_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 344000000
+            },
+            {
+              "id": "laender_be_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 217000000
+            },
+            {
+              "id": "laender_be_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 177000000
+            },
+            {
+              "id": "laender_be_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 114000000
+            },
+            {
+              "id": "laender_be_versicherungswesen",
+              "name": "Geld- und Versicherungswesen",
+              "value": 23000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 659000000,
+          "children": [
+            {
+              "id": "laender_be_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 368000000
+            },
+            {
+              "id": "laender_be_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 259000000
+            },
+            {
+              "id": "laender_be_gemeinschaftsdienste",
+              "name": "Kommunale Gemeinschaftsdienste",
+              "value": 33000000
+            }
+          ]
+        },
+        {
+          "id": "laender_be_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 414000000
+        },
+        {
+          "id": "laender_be_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 343000000
+        },
+        {
+          "id": "laender_be_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 249000000
+        },
+        {
+          "id": "laender_be_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 65000000
+        },
+        {
+          "id": "laender_be_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 26000000
+        },
+        {
+          "id": "laender_be_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 3000000,
+          "children": [
+            {
+              "id": "laender_be_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 3000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_hh",
+      "name": "Hamburg",
+      "value": 21429000000,
+      "children": [
+        {
+          "id": "laender_hh_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 4893000000,
+          "children": [
+            {
+              "id": "laender_hh_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 1348000000
+            },
+            {
+              "id": "laender_hh_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 1106000000
+            },
+            {
+              "id": "laender_hh_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 758000000
+            },
+            {
+              "id": "laender_hh_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 669000000
+            },
+            {
+              "id": "laender_hh_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 544000000
+            },
+            {
+              "id": "laender_hh_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 303000000
+            },
+            {
+              "id": "laender_hh_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 9000000
+            },
+            {
+              "id": "laender_hh_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 5000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 2696000000,
+          "children": [
+            {
+              "id": "laender_hh_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 1797000000
+            },
+            {
+              "id": "laender_hh_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 338000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 2346000000,
+          "children": [
+            {
+              "id": "laender_hh_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 1211000000
+            },
+            {
+              "id": "laender_hh_schulden",
+              "name": "Schulden",
+              "value": 874000000
+            },
+            {
+              "id": "laender_hh_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 144000000
+            },
+            {
+              "id": "laender_hh_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 101000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 2041000000,
+          "children": [
+            {
+              "id": "laender_hh_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 1511000000
+            },
+            {
+              "id": "laender_hh_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 302000000
+            },
+            {
+              "id": "laender_hh_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 80000000
+            },
+            {
+              "id": "laender_hh_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 19000000
+            },
+            {
+              "id": "laender_hh_abfall",
+              "name": "Abfallwirtschaft",
+              "value": 14000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 1880000000
+        },
+        {
+          "id": "laender_hh_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 1725000000,
+          "children": [
+            {
+              "id": "laender_hh_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 661000000
+            },
+            {
+              "id": "laender_hh_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 625000000
+            },
+            {
+              "id": "laender_hh_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 411000000
+            },
+            {
+              "id": "laender_hh_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 391000000
+            },
+            {
+              "id": "laender_hh_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 32000000
+            },
+            {
+              "id": "laender_hh_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 10000000
+            },
+            {
+              "id": "laender_hh_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 1174000000,
+          "children": [
+            {
+              "id": "laender_hh_polizei",
+              "name": "Polizei",
+              "value": 642000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_hochschulen",
+          "name": "Hochschulen",
+          "value": 1096000000
+        },
+        {
+          "id": "laender_hh_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 927000000,
+          "children": [
+            {
+              "id": "laender_hh_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 470000000
+            },
+            {
+              "id": "laender_hh_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 160000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 626000000,
+          "children": [
+            {
+              "id": "laender_hh_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 470000000
+            },
+            {
+              "id": "laender_hh_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 131000000
+            },
+            {
+              "id": "laender_hh_gemeinschaftsdienste",
+              "name": "Kommunale Gemeinschaftsdienste",
+              "value": 25000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 514000000,
+          "children": [
+            {
+              "id": "laender_hh_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 261000000
+            },
+            {
+              "id": "laender_hh_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 171000000
+            },
+            {
+              "id": "laender_hh_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 81000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_kultur",
+          "name": "Kultur und Religion",
+          "value": 451000000,
+          "children": [
+            {
+              "id": "laender_hh_theater_musik",
+              "name": "Theater und Musik",
+              "value": 250000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hh_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 432000000
+        },
+        {
+          "id": "laender_hh_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 287000000
+        },
+        {
+          "id": "laender_hh_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 147000000
+        },
+        {
+          "id": "laender_hh_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 101000000
+        },
+        {
+          "id": "laender_hh_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 69000000
+        },
+        {
+          "id": "laender_hh_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 24000000
+        }
+      ]
+    },
+    {
+      "id": "laender_sn",
+      "name": "Sachsen",
+      "value": 20346000000,
+      "children": [
+        {
+          "id": "laender_sn_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 4155000000,
+          "children": [
+            {
+              "id": "laender_sn_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 3230000000
+            },
+            {
+              "id": "laender_sn_schulden",
+              "name": "Schulden",
+              "value": 536000000
+            },
+            {
+              "id": "laender_sn_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 111000000
+            },
+            {
+              "id": "laender_sn_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 53000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 3320000000,
+          "children": [
+            {
+              "id": "laender_sn_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 873000000
+            },
+            {
+              "id": "laender_sn_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 776000000
+            },
+            {
+              "id": "laender_sn_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 691000000
+            },
+            {
+              "id": "laender_sn_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 434000000
+            },
+            {
+              "id": "laender_sn_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 200000000
+            },
+            {
+              "id": "laender_sn_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 94000000
+            },
+            {
+              "id": "laender_sn_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 76000000
+            },
+            {
+              "id": "laender_sn_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 3009000000,
+          "children": [
+            {
+              "id": "laender_sn_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 2507000000
+            },
+            {
+              "id": "laender_sn_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 293000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_hochschulen",
+          "name": "Hochschulen",
+          "value": 2035000000
+        },
+        {
+          "id": "laender_sn_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 1201000000,
+          "children": [
+            {
+              "id": "laender_sn_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 575000000
+            },
+            {
+              "id": "laender_sn_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 527000000
+            },
+            {
+              "id": "laender_sn_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 252000000
+            },
+            {
+              "id": "laender_sn_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 154000000
+            },
+            {
+              "id": "laender_sn_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 33000000
+            },
+            {
+              "id": "laender_sn_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 30000000
+            },
+            {
+              "id": "laender_sn_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 28000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 1089000000,
+          "children": [
+            {
+              "id": "laender_sn_polizei",
+              "name": "Polizei",
+              "value": 1014000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 810000000,
+          "children": [
+            {
+              "id": "laender_sn_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 433000000
+            },
+            {
+              "id": "laender_sn_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 33000000
+            },
+            {
+              "id": "laender_sn_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 29000000
+            },
+            {
+              "id": "laender_sn_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 17000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 753000000,
+          "children": [
+            {
+              "id": "laender_sn_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 340000000
+            },
+            {
+              "id": "laender_sn_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 242000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 726000000
+        },
+        {
+          "id": "laender_sn_kultur",
+          "name": "Kultur und Religion",
+          "value": 523000000,
+          "children": [
+            {
+              "id": "laender_sn_theater_musik",
+              "name": "Theater und Musik",
+              "value": 144000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 468000000
+        },
+        {
+          "id": "laender_sn_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 427000000
+        },
+        {
+          "id": "laender_sn_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 395000000
+        },
+        {
+          "id": "laender_sn_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 376000000,
+          "children": [
+            {
+              "id": "laender_sn_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 236000000
+            },
+            {
+              "id": "laender_sn_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 77000000
+            },
+            {
+              "id": "laender_sn_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 63000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 361000000
+        },
+        {
+          "id": "laender_sn_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 359000000,
+          "children": [
+            {
+              "id": "laender_sn_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 277000000
+            },
+            {
+              "id": "laender_sn_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 82000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sn_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 299000000
+        },
+        {
+          "id": "laender_sn_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 37000000
+        },
+        {
+          "id": "laender_sn_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 2000000
+        }
+      ]
+    },
+    {
+      "id": "laender_rp",
+      "name": "Rheinland-Pfalz",
+      "value": 18567000000,
+      "children": [
+        {
+          "id": "laender_rp_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 3512000000,
+          "children": [
+            {
+              "id": "laender_rp_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 2357000000
+            },
+            {
+              "id": "laender_rp_schulden",
+              "name": "Schulden",
+              "value": 580000000
+            },
+            {
+              "id": "laender_rp_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 399000000
+            },
+            {
+              "id": "laender_rp_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 156000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 3156000000,
+          "children": [
+            {
+              "id": "laender_rp_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 1528000000
+            },
+            {
+              "id": "laender_rp_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 735000000
+            },
+            {
+              "id": "laender_rp_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 302000000
+            },
+            {
+              "id": "laender_rp_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 184000000
+            },
+            {
+              "id": "laender_rp_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 138000000
+            },
+            {
+              "id": "laender_rp_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 56000000
+            },
+            {
+              "id": "laender_rp_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 47000000
+            },
+            {
+              "id": "laender_rp_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 15000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 2564000000,
+          "children": [
+            {
+              "id": "laender_rp_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 2133000000
+            },
+            {
+              "id": "laender_rp_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 352000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 2348000000
+        },
+        {
+          "id": "laender_rp_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 1467000000,
+          "children": [
+            {
+              "id": "laender_rp_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 980000000
+            },
+            {
+              "id": "laender_rp_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 458000000
+            },
+            {
+              "id": "laender_rp_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 103000000
+            },
+            {
+              "id": "laender_rp_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 76000000
+            },
+            {
+              "id": "laender_rp_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 49000000
+            },
+            {
+              "id": "laender_rp_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 16000000
+            },
+            {
+              "id": "laender_rp_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 12000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_hochschulen",
+          "name": "Hochschulen",
+          "value": 1297000000
+        },
+        {
+          "id": "laender_rp_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 773000000,
+          "children": [
+            {
+              "id": "laender_rp_polizei",
+              "name": "Polizei",
+              "value": 722000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 659000000,
+          "children": [
+            {
+              "id": "laender_rp_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 326000000
+            },
+            {
+              "id": "laender_rp_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 86000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 603000000
+        },
+        {
+          "id": "laender_rp_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 460000000,
+          "children": [
+            {
+              "id": "laender_rp_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 349000000
+            },
+            {
+              "id": "laender_rp_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 81000000
+            },
+            {
+              "id": "laender_rp_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 30000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 351000000
+        },
+        {
+          "id": "laender_rp_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 351000000
+        },
+        {
+          "id": "laender_rp_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 250000000,
+          "children": [
+            {
+              "id": "laender_rp_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 104000000
+            },
+            {
+              "id": "laender_rp_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 66000000
+            },
+            {
+              "id": "laender_rp_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 37000000
+            },
+            {
+              "id": "laender_rp_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 9000000
+            },
+            {
+              "id": "laender_rp_abfall",
+              "name": "Abfallwirtschaft",
+              "value": 3000000
+            },
+            {
+              "id": "laender_rp_versicherungswesen",
+              "name": "Geld- und Versicherungswesen",
+              "value": 3000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_kultur",
+          "name": "Kultur und Religion",
+          "value": 214000000,
+          "children": [
+            {
+              "id": "laender_rp_theater_musik",
+              "name": "Theater und Musik",
+              "value": 88000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 180000000
+        },
+        {
+          "id": "laender_rp_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 160000000,
+          "children": [
+            {
+              "id": "laender_rp_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 100000000
+            },
+            {
+              "id": "laender_rp_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 60000000
+            }
+          ]
+        },
+        {
+          "id": "laender_rp_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 135000000
+        },
+        {
+          "id": "laender_rp_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 85000000
+        },
+        {
+          "id": "laender_rp_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 3000000,
+          "children": [
+            {
+              "id": "laender_rp_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 2000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_sh",
+      "name": "Schleswig-Holstein",
+      "value": 14018000000,
+      "children": [
+        {
+          "id": "laender_sh_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 2822000000,
+          "children": [
+            {
+              "id": "laender_sh_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 1917000000
+            },
+            {
+              "id": "laender_sh_schulden",
+              "name": "Schulden",
+              "value": 454000000
+            },
+            {
+              "id": "laender_sh_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 102000000
+            },
+            {
+              "id": "laender_sh_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 54000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 2262000000,
+          "children": [
+            {
+              "id": "laender_sh_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 1177000000
+            },
+            {
+              "id": "laender_sh_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 362000000
+            },
+            {
+              "id": "laender_sh_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 257000000
+            },
+            {
+              "id": "laender_sh_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 254000000
+            },
+            {
+              "id": "laender_sh_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 68000000
+            },
+            {
+              "id": "laender_sh_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 20000000
+            },
+            {
+              "id": "laender_sh_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 12000000
+            },
+            {
+              "id": "laender_sh_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 9000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 1721000000,
+          "children": [
+            {
+              "id": "laender_sh_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 1355000000
+            },
+            {
+              "id": "laender_sh_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 282000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 1581000000
+        },
+        {
+          "id": "laender_sh_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 1028000000,
+          "children": [
+            {
+              "id": "laender_sh_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 225000000
+            },
+            {
+              "id": "laender_sh_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 20000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_hochschulen",
+          "name": "Hochschulen",
+          "value": 884000000
+        },
+        {
+          "id": "laender_sh_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 869000000,
+          "children": [
+            {
+              "id": "laender_sh_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 513000000
+            },
+            {
+              "id": "laender_sh_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 157000000
+            },
+            {
+              "id": "laender_sh_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 6000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 679000000,
+          "children": [
+            {
+              "id": "laender_sh_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 366000000
+            },
+            {
+              "id": "laender_sh_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 310000000
+            },
+            {
+              "id": "laender_sh_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 39000000
+            },
+            {
+              "id": "laender_sh_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 34000000
+            },
+            {
+              "id": "laender_sh_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 27000000
+            },
+            {
+              "id": "laender_sh_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 17000000
+            },
+            {
+              "id": "laender_sh_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 3000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 547000000,
+          "children": [
+            {
+              "id": "laender_sh_polizei",
+              "name": "Polizei",
+              "value": 503000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 435000000
+        },
+        {
+          "id": "laender_sh_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 345000000,
+          "children": [
+            {
+              "id": "laender_sh_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 205000000
+            },
+            {
+              "id": "laender_sh_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 81000000
+            },
+            {
+              "id": "laender_sh_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 28000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 194000000
+        },
+        {
+          "id": "laender_sh_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 164000000,
+          "children": [
+            {
+              "id": "laender_sh_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 121000000
+            },
+            {
+              "id": "laender_sh_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 43000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 132000000
+        },
+        {
+          "id": "laender_sh_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 111000000
+        },
+        {
+          "id": "laender_sh_kultur",
+          "name": "Kultur und Religion",
+          "value": 108000000,
+          "children": [
+            {
+              "id": "laender_sh_theater_musik",
+              "name": "Theater und Musik",
+              "value": 44000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sh_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 105000000
+        },
+        {
+          "id": "laender_sh_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 29000000
+        },
+        {
+          "id": "laender_sh_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 3000000,
+          "children": [
+            {
+              "id": "laender_sh_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 1000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_bb",
+      "name": "Brandenburg",
+      "value": 13150000000,
+      "children": [
+        {
+          "id": "laender_bb_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 3296000000,
+          "children": [
+            {
+              "id": "laender_bb_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 2632000000
+            },
+            {
+              "id": "laender_bb_schulden",
+              "name": "Schulden",
+              "value": 296000000
+            },
+            {
+              "id": "laender_bb_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 60000000
+            },
+            {
+              "id": "laender_bb_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 15000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 2540000000,
+          "children": [
+            {
+              "id": "laender_bb_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 885000000
+            },
+            {
+              "id": "laender_bb_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 537000000
+            },
+            {
+              "id": "laender_bb_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 520000000
+            },
+            {
+              "id": "laender_bb_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 218000000
+            },
+            {
+              "id": "laender_bb_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 185000000
+            },
+            {
+              "id": "laender_bb_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 75000000
+            },
+            {
+              "id": "laender_bb_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 31000000
+            },
+            {
+              "id": "laender_bb_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 23000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 1504000000,
+          "children": [
+            {
+              "id": "laender_bb_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 1301000000
+            },
+            {
+              "id": "laender_bb_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 156000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 905000000,
+          "children": [
+            {
+              "id": "laender_bb_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 485000000
+            },
+            {
+              "id": "laender_bb_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 350000000
+            },
+            {
+              "id": "laender_bb_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 122000000
+            },
+            {
+              "id": "laender_bb_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 63000000
+            },
+            {
+              "id": "laender_bb_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 732000000,
+          "children": [
+            {
+              "id": "laender_bb_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 302000000
+            },
+            {
+              "id": "laender_bb_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 184000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 590000000,
+          "children": [
+            {
+              "id": "laender_bb_polizei",
+              "name": "Polizei",
+              "value": 549000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_hochschulen",
+          "name": "Hochschulen",
+          "value": 565000000
+        },
+        {
+          "id": "laender_bb_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 554000000,
+          "children": [
+            {
+              "id": "laender_bb_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 378000000
+            },
+            {
+              "id": "laender_bb_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 43000000
+            },
+            {
+              "id": "laender_bb_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 10000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 494000000
+        },
+        {
+          "id": "laender_bb_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 432000000
+        },
+        {
+          "id": "laender_bb_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 315000000,
+          "children": [
+            {
+              "id": "laender_bb_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 182000000
+            },
+            {
+              "id": "laender_bb_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 110000000
+            },
+            {
+              "id": "laender_bb_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 21000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 288000000
+        },
+        {
+          "id": "laender_bb_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 235000000
+        },
+        {
+          "id": "laender_bb_kultur",
+          "name": "Kultur und Religion",
+          "value": 206000000,
+          "children": [
+            {
+              "id": "laender_bb_theater_musik",
+              "name": "Theater und Musik",
+              "value": 7000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 197000000
+        },
+        {
+          "id": "laender_bb_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 175000000,
+          "children": [
+            {
+              "id": "laender_bb_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 104000000
+            },
+            {
+              "id": "laender_bb_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 71000000
+            }
+          ]
+        },
+        {
+          "id": "laender_bb_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 98000000
+        },
+        {
+          "id": "laender_bb_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 24000000
+        }
+      ]
+    },
+    {
+      "id": "laender_st",
+      "name": "Sachsen-Anhalt",
+      "value": 12019000000,
+      "children": [
+        {
+          "id": "laender_st_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 2448000000,
+          "children": [
+            {
+              "id": "laender_st_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 809000000
+            },
+            {
+              "id": "laender_st_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 473000000
+            },
+            {
+              "id": "laender_st_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 399000000
+            },
+            {
+              "id": "laender_st_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 347000000
+            },
+            {
+              "id": "laender_st_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 262000000
+            },
+            {
+              "id": "laender_st_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 54000000
+            },
+            {
+              "id": "laender_st_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 26000000
+            },
+            {
+              "id": "laender_st_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 7000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 2194000000,
+          "children": [
+            {
+              "id": "laender_st_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 1638000000
+            },
+            {
+              "id": "laender_st_schulden",
+              "name": "Schulden",
+              "value": 361000000
+            },
+            {
+              "id": "laender_st_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 150000000
+            },
+            {
+              "id": "laender_st_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 40000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 1396000000,
+          "children": [
+            {
+              "id": "laender_st_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 1213000000
+            },
+            {
+              "id": "laender_st_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 149000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 1002000000,
+          "children": [
+            {
+              "id": "laender_st_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 441000000
+            },
+            {
+              "id": "laender_st_versicherungswesen",
+              "name": "Geld- und Versicherungswesen",
+              "value": 198000000
+            },
+            {
+              "id": "laender_st_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 31000000
+            },
+            {
+              "id": "laender_st_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 26000000
+            },
+            {
+              "id": "laender_st_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 14000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_hochschulen",
+          "name": "Hochschulen",
+          "value": 762000000
+        },
+        {
+          "id": "laender_st_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 750000000,
+          "children": [
+            {
+              "id": "laender_st_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 457000000
+            },
+            {
+              "id": "laender_st_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 291000000
+            },
+            {
+              "id": "laender_st_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 201000000
+            },
+            {
+              "id": "laender_st_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 41000000
+            },
+            {
+              "id": "laender_st_kreisstrassen",
+              "name": "Kreisstraßen",
+              "value": 3000000
+            },
+            {
+              "id": "laender_st_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 2000000
+            },
+            {
+              "id": "laender_st_sonst_verkehr",
+              "name": "Sonstiges Verkehrswesen",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 623000000,
+          "children": [
+            {
+              "id": "laender_st_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 236000000
+            },
+            {
+              "id": "laender_st_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 90000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 506000000,
+          "children": [
+            {
+              "id": "laender_st_polizei",
+              "name": "Polizei",
+              "value": 465000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 412000000
+        },
+        {
+          "id": "laender_st_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 359000000
+        },
+        {
+          "id": "laender_st_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 316000000
+        },
+        {
+          "id": "laender_st_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 290000000
+        },
+        {
+          "id": "laender_st_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 256000000,
+          "children": [
+            {
+              "id": "laender_st_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 128000000
+            },
+            {
+              "id": "laender_st_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 96000000
+            },
+            {
+              "id": "laender_st_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 32000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_kultur",
+          "name": "Kultur und Religion",
+          "value": 245000000,
+          "children": [
+            {
+              "id": "laender_st_theater_musik",
+              "name": "Theater und Musik",
+              "value": 45000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 185000000,
+          "children": [
+            {
+              "id": "laender_st_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 151000000
+            },
+            {
+              "id": "laender_st_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 34000000
+            }
+          ]
+        },
+        {
+          "id": "laender_st_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 123000000
+        },
+        {
+          "id": "laender_st_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 91000000
+        },
+        {
+          "id": "laender_st_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 57000000
+        },
+        {
+          "id": "laender_st_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 4000000
+        }
+      ]
+    },
+    {
+      "id": "laender_th",
+      "name": "Thüringen",
+      "value": 10641000000,
+      "children": [
+        {
+          "id": "laender_th_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 2228000000,
+          "children": [
+            {
+              "id": "laender_th_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 1823000000
+            },
+            {
+              "id": "laender_th_schulden",
+              "name": "Schulden",
+              "value": 321000000
+            },
+            {
+              "id": "laender_th_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 63000000
+            },
+            {
+              "id": "laender_th_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 18000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 1604000000,
+          "children": [
+            {
+              "id": "laender_th_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 1228000000
+            },
+            {
+              "id": "laender_th_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 208000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 1490000000,
+          "children": [
+            {
+              "id": "laender_th_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 454000000
+            },
+            {
+              "id": "laender_th_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 311000000
+            },
+            {
+              "id": "laender_th_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 210000000
+            },
+            {
+              "id": "laender_th_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 181000000
+            },
+            {
+              "id": "laender_th_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 86000000
+            },
+            {
+              "id": "laender_th_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 36000000
+            },
+            {
+              "id": "laender_th_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 34000000
+            },
+            {
+              "id": "laender_th_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_hochschulen",
+          "name": "Hochschulen",
+          "value": 1079000000
+        },
+        {
+          "id": "laender_th_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 616000000,
+          "children": [
+            {
+              "id": "laender_th_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 342000000
+            },
+            {
+              "id": "laender_th_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 249000000
+            },
+            {
+              "id": "laender_th_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 112000000
+            },
+            {
+              "id": "laender_th_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 45000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 493000000,
+          "children": [
+            {
+              "id": "laender_th_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 286000000
+            },
+            {
+              "id": "laender_th_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 50000000
+            },
+            {
+              "id": "laender_th_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 37000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 473000000,
+          "children": [
+            {
+              "id": "laender_th_polizei",
+              "name": "Polizei",
+              "value": 440000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 399000000,
+          "children": [
+            {
+              "id": "laender_th_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 254000000
+            },
+            {
+              "id": "laender_th_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 53000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 373000000
+        },
+        {
+          "id": "laender_th_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 301000000,
+          "children": [
+            {
+              "id": "laender_th_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 163000000
+            },
+            {
+              "id": "laender_th_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 114000000
+            },
+            {
+              "id": "laender_th_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 24000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 298000000
+        },
+        {
+          "id": "laender_th_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 283000000,
+          "children": [
+            {
+              "id": "laender_th_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 143000000
+            },
+            {
+              "id": "laender_th_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 140000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_kultur",
+          "name": "Kultur und Religion",
+          "value": 282000000,
+          "children": [
+            {
+              "id": "laender_th_theater_musik",
+              "name": "Theater und Musik",
+              "value": 143000000
+            }
+          ]
+        },
+        {
+          "id": "laender_th_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 225000000
+        },
+        {
+          "id": "laender_th_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 175000000
+        },
+        {
+          "id": "laender_th_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 174000000
+        },
+        {
+          "id": "laender_th_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 127000000
+        },
+        {
+          "id": "laender_th_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 22000000
+        }
+      ]
+    },
+    {
+      "id": "laender_mv",
+      "name": "Mecklenburg-Vorpommern",
+      "value": 8681000000,
+      "children": [
+        {
+          "id": "laender_mv_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 1697000000,
+          "children": [
+            {
+              "id": "laender_mv_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 549000000
+            },
+            {
+              "id": "laender_mv_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 345000000
+            },
+            {
+              "id": "laender_mv_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 295000000
+            },
+            {
+              "id": "laender_mv_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 286000000
+            },
+            {
+              "id": "laender_mv_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 124000000
+            },
+            {
+              "id": "laender_mv_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 25000000
+            },
+            {
+              "id": "laender_mv_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 23000000
+            },
+            {
+              "id": "laender_mv_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 5000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 1695000000,
+          "children": [
+            {
+              "id": "laender_mv_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 1196000000
+            },
+            {
+              "id": "laender_mv_schulden",
+              "name": "Schulden",
+              "value": 222000000
+            },
+            {
+              "id": "laender_mv_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 25000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 993000000,
+          "children": [
+            {
+              "id": "laender_mv_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 870000000
+            },
+            {
+              "id": "laender_mv_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 113000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 872000000,
+          "children": [
+            {
+              "id": "laender_mv_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 715000000
+            },
+            {
+              "id": "laender_mv_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 92000000
+            },
+            {
+              "id": "laender_mv_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 9000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_hochschulen",
+          "name": "Hochschulen",
+          "value": 591000000
+        },
+        {
+          "id": "laender_mv_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 576000000,
+          "children": [
+            {
+              "id": "laender_mv_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 258000000
+            },
+            {
+              "id": "laender_mv_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 24000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 400000000,
+          "children": [
+            {
+              "id": "laender_mv_polizei",
+              "name": "Polizei",
+              "value": 383000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 375000000
+        },
+        {
+          "id": "laender_mv_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 297000000
+        },
+        {
+          "id": "laender_mv_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 236000000,
+          "children": [
+            {
+              "id": "laender_mv_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 113000000
+            },
+            {
+              "id": "laender_mv_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 103000000
+            },
+            {
+              "id": "laender_mv_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 15000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 201000000,
+          "children": [
+            {
+              "id": "laender_mv_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 196000000
+            },
+            {
+              "id": "laender_mv_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 128000000
+            },
+            {
+              "id": "laender_mv_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 13000000
+            },
+            {
+              "id": "laender_mv_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 9000000
+            },
+            {
+              "id": "laender_mv_wasserstrassen",
+              "name": "Wasserstraßen und Häfen",
+              "value": 5000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 150000000
+        },
+        {
+          "id": "laender_mv_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 131000000
+        },
+        {
+          "id": "laender_mv_kultur",
+          "name": "Kultur und Religion",
+          "value": 124000000,
+          "children": [
+            {
+              "id": "laender_mv_theater_musik",
+              "name": "Theater und Musik",
+              "value": 48000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 111000000,
+          "children": [
+            {
+              "id": "laender_mv_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 100000000
+            },
+            {
+              "id": "laender_mv_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 10000000
+            }
+          ]
+        },
+        {
+          "id": "laender_mv_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 107000000
+        },
+        {
+          "id": "laender_mv_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 101000000
+        },
+        {
+          "id": "laender_mv_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 22000000
+        }
+      ]
+    },
+    {
+      "id": "laender_hb",
+      "name": "Bremen",
+      "value": 6705000000,
+      "children": [
+        {
+          "id": "laender_hb_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 1735000000,
+          "children": [
+            {
+              "id": "laender_hb_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 469000000
+            },
+            {
+              "id": "laender_hb_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 366000000
+            },
+            {
+              "id": "laender_hb_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 297000000
+            },
+            {
+              "id": "laender_hb_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 297000000
+            },
+            {
+              "id": "laender_hb_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 136000000
+            },
+            {
+              "id": "laender_hb_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 102000000
+            },
+            {
+              "id": "laender_hb_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 12000000
+            },
+            {
+              "id": "laender_hb_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 5000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 1040000000,
+          "children": [
+            {
+              "id": "laender_hb_schulden",
+              "name": "Schulden",
+              "value": 741000000
+            },
+            {
+              "id": "laender_hb_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 291000000
+            },
+            {
+              "id": "laender_hb_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 13000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 664000000,
+          "children": [
+            {
+              "id": "laender_hb_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 420000000
+            },
+            {
+              "id": "laender_hb_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 108000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 618000000
+        },
+        {
+          "id": "laender_hb_hochschulen",
+          "name": "Hochschulen",
+          "value": 497000000
+        },
+        {
+          "id": "laender_hb_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 482000000,
+          "children": [
+            {
+              "id": "laender_hb_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 302000000
+            },
+            {
+              "id": "laender_hb_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 99000000
+            },
+            {
+              "id": "laender_hb_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 48000000
+            },
+            {
+              "id": "laender_hb_abwasser",
+              "name": "Abwasserentsorgung",
+              "value": 4000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 465000000,
+          "children": [
+            {
+              "id": "laender_hb_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 251000000
+            },
+            {
+              "id": "laender_hb_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 163000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 348000000,
+          "children": [
+            {
+              "id": "laender_hb_polizei",
+              "name": "Polizei",
+              "value": 211000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 171000000,
+          "children": [
+            {
+              "id": "laender_hb_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 101000000
+            },
+            {
+              "id": "laender_hb_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 37000000
+            },
+            {
+              "id": "laender_hb_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 33000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 140000000
+        },
+        {
+          "id": "laender_hb_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 126000000,
+          "children": [
+            {
+              "id": "laender_hb_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 61000000
+            },
+            {
+              "id": "laender_hb_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 50000000
+            },
+            {
+              "id": "laender_hb_gemeindestrassen",
+              "name": "Gemeindestraßen",
+              "value": 10000000
+            },
+            {
+              "id": "laender_hb_autobahnen",
+              "name": "Bundesautobahnen",
+              "value": 5000000
+            },
+            {
+              "id": "laender_hb_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_kultur",
+          "name": "Kultur und Religion",
+          "value": 113000000,
+          "children": [
+            {
+              "id": "laender_hb_theater_musik",
+              "name": "Theater und Musik",
+              "value": 66000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 94000000
+        },
+        {
+          "id": "laender_hb_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 81000000
+        },
+        {
+          "id": "laender_hb_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 55000000
+        },
+        {
+          "id": "laender_hb_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 48000000,
+          "children": [
+            {
+              "id": "laender_hb_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 33000000
+            },
+            {
+              "id": "laender_hb_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 9000000
+            },
+            {
+              "id": "laender_hb_gemeinschaftsdienste",
+              "name": "Kommunale Gemeinschaftsdienste",
+              "value": 6000000
+            }
+          ]
+        },
+        {
+          "id": "laender_hb_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 25000000
+        },
+        {
+          "id": "laender_hb_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 2000000
+        },
+        {
+          "id": "laender_hb_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 1000000,
+          "children": [
+            {
+              "id": "laender_hb_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 1000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laender_sl",
+      "name": "Saarland",
+      "value": 5113000000,
+      "children": [
+        {
+          "id": "laender_sl_finanzwirtschaft",
+          "name": "Finanzwirtschaft",
+          "value": 1128000000,
+          "children": [
+            {
+              "id": "laender_sl_steuern_finzuw",
+              "name": "Steuern und Finanzzuweisungen",
+              "value": 690000000
+            },
+            {
+              "id": "laender_sl_schulden",
+              "name": "Schulden",
+              "value": 323000000
+            },
+            {
+              "id": "laender_sl_kapitalvermoegen",
+              "name": "Grund- und Kapitalvermögen",
+              "value": 122000000
+            },
+            {
+              "id": "laender_sl_beihilfen",
+              "name": "Beihilfen und Unterstützungen",
+              "value": 41000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_soziales",
+          "name": "Soziale Sicherung, Familie und Jugend",
+          "value": 1087000000,
+          "children": [
+            {
+              "id": "laender_sl_soz_verwaltung",
+              "name": "Verwaltung für soziale Angelegenheiten",
+              "value": 486000000
+            },
+            {
+              "id": "laender_sl_sgb_xii",
+              "name": "Sozialleistungen SGB XII/AsylbLG/Eingliederung",
+              "value": 307000000
+            },
+            {
+              "id": "laender_sl_arbeitsmarkt",
+              "name": "Arbeitsmarktpolitik",
+              "value": 133000000
+            },
+            {
+              "id": "laender_sl_kita",
+              "name": "Kindertagesbetreuung",
+              "value": 107000000
+            },
+            {
+              "id": "laender_sl_jugendhilfe",
+              "name": "Kinder- und Jugendhilfe (ohne Kita)",
+              "value": 25000000
+            },
+            {
+              "id": "laender_sl_familienhilfe",
+              "name": "Familienhilfe, Wohlfahrtspflege",
+              "value": 20000000
+            },
+            {
+              "id": "laender_sl_sozialversicherung",
+              "name": "Sozialversicherung",
+              "value": 4000000
+            },
+            {
+              "id": "laender_sl_kriegsfolgen",
+              "name": "Soziale Leistungen für Kriegsfolgen",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_versorgung",
+          "name": "Versorgung (Beamtenpensionen)",
+          "value": 655000000
+        },
+        {
+          "id": "laender_sl_schulen",
+          "name": "Allgemeinbildende und berufliche Schulen",
+          "value": 586000000,
+          "children": [
+            {
+              "id": "laender_sl_allg_schulen",
+              "name": "Allgemeinbildende Schulen",
+              "value": 443000000
+            },
+            {
+              "id": "laender_sl_beruf_schulen",
+              "name": "Berufliche Schulen",
+              "value": 89000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_hochschulen",
+          "name": "Hochschulen",
+          "value": 394000000
+        },
+        {
+          "id": "laender_sl_verkehr",
+          "name": "Verkehrs- und Nachrichtenwesen",
+          "value": 235000000,
+          "children": [
+            {
+              "id": "laender_sl_strassen",
+              "name": "Straßen einschl. Verwaltung",
+              "value": 183000000
+            },
+            {
+              "id": "laender_sl_eisenbahn_oepnv",
+              "name": "Eisenbahnen und ÖPNV",
+              "value": 37000000
+            },
+            {
+              "id": "laender_sl_bundes_landesstr",
+              "name": "Bundes- und Landesstraßen",
+              "value": 29000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_verwaltung",
+          "name": "Politische Führung und zentrale Verwaltung",
+          "value": 206000000,
+          "children": [
+            {
+              "id": "laender_sl_pol_fuehrung",
+              "name": "Politische Führung",
+              "value": 148000000
+            },
+            {
+              "id": "laender_sl_innere_verw",
+              "name": "Innere Verwaltung",
+              "value": 6000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_sicherheit",
+          "name": "Öffentliche Sicherheit und Ordnung",
+          "value": 182000000,
+          "children": [
+            {
+              "id": "laender_sl_polizei",
+              "name": "Polizei",
+              "value": 167000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_rechtsschutz",
+          "name": "Rechtsschutz",
+          "value": 160000000
+        },
+        {
+          "id": "laender_sl_kultur",
+          "name": "Kultur und Religion",
+          "value": 100000000,
+          "children": [
+            {
+              "id": "laender_sl_theater_musik",
+              "name": "Theater und Musik",
+              "value": 65000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_finanzverwaltung",
+          "name": "Finanzverwaltung",
+          "value": 83000000
+        },
+        {
+          "id": "laender_sl_gewerbe",
+          "name": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen",
+          "value": 67000000,
+          "children": [
+            {
+              "id": "laender_sl_reg_foerderung",
+              "name": "Regionale Fördermaßnahmen",
+              "value": 46000000
+            },
+            {
+              "id": "laender_sl_sonst_gewerbe",
+              "name": "Sonstiges Gewerbe und Dienstleistungen",
+              "value": 4000000
+            },
+            {
+              "id": "laender_sl_energie_entsorgung",
+              "name": "Energie, Wasserversorgung, Entsorgung",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_gesundheit",
+          "name": "Gesundheit, Umwelt, Sport und Erholung",
+          "value": 65000000,
+          "children": [
+            {
+              "id": "laender_sl_gesundheitswesen",
+              "name": "Gesundheitswesen",
+              "value": 36000000
+            },
+            {
+              "id": "laender_sl_umweltschutz",
+              "name": "Umwelt- und Naturschutz",
+              "value": 26000000
+            },
+            {
+              "id": "laender_sl_sport_erholung",
+              "name": "Sport und Erholung",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_wissenschaft",
+          "name": "Wissenschaft, Forschung, Entwicklung",
+          "value": 52000000
+        },
+        {
+          "id": "laender_sl_foerderung_bildung",
+          "name": "Förderung für Schüler, Studierende u. dgl.",
+          "value": 44000000
+        },
+        {
+          "id": "laender_sl_landwirtschaft",
+          "name": "Ernährung, Landwirtschaft und Forsten",
+          "value": 40000000
+        },
+        {
+          "id": "laender_sl_wohnungswesen",
+          "name": "Wohnungswesen, Städtebau, Raumordnung",
+          "value": 16000000,
+          "children": [
+            {
+              "id": "laender_sl_raumordnung",
+              "name": "Raumordnung, Städtebauförderung",
+              "value": 14000000
+            },
+            {
+              "id": "laender_sl_wohnungsbau",
+              "name": "Wohnungswesen, Wohnungsbauprämie",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "laender_sl_sonst_bildung",
+          "name": "Sonstiges Bildungswesen",
+          "value": 11000000
+        },
+        {
+          "id": "laender_sl_auswaertiges",
+          "name": "Auswärtige Angelegenheiten",
+          "value": 2000000,
+          "children": [
+            {
+              "id": "laender_sl_entw_zusammenarbeit",
+              "name": "Wirtschaftliche Zusammenarbeit und Entwicklung",
+              "value": 1000000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

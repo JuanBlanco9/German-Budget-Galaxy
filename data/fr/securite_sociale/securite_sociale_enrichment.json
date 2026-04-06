@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "source": "DREES Comptes de la Protection Sociale",
+    "description": "Descriptions for French social protection budget tree nodes",
+    "language": "en"
+  },
+  "fr_ss": {
+    "name": "Protection Sociale",
+    "name_en": "Social Protection",
+    "description": "Total social protection spending in France, covering all regimes: Securite Sociale, State interventions, local governments, complementary schemes, and private insurance."
+  },
+  "fr_ss_sante": {
+    "name": "Sante",
+    "name_en": "Health",
+    "description": "Health-related social protection: illness benefits, hospital care, outpatient care, complementary health coverage, disability benefits, medico-social services, and occupational accidents/diseases.",
+    "children": {
+      "fr_ss_e11_11": {
+        "name": "Maladie",
+        "name_en": "Illness / Sickness",
+        "description": "Sickness insurance: daily allowances (indemnites journalieres), hospital and outpatient care reimbursements, complementary health coverage, and medico-social care for the elderly (EHPAD, SSIAD)."
+      },
+      "fr_ss_e11_12": {
+        "name": "Invalidite",
+        "name_en": "Disability",
+        "description": "Disability benefits: invalidity pensions and rentes, AAH (Allocation aux Adultes Handicapes), PCH (Prestation de Compensation du Handicap), residential care for disabled persons, and sheltered work (ESAT)."
+      },
+      "fr_ss_e11_13": {
+        "name": "Accidents du Travail et Maladies Professionnelles",
+        "name_en": "Occupational Accidents & Diseases (AT-MP)",
+        "description": "Work accident and occupational disease benefits: permanent disability rentes, FIVA asbestos compensation, early retirement for asbestos workers (ACAATA), and pesticide victim compensation."
+      }
+    }
+  },
+  "fr_ss_vieillesse_survie": {
+    "name": "Vieillesse-Survie",
+    "name_en": "Old Age & Survivors",
+    "description": "Pensions and survivor benefits: basic and complementary pensions, minimum vieillesse (ASPA), dependency/autonomy benefits (APA, PCH for 60+), and survivor pensions (pensions de reversion).",
+    "children": {
+      "fr_ss_e11_21": {
+        "name": "Vieillesse",
+        "name_en": "Old Age / Pensions",
+        "description": "Old-age pensions: basic pensions (regime general, civil servants, special regimes), complementary pensions (AGIRC-ARRCO), supplementary pensions, minimum vieillesse (ASPA), and dependency benefits (APA)."
+      },
+      "fr_ss_e11_22": {
+        "name": "Survie",
+        "name_en": "Survivors",
+        "description": "Survivor benefits: pensions de reversion (with and without means-testing), survivor pensions from complementary schemes, and related benefits."
+      }
+    }
+  },
+  "fr_ss_famille": {
+    "name": "Famille",
+    "name_en": "Family",
+    "description": "Family benefits administered primarily by CAF (Caisse d'Allocations Familiales): allocations familiales, PAJE (birth/adoption benefits), childcare benefits, education grants, maternity/paternity leave, and child welfare (ASE)."
+  },
+  "fr_ss_emploi": {
+    "name": "Emploi",
+    "name_en": "Employment",
+    "description": "Employment-related social protection: unemployment insurance (ARE via UNEDIC), professional training, job insertion programs, early retirement schemes, and Pole Emploi placement services."
+  },
+  "fr_ss_logement": {
+    "name": "Logement",
+    "name_en": "Housing",
+    "description": "Housing allowances: APL (Aide Personnalisee au Logement), ALF (Allocation de Logement Familiale), and ALS (Allocation de Logement Sociale)."
+  },
+  "fr_ss_pauvrete": {
+    "name": "Pauvrete-Exclusion Sociale",
+    "name_en": "Poverty & Social Exclusion",
+    "description": "Anti-poverty benefits: RSA (Revenu de Solidarite Active), Prime d'activite, emergency housing, energy vouchers (cheque-energie), higher education grants, and other social minima."
+  }
+}

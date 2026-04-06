@@ -1,0 +1,75 @@
+{
+  "id": "uk_la",
+  "name": "Local Authorities (England)",
+  "value": 134158661000,
+  "source": "MHCLG Revenue Outturn",
+  "sourceUrl": "https://assets.publishing.service.gov.uk/media/6937fe05e447374889cd8f4b/Revenue_Outturn_time_series_data_v3.1.csv",
+  "year": "2024-25",
+  "children": [
+    {
+      "id": "uk_la_edu",
+      "name": "Education Services",
+      "value": 44390881000
+    },
+    {
+      "id": "uk_la_asc",
+      "name": "Adult Social Care",
+      "value": 25243898000
+    },
+    {
+      "id": "uk_la_pol",
+      "name": "Police Services",
+      "value": 16908554000
+    },
+    {
+      "id": "uk_la_csc",
+      "name": "Children's Social Care",
+      "value": 15556137000
+    },
+    {
+      "id": "uk_la_env",
+      "name": "Environmental and Regulatory Services",
+      "value": 6637333000
+    },
+    {
+      "id": "uk_la_trans",
+      "name": "Highways and Transport",
+      "value": 5416068000
+    },
+    {
+      "id": "uk_la_cen",
+      "name": "Central Services",
+      "value": 4495557000
+    },
+    {
+      "id": "uk_la_phs",
+      "name": "Public Health",
+      "value": 4131935000
+    },
+    {
+      "id": "uk_la_hous",
+      "name": "Housing Services",
+      "value": 3248712000
+    },
+    {
+      "id": "uk_la_frs",
+      "name": "Fire and Rescue Services",
+      "value": 2800507000
+    },
+    {
+      "id": "uk_la_cul",
+      "name": "Cultural and Related Services",
+      "value": 2667408000
+    },
+    {
+      "id": "uk_la_plan",
+      "name": "Planning and Development",
+      "value": 2535467000
+    },
+    {
+      "id": "uk_la_oth",
+      "name": "Other Services",
+      "value": 126204000
+    }
+  ]
+}

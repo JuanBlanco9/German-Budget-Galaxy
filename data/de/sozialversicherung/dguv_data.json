@@ -1,0 +1,333 @@
+{
+  "_metadata": {
+    "description": "Deutsche Gesetzliche Unfallversicherung (DGUV) - Expenditure breakdown",
+    "sources": {
+      "primary": "DGUV 'Statistiken für die Praxis 2024' and 'Geschäfts- und Rechnungsergebnisse 2023' (official DGUV publications). Figures cover the entire gesetzliche Unfallversicherung system (Berufsgenossenschaften + Unfallkassen).",
+      "verwaltung_2015_2020_2022_2023": "DGUV Geschäfts- und Rechnungsergebnisse 2023, Übersicht Seite 8 (Verwaltung und Verfahren): 2015=1,422,566,934 EUR, 2020=1,627,453,431 EUR, 2022=1,638,131,958 EUR, 2023=1,717,078,911 EUR.",
+      "verwaltung_2021": "DGUV Jahresbilanz 2021 press release (dguv.de/webcode.jsp?query=dp1319661): 1.62 Mrd EUR for Verwaltung und Verfahren.",
+      "verwaltung_2024": "DGUV Jahresbilanz 2024 press release (dguv.de/de/mediencenter/pm/bilanz-2024.jsp): 1.8 Mrd EUR, +6.6% vs 2023.",
+      "verwaltung_2016_2019": "Linear interpolation between 2015 (1.423 Mrd) and 2020 (1.627 Mrd) official values.",
+      "entschaedigung_heilbehandlung_renten_praevention": "DGUV Statistiken für die Praxis 2024 (official time series, Übersichten 35-39)."
+    },
+    "notes": [
+      "The DGUV covers workplace accident insurance and occupational disease prevention.",
+      "Revenue comes primarily from employer contributions (Umlagen), not from employee wages.",
+      "Total value = sum of 4 children categories representing core operational expenditures.",
+      "Verwaltung, Verfahren und Sonstige includes: Verwaltungs- und Verfahrenskosten (admin + procedural costs from DGUV GRE, Kontenklassen 70-79) plus small Entschädigungsleistungen items not captured in Heilbehandlung or Renten (Abfindungen, Beihilfen, Leistungen zur Teilhabe am Arbeitsleben, approx 0.35-0.40 Mrd/year).",
+      "Children values sum exactly to parent value.",
+      "Values in EUR integers (Mrd EUR * 1,000,000,000, rounded to nearest million).",
+      "Verwaltungskosten for 2016-2019 are interpolated; all other figures are from official DGUV publications."
+    ],
+    "updated": "2026-04-06"
+  },
+  "2015": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 12489000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5457000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4084000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1825000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1123000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 12333000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2016": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 12891000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5576000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4279000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1867000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1169000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 12730000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2017": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 13175000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5655000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4417000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1905000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1198000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 13109000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2018": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 13467000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5726000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4583000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1934000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1224000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 13091000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2019": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 13996000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5815000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4909000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1987000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1285000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 14084000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2020": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 14057000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5928000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4874000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 2025000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1230000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 13909000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2021": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 14035000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5903000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 4910000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1997000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1225000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 12379000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2022": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 14346000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 5911000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 5151000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 1986000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1298000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 15084000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2023": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 15066000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 6052000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 5554000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 2065000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1395000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 15876000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  },
+  "2024": {
+    "id": "sv_dguv",
+    "name": "Gesetzliche Unfallversicherung (DGUV)",
+    "value": 15594000000,
+    "children": [
+      {
+        "id": "sv_dguv_renten",
+        "name": "Renten und Entschädigungsleistungen",
+        "value": 6193000000
+      },
+      {
+        "id": "sv_dguv_heilbehandlung",
+        "name": "Heilbehandlung (medizinische Versorgung)",
+        "value": 5766000000
+      },
+      {
+        "id": "sv_dguv_sonstige",
+        "name": "Verwaltung, Verfahren und Sonstige",
+        "value": 2139000000
+      },
+      {
+        "id": "sv_dguv_praevention",
+        "name": "Prävention",
+        "value": 1496000000
+      }
+    ],
+    "_revenue": {
+      "umlagen": 16353000000,
+      "note": "Umlagen (employer contributions) from DGUV Statistiken für die Praxis."
+    }
+  }
+}

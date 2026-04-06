@@ -1,0 +1,91 @@
+{
+  "id": "laender",
+  "name": "Länder (Bundesländer)",
+  "value": 562352900000,
+  "year": 2024,
+  "source": "Destatis Kassenergebnis Q1-Q4 2024 (Tabelle 71511-09), Bereinigte Ausgaben der Länder (ohne Gemeinden)",
+  "unit": "EUR",
+  "note": "Cash-basis quarterly data (Kassenergebnis), not final accounts (Rechnungsergebnis). Functional breakdown per state (Aufgabenbereiche) not available in this source. National COFOG breakdown available in laender_eurostat_2024.json via Eurostat.",
+  "children": [
+    {
+      "id": "laender_nw",
+      "name": "Nordrhein-Westfalen",
+      "value": 107533400000
+    },
+    {
+      "id": "laender_by",
+      "name": "Bayern",
+      "value": 77501900000
+    },
+    {
+      "id": "laender_bw",
+      "name": "Baden-Württemberg",
+      "value": 68355100000
+    },
+    {
+      "id": "laender_ni",
+      "name": "Niedersachsen",
+      "value": 46887200000
+    },
+    {
+      "id": "laender_be",
+      "name": "Berlin",
+      "value": 46620100000
+    },
+    {
+      "id": "laender_he",
+      "name": "Hessen",
+      "value": 42957400000
+    },
+    {
+      "id": "laender_hh",
+      "name": "Hamburg",
+      "value": 30354500000
+    },
+    {
+      "id": "laender_sn",
+      "name": "Sachsen",
+      "value": 25214000000
+    },
+    {
+      "id": "laender_rp",
+      "name": "Rheinland-Pfalz",
+      "value": 24499300000
+    },
+    {
+      "id": "laender_sh",
+      "name": "Schleswig-Holstein",
+      "value": 18701500000
+    },
+    {
+      "id": "laender_bb",
+      "name": "Brandenburg",
+      "value": 18138500000
+    },
+    {
+      "id": "laender_st",
+      "name": "Sachsen-Anhalt",
+      "value": 14527000000
+    },
+    {
+      "id": "laender_th",
+      "name": "Thüringen",
+      "value": 13404900000
+    },
+    {
+      "id": "laender_mv",
+      "name": "Mecklenburg-Vorpommern",
+      "value": 11757200000
+    },
+    {
+      "id": "laender_hb",
+      "name": "Bremen",
+      "value": 10101500000
+    },
+    {
+      "id": "laender_sl",
+      "name": "Saarland",
+      "value": 7044000000
+    }
+  ]
+}

@@ -1,0 +1,1161 @@
+{
+  "_metadata": {
+    "description": "Bundesagentur fuer Arbeit (BA) - Expenditure breakdown",
+    "sources": {
+      "2015": "BA Jahresrechnung 2015 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung2015_ba031500.pdf",
+      "2016": "BA Jahresrechnung 2016 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung2016_ba031505.pdf",
+      "2017": "BA Jahresrechnung 2017 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung2017_ba031510.pdf",
+      "2018": "BA Jahresrechnung 2018 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung2018_ba029145.pdf",
+      "2019": "BA Jahresrechnung 2019 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung-der-ba-2019_ba031535.pdf",
+      "2020": "BA Jahresrechnung 2020 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresabrechnung-2020_ba033995.pdf",
+      "2021": "BA Jahresrechnung 2021 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung-der-ba-2021_ba042819.pdf",
+      "2022": "BA Jahresrechnung 2022 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung-der-ba-2022_ba046142.pdf",
+      "2023": "BA Jahresrechnung 2023 (Ist-Zahlen), https://www.arbeitsagentur.de/datei/jahresrechnung-der-ba-2023_ba052766.pdf",
+      "2024": "BA Jahresrechnung 2024 (Ist-Zahlen), downloaded from https://www.arbeitsagentur.de/datei/jahresrechnung-der-ba-2024_ba056179.pdf. All figures are actual (Ist) expenditures from the Gesamtrechnung and chapter-level Abschluss pages.",
+      "2025": "BA Haushaltsplan 2026 Kurzfassung (Ist-Zahlen 2025 in TEUR), https://www.arbeitsagentur.de/datei/haushaltsplan-2026_ba056174.pdf, page 1 (Kurzfassung). Supplemented by FEBA SGB III table from Finanzentwicklung Jahresbericht 2025, https://www.arbeitsagentur.de/datei/2025-bericht-finanzentwicklung-arbeitslosenversicherung_ba056264.pdf. All figures are actual (Ist) full-year 2025 expenditures. Values converted from TEUR to EUR (hence all end in 000). Sub-item splits for Kap 4 (ALG vs Erstattung ausl. VT) and Kap 3 (Transfer-KuG vs Transfermassnahmen) derived from FEBA Mio EUR data and may have rounding deviations of up to 100 TEUR."
+    },
+    "notes": [
+      "The BA budget is organized into 6 Kapitel (chapters).",
+      "Kapitel 1: Beitragshaushalt (revenue side + reserve transactions).",
+      "Kapitel 2: Eingliederungstitel (integration budget per Paragraph 71b SGB IV).",
+      "Kapitel 3: Aktive Arbeitsfoerderung outside the Eingliederungstitel, PLUS Kurzarbeitergeld.",
+      "Kapitel 4: Passive Leistungen (ALG I, Insolvenzgeld, etc.).",
+      "Kapitel 5: Verwaltungsausgaben SGB III, Familienkasse, SGB II resource provision.",
+      "Kapitel 6: SGB II personnel costs in joint institutions (gemeinsame Einrichtungen).",
+      "Kurzarbeitergeld (KuG) is booked under Kapitel 3, not Kapitel 4.",
+      "2020-2021: COVID-19 caused massive KuG expenditure (12.6 Mrd + 9.5 Mrd SV-Erstattung in 2020, 12.1 Mrd + 8.1 Mrd in 2021).",
+      "Children values sum exactly to parent value (rounding differences of max 1 EUR from cent truncation).",
+      "All values are EUR integers (cents rounded).",
+      "For 2015-2019, SV-Erstattungen bei KuG (Leistung 3-68301-00-5060) did not exist as a separate line item; only Saison-KuG SV-Erstattungen (683 11) are tracked."
+    ],
+    "updated": "2026-04-06"
+  },
+  "2015": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 35685432669,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 15618807261,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 14824641134
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 653840611
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 118601948
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 21723567
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 5597388456
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 5553692174,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 136527674
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 250595248
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 196459674
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 84509512,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 7042479
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4878557587,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2337127744,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2331925871
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 4246491163,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2016": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 36881630893,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 15150892097,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 14403671139
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 595207473
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 120644098
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 31369387
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 5313501370
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 5113217169,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 135572022
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 249056995
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 177923715
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 91283937,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 5827645
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4453552855,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2994573556,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2317055105
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 5992391596,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2017": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 38343159635,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 14882086261,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 14016770042
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 686715404
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 140176195
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 38424620
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 6443923500
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 5072200732,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 89193428
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 290395764
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 171202805
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 97372818,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 5360746
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4418675171,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2926742632,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2542323362
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 6475883149,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2018": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 39947856119,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 14486972129,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 13730266865
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 588048915
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 141567494
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 27088855
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 8129199583
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 5031018163,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 59588803
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 317291750
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 144936883
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 104404033,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 3241332
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4401555362,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2843471650,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2616747775
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 6840446818,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2019": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 36114249328,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 15981514742,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 14983087164
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 842040674
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 130563115
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 25823789
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 6251677344
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 5215520633,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 157134862
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 272652048
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 133561064
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 106448653,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 4497754
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4541226252,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 3019154902,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2685163474
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 2961218234,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2020": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 61085010990,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 21959156152,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 20588897699
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 1213517311
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 128464017
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 28277125
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 6076388810
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 27348576773,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 12576393630
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 255418497
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 202055709
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 9592439592,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 5635569
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4716633776,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2922928516,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2706312647
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 71648092,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2021": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 58733821189,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 20112262139,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 19412191388
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 492618582
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 159703425
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 47748745
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 6080146260
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 25847454291,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 12120321291
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 418775679
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 355512939
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 8195033283,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 8946099
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4748865000,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2785588478,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2744340070
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 1164029950,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2022": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 38254320640,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 17291017723,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 16526457723
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 534004778
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 168875942
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 61679280
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 6256475402
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 8600833368,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 2272447707
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 303911881
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 241185997
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 1052878577,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 5486339
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 4724922867,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2553699910,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 2828332727
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 723961511,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2023": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 42739393383,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 20188150600,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 18761800853
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 1236348786
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 153159571
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 36841390
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 7006407357
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 6260955904,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, and all other active labor market instruments.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 499599168
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 373390381
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 124401970
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": 3430759,
+            "_note": "Erstattung von SV-Beitraegen an Arbeitgeber bei Bezug von KuG/Saison-KuG."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 4959019
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 5255174607,
+            "_note": "Vocational training, wage subsidies, activation/placement vouchers, rehabilitation, disability support, etc."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 2772339185,
+        "_note": "Integration budget per Paragraph 71b SGB IV."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 3004851568
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 3506688770,
+        "_note": "Reserve transactions: Zufuehrung Ruecklage, Insolvenzgeldruecklage, Winterbeschaeftigungsruecklage, Tilgung Bundesdarlehen."
+      }
+    ]
+  },
+  "2024": {
+    "id": "sv_ba",
+    "name": "Bundesagentur für Arbeit (BA)",
+    "value": 45831276474,
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 23958822700,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 22155938665
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 1612754012
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungsträger",
+            "value": 148695542
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggü. ausländischen Versicherungsträgern",
+            "value": 41434481
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 7714932952,
+        "children": [
+          {
+            "id": "sv_ba_verwaltung_personal",
+            "name": "Personalausgaben",
+            "value": 5576234372
+          },
+          {
+            "id": "sv_ba_verwaltung_saechlich",
+            "name": "Sächliche Verwaltungsausgaben",
+            "value": 1517987704
+          },
+          {
+            "id": "sv_ba_verwaltung_zuweisungen",
+            "name": "Zuweisungen und Zuschüsse",
+            "value": 482158290
+          },
+          {
+            "id": "sv_ba_verwaltung_invest",
+            "name": "Investitionen",
+            "value": 138552586
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsförderung (Kapitel 3)",
+        "value": 7125410091,
+        "_note": "Includes Kurzarbeitergeld SV-Erstattungen (298 Mio), Schwerbehinderten-Zuschüsse (101 Mio), EU-Mobilität, and other active labor market instruments outside the Eingliederungstitel."
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 3232556623,
+        "_note": "Integration budget per §71b SGB IV. Includes vocational training, wage subsidies, start-up grants, etc."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 3182665271,
+        "children": [
+          {
+            "id": "sv_ba_sgb2_personal_entgelte",
+            "name": "Personalausgaben",
+            "value": 3175029111
+          },
+          {
+            "id": "sv_ba_sgb2_personal_saechlich",
+            "name": "Sächliche Verwaltungsausgaben (SGB II üKo)",
+            "value": 7636160
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 616888837,
+        "_note": "Reserve transactions: Zuführung Rücklage 492.6 Mio, Insolvenzgeldrücklage 44.3 Mio, Winterbeschäftigungsrücklage 80.0 Mio.",
+        "children": [
+          {
+            "id": "sv_ba_finanz_ruecklage",
+            "name": "Zuführung zur Rücklage",
+            "value": 492558338
+          },
+          {
+            "id": "sv_ba_finanz_winterbau",
+            "name": "Zuführung Winterbeschäftigungsrücklage",
+            "value": 80017270
+          },
+          {
+            "id": "sv_ba_finanz_insolvenz",
+            "name": "Zuführung Insolvenzgeldrücklage",
+            "value": 44313229
+          }
+        ]
+      }
+    ],
+    "_revenue": {
+      "total": 45831276474,
+      "breakdown": {
+        "beitraege_umlagen": 39392023057,
+        "verwaltungseinnahmen": 223552380,
+        "zuweisungen_zuschüsse": 4993345242,
+        "besondere_finanzierungseinnahmen": 1222355796
+      },
+      "_detail_finanzierungseinnahmen": {
+        "eingliederungsruecklage": 401256892,
+        "insolvenzgeldruecklage": 821098904,
+        "winterbeschäftigungsruecklage": 0,
+        "ruecklage": 0,
+        "darlehen_bund": 0
+      },
+      "note": "Revenue from Gesamtrechnung of BA Jahresrechnung 2024."
+    }
+  },
+  "2025": {
+    "id": "sv_ba",
+    "name": "Bundesagentur fuer Arbeit (BA)",
+    "value": 52424663000,
+    "_note": "Ist 2025 (actual full-year). Total = Kap 2-6 (52,038,174 TEUR) + Kap 1 Finanzierungsausgaben (386,489 TEUR). Source: Kurzfassung Haushaltsplan 2026, Ist 2025 column.",
+    "children": [
+      {
+        "id": "sv_ba_passive",
+        "name": "Passive Leistungen (Kapitel 4)",
+        "value": 28715684000,
+        "children": [
+          {
+            "id": "sv_ba_alg",
+            "name": "Arbeitslosengeld bei Arbeitslosigkeit",
+            "value": 26469377000,
+            "_note": "Derived: Kurzfassung 'ALG / Erst. an ausl. Vers.-traeger' (26,509,077 TEUR) minus Erstattung ausl. VT (39,700 TEUR from FEBA). Actual ALG I recipients averaged 999,000 in 2025 (vs 852,000 budgeted)."
+          },
+          {
+            "id": "sv_ba_insolvenzgeld",
+            "name": "Insolvenzgeld",
+            "value": 1686753000
+          },
+          {
+            "id": "sv_ba_sv_erstattung",
+            "name": "Zuweisungen an andere Sozialversicherungstraeger",
+            "value": 158854000,
+            "_note": "Erstattungen an die Renten- und Pflegeversicherung."
+          },
+          {
+            "id": "sv_ba_ausland_erstattung",
+            "name": "Erstattung ggue. auslaendischen Versicherungstraegern",
+            "value": 39700000,
+            "_note": "From FEBA table (39.7 Mio EUR). Residual rounding vs Kurzfassung combined line."
+          },
+          {
+            "id": "sv_ba_aufwendungsersatz_reha",
+            "name": "Aufwendungsersatz Uebergang FbW/Reha an den Bund",
+            "value": 361000000,
+            "_note": "New item in 2025 per Paragraph 459 SGB III. One-time transition cost for transfer of vocational rehabilitation responsibilities."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_verwaltung",
+        "name": "Verwaltungsausgaben SGB III, Familienkasse & SGB II-Ressourcen (Kapitel 5)",
+        "value": 8123440000
+      },
+      {
+        "id": "sv_ba_aktiv_kap3",
+        "name": "Aktive Arbeitsfoerderung (Kapitel 3)",
+        "value": 8150457000,
+        "_note": "Includes Kurzarbeitergeld, Saison-KuG, Transfer-KuG, SV-Erstattungen for KuG, rehabilitation, vocational training, and all other active labor market instruments outside the Eingliederungstitel.",
+        "children": [
+          {
+            "id": "sv_ba_kug",
+            "name": "Kurzarbeitergeld (konjunkturell)",
+            "value": 892633000,
+            "_note": "Gross KuG payments. Net of SV-Erstattung: 886,697 TEUR. Average 240,000 short-time workers in 2025."
+          },
+          {
+            "id": "sv_ba_saison_kug",
+            "name": "Saison-Kurzarbeitergeld",
+            "value": 383180000
+          },
+          {
+            "id": "sv_ba_transfer_kug",
+            "name": "Transferkurzarbeitergeld",
+            "value": 273970000,
+            "_note": "Derived from FEBA (273.9 Mio) adjusted to match Kurzfassung Transferleistungen total (279,370 TEUR)."
+          },
+          {
+            "id": "sv_ba_kug_sv_erst",
+            "name": "SV-Erstattungen bei Kurzarbeitergeld",
+            "value": -5936000,
+            "_note": "Negative: net refunds of SV contributions exceeded new advances in 2025 (wind-down of COVID-era SV-Erstattung claims)."
+          },
+          {
+            "id": "sv_ba_transfer_massn",
+            "name": "Foerderung von Transfermassnahmen",
+            "value": 5400000,
+            "_note": "From FEBA (5.4 Mio EUR)."
+          },
+          {
+            "id": "sv_ba_aktiv_sonstige",
+            "name": "Sonstige aktive Arbeitsfoerderung",
+            "value": 6601210000,
+            "_note": "Includes: Teilhabe Menschen mit Behinderungen (3,127 Mio), AlgW bei Weiterbildung (1,640 Mio), Erwerb Berufsabschluss (810 Mio), Foerderung Berufsausbildung (478 Mio), gesondert refinanzierte Ausgaben (542 Mio), Vermittlungsgutscheine (1 Mio), Sonstiges (4 Mio)."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_eingliederung",
+        "name": "Eingliederungstitel (Kapitel 2)",
+        "value": 3747784000,
+        "_note": "Integration budget per Paragraph 71b SGB IV. Soll was 4,025,100 TEUR; actual 6.9% below budget."
+      },
+      {
+        "id": "sv_ba_sgb2_personal",
+        "name": "SGB II-Personalkosten in gemeinsamen Einrichtungen (Kapitel 6)",
+        "value": 3300809000,
+        "children": [
+          {
+            "id": "sv_ba_sgb2_personal_entgelte",
+            "name": "Personalausgaben",
+            "value": 3293799000,
+            "_note": "Kurzfassung 3,293,800 TEUR adjusted by -1 TEUR so children sum to parent (TEUR rounding)."
+          },
+          {
+            "id": "sv_ba_sgb2_personal_saechlich",
+            "name": "Saechliche Verwaltungsausgaben (SGB II ueKo)",
+            "value": 7010000,
+            "_note": "Ueberregionale Aufgaben SGB II ohne Personal."
+          }
+        ]
+      },
+      {
+        "id": "sv_ba_finanzierung",
+        "name": "Besondere Finanzierungsausgaben (Kapitel 1)",
+        "value": 386489000,
+        "_note": "Net Zufuehrung to umlagefinanzierte Ruecklagen (Insolvenzgeld + Winterbeschaeftigung) = 386,489 TEUR. No Zufuehrung to allgemeine or Eingliederungsruecklage in 2025 (both were fully depleted). No Tilgung Bundesdarlehen. Breakdown not available at title level from Kurzfassung; only net figure."
+      }
+    ],
+    "_revenue": {
+      "total": 47805998000,
+      "note": "Einnahmen Kapitel 1 from Kurzfassung Ist 2025 (47,805,998 TEUR). Beitraege 39,909,466 TEUR, Winterumlage 514,306 TEUR, Insolvenzgeldumlage 2,020,983 TEUR, VK-Erstattungen SGB II 4,190,872 TEUR, sonstige Erstattungen/VE 1,170,371 TEUR."
+    },
+    "_deficit": {
+      "finanzierungssaldo": -4232176000,
+      "nach_umlagefinanzierten_ruecklagen": -4618665000,
+      "entnahme_allgemeine_ruecklage": 3181267000,
+      "darlehen_bund": 1437398000,
+      "note": "Deficit of 4.23 Mrd EUR covered by: complete depletion of allgemeine + Eingliederungsruecklage (3.18 Mrd) and Bundesdarlehen (1.44 Mrd). First federal loan to BA since 2010."
+    }
+  }
+}

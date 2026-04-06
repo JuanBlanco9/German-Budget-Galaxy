@@ -1146,8 +1146,8 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
       <h1 style="font-size:28px;font-weight:700;margin-bottom:8px">About German Budget Galaxy</h1>
 
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">What is this?</h2>
-      <p style="margin-bottom:12px">An interactive visualization of the entire German federal budget (Bundeshaushalt 2024) &mdash; &euro;476.8 billion across 25 ministries, 216 departments, and 4,388 individual budget items.</p>
-      <p style="margin-bottom:20px">Every sphere you see represents a real budget allocation. The size is proportional to the amount. Click any sphere to explore what&rsquo;s inside. Zoom in to see the details. Every euro is traceable to an official line item in the Bundeshaushalt.</p>
+      <p style="margin-bottom:12px">An interactive visualization of total public spending in Germany, the US, France, and the UK. Germany alone: &euro;2.3 trillion across federal budget (Bundeshaushalt), social insurance (GKV, pensions, unemployment, care, accidents), 16 federal states, and municipalities.</p>
+      <p style="margin-bottom:20px">Every sphere you see represents a real budget allocation. The size is proportional to the amount. Click any sphere to explore what&rsquo;s inside. Zoom in to see the details. Every euro, dollar, and pound is traceable to an official source.</p>
 
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Why does this exist?</h2>
       <p style="margin-bottom:12px">The German federal budget is public. It is published annually by the Bundesministerium der Finanzen. Anyone can look it up.</p>
@@ -3451,6 +3451,124 @@ let galaxySidebarOpen=false;
 let galaxyLang='en'; // 'de' or 'en' — global language setting
 
 const galaxyTranslations={
+// Root names (after integration)
+'Germany Public Spending 2015':'Germany Public Spending 2015',
+'Germany Public Spending 2016':'Germany Public Spending 2016',
+'Germany Public Spending 2017':'Germany Public Spending 2017',
+'Germany Public Spending 2018':'Germany Public Spending 2018',
+'Germany Public Spending 2019':'Germany Public Spending 2019',
+'Germany Public Spending 2020':'Germany Public Spending 2020',
+'Germany Public Spending 2021':'Germany Public Spending 2021',
+'Germany Public Spending 2022':'Germany Public Spending 2022',
+'Germany Public Spending 2023':'Germany Public Spending 2023',
+'Germany Public Spending 2024':'Germany Public Spending 2024',
+'Germany Public Spending 2025':'Germany Public Spending 2025',
+// New top-level branches
+'Sozialversicherung (Social Insurance)':'Social Insurance',
+'Länder (Federal States)':'Federal States (Länder)',
+'Kommunen (Municipalities)':'Municipalities (Kommunen)',
+// Sozialversicherung sub-branches
+'Gesetzliche Krankenversicherung (GKV)':'Statutory Health Insurance (GKV)',
+'Gesetzliche Rentenversicherung (GRV)':'Statutory Pension Insurance (GRV)',
+'Soziale Pflegeversicherung':'Long-term Care Insurance',
+'Gesetzliche Unfallversicherung (DGUV)':'Statutory Accident Insurance (DGUV)',
+// GKV categories
+'Krankenhausbehandlung':'Hospital Treatment',
+'Ärztliche Behandlung':'Physician Services',
+'Arzneimittel':'Pharmaceuticals',
+'Zahnärztliche Behandlung':'Dental Care',
+'Krankengeld':'Sick Pay',
+'Heilmittel':'Therapeutic Remedies',
+'Hilfsmittel':'Medical Aids & Devices',
+'Sonstige Leistungsausgaben':'Other Health Benefits',
+// Rente categories
+'Rentenzahlungen (netto)':'Pension Payments (net)',
+'Krankenversicherung der Rentner (KVdR, netto)':'Health Insurance for Retirees (KVdR)',
+'Leistungen zur Teilhabe / Rehabilitation (netto)':'Rehabilitation Services',
+'Verwaltungs- und Verfahrenskosten':'Administrative Costs',
+'Sonstige Ausgaben (inkl. ZV/SV-Saldo, KLG, Beitragserstattungen)':'Other Expenditures',
+// BA categories
+'Passive Leistungen':'Passive Benefits (Unemployment)',
+'Arbeitslosengeld':'Unemployment Benefit (ALG I)',
+'Insolvenzgeld':'Insolvency Pay',
+'Kurzarbeitergeld (konjunkturell)':'Short-time Work Allowance',
+'Verwaltungsausgaben':'Administrative Costs',
+'Aktive Arbeitsförderung':'Active Labour Market Policies',
+'Eingliederungstitel':'Integration Budget',
+'SGB II Verwaltungskostenerstattung':'SGB II Admin Reimbursement',
+'Finanzierungsausgaben':'Financing Expenditure',
+// Pflege categories
+'Geldleistung':'Cash Care Allowance',
+'Pflegegeld':'Care Allowance',
+'Vollstationäre Pflege':'Full Inpatient Care',
+'Pflegesachleistung':'Professional Outpatient Care',
+'Soziale Sicherung der Pflegepersonen':'Social Security for Caregivers',
+'Verhinderungspflege':'Respite Care',
+'Tages-/Nachtpflege':'Day/Night Care',
+'Kurzzeitpflege':'Short-term Care',
+'Sonstige Leistungen':'Other Care Benefits',
+// DGUV categories
+'Renten und Entschädigungen':'Pensions & Compensation',
+'Heilbehandlung':'Medical Treatment',
+'Prävention':'Workplace Safety Prevention',
+'Verwaltung, Verfahren und Sonstiges':'Admin & Other Costs',
+// German states (Länder)
+'Nordrhein-Westfalen':'North Rhine-Westphalia',
+'Bayern':'Bavaria',
+'Baden-Württemberg':'Baden-Württemberg',
+'Niedersachsen':'Lower Saxony',
+'Hessen':'Hesse',
+'Berlin':'Berlin',
+'Sachsen':'Saxony',
+'Rheinland-Pfalz':'Rhineland-Palatinate',
+'Schleswig-Holstein':'Schleswig-Holstein',
+'Hamburg':'Hamburg',
+'Brandenburg':'Brandenburg',
+'Thüringen':'Thuringia',
+'Sachsen-Anhalt':'Saxony-Anhalt',
+'Mecklenburg-Vorpommern':'Mecklenburg-West Pomerania',
+'Saarland':'Saarland',
+'Bremen':'Bremen',
+// Aufgabenbereiche (functional categories in Länder)
+'Allgemeinbildende und berufliche Schulen':'General & Vocational Schools',
+'Hochschulen':'Universities',
+'Politische Führung und zentrale Verwaltung':'Political Leadership & Central Admin',
+'Öffentliche Sicherheit und Ordnung':'Public Safety & Order',
+'Soziale Sicherung, soziale Kriegsfolgeaufgaben, Wiedergutmachung':'Social Security & War Reparations',
+'Rechtsschutz':'Legal Protection',
+'Finanzverwaltung':'Tax Administration',
+'Wohnungswesen, Städtebau, Raumordnung und kommunale Gemeinschaftsdienste':'Housing, Urban Dev. & Municipal Services',
+'Ernährung, Landwirtschaft und Forsten':'Food, Agriculture & Forestry',
+'Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen':'Energy, Water & Commerce',
+'Verkehrs- und Nachrichtenwesen':'Transport & Communications',
+'Wissenschaft, Forschung, Entwicklung außerhalb der Hochschulen':'Science & Research (non-university)',
+'Gesundheit, Umwelt, Sport und Erholung':'Health, Environment & Sport',
+'Allgemeine Finanzwirtschaft':'General Financial Admin',
+// COFOG categories (Eurostat - used for Kommunen/Länder aggregate)
+'General public services':'General Public Services',
+'Public order and safety':'Public Order & Safety',
+'Economic affairs':'Economic Affairs',
+'Environment protection':'Environment Protection',
+'Housing and community amenities':'Housing & Community',
+'Health':'Health',
+'Recreation, culture and religion':'Culture & Recreation',
+'Education':'Education',
+'Social protection':'Social Protection',
+// UK Local Authorities
+'Local Authorities (England)':'Local Authorities (England)',
+'Education Services':'Education Services',
+'Adult Social Care':'Adult Social Care',
+'Children\'s Social Care':'Children\'s Social Care',
+'Police Services':'Police Services',
+'Fire and Rescue Services':'Fire & Rescue Services',
+'Highways and Transport':'Highways & Transport',
+'Housing Services':'Housing Services',
+'Public Health':'Public Health',
+'Environmental and Regulatory Services':'Environmental Services',
+'Cultural and Related Services':'Cultural Services',
+'Planning and Development':'Planning & Development',
+'Central Services':'Central Services',
+'Other Services':'Other Services',
 // Einzelpläne (top-level ministries)
 'Bundeshaushalt 2024':'Federal Budget 2024',
 'Bundesministerium für Arbeit und Soziales':'Ministry of Labour & Social Affairs',
@@ -3856,7 +3974,7 @@ function getBudgetDesc(node){
   const descs=galaxyLang==='de'?budgetDescDE:budgetDescEN;
   if(descs[id]) return descs[id];
 
-  // Check programme enrichment
+  // Check programme enrichment (now includes DE sozialversicherung + laender)
   const progEnr=(PROGRAM_ENRICHMENT[currentCountry]||{})[name];
   if(progEnr) return progEnr.d;
 
@@ -3989,6 +4107,10 @@ function getTemplateInsights(node){
 }
 
 const _trCache={};
+// Load additional translations for new branches (Sozialversicherung, Länder, etc.)
+fetch('/data/de/translations_new_branches.json').then(r=>r.ok?r.json():{}).then(d=>{
+  Object.entries(d).forEach(([k,v])=>{if(typeof v==='string'&&!galaxyTranslations[k]) galaxyTranslations[k]=v});
+}).catch(()=>{});
 function trFR(name){return frTranslations[name]||name}
 function trG(name){
   const clean=cleanBudgetName(name);
@@ -4170,8 +4292,30 @@ const SPEND_TYPE_LABELS={Personnel:'Personnel',Benefits:'Benefits & Pensions',Eq
 const PROGRAM_ENRICHMENT={};
 const _enrLoading={};
 async function loadProgramEnrichments(cc){
-  if(cc==="de"||PROGRAM_ENRICHMENT[cc]) return;
+  if(PROGRAM_ENRICHMENT[cc]) return;
   if(_enrLoading[cc]) return _enrLoading[cc];
+  if(cc==="de"){
+    // Load DE enrichments: sozialversicherung + laender + existing program_enrichment
+    _enrLoading[cc]=Promise.all([
+      fetch('/data/de/sozialversicherung_enrichment.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
+      fetch('/data/de/laender_enrichment.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
+      fetch('/data/de/program_enrichment.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
+    ]).then(([sv,la,prog])=>{
+      PROGRAM_ENRICHMENT[cc]={...prog,...sv,...la};
+      delete _enrLoading[cc];
+    }).catch(e=>{console.warn("DE enrichment load failed:",e);delete _enrLoading[cc]});
+    return _enrLoading[cc];
+  }
+  if(cc==="fr"){
+    _enrLoading[cc]=Promise.all([
+      fetch('/data/fr/program_enrichment.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
+      fetch('/data/fr/securite_sociale/securite_sociale_enrichment.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
+    ]).then(([prog,ss])=>{
+      PROGRAM_ENRICHMENT[cc]={...prog,...ss};
+      delete _enrLoading[cc];
+    }).catch(e=>{console.warn("FR enrichment load failed:",e);delete _enrLoading[cc]});
+    return _enrLoading[cc];
+  }
   const url=`/data/${cc}/program_enrichment.json`;
   _enrLoading[cc]=fetch(url).then(r=>{if(!r.ok) throw r;return r.json()}).then(d=>{PROGRAM_ENRICHMENT[cc]=d;delete _enrLoading[cc]}).catch(e=>{console.warn("Enrichment load failed:",cc,e);delete _enrLoading[cc]});
   return _enrLoading[cc];
@@ -4418,7 +4562,7 @@ async function loadMultiverse(forceYear){
   const container=document.getElementById('multiverse-container');
   if(!container) return;
   // Preload enrichments for all countries
-  ['us','fr','uk'].forEach(c=>loadProgramEnrichments(c));
+  ['de','us','fr','uk'].forEach(c=>loadProgramEnrichments(c));
 
   if(forceYear) multiverseYear=forceYear;
 
@@ -5682,8 +5826,8 @@ function openGalaxyInfo(node){
     }
   }
 
-  // Programme-level enrichment for non-German countries (individual galaxy)
-  if(currentCountry!=='de'){
+  // Programme-level enrichment for ALL countries (including DE new branches)
+  {
     const progE=(PROGRAM_ENRICHMENT[currentCountry]||{})[node.data.name];
     if(progE&&!(MV_ENRICHMENT[currentCountry]||{})[node.data.name]){
       html+=`<div style="margin:10px 0;padding:10px;background:rgba(255,255,255,.04);border-radius:6px;border:1px solid var(--border)">`;
@@ -5706,6 +5850,14 @@ function openGalaxyInfo(node){
       Object.entries(spT).forEach(([k,v])=>{const p=v/spTot*100;if(p<2) return;html+=`<span style="font-size:9px;color:var(--dim);display:flex;align-items:center;gap:3px"><span style="width:6px;height:6px;border-radius:50%;background:${SPEND_TYPE_COLORS[k]||'#546e7a'}"></span>${SPEND_TYPE_LABELS[k]||k} ${p.toFixed(0)}%</span>`});
       html+=`</div></div>`;
     }
+  }
+
+  // Data disclaimer (partial year, limited breakdown, etc.)
+  if(node.data._disclaimer){
+    html+=`<div style="margin:10px 0;padding:8px 10px;background:rgba(255,193,7,.06);border-radius:6px;border:1px solid rgba(255,193,7,.2);display:flex;align-items:flex-start;gap:6px">`;
+    html+=`<span style="font-size:12px;flex-shrink:0">&#9432;</span>`;
+    html+=`<div style="font-size:10px;color:rgba(255,193,7,.85);line-height:1.5">${esc(node.data._disclaimer)}</div>`;
+    html+=`</div>`;
   }
 
   // Top children as mini bar list
@@ -5887,6 +6039,14 @@ function renderBudgetList(node){
     <div class="bl-sub">${pctOfTotal}% ${galaxyLang==='de'?'des Gesamthaushalts':'of total budget'} · ${children.length} ${children.length===1?(galaxyLang==='de'?'Bereich':'item'):(galaxyLang==='de'?'Bereiche':'items')}</div>
     <div style="font-size:13px;color:var(--dim);line-height:1.6;margin-top:10px;padding:12px 14px;background:rgba(255,255,255,.03);border-radius:8px;border-left:3px solid var(--accent)">${esc(nodeDesc)}</div>
   </div>`;
+
+  // Data disclaimer for partial/limited data
+  if(node.data._disclaimer){
+    html+=`<div style="margin:0 0 16px;padding:10px 14px;background:rgba(255,193,7,.06);border:1px solid rgba(255,193,7,.2);border-radius:8px;display:flex;align-items:flex-start;gap:8px">`;
+    html+=`<span style="font-size:14px;flex-shrink:0">&#9432;</span>`;
+    html+=`<div style="font-size:12px;color:rgba(255,193,7,.85);line-height:1.5">${esc(node.data._disclaimer)}</div>`;
+    html+=`</div>`;
+  }
 
   // Spending type breakdown (only for Germany — other countries don't have Titel-based classification)
   if(currentCountry==='de'&&analysis&&analysis.spendingTypes.length>1){

@@ -1,0 +1,682 @@
+{
+  "id": "uk_la_by_class",
+  "name": "Local Authorities by Type (England)",
+  "value": 134158661000,
+  "source": "MHCLG Revenue Outturn",
+  "sourceUrl": "https://assets.publishing.service.gov.uk/media/6937fe05e447374889cd8f4b/Revenue_Outturn_time_series_data_v3.1.csv",
+  "year": "2024-25",
+  "children": [
+    {
+      "id": "uk_la_other",
+      "name": "Other Authorities",
+      "value": 50552984000,
+      "children": [
+        {
+          "id": "uk_la_other_greater_london_authority",
+          "name": "Greater London Authority",
+          "value": 7758389000
+        },
+        {
+          "id": "uk_la_other_other",
+          "name": "Other (73 authorities)",
+          "value": 7713796000
+        },
+        {
+          "id": "uk_la_other_greater_manchester_police",
+          "name": "Greater Manchester Police",
+          "value": 922623000
+        },
+        {
+          "id": "uk_la_other_west_midlands_police_and_crime_commissioner_and_chief_constable",
+          "name": "West Midlands Police and Crime Commissioner and Chief Constable",
+          "value": 891590000
+        },
+        {
+          "id": "uk_la_other_greater_manchester_combined_authority",
+          "name": "Greater Manchester Combined Authority",
+          "value": 862102000
+        },
+        {
+          "id": "uk_la_other_west_yorkshire_police",
+          "name": "West Yorkshire Police",
+          "value": 672107000
+        },
+        {
+          "id": "uk_la_other_thames_valley_police_and_crime_commissioner_and_chief_constable",
+          "name": "Thames Valley Police and Crime Commissioner and Chief Constable",
+          "value": 649577000
+        },
+        {
+          "id": "uk_la_other_merseyside_police_and_crime_commissioner_and_chief_constable",
+          "name": "Merseyside Police and Crime Commissioner and Chief Constable",
+          "value": 490025000
+        },
+        {
+          "id": "uk_la_other_hampshire_police_and_crime_commissioner_and_chief_constable",
+          "name": "Hampshire Police and Crime Commissioner and Chief Constable",
+          "value": 464742000
+        },
+        {
+          "id": "uk_la_other_west_midlands_combined_authority",
+          "name": "West Midlands Combined Authority",
+          "value": 453101000
+        },
+        {
+          "id": "uk_la_other_kent_police_and_crime_commissioner_and_chief_constable",
+          "name": "Kent Police and Crime Commissioner and Chief Constable",
+          "value": 448961000
+        },
+        {
+          "id": "uk_la_other_devon_and_cornwall_police_and_crime_commissioner_and_chief_constable",
+          "name": "Devon & Cornwall Police and Crime Commissioner and Chief Constable",
+          "value": 447722000
+        },
+        {
+          "id": "uk_la_other_avon_and_somerset_police_and_crime_commissioner_and_chief_constable",
+          "name": "Avon & Somerset Police and Crime Commissioner and Chief Constable",
+          "value": 444528000
+        },
+        {
+          "id": "uk_la_other_essex_police_and_crime_commissioner_and_chief_constable",
+          "name": "Essex Police and Crime Commissioner and Chief Constable",
+          "value": 433283000
+        },
+        {
+          "id": "uk_la_other_south_yorkshire_police_and_crime_commissioner_and_chief_constable",
+          "name": "South Yorkshire Police and Crime Commissioner and Chief Constable",
+          "value": 410755000
+        },
+        {
+          "id": "uk_la_other_northumbria_police_and_crime_commissioner_and_chief_constable",
+          "name": "Northumbria Police and Crime Commissioner and Chief Constable",
+          "value": 399362000
+        },
+        {
+          "id": "uk_la_other_lancashire_police_and_crime_commissioner_and_chief_constable",
+          "name": "Lancashire Police and Crime Commissioner and Chief Constable",
+          "value": 397059000
+        },
+        {
+          "id": "uk_la_other_sussex_police_and_crime_commissioner_and_chief_constable",
+          "name": "Sussex Police and Crime Commissioner and Chief Constable",
+          "value": 392844000
+        },
+        {
+          "id": "uk_la_other_the_liverpool_city_region_combined_authority",
+          "name": "The Liverpool City Region Combined Authority",
+          "value": 372216000
+        },
+        {
+          "id": "uk_la_other_west_yorkshire_combined_authority",
+          "name": "West Yorkshire Combined Authority",
+          "value": 344138000
+        },
+        {
+          "id": "uk_la_other_west_mercia_police_and_crime_commissioner_and_chief_constable",
+          "name": "West Mercia Police and Crime Commissioner and Chief Constable",
+          "value": 307571000
+        }
+      ]
+    },
+    {
+      "id": "uk_la_shire_county",
+      "name": "Shire Counties",
+      "value": 31349600000,
+      "children": [
+        {
+          "id": "uk_la_shire_county_kent_cc",
+          "name": "Kent CC",
+          "value": 2710762000
+        },
+        {
+          "id": "uk_la_shire_county_hampshire_cc",
+          "name": "Hampshire CC",
+          "value": 2577416000
+        },
+        {
+          "id": "uk_la_shire_county_lancashire_cc",
+          "name": "Lancashire CC",
+          "value": 2476155000
+        },
+        {
+          "id": "uk_la_shire_county_essex_cc",
+          "name": "Essex CC",
+          "value": 2185979000
+        },
+        {
+          "id": "uk_la_shire_county_hertfordshire_cc",
+          "name": "Hertfordshire CC",
+          "value": 2075200000
+        },
+        {
+          "id": "uk_la_shire_county_surrey_cc",
+          "name": "Surrey CC",
+          "value": 1980851000
+        },
+        {
+          "id": "uk_la_shire_county_west_sussex_cc",
+          "name": "West Sussex CC",
+          "value": 1617917000
+        },
+        {
+          "id": "uk_la_shire_county_norfolk_cc",
+          "name": "Norfolk CC",
+          "value": 1473929000
+        },
+        {
+          "id": "uk_la_shire_county_derbyshire_cc",
+          "name": "Derbyshire CC",
+          "value": 1372883000
+        },
+        {
+          "id": "uk_la_shire_county_nottinghamshire_cc",
+          "name": "Nottinghamshire CC",
+          "value": 1324944000
+        },
+        {
+          "id": "uk_la_shire_county_devon_cc",
+          "name": "Devon CC",
+          "value": 1278854000
+        },
+        {
+          "id": "uk_la_shire_county_lincolnshire_cc",
+          "name": "Lincolnshire CC",
+          "value": 1137620000
+        },
+        {
+          "id": "uk_la_shire_county_staffordshire_cc",
+          "name": "Staffordshire CC",
+          "value": 1137410000
+        },
+        {
+          "id": "uk_la_shire_county_suffolk_cc",
+          "name": "Suffolk CC",
+          "value": 1099602000
+        },
+        {
+          "id": "uk_la_shire_county_oxfordshire_cc",
+          "name": "Oxfordshire CC",
+          "value": 1081302000
+        },
+        {
+          "id": "uk_la_shire_county_gloucestershire_cc",
+          "name": "Gloucestershire CC",
+          "value": 1069028000
+        },
+        {
+          "id": "uk_la_shire_county_east_sussex_cc",
+          "name": "East Sussex CC",
+          "value": 997868000
+        },
+        {
+          "id": "uk_la_shire_county_warwickshire_cc",
+          "name": "Warwickshire CC",
+          "value": 989120000
+        },
+        {
+          "id": "uk_la_shire_county_cambridgeshire_cc",
+          "name": "Cambridgeshire CC",
+          "value": 943704000
+        },
+        {
+          "id": "uk_la_shire_county_worcestershire_cc",
+          "name": "Worcestershire CC",
+          "value": 926184000
+        },
+        {
+          "id": "uk_la_shire_county_other",
+          "name": "Other (1 authorities)",
+          "value": 892871000
+        }
+      ]
+    },
+    {
+      "id": "uk_la_unitary",
+      "name": "Unitary Authorities",
+      "value": 30093886000,
+      "children": [
+        {
+          "id": "uk_la_unitary_other",
+          "name": "Other (41 authorities)",
+          "value": 13840285000
+        },
+        {
+          "id": "uk_la_unitary_north_yorkshire",
+          "name": "North Yorkshire",
+          "value": 1084909000
+        },
+        {
+          "id": "uk_la_unitary_durham_ua",
+          "name": "Durham UA",
+          "value": 1042491000
+        },
+        {
+          "id": "uk_la_unitary_cornwall_ua",
+          "name": "Cornwall UA",
+          "value": 1032527000
+        },
+        {
+          "id": "uk_la_unitary_buckinghamshire_ua",
+          "name": "Buckinghamshire UA",
+          "value": 1028232000
+        },
+        {
+          "id": "uk_la_unitary_somerset",
+          "name": "Somerset",
+          "value": 1010091000
+        },
+        {
+          "id": "uk_la_unitary_bristol_ua",
+          "name": "Bristol UA",
+          "value": 878773000
+        },
+        {
+          "id": "uk_la_unitary_wiltshire_ua",
+          "name": "Wiltshire UA",
+          "value": 827645000
+        },
+        {
+          "id": "uk_la_unitary_leicester_city_ua",
+          "name": "Leicester City UA",
+          "value": 813168000
+        },
+        {
+          "id": "uk_la_unitary_cheshire_west_and_chester_ua",
+          "name": "Cheshire West and Chester UA",
+          "value": 783327000
+        },
+        {
+          "id": "uk_la_unitary_dorset_ua",
+          "name": "Dorset UA",
+          "value": 721184000
+        },
+        {
+          "id": "uk_la_unitary_west_northamptonshire",
+          "name": "West Northamptonshire",
+          "value": 693270000
+        },
+        {
+          "id": "uk_la_unitary_east_riding_of_yorkshire_ua",
+          "name": "East Riding of Yorkshire UA",
+          "value": 685313000
+        },
+        {
+          "id": "uk_la_unitary_cheshire_east_ua",
+          "name": "Cheshire East UA",
+          "value": 669377000
+        },
+        {
+          "id": "uk_la_unitary_nottingham_city_ua",
+          "name": "Nottingham City UA",
+          "value": 660747000
+        },
+        {
+          "id": "uk_la_unitary_bournemouth_christchurch_and_poole_ua",
+          "name": "Bournemouth, Christchurch and Poole UA",
+          "value": 645594000
+        },
+        {
+          "id": "uk_la_unitary_northumberland_ua",
+          "name": "Northumberland UA",
+          "value": 604098000
+        },
+        {
+          "id": "uk_la_unitary_brighton_and_hove_ua",
+          "name": "Brighton & Hove UA",
+          "value": 603460000
+        },
+        {
+          "id": "uk_la_unitary_north_northamptonshire",
+          "name": "North Northamptonshire",
+          "value": 566026000
+        },
+        {
+          "id": "uk_la_unitary_southampton_ua",
+          "name": "Southampton UA",
+          "value": 558639000
+        },
+        {
+          "id": "uk_la_unitary_shropshire_ua",
+          "name": "Shropshire UA",
+          "value": 530981000
+        }
+      ]
+    },
+    {
+      "id": "uk_la_met",
+      "name": "Metropolitan Districts",
+      "value": 24499109000,
+      "children": [
+        {
+          "id": "uk_la_met_other",
+          "name": "Other (15 authorities)",
+          "value": 6619169000
+        },
+        {
+          "id": "uk_la_met_leeds",
+          "name": "Leeds",
+          "value": 1630879000
+        },
+        {
+          "id": "uk_la_met_manchester",
+          "name": "Manchester",
+          "value": 1264909000
+        },
+        {
+          "id": "uk_la_met_liverpool",
+          "name": "Liverpool",
+          "value": 1256501000
+        },
+        {
+          "id": "uk_la_met_sheffield",
+          "name": "Sheffield",
+          "value": 1119887000
+        },
+        {
+          "id": "uk_la_met_bradford",
+          "name": "Bradford",
+          "value": 1024566000
+        },
+        {
+          "id": "uk_la_met_kirklees",
+          "name": "Kirklees",
+          "value": 801256000
+        },
+        {
+          "id": "uk_la_met_wigan_mbc",
+          "name": "Wigan MBC",
+          "value": 710426000
+        },
+        {
+          "id": "uk_la_met_wirral",
+          "name": "Wirral",
+          "value": 698243000
+        },
+        {
+          "id": "uk_la_met_sandwell",
+          "name": "Sandwell",
+          "value": 661017000
+        },
+        {
+          "id": "uk_la_met_coventry",
+          "name": "Coventry",
+          "value": 648440000
+        },
+        {
+          "id": "uk_la_met_walsall",
+          "name": "Walsall",
+          "value": 640574000
+        },
+        {
+          "id": "uk_la_met_wakefield",
+          "name": "Wakefield",
+          "value": 632976000
+        },
+        {
+          "id": "uk_la_met_bolton",
+          "name": "Bolton",
+          "value": 605024000
+        },
+        {
+          "id": "uk_la_met_sefton",
+          "name": "Sefton",
+          "value": 600677000
+        },
+        {
+          "id": "uk_la_met_stockport_mbc",
+          "name": "Stockport MBC",
+          "value": 590025000
+        },
+        {
+          "id": "uk_la_met_salford",
+          "name": "Salford",
+          "value": 581287000
+        },
+        {
+          "id": "uk_la_met_dudley",
+          "name": "Dudley",
+          "value": 557997000
+        },
+        {
+          "id": "uk_la_met_newcastle",
+          "name": "Newcastle",
+          "value": 557709000
+        },
+        {
+          "id": "uk_la_met_doncaster",
+          "name": "Doncaster",
+          "value": 534975000
+        },
+        {
+          "id": "uk_la_met_oldham",
+          "name": "Oldham",
+          "value": 525855000
+        }
+      ]
+    },
+    {
+      "id": "uk_la_london",
+      "name": "London Boroughs",
+      "value": 19594071000,
+      "children": [
+        {
+          "id": "uk_la_london_other",
+          "name": "Other (13 authorities)",
+          "value": 5586515000
+        },
+        {
+          "id": "uk_la_london_tower_hamlets",
+          "name": "Tower Hamlets",
+          "value": 901121000
+        },
+        {
+          "id": "uk_la_london_lambeth",
+          "name": "Lambeth",
+          "value": 802887000
+        },
+        {
+          "id": "uk_la_london_ealing",
+          "name": "Ealing",
+          "value": 778377000
+        },
+        {
+          "id": "uk_la_london_lewisham",
+          "name": "Lewisham",
+          "value": 777911000
+        },
+        {
+          "id": "uk_la_london_hackney",
+          "name": "Hackney",
+          "value": 763533000
+        },
+        {
+          "id": "uk_la_london_newham",
+          "name": "Newham",
+          "value": 760874000
+        },
+        {
+          "id": "uk_la_london_croydon",
+          "name": "Croydon",
+          "value": 751660000
+        },
+        {
+          "id": "uk_la_london_barnet",
+          "name": "Barnet",
+          "value": 738934000
+        },
+        {
+          "id": "uk_la_london_greenwich",
+          "name": "Greenwich",
+          "value": 727404000
+        },
+        {
+          "id": "uk_la_london_southwark",
+          "name": "Southwark",
+          "value": 701125000
+        },
+        {
+          "id": "uk_la_london_redbridge",
+          "name": "Redbridge",
+          "value": 692349000
+        },
+        {
+          "id": "uk_la_london_camden",
+          "name": "Camden",
+          "value": 688466000
+        },
+        {
+          "id": "uk_la_london_enfield",
+          "name": "Enfield",
+          "value": 678887000
+        },
+        {
+          "id": "uk_la_london_brent",
+          "name": "Brent",
+          "value": 677719000
+        },
+        {
+          "id": "uk_la_london_islington",
+          "name": "Islington",
+          "value": 609824000
+        },
+        {
+          "id": "uk_la_london_haringey",
+          "name": "Haringey",
+          "value": 608978000
+        },
+        {
+          "id": "uk_la_london_hounslow",
+          "name": "Hounslow",
+          "value": 602812000
+        },
+        {
+          "id": "uk_la_london_waltham_forest",
+          "name": "Waltham Forest",
+          "value": 593520000
+        },
+        {
+          "id": "uk_la_london_barking_and_dagenham",
+          "name": "Barking & Dagenham",
+          "value": 584157000
+        },
+        {
+          "id": "uk_la_london_wandsworth",
+          "name": "Wandsworth",
+          "value": 567017000
+        }
+      ]
+    },
+    {
+      "id": "uk_la_shire_district",
+      "name": "Shire Districts",
+      "value": 3345504000,
+      "children": [
+        {
+          "id": "uk_la_shire_district_other",
+          "name": "Other (138 authorities)",
+          "value": 2518330000
+        },
+        {
+          "id": "uk_la_shire_district_east_suffolk",
+          "name": "East Suffolk",
+          "value": 52529000
+        },
+        {
+          "id": "uk_la_shire_district_colchester",
+          "name": "Colchester",
+          "value": 49810000
+        },
+        {
+          "id": "uk_la_shire_district_spelthorne",
+          "name": "Spelthorne",
+          "value": 39728000
+        },
+        {
+          "id": "uk_la_shire_district_cambridge",
+          "name": "Cambridge",
+          "value": 39091000
+        },
+        {
+          "id": "uk_la_shire_district_oxford",
+          "name": "Oxford",
+          "value": 37844000
+        },
+        {
+          "id": "uk_la_shire_district_cherwell",
+          "name": "Cherwell",
+          "value": 37507000
+        },
+        {
+          "id": "uk_la_shire_district_east_lindsey",
+          "name": "East Lindsey",
+          "value": 36746000
+        },
+        {
+          "id": "uk_la_shire_district_basingstoke_and_deane",
+          "name": "Basingstoke & Deane",
+          "value": 36162000
+        },
+        {
+          "id": "uk_la_shire_district_thanet",
+          "name": "Thanet",
+          "value": 35066000
+        },
+        {
+          "id": "uk_la_shire_district_basildon",
+          "name": "Basildon",
+          "value": 34837000
+        },
+        {
+          "id": "uk_la_shire_district_chelmsford",
+          "name": "Chelmsford",
+          "value": 33528000
+        },
+        {
+          "id": "uk_la_shire_district_preston",
+          "name": "Preston",
+          "value": 33473000
+        },
+        {
+          "id": "uk_la_shire_district_huntingdonshire",
+          "name": "Huntingdonshire",
+          "value": 30587000
+        },
+        {
+          "id": "uk_la_shire_district_east_hertfordshire",
+          "name": "East Hertfordshire",
+          "value": 30415000
+        },
+        {
+          "id": "uk_la_shire_district_norwich_city",
+          "name": "Norwich City",
+          "value": 30227000
+        },
+        {
+          "id": "uk_la_shire_district_elmbridge",
+          "name": "Elmbridge",
+          "value": 29740000
+        },
+        {
+          "id": "uk_la_shire_district_swale",
+          "name": "Swale",
+          "value": 29426000
+        },
+        {
+          "id": "uk_la_shire_district_ipswich",
+          "name": "Ipswich",
+          "value": 28937000
+        },
+        {
+          "id": "uk_la_shire_district_east_devon",
+          "name": "East Devon",
+          "value": 28935000
+        },
+        {
+          "id": "uk_la_shire_district_newcastleunderlyme",
+          "name": "Newcastle-under-Lyme",
+          "value": 28910000
+        }
+      ]
+    }
+  ]
+}

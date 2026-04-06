@@ -1,0 +1,185 @@
+{
+  "_description": "Complete registry of all data sources used in Budget Galaxy. Every number in the visualization must be traceable to an entry here.",
+  "_updated": "2026-04-06",
+
+  "de_bundeshaushalt": {
+    "name": "German Federal Budget (Bundeshaushalt)",
+    "years": "2015-2025",
+    "source": "Bundesministerium der Finanzen, bundeshaushalt.de",
+    "format": "CSV (semicolon-separated), downloaded per year",
+    "unit": "EUR (thousands in source, converted to EUR)",
+    "coverage": "Federal expenditure by Einzelplan > Kapitel > Titel",
+    "files": "data/bundeshaushalt_tree_YYYY.json",
+    "parser": "scripts/build_yearly_trees.js"
+  },
+
+  "de_gkv": {
+    "name": "Statutory Health Insurance (GKV)",
+    "years": "2015-2025",
+    "source": "Bundesministerium für Gesundheit (BMG), KJ1 Rechnungsergebnisse + KV45 vorläufige Ergebnisse",
+    "format": "Excel (2012-2017, 2024-2025), PDF KJ1 (2018-2023)",
+    "unit": "EUR",
+    "coverage": "Total Leistungsausgaben by category: Krankenhausbehandlung, Ärztliche Behandlung, Arzneimittel, Zahnärztliche Behandlung, Krankengeld, Heilmittel, Hilfsmittel, Sonstige",
+    "download_urls": {
+      "2012-2017_excel": "bundesgesundheitsministerium.de/fileadmin/.../2012-2017.xlsx",
+      "2018-2023_pdfs": "bundesgesundheitsministerium.de/fileadmin/.../KJ1_YYYY_Internet.pdf",
+      "2024_kv45": "bundesgesundheitsministerium.de/fileadmin/.../KV45_1-4._Quartal_2024.xlsx",
+      "2025_kv45": "bundesgesundheitsministerium.de/fileadmin/.../KV45_1.-4._Quartal_2025_Internet.xlsx"
+    },
+    "files": "data/de/sozialversicherung/gkv_parsed.json",
+    "parser": "scripts/build_sozialversicherung_trees.js",
+    "notes": "2025 data is preliminary (vorläufig). National totals from BUND column."
+  },
+
+  "de_rente": {
+    "name": "Statutory Pension Insurance (GRV)",
+    "years": "2015-2025",
+    "source": "Deutsche Rentenversicherung, 'Rentenversicherung in Zeitreihen' 2025 (31st edition, DRV-Schriften Band 22)",
+    "format": "PDF (pages 240-241, Einnahmen/Ausgaben RV Insgesamt)",
+    "unit": "Mio EUR (converted to EUR integers)",
+    "coverage": "Total expenditure by: Rentenzahlungen, KVdR, Teilhabe/Rehabilitation, Verwaltungskosten, Sonstige. Revenue by: Beiträge, Bundeszuschüsse, Erstattungen, etc.",
+    "files": "data/de/sozialversicherung/rente_data.json",
+    "notes": "2025 data from DRV Kennzahlen live page. Covers allgemeine RV + knappschaftliche RV combined."
+  },
+
+  "de_ba": {
+    "name": "Federal Employment Agency (Bundesagentur für Arbeit)",
+    "years": "2015-2024",
+    "source": "BA Jahresrechnungen (annual accounts), downloaded from arbeitsagentur.de",
+    "format": "PDF (Gesamtrechnung section extracted via pdftotext/pdfplumber)",
+    "unit": "EUR",
+    "coverage": "SGB III Beitragshaushalt by 6 Kapitel: Passive Leistungen (ALG, Insolvenzgeld, KuG), Verwaltung, Aktive Arbeitsförderung, Eingliederungstitel, SGB II Personal, Finanzierung",
+    "download_urls": "arbeitsagentur.de/datei/jahresrechnung-der-ba-YYYY_baXXXXXX.pdf",
+    "files": "data/de/sozialversicherung/ba_data.json",
+    "notes": "2020-2021 show massive COVID KuG spike (0.67→22.63 Mrd). 2025 data pending (Jahresrechnung expected ~Q3 2026)."
+  },
+
+  "de_pflege": {
+    "name": "Long-term Care Insurance (Soziale Pflegeversicherung)",
+    "years": "2015-2025",
+    "source": "Bundesministerium für Gesundheit, Finanzentwicklung der sozialen Pflegeversicherung",
+    "format": "Excel (.xlsx)",
+    "unit": "Mrd EUR (converted to EUR integers)",
+    "coverage": "Leistungsausgaben by category: Pflegegeld, Vollstationäre Pflege, Pflegesachleistung, Soz. Sicherung Pflegepersonen, Verhinderungspflege, Tages-/Nachtpflege, Kurzzeitpflege, Sonstige",
+    "download_url": "bundesgesundheitsministerium.de/fileadmin/.../03-Finanzentwicklung-der-sozialen-Pflegeversicherung__2025.xlsx",
+    "files": "data/de/sozialversicherung/pflege_parsed.json",
+    "parser": "scripts/build_sozialversicherung_trees.js"
+  },
+
+  "de_dguv": {
+    "name": "Statutory Accident Insurance (DGUV)",
+    "years": "2015-2024",
+    "source": "DGUV 'Statistiken für die Praxis 2024' + 'Geschäfts- und Rechnungsergebnisse 2023'",
+    "format": "PDF (extracted manually, verified against multiple publications)",
+    "unit": "Mrd EUR (converted to EUR integers)",
+    "coverage": "Expenditure by: Renten, Heilbehandlung, Verwaltung/Verfahren/Sonstiges, Prävention",
+    "files": "data/de/sozialversicherung/dguv_data.json",
+    "notes": "2025 data expected ~mid-2026. Verwaltung for 2016-2019 interpolated between 2015 and 2020 official anchor points."
+  },
+
+  "de_laender_destatis": {
+    "name": "German States - Detailed (Destatis Rechnungsergebnis)",
+    "years": "2019, 2020, 2021",
+    "source": "Destatis Statistischer Bericht, Rechnungsergebnis des öffentlichen Gesamthaushalts",
+    "format": "Excel (.xlsx), sheet 71711-12",
+    "unit": "1000 EUR (converted to EUR integers)",
+    "coverage": "16 states × ~19 Aufgabenbereiche (functional areas) with sub-functions",
+    "download_urls": "destatis.de/.../statistischer-bericht-rechnungsergebnis-oeffentlicher-haushalt-2140310YYYY7015.xlsx",
+    "files": "data/de/laender/laender_parsed_2019/2020/2021.json",
+    "parser": "scripts/build_laender_trees.py",
+    "notes": "Destatis publishes with 3+ year lag. 2022+ not yet available. 2017 exists but 2014-2016 and 2018 never published."
+  },
+
+  "de_laender_eurostat": {
+    "name": "German States - COFOG Aggregate (Eurostat)",
+    "years": "2015-2024",
+    "source": "Eurostat gov_10a_exp API, sector S1312 (State government)",
+    "format": "JSON-stat via REST API",
+    "unit": "MIO EUR (converted to EUR integers)",
+    "coverage": "National aggregate (no per-state breakdown), 10 COFOG categories",
+    "api_endpoint": "ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_exp?geo=DE&sector=S1312&na_item=TE&unit=MIO_EUR",
+    "files": "data/de/laender/laender_eurostat_YYYY.json",
+    "notes": "2024 data is provisional. No per-state breakdown. Used as fallback for years without Destatis detail."
+  },
+
+  "de_laender_kassenergebnis": {
+    "name": "German States - Quarterly Cash Statistics",
+    "years": "2024 (full), 2025 (Q1-Q3)",
+    "source": "Destatis Kassenergebnis Gesamthaushalt, Table 71511-09",
+    "format": "Excel (.xlsx)",
+    "unit": "1000 EUR (converted to EUR integers)",
+    "coverage": "16 states, expenditure by TYPE (not function): Personalausgaben, Sachaufwand, Zinsausgaben, Investitionen, etc.",
+    "files": "data/de/laender/laender_parsed_2024.json, laender_parsed_2025.json",
+    "notes": "NO functional breakdown (Aufgabenbereiche) available from this source. 2025 is partial (Jan-Sep). Cash-basis accounting differs from Eurostat ESA2010 accrual."
+  },
+
+  "de_kommunen_eurostat": {
+    "name": "German Municipalities - COFOG Aggregate (Eurostat)",
+    "years": "2015-2024",
+    "source": "Eurostat gov_10a_exp API, sector S1313 (Local government)",
+    "format": "JSON-stat via REST API",
+    "unit": "MIO EUR (converted to EUR integers)",
+    "coverage": "National aggregate, 10 COFOG categories",
+    "files": "data/de/laender/kommunen_parsed_YYYY.json",
+    "notes": "2024 data is provisional."
+  },
+
+  "us_budget": {
+    "name": "US Federal Budget",
+    "years": "2017-2025",
+    "source": "USAspending.gov API v2",
+    "format": "JSON API responses",
+    "unit": "USD",
+    "coverage": "Agency > Federal Account > Sub-Account, obligated amounts",
+    "files": "data/us/us_budget_tree_YYYY.json",
+    "parser": "scripts/build_us_trees_all.py"
+  },
+
+  "fr_budget": {
+    "name": "French State Budget (PLF)",
+    "years": "2020-2025",
+    "source": "Projet de Loi de Finances, data.gouv.fr",
+    "format": "CSV (PLF dépenses)",
+    "unit": "EUR (Crédits de Paiement)",
+    "coverage": "Ministère > Mission > Programme > Action",
+    "files": "data/fr/fr_budget_tree_YYYY.json",
+    "parser": "scripts/build_fr_trees_all.js"
+  },
+
+  "fr_securite_sociale": {
+    "name": "French Social Protection (Protection Sociale)",
+    "years": "2000-2024 (detailed sub-branches only 2020-2024)",
+    "source": "DREES Comptes de la Protection Sociale, data.gouv.fr",
+    "format": "CSV (semicolon-separated, 15,655 rows)",
+    "unit": "MIO EUR (converted to EUR integers)",
+    "coverage": "6 risk branches: Santé (Health), Vieillesse-Survie (Pensions), Famille (Family), Emploi (Employment), Logement (Housing), Pauvreté-Exclusion (Poverty). Sub-branches for 2020-2024.",
+    "download_url": "data.gouv.fr dataset: Comptes de la protection sociale",
+    "files": "data/fr/securite_sociale/fr_ss_tree_YYYY.json",
+    "parser": "scripts/build_fr_ss_trees.py",
+    "notes": "Covers ALL social protection regimes (Sécurité Sociale + State + local + complementary + private). Total 2024: 932.5 Mrd EUR. This is broader than just Sécurité Sociale institutional spending."
+  },
+
+  "uk_budget": {
+    "name": "UK Central Government (OSCAR)",
+    "years": "2020-2024",
+    "source": "HM Treasury OSCAR data",
+    "format": "Excel (.xlsx)",
+    "unit": "GBP (thousands in source)",
+    "coverage": "Department > Organisation > Sub-function",
+    "files": "data/uk/uk_budget_tree_YYYY.json",
+    "parser": "scripts/build_uk_trees_all.py"
+  },
+
+  "uk_local_authorities": {
+    "name": "UK Local Authorities (England)",
+    "years": "2017-2025 (fiscal years 2017-18 to 2024-25)",
+    "source": "MHCLG Revenue Outturn Multi-Year Time Series",
+    "format": "CSV (19.6 MB)",
+    "unit": "GBP (thousands in source, converted to GBP integers)",
+    "coverage": "13 service areas: Education, Adult Social Care, Children's Social Care, Police, Fire, Highways, Housing, Public Health, Environmental, Cultural, Planning, Central, Other. Also individual LA breakdown for latest year.",
+    "download_url": "assets.publishing.service.gov.uk/media/.../Revenue_Outturn_time_series_data_v3.1.csv",
+    "files": "data/uk/local_authorities/uk_la_tree_YYYY.json",
+    "parser": "scripts/build_uk_la_trees.py",
+    "notes": "England only. Scotland, Wales, NI have separate devolved administrations."
+  }
+}

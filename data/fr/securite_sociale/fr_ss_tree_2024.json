@@ -1,0 +1,1218 @@
+{
+  "id": "fr_ss",
+  "name": "Protection Sociale 2024",
+  "value": 932548270000,
+  "year": 2024,
+  "currency": "EUR",
+  "source": "DREES - Comptes de la Protection Sociale (CPS)",
+  "source_url": "https://data.drees.solidarites-sante.gouv.fr",
+  "filter": "nom_regime contains \"Total tous\" (all regimes combined)",
+  "note": "Values originally in millions EUR, converted to EUR units",
+  "children": [
+    {
+      "id": "fr_ss_vieillesse_survie",
+      "name": "VIEILLESSE-SURVIE",
+      "value": 426665300000,
+      "children": [
+        {
+          "id": "fr_ss_e11_21",
+          "name": "VIEILLESSE",
+          "value": 381564550000,
+          "children": [
+            {
+              "id": "fr_ss_e11_21_1",
+              "name": "Pensions de droit direct",
+              "value": 359717100000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_21_1_11",
+                  "name": "Pensions normales",
+                  "value": 223563780000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_31",
+                  "name": "Pensions de vieillesse complémentaires",
+                  "value": 99101970000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_13",
+                  "name": "Pensions d'invalidité (y compris ATI définitive aux retraités et rentes viagères d'invalidité après 60 ans)",
+                  "value": 13908680000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_12",
+                  "name": "Pensions d'inaptitude",
+                  "value": 8289040000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_41",
+                  "name": "Majorations sur pensions de base - enfant",
+                  "value": 7776590000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_32",
+                  "name": "Pensions de vieillesse supplémentaires",
+                  "value": 5165400000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_99",
+                  "name": "Autres pensions vieillesse",
+                  "value": 672480000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_14",
+                  "name": "Retraites du combattant",
+                  "value": 504280000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_42",
+                  "name": "Majorations sur pensions de base - tierce personne",
+                  "value": 307730000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_21",
+                  "name": "Indemnités temporaires de la Fonction publique",
+                  "value": 239820000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_45",
+                  "name": "Majorations sur pensions de base - autres",
+                  "value": 86270000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_43",
+                  "name": "Majorations sur pensions de base - conjoint à charge",
+                  "value": 69230000
+                },
+                {
+                  "id": "fr_ss_e11_21_1_44",
+                  "name": "Majorations sur pensions de base - assurés handicapés",
+                  "value": 31830000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_21_4",
+              "name": "Prestations liées à la dépendance",
+              "value": 11304270000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_21_4_13",
+                  "name": "Allocation personnalisée d'autonomie (APA)",
+                  "value": 7325540000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_20",
+                  "name": "Hébergement des personnes âgées dépendantes",
+                  "value": 2068040000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_14",
+                  "name": "Prestation de compensation du handicap (PCH) plus de 60 ans",
+                  "value": 1069190000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_17",
+                  "name": "Crédit d'impôt au titre de l'emploi salarié à domicile (assistance aux personnes âgées)",
+                  "value": 593320000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_11",
+                  "name": "Allocation compensatrice pour tierce personne (ACTP) plus de 60 ans",
+                  "value": 126800000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_15",
+                  "name": "Prestations dépendance des organismes d'assurance",
+                  "value": 62110000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_16",
+                  "name": "Crédit d'impôt pour dépenses d'équipement de l'habitation principale (aide aux personnes de plus de 60 ans)",
+                  "value": 45690000
+                },
+                {
+                  "id": "fr_ss_e11_21_4_18",
+                  "name": "Allocation journalière de proche aidant (AJPA)",
+                  "value": 13580000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_21_2",
+              "name": "Minimum vieillesse",
+              "value": 4941150000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_21_2_01",
+                  "name": "Allocation de solidarité aux personnes âgées (Aspa)",
+                  "value": 3994080000
+                },
+                {
+                  "id": "fr_ss_e11_21_2_03",
+                  "name": "Majorations L815-2 ancien (allocation supplémentaire)",
+                  "value": 571400000
+                },
+                {
+                  "id": "fr_ss_e11_21_2_06",
+                  "name": "Minimum vieillesse associé au versement d'une pension de droit dérivé",
+                  "value": 162000000
+                },
+                {
+                  "id": "fr_ss_e11_21_2_02",
+                  "name": "Majorations L814-2 ancien",
+                  "value": 159350000
+                },
+                {
+                  "id": "fr_ss_e11_21_2_04",
+                  "name": "Allocations spéciales",
+                  "value": 47310000
+                },
+                {
+                  "id": "fr_ss_e11_21_2_99",
+                  "name": "Autres composantes du minimum vieillesse nca",
+                  "value": 7010000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_21_9",
+              "name": "Autres prestations vieillesse",
+              "value": 4080570000
+            },
+            {
+              "id": "fr_ss_e11_21_3",
+              "name": "Indemnités de départ à la retraite (organismes d'assurance…)",
+              "value": 1521460000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_21_3_01",
+                  "name": "Indemnités de départ à la retraite des organismes d'assurance",
+                  "value": 1521460000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr_ss_e11_22",
+          "name": "SURVIE",
+          "value": 45100750000,
+          "children": [
+            {
+              "id": "fr_ss_e11_22_1",
+              "name": "Pensions de droit dérivé",
+              "value": 41709290000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_22_1_31",
+                  "name": "Pensions complémentaires obligatoires",
+                  "value": 14943130000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_12",
+                  "name": "Pensions de réversion avec condition de ressources",
+                  "value": 11434570000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_16",
+                  "name": "Pensions de conjoint survivant, d'orphelins, d'ascendants au titre des retraites et de l'invalidité",
+                  "value": 6451730000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_11",
+                  "name": "Pensions de réversion sans condition de ressources",
+                  "value": 6437360000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_20",
+                  "name": "Majorations sur pensions de réversion de base",
+                  "value": 1216450000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_14",
+                  "name": "Pensions d'invalidité (ayants droit)",
+                  "value": 771490000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_15",
+                  "name": "Pensions militaires d'invalidité (ayants droit)",
+                  "value": 281480000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_19",
+                  "name": "Autres droits dérivés",
+                  "value": 118890000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_13",
+                  "name": "Pensions d'accidents du travail (ayants droit)",
+                  "value": 35040000
+                },
+                {
+                  "id": "fr_ss_e11_22_1_21",
+                  "name": "Indemnités temporaires de la Fonction publique (ayants cause)",
+                  "value": 19150000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_22_9",
+              "name": "Autres prestations survie",
+              "value": 3391460000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr_ss_sante",
+      "name": "SANTÉ",
+      "value": 338880820000,
+      "children": [
+        {
+          "id": "fr_ss_e11_11",
+          "name": "MALADIE",
+          "value": 277876160000,
+          "children": [
+            {
+              "id": "fr_ss_e11_11_2",
+              "name": "Prestations de santé maladie pris en charge par les administrations de sécurité sociale",
+              "value": 208677540000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_11_2_21",
+                  "name": "Prestations de soins du secteur public hospitalier",
+                  "value": 90850670000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_11",
+                  "name": "Soins de ville - Prestations (maladie)",
+                  "value": 45333180000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_12",
+                  "name": "Soins de ville - Médicaments (maladie)",
+                  "value": 29495950000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_39",
+                  "name": "Soins en clinique privée (maladie) [non ventilés]",
+                  "value": 18853450000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_13",
+                  "name": "Soins de ville - Matériel (maladie)",
+                  "value": 9085110000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_14",
+                  "name": "Soins de ville - Transports (maladie)",
+                  "value": 6307330000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_15",
+                  "name": "Soins de ville - Contrats divers (maladie)",
+                  "value": 2966910000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_22",
+                  "name": "Prestations de soins en USLD du secteur public hospitalier",
+                  "value": 1363760000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_19",
+                  "name": "Soins de ville - Autres (maladie)",
+                  "value": 1026140000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_59",
+                  "name": "Soins de ville - Autres (AT-MP)",
+                  "value": 982630000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_79",
+                  "name": "Soins de ville - Autres (maternité)",
+                  "value": 908560000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_28",
+                  "name": "Transferts aux hôpitaux militaires",
+                  "value": 442080000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_89",
+                  "name": "Soins en clinique privée (maternité) [non ventilés]",
+                  "value": 376700000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_41",
+                  "name": "Prestations de santé de la Camieg",
+                  "value": 293490000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_16",
+                  "name": "Soins de ville - Cures thermales (maladie)",
+                  "value": 225980000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_69",
+                  "name": "Soins en clinique privée (AT-MP) [non ventilés]",
+                  "value": 103630000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_17",
+                  "name": "Soins de ville - Permanence de soins (maladie)",
+                  "value": 32240000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_72",
+                  "name": "Soins de ville - Médicaments (maternité)",
+                  "value": 15010000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_52",
+                  "name": "Soins de ville - Médicaments (AT-MP)",
+                  "value": 7560000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_56",
+                  "name": "Soins de ville - Cures thermales (AT-MP)",
+                  "value": 4290000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_73",
+                  "name": "Soins de ville - Matériel (maternité)",
+                  "value": 2830000
+                },
+                {
+                  "id": "fr_ss_e11_11_2_99",
+                  "name": "Autres prestations de santé nca",
+                  "value": 40000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_11_3",
+              "name": "Prestations de santé complémentaires",
+              "value": 23091250000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_11_3_12",
+                  "name": "Prestations de santé des organismes d'assurance - Soins de ville",
+                  "value": 14143940000
+                },
+                {
+                  "id": "fr_ss_e11_11_3_01",
+                  "name": "Prestations maladie prises en charge par le Fonds C2S",
+                  "value": 2958580000
+                },
+                {
+                  "id": "fr_ss_e11_11_3_09",
+                  "name": "Remboursements des organismes d'assurance  - Prestations connexes à la santé",
+                  "value": 2040340000
+                },
+                {
+                  "id": "fr_ss_e11_11_3_11",
+                  "name": "Prestations de santé des organismes d'assurance - Hôpital",
+                  "value": 1993610000
+                },
+                {
+                  "id": "fr_ss_e11_11_3_13",
+                  "name": "Prestations de santé des organismes d'assurance - Médicaments",
+                  "value": 1954780000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_11_1",
+              "name": "Remplacement de revenu temporaire",
+              "value": 22460500000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_11_1_01",
+                  "name": "Indemnités journalières (maladie)",
+                  "value": 11822010000
+                },
+                {
+                  "id": "fr_ss_e11_11_1_03",
+                  "name": "Maintien de salaire / complément d'IJ des organismes d'assurance",
+                  "value": 5064400000
+                },
+                {
+                  "id": "fr_ss_e11_11_1_11",
+                  "name": "Indemnités journalières accidents du travail et maladies professionnelles (AT-MP)",
+                  "value": 4705750000
+                },
+                {
+                  "id": "fr_ss_e11_11_1_13",
+                  "name": "Maintien de salaire / complément d'IJ des organismes d'assurance (AT-MP)",
+                  "value": 536850000
+                },
+                {
+                  "id": "fr_ss_e11_11_1_02",
+                  "name": "Congés maladie de longue durée des agents de l'Etat",
+                  "value": 331490000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_11_4",
+              "name": "Prestations médico-sociales (hors personnes handicapées)",
+              "value": 16213960000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_11_4_01",
+                  "name": "Établissement d'hébergement pour personnes âgées, Établissement d'hébergement pour personnes âgées dépendantes",
+                  "value": 14001930000
+                },
+                {
+                  "id": "fr_ss_e11_11_4_02",
+                  "name": "Services de soins infirmiers à domicile (Ssiad)",
+                  "value": 2130710000
+                },
+                {
+                  "id": "fr_ss_e11_11_4_99",
+                  "name": "Autres prestations médico-sociales",
+                  "value": 79820000
+                },
+                {
+                  "id": "fr_ss_e11_11_4_81",
+                  "name": "Prestations médico-sociales diverses (alcoologie, toxicomanie…)",
+                  "value": 1500000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_11_9",
+              "name": "Autres prestations santé",
+              "value": 7432910000
+            }
+          ]
+        },
+        {
+          "id": "fr_ss_e11_12",
+          "name": "INVALIDITÉ",
+          "value": 53808780000,
+          "children": [
+            {
+              "id": "fr_ss_e11_12_4",
+              "name": "Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales)",
+              "value": 19286860000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_12_4_03",
+                  "name": "Hébergement des adultes handicapés",
+                  "value": 9030100000
+                },
+                {
+                  "id": "fr_ss_e11_12_4_04",
+                  "name": "Accueil et accompagnement sans hébergement des enfants handicapés",
+                  "value": 5436500000
+                },
+                {
+                  "id": "fr_ss_e11_12_4_02",
+                  "name": "Hébergement des enfants handicapés",
+                  "value": 3066100000
+                },
+                {
+                  "id": "fr_ss_e11_12_4_05",
+                  "name": "Accueil et accompagnement sans hébergement des adultes handicapés",
+                  "value": 1649200000
+                },
+                {
+                  "id": "fr_ss_e11_12_4_01",
+                  "name": "Ssiad personnes handicapées et ajustement des prestations médico-sociales",
+                  "value": 104960000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_12_2",
+              "name": "Autres prestations de ressources",
+              "value": 15685080000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_12_2_11",
+                  "name": "Allocation aux adultes handicapés (AAH)",
+                  "value": 13797050000
+                },
+                {
+                  "id": "fr_ss_e11_12_2_12",
+                  "name": "Garantie de ressources s'adressant aux travailleurs handicapés (GRTH)",
+                  "value": 1566230000
+                },
+                {
+                  "id": "fr_ss_e11_12_2_13",
+                  "name": "Allocation supplémentaire d'invalidité (ASI)",
+                  "value": 321800000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_12_1",
+              "name": "Remplacement de revenu (pensions et rentes)",
+              "value": 12117770000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_12_1_21",
+                  "name": "Pensions d'invalidité (y compris majorations enfant et tierce personne)",
+                  "value": 9518490000
+                },
+                {
+                  "id": "fr_ss_e11_12_1_22",
+                  "name": "Rentes d'invalidité des organismes d'assurance (y compris majorations enfant et tierce personne)",
+                  "value": 2393000000
+                },
+                {
+                  "id": "fr_ss_e11_12_1_10",
+                  "name": "Allocations temporaires d'invalidité",
+                  "value": 162730000
+                },
+                {
+                  "id": "fr_ss_e11_12_1_31",
+                  "name": "Pensions militaires d'invalidité - victimes civiles",
+                  "value": 37980000
+                },
+                {
+                  "id": "fr_ss_e11_12_1_23",
+                  "name": "Allocation temporaire d'invalidité (Fonction publique)",
+                  "value": 5570000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_12_3",
+              "name": "Prestations de compensation du handicap",
+              "value": 4587160000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_12_3_21",
+                  "name": "Prestation de compensation du handicap (PCH) moins de 60 ans",
+                  "value": 2265050000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_33",
+                  "name": "Allocation d'éducation de l'enfant handicapé (AEEH)",
+                  "value": 1615620000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_31",
+                  "name": "Allocation journalière de présence parentale (AJPP)",
+                  "value": 261450000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_22",
+                  "name": "Allocation compensatrice pour tierce personne (ACTP) moins de 60 ans",
+                  "value": 181490000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_99",
+                  "name": "Autres allocations liées au handicap",
+                  "value": 180480000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_36",
+                  "name": "Crédit d'impôt au titre de l'emploi salarié à domicile (assistance aux personnes handicapées)",
+                  "value": 75750000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_35",
+                  "name": "Crédit d'impôt pour dépenses d'équipement de l'habitation principale (aide aux personnes de moins de 60 ans)",
+                  "value": 7310000
+                },
+                {
+                  "id": "fr_ss_e11_12_3_32",
+                  "name": "Allocation de présence parentale (APP)",
+                  "value": 10000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_12_5",
+              "name": "Aide par le travail (Établissement et service d'aide par le travail, etc.)",
+              "value": 1882900000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_12_5_01",
+                  "name": "Aide par le travail (Établissement et service d'aide par le travail, etc.)",
+                  "value": 1882900000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_12_9",
+              "name": "Autres prestations invalidité (y compris organismes d'assurance)",
+              "value": 249010000
+            }
+          ]
+        },
+        {
+          "id": "fr_ss_e11_13",
+          "name": "ACCIDENTS DU TRAVAIL ET MALADIES PROFESSIONNELLES",
+          "value": 7195880000,
+          "children": [
+            {
+              "id": "fr_ss_e11_13_2",
+              "name": "Remplacement de revenu définitif",
+              "value": 7142590000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_13_2_11",
+                  "name": "Rentes AT-MP",
+                  "value": 5882480000
+                },
+                {
+                  "id": "fr_ss_e11_13_2_32",
+                  "name": "Indemnisations du Fiva",
+                  "value": 377000000
+                },
+                {
+                  "id": "fr_ss_e11_13_2_12",
+                  "name": "Pensions militaires d'invalidité - victimes militaires",
+                  "value": 348680000
+                },
+                {
+                  "id": "fr_ss_e11_13_2_34",
+                  "name": "Allocation spécifique de cessation d'activité au titre de l'amiante (Ascaa)",
+                  "value": 229630000
+                },
+                {
+                  "id": "fr_ss_e11_13_2_33",
+                  "name": "Allocation de cessation anticipée d'activité des travailleurs de l'amiante (Acaata)",
+                  "value": 221650000
+                },
+                {
+                  "id": "fr_ss_e11_13_2_19",
+                  "name": "Pensions d'invalidité diverses, suite à accident",
+                  "value": 63550000
+                },
+                {
+                  "id": "fr_ss_e11_13_2_35",
+                  "name": "Prestations du Fonds d'indemnisation des victimes de pesticides",
+                  "value": 19600000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_13_9",
+              "name": "Autres prestations AT-MP",
+              "value": 53290000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr_ss_famille",
+      "name": "FAMILLE",
+      "value": 65806890000,
+      "children": [
+        {
+          "id": "fr_ss_e11_30",
+          "name": "FAMILLE",
+          "value": 65806890000,
+          "children": [
+            {
+              "id": "fr_ss_e11_30_1",
+              "name": "Prestations en faveur de la famille",
+              "value": 22656180000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_30_1_01",
+                  "name": "Allocations familiales (AF)",
+                  "value": 13789620000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_03",
+                  "name": "Allocation de soutien familial (ASF)",
+                  "value": 3266400000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_07",
+                  "name": "Paje - Base",
+                  "value": 3028270000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_02",
+                  "name": "Complément familial (CF)",
+                  "value": 2534140000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_09",
+                  "name": "Allocation différentielle",
+                  "value": 29780000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_10",
+                  "name": "Allocation jeune enfant « longue » (APJE longue)",
+                  "value": 3970000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_08",
+                  "name": "Paje - Allocation d'adoption",
+                  "value": 3040000
+                },
+                {
+                  "id": "fr_ss_e11_30_1_06",
+                  "name": "Paje - Prime d'adoption",
+                  "value": 960000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_30_3",
+              "name": "Prestations liées à la garde d'enfants",
+              "value": 17826100000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_30_3_20",
+                  "name": "Accueil des jeunes enfants",
+                  "value": 7516000000
+                },
+                {
+                  "id": "fr_ss_e11_30_3_04",
+                  "name": "Paje - Assistante maternelle",
+                  "value": 5963720000
+                },
+                {
+                  "id": "fr_ss_e11_30_3_07",
+                  "name": "Crédit d'impôt frais de garde d'enfants de moins de 6 ans",
+                  "value": 1721000000
+                },
+                {
+                  "id": "fr_ss_e11_30_3_05",
+                  "name": "Paje - Employée à domicile",
+                  "value": 1339840000
+                },
+                {
+                  "id": "fr_ss_e11_30_3_08",
+                  "name": "Paje - Prepare",
+                  "value": 713880000
+                },
+                {
+                  "id": "fr_ss_e11_30_3_09",
+                  "name": "Crédit d'impôt au titre de l'emploi salarié à domicile (garde d'enfant à domicile)",
+                  "value": 570200000
+                },
+                {
+                  "id": "fr_ss_e11_30_3_03",
+                  "name": "Paje - CLCA et Colca",
+                  "value": 1460000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_30_4",
+              "name": "Aide sociale à l'enfance (ASE)",
+              "value": 11135810000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_30_4_01",
+                  "name": "Prestations d'hébergement et d'accueil",
+                  "value": 10918520000
+                },
+                {
+                  "id": "fr_ss_e11_30_4_04",
+                  "name": "Dépenses diverses liées à l'ASE (bourses, subventions, frais de placement…)",
+                  "value": 206720000
+                },
+                {
+                  "id": "fr_ss_e11_30_4_02",
+                  "name": "Actions éducatives à domicile (AED), actions éducatives en milieu ouvert (AEMO)",
+                  "value": 10570000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_30_6",
+              "name": "Prestations liées à la maternité",
+              "value": 4498210000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_30_6_01",
+                  "name": "Indemnités journalières",
+                  "value": 3324790000
+                },
+                {
+                  "id": "fr_ss_e11_30_6_02",
+                  "name": "Congés de naissance",
+                  "value": 608510000
+                },
+                {
+                  "id": "fr_ss_e11_30_6_05",
+                  "name": "Paje - Prime de naissance",
+                  "value": 518370000
+                },
+                {
+                  "id": "fr_ss_e11_30_6_03",
+                  "name": "Maintien de salaire / complément d'IJ des organismes d'assurance",
+                  "value": 33690000
+                },
+                {
+                  "id": "fr_ss_e11_30_6_06",
+                  "name": "Prestations nuptialité/natalité versées par les organismes d'assurance",
+                  "value": 12850000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_30_2",
+              "name": "Prestations liées à la scolarité",
+              "value": 3465040000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_30_2_02",
+                  "name": "Allocation de rentrée scolaire (ARS)",
+                  "value": 2199390000
+                },
+                {
+                  "id": "fr_ss_e11_30_2_03",
+                  "name": "Bourses de l'enseignement primaire et secondaire",
+                  "value": 1265210000
+                },
+                {
+                  "id": "fr_ss_e11_30_2_99",
+                  "name": "Autres prestations liées à l'éducation nca",
+                  "value": 440000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_30_5",
+              "name": "Complément de rémunération",
+              "value": 3433470000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_30_5_11",
+                  "name": "Supplément familial de traitement et supplément familial de solde",
+                  "value": 2344680000
+                },
+                {
+                  "id": "fr_ss_e11_30_5_12",
+                  "name": "Majorations familiales",
+                  "value": 1088790000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_30_9",
+              "name": "Autres prestations famille",
+              "value": 2792080000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr_ss_emploi",
+      "name": "EMPLOI",
+      "value": 51123850000,
+      "children": [
+        {
+          "id": "fr_ss_e11_42",
+          "name": "CHÔMAGE",
+          "value": 45568600000,
+          "children": [
+            {
+              "id": "fr_ss_e11_42_1",
+              "name": "Allocation chômage",
+              "value": 37523750000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_42_1_01",
+                  "name": "Allocation d'aide au retour à l'emploi (ARE)",
+                  "value": 32923920000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_09",
+                  "name": "Allocation de sécurisation professionnelle (ASP)",
+                  "value": 1731440000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_05",
+                  "name": "ASS, AER, ASS-F, ASS-ACCRE (anciennement prestations versées par le Fonds de solidarité)",
+                  "value": 1680370000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_06",
+                  "name": "Dépenses de placement de Pôle emploi",
+                  "value": 688680000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_20",
+                  "name": "Prestations de chômage partiel",
+                  "value": 267420000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_08",
+                  "name": "Prestations chômage versées par les organismes d'assurance",
+                  "value": 101330000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_10",
+                  "name": "Aide exceptionnelle de fin d'année (Prime de noël) des bénéficiaires de l'ASS, l'AER et l'ATS (comptabilisée dans les...",
+                  "value": 72190000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_07",
+                  "name": "Aides de Pôle emploi et de l'Unedic",
+                  "value": 58210000
+                },
+                {
+                  "id": "fr_ss_e11_42_1_99",
+                  "name": "Autres prestations chômage nca",
+                  "value": 190000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_42_9",
+              "name": "Autres prestations chômage",
+              "value": 7509150000
+            },
+            {
+              "id": "fr_ss_e11_42_2",
+              "name": "Préretraites",
+              "value": 535700000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_42_2_03",
+                  "name": "Préretraites d'entreprises",
+                  "value": 364750000
+                },
+                {
+                  "id": "fr_ss_e11_42_2_99",
+                  "name": "Autres préretraites",
+                  "value": 170950000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr_ss_e11_41",
+          "name": "INSERTION ET RÉINSERTION PROFESSIONNELLE",
+          "value": 5555250000,
+          "children": [
+            {
+              "id": "fr_ss_e11_41_1",
+              "name": "Formation professionnelle",
+              "value": 3042850000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_41_1_01",
+                  "name": "Allocation d'aide au retour à l'emploi - Formation (ARE-F)",
+                  "value": 1937500000
+                },
+                {
+                  "id": "fr_ss_e11_41_1_02",
+                  "name": "Stages de formation professionnelle des régions",
+                  "value": 1003100000
+                },
+                {
+                  "id": "fr_ss_e11_41_1_04",
+                  "name": "Rémunération de fin de formation (RFF)",
+                  "value": 101970000
+                },
+                {
+                  "id": "fr_ss_e11_41_1_99",
+                  "name": "Autres dépenses de formation",
+                  "value": 280000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_41_2",
+              "name": "Insertion professionnelle",
+              "value": 2427120000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_41_2_99",
+                  "name": "Autres prestations liées à l'insertion professionnelle",
+                  "value": 890640000
+                },
+                {
+                  "id": "fr_ss_e11_41_2_01",
+                  "name": "Aide à la reprise ou à la création d'entreprise",
+                  "value": 832760000
+                },
+                {
+                  "id": "fr_ss_e11_41_2_06",
+                  "name": "Insertion professionnelle des jeunes",
+                  "value": 703390000
+                },
+                {
+                  "id": "fr_ss_e11_41_2_04",
+                  "name": "Bourses et subventions diverses",
+                  "value": 330000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_41_9",
+              "name": "Insertion et réinsertion professionnelle nca",
+              "value": 85280000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr_ss_pauvrete",
+      "name": "PAUVRETÉ-EXCLUSION SOCIALE",
+      "value": 34012870000,
+      "children": [
+        {
+          "id": "fr_ss_e11_60",
+          "name": "PAUVRETÉ-EXCLUSION SOCIALE",
+          "value": 34012870000,
+          "children": [
+            {
+              "id": "fr_ss_e11_60_1",
+              "name": "Revenu minimum",
+              "value": 12376020000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_60_1_02",
+                  "name": "RSA socle",
+                  "value": 11983700000
+                },
+                {
+                  "id": "fr_ss_e11_60_1_03",
+                  "name": "Prime de solidarité active (avril 2009) et aide exceptionnelle de fin d'année (Prime de noël)",
+                  "value": 391820000
+                },
+                {
+                  "id": "fr_ss_e11_60_1_01",
+                  "name": "Revenu minimum d'insertion (RMI)",
+                  "value": 500000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_60_2",
+              "name": "Prime liée à l'activité",
+              "value": 10557180000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_60_2_01",
+                  "name": "Prime d'activité",
+                  "value": 10557180000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_60_9",
+              "name": "Autres prestations pauvreté-exclusion",
+              "value": 4490210000
+            },
+            {
+              "id": "fr_ss_e11_60_4",
+              "name": "Prestations liées à l'hébergement",
+              "value": 3197010000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_60_4_01",
+                  "name": "Prestations liées à l'hébergement",
+                  "value": 3197010000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_60_6",
+              "name": "Bourses de l'enseignement supérieur",
+              "value": 2603400000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_60_6_01",
+                  "name": "Bourses de l'enseignement supérieur",
+                  "value": 2603400000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_60_5",
+              "name": "Chèque-Énergie",
+              "value": 789030000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_60_5_01",
+                  "name": "Chèque-Énergie",
+                  "value": 789030000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_60_3",
+              "name": "Prestations versées à titre exceptionnel",
+              "value": 20000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_60_3_04",
+                  "name": "Mesure exceptionnelle d’aide à l’acquisition du carburant",
+                  "value": 20000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr_ss_logement",
+      "name": "LOGEMENT",
+      "value": 16058540000,
+      "children": [
+        {
+          "id": "fr_ss_e11_50",
+          "name": "LOGEMENT",
+          "value": 16058540000,
+          "children": [
+            {
+              "id": "fr_ss_e11_50_2",
+              "name": "Aide personnalisée au logement (APL)",
+              "value": 7111390000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_50_2_00",
+                  "name": "Aide personnalisée au logement (APL) - ventilation non disponible",
+                  "value": 7111390000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_50_3",
+              "name": "Allocation de logement sociale (ALS)",
+              "value": 5524860000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_50_3_00",
+                  "name": "Allocation de logement sociale (ALS) - ventilation non disponible",
+                  "value": 5524860000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_50_1",
+              "name": "Allocation de logement familiale (ALF)",
+              "value": 3323480000,
+              "children": [
+                {
+                  "id": "fr_ss_e11_50_1_00",
+                  "name": "Allocation de logement familiale (ALF) - ventilation non disponible",
+                  "value": 3323480000
+                }
+              ]
+            },
+            {
+              "id": "fr_ss_e11_50_9",
+              "name": "Autres prestations logement",
+              "value": 98810000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
