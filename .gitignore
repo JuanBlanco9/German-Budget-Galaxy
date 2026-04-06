@@ -22,11 +22,40 @@ data/verification_log.json
 INFORME_TECNICO*.md
 config.py
 
-# Data (large files)
+# Data (large/raw files)
 data/eu_fts/
 data/jahresberichte/
 data/dip_pdfs/
 data/anfragen/
+data/fragdenstaat_pdfs/
+data/dip_anfragen/
+data/dip_stiftungen_*.pdf
+data/demokratie_leben/
+data/demokratie_leben_fp2/
+data/omas/
+data/uk/oscar_extracted/
+data/uk/oscar_2025.zip
+data/uk/oscar_2025.ods
+data/uk/oscar_2025_26_q1.ods
+data/uk/BUD_*.xlsx
+
+# Research/intermediate batch files
+data/us/batch_*.txt
+data/us/research_batch_*.txt
+data/us/todo_batch_*.txt
+data/us/missing_*.txt
+data/us/remaining_names.json
+data/us/todo_batch_*.json
+data/fr/research_batch_*.txt
+data/fr/todo_batch_*.txt
+data/fr/todo_remaining_results.json
+data/fr/research_batch_*_descriptions.json
+data/fr/missing_*.txt
+data/uk/research_batch_*.txt
+data/uk/research_batch_*_results.json
+data/uk/todo_batch_*.txt
+data/uk/todo_remaining_results.json
+data/uk/missing_*.txt
 
 # Backups
 frontend/index_backup_*.html
@@ -35,6 +64,41 @@ frontend/index_SKYLINE_*.html
 frontend/index_skyline_*.html
 frontend/index_BUBBLES_*.html
 frontend/index_WORKING_*.html
+frontend/index_1481_*.html
+frontend/index_GERMANY_*.html
+frontend/index_MULTIVERSE_*.html
+
+# NGO-era data exports (not part of Budget Galaxy)
+data/cdu_anfrage_export.json
+data/dip_anfragen_results.json
+data/dl_fp2_export.json
+data/eu_fts_export.json
+data/kfw_projects.csv
+data/ngo_monitor_export.json
+data/oecd_crs_deu_ngo*.csv
+data/stiftungen_export.json
+data/bundeshaushalt_full_breakdown.txt
+
+# Claude context
+CONTEXT_FOR_CLAUDE.txt
+
+# Large combined files (individual trees are tracked instead)
+data/bundeshaushalt_trees_all.json
+
+# NGO-era parsers/scripts (not part of Budget Galaxy)
+parsers/
+pipeline.py
+scripts/tracker.py
+scripts/tracker_v2.py
+scripts/tracker_v3.py
+scripts/build_org_master.py
+scripts/convert_usd_eur.py
+scripts/ner_country_linking.py
+scripts/process_anfragen.py
+
+# Misc images not used in app
+Images/photo-*.avif
+Images/Sin*
 
 # IDE
 .vscode/
