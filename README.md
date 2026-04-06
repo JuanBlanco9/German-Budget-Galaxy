@@ -86,12 +86,31 @@ Frontend (Single HTML, ~450KB)      Backend (FastAPI)
 
 ## Data Sources
 
-| Source | Country | Data |
-|--------|---------|------|
-| [bundeshaushalt.de](https://www.bundeshaushalt.de) | DE | Federal budget CSVs 2015-2025 |
-| [USAspending.gov](https://www.usaspending.gov) | US | Federal accounts API 2017-2025 |
-| [data.gouv.fr](https://www.data.gouv.fr) | FR | PLF budget CSVs 2020-2025 |
-| [HM Treasury OSCAR](https://www.gov.uk/government/collections/oscar-publishing-data) | UK | OSCAR XLSX 2020-2024 |
+### Germany (2015-2025)
+- **Source**: [bundeshaushalt.de](https://www.bundeshaushalt.de) — official federal budget portal
+- **Format**: CSV, 11 annual files
+- **Coverage**: ~5,900 items/year across 25 ministries (Einzelplan > Kapitel > Titel)
+- **Enrichments**: 75 nodes with beneficiary counts, OECD/NATO comparisons, legal basis (curated from [DRV](https://www.deutsche-rentenversicherung.de), [Bundesagentur](https://statistik.arbeitsagentur.de), [Destatis](https://www.destatis.de), [OECD](https://data.oecd.org), [NATO](https://www.nato.int), [GKV](https://www.gkv-spitzenverband.de))
+- **Note**: Federal budget only (~EUR 480B). Total German public spending including states, municipalities, and social insurance is ~EUR 2.1T
+
+### United States (2017-2025)
+- **Source**: [USAspending.gov](https://www.usaspending.gov) — official federal spending API
+- **Format**: API (JSON), 9 annual snapshots
+- **Coverage**: ~5,500 federal accounts/year across 24 agencies
+- **Enrichments**: 2,410 programme-level descriptions with creation year, purpose, and beneficiaries
+- **Extras**: Spending type breakdown for 14 agencies (Personnel, Contracts, Grants, R&D, etc.)
+
+### France (2020-2025)
+- **Source**: [data.gouv.fr](https://www.data.gouv.fr) — Projet de Loi de Finances (PLF)
+- **Format**: CSV, 6 annual files (PLF depenses)
+- **Coverage**: ~1,200 programmes/year across 30+ missions
+- **Enrichments**: 974 programme-level descriptions with creation year, purpose, and beneficiaries
+
+### United Kingdom (2020-2024)
+- **Source**: [HM Treasury OSCAR](https://www.gov.uk/government/collections/oscar-publishing-data) — Online System for Central Accounting and Reporting
+- **Format**: XLSX, 5 annual files
+- **Coverage**: ~800 items/year across 20+ departments
+- **Enrichments**: 651 programme-level descriptions with creation year, purpose, and beneficiaries
 
 ## Tech Stack
 
