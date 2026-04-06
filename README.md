@@ -51,6 +51,10 @@ D3.js circle packing with sphere gradients and starfield background. Semantic zo
   <img src="images/Budget Galaxy 2.jpg" alt="Budget Galaxy" width="800"/>
 </p>
 
+<p align="center">
+  <img src="images/Budget Galaxy Zoom.jpg" alt="Budget Galaxy Zoom" width="800"/>
+</p>
+
 ### Budget Explorer
 Breadcrumb navigation through the full budget hierarchy. Accordion expansion with enrichment data — creation year, description, beneficiaries for 4,035 programmes.
 
