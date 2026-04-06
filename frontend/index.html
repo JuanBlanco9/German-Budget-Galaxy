@@ -1789,7 +1789,7 @@ function showTab(name,el){
     if(h1) h1.innerHTML='<span>Budget</span> Multiverse';
   }
   if(name==='galaxy')loadGalaxy();
-  if(name==='budgetlist') showBudgetYearPicker();
+  if(name==='budgetlist'&&!blRoot) showBudgetYearPicker();
   if(name==='evolution'){
     // Force the panel to flex layout filling full height
     panel.style.display='flex';
@@ -3989,8 +3989,11 @@ function getTemplateInsights(node){
 }
 
 const _trCache={};
+function trFR(name){return frTranslations[name]||name}
 function trG(name){
   const clean=cleanBudgetName(name);
+  // French translations
+  if(currentCountry==='fr'&&frTranslations[clean]) return frTranslations[clean];
   if(galaxyLang==='de') return clean;
   if(galaxyTranslations[clean]) return galaxyTranslations[clean];
   if(_trCache[clean]) return _trCache[clean];
@@ -4088,6 +4091,8 @@ function galaxySummary(d){
 
 let galaxyYear=2025;
 let currentCountry='de';
+let frTranslations={};
+fetch('/data/fr/translations_fr_en.json').then(r=>r.json()).then(d=>{frTranslations=d}).catch(()=>{});
 const COUNTRY_META={
   de:{name:'Germany',currency:'€',flag:'🇩🇪',defaultYear:2025},
   us:{name:'United States',currency:'$',flag:'🇺🇸',defaultYear:2024},
@@ -4225,6 +4230,7 @@ function openMvInfo(node){
   loadProgramEnrichments(cc);
   const meta=COUNTRY_META[cc];
   const name=node.data.name||'';
+  const displayName=cc==='fr'?trFR(name):name;
   const sym=meta.currency;
   const v=node._origValue||node.value;
   const vStr=mvFmtVal(v,sym);
@@ -4241,7 +4247,8 @@ function openMvInfo(node){
 
   let html=`
     <div style="font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">${meta.flag} ${meta.name}</div>
-    <h3 style="cursor:pointer" onclick="mvGoToExplorer('${cc}','${nameEsc}',${multiverseYear})">${esc(name)} <span style="font-size:11px;color:var(--accent)">&#8594;</span></h3>
+    <h3 style="cursor:pointer" onclick="mvGoToExplorer('${cc}','${nameEsc}',${multiverseYear})">${esc(displayName)} <span style="font-size:11px;color:var(--accent)">&#8594;</span></h3>
+    ${cc==='fr'&&displayName!==name?`<div style="font-size:11px;color:var(--dim);margin-top:-2px;margin-bottom:4px;font-style:italic">${esc(name)}</div>`:''}
     <div class="gi-amt">${vStr}</div>
     <div class="gi-pct">${pctStr}% of ${meta.name} total`;
   if(node.parent&&node.parent.depth>0) html+=` &middot; ${pctParent}% of parent`;
@@ -4740,7 +4747,7 @@ async function loadMultiverse(forceYear){
     candidates.forEach(({d,sr,sx,sy})=>{
       if(placed.length>=120) return;
       const cc=d._country;const meta=COUNTRY_META[cc];
-      const name=d.data.name||'';
+      const name=cc==='fr'?trFR(d.data.name||''):(d.data.name||'');
       const fontSize=Math.max(8,Math.min(28,sr/3.8));
       const charsPerLine=Math.max(6,Math.floor(sr*1.8/(fontSize*0.55)));
       const lines=wrapText(name,charsPerLine);
@@ -4799,7 +4806,8 @@ async function loadMultiverse(forceYear){
       else if(Math.abs(v)>=1e9) vStr=sym+(v/1e9).toFixed(1)+'B';
       else if(Math.abs(v)>=1e6) vStr=sym+(v/1e6).toFixed(1)+'M';
       else vStr=sym+Math.round(v).toLocaleString();
-      let html=`<div class="tt-name">${esc(d.data.name)}</div><div class="tt-amount">${vStr}</div>`;
+      const ttName=d._country==='fr'?trFR(d.data.name):d.data.name;
+      let html=`<div class="tt-name">${esc(ttName)}</div><div class="tt-amount">${vStr}</div>`;
       html+=`<div class="tt-pct">${pctTotal}% of ${meta.name}`;
       if(d.parent&&d.parent.depth>0) html+=` &middot; ${pctParent}% of parent`;
       html+='</div>';

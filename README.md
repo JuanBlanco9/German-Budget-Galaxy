@@ -44,7 +44,7 @@ Every sphere represents real public money. The size is proportional to the amoun
 |---------|-------|------------|--------|-------------|
 | :de: Germany | 2015-2025 | 25 Einzelplane | EUR 502B | 75 |
 | :us: United States | 2017-2025 | 111 agencies | $9.5T | 2,410 |
-| :fr: France | 2020-2025 | 20 missions | EUR 823B | 974 |
+| :fr: France | 2020-2025 | 20 ministries | EUR 823B | 974 |
 | :gb: United Kingdom | 2020-2024 | 22 departments | GBP 1,130B | 651 |
 
 > More countries coming soon: Brazil, Israel, Canada, Japan
