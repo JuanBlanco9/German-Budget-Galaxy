@@ -1,0 +1,502 @@
+[
+  {
+    "rank": 1,
+    "name": "Federal Old-Age and Survivors Insurance Trust Fund",
+    "agency": "Social Security Administration (SSA)",
+    "treasury_account_symbol": "20-8006",
+    "created": 1940,
+    "description": "Pays monthly retirement and survivors benefits to eligible workers and their families based on lifetime earnings. Funded primarily through the 6.2% OASDI payroll tax (employer and employee each) on earnings up to the taxable maximum.",
+    "beneficiaries": "approximately 57 million retirees and survivors (FY2024)",
+    "fy2024_obligations_approx": "$1.1 trillion"
+  },
+  {
+    "rank": 2,
+    "name": "Federal Hospital Insurance Trust Fund",
+    "agency": "Department of Health and Human Services / Centers for Medicare & Medicaid Services (HHS/CMS)",
+    "treasury_account_symbol": "20-8005",
+    "created": 1966,
+    "description": "Finances Medicare Part A, covering inpatient hospital stays, skilled nursing facility care, hospice, and some home health services for Americans aged 65+ and certain disabled individuals. Funded by the 1.45% Medicare payroll tax on all earnings (employer and employee each) plus a 0.9% Additional Medicare Tax on high earners.",
+    "beneficiaries": "approximately 66 million Medicare enrollees (FY2024)",
+    "fy2024_obligations_approx": "$440 billion"
+  },
+  {
+    "rank": 3,
+    "name": "Federal Supplementary Medical Insurance Trust Fund",
+    "agency": "Department of Health and Human Services / Centers for Medicare & Medicaid Services (HHS/CMS)",
+    "treasury_account_symbol": "20-8004",
+    "created": 1966,
+    "description": "Finances Medicare Part B (physician and outpatient services) and Medicare Part D (prescription drug coverage). Funded approximately 75% by general revenues and 25% by beneficiary premiums.",
+    "beneficiaries": "approximately 62 million Part B enrollees and 52 million Part D enrollees (FY2024)",
+    "fy2024_obligations_approx": "$530 billion"
+  },
+  {
+    "rank": 4,
+    "name": "Interest on the Public Debt",
+    "agency": "Department of the Treasury / Bureau of the Fiscal Service",
+    "treasury_account_symbol": "20-0550",
+    "created": 1790,
+    "description": "Pays interest on all outstanding Treasury securities (bills, notes, bonds, TIPS, and savings bonds) held by the public and intragovernmental accounts. This is a mandatory appropriation that covers the federal government's borrowing costs.",
+    "beneficiaries": "not applicable (payments to bondholders and trust funds, not individual program beneficiaries)",
+    "fy2024_obligations_approx": "$880 billion"
+  },
+  {
+    "rank": 5,
+    "name": "Grants to States for Medicaid",
+    "agency": "Department of Health and Human Services / Centers for Medicare & Medicaid Services (HHS/CMS)",
+    "treasury_account_symbol": "75-0512",
+    "created": 1966,
+    "description": "Provides federal matching funds to states for the Medicaid program, which covers health care for low-income individuals, families, pregnant women, children, elderly, and people with disabilities. The federal share (FMAP) varies by state, ranging from 50% to about 77%.",
+    "beneficiaries": "approximately 92 million Medicaid enrollees (FY2024)",
+    "fy2024_obligations_approx": "$616 billion"
+  },
+  {
+    "rank": 6,
+    "name": "Refunding Internal Revenue Collections",
+    "agency": "Department of the Treasury / Internal Revenue Service (IRS)",
+    "treasury_account_symbol": "20-0904",
+    "created": 1913,
+    "description": "Processes refunds of overpaid federal income taxes, payroll taxes, and related credits (including the Earned Income Tax Credit and Child Tax Credit) to individual and corporate taxpayers. This is a permanent, indefinite appropriation that fluctuates with filing activity and tax law changes.",
+    "beneficiaries": "approximately 120 million individual tax refunds issued annually",
+    "fy2024_obligations_approx": "$530 billion"
+  },
+  {
+    "rank": 7,
+    "name": "Federal Disability Insurance Trust Fund",
+    "agency": "Social Security Administration (SSA)",
+    "treasury_account_symbol": "20-8007",
+    "created": 1957,
+    "description": "Pays monthly benefits to workers who become disabled before reaching full retirement age and to their eligible dependents. Funded by a dedicated 0.9% portion of the OASDI payroll tax (employer and employee each).",
+    "beneficiaries": "approximately 7.4 million disabled workers plus 1.4 million dependents (FY2024)",
+    "fy2024_obligations_approx": "$150 billion"
+  },
+  {
+    "rank": 8,
+    "name": "Civil Service Retirement and Disability Fund",
+    "agency": "Office of Personnel Management (OPM)",
+    "treasury_account_symbol": "24-8135",
+    "created": 1920,
+    "description": "Funds retirement, disability, and survivor annuities for federal civilian employees under the Civil Service Retirement System (CSRS) and the Federal Employees Retirement System (FERS). Financed by employee and agency contributions plus a general fund transfer to cover the unfunded liability.",
+    "beneficiaries": "approximately 2.7 million annuitants and survivors (FY2024)",
+    "fy2024_obligations_approx": "$100 billion"
+  },
+  {
+    "rank": 9,
+    "name": "Supplemental Nutrition Assistance Program (SNAP)",
+    "agency": "Department of Agriculture / Food and Nutrition Service (USDA/FNS)",
+    "treasury_account_symbol": "12-3505",
+    "created": 1964,
+    "description": "Provides monthly electronic benefits (EBT) to low-income households to purchase food, serving as the nation's largest domestic anti-hunger program. Eligibility is based on household income generally at or below 130% of the federal poverty level.",
+    "beneficiaries": "approximately 42 million individuals in 22 million households (FY2024)",
+    "fy2024_obligations_approx": "$113 billion"
+  },
+  {
+    "rank": 10,
+    "name": "Military Personnel (Army, Navy, Marine Corps, Air Force, Space Force)",
+    "agency": "Department of Defense (DoD)",
+    "treasury_account_symbol": "21-2010 (Army), 17-1453 (Navy/MC), 57-3500 (Air Force/Space Force)",
+    "created": 1947,
+    "description": "Funds pay, allowances (housing, subsistence), bonuses, permanent change of station moves, and other compensation for active-duty military service members across all branches. Also covers Social Security and Medicare tax contributions for uniformed personnel.",
+    "beneficiaries": "approximately 1.3 million active-duty service members",
+    "fy2024_obligations_approx": "$175 billion (combined across branches)"
+  },
+  {
+    "rank": 11,
+    "name": "Operation and Maintenance (Army, Navy, Air Force, Defense-Wide)",
+    "agency": "Department of Defense (DoD)",
+    "treasury_account_symbol": "21-2020 (Army), 17-1804 (Navy), 57-3400 (Air Force)",
+    "created": 1947,
+    "description": "Finances day-to-day military operations, training, equipment maintenance, base operations, facilities sustainment, and civilian workforce pay across all service branches. The largest single discretionary appropriation category in the federal budget.",
+    "beneficiaries": "not applicable (operational readiness of the armed forces)",
+    "fy2024_obligations_approx": "$290 billion (combined across branches and defense-wide)"
+  },
+  {
+    "rank": 12,
+    "name": "Defense Working Capital Fund",
+    "agency": "Department of Defense (DoD)",
+    "treasury_account_symbol": "97-4930",
+    "created": 1947,
+    "description": "A revolving fund that operates on a business-like basis, providing goods and services (supply management, depot maintenance, transportation, logistics) to DoD components on a reimbursable basis. Activities set prices to recover costs, maintaining a self-sustaining cash flow cycle.",
+    "beneficiaries": "not applicable (internal DoD supply chain and logistics)",
+    "fy2024_obligations_approx": "$85 billion"
+  },
+  {
+    "rank": 13,
+    "name": "Procurement (Aircraft, Missiles, Weapons, Shipbuilding, and Other — across services)",
+    "agency": "Department of Defense (DoD)",
+    "treasury_account_symbol": "various (21-2031 Aircraft Army, 17-1506 Weapons Navy, 57-3010 Aircraft AF, etc.)",
+    "created": 1947,
+    "description": "Funds the acquisition of major weapons systems, aircraft, ships, vehicles, missiles, ammunition, and other military equipment for all service branches. Appropriations are typically available for three years (obligation) to accommodate multi-year production contracts.",
+    "beneficiaries": "not applicable (equips the armed forces)",
+    "fy2024_obligations_approx": "$160 billion (combined across all procurement accounts)"
+  },
+  {
+    "rank": 14,
+    "name": "Government Payment for Annuitants, Employees Health Benefits",
+    "agency": "Office of Personnel Management (OPM)",
+    "treasury_account_symbol": "24-0206",
+    "created": 1960,
+    "description": "Pays the government's share (approximately 72%) of health insurance premiums for federal employees, retirees, and their dependents under the Federal Employees Health Benefits (FEHB) Program. Covers enrollment in a wide range of private health insurance plans.",
+    "beneficiaries": "approximately 8.2 million federal employees, retirees, and dependents",
+    "fy2024_obligations_approx": "$50 billion"
+  },
+  {
+    "rank": 15,
+    "name": "Tenant-Based Rental Assistance (Section 8 Housing Choice Vouchers)",
+    "agency": "Department of Housing and Urban Development (HUD)",
+    "treasury_account_symbol": "86-0302",
+    "created": 1974,
+    "description": "Provides portable housing vouchers to very low-income families, the elderly, and persons with disabilities to rent units in the private market, with HUD paying the difference between 30% of household income and the fair market rent. Administered by approximately 2,200 local public housing agencies.",
+    "beneficiaries": "approximately 2.3 million households (about 5.2 million individuals)",
+    "fy2024_obligations_approx": "$32 billion"
+  },
+  {
+    "rank": 16,
+    "name": "Supplemental Security Income Program (SSI)",
+    "agency": "Social Security Administration (SSA)",
+    "treasury_account_symbol": "28-0406",
+    "created": 1974,
+    "description": "Provides monthly cash assistance to aged, blind, and disabled individuals with limited income and resources, establishing a uniform federal income floor. Funded entirely from general revenues (not the Social Security trust funds).",
+    "beneficiaries": "approximately 7.5 million recipients (FY2024)",
+    "fy2024_obligations_approx": "$60 billion"
+  },
+  {
+    "rank": 17,
+    "name": "Federal Pell Grant Program",
+    "agency": "Department of Education",
+    "treasury_account_symbol": "91-0200",
+    "created": 1972,
+    "description": "Awards need-based grants to low-income undergraduate students to help pay for college tuition, fees, and living expenses, with no repayment required. Maximum award set annually by Congress (up to $7,395 in award year 2024-25).",
+    "beneficiaries": "approximately 6.8 million undergraduate students annually",
+    "fy2024_obligations_approx": "$27 billion"
+  },
+  {
+    "rank": 18,
+    "name": "Student Financial Assistance (Federal Direct Loan Program)",
+    "agency": "Department of Education",
+    "treasury_account_symbol": "91-0243",
+    "created": 2010,
+    "description": "Administers the William D. Ford Federal Direct Loan Program, issuing subsidized and unsubsidized loans, PLUS loans, and consolidation loans directly to students and parents for postsecondary education. Also includes costs related to income-driven repayment plans and loan forgiveness programs.",
+    "beneficiaries": "approximately 43 million federal student loan borrowers with outstanding balances",
+    "fy2024_obligations_approx": "$97 billion (gross loan disbursements; net subsidy cost varies)"
+  },
+  {
+    "rank": 19,
+    "name": "Highway Trust Fund (Federal-Aid Highways / Federal Highway Administration)",
+    "agency": "Department of Transportation / Federal Highway Administration (FHWA)",
+    "treasury_account_symbol": "69-8083",
+    "created": 1956,
+    "description": "Finances federal-aid highway construction, maintenance, and safety improvement projects on the National Highway System and other eligible roads, distributed to states via formula and competitive grants. Funded primarily by the 18.4 cents/gallon federal gasoline tax, supplemented by general fund transfers.",
+    "beneficiaries": "not applicable (benefits all highway users; funds distributed to 50 states, DC, territories, and tribal governments)",
+    "fy2024_obligations_approx": "$62 billion"
+  },
+  {
+    "rank": 20,
+    "name": "Defense Health Program (TRICARE)",
+    "agency": "Department of Defense (DoD)",
+    "treasury_account_symbol": "97-0130",
+    "created": 1992,
+    "description": "Provides medical and dental care to active-duty service members, retirees, and their dependents through the Military Health System, including direct care at military treatment facilities and purchased care through the TRICARE managed care network. Covers worldwide health services for the uniformed services community.",
+    "beneficiaries": "approximately 9.6 million TRICARE-eligible beneficiaries",
+    "fy2024_obligations_approx": "$37 billion"
+  },
+  {
+    "rank": 21,
+    "name": "Medical Services / Medical Community Care (Veterans Health Administration)",
+    "agency": "Department of Veterans Affairs (VA)",
+    "treasury_account_symbol": "36-0160 (Medical Services), 36-0162 (Community Care)",
+    "created": 1930,
+    "description": "Funds inpatient, outpatient, mental health, long-term care, and community care (including the MISSION Act) health services for eligible veterans through the Veterans Health Administration's 171 medical centers and 1,100+ outpatient sites. Largest integrated health care system in the United States.",
+    "beneficiaries": "approximately 9.1 million veterans enrolled in VA health care",
+    "fy2024_obligations_approx": "$105 billion (Medical Services + Community Care combined)"
+  },
+  {
+    "rank": 22,
+    "name": "Compensation and Pensions",
+    "agency": "Department of Veterans Affairs (VA)",
+    "treasury_account_symbol": "36-0102",
+    "created": 1930,
+    "description": "Provides tax-free disability compensation payments to veterans with service-connected injuries/illnesses and income-based pension benefits to wartime veterans who are permanently and totally disabled. Also includes dependency and indemnity compensation (DIC) for survivors of service members who died on duty or from service-connected causes.",
+    "beneficiaries": "approximately 6.7 million veterans and survivors receiving compensation or pension",
+    "fy2024_obligations_approx": "$155 billion"
+  },
+  {
+    "rank": 23,
+    "name": "Children's Health Insurance Program (CHIP)",
+    "agency": "Department of Health and Human Services / Centers for Medicare & Medicaid Services (HHS/CMS)",
+    "treasury_account_symbol": "75-0515",
+    "created": 1997,
+    "description": "Provides federal matching funds to states to cover uninsured children in families with incomes too high to qualify for Medicaid but too low to afford private coverage, with enhanced federal matching rates (generally 65%-85%). States design their programs as Medicaid expansions, separate CHIP programs, or combinations.",
+    "beneficiaries": "approximately 7.4 million children and 370,000 pregnant women enrolled",
+    "fy2024_obligations_approx": "$19 billion"
+  },
+  {
+    "rank": 24,
+    "name": "Science / Exploration / Space Operations (NASA)",
+    "agency": "National Aeronautics and Space Administration (NASA)",
+    "treasury_account_symbol": "80-0114 (Science), 80-0115 (Exploration), 80-0116 (Space Operations)",
+    "created": 1958,
+    "description": "Funds NASA's space science missions (James Webb Space Telescope, Mars exploration, Earth observation), human exploration programs (Artemis/Moon-to-Mars), and space operations (International Space Station, launch services, space communications). Supports the nation's civil space program and advances scientific understanding.",
+    "beneficiaries": "not applicable (scientific research and exploration; supports thousands of research institutions, universities, and contractors)",
+    "fy2024_obligations_approx": "$16 billion (Science ~$7.8B, Exploration ~$7.5B, Space Ops ~$4B — some overlap)"
+  },
+  {
+    "rank": 25,
+    "name": "Salaries and Expenses, Federal Bureau of Investigation",
+    "agency": "Department of Justice / Federal Bureau of Investigation (FBI)",
+    "treasury_account_symbol": "15-0200",
+    "created": 1908,
+    "description": "Funds FBI operations including counterterrorism, counterintelligence, cyber crime, criminal investigations, intelligence collection, and forensic laboratory services across 56 field offices and 350+ resident agencies nationwide. Also supports international operations through legal attache offices in over 60 countries.",
+    "beneficiaries": "not applicable (federal law enforcement; approximately 37,000 employees)",
+    "fy2024_obligations_approx": "$11.3 billion"
+  },
+  {
+    "rank": 26,
+    "name": "Salaries and Expenses, Federal Prison System (Bureau of Prisons)",
+    "agency": "Department of Justice / Bureau of Prisons (BOP)",
+    "treasury_account_symbol": "15-1060",
+    "created": 1930,
+    "description": "Operates and maintains 122 federal correctional institutions of varying security levels, plus residential reentry centers, housing federal inmates convicted of federal offenses. Covers inmate care, custody, security, education, vocational training, medical services, and community corrections.",
+    "beneficiaries": "approximately 158,000 federal inmates in BOP custody",
+    "fy2024_obligations_approx": "$8.7 billion"
+  },
+  {
+    "rank": 27,
+    "name": "Salaries and Expenses, U.S. Customs and Border Protection",
+    "agency": "Department of Homeland Security / Customs and Border Protection (CBP)",
+    "treasury_account_symbol": "70-0530",
+    "created": 2003,
+    "description": "Funds border security operations including Border Patrol agents, officers at ports of entry, trade enforcement, agricultural inspections, and anti-smuggling operations along the nation's borders and at 328 ports of entry. Employs the largest federal law enforcement workforce in the United States.",
+    "beneficiaries": "not applicable (border security; approximately 63,000 employees including ~20,000 Border Patrol agents and ~27,000 CBP officers)",
+    "fy2024_obligations_approx": "$19 billion (Salaries and Expenses + related accounts)"
+  },
+  {
+    "rank": 28,
+    "name": "Disaster Relief Fund",
+    "agency": "Department of Homeland Security / Federal Emergency Management Agency (FEMA)",
+    "treasury_account_symbol": "70-0702",
+    "created": 1974,
+    "description": "Provides federal assistance following presidential disaster declarations, funding individual assistance (housing, personal property), public assistance (infrastructure repair for state/local governments), and hazard mitigation grants. The primary funding source for federal disaster response and recovery operations.",
+    "beneficiaries": "varies widely by year; millions of individuals and thousands of state/local government entities and nonprofits affected by declared disasters",
+    "fy2024_obligations_approx": "$23 billion"
+  },
+  {
+    "rank": 29,
+    "name": "National Institutes of Health (NIH — consolidated across 27 Institutes and Centers)",
+    "agency": "Department of Health and Human Services / National Institutes of Health (HHS/NIH)",
+    "treasury_account_symbol": "75-9915 and individual institute accounts",
+    "created": 1930,
+    "description": "Funds biomedical and public health research through intramural labs and extramural grants to universities, medical schools, and research institutions worldwide, covering basic science, clinical trials, and translational research across all major diseases. The world's largest public funder of biomedical research.",
+    "beneficiaries": "not applicable (research enterprise; funds approximately 50,000 competitive grants to over 2,500 institutions)",
+    "fy2024_obligations_approx": "$47 billion"
+  },
+  {
+    "rank": 30,
+    "name": "Centers for Disease Control and Prevention (CDC)",
+    "agency": "Department of Health and Human Services / CDC",
+    "treasury_account_symbol": "75-0943",
+    "created": 1946,
+    "description": "Funds disease surveillance, outbreak investigation, immunization programs, chronic disease prevention, injury prevention, environmental health, and global health security activities to protect the nation from health threats. Provides critical grants and cooperative agreements to state and local health departments.",
+    "beneficiaries": "not applicable (public health infrastructure; grants to all 50 states, territories, and hundreds of local health departments)",
+    "fy2024_obligations_approx": "$9.2 billion (excluding mandatory transfers)"
+  },
+  {
+    "rank": 31,
+    "name": "Forest Service (National Forest System, Wildland Fire Management, State and Private Forestry)",
+    "agency": "Department of Agriculture / U.S. Forest Service (USDA/FS)",
+    "treasury_account_symbol": "12-1106 (NFS), 12-1106 (Fire), 12-1104 (S&PF)",
+    "created": 1905,
+    "description": "Manages 193 million acres of national forests and grasslands for multiple uses including timber, recreation, watershed protection, and wildlife habitat, and leads federal wildland firefighting operations. Wildland fire suppression and fuels management constitute the largest share of the Forest Service budget.",
+    "beneficiaries": "not applicable (public lands management; serves approximately 160 million recreational visitors annually)",
+    "fy2024_obligations_approx": "$9.5 billion"
+  },
+  {
+    "rank": 32,
+    "name": "Weapons Activities, National Nuclear Security Administration",
+    "agency": "Department of Energy / National Nuclear Security Administration (DOE/NNSA)",
+    "treasury_account_symbol": "89-0243",
+    "created": 1999,
+    "description": "Maintains the safety, security, and reliability of the U.S. nuclear weapons stockpile through the Stockpile Stewardship Program, without underground testing, and manages nuclear weapons production and infrastructure modernization at sites including Los Alamos, Sandia, and Lawrence Livermore. Also supports nuclear nonproliferation, naval reactors, and emergency response.",
+    "beneficiaries": "not applicable (national security; operates through seven national laboratories and production plants)",
+    "fy2024_obligations_approx": "$20 billion"
+  },
+  {
+    "rank": 33,
+    "name": "Environmental Management (Defense Environmental Cleanup)",
+    "agency": "Department of Energy (DOE)",
+    "treasury_account_symbol": "89-0242",
+    "created": 1989,
+    "description": "Cleans up the environmental legacy of Cold War-era nuclear weapons production and government-sponsored nuclear energy research across the DOE complex, including radioactive waste treatment, spent fuel management, and facility decommissioning. The world's largest environmental remediation program.",
+    "beneficiaries": "not applicable (environmental remediation at 16 major sites across 12 states; protects surrounding communities and ecosystems)",
+    "fy2024_obligations_approx": "$7.9 billion"
+  },
+  {
+    "rank": 34,
+    "name": "Operations, Federal Aviation Administration",
+    "agency": "Department of Transportation / Federal Aviation Administration (FAA)",
+    "treasury_account_symbol": "69-1301",
+    "created": 1958,
+    "description": "Funds the operation of the national airspace system, including air traffic control at approximately 300 FAA-operated facilities, aviation safety regulation and certification, and the employment of approximately 14,000 air traffic controllers. Also covers Facilities & Equipment and Research, Engineering & Development accounts.",
+    "beneficiaries": "not applicable (aviation safety; manages approximately 45,000 flights per day in U.S. airspace)",
+    "fy2024_obligations_approx": "$13.5 billion (Operations + Facilities & Equipment)"
+  },
+  {
+    "rank": 35,
+    "name": "School Improvement Programs (Supporting Effective Instruction / Title II; 21st Century Community Learning Centers; other ESEA programs)",
+    "agency": "Department of Education",
+    "treasury_account_symbol": "91-1000",
+    "created": 1965,
+    "description": "Provides formula and competitive grants to states and school districts under the Elementary and Secondary Education Act (ESEA/ESSA) for teacher quality improvement, after-school programs, charter schools, magnet schools, and other school improvement initiatives. Complements the larger Title I grants to local educational agencies.",
+    "beneficiaries": "approximately 25,000 school districts and 100,000 public schools serving millions of students",
+    "fy2024_obligations_approx": "$5.8 billion"
+  },
+  {
+    "rank": 36,
+    "name": "Special Education (Grants to States under IDEA Part B)",
+    "agency": "Department of Education / Office of Special Education Programs",
+    "treasury_account_symbol": "91-0300",
+    "created": 1975,
+    "description": "Provides formula grants to states to assist in providing free appropriate public education (FAPE) to children and youth with disabilities ages 3-21 under the Individuals with Disabilities Education Act (IDEA). Represents the federal share of the excess cost of educating students with disabilities.",
+    "beneficiaries": "approximately 7.5 million students with disabilities receiving special education services",
+    "fy2024_obligations_approx": "$14.2 billion"
+  },
+  {
+    "rank": 37,
+    "name": "Community Development Fund (Community Development Block Grants — CDBG)",
+    "agency": "Department of Housing and Urban Development (HUD)",
+    "treasury_account_symbol": "86-0162",
+    "created": 1974,
+    "description": "Provides flexible annual formula grants to entitled cities (population 50,000+), urban counties, and states for community development activities directed toward neighborhood revitalization, economic development, and improved community facilities and services benefiting low- and moderate-income persons. At least 70% of funds must benefit LMI populations.",
+    "beneficiaries": "approximately 1,200 entitled communities and all 50 states; benefits millions of LMI residents",
+    "fy2024_obligations_approx": "$3.3 billion"
+  },
+  {
+    "rank": 38,
+    "name": "Operation of Indian Programs / Indian Affairs",
+    "agency": "Department of the Interior / Bureau of Indian Affairs (BIA) and Bureau of Indian Education (BIE)",
+    "treasury_account_symbol": "14-2100",
+    "created": 1824,
+    "description": "Funds trust responsibilities to 574 federally recognized tribes, including tribal governance, natural resources management, law enforcement, social services, and education through 183 BIE-funded schools. Supports tribal self-determination and sovereignty through direct services, contracts, and self-governance compacts.",
+    "beneficiaries": "approximately 1.9 million American Indians and Alaska Natives who are members of federally recognized tribes",
+    "fy2024_obligations_approx": "$4.2 billion"
+  },
+  {
+    "rank": 39,
+    "name": "Resource Management, U.S. Fish and Wildlife Service",
+    "agency": "Department of the Interior / U.S. Fish and Wildlife Service (FWS)",
+    "treasury_account_symbol": "14-1611",
+    "created": 1940,
+    "description": "Manages the National Wildlife Refuge System (568 refuges on 850 million acres), administers the Endangered Species Act, enforces federal wildlife laws, manages migratory bird conservation, and operates national fish hatcheries. Also administers grants to states for wildlife and sport fish restoration.",
+    "beneficiaries": "not applicable (wildlife conservation; refuges host approximately 65 million visitors annually)",
+    "fy2024_obligations_approx": "$3.5 billion (Resource Management + other FWS accounts)"
+  },
+  {
+    "rank": 40,
+    "name": "Operation of the National Park System",
+    "agency": "Department of the Interior / National Park Service (NPS)",
+    "treasury_account_symbol": "14-1036",
+    "created": 1916,
+    "description": "Operates and maintains 429 units of the National Park System, including national parks, monuments, historic sites, recreation areas, seashores, and battlefields, preserving natural and cultural resources while providing for public enjoyment. Also administers grant and partnership programs for historic preservation and recreation.",
+    "beneficiaries": "not applicable (public lands; approximately 312 million recreational visits annually)",
+    "fy2024_obligations_approx": "$4.2 billion (Operations + Construction + other NPS accounts)"
+  },
+  {
+    "rank": 41,
+    "name": "U.S. Army Corps of Engineers — Civil Works (Investigations, Construction, Operation and Maintenance)",
+    "agency": "Department of Defense — Civil / U.S. Army Corps of Engineers (USACE)",
+    "treasury_account_symbol": "96-3122 (Construction), 96-3123 (O&M), 96-3121 (Investigations)",
+    "created": 1802,
+    "description": "Plans, designs, builds, and operates water resources infrastructure including navigation channels, flood risk management systems (levees, dams, floodwalls), hydropower facilities, aquatic ecosystem restoration, and regulatory permits for wetlands and waterways. Manages over 700 dams and 12,000 miles of inland waterways.",
+    "beneficiaries": "not applicable (water infrastructure; benefits communities nationwide, especially in flood-prone areas and along navigable waterways)",
+    "fy2024_obligations_approx": "$8.8 billion"
+  },
+  {
+    "rank": 42,
+    "name": "Foreign Military Financing",
+    "agency": "Department of State / Department of Defense (administered by Defense Security Cooperation Agency)",
+    "treasury_account_symbol": "11-1082",
+    "created": 1976,
+    "description": "Provides grants (and historically loans) to foreign governments for the purchase of U.S. defense articles, defense services, and military training, with the majority of funding historically going to Israel, Egypt, Jordan, and other strategic partners. Advances U.S. national security objectives through allied capacity building and interoperability.",
+    "beneficiaries": "not applicable (approximately 50+ partner countries; Israel receives approximately $3.3 billion annually under the 2016 MOU)",
+    "fy2024_obligations_approx": "$6.1 billion"
+  },
+  {
+    "rank": 43,
+    "name": "Economic Support Fund",
+    "agency": "Department of State / U.S. Agency for International Development (USAID)",
+    "treasury_account_symbol": "72-1037",
+    "created": 1961,
+    "description": "Provides economic assistance to countries of strategic importance to U.S. foreign policy, supporting governance, rule of law, economic reforms, education, health, and stabilization programs. Grants are flexible and can address a wide range of development and diplomatic objectives.",
+    "beneficiaries": "not applicable (foreign assistance to approximately 70+ countries and territories)",
+    "fy2024_obligations_approx": "$4.5 billion"
+  },
+  {
+    "rank": 44,
+    "name": "Global Health Programs (PEPFAR/Global Health Security)",
+    "agency": "Department of State / Office of the Global AIDS Coordinator; HHS/CDC Global; USAID Global Health",
+    "treasury_account_symbol": "19-1031 (State), 72-1032 (USAID)",
+    "created": 2003,
+    "description": "Funds the President's Emergency Plan for AIDS Relief (PEPFAR) and global health initiatives addressing HIV/AIDS, malaria (PMI), tuberculosis, maternal and child health, family planning, nutrition, and pandemic preparedness in developing countries. PEPFAR alone has supported antiretroviral treatment for over 20 million people.",
+    "beneficiaries": "not applicable (global health; PEPFAR supports HIV treatment for approximately 20.1 million people in 50+ countries)",
+    "fy2024_obligations_approx": "$10.6 billion (across State, USAID, CDC, and DoD global health accounts)"
+  },
+  {
+    "rank": 45,
+    "name": "Disaster Loans Program Account, Small Business Administration",
+    "agency": "Small Business Administration (SBA)",
+    "treasury_account_symbol": "73-1152",
+    "created": 1953,
+    "description": "Provides low-interest, long-term loans to homeowners, renters, businesses of all sizes, and private nonprofits to repair or replace property damaged by declared disasters, including real estate, personal property, machinery, and inventory. The primary form of federal disaster assistance for non-agricultural private-sector losses.",
+    "beneficiaries": "varies by year based on disaster activity; typically tens of thousands of disaster loan approvals annually",
+    "fy2024_obligations_approx": "$2.5 billion (varies significantly based on disaster activity)"
+  },
+  {
+    "rank": 46,
+    "name": "Rural Development Programs (Rural Housing Service, Rural Utilities Service, Rural Business-Cooperative Service)",
+    "agency": "Department of Agriculture / Rural Development (USDA/RD)",
+    "treasury_account_symbol": "12-2081 (Rural Housing), 12-2042 (Rural Utilities), 12-1902 (Rural Business)",
+    "created": 1949,
+    "description": "Provides loans, loan guarantees, and grants for rural housing (single-family and multi-family), water and waste disposal systems, electric and telecommunications infrastructure, broadband, and rural business development. Serves communities with populations generally under 35,000.",
+    "beneficiaries": "approximately 60 million people living in rural America; specific program beneficiaries include hundreds of thousands of homeowners and thousands of communities",
+    "fy2024_obligations_approx": "$5.5 billion (program level much higher due to loan guarantees)"
+  },
+  {
+    "rank": 47,
+    "name": "Federal Transit Administration (Transit Formula Grants and Capital Investment Grants)",
+    "agency": "Department of Transportation / Federal Transit Administration (FTA)",
+    "treasury_account_symbol": "69-1134 (Formula Grants), 69-1134 (CIG)",
+    "created": 1964,
+    "description": "Provides formula and competitive grants to state and local transit agencies for capital investments, operations, planning, and safety improvements for public transportation systems including buses, subways, light rail, commuter rail, and ferries. The Bipartisan Infrastructure Law significantly increased authorized funding levels.",
+    "beneficiaries": "not applicable (public transit systems; approximately 900+ transit agencies serving millions of daily riders in urban and rural areas)",
+    "fy2024_obligations_approx": "$16 billion"
+  },
+  {
+    "rank": 48,
+    "name": "National Railroad Passenger Corporation Grants (Amtrak)",
+    "agency": "Department of Transportation / Federal Railroad Administration (FRA)",
+    "treasury_account_symbol": "69-0125",
+    "created": 1970,
+    "description": "Provides annual federal grants to Amtrak for the operation, maintenance, and capital improvement of intercity passenger rail service across a 21,000-mile national network serving 500+ stations in 46 states. The Bipartisan Infrastructure Law provided $66 billion over five years for passenger and freight rail.",
+    "beneficiaries": "approximately 28.6 million Amtrak riders annually (FY2024 ridership)",
+    "fy2024_obligations_approx": "$3.3 billion"
+  },
+  {
+    "rank": 49,
+    "name": "Hazardous Substance Superfund (EPA Superfund Program)",
+    "agency": "Environmental Protection Agency (EPA)",
+    "treasury_account_symbol": "68-8145",
+    "created": 1980,
+    "description": "Funds the investigation and cleanup of the nation's most contaminated hazardous waste sites (National Priorities List), emergency response to hazardous substance releases, and enforcement actions against responsible parties. The Bipartisan Infrastructure Law provided an additional $3.5 billion for Superfund cleanups.",
+    "beneficiaries": "not applicable (environmental cleanup; approximately 1,340 NPL sites with 73 million Americans living within three miles of a Superfund site)",
+    "fy2024_obligations_approx": "$2.4 billion"
+  },
+  {
+    "rank": 50,
+    "name": "Research and Related Activities, National Science Foundation",
+    "agency": "National Science Foundation (NSF)",
+    "treasury_account_symbol": "49-0100",
+    "created": 1950,
+    "description": "Funds fundamental research and education across all fields of science and engineering (excluding medical sciences) through competitive merit-reviewed grants to universities and research institutions, supporting approximately 25% of all federally funded basic research at academic institutions. Also funds major research facilities, STEM workforce development, and international science cooperation.",
+    "beneficiaries": "not applicable (research enterprise; approximately 50,000 awards to 2,000+ institutions annually; supports approximately 300,000 researchers, postdocs, and students)",
+    "fy2024_obligations_approx": "$9.1 billion (Research and Related Activities only; total NSF approximately $11.3 billion)"
+  }
+]

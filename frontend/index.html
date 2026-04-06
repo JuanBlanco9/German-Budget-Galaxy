@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>German Budget Galaxy</title>
+<title>Budget Galaxy</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
@@ -39,6 +39,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;z-index:1000}
 .header h1{font-size:16px;font-weight:600}
 .header h1 span{color:var(--accent)}
+.country-switch{display:flex;gap:0;border-radius:5px;overflow:hidden;border:1px solid var(--border);flex-shrink:0;margin-left:16px}
+.country-switch button{background:var(--bg);color:var(--dim);border:none;padding:4px 10px;font-size:11px;font-weight:600;cursor:pointer;font-family:Inter,system-ui,sans-serif;transition:background .2s}
+.country-switch button:hover{background:rgba(255,255,255,.06)}
+.country-switch button.active{background:var(--accent);color:#fff}
 .global-lang{display:flex;gap:0;border-radius:5px;overflow:hidden;border:1px solid var(--border);flex-shrink:0}
 .global-lang button{background:var(--bg);color:var(--dim);border:none;padding:4px 12px;font-size:11px;font-weight:600;cursor:pointer;font-family:Inter,system-ui,sans-serif}
 .global-lang button:hover{background:rgba(255,255,255,.06)}
@@ -318,12 +322,12 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 @media(max-width:900px){.side-panel.open{width:100%;position:absolute;right:0;top:0;height:100%;z-index:900}.dashboard{grid-template-columns:1fr}.metrics-row{grid-template-columns:repeat(2,1fr)}.filter-bar{flex-direction:column;align-items:stretch}.cr-charts{grid-template-columns:1fr}}
 
 /* ── LANDING PAGE ────────────────────────────── */
-#landing-page{position:fixed;top:0;left:0;width:100vw;height:100vh;background:var(--bg);z-index:9998;display:flex;align-items:center;justify-content:center;overflow-y:auto;opacity:0;animation:lpFadeIn .8s ease forwards}
+#landing-page{position:fixed;top:0;left:0;width:100vw;height:100vh;background:url('galaxy_bg.avif') center center/cover no-repeat,var(--bg);z-index:9998;display:flex;align-items:center;justify-content:center;overflow-y:auto;opacity:0;animation:lpFadeIn .8s ease forwards}
 #landing-page.hidden{display:none}
 @keyframes lpFadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 .lp-container{max-width:900px;width:100%;padding:20px 24px;text-align:center}
-.lp-title{font-size:28px;font-weight:700;letter-spacing:2px;color:var(--text);margin-bottom:6px}
-.lp-tagline{font-size:14px;color:var(--dim);margin-bottom:40px;font-style:italic}
+.lp-title{font-size:28px;font-weight:700;letter-spacing:2px;color:#fff;margin-bottom:6px;text-shadow:0 2px 12px rgba(0,0,0,.8),0 0 4px rgba(0,0,0,.6)}
+.lp-tagline{font-size:14px;color:rgba(255,255,255,.9);margin-bottom:40px;font-style:italic;text-shadow:0 1px 8px rgba(0,0,0,.7)}
 .lp-numbers{display:flex;justify-content:center;gap:36px;margin-bottom:20px;flex-wrap:wrap}
 .lp-num-item{text-align:center}
 .lp-num-val{font-size:42px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
@@ -331,7 +335,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 .lp-num-val.accent2{color:var(--accent2)}
 .lp-num-val.green{color:var(--green)}
 .lp-num-sub{font-size:13px;color:var(--dim);margin-top:4px;max-width:160px}
-.lp-quote{border-left:4px solid var(--accent);background:var(--surface);padding:14px 20px;border-radius:0 8px 8px 0;font-size:16px;line-height:1.5;color:var(--text);font-style:italic;text-align:left;max-width:750px;margin:0 auto 20px}
+.lp-quote{border:none;background:rgba(0,0,0,.35);padding:10px 24px;border-radius:6px;font-size:13px;line-height:1.5;color:rgba(255,255,255,.85);font-style:italic;text-align:center;display:inline-block;margin:0 auto 20px;text-shadow:0 1px 4px rgba(0,0,0,.6)}
 .lp-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;text-align:left}
 .lp-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px;cursor:pointer;transition:border-color .25s,box-shadow .25s;border-left:4px solid var(--dim)}
 .lp-card:hover{border-color:var(--accent);box-shadow:0 0 20px rgba(79,195,247,.1)}
@@ -345,7 +349,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 .lp-card .lp-card-link{font-size:11px;color:var(--accent);margin-top:8px;display:block}
 .lp-explore-btn{display:inline-block;padding:12px 40px;font-size:15px;font-weight:700;border:none;border-radius:8px;cursor:pointer;background:var(--accent);color:#000;transition:opacity .2s,transform .2s}
 .lp-explore-btn:hover{opacity:.85;transform:scale(1.02)}
-.lp-footer{margin-top:16px;font-size:10px;color:var(--dim);line-height:1.5}
+.lp-footer{margin-top:16px;font-size:10px;color:rgba(255,255,255,.75);line-height:1.5;text-shadow:0 1px 6px rgba(0,0,0,.7)}
 @media(max-width:700px){.lp-numbers{gap:24px}.lp-num-val{font-size:36px}.lp-cards{grid-template-columns:1fr}.lp-quote{font-size:16px;padding:14px 16px}.lp-title{font-size:22px}}
 
 /* ── GALAXY (Budget Circle Packing) ────────── */
@@ -581,66 +585,49 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 <!-- ── LANDING PAGE ─────────────────────────────── -->
 <div id="landing-page">
   <div class="lp-container">
-    <div class="lp-title" style="font-size:26px;margin-bottom:4px">GERMAN BUDGET GALAXY</div>
-    <div class="lp-tagline" style="max-width:600px;margin:0 auto 16px;line-height:1.6;font-size:13px;color:var(--dim)">The German federal budget is public. But public is not the same as accessible. This tool makes &euro;477 billion explorable &mdash; every ministry, every department, every euro.</div>
+    <div class="lp-title" style="font-size:32px;margin-bottom:4px;letter-spacing:2px">BUDGET GALAXY</div>
+    <div class="lp-tagline" style="max-width:none;margin:0 auto 8px;line-height:1.6;font-size:14px;color:rgba(255,255,255,.95);white-space:nowrap;background:rgba(0,0,0,.4);display:inline-block;padding:6px 18px;border-radius:6px">Explore how nations spend. Every ministry, every department, every dollar, euro and pound &mdash; visualized.</div>
 
-    <div class="lp-numbers">
-      <div class="lp-num-item">
-        <div class="lp-num-val accent" data-target="477" data-prefix="&euro;" data-suffix="B" data-format="integer">&#8364;0</div>
-        <div class="lp-num-sub">billion &mdash; federal budget 2024</div>
+    <!-- Multiverse card -->
+    <div onclick="lpGoToTab('multiverse')" style="background:linear-gradient(135deg,rgba(18,18,30,.9),rgba(30,30,50,.9));border:1px solid var(--accent);border-radius:12px;padding:16px 32px;cursor:pointer;text-align:center;margin:0 auto 20px;max-width:420px;transition:transform .2s,box-shadow .2s" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(79,195,247,.2)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+      <div style="font-size:28px;margin-bottom:4px;letter-spacing:4px">&#127465;&#127466; &#127482;&#127480; &#127467;&#127479; &#127468;&#127463;</div>
+      <div style="font-size:18px;font-weight:700;color:var(--text);letter-spacing:1px">MULTIVERSE</div>
+      <div style="font-size:11px;color:var(--accent);margin-top:4px">All budgets in one universe</div>
+    </div>
+
+    <!-- Country selector -->
+    <div style="font-size:11px;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;text-shadow:0 1px 6px rgba(0,0,0,.7)">Or choose a country</div>
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:28px">
+      <div onclick="lpSelectCountry('de')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+        <div style="font-size:36px;margin-bottom:6px">&#127465;&#127466;</div>
+        <div style="font-size:16px;font-weight:700;color:var(--text)">Germany</div>
+        <div style="font-size:11px;color:var(--accent);margin-top:4px">&euro;502B &middot; 2025</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">11 years &middot; 26 ministries</div>
       </div>
-      <div class="lp-num-item">
-        <div class="lp-num-val accent2" data-target="25" data-suffix="" data-format="integer">0</div>
-        <div class="lp-num-sub">ministries visualized</div>
+      <div onclick="lpSelectCountry('us')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+        <div style="font-size:36px;margin-bottom:6px">&#127482;&#127480;</div>
+        <div style="font-size:16px;font-weight:700;color:var(--text)">United States</div>
+        <div style="font-size:11px;color:var(--accent);margin-top:4px">$12.7T &middot; 2024</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">111 agencies</div>
       </div>
-      <div class="lp-num-item">
-        <div class="lp-num-val green" data-target="11" data-suffix=" years" data-format="integer">0</div>
-        <div class="lp-num-sub">of budget data (2015&ndash;2025)</div>
+      <div onclick="lpSelectCountry('fr')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+        <div style="font-size:36px;margin-bottom:6px">&#127467;&#127479;</div>
+        <div style="font-size:16px;font-weight:700;color:var(--text)">France</div>
+        <div style="font-size:11px;color:var(--accent);margin-top:4px">&euro;823B &middot; 2025</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">20 minist&egrave;res</div>
+      </div>
+      <div onclick="lpSelectCountry('uk')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+        <div style="font-size:36px;margin-bottom:6px">&#127468;&#127463;</div>
+        <div style="font-size:16px;font-weight:700;color:var(--text)">United Kingdom</div>
+        <div style="font-size:11px;color:var(--accent);margin-top:4px">&pound;1,130B &middot; 2024</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">22 departments</div>
       </div>
     </div>
 
-    <div class="lp-quote">
-      &ldquo;A budget is not just numbers &mdash; it is the clearest expression of a nation&rsquo;s priorities.&rdquo;
-    </div>
-
-    <div class="lp-cards">
-      <div class="lp-card" style="border-left:3px solid #2d6a4f" onclick="lpGoToTab('galaxy')">
-        <h4>&euro;175.7B &mdash; Labour & Social</h4>
-        <p>One ministry spends 37% of the entire federal budget</p>
-        <span class="lp-card-link">&rarr; Budget Galaxy</span>
-      </div>
-      <div class="lp-card" style="border-left:3px solid #c1121f" onclick="lpGoToTab('galaxy')">
-        <h4>Defence: +67% since 2015</h4>
-        <p>The Zeitenwende in one number</p>
-        <span class="lp-card-link">&rarr; Budget Galaxy</span>
-      </div>
-      <div class="lp-card" style="border-left:3px solid #6b705c" onclick="lpGoToTab('evolution')">
-        <h4>&euro;4B &rarr; &euro;37.5B interest</h4>
-        <p>Federal debt costs exploded after the ECB rate pivot</p>
-        <span class="lp-card-link">&rarr; Budget Evolution</span>
-      </div>
-      <div class="lp-card" style="border-left:3px solid #1d3461" onclick="lpGoToTab('budgetlist')">
-        <h4>4,388 budget items</h4>
-        <p>Drill down to the last euro with enriched context</p>
-        <span class="lp-card-link">&rarr; Budget Explorer</span>
-      </div>
-      <div class="lp-card" style="border-left:3px solid #2d6a4f" onclick="lpGoToTab('galaxy')">
-        <h4>&euro;127.3B &mdash; one line item</h4>
-        <p>Pension subsidies alone exceed the budgets of 20 ministries combined</p>
-        <span class="lp-card-link">&rarr; Budget Galaxy</span>
-      </div>
-      <div class="lp-card" style="border-left:3px solid #4a4e69" onclick="lpGoToTab('evolution')">
-        <h4>Soziales: +53% in 10 years</h4>
-        <p>&euro;146B (2015) &rarr; &euro;224B (2025) &mdash; the largest absolute growth</p>
-        <span class="lp-card-link">&rarr; Budget Evolution</span>
-      </div>
-    </div>
-
-    <button class="lp-explore-btn" onclick="lpExplore()">Explore the budget &rarr;</button>
+    <div style="font-size:11px;color:rgba(255,255,255,.85);margin-bottom:20px;text-shadow:0 1px 6px rgba(0,0,0,.7)">More countries coming soon: &#127463;&#127479; Brazil &middot; &#127470;&#127473; Israel &middot; &#127464;&#127462; Canada &middot; &#127471;&#127477; Japan</div>
 
     <div class="lp-footer">
-      MIT License &middot; Open Source &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a><br>
-      Data: <a href="https://www.bundeshaushalt.de" target="_blank" style="color:var(--accent)">bundeshaushalt.de</a> &middot; Juan Blanco
+      MIT License &middot; Open Source &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a> &middot; Juan Blanco
     </div>
   </div>
 </div>
@@ -649,7 +636,14 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 <div id="main-app" style="display:none">
 
 <div class="header">
-  <h1><span>German</span> Budget Galaxy</h1>
+  <h1 id="app-title"><span>Budget</span> Galaxy</h1>
+  <div class="country-switch" id="country-switch">
+    <button data-country="mv" onclick="showTab('multiverse',null)" style="font-size:10px">&#127760; ALL</button>
+    <button class="active" data-country="de" onclick="switchCountry('de')">&#127465;&#127466; DE</button>
+    <button data-country="us" onclick="switchCountry('us')">&#127482;&#127480; US</button>
+    <button data-country="fr" onclick="switchCountry('fr')">&#127467;&#127479; FR</button>
+    <button data-country="uk" onclick="switchCountry('uk')">&#127468;&#127463; UK</button>
+  </div>
   <div class="stats" style="display:none">Loading...</div>
   <div class="global-lang" id="global-lang">
     <button class="active" onclick="setGlobalLang('en')" id="gbl-en">EN</button>
@@ -658,6 +652,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 </div>
 
 <div class="tabs">
+  <div class="tab" data-tab="multiverse" onclick="showTab('multiverse',this)">Multiverse</div>
   <div class="tab active" data-tab="galaxy" onclick="showTab('galaxy',this)">Budget Galaxy</div>
   <div class="tab" data-tab="budgetlist" onclick="showTab('budgetlist',this)">Budget Explorer</div>
   <div class="tab" data-tab="evolution" onclick="showTab('evolution',this)">Budget Evolution</div>
@@ -672,6 +667,15 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
   <div class="tab" data-tab="sources" onclick="showTab('sources',this)">Sources &amp; Methodology</div>
   <div class="tab" data-tab="terms" onclick="showTab('terms',this)">Terms</div>
   -->
+</div>
+
+<!-- MULTIVERSE TAB -->
+<div id="tab-multiverse" class="panel" style="display:none">
+  <div id="multiverse-container" style="width:100%;height:100%;background:radial-gradient(ellipse at center,#0d1117 0%,#060810 100%);overflow:auto;position:relative"></div>
+  <div class="galaxy-info" id="mv-info">
+    <div class="gi-close" onclick="closeMvInfo()">&times;</div>
+    <div id="mv-info-content"></div>
+  </div>
 </div>
 
 <!-- GALAXY TAB -->
@@ -1357,6 +1361,51 @@ function lpAnimateNumbers(){
   });
 }
 
+function lpSelectCountry(countryId){
+  currentCountry=countryId;
+  const meta=COUNTRY_META[countryId];
+  galaxyYear=meta.defaultYear;
+  galaxyData=null;
+  blRoot=null;
+  // Hide landing, show app
+  document.getElementById('landing-page').classList.add('hidden');
+  document.getElementById('main-app').style.display='';
+  updateCountryUI();
+  init();
+}
+
+function switchCountry(countryId){
+  if(countryId===currentCountry) return;
+  currentCountry=countryId;
+  const meta=COUNTRY_META[countryId];
+  galaxyYear=meta.defaultYear;
+  galaxyData=null;
+  blRoot=null;
+  multiverseLoaded=false;
+  updateCountryUI();
+  // Reload current tab
+  const activeTab=document.querySelector('.tab.active');
+  const tabName=activeTab?activeTab.dataset.tab:'galaxy';
+  if(tabName==='galaxy') loadGalaxy();
+  else if(tabName==='budgetlist') showBudgetYearPicker();
+  else if(tabName==='evolution') setTimeout(()=>initEvolution(),50);
+  else showTab(tabName,null);
+}
+
+function updateCountryUI(){
+  const meta=COUNTRY_META[currentCountry];
+  // Update header title
+  const h1=document.querySelector('.header h1');
+  if(h1) h1.innerHTML=`<span>${meta.flag} ${meta.name}</span> Budget Galaxy`;
+  // Update country switch buttons
+  document.querySelectorAll('.country-switch button').forEach(b=>{
+    b.classList.toggle('active',b.dataset.country===currentCountry);
+  });
+  // Show/hide DE lang toggle (only relevant for Germany)
+  const langDiv=document.getElementById('global-lang');
+  if(langDiv) langDiv.style.display=currentCountry==='de'?'':'none';
+}
+
 function lpExplore(){
   document.getElementById('landing-page').classList.add('hidden');
   document.getElementById('main-app').style.display='';
@@ -1540,6 +1589,13 @@ function showTab(name,el){
   panel.style.display=(name==='map'||name==='evolution')?'flex':'block';
   if(el)el.classList.add('active');
   else document.querySelector(`.tab[data-tab="${name}"]`).classList.add('active');
+  if(name==='multiverse'){
+    panel.style.display='block';loadMultiverse();
+    // Highlight ALL button in country switcher
+    document.querySelectorAll('.country-switch button').forEach(b=>b.classList.toggle('active',b.dataset.country==='mv'));
+    const h1=document.querySelector('.header h1');
+    if(h1) h1.innerHTML='<span>Budget</span> Multiverse';
+  }
   if(name==='galaxy')loadGalaxy();
   if(name==='budgetlist') showBudgetYearPicker();
   if(name==='evolution'){
@@ -3790,14 +3846,16 @@ function getGalaxyChildColor(d){
 }
 
 function fmtEur(v){
-  if(!v||v===0) return '€0';
+  const sym=(COUNTRY_META[currentCountry]||{}).currency||'€';
+  if(!v||v===0) return sym+'0';
   const n=Number(v);
   const sign=n<0?'-':'';
   const a=Math.abs(n);
-  if(a>=1e9) return sign+'€'+(a/1e9).toFixed(1)+'B';
-  if(a>=1e6) return sign+'€'+(a/1e6).toFixed(1)+'M';
-  if(a>=1e3) return sign+'€'+(a/1e3).toFixed(0)+'K';
-  return sign+'€'+a.toFixed(0);
+  if(a>=1e12) return sign+sym+(a/1e12).toFixed(1)+'T';
+  if(a>=1e9) return sign+sym+(a/1e9).toFixed(1)+'B';
+  if(a>=1e6) return sign+sym+(a/1e6).toFixed(1)+'M';
+  if(a>=1e3) return sign+sym+(a/1e3).toFixed(0)+'K';
+  return sign+sym+a.toFixed(0);
 }
 
 function galaxySummary(d){
@@ -3815,7 +3873,14 @@ function galaxySummary(d){
   return `${n} ${childType} · Top: ${top.join(', ')}`;
 }
 
-let galaxyYear=2024;
+let galaxyYear=2025;
+let currentCountry='de';
+const COUNTRY_META={
+  de:{name:'Germany',currency:'€',flag:'🇩🇪',defaultYear:2025},
+  us:{name:'United States',currency:'$',flag:'🇺🇸',defaultYear:2024},
+  fr:{name:'France',currency:'€',flag:'🇫🇷',defaultYear:2025},
+  uk:{name:'United Kingdom',currency:'£',flag:'🇬🇧',defaultYear:2024},
+};
 
 async function changeGalaxyYear(year){
   galaxyYear=parseInt(year);
@@ -3830,13 +3895,938 @@ async function changeGalaxyYear(year){
   }catch(e){console.error('Failed to load year',galaxyYear,e)}
 }
 
+// ── MULTIVERSE VIEW ──────────────────────────────
+// Same semantic zoom engine as galaxy, but packs each country separately and positions manually
+function mvFmtVal(v,sym){
+  if(Math.abs(v)>=1e12) return sym+(v/1e12).toFixed(1)+'T';
+  if(Math.abs(v)>=1e9) return sym+(v/1e9).toFixed(1)+'B';
+  if(Math.abs(v)>=1e6) return sym+(v/1e6).toFixed(0)+'M';
+  return sym+Math.round(v).toLocaleString();
+}
+
+function mvGoToExplorer(countryCode, nodeName, year){
+  closeMvInfo();
+  // Switch country context without resetting multiverse
+  currentCountry=countryCode;
+  const meta=COUNTRY_META[countryCode];
+  galaxyYear=year||meta.defaultYear;
+  // Update header
+  const h1=document.querySelector('.header h1');
+  if(h1) h1.innerHTML=`<span>${meta.flag} ${meta.name}</span> Budget Galaxy`;
+  document.querySelectorAll('.country-switch button').forEach(b=>b.classList.toggle('active',b.dataset.country===countryCode));
+  const langDiv=document.getElementById('global-lang');
+  if(langDiv) langDiv.style.display=countryCode==='de'?'':'none';
+  // Load budget explorer for that year and navigate to node
+  blRoot=null;
+  const url=countryCode==='de'?`${API}/budget/tree?year=${galaxyYear}`:`${API}/budget/country/${countryCode}?year=${galaxyYear}`;
+  fetch(url).then(r=>r.json()).then(data=>{
+    blRoot=d3.hierarchy(data).sum(d=>d.children?0:d.value).sort((a,b)=>b.value-a.value);
+    // Find target node by name
+    let target=null;
+    blRoot.each(d=>{if(d.data.name===nodeName) target=d});
+    showTab('budgetlist',null);
+    if(target) renderBudgetList(target);
+    else renderBudgetList(blRoot);
+  });
+}
+
+const US_SPENDING_TYPES={
+"Department of Defense":{Personnel:559347,Equipment:432048,Contracts:209562,RnD:98506,Operations:54921,Other:28251,Grants:11008},
+"Department of the Treasury":{Other:1165784,Grants:452510,Benefits:123273,Personnel:15649,Contracts:9659},
+"Department of Health and Human Services":{Grants:1403301,Benefits:1036790,Contracts:38147,Personnel:17320,Equipment:16772},
+"Social Security Administration":{Benefits:1458905,Grants:133875,Personnel:8314},
+"Department of Veterans Affairs":{Benefits:179682,Personnel:71093,Other:45896,Equipment:28975,Grants:20975,Contracts:15013},
+"Department of Agriculture":{Grants:196486,Contracts:18536,Benefits:18048,Personnel:13579,Equipment:7310},
+"Office of Personnel Management":{Benefits:98654,Other:69013,Grants:68552,Personnel:5009,Contracts:4823},
+"Department of Housing and Urban Development":{Grants:84676,Personnel:1662,Contracts:1368},
+"Department of Transportation":{Grants:126396,Personnel:12092,Contracts:8800,Equipment:2623},
+"Department of Energy":{Contracts:50722,Grants:13860,Equipment:9325,RnD:3697,Personnel:3500},
+"Department of Education":{Grants:224901,Contracts:1518,Equipment:1302},
+"Department of the Interior":{Grants:15748,Contracts:13378,Personnel:9375,Equipment:2997},
+"Department of State":{Grants:23932,Contracts:12172,Personnel:9754,Equipment:6229,Operations:3193},
+"NASA":{RnD:14011,Personnel:3749,Contracts:3734,Equipment:2326,Operations:1925,Grants:1418},
+};
+const SPEND_TYPE_COLORS={Personnel:'#4fc3f7',Benefits:'#66bb6a',Equipment:'#ff7043',Contracts:'#ffd54f',Grants:'#ab47bc',RnD:'#26c6da',Operations:'#78909c',Other:'#546e7a'};
+const SPEND_TYPE_LABELS={Personnel:'Personnel',Benefits:'Benefits & Pensions',Equipment:'Equipment & Supplies',Contracts:'Contracts & Services',Grants:'Grants & Transfers',RnD:'Research & Development',Operations:'Operations',Other:'Other'};
+
+const PROGRAM_ENRICHMENT={
+us:{
+'Federal Old-Age and Survivors Insurance Trust Fund':{y:1940,d:'Pays monthly retirement and survivors benefits to eligible workers and their families based on lifetime earnings. Funded primarily through the 6.2% OASDI payroll tax (employer and employee each) on earnings up to the taxable maximum.',b:'approximately 57 million retirees and survivors (FY2024)'},
+'Federal Hospital Insurance Trust Fund':{y:1966,d:'Finances Medicare Part A, covering inpatient hospital stays, skilled nursing facility care, hospice, and some home health services for Americans aged 65+ and certain disabled individuals. Funded by the 1.45% Medicare payroll tax on all earnings (employer and employee each) plus a 0.9% Additional Medicare Tax on high earners.',b:'approximately 66 million Medicare enrollees (FY2024)'},
+'Federal Supplementary Medical Insurance Trust Fund':{y:1966,d:'Finances Medicare Part B (physician and outpatient services) and Medicare Part D (prescription drug coverage). Funded approximately 75% by general revenues and 25% by beneficiary premiums.',b:'approximately 62 million Part B enrollees and 52 million Part D enrollees (FY2024)'},
+'Interest on the Public Debt':{y:1790,d:'Pays interest on all outstanding Treasury securities (bills, notes, bonds, TIPS, and savings bonds) held by the public and intragovernmental accounts. This is a mandatory appropriation that covers the federal government's borrowing costs.',b:'not applicable (payments to bondholders and trust funds, not individual program beneficiaries)'},
+'Grants to States for Medicaid':{y:1966,d:'Provides federal matching funds to states for the Medicaid program, which covers health care for low-income individuals, families, pregnant women, children, elderly, and people with disabilities. The federal share (FMAP) varies by state, ranging from 50% to about 77%.',b:'approximately 92 million Medicaid enrollees (FY2024)'},
+'Refunding Internal Revenue Collections':{y:1913,d:'Processes refunds of overpaid federal income taxes, payroll taxes, and related credits (including the Earned Income Tax Credit and Child Tax Credit) to individual and corporate taxpayers. This is a permanent, indefinite appropriation that fluctuates with filing activity and tax law changes.',b:'approximately 120 million individual tax refunds issued annually'},
+'Federal Disability Insurance Trust Fund':{y:1957,d:'Pays monthly benefits to workers who become disabled before reaching full retirement age and to their eligible dependents. Funded by a dedicated 0.9% portion of the OASDI payroll tax (employer and employee each).',b:'approximately 7.4 million disabled workers plus 1.4 million dependents (FY2024)'},
+'Civil Service Retirement and Disability Fund':{y:1920,d:'Funds retirement, disability, and survivor annuities for federal civilian employees under the Civil Service Retirement System (CSRS) and the Federal Employees Retirement System (FERS). Financed by employee and agency contributions plus a general fund transfer to cover the unfunded liability.',b:'approximately 2.7 million annuitants and survivors (FY2024)'},
+'Supplemental Nutrition Assistance Program (SNAP)':{y:1964,d:'Provides monthly electronic benefits (EBT) to low-income households to purchase food, serving as the nation's largest domestic anti-hunger program. Eligibility is based on household income generally at or below 130% of the federal poverty level.',b:'approximately 42 million individuals in 22 million households (FY2024)'},
+'Military Personnel (Army, Navy, Marine Corps, Air Force, Space Force)':{y:1947,d:'Funds pay, allowances (housing, subsistence), bonuses, permanent change of station moves, and other compensation for active-duty military service members across all branches. Also covers Social Security and Medicare tax contributions for uniformed personnel.',b:'approximately 1.3 million active-duty service members'},
+'Operation and Maintenance (Army, Navy, Air Force, Defense-Wide)':{y:1947,d:'Finances day-to-day military operations, training, equipment maintenance, base operations, facilities sustainment, and civilian workforce pay across all service branches. The largest single discretionary appropriation category in the federal budget.',b:'not applicable (operational readiness of the armed forces)'},
+'Defense Working Capital Fund':{y:1947,d:'A revolving fund that operates on a business-like basis, providing goods and services (supply management, depot maintenance, transportation, logistics) to DoD components on a reimbursable basis. Activities set prices to recover costs, maintaining a self-sustaining cash flow cycle.',b:'not applicable (internal DoD supply chain and logistics)'},
+'Procurement (Aircraft, Missiles, Weapons, Shipbuilding, and Other â€” across services)':{y:1947,d:'Funds the acquisition of major weapons systems, aircraft, ships, vehicles, missiles, ammunition, and other military equipment for all service branches. Appropriations are typically available for three years (obligation) to accommodate multi-year production contracts.',b:'not applicable (equips the armed forces)'},
+'Government Payment for Annuitants, Employees Health Benefits':{y:1960,d:'Pays the government's share (approximately 72%) of health insurance premiums for federal employees, retirees, and their dependents under the Federal Employees Health Benefits (FEHB) Program. Covers enrollment in a wide range of private health insurance plans.',b:'approximately 8.2 million federal employees, retirees, and dependents'},
+'Tenant-Based Rental Assistance (Section 8 Housing Choice Vouchers)':{y:1974,d:'Provides portable housing vouchers to very low-income families, the elderly, and persons with disabilities to rent units in the private market, with HUD paying the difference between 30% of household income and the fair market rent. Administered by approximately 2,200 local public housing agencies.',b:'approximately 2.3 million households (about 5.2 million individuals)'},
+'Supplemental Security Income Program (SSI)':{y:1974,d:'Provides monthly cash assistance to aged, blind, and disabled individuals with limited income and resources, establishing a uniform federal income floor. Funded entirely from general revenues (not the Social Security trust funds).',b:'approximately 7.5 million recipients (FY2024)'},
+'Federal Pell Grant Program':{y:1972,d:'Awards need-based grants to low-income undergraduate students to help pay for college tuition, fees, and living expenses, with no repayment required. Maximum award set annually by Congress (up to $7,395 in award year 2024-25).',b:'approximately 6.8 million undergraduate students annually'},
+'Student Financial Assistance (Federal Direct Loan Program)':{y:2010,d:'Administers the William D. Ford Federal Direct Loan Program, issuing subsidized and unsubsidized loans, PLUS loans, and consolidation loans directly to students and parents for postsecondary education. Also includes costs related to income-driven repayment plans and loan forgiveness programs.',b:'approximately 43 million federal student loan borrowers with outstanding balances'},
+'Highway Trust Fund (Federal-Aid Highways / Federal Highway Administration)':{y:1956,d:'Finances federal-aid highway construction, maintenance, and safety improvement projects on the National Highway System and other eligible roads, distributed to states via formula and competitive grants. Funded primarily by the 18.4 cents/gallon federal gasoline tax, supplemented by general fund transfers.',b:'not applicable (benefits all highway users; funds distributed to 50 states, DC, territories, and tribal governments)'},
+'Defense Health Program (TRICARE)':{y:1992,d:'Provides medical and dental care to active-duty service members, retirees, and their dependents through the Military Health System, including direct care at military treatment facilities and purchased care through the TRICARE managed care network. Covers worldwide health services for the uniformed services community.',b:'approximately 9.6 million TRICARE-eligible beneficiaries'},
+'Medical Services / Medical Community Care (Veterans Health Administration)':{y:1930,d:'Funds inpatient, outpatient, mental health, long-term care, and community care (including the MISSION Act) health services for eligible veterans through the Veterans Health Administration's 171 medical centers and 1,100+ outpatient sites. Largest integrated health care system in the United States.',b:'approximately 9.1 million veterans enrolled in VA health care'},
+'Compensation and Pensions':{y:1930,d:'Provides tax-free disability compensation payments to veterans with service-connected injuries/illnesses and income-based pension benefits to wartime veterans who are permanently and totally disabled. Also includes dependency and indemnity compensation (DIC) for survivors of service members who died on duty or from service-connected causes.',b:'approximately 6.7 million veterans and survivors receiving compensation or pension'},
+'Children's Health Insurance Program (CHIP)':{y:1997,d:'Provides federal matching funds to states to cover uninsured children in families with incomes too high to qualify for Medicaid but too low to afford private coverage, with enhanced federal matching rates (generally 65%-85%). States design their programs as Medicaid expansions, separate CHIP programs, or combinations.',b:'approximately 7.4 million children and 370,000 pregnant women enrolled'},
+'Science / Exploration / Space Operations (NASA)':{y:1958,d:'Funds NASA's space science missions (James Webb Space Telescope, Mars exploration, Earth observation), human exploration programs (Artemis/Moon-to-Mars), and space operations (International Space Station, launch services, space communications). Supports the nation's civil space program and advances scientific understanding.',b:'not applicable (scientific research and exploration; supports thousands of research institutions, universities, and contractors)'},
+'Salaries and Expenses, Federal Bureau of Investigation':{y:1908,d:'Funds FBI operations including counterterrorism, counterintelligence, cyber crime, criminal investigations, intelligence collection, and forensic laboratory services across 56 field offices and 350+ resident agencies nationwide. Also supports international operations through legal attache offices in over 60 countries.',b:'not applicable (federal law enforcement; approximately 37,000 employees)'},
+'Salaries and Expenses, Federal Prison System (Bureau of Prisons)':{y:1930,d:'Operates and maintains 122 federal correctional institutions of varying security levels, plus residential reentry centers, housing federal inmates convicted of federal offenses. Covers inmate care, custody, security, education, vocational training, medical services, and community corrections.',b:'approximately 158,000 federal inmates in BOP custody'},
+'Salaries and Expenses, U.S. Customs and Border Protection':{y:2003,d:'Funds border security operations including Border Patrol agents, officers at ports of entry, trade enforcement, agricultural inspections, and anti-smuggling operations along the nation's borders and at 328 ports of entry. Employs the largest federal law enforcement workforce in the United States.',b:'not applicable (border security; approximately 63,000 employees including ~20,000 Border Patrol agents and ~27,000 CBP officers)'},
+'Disaster Relief Fund':{y:1974,d:'Provides federal assistance following presidential disaster declarations, funding individual assistance (housing, personal property), public assistance (infrastructure repair for state/local governments), and hazard mitigation grants. The primary funding source for federal disaster response and recovery operations.',b:'varies widely by year; millions of individuals and thousands of state/local government entities and nonprofits affected by declared disasters'},
+'National Institutes of Health (NIH â€” consolidated across 27 Institutes and Centers)':{y:1930,d:'Funds biomedical and public health research through intramural labs and extramural grants to universities, medical schools, and research institutions worldwide, covering basic science, clinical trials, and translational research across all major diseases. The world's largest public funder of biomedical research.',b:'not applicable (research enterprise; funds approximately 50,000 competitive grants to over 2,500 institutions)'},
+'Centers for Disease Control and Prevention (CDC)':{y:1946,d:'Funds disease surveillance, outbreak investigation, immunization programs, chronic disease prevention, injury prevention, environmental health, and global health security activities to protect the nation from health threats. Provides critical grants and cooperative agreements to state and local health departments.',b:'not applicable (public health infrastructure; grants to all 50 states, territories, and hundreds of local health departments)'},
+'Forest Service (National Forest System, Wildland Fire Management, State and Private Forestry)':{y:1905,d:'Manages 193 million acres of national forests and grasslands for multiple uses including timber, recreation, watershed protection, and wildlife habitat, and leads federal wildland firefighting operations. Wildland fire suppression and fuels management constitute the largest share of the Forest Service budget.',b:'not applicable (public lands management; serves approximately 160 million recreational visitors annually)'},
+'Weapons Activities, National Nuclear Security Administration':{y:1999,d:'Maintains the safety, security, and reliability of the U.S. nuclear weapons stockpile through the Stockpile Stewardship Program, without underground testing, and manages nuclear weapons production and infrastructure modernization at sites including Los Alamos, Sandia, and Lawrence Livermore. Also supports nuclear nonproliferation, naval reactors, and emergency response.',b:'not applicable (national security; operates through seven national laboratories and production plants)'},
+'Environmental Management (Defense Environmental Cleanup)':{y:1989,d:'Cleans up the environmental legacy of Cold War-era nuclear weapons production and government-sponsored nuclear energy research across the DOE complex, including radioactive waste treatment, spent fuel management, and facility decommissioning. The world's largest environmental remediation program.',b:'not applicable (environmental remediation at 16 major sites across 12 states; protects surrounding communities and ecosystems)'},
+'Operations, Federal Aviation Administration':{y:1958,d:'Funds the operation of the national airspace system, including air traffic control at approximately 300 FAA-operated facilities, aviation safety regulation and certification, and the employment of approximately 14,000 air traffic controllers. Also covers Facilities & Equipment and Research, Engineering & Development accounts.',b:'not applicable (aviation safety; manages approximately 45,000 flights per day in U.S. airspace)'},
+'School Improvement Programs (Supporting Effective Instruction / Title II; 21st Century Community Learning Centers; other ESEA programs)':{y:1965,d:'Provides formula and competitive grants to states and school districts under the Elementary and Secondary Education Act (ESEA/ESSA) for teacher quality improvement, after-school programs, charter schools, magnet schools, and other school improvement initiatives. Complements the larger Title I grants to local educational agencies.',b:'approximately 25,000 school districts and 100,000 public schools serving millions of students'},
+'Special Education (Grants to States under IDEA Part B)':{y:1975,d:'Provides formula grants to states to assist in providing free appropriate public education (FAPE) to children and youth with disabilities ages 3-21 under the Individuals with Disabilities Education Act (IDEA). Represents the federal share of the excess cost of educating students with disabilities.',b:'approximately 7.5 million students with disabilities receiving special education services'},
+'Community Development Fund (Community Development Block Grants â€” CDBG)':{y:1974,d:'Provides flexible annual formula grants to entitled cities (population 50,000+), urban counties, and states for community development activities directed toward neighborhood revitalization, economic development, and improved community facilities and services benefiting low- and moderate-income persons. At least 70% of funds must benefit LMI populations.',b:'approximately 1,200 entitled communities and all 50 states; benefits millions of LMI residents'},
+'Operation of Indian Programs / Indian Affairs':{y:1824,d:'Funds trust responsibilities to 574 federally recognized tribes, including tribal governance, natural resources management, law enforcement, social services, and education through 183 BIE-funded schools. Supports tribal self-determination and sovereignty through direct services, contracts, and self-governance compacts.',b:'approximately 1.9 million American Indians and Alaska Natives who are members of federally recognized tribes'},
+'Resource Management, U.S. Fish and Wildlife Service':{y:1940,d:'Manages the National Wildlife Refuge System (568 refuges on 850 million acres), administers the Endangered Species Act, enforces federal wildlife laws, manages migratory bird conservation, and operates national fish hatcheries. Also administers grants to states for wildlife and sport fish restoration.',b:'not applicable (wildlife conservation; refuges host approximately 65 million visitors annually)'},
+'Operation of the National Park System':{y:1916,d:'Operates and maintains 429 units of the National Park System, including national parks, monuments, historic sites, recreation areas, seashores, and battlefields, preserving natural and cultural resources while providing for public enjoyment. Also administers grant and partnership programs for historic preservation and recreation.',b:'not applicable (public lands; approximately 312 million recreational visits annually)'},
+'U.S. Army Corps of Engineers â€” Civil Works (Investigations, Construction, Operation and Maintenance)':{y:1802,d:'Plans, designs, builds, and operates water resources infrastructure including navigation channels, flood risk management systems (levees, dams, floodwalls), hydropower facilities, aquatic ecosystem restoration, and regulatory permits for wetlands and waterways. Manages over 700 dams and 12,000 miles of inland waterways.',b:'not applicable (water infrastructure; benefits communities nationwide, especially in flood-prone areas and along navigable waterways)'},
+'Foreign Military Financing':{y:1976,d:'Provides grants (and historically loans) to foreign governments for the purchase of U.S. defense articles, defense services, and military training, with the majority of funding historically going to Israel, Egypt, Jordan, and other strategic partners. Advances U.S. national security objectives through allied capacity building and interoperability.',b:'not applicable (approximately 50+ partner countries; Israel receives approximately $3.3 billion annually under the 2016 MOU)'},
+'Economic Support Fund':{y:1961,d:'Provides economic assistance to countries of strategic importance to U.S. foreign policy, supporting governance, rule of law, economic reforms, education, health, and stabilization programs. Grants are flexible and can address a wide range of development and diplomatic objectives.',b:'not applicable (foreign assistance to approximately 70+ countries and territories)'},
+'Global Health Programs (PEPFAR/Global Health Security)':{y:2003,d:'Funds the President's Emergency Plan for AIDS Relief (PEPFAR) and global health initiatives addressing HIV/AIDS, malaria (PMI), tuberculosis, maternal and child health, family planning, nutrition, and pandemic preparedness in developing countries. PEPFAR alone has supported antiretroviral treatment for over 20 million people.',b:'not applicable (global health; PEPFAR supports HIV treatment for approximately 20.1 million people in 50+ countries)'},
+'Disaster Loans Program Account, Small Business Administration':{y:1953,d:'Provides low-interest, long-term loans to homeowners, renters, businesses of all sizes, and private nonprofits to repair or replace property damaged by declared disasters, including real estate, personal property, machinery, and inventory. The primary form of federal disaster assistance for non-agricultural private-sector losses.',b:'varies by year based on disaster activity; typically tens of thousands of disaster loan approvals annually'},
+'Rural Development Programs (Rural Housing Service, Rural Utilities Service, Rural Business-Cooperative Service)':{y:1949,d:'Provides loans, loan guarantees, and grants for rural housing (single-family and multi-family), water and waste disposal systems, electric and telecommunications infrastructure, broadband, and rural business development. Serves communities with populations generally under 35,000.',b:'approximately 60 million people living in rural America; specific program beneficiaries include hundreds of thousands of homeowners and thousands of communities'},
+'Federal Transit Administration (Transit Formula Grants and Capital Investment Grants)':{y:1964,d:'Provides formula and competitive grants to state and local transit agencies for capital investments, operations, planning, and safety improvements for public transportation systems including buses, subways, light rail, commuter rail, and ferries. The Bipartisan Infrastructure Law significantly increased authorized funding levels.',b:'not applicable (public transit systems; approximately 900+ transit agencies serving millions of daily riders in urban and rural areas)'},
+'National Railroad Passenger Corporation Grants (Amtrak)':{y:1970,d:'Provides annual federal grants to Amtrak for the operation, maintenance, and capital improvement of intercity passenger rail service across a 21,000-mile national network serving 500+ stations in 46 states. The Bipartisan Infrastructure Law provided $66 billion over five years for passenger and freight rail.',b:'approximately 28.6 million Amtrak riders annually (FY2024 ridership)'},
+'Hazardous Substance Superfund (EPA Superfund Program)':{y:1980,d:'Funds the investigation and cleanup of the nation's most contaminated hazardous waste sites (National Priorities List), emergency response to hazardous substance releases, and enforcement actions against responsible parties. The Bipartisan Infrastructure Law provided an additional $3.5 billion for Superfund cleanups.',b:'not applicable (environmental cleanup; approximately 1,340 NPL sites with 73 million Americans living within three miles of a Superfund site)'},
+'Research and Related Activities, National Science Foundation':{y:1950,d:'Funds fundamental research and education across all fields of science and engineering (excluding medical sciences) through competitive merit-reviewed grants to universities and research institutions, supporting approximately 25% of all federally funded basic research at academic institutions. Also funds major research facilities, STEM workforce development, and international science cooperation.',b:'not applicable (research enterprise; approximately 50,000 awards to 2,000+ institutions annually; supports approximately 300,000 researchers, postdocs, and students)'},
+},
+fr:{
+'Remboursements et dÃ©grÃ¨vements d'impÃ´ts d'Ã‰tat':{y:'2006',d:'Covers mandatory refunds, tax credits, and abatements on State taxes (income tax, corporate tax, VAT). This is an evaluative-credit programme that adjusts automatically based on taxpayer claims and legislative entitlements.',b:'Approximately 38-40 million tax households and all VAT-registered businesses in France. The programme does not 'serve' beneficiaries in a social sense; it processes fiscal corrections owed by the State.'},
+'Avances sur le montant des impositions revenant aux rÃ©gions, dÃ©partements, communes, Ã©tablissements et divers organismes':{y:'2006',d:'Provides monthly cash advances to local authorities (communes, departments, regions, EPCI) on the proceeds of local taxes collected by the State on their behalf, before final settlement. This ensures continuous funding of local government operations.',b:'Approximately 35,000 communes, 101 departments, 18 regions, and thousands of EPCIs and other local bodies across metropolitan and overseas France.'},
+'Pensions civiles et militaires de retraite':{y:'2006',d:'Finances retirement pensions for civil servants (Ã‰tat) and military personnel. Funded by employer contributions from ministries and employee payroll deductions, managed as a special-purpose account (CAS).',b:'Approximately 2.6 million retirees and their surviving beneficiaries (about 1.6 million former civil servants and 1 million military pensioners and reversionary rights holders).'},
+'Charge de la dette et trÃ©sorerie de l'Ã‰tat':{y:'2006',d:'Covers interest payments on government debt (OATs, BTF, inflation-indexed bonds) and cash management costs. Managed by the Agence France TrÃ©sor (AFT) under the Ministry of Finance.',b:'Not applicable (no direct individual beneficiaries). Bondholders are institutional investors, foreign central banks, insurance companies, and retail investors holding French sovereign debt.'},
+'Enseignement scolaire public du second degrÃ©':{y:'2006',d:'Funds public secondary education (collÃ¨ges and lycÃ©es), including teacher salaries, pedagogical support staff, and educational operations for grades 6 through terminale across metropolitan and overseas France.',b:'Approximately 5.6 million students enrolled in public secondary schools (about 3.4 million in collÃ¨ges and 2.2 million in lycÃ©es gÃ©nÃ©raux, technologiques et professionnels).'},
+'Enseignement scolaire public du premier degrÃ©':{y:'2006',d:'Funds public primary education (Ã©coles maternelles and Ã©lÃ©mentaires), covering teacher salaries, training, and pedagogical supervision for children aged 3 to 11.',b:'Approximately 5.7 million students in public primary schools (about 2.5 million in maternelle and 3.2 million in Ã©lÃ©mentaire), plus approximately 350,000 teachers.'},
+'Soutien de la politique de la dÃ©fense':{y:'2006',d:'Funds transversal support functions for the Ministry of Armed Forces: human resources, infrastructure, information systems, real estate management, and general administration. It is the ministry's backbone programme.',b:'Approximately 270,000 military and civilian personnel of the Ministry of Armed Forces benefit from the HR, infrastructure, and IT services funded by this programme.'},
+'Ã‰quipement des forces':{y:'2006',d:'Finances the acquisition, development, and maintenance of major military equipment systems: combat aircraft (Rafale), submarines (Barracuda), armoured vehicles (Scorpion/Griffon), satellites, and naval vessels.',b:'Not applicable in the individual sense. Serves the three armed services (ArmÃ©e de terre, Marine nationale, ArmÃ©e de l'air et de l'espace) and the defence industrial base (Dassault, Naval Group, MBDA, Thales, etc.).'},
+'Aide Ã  l'accÃ¨s au logement':{y:'2006',d:'Funds personal housing allowances (APL, ALS, ALF) that subsidize rents and mortgage payments for low-income households, students, and families. Since 2021, benefits are calculated on real-time income (contemporaneous basis).',b:'Approximately 6.5 million households (around 13 million individuals) receiving one of the three forms of housing aid, managed by CAF/MSA.'},
+'PrÃ©paration et emploi des forces':{y:'2006',d:'Funds the operational readiness, training, and deployment of French armed forces, including OPEX (external operations), domestic operations (Sentinelle), exercises, and day-to-day activity of military units.',b:'Approximately 200,000 active military personnel across all services who are trained and deployed under this programme, plus forces engaged in external operations (Sahel, Indo-Pacific, etc.).'},
+'Accompagnement des mutations Ã©conomiques et dÃ©veloppement de l'emploi':{y:'2006',d:'Funds employment support measures including subsidized contracts, apprenticeship incentives, professional training, business competitiveness clusters, and support for workers affected by economic restructuring.',b:'Several million workers and jobseekers annually. Key sub-programmes: approximately 800,000 apprenticeship contracts, hundreds of thousands of subsidized employment contracts (PEC, CIE), and professional training beneficiaries.'},
+'Handicap et dÃ©pendance':{y:'2006',d:'Funds the Allocation aux adultes handicapÃ©s (AAH) and related disability benefits, support for disabled workers in ESAT establishments, and contributions to the care of dependent persons in specialised facilities.',b:'Approximately 1.3 million AAH recipients, plus around 120,000 workers in ESAT (Ã©tablissements et services d'aide par le travail), and beneficiaries of other disability-related aids.'},
+'Inclusion sociale et protection des personnes':{y:'2006',d:'Funds the prime d'activitÃ© (in-work benefit), food aid programmes, protection of vulnerable adults (tutelle/curatelle), and social inclusion measures for the most disadvantaged populations.',b:'Approximately 4.6 million households receiving the prime d'activitÃ© (around 9-10 million individuals), plus beneficiaries of food aid (associations serving 5+ million people) and persons under legal protection (about 800,000).'},
+'Police nationale':{y:'2006',d:'Funds the operations, personnel, equipment, and infrastructure of the Police nationale, covering public safety, judicial police investigations, border control (PAF), intelligence (DGSI funded separately), and CRS riot police.',b:'Not applicable as individual beneficiaries. The programme employs approximately 152,000 police officers and administrative staff, serving the entire population in police zones (urban areas, about 50% of territory covering ~70% of population).'},
+'Gendarmerie nationale':{y:'2006',d:'Funds the operations, personnel, equipment, and infrastructure of the Gendarmerie nationale, responsible for public safety, judicial police, and defence missions in rural areas and small towns (95% of national territory).',b:'Not applicable as individual beneficiaries. Employs approximately 100,000 military gendarmes and 4,000 civilian staff, responsible for security across 95% of French territory covering about 30% of the population.'},
+'Aide Ã©conomique et financiÃ¨re au dÃ©veloppement':{y:'2006',d:'Funds bilateral economic and financial development aid, primarily through the Agence franÃ§aise de dÃ©veloppement (AFD), including concessional loans, grants to developing countries, contributions to multilateral development banks, and debt relief initiatives (C2D).',b:'Indirect beneficiaries span populations of partner countries, primarily in Sub-Saharan Africa (19 priority countries designated by the CICID), Southeast Asia, and the Middle East. No single individual beneficiary count applicable.'},
+'Formations supÃ©rieures et recherche universitaire':{y:'2006',d:'Funds French public universities and grandes Ã©coles under the Ministry of Higher Education: operating subsidies, faculty salaries, university research, student-facing infrastructure, and the Parcoursup admissions system.',b:'Approximately 1.7 million students enrolled in public universities and attached institutions, plus about 90,000 teaching and research staff (enseignants-chercheurs) and 60,000 BIATSS support staff.'},
+'Recherches scientifiques et technologiques pluridisciplinaires':{y:'2006',d:'Funds France's major public research organisations (organismes de recherche): CNRS, INSERM, INRIA, CEA (civil), IRD, and others. Covers researcher salaries, laboratory operations, large-scale scientific infrastructure, and ANR (Agence nationale de la recherche) grants.',b:'Approximately 35,000 researchers and 40,000 support staff across EPST/EPIC bodies, plus thousands of PhD candidates and postdocs funded through ANR project grants. Indirectly serves the entire national research ecosystem.'},
+'Enseignement privÃ© du premier et du second degrÃ©s':{y:'2006',d:'Funds teacher salaries and operating subsidies for private schools under contract (sous contrat) with the State, both at primary and secondary levels, primarily Catholic schools. The State pays teachers; local authorities contribute to operating costs.',b:'Approximately 2.1 million students in private schools under contract (about 17% of total school enrolment), and approximately 140,000 teachers paid by the State in these establishments.'},
+'Vie de l'Ã©lÃ¨ve':{y:'2006',d:'Funds student welfare services in primary and secondary schools: school health services (mÃ©decine scolaire), social workers, school scholarships (bourses), special needs assistants (AESH), and school climate initiatives including anti-bullying programmes.',b:'Approximately 3 million scholarship recipients (bourses de collÃ¨ge and lycÃ©e), around 130,000 AESH accompanying 430,000+ disabled students, plus all students benefiting from health and social services.'},
+'AccÃ¨s et retour Ã  l'emploi':{y:'2006',d:'Funds the public employment service (France Travail, ex-PÃ´le emploi), subsidized employment contracts for priority groups, local employment initiatives (missions locales for youth), and insertion through economic activity (IAE structures).',b:'France Travail registers approximately 5.5 million jobseekers (categories A-E). Missions locales serve about 1.1 million young people aged 16-25. IAE structures employ around 140,000 persons in insertion pathways annually.'},
+'Amortissement de la dette de l'Ã‰tat liÃ©e Ã  la covid-19':{y:'2022',d:'Dedicated special account (CAS) for the progressive repayment of Covid-19-related government debt over 20 years (2022-2042). Funded by earmarked revenue from a fraction of corporate and income tax receipts.',b:'Not applicable (debt amortisation programme). Indirectly benefits all French taxpayers by ring-fencing and scheduling the repayment of pandemic-era borrowing, estimated at 165 billion euros.'},
+'HÃ©bergement, parcours vers le logement et insertion des personnes vulnÃ©rables':{y:'2006',d:'Funds emergency shelters (hÃ©bergement d'urgence), transitional housing (CHRS), the 115 emergency hotline, accommodation for asylum seekers, and 'Housing First' (Un chez-soi d'abord) programmes for homeless and vulnerable populations.',b:'Approximately 200,000+ emergency shelter places nightly (record levels since 2020), serving an estimated 300,000+ homeless persons annually, including families, isolated individuals, and persons in irregular situations.'},
+'Justice judiciaire':{y:'2006',d:'Funds the operations of civil and criminal courts (tribunaux judiciaires, cours d'appel, Cour de cassation), including magistrate and clerk salaries, legal aid (aide juridictionnelle), and court infrastructure modernisation.',b:'Approximately 9,000 magistrates and 24,000 greffiers/fonctionnaires serving the judicial system. Legal aid (aide juridictionnelle) benefits about 1 million litigants annually. The entire justiciable population (68 million residents) is indirectly served.'},
+'Administration pÃ©nitentiaire':{y:'2006',d:'Funds the operation of prisons (Ã©tablissements pÃ©nitentiaires), probation and reintegration services (SPIP), prison construction/renovation programmes, and healthcare and vocational training for inmates.',b:'Approximately 74,000 inmates (as of 2024, chronic overcrowding at ~120% capacity in maisons d'arrÃªt), plus about 170,000 persons under probation/community supervision. Employs approximately 44,000 prison staff (surveillants, CPIP, administrative).'},
+'Urbanisme, territoires et amÃ©lioration de l'habitat':{y:'2006',d:'Funds urban planning, housing renovation (through ANAH and MaPrimeRÃ©nov' energy retrofit grants), social housing production support, and territorial planning operations including ORT (OpÃ©rations de revitalisation de territoire).',b:'MaPrimeRÃ©nov' served approximately 670,000 households in 2023. ANAH overall assists about 800,000 households annually. Social housing production targets 100,000+ new HLM units per year. Territorial programmes affect thousands of communes.'},
+'CompÃ©titivitÃ© et durabilitÃ© de l'agriculture, de l'agroalimentaire et de la forÃªt':{y:'2006',d:'Funds national agricultural support measures complementing the EU Common Agricultural Policy: CUMA investment grants, installation aid for young farmers, plant/animal health services, SAFER operations, forestry policy (ONF), and agricultural crisis response.',b:'Approximately 390,000 farms in France, with particular focus on young farmer installation (about 14,000 annual installations) and small/medium farms in transition. ONF manages 11 million hectares of public forests.'},
+'Service public de l'Ã©nergie':{y:'2015',d:'Funds public service obligations in the energy sector: support for renewable energy producers (obligation d'achat), electricity price equalisation for overseas territories (pÃ©rÃ©quation tarifaire), energy poverty measures (chÃ¨que Ã©nergie), and Mediateur de l'Ã©nergie.',b:'ChÃ¨que Ã©nergie reaches approximately 5.6 million low-income households. Overseas territories (2.2 million inhabitants) benefit from price equalisation. Thousands of renewable energy producers receive feed-in tariffs or complements de rÃ©munÃ©ration.'},
+'Concours financiers aux communes et groupements de communes':{y:'2006',d:'Channels State grants to communes and intercommunal bodies (EPCI): the Dotation globale de fonctionnement (DGF), Dotation d'Ã©quipement des territoires ruraux (DETR), Dotation de soutien Ã  l'investissement local (DSIL), and related equalisation grants.',b:'Approximately 35,000 communes and 1,250+ EPCIs receive DGF. DETR benefits about 33,000 eligible rural communes. DSIL supports investment in communes of all sizes. Total envelope approximately 28 Mdâ‚¬ including FCTVA across the broader mission.'},
+'Vie Ã©tudiante':{y:'2006',d:'Funds student grants (bourses sur critÃ¨res sociaux), university student housing (CROUS residences), student restaurants (RU at subsidised prices), and student health services. Managed through the CNOUS/CROUS network.',b:'Approximately 800,000 students receiving bourses sur critÃ¨res sociaux, 175,000 CROUS housing places, and student restaurants serving approximately 300,000 meals daily across 700+ points of service.'},
+'SÃ©curitÃ© et qualitÃ© sanitaires de l'alimentation':{y:'2006',d:'Funds official food safety controls (DGAL inspections), animal health programmes (vaccination campaigns, epizootic response including avian influenza), phytosanitary inspections, and the food safety agency ANSES's contribution.',b:'Protects the entire French population (68 million) through food safety. Directly involves approximately 400,000 food establishments under inspection, livestock farms for animal health surveillance, and agricultural producers subject to phytosanitary controls.'},
+'France TÃ©lÃ©visions':{y:'2006',d:'Funds the public television group France TÃ©lÃ©visions (France 2, France 3, France 5, franceinfo, Outre-mer la 1Ã¨re, france.tv). Since 2023 suppression of the redevance, funded directly from the State budget to guarantee public service broadcasting independence.',b:'France TÃ©lÃ©visions reaches approximately 50 million weekly viewers across its channels. Employs about 9,300 staff. Serves the entire French-speaking population including overseas territories through regional programming.'},
+'Patrimoines':{y:'2006',d:'Funds the preservation, restoration, and promotion of France's cultural heritage: historic monuments (45,000+ protected sites), national museums (musÃ©es nationaux including Louvre, Orsay, Versailles), archives nationales, and archaeological research (INRAP).',b:'France's 45,000+ monuments historiques (14,000 classÃ©s, 31,000 inscrits), approximately 1,200 musÃ©es de France, and millions of annual visitors. The Louvre alone receives about 9 million visitors yearly. Indirectly benefits all heritage property owners receiving restoration grants.'},
+'CrÃ©ation':{y:'2006',d:'Funds support for artistic creation across performing arts (theatre, dance, music, circus, street arts), visual arts, and cultural venues: national theatres, opera houses, orchestras, contemporary art centres (FRAC), and artist residency programmes.',b:'Supports approximately 350 labellised cultural institutions (CDN, ScÃ¨nes nationales, SMAC, etc.), thousands of subsidised artistic companies and individual artists, and the national opera and theatre companies (OpÃ©ra de Paris, ComÃ©die-FranÃ§aise, etc.).'},
+'Infrastructures et services de transports':{y:'2006',d:'Funds maintenance and development of State transport infrastructure: national road network (12,000 km), waterways (Voies navigables de France), port infrastructure, rail network contributions (alongside SNCF RÃ©seau), and intermodal transport services.',b:'Serves the entire French population through transport networks. Specifically: users of 12,000 km of national roads, 6,700 km of navigable waterways, 11 major maritime ports (grands ports maritimes), and railway infrastructure maintenance benefiting 4.7 million daily rail passengers.'},
+'Sport':{y:'2006',d:'Funds the development of sport in France: high-performance sport (INSEP, preparation for Olympic/Paralympic games), grassroots sport development through the Agence nationale du Sport, anti-doping agency (AFLD), and major sporting events hosting.',b:'Approximately 16 million licensed athletes in 360,000 sports clubs across France. High-performance programme supports about 7,000 athletes on the ministerial lists. Paris 2024 preparations involved significant infrastructure investment.'},
+'Jeunesse et vie associative':{y:'2006',d:'Funds youth engagement programmes, primarily the Service civique (voluntary civic service for 16-25 year-olds), the Service national universel (SNU), FDVA grants to associations, youth information networks, and support for community organisations (vie associative).',b:'Service civique engages approximately 150,000 young volunteers annually. SNU has involved several tens of thousands of participants since its experimental launch. FDVA supports thousands of local associations. Overall approximately 1.3 million associations in France benefit from the policy framework.'},
+'PrÃ©vention des risques':{y:'2006',d:'Funds prevention and management of technological, natural, and health-environmental risks: ICPE (classified installations) inspections, flood prevention plans (PAPI), contaminated site remediation, ADEME contributions, and air quality monitoring (AASQA networks).',b:'Protects the entire population from environmental risks. Specifically: 500,000+ ICPE installations subject to inspection, 17 million residents in flood-prone areas, populations near Seveso sites (about 1,300 in France), and communities affected by former mining/industrial contamination.'},
+'Ã‰nergie, climat et aprÃ¨s-mines':{y:'2006',d:'Funds energy transition measures (hydrogen strategy, decarbonisation of industry), climate change adaptation, and post-mining obligations (former coal basin environmental remediation in Nord-Pas-de-Calais, Lorraine, etc. via BRGM/DREAL).',b:'Post-mining measures serve populations in former coal and mining basins (several hundred thousand residents). Energy transition measures benefit industrial sectors and territorial climate plans. Hydrogen strategy supports emerging industrial ecosystem.'},
+'SÃ©curitÃ© civile':{y:'2006',d:'Funds national civil protection resources: aerial firefighting fleet (Canadair, Dash), bomb disposal units (dÃ©minage), FORMISC military emergency units, COGIC crisis coordination centre, and support to departmental fire services (SDIS).',b:'Protects the entire French population (68 million). The aerial fleet fights about 3,000-4,000 wildfires annually. Approximately 250,000 sapeurs-pompiers (40,000 professional, 195,000 volunteer, 15,000 military in Paris/Marseille) form the national response system.'},
+'Immigration et asile':{y:'2006',d:'Funds the asylum system (OFPRA processing, CNDA appeals court, CMA reception centres), immigration enforcement (CRA detention centres, removal operations), integration programmes (CIR), and the OFII agency operations.',b:'OFPRA processes approximately 140,000-160,000 asylum applications annually. National reception system (DNA) provides about 110,000 places in CADA/HUDA/CPH centres. CIR integration programme serves about 110,000 newly arrived legal immigrants per year.'},
+'Enseignement technique agricole':{y:'2006',d:'Funds public and private agricultural secondary and technical education (lycÃ©es agricoles, MFR), covering teacher salaries, operating costs, and farm/laboratory infrastructure in agricultural educational establishments.',b:'Approximately 190,000 students (about 60% in private establishments under contract, 40% in public lycÃ©es agricoles), with approximately 15,000 teachers. Includes 800+ establishments offering CAP to BTS-level qualifications in agriculture, agro-food, and environment.'},
+'Protection judiciaire de la jeunesse':{y:'2006',d:'Funds the judicial protection of minors: educational measures ordered by juvenile judges, youth detention centres (CEF), juvenile prisons (EPM), open-environment educational programmes (milieu ouvert), and the sector associatif habilitÃ© providing care services.',b:'Approximately 150,000 minors followed by PJJ services annually (both penal and civil measures), with about 1,200 places in CEF and 800 in EPM/quartiers mineurs. The DPJJ employs about 9,000 staff across 220+ units.'},
+'Politique de la ville':{y:'2006',d:'Funds urban renewal and social cohesion programmes in designated priority neighbourhoods (QPV): ANRU urban renovation projects (NPNRU), citÃ© Ã©ducative programmes, employment insertion, social mediation, and associations working in disadvantaged urban areas.',b:'Approximately 5.4 million residents living in 1,514 QPV (quartiers prioritaires de la politique de la ville). NPNRU covers 450 neighbourhoods with major urban renewal projects (estimated 27 Mdâ‚¬ total investment over 10+ years including leveraged funds).'},
+'Coordination du travail gouvernemental':{y:'2006',d:'Funds the Prime Minister's coordination services: SGDSN (defence/national security secretariat), ANSSI (cybersecurity agency), strategic intelligence coordination, government communication (SIG), independent administrative authorities (CNIL, CADA), and interministerial coordination bodies.',b:'Not applicable as individual beneficiaries. ANSSI protects approximately 700 OIV (opÃ©rateurs d'importance vitale) and critical infrastructure. CNIL handles approximately 16,000 complaints annually. Services benefit the entire government apparatus and indirectly the whole population.'},
+'Conseil d'Ã‰tat et autres juridictions administratives':{y:'2006',d:'Funds the administrative justice system: Conseil d'Ã‰tat (supreme administrative court and government legal advisor), 42 tribunaux administratifs, 9 cours administratives d'appel, and the Cour nationale du droit d'asile (CNDA) which handles asylum appeals.',b:'Administrative courts handle approximately 250,000 cases annually (including about 70,000 CNDA asylum appeals). Employs about 4,200 staff including approximately 1,300 magistrats administratifs. Serves all persons contesting administrative decisions.'},
+'Financement des investissements stratÃ©giques':{y:'2021',d:'Funds France 2030 strategic investments (54 Mdâ‚¬ total envelope): decarbonised hydrogen, electric vehicles/batteries, nuclear innovation (SMR), biotechnologies, space, semiconductors, quantum computing, key minerals, and cultural/creative industries. Managed by the SGPI.',b:'Supports thousands of businesses, startups, and research laboratories across strategic sectors. Key targets: 8 gigafactories for batteries, 2 SMR nuclear reactors, 20 biomedical innovations, and a French semiconductor ecosystem. No single individual beneficiary count.'},
+'Emploi outre-mer':{y:'2006',d:'Funds employment support measures specific to overseas territories: employer social contribution exemptions (exonÃ©rations Lodeom), service militaire adaptÃ© (SMA) vocational training for youth, and insertion programmes tailored to DOM-TOM labour markets.',b:'Approximately 100,000+ employers in overseas territories benefit from Lodeom contribution exemptions. SMA trains about 6,000 young volunteers annually (aged 18-25) across 8 overseas regiments. Total overseas population: 2.2 million.'},
+'Protection maladie':{y:'2006',d:'Funds the Aide mÃ©dicale d'Ã‰tat (AME), which provides healthcare coverage to undocumented immigrants residing in France for more than 3 months and meeting income criteria. Also covers soins urgents for those not eligible for AME and healthcare for other specific populations.',b:'Approximately 400,000 AME beneficiaries (as of end 2023, rising trend). Soins urgents cover additional undocumented persons not meeting AME criteria. The programme has been politically contentious with periodic reform debates.'},
+'SolidaritÃ© Ã  l'Ã©gard des pays en dÃ©veloppement':{y:'2006',d:'Funds bilateral development cooperation managed by the Ministry of Europe and Foreign Affairs (MEAE): grants to developing countries for governance, health, education, and food security; contributions to multilateral organisations (Global Fund, GAVI, GPE); crisis humanitarian aid; Expertise France; and French development volunteers.',b:'Indirect beneficiaries across 19 priority partner countries (primarily Sahel, West Africa, Great Lakes). Key multilateral contributions: Global Fund against AIDS/TB/Malaria (serving millions), GAVI vaccination alliance, Global Partnership for Education. French development volunteers number about 2,000.'},
+},
+uk:{
+'State Pension':{y:1908,d:'Contributory pension paid to individuals who have reached State Pension age and have sufficient National Insurance contribution records. Comprises the new State Pension (from April 2016, full rate Â£221.20/week in 2024-25) and the legacy basic/additional State Pension for those who reached pension age before 6 April 2016.',b:'12.7 million recipients (2024-25 estimate)'},
+'NHS England Core Revenue Allocation':{y:1948,d:'Core revenue funding for NHS England covering hospital and community health services, primary care (GP contracts, prescribing, dental, ophthalmic), specialised commissioning, and public health services delegated from DHSC. This is the single largest DEL programme in UK government.',b:'Approximately 56.5 million people registered with NHS GPs in England'},
+'Debt Interest Payments (National Debt Servicing)':{y:1694,d:'Interest and financing costs on UK central government debt, including conventional gilts, index-linked gilts, National Savings & Investments products, and Treasury bills. A significant portion relates to index-linked gilt coupons that rise with RPI inflation.',b:'Not applicable (payments to gilt holders, institutional investors, NS&I savers)'},
+'Dedicated Schools Grant (DSG)':{y:2006,d:'Ring-fenced grant to local authorities in England for funding mainstream schools, academies, and free schools. Comprises four blocks: Schools Block (~Â£45B), High Needs Block (~Â£10B for SEND), Early Years Block (~Â£4B), and Central Schools Services Block.',b:'Approximately 8.9 million pupils in state-funded schools in England'},
+'Universal Credit':{y:2013,d:'Means-tested benefit replacing six legacy benefits (income-based JSA, income-related ESA, Income Support, Housing Benefit, Child Tax Credit, Working Tax Credit) into a single monthly payment for working-age people on low income or out of work.',b:'Approximately 6.0 million households on Universal Credit (2024-25)'},
+'Personal Independence Payment (PIP)':{y:2013,d:'Non-means-tested, non-contributory benefit for working-age adults (16-State Pension age) with long-term health conditions or disabilities to help with extra costs of daily living and mobility. Assessed via functional capability rather than diagnosis.',b:'Approximately 3.5 million claimants (2024-25)'},
+'Housing Benefit':{y:1982,d:'Means-tested benefit to help tenants on low incomes pay their rent, covering both social housing and private rented sector (subject to Local Housing Allowance rates). Being gradually replaced by the housing element of Universal Credit.',b:'Approximately 2.8 million claimants (declining as UC migration proceeds)'},
+'Employment and Support Allowance (ESA)':{y:2008,d:'Benefit for people with a health condition or disability that limits their ability to work. Comes in two forms: contributory (based on NI record, now called 'new style' ESA) and income-related (legacy, being replaced by UC). Claimants placed in Support Group or Work-Related Activity Group.',b:'Approximately 1.7 million claimants (declining due to UC migration)'},
+'Pension Credit':{y:2003,d:'Means-tested top-up benefit for pensioners on low incomes, guaranteeing a minimum weekly income (Guarantee Credit, Â£218.15/week for singles in 2024-25). Also includes a Savings Credit element rewarding modest retirement savings for those who reached pension age before April 2016.',b:'Approximately 1.4 million claimant households (significant under-claiming estimated at ~850,000 eligible non-claimants)'},
+'Attendance Allowance':{y:1971,d:'Non-means-tested, tax-free benefit for people of State Pension age and above who have a physical or mental disability requiring frequent attention or supervision. Paid at two rates: lower (Â£72.65/week daytime or nighttime needs) and higher (Â£108.55/week both).',b:'Approximately 1.6 million claimants'},
+'Child Benefit':{y:1977,d:'Universal (non-means-tested) payment to parents or guardians responsible for a child under 16 (or under 20 in approved education/training). Paid at Â£25.60/week for eldest child and Â£16.95/week for each additional child (2024-25 rates).',b:'Approximately 7.0 million families covering 12.7 million children'},
+'Tax Credits (Working Tax Credit and Child Tax Credit)':{y:2003,d:'Means-tested income supplements for working people on low incomes (Working Tax Credit) and families with children (Child Tax Credit). Legacy benefits being replaced by Universal Credit through managed migration.',b:'Approximately 1.5 million households (rapidly declining from peak of 4.4 million in 2012)'},
+'Police Core Grant and Formula Funding':{y:1856,d:'Central government grants to the 43 territorial police forces in England and Wales, comprising the Police Core Grant, formula funding, and various specific grants (counter-terrorism, serious violence, uplift). Supplemented by local council tax police precept.',b:'56.5 million people in England and Wales served by 43 police forces (~150,000 officers)'},
+'Scottish Government Block Grant':{y:1978,d:'Block grant from HM Treasury to the Scottish Government, determined by the Barnett Formula. Funds devolved services including NHS Scotland, Scottish education, justice, transport, and local government. Adjusted for tax devolution under the Scotland Act 2016 fiscal framework.',b:'5.4 million people in Scotland'},
+'Welsh Government Block Grant':{y:1978,d:'Block grant from HM Treasury to the Welsh Government, determined by the Barnett Formula with a needs-based floor introduced in 2015. Funds devolved services including NHS Wales, Welsh education, local government, housing, and transport within Wales.',b:'3.1 million people in Wales'},
+'Northern Ireland Block Grant':{y:1921,d:'Block grant from HM Treasury to the Northern Ireland Executive, determined by the Barnett Formula. Funds devolved services including Health and Social Care NI, education, policing (PSNI), justice, and infrastructure. Northern Ireland has the widest devolution settlement in the UK.',b:'1.9 million people in Northern Ireland'},
+'MOD Military Personnel Costs':{y:1964,d:'Pay, allowances, pensions contributions, and associated personnel costs for UK regular and reserve Armed Forces across the Royal Navy, British Army, and Royal Air Force. Includes military salaries, X-Factor supplement, operational allowances, and employer pension contributions to AFPS.',b:'Approximately 145,000 regular Armed Forces personnel plus 27,000 volunteer reserves'},
+'MOD Equipment and Support (Defence Procurement)':{y:1971,d:'Capital and resource expenditure on military equipment procurement, support, and maintenance managed through Defence Equipment & Support (DE&S). Covers major programmes including Dreadnought-class submarines, Type 26 frigates, F-35B Lightning, Ajax AFVs, and Tempest/GCAP future combat air.',b:'Not applicable (national defence capability)'},
+'Network Rail Government Grant':{y:2002,d:'Government grant to Network Rail (reclassified as a public body in 2014) to fund operations, maintenance, and renewals of the railway infrastructure in England and Wales â€” including 20,000 miles of track, 30,000 bridges, and 2,500 stations.',b:'Approximately 1.7 billion passenger journeys per year on the GB rail network'},
+'High Speed 2 (HS2) Construction Programme':{y:2009,d:'Capital funding for the construction of the UK's high-speed railway. Phase 1 runs from London Euston to Birmingham Curzon Street (scheduled to open 2029-33). The Phase 2 extensions to Manchester and Leeds were cancelled in October 2023, with funding redirected to Network North.',b:'Not applicable until operational (estimated 300,000+ daily passengers at full operation)'},
+'Revenue Support Grant (RSG) and Local Government Finance Settlement':{y:1988,d:'Un-ring-fenced central government revenue grant to local authorities in England to support core services. Part of the wider Local Government Finance Settlement which also includes redistributed business rates, specific grants, and the New Homes Bonus.',b:'317 local authorities in England serving approximately 56.5 million residents'},
+'Affordable Homes Programme (AHP)':{y:2011,d:'Capital grant programme delivered through Homes England and the Greater London Authority to fund the construction of new affordable housing in England â€” including affordable rent, social rent, shared ownership, and rent-to-buy homes.',b:'Target of approximately 180,000 new affordable homes over the 2021-26 programme'},
+'NHS Capital Investment (DHSC Capital DEL)':{y:1948,d:'Capital expenditure on NHS infrastructure in England including new hospital construction (New Hospital Programme), medical equipment, digital and IT (including NHS App, electronic patient records), estates maintenance and backlog reduction, and ambulance fleet.',b:'56.5 million NHS users in England across ~1,200 NHS sites'},
+'UK Health Security Agency (UKHSA, formerly Public Health England)':{y:2021,d:'Executive agency responsible for protecting the nation from health threats including infectious disease surveillance, outbreak response, immunisation programmes, chemical and radiation hazards. Replaced Public Health England (PHE, est. 2013) following the COVID-19 pandemic review.',b:'67 million UK population (health protection is UK-wide for some functions)'},
+'Legal Aid (Civil and Criminal)':{y:1949,d:'Publicly funded legal advice and representation for individuals who cannot afford lawyers, covering criminal defence (duty solicitors, Crown Court advocacy) and civil matters (family, housing, immigration, mental health, debt). Administered by the Legal Aid Agency.',b:'Approximately 1.5 million legal aid acts of assistance per year'},
+'HM Prison Service (HM Prison and Probation Service â€” Prison Operations)':{y:1877,d:'Operational costs of running 117 prisons in England and Wales, including staff pay, maintenance, prisoner healthcare (commissioned via NHS England), education, food, and security. Managed by HM Prison and Probation Service (HMPPS), an executive agency of MOJ.',b:'Approximately 87,000 prisoners (operational capacity ~89,000 in 2024-25)'},
+'Probation Service':{y:1907,d:'Supervision and rehabilitation of offenders in the community, including managing community sentences, licence supervision of released prisoners, pre-sentence reports, approved premises (hostels), and electronic monitoring. Returned to full public ownership in 2021.',b:'Approximately 250,000 offenders under probation supervision at any time'},
+'Border Force':{y:2012,d:'Law enforcement command within the Home Office responsible for immigration and customs controls at UK ports and airports, including passport checks, customs enforcement, detection of prohibited goods, and small boat interceptions in the English Channel.',b:'Not directly applicable (processes ~250 million passenger arrivals per year at UK borders)'},
+'Counter-Terrorism Policing and CONTEST Programme':{y:2003,d:'Funding for the UK's counter-terrorism strategy (CONTEST) comprising four strands: Prevent (deradicalisation), Pursue (investigation and disruption), Protect (infrastructure security), and Prepare (emergency response). Includes CT policing grant to forces, MI5 interface, and Channel programme.',b:'67 million UK population (national security function)'},
+'Official Development Assistance (ODA) â€” FCDO Programme Spend':{y:1964,d:'UK bilateral and multilateral overseas development assistance, funding programmes in global health, education, humanitarian response, climate finance, governance, and economic development. Includes contributions to multilateral organisations (World Bank IDA, Global Fund, Gavi, UN agencies).',b:'Hundreds of millions of people across partner countries (UK bilateral ODA reaches 100+ countries)'},
+'BBC World Service Grant-in-Aid':{y:1932,d:'Government grant to the BBC World Service for international broadcasting in over 40 languages, providing independent news and analysis to global audiences. FCDO funding supplements BBC licence fee funding (which became the primary funder from 2014).',b:'Estimated weekly global audience of 365 million people across radio, TV, and digital'},
+'Environment Agency':{y:1996,d:'Executive non-departmental public body responsible for environmental regulation in England, including flood risk management, water quality and resources, waste regulation, fisheries, and industrial emissions permitting. Major capital programme in flood defences.',b:'56.5 million people in England (environmental protection) plus 5.2 million properties in flood risk areas'},
+'Natural England':{y:2006,d:'Government adviser and delivery body for the natural environment in England, responsible for designating and managing SSSIs, National Nature Reserves, AONBs (now National Landscapes), wildlife licensing, Biodiversity Net Gain, and Environmental Land Management scheme advice.',b:'Not directly applicable (protects 4,100+ SSSIs covering 8% of England's land area)'},
+'Flood and Coastal Erosion Risk Management Programme':{y:1930,d:'Capital investment programme to build and maintain flood defences, coastal erosion protection, and surface water management infrastructure across England. Delivered primarily by the Environment Agency with contributions from local levy, partnership funding, and local authorities.',b:'Target of 336,000 properties better protected from flooding over the 2021-27 programme period'},
+'Farming Subsidies (Basic Payment Scheme / Environmental Land Management)':{y:2005,d:'Direct payments to farmers in England, transitioning from area-based EU Common Agricultural Policy payments (Basic Payment Scheme) to Environmental Land Management (ELM) schemes that pay for environmental outcomes â€” Sustainable Farming Incentive (SFI), Countryside Stewardship (CS), and Landscape Recovery.',b:'Approximately 85,000 farm businesses in England receiving BPS; 37,000+ with ELM agreements (and growing)'},
+'Nuclear Decommissioning Authority (NDA)':{y:2005,d:'Non-departmental public body responsible for decommissioning and cleaning up the UK's earliest nuclear sites, including Sellafield, Dounreay, Magnox reactor sites, and associated waste management and spent fuel reprocessing. Manages the UK's nuclear legacy over a 100+ year programme.',b:'Not directly applicable (environmental cleanup and safety; ~17,000 NDA group employees)'},
+'UK Research and Innovation (UKRI)':{y:2018,d:'Umbrella body for the UK's seven research councils (EPSRC, BBSRC, MRC, NERC, AHRC, ESRC, STFC), Innovate UK, and Research England. Funds university research grants, fellowships, research infrastructure, innovation partnerships, and the UK's share of Horizon Europe association.',b:'Approximately 90,000 researchers funded; 160+ UK universities and research institutes'},
+'Student Loans Company (SLC) Operations and Student Finance':{y:1989,d:'Government-owned company that administers student finance in the UK â€” processing applications, disbursing tuition fee loans and maintenance loans to higher education students in England (and administering devolved schemes for Wales, NI, Scotland). Also handles income-contingent loan repayment collection via HMRC PAYE.',b:'Approximately 1.8 million students receiving loans annually; total loan book ~Â£236 billion (2024)'},
+'Early Years Entitlements (Free Childcare Hours)':{y:2004,d:'Funded early education and childcare entitlements for children in England: universal 15 hours/week for all 3-4 year olds; extended 30 hours for working parents of 3-4 year olds; 15 hours for disadvantaged 2 year olds; and new entitlements expanding from April 2024 to working parents of 9 months+.',b:'Approximately 1.7 million children taking up funded places (rising significantly with expansion to under-2s)'},
+'Special Educational Needs and Disabilities (SEND) Provision':{y:2014,d:'Funding for children and young people aged 0-25 with special educational needs and disabilities, covering Education Health and Care Plans (EHCPs), specialist provision in special schools and alternative provision, SEN support in mainstream schools, and post-16 high needs places.',b:'Approximately 1.6 million children with SEN (including 576,000 with EHCPs as of January 2024)'},
+'16-19 Education Funding (Post-16 Revenue Funding)':{y:2010,d:'Revenue funding for post-16 education in England, covering sixth form colleges, school sixth forms, further education (FE) colleges, and independent training providers for students aged 16-19 (and 19-24 with EHCPs). Allocated via the 16-19 national funding formula based on student numbers and programme hours.',b:'Approximately 1.6 million 16-19 year olds in funded education and training'},
+'National Highways (Strategic Road Network)':{y:2015,d:'Government-owned company (formerly Highways England, originally Highways Agency) responsible for operating, maintaining, and improving England's strategic road network â€” approximately 4,500 miles of motorways and major A-roads carrying one-third of all traffic.',b:'Approximately 4 million vehicle journeys per day on the strategic road network'},
+'Bus Subsidies and Funding (BSIP and BSOG)':{y:1968,d:'Central government support for bus services in England, comprising Bus Service Operators Grant (BSOG â€” fuel duty rebate), Bus Service Improvement Plans (BSIP) funding, the national Â£2 single fare cap, and reimbursement to operators for statutory concessionary travel (free bus passes for over-66s and disabled people).',b:'Approximately 3.4 billion bus passenger journeys per year in England; 10 million concessionary pass holders'},
+'Arts Council England':{y:1946,d:'National development agency for arts, museums, and libraries in England, distributing government grant-in-aid and National Lottery funds. Provides regular funding to National Portfolio Organisations (NPOs), project grants, and strategic funding for cultural infrastructure, talent development, and community arts.',b:'985 National Portfolio Organisations funded 2023-26; thousands of individual artists via project grants; ~150 million museum/gallery visits per year'},
+'British Council':{y:1934,d:'UK's international organisation for cultural relations and educational opportunities, operating in 100+ countries. Delivers English language teaching, educational exchanges, arts and culture programmes, exams administration (IELTS partner), and supports UK soft power objectives.',b:'Approximately 75 million people engaged directly across 100+ countries annually'},
+'UK Export Finance (UKEF)':{y:1919,d:'UK's official export credit agency providing government-backed loans, guarantees, and insurance to support British exports and overseas investment. Products include buyer credit, direct lending, export insurance, and bond support schemes to help UK exporters win contracts in challenging markets.',b:'Approximately 600 exporters supported per year; maximum portfolio exposure of Â£67 billion'},
+'Companies House':{y:1844,d:'Executive agency responsible for incorporating and dissolving companies in the UK, maintaining the public register of companies, and ensuring compliance with filing requirements (annual accounts, confirmation statements, persons with significant control). Registers approximately 800,000 new companies per year.',b:'5.2 million companies on the UK register; public access to company data'},
+'Ordnance Survey':{y:1791,d:'National mapping agency of Great Britain, producing and licensing the definitive geospatial data and mapping for the country. Products include OS MasterMap, AddressBase, OS Maps for leisure, and the National Geographic Database. Operating as a government trading fund and public corporation.',b:'UK public sector (free access via PSGA licence), 4 million leisure map users, commercial licensees'},
+'Met Office':{y:1854,d:'UK's national meteorological service providing weather forecasts, climate research, and severe weather warnings. Operates the Public Weather Service (government-funded) alongside commercial weather services for aviation, defence, energy, media, and international clients. World-leading climate modelling centre.',b:'67 million UK population (weather warnings and forecasts); global research community; aviation/defence clients'},
+'Crown Prosecution Service (CPS)':{y:1986,d:'Principal public prosecution service for England and Wales, responsible for reviewing and prosecuting criminal cases investigated by the police and other agencies. Applies the Code for Crown Prosecutors (evidential and public interest tests) to decide whether to charge and prosecute.',b:'Not directly applicable (criminal justice function serving 56.5 million people in England and Wales; handles ~400,000 defendants per year)'},
+},
+};
+
+
+const MV_ENRICHMENT={
+us:{
+"Department of Health and Human Services":{keyFigures:"Medicare: 67M beneficiaries. Medicaid/CHIP: 92M enrollees. NIH funds ~50,000 research grants/year. ~80,000 employees.",desc:"95% flows to Medicare and Medicaid. The rest funds NIH biomedical research, FDA, CDC, and public health.",fact:"Medicare alone processes over 1 billion claims per year. HHS is the largest grant-making agency in the federal government."},
+"Department of the Treasury":{keyFigures:"Net interest on debt: ~$882B (FY2024). IRS processed 163M returns, issued $452B in refunds. IRS: ~90,000 employees.",desc:"The vast majority pays interest on ~$35T in federal debt. The rest funds the IRS, Bureau of the Fiscal Service, and sanctions programs (OFAC).",fact:"Interest on the debt surpassed defense spending for the first time in FY2024."},
+"Department of Defense":{keyFigures:"1.3M active-duty, 750K civilians, 800K Reserve/Guard. ~4,800 sites in 160 countries. ~13,000 aircraft, 290 ships.",desc:"One-third personnel (pay, TRICARE for 9.6M), one-third operations/maintenance, one-third procurement and R&D.",fact:"DoD is the world's largest employer. Its real estate portfolio (26M acres) is larger than Virginia."},
+"Social Security Administration":{keyFigures:"68M beneficiaries: 52M retired, 7.4M disability, 5.8M SSI. Avg retirement: $1,907/month. ~60,000 employees, 1,200 offices.",desc:"Nearly 100% are direct benefit payments. Administrative costs under 1% — among the lowest overhead of any large program.",fact:"Social Security keeps ~22 million Americans out of poverty each year. The trust fund faces depletion around 2033."},
+"Department of Veterans Affairs":{keyFigures:"9M veterans enrolled, 6.7M treated annually. 1,321 facilities. 412,000 employees (2nd largest federal dept). 5.7M disability recipients.",desc:"Half funds disability compensation. Half operates the largest integrated healthcare system in the US, plus GI Bill and home loans.",fact:"The PACT Act (2022) expanded eligibility to 3.5M toxic-exposed veterans, driving budget from $300B to $500B in two years."},
+"Department of Agriculture":{keyFigures:"SNAP: 42M participants. School meals: 30M children daily. Crop insurance: 500M acres. 193M acres of National Forest. ~100,000 employees.",desc:"75% is nutrition assistance (SNAP, school meals, WIC). The rest: farm subsidies, crop insurance, conservation, Forest Service.",fact:"USDA is more safety net than farming agency: nutrition programs outweigh all farm subsidies 4-to-1."},
+"Department of Education":{keyFigures:"Student loan portfolio: $1.6T for 43M borrowers. Pell Grants: 6.4M recipients. Title I: 56,000 schools. ~4,100 employees (smallest cabinet dept).",desc:"70% services student loans. Discretionary funds go to Title I (low-income schools) and IDEA (special education, 7.5M students).",fact:"Despite being called Education, it operates zero schools. It functions as a bank (student loans) and grant engine — with the smallest workforce of any cabinet department."},
+"NASA":{keyFigures:"18,000 civil servants, 40,000 contractors, 10 field centers. James Webb: $10B. ~60 active science missions.",desc:"One-third human spaceflight (ISS, Artemis), one-third science (Earth observation, planetary), one-third aeronautics and technology R&D.",fact:"NASA's entire annual budget ($25B) is less than Americans spend on pizza (~$46B/yr)."},
+"Department of Justice":{keyFigures:"FBI: 35,000. Bureau of Prisons: 158,000 inmates in 122 facilities. DEA: 10,000. Total: ~115,000 employees.",desc:"Largest costs: Bureau of Prisons (~$9B, $42K/inmate/year), FBI (~$11B), and grants to state/local law enforcement ($5-6B/yr).",fact:"The federal prison population grew 700% since 1980. Roughly half of inmates are serving drug-related sentences."},
+"Department of the Interior":{keyFigures:"Manages 480M acres (1 in 5 US acres). National Parks: 429 units, 312M visits/year. Bureau of Indian Affairs serves 574 tribes (~2M people). ~67,000 employees.",desc:"Land management (BLM, NPS, Fish & Wildlife), western water (Reclamation, 490 dams), tribal trust responsibilities, and energy/mineral leasing.",fact:"Interior generates more revenue than it spends — federal energy leasing produces ~$22B/year in royalties, exceeding its discretionary budget."},
+"Department of State":{keyFigures:"275 posts in 190 countries. 77,000 employees. Processes 24M passport applications/year. PEPFAR has saved an estimated 25M lives.",desc:"Diplomatic operations, foreign aid (top recipients: Israel, Ukraine, Egypt), embassy security, UN/NATO contributions, and global health (PEPFAR).",fact:"The entire State Dept + foreign aid is ~1% of federal spending, but surveys show Americans believe it's 25-30% — off by a factor of 25."},
+"Department of Energy":{keyFigures:"17 national labs, 50,000 scientists. Maintains ~3,700 nuclear warheads. 2,300 contaminated sites. ~14,000 federal + 90,000 contractors.",desc:"Half goes to NNSA (nuclear weapons, nonproliferation, naval reactors). Half to energy R&D, environmental cleanup of Cold War sites, and clean energy loans.",fact:"DOE is a national security agency in disguise — its nuclear weapons program is larger than its entire energy portfolio."},
+},
+fr:{
+"Éducation nationale":{keyFigures:"12.2M students. 870,000 teachers. 1.13M total staff — largest civilian employer in France. ~59,000 schools.",desc:"~93% is personnel costs (teacher salaries). Covers primary/secondary education, curriculum, and priority education zones (REP/REP+).",fact:"Despite the highest volume spending on teachers in the EU, French primary teachers are paid 15-20% below the OECD average."},
+"Armées et anciens combattants":{keyFigures:"207,000 military + 63,000 civilian staff. 9 foreign bases. Nuclear deterrent: €5.6B. ~1M veterans beneficiaries.",desc:"Personnel, equipment procurement (LPM 2024-2030: €413B over 7 years), operational readiness, nuclear deterrence, and veterans' benefits.",fact:"France is the only EU country with a full nuclear triad. The dissuasion budget (~12% of defense) was kept opaque for decades."},
+"Intérieur":{keyFigures:"150,000 police nationale + 100,000 gendarmes + 250,000 pompiers. ~120,000 asylum applications/year.",desc:"Police/gendarmerie operations, civil security, prefectures, immigration/asylum processing, and local government relations.",fact:"France has one of the highest police-per-capita ratios in Western Europe, yet 30-40% of police time is consumed by paperwork."},
+"Solidarités, autonomie et égalité entre les femmes et les hommes":{keyFigures:"1.3M AAH (disability) beneficiaries. 1.3M elderly receiving APA. 7,500 EHPAD establishments. 2M RSA recipients.",desc:"Disability benefits (AAH), elderly autonomy support (CNSA), social inclusion, child protection, and gender equality policies.",fact:"France created a 5th branch of Social Security ('Autonomie') in 2020 — the first since 1945 — to address aging population care."},
+"Enseignement supérieur et recherche":{keyFigures:"2.9M students. 75 public universities. CNRS: 32,000 employees. 750,000 students on scholarships. France ranks 7th in scientific publications.",desc:"University operating grants and staff, public research (CNRS, INSERM, INRAE), doctoral fellowships, student financial aid, and France 2030 research.",fact:"The Crédit d'Impôt Recherche (€7B/yr) is one of the world's most generous R&D tax credits — but its effectiveness is questioned."},
+"Logement et rénovation urbaine":{keyFigures:"6.5M households receive housing benefits (APL). 2.4M on social housing waiting lists. 5.2M HLM units. 600 priority neighborhoods targeted by ANRU.",desc:"Personal housing aid (APL, ~€13-15B), social housing support, ANRU urban renewal (€12B program), and MaPrimeRénov' energy renovation.",fact:"Average wait for social housing in Île-de-France exceeds 7 years. The 2018 €5/month APL cut became one of Macron's most damaging decisions."},
+"Justice":{keyFigures:"92,000 staff. 164 prisons, 78,000 inmates (capacity 61,000 — 128% occupancy). 8,000 magistrates. ~1M legal aid cases/year.",desc:"Courts, prison system, judicial youth protection (155,000 minors), legal aid, and justice digitalization.",fact:"France spends ~€78/inhabitant on justice, half of Germany's figure. The ECHR has condemned France multiple times for inhumane prison conditions."},
+"Culture":{keyFigures:"France Télévisions: €2.4B. 45,000 protected monuments. 1,200 Musées de France. Louvre: 8.9M visitors (2023).",desc:"Public broadcasting, heritage conservation, national museums, performing arts, cinema support (CNC ~€700M/yr), and decentralized culture.",fact:"The 'exception culturelle' subsidizes virtually every art form. Fixed book pricing (loi Lang) has existed since 1981. France is the world's most visited country (~100M tourists/year)."},
+"Travail et emploi":{keyFigures:"30M active workforce. France Travail serves 6M jobseekers. 370,000 apprenticeship contracts/year. SMIC: €1,766/month.",desc:"Employment subsidies, France Travail operations, apprenticeship and vocational training support, and youth insertion programs.",fact:"Apprenticeship numbers nearly doubled since 2018 via €6,000/contract subsidies (~€5B/yr cost), but mostly in higher education — raising deadweight concerns."},
+"Transition écologique, énergie, climat et prévention des risques":{keyFigures:"56 nuclear reactors (~65% of electricity). Target: 40% renewable by 2030. 800,000 MaPrimeRénov' dossiers (2023). 1,800 Seveso sites.",desc:"Energy transition (renewables, EV bonuses), MaPrimeRénov', biodiversity, nuclear safety (ASN), water/air quality, and climate adaptation.",fact:"France has the lowest-carbon electricity in the G7 (~55g CO2/kWh vs 350g in Germany), yet was the only EU country to miss its 2020 renewable target."},
+},
+uk:{
+"Work and Pensions":{keyFigures:"12.7M State Pension recipients. 5.5M Universal Credit claimants. 2.6M PIP claimants.",desc:"State Pension (~£125B) and working-age benefits: Universal Credit, Housing Benefit, disability (PIP/DLA), and Employment Support Allowance.",fact:"DWP's annual expenditure exceeds the entire GDP of Portugal."},
+"Health and Social Care":{keyFigures:"NHS treats 1.3M patients every 24 hours. 1.4M NHS staff — world's 5th largest employer. 340M GP appointments/year.",desc:"Predominantly NHS England (~£165B): hospitals, GP services, mental health, prescriptions. The rest: social care grants, UKHSA, capital investment.",fact:"Public satisfaction with the NHS fell to its lowest recorded level (24%) in the 2023 BSA survey."},
+"HM Revenue & Customs":{keyFigures:"Collects ~£820B in tax revenue. 12M Self Assessment returns/year. 65,000 employees.",desc:"Tax credits and child benefit payments (~£30B), tax system administration, customs enforcement, and taxpayer compliance activities.",fact:"HMRC's 'tax gap' is £39.8B (4.8%) — for every £1 spent on operations it recovers roughly £20 in revenue."},
+"HM Treasury":{keyFigures:"UK national debt: ~£2.7T (98% of GDP). Debt interest: ~£89B in 2023-24. Core staff: ~2,200.",desc:"The overwhelming majority (~£89B) pays interest on government debt, particularly index-linked gilts whose cost surged with inflation.",fact:"Debt interest became the 4th-largest spending area in 2022-23, briefly exceeding defence — because ~25% of UK gilts are linked to RPI inflation."},
+"Education":{keyFigures:"8.9M pupils in state schools. 500,000 teachers. 1.7M children in funded early years.",desc:"Core schools funding (DSG ~£60B) for academies and maintained schools, 16-19 education, student loans, early years, and SEND provision.",fact:"England's system is now ~80% academised — most state schools operate outside local authority control, virtually unique worldwide."},
+"Defence":{keyFigures:"148,000 regular forces. 60,000 MOD civilians. Equipment plan: £288B over 10 years. 2 aircraft carriers, 4 nuclear submarines.",desc:"Personnel (~£15B), equipment and support (~£22B incl. nuclear deterrent), infrastructure, and operations/NATO commitments.",fact:"The Continuous At Sea Deterrent has kept at least one nuclear submarine on patrol since April 1969 — over 55 years without interruption."},
+"Scotland":{keyFigures:"Population: 5.45M. NHS Scotland: 5.4M patients. Scottish Government: ~8,000 core civil servants.",desc:"Barnett formula block grant funding devolved services: NHS Scotland, education, policing (Police Scotland), transport, and local government.",fact:"Public spending per person in Scotland is ~20% higher than the UK average (£14,961 vs £12,498) — a gap that has persisted for decades."},
+"Home Office":{keyFigures:"145,000 police officers (England & Wales). 36,000 Home Office staff. 6M visa decisions/year. 750K passport applications/month at peak.",desc:"Police funding (~£16B for 43 forces), immigration and asylum (~£5B+), counter-terrorism, Border Force, and fire service support.",fact:"The asylum backlog peaked at 175,000 cases in 2023, with hotel accommodation costing ~£8M per day."},
+"Transport":{keyFigures:"Network Rail: 20,000 miles of track, 30,000 bridges. 32B vehicle miles on English roads annually. HS2 revised budget: ~£66B for Phase 1.",desc:"Rail subsidies and Network Rail (~£12B), strategic roads (National Highways ~£5B), HS2 construction, bus subsidies, and local transport grants.",fact:"HS2's original 2010 budget was £33B for London-Leeds/Manchester. By 2024: costs doubled, scope halved to London-Birmingham only."},
+"Housing, Communities & Local Government":{keyFigures:"317 local authorities funded. 1.3M households on social housing waiting lists. Business rates retention: ~£12B.",desc:"Local government grants (Revenue Support Grant), affordable housing (£11.5B programme), homelessness prevention, building safety, and levelling-up funds.",fact:"Council funding was cut ~40% in real terms (2010-2020), with several councils (Birmingham, Thurrock, Woking) effectively declaring bankruptcy via Section 114 notices."},
+"Environment, Food & Rural Affairs":{keyFigures:"210,000 farms in England. Environmental Land Management targeting 70% of farmland by 2028. Flood risk for 5.2M properties.",desc:"Post-Brexit farming subsidies (replacing EU CAP), flood defence (£5.2B programme), Environment Agency, Natural England, and waste/water regulation.",fact:"Brexit made Defra the most transformed department — it built from scratch 40+ EU regulatory functions, including an entirely new farming subsidy regime."},
+}
+};
+
+function openMvInfo(node){
+  if(!node||node.depth===0) return;
+  const card=document.getElementById('mv-info');
+  const content=document.getElementById('mv-info-content');
+  if(!card||!content) return;
+
+  const cc=node._country||'de';
+  const meta=COUNTRY_META[cc];
+  const name=node.data.name||'';
+  const sym=meta.currency;
+  const v=node._origValue||node.value;
+  const vStr=mvFmtVal(v,sym);
+
+  // Find country root for % calculations
+  let countryRoot=node;
+  while(countryRoot.parent&&countryRoot.depth>0) countryRoot=countryRoot.parent;
+  const totalV=countryRoot._origValue||countryRoot.value;
+  const pctTotal=(v/totalV*100);
+  const pctStr=pctTotal<0.01?pctTotal.toFixed(4):pctTotal.toFixed(1);
+  const pctParent=node.parent&&node.parent.depth>0?((node._origValue||node.value)/(node.parent._origValue||node.parent.value)*100).toFixed(1):'100';
+
+  const nameEsc=esc(name).replace(/'/g,'&#39;');
+
+  let html=`
+    <div style="font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">${meta.flag} ${meta.name}</div>
+    <h3 style="cursor:pointer" onclick="mvGoToExplorer('${cc}','${nameEsc}',${multiverseYear})">${esc(name)} <span style="font-size:11px;color:var(--accent)">&#8594;</span></h3>
+    <div class="gi-amt">${vStr}</div>
+    <div class="gi-pct">${pctStr}% of ${meta.name} total`;
+  if(node.parent&&node.parent.depth>0) html+=` &middot; ${pctParent}% of parent`;
+  html+=`</div>`;
+
+  // Explore button
+  // Enrichment data
+  const enr=(MV_ENRICHMENT[cc]||{})[name];
+  if(enr){
+    html+=`<div style="margin:12px 0;padding:10px;background:rgba(79,195,247,.06);border-radius:6px;border:1px solid rgba(79,195,247,.15)">`;
+    html+=`<div style="font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Key Figures</div>`;
+    html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:8px">${esc(enr.keyFigures)}</div>`;
+    html+=`<div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">What it pays for</div>`;
+    html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:8px">${esc(enr.desc)}</div>`;
+    html+=`<div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">Notable</div>`;
+    html+=`<div style="font-size:11px;color:rgba(255,255,255,.7);line-height:1.6;font-style:italic">${esc(enr.fact)}</div>`;
+    html+=`</div>`;
+  }
+
+  // Programme-level enrichment (150 programmes across US/FR/UK)
+  const progEnr=(PROGRAM_ENRICHMENT[cc]||{})[name];
+  if(progEnr&&!enr){
+    html+=`<div style="margin:12px 0;padding:10px;background:rgba(255,255,255,.04);border-radius:6px;border:1px solid var(--border)">`;
+    if(progEnr.y) html+=`<div style="font-size:9px;color:var(--dim);margin-bottom:4px">Est. ${progEnr.y}</div>`;
+    html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px">${esc(progEnr.d)}</div>`;
+    if(progEnr.b&&progEnr.b!=='not applicable') html+=`<div style="font-size:10px;color:var(--accent);line-height:1.5">${esc(progEnr.b)}</div>`;
+    html+=`</div>`;
+  }
+
+  // Spending type breakdown (US agencies)
+  const spTypes=cc==='us'?US_SPENDING_TYPES[name]:null;
+  if(spTypes){
+    const spTotal=Object.values(spTypes).reduce((s,v)=>s+v,0);
+    html+=`<div style="margin:12px 0;padding:10px;background:rgba(255,255,255,.03);border-radius:6px;border:1px solid var(--border)">`;
+    html+=`<div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Spending Breakdown</div>`;
+    html+=`<div style="display:flex;height:12px;border-radius:4px;overflow:hidden;margin-bottom:8px">`;
+    Object.entries(spTypes).forEach(([k,v])=>{
+      const pct=v/spTotal*100;
+      if(pct<1) return;
+      html+=`<div style="width:${pct}%;background:${SPEND_TYPE_COLORS[k]||'#546e7a'}" title="${SPEND_TYPE_LABELS[k]||k}: ${pct.toFixed(0)}%"></div>`;
+    });
+    html+=`</div><div style="display:flex;flex-wrap:wrap;gap:6px">`;
+    Object.entries(spTypes).forEach(([k,v])=>{
+      const pct=v/spTotal*100;
+      if(pct<2) return;
+      html+=`<span style="font-size:9px;color:var(--dim);display:flex;align-items:center;gap:3px"><span style="width:6px;height:6px;border-radius:50%;background:${SPEND_TYPE_COLORS[k]||'#546e7a'}"></span>${SPEND_TYPE_LABELS[k]||k} ${pct.toFixed(0)}%</span>`;
+    });
+    html+=`</div></div>`;
+  }
+
+  html+=`<button class="gi-btn" onclick="mvGoToExplorer('${cc}','${nameEsc}',${multiverseYear})">Explore in Budget Explorer &rarr;</button>`;
+
+  // Allocation insights
+  const children=(node.children||[]).slice().sort((a,b)=>b.value-a.value);
+  if(children.length>0){
+    const top1=children[0];
+    const top1Pct=(top1.value/(node.value||1)*100);
+    const top3=children.slice(0,3);
+    const top3Pct=top3.reduce((s,c)=>s+c.value,0)/(node.value||1)*100;
+    const restCount=children.length-3;
+    const restPct=100-top3Pct;
+
+    // Herfindahl-Hirschman Index (concentration)
+    const hhi=children.reduce((s,c)=>{const p=c.value/(node.value||1)*100;return s+p*p},0);
+    // HHI: 10000 = single item, <1500 = well distributed
+
+    let concentrationLabel,concentrationColor;
+    if(hhi>4000){concentrationLabel='Highly concentrated';concentrationColor='#ef5350'}
+    else if(hhi>2000){concentrationLabel='Moderately concentrated';concentrationColor='#ffd54f'}
+    else{concentrationLabel='Well distributed';concentrationColor='#66bb6a'}
+
+    html+=`<div style="margin:12px 0;padding:10px;background:rgba(255,255,255,.03);border-radius:6px;border:1px solid var(--border)">
+      <div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Allocation Analysis</div>`;
+
+    // Concentration bar
+    html+=`<div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+      <div style="width:8px;height:8px;border-radius:50%;background:${concentrationColor}"></div>
+      <span style="font-size:11px;color:var(--text)">${concentrationLabel}</span>
+    </div>`;
+
+    // Top item dominance
+    html+=`<div style="font-size:11px;color:var(--dim);line-height:1.6;margin-bottom:8px">`;
+    if(top1Pct>50){
+      html+=`<span style="color:var(--text)">${esc(top1.data.name.length>35?top1.data.name.slice(0,33)+'...':top1.data.name)}</span> alone accounts for <span style="color:var(--accent)">${top1Pct.toFixed(1)}%</span> of this budget.`;
+    } else {
+      html+=`Top 3 items absorb <span style="color:var(--accent)">${top3Pct.toFixed(0)}%</span>`;
+      if(restCount>0) html+=`, while ${restCount} other${restCount>1?'s':''} share the remaining ${restPct.toFixed(0)}%`;
+      html+=`.`;
+    }
+    html+=`</div>`;
+
+    // Visual distribution bar (top items colored, rest grey)
+    html+=`<div style="display:flex;height:10px;border-radius:4px;overflow:hidden;margin-bottom:4px">`;
+    const barColors=['#4fc3f7','#ff7043','#66bb6a','#ffd54f','#ab47bc'];
+    children.slice(0,5).forEach((c,i)=>{
+      const w=(c.value/(node.value||1)*100);
+      if(w<0.5) return;
+      html+=`<div style="width:${w}%;background:${barColors[i%barColors.length]};opacity:.8" title="${esc(c.data.name)}: ${w.toFixed(1)}%"></div>`;
+    });
+    const otherW=children.slice(5).reduce((s,c)=>s+c.value,0)/(node.value||1)*100;
+    if(otherW>0.5) html+=`<div style="width:${otherW}%;background:rgba(79,195,247,.12)" title="Others: ${otherW.toFixed(1)}%"></div>`;
+    html+=`</div>`;
+    html+=`<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px">`;
+    children.slice(0,5).forEach((c,i)=>{
+      const w=(c.value/(node.value||1)*100);
+      if(w<1) return;
+      html+=`<span style="font-size:8px;color:var(--dim);display:flex;align-items:center;gap:3px"><span style="width:6px;height:6px;border-radius:50%;background:${barColors[i%barColors.length]}"></span>${esc(c.data.name.length>18?c.data.name.slice(0,16)+'..':c.data.name)} ${w.toFixed(0)}%</span>`;
+    });
+    html+=`</div></div>`;
+
+    // Largest vs smallest ratio
+    if(children.length>2){
+      const smallest=children[children.length-1];
+      const sV=smallest._origValue||smallest.value;
+      const lV=top1._origValue||top1.value;
+      if(sV>0){
+        const ratio=Math.round(lV/sV);
+        if(ratio>10){
+          html+=`<div style="font-size:10px;color:var(--dim);margin:6px 0;line-height:1.5">The largest item is <span style="color:var(--accent)">${ratio.toLocaleString()}x</span> bigger than the smallest (${mvFmtVal(lV,sym)} vs ${mvFmtVal(sV,sym)}).</div>`;
+        }
+      }
+    }
+  }
+
+  // Children breakdown list
+  if(children.length>0){
+    const maxChildVal=children[0].value;
+    html+=`<div style="margin:14px 0 16px"><div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">${children.length} sub-areas</div>`;
+    children.slice(0,8).forEach(c=>{
+      const cName=c.data.name||'';
+      const cNameEsc=esc(cName).replace(/'/g,'&#39;');
+      const cV=c._origValue||c.value;
+      const cPct=(cV/(v||1)*100).toFixed(1);
+      const barW=(c.value/(maxChildVal||1)*100).toFixed(0);
+      const cStr=mvFmtVal(cV,sym);
+      html+=`<div style="margin-bottom:5px;cursor:pointer" onclick="mvGoToExplorer('${cc}','${cNameEsc}',${multiverseYear})">
+        <div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:1px"><span style="color:var(--text)">${esc(cName.length>30?cName.slice(0,28)+'...':cName)}</span><span style="color:var(--dim)">${cPct}%</span></div>
+        <div style="display:flex;align-items:center;gap:6px"><div style="flex:1;height:4px;background:rgba(255,255,255,.06);border-radius:2px"><div style="width:${barW}%;height:100%;background:var(--accent);border-radius:2px;opacity:.6"></div></div><span style="font-size:9px;color:var(--dim);min-width:50px;text-align:right">${cStr}</span></div>
+      </div>`;
+    });
+    if(children.length>8) html+=`<div style="font-size:9px;color:var(--dim)">+${children.length-8} more</div>`;
+    html+=`</div>`;
+  }
+
+  // Hierarchy path
+  const pathArr=[];
+  let p=node;
+  while(p&&p.depth>0){pathArr.unshift(p.data.name||'');p=p.parent}
+  if(pathArr.length>1){
+    html+=`<div style="font-size:9px;color:var(--dim);margin-top:8px;line-height:1.6;border-top:1px solid var(--border);padding-top:8px">${pathArr.map((n,i)=>`<span style="color:${i===pathArr.length-1?'var(--text)':'var(--dim)'}">` + esc(n.length>35?n.slice(0,33)+'...':n)+'</span>').join(' &rsaquo; ')}</div>`;
+  }
+
+  content.innerHTML=html;
+  card.classList.add('open');
+}
+
+function closeMvInfo(){
+  const card=document.getElementById('mv-info');
+  if(card) card.classList.remove('open');
+}
+
+let multiverseLoaded=false;
+let multiverseYear=2024;
+let mvAvailableYears={};
+
+async function loadMultiverse(forceYear){
+  const container=document.getElementById('multiverse-container');
+  if(!container) return;
+
+  if(forceYear) multiverseYear=forceYear;
+
+  // On first load, fetch available years for each country
+  if(!mvAvailableYears.de){
+    container.innerHTML='<div style="text-align:center;padding:40px;color:var(--dim)">Loading all universes...</div>';
+    const countryCodes=['de','us','fr','uk'];
+    await Promise.all(countryCodes.map(async c=>{
+      try{
+        const url=c==='de'?`${API}/budget/years`:`${API}/budget/country/${c}/years`;
+        mvAvailableYears[c]=await (await fetch(url)).json();
+      }catch(e){mvAvailableYears[c]=[]}
+    }));
+  }
+
+  // All unique years across countries
+  const allYears=[...new Set(Object.values(mvAvailableYears).flat())].sort((a,b)=>b-a);
+  if(!allYears.includes(multiverseYear)) multiverseYear=allYears[0]||2025;
+
+  multiverseLoaded=false; // force re-render on year change
+  container.innerHTML='';
+
+  // Year selector
+  const yearBar=document.createElement('div');
+  yearBar.style.cssText='position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:20;display:flex;align-items:center;gap:10px';
+  const yearSelect=document.createElement('select');
+  yearSelect.style.cssText='background:rgba(15,15,25,.85);border:1px solid var(--border);border-radius:6px;padding:6px 12px;color:var(--text);font-size:12px;font-family:Inter,sans-serif;cursor:pointer';
+  allYears.forEach(y=>{
+    const opt=document.createElement('option');
+    opt.value=y;opt.textContent=y;
+    if(y===multiverseYear) opt.selected=true;
+    yearSelect.appendChild(opt);
+  });
+  yearSelect.onchange=()=>{multiverseLoaded=false;loadMultiverse(parseInt(yearSelect.value))};
+  const yearLabel=document.createElement('span');
+  yearLabel.style.cssText='color:var(--dim);font-size:11px';
+  yearLabel.textContent='Year:';
+  yearBar.appendChild(yearLabel);
+  yearBar.appendChild(yearSelect);
+
+  // Show which countries have data for this year
+  const countryCodes=['de','us','fr','uk'];
+  const statusSpan=document.createElement('span');
+  statusSpan.style.cssText='font-size:11px;color:var(--dim);margin-left:8px';
+  const avail=countryCodes.filter(c=>(mvAvailableYears[c]||[]).includes(multiverseYear));
+  const missing=countryCodes.filter(c=>!(mvAvailableYears[c]||[]).includes(multiverseYear));
+  statusSpan.textContent=avail.map(c=>COUNTRY_META[c].flag).join('')+(missing.length?' | '+missing.map(c=>COUNTRY_META[c].flag+'?').join(''):'');
+  yearBar.appendChild(statusSpan);
+  container.appendChild(yearBar);
+
+  // Fetch trees for the selected year
+  const rawTrees={};
+  await Promise.all(countryCodes.map(async c=>{
+    if(!(mvAvailableYears[c]||[]).includes(multiverseYear)) return;
+    try{
+      const url=c==='de'?`${API}/budget/tree?year=${multiverseYear}`:`${API}/budget/country/${c}?year=${multiverseYear}`;
+      rawTrees[c]=await (await fetch(url)).json();
+    }catch(e){console.error('Multiverse fetch',c,e)}
+  }));
+
+  const width=container.clientWidth||window.innerWidth;
+  const height=container.clientHeight||(window.innerHeight-90);
+
+  const toUSD={de:1.08,us:1,fr:1.08,uk:1.27};
+  const palettes={
+    de:['#2d6a4f','#c1121f','#1d3461','#7b2d8b','#e76f51','#118ab2','#6b705c','#4a4e69'],
+    us:['#1a5276','#c0392b','#27ae60','#8e44ad','#d35400','#2980b9','#7f8c8d','#2c3e50'],
+    fr:['#002395','#ed2939','#1e8449','#6c3483','#d4ac0d','#2e86c1','#566573','#1b2631'],
+    uk:['#00247d','#cf142b','#1a5276','#6c3483','#d68910','#148f77','#5d6d7e','#2c3e50'],
+  };
+
+  // --- Pack each country separately, then position in virtual space ---
+  const budgetsUSD={};
+  countryCodes.forEach(c=>{if(rawTrees[c]) budgetsUSD[c]=rawTrees[c].value*(toUSD[c]||1)});
+  const maxB=Math.max(...Object.values(budgetsUSD));
+  const baseR=Math.min(width,height)*0.5;
+
+  // Pack each country and compute radius
+  const packed={};
+  countryCodes.forEach(c=>{
+    const t=rawTrees[c]; if(!t) return;
+    const R=baseR*Math.sqrt(budgetsUSD[c]/maxB);
+    const root=d3.hierarchy(t).sum(d=>d.children?0:d.value).sort((a,b)=>b.value-a.value);
+    d3.pack().size([R*2,R*2]).padding(d=>d.depth===0?R*0.015:d.depth===1?R*0.008:1)(root);
+    packed[c]={root,R};
+  });
+
+  // Position galaxies manually (spread out, no enclosing circle)
+  const sp=1.4;
+  const Ru=packed.us?.R||baseR, Rd=packed.de?.R||baseR*0.3, Rf=packed.fr?.R||baseR*0.3, Rk=packed.uk?.R||baseR*0.3;
+  const positions={
+    us:{x:0, y:0},
+    de:{x:-(Ru+Rd)*sp, y:-(Ru+Rd)*sp*0.35},
+    fr:{x:(Ru+Rf)*sp, y:-(Ru+Rf)*sp*0.25},
+    uk:{x:-(Ru+Rk)*sp*0.4, y:(Ru+Rk)*sp*0.9},
+  };
+
+  // Offset all nodes to world coords and tag them
+  const allNodes=[];
+  countryCodes.forEach(c=>{
+    const p=packed[c]; if(!p) return;
+    const pos=positions[c];
+    p.root.descendants().forEach(d=>{
+      d.x=d.x-p.R+pos.x;
+      d.y=d.y-p.R+pos.y;
+      d._country=c;
+      d._origValue=d.data.value; // original currency value
+    });
+    allNodes.push(...p.root.descendants());
+  });
+
+  // Fake root encompassing everything (for zoom-out target)
+  const allX=allNodes.map(d=>d.x), allY=allNodes.map(d=>d.y);
+  const cx=(Math.min(...allX)+Math.max(...allX))/2;
+  const cy=(Math.min(...allY)+Math.max(...allY))/2;
+  const maxExtent=Math.max(
+    Math.max(...allX)-Math.min(...allX),
+    Math.max(...allY)-Math.min(...allY)
+  )/2+200;
+  // Virtual root for zoom-out
+  const mvRoot={x:cx,y:cy,r:maxExtent,depth:0,data:{name:'Multiverse'},children:countryCodes.map(c=>packed[c]?.root).filter(Boolean)};
+  countryCodes.forEach(c=>{if(packed[c]) packed[c].root.parent=mvRoot});
+
+  // Tooltip
+  let tooltip=document.querySelector('.mv-tooltip');
+  if(!tooltip){tooltip=document.createElement('div');tooltip.className='galaxy-tooltip mv-tooltip';tooltip.style.display='none';document.body.appendChild(tooltip)}
+
+  // SVG
+  const svg=d3.select(container).append('svg')
+    .attr('viewBox',`0 0 ${width} ${height}`)
+    .style('display','block')
+    .style('background','radial-gradient(ellipse at center, #0d1117 0%, #060810 100%)')
+    .style('cursor','grab');
+  const defs=svg.append('defs');
+
+  // Starfield
+  for(let si=0;si<250;si++){
+    const sx=(si*137.508)%width, sy=(si*97.31)%height;
+    const sr=((si*73.1)%1)*1.1+0.2, so=((si*53.7)%1)*0.4+0.06;
+    svg.append('circle').attr('cx',sx).attr('cy',sy).attr('r',sr)
+      .attr('fill',si%7===0?`rgba(180,210,255,${so})`:`rgba(255,255,255,${so})`)
+      .style('pointer-events','none');
+  }
+
+  // Sphere gradients for depth-1 nodes (ministries/agencies within each country)
+  allNodes.filter(d=>d.depth===1).forEach(d=>{
+    const cc=d._country;
+    const pal=palettes[cc]||palettes.de;
+    const i=d.parent?d.parent.children.indexOf(d):0;
+    const col=pal[i%pal.length];
+    const c=d3.color(col);
+    if(!c) return;
+    const gid=`mvsph-${cc}-${i}`;
+    d._gradId=gid;
+    const grad=defs.append('radialGradient').attr('id',gid).attr('cx','35%').attr('cy','30%').attr('r','65%');
+    grad.append('stop').attr('offset','0%').attr('stop-color',c.brighter(1.2).toString());
+    grad.append('stop').attr('offset','55%').attr('stop-color',col);
+    grad.append('stop').attr('offset','100%').attr('stop-color',c.darker(1.5).toString());
+  });
+
+  function getMvColor(d){
+    const cc=d._country||'de';
+    const pal=palettes[cc];
+    let anc=d;while(anc&&anc.depth>1&&anc.parent) anc=anc.parent;
+    const i=anc&&anc.parent?anc.parent.children.indexOf(anc):0;
+    return pal[i%pal.length];
+  }
+  function getMvChildColor(d){
+    const base=getMvColor(d);const col=d3.color(base);
+    if(!col) return base;
+    return col.darker(0.2+(d.parent?d.parent.children.indexOf(d):0)%5*0.15).toString();
+  }
+
+  // Semantic zoom state
+  let view=[cx, cy, maxExtent*2.05];
+  let mvFocusNode=mvRoot;
+
+  function screenX(d){return(d.x-view[0])*width/view[2]+width/2}
+  function screenY(d){return(d.y-view[1])*width/view[2]+height/2}
+  function screenR(d){return d.r*width/view[2]}
+
+  // Circles
+  const circles=svg.selectAll('circle.mvnode')
+    .data(allNodes).join('circle').attr('class','mvnode')
+    .style('cursor',d=>d.children?'pointer':'default');
+
+  // Country title texts (rendered in data space, transformed by applyView)
+  const titleData=countryCodes.map(c=>{
+    const pos=positions[c]; const meta=COUNTRY_META[c];
+    const p=packed[c];
+    if(p){
+      const v=rawTrees[c].value; const sym=meta.currency;
+      let fmtVal;
+      if(v>=1e12) fmtVal=sym+(v/1e12).toFixed(1)+'T';
+      else if(v>=1e9) fmtVal=sym+Math.round(v/1e9)+'B';
+      else fmtVal=sym+Math.round(v/1e6)+'M';
+      return{c,x:pos.x,y:pos.y-p.R,label:`${meta.flag} ${meta.name.toUpperCase()}`,amt:fmtVal,R:p.R,hasData:true};
+    } else {
+      // No data for this year
+      const defaultR=baseR*0.2;
+      return{c,x:pos.x,y:pos.y-defaultR,label:`${meta.flag} ${meta.name.toUpperCase()}`,amt:'No data',R:defaultR,hasData:false};
+    }
+  });
+
+  // Apply view: reposition all circles + country titles + labels
+  function applyView(){
+    const k=width/view[2];
+    const focusDepth=mvFocusNode===mvRoot?0:mvFocusNode.depth;
+
+    // Performance: batch attribute updates
+    circles.each(function(d){
+      const sr=d.r*k;
+      const el=d3.select(this);
+      const sx=screenX(d), sy=screenY(d);
+
+      // Cull off-screen
+      if(sx<-sr-50||sx>width+sr+50||sy<-sr-50||sy>height+sr+50||sr<1){
+        el.style('visibility','hidden');
+        return;
+      }
+
+      el.attr('cx',sx).attr('cy',sy).attr('r',Math.max(0,sr));
+
+      // Country root circles (depth 0 in each country) — hide them
+      if(d.depth===0){el.style('visibility','hidden');return}
+      el.style('visibility','visible');
+
+      const depth=d.depth;
+      const baseColor=d.children?getMvChildColor(d):'rgba(255,255,255,0.06)';
+
+      // Depth relative to focus: country roots are depth 0, ministries depth 1
+      if(depth<=focusDepth){
+        el.attr('fill',baseColor).attr('fill-opacity',sr>30?0.08:0.01)
+          .attr('stroke','rgba(255,255,255,0.1)').attr('stroke-width',sr>30?1:0);
+      } else if(depth===focusDepth+1){
+        const gid=d._gradId;
+        const hasGrad=gid&&defs.select('#'+gid).size()>0;
+        el.attr('fill',hasGrad?'url(#'+gid+')':baseColor).attr('fill-opacity',1)
+          .attr('stroke','rgba(255,255,255,0.35)').attr('stroke-width',1.5);
+      } else if(depth===focusDepth+2){
+        el.attr('fill',baseColor).attr('fill-opacity',sr>8?0.7:0.05)
+          .attr('stroke','rgba(255,255,255,0.2)').attr('stroke-width',sr>8?1:0);
+      } else if(depth===focusDepth+3){
+        el.attr('fill',baseColor).attr('fill-opacity',sr>5?0.35:0.05).attr('stroke','none');
+      } else {
+        el.attr('fill-opacity',0.02).attr('stroke','none');
+      }
+    });
+
+    renderMvLabels(k,focusDepth);
+    renderMvTitles(k);
+  }
+
+  // Country titles
+  const titleG=svg.append('g').attr('class','mv-titles').style('pointer-events','none');
+  function renderMvTitles(k){
+    titleG.selectAll('*').remove();
+    titleData.forEach(t=>{
+      const sx=screenX({x:t.x,y:t.y-40/k});
+      const sy=screenY({x:t.x,y:t.y-40/k});
+      const sr=t.R*k;
+      if(sr<20) return;
+      const fontSize=Math.max(12,Math.min(36,t.hasData?sr*0.1:24));
+
+      // Country name
+      titleG.append('text').attr('x',sx).attr('y',sy-fontSize*0.6)
+        .attr('text-anchor','middle')
+        .attr('fill',t.hasData?'#fff':'rgba(255,255,255,.35)')
+        .attr('font-size',fontSize+'px').attr('font-weight','800').attr('letter-spacing','3px')
+        .style('text-shadow','0 3px 15px rgba(0,0,0,.9)')
+        .text(t.label);
+
+      // Amount or "No data"
+      if(t.hasData&&sr>60){
+        titleG.append('text').attr('x',sx).attr('y',sy+fontSize*0.5)
+          .attr('text-anchor','middle').attr('fill','#4fc3f7')
+          .attr('font-size',(fontSize*0.5)+'px').attr('font-weight','600')
+          .text(t.amt);
+      } else if(!t.hasData){
+        titleG.append('text').attr('x',sx).attr('y',sy+fontSize*0.7)
+          .attr('text-anchor','middle').attr('fill','rgba(255,255,255,.25)')
+          .attr('font-size','14px').attr('font-style','italic')
+          .text(`No data for ${multiverseYear}`);
+      }
+
+      // Germany disclaimer
+      if(t.c==='de'&&t.hasData&&sr>50){
+        const noteY=screenY({x:t.x,y:t.y+t.R*2+30/k});
+        const noteFS=Math.max(7,Math.min(11,sr*0.035));
+        titleG.append('text').attr('x',sx).attr('y',noteY)
+          .attr('text-anchor','middle').attr('fill','rgba(255,255,255,.4)')
+          .attr('font-size',noteFS+'px').attr('font-style','italic')
+          .style('text-shadow','0 1px 3px rgba(0,0,0,.7)')
+          .text('Federal budget only (Bundeshaushalt). Total public spending incl. 16 L\u00e4nder + municipalities: ~\u20ac2.1T');
+      }
+    });
+  }
+
+  // Labels
+  const labelSvg=svg.append('g').attr('class','mv-labels').style('pointer-events','none');
+  function wrapText(text,max){
+    const words=text.split(/\s+/);const lines=[];let line='';
+    for(const w of words){
+      if(line.length+w.length+1>max&&line.length>0){lines.push(line);line=w}
+      else{line=line?line+' '+w:w}
+    }
+    if(line)lines.push(line);return lines;
+  }
+  function renderMvLabels(k,focusDepth){
+    labelSvg.selectAll('*').remove();
+    const candidates=[];
+    allNodes.forEach(d=>{
+      if(d.depth===0) return;
+      const sr=d.r*k;
+      const sx=screenX(d), sy=screenY(d);
+      if(sx<-sr||sx>width+sr||sy<-sr||sy>height+sr) return;
+      if(d.depth<=focusDepth) return;
+      if(d.depth===focusDepth+1&&sr<25) return;
+      if(d.depth===focusDepth+2&&sr<35) return;
+      if(d.depth>focusDepth+2&&sr<50) return;
+      candidates.push({d,sr,sx,sy});
+    });
+    candidates.sort((a,b)=>b.sr-a.sr);
+    const placed=[];
+    function overlaps(box){for(const p of placed){if(box.x1<p.x2&&box.x2>p.x1&&box.y1<p.y2&&box.y2>p.y1) return true}return false}
+    candidates.forEach(({d,sr,sx,sy})=>{
+      if(placed.length>=120) return;
+      const cc=d._country;const meta=COUNTRY_META[cc];
+      const name=d.data.name||'';
+      const fontSize=Math.max(8,Math.min(28,sr/3.8));
+      const charsPerLine=Math.max(6,Math.floor(sr*1.8/(fontSize*0.55)));
+      const lines=wrapText(name,charsPerLine);
+      const maxL=Math.max(1,Math.floor(sr*0.7/(fontSize*1.1)));
+      const vis=lines.slice(0,maxL);
+      const sym=meta.currency;const v=d._origValue||d.value;
+      let amtStr;
+      if(Math.abs(v)>=1e12) amtStr=sym+(v/1e12).toFixed(1)+'T';
+      else if(Math.abs(v)>=1e9) amtStr=sym+(v/1e9).toFixed(1)+'B';
+      else if(Math.abs(v)>=1e6) amtStr=sym+(v/1e6).toFixed(0)+'M';
+      else amtStr=sym+Math.round(v).toLocaleString();
+      const amtSize=Math.max(8,fontSize*0.6);
+      const blockH=vis.length*fontSize*1.1+amtSize*1.4;
+      const boxW=Math.max(...vis.map(l=>l.length),amtStr.length)*fontSize*0.55;
+      const box={x1:sx-boxW/2,x2:sx+boxW/2,y1:sy-blockH/2,y2:sy+blockH/2};
+      if(overlaps(box)) return;
+      placed.push(box);
+      const startY=sy-blockH/2+fontSize*0.8;
+      vis.forEach((line,i)=>{
+        labelSvg.append('text').attr('x',sx).attr('y',startY+i*fontSize*1.1)
+          .attr('text-anchor','middle').attr('dominant-baseline','central')
+          .attr('fill','rgba(255,255,255,.9)').attr('font-size',fontSize+'px').attr('font-weight','600')
+          .style('text-shadow','0 1px 4px rgba(0,0,0,.9)').text(line);
+      });
+      if(sr>30){
+        labelSvg.append('text').attr('x',sx).attr('y',startY+vis.length*fontSize*1.1+amtSize*0.3)
+          .attr('text-anchor','middle').attr('dominant-baseline','central')
+          .attr('fill','rgba(79,195,247,.85)').attr('font-size',amtSize+'px').attr('font-weight','600')
+          .style('text-shadow','0 1px 3px rgba(0,0,0,.8)').text(amtStr);
+      }
+    });
+  }
+
+  // Hover + dim
+  circles.filter(d=>d.depth>0)
+    .on('mouseover',function(event,d){
+      const sr=screenR(d);if(sr<5) return;
+      d3.select(this).attr('stroke','rgba(255,255,255,0.8)').attr('stroke-width',2.5);
+      const ancestors=[];let anc=d.parent;while(anc&&anc!==mvRoot){ancestors.push(anc);anc=anc.parent}
+      circles.each(function(n){
+        if(n.depth===0) return;
+        const el=d3.select(this);
+        if(n===d) el.attr('fill-opacity',1);
+        else if(n.parent===d.parent&&n!==d) el.attr('fill-opacity',0.12);
+        else if(ancestors.includes(n)) el.attr('fill-opacity',0.25);
+      });
+      const cc=d._country;const meta=COUNTRY_META[cc];
+      const countryRoot=packed[cc]?.root;
+      const v=d._origValue||d.value;
+      const totalV=countryRoot?countryRoot.value:v;
+      const pctTotal=(d.value/totalV*100).toFixed(1);
+      const pctParent=d.parent&&d.parent.depth>0?(d.value/d.parent.value*100).toFixed(1):'100';
+      const sym=meta.currency;
+      let vStr;
+      if(Math.abs(v)>=1e12) vStr=sym+(v/1e12).toFixed(1)+'T';
+      else if(Math.abs(v)>=1e9) vStr=sym+(v/1e9).toFixed(1)+'B';
+      else if(Math.abs(v)>=1e6) vStr=sym+(v/1e6).toFixed(1)+'M';
+      else vStr=sym+Math.round(v).toLocaleString();
+      let html=`<div class="tt-name">${esc(d.data.name)}</div><div class="tt-amount">${vStr}</div>`;
+      html+=`<div class="tt-pct">${pctTotal}% of ${meta.name}`;
+      if(d.parent&&d.parent.depth>0) html+=` &middot; ${pctParent}% of parent`;
+      html+='</div>';
+      if(d.children) html+=`<div class="tt-children">${d.children.length} sub-items</div>`;
+      tooltip.innerHTML=html;tooltip.style.display='block';
+    })
+    .on('mousemove',event=>{tooltip.style.left=(event.clientX+14)+'px';tooltip.style.top=(event.clientY-10)+'px'})
+    .on('mouseout',function(){
+      d3.select(this).attr('stroke','').attr('stroke-width','');
+      applyView();tooltip.style.display='none';
+    })
+    .on('click',function(event,d){
+      if(isDrag) return;event.stopPropagation();
+      if(d.children) zoomToNode(d);
+      openMvInfo(d);
+    });
+
+  // Zoom to node
+  function zoomToNode(d){
+    mvFocusNode=d;
+    const target=[d.x,d.y,d.r*2.05];
+    const startView=[...view];
+    svg.transition().duration(800).tween('zoom',()=>{
+      const i=d3.interpolateZoom(startView,target);
+      return t=>{const v=i(t);view[0]=v[0];view[1]=v[1];view[2]=v[2];applyView()};
+    });
+  }
+
+  // Double-click zoom out
+  svg.on('dblclick',function(event){
+    event.preventDefault();
+    if(mvFocusNode===mvRoot) return;
+    zoomToNode(mvFocusNode.parent||mvRoot);
+  });
+
+  // Scroll zoom
+  let isDrag=false;
+  svg.on('wheel',function(event){
+    event.preventDefault();
+    const factor=event.deltaY>0?1.15:0.87;
+    const newDiam=Math.max(10,Math.min(maxExtent*5,view[2]*factor));
+    const rect=container.getBoundingClientRect();
+    const mx=event.clientX-rect.left, my=event.clientY-rect.top;
+    const dataX=view[0]+(mx-width/2)*view[2]/width;
+    const dataY=view[1]+(my-height/2)*view[2]/width;
+    view[0]=dataX-(mx-width/2)*newDiam/width;
+    view[1]=dataY-(my-height/2)*newDiam/width;
+    view[2]=newDiam;
+    let best=mvRoot;
+    allNodes.forEach(d=>{
+      if(!d.children||d.depth===0) return;
+      const sr=screenR(d),sx=screenX(d),sy=screenY(d);
+      if(sr>width*0.4&&Math.abs(sx-width/2)<sr*0.5&&Math.abs(sy-height/2)<sr*0.5){
+        if(d.depth>best.depth) best=d;
+      }
+    });
+    mvFocusNode=best;
+    applyView();
+  },{passive:false});
+
+  // Drag pan
+  let dragStart=null;
+  svg.on('mousedown',function(event){isDrag=false;dragStart={x:event.clientX,y:event.clientY,v:[...view]};svg.style('cursor','grabbing')});
+  svg.on('mousemove',function(event){
+    if(!dragStart) return;
+    const dx=event.clientX-dragStart.x, dy=event.clientY-dragStart.y;
+    if(Math.abs(dx)+Math.abs(dy)>3) isDrag=true;
+    view[0]=dragStart.v[0]-dx*view[2]/width;
+    view[1]=dragStart.v[1]-dy*view[2]/width;
+    applyView();
+  });
+  svg.on('mouseup',function(){dragStart=null;svg.style('cursor','grab')});
+  svg.on('mouseleave',function(){dragStart=null;svg.style('cursor','grab')});
+
+  applyView();
+
+  const hintDiv=document.createElement('div');
+  hintDiv.style.cssText='position:absolute;bottom:16px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--dim);z-index:10;pointer-events:none;text-shadow:0 1px 4px rgba(0,0,0,.8);transition:opacity 1s';
+  hintDiv.textContent='Scroll to zoom \u00b7 Drag to pan \u00b7 Click to drill down \u00b7 Double-click to zoom out';
+  container.appendChild(hintDiv);
+  setTimeout(()=>{hintDiv.style.opacity='0'},5000);
+
+
+
+  multiverseLoaded=true;
+}
+
 async function loadGalaxy(){
   // Don't re-render if Galaxy already exists — preserve zoom state
   if(galaxyData&&document.getElementById('galaxy-svg')) return;
   if(galaxyData){renderGalaxy();return}
-  showLoading('galaxy-container');
   try{
-    const res=await fetch(`${API}/budget/tree?year=${galaxyYear}`);
+    const url=currentCountry==='de'?`${API}/budget/tree?year=${galaxyYear}`:`${API}/budget/country/${currentCountry}`;
+    const res=await fetch(url);
     galaxyData=await res.json();
     renderGalaxy();
   }catch(e){
@@ -4500,8 +5490,8 @@ function openGalaxyInfo(node){
     <div class="gi-pct">${pctOfParent}% ${galaxyLang==='de'?'des Übergeordneten':'of parent'} · ${pctOfTotal}% ${galaxyLang==='de'?'des Gesamthaushalts':'of total budget'}</div>
     <div class="gi-desc">${esc(desc)}</div>`;
 
-  // Mini spending type bar
-  if(analysis.spendingTypes.length>1){
+  // Mini spending type bar (only for Germany — other countries don't have Titel-based classification)
+  if(currentCountry==='de'&&analysis.spendingTypes.length>1){
     html+=`<div style="margin:10px 0">
       <div style="display:flex;height:8px;border-radius:4px;overflow:hidden">`;
     analysis.spendingTypes.forEach(s=>{
@@ -4516,6 +5506,47 @@ function openGalaxyInfo(node){
   // Enriched data (if available)
   const enrichHtml=renderEnrichment(node);
   if(enrichHtml) html+=enrichHtml;
+
+  // For non-German countries, show MV_ENRICHMENT data
+  if(currentCountry!=='de'){
+    const mvEnr=(MV_ENRICHMENT[currentCountry]||{})[node.data.name];
+    if(mvEnr){
+      html+=`<div style="margin:10px 0;padding:10px;background:rgba(79,195,247,.06);border-radius:6px;border:1px solid rgba(79,195,247,.15)">`;
+      html+=`<div style="font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Key Figures</div>`;
+      html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:8px">${esc(mvEnr.keyFigures)}</div>`;
+      html+=`<div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">What it pays for</div>`;
+      html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:8px">${esc(mvEnr.desc)}</div>`;
+      html+=`<div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">Notable</div>`;
+      html+=`<div style="font-size:11px;color:rgba(255,255,255,.7);line-height:1.6;font-style:italic">${esc(mvEnr.fact)}</div>`;
+      html+=`</div>`;
+    }
+  }
+
+  // Programme-level enrichment for non-German countries (individual galaxy)
+  if(currentCountry!=='de'){
+    const progE=(PROGRAM_ENRICHMENT[currentCountry]||{})[node.data.name];
+    if(progE&&!(MV_ENRICHMENT[currentCountry]||{})[node.data.name]){
+      html+=`<div style="margin:10px 0;padding:10px;background:rgba(255,255,255,.04);border-radius:6px;border:1px solid var(--border)">`;
+      if(progE.y) html+=`<div style="font-size:9px;color:var(--dim);margin-bottom:4px">Est. ${progE.y}</div>`;
+      html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px">${esc(progE.d)}</div>`;
+      if(progE.b&&progE.b!=='not applicable') html+=`<div style="font-size:10px;color:var(--accent);line-height:1.5">${esc(progE.b)}</div>`;
+      html+=`</div>`;
+    }
+  }
+
+  // Spending type bar for US agencies (individual galaxy)
+  if(currentCountry==='us'){
+    const spT=US_SPENDING_TYPES[node.data.name];
+    if(spT){
+      const spTot=Object.values(spT).reduce((s,v)=>s+v,0);
+      html+=`<div style="margin:10px 0"><div style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Spending Type</div>`;
+      html+=`<div style="display:flex;height:10px;border-radius:4px;overflow:hidden;margin-bottom:6px">`;
+      Object.entries(spT).forEach(([k,v])=>{const p=v/spTot*100;if(p<1) return;html+=`<div style="width:${p}%;background:${SPEND_TYPE_COLORS[k]||'#546e7a'}" title="${SPEND_TYPE_LABELS[k]||k}: ${p.toFixed(0)}%"></div>`});
+      html+=`</div><div style="display:flex;flex-wrap:wrap;gap:5px">`;
+      Object.entries(spT).forEach(([k,v])=>{const p=v/spTot*100;if(p<2) return;html+=`<span style="font-size:9px;color:var(--dim);display:flex;align-items:center;gap:3px"><span style="width:6px;height:6px;border-radius:50%;background:${SPEND_TYPE_COLORS[k]||'#546e7a'}"></span>${SPEND_TYPE_LABELS[k]||k} ${p.toFixed(0)}%</span>`});
+      html+=`</div></div>`;
+    }
+  }
 
   // Top children as mini bar list
   if(nChildren>0){
@@ -4569,7 +5600,9 @@ let blYear=2024;
 function showBudgetYearPicker(){
   const container=document.getElementById('bl-container');
   if(!container) return;
-  const years=[2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015];
+  const meta=COUNTRY_META[currentCountry]||{};
+  const deYears=[2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015];
+  const years=currentCountry==='de'?deYears:[meta.defaultYear||2024];
   let html=`<div style="max-width:800px;margin:40px auto;text-align:center">
     <h2 style="font-size:24px;color:var(--text);margin-bottom:8px">Budget Explorer</h2>
     <p style="font-size:13px;color:var(--dim);margin-bottom:32px">Select a year to explore the German federal budget</p>
@@ -4589,7 +5622,8 @@ async function loadBudgetYear(year){
   blYear=year;
   blRoot=null;
   try{
-    const res=await fetch(`${API}/budget/tree?year=${year}`);
+    const url=currentCountry==='de'?`${API}/budget/tree?year=${year}`:`${API}/budget/country/${currentCountry}`;
+    const res=await fetch(url);
     const data=await res.json();
     blRoot=d3.hierarchy(data).sum(d=>d.children?0:d.value).sort((a,b)=>b.value-a.value);
     renderBudgetList(blRoot);
@@ -4680,8 +5714,8 @@ function renderBudgetList(node){
     <div style="font-size:13px;color:var(--dim);line-height:1.6;margin-top:10px;padding:12px 14px;background:rgba(255,255,255,.03);border-radius:8px;border-left:3px solid var(--accent)">${esc(nodeDesc)}</div>
   </div>`;
 
-  // Spending type breakdown (only for nodes with leaves)
-  if(analysis&&analysis.spendingTypes.length>1){
+  // Spending type breakdown (only for Germany — other countries don't have Titel-based classification)
+  if(currentCountry==='de'&&analysis&&analysis.spendingTypes.length>1){
     const de=galaxyLang==='de';
     const spMax=analysis.spendingTypes[0]?.value||1;
     html+=`<div style="margin:0 0 20px;padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:10px">`;

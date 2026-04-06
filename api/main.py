@@ -1,28 +1,20 @@
 import json
 from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
-from api.routers import funding, gaps, map_data, fraud
-from db.models import init_db
-
 DATA_DIR = Path(__file__).parent.parent / "data"
 
 app = FastAPI(
-    title="Germany NGO Funding Map",
-    description="API for exploring German public funding flows to NGOs",
-    version="0.1.0",
+    title="Budget Galaxy",
+    description="Multi-country budget visualization API",
+    version="2.0.0",
 )
 
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
-
-app.include_router(funding.router)
-app.include_router(gaps.router)
-app.include_router(map_data.router)
-app.include_router(fraud.router)
 
 STATIC_DIR = Path(__file__).parent.parent / "frontend"
 
@@ -32,66 +24,109 @@ def serve_app():
     return FileResponse(STATIC_DIR / "index.html")
 
 
-@app.on_event("startup")
-def startup():
-    init_db()
-
-
-@app.get("/health")
-def health():
-    from sqlalchemy import text
-    from db.models import SessionLocal
-    db = SessionLocal()
-    try:
-        total = db.execute(text("SELECT COUNT(*) FROM ngo_funding")).scalar()
-        sources = db.execute(text("SELECT COUNT(DISTINCT source) FROM ngo_funding")).scalar()
-        return {
-            "status": "ok",
-            "total_records": total,
-            "sources": sources,
-            "db_version": "1.0",
-            "last_updated": "2026-03-30",
-        }
-    finally:
-        db.close()
-
-
-@app.get("/budget/tree")
-def budget_tree():
-    """Complete Bundeshaushalt hierarchy: Einzelplan > Kapitel > Titel"""
-    tree_path = DATA_DIR / "bundeshaushalt_tree_2024.json"
-    if not tree_path.exists():
-        return {"error": "Budget tree not available"}
-    with open(tree_path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-@app.get("/changelog")
-def changelog():
-    return {
-        "version": "1.0",
-        "entries": [
-            {
-                "date": "2026-03-30",
-                "version": "1.0",
-                "type": "initial_release",
-                "description": "Initial dataset release: 528,926 records from 14 sources",
-            },
-            {
-                "date": "2026-03-30",
-                "version": "1.0.1",
-                "type": "correction",
-                "description": "India total corrected from 6.9B (USD) to 6.1B (EUR). Cross-referenced orgs updated from 15 to 31.",
-            },
-        ],
-    }
-
-
 @app.get("/", response_class=FileResponse)
 def serve_landing():
     return FileResponse(STATIC_DIR / "index.html")
 
 
+@app.get("/health")
+def health():
+    return {"status": "ok", "version": "2.0.0"}
+
+
+# ── German budget endpoints ──────────────────────────
+
+@app.get("/budget/tree")
+def budget_tree(year: int = Query(2025)):
+    """German Bundeshaushalt hierarchy for a given year."""
+    tree_path = DATA_DIR / f"bundeshaushalt_tree_{year}.json"
+    if not tree_path.exists():
+        return JSONResponse({"error": f"No German budget data for {year}"}, status_code=404)
+    with open(tree_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/budget/years")
+def budget_years():
+    """List available years for German budget."""
+    years = sorted(
+        int(p.stem.split("_")[-1])
+        for p in DATA_DIR.glob("bundeshaushalt_tree_*.json")
+        if p.stem.split("_")[-1].isdigit()
+    )
+    return years
+
+
+@app.get("/budget/history")
+def budget_history():
+    path = DATA_DIR / "budget_history.json"
+    if not path.exists():
+        return JSONResponse({"error": "History not available"}, status_code=404)
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/budget/history/kategorien")
+def budget_history_kategorien():
+    path = DATA_DIR / "budget_history_kategorien.json"
+    if not path.exists():
+        return JSONResponse({"error": "Not available"}, status_code=404)
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/budget/history/kapitel")
+def budget_history_kapitel():
+    path = DATA_DIR / "budget_history_kapitel.json"
+    if not path.exists():
+        return JSONResponse({"error": "Not available"}, status_code=404)
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+# ── Multi-country endpoint ───────────────────────────
+
+@app.get("/budget/country/{country_id}")
+def budget_country(country_id: str, year: int = Query(None)):
+    """Serve budget tree for US, FR, UK, etc. Optional ?year=YYYY."""
+    country_id = country_id.lower()
+    country_dir = DATA_DIR / country_id
+    if not country_dir.exists():
+        return JSONResponse({"error": f"No data for country '{country_id}'"}, status_code=404)
+
+    if year:
+        tree_path = country_dir / f"{country_id}_budget_tree_{year}.json"
+        if not tree_path.exists():
+            return JSONResponse({"error": f"No {country_id.upper()} data for {year}"}, status_code=404)
+    else:
+        trees = sorted(country_dir.glob(f"{country_id}_budget_tree_*.json"))
+        if not trees:
+            return JSONResponse({"error": f"No budget tree for '{country_id}'"}, status_code=404)
+        tree_path = trees[-1]
+
+    with open(tree_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/budget/country/{country_id}/years")
+def budget_country_years(country_id: str):
+    """List available years for a country."""
+    country_id = country_id.lower()
+    country_dir = DATA_DIR / country_id
+    if not country_dir.exists():
+        return []
+    years = sorted(
+        int(p.stem.split("_")[-1])
+        for p in country_dir.glob(f"{country_id}_budget_tree_*.json")
+        if p.stem.split("_")[-1].isdigit()
+    )
+    return years
+
+
+# Serve static frontend files (images, CSS, etc.)
+app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="frontend")
+
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api.main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("api.main:app", host="0.0.0.0", port=8088, reload=True)
