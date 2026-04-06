@@ -56,7 +56,7 @@ Zoomable circle-packing visualization where each ministry is a sphere containing
 Navigate the budget hierarchy with a breadcrumb trail. Each level shows breakdowns with percentages, spending type analysis (personnel vs. transfers vs. investments), and enriched context — beneficiary counts, international comparisons, legal basis.
 
 ### Budget Evolution
-10 years of budget data (2015–2024) in a customizable chart. Compare categories or individual ministries. Toggle between absolute EUR and % of total. Annotated with key events: COVID-19, Zeitenwende, energy crisis.
+11 years of budget data (2015–2025) in a customizable chart. Compare categories or individual ministries. Toggle between absolute EUR and % of total. Annotated with key events: COVID-19, Zeitenwende, energy crisis.
 
 ### Enriched Data
 75 budget nodes enriched with real-world context from official sources:
@@ -85,14 +85,16 @@ Frontend (Single-page HTML)         Backend (FastAPI)
 
 ## Data Sources
 
-| Source | Records | Description |
-|--------|---------|-------------|
-| Bundeshaushalt.de | 4,388 | Official federal budget tree (EPL → KAP → Titel) |
-| Historical CSVs | 63,557 | Annual budgets 2015-2024 (10 years) |
-| OECD CRS | 40,000+ | Development cooperation flows |
-| IATI | 130,000+ | International aid transparency |
-| DIP Bundestag | 10,338 | Parliamentary questions (Anfragen) |
-| Enrichment Data | 75 nodes | Curated from DRV, BA, OECD, NATO, Destatis |
+| Source | Data | Description |
+|--------|------|-------------|
+| [bundeshaushalt.de](https://www.bundeshaushalt.de) | 11 annual CSVs | Official federal budget 2015–2025 (EPL → KAP → Titel) |
+| [deutsche-rentenversicherung.de](https://www.deutsche-rentenversicherung.de) | Pension stats | 21.8M pensioners, avg. pension, contribution rates |
+| [statistik.arbeitsagentur.de](https://statistik.arbeitsagentur.de) | Employment stats | Bürgergeld recipients, jobcenters, integration rates |
+| [data.oecd.org](https://data.oecd.org) | Intl. comparisons | Social expenditure, health, education, defence benchmarks |
+| [nato.int](https://www.nato.int) | Defence data | NATO spending targets, member country comparisons |
+| [destatis.de](https://www.destatis.de) | Official statistics | Demographics, BAföG, housing, recycling rates |
+| [gkv-spitzenverband.de](https://www.gkv-spitzenverband.de) | Health insurance | 74.3M insured, contribution rates, fund expenditure |
+| Enrichment Data | 75 nodes | Curated context from all sources above |
 
 ## Tech Stack
 
