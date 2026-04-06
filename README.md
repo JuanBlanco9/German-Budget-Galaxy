@@ -53,6 +53,13 @@ Every sphere represents real public money. The size is proportional to the amoun
 
 ## Features
 
+### Multiverse
+All four countries in one comparable canvas, normalized to USD. See at a glance how Germany's defense budget compares to France's education spending.
+
+<p align="center">
+  <img src="images/Multiverse.jpg" alt="Multiverse" width="800"/>
+</p>
+
 ### Budget Galaxy
 Zoomable circle-packing visualization. Each ministry is a sphere containing its departments and budget items. Click any sphere to zoom in. Scroll to zoom. Drag to pan. Side panel with enriched descriptions, beneficiary data, and spending breakdowns.
 
@@ -62,13 +69,6 @@ Zoomable circle-packing visualization. Each ministry is a sphere containing its 
 
 <p align="center">
   <img src="images/Budget Galaxy Zoom.jpg" alt="Budget Galaxy Zoom" width="800"/>
-</p>
-
-### Multiverse
-All four countries in one comparable canvas, normalized to USD. See at a glance how Germany's defense budget compares to France's education spending.
-
-<p align="center">
-  <img src="images/Multiverse.jpg" alt="Multiverse" width="800"/>
 </p>
 
 ### Budget Explorer
