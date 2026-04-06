@@ -5,6 +5,23 @@ __pycache__/
 venv/
 .env
 
+# NGO module (separate project)
+api/routers/fraud.py
+api/routers/funding.py
+api/routers/gaps.py
+api/routers/map_data.py
+api/schemas.py
+db/
+scrapers/
+scripts/tracker_final.py
+scripts/process_anfragen_local.py
+data/berlin_zdb_full.csv
+data/eu_fts/
+data/jahresberichte/
+data/verification_log.json
+INFORME_TECNICO*.md
+config.py
+
 # Data (large files)
 data/eu_fts/
 data/jahresberichte/

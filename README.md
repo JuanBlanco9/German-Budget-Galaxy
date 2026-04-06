@@ -22,7 +22,7 @@
 
 ## Overview
 
-**German Budget Galaxy** transforms the German federal budget into an explorable universe. Navigate **EUR 476.8 billion** across 25 ministries, 216 departments, and 4,388 individual budget items through an interactive circle-packing visualization, detailed dashboards, and 10-year historical analysis.
+**German Budget Galaxy** transforms the German federal budget into an explorable universe. Navigate **11 years of budget data (2015–2025)** — from EUR 299B to EUR 502B — across 25 ministries, 216 departments, and 4,388 individual budget items. Switch between any year to see how the budget evolved through the Eurozone crisis, COVID-19, the Zeitenwende, and the energy crisis.
 
 Every sphere represents a real budget allocation. The size is proportional to the amount. Click to explore. Zoom to see details. Every euro is traceable to an official line item in the Bundeshaushalt.
 
