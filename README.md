@@ -1,6 +1,13 @@
 <p align="center">
   <h1 align="center">German Budget Galaxy</h1>
-  <p align="center">Interactive visualization of the entire German federal budget (Bundeshaushalt 2024)</p>
+</p>
+
+<p align="center">
+  <img src="images/gbg_banner_final.jpg" alt="German Budget Galaxy" width="900"/>
+</p>
+
+<p align="center">
+  <i>Interactive visualization of the entire German federal budget (Bundeshaushalt 2024)</i>
 </p>
 
 <p align="center">
