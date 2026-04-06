@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="images/gbg_banner_final.jpg" alt="Budget Galaxy" width="900"/>
+  <img src="images/gbg_banner_budget_galaxy.jpg" alt="Budget Galaxy" width="900"/>
 </p>
 
 <p align="center">
