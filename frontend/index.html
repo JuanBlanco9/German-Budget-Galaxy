@@ -579,64 +579,68 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 </div>
 
 <!-- ── LANDING PAGE ─────────────────────────────── -->
-<div id="landing-page" class="hidden">
+<div id="landing-page">
   <div class="lp-container">
-    <div class="lp-title" style="font-size:22px;margin-bottom:4px">GERMANY NGO FUNDING MAP</div>
-    <div class="lp-tagline" style="max-width:600px;margin:0 auto 12px;line-height:1.5;font-size:12px;color:var(--dim)">Public data is not the same as accessible data. This dataset assembled what was always public &mdash; scattered across 13 official sources &mdash; into a form that makes oversight possible without institutional resources.</div>
+    <div class="lp-title" style="font-size:26px;margin-bottom:4px">GERMAN BUDGET GALAXY</div>
+    <div class="lp-tagline" style="max-width:600px;margin:0 auto 16px;line-height:1.6;font-size:13px;color:var(--dim)">The German federal budget is public. But public is not the same as accessible. This tool makes &euro;477 billion explorable &mdash; every ministry, every department, every euro.</div>
 
     <div class="lp-numbers">
       <div class="lp-num-item">
-        <div class="lp-num-val accent" data-target="1700000000000" data-prefix="&euro;" data-format="trillions">&#8364;0</div>
-        <div class="lp-num-sub">channeled via NGOs since 2018</div>
+        <div class="lp-num-val accent" data-target="477" data-prefix="&euro;" data-suffix="B" data-format="integer">&#8364;0</div>
+        <div class="lp-num-sub">billion &mdash; federal budget 2024</div>
       </div>
       <div class="lp-num-item">
-        <div class="lp-num-val accent2" data-target="92" data-suffix="%" data-format="pct">0%</div>
-        <div class="lp-num-sub">cannot be traced to a named org</div>
+        <div class="lp-num-val accent2" data-target="25" data-suffix="" data-format="integer">0</div>
+        <div class="lp-num-sub">ministries visualized</div>
       </div>
       <div class="lp-num-item">
-        <div class="lp-num-val green" data-target="528000" data-suffix="+" data-format="thousands">0+</div>
-        <div class="lp-num-sub">records from 14 official sources</div>
+        <div class="lp-num-val green" data-target="11" data-suffix=" years" data-format="integer">0</div>
+        <div class="lp-num-sub">of budget data (2015&ndash;2025)</div>
       </div>
     </div>
 
     <div class="lp-quote">
-      &ldquo;The EU publishes the name and address of every beneficiary.
-      Germany reports the same money as &lsquo;NGO (India)&rsquo;.&rdquo;
+      &ldquo;A budget is not just numbers &mdash; it is the clearest expression of a nation&rsquo;s priorities.&rdquo;
     </div>
 
     <div class="lp-cards">
-      <div class="lp-card red" onclick="lpGoToTab('demokratie')">
-        <h4>&euro;881M invisible</h4>
-        <p>Demokratie leben! funds 650+ orgs, zero in federal budget data</p>
-        <span class="lp-card-link">&rarr; Demokratie leben! tab</span>
+      <div class="lp-card" style="border-left:3px solid #2d6a4f" onclick="lpGoToTab('galaxy')">
+        <h4>&euro;175.7B &mdash; Labour & Social</h4>
+        <p>One ministry spends 37% of the entire federal budget</p>
+        <span class="lp-card-link">&rarr; Budget Galaxy</span>
       </div>
-      <div class="lp-card orange" onclick="lpGoToTab('explorer')">
-        <h4>&euro;2.7B to political foundations</h4>
-        <p>6 foundations, 99.9% publicly funded</p>
-        <span class="lp-card-link">&rarr; NGO Explorer tab</span>
+      <div class="lp-card" style="border-left:3px solid #c1121f" onclick="lpGoToTab('galaxy')">
+        <h4>Defence: +67% since 2015</h4>
+        <p>The Zeitenwende in one number</p>
+        <span class="lp-card-link">&rarr; Budget Galaxy</span>
       </div>
-      <div class="lp-card blue" onclick="lpGoToTab('explorer')">
-        <h4>dm-drogerie markt: &euro;140M via BMZ</h4>
-        <p>A pharmacy chain in development aid</p>
-        <span class="lp-card-link">&rarr; NGO Explorer tab</span>
+      <div class="lp-card" style="border-left:3px solid #6b705c" onclick="lpGoToTab('evolution')">
+        <h4>&euro;4B &rarr; &euro;37.5B interest</h4>
+        <p>Federal debt costs exploded after the ECB rate pivot</p>
+        <span class="lp-card-link">&rarr; Budget Evolution</span>
       </div>
-      <div class="lp-card green" onclick="lpGoToTab('search')">
-        <h4>CORRECTIV: 93.7% publicly funded</h4>
-        <p>Journalism funded almost entirely by state</p>
-        <span class="lp-card-link">&rarr; Search tab</span>
+      <div class="lp-card" style="border-left:3px solid #1d3461" onclick="lpGoToTab('budgetlist')">
+        <h4>4,388 budget items</h4>
+        <p>Drill down to the last euro with enriched context</p>
+        <span class="lp-card-link">&rarr; Budget Explorer</span>
       </div>
-      <div class="lp-card purple" onclick="lpGoToTab('transparency')">
-        <h4>31 organizations</h4>
-        <p>in both EU &amp; German systems &mdash; different transparency levels</p>
-        <span class="lp-card-link">&rarr; EU vs Germany tab</span>
+      <div class="lp-card" style="border-left:3px solid #2d6a4f" onclick="lpGoToTab('galaxy')">
+        <h4>&euro;127.3B &mdash; one line item</h4>
+        <p>Pension subsidies alone exceed the budgets of 20 ministries combined</p>
+        <span class="lp-card-link">&rarr; Budget Galaxy</span>
+      </div>
+      <div class="lp-card" style="border-left:3px solid #4a4e69" onclick="lpGoToTab('evolution')">
+        <h4>Soziales: +53% in 10 years</h4>
+        <p>&euro;146B (2015) &rarr; &euro;224B (2025) &mdash; the largest absolute growth</p>
+        <span class="lp-card-link">&rarr; Budget Evolution</span>
       </div>
     </div>
 
-    <button class="lp-explore-btn" onclick="lpExplore()">Explore the data &rarr;</button>
+    <button class="lp-explore-btn" onclick="lpExplore()">Explore the budget &rarr;</button>
 
     <div class="lp-footer">
-      Published under CC BY-SA 4.0 &middot; 14 sources verified &middot; Methodology documented<br>
-      Dataset version 1.0 &middot; Contact: pookie.data@proton.me
+      MIT License &middot; Open Source &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a><br>
+      Data: <a href="https://www.bundeshaushalt.de" target="_blank" style="color:var(--accent)">bundeshaushalt.de</a> &middot; Juan Blanco
     </div>
   </div>
 </div>
@@ -1254,6 +1258,7 @@ const REGION_COLORS={'Africa':'#ff7043','Asia':'#4fc3f7','Europe':'#66bb6a','Ame
   const gate=document.getElementById('terms-gate');
   const mainApp=document.getElementById('main-app');
   const landingPage=document.getElementById('landing-page');
+  if(!mainApp||!landingPage) return;
   const scrollBox=document.getElementById('tg-scroll-box');
   const scrollHint=document.getElementById('tg-scroll-hint');
   const checkboxes=document.getElementById('tg-checkboxes');
@@ -1263,15 +1268,19 @@ const REGION_COLORS={'Africa':'#ff7043','Asia':'#4fc3f7','Europe':'#66bb6a','Ame
 
   // Check if URL has direct-link params — skip landing if so
   const urlParams=new URLSearchParams(window.location.search);
-  const hasDirectLink=urlParams.has('tab')||urlParams.has('org');
+  const hasDirectLink=urlParams.has('tab')||urlParams.has('node')||urlParams.has('view');
 
-  // Skip landing page and T&C gate — go straight to app
-  {
-    gate.classList.add('hidden');
+  // Show landing page (no T&C gate needed for budget project)
+  if(gate) gate.classList.add('hidden');
+  if(hasDirectLink){
+    landingPage.classList.add('hidden');
     mainApp.style.display='';
     setTimeout(function(){ init(); processUrlParams(); },0);
+  } else {
+    landingPage.classList.remove('hidden');
+    setTimeout(lpAnimateNumbers,200);
   }
-  if(false){ // kept for future use
+  if(false){ // old T&C code kept for reference
     return;
   }
 
