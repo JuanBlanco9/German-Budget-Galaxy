@@ -27,7 +27,7 @@ Every sphere represents a real budget allocation. The size is proportional to th
 
 ### Budget Galaxy
 <p align="center">
-  <img src="images/Budget Galaxy 1.jpg" alt="Budget Galaxy" width="800"/>
+  <img src="images/Budget Galaxy 2.jpg" alt="Budget Galaxy" width="800"/>
 </p>
 
 ### Budget Explorer
