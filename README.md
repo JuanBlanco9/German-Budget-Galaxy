@@ -1,8 +1,16 @@
-# Budget Galaxy
+<h1 align="center">Budget Galaxy</h1>
 
-> Explore how nations spend. Every ministry, every department, every dollar, euro and pound — visualized.
+<p align="center">
+  <i>Explore how nations spend. Every ministry, every department, every dollar, euro and pound — visualized.</i>
+</p>
 
-**[budgetgalaxy.com](https://budgetgalaxy.com)** · [GitHub](https://github.com/JuanBlanco9/Budget-Galaxy) · MIT License · Open Source
+<p align="center">
+  <a href="https://budgetgalaxy.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE-budgetgalaxy.com-4fc3f7?style=for-the-badge" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/JuanBlanco9/Budget-Galaxy">GitHub</a> · MIT License · Open Source
+</p>
 
 <p align="center">
   <img src="images/gbg_banner_budget_galaxy.jpg" alt="Budget Galaxy" width="900"/>
