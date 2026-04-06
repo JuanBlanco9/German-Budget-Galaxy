@@ -123,6 +123,50 @@ def budget_country_years(country_id: str):
     return years
 
 
+@app.get("/budget/country/{country_id}/history")
+def budget_country_history(country_id: str):
+    """Generate historical data from tree files for any country.
+    Returns {id: {name, history: [{year, value}]}} for top-level children."""
+    country_id = country_id.lower()
+    country_dir = DATA_DIR / country_id
+    if not country_dir.exists():
+        return JSONResponse({"error": f"No data for country '{country_id}'"}, status_code=404)
+
+    trees = sorted(country_dir.glob(f"{country_id}_budget_tree_*.json"))
+    if not trees:
+        return JSONResponse({"error": f"No trees for '{country_id}'"}, status_code=404)
+
+    # Build history from tree files — group by name (more stable than id across years)
+    result = {}
+    for tree_path in trees:
+        year_str = tree_path.stem.split("_")[-1]
+        if not year_str.isdigit():
+            continue
+        year = int(year_str)
+
+        with open(tree_path, "r", encoding="utf-8") as f:
+            tree = json.load(f)
+
+        for child in tree.get("children", []):
+            name = child.get("name", "")
+            value = child.get("value", 0)
+            if not name:
+                continue
+
+            if name not in result:
+                result[name] = {"name": name, "history": []}
+            # Dedupe: only one entry per year per name
+            existing_years = {h["year"] for h in result[name]["history"]}
+            if year not in existing_years:
+                result[name]["history"].append({"year": year, "value": value})
+
+    # Sort each history by year
+    for v in result.values():
+        v["history"].sort(key=lambda h: h["year"])
+
+    return result
+
+
 # Serve static frontend files (images, CSS, etc.)
 app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="frontend")
 
