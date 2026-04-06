@@ -54,7 +54,7 @@ Every sphere represents real public money. The size is proportional to the amoun
 ## Features
 
 ### Multiverse
-All four countries in one comparable canvas, normalized to USD. See at a glance how Germany's defense budget compares to France's education spending.
+All four countries in one comparable canvas. Sphere sizes are proportional across countries so you can see at a glance how Germany's defense budget compares to France's education spending.
 
 <p align="center">
   <img src="images/Multiverse.jpg" alt="Multiverse" width="800"/>
