@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Data (large files)
+data/eu_fts/
+data/jahresberichte/
+data/dip_pdfs/
+data/anfragen/
+
+# Backups
+frontend/index_backup_*.html
+frontend/index_FINAL_*.html
+frontend/index_SKYLINE_*.html
+frontend/index_skyline_*.html
+frontend/index_BUBBLES_*.html
+frontend/index_WORKING_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
