@@ -40,11 +40,23 @@
 ### Multiverse
 All 4 countries in one zoomable SVG. Proportional sizing normalized to USD. Click any bubble to drill down, compare spending across nations.
 
+<p align="center">
+  <img src="images/Multiverse.jpg" alt="Multiverse" width="800"/>
+</p>
+
 ### Budget Galaxy
 D3.js circle packing with sphere gradients and starfield background. Semantic zoom — click a node to expand its children. Hover for tooltips with amount and percentage. Side panel with enriched descriptions, beneficiary data, and spending breakdowns.
 
+<p align="center">
+  <img src="images/Budget Galaxy 2.jpg" alt="Budget Galaxy" width="800"/>
+</p>
+
 ### Budget Explorer
 Breadcrumb navigation through the full budget hierarchy. Accordion expansion with enrichment data — creation year, description, beneficiaries for 4,035 programmes.
+
+<p align="center">
+  <img src="images/Budget Explorer 1.jpg" alt="Budget Explorer" width="800"/>
+</p>
 
 ### Budget Evolution
 Chart.js multi-year line charts. Germany supports By Category and By Ministry modes. Toggle between absolute values and % of total. Country-specific event annotations (COVID, Zeitenwende, CARES Act, Brexit).
