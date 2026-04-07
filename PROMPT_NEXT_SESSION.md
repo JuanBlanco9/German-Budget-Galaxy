@@ -143,7 +143,28 @@ Approach: un país por sesión. Cada uno requiere:
 Japón es el más impactante: contraste envejecimiento DE vs JP, 47 prefecturas como los Länder.
 Canadá es el más fácil: open data excelente, inglés/francés, federalismo comparable a DE/US.
 
-### 6. Otras mejoras
+### 6. Colores temáticos consistentes cross-country
+Actualmente el color de una esfera depende del ID numérico del ministerio (getGalaxyColor), lo que causa que
+Defence sea verde en un país y violeta en otro. Necesitamos un sistema de colores por TEMA:
+
+| Tema | Color | Aplica a |
+|------|-------|----------|
+| Defence/Military | Rojo oscuro #8B0000 | DE Verteidigung, US DoD, FR Armées, UK MoD |
+| Health | Verde #2d6a4f | DE Gesundheit+GKV, US HHS, FR Santé, UK Health |
+| Education | Azul #1d3461 | DE Bildung+Schulen, US Education, FR Éducation, UK Education |
+| Social/Welfare | Naranja #d35400 | DE BMAS+Rente+Pflege, US SSA+VA, FR Solidarités, UK DWP |
+| Economy/Finance | Dorado #b7950b | DE Wirtschaft+Finanzen, US Treasury, FR Économie, UK HM Treasury |
+| Transport | Cyan #148f77 | DE Verkehr, US DoT, FR Transport, UK DfT |
+| Justice/Interior | Púrpura #6c3483 | DE Innern+Justiz, US DOJ+DHS, FR Intérieur+Justice, UK Home Office |
+| Foreign Affairs | Gris azulado #2c3e50 | DE AA, US State, FR Europe+Affaires, UK FCO |
+| Agriculture | Verde lima #6b705c | DE BMEL, US USDA, FR Agriculture, UK Defra |
+| Environment | Verde esmeralda #1e8449 | DE Umwelt, US EPA, FR Transition, UK Defra |
+
+Implementación: crear un mapping de keywords → color que aplique ANTES del fallback por ID.
+Ej: si el nombre contiene "Defence|Defense|Verteidigung|Armées|Military" → rojo oscuro.
+Así el mismo tema tiene el mismo color en los 4 países y en el Multiverse.
+
+### 7. Otras mejoras
 - Mobile testing en dispositivos reales
 - Budget Comparator tab (lado a lado entre años/países)
 - Fusionar Galaxy tab → Multiverse (search + sidebar + lang toggle)
