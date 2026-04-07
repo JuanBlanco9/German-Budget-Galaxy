@@ -2,25 +2,25 @@
   "_description": "Data limitations to display in the UI when users explore these nodes. Each entry should show as a note in the right panel (info bar) and Explorer view.",
   "laender_2024": {
     "applies_to": "Länder tree 2024",
-    "note_en": "Total expenditure per state from quarterly cash statistics (Kassenergebnis Q1-Q4 2024). Functional breakdown by Aufgabenbereiche not yet published by Destatis for this year.",
+    "note_en": "Spending per state shown, but without functional breakdown (education, police, etc.). Destatis publishes the detailed Rechnungsergebnis with a 3-4 year delay — the latest available is 2021. For 2017-2021, click any state to see full functional detail.",
     "note_de": "Gesamtausgaben je Land aus der vierteljährlichen Kassenstatistik (Q1-Q4 2024). Funktionale Gliederung nach Aufgabenbereichen für dieses Jahr noch nicht veröffentlicht.",
     "source": "Destatis Kassenergebnis Gesamthaushalt 2024, Tabelle 71511-09"
   },
   "laender_2025": {
     "applies_to": "Länder tree 2025",
-    "note_en": "Partial year data (January-September 2025). Full year and functional breakdown pending. Source: Destatis quarterly cash statistics.",
+    "note_en": "Partial year (Jan-Sep 2025) without functional breakdown. Destatis publishes detailed data with a 3-4 year delay. For 2017-2021, click any state to see full functional detail.",
     "note_de": "Daten für Januar-September 2025. Gesamtjahr und funktionale Gliederung noch nicht verfügbar.",
     "source": "Destatis Kassenergebnis Gesamthaushalt Q1-Q3 2025, Tabelle 71511-09"
   },
   "laender_2022": {
     "applies_to": "Länder tree 2022",
-    "note_en": "Total expenditure per state from quarterly cash statistics (Kassenergebnis Q1-Q4 2022, Fachserie 14 Reihe 2). Functional breakdown by Aufgabenbereiche not published by Destatis for this year (Rechnungsergebnis Gesamthaushalt last published for 2021). National COFOG functional breakdown available separately in laender_eurostat_2022.json.",
+    "note_en": "Spending per state shown, but without functional breakdown (education, police, etc.). Destatis publishes the detailed Rechnungsergebnis with a 3-4 year delay — the latest available is 2021. For 2017-2021, click any state to see full functional detail.",
     "note_de": "Gesamtausgaben je Land aus der vierteljährlichen Kassenstatistik (Q1-Q4 2022). Funktionale Gliederung nach Aufgabenbereichen nicht veröffentlicht (Rechnungsergebnis Gesamthaushalt zuletzt für 2021 publiziert). Nationale funktionale Aufteilung nach COFOG in laender_eurostat_2022.json.",
     "source": "Destatis Kassenergebnis Q1-Q4 2022 (Fachserie 14 Reihe 2, Tabelle 2.2.1)"
   },
   "laender_2023": {
     "applies_to": "Länder tree 2023",
-    "note_en": "Total Länder expenditure (529.3 bn EUR) is official Destatis data. Per-state split estimated from 2022 Kassenergebnis Länder/total ratios applied to 2023 per-state combined (L+G) data, scaled to match the known national Länder total. Stadtstaaten (Berlin, Bremen, Hamburg) are exact. Functional breakdown by Aufgabenbereiche not published by Destatis. National COFOG functional breakdown available in laender_eurostat_2023.json.",
+    "note_en": "Spending per state shown, but without functional breakdown. Destatis publishes detailed data with a 3-4 year delay (latest: 2021). Per-state totals estimated from 2022 ratios; city-states (Berlin, Bremen, Hamburg) are exact. For 2017-2021, click any state to see full functional detail.",
     "note_de": "Gesamtausgaben der Länder (529,3 Mrd EUR) sind offizielle Destatis-Daten. Länderspezifische Aufgliederung geschätzt über Kassenergebnis-Anteile 2022. Stadtstaaten sind exakt. Funktionale Gliederung nicht verfügbar.",
     "source": "Destatis Kassenergebnis 2023 (Ausgaben-Tabelle); per-state split estimated from 2022 Fachserie 14 ratios"
   },

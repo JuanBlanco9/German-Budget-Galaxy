@@ -4931,22 +4931,19 @@ async function loadMultiverse(forceYear){
           .attr('font-size',(fontSize*0.5)+'px').attr('font-weight','600')
           .text(t.amt);
       } else if(!t.hasData){
-        titleG.append('text').attr('x',sx).attr('y',sy+fontSize*0.7)
+        const avail=mvAvailableYears[t.c]||[];
+        const availStr=avail.length?avail.slice(-5).join(', '):'none';
+        titleG.append('text').attr('x',sx).attr('y',sy+fontSize*0.5)
           .attr('text-anchor','middle').attr('fill','rgba(255,255,255,.25)')
-          .attr('font-size','14px').attr('font-style','italic')
+          .attr('font-size','13px').attr('font-style','italic')
           .text(`No data for ${multiverseYear}`);
+        titleG.append('text').attr('x',sx).attr('y',sy+fontSize*0.5+18)
+          .attr('text-anchor','middle').attr('fill','rgba(79,195,247,.4)')
+          .attr('font-size','11px')
+          .text(`Available: ${availStr}`);
       }
 
-      // Germany disclaimer
-      if(t.c==='de'&&t.hasData&&sr>50){
-        const noteY=screenY({x:t.x,y:t.y+t.R*2+30/k});
-        const noteFS=Math.max(7,Math.min(11,sr*0.035));
-        titleG.append('text').attr('x',sx).attr('y',noteY)
-          .attr('text-anchor','middle').attr('fill','rgba(255,255,255,.4)')
-          .attr('font-size',noteFS+'px').attr('font-style','italic')
-          .style('text-shadow','0 1px 3px rgba(0,0,0,.7)')
-          .text('Federal budget only (Bundeshaushalt). Total public spending incl. 16 L\u00e4nder + municipalities: ~\u20ac2.1T');
-      }
+      // (Removed: Germany now includes Länder + Kommunen + Sozialversicherung)
     });
   }
 

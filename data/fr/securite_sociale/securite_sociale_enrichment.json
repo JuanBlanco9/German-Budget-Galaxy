@@ -68,7 +68,6 @@
     "name_en": "Poverty & Social Exclusion",
     "description": "Anti-poverty benefits: RSA (Revenu de Solidarite Active), Prime d'activite, emergency housing, energy vouchers (cheque-energie), higher education grants, and other social minima."
   },
-
   "Sécurité Sociale (Social Security)": {
     "y": 2024,
     "d": "France's social protection system (Protection Sociale), one of the most comprehensive in the world. Covers health, pensions, family, unemployment, housing, and anti-poverty benefits across multiple regimes: the general regime (regime general), special regimes for civil servants and specific sectors, complementary schemes (AGIRC-ARRCO), and state interventions. Total spending exceeds EUR 850 billion annually, representing over 30% of GDP.",
@@ -139,7 +138,6 @@
     "d": "Professional insertion and reinsertion programs including vocational training funded by regions and UNEDIC (ARE-Formation), support for business creation, youth insertion programs, and other measures to facilitate return to employment.",
     "b": "Job seekers in vocational training, young people in insertion programs, and persons receiving support for business creation or professional requalification."
   },
-
   "Économie, finances et souveraineté industrielle et numérique": {
     "y": 2024,
     "d": "France's economic and finance ministry grouping, covering tax administration (DGFiP), customs (DGDDI), the Treasury (Direction du Tresor), competition authority, industrial policy, digital sovereignty, and economic statistics (INSEE). Includes major tax expenditure programs and business support.",
@@ -224,5 +222,1005 @@
     "y": 2024,
     "d": "Ministry of public transformation and civil service covering civil service management, public sector modernization, digital transformation of government services, and interministerial reform programs.",
     "b": "The 5.7 million public sector employees and all citizens interacting with modernized government services."
+  },
+  "Pensions de droit direct": {
+    "y": 2024,
+    "d": "Direct old-age pensions: basic pensions (regime general, civil servants, special regimes), complementary pensions (AGIRC-ARRCO), supplementary pensions, and related supplements.",
+    "b": "Retirees who earned pension rights through their own contributions and career."
+  },
+  "Prestations liées à la dépendance": {
+    "y": 2024,
+    "d": "Dependency benefits for elderly persons: APA (Allocation Personnalisee d'Autonomie), residential care for dependent elderly, PCH for those over 60, and caregiver allowances.",
+    "b": "Elderly dependent persons and their caregivers, residents of EHPAD nursing homes."
+  },
+  "Minimum vieillesse": {
+    "y": 2024,
+    "d": "Minimum old-age guarantee (ASPA and predecessor schemes) ensuring a minimum income for elderly persons with insufficient pension rights.",
+    "b": "Elderly persons with low or no pension rights, ensuring a minimum living standard in retirement."
+  },
+  "Autres prestations vieillesse": {
+    "y": 2024,
+    "d": "Other old-age benefits not classified elsewhere, including miscellaneous supplementary schemes and one-off payments.",
+    "b": "Retirees receiving supplementary benefits outside the main pension categories."
+  },
+  "Indemnités de départ à la retraite (organismes d'assurance…)": {
+    "y": 2024,
+    "d": "Retirement departure indemnities paid by insurance organizations (complementary schemes, mutual funds) upon retirement.",
+    "b": "Workers receiving lump-sum payments upon retirement from complementary insurance schemes."
+  },
+  "Pensions de droit dérivé": {
+    "y": 2024,
+    "d": "Survivor pensions (derived rights): pensions de reversion for surviving spouses, orphan benefits, and related supplements from all pension regimes.",
+    "b": "Surviving spouses, orphans, and dependents of deceased pension holders."
+  },
+  "Autres prestations survie": {
+    "y": 2024,
+    "d": "Other survivor benefits not classified as derived pensions, including funeral grants and miscellaneous survivor payments.",
+    "b": "Families of deceased workers receiving auxiliary survivor benefits."
+  },
+  "Prestations de santé maladie pris en charge par les administrations de sécurité sociale": {
+    "y": 2024,
+    "d": "Healthcare benefits covered by social security: hospital care (public and private), outpatient care (consultations, medicines, medical equipment, transport), and related services.",
+    "b": "All residents covered by the Assurance Maladie for hospital, outpatient, and pharmaceutical costs."
+  },
+  "Prestations de santé complémentaires": {
+    "y": 2024,
+    "d": "Complementary health coverage: reimbursements by mutual funds, private insurers, and the Complementaire Sante Solidaire (C2S) for costs not covered by basic social security.",
+    "b": "Patients receiving top-up coverage from mutuelles, private insurance, or the solidarity complementary scheme."
+  },
+  "Remplacement de revenu temporaire": {
+    "y": 2024,
+    "d": "Temporary income replacement during illness: daily sickness allowances (indemnites journalieres), employer salary continuation, and complementary insurance payments.",
+    "b": "Workers on sick leave receiving daily allowances and salary continuation."
+  },
+  "Prestations médico-sociales (hors personnes handicapées)": {
+    "y": 2024,
+    "d": "Medico-social services for non-disabled populations: EHPAD care, home nursing services (SSIAD), and addiction/substance abuse treatment facilities.",
+    "b": "Elderly persons in nursing homes, patients receiving home nursing, and persons in addiction treatment."
+  },
+  "Autres prestations santé": {
+    "y": 2024,
+    "d": "Other health benefits not classified elsewhere, including miscellaneous health-related social protection payments.",
+    "b": "Various recipients of auxiliary health benefits."
+  },
+  "Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales)": {
+    "y": 2024,
+    "d": "Residential care and day services for disabled persons: group homes, specialized institutions, medico-social establishments for adults and children with disabilities.",
+    "b": "Disabled adults and children in residential or day care facilities."
+  },
+  "Autres prestations de ressources": {
+    "y": 2024,
+    "d": "Other disability resource benefits: AAH (Allocation aux Adultes Handicapes), guaranteed resources for disabled workers (GRTH), and supplementary disability allowances.",
+    "b": "Disabled adults receiving income-support benefits (AAH, ASI, GRTH)."
+  },
+  "Remplacement de revenu (pensions et rentes)": {
+    "y": 2024,
+    "d": "Disability income replacement: invalidity pensions, disability rentes from insurance organizations, military disability pensions, and public service disability allowances.",
+    "b": "Persons with permanent disability receiving pensions or rentes replacing lost income."
+  },
+  "Prestations de compensation du handicap": {
+    "y": 2024,
+    "d": "Disability compensation benefits: PCH (Prestation de Compensation du Handicap), AEEH for disabled children, caregiver allowances, home adaptation tax credits.",
+    "b": "Disabled persons and families of disabled children receiving compensation for disability-related costs."
+  },
+  "Aide par le travail (Établissement et service d'aide par le travail, etc.)": {
+    "y": 2024,
+    "d": "Sheltered work services (ESAT) providing employment and support for disabled workers unable to work in mainstream settings.",
+    "b": "Disabled workers in ESAT sheltered workshops and supported employment."
+  },
+  "Autres prestations invalidité (y compris organismes d'assurance)": {
+    "y": 2024,
+    "d": "Other disability benefits from insurance organizations and miscellaneous disability-related payments not classified elsewhere.",
+    "b": "Disabled persons receiving supplementary benefits from insurance schemes."
+  },
+  "Remplacement de revenu définitif": {
+    "y": 2024,
+    "d": "Permanent income replacement for occupational accidents/diseases: AT-MP rentes, FIVA asbestos compensation, military disability pensions, and amiante early retirement.",
+    "b": "Workers permanently disabled by occupational accidents or diseases, asbestos victims, and military casualties."
+  },
+  "Autres prestations AT-MP": {
+    "y": 2024,
+    "d": "Other occupational accident and disease benefits not classified as permanent income replacement, including transitional payments and miscellaneous AT-MP costs.",
+    "b": "Workers affected by occupational accidents or diseases receiving auxiliary benefits."
+  },
+  "Prestations en faveur de la famille": {
+    "y": 2024,
+    "d": "Core family benefits: allocations familiales, PAJE birth/adoption benefits, complement familial, allocation de soutien familial (ASF).",
+    "b": "Families with children receiving monthly family allowances and birth-related benefits."
+  },
+  "Prestations liées à la garde d'enfants": {
+    "y": 2024,
+    "d": "Childcare benefits: PAJE childcare supplements, nursery/creche funding, childcare tax credits, and parental leave allowances (PreParE).",
+    "b": "Parents using childcare services (nannies, creches, home childcare) and those on parental leave."
+  },
+  "Aide sociale à l'enfance (ASE)": {
+    "y": 2024,
+    "d": "Child welfare services (ASE): residential and foster care, home-based educational support (AED/AEMO), and emergency protection for at-risk children.",
+    "b": "At-risk children and vulnerable families receiving child welfare services from departements."
+  },
+  "Prestations liées à la maternité": {
+    "y": 2024,
+    "d": "Maternity and birth benefits: maternity daily allowances, paternity leave, PAJE birth premium, and related employer/insurance supplements.",
+    "b": "New parents on maternity/paternity leave and families receiving birth-related benefits."
+  },
+  "Prestations liées à la scolarité": {
+    "y": 2024,
+    "d": "Education-related family benefits: allocation de rentree scolaire (ARS) for back-to-school costs, primary/secondary scholarships.",
+    "b": "Families with school-age children receiving back-to-school allowances and education grants."
+  },
+  "Complément de rémunération": {
+    "y": 2024,
+    "d": "Family-related salary supplements: supplement familial de traitement for civil servants and military family allowances based on number of children.",
+    "b": "Civil servants and military personnel receiving family-based salary supplements."
+  },
+  "Autres prestations famille": {
+    "y": 2024,
+    "d": "Other family benefits not classified in main categories, including miscellaneous family-related social protection payments.",
+    "b": "Families receiving auxiliary family benefits."
+  },
+  "Allocation chômage": {
+    "y": 2024,
+    "d": "Unemployment benefits: ARE (main unemployment allowance via Unedic), ASS (solidarity allowance), partial activity/short-time working benefits, and France Travail placement services.",
+    "b": "Unemployed workers receiving insurance-based or solidarity-based unemployment benefits."
+  },
+  "Autres prestations chômage": {
+    "y": 2024,
+    "d": "Other unemployment-related benefits not in the main allocation category.",
+    "b": "Job seekers receiving auxiliary unemployment benefits."
+  },
+  "Préretraites": {
+    "y": 2024,
+    "d": "Early retirement schemes: company-sponsored early retirement and other early exit pathways for older workers before legal retirement age.",
+    "b": "Older workers leaving employment early through structured early retirement programs."
+  },
+  "Formation professionnelle": {
+    "y": 2024,
+    "d": "Professional training for job seekers: training allowances (ARE-Formation), regional training programs, end-of-training benefits (RFF).",
+    "b": "Job seekers in professional training and retraining programs."
+  },
+  "Insertion professionnelle": {
+    "y": 2024,
+    "d": "Professional insertion programs: subsidized employment, enterprise creation aid (ARCE), youth insertion programs, and miscellaneous insertion grants.",
+    "b": "Job seekers in insertion programs, particularly young people and enterprise creators."
+  },
+  "Insertion et réinsertion professionnelle nca": {
+    "y": 2024,
+    "d": "Other professional insertion and reintegration measures not classified elsewhere.",
+    "b": "Persons in miscellaneous professional insertion pathways."
+  },
+  "Revenu minimum": {
+    "y": 2024,
+    "d": "Minimum income benefits: RSA socle (main minimum income), Christmas bonus, and legacy RMI obligations.",
+    "b": "Adults with no or very low income receiving the RSA minimum income guarantee."
+  },
+  "Prime liée à l'activité": {
+    "y": 2024,
+    "d": "In-work benefit: Prime d'activite, combining former RSA activite and Prime pour l'emploi, supplementing low wages.",
+    "b": "Low-wage workers receiving the Prime d'activite top-up to encourage employment."
+  },
+  "Autres prestations pauvreté-exclusion": {
+    "y": 2024,
+    "d": "Other anti-poverty benefits not classified in main categories.",
+    "b": "Persons in poverty receiving auxiliary social protection benefits."
+  },
+  "Prestations liées à l'hébergement": {
+    "y": 2024,
+    "d": "Emergency shelter and housing benefits: emergency accommodation (115/SAMU Social), CHRS residential centers, and temporary housing support.",
+    "b": "Homeless persons and those in precarious housing receiving emergency shelter and transitional housing."
+  },
+  "Bourses de l'enseignement supérieur": {
+    "y": 2024,
+    "d": "Higher education grants (bourses sur criteres sociaux) for university students based on family income and distance from home.",
+    "b": "University students from low-income families receiving monthly maintenance grants."
+  },
+  "Chèque-Énergie": {
+    "y": 2024,
+    "d": "Energy vouchers (cheque-energie) helping low-income households pay energy bills and fund energy efficiency improvements.",
+    "b": "Low-income households receiving annual energy vouchers for electricity, gas, and heating costs."
+  },
+  "Prestations versées à titre exceptionnel": {
+    "y": 2024,
+    "d": "Exceptional one-off benefits paid in response to specific crises (e.g., fuel rebates, cost-of-living payments).",
+    "b": "Households receiving emergency or crisis-related one-off payments."
+  },
+  "Aide personnalisée au logement (APL)": {
+    "y": 2024,
+    "d": "APL (Aide Personnalisee au Logement): means-tested housing benefit for tenants in conventionned housing and certain homeowners.",
+    "b": "Low-income tenants in social and private housing receiving monthly APL payments."
+  },
+  "Allocation de logement sociale (ALS)": {
+    "y": 2024,
+    "d": "ALS (Allocation de Logement Sociale): housing benefit for tenants not eligible for APL or ALF, particularly single persons and students.",
+    "b": "Single persons, students, and other low-income tenants receiving ALS housing support."
+  },
+  "Allocation de logement familiale (ALF)": {
+    "y": 2024,
+    "d": "ALF (Allocation de Logement Familiale): housing benefit for families with children or dependents not in conventionned housing.",
+    "b": "Families with children receiving monthly ALF housing payments."
+  },
+  "Autres prestations logement": {
+    "y": 2024,
+    "d": "Other housing benefits not classified in the three main housing allowances.",
+    "b": "Recipients of miscellaneous housing-related social protection."
+  },
+  "Pensions normales": {
+    "y": 2024,
+    "d": "Pensions normales. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Pensions de vieillesse complémentaires": {
+    "y": 2024,
+    "d": "Pensions de vieillesse complémentaires. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Pensions d'invalidité (y compris ATI définitive aux retraités et rentes viagères d'invalidité après 60 ans)": {
+    "y": 2024,
+    "d": "Pensions d'invalidité (y compris ATI définitive aux retraités et rentes viagères d'invalidité après 60 ans). Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Pensions d'inaptitude": {
+    "y": 2024,
+    "d": "Pensions d'inaptitude. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Majorations sur pensions de base - enfant": {
+    "y": 2024,
+    "d": "Majorations sur pensions de base - enfant. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Pensions de vieillesse supplémentaires": {
+    "y": 2024,
+    "d": "Pensions de vieillesse supplémentaires. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Autres pensions vieillesse": {
+    "y": 2024,
+    "d": "Autres pensions vieillesse. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Retraites du combattant": {
+    "y": 2024,
+    "d": "Retraites du combattant. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Majorations sur pensions de base - tierce personne": {
+    "y": 2024,
+    "d": "Majorations sur pensions de base - tierce personne. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Indemnités temporaires de la Fonction publique": {
+    "y": 2024,
+    "d": "Indemnités temporaires de la Fonction publique. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Majorations sur pensions de base - autres": {
+    "y": 2024,
+    "d": "Majorations sur pensions de base - autres. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Majorations sur pensions de base - conjoint à charge": {
+    "y": 2024,
+    "d": "Majorations sur pensions de base - conjoint à charge. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Majorations sur pensions de base - assurés handicapés": {
+    "y": 2024,
+    "d": "Majorations sur pensions de base - assurés handicapés. Component of Pensions de droit direct within French social protection.",
+    "b": "Beneficiaries of pensions de droit direct receiving this specific benefit."
+  },
+  "Allocation personnalisée d'autonomie (APA)": {
+    "y": 2024,
+    "d": "Allocation personnalisée d'autonomie (APA). Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Hébergement des personnes âgées dépendantes": {
+    "y": 2024,
+    "d": "Hébergement des personnes âgées dépendantes. Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Prestation de compensation du handicap (PCH) plus de 60 ans": {
+    "y": 2024,
+    "d": "Prestation de compensation du handicap (PCH) plus de 60 ans. Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Crédit d'impôt au titre de l'emploi salarié à domicile (assistance aux personnes âgées)": {
+    "y": 2024,
+    "d": "Crédit d'impôt au titre de l'emploi salarié à domicile (assistance aux personnes âgées). Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Allocation compensatrice pour tierce personne (ACTP) plus de 60 ans": {
+    "y": 2024,
+    "d": "Allocation compensatrice pour tierce personne (ACTP) plus de 60 ans. Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Prestations dépendance des organismes d'assurance": {
+    "y": 2024,
+    "d": "Prestations dépendance des organismes d'assurance. Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Crédit d'impôt pour dépenses d'équipement de l'habitation principale (aide aux personnes de plus de 60 ans)": {
+    "y": 2024,
+    "d": "Crédit d'impôt pour dépenses d'équipement de l'habitation principale (aide aux personnes de plus de 60 ans). Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Allocation journalière de proche aidant (AJPA)": {
+    "y": 2024,
+    "d": "Allocation journalière de proche aidant (AJPA). Component of Prestations liées à la dépendance within French social protection.",
+    "b": "Beneficiaries of prestations liées à la dépendance receiving this specific benefit."
+  },
+  "Allocation de solidarité aux personnes âgées (Aspa)": {
+    "y": 2024,
+    "d": "Allocation de solidarité aux personnes âgées (Aspa). Component of Minimum vieillesse within French social protection.",
+    "b": "Beneficiaries of minimum vieillesse receiving this specific benefit."
+  },
+  "Majorations L815-2 ancien (allocation supplémentaire)": {
+    "y": 2024,
+    "d": "Majorations L815-2 ancien (allocation supplémentaire). Component of Minimum vieillesse within French social protection.",
+    "b": "Beneficiaries of minimum vieillesse receiving this specific benefit."
+  },
+  "Minimum vieillesse associé au versement d'une pension de droit dérivé": {
+    "y": 2024,
+    "d": "Minimum vieillesse associé au versement d'une pension de droit dérivé. Component of Minimum vieillesse within French social protection.",
+    "b": "Beneficiaries of minimum vieillesse receiving this specific benefit."
+  },
+  "Majorations L814-2 ancien": {
+    "y": 2024,
+    "d": "Majorations L814-2 ancien. Component of Minimum vieillesse within French social protection.",
+    "b": "Beneficiaries of minimum vieillesse receiving this specific benefit."
+  },
+  "Allocations spéciales": {
+    "y": 2024,
+    "d": "Allocations spéciales. Component of Minimum vieillesse within French social protection.",
+    "b": "Beneficiaries of minimum vieillesse receiving this specific benefit."
+  },
+  "Autres composantes du minimum vieillesse nca": {
+    "y": 2024,
+    "d": "Autres composantes du minimum vieillesse nca. Component of Minimum vieillesse within French social protection.",
+    "b": "Beneficiaries of minimum vieillesse receiving this specific benefit."
+  },
+  "Indemnités de départ à la retraite des organismes d'assurance": {
+    "y": 2024,
+    "d": "Indemnités de départ à la retraite des organismes d'assurance. Component of Indemnités de départ à la retraite (organismes d'assurance…) within French social protection.",
+    "b": "Beneficiaries of indemnités de départ à la retraite (organismes d'assurance…) receiving this specific benefit."
+  },
+  "Pensions complémentaires obligatoires": {
+    "y": 2024,
+    "d": "Pensions complémentaires obligatoires. Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Pensions de réversion avec condition de ressources": {
+    "y": 2024,
+    "d": "Pensions de réversion avec condition de ressources. Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Pensions de conjoint survivant, d'orphelins, d'ascendants au titre des retraites et de l'invalidité": {
+    "y": 2024,
+    "d": "Pensions de conjoint survivant, d'orphelins, d'ascendants au titre des retraites et de l'invalidité. Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Pensions de réversion sans condition de ressources": {
+    "y": 2024,
+    "d": "Pensions de réversion sans condition de ressources. Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Majorations sur pensions de réversion de base": {
+    "y": 2024,
+    "d": "Majorations sur pensions de réversion de base. Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Pensions d'invalidité (ayants droit)": {
+    "y": 2024,
+    "d": "Pensions d'invalidité (ayants droit). Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Pensions militaires d'invalidité (ayants droit)": {
+    "y": 2024,
+    "d": "Pensions militaires d'invalidité (ayants droit). Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Autres droits dérivés": {
+    "y": 2024,
+    "d": "Autres droits dérivés. Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Pensions d'accidents du travail (ayants droit)": {
+    "y": 2024,
+    "d": "Pensions d'accidents du travail (ayants droit). Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Indemnités temporaires de la Fonction publique (ayants cause)": {
+    "y": 2024,
+    "d": "Indemnités temporaires de la Fonction publique (ayants cause). Component of Pensions de droit dérivé within French social protection.",
+    "b": "Beneficiaries of pensions de droit dérivé receiving this specific benefit."
+  },
+  "Prestations de soins du secteur public hospitalier": {
+    "y": 2024,
+    "d": "Prestations de soins du secteur public hospitalier. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Prestations (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Prestations (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Médicaments (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Médicaments (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins en clinique privée (maladie) [non ventilés]": {
+    "y": 2024,
+    "d": "Soins en clinique privée (maladie) [non ventilés]. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Matériel (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Matériel (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Transports (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Transports (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Contrats divers (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Contrats divers (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Prestations de soins en USLD du secteur public hospitalier": {
+    "y": 2024,
+    "d": "Prestations de soins en USLD du secteur public hospitalier. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Autres (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Autres (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Autres (AT-MP)": {
+    "y": 2024,
+    "d": "Soins de ville - Autres (AT-MP). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Autres (maternité)": {
+    "y": 2024,
+    "d": "Soins de ville - Autres (maternité). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Transferts aux hôpitaux militaires": {
+    "y": 2024,
+    "d": "Transferts aux hôpitaux militaires. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins en clinique privée (maternité) [non ventilés]": {
+    "y": 2024,
+    "d": "Soins en clinique privée (maternité) [non ventilés]. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Prestations de santé de la Camieg": {
+    "y": 2024,
+    "d": "Prestations de santé de la Camieg. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Cures thermales (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Cures thermales (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins en clinique privée (AT-MP) [non ventilés]": {
+    "y": 2024,
+    "d": "Soins en clinique privée (AT-MP) [non ventilés]. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Permanence de soins (maladie)": {
+    "y": 2024,
+    "d": "Soins de ville - Permanence de soins (maladie). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Médicaments (maternité)": {
+    "y": 2024,
+    "d": "Soins de ville - Médicaments (maternité). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Médicaments (AT-MP)": {
+    "y": 2024,
+    "d": "Soins de ville - Médicaments (AT-MP). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Cures thermales (AT-MP)": {
+    "y": 2024,
+    "d": "Soins de ville - Cures thermales (AT-MP). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Soins de ville - Matériel (maternité)": {
+    "y": 2024,
+    "d": "Soins de ville - Matériel (maternité). Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Autres prestations de santé nca": {
+    "y": 2024,
+    "d": "Autres prestations de santé nca. Component of Prestations de santé maladie pris en charge par les administrations de sécurité sociale within French social protection.",
+    "b": "Beneficiaries of prestations de santé maladie pris en charge par les administrations de sécurité sociale receiving this specific benefit."
+  },
+  "Prestations de santé des organismes d'assurance - Soins de ville": {
+    "y": 2024,
+    "d": "Prestations de santé des organismes d'assurance - Soins de ville. Component of Prestations de santé complémentaires within French social protection.",
+    "b": "Beneficiaries of prestations de santé complémentaires receiving this specific benefit."
+  },
+  "Prestations maladie prises en charge par le Fonds C2S": {
+    "y": 2024,
+    "d": "Prestations maladie prises en charge par le Fonds C2S. Component of Prestations de santé complémentaires within French social protection.",
+    "b": "Beneficiaries of prestations de santé complémentaires receiving this specific benefit."
+  },
+  "Remboursements des organismes d'assurance  - Prestations connexes à la santé": {
+    "y": 2024,
+    "d": "Remboursements des organismes d'assurance  - Prestations connexes à la santé. Component of Prestations de santé complémentaires within French social protection.",
+    "b": "Beneficiaries of prestations de santé complémentaires receiving this specific benefit."
+  },
+  "Prestations de santé des organismes d'assurance - Hôpital": {
+    "y": 2024,
+    "d": "Prestations de santé des organismes d'assurance - Hôpital. Component of Prestations de santé complémentaires within French social protection.",
+    "b": "Beneficiaries of prestations de santé complémentaires receiving this specific benefit."
+  },
+  "Prestations de santé des organismes d'assurance - Médicaments": {
+    "y": 2024,
+    "d": "Prestations de santé des organismes d'assurance - Médicaments. Component of Prestations de santé complémentaires within French social protection.",
+    "b": "Beneficiaries of prestations de santé complémentaires receiving this specific benefit."
+  },
+  "Indemnités journalières (maladie)": {
+    "y": 2024,
+    "d": "Indemnités journalières (maladie). Component of Remplacement de revenu temporaire within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu temporaire receiving this specific benefit."
+  },
+  "Maintien de salaire / complément d'IJ des organismes d'assurance": {
+    "y": 2024,
+    "d": "Maintien de salaire / complément d'IJ des organismes d'assurance. Component of Prestations liées à la maternité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la maternité receiving this specific benefit."
+  },
+  "Indemnités journalières accidents du travail et maladies professionnelles (AT-MP)": {
+    "y": 2024,
+    "d": "Indemnités journalières accidents du travail et maladies professionnelles (AT-MP). Component of Remplacement de revenu temporaire within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu temporaire receiving this specific benefit."
+  },
+  "Maintien de salaire / complément d'IJ des organismes d'assurance (AT-MP)": {
+    "y": 2024,
+    "d": "Maintien de salaire / complément d'IJ des organismes d'assurance (AT-MP). Component of Remplacement de revenu temporaire within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu temporaire receiving this specific benefit."
+  },
+  "Congés maladie de longue durée des agents de l'Etat": {
+    "y": 2024,
+    "d": "Congés maladie de longue durée des agents de l'Etat. Component of Remplacement de revenu temporaire within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu temporaire receiving this specific benefit."
+  },
+  "Établissement d'hébergement pour personnes âgées, Établissement d'hébergement pour personnes âgées dépendantes": {
+    "y": 2024,
+    "d": "Établissement d'hébergement pour personnes âgées, Établissement d'hébergement pour personnes âgées dépendantes. Component of Prestations médico-sociales (hors personnes handicapées) within French social protection.",
+    "b": "Beneficiaries of prestations médico-sociales (hors personnes handicapées) receiving this specific benefit."
+  },
+  "Services de soins infirmiers à domicile (Ssiad)": {
+    "y": 2024,
+    "d": "Services de soins infirmiers à domicile (Ssiad). Component of Prestations médico-sociales (hors personnes handicapées) within French social protection.",
+    "b": "Beneficiaries of prestations médico-sociales (hors personnes handicapées) receiving this specific benefit."
+  },
+  "Autres prestations médico-sociales": {
+    "y": 2024,
+    "d": "Autres prestations médico-sociales. Component of Prestations médico-sociales (hors personnes handicapées) within French social protection.",
+    "b": "Beneficiaries of prestations médico-sociales (hors personnes handicapées) receiving this specific benefit."
+  },
+  "Prestations médico-sociales diverses (alcoologie, toxicomanie…)": {
+    "y": 2024,
+    "d": "Prestations médico-sociales diverses (alcoologie, toxicomanie…). Component of Prestations médico-sociales (hors personnes handicapées) within French social protection.",
+    "b": "Beneficiaries of prestations médico-sociales (hors personnes handicapées) receiving this specific benefit."
+  },
+  "Hébergement des adultes handicapés": {
+    "y": 2024,
+    "d": "Hébergement des adultes handicapés. Component of Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) within French social protection.",
+    "b": "Beneficiaries of accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) receiving this specific benefit."
+  },
+  "Accueil et accompagnement sans hébergement des enfants handicapés": {
+    "y": 2024,
+    "d": "Accueil et accompagnement sans hébergement des enfants handicapés. Component of Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) within French social protection.",
+    "b": "Beneficiaries of accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) receiving this specific benefit."
+  },
+  "Hébergement des enfants handicapés": {
+    "y": 2024,
+    "d": "Hébergement des enfants handicapés. Component of Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) within French social protection.",
+    "b": "Beneficiaries of accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) receiving this specific benefit."
+  },
+  "Accueil et accompagnement sans hébergement des adultes handicapés": {
+    "y": 2024,
+    "d": "Accueil et accompagnement sans hébergement des adultes handicapés. Component of Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) within French social protection.",
+    "b": "Beneficiaries of accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) receiving this specific benefit."
+  },
+  "Ssiad personnes handicapées et ajustement des prestations médico-sociales": {
+    "y": 2024,
+    "d": "Ssiad personnes handicapées et ajustement des prestations médico-sociales. Component of Accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) within French social protection.",
+    "b": "Beneficiaries of accueil et hébergement des personnes handicapées (y compris prestations médico-sociales) receiving this specific benefit."
+  },
+  "Allocation aux adultes handicapés (AAH)": {
+    "y": 2024,
+    "d": "Allocation aux adultes handicapés (AAH). Component of Autres prestations de ressources within French social protection.",
+    "b": "Beneficiaries of autres prestations de ressources receiving this specific benefit."
+  },
+  "Garantie de ressources s'adressant aux travailleurs handicapés (GRTH)": {
+    "y": 2024,
+    "d": "Garantie de ressources s'adressant aux travailleurs handicapés (GRTH). Component of Autres prestations de ressources within French social protection.",
+    "b": "Beneficiaries of autres prestations de ressources receiving this specific benefit."
+  },
+  "Allocation supplémentaire d'invalidité (ASI)": {
+    "y": 2024,
+    "d": "Allocation supplémentaire d'invalidité (ASI). Component of Autres prestations de ressources within French social protection.",
+    "b": "Beneficiaries of autres prestations de ressources receiving this specific benefit."
+  },
+  "Pensions d'invalidité (y compris majorations enfant et tierce personne)": {
+    "y": 2024,
+    "d": "Pensions d'invalidité (y compris majorations enfant et tierce personne). Component of Remplacement de revenu (pensions et rentes) within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu (pensions et rentes) receiving this specific benefit."
+  },
+  "Rentes d'invalidité des organismes d'assurance (y compris majorations enfant et tierce personne)": {
+    "y": 2024,
+    "d": "Rentes d'invalidité des organismes d'assurance (y compris majorations enfant et tierce personne). Component of Remplacement de revenu (pensions et rentes) within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu (pensions et rentes) receiving this specific benefit."
+  },
+  "Allocations temporaires d'invalidité": {
+    "y": 2024,
+    "d": "Allocations temporaires d'invalidité. Component of Remplacement de revenu (pensions et rentes) within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu (pensions et rentes) receiving this specific benefit."
+  },
+  "Pensions militaires d'invalidité - victimes civiles": {
+    "y": 2024,
+    "d": "Pensions militaires d'invalidité - victimes civiles. Component of Remplacement de revenu (pensions et rentes) within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu (pensions et rentes) receiving this specific benefit."
+  },
+  "Allocation temporaire d'invalidité (Fonction publique)": {
+    "y": 2024,
+    "d": "Allocation temporaire d'invalidité (Fonction publique). Component of Remplacement de revenu (pensions et rentes) within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu (pensions et rentes) receiving this specific benefit."
+  },
+  "Prestation de compensation du handicap (PCH) moins de 60 ans": {
+    "y": 2024,
+    "d": "Prestation de compensation du handicap (PCH) moins de 60 ans. Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Allocation d'éducation de l'enfant handicapé (AEEH)": {
+    "y": 2024,
+    "d": "Allocation d'éducation de l'enfant handicapé (AEEH). Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Allocation journalière de présence parentale (AJPP)": {
+    "y": 2024,
+    "d": "Allocation journalière de présence parentale (AJPP). Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Allocation compensatrice pour tierce personne (ACTP) moins de 60 ans": {
+    "y": 2024,
+    "d": "Allocation compensatrice pour tierce personne (ACTP) moins de 60 ans. Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Autres allocations liées au handicap": {
+    "y": 2024,
+    "d": "Autres allocations liées au handicap. Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Crédit d'impôt au titre de l'emploi salarié à domicile (assistance aux personnes handicapées)": {
+    "y": 2024,
+    "d": "Crédit d'impôt au titre de l'emploi salarié à domicile (assistance aux personnes handicapées). Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Crédit d'impôt pour dépenses d'équipement de l'habitation principale (aide aux personnes de moins de 60 ans)": {
+    "y": 2024,
+    "d": "Crédit d'impôt pour dépenses d'équipement de l'habitation principale (aide aux personnes de moins de 60 ans). Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Allocation de présence parentale (APP)": {
+    "y": 2024,
+    "d": "Allocation de présence parentale (APP). Component of Prestations de compensation du handicap within French social protection.",
+    "b": "Beneficiaries of prestations de compensation du handicap receiving this specific benefit."
+  },
+  "Rentes AT-MP": {
+    "y": 2024,
+    "d": "Rentes AT-MP. Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Indemnisations du Fiva": {
+    "y": 2024,
+    "d": "Indemnisations du Fiva. Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Pensions militaires d'invalidité - victimes militaires": {
+    "y": 2024,
+    "d": "Pensions militaires d'invalidité - victimes militaires. Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Allocation spécifique de cessation d'activité au titre de l'amiante (Ascaa)": {
+    "y": 2024,
+    "d": "Allocation spécifique de cessation d'activité au titre de l'amiante (Ascaa). Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Allocation de cessation anticipée d'activité des travailleurs de l'amiante (Acaata)": {
+    "y": 2024,
+    "d": "Allocation de cessation anticipée d'activité des travailleurs de l'amiante (Acaata). Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Pensions d'invalidité diverses, suite à accident": {
+    "y": 2024,
+    "d": "Pensions d'invalidité diverses, suite à accident. Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Prestations du Fonds d'indemnisation des victimes de pesticides": {
+    "y": 2024,
+    "d": "Prestations du Fonds d'indemnisation des victimes de pesticides. Component of Remplacement de revenu définitif within French social protection.",
+    "b": "Beneficiaries of remplacement de revenu définitif receiving this specific benefit."
+  },
+  "Allocations familiales (AF)": {
+    "y": 2024,
+    "d": "Allocations familiales (AF). Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Allocation de soutien familial (ASF)": {
+    "y": 2024,
+    "d": "Allocation de soutien familial (ASF). Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Paje - Base": {
+    "y": 2024,
+    "d": "Paje - Base. Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Complément familial (CF)": {
+    "y": 2024,
+    "d": "Complément familial (CF). Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Allocation différentielle": {
+    "y": 2024,
+    "d": "Allocation différentielle. Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Allocation jeune enfant « longue » (APJE longue)": {
+    "y": 2024,
+    "d": "Allocation jeune enfant « longue » (APJE longue). Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Paje - Allocation d'adoption": {
+    "y": 2024,
+    "d": "Paje - Allocation d'adoption. Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Paje - Prime d'adoption": {
+    "y": 2024,
+    "d": "Paje - Prime d'adoption. Component of Prestations en faveur de la famille within French social protection.",
+    "b": "Beneficiaries of prestations en faveur de la famille receiving this specific benefit."
+  },
+  "Accueil des jeunes enfants": {
+    "y": 2024,
+    "d": "Accueil des jeunes enfants. Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Paje - Assistante maternelle": {
+    "y": 2024,
+    "d": "Paje - Assistante maternelle. Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Crédit d'impôt frais de garde d'enfants de moins de 6 ans": {
+    "y": 2024,
+    "d": "Crédit d'impôt frais de garde d'enfants de moins de 6 ans. Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Paje - Employée à domicile": {
+    "y": 2024,
+    "d": "Paje - Employée à domicile. Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Paje - Prepare": {
+    "y": 2024,
+    "d": "Paje - Prepare. Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Crédit d'impôt au titre de l'emploi salarié à domicile (garde d'enfant à domicile)": {
+    "y": 2024,
+    "d": "Crédit d'impôt au titre de l'emploi salarié à domicile (garde d'enfant à domicile). Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Paje - CLCA et Colca": {
+    "y": 2024,
+    "d": "Paje - CLCA et Colca. Component of Prestations liées à la garde d'enfants within French social protection.",
+    "b": "Beneficiaries of prestations liées à la garde d'enfants receiving this specific benefit."
+  },
+  "Prestations d'hébergement et d'accueil": {
+    "y": 2024,
+    "d": "Prestations d'hébergement et d'accueil. Component of Aide sociale à l'enfance (ASE) within French social protection.",
+    "b": "Beneficiaries of aide sociale à l'enfance (ase) receiving this specific benefit."
+  },
+  "Dépenses diverses liées à l'ASE (bourses, subventions, frais de placement…)": {
+    "y": 2024,
+    "d": "Dépenses diverses liées à l'ASE (bourses, subventions, frais de placement…). Component of Aide sociale à l'enfance (ASE) within French social protection.",
+    "b": "Beneficiaries of aide sociale à l'enfance (ase) receiving this specific benefit."
+  },
+  "Actions éducatives à domicile (AED), actions éducatives en milieu ouvert (AEMO)": {
+    "y": 2024,
+    "d": "Actions éducatives à domicile (AED), actions éducatives en milieu ouvert (AEMO). Component of Aide sociale à l'enfance (ASE) within French social protection.",
+    "b": "Beneficiaries of aide sociale à l'enfance (ase) receiving this specific benefit."
+  },
+  "Indemnités journalières": {
+    "y": 2024,
+    "d": "Indemnités journalières. Component of Prestations liées à la maternité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la maternité receiving this specific benefit."
+  },
+  "Congés de naissance": {
+    "y": 2024,
+    "d": "Congés de naissance. Component of Prestations liées à la maternité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la maternité receiving this specific benefit."
+  },
+  "Paje - Prime de naissance": {
+    "y": 2024,
+    "d": "Paje - Prime de naissance. Component of Prestations liées à la maternité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la maternité receiving this specific benefit."
+  },
+  "Prestations nuptialité/natalité versées par les organismes d'assurance": {
+    "y": 2024,
+    "d": "Prestations nuptialité/natalité versées par les organismes d'assurance. Component of Prestations liées à la maternité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la maternité receiving this specific benefit."
+  },
+  "Allocation de rentrée scolaire (ARS)": {
+    "y": 2024,
+    "d": "Allocation de rentrée scolaire (ARS). Component of Prestations liées à la scolarité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la scolarité receiving this specific benefit."
+  },
+  "Bourses de l'enseignement primaire et secondaire": {
+    "y": 2024,
+    "d": "Bourses de l'enseignement primaire et secondaire. Component of Prestations liées à la scolarité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la scolarité receiving this specific benefit."
+  },
+  "Autres prestations liées à l'éducation nca": {
+    "y": 2024,
+    "d": "Autres prestations liées à l'éducation nca. Component of Prestations liées à la scolarité within French social protection.",
+    "b": "Beneficiaries of prestations liées à la scolarité receiving this specific benefit."
+  },
+  "Supplément familial de traitement et supplément familial de solde": {
+    "y": 2024,
+    "d": "Supplément familial de traitement et supplément familial de solde. Component of Complément de rémunération within French social protection.",
+    "b": "Beneficiaries of complément de rémunération receiving this specific benefit."
+  },
+  "Majorations familiales": {
+    "y": 2024,
+    "d": "Majorations familiales. Component of Complément de rémunération within French social protection.",
+    "b": "Beneficiaries of complément de rémunération receiving this specific benefit."
+  },
+  "Allocation d'aide au retour à l'emploi (ARE)": {
+    "y": 2024,
+    "d": "Allocation d'aide au retour à l'emploi (ARE). Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Allocation de sécurisation professionnelle (ASP)": {
+    "y": 2024,
+    "d": "Allocation de sécurisation professionnelle (ASP). Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "ASS, AER, ASS-F, ASS-ACCRE (anciennement prestations versées par le Fonds de solidarité)": {
+    "y": 2024,
+    "d": "ASS, AER, ASS-F, ASS-ACCRE (anciennement prestations versées par le Fonds de solidarité). Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Dépenses de placement de Pôle emploi": {
+    "y": 2024,
+    "d": "Dépenses de placement de Pôle emploi. Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Prestations de chômage partiel": {
+    "y": 2024,
+    "d": "Prestations de chômage partiel. Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Prestations chômage versées par les organismes d'assurance": {
+    "y": 2024,
+    "d": "Prestations chômage versées par les organismes d'assurance. Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Aide exceptionnelle de fin d'année (Prime de noël) des bénéficiaires de l'ASS, l'AER et l'ATS (comptabilisée dans les...": {
+    "y": 2024,
+    "d": "Aide exceptionnelle de fin d'année (Prime de noël) des bénéficiaires de l'ASS, l'AER et l'ATS (comptabilisée dans les.... Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Aides de Pôle emploi et de l'Unedic": {
+    "y": 2024,
+    "d": "Aides de Pôle emploi et de l'Unedic. Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Autres prestations chômage nca": {
+    "y": 2024,
+    "d": "Autres prestations chômage nca. Component of Allocation chômage within French social protection.",
+    "b": "Beneficiaries of allocation chômage receiving this specific benefit."
+  },
+  "Préretraites d'entreprises": {
+    "y": 2024,
+    "d": "Préretraites d'entreprises. Component of Préretraites within French social protection.",
+    "b": "Beneficiaries of préretraites receiving this specific benefit."
+  },
+  "Autres préretraites": {
+    "y": 2024,
+    "d": "Autres préretraites. Component of Préretraites within French social protection.",
+    "b": "Beneficiaries of préretraites receiving this specific benefit."
+  },
+  "Allocation d'aide au retour à l'emploi - Formation (ARE-F)": {
+    "y": 2024,
+    "d": "Allocation d'aide au retour à l'emploi - Formation (ARE-F). Component of Formation professionnelle within French social protection.",
+    "b": "Beneficiaries of formation professionnelle receiving this specific benefit."
+  },
+  "Stages de formation professionnelle des régions": {
+    "y": 2024,
+    "d": "Stages de formation professionnelle des régions. Component of Formation professionnelle within French social protection.",
+    "b": "Beneficiaries of formation professionnelle receiving this specific benefit."
+  },
+  "Rémunération de fin de formation (RFF)": {
+    "y": 2024,
+    "d": "Rémunération de fin de formation (RFF). Component of Formation professionnelle within French social protection.",
+    "b": "Beneficiaries of formation professionnelle receiving this specific benefit."
+  },
+  "Autres dépenses de formation": {
+    "y": 2024,
+    "d": "Autres dépenses de formation. Component of Formation professionnelle within French social protection.",
+    "b": "Beneficiaries of formation professionnelle receiving this specific benefit."
+  },
+  "Autres prestations liées à l'insertion professionnelle": {
+    "y": 2024,
+    "d": "Autres prestations liées à l'insertion professionnelle. Component of Insertion professionnelle within French social protection.",
+    "b": "Beneficiaries of insertion professionnelle receiving this specific benefit."
+  },
+  "Aide à la reprise ou à la création d'entreprise": {
+    "y": 2024,
+    "d": "Aide à la reprise ou à la création d'entreprise. Component of Insertion professionnelle within French social protection.",
+    "b": "Beneficiaries of insertion professionnelle receiving this specific benefit."
+  },
+  "Insertion professionnelle des jeunes": {
+    "y": 2024,
+    "d": "Insertion professionnelle des jeunes. Component of Insertion professionnelle within French social protection.",
+    "b": "Beneficiaries of insertion professionnelle receiving this specific benefit."
+  },
+  "Bourses et subventions diverses": {
+    "y": 2024,
+    "d": "Bourses et subventions diverses. Component of Insertion professionnelle within French social protection.",
+    "b": "Beneficiaries of insertion professionnelle receiving this specific benefit."
+  },
+  "RSA socle": {
+    "y": 2024,
+    "d": "RSA socle. Component of Revenu minimum within French social protection.",
+    "b": "Beneficiaries of revenu minimum receiving this specific benefit."
+  },
+  "Prime de solidarité active (avril 2009) et aide exceptionnelle de fin d'année (Prime de noël)": {
+    "y": 2024,
+    "d": "Prime de solidarité active (avril 2009) et aide exceptionnelle de fin d'année (Prime de noël). Component of Revenu minimum within French social protection.",
+    "b": "Beneficiaries of revenu minimum receiving this specific benefit."
+  },
+  "Revenu minimum d'insertion (RMI)": {
+    "y": 2024,
+    "d": "Revenu minimum d'insertion (RMI). Component of Revenu minimum within French social protection.",
+    "b": "Beneficiaries of revenu minimum receiving this specific benefit."
+  },
+  "Prime d'activité": {
+    "y": 2024,
+    "d": "Prime d'activité. Component of Prime liée à l'activité within French social protection.",
+    "b": "Beneficiaries of prime liée à l'activité receiving this specific benefit."
+  },
+  "Mesure exceptionnelle d’aide à l’acquisition du carburant": {
+    "y": 2024,
+    "d": "Mesure exceptionnelle d’aide à l’acquisition du carburant. Component of Prestations versées à titre exceptionnel within French social protection.",
+    "b": "Beneficiaries of prestations versées à titre exceptionnel receiving this specific benefit."
+  },
+  "Aide personnalisée au logement (APL) - ventilation non disponible": {
+    "y": 2024,
+    "d": "Aide personnalisée au logement (APL) - ventilation non disponible. Component of Aide personnalisée au logement (APL) within French social protection.",
+    "b": "Beneficiaries of aide personnalisée au logement (apl) receiving this specific benefit."
+  },
+  "Allocation de logement sociale (ALS) - ventilation non disponible": {
+    "y": 2024,
+    "d": "Allocation de logement sociale (ALS) - ventilation non disponible. Component of Allocation de logement sociale (ALS) within French social protection.",
+    "b": "Beneficiaries of allocation de logement sociale (als) receiving this specific benefit."
+  },
+  "Allocation de logement familiale (ALF) - ventilation non disponible": {
+    "y": 2024,
+    "d": "Allocation de logement familiale (ALF) - ventilation non disponible. Component of Allocation de logement familiale (ALF) within French social protection.",
+    "b": "Beneficiaries of allocation de logement familiale (alf) receiving this specific benefit."
   }
 }
