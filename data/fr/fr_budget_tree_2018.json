@@ -1,0 +1,4970 @@
+{
+  "name": "France Public Spending 2018",
+  "value": 1190120048573,
+  "children": [
+    {
+      "id": "fr_ss",
+      "name": "Sécurité Sociale (Social Security)",
+      "value": 749155793590,
+      "children": [
+        {
+          "id": "fr_ss_vieillesse_survie",
+          "name": "VIEILLESSE-SURVIE",
+          "value": 344552247903
+        },
+        {
+          "id": "fr_ss_sante",
+          "name": "SANTÉ",
+          "value": 259168088116
+        },
+        {
+          "id": "fr_ss_famille",
+          "name": "FAMILLE",
+          "value": 56365083314
+        },
+        {
+          "id": "fr_ss_emploi",
+          "name": "EMPLOI",
+          "value": 45656785804
+        },
+        {
+          "id": "fr_ss_pauvrete",
+          "name": "PAUVRETÉ-EXCLUSION SOCIALE",
+          "value": 26240023547
+        },
+        {
+          "id": "fr_ss_logement",
+          "name": "LOGEMENT",
+          "value": 17173564907
+        }
+      ]
+    },
+    {
+      "id": "remb",
+      "name": "Remboursements et dégrèvements",
+      "value": 115201474000,
+      "children": [
+        {
+          "id": "200",
+          "name": "Remboursements et dégrèvements d'impôts d'État (crédits évaluatifs)",
+          "value": 100155474000,
+          "children": [
+            {
+              "id": "11",
+              "name": "Remboursements et restitutions liés à la mécanique de l'impôt",
+              "value": 67758249000,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "Taxe sur la valeur ajoutée",
+                  "value": 51481460000
+                },
+                {
+                  "id": "01",
+                  "name": "Impôts sur les sociétés",
+                  "value": 16097000000
+                },
+                {
+                  "id": "04",
+                  "name": "Autres remboursements et dégrèvements liés à la mécanique de limpôt",
+                  "value": 179789000
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "name": "Remboursements et dégrèvements liées à des politiques publiques",
+              "value": 21231960000,
+              "children": [
+                {
+                  "id": "03",
+                  "name": "Impôt sur les sociétés",
+                  "value": 15521000000
+                },
+                {
+                  "id": "02",
+                  "name": "Impôt sur le revenu",
+                  "value": 3691000000
+                },
+                {
+                  "id": "04",
+                  "name": "Taxe intérieure sur les produits pétroliers",
+                  "value": 1422560000
+                },
+                {
+                  "id": "06",
+                  "name": "Contribution pour l'audiovisuel public",
+                  "value": 594400000
+                },
+                {
+                  "id": "05",
+                  "name": "Taxe intérieure de consommation sur le gaz naturel",
+                  "value": 3000000
+                }
+              ]
+            },
+            {
+              "id": "13",
+              "name": "Remboursements et dégrèvements liés à la gestion des produits de l'Etat",
+              "value": 11165265000,
+              "children": [
+                {
+                  "id": "04",
+                  "name": "Taxe sur la valeur ajoutée - Dégrèvements et restitution de sommes indûment perçues",
+                  "value": 2136265000
+                },
+                {
+                  "id": "03",
+                  "name": "Autres impôts directs et taxes assimilées - Dégrèvements et restitution de sommes indûment perçues",
+                  "value": 2075000000
+                },
+                {
+                  "id": "01",
+                  "name": "Impôts sur le revenu - Dégrèvements et restitution de sommes indûment perçues",
+                  "value": 2055000000
+                },
+                {
+                  "id": "07",
+                  "name": "Autres remboursements et dégrèvements liés à la gestion des produits de l'Etat - Admissions en non valeur - Créances liées aux impôts",
+                  "value": 2050000000
+                },
+                {
+                  "id": "02",
+                  "name": "Impôts sur les sociétés - Dégrèvements et restitution de sommes indûment perçues",
+                  "value": 839000000
+                },
+                {
+                  "id": "06",
+                  "name": "Autres remboursements et dégrèvements liés à la gestion des produits de l'Etat",
+                  "value": 710000000
+                },
+                {
+                  "id": "05",
+                  "name": "Enregistrement, timbre, autres contributions et taxes indirectes - Dégrèvements et restitution de sommes indûment perçues",
+                  "value": 650000000
+                },
+                {
+                  "id": "08",
+                  "name": "Autres remboursements et dégrèvements liés à la gestion des produits de l'Etat - Dations en paiement, intérêts moratoires, remises de débets",
+                  "value": 650000000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "201",
+          "name": "Remboursements et dégrèvements d'impôts locaux (crédits évaluatifs)",
+          "value": 15046000000,
+          "children": [
+            {
+              "id": "03",
+              "name": "Taxe d'habitation",
+              "value": 6864000000
+            },
+            {
+              "id": "01",
+              "name": "Taxe professionnelle et contribution économique territoriale  et autres impôts économiques créés ou modifiés dans le cadre de la réforme de la taxe professionnelle",
+              "value": 6490000000
+            },
+            {
+              "id": "02",
+              "name": "Taxes foncières",
+              "value": 1161000000
+            },
+            {
+              "id": "04",
+              "name": "Admission en non valeur d'impôts locaux",
+              "value": 531000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ense",
+      "name": "Enseignement scolaire",
+      "value": 71530662623,
+      "children": [
+        {
+          "id": "141",
+          "name": "Enseignement scolaire public du second degré",
+          "value": 32743503123,
+          "children": [
+            {
+              "id": "01",
+              "name": "Enseignement en collège",
+              "value": 11583984111
+            },
+            {
+              "id": "02",
+              "name": "Enseignement général et technologique en lycée",
+              "value": 7266124251
+            },
+            {
+              "id": "03",
+              "name": "Enseignement professionnel sous statut scolaire",
+              "value": 4419071279
+            },
+            {
+              "id": "12",
+              "name": "Pilotage, administration et encadrement pédagogique",
+              "value": 3345051026
+            },
+            {
+              "id": "05",
+              "name": "Enseignement post-baccalauréat en lycée",
+              "value": 2121990702
+            },
+            {
+              "id": "11",
+              "name": "Remplacement",
+              "value": 1482953555
+            },
+            {
+              "id": "06",
+              "name": "Besoins éducatifs particuliers",
+              "value": 1226602085
+            },
+            {
+              "id": "10",
+              "name": "Formation des personnels enseignants et d'orientation",
+              "value": 690231010
+            },
+            {
+              "id": "08",
+              "name": "Information et orientation",
+              "value": 324332603
+            },
+            {
+              "id": "09",
+              "name": "Formation continue des adultes et validation des acquis de l'expérience",
+              "value": 124037355
+            },
+            {
+              "id": "13",
+              "name": "Personnels en situations diverses",
+              "value": 93603980
+            },
+            {
+              "id": "07",
+              "name": "Aide à l'insertion professionnelle",
+              "value": 58249240
+            },
+            {
+              "id": "04",
+              "name": "Apprentissage",
+              "value": 7271926
+            }
+          ]
+        },
+        {
+          "id": "140",
+          "name": "Enseignement scolaire public du premier degré",
+          "value": 22015519639,
+          "children": [
+            {
+              "id": "02",
+              "name": "Enseignement élémentaire",
+              "value": 10770265921
+            },
+            {
+              "id": "01",
+              "name": "Enseignement pré-élémentaire",
+              "value": 5289782511
+            },
+            {
+              "id": "03",
+              "name": "Besoins éducatifs particuliers",
+              "value": 1865801529
+            },
+            {
+              "id": "05",
+              "name": "Remplacement",
+              "value": 1849196296
+            },
+            {
+              "id": "06",
+              "name": "Pilotage et encadrement pédagogique",
+              "value": 1291212211
+            },
+            {
+              "id": "04",
+              "name": "Formation des personnels enseignants",
+              "value": 852620063
+            },
+            {
+              "id": "07",
+              "name": "Personnels en situations diverses",
+              "value": 96641108
+            }
+          ]
+        },
+        {
+          "id": "139",
+          "name": "Enseignement privé du premier et du second degrés",
+          "value": 7553186215,
+          "children": [
+            {
+              "id": "03",
+              "name": "Enseignement en collège",
+              "value": 1966306122
+            },
+            {
+              "id": "04",
+              "name": "Enseignement général et technologique en lycée",
+              "value": 1283895322
+            },
+            {
+              "id": "02",
+              "name": "Enseignement élémentaire",
+              "value": 1274437537
+            },
+            {
+              "id": "05",
+              "name": "Enseignement professionnel sous statut scolaire",
+              "value": 788361457
+            },
+            {
+              "id": "09",
+              "name": "Fonctionnement des établissements",
+              "value": 677187666
+            },
+            {
+              "id": "01",
+              "name": "Enseignement pré-élémentaire",
+              "value": 479006229
+            },
+            {
+              "id": "06",
+              "name": "Enseignement post-baccalauréat en lycée",
+              "value": 285069858
+            },
+            {
+              "id": "12",
+              "name": "Soutien",
+              "value": 234215109
+            },
+            {
+              "id": "11",
+              "name": "Remplacement",
+              "value": 179668926
+            },
+            {
+              "id": "07",
+              "name": "Dispositifs spécifiques de scolarisation",
+              "value": 158693218
+            },
+            {
+              "id": "10",
+              "name": "Formation initiale et continue des enseignants",
+              "value": 152493860
+            },
+            {
+              "id": "08",
+              "name": "Actions sociales en faveur des élèves",
+              "value": 73850911
+            }
+          ]
+        },
+        {
+          "id": "230",
+          "name": "Vie de l'élève",
+          "value": 5413164018,
+          "children": [
+            {
+              "id": "01",
+              "name": "Vie scolaire et éducation à la responsabilité",
+              "value": 2481996570
+            },
+            {
+              "id": "03",
+              "name": "Inclusion scolaire des élèves en situation de handicap",
+              "value": 1162793639
+            },
+            {
+              "id": "04",
+              "name": "Action sociale",
+              "value": 881458968
+            },
+            {
+              "id": "02",
+              "name": "Santé scolaire",
+              "value": 507362659
+            },
+            {
+              "id": "06",
+              "name": "Actions éducatives complémentaires aux enseignements",
+              "value": 324047586
+            },
+            {
+              "id": "05",
+              "name": "Politique de l'internat et établissements à la charge de l'Etat",
+              "value": 55504596
+            }
+          ]
+        },
+        {
+          "id": "214",
+          "name": "Soutien de la politique de l'éducation nationale",
+          "value": 2352738061,
+          "children": [
+            {
+              "id": "06",
+              "name": "Politique des ressources humaines",
+              "value": 729397869
+            },
+            {
+              "id": "08",
+              "name": "Logistique, système d'information, immobilier",
+              "value": 707050680
+            },
+            {
+              "id": "01",
+              "name": "Pilotage et mise en oeuvre des politiques éducatives",
+              "value": 425905298
+            },
+            {
+              "id": "09",
+              "name": "Certification",
+              "value": 202980668
+            },
+            {
+              "id": "07",
+              "name": "Établissements d'appui de la politique éducative",
+              "value": 156668611
+            },
+            {
+              "id": "02",
+              "name": "Évaluation et contrôle",
+              "value": 82259353
+            },
+            {
+              "id": "04",
+              "name": "Expertise juridique",
+              "value": 17109280
+            },
+            {
+              "id": "03",
+              "name": "Communication",
+              "value": 14099945
+            },
+            {
+              "id": "05",
+              "name": "Action internationale",
+              "value": 13943512
+            },
+            {
+              "id": "10",
+              "name": "Transports scolaires",
+              "value": 3322845
+            }
+          ]
+        },
+        {
+          "id": "143",
+          "name": "Enseignement technique agricole",
+          "value": 1452551567,
+          "children": [
+            {
+              "id": "01",
+              "name": "Mise en oeuvre de l'enseignement dans les établissements publics",
+              "value": 759083701
+            },
+            {
+              "id": "02",
+              "name": "Mise en oeuvre des enseignements dans les établissements privés",
+              "value": 588592245
+            },
+            {
+              "id": "03",
+              "name": "Aide sociale aux élèves (enseignement public et privé)",
+              "value": 95969408
+            },
+            {
+              "id": "05",
+              "name": "Moyens communs à l'enseignement technique agricole, public et privé",
+              "value": 5521995
+            },
+            {
+              "id": "04",
+              "name": "Évolution des compétences et dynamique territoriale",
+              "value": 3384218
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dfe",
+      "name": "Défense",
+      "value": 42633756547,
+      "children": [
+        {
+          "id": "212",
+          "name": "Soutien de la politique de la défense",
+          "value": 22927979172,
+          "children": [
+            {
+              "id": "55",
+              "name": "\"Préparation des forces terrestres - Personnel travaillant pour le programme \"\"Préparation et emploi des forces\"\"\"",
+              "value": 7219727909,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Ressources humaines des forces terrestres",
+                  "value": 7219727909
+                }
+              ]
+            },
+            {
+              "id": "58",
+              "name": "\"Logistique et soutien interarmées - Personnel travaillant pour le programme \"\"Préparation et emploi des forces\"\"\"",
+              "value": 2561678041,
+              "children": [
+                {
+                  "id": "05",
+                  "name": "Service du commissariat des armées",
+                  "value": 1474235802
+                },
+                {
+                  "id": "06",
+                  "name": "Fonction santé",
+                  "value": 841280778
+                },
+                {
+                  "id": "01",
+                  "name": "Fonction pétrolière",
+                  "value": 124455859
+                },
+                {
+                  "id": "04",
+                  "name": "Service interarmées des munitions",
+                  "value": 82982083
+                },
+                {
+                  "id": "02",
+                  "name": "Logistique et soutien interarmées / CICoS",
+                  "value": 38723519
+                }
+              ]
+            },
+            {
+              "id": "57",
+              "name": "\"Préparation des forces aériennes- Personnel travaillant pour le programme \"\"Préparation et emploi des forces\"\"\"",
+              "value": 2502981670,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Ressources humaines des forces aériennes",
+                  "value": 2502981670
+                }
+              ]
+            },
+            {
+              "id": "56",
+              "name": "\"Préparation des forces navales - Personnel travaillant pour le programme \"\"Préparation et emploi des forces\"\"\"",
+              "value": 2344368999,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Ressources humaines des forces navales",
+                  "value": 2344368999
+                }
+              ]
+            },
+            {
+              "id": "53",
+              "name": "\"Préparation et conduite des opérations d'armement - Personnel travaillant  pour le programme  \"\"Équipement des forces \"\"\"",
+              "value": 2006818874,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Soutien aux opérations d'armement",
+                  "value": 2006818874
+                }
+              ]
+            },
+            {
+              "id": "04",
+              "name": "Politique immobilière",
+              "value": 1744159477
+            },
+            {
+              "id": "54",
+              "name": "\"Planification des moyens et conduite des opérations - Personnel travaillant  pour le programme \"\"Préparation et emploi des forces\"\"\"",
+              "value": 1277121631,
+              "children": [
+                {
+                  "id": "07",
+                  "name": "Systèmes d'information et de communication",
+                  "value": 538154044
+                },
+                {
+                  "id": "02",
+                  "name": "Organismes interarmées à vocation opérationnelle",
+                  "value": 212423855
+                },
+                {
+                  "id": "06",
+                  "name": "Renseignement d'intérêt militaire",
+                  "value": 171234473
+                },
+                {
+                  "id": "05",
+                  "name": "EMA / Relations internationales militaires / PPE",
+                  "value": 144049099
+                },
+                {
+                  "id": "01",
+                  "name": "Commandement des armées",
+                  "value": 114187110
+                },
+                {
+                  "id": "04",
+                  "name": "Enseignement interarmées",
+                  "value": 49343112
+                },
+                {
+                  "id": "03",
+                  "name": "Organismes interarmées à vocation prospective et maitrise des armements",
+                  "value": 47729938
+                }
+              ]
+            },
+            {
+              "id": "50",
+              "name": "\"Recherche et exploitation du renseignement intéressant la sécurité de la France - Personnel travaillant  pour le programme \"\"Environnement et prospective de la politique de défense\"\"\"",
+              "value": 566928497,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Renseignement extérieur",
+                  "value": 445544692
+                },
+                {
+                  "id": "02",
+                  "name": "Renseignement de sécurité et de défense",
+                  "value": 121383805
+                }
+              ]
+            },
+            {
+              "id": "60",
+              "name": "\"Politique immobilière - Personnel travaillant pour l'action \"\"Politique immobilière\"\"\"",
+              "value": 465905863
+            },
+            {
+              "id": "11",
+              "name": "Pilotage, soutien et communication",
+              "value": 419782314
+            },
+            {
+              "id": "64",
+              "name": "\"Pilotage, soutien  -  Personnel travaillant pour l'action \"\" Pilotage, soutien \"\"\"",
+              "value": 403535283,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Personnel du SGA employeur",
+                  "value": 297591884
+                },
+                {
+                  "id": "07",
+                  "name": "Personnel de l'action sociale",
+                  "value": 57588196
+                },
+                {
+                  "id": "08",
+                  "name": "Personnel de l'agence de reconversion de la Défense",
+                  "value": 48355203
+                }
+              ]
+            },
+            {
+              "id": "61",
+              "name": "Action sociale, chômage et pensions",
+              "value": 307787556,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Actions sociales et autres politiques des ressources humaines",
+                  "value": 173733246
+                },
+                {
+                  "id": "02",
+                  "name": "Reconversion des personnels militaires - Chômage",
+                  "value": 128406400
+                },
+                {
+                  "id": "03",
+                  "name": "Reconversion des personnels civils - Chômage",
+                  "value": 5647910
+                }
+              ]
+            },
+            {
+              "id": "59",
+              "name": "\"Surcoûts liés aux opérations - Personnel travaillant pour le programme \"\"Préparation et emploi des forces\"\"\"",
+              "value": 286000000,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Surcoûts liés aux opérations extérieures",
+                  "value": 245000000
+                },
+                {
+                  "id": "02",
+                  "name": "Surcoûts liés aux opérations intérieures",
+                  "value": 41000000
+                }
+              ]
+            },
+            {
+              "id": "06",
+              "name": "Politiques des ressources humaines",
+              "value": 153030778,
+              "children": [
+                {
+                  "id": "04",
+                  "name": "Action sociale et autres politiques de ressources humaines (hors rémunérations des agents)",
+                  "value": 115637975
+                },
+                {
+                  "id": "03",
+                  "name": "Reconversion",
+                  "value": 37392803
+                }
+              ]
+            },
+            {
+              "id": "05",
+              "name": "Systèmes d'information, d'administration et de gestion",
+              "value": 137674951
+            },
+            {
+              "id": "67",
+              "name": "Pilotage, soutien et communication - dépenses de personnel des cabinets et des organismes rattachés / RH",
+              "value": 97257894,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Sous-Direction des Bureau des Cabinets - Cabinet du Ministre de la Défense - Cabinet du Secrétaire d'Etat aux anciens combattants - Bureau des Officiers Généraux",
+                  "value": 44152720
+                },
+                {
+                  "id": "02",
+                  "name": "Contrôle général des armées",
+                  "value": 20810648
+                },
+                {
+                  "id": "04",
+                  "name": "Délégation à l'Information et la Communication de la Défense",
+                  "value": 10955499
+                },
+                {
+                  "id": "06",
+                  "name": "Contrôle Budgétaire et Comptable Ministériel défense - Agence Comptable des Services Industriels de l'Armement",
+                  "value": 7530409
+                },
+                {
+                  "id": "03",
+                  "name": "Direction Générale des Systèmes d'Information et de Communication",
+                  "value": 6764261
+                },
+                {
+                  "id": "05",
+                  "name": "Gendarmerie de la Sureté de l'Armement Nucléaire",
+                  "value": 4671694
+                },
+                {
+                  "id": "07",
+                  "name": "Direction de la Protection des Installations, moyens et activités de la Défense",
+                  "value": 2372663
+                }
+              ]
+            },
+            {
+              "id": "52",
+              "name": "Relations internationales",
+              "value": 86781445,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "DGRIS / Diplomatie de défense",
+                  "value": 79037084
+                },
+                {
+                  "id": "01",
+                  "name": "DGA / Soutien aux exportations",
+                  "value": 7744361
+                }
+              ]
+            },
+            {
+              "id": "65",
+              "name": "\"Journée défense et citoyenneté - Personnel travaillant pour le programme \"\"Liens entre la Nation et son armée\"\"\"",
+              "value": 81663582
+            },
+            {
+              "id": "63",
+              "name": "Restructurations - RH",
+              "value": 72820420,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "Restructurations Personnels militaires",
+                  "value": 39964065
+                },
+                {
+                  "id": "01",
+                  "name": "Restructurations Personnels civils",
+                  "value": 32856355
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "name": "Restructurations",
+              "value": 66537610
+            },
+            {
+              "id": "62",
+              "name": "\"Politique culturelle et éducative - gestion et communication des archives historiques de la défense - Personnel travaillant pour l'action \"\"Politique culturelle et éducative\"\"\"",
+              "value": 38172825
+            },
+            {
+              "id": "08",
+              "name": "Politique culturelle et éducative",
+              "value": 37557109,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Actions culturelles et mise en valeur du patrimoine",
+                  "value": 33946351
+                },
+                {
+                  "id": "02",
+                  "name": "Gestion et communication des archives historiques de la défense",
+                  "value": 3610758
+                }
+              ]
+            },
+            {
+              "id": "51",
+              "name": "\"Prospective de défense - Personnel travaillant  pour le programme \"\"Environnement et prospective de la politique de défense\"\"\"",
+              "value": 25360000,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "DGRIS / Administration  centrale",
+                  "value": 25360000
+                }
+              ]
+            },
+            {
+              "id": "66",
+              "name": "Rayonnement et contribution extérieure",
+              "value": 24326444,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "Pilotage, soutien et communication - effectifs sortants non remboursés sous PMEA Mindef",
+                  "value": 23158371
+                },
+                {
+                  "id": "05",
+                  "name": "Pilotage, soutien et communication -  Elèves des classes préparatoires des lycées de la défense",
+                  "value": 1168073
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "146",
+          "name": "Équipement des forces",
+          "value": 10243245142,
+          "children": [
+            {
+              "id": "09",
+              "name": "Engagement et combat",
+              "value": 3508491552,
+              "children": [
+                {
+                  "id": "75",
+                  "name": "Opérer en milieu hostile - Autres opérations et conduire des opérations spéciales",
+                  "value": 587244744
+                },
+                {
+                  "id": "59",
+                  "name": "Frapper à distance - RAFALE",
+                  "value": 585099441
+                },
+                {
+                  "id": "74",
+                  "name": "Opérer en milieu hostile - SNA Barracuda",
+                  "value": 563977397
+                },
+                {
+                  "id": "61",
+                  "name": "Frapper à distance - Autres opérations",
+                  "value": 426111278
+                },
+                {
+                  "id": "73",
+                  "name": "Opérer en milieu hostile - Frégates multi-missions (FREMM)",
+                  "value": 297899315
+                },
+                {
+                  "id": "77",
+                  "name": "Opérer en milieu hostile -  SCORPION",
+                  "value": 274318262
+                },
+                {
+                  "id": "68",
+                  "name": "Opérer en milieu hostile - Hélicoptère HAP/HAD TIGRE",
+                  "value": 216667986
+                },
+                {
+                  "id": "78",
+                  "name": "Frapper à distance - Mirage 2000",
+                  "value": 125613014
+                },
+                {
+                  "id": "89",
+                  "name": "Opérer en milieu hostile - Frégates de taille intermédiaire",
+                  "value": 125216449
+                },
+                {
+                  "id": "88",
+                  "name": "Opérer en milieu hostile - missile moyenne portée MMP",
+                  "value": 98707086
+                },
+                {
+                  "id": "56",
+                  "name": "Frapper à distance - Missile de croisière naval (MDCN)",
+                  "value": 63007824
+                },
+                {
+                  "id": "69",
+                  "name": "Opérer en milieu hostile - Future torpille lourde (FTL)",
+                  "value": 51695542
+                },
+                {
+                  "id": "71",
+                  "name": "Opérer en milieu hostile - Evolution Exocet",
+                  "value": 47049683
+                },
+                {
+                  "id": "66",
+                  "name": "Opérer en milieu hostile - Véhicule blindé de combat d'infanterie (VBCI)",
+                  "value": 45883531
+                }
+              ]
+            },
+            {
+              "id": "06",
+              "name": "Dissuasion",
+              "value": 3246340506,
+              "children": [
+                {
+                  "id": "19",
+                  "name": "Assurer la crédibilité technique de la dissuasion - Autres opérations",
+                  "value": 746980767
+                },
+                {
+                  "id": "22",
+                  "name": "Assurer la crédibilité opérationnelle de la dissuasion - soutien et mise en oeuvre des forces - toutes opérations",
+                  "value": 745931907
+                },
+                {
+                  "id": "14",
+                  "name": "Assurer la crédibilité technique de la dissuasion M51",
+                  "value": 645268828
+                },
+                {
+                  "id": "18",
+                  "name": "Assurer la crédibilité technique de la dissuasion Simulation",
+                  "value": 493922829
+                },
+                {
+                  "id": "23",
+                  "name": "Assurer la crédibilité technique de la posture - toutes opérations",
+                  "value": 291250387
+                },
+                {
+                  "id": "24",
+                  "name": "Assurer la crédibilité technique de la dissuasion  SNLE 3G",
+                  "value": 176056977
+                },
+                {
+                  "id": "17",
+                  "name": "Assurer la crédibilité technique de la dissuasion - Air sol moyenne portée amélioré (ASMPA)",
+                  "value": 77757029
+                },
+                {
+                  "id": "15",
+                  "name": "Assurer la crédibilité technique de la dissuasion SNLE NG : adaptation M51",
+                  "value": 69171782
+                }
+              ]
+            },
+            {
+              "id": "07",
+              "name": "Commandement et maîtrise de l'information",
+              "value": 1593714784,
+              "children": [
+                {
+                  "id": "39",
+                  "name": "Renseigner, surveiller, acquérir et reconnaître - Autres opérations",
+                  "value": 364092999
+                },
+                {
+                  "id": "35",
+                  "name": "Communiquer - Autres opérations",
+                  "value": 248905630
+                },
+                {
+                  "id": "32",
+                  "name": "Communiquer - Moyens de communication satellitaire",
+                  "value": 217662796
+                },
+                {
+                  "id": "24",
+                  "name": "Commander et conduire - Système de commandement et de conduite des opérations aériennes (SCCOA)",
+                  "value": 183525884
+                },
+                {
+                  "id": "36",
+                  "name": "Communiquer - CONTACT",
+                  "value": 148242445
+                },
+                {
+                  "id": "29",
+                  "name": "Commander et conduire - Système d'information des armées (SIA)",
+                  "value": 94533905
+                },
+                {
+                  "id": "40",
+                  "name": "Renseigner, surveiller, acquérir et reconnaître - MUSIS",
+                  "value": 77684523
+                },
+                {
+                  "id": "41",
+                  "name": "Communiquer - DESCARTES",
+                  "value": 60391736
+                },
+                {
+                  "id": "42",
+                  "name": "Renseigner, surveiller, acquérir et reconnaître - CERES",
+                  "value": 60125692
+                },
+                {
+                  "id": "27",
+                  "name": "Commander et conduire - Géographie numérique",
+                  "value": 58928895
+                },
+                {
+                  "id": "28",
+                  "name": "Commander et conduire - Autres opérations",
+                  "value": 40617218
+                },
+                {
+                  "id": "25",
+                  "name": "Commander et conduire - Système d'information TERRE",
+                  "value": 39003061
+                }
+              ]
+            },
+            {
+              "id": "08",
+              "name": "Projection - mobilité - soutien",
+              "value": 1399203829,
+              "children": [
+                {
+                  "id": "47",
+                  "name": "Assurer la mobilité - Hélicoptère NH 90",
+                  "value": 445710515
+                },
+                {
+                  "id": "55",
+                  "name": "Maintenir le potentiel ami et autre - MRTT",
+                  "value": 279368468
+                },
+                {
+                  "id": "43",
+                  "name": "Projeter les forces - Autres opérations",
+                  "value": 268171373
+                },
+                {
+                  "id": "42",
+                  "name": "Projeter les forces - Avion de transport futur (A400M)",
+                  "value": 190802077
+                },
+                {
+                  "id": "48",
+                  "name": "Assurer la mobilité - Autres opérations",
+                  "value": 125768595
+                },
+                {
+                  "id": "53",
+                  "name": "Maintenir le potentiel ami et autre - Autres opérations",
+                  "value": 59526610
+                },
+                {
+                  "id": "51",
+                  "name": "Maintenir le potentiel ami et autre - Porteur polyvalent terrestre (PPT)",
+                  "value": 18694784
+                },
+                {
+                  "id": "46",
+                  "name": "Assurer la mobilité - Rénovation Cougar",
+                  "value": 11161407
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "name": "Protection et sauvegarde",
+              "value": 290055001,
+              "children": [
+                {
+                  "id": "79",
+                  "name": "Assurer la sûreté des approches - Autres opérations et assurer la sécurité de l'Etat, de la nation et des citoyens",
+                  "value": 147481248
+                },
+                {
+                  "id": "86",
+                  "name": "Assurer la protection des forces et des sites - Autres opérations et assurer la protection de l'homme",
+                  "value": 97087008
+                },
+                {
+                  "id": "82",
+                  "name": "Assurer la protection des forces et des sites - Famille de systèmes sol-air futurs (FSAF)",
+                  "value": 45486745
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "name": "Préparation et conduite des opérations d'armement",
+              "value": 205439470,
+              "children": [
+                {
+                  "id": "90",
+                  "name": "Investissements pour les opérations d'armement",
+                  "value": 116304845
+                },
+                {
+                  "id": "89",
+                  "name": "Fonctionnement et soutien DGA",
+                  "value": 89134625
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "178",
+          "name": "Préparation et emploi des forces",
+          "value": 8066880474,
+          "children": [
+            {
+              "id": "03",
+              "name": "Préparation des forces navales",
+              "value": 2245708503,
+              "children": [
+                {
+                  "id": "07",
+                  "name": "Maintien en condition opérationnelle du matériel des forces navales",
+                  "value": 1822843464
+                },
+                {
+                  "id": "01",
+                  "name": "Commandement et activités des forces navales",
+                  "value": 310477408
+                },
+                {
+                  "id": "08",
+                  "name": "Environnement opérationnel des forces navales",
+                  "value": 69705805
+                },
+                {
+                  "id": "05",
+                  "name": "Ressources humaines des forces navales",
+                  "value": 42681826
+                }
+              ]
+            },
+            {
+              "id": "04",
+              "name": "Préparation des forces aériennes",
+              "value": 2123265976,
+              "children": [
+                {
+                  "id": "06",
+                  "name": "Entretien et équipements des forces aériennes",
+                  "value": 1615692020
+                },
+                {
+                  "id": "03",
+                  "name": "Activités des forces aériennes",
+                  "value": 268297419
+                },
+                {
+                  "id": "04",
+                  "name": "Activités des forces aériennes stratégiques",
+                  "value": 151053061
+                },
+                {
+                  "id": "05",
+                  "name": "Ressources humaines des forces aériennes",
+                  "value": 80795546
+                },
+                {
+                  "id": "02",
+                  "name": "Commandement et activités centralisées des forces aériennes",
+                  "value": 7427930
+                }
+              ]
+            },
+            {
+              "id": "05",
+              "name": "Logistique et soutien interarmées",
+              "value": 1458249937,
+              "children": [
+                {
+                  "id": "82",
+                  "name": "Soutien des forces par les bases de défense",
+                  "value": 671572861
+                },
+                {
+                  "id": "85",
+                  "name": "Service du commissariat aux armées",
+                  "value": 498299212
+                },
+                {
+                  "id": "83",
+                  "name": "Soutiens complémentaires",
+                  "value": 138510815
+                },
+                {
+                  "id": "80",
+                  "name": "Fonction santé",
+                  "value": 126329666
+                },
+                {
+                  "id": "84",
+                  "name": "Service interarmées des munitions",
+                  "value": 23537383
+                }
+              ]
+            },
+            {
+              "id": "02",
+              "name": "Préparation des forces terrestres",
+              "value": 1309299485,
+              "children": [
+                {
+                  "id": "07",
+                  "name": "Maintien en condition opérationnelle du matériel des forces terrestres",
+                  "value": 884048111
+                },
+                {
+                  "id": "08",
+                  "name": "Environnement opérationnel des forces terrestres",
+                  "value": 189193272
+                },
+                {
+                  "id": "01",
+                  "name": "Commandement et activités des forces terrestres",
+                  "value": 156746828
+                },
+                {
+                  "id": "05",
+                  "name": "Ressources humaines des forces terrestres",
+                  "value": 79311274
+                }
+              ]
+            },
+            {
+              "id": "01",
+              "name": "Planification  des moyens et conduite des opérations",
+              "value": 525356573,
+              "children": [
+                {
+                  "id": "10",
+                  "name": "Emploi des forces",
+                  "value": 276955475
+                },
+                {
+                  "id": "14",
+                  "name": "Systèmes d'information et de communication",
+                  "value": 195952031
+                },
+                {
+                  "id": "11",
+                  "name": "Renseignement d'intérêt militaire",
+                  "value": 52449067
+                }
+              ]
+            },
+            {
+              "id": "06",
+              "name": "Surcoûts liés aux opérations extérieures",
+              "value": 405000000
+            }
+          ]
+        },
+        {
+          "id": "144",
+          "name": "Environnement et prospective de la politique de défense",
+          "value": 1395651759,
+          "children": [
+            {
+              "id": "07",
+              "name": "Prospective de défense",
+              "value": 1043210029,
+              "children": [
+                {
+                  "id": "03",
+                  "name": "Etudes amont",
+                  "value": 723189498
+                },
+                {
+                  "id": "04",
+                  "name": "Gestion des moyens et subventions",
+                  "value": 288965412
+                },
+                {
+                  "id": "02",
+                  "name": "Prospective des systèmes de forces",
+                  "value": 21643498
+                },
+                {
+                  "id": "01",
+                  "name": "Analyse stratégique",
+                  "value": 9411621
+                }
+              ]
+            },
+            {
+              "id": "03",
+              "name": "Recherche et exploitation du renseignement intéressant la sécurité de la France",
+              "value": 309568117,
+              "children": [
+                {
+                  "id": "31",
+                  "name": "Renseignement extérieur",
+                  "value": 295624227
+                },
+                {
+                  "id": "32",
+                  "name": "Renseignement de sécurité de défense",
+                  "value": 13943890
+                }
+              ]
+            },
+            {
+              "id": "08",
+              "name": "Relations internationales et diplomatie de défense",
+              "value": 42873613
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enga",
+      "name": "Engagements financiers de l'État",
+      "value": 41776806762,
+      "children": [
+        {
+          "id": "117",
+          "name": "Charge de la dette et trésorerie de l'État (crédits évaluatifs)",
+          "value": 41197000000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Dette",
+              "value": 40235000000
+            },
+            {
+              "id": "03",
+              "name": "Trésorerie",
+              "value": 962000000
+            }
+          ]
+        },
+        {
+          "id": "344",
+          "name": "Fonds de soutien relatif aux prêts et contrats financiers structurés à risque",
+          "value": 183916762,
+          "children": [
+            {
+              "id": "01",
+              "name": "Fonds de soutien relatif aux prêts et contrats financiers structurés à risque",
+              "value": 183916762
+            }
+          ]
+        },
+        {
+          "id": "145",
+          "name": "Épargne",
+          "value": 150000000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Épargne logement",
+              "value": 148928000
+            },
+            {
+              "id": "02",
+              "name": "Instruments de financement du logement",
+              "value": 1072000
+            }
+          ]
+        },
+        {
+          "id": "168",
+          "name": "Programme 168",
+          "value": 141800000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Participation de l'État aux majorations de rentes viagères",
+              "value": 141800000
+            }
+          ]
+        },
+        {
+          "id": "114",
+          "name": "Appels en garantie de l'État (crédits évaluatifs)",
+          "value": 104090000,
+          "children": [
+            {
+              "id": "04",
+              "name": "Développement international de l'économie française",
+              "value": 63000000,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "Assurance-prospection",
+                  "value": 32000000
+                },
+                {
+                  "id": "06",
+                  "name": "Garantie du risque exportateur",
+                  "value": 30000000
+                },
+                {
+                  "id": "03",
+                  "name": "Garantie de change",
+                  "value": 1000000
+                }
+              ]
+            },
+            {
+              "id": "02",
+              "name": "Soutien au domaine social, logement, santé",
+              "value": 38290000
+            },
+            {
+              "id": "03",
+              "name": "Financement des entreprises et industrie",
+              "value": 1400000
+            },
+            {
+              "id": "01",
+              "name": "Agriculture et environnement",
+              "value": 900000
+            },
+            {
+              "id": "05",
+              "name": "Autres garanties",
+              "value": 500000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rech",
+      "name": "Recherche et enseignement supérieur",
+      "value": 27667302025,
+      "children": [
+        {
+          "id": "150",
+          "name": "Formations supérieures et recherche universitaire",
+          "value": 13421066358,
+          "children": [
+            {
+              "id": "17",
+              "name": "Recherche",
+              "value": 3924777425
+            },
+            {
+              "id": "01",
+              "name": "Formation initiale et continue du baccalauréat à la licence",
+              "value": 3174551974
+            },
+            {
+              "id": "02",
+              "name": "Formation initiale et continue de niveau master",
+              "value": 2526079920
+            },
+            {
+              "id": "15",
+              "name": "Pilotage et support du programme",
+              "value": 1561206753
+            },
+            {
+              "id": "14",
+              "name": "Immobilier",
+              "value": 1216071627
+            },
+            {
+              "id": "05",
+              "name": "Bibliothèques et documentation",
+              "value": 447670831
+            },
+            {
+              "id": "03",
+              "name": "Formation initiale et continue de niveau doctorat",
+              "value": 373890840
+            },
+            {
+              "id": "13",
+              "name": "Diffusion des savoirs et musées",
+              "value": 116921136
+            },
+            {
+              "id": "04",
+              "name": "Établissements d'enseignement privés",
+              "value": 79895852
+            }
+          ]
+        },
+        {
+          "id": "172",
+          "name": "Recherches scientifiques et technologiques pluridisciplinaires",
+          "value": 6769823853,
+          "children": [
+            {
+              "id": "15",
+              "name": "Recherches scientifiques et technologiques en sciences de la vie et de la santé",
+              "value": 1216306548
+            },
+            {
+              "id": "18",
+              "name": "Recherches scientifiques et technologiques dans le domaine de l'environnement",
+              "value": 1122803927
+            },
+            {
+              "id": "16",
+              "name": "Recherches scientifiques et technologiques en sciences et techniques de l'information",
+              "value": 982627219
+            },
+            {
+              "id": "14",
+              "name": "Moyens généraux et d'appui à la recherche",
+              "value": 889372248
+            },
+            {
+              "id": "02",
+              "name": "Agence nationale de la recherche",
+              "value": 773270416
+            },
+            {
+              "id": "17",
+              "name": "Recherches scientifiques et technologiques dans le domaine de l'énergie",
+              "value": 735376278
+            },
+            {
+              "id": "19",
+              "name": "Recherches scientifiques et technologiques en sciences humaines et sciences sociales",
+              "value": 405109906
+            },
+            {
+              "id": "13",
+              "name": "Grandes infrastructures de recherche",
+              "value": 257335892
+            },
+            {
+              "id": "01",
+              "name": "Pilotage et animation",
+              "value": 175943810
+            },
+            {
+              "id": "12",
+              "name": "Diffusion, valorisation et transfert des connaissances et des technologies",
+              "value": 149019948
+            },
+            {
+              "id": "11",
+              "name": "Recherches interdisciplinaires et transversales",
+              "value": 62657661
+            }
+          ]
+        },
+        {
+          "id": "231",
+          "name": "Vie étudiante",
+          "value": 2699526067,
+          "children": [
+            {
+              "id": "01",
+              "name": "Aides directes",
+              "value": 2266881981
+            },
+            {
+              "id": "02",
+              "name": "Aides indirectes",
+              "value": 274881670
+            },
+            {
+              "id": "04",
+              "name": "Pilotage et animation du programme",
+              "value": 97125554
+            },
+            {
+              "id": "03",
+              "name": "Santé des étudiants et activités associatives, culturelles et sportives",
+              "value": 60636862
+            }
+          ]
+        },
+        {
+          "id": "190",
+          "name": "Recherche dans les domaines de l'énergie, du développement et de la mobilité durables",
+          "value": 1736622455,
+          "children": [
+            {
+              "id": "15",
+              "name": "Charges nucléaires de long terme des installations du CEA",
+              "value": 740000000
+            },
+            {
+              "id": "10",
+              "name": "Recherche dans le domaine de l'énergie",
+              "value": 608418048,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Commissariat à l'énergie atomique et aux énergies alternatives (CEA)",
+                  "value": 477500000
+                },
+                {
+                  "id": "02",
+                  "name": "IFP Energies nouvelles (IFPEN)",
+                  "value": 130418048
+                },
+                {
+                  "id": "03",
+                  "name": "Gestion des matières et déchets radioactifs : CNE - reprise des sources",
+                  "value": 500000
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "name": "Recherche dans le domaine des risques",
+              "value": 177338109,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "Institut de radioprotection et de sûreté nucléaire (IRSN)",
+                  "value": 170964999
+                },
+                {
+                  "id": "01",
+                  "name": "Institut national de l'environnement industriel et des risques (INERIS)",
+                  "value": 6373110
+                }
+              ]
+            },
+            {
+              "id": "14",
+              "name": "Recherche et développement dans le domaine de l'aéronautique civile",
+              "value": 102702068,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Recherches en amont",
+                  "value": 88708726
+                },
+                {
+                  "id": "03",
+                  "name": "Equipementier",
+                  "value": 13865342
+                },
+                {
+                  "id": "02",
+                  "name": "Subventions à des organismes de recherche",
+                  "value": 128000
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "name": "Recherche dans le domaine des transports, de la construction et de l'aménagement",
+              "value": 101613032,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Institut français des sciences et technologies des transports, de laménagement et des réseaux (IFSTTAR)",
+                  "value": 86920000
+                },
+                {
+                  "id": "03",
+                  "name": "Centre scientifique et technique du bâtiment (CSTB)",
+                  "value": 14693032
+                }
+              ]
+            },
+            {
+              "id": "13",
+              "name": "Recherche partenariale dans le développement et l'aménagement durable",
+              "value": 6551198,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Agence nationale chargée de la sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES)",
+                  "value": 1551198
+                },
+                {
+                  "id": "08",
+                  "name": "Risque, santé, environnement",
+                  "value": 1475621
+                },
+                {
+                  "id": "06",
+                  "name": "Urbanisme et territoire (PUCA, MUTS)",
+                  "value": 933445
+                },
+                {
+                  "id": "04",
+                  "name": "Recherche en matière de transport (PREDIT)",
+                  "value": 804780
+                },
+                {
+                  "id": "07",
+                  "name": "Changement global (GMES, adaptation au changement climatique)",
+                  "value": 628059
+                },
+                {
+                  "id": "09",
+                  "name": "Biodiversité",
+                  "value": 582373
+                },
+                {
+                  "id": "10",
+                  "name": "Innovation et prospective dans le domaine du développement et de l'aménagement durable",
+                  "value": 345640
+                },
+                {
+                  "id": "05",
+                  "name": "Construction (PREBAT, C2D2, RGCU)",
+                  "value": 230082
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "193",
+          "name": "Recherche spatiale",
+          "value": 1621974119,
+          "children": [
+            {
+              "id": "04",
+              "name": "Maîtrise de l'accès à l'espace",
+              "value": 577486954
+            },
+            {
+              "id": "02",
+              "name": "Développement de la technologie spatiale au service de l'observation de la terre",
+              "value": 297992423
+            },
+            {
+              "id": "05",
+              "name": "Maîtrise des technologies orbitales et de l'innovation technologique",
+              "value": 240451670
+            },
+            {
+              "id": "01",
+              "name": "Développement de la technologie spatiale au service de la science",
+              "value": 202151044
+            },
+            {
+              "id": "03",
+              "name": "Développement de la technologie spatiale au service de la recherche en sciences de l'information et de la communication",
+              "value": 133545426
+            },
+            {
+              "id": "06",
+              "name": "Moyens généraux et d'appui à la recherche",
+              "value": 87017775
+            },
+            {
+              "id": "07",
+              "name": "Développement des satellites de météorologie",
+              "value": 83328827
+            }
+          ]
+        },
+        {
+          "id": "192",
+          "name": "Recherche et enseignement supérieur en matière économique et industrielle",
+          "value": 779742241,
+          "children": [
+            {
+              "id": "02",
+              "name": "Soutien et diffusion de l'innovation technologique",
+              "value": 347378979
+            },
+            {
+              "id": "01",
+              "name": "Organismes de formation supérieure et de recherche",
+              "value": 317863262
+            },
+            {
+              "id": "03",
+              "name": "Soutien de la recherche industrielle stratégique",
+              "value": 114500000
+            }
+          ]
+        },
+        {
+          "id": "142",
+          "name": "Enseignement supérieur et recherche agricoles",
+          "value": 346401489,
+          "children": [
+            {
+              "id": "01",
+              "name": "Enseignement supérieur",
+              "value": 310613390
+            },
+            {
+              "id": "02",
+              "name": "Recherche, développement et transfert de technologie",
+              "value": 35788099
+            }
+          ]
+        },
+        {
+          "id": "191",
+          "name": "Recherche duale (civile et militaire)",
+          "value": 180074745,
+          "children": [
+            {
+              "id": "03",
+              "name": "Recherche duale dans le domaine aérospatial",
+              "value": 152756714
+            },
+            {
+              "id": "04",
+              "name": "Autres recherches et développements technologiques duaux",
+              "value": 12680000
+            },
+            {
+              "id": "01",
+              "name": "Recherche duale en sciences du vivant",
+              "value": 7940000
+            },
+            {
+              "id": "02",
+              "name": "Recherche duale en sciences et techniques de l'information et de la communication",
+              "value": 6698031
+            }
+          ]
+        },
+        {
+          "id": "186",
+          "name": "Recherche culturelle et culture scientifique",
+          "value": 112070698,
+          "children": [
+            {
+              "id": "03",
+              "name": "Culture scientifique et technique",
+              "value": 101691732
+            },
+            {
+              "id": "01",
+              "name": "Recherche culturelle",
+              "value": 10378966
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scu",
+      "name": "Sécurités",
+      "value": 19796005207,
+      "children": [
+        {
+          "id": "176",
+          "name": "Police nationale",
+          "value": 10564416639,
+          "children": [
+            {
+              "id": "02",
+              "name": "Sécurité et paix publiques",
+              "value": 2923540409
+            },
+            {
+              "id": "05",
+              "name": "Missions de police judiciaire et concours à la justice",
+              "value": 2783274883
+            },
+            {
+              "id": "06",
+              "name": "Commandement, ressources humaines et logistique",
+              "value": 2226669727
+            },
+            {
+              "id": "01",
+              "name": "Ordre public et protection de la souveraineté",
+              "value": 1271147295
+            },
+            {
+              "id": "04",
+              "name": "Police des étrangers et sûreté des transports internationaux",
+              "value": 905967514
+            },
+            {
+              "id": "03",
+              "name": "Sécurité routière",
+              "value": 453816811
+            }
+          ]
+        },
+        {
+          "id": "152",
+          "name": "Gendarmerie nationale",
+          "value": 8657739410,
+          "children": [
+            {
+              "id": "01",
+              "name": "Ordre et sécurité publics",
+              "value": 3380370406
+            },
+            {
+              "id": "04",
+              "name": "Commandement, ressources humaines et logistique",
+              "value": 2367414819
+            },
+            {
+              "id": "03",
+              "name": "Missions de police judiciaire et concours à la justice",
+              "value": 2038917844
+            },
+            {
+              "id": "02",
+              "name": "Sécurité routière",
+              "value": 737311123
+            },
+            {
+              "id": "05",
+              "name": "Exercice des missions militaires",
+              "value": 133725218
+            }
+          ]
+        },
+        {
+          "id": "161",
+          "name": "Sécurité civile",
+          "value": 533903128,
+          "children": [
+            {
+              "id": "12",
+              "name": "Préparation et interventions spécialisées des moyens nationaux",
+              "value": 340451116
+            },
+            {
+              "id": "13",
+              "name": "Soutien aux acteurs de la sécurité civile",
+              "value": 146755038
+            },
+            {
+              "id": "11",
+              "name": "Prévention et gestion de crises",
+              "value": 36028991
+            },
+            {
+              "id": "14",
+              "name": "Fonctionnement, soutien et logistique",
+              "value": 10667983
+            }
+          ]
+        },
+        {
+          "id": "207",
+          "name": "Sécurité et éducation routières",
+          "value": 39946030,
+          "children": [
+            {
+              "id": "03",
+              "name": "Éducation routière",
+              "value": 20798596
+            },
+            {
+              "id": "02",
+              "name": "Démarches interministérielles et communication",
+              "value": 16272446
+            },
+            {
+              "id": "01",
+              "name": "Observation, prospective, réglementation et soutien au programme",
+              "value": 2874988
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soli",
+      "name": "Solidarité, insertion et égalité des chances",
+      "value": 19410060465,
+      "children": [
+        {
+          "id": "157",
+          "name": "Handicap et dépendance",
+          "value": 11341292425,
+          "children": [
+            {
+              "id": "12",
+              "name": "Allocations et aides en faveur des personnes handicapées",
+              "value": 11317454863
+            },
+            {
+              "id": "13",
+              "name": "Pilotage du programme et animation des politiques inclusives",
+              "value": 23837562
+            }
+          ]
+        },
+        {
+          "id": "304",
+          "name": "Inclusion sociale et protection des personnes",
+          "value": 6520994819,
+          "children": [
+            {
+              "id": "11",
+              "name": "Prime d'activité et autres dispositifs",
+              "value": 5670958855
+            },
+            {
+              "id": "16",
+              "name": "Protection juridique des majeurs",
+              "value": 647221843
+            },
+            {
+              "id": "17",
+              "name": "Protection et accompagnement des enfants, des jeunes et des familles vulnérables",
+              "value": 143071791
+            },
+            {
+              "id": "14",
+              "name": "Aide alimentaire",
+              "value": 51921573
+            },
+            {
+              "id": "15",
+              "name": "Qualification en travail social",
+              "value": 6144246
+            },
+            {
+              "id": "18",
+              "name": "Aide à la réinsertion familiale et sociale des anciens migrants dans leur pays dorigine (ARFS)",
+              "value": 1000000
+            },
+            {
+              "id": "13",
+              "name": "Ingénierie, outils de la gouvernance et expérimentations",
+              "value": 676511
+            }
+          ]
+        },
+        {
+          "id": "124",
+          "name": "Conduite et soutien des politiques sanitaires, sociales, du sport, de la jeunesse et de la vie associative",
+          "value": 1517901640,
+          "children": [
+            {
+              "id": "17",
+              "name": "Financement des agences régionales de santé",
+              "value": 594826665
+            },
+            {
+              "id": "19",
+              "name": "Personnels mettant en oeuvre les politiques du sport, de la jeunesse, de l'éducation populaire et de la vie associative",
+              "value": 283656943
+            },
+            {
+              "id": "18",
+              "name": "Personnels mettant en oeuvre les politiques sociales et de la santé",
+              "value": 248461852
+            },
+            {
+              "id": "22",
+              "name": "Personnels transversaux et de soutien",
+              "value": 132188241
+            },
+            {
+              "id": "12",
+              "name": "Affaires immobilières",
+              "value": 88434892
+            },
+            {
+              "id": "21",
+              "name": "Personnels mettant en uvre les politiques de la ville, du logement et de l'hébergement",
+              "value": 50470339
+            },
+            {
+              "id": "11",
+              "name": "Systèmes d'information",
+              "value": 46009074
+            },
+            {
+              "id": "23",
+              "name": "Politique des ressources humaines",
+              "value": 23007257
+            },
+            {
+              "id": "10",
+              "name": "Fonctionnement des services",
+              "value": 15875689
+            },
+            {
+              "id": "20",
+              "name": "Personnels mettant en oeuvre les politiques pour les droits des femmes",
+              "value": 15614630
+            },
+            {
+              "id": "16",
+              "name": "Statistiques, études et recherche",
+              "value": 9147448
+            },
+            {
+              "id": "15",
+              "name": "Affaires européennes et internationales",
+              "value": 5479048
+            },
+            {
+              "id": "14",
+              "name": "Communication",
+              "value": 4729562
+            }
+          ]
+        },
+        {
+          "id": "137",
+          "name": "Égalité entre les femmes et les hommes",
+          "value": 29871581,
+          "children": [
+            {
+              "id": "12",
+              "name": "Promotion des droits, prévention et lutte contre les violences sexistes",
+              "value": 18391170
+            },
+            {
+              "id": "15",
+              "name": "Prévention et lutte contre la prostitution et la traite des êtres humains",
+              "value": 5020878
+            },
+            {
+              "id": "11",
+              "name": "Actions et expérimentations pour la culture de l'égalité et en faveur de l'égalité professionnelle, politique et sociale",
+              "value": 4899426
+            },
+            {
+              "id": "13",
+              "name": "Soutien du programme égalité entre les femmes et les hommes",
+              "value": 1560107
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coh",
+      "name": "Cohésion des territoires",
+      "value": 16534141628,
+      "children": [
+        {
+          "id": "109",
+          "name": "Aide à l'accès au logement",
+          "value": 13556200000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Aides personnelles",
+              "value": 13538131300
+            },
+            {
+              "id": "03",
+              "name": "Sécurisation des risques locatifs",
+              "value": 9800000
+            },
+            {
+              "id": "02",
+              "name": "Information relative au logement et accompagnement des publics en difficulté",
+              "value": 8268700
+            }
+          ]
+        },
+        {
+          "id": "177",
+          "name": "Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+          "value": 1953693863,
+          "children": [
+            {
+              "id": "12",
+              "name": "Hébergement et logement adapté",
+              "value": 1894189982
+            },
+            {
+              "id": "11",
+              "name": "Prévention de l'exclusion",
+              "value": 50445224
+            },
+            {
+              "id": "14",
+              "name": "Conduite et animation des politiques de l'hébergement et de l'inclusion sociale",
+              "value": 9058657
+            }
+          ]
+        },
+        {
+          "id": "147",
+          "name": "Politique de la ville",
+          "value": 430406795,
+          "children": [
+            {
+              "id": "01",
+              "name": "Actions territorialisées et Dispositifs spécifiques de la politique de la ville",
+              "value": 335758441
+            },
+            {
+              "id": "02",
+              "name": "Revitalisation économique et emploi",
+              "value": 50330000
+            },
+            {
+              "id": "03",
+              "name": "Stratégie, ressources et évaluation",
+              "value": 29318354
+            },
+            {
+              "id": "04",
+              "name": "Rénovation urbaine et amélioration du cadre de vie",
+              "value": 15000000
+            }
+          ]
+        },
+        {
+          "id": "135",
+          "name": "Urbanisme, territoires et amélioration de l'habitat",
+          "value": 311562771,
+          "children": [
+            {
+              "id": "04",
+              "name": "Réglementation, politique technique et qualité de la construction",
+              "value": 163875000
+            },
+            {
+              "id": "07",
+              "name": "Urbanisme et aménagement",
+              "value": 64100000
+            },
+            {
+              "id": "01",
+              "name": "Construction locative et amélioration du parc",
+              "value": 55300000
+            },
+            {
+              "id": "05",
+              "name": "Soutien",
+              "value": 17187771
+            },
+            {
+              "id": "03",
+              "name": "Lutte contre l'habitat indigne",
+              "value": 7200000
+            },
+            {
+              "id": "02",
+              "name": "Soutien à l'accession à la propriété",
+              "value": 3900000
+            }
+          ]
+        },
+        {
+          "id": "112",
+          "name": "Impulsion et coordination de la politique d'aménagement du territoire",
+          "value": 254878199,
+          "children": [
+            {
+              "id": "02",
+              "name": "Développement solidaire et équilibré des territoires",
+              "value": 127620225
+            },
+            {
+              "id": "01",
+              "name": "Attractivité économique et compétitivité des territoires",
+              "value": 95618058
+            },
+            {
+              "id": "04",
+              "name": "Instruments de pilotage et d'étude",
+              "value": 31639916
+            }
+          ]
+        },
+        {
+          "id": "162",
+          "name": "Interventions territoriales de l'État",
+          "value": 27400000,
+          "children": [
+            {
+              "id": "04",
+              "name": "Programme exceptionnel d'investissements en faveur de la Corse",
+              "value": 20000000
+            },
+            {
+              "id": "02",
+              "name": "Eau - Agriculture en Bretagne",
+              "value": 3300000
+            },
+            {
+              "id": "08",
+              "name": "Plan chlordécone en Martinique et en Guadeloupe",
+              "value": 2000000
+            },
+            {
+              "id": "06",
+              "name": "Plan gouvernemental sur le Marais Poitevin - Poitou Charentes",
+              "value": 1600000
+            },
+            {
+              "id": "09",
+              "name": "Plan littoral 21",
+              "value": 500000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trav",
+      "name": "Travail et emploi",
+      "value": 15366090267,
+      "children": [
+        {
+          "id": "102",
+          "name": "Accès et retour à l'emploi",
+          "value": 7845049469,
+          "children": [
+            {
+              "id": "01",
+              "name": "Amélioration de lefficacité du service public de lemploi",
+              "value": 4077712606,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Indemnisation des demandeurs d'emploi",
+                  "value": 2609821800
+                },
+                {
+                  "id": "02",
+                  "name": "Coordination du service public de l'emploi",
+                  "value": 1467890806
+                }
+              ]
+            },
+            {
+              "id": "02",
+              "name": "Amélioration des dispositifs en faveur de lemploi des personnes les plus éloignées du marché du travail",
+              "value": 3264066565,
+              "children": [
+                {
+                  "id": "02",
+                  "name": "Accompagnement des publics les plus en difficultés",
+                  "value": 1755819705
+                },
+                {
+                  "id": "01",
+                  "name": "Insertion dans l'emploi au moyen de contrats aidés",
+                  "value": 1508246860
+                }
+              ]
+            },
+            {
+              "id": "03",
+              "name": "Plan d'investissement des compétences",
+              "value": 503270298
+            }
+          ]
+        },
+        {
+          "id": "103",
+          "name": "Accompagnement des mutations économiques et développement de l'emploi",
+          "value": 6752199820,
+          "children": [
+            {
+              "id": "03",
+              "name": "Développement de l'emploi",
+              "value": 3022872537,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Baisse du coût du travail pour faciliter le développement de territoires et de secteurs à forts potentiels d'emploi",
+                  "value": 2784580211
+                },
+                {
+                  "id": "02",
+                  "name": "Promotion de l'activité",
+                  "value": 238292326
+                }
+              ]
+            },
+            {
+              "id": "02",
+              "name": "Amélioration de l'insertion dans l'emploi par l'adaptation des qualifications et la reconnaissance des compétences",
+              "value": 1850779074,
+              "children": [
+                {
+                  "id": "04",
+                  "name": "Amélioration de l'accès à la qualification par le développement de l'alternance et de la certification",
+                  "value": 1849779074
+                },
+                {
+                  "id": "03",
+                  "name": "Reconnaissance des compétences acquises par les personnes",
+                  "value": 1000000
+                }
+              ]
+            },
+            {
+              "id": "01",
+              "name": "Anticipation et accompagnement des conséquences des mutations économiques sur l'emploi",
+              "value": 1450344177,
+              "children": [
+                {
+                  "id": "01",
+                  "name": "Développement de lemploi en TPE-PME",
+                  "value": 1171310811
+                },
+                {
+                  "id": "02",
+                  "name": "Implication des branches et des entreprises dans la prévention du licenciement et le reclassement des salariés",
+                  "value": 279033366
+                }
+              ]
+            },
+            {
+              "id": "04",
+              "name": "Plan d'investissement des compétences",
+              "value": 428204032
+            }
+          ]
+        },
+        {
+          "id": "155",
+          "name": "Conception, gestion et évaluation des politiques de l'emploi et du travail",
+          "value": 682316265,
+          "children": [
+            {
+              "id": "16",
+              "name": "Personnels mettant en oeuvre les politiques d'amélioration de la qualité de l'emploi et des relations du travail",
+              "value": 343501969
+            },
+            {
+              "id": "18",
+              "name": "Personnels transversaux et de soutien",
+              "value": 99571406
+            },
+            {
+              "id": "15",
+              "name": "Personnels mettant en oeuvre les politiques d'accompagnement des mutations économiques et développement de l'emploi",
+              "value": 82336944
+            },
+            {
+              "id": "14",
+              "name": "Personnels mettant en oeuvre les politiques d'accès et retour à l'emploi",
+              "value": 73705084
+            },
+            {
+              "id": "13",
+              "name": "Politique des ressources humaines",
+              "value": 28524020
+            },
+            {
+              "id": "17",
+              "name": "Personnels de statistiques, études et recherche",
+              "value": 22292428
+            },
+            {
+              "id": "09",
+              "name": "Systèmes d'information",
+              "value": 13194735
+            },
+            {
+              "id": "12",
+              "name": "Etudes, statistiques évaluation et recherche",
+              "value": 8230508
+            },
+            {
+              "id": "10",
+              "name": "Affaires immobilières",
+              "value": 3761874
+            },
+            {
+              "id": "08",
+              "name": "Fonctionnement des services",
+              "value": 3650539
+            },
+            {
+              "id": "11",
+              "name": "Communication",
+              "value": 3546758
+            }
+          ]
+        },
+        {
+          "id": "111",
+          "name": "Amélioration de la qualité de l'emploi et des relations du travail",
+          "value": 86524713,
+          "children": [
+            {
+              "id": "03",
+              "name": "Dialogue social et démocratie sociale",
+              "value": 38389984
+            },
+            {
+              "id": "01",
+              "name": "Santé et sécurité au travail",
+              "value": 24108599
+            },
+            {
+              "id": "02",
+              "name": "Qualité et effectivité du droit",
+              "value": 24026130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "col",
+      "name": "Écologie, développement et mobilité durables",
+      "value": 11320937933,
+      "children": [
+        {
+          "id": "203",
+          "name": "Infrastructures et services de transports",
+          "value": 3159611710,
+          "children": [
+            {
+              "id": "41",
+              "name": "Ferroviaire",
+              "value": 2421612316
+            },
+            {
+              "id": "04",
+              "name": "Routes - Entretien",
+              "value": 320000000
+            },
+            {
+              "id": "42",
+              "name": "Voies navigables",
+              "value": 251415663
+            },
+            {
+              "id": "43",
+              "name": "Ports",
+              "value": 70894836
+            },
+            {
+              "id": "44",
+              "name": "Transports collectifs",
+              "value": 27258624
+            },
+            {
+              "id": "52",
+              "name": "Transport aérien",
+              "value": 24709000
+            },
+            {
+              "id": "45",
+              "name": "Transports combinés",
+              "value": 22409039
+            },
+            {
+              "id": "47",
+              "name": "Fonctions support",
+              "value": 15553522
+            },
+            {
+              "id": "50",
+              "name": "Transport routier",
+              "value": 4758710
+            },
+            {
+              "id": "51",
+              "name": "Sécurité ferroviaire",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "id": "345",
+          "name": "Service public de l'énergie",
+          "value": 3043920452,
+          "children": [
+            {
+              "id": "01",
+              "name": "Solidarité avec les zones non interconnectées au réseau métropolitain",
+              "value": 1506778171
+            },
+            {
+              "id": "02",
+              "name": "Protection des consommateurs en situation de précarité énergétique",
+              "value": 753639487
+            },
+            {
+              "id": "03",
+              "name": "Soutien à la cogénération",
+              "value": 691467824
+            },
+            {
+              "id": "05",
+              "name": "Frais de support",
+              "value": 87238970
+            },
+            {
+              "id": "06",
+              "name": "Médiateur de l'énergie",
+              "value": 4796000
+            }
+          ]
+        },
+        {
+          "id": "217",
+          "name": "Conduite et pilotage des politiques de l'écologie, du développement et de la mobilité durables",
+          "value": 3042228226,
+          "children": [
+            {
+              "id": "15",
+              "name": "\"Personnels relevant du ministère de la \"\" Cohésion des territoires \"\"\"",
+              "value": 667554167
+            },
+            {
+              "id": "08",
+              "name": "\"Personnels oeuvrant pour les politiques du programme \"\"Infrastructures et services de transports\"\"\"",
+              "value": 594446661
+            },
+            {
+              "id": "07",
+              "name": "\"Personnels oeuvrant pour les politiques du programme \"\"Conduite et pilotage des politiques de l'écologie, du développement et de la mobilité durables\"\"\"",
+              "value": 555796551
+            },
+            {
+              "id": "13",
+              "name": "\"Personnels oeuvrant pour les politiques du programme \"\"Paysages, eau et biodiversité\"\"\"",
+              "value": 267285540
+            },
+            {
+              "id": "16",
+              "name": "\"Personnels oeuvrant pour les politiques du programme \"\"Prévention des risques\"\"\"",
+              "value": 239141944
+            },
+            {
+              "id": "05",
+              "name": "Politique des ressources humaines et formation",
+              "value": 234122214
+            },
+            {
+              "id": "11",
+              "name": "\"Personnels oeuvrant pour les politiques du programme \"\"Affaires maritimes\"\"\"",
+              "value": 179899007
+            },
+            {
+              "id": "03",
+              "name": "Politique et programmation de l'immobilier et des moyens de fonctionnement",
+              "value": 119858197
+            },
+            {
+              "id": "23",
+              "name": "\"Personnels oeuvrant pour les politiques des programmes \"\"énergie, climat et après-mines\"\"\"",
+              "value": 56425552
+            },
+            {
+              "id": "28",
+              "name": "\"Personnels oeuvrant pour le développement durable et pour les politiques du programme \"\"expertise, information géographique et météorologique\"\"\"",
+              "value": 52338970
+            },
+            {
+              "id": "04",
+              "name": "Politique et gestion des systèmes d'information et des réseaux informatiques",
+              "value": 24044238
+            },
+            {
+              "id": "27",
+              "name": "Commission de régulation de l'énergie (CRE)",
+              "value": 20860000
+            },
+            {
+              "id": "06",
+              "name": "Actions nationales, européennes et internationales en faveur du développement durable",
+              "value": 12451891
+            },
+            {
+              "id": "22",
+              "name": "Personnels transférés aux collectivités territoriales",
+              "value": 7143532
+            },
+            {
+              "id": "25",
+              "name": "Commission nationale du débat public",
+              "value": 3450000
+            },
+            {
+              "id": "02",
+              "name": "Fonction juridique",
+              "value": 2211592
+            },
+            {
+              "id": "24",
+              "name": "Personnels oeuvrant dans le domaine des transports aériens",
+              "value": 2119578
+            },
+            {
+              "id": "26",
+              "name": "Autorité de contrôle des nuisances aéroportuaires (ACNUSA)",
+              "value": 1700000
+            },
+            {
+              "id": "09",
+              "name": "\"Personnels oeuvrant pour les politiques du programme \"\"Sécurité et éducation routières\"\"\"",
+              "value": 1378592
+            }
+          ]
+        },
+        {
+          "id": "181",
+          "name": "Prévention des risques",
+          "value": 843824874,
+          "children": [
+            {
+              "id": "12",
+              "name": "Agence de l'environnement et de la maîtrise de l'énergie (ADEME)",
+              "value": 612700000
+            },
+            {
+              "id": "01",
+              "name": "Prévention des risques technologiques et des pollutions",
+              "value": 91666627
+            },
+            {
+              "id": "09",
+              "name": "Contrôle de la sûreté nucléaire et de la radioprotection",
+              "value": 63485092
+            },
+            {
+              "id": "11",
+              "name": "Gestion de l'après-mine et travaux de mise en sécurité, indemnisations et expropriations sur les sites",
+              "value": 38573931
+            },
+            {
+              "id": "10",
+              "name": "Prévention des risques naturels et hydrauliques",
+              "value": 37399224
+            }
+          ]
+        },
+        {
+          "id": "159",
+          "name": "Expertise, information géographique et météorologie",
+          "value": 515464638,
+          "children": [
+            {
+              "id": "11",
+              "name": "Etudes et expertise en matière de développement durable",
+              "value": 206040570
+            },
+            {
+              "id": "13",
+              "name": "Météorologie",
+              "value": 188846545
+            },
+            {
+              "id": "12",
+              "name": "Information géographique et cartographique",
+              "value": 91669630
+            },
+            {
+              "id": "10",
+              "name": "Gouvernance, évaluation, études et prospective en matière de développement durable",
+              "value": 14664147
+            },
+            {
+              "id": "14",
+              "name": "Economie sociale et solidaire",
+              "value": 14243746
+            }
+          ]
+        },
+        {
+          "id": "174",
+          "name": "Énergie, climat et après-mines",
+          "value": 427293751,
+          "children": [
+            {
+              "id": "04",
+              "name": "Gestion économique et sociale de l'après-mines",
+              "value": 390742250
+            },
+            {
+              "id": "05",
+              "name": "Lutte contre le changement climatique et pour la qualité de l'air",
+              "value": 30845000
+            },
+            {
+              "id": "01",
+              "name": "Politique de l'énergie",
+              "value": 4406501
+            },
+            {
+              "id": "06",
+              "name": "Soutien",
+              "value": 1300000
+            }
+          ]
+        },
+        {
+          "id": "113",
+          "name": "Paysages, eau et biodiversité",
+          "value": 148594282,
+          "children": [
+            {
+              "id": "07",
+              "name": "Gestion des milieux et biodiversité",
+              "value": 136195542
+            },
+            {
+              "id": "01",
+              "name": "Sites, paysages, publicité",
+              "value": 6767226
+            },
+            {
+              "id": "02",
+              "name": "logistique, formation et contentieux",
+              "value": 5631514
+            }
+          ]
+        },
+        {
+          "id": "205",
+          "name": "Affaires maritimes",
+          "value": 140000000,
+          "children": [
+            {
+              "id": "03",
+              "name": "Flotte de commerce",
+              "value": 64220000
+            },
+            {
+              "id": "01",
+              "name": "Sécurité et sûreté maritimes",
+              "value": 29885000
+            },
+            {
+              "id": "02",
+              "name": "Gens de mer et enseignement maritime",
+              "value": 28050000
+            },
+            {
+              "id": "04",
+              "name": "Action interministérielle de la mer",
+              "value": 10345000
+            },
+            {
+              "id": "05",
+              "name": "Soutien au programme",
+              "value": 7500000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gest",
+      "name": "Gestion des finances publiques et des ressources humaines",
+      "value": 10861219177,
+      "children": [
+        {
+          "id": "156",
+          "name": "Gestion fiscale et financière de l'État et du secteur public local",
+          "value": 8054130631,
+          "children": [
+            {
+              "id": "03",
+              "name": "Fiscalité des particuliers et fiscalité directe locale",
+              "value": 2181942770
+            },
+            {
+              "id": "09",
+              "name": "Soutien",
+              "value": 1937224841
+            },
+            {
+              "id": "02",
+              "name": "Fiscalité des PME",
+              "value": 1641547632
+            },
+            {
+              "id": "07",
+              "name": "Gestion financière du secteur public local hors fiscalité",
+              "value": 1343173894
+            },
+            {
+              "id": "05",
+              "name": "Gestion financière de l'État hors fiscalité",
+              "value": 715842882
+            },
+            {
+              "id": "01",
+              "name": "Fiscalité des grandes entreprises",
+              "value": 117341712
+            },
+            {
+              "id": "06",
+              "name": "Gestion des pensions",
+              "value": 63622571
+            },
+            {
+              "id": "08",
+              "name": "Gestion des fonds déposés",
+              "value": 53434329
+            }
+          ]
+        },
+        {
+          "id": "302",
+          "name": "Facilitation et sécurisation des échanges",
+          "value": 1564069821,
+          "children": [
+            {
+              "id": "01",
+              "name": "Surveillance douanière des flux de personnes et de marchandises et lutte contre la grande fraude douanière.",
+              "value": 529944549
+            },
+            {
+              "id": "06",
+              "name": "Soutien des services opérationnels",
+              "value": 306265518
+            },
+            {
+              "id": "04",
+              "name": "Promotion des échanges internationaux et qualité du dédouanement",
+              "value": 265888679
+            },
+            {
+              "id": "05",
+              "name": "Fiscalité douanière, énergétique et environnementale",
+              "value": 261790474
+            },
+            {
+              "id": "03",
+              "name": "Préservation de la sécurité et de la sûreté de l'espace national et européen",
+              "value": 200180601
+            }
+          ]
+        },
+        {
+          "id": "218",
+          "name": "Conduite et pilotage des politiques économiques et financières",
+          "value": 1003904666,
+          "children": [
+            {
+              "id": "05",
+              "name": "Prestations d'appui et support",
+              "value": 433153372
+            },
+            {
+              "id": "01",
+              "name": "Etat-major et politiques transversales",
+              "value": 303991654
+            },
+            {
+              "id": "07",
+              "name": "Pilotage des finances publiques et projets interministériels",
+              "value": 193048750
+            },
+            {
+              "id": "02",
+              "name": "Expertise, audit, évaluation et contrôle",
+              "value": 73710890
+            }
+          ]
+        },
+        {
+          "id": "148",
+          "name": "Fonction publique",
+          "value": 239114059,
+          "children": [
+            {
+              "id": "02",
+              "name": "Action sociale interministérielle",
+              "value": 119817739
+            },
+            {
+              "id": "01",
+              "name": "Formation des fonctionnaires",
+              "value": 84397851
+            },
+            {
+              "id": "03",
+              "name": "Appui ressources humaines et apprentissage",
+              "value": 34898469
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "just",
+      "name": "Justice",
+      "value": 8739496042,
+      "children": [
+        {
+          "id": "107",
+          "name": "Administration pénitentiaire",
+          "value": 3558226063,
+          "children": [
+            {
+              "id": "01",
+              "name": "Garde et contrôle des personnes placées sous main de justice",
+              "value": 2163607482
+            },
+            {
+              "id": "02",
+              "name": "Accueil et accompagnement des personnes placées sous main de justice",
+              "value": 1050855170
+            },
+            {
+              "id": "04",
+              "name": "Soutien et formation",
+              "value": 343763411
+            }
+          ]
+        },
+        {
+          "id": "166",
+          "name": "Justice judiciaire",
+          "value": 3446478692,
+          "children": [
+            {
+              "id": "02",
+              "name": "Conduite de la politique pénale et jugement des affaires pénales",
+              "value": 1217279602
+            },
+            {
+              "id": "01",
+              "name": "Traitement et jugement des contentieux civils",
+              "value": 1003205954
+            },
+            {
+              "id": "06",
+              "name": "Soutien",
+              "value": 972456569
+            },
+            {
+              "id": "07",
+              "name": "Formation",
+              "value": 163119636
+            },
+            {
+              "id": "03",
+              "name": "Cassation",
+              "value": 50498470
+            },
+            {
+              "id": "08",
+              "name": "Support à l'accès au droit et à la justice",
+              "value": 27570472
+            },
+            {
+              "id": "05",
+              "name": "Enregistrement des décisions judiciaires",
+              "value": 12347989
+            }
+          ]
+        },
+        {
+          "id": "182",
+          "name": "Protection judiciaire de la jeunesse",
+          "value": 857248650,
+          "children": [
+            {
+              "id": "01",
+              "name": "Mise en oeuvre des décisions judiciaires",
+              "value": 723737981
+            },
+            {
+              "id": "03",
+              "name": "Soutien",
+              "value": 97931806
+            },
+            {
+              "id": "04",
+              "name": "Formation",
+              "value": 35578863
+            }
+          ]
+        },
+        {
+          "id": "101",
+          "name": "Accès au droit et à la justice",
+          "value": 438184402,
+          "children": [
+            {
+              "id": "01",
+              "name": "Aide juridictionnelle",
+              "value": 395934152
+            },
+            {
+              "id": "03",
+              "name": "Aide aux victimes",
+              "value": 27705000
+            },
+            {
+              "id": "02",
+              "name": "Développement de l'accès au droit et du réseau judiciaire de proximité",
+              "value": 8292350
+            },
+            {
+              "id": "04",
+              "name": "Médiation familiale et espaces de rencontre",
+              "value": 6252900
+            }
+          ]
+        },
+        {
+          "id": "310",
+          "name": "Conduite et pilotage de la politique de la justice",
+          "value": 434591116,
+          "children": [
+            {
+              "id": "09",
+              "name": "Action informatique ministérielle",
+              "value": 190715683
+            },
+            {
+              "id": "04",
+              "name": "Gestion de l'administration centrale",
+              "value": 145972659
+            },
+            {
+              "id": "10",
+              "name": "Action sociale ministérielle",
+              "value": 40550691
+            },
+            {
+              "id": "02",
+              "name": "Activité normative",
+              "value": 26283414
+            },
+            {
+              "id": "03",
+              "name": "Évaluation, contrôle, études et recherche",
+              "value": 19692350
+            },
+            {
+              "id": "01",
+              "name": "État major",
+              "value": 11376319
+            }
+          ]
+        },
+        {
+          "id": "335",
+          "name": "Conseil supérieur de la magistrature",
+          "value": 4767119,
+          "children": [
+            {
+              "id": "01",
+              "name": "Conseil supérieur de la magistrature",
+              "value": 4767119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rgi",
+      "name": "Régimes sociaux et de retraite",
+      "value": 6332229261,
+      "children": [
+        {
+          "id": "198",
+          "name": "Régimes sociaux et de retraite des transports terrestres",
+          "value": 4119817163,
+          "children": [
+            {
+              "id": "03",
+              "name": "Régime de retraite du personnel de la SNCF",
+              "value": 3283495491
+            },
+            {
+              "id": "04",
+              "name": "Régime de retraite du personnel de la RATP",
+              "value": 709304659
+            },
+            {
+              "id": "05",
+              "name": "Autres régimes",
+              "value": 127017013
+            }
+          ]
+        },
+        {
+          "id": "195",
+          "name": "Régimes de retraite des mines, de la SEITA et divers",
+          "value": 1388087516,
+          "children": [
+            {
+              "id": "01",
+              "name": "Versements au fonds spécial de retraite de la caisse autonome nationale de sécurité sociale dans les mines",
+              "value": 1177431263
+            },
+            {
+              "id": "02",
+              "name": "Régime de retraite de la SEITA",
+              "value": 153348211
+            },
+            {
+              "id": "11",
+              "name": "Régime de retraite complémentaire des exploitants agricoles (RCO)",
+              "value": 55000000
+            },
+            {
+              "id": "04",
+              "name": "Caisse des retraites des régies ferroviaires d'outre-mer",
+              "value": 2138042
+            },
+            {
+              "id": "07",
+              "name": "Versements liés à la liquidation de l'ORTF",
+              "value": 170000
+            }
+          ]
+        },
+        {
+          "id": "197",
+          "name": "Régimes de retraite et de sécurité sociale des marins",
+          "value": 824324582,
+          "children": [
+            {
+              "id": "01",
+              "name": "Régimes de retraite et de sécurité sociale des marins",
+              "value": 824324582
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rela",
+      "name": "Relations avec les collectivités territoriales",
+      "value": 3660300371,
+      "children": [
+        {
+          "id": "119",
+          "name": "Concours financiers aux collectivités territoriales et à leurs groupements",
+          "value": 3410909207,
+          "children": [
+            {
+              "id": "01",
+              "name": "Soutien aux projets des communes et groupements de communes",
+              "value": 1417727153
+            },
+            {
+              "id": "05",
+              "name": "Dotation générale de décentralisation des régions",
+              "value": 908104567
+            },
+            {
+              "id": "03",
+              "name": "Soutien aux projets des départements et des régions",
+              "value": 461855969
+            },
+            {
+              "id": "04",
+              "name": "Dotation générale de décentralisation des départements",
+              "value": 265337672
+            },
+            {
+              "id": "06",
+              "name": "Dotation générale de décentralisation concours particuliers",
+              "value": 227575588
+            },
+            {
+              "id": "02",
+              "name": "Dotation générale de décentralisation des communes",
+              "value": 130308258
+            }
+          ]
+        },
+        {
+          "id": "122",
+          "name": "Concours spécifiques et administration",
+          "value": 249391164,
+          "children": [
+            {
+              "id": "04",
+              "name": "Dotations Outre-Mer",
+              "value": 140208046
+            },
+            {
+              "id": "01",
+              "name": "Aides exceptionnelles aux collectivités territoriales",
+              "value": 106665967
+            },
+            {
+              "id": "02",
+              "name": "Administration des relations avec les collectivités territoriales",
+              "value": 2517151
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agri",
+      "name": "Agriculture, alimentation, forêt et affaires rurales",
+      "value": 3434676604,
+      "children": [
+        {
+          "id": "149",
+          "name": "Compétitivité et durabilité de l'agriculture, de l'agroalimentaire, de la forêt, de la pêche et de l'aquaculture",
+          "value": 2225442865,
+          "children": [
+            {
+              "id": "27",
+              "name": "Moyens de mise en oeuvre des politiques publiques et gestion des interventions",
+              "value": 590816652
+            },
+            {
+              "id": "25",
+              "name": "Protection sociale",
+              "value": 480392865
+            },
+            {
+              "id": "24",
+              "name": "Gestion équilibrée et durable des territoires",
+              "value": 471951620
+            },
+            {
+              "id": "26",
+              "name": "Gestion durable de la forêt et développement de la filière bois",
+              "value": 271403990
+            },
+            {
+              "id": "21",
+              "name": "Adaptation des filières à l'évolution des marchés",
+              "value": 219650000
+            },
+            {
+              "id": "23",
+              "name": "Appui au renouvellement et à la modernisation des exploitations agricoles",
+              "value": 140443738
+            },
+            {
+              "id": "28",
+              "name": "Pêche et aquaculture",
+              "value": 45300000
+            },
+            {
+              "id": "22",
+              "name": "Gestion des crises et des aléas de la production agricole",
+              "value": 5484000
+            }
+          ]
+        },
+        {
+          "id": "215",
+          "name": "Conduite et pilotage des politiques de l'agriculture",
+          "value": 656243819,
+          "children": [
+            {
+              "id": "03",
+              "name": "Moyens des directions régionales de l'alimentation, de l'agriculture et de la forêt, des directions de l'alimentation, de l'agriculture et de la forêt et directions départementales des territoires (et de la mer)",
+              "value": 355757495
+            },
+            {
+              "id": "01",
+              "name": "Moyens de l'administration centrale",
+              "value": 210594176
+            },
+            {
+              "id": "04",
+              "name": "Moyens communs",
+              "value": 71606325
+            },
+            {
+              "id": "02",
+              "name": "Évaluation de l'impact des politiques publiques et information économique",
+              "value": 18285823
+            }
+          ]
+        },
+        {
+          "id": "206",
+          "name": "Sécurité et qualité sanitaires de l'alimentation",
+          "value": 552989920,
+          "children": [
+            {
+              "id": "06",
+              "name": "Mise en oeuvre de la politique de sécurité et de qualité sanitaires de l'alimentation",
+              "value": 318483920
+            },
+            {
+              "id": "02",
+              "name": "Lutte contre les maladies animales et protection des animaux",
+              "value": 99579695
+            },
+            {
+              "id": "04",
+              "name": "Actions transversales",
+              "value": 75266805
+            },
+            {
+              "id": "01",
+              "name": "Prévention et gestion des risques inhérents à la production végétale",
+              "value": 31716000
+            },
+            {
+              "id": "03",
+              "name": "Prévention et gestion des risques sanitaires liés aux denrées alimentaires",
+              "value": 20433000
+            },
+            {
+              "id": "05",
+              "name": "Elimination des cadavres et des sous-produits animaux",
+              "value": 3800000
+            },
+            {
+              "id": "08",
+              "name": "Qualité de l'alimentation et offre alimentaire",
+              "value": 3710500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acti",
+      "name": "Action extérieure de l'État",
+      "value": 3000473905,
+      "children": [
+        {
+          "id": "105",
+          "name": "Action de la France en Europe et dans le monde",
+          "value": 1902526575,
+          "children": [
+            {
+              "id": "04",
+              "name": "Contributions internationales",
+              "value": 757561767
+            },
+            {
+              "id": "07",
+              "name": "Réseau diplomatique",
+              "value": 646461988
+            },
+            {
+              "id": "06",
+              "name": "Soutien",
+              "value": 253984038
+            },
+            {
+              "id": "05",
+              "name": "Coopération de sécurité et de défense",
+              "value": 102298705
+            },
+            {
+              "id": "01",
+              "name": "Coordination de l'action diplomatique",
+              "value": 90003801
+            },
+            {
+              "id": "02",
+              "name": "Action européenne",
+              "value": 52216276
+            }
+          ]
+        },
+        {
+          "id": "185",
+          "name": "Diplomatie culturelle et d'influence",
+          "value": 717509633,
+          "children": [
+            {
+              "id": "05",
+              "name": "Agence pour l'enseignement français à l'étranger",
+              "value": 398706841
+            },
+            {
+              "id": "04",
+              "name": "Enseignement supérieur et recherche",
+              "value": 102048610
+            },
+            {
+              "id": "06",
+              "name": "\"Dépenses de personnel concourant au programme \"\"Diplomatie culturelle et d'influence\"\"\"",
+              "value": 72967171
+            },
+            {
+              "id": "02",
+              "name": "Coopération culturelle et promotion du français",
+              "value": 62409998
+            },
+            {
+              "id": "01",
+              "name": "Appui au réseau",
+              "value": 43017823
+            },
+            {
+              "id": "07",
+              "name": "Diplomatie économique et développement du tourisme",
+              "value": 32691020
+            },
+            {
+              "id": "03",
+              "name": "Objectifs de développement durable",
+              "value": 5668170
+            }
+          ]
+        },
+        {
+          "id": "151",
+          "name": "Français à l'étranger et affaires consulaires",
+          "value": 368437697,
+          "children": [
+            {
+              "id": "01",
+              "name": "Offre d'un service public de qualité aux Français à l'étranger",
+              "value": 207028297
+            },
+            {
+              "id": "02",
+              "name": "Accès des élèves français au réseau AEFE",
+              "value": 110000000
+            },
+            {
+              "id": "03",
+              "name": "Instruction des demandes de visa",
+              "value": 51409400
+            }
+          ]
+        },
+        {
+          "id": "347",
+          "name": "Présidence française du G7",
+          "value": 12000000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Préparation et organisation du Sommet du G7",
+              "value": 9430000
+            },
+            {
+              "id": "02",
+              "name": "Organisation des réunions ministérielles",
+              "value": 2350000
+            },
+            {
+              "id": "03",
+              "name": "Fonctionnement du Secrétariat général et communication",
+              "value": 220000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cult",
+      "name": "Culture",
+      "value": 2942061396,
+      "children": [
+        {
+          "id": "224",
+          "name": "Transmission des savoirs et démocratisation de la culture",
+          "value": 1265842507,
+          "children": [
+            {
+              "id": "07",
+              "name": "Fonctions de soutien du ministère",
+              "value": 793232485
+            },
+            {
+              "id": "01",
+              "name": "Soutien aux établissements d'enseignement supérieur et insertion professionnelle",
+              "value": 265303457
+            },
+            {
+              "id": "02",
+              "name": "Soutien à la démocratisation et à l'éducation artistique et culturelle",
+              "value": 173368406
+            },
+            {
+              "id": "08",
+              "name": "Développement et professionnalisation de l'emploi dans le spectacle",
+              "value": 25000000
+            },
+            {
+              "id": "06",
+              "name": "Action culturelle internationale",
+              "value": 8938159
+            }
+          ]
+        },
+        {
+          "id": "175",
+          "name": "Patrimoines",
+          "value": 897324490,
+          "children": [
+            {
+              "id": "03",
+              "name": "Patrimoine des musées de France",
+              "value": 350574581
+            },
+            {
+              "id": "01",
+              "name": "Monuments Historiques et patrimoine monumental",
+              "value": 332908289
+            },
+            {
+              "id": "09",
+              "name": "Patrimoine archéologique",
+              "value": 132460196
+            },
+            {
+              "id": "04",
+              "name": "Patrimoine archivistique et célébrations nationales",
+              "value": 36536187
+            },
+            {
+              "id": "02",
+              "name": "Architecture et espaces protégés",
+              "value": 32130588
+            },
+            {
+              "id": "08",
+              "name": "Acquisition et enrichissement des collections publiques",
+              "value": 9490311
+            },
+            {
+              "id": "07",
+              "name": "Patrimoine linguistique",
+              "value": 3224338
+            }
+          ]
+        },
+        {
+          "id": "131",
+          "name": "Création",
+          "value": 778894399,
+          "children": [
+            {
+              "id": "01",
+              "name": "Soutien à la création, à la production et à la diffusion du spectacle vivant",
+              "value": 704915885
+            },
+            {
+              "id": "02",
+              "name": "Soutien à la création, à la production et à la diffusion des arts plastiques",
+              "value": 73978514
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "admi",
+      "name": "Administration générale et territoriale de l'État",
+      "value": 2756915738,
+      "children": [
+        {
+          "id": "307",
+          "name": "Administration territoriale",
+          "value": 1690130228,
+          "children": [
+            {
+              "id": "02",
+              "name": "Réglementation générale, garantie de l'identité et de la nationalité et délivrance des titres",
+              "value": 688314118
+            },
+            {
+              "id": "04",
+              "name": "Pilotage territorial des politiques gouvernementales",
+              "value": 514169010
+            },
+            {
+              "id": "01",
+              "name": "Coordination de la sécurité des personnes et des biens",
+              "value": 172518163
+            },
+            {
+              "id": "05",
+              "name": "Animation et soutien du réseau",
+              "value": 161753859
+            },
+            {
+              "id": "03",
+              "name": "Contrôle de légalité et conseil aux collectivités territoriales",
+              "value": 153375078
+            }
+          ]
+        },
+        {
+          "id": "216",
+          "name": "Conduite et pilotage des politiques de l'intérieur",
+          "value": 941128468,
+          "children": [
+            {
+              "id": "01",
+              "name": "État-major et services centraux",
+              "value": 373658660
+            },
+            {
+              "id": "05",
+              "name": "Affaires immobilières",
+              "value": 149475535
+            },
+            {
+              "id": "09",
+              "name": "Sécurité et éducation routières",
+              "value": 126209284
+            },
+            {
+              "id": "06",
+              "name": "Affaires juridiques et contentieuses",
+              "value": 80000000
+            },
+            {
+              "id": "10",
+              "name": "Fonds interministériel de prévention de la délinquance",
+              "value": 72900000
+            },
+            {
+              "id": "03",
+              "name": "Système d'information et de communication",
+              "value": 57685404
+            },
+            {
+              "id": "08",
+              "name": "Immigration, asile et intégration",
+              "value": 41006985
+            },
+            {
+              "id": "04",
+              "name": "Action sociale et formation",
+              "value": 40192600
+            }
+          ]
+        },
+        {
+          "id": "232",
+          "name": "Vie politique, cultuelle et associative",
+          "value": 125657042,
+          "children": [
+            {
+              "id": "01",
+              "name": "Financement des partis",
+              "value": 68670672
+            },
+            {
+              "id": "02",
+              "name": "Organisation des élections",
+              "value": 46565000
+            },
+            {
+              "id": "03",
+              "name": "Commission nationale des comptes de campagne et des financements politiques",
+              "value": 7554443
+            },
+            {
+              "id": "04",
+              "name": "Cultes",
+              "value": 2777037
+            },
+            {
+              "id": "05",
+              "name": "Vie associative",
+              "value": 89890
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aide",
+      "name": "Aide publique au développement",
+      "value": 2699702532,
+      "children": [
+        {
+          "id": "209",
+          "name": "Solidarité à l'égard des pays en développement",
+          "value": 1738288535,
+          "children": [
+            {
+              "id": "07",
+              "name": "Coopération communautaire",
+              "value": 849852395
+            },
+            {
+              "id": "02",
+              "name": "Coopération bilatérale",
+              "value": 573209159
+            },
+            {
+              "id": "08",
+              "name": "\"Dépenses de personnels concourant au programme \"\"Solidarité à l'égard des pays en développement\"\"\"",
+              "value": 164417981
+            },
+            {
+              "id": "05",
+              "name": "Coopération multilatérale",
+              "value": 150809000
+            }
+          ]
+        },
+        {
+          "id": "110",
+          "name": "Aide économique et financière au développement",
+          "value": 961413997,
+          "children": [
+            {
+              "id": "01",
+              "name": "Aide économique et financière multilatérale",
+              "value": 594361154
+            },
+            {
+              "id": "02",
+              "name": "Aide économique et financière bilatérale",
+              "value": 263001153
+            },
+            {
+              "id": "03",
+              "name": "Traitement de la dette des pays pauvres",
+              "value": 104051690
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anci",
+      "name": "Anciens combattants, mémoire et liens avec la nation",
+      "value": 2461455680,
+      "children": [
+        {
+          "id": "169",
+          "name": "Reconnaissance et réparation en faveur du monde combattant",
+          "value": 2317830945,
+          "children": [
+            {
+              "id": "01",
+              "name": "Administration de  la dette viagère",
+              "value": 1817900000,
+              "children": [
+                {
+                  "id": "10",
+                  "name": "Pensions militaires d'invalidité de victimes de guerre et allocations rattachées",
+                  "value": 1074000000
+                },
+                {
+                  "id": "11",
+                  "name": "Retraite du combattant",
+                  "value": 743900000
+                }
+              ]
+            },
+            {
+              "id": "03",
+              "name": "Solidarité",
+              "value": 346360945,
+              "children": [
+                {
+                  "id": "31",
+                  "name": "Majoration des rentes mutualistes des anciens combattants et victimes de guerre",
+                  "value": 247400000
+                },
+                {
+                  "id": "35",
+                  "name": "Office national des anciens combattants (ONAC) : subventions",
+                  "value": 58027168
+                },
+                {
+                  "id": "34",
+                  "name": "Action sociale en faveur du monde combattant : Office national des anciens combattants (ONAC)",
+                  "value": 26400000
+                },
+                {
+                  "id": "36",
+                  "name": "Institution nationale des invalides : subventions",
+                  "value": 12889143
+                },
+                {
+                  "id": "37",
+                  "name": "Conseil national des communes compagnons de la libération - Subventions",
+                  "value": 1334634
+                },
+                {
+                  "id": "32",
+                  "name": "Subventions aux associations et oeuvres diverses",
+                  "value": 260000
+                },
+                {
+                  "id": "33",
+                  "name": "Indemnités, pécules et frais de voyages sur les tombes",
+                  "value": 50000
+                }
+              ]
+            },
+            {
+              "id": "02",
+              "name": "Gestion  des droits liés aux pensions militaires d'invalidité",
+              "value": 136000000,
+              "children": [
+                {
+                  "id": "23",
+                  "name": "Remboursement des prestations de sécurité sociale aux invalides",
+                  "value": 80900000
+                },
+                {
+                  "id": "21",
+                  "name": "Soins médicaux gratuits et appareillage des mutilés",
+                  "value": 52400000
+                },
+                {
+                  "id": "22",
+                  "name": "Remboursement des réductions de transport accordées aux invalides",
+                  "value": 2700000
+                }
+              ]
+            },
+            {
+              "id": "07",
+              "name": "Actions en faveur des rapatriés",
+              "value": 17570000
+            }
+          ]
+        },
+        {
+          "id": "158",
+          "name": "Indemnisation des victimes des persécutions antisémites et des actes de barbarie pendant la seconde guerre mondiale",
+          "value": 100800673,
+          "children": [
+            {
+              "id": "02",
+              "name": "Indemnisation des victimes d'actes de barbarie durant la seconde guerre mondiale",
+              "value": 54385809
+            },
+            {
+              "id": "01",
+              "name": "Indemnisation des orphelins de la déportation et des victimes de spoliations du fait des législations antisémites en vigueur pendant l'Occupation",
+              "value": 46414864
+            }
+          ]
+        },
+        {
+          "id": "167",
+          "name": "Liens entre la Nation et son armée",
+          "value": 42824062,
+          "children": [
+            {
+              "id": "02",
+              "name": "Politique de mémoire",
+              "value": 28200000
+            },
+            {
+              "id": "01",
+              "name": "Journée défense et citoyenneté",
+              "value": 14624062
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outr",
+      "name": "Outre-mer",
+      "value": 2068307108,
+      "children": [
+        {
+          "id": "138",
+          "name": "Emploi outre-mer",
+          "value": 1333592764,
+          "children": [
+            {
+              "id": "01",
+              "name": "Soutien aux entreprises",
+              "value": 1078537757
+            },
+            {
+              "id": "02",
+              "name": "Aide à l'insertion et à la qualification professionnelle",
+              "value": 252530007
+            },
+            {
+              "id": "03",
+              "name": "Pilotage des politiques des outre-mer",
+              "value": 2525000
+            }
+          ]
+        },
+        {
+          "id": "123",
+          "name": "Conditions de vie outre-mer",
+          "value": 734714344,
+          "children": [
+            {
+              "id": "01",
+              "name": "Logement",
+              "value": 228115237
+            },
+            {
+              "id": "06",
+              "name": "Collectivités territoriales",
+              "value": 225628714
+            },
+            {
+              "id": "02",
+              "name": "Aménagement  du territoire",
+              "value": 166005514
+            },
+            {
+              "id": "03",
+              "name": "Continuité territoriale",
+              "value": 41123746
+            },
+            {
+              "id": "08",
+              "name": "Fonds exceptionnel d'investissement",
+              "value": 36000000
+            },
+            {
+              "id": "04",
+              "name": "Sanitaire, social, culture, jeunesse et sports",
+              "value": 19600000
+            },
+            {
+              "id": "09",
+              "name": "Appui à l'accès aux financements bancaires",
+              "value": 17331633
+            },
+            {
+              "id": "07",
+              "name": "Insertion économique et coopération régionales",
+              "value": 909500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "con",
+      "name": "Économie",
+      "value": 1873506045,
+      "children": [
+        {
+          "id": "134",
+          "name": "Développement des entreprises et régulations",
+          "value": 983431552,
+          "children": [
+            {
+              "id": "03",
+              "name": "Actions en faveur des entreprises industrielles",
+              "value": 248480272
+            },
+            {
+              "id": "04",
+              "name": "Développement des télécommunications, des postes et de la société de l'information",
+              "value": 176978000
+            },
+            {
+              "id": "07",
+              "name": "Développement international des entreprises et attractivité du territoire",
+              "value": 154889558
+            },
+            {
+              "id": "17",
+              "name": "Protection économique du consommateur",
+              "value": 115470465
+            },
+            {
+              "id": "16",
+              "name": "Régulation concurrentielle des marchés",
+              "value": 72165058
+            },
+            {
+              "id": "02",
+              "name": "Commerce, artisanat et services",
+              "value": 54454830
+            },
+            {
+              "id": "20",
+              "name": "Financement des entreprises",
+              "value": 48000000
+            },
+            {
+              "id": "18",
+              "name": "Sécurité du consommateur",
+              "value": 43637837
+            },
+            {
+              "id": "13",
+              "name": "Régulation des communications électroniques et des postes (ARCEP)",
+              "value": 27045779
+            },
+            {
+              "id": "15",
+              "name": "Mise en oeuvre du droit de la concurrence (Autorité de la concurrence)",
+              "value": 21656498
+            },
+            {
+              "id": "08",
+              "name": "Expertise, conseil et inspection",
+              "value": 18807229
+            },
+            {
+              "id": "21",
+              "name": "Développement du tourisme",
+              "value": 1846026
+            }
+          ]
+        },
+        {
+          "id": "220",
+          "name": "Statistiques et études économiques",
+          "value": 455339348,
+          "children": [
+            {
+              "id": "05",
+              "name": "Pilotage et soutien",
+              "value": 136124814
+            },
+            {
+              "id": "01",
+              "name": "Infrastructure statistique",
+              "value": 133342596
+            },
+            {
+              "id": "03",
+              "name": "Information démographique et sociale",
+              "value": 70033567
+            },
+            {
+              "id": "02",
+              "name": "Information sur les entreprises et synthèses économiques",
+              "value": 56124524
+            },
+            {
+              "id": "06",
+              "name": "Action régionale",
+              "value": 54756378
+            },
+            {
+              "id": "07",
+              "name": "Formation initiale",
+              "value": 4957469
+            }
+          ]
+        },
+        {
+          "id": "305",
+          "name": "Stratégie économique et fiscale",
+          "value": 434735145,
+          "children": [
+            {
+              "id": "01",
+              "name": "Définition et mise en oeuvre de la politique économique et financière de la France dans le cadre national, international et européen",
+              "value": 332320309
+            },
+            {
+              "id": "02",
+              "name": "Développement international de l'économie française",
+              "value": 85782622
+            },
+            {
+              "id": "03",
+              "name": "Elaboration de la législation fiscale",
+              "value": 16632214
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dire",
+      "name": "Direction de l'action du Gouvernement",
+      "value": 1482472822,
+      "children": [
+        {
+          "id": "129",
+          "name": "Coordination du travail gouvernemental",
+          "value": 713246606,
+          "children": [
+            {
+              "id": "02",
+              "name": "Coordination de la sécurité et de la défense",
+              "value": 353733321
+            },
+            {
+              "id": "10",
+              "name": "Soutien",
+              "value": 126461413
+            },
+            {
+              "id": "01",
+              "name": "Coordination du travail gouvernemental",
+              "value": 93658323
+            },
+            {
+              "id": "16",
+              "name": "Modernisation de l'action publique",
+              "value": 55223311
+            },
+            {
+              "id": "13",
+              "name": "Ordre de la Légion d'honneur",
+              "value": 27095036
+            },
+            {
+              "id": "11",
+              "name": "Stratégie et prospective",
+              "value": 23034808
+            },
+            {
+              "id": "15",
+              "name": "Mission interministérielle de lutte contre les drogues et les conduites addictives",
+              "value": 17584407
+            },
+            {
+              "id": "03",
+              "name": "Coordination de la politique européenne",
+              "value": 16455987
+            }
+          ]
+        },
+        {
+          "id": "333",
+          "name": "Moyens mutualisés des administrations déconcentrées",
+          "value": 671716563,
+          "children": [
+            {
+              "id": "02",
+              "name": "Loyers et charges immobilières des administrations déconcentrées",
+              "value": 326875046
+            },
+            {
+              "id": "03",
+              "name": "Emplois déconcentrés des services du Premier ministre",
+              "value": 181599753
+            },
+            {
+              "id": "01",
+              "name": "Fonctionnement courant des directions départementales interministérielles",
+              "value": 163241764
+            }
+          ]
+        },
+        {
+          "id": "308",
+          "name": "Protection des droits et libertés",
+          "value": 97509653,
+          "children": [
+            {
+              "id": "03",
+              "name": "Conseil supérieur de l'audiovisuel",
+              "value": 37546658
+            },
+            {
+              "id": "09",
+              "name": "Défenseur des droits",
+              "value": 22446164
+            },
+            {
+              "id": "02",
+              "name": "Commission nationale de l'informatique et des libertés",
+              "value": 17650797
+            },
+            {
+              "id": "10",
+              "name": "Haute autorité pour la transparence de la vie publique",
+              "value": 6410189
+            },
+            {
+              "id": "05",
+              "name": "Contrôleur général des lieux de privation de liberté",
+              "value": 5281799
+            },
+            {
+              "id": "06",
+              "name": "Autres autorités indépendantes",
+              "value": 4417070
+            },
+            {
+              "id": "12",
+              "name": "Commission nationale de contrôle des techniques de renseignement",
+              "value": 2895628
+            },
+            {
+              "id": "13",
+              "name": "Commission du secret de la Défense nationale",
+              "value": 571613
+            },
+            {
+              "id": "11",
+              "name": "Régulation de la distribution de la presse",
+              "value": 289735
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sant",
+      "name": "Santé",
+      "value": 1417846408,
+      "children": [
+        {
+          "id": "183",
+          "name": "Protection maladie",
+          "value": 931703824,
+          "children": [
+            {
+              "id": "02",
+              "name": "Aide médicale de l'Etat",
+              "value": 923703824
+            },
+            {
+              "id": "03",
+              "name": "Fonds d'indemnisation des victimes de l'amiante",
+              "value": 8000000
+            }
+          ]
+        },
+        {
+          "id": "204",
+          "name": "Prévention, sécurité sanitaire et offre de soins",
+          "value": 486142584,
+          "children": [
+            {
+              "id": "11",
+              "name": "Pilotage de la politique de santé publique",
+              "value": 251786677
+            },
+            {
+              "id": "17",
+              "name": "Politique des produits de santé et de la qualité des pratiques et des soins",
+              "value": 121743155
+            },
+            {
+              "id": "14",
+              "name": "Prévention des maladies chroniques et qualité de vie des malades",
+              "value": 52723547
+            },
+            {
+              "id": "19",
+              "name": "Modernisation de l'offre de soins",
+              "value": 39493804
+            },
+            {
+              "id": "15",
+              "name": "Prévention des risques liés à l'environnement et à l'alimentation",
+              "value": 18308000
+            },
+            {
+              "id": "16",
+              "name": "Veille et sécurité sanitaire",
+              "value": 1142401
+            },
+            {
+              "id": "12",
+              "name": "Santé des populations",
+              "value": 945000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immi",
+      "name": "Immigration, asile et intégration",
+      "value": 1383146657,
+      "children": [
+        {
+          "id": "303",
+          "name": "Immigration et asile",
+          "value": 1100556790,
+          "children": [
+            {
+              "id": "02",
+              "name": "Garantie de l'exercice du droit d'asile",
+              "value": 985452829
+            },
+            {
+              "id": "03",
+              "name": "Lutte contre l'immigration irrégulière",
+              "value": 82826000
+            },
+            {
+              "id": "04",
+              "name": "Soutien",
+              "value": 31757961
+            },
+            {
+              "id": "01",
+              "name": "Circulation des étrangers et politique des visas",
+              "value": 520000
+            }
+          ]
+        },
+        {
+          "id": "104",
+          "name": "Intégration et accès à la nationalité française",
+          "value": 282589867,
+          "children": [
+            {
+              "id": "11",
+              "name": "Accueil des étrangers primo arrivants",
+              "value": 191431000
+            },
+            {
+              "id": "15",
+              "name": "Accompagnement des réfugiés",
+              "value": 43160100
+            },
+            {
+              "id": "12",
+              "name": "Actions d'accompagnement des étrangers en situation régulière",
+              "value": 38431000
+            },
+            {
+              "id": "16",
+              "name": "Accompagnement du plan de traitement des foyers de  travailleurs migrants",
+              "value": 8538000
+            },
+            {
+              "id": "14",
+              "name": "Accès à la nationalité française",
+              "value": 1029767
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inve",
+      "name": "Investissements d'avenir",
+      "value": 1079500000,
+      "children": [
+        {
+          "id": "423",
+          "name": "Accélération de la modernisation des entreprises",
+          "value": 710000000,
+          "children": [
+            {
+              "id": "06",
+              "name": "Fonds national d'amorçage n° 2",
+              "value": 250000000
+            },
+            {
+              "id": "08",
+              "name": "\"Fonds de fonds \"\"Multicap Croissance\"\" n° 2\"",
+              "value": 200000000
+            },
+            {
+              "id": "07",
+              "name": "Fonds à l'internationalisation des PME",
+              "value": 100000000
+            },
+            {
+              "id": "01",
+              "name": "Soutien à l'innovation collaborative",
+              "value": 60000000
+            },
+            {
+              "id": "05",
+              "name": "Concours d'innovation",
+              "value": 50000000
+            },
+            {
+              "id": "02",
+              "name": "Accompagnement et transformation des filières",
+              "value": 25000000
+            },
+            {
+              "id": "04",
+              "name": "Adaptation et qualification de la main d'oeuvre",
+              "value": 25000000
+            }
+          ]
+        },
+        {
+          "id": "422",
+          "name": "Valorisation de la recherche",
+          "value": 227000000,
+          "children": [
+            {
+              "id": "02",
+              "name": "\"Fonds national post-maturation \"\"Frontier venture\"\"\"",
+              "value": 100000000
+            },
+            {
+              "id": "03",
+              "name": "Démonstrateurs et territoires d'innovation de grande ambition",
+              "value": 70000000
+            },
+            {
+              "id": "05",
+              "name": "Accélération du développement des écosystèmes d'innovation performants",
+              "value": 37000000
+            },
+            {
+              "id": "01",
+              "name": "Intégration des SATT, incubateurs et accélérateurs",
+              "value": 10000000
+            },
+            {
+              "id": "04",
+              "name": "Nouveaux écosystèmes d'innovation",
+              "value": 10000000
+            }
+          ]
+        },
+        {
+          "id": "421",
+          "name": "Soutien des progrès de l'enseignement et de la recherche",
+          "value": 142500000,
+          "children": [
+            {
+              "id": "06",
+              "name": "Créations expérimentales de sociétés universitaires et scientifiques",
+              "value": 50000000
+            },
+            {
+              "id": "07",
+              "name": "Territoires d'innovation pédagogique",
+              "value": 30000000
+            },
+            {
+              "id": "02",
+              "name": "Programmes prioritaires de recherche",
+              "value": 20000000
+            },
+            {
+              "id": "05",
+              "name": "Constitution d'écoles universitaires de recherche",
+              "value": 20000000
+            },
+            {
+              "id": "01",
+              "name": "Nouveaux cursus à l'université",
+              "value": 12500000
+            },
+            {
+              "id": "04",
+              "name": "Soutien des grandes universités de recherche",
+              "value": 10000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pouv",
+      "name": "Pouvoirs publics",
+      "value": 991742491,
+      "children": [
+        {
+          "id": "511",
+          "name": "Assemblée nationale",
+          "value": 517890000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Assemblée nationale",
+              "value": 517890000
+            }
+          ]
+        },
+        {
+          "id": "521",
+          "name": "Sénat",
+          "value": 323584600,
+          "children": [
+            {
+              "id": "01",
+              "name": "Sénat",
+              "value": 311627700
+            },
+            {
+              "id": "02",
+              "name": "Jardin du Luxembourg",
+              "value": 11956900
+            }
+          ]
+        },
+        {
+          "id": "501",
+          "name": "Présidence de la République",
+          "value": 103000000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Présidence de la République",
+              "value": 103000000
+            }
+          ]
+        },
+        {
+          "id": "541",
+          "name": "La Chaîne parlementaire",
+          "value": 34687162,
+          "children": [
+            {
+              "id": "02",
+              "name": "Public Sénat",
+              "value": 18046000
+            },
+            {
+              "id": "01",
+              "name": "La Chaîne parlementaire - Assemblée nationale",
+              "value": 16641162
+            }
+          ]
+        },
+        {
+          "id": "531",
+          "name": "Conseil constitutionnel",
+          "value": 11719229,
+          "children": [
+            {
+              "id": "01",
+              "name": "Conseil constitutionnel",
+              "value": 11719229
+            }
+          ]
+        },
+        {
+          "id": "533",
+          "name": "Cour de justice de la République",
+          "value": 861500,
+          "children": [
+            {
+              "id": "01",
+              "name": "Cour de justice de la République",
+              "value": 861500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spor",
+      "name": "Sport, jeunesse et vie associative",
+      "value": 888883919,
+      "children": [
+        {
+          "id": "163",
+          "name": "Jeunesse et vie associative",
+          "value": 540657493,
+          "children": [
+            {
+              "id": "04",
+              "name": "Développement du service civique",
+              "value": 447639627
+            },
+            {
+              "id": "02",
+              "name": "Actions en faveur de la jeunesse et de l'éducation populaire",
+              "value": 69711938
+            },
+            {
+              "id": "01",
+              "name": "Développement de la vie associative",
+              "value": 23305928
+            }
+          ]
+        },
+        {
+          "id": "219",
+          "name": "Sport",
+          "value": 348226426,
+          "children": [
+            {
+              "id": "02",
+              "name": "Développement du sport de haut niveau",
+              "value": 210127885
+            },
+            {
+              "id": "01",
+              "name": "Promotion du sport pour le plus grand nombre",
+              "value": 89677556
+            },
+            {
+              "id": "04",
+              "name": "Promotion des métiers du sport",
+              "value": 28140860
+            },
+            {
+              "id": "03",
+              "name": "Prévention par le sport et protection des sportifs",
+              "value": 20280125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cons",
+      "name": "Conseil et contrôle de l'État",
+      "value": 663130166,
+      "children": [
+        {
+          "id": "165",
+          "name": "Conseil d'État et autres juridictions administratives",
+          "value": 405242970,
+          "children": [
+            {
+              "id": "03",
+              "name": "Fonction juridictionnelle : Tribunaux administratifs",
+              "value": 161736303
+            },
+            {
+              "id": "06",
+              "name": "Soutien",
+              "value": 107908881
+            },
+            {
+              "id": "02",
+              "name": "Fonction juridictionnelle : Cours administratives d'appel",
+              "value": 51449592
+            },
+            {
+              "id": "07",
+              "name": "Cour nationale du droit d'asile",
+              "value": 28190732
+            },
+            {
+              "id": "01",
+              "name": "Fonction juridictionnelle : Conseil d'État",
+              "value": 27819707
+            },
+            {
+              "id": "05",
+              "name": "Fonction études, expertise et services rendus aux administrations de l'État et des collectivités",
+              "value": 16607615
+            },
+            {
+              "id": "04",
+              "name": "Fonction consultative",
+              "value": 11530140
+            }
+          ]
+        },
+        {
+          "id": "164",
+          "name": "Cour des comptes et autres juridictions financières",
+          "value": 217372207,
+          "children": [
+            {
+              "id": "23",
+              "name": "Contrôle des gestions publiques",
+              "value": 61293462
+            },
+            {
+              "id": "27",
+              "name": "Pilotage et soutien des juridictions financières",
+              "value": 51444346
+            },
+            {
+              "id": "21",
+              "name": "Examen des comptes publics",
+              "value": 40884022
+            },
+            {
+              "id": "24",
+              "name": "Evaluation des politiques publiques",
+              "value": 35365556
+            },
+            {
+              "id": "22",
+              "name": "Contrôle des finances publiques",
+              "value": 16190272
+            },
+            {
+              "id": "25",
+              "name": "Information des citoyens",
+              "value": 7373072
+            },
+            {
+              "id": "26",
+              "name": "Mise en jeu de la responsabilité des comptables publics et des gestionnaires publics",
+              "value": 4821477
+            }
+          ]
+        },
+        {
+          "id": "126",
+          "name": "Conseil économique, social et environnemental",
+          "value": 40047508,
+          "children": [
+            {
+              "id": "01",
+              "name": "Représentation des activités économiques et sociales",
+              "value": 26746048
+            },
+            {
+              "id": "02",
+              "name": "Fonctionnement de l'institution",
+              "value": 11645295
+            },
+            {
+              "id": "03",
+              "name": "Communication et international",
+              "value": 1656165
+            }
+          ]
+        },
+        {
+          "id": "340",
+          "name": "Haut Conseil des finances publiques",
+          "value": 467481,
+          "children": [
+            {
+              "id": "01",
+              "name": "Haut Conseil des finances publiques",
+              "value": 467481
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mdi",
+      "name": "Médias, livre et industries culturelles",
+      "value": 555418015,
+      "children": [
+        {
+          "id": "180",
+          "name": "Presse et médias",
+          "value": 284903714,
+          "children": [
+            {
+              "id": "01",
+              "name": "Relations financières avec l'AFP",
+              "value": 131476239
+            },
+            {
+              "id": "02",
+              "name": "Aides à la presse",
+              "value": 119430676
+            },
+            {
+              "id": "06",
+              "name": "Soutien à l'expression radiophonique locale",
+              "value": 30748639
+            },
+            {
+              "id": "07",
+              "name": "Compagnie internationale de radio et télévision (CIRT)",
+              "value": 1666500
+            },
+            {
+              "id": "05",
+              "name": "Soutien aux médias de proximité",
+              "value": 1581660
+            }
+          ]
+        },
+        {
+          "id": "334",
+          "name": "Livre et industries culturelles",
+          "value": 270514301,
+          "children": [
+            {
+              "id": "01",
+              "name": "Livre et lecture",
+              "value": 255408250
+            },
+            {
+              "id": "02",
+              "name": "Industries culturelles",
+              "value": 15106051
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crd",
+      "name": "Crédits non répartis",
+      "value": 414533189,
+      "children": [
+        {
+          "id": "551",
+          "name": "Provision relative aux rémunérations publiques",
+          "value": 290533189,
+          "children": [
+            {
+              "id": "01",
+              "name": "Provision relative aux rémunérations publiques",
+              "value": 290533189
+            }
+          ]
+        },
+        {
+          "id": "552",
+          "name": "Dépenses accidentelles et imprévisibles",
+          "value": 124000000,
+          "children": [
+            {
+              "id": "01",
+              "name": "Dépenses accidentelles et imprévisibles",
+              "value": 124000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acti",
+      "name": "Action et transformation publiques",
+      "value": 20000000,
+      "children": [
+        {
+          "id": "348",
+          "name": "Rénovation des cités administratives et autres sites domaniaux multi-occupants",
+          "value": 20000000,
+          "children": [
+            {
+              "id": "11",
+              "name": "Etudes",
+              "value": 20000000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

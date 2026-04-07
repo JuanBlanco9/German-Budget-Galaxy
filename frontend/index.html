@@ -58,10 +58,10 @@
     },
     {
       "@type": "Dataset",
-      "name": "France Budget (PLF) 2020–2025",
-      "description": "6 years of French government budget data with ~1,200 programmes per year, sourced from data.gouv.fr.",
+      "name": "France Budget (PLF/LFI) 2015–2025",
+      "description": "11 years of French government budget data with ~900 programmes per year, sourced from data.gouv.fr and data.economie.gouv.fr.",
       "url": "https://budgetgalaxy.com/app?country=fr",
-      "temporalCoverage": "2020/2025",
+      "temporalCoverage": "2015/2025",
       "spatialCoverage": "France",
       "creator": {"@type": "Person", "name": "Juan Blanco"},
       "license": "https://creativecommons.org/licenses/by/4.0/"
@@ -7417,7 +7417,7 @@ function renderEvoChart(){
             const tipsByCountry={
               de:{2020:'COVID-19: Kurzarbeit, emergency social spending',2021:'Peak COVID spending, vaccine procurement',2022:'Zeitenwende + Ukraine war impact',2023:'Energy relief, Sondervermögen (€812B incl. crisis funds)',2024:'Return toward structural budget levels'},
               us:{2020:'COVID-19: CARES Act ($2.2T), PPP loans',2021:'American Rescue Plan ($1.9T), stimulus checks',2022:'Post-COVID normalization, inflation surge',2023:'IRA implementation begins, debt ceiling crisis',2024:'Student loan adjustments, defense increases'},
-              fr:{2020:'COVID-19: chômage partiel, fonds de solidarité',2021:'Plan de relance (€100B recovery)',2022:'Bouclier tarifaire (energy price shield)',2023:'Pension reform (64 retirement age)',2024:'Post-reform fiscal consolidation'},
+              fr:{2015:'State budget only (PLF). Bataclan attacks, state of emergency',2016:'State budget only (PLF). Extension of state of emergency',2017:'State budget only (LFI enacted). Macron elected, new government',2018:'State budget only (PLF). First Macron budget',2019:'State budget only (PLF). Gilets jaunes measures',2020:'COVID-19: chômage partiel, fonds de solidarité',2021:'Plan de relance (€100B recovery)',2022:'Bouclier tarifaire (energy price shield)',2023:'Pension reform (64 retirement age)',2024:'Post-reform fiscal consolidation'},
               uk:{2020:'COVID-19: furlough scheme (£70B), Eat Out to Help Out',2021:'NHS recovery, vaccine rollout',2022:'Energy Price Guarantee, mini-budget crisis',2023:'Cost of living payments, inflation spike',2024:'Spending review, NHS waiting list reduction'},
             };
             const tips=(tipsByCountry[currentCountry]||{});

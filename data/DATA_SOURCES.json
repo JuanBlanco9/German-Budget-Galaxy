@@ -136,14 +136,23 @@
   },
 
   "fr_budget": {
-    "name": "French State Budget (PLF)",
-    "years": "2020-2025",
-    "source": "Projet de Loi de Finances, data.gouv.fr",
-    "format": "CSV (PLF dépenses)",
+    "name": "French State Budget (PLF/LFI)",
+    "years": "2015-2025",
+    "source": "Projet de Loi de Finances, data.gouv.fr + data.economie.gouv.fr",
+    "format": "CSV (PLF dépenses, BG-Msn-Dest)",
     "unit": "EUR (Crédits de Paiement)",
-    "coverage": "Ministère > Mission > Programme > Action",
+    "coverage": "2020-2025: Ministère > Mission > Programme > Action. 2015-2019: Mission > Programme > Action (no ministry codes in source).",
     "files": "data/fr/fr_budget_tree_YYYY.json",
-    "parser": "scripts/build_fr_trees_all.js"
+    "parser": "scripts/build_fr_trees_all.js (2020-2025), scripts/build_fr_trees_2015_2019.js (2015-2019)",
+    "sources_by_year": {
+      "2015": "data.economie.gouv.fr PLF 2015 BG nomenclature par destination (from PLF 2015 dataset)",
+      "2016": "data.economie.gouv.fr PLF 2016 BG-Msn-Dest (from PLF 2016 dataset)",
+      "2017": "LFI 2017 column from PLF 2018 BG-Msn-Dest. PLF 2017 source file is truncated (6/30 missions) on both data.gouv.fr and data.economie.gouv.fr.",
+      "2018": "data.economie.gouv.fr PLF 2018 BG-Msn-Dest (from PLF 2018 dataset)",
+      "2019": "data.gouv.fr PLF 2019 BG-Msn-Dest (from PLF 2019 budget général dataset)",
+      "2020-2025": "data.gouv.fr PLF YYYY dépenses (new format with ministry codes)"
+    },
+    "notes": "2015-2019 use older CSV format without ministry codes, so trees are grouped by Mission instead of Ministère. 2017 uses LFI (enacted) rather than PLF (proposed) because the PLF 2017 source file is truncated at the portal level. 2020-2024 trees include Sécurité Sociale branch. 2015-2019 and 2025 are state budget only."
   },
 
   "fr_securite_sociale": {
