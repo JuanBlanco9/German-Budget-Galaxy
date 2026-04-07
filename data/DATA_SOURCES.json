@@ -170,13 +170,15 @@
 
   "uk_budget": {
     "name": "UK Central Government (OSCAR)",
-    "years": "2020-2024",
+    "years": "2015-2024",
     "source": "HM Treasury OSCAR data",
-    "format": "Excel (.xlsx)",
+    "format": "Excel (.xlsx) for 2020-2024; pipe-delimited CSV in ZIP for 2015-2019",
     "unit": "GBP (thousands in source)",
     "coverage": "Department > Organisation > Sub-function",
     "files": "data/uk/uk_budget_tree_YYYY.json",
-    "parser": "scripts/build_uk_trees_all.py"
+    "parser_2020_plus": "scripts/build_uk_trees_all.py",
+    "parser_2015_2019": "scripts/build_uk_trees_historical.py",
+    "notes": "2015-2019 uses OSCAR annual release CSVs (VERSION_CODE=R13, excluding Period 0). 2020+ uses OSCAR II XLSX files (VERSION=Outturn). Scope differs slightly between formats."
   },
 
   "uk_local_authorities": {

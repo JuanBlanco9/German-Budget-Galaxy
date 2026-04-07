@@ -41,12 +41,25 @@ Country | Years     | Central Govt | Social Insurance | States/Local | Enrichmen
 --------|-----------|-------------|-----------------|--------------|------------
 DE      | 2015-2025 | Bundeshaushalt | GKV+GRV+BA+Pflege+DGUV | 16 Länder + Kommunen | 70+48+inline
 US      | 2017-2025 | Federal      | (included)      | -            | 2,467
-FR      | 2020-2025 | PLF          | DREES Protection Sociale | -     | 1,631+239
-UK      | 2020-2024 | OSCAR        | -               | Local Auth (England) | 779
+FR      | 2015-2025 | PLF/LFI      | DREES Protection Sociale (2015-2024) | - | 1,631+239
+UK      | 2015-2024 | OSCAR/OSCAR II | -             | Local Auth England (2017-2024) | 779
 
-Years with all 4 countries: 2020-2024
-DE+US overlap: 2017-2025
-FR Sécurité Sociale only (no PLF): 2000-2019 available but not integrated
+Years with all 4 countries: 2017-2024 (8 years)
+DE+US+FR overlap: 2017-2025
+All 4 countries: 2017-2024
+
+FR notes: 2015-2019 use older PLF CSV format (Mission > Programme > Action, no ministry codes).
+  2020-2024 use newer format (Ministry > Mission > Programme > Action + Sécurité Sociale).
+  2017 uses LFI (enacted) instead of PLF (proposed) — PLF 2017 CSV is truncated at source.
+  2025 is PLF state budget only (no SS data for 2025 yet).
+
+UK notes: 2015-2019 from OSCAR Annual Release CSVs (pipe-delimited, VERSION_CODE R13).
+  2020-2024 from OSCAR II XLSX. Totals differ between eras (~750-960B vs ~1200-1700B) due to
+  data model changes (OSCAR II includes additional migration/adjustment types).
+  Local Authorities (England) integrated for 2017-2024 (MHCLG Revenue Outturn).
+
+US 50 states data: Census Bureau Excel files downloaded (2012-2022) in data/us/states_research/.
+  50 states × 30 functional categories. Parser not yet written. Planned as new "USA" tab.
 
 GERMANY DATA DETAIL
 -------------------
@@ -191,8 +204,12 @@ COMPLETED (April 6, 2026)
 - Sozialversicherung: 5 branches, 2015-2025, from official BMG/DRV/BA/DGUV sources
 - Länder: 16 states, functional depth 2017-2021 (Destatis), totals 2022-2025
 - Kommunen: COFOG 2015-2024, partial 2025
-- FR Protection Sociale: DREES data 2000-2024, integrated 2020-2024
-- UK Local Authorities: MHCLG Revenue Outturn 2017-2025, 13 service areas
+- FR Protection Sociale: DREES data 2000-2024, integrated 2015-2024
+- FR state budget expanded: PLF 2015-2019 downloaded + parsed (data.economie.gouv.fr)
+- FR now covers 2015-2025 (11 years). 2017 uses LFI (PLF source truncated at portal).
+- UK expanded: OSCAR 2015-2019 from Annual Release CSVs + parser (build_uk_trees_historical.py)
+- UK now covers 2015-2024 (10 years, was 5)
+- UK Local Authorities: MHCLG Revenue Outturn 2017-2025, integrated for 2017-2024
 - FR "Ministere XX" bug fixed in 2020-2023 trees + parser
 - Deep enrichment: FR 1,631+239, UK 779, US 2,467 entries (100% depth 1-2)
 - 306 DE→EN translations + 565-word wordMap for Titel-level auto-translation
@@ -212,7 +229,9 @@ KNOWN ISSUES / CAVEATS
 - DE double-counting: ~€100B in federal-to-SV transfers counted twice (disclaimer shown)
 - Länder functional depth only 2017-2021 (Destatis 3-4 year publication delay)
 - Länder 2022-2023 per-state totals only (Kassenergebnis), 2025 partial (Q1-Q3)
+- FR 2015-2019: Mission-level (no ministry grouping), 2017 is LFI not PLF (source truncated)
 - FR Protection Sociale = all regimes, broader than just Sécurité Sociale institutions
+- UK 2015-2019: OSCAR totals (750-960B) differ from OSCAR II 2020+ (1200-1700B) due to data model
 - UK Local Authorities = England only (Scotland/Wales/NI separate)
 - DGUV 2025 not yet published (expected mid-2026)
 - Spending type analysis only works for DE Bundeshaushalt (Titel-based codes)
@@ -226,16 +245,27 @@ If no machine-readable source exists, say so and don't fabricate.
 
 WHAT'S LEFT TO DO
 -----------------
-1. FR budget data 2015-2019 (PLF CSVs from data.gouv.fr or Eurostat COFOG)
-   - FR Sécurité Sociale already available for those years (DREES)
-   - Needs: download PLF CSVs for 2015-2019, parse, integrate with SS data
+1. USA 50 STATES TAB (major feature)
+   - Census Bureau Excel files already downloaded: data/us/states_research/ (2012-2022)
+   - 50 states × 30 functional categories (education, welfare, highways, police, etc.)
+   - Research doc: data/us/states_research/STATE_DATA_SOURCES_RESEARCH.md
+   - Needs: parser script, new tab in frontend (reuse circle packing engine), API endpoint
+   - Values in thousands USD (multiply by 1000)
 
-2. UK budget data 2015-2019 (OSCAR XLSX or PESA tables)
-   - UK Local Authorities available from 2017
-   - Needs: find and download OSCAR/PESA data for older years
+2. BUDGET COMPARATOR TAB (replace Galaxy tab)
+   - Side-by-side comparison: same country different years, or different countries same year
+   - Galaxy tab is redundant with Multiverse (both show same circle packing)
+   - Comparator fills a real gap: "what changed and why"
+   - Fusion: move search/sidebar/lang-toggle from Galaxy into Multiverse
 
-3. Mobile testing on real devices
+3. NEW COUNTRIES (in priority order)
+   - Japan: MOF budget data, e-Stat API, 47 prefectures
+   - Canada: Open Canada, StatCan, 10 provinces
+   - Australia: budget.gov.au CSV, 6 states
+   - Brazil: Portal da Transparência, SIOP, 27 states
+   - South Korea: KOSIS, Open Fiscal Data
+   - Nordics (Sweden/Norway): SCB, SSB
 
-4. OG image could be improved (higher quality Multiverse screenshot)
-
-5. Consider adding more countries (Brazil, Israel, Canada, Japan mentioned on landing page)
+4. Mobile testing on real devices
+5. OG image could be improved (higher quality Multiverse screenshot)
+6. Canvas 2D for better Multiverse performance when scaling to 11 countries
