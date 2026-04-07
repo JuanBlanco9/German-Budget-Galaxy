@@ -121,11 +121,33 @@ Plan: fusionar Galaxy → Multiverse (agregar search box + sidebar + lang toggle
 UI: dos dropdowns [País ▼ Año ▼] ←→ [País ▼ Año ▼] + toggle normalización
 Tabs: 🌐 Multiverse | ⚖️ Compare | 📋 Explorer | 📈 Evolution | ℹ️ About
 
-### 4. Otras mejoras posibles
+### 5. Nuevos países (en orden de prioridad)
+
+| # | País | Total est. | Federalismo | Fuente principal | Dificultad |
+|---|------|-----------|-------------|-----------------|------------|
+| 1 | 🇯🇵 Japón | ~¥115T ($750B) | Unitario + 47 prefecturas | MOF budget data, e-Stat API (stat.go.jp) | Media |
+| 2 | 🇨🇦 Canadá | ~C$500B federal + provincias | 10 provincias + 3 territorios | Open Canada (open.canada.ca), StatCan | Fácil |
+| 3 | 🇦🇺 Australia | ~A$700B | 6 estados + 2 territorios | budget.gov.au CSV, ABS | Fácil |
+| 4 | 🇧🇷 Brasil | ~R$5T (~$1T) | 27 estados federales | Portal da Transparência, SIOP | Media |
+| 5 | 🇰🇷 Corea del Sur | ~₩600T (~$450B) | Unitario + provincias | KOSIS, Open Fiscal Data (openfiscaldata.go.kr) | Media |
+| 6 | 🇸🇪🇳🇴 Nórdicos | Swe ~SEK 1.2T, Nor ~NOK 1.8T | Unitario + municipios | SCB (Sweden), SSB (Norway) | Fácil |
+
+Approach: un país por sesión. Cada uno requiere:
+1. Investigar fuentes de datos (agente de research)
+2. Descargar + parsear → tree JSONs
+3. Enrichment (50-100 entries mínimo)
+4. Traducciones al inglés si no está en inglés
+5. Agregar al frontend (country switcher, colores, etc.)
+6. Deploy
+
+Japón es el más impactante: contraste envejecimiento DE vs JP, 47 prefecturas como los Länder.
+Canadá es el más fácil: open data excelente, inglés/francés, federalismo comparable a DE/US.
+
+### 6. Otras mejoras
 - Mobile testing en dispositivos reales
-- OG image de mayor calidad
-- Más países (Brasil, Israel, Canada, Japan)
-- Canvas 2D para mejor performance del Multiverse
+- Budget Comparator tab (lado a lado entre años/países)
+- Fusionar Galaxy tab → Multiverse (search + sidebar + lang toggle)
+- Canvas 2D para mejor performance del Multiverse con 11 países
 
 ## APPROACH RECOMENDADO
 
