@@ -1,0 +1,91 @@
+{
+  "id": "laender",
+  "name": "Länder (Bundesländer)",
+  "value": 529318000000,
+  "year": 2023,
+  "source": "Destatis Kassenergebnis Q1-Q4 2023, Bereinigte Ausgaben der Länder (ohne Gemeinden)",
+  "unit": "EUR",
+  "note": "Total Länder expenditure (529,318 Mio EUR) from Destatis official table. Per-state Länder-only split estimated using 2022 Kassenergebnis Länder/Gesamthaushalt ratios applied to 2023 per-state L+G totals, then scaled to match the known national total. Stadtstaaten (Berlin, Bremen, Hamburg) are exact (no separate Gemeinden level). Functional breakdown per state (Aufgabenbereiche) not available. National COFOG breakdown available in laender_eurostat_2023.json via Eurostat.",
+  "children": [
+    {
+      "id": "laender_nw",
+      "name": "Nordrhein-Westfalen",
+      "value": 106518000000
+    },
+    {
+      "id": "laender_by",
+      "name": "Bayern",
+      "value": 74600000000
+    },
+    {
+      "id": "laender_bw",
+      "name": "Baden-Württemberg",
+      "value": 64200000000
+    },
+    {
+      "id": "laender_ni",
+      "name": "Niedersachsen",
+      "value": 44900000000
+    },
+    {
+      "id": "laender_be",
+      "name": "Berlin",
+      "value": 39500000000
+    },
+    {
+      "id": "laender_he",
+      "name": "Hessen",
+      "value": 38300000000
+    },
+    {
+      "id": "laender_hh",
+      "name": "Hamburg",
+      "value": 25700000000
+    },
+    {
+      "id": "laender_sn",
+      "name": "Sachsen",
+      "value": 24100000000
+    },
+    {
+      "id": "laender_rp",
+      "name": "Rheinland-Pfalz",
+      "value": 22900000000
+    },
+    {
+      "id": "laender_sh",
+      "name": "Schleswig-Holstein",
+      "value": 19600000000
+    },
+    {
+      "id": "laender_bb",
+      "name": "Brandenburg",
+      "value": 16700000000
+    },
+    {
+      "id": "laender_st",
+      "name": "Sachsen-Anhalt",
+      "value": 13600000000
+    },
+    {
+      "id": "laender_th",
+      "name": "Thüringen",
+      "value": 12800000000
+    },
+    {
+      "id": "laender_mv",
+      "name": "Mecklenburg-Vorpommern",
+      "value": 11100000000
+    },
+    {
+      "id": "laender_hb",
+      "name": "Bremen",
+      "value": 8600000000
+    },
+    {
+      "id": "laender_sl",
+      "name": "Saarland",
+      "value": 6200000000
+    }
+  ]
+}

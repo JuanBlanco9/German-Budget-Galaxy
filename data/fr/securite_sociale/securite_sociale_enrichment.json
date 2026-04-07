@@ -67,5 +67,162 @@
     "name": "Pauvrete-Exclusion Sociale",
     "name_en": "Poverty & Social Exclusion",
     "description": "Anti-poverty benefits: RSA (Revenu de Solidarite Active), Prime d'activite, emergency housing, energy vouchers (cheque-energie), higher education grants, and other social minima."
+  },
+
+  "Sécurité Sociale (Social Security)": {
+    "y": 2024,
+    "d": "France's social protection system (Protection Sociale), one of the most comprehensive in the world. Covers health, pensions, family, unemployment, housing, and anti-poverty benefits across multiple regimes: the general regime (regime general), special regimes for civil servants and specific sectors, complementary schemes (AGIRC-ARRCO), and state interventions. Total spending exceeds EUR 850 billion annually, representing over 30% of GDP.",
+    "b": "The entire resident population of France. The system provides universal health coverage (PUMa since 2016), pensions for over 16 million retirees, family benefits for millions of households, unemployment insurance, housing allowances, and minimum income support."
+  },
+  "VIEILLESSE-SURVIE": {
+    "y": 2024,
+    "d": "Old-age and survivor benefits, the largest branch of French social protection. Includes basic pensions (regime general, civil servants, special regimes), complementary pensions (AGIRC-ARRCO), the minimum vieillesse (ASPA), dependency/autonomy benefits (APA), and survivor pensions (pensions de reversion). France's pension system is fragmented across more than 40 regimes.",
+    "b": "Over 16 million retirees receiving pensions, plus surviving spouses and dependents receiving pensions de reversion. Also covers elderly persons in dependency through APA (Allocation Personnalisee d'Autonomie)."
+  },
+  "SANTÉ": {
+    "y": 2024,
+    "d": "Health-related social protection covering sickness insurance (Assurance Maladie), hospital and outpatient care, pharmaceutical reimbursements, complementary health coverage, disability benefits, medico-social services (EHPAD, SSIAD), and occupational accident/disease compensation. France's health system is rated among the best in the world for access and quality.",
+    "b": "The entire resident population through universal health coverage (PUMa). Approximately 67 million people are covered by the Assurance Maladie, with complementary coverage (mutuelle) for most."
+  },
+  "FAMILLE": {
+    "y": 2024,
+    "d": "Family benefits administered primarily by the CAF (Caisse d'Allocations Familiales) network. Includes allocations familiales, PAJE birth/adoption and childcare benefits, childcare facility funding (creches), education grants (allocation de rentree scolaire), maternity/paternity leave, and child welfare services (ASE). France has one of the highest fertility rates in Europe, partly attributed to its generous family policy.",
+    "b": "Families with children receiving allocations familiales and other benefits, parents on maternity/paternity leave, households using subsidized childcare, and children under the protection of Aide Sociale a l'Enfance."
+  },
+  "EMPLOI": {
+    "y": 2024,
+    "d": "Employment-related social protection covering unemployment insurance (ARE via UNEDIC/France Travail), professional training and retraining, job insertion programs, early retirement schemes, and partial activity (chomage partiel). France Travail (formerly Pole Emploi) serves as the main placement and support service for job seekers.",
+    "b": "Approximately 6 million registered job seekers, workers in professional training or retraining, employees on partial activity (chomage partiel), and early retirees under specific schemes."
+  },
+  "PAUVRETÉ-EXCLUSION SOCIALE": {
+    "y": 2024,
+    "d": "Anti-poverty and social exclusion benefits, including RSA (Revenu de Solidarite Active) as the main minimum income, Prime d'activite (in-work benefit), emergency housing and shelter, energy vouchers (cheque-energie), higher education grants (bourses), and exceptional crisis measures. RSA is co-financed by departements and the State.",
+    "b": "Approximately 2 million RSA recipients and their households, over 4 million Prime d'activite beneficiaries, students receiving higher education grants, and persons in emergency housing."
+  },
+  "LOGEMENT": {
+    "y": 2024,
+    "d": "Housing allowances helping low- and moderate-income households with rent or mortgage costs. Three main schemes: APL (Aide Personnalisee au Logement), ALF (Allocation de Logement Familiale), and ALS (Allocation de Logement Sociale). Administered by CAF and MSA. The system was reformed in 2021 to calculate benefits based on current income rather than income from two years prior.",
+    "b": "Approximately 6.5 million households receiving one of the three housing allowances, primarily tenants in the private and social housing sectors."
+  },
+  "VIEILLESSE": {
+    "y": 2024,
+    "d": "Old-age pensions: basic pensions from the regime general, civil servant pensions, special regime pensions, complementary pensions (AGIRC-ARRCO), supplementary pensions, minimum vieillesse (ASPA), and dependency benefits (APA). The 2023 pension reform raised the legal retirement age from 62 to 64.",
+    "b": "Over 16 million retirees and elderly persons receiving dependency benefits."
+  },
+  "SURVIE": {
+    "y": 2024,
+    "d": "Survivor benefits including pensions de reversion (with and without means-testing), survivor pensions from complementary and special schemes, and related benefits for surviving spouses and orphans.",
+    "b": "Surviving spouses and dependents of deceased insured persons, receiving pensions de reversion from basic and complementary schemes."
+  },
+  "MALADIE": {
+    "y": 2024,
+    "d": "Sickness insurance benefits covering hospital care, outpatient physician visits, pharmaceutical reimbursements, daily sickness allowances (indemnites journalieres), complementary health coverage reimbursements, and medico-social care for the elderly (EHPAD, SSIAD). The largest sub-branch of health spending.",
+    "b": "All persons covered by the Assurance Maladie who require medical treatment, hospitalization, or sickness leave compensation."
+  },
+  "INVALIDITÉ": {
+    "y": 2024,
+    "d": "Disability benefits including invalidity pensions, AAH (Allocation aux Adultes Handicapes), PCH (Prestation de Compensation du Handicap), residential and day care for disabled persons, sheltered work (ESAT), and the allocation d'education de l'enfant handicape (AEEH).",
+    "b": "Persons with disabilities receiving pensions, allowances, or residential/day care services. Approximately 1.3 million AAH recipients."
+  },
+  "ACCIDENTS DU TRAVAIL ET MALADIES PROFESSIONNELLES": {
+    "y": 2024,
+    "d": "Work accident and occupational disease (AT-MP) compensation covering permanent disability rentes, FIVA asbestos compensation, early retirement for asbestos workers (ACAATA), pesticide victim compensation, and temporary daily allowances during recovery.",
+    "b": "Workers who have suffered workplace accidents or been diagnosed with occupational diseases, asbestos exposure victims, and their survivors."
+  },
+  "CHÔMAGE": {
+    "y": 2024,
+    "d": "Unemployment insurance benefits, primarily the Allocation d'Aide au Retour a l'Emploi (ARE) administered by UNEDIC and France Travail, plus the Allocation de Securisation Professionnelle (ASP) and residual solidarity benefits (ASS). Also covers partial activity (chomage partiel) compensation.",
+    "b": "Registered job seekers meeting contribution requirements, workers on partial activity, and recipients of solidarity unemployment benefits."
+  },
+  "INSERTION ET RÉINSERTION PROFESSIONNELLE": {
+    "y": 2024,
+    "d": "Professional insertion and reinsertion programs including vocational training funded by regions and UNEDIC (ARE-Formation), support for business creation, youth insertion programs, and other measures to facilitate return to employment.",
+    "b": "Job seekers in vocational training, young people in insertion programs, and persons receiving support for business creation or professional requalification."
+  },
+
+  "Économie, finances et souveraineté industrielle et numérique": {
+    "y": 2024,
+    "d": "France's economic and finance ministry grouping, covering tax administration (DGFiP), customs (DGDDI), the Treasury (Direction du Tresor), competition authority, industrial policy, digital sovereignty, and economic statistics (INSEE). Includes major tax expenditure programs and business support.",
+    "b": "All taxpayers, businesses receiving industrial policy support, and the broader economy through fiscal and regulatory management."
+  },
+  "Éducation nationale et  jeunesse": {
+    "y": 2024,
+    "d": "France's national education ministry covering primary and secondary public education, private education under contract, student life services, and youth policies. The largest civilian employer in France with over 1.1 million staff and approximately 12 million students across roughly 59,000 schools.",
+    "b": "12.2 million students in primary and secondary education, 870,000 teachers, and families benefiting from school-related services and youth programs."
+  },
+  "Armées": {
+    "y": 2024,
+    "d": "France's armed forces ministry covering military personnel, equipment procurement under the Military Programming Law (LPM 2024-2030), operational readiness, nuclear deterrence, and veterans' benefits. France maintains the only nuclear deterrent and the largest military in the EU.",
+    "b": "207,000 military and 63,000 civilian staff, plus approximately 1 million veterans and their families receiving benefits."
+  },
+  "Transition écologique et cohésion des territoires": {
+    "y": 2024,
+    "d": "Ministry covering ecological transition, territorial cohesion, infrastructure, urban policy, and housing policy. Manages programs for biodiversity, water and air quality, territorial development grants, and urban renewal (ANRU).",
+    "b": "Local authorities receiving territorial cohesion grants, communities in urban renewal zones, and the broader population through environmental protection."
+  },
+  "Intérieur et outre-mer": {
+    "y": 2024,
+    "d": "France's interior ministry covering police nationale, gendarmerie coordination, civil security, prefectures, immigration and asylum processing, local government relations, and overseas territories administration. Handles approximately 120,000 asylum applications per year.",
+    "b": "All residents through policing and public safety, local authorities through prefectoral oversight, asylum seekers, and populations in overseas territories."
+  },
+  "Solidarités et des Familles": {
+    "y": 2024,
+    "d": "Ministry of solidarity and families, covering disability benefits (AAH), elderly autonomy support (CNSA), social inclusion, child protection, gender equality policies, and management of social minima. Oversees the new 5th branch of Social Security (Autonomie) created in 2020.",
+    "b": "Persons with disabilities (1.3 million AAH recipients), elderly persons receiving APA (1.3 million), RSA recipients, and vulnerable populations including children in child protection."
+  },
+  "Enseignement supérieur et recherche": {
+    "y": 2024,
+    "d": "Ministry of higher education and research covering 75 public universities, public research organizations (CNRS, INSERM, INRAE), doctoral fellowships, student financial aid, and the France 2030 research investment program. France ranks 7th globally in scientific publications.",
+    "b": "2.9 million students, 750,000 students on scholarships, and researchers at public institutions including CNRS (32,000 employees)."
+  },
+  "Travail, plein emploi et insertion": {
+    "y": 2024,
+    "d": "Ministry of labor, full employment, and insertion covering employment subsidies, France Travail operations, apprenticeship and vocational training support, youth insertion programs, and labor market regulation. Apprenticeship numbers nearly doubled since 2018 through subsidies.",
+    "b": "The 30 million-strong active workforce, 6 million registered job seekers served by France Travail, and approximately 370,000 apprenticeship contract holders per year."
+  },
+  "Transition énergétique": {
+    "y": 2024,
+    "d": "Energy transition programs covering renewable energy development, energy efficiency measures including MaPrimeRenov' for building renovation, electric vehicle bonuses, public service energy charges (CSPE), and nuclear energy policy. France derives approximately 65% of its electricity from 56 nuclear reactors.",
+    "b": "Households and businesses benefiting from energy renovation subsidies, electric vehicle buyers, renewable energy producers, and energy consumers through regulated tariffs."
+  },
+  "Justice": {
+    "y": 2024,
+    "d": "France's justice ministry covering courts, the prison system (164 prisons at 128% occupancy), judicial youth protection, legal aid, and justice digitalization. France spends approximately EUR 78 per inhabitant on justice, about half of Germany's figure.",
+    "b": "All persons involved in legal proceedings, approximately 78,000 inmates, 155,000 minors under judicial protection, and 1 million legal aid cases per year."
+  },
+  "Services du Premier ministre": {
+    "y": 2024,
+    "d": "Services of the Prime Minister covering coordination of government action, strategic planning (France Strategie), digital affairs (DINUM), government communication, and various attached bodies including the Conseil d'Etat and the Cour des comptes.",
+    "b": "Government ministries and agencies receiving coordination and strategic planning support, and citizens through government digital services."
+  },
+  "Agriculture et souveraineté alimentaire": {
+    "y": 2024,
+    "d": "Ministry of agriculture and food sovereignty covering farm subsidies (complementing EU CAP), food safety, veterinary services, agricultural education, forestry, and rural development. France is the EU's largest agricultural producer.",
+    "b": "Approximately 400,000 farms, agricultural workers, food industry businesses, and rural communities receiving development support."
+  },
+  "Europe et affaires étrangères": {
+    "y": 2024,
+    "d": "Ministry of Europe and foreign affairs covering diplomatic operations, consular services, development aid (ODA), cultural diplomacy (Alliance Francaise, Institut Francais), and France's contributions to the EU and international organizations.",
+    "b": "French citizens abroad using consular services, partner countries receiving development aid, and the broader population through diplomatic representation."
+  },
+  "Culture": {
+    "y": 2024,
+    "d": "Ministry of culture covering public broadcasting (France Televisions), heritage conservation (45,000 protected monuments), national museums (including the Louvre), performing arts, cinema support (CNC), and decentralized cultural policy. France's 'exception culturelle' subsidizes virtually every art form.",
+    "b": "Cultural institutions and their visitors, artists and performers, the audiovisual sector, and the general public through access to cultural heritage."
+  },
+  "Santé et prévention": {
+    "y": 2024,
+    "d": "Ministry of health and prevention covering public health policy, health crisis preparedness, health agency oversight, prevention campaigns, and health system governance. Distinct from Assurance Maladie operational spending which flows through Social Security.",
+    "b": "The entire population through public health policy, disease prevention, and health system regulation."
+  },
+  "Sports et jeux olympiques et paralympiques": {
+    "y": 2024,
+    "d": "Ministry of sports, initially created to coordinate the Paris 2024 Olympics and Paralympics. Covers sports promotion, high-performance athlete support, sports facility investment, and the legacy programs from the Olympic Games.",
+    "b": "Athletes at all levels, sports federations, and communities benefiting from Olympic legacy investments in sports infrastructure."
+  },
+  "Transformation et fonction publiques": {
+    "y": 2024,
+    "d": "Ministry of public transformation and civil service covering civil service management, public sector modernization, digital transformation of government services, and interministerial reform programs.",
+    "b": "The 5.7 million public sector employees and all citizens interacting with modernized government services."
   }
 }

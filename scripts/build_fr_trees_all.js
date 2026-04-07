@@ -28,6 +28,15 @@ function buildLabelDict() {
     if (c[5]) dict.action[`${prog}-${(c[5]||'').trim()}`] = c[6]?.trim() || '';
   });
 
+  // Add zero-padded aliases so old CSVs (codes "01","02",...,"09") resolve correctly
+  for (const [code, name] of Object.entries({...dict.ministere})) {
+    if (/^\d$/.test(code)) dict.ministere[code.padStart(2, '0')] = name;
+  }
+  // Ministry codes that existed only in certain years and are not in 2024/2025
+  if (!dict.ministere['28']) dict.ministere['28'] = 'Mer';
+  if (!dict.ministere['52']) dict.ministere['52'] = 'Sports, jeunesse et vie associative';
+  if (!dict.ministere['43']) dict.ministere['43'] = 'Transition énergétique';
+
   console.log(`Label dict: ${Object.keys(dict.ministere).length} ministeres, ${Object.keys(dict.mission).length} missions, ${Object.keys(dict.programme).length} programmes`);
   return dict;
 }

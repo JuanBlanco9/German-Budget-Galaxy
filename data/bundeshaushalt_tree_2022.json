@@ -1,6 +1,6 @@
 {
   "name": "Germany Public Spending 2022",
-  "value": 2163942426008,
+  "value": 2105331626008,
   "children": [
     {
       "id": "sv",
@@ -258,55 +258,90 @@
     {
       "id": "laender",
       "name": "Länder (Federal States)",
-      "value": 580861000000,
+      "value": 522250200000,
       "children": [
         {
-          "id": "laender_allg_dienste",
-          "name": "Allgemeine öffentliche Verwaltung",
-          "value": 133617000000
+          "id": "laender_nw",
+          "name": "Nordrhein-Westfalen",
+          "value": 110371400000
         },
         {
-          "id": "laender_soziales",
-          "name": "Soziale Sicherung",
-          "value": 132962000000
+          "id": "laender_by",
+          "name": "Bayern",
+          "value": 73511300000
         },
         {
-          "id": "laender_bildung",
-          "name": "Bildungswesen",
-          "value": 129528000000
+          "id": "laender_bw",
+          "name": "Baden-Württemberg",
+          "value": 63641000000
         },
         {
-          "id": "laender_wirtschaft",
-          "name": "Wirtschaftliche Angelegenheiten",
-          "value": 76144000000
+          "id": "laender_ni",
+          "name": "Niedersachsen",
+          "value": 44908400000
         },
         {
-          "id": "laender_sicherheit",
-          "name": "Öffentliche Ordnung und Sicherheit",
-          "value": 43955000000
+          "id": "laender_be",
+          "name": "Berlin",
+          "value": 38829100000
         },
         {
-          "id": "laender_gesundheit",
-          "name": "Gesundheitswesen",
-          "value": 30933000000
+          "id": "laender_he",
+          "name": "Hessen",
+          "value": 36885600000
         },
         {
-          "id": "laender_kultur_freizeit",
-          "name": "Freizeit, Sport, Kultur und Religion",
-          "value": 19454000000
+          "id": "laender_sn",
+          "name": "Sachsen",
+          "value": 23337500000
         },
         {
-          "id": "laender_wohnungswesen",
-          "name": "Wohnungswesen und kommunale Einrichtungen",
-          "value": 8352000000
+          "id": "laender_hh",
+          "name": "Hamburg",
+          "value": 23251100000
         },
         {
-          "id": "laender_umwelt",
-          "name": "Umweltschutz",
-          "value": 5916000000
+          "id": "laender_rp",
+          "name": "Rheinland-Pfalz",
+          "value": 22630000000
+        },
+        {
+          "id": "laender_sh",
+          "name": "Schleswig-Holstein",
+          "value": 18796200000
+        },
+        {
+          "id": "laender_bb",
+          "name": "Brandenburg",
+          "value": 16034700000
+        },
+        {
+          "id": "laender_st",
+          "name": "Sachsen-Anhalt",
+          "value": 13824400000
+        },
+        {
+          "id": "laender_th",
+          "name": "Thüringen",
+          "value": 12300500000
+        },
+        {
+          "id": "laender_mv",
+          "name": "Mecklenburg-Vorpommern",
+          "value": 10877100000
+        },
+        {
+          "id": "laender_hb",
+          "name": "Bremen",
+          "value": 8304600000
+        },
+        {
+          "id": "laender_sl",
+          "name": "Saarland",
+          "value": 5914700000
         }
       ],
-      "_disclaimer": "National aggregate spending by COFOG function (Eurostat). Individual state breakdown not yet published by Destatis for these years."
+      "_disclaimer": "Total expenditure per state from quarterly cash statistics (Kassenergebnis Q1-Q4 2022, Fachserie 14 Reihe 2). Functional breakdown by Aufgabenbereiche not published by Destatis for this year (Rechnungsergebnis Gesamthaushalt last published for 2021). National COFOG functional breakdown available separately in laender_eurostat_2022.json."
     },
     {
       "id": "kommunen",

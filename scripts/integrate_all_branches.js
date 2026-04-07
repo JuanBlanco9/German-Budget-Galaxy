@@ -187,8 +187,10 @@ function integrateGermany() {
         laenderBranch._disclaimer = getDisclaimer('laender_2024');
       } else if (year === '2025') {
         laenderBranch._disclaimer = getDisclaimer('laender_2025');
-      } else if (laenderSource === 'Eurostat COFOG' && ['2022', '2023'].includes(year)) {
-        laenderBranch._disclaimer = getDisclaimer('laender_2022_2023');
+      } else if (year === '2022') {
+        laenderBranch._disclaimer = getDisclaimer('laender_2022');
+      } else if (year === '2023') {
+        laenderBranch._disclaimer = getDisclaimer('laender_2023');
       } else if (laenderSource === 'Eurostat COFOG') {
         laenderBranch._disclaimer = 'National aggregate by COFOG function (Eurostat). Per-state breakdown available for 2019-2021.';
       }

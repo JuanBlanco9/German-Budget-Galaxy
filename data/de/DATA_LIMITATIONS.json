@@ -12,11 +12,17 @@
     "note_de": "Daten für Januar-September 2025. Gesamtjahr und funktionale Gliederung noch nicht verfügbar.",
     "source": "Destatis Kassenergebnis Gesamthaushalt Q1-Q3 2025, Tabelle 71511-09"
   },
-  "laender_2022_2023": {
-    "applies_to": "Länder Eurostat trees 2022-2023",
-    "note_en": "National aggregate spending by COFOG function (Eurostat). Individual state breakdown not yet published by Destatis for these years.",
-    "note_de": "Nationale Gesamtausgaben nach COFOG-Funktion (Eurostat). Länderspezifische Aufgliederung noch nicht verfügbar.",
-    "source": "Eurostat gov_10a_exp, sector S1312, unit MIO_EUR"
+  "laender_2022": {
+    "applies_to": "Länder tree 2022",
+    "note_en": "Total expenditure per state from quarterly cash statistics (Kassenergebnis Q1-Q4 2022, Fachserie 14 Reihe 2). Functional breakdown by Aufgabenbereiche not published by Destatis for this year (Rechnungsergebnis Gesamthaushalt last published for 2021). National COFOG functional breakdown available separately in laender_eurostat_2022.json.",
+    "note_de": "Gesamtausgaben je Land aus der vierteljährlichen Kassenstatistik (Q1-Q4 2022). Funktionale Gliederung nach Aufgabenbereichen nicht veröffentlicht (Rechnungsergebnis Gesamthaushalt zuletzt für 2021 publiziert). Nationale funktionale Aufteilung nach COFOG in laender_eurostat_2022.json.",
+    "source": "Destatis Kassenergebnis Q1-Q4 2022 (Fachserie 14 Reihe 2, Tabelle 2.2.1)"
+  },
+  "laender_2023": {
+    "applies_to": "Länder tree 2023",
+    "note_en": "Total Länder expenditure (529.3 bn EUR) is official Destatis data. Per-state split estimated from 2022 Kassenergebnis Länder/total ratios applied to 2023 per-state combined (L+G) data, scaled to match the known national Länder total. Stadtstaaten (Berlin, Bremen, Hamburg) are exact. Functional breakdown by Aufgabenbereiche not published by Destatis. National COFOG functional breakdown available in laender_eurostat_2023.json.",
+    "note_de": "Gesamtausgaben der Länder (529,3 Mrd EUR) sind offizielle Destatis-Daten. Länderspezifische Aufgliederung geschätzt über Kassenergebnis-Anteile 2022. Stadtstaaten sind exakt. Funktionale Gliederung nicht verfügbar.",
+    "source": "Destatis Kassenergebnis 2023 (Ausgaben-Tabelle); per-state split estimated from 2022 Fachserie 14 ratios"
   },
   "kommunen_2025": {
     "applies_to": "Kommunen tree 2025",

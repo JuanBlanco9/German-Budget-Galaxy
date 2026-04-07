@@ -165,11 +165,22 @@ COFOG_GERMAN = {
     "GF10": "Soziale Sicherung",
 }
 
-# Destatis Excel files
+# Destatis Excel files - Rechnungsergebnis (full functional breakdown)
 DESTATIS_FILES = {
     2019: "rechnungsergebnis_2019.xlsx",
     2020: "rechnungsergebnis_2020.xlsx",
     2021: "rechnungsergebnis_2021.xlsx",
+}
+
+# Kassenergebnis Excel files (per-state totals only, no functional breakdown)
+# 2022: Fachserie 14 Reihe 2 format (sheet 2.2.1, different column layout)
+# 2024-2025: Statistischer Bericht format (sheet 71511-09)
+# 2023: xlsx not downloadable via curl (Destatis CDN issue), data estimated from
+#       2022 Länder/L+G ratios applied to 2023 per-state L+G totals
+KASSENERGEBNIS_FILES = {
+    2022: "kassenergebnis_2022_fachserie14.xlsx",
+    2024: "kassenergebnis_2024.xlsx",
+    2025: "kassenergebnis_2025.xlsx",
 }
 
 # Data start rows per year (where code 1001 begins)
