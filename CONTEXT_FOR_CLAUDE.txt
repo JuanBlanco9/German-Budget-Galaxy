@@ -1,0 +1,241 @@
+BUDGET GALAXY - Project Context
+================================
+Date: April 6, 2026
+Owner: Juan Blanco (@JuanBlanco9)
+
+WHAT IT IS
+----------
+Interactive visualization of TOTAL PUBLIC SPENDING for 4 countries (Germany, USA, France, UK).
+Not just central government budgets — includes social insurance, states/regions, municipalities.
+Users can zoom into individual budget items, compare countries side-by-side, explore spending evolution.
+
+Live: https://budgetgalaxy.com
+Repo: https://github.com/JuanBlanco9/Budget-Galaxy
+Server: 96.30.199.112 (Vultr Atlanta, Ubuntu 24.04)
+SSH: ssh -i ~/.ssh/id_agro_intel root@96.30.199.112
+
+TOTAL SPENDING COVERED (2024)
+------------------------------
+Germany: €2,287B (Bundeshaushalt €476B + Sozialversicherung €839B + Länder €562B + Kommunen €410B)
+USA: $6,750B (Federal budget)
+France: €1,745B (PLF state budget €812B + Protection Sociale €933B)
+UK: £1,383B (OSCAR central govt £1,249B + Local Authorities £134B)
+
+Note: DE total includes double-counting (~€100B federal subsidies to pension insurance appear in both
+Bundeshaushalt and Sozialversicherung). Disclaimer shown to users at root level.
+
+STACK
+-----
+- Frontend: Single HTML file (~470KB) at frontend/index.html
+  - D3.js v7 (circle packing, semantic zoom)
+  - Chart.js 4 (Budget Evolution line charts)
+  - Vanilla JS, no framework
+- Backend: FastAPI + Python at api/main.py (~200 lines)
+  - Serves static files + JSON API
+  - Runs on uvicorn port 8088, nginx reverse proxy + Let's Encrypt SSL
+- Data: JSON tree files in data/ directory (no database)
+
+DATA COVERAGE
+-------------
+Country | Years     | Central Govt | Social Insurance | States/Local | Enrichments
+--------|-----------|-------------|-----------------|--------------|------------
+DE      | 2015-2025 | Bundeshaushalt | GKV+GRV+BA+Pflege+DGUV | 16 Länder + Kommunen | 70+48+inline
+US      | 2017-2025 | Federal      | (included)      | -            | 2,467
+FR      | 2020-2025 | PLF          | DREES Protection Sociale | -     | 1,631+239
+UK      | 2020-2024 | OSCAR        | -               | Local Auth (England) | 779
+
+Years with all 4 countries: 2020-2024
+DE+US overlap: 2017-2025
+FR Sécurité Sociale only (no PLF): 2000-2019 available but not integrated
+
+GERMANY DATA DETAIL
+-------------------
+Sozialversicherung (5 branches, 2015-2025):
+  - GKV (health): BMG KJ1 PDFs + KV45 Excel → gkv_parsed.json
+  - GRV (pensions): DRV "RV in Zeitreihen" PDF → rente_data.json (2015-2025)
+  - BA (unemployment): BA Jahresrechnungen PDFs → ba_data.json (2015-2025)
+  - Pflege (care): BMG Excel → pflege_parsed.json (2015-2025)
+  - DGUV (accidents): DGUV Statistiken PDF → dguv_data.json (2015-2024)
+  Combined in: sv_branches.json
+
+Länder (16 states):
+  - 2017-2021: Destatis Rechnungsergebnis Excel → 16 states × 19 Aufgabenbereiche (FULL DEPTH)
+  - 2022-2023: Destatis Kassenergebnis → 16 states, totals only (no functional breakdown)
+  - 2024: Kassenergebnis Q1-Q4 → 16 states, totals only
+  - 2025: Kassenergebnis Q1-Q3 → 16 states, partial year
+  - 2015-2016: Eurostat COFOG → 9 national categories only (Destatis never published)
+  Limitation: Destatis publishes Rechnungsergebnis with 3-4 year delay. Disclaimers shown for 2022+.
+
+Kommunen: Eurostat COFOG S1313 → 9 categories (2015-2024), partial 2025
+
+KEY FILES
+---------
+frontend/index.html                          - THE app (single file, ~470KB)
+frontend/og_preview.jpg                      - OG image (Multiverse screenshot)
+api/main.py                                  - FastAPI server
+
+Data - Trees (integrated with all branches):
+  data/bundeshaushalt_tree_YYYY.json         - DE trees (2015-2025, includes SV+Länder+Kommunen)
+  data/us/us_budget_tree_YYYY.json           - US trees (2017-2025)
+  data/fr/fr_budget_tree_YYYY.json           - FR trees (2020-2025, includes Sécurité Sociale)
+  data/uk/uk_budget_tree_YYYY.json           - UK trees (2020-2024, includes Local Authorities)
+
+Data - Source/intermediate (used by integration script):
+  data/de/sozialversicherung/                - SV parsed JSONs + source PDFs/Excel
+  data/de/laender/                           - Länder parsed JSONs + Destatis/Eurostat source
+  data/fr/securite_sociale/                  - FR SS trees (2000-2024, 25 files)
+  data/uk/local_authorities/                 - UK LA trees (2018-2025) + source CSV
+
+Data - Enrichments:
+  data/de/sozialversicherung_enrichment.json - 70 entries (SV branches + sub-items)
+  data/de/laender_enrichment.json            - 48 entries (16 states + functions + COFOG)
+  data/us/program_enrichment.json            - 2,467 entries
+  data/fr/program_enrichment.json            - 1,631 entries
+  data/fr/securite_sociale/securite_sociale_enrichment.json - 239 entries
+  data/uk/program_enrichment.json            - 779 entries
+
+Data - Translations:
+  data/de/translations_new_branches.json     - 306 DE→EN translations (SV, Länder, Kapitel)
+  data/fr/translations_fr_en.json            - 350+ FR→EN translations
+
+Data - Documentation:
+  data/DATA_SOURCES.json                     - Complete source registry (all datasets traceable)
+  data/de/DATA_LIMITATIONS.json              - Disclaimers for partial/limited data years
+  data/backups/                              - Pre-integration backups of original trees
+
+Scripts:
+  scripts/integrate_all_branches.js          - MAIN: merges SV+Länder+Kommunen+LA+SS into trees
+  scripts/build_sozialversicherung_trees.js  - Parses GKV/Pflege Excel → JSON
+  scripts/build_laender_trees.py             - Parses Destatis Rechnungsergebnis → Länder JSON
+  scripts/build_fr_ss_trees.py               - Parses DREES CSV → FR SS trees
+  scripts/build_uk_la_trees.py               - Parses MHCLG Revenue Outturn CSV → UK LA trees
+  scripts/parse_2017_2018.py                 - Parses Destatis 2017-2018 Fachserie format
+  scripts/capture_og_image.js                - Puppeteer screenshot of Multiverse for OG image
+  scripts/build_yearly_trees.js              - Original DE Bundeshaushalt CSV parser
+  scripts/build_us_trees_all.py              - US tree builder (USAspending.gov API)
+  scripts/build_fr_trees_all.js              - FR PLF CSV parser (2020-2025)
+  scripts/build_uk_trees_all.py              - UK OSCAR XLSX parser
+
+TRANSLATION SYSTEM
+------------------
+- galaxyTranslations{} - Inline dict (~200 entries) for exact name matches
+- translations_new_branches.json - 306 entries loaded via fetch, merged at startup
+- galaxyWordMap{} - 565 word-level DE→EN translations for Titel-level names
+- trG(name) - Main translation function: exact match → wordMap → cache
+  - Sorts wordMap by length desc to prevent compound word breakage
+  - Uses Unicode-aware boundaries (lookbehind with umlauts)
+  - loadGalaxy() awaits translation fetch before rendering
+- trFR(name) - French translation from translations_fr_en.json
+- frTranslations{} - Loaded from JSON, 350+ entries
+
+ENRICHMENT SYSTEM
+-----------------
+Two systems coexist:
+1. ID-based (DE Bundeshaushalt only): enrichedNodes{} in HTML, keyed by EPL/Kapitel ID
+   - Rich data: legal basis, evolution, beneficiaries, controversy, source
+   - Covers depth 1-2 (~75 entries)
+
+2. Name-based (all countries): PROGRAM_ENRICHMENT{} loaded from per-country JSONs
+   - Format: {name: {y: year, d: 'description', b: 'beneficiaries'}}
+   - DE loads 3 files: sozialversicherung + laender + program_enrichment
+   - FR loads 2 files: program_enrichment + securite_sociale_enrichment
+   - UK/US load 1 file each
+
+COLOR SCHEME
+------------
+New branches have distinct colors in getGalaxyColor():
+  sv (Sozialversicherung): #1b9e4b (green)
+  laender (Länder): #a63d40 (burgundy)
+  kommunen (Kommunen): #0d8a8a (teal)
+  uk_la (UK Local Auth): #0d8a8a (teal)
+  fr_ss (FR Sécurité Sociale): #1b9e4b (green)
+Evolution tab also uses these colors in EVO_COLORS.
+
+DEPLOY PROCEDURE
+----------------
+# Upload frontend
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/frontend/index.html root@96.30.199.112:/opt/germany-ngo-map/frontend/
+
+# Upload data files (example: DE trees)
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/bundeshaushalt_tree_*.json root@96.30.199.112:/opt/germany-ngo-map/data/
+
+# Upload enrichments
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/de/*.json root@96.30.199.112:/opt/germany-ngo-map/data/de/
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/fr/program_enrichment.json root@96.30.199.112:/opt/germany-ngo-map/data/fr/
+
+# Upload new country data directories
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/de/sozialversicherung/*.json root@96.30.199.112:/opt/germany-ngo-map/data/de/sozialversicherung/
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/de/laender/*.json root@96.30.199.112:/opt/germany-ngo-map/data/de/laender/
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/fr/securite_sociale/*.json root@96.30.199.112:/opt/germany-ngo-map/data/fr/securite_sociale/
+scp -i ~/.ssh/id_agro_intel D:/germany-ngo-map/data/uk/local_authorities/*.json root@96.30.199.112:/opt/germany-ngo-map/data/uk/local_authorities/
+
+# Restart API (only if api/main.py changed)
+ssh -i ~/.ssh/id_agro_intel root@96.30.199.112 "pkill -f uvicorn; sleep 1; cd /opt/germany-ngo-map && nohup /opt/germany-ngo-map/venv/bin/uvicorn api.main:app --host 0.0.0.0 --port 8088 --workers 2 > /var/log/budgetgalaxy.log 2>&1 &"
+
+INTEGRATION SCRIPT
+------------------
+scripts/integrate_all_branches.js merges new branches into existing trees.
+  node scripts/integrate_all_branches.js [--dry-run] [de|uk|fr|all]
+
+It:
+1. Reads SV data (gkv, rente, ba, pflege, dguv) + Länder + Kommunen JSONs
+2. Adds them as children of the root node in each bundeshaushalt_tree_YYYY.json
+3. Same for UK (adds Local Authorities) and FR (adds Sécurité Sociale)
+4. Updates root name ("Germany Public Spending 2024") and recalculates root value
+5. Adds _disclaimer fields from DATA_LIMITATIONS.json
+6. Backs up originals to data/backups/
+
+COMPLETED (April 6, 2026)
+--------------------------
+- Total public spending integration: DE (SV+Länder+Kommunen), FR (SS), UK (LA)
+- Sozialversicherung: 5 branches, 2015-2025, from official BMG/DRV/BA/DGUV sources
+- Länder: 16 states, functional depth 2017-2021 (Destatis), totals 2022-2025
+- Kommunen: COFOG 2015-2024, partial 2025
+- FR Protection Sociale: DREES data 2000-2024, integrated 2020-2024
+- UK Local Authorities: MHCLG Revenue Outturn 2017-2025, 13 service areas
+- FR "Ministere XX" bug fixed in 2020-2023 trees + parser
+- Deep enrichment: FR 1,631+239, UK 779, US 2,467 entries (100% depth 1-2)
+- 306 DE→EN translations + 565-word wordMap for Titel-level auto-translation
+- Translation race condition fixed (await fetch before Galaxy render)
+- Multiverse translates DE names (was only translating FR)
+- Double-counting disclaimer at DE root
+- Evolution tab shows SV/Länder/Kommunen with dedicated colors
+- Landing page + README updated to reflect total spending scope
+- Tax calculator note: "Bundeshaushalt only, not total spending"
+- OG image: Multiverse screenshot via Puppeteer
+- Data documentation: DATA_SOURCES.json, DATA_LIMITATIONS.json
+- "Explore in Budget Explorer" apostrophe escaping fix
+
+KNOWN ISSUES / CAVEATS
+-----------------------
+- DE 2023: €812.5B Bundeshaushalt includes crisis stabilization funds (warning shown)
+- DE double-counting: ~€100B in federal-to-SV transfers counted twice (disclaimer shown)
+- Länder functional depth only 2017-2021 (Destatis 3-4 year publication delay)
+- Länder 2022-2023 per-state totals only (Kassenergebnis), 2025 partial (Q1-Q3)
+- FR Protection Sociale = all regimes, broader than just Sécurité Sociale institutions
+- UK Local Authorities = England only (Scotland/Wales/NI separate)
+- DGUV 2025 not yet published (expected mid-2026)
+- Spending type analysis only works for DE Bundeshaushalt (Titel-based codes)
+- Canvas 2D would improve multiverse performance but is a big rewrite
+
+CRITICAL DATA RULE
+-------------------
+NEVER add data without a verified, downloaded, machine-readable official source.
+Every number must be traceable to a specific dataset. Do NOT use approximate figures.
+If no machine-readable source exists, say so and don't fabricate.
+
+WHAT'S LEFT TO DO
+-----------------
+1. FR budget data 2015-2019 (PLF CSVs from data.gouv.fr or Eurostat COFOG)
+   - FR Sécurité Sociale already available for those years (DREES)
+   - Needs: download PLF CSVs for 2015-2019, parse, integrate with SS data
+
+2. UK budget data 2015-2019 (OSCAR XLSX or PESA tables)
+   - UK Local Authorities available from 2017
+   - Needs: find and download OSCAR/PESA data for older years
+
+3. Mobile testing on real devices
+
+4. OG image could be improved (higher quality Multiverse screenshot)
+
+5. Consider adding more countries (Brazil, Israel, Canada, Japan mentioned on landing page)
