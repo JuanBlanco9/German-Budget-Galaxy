@@ -32,7 +32,7 @@
 
 ## What is Budget Galaxy?
 
-Budget Galaxy turns government budgets into an explorable universe. Navigate from a country's total spending down to individual line items in three clicks. Compare four countries side by side. See how spending evolved through COVID-19, the Zeitenwende, and the energy crisis.
+Budget Galaxy turns total public spending into an explorable universe. Navigate from a country's full budget down to individual line items in three clicks. Compare four countries side by side. See how spending evolved through COVID-19, the Zeitenwende, and the energy crisis.
 
 Every sphere represents real public money. The size is proportional to the amount. Click to explore.
 
@@ -40,12 +40,12 @@ Every sphere represents real public money. The size is proportional to the amoun
 
 ## Countries
 
-| Country | Years | Ministries | Budget | Enrichments |
-|---------|-------|------------|--------|-------------|
-| :de: Germany | 2015-2025 | 25 Einzelplane | EUR 502B | 75 |
-| :us: United States | 2017-2025 | 111 agencies | $9.5T | 2,410 |
-| :fr: France | 2020-2025 | 20 ministries | EUR 823B | 974 |
-| :gb: United Kingdom | 2020-2024 | 22 departments | GBP 1,130B | 651 |
+| Country | Years | Coverage | Total Spending | Enrichments |
+|---------|-------|----------|----------------|-------------|
+| :de: Germany | 2015-2025 | Federal + social insurance + 16 states + municipalities | EUR 2.3T | 75 |
+| :us: United States | 2017-2025 | Federal (111 agencies) | $6.7T | 2,410 |
+| :fr: France | 2020-2025 | State budget + social protection (20 ministries) | EUR 1.7T | 974 |
+| :gb: United Kingdom | 2020-2024 | Central government + local authorities (22 departments) | GBP 1.4T | 651 |
 
 > More countries coming soon: Brazil, Israel, Canada, Japan
 
@@ -91,33 +91,33 @@ Navigate the budget hierarchy with breadcrumb navigation. Each level shows break
 All budget data is sourced from official government portals:
 
 ### Germany (2015-2025)
-- **Source**: [bundeshaushalt.de](https://www.bundeshaushalt.de) — official federal budget portal
-- **Format**: CSV, 11 annual files
-- **Coverage**: ~5,900 items/year (Einzelplan > Kapitel > Titel)
-- **Enrichments**: 75 nodes curated from [DRV](https://www.deutsche-rentenversicherung.de), [Bundesagentur](https://statistik.arbeitsagentur.de), [Destatis](https://www.destatis.de), [OECD](https://data.oecd.org), [NATO](https://www.nato.int), [GKV](https://www.gkv-spitzenverband.de)
-- **Note**: Federal budget only (~EUR 480B). Total public spending incl. states and municipalities is ~EUR 2.1T
+- **Source**: [bundeshaushalt.de](https://www.bundeshaushalt.de) (federal), [GKV-Spitzenverband](https://www.gkv-spitzenverband.de) / [DRV Bund](https://www.deutsche-rentenversicherung.de) / [Bundesagentur](https://statistik.arbeitsagentur.de) (social insurance), [Destatis](https://www.destatis.de) (states & municipalities)
+- **Format**: CSV + official statistics, 11 annual files for federal budget
+- **Coverage**: EUR 2.3T total public spending — federal budget (~EUR 500B), social insurance (~EUR 800B), 16 states (~EUR 600B), municipalities (~EUR 350B)
+- **Enrichments**: 75 nodes curated from DRV, Bundesagentur, Destatis, [OECD](https://data.oecd.org), [NATO](https://www.nato.int), GKV
+- **Note**: Totals include inter-governmental transfers (e.g., federal subsidies to pension insurance). Consolidated net total is lower
 
 ### United States (2017-2025)
 - **Source**: [USAspending.gov](https://www.usaspending.gov) — official federal spending API
 - **Format**: API (JSON), 9 annual snapshots
-- **Coverage**: ~5,500 federal accounts/year across 24 agencies
+- **Coverage**: $6.7T federal spending across 111 agencies (~5,500 accounts/year)
 - **Enrichments**: 2,410 programmes + spending type breakdown for 14 agencies
 
 ### France (2020-2025)
-- **Source**: [data.gouv.fr](https://www.data.gouv.fr) — Projet de Loi de Finances (PLF)
+- **Source**: [data.gouv.fr](https://www.data.gouv.fr) — Projet de Loi de Finances (PLF) + social protection accounts
 - **Format**: CSV, 6 annual files
-- **Coverage**: ~1,200 programmes/year across 30+ missions
+- **Coverage**: EUR 1.7T total (state budget + social protection) across 30+ missions
 - **Enrichments**: 974 programme-level descriptions
 
 ### United Kingdom (2020-2024)
-- **Source**: [HM Treasury OSCAR](https://www.gov.uk/government/collections/oscar-publishing-data)
+- **Source**: [HM Treasury OSCAR](https://www.gov.uk/government/collections/oscar-publishing-data) + local authority accounts
 - **Format**: XLSX, 5 annual files
-- **Coverage**: ~800 items/year across 20+ departments
+- **Coverage**: GBP 1.4T total (central government + local authorities) across 22 departments
 - **Enrichments**: 651 programme-level descriptions
 
-**Data integrity:** 25/25 German Einzelplane internally consistent. Percentages sum to 100.000000%. 4,388 Titel verified against bundeshaushalt.de. 4,035 programme enrichments fact-checked.
+**Data integrity:** 25/25 German Einzelplane internally consistent. Percentages sum to 100.000000%. 4,388 Titel verified against bundeshaushalt.de. 4,035 programme enrichments fact-checked. German total public spending cross-verified against Destatis Finanzstatistik.
 
-**Limitation:** Shows planned budget (Soll), not actual spending (Ist). Off-budget items (Sondervermogen) not included.
+**Limitation:** Federal budget data shows planned budget (Soll), not actual spending (Ist). Off-budget items (Sondervermogen) not included. German total includes inter-governmental transfers (not consolidated).
 
 ---
 

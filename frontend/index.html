@@ -1219,8 +1219,8 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
       <h1 style="font-size:28px;font-weight:700;margin-bottom:8px">&Uuml;ber German Budget Galaxy</h1>
 
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Was ist das?</h2>
-      <p style="margin-bottom:12px">Eine interaktive Visualisierung des gesamten deutschen Bundeshaushalts 2024 &mdash; &euro;476,8 Milliarden, verteilt auf 25 Einzelpl&auml;ne, 216 Kapitel und 4.388 einzelne Haushaltstitel.</p>
-      <p style="margin-bottom:20px">Jede Kugel, die Sie sehen, stellt eine reale Haushaltsposition dar. Die Gr&ouml;&szlig;e ist proportional zum Betrag. Klicken Sie auf eine Kugel, um zu sehen, was sich darin befindet. Zoomen Sie hinein f&uuml;r Details. Jeder Euro ist einem offiziellen Titel im Bundeshaushalt zuordenbar.</p>
+      <p style="margin-bottom:12px">Eine interaktive Visualisierung der gesamten &ouml;ffentlichen Ausgaben in Deutschland, den USA, Frankreich und Gro&szlig;britannien. Allein f&uuml;r Deutschland: &euro;2,3 Billionen &mdash; aufgeschl&uuml;sselt nach Bundeshaushalt, Sozialversicherungen (GKV, Rente, Arbeitslosenversicherung, Pflege, Unfallversicherung), 16 Bundesl&auml;ndern und Kommunen.</p>
+      <p style="margin-bottom:20px">Jede Kugel, die Sie sehen, stellt eine reale Haushaltsposition dar. Die Gr&ouml;&szlig;e ist proportional zum Betrag. Klicken Sie auf eine Kugel, um zu sehen, was sich darin befindet. Zoomen Sie hinein f&uuml;r Details. Jeder Euro, Dollar und jedes Pfund ist einer offiziellen Quelle zuordenbar.</p>
 
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Warum gibt es das?</h2>
       <p style="margin-bottom:12px">Der Bundeshaushalt ist &ouml;ffentlich. Er wird j&auml;hrlich vom Bundesministerium der Finanzen ver&ouml;ffentlicht. Jeder kann ihn einsehen.</p>
@@ -1239,12 +1239,13 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
       <p style="margin-bottom:16px">Die historische Ansicht. Zehn Jahre Haushaltsdaten (2015&ndash;2024), die zeigen, wie sich die Ausgaben ver&auml;ndert haben. Der COVID-Anstieg. Die Zeitenwende in der Verteidigung. Die Explosion der Zinskosten.</p>
 
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Datenquellen</h2>
-      <p style="margin-bottom:12px">Alle Daten stammen aus dem offiziellen Bundeshaushalt des Bundesministeriums der Finanzen &uuml;ber <strong>bundeshaushalt.de</strong>.</p>
-      <p style="margin-bottom:20px">Anreicherungsdaten (Empf&auml;ngerzahlen, internationale Vergleiche) stammen von offiziellen Statistiken der jeweiligen Bundesbeh&ouml;rden: Deutsche Rentenversicherung, Bundesagentur f&uuml;r Arbeit, OECD, NATO, Destatis und andere.</p>
+      <p style="margin-bottom:12px">Deutschland: Bundeshaushalt &uuml;ber <strong>bundeshaushalt.de</strong>, Sozialversicherungsdaten von GKV-Spitzenverband, DRV Bund, Bundesagentur f&uuml;r Arbeit; L&auml;nderhaushalte und Kommunalfinanzen &uuml;ber Destatis. USA: <strong>USAspending.gov</strong>. Frankreich: <strong>data.gouv.fr</strong> (PLF). UK: <strong>HM Treasury OSCAR</strong>.</p>
+      <p style="margin-bottom:20px">Anreicherungsdaten (Empf&auml;ngerzahlen, internationale Vergleiche) stammen von offiziellen Statistiken der jeweiligen Beh&ouml;rden: Deutsche Rentenversicherung, Bundesagentur f&uuml;r Arbeit, OECD, NATO, Destatis und andere.</p>
 
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Einschr&auml;nkungen</h2>
-      <p style="margin-bottom:8px">&bull; Dies zeigt den <strong>Soll-Haushalt</strong>, nicht die tats&auml;chlichen Ausgaben (Ist).</p>
+      <p style="margin-bottom:8px">&bull; Der Bundeshaushalt zeigt den <strong>Soll-Haushalt</strong>, nicht die tats&auml;chlichen Ausgaben (Ist).</p>
       <p style="margin-bottom:8px">&bull; <strong>Au&szlig;eretatm&auml;&szlig;ige Posten</strong> wie das Sonderverm&ouml;gen Bundeswehr (&euro;100 Mrd.) und der Klima- und Transformationsfonds sind nicht enthalten.</p>
+      <p style="margin-bottom:8px">&bull; Die Gesamtdarstellung (&euro;2,3 Bio.) enth&auml;lt <strong>&Uuml;berschneidungen</strong> zwischen Ebenen (z.B. Bundeszusch&uuml;sse zur Rentenversicherung). Der konsolidierte Gesamtbetrag ist niedriger.</p>
       <p style="margin-bottom:20px">&bull; Anreicherungsdaten sind <strong>n&auml;herungsweise und aus verschiedenen Berichtszeitr&auml;umen</strong> (meist 2023&ndash;2024).</p>
 
       <div style="margin-top:32px;padding:16px;border-left:4px solid var(--accent);background:var(--surface);border-radius:0 8px 8px 0;font-style:italic;color:var(--dim)">
@@ -3341,7 +3342,8 @@ function renderTaxResults(brutto,est,soli,kirche,fedESt,fedSoli,fedVAT,totalFed,
     <div class="tax-note">
       Berechnung basiert auf §32a EStG 2024, Bundeshaushalt 2024 (€${fmtN(Math.round(totalBudget/1e9))} Mrd.).<br>
       Die MwSt-Schätzung basiert auf durchschnittlichem Konsumverhalten. Tatsächliche Werte können abweichen.<br>
-      Bundesanteil Einkommensteuer: 42,5% · Solidaritätszuschlag: 100% Bund · MwSt: ~53% Bund.
+      Bundesanteil Einkommensteuer: 42,5% · Solidaritätszuschlag: 100% Bund · MwSt: ~53% Bund.<br>
+      <strong>Hinweis:</strong> Diese Berechnung zeigt nur Ihren Beitrag zum <em>Bundeshaushalt</em> (€${fmtN(Math.round(totalBudget/1e9))} Mrd.). Die gesamten öffentlichen Ausgaben Deutschlands betragen ~€2,3 Bio. — Sozialversicherungen werden überwiegend durch Beiträge (nicht Steuern) finanziert und sind hier nicht erfasst.
     </div>
   `;
 
@@ -4253,6 +4255,12 @@ function getGalaxyColor(d){
   let node=d;
   while(node.depth>1&&node.parent) node=node.parent;
   const id=node.data.id||'';
+  // New top-level branches (string IDs)
+  if(id==='sv') return '#1b9e4b';                   // Sozialversicherung — green
+  if(id==='laender') return '#a63d40';               // Länder — burgundy
+  if(id==='kommunen') return '#0d8a8a';              // Kommunen — teal
+  if(id==='uk_la') return '#0d8a8a';                 // UK Local Authorities — teal
+  if(id==='secu') return '#1b9e4b';                  // FR Sécurité Sociale — green
   const ep=parseInt(id,10);
   if([11,15,17].includes(ep)) return '#2d6a4f'; // Social
   if([14,6].includes(ep)) return '#c1121f';      // Security
@@ -5862,7 +5870,7 @@ function galaxySearchSelect(depth,id){
 
 // ── GALAXY INFO CARD (simple) ──────────────────
 function openGalaxyInfo(node){
-  if(!node||node===galaxyRoot) return;
+  if(!node) return;
   const card=document.getElementById('galaxy-info');
   const content=document.getElementById('gi-content');
   if(!card||!content) return;
@@ -5883,6 +5891,14 @@ function openGalaxyInfo(node){
     <div class="gi-amt">${fmtEur(node.value)}</div>
     <div class="gi-pct">${pctOfParent}% ${galaxyLang==='de'?'des Übergeordneten':'of parent'} · ${pctOfTotal}% ${galaxyLang==='de'?'des Gesamthaushalts':'of total budget'}</div>
     <div class="gi-desc">${esc(desc)}</div>`;
+
+  // Double-counting disclaimer for Germany root node in Galaxy view
+  if(currentCountry==='de'&&node===galaxyRoot){
+    html+=`<div style="margin:10px 0;padding:8px 10px;background:rgba(255,193,7,.06);border-radius:6px;border:1px solid rgba(255,193,7,.2);display:flex;align-items:flex-start;gap:6px">`;
+    html+=`<span style="font-size:12px;flex-shrink:0">&#9432;</span>`;
+    html+=`<div style="font-size:10px;color:rgba(255,193,7,.85);line-height:1.5">This total includes all levels of German public spending: federal budget, social insurance, states, and municipalities. Some funds appear in multiple categories &mdash; for example, federal subsidies to pension insurance (~&euro;100B) are counted in both the federal budget and Social Insurance. The true consolidated total (netting out inter-governmental transfers) is lower.</div>`;
+    html+=`</div>`;
+  }
 
   // Mini spending type bar (only for Germany — other countries don't have Titel-based classification)
   if(currentCountry==='de'&&analysis.spendingTypes.length>1){
@@ -6121,6 +6137,14 @@ function renderBudgetList(node){
       <strong>⚠ Note:</strong> The 2023 CSV from bundeshaushalt.de totals &euro;812.5B. The Bundestag approved &euro;476B as the core budget. The difference (&euro;364B in EPL 60) includes the Wirtschaftsstabilisierungsfonds and energy crisis packages &mdash; extraordinary items that inflate the total.
       <a href="https://www.bundestag.de/dokumente/textarchiv/2022/kw45-pa-haushalt-bereinigungssitzung-918112" target="_blank" style="color:var(--accent);margin-left:4px">Source</a>
     </div>`;
+  }
+
+  // Double-counting disclaimer for Germany root (all years) — consolidated total includes inter-governmental transfers
+  if(currentCountry==='de'&&node===blRoot){
+    html+=`<div style="margin-bottom:16px;padding:10px 14px;background:rgba(255,193,7,.06);border:1px solid rgba(255,193,7,.2);border-radius:8px;display:flex;align-items:flex-start;gap:8px">`;
+    html+=`<span style="font-size:14px;flex-shrink:0">&#9432;</span>`;
+    html+=`<div style="font-size:12px;color:rgba(255,193,7,.85);line-height:1.5">This total includes all levels of German public spending: federal budget, social insurance, states, and municipalities. Some funds appear in multiple categories &mdash; for example, federal subsidies to pension insurance (~&euro;100B) are counted in both the federal budget and Social Insurance. The true consolidated total (netting out inter-governmental transfers) is lower. This is standard in public finance; no country&rsquo;s accounts simply sum all levels without overlap.</div>`;
+    html+=`</div>`;
   }
 
   html+=`<div class="bl-header">
@@ -7122,7 +7146,8 @@ let evoKatData=null,evoEplData=null,evoChart=null,evoView='categories';
 const EVO_COLORS={
   'Soziales':'#4caf7d','Sicherheit':'#e74c3c','Infrastruktur':'#4a9eff',
   'Bildung':'#9b59b6','Wirtschaft':'#f5a623','International':'#1abc9c',
-  'Finanzen':'#8e9bb5','Institutionen':'#555'
+  'Finanzen':'#8e9bb5','Institutionen':'#555',
+  'Sozialversicherung':'#1b9e4b','Länder':'#a63d40','Kommunen':'#0d8a8a'
 };
 
 // EPLs with known 2017 data gaps
@@ -7178,6 +7203,9 @@ async function initEvolution(){
 let evoMode='cat'; // 'cat' or 'epl'
 
 const KATEGORIEN={
+  'Sozialversicherung':['sv'],
+  'Länder':['laender'],
+  'Kommunen':['kommunen'],
   'Soziales':['11','15','17'],
   'Sicherheit':['14','06'],
   'Infrastruktur':['12','25'],
@@ -7188,7 +7216,7 @@ const KATEGORIEN={
   'Institutionen':['04','02','07','20','01','16','19','03','21','22'],
 };
 let evoYAxis='abs'; // 'abs' or 'pct'
-let evoActive=new Set(['Soziales','Sicherheit','Infrastruktur','Bildung','Wirtschaft','International','Institutionen']);
+let evoActive=new Set(['Sozialversicherung','Länder','Kommunen','Soziales','Sicherheit','Infrastruktur','Bildung','Wirtschaft','International','Institutionen']);
 
 // 10 distinct colors for EPL lines
 const EPL_LINE_COLORS=['#4caf7d','#e74c3c','#4a9eff','#9b59b6','#f5a623','#1abc9c','#e91e90','#8e9bb5','#ff6b6b','#00bcd4','#cddc39','#ff9800','#795548','#607d8b','#c0ca33','#e040fb','#00acc1','#ff7043','#ab47bc','#26a69a','#d4e157','#5c6bc0','#ec407a','#66bb6a','#ffa726','#42a5f5','#ef5350','#8d6e63','#78909c','#7e57c2','#29b6f6','#ffca28','#26c6da','#9ccc65'];
