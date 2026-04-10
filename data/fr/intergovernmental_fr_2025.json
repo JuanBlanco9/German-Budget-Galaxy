@@ -1,0 +1,116 @@
+{
+  "year": 2025,
+  "cas_pensions": 68879121994,
+  "solidarite_insertion": 34255061673,
+  "travail_emploi": 21632987399,
+  "cohesion_territoires": 23781229009,
+  "regimes_speciaux": 5995017245,
+  "total_overlap": 154543417320,
+  "pct_of_root": 18.8,
+  "root_value": 823043976041,
+  "ss_branch_value": 0,
+  "plf_value": 823043976041,
+  "details": {
+    "cas_pensions": {
+      "label": "CAS Pensions (civil servant pensions)",
+      "drees_risk": "Vieillesse-Survie",
+      "items": [
+        {
+          "name": "Pensions",
+          "value": 68483628839
+        },
+        {
+          "name": "Gestion des pensions",
+          "value": 95460773
+        },
+        {
+          "name": "Action sociale, chômage et pensions",
+          "value": 300032382
+        }
+      ],
+      "total": 68879121994
+    },
+    "solidarite_insertion": {
+      "label": "Solidarité, insertion et égalité des chances",
+      "drees_risk": "Pauvreté-Exclusion",
+      "items": [
+        {
+          "name": "Restitutions de prélèvement de solidarité",
+          "value": 500000000
+        },
+        {
+          "name": "Solidarités, autonomie et égalité entre les femmes et les hommes",
+          "value": 30373601344
+        },
+        {
+          "name": "Mécanismes de solidarité avec les ZNI",
+          "value": 35000000
+        },
+        {
+          "name": "Compensation des versements au fond de solidarité logement",
+          "value": 26453706
+        },
+        {
+          "name": "\"Dépenses de personnels concourant au programme \"\"Solidarité à l'égard des pays en développement\"\"\"",
+          "value": 172043247
+        },
+        {
+          "name": "Solidarité à l'égard des pays en développement",
+          "value": 2409963376
+        },
+        {
+          "name": "Fonds de solidarité pour le développement",
+          "value": 738000000
+        }
+      ],
+      "total": 34255061673
+    },
+    "travail_emploi": {
+      "label": "Travail et emploi",
+      "drees_risk": "Emploi",
+      "items": [
+        {
+          "name": "Travail et emploi",
+          "value": 21632987399
+        }
+      ],
+      "total": 21632987399
+    },
+    "cohesion_territoires": {
+      "label": "Cohésion des territoires / APL",
+      "drees_risk": "Logement",
+      "items": [
+        {
+          "name": "Cohésion des territoires",
+          "value": 23491886025
+        },
+        {
+          "name": "Cohésion des territoires",
+          "value": 211745312
+        },
+        {
+          "name": "Cohésion des territoires",
+          "value": 77597672
+        }
+      ],
+      "total": 23781229009
+    },
+    "regimes_speciaux": {
+      "label": "Régimes sociaux et de retraite",
+      "drees_risk": "Vieillesse",
+      "items": [
+        {
+          "name": "Régimes sociaux et de retraite",
+          "value": 5216154264
+        },
+        {
+          "name": "Régimes sociaux et de retraite",
+          "value": 778862981
+        }
+      ],
+      "total": 5995017245
+    }
+  },
+  "note": "PLF programs that overlap with DREES Protection Sociale coverage. CAS Pensions and Régimes sociaux are exact (full program is overlap). Solidarité, Travail, and Cohésion use PLF totals as ceiling — actual overlap may be lower.",
+  "source": "PLF programme-level identification cross-referenced with DREES CPS risk categories"
+}

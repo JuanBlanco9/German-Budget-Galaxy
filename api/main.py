@@ -167,6 +167,72 @@ def budget_country_history(country_id: str):
     return result
 
 
+# ── US States endpoints ─────────────────────────────
+
+STATES_DIR = DATA_DIR / "us" / "states"
+
+
+@app.get("/budget/us-states")
+def budget_us_states(year: int = Query(None)):
+    """US State & Local Government spending tree. Optional ?year=YYYY."""
+    if not STATES_DIR.exists():
+        return JSONResponse({"error": "No US states data"}, status_code=404)
+    if year:
+        tree_path = STATES_DIR / f"us_states_tree_{year}.json"
+        if not tree_path.exists():
+            return JSONResponse({"error": f"No US states data for {year}"}, status_code=404)
+    else:
+        trees = sorted(STATES_DIR.glob("us_states_tree_*.json"))
+        if not trees:
+            return JSONResponse({"error": "No US states data"}, status_code=404)
+        tree_path = trees[-1]
+    with open(tree_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/budget/us-states/years")
+def budget_us_states_years():
+    """List available years for US states data."""
+    if not STATES_DIR.exists():
+        return []
+    return sorted(
+        int(p.stem.split("_")[-1])
+        for p in STATES_DIR.glob("us_states_tree_*.json")
+        if p.stem.split("_")[-1].isdigit()
+    )
+
+
+@app.get("/budget/us-states/history")
+def budget_us_states_history():
+    """Historical data for US states (top-level = states)."""
+    if not STATES_DIR.exists():
+        return JSONResponse({"error": "No US states data"}, status_code=404)
+    trees = sorted(STATES_DIR.glob("us_states_tree_*.json"))
+    if not trees:
+        return JSONResponse({"error": "No US states data"}, status_code=404)
+    result = {}
+    for tree_path in trees:
+        year_str = tree_path.stem.split("_")[-1]
+        if not year_str.isdigit():
+            continue
+        year = int(year_str)
+        with open(tree_path, "r", encoding="utf-8") as f:
+            tree = json.load(f)
+        for child in tree.get("children", []):
+            name = child.get("name", "")
+            value = child.get("value", 0)
+            if not name:
+                continue
+            if name not in result:
+                result[name] = {"name": name, "history": []}
+            existing_years = {h["year"] for h in result[name]["history"]}
+            if year not in existing_years:
+                result[name]["history"].append({"year": year, "value": value})
+    for v in result.values():
+        v["history"].sort(key=lambda h: h["year"])
+    return result
+
+
 # ── SEO endpoints ───────────────────────────────────
 
 @app.get("/robots.txt", response_class=PlainTextResponse)

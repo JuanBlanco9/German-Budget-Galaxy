@@ -1,0 +1,187 @@
+{
+  "year": 2012,
+  "total_states_gross": 1341306584000,
+  "federal_grants_to_states": 248349799000,
+  "total_states_direct": 1341120540000,
+  "total_states_net": 1092956785000,
+  "pct_deduction": 18.5,
+  "by_state": {
+    "Alaska": {
+      "abbr": "AK",
+      "gross": 14635366000,
+      "federal_grants": 3161518000,
+      "direct": 14635366000,
+      "net": 11473848000
+    },
+    "Arkansas": {
+      "abbr": "AR",
+      "gross": 23966965000,
+      "federal_grants": 6292589000,
+      "direct": 23966846000,
+      "net": 17674376000
+    },
+    "Colorado": {
+      "abbr": "CO",
+      "gross": 49719340000,
+      "federal_grants": 7656764000,
+      "direct": 49716105000,
+      "net": 42062576000
+    },
+    "Delaware": {
+      "abbr": "DE",
+      "gross": 10151774000,
+      "federal_grants": 1902687000,
+      "direct": 10151034000,
+      "net": 8249087000
+    },
+    "Florida": {
+      "abbr": "FL",
+      "gross": 158447344000,
+      "federal_grants": 27261854000,
+      "direct": 158447344000,
+      "net": 131185490000
+    },
+    "Hawaii": {
+      "abbr": "HI",
+      "gross": 14888532000,
+      "federal_grants": 2511458000,
+      "direct": 14888162000,
+      "net": 12377074000
+    },
+    "Illinois": {
+      "abbr": "IL",
+      "gross": 130677168000,
+      "federal_grants": 19535196000,
+      "direct": 130666739000,
+      "net": 111141972000
+    },
+    "Iowa": {
+      "abbr": "IA",
+      "gross": 31324706000,
+      "federal_grants": 6105621000,
+      "direct": 31324706000,
+      "net": 25219085000
+    },
+    "Kentucky": {
+      "abbr": "KY",
+      "gross": 39999482000,
+      "federal_grants": 8608878000,
+      "direct": 39999482000,
+      "net": 31390604000
+    },
+    "Maine": {
+      "abbr": "ME",
+      "gross": 12293652000,
+      "federal_grants": 3049547000,
+      "direct": 12293652000,
+      "net": 9244105000
+    },
+    "Massachusetts": {
+      "abbr": "MA",
+      "gross": 80070920000,
+      "federal_grants": 14678188000,
+      "direct": 80060432000,
+      "net": 65392732000
+    },
+    "Minnesota": {
+      "abbr": "MN",
+      "gross": 56198780000,
+      "federal_grants": 10414021000,
+      "direct": 56198780000,
+      "net": 45784759000
+    },
+    "Missouri": {
+      "abbr": "MO",
+      "gross": 51685772000,
+      "federal_grants": 11449977000,
+      "direct": 51604529000,
+      "net": 40235795000
+    },
+    "Nebraska": {
+      "abbr": "NE",
+      "gross": 19931937000,
+      "federal_grants": 3490580000,
+      "direct": 19888560000,
+      "net": 16441357000
+    },
+    "New Hampshire": {
+      "abbr": "NH",
+      "gross": 11033462000,
+      "federal_grants": 1863907000,
+      "direct": 11033462000,
+      "net": 9169555000
+    },
+    "New Mexico": {
+      "abbr": "NM",
+      "gross": 21048385000,
+      "federal_grants": 5608149000,
+      "direct": 21048385000,
+      "net": 15440236000
+    },
+    "North Carolina": {
+      "abbr": "NC",
+      "gross": 83969807000,
+      "federal_grants": 20305845000,
+      "direct": 83969807000,
+      "net": 63663962000
+    },
+    "Ohio": {
+      "abbr": "OH",
+      "gross": 112878250000,
+      "federal_grants": 21966338000,
+      "direct": 112864781000,
+      "net": 90911912000
+    },
+    "Oregon": {
+      "abbr": "OR",
+      "gross": 43967780000,
+      "federal_grants": 8658040000,
+      "direct": 43967780000,
+      "net": 35309740000
+    },
+    "Rhode Island": {
+      "abbr": "RI",
+      "gross": 11468561000,
+      "federal_grants": 2521458000,
+      "direct": 11450014000,
+      "net": 8947103000
+    },
+    "South Dakota": {
+      "abbr": "SD",
+      "gross": 7012056000,
+      "federal_grants": 1798504000,
+      "direct": 7012056000,
+      "net": 5213552000
+    },
+    "Texas": {
+      "abbr": "TX",
+      "gross": 218287685000,
+      "federal_grants": 36432135000,
+      "direct": 218287685000,
+      "net": 181855550000
+    },
+    "Vermont": {
+      "abbr": "VT",
+      "gross": 7089172000,
+      "federal_grants": 1982828000,
+      "direct": 7089172000,
+      "net": 5106344000
+    },
+    "Washington": {
+      "abbr": "WA",
+      "gross": 74928968000,
+      "federal_grants": 11635889000,
+      "direct": 74924941000,
+      "net": 63293079000
+    },
+    "Wisconsin": {
+      "abbr": "WI",
+      "gross": 55630720000,
+      "federal_grants": 9457828000,
+      "direct": 55630720000,
+      "net": 46172892000
+    }
+  },
+  "source": "US Census Bureau, Annual Survey of State & Local Government Finances - \"From Federal Government\" intergovernmental revenue",
+  "note": "Net figures exclude federal intergovernmental revenue to avoid double counting with federal budget. Use net figures when combining with federal tree in Multiverse."
+}

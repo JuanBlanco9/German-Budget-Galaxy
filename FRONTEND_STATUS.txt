@@ -1,0 +1,295 @@
+BUDGET GALAXY — FRONTEND STATUS & IMPROVEMENT ROADMAP
+======================================================
+Generated: April 10, 2026
+For: Claude Desktop review session
+Author: Claude Opus analysis of frontend/index.html
+
+======================================================
+CURRENT STATE
+======================================================
+
+FILE: frontend/index.html (single file, 500KB)
+  HTML: 109KB | JS: 386KB | CSS: embedded
+  Functions: 173 named functions
+  Libraries: D3.js v7, Chart.js 4
+  No framework (vanilla JS)
+  Deployed at: https://budgetgalaxy.com
+
+TABS/VIEWS (7):
+  1. Landing page      — country selector, animated numbers
+  2. Galaxy            — D3 circle packing, semantic zoom, side panel
+  3. Budget Explorer   — list/table drill-down, enrichment panels
+  4. Multiverse        — multi-country D3 circle packing comparison
+  5. Evolution         — Chart.js line charts, YoY analysis
+  6. USA States        — geographic layout on US map outline
+  7. About             — methodology, sources, fiscal consolidation
+
+DATA IN TREE BUT NOT RENDERED BY FRONTEND:
+  _subcategories  — 108 service nodes have subcategory breakdowns
+                     (e.g. Kent ASC → 15% Residential, 14% LD, 11% Supported Living)
+                     NO frontend panel renders this. Data is invisible.
+
+  _postcode       — 3,738 supplier entries have Companies House postcodes
+                     NO frontend renders this. Data is invisible.
+
+  _local          — 957 suppliers flagged as local to their council
+                     NO frontend renders this. Data is invisible.
+
+DATA THAT IS RENDERED:
+  _top_suppliers  — 186 service nodes, rendered by renderCouncilSuppliersPanel()
+                     Shows horizontal bars with supplier name, amount, %, tx count
+                     Rendered in Galaxy sidebar, Budget Explorer, Multiverse info
+                     NOW has 25 suppliers per service (was 10)
+
+  _workforce      — NHS trust staff WTE breakdown, rendered by renderNHSStaffPanel()
+  _icb            — NHS ICB commissioner metadata, rendered by renderNHSTrustPanel()
+  _netted         — NHS netting flag, shown as note in panels
+  _s251_scaling   — S251 education scaling factor, shown as note
+
+======================================================
+OPINIÓN HONESTA — QUÉ FUNCIONA Y QUÉ NO
+======================================================
+
+LO QUE FUNCIONA BIEN:
+  - El Galaxy view es espectacular. El circle packing con zoom semántico
+    es intuitivo y visualmente impactante. Es el hook que engancha.
+  - El Multiverse para comparar países es único — no conozco otra tool
+    pública que haga esto con datos reales de 4 países.
+  - La profundidad de datos UK es impresionante: 206 NHS trusts con
+    cost breakdown, 401 councils con servicios, 19 councils con suppliers.
+  - Los paneles de suppliers (renderCouncilSuppliersPanel) son claros
+    y bien etiquetados con disclaimers honestos sobre reconciliación.
+
+LO QUE NO FUNCIONA O PODRÍA MEJORAR:
+
+  1. SINGLE FILE DE 500KB
+     El index.html tiene 173 funciones, 4 sistemas de traducción,
+     5 loaders de datos, y múltiples tab systems en un solo archivo.
+     Es mantenible ahora pero frágil: un typo en cualquier función
+     rompe todo el sitio. No es urgente pero eventualmente necesita
+     modularización.
+
+  2. DATOS INVISIBLES ($108 subcategorías + geo no se muestran)
+     Invertimos horas clasificando subcategorías y enriqueciendo con
+     Companies House. Los datos están en el JSON pero NADA en el
+     frontend los muestra. Es la mejora de mayor impacto inmediato.
+
+  3. MOBILE EXPERIENCE
+     No está testeado en móviles reales. El Galaxy con D3 SVG
+     probablemente funciona mal en pantallas < 768px. El sidebar
+     de info compite con el canvas por espacio. El Multiverse es
+     probablemente inutilizable en mobile.
+
+  4. NO HAY SEARCH GLOBAL
+     Un usuario que quiere encontrar "Kier Group" o "Serco" tiene
+     que navegar manualmente hasta el council correcto y el servicio
+     correcto. Con 3,600+ suppliers enriquecidos, una búsqueda
+     cross-council sería tremendamente útil.
+
+  5. BUDGET EXPLORER ES FUNCIONAL PERO ABURRIDO
+     Es una lista jerárquica estándar. No tiene el wow-factor del
+     Galaxy. Podría beneficiarse de treemaps, sankey diagrams, o
+     al menos sparklines inline.
+
+  6. EVOLUTION TAB TIENE GAPS VISUALES
+     Los datos de evolución tienen discontinuidades (OSCAR I→II,
+     COVID spike) que se ven como errores visuales. Necesita mejor
+     anotación de eventos históricos en el gráfico.
+
+  7. ABOUT PAGE ES TEXTO DENSO
+     La sección de methodology es completa pero es un wall of text.
+     Necesita accordion/collapse, maybe infográficos sobre el pipeline
+     de datos.
+
+======================================================
+MEJORAS SUGERIDAS — PRIORIZADAS POR IMPACTO
+======================================================
+
+PRIORIDAD 1 — MOSTRAR DATOS QUE YA EXISTEN (máximo ROI)
+─────────────────────────────────────────────────────────
+
+1A. SUBCATEGORIES PANEL
+    Agregar renderSubcategoriesPanel(subcats) que muestre:
+    - Horizontal stacked bar con las 7 subcategorías
+    - Cada barra con label, valor, porcentaje
+    - Color gradient del color del servicio padre
+    Renderizar en openGalaxyInfo(), renderBudgetList(), openMvInfo()
+    después del panel de suppliers.
+
+    108 service nodes ya tienen los datos. Solo falta el render.
+    Impacto: el usuario puede ver POR QUÉ Adult Social Care cuesta
+    £778M en Kent (35% residential, 14% LD, 11% supported living).
+
+1B. SUPPLIER GEO BADGE
+    En cada supplier dentro de renderCouncilSuppliersPanel():
+    - Si _postcode existe: mostrar postcode en gris al lado del nombre
+    - Si _local === true: mostrar badge "LOCAL" en verde
+    - Si _local === false: mostrar badge con la localidad del CH
+    - Si _company_type: mostrar "PLC" / "LTD" en gris
+
+    3,738 suppliers ya tienen datos. Solo falta CSS + 10 líneas de JS.
+    Impacto: el usuario ve inmediatamente qué dinero se queda local
+    vs qué sale del área. Muy relevante para accountability.
+
+1C. LOCAL SPEND SUMMARY
+    Al top del panel de suppliers de cada council, agregar un resumen:
+    "Local spend: 34% (£156M of £459M) — 87 of 245 suppliers are
+    based in the [council] area (postcodes: LS, ...)"
+    Calculado on-the-fly desde _local flags.
+
+PRIORIDAD 2 — BÚSQUEDA CROSS-COUNCIL
+─────────────────────────────────────
+
+2A. SUPPLIER SEARCH
+    Input de búsqueda en la landing page o como tab:
+    "Search suppliers across all councils"
+    Al escribir "Serco" → muestra:
+      Serco Ltd — Kent ASC £12M, Hertfordshire ASC £8M, ...
+    Implementación: recorrer todos los _top_suppliers del tree,
+    filter por nombre, agrupar por supplier, mostrar councils.
+
+    Con 3,600+ suppliers con postcode, esto sería una herramienta
+    de transparencia pública genuinamente útil.
+
+2B. COUNCIL COMPARISON
+    Seleccionar 2-3 councils y comparar side-by-side:
+    - Spend per service (normalized per capita)
+    - % local spend
+    - Top shared suppliers
+    Requiere datos de población (disponibles en MHCLG source).
+
+PRIORIDAD 3 — UX / VISUAL POLISH
+─────────────────────────────────
+
+3A. MOBILE RESPONSIVE
+    - Galaxy: implementar touch zoom (d3-zoom ya lo soporta)
+    - Sidebar: convertir a bottom sheet en mobile
+    - Multiverse: simplificar a lista con sparklines en mobile
+    - Mínimo viable: media queries para < 768px
+
+3B. BUDGET EXPLORER VISUAL UPGRADE
+    - Treemap view como alternativa al list view
+    - Inline sparklines mostrando evolución YoY por nodo
+    - Color-coded barras de spending por servicio
+
+3C. EVOLUTION ANNOTATIONS
+    - Markers verticales para COVID (2020), OSCAR I→II (2020),
+      S114 notices, Brexit impact
+    - Tooltip con contexto al hover sobre un marker
+    - Podría ser data-driven: data/evolution_events.json
+
+PRIORIDAD 4 — ARQUITECTURA (largo plazo)
+─────────────────────────────────────────
+
+4A. MODULARIZACIÓN
+    Separar index.html en módulos:
+    - galaxy.js, multiverse.js, explorer.js, evolution.js
+    - panels.js (renderCouncilSuppliersPanel, etc.)
+    - translations.js
+    - Usar ES modules + bundler (esbuild es el más simple)
+    Riesgo: alto (puede romper muchas cosas)
+    Beneficio: mantenibilidad a largo plazo
+
+4B. CANVAS 2D PARA MULTIVERSE
+    SVG con 500+ nodos es lento. Canvas 2D sería mucho más
+    rápido pero pierde interactividad nativa de SVG.
+    Solo vale la pena si se escala a 10+ países.
+
+4C. WEB WORKER PARA DATA PROCESSING
+    Las funciones _loadUSCombinedTree(), _loadUKCombinedTree()
+    bloquean el main thread. Mover a Web Worker para loading
+    más smooth.
+
+======================================================
+QUICK WINS — IMPLEMENTABLES EN < 1 HORA CADA UNO
+======================================================
+
+1. renderSubcategoriesPanel() — 30 min
+   Input: array de {name, value, pct, tx}
+   Output: div con horizontal bars
+   Hook: 3 lugares (Galaxy, Explorer, Multiverse)
+
+2. Supplier geo badges — 15 min
+   En renderCouncilSuppliersPanel(), después de cada supplier name:
+   if (sup._local) html += '<span class="local-badge">LOCAL</span>';
+   if (sup._postcode) html += '<span class="postcode">' + sup._postcode + '</span>';
+   + CSS: .local-badge { background: #52c41a; color: white; ... }
+
+3. Local spend summary — 15 min
+   Al inicio de renderCouncilSuppliersPanel():
+   const localCount = suppliers.filter(s => s._local).length;
+   const localSpend = suppliers.filter(s => s._local).reduce((a,s) => a + s.amount, 0);
+   html += `<div class="local-summary">Local spend: ${pct}% ...</div>`;
+
+4. Supplier count in sidebar — 5 min
+   En el Galaxy sidebar tree, mostrar (25 suppliers) badge
+   al lado de cada service que tiene _top_suppliers.
+
+5. Share button for supplier panels — 10 min
+   Botón que copia URL con council + service pre-selected.
+
+======================================================
+WHAT I WOULD NOT DO
+======================================================
+
+- NO agregar React/Vue/Svelte. El vanilla JS funciona y agregar
+  un framework a un archivo de 500KB es una receta para desastre.
+  Si se modulariza, hacerlo con ES modules puros.
+
+- NO agregar una base de datos. Los JSON trees son simples, rápidos,
+  y el total es ~15MB. Una DB agrega complejidad sin beneficio real
+  a esta escala.
+
+- NO agregar autenticación. Es un proyecto de transparencia pública.
+  Todo debe ser abierto y accesible sin login.
+
+- NO obsesionarse con Birmingham FY 2023-24. Los datos fueron
+  purgados y no hay forma de recuperarlos. Procesamos FY 2024-25
+  pero el nodo no existe en el tree (MHCLG submission missing
+  post-S114). Esto se resuelve solo cuando MHCLG publique datos
+  actualizados.
+
+- NO agregar más councils hasta que el frontend muestre lo que
+  ya tenemos. Tenemos 3,738 suppliers enriquecidos, 108 subcategorías,
+  957 local spend flags — todo invisible. Mostrar eso primero.
+
+======================================================
+ESTADO DE DATOS VS FRONTEND
+======================================================
+
+                           DATOS    FRONTEND
+Top 25 suppliers           ✓ 186    ✓ renderCouncilSuppliersPanel
+Subcategories L7           ✓ 108    ✗ NO PANEL
+Supplier postcode          ✓ 3,738  ✗ NO BADGE
+Supplier local flag        ✓ 957    ✗ NO BADGE
+Supplier company type      ✓ 3,065  ✗ NO BADGE
+NHS trust breakdown        ✓ 206    ✓ renderNHSTrustPanel
+NHS staff cost types       ✓ 206    ✓ renderNHSStaffPanel
+NHS workforce WTE          ✓ 206    ✓ renderNHSStaffPanel
+NHS ICB metadata           ✓ 206    ✓ renderNHSTrustPanel
+S251 education sub-nodes   ✓ 149    ✓ (tree children, auto-rendered)
+DHSC L5 suppliers          ✓ 1      ✓ renderCouncilSuppliersPanel
+L5 dept segmented          ✓ 15     ✓ renderRecipientsPanel
+Enrichment descriptions    ✓ 5,000+ ✓ renderEnrichment
+Translations DE/FR         ✓ 950+   ✓ trG/trFR
+Fiscal consolidation       ✓ 4 ctry ✓ disclaimers + About section
+
+GAP SUMMARY: 3 data features with no frontend rendering.
+Estimated effort to close all 3: ~1 hour of JS/CSS.
+
+======================================================
+RECOMMENDED NEXT SESSION
+======================================================
+
+Prompt para la próxima sesión de Claude:
+"Implementar los 3 quick wins del frontend:
+ 1. renderSubcategoriesPanel() — horizontal bars
+ 2. Supplier geo badges (LOCAL + postcode) en renderCouncilSuppliersPanel
+ 3. Local spend summary at top of supplier panel
+ Hook los 3 en Galaxy, Budget Explorer, y Multiverse.
+ Validar JS syntax antes de deploy.
+ Deploy y verificar en budgetgalaxy.com."
+
+Esto convierte ~5 horas de trabajo de data pipeline en
+features visibles para el usuario final.
+======================================================

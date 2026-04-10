@@ -1,0 +1,96 @@
+{
+  "year": 2021,
+  "cas_pensions": 60224602189,
+  "solidarite_insertion": 29924681777,
+  "travail_emploi": 13380932703,
+  "cohesion_territoires": 15991411024,
+  "regimes_speciaux": 6153321982,
+  "total_overlap": 125674949675,
+  "pct_of_root": 8.1,
+  "root_value": 1553668013767,
+  "ss_branch_value": 841639760000,
+  "plf_value": 712028253767,
+  "details": {
+    "cas_pensions": {
+      "label": "CAS Pensions (civil servant pensions)",
+      "drees_risk": "Vieillesse-Survie",
+      "items": [
+        {
+          "name": "Pensions",
+          "value": 60224602189
+        }
+      ],
+      "total": 60224602189
+    },
+    "solidarite_insertion": {
+      "label": "Solidarité, insertion et égalité des chances",
+      "drees_risk": "Pauvreté-Exclusion",
+      "items": [
+        {
+          "name": "Solidarité, insertion et égalité des chances",
+          "value": 12575060469
+        },
+        {
+          "name": "Solidarités, autonomie et égalité entre les femmes et les hommes",
+          "value": 14873284971
+        },
+        {
+          "name": "Solidarité à l'égard des pays en développement",
+          "value": 2476336337
+        }
+      ],
+      "total": 29924681777
+    },
+    "travail_emploi": {
+      "label": "Travail et emploi",
+      "drees_risk": "Emploi",
+      "items": [
+        {
+          "name": "Travail et emploi",
+          "value": 13380932703
+        }
+      ],
+      "total": 13380932703
+    },
+    "cohesion_territoires": {
+      "label": "Cohésion des territoires / APL",
+      "drees_risk": "Logement",
+      "items": [
+        {
+          "name": "Cohésion des territoires",
+          "value": 15204753448
+        },
+        {
+          "name": "Cohésion des territoires",
+          "value": 40542752
+        },
+        {
+          "name": "Cohésion des territoires",
+          "value": 746114824
+        }
+      ],
+      "total": 15991411024
+    },
+    "regimes_speciaux": {
+      "label": "Régimes sociaux et de retraite",
+      "drees_risk": "Vieillesse",
+      "items": [
+        {
+          "name": "Régimes sociaux et de retraite",
+          "value": 1148714460
+        },
+        {
+          "name": "Régimes sociaux et de retraite",
+          "value": 4195016143
+        },
+        {
+          "name": "Régimes sociaux et de retraite",
+          "value": 809591379
+        }
+      ],
+      "total": 6153321982
+    }
+  },
+  "note": "PLF programs that overlap with DREES Protection Sociale coverage. CAS Pensions and Régimes sociaux are exact (full program is overlap). Solidarité, Travail, and Cohésion use PLF totals as ceiling — actual overlap may be lower.",
+  "source": "PLF programme-level identification cross-referenced with DREES CPS risk categories"
+}

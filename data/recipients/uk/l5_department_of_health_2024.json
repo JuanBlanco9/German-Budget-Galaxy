@@ -1,0 +1,1963 @@
+{
+  "dept": "Department of Health and Social Care",
+  "dept_id": "department_of_health",
+  "year": 2024,
+  "currency": "GBP",
+  "total_dept": 214200000000,
+  "total_spend25k": 137910921158,
+  "partial": false,
+  "months_covered": 12,
+  "segments": [
+    {
+      "segment": "NHS Midlands",
+      "total": 23377131996,
+      "transactions": 11,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS Birmingham and Solihull ICB",
+          "type": "Integrated Care Board",
+          "amount": 3124925049,
+          "pct_of_segment": 13.37
+        },
+        {
+          "rank": 2,
+          "name": "NHS Black Country ICB",
+          "type": "Integrated Care Board",
+          "amount": 2710516223,
+          "pct_of_segment": 11.59
+        },
+        {
+          "rank": 3,
+          "name": "NHS Nottingham and Nottinghamshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 2514632250,
+          "pct_of_segment": 10.76
+        },
+        {
+          "rank": 4,
+          "name": "NHS Staffordshire and Stoke-on-Trent ICB",
+          "type": "Integrated Care Board",
+          "amount": 2475114928,
+          "pct_of_segment": 10.59
+        },
+        {
+          "rank": 5,
+          "name": "NHS Derby and Derbyshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 2329296303,
+          "pct_of_segment": 9.96
+        },
+        {
+          "rank": 6,
+          "name": "NHS Leicester, Leicestershire and Rutland ICB",
+          "type": "Integrated Care Board",
+          "amount": 2150653372,
+          "pct_of_segment": 9.2
+        },
+        {
+          "rank": 7,
+          "name": "NHS Coventry and Warwickshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 2026054424,
+          "pct_of_segment": 8.67
+        },
+        {
+          "rank": 8,
+          "name": "NHS Lincolnshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 1699269582,
+          "pct_of_segment": 7.27
+        },
+        {
+          "rank": 9,
+          "name": "NHS Herefordshire and Worcestershire ICB",
+          "type": "Integrated Care Board",
+          "amount": 1677148100,
+          "pct_of_segment": 7.17
+        },
+        {
+          "rank": 10,
+          "name": "NHS Northamptonshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 1571018384,
+          "pct_of_segment": 6.72
+        },
+        {
+          "rank": 11,
+          "name": "NHS Shropshire, Telford and Wrekin ICB",
+          "type": "Integrated Care Board",
+          "amount": 1098503381,
+          "pct_of_segment": 4.7
+        }
+      ]
+    },
+    {
+      "segment": "NHS London",
+      "total": 20142047391,
+      "transactions": 5,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS North West London ICB",
+          "type": "Integrated Care Board",
+          "amount": 4971020345,
+          "pct_of_segment": 24.68
+        },
+        {
+          "rank": 2,
+          "name": "NHS North East London ICB",
+          "type": "Integrated Care Board",
+          "amount": 4427005824,
+          "pct_of_segment": 21.98
+        },
+        {
+          "rank": 3,
+          "name": "NHS South East London ICB",
+          "type": "Integrated Care Board",
+          "amount": 4204516623,
+          "pct_of_segment": 20.87
+        },
+        {
+          "rank": 4,
+          "name": "NHS North Central London ICB",
+          "type": "Integrated Care Board",
+          "amount": 3382180052,
+          "pct_of_segment": 16.79
+        },
+        {
+          "rank": 5,
+          "name": "NHS South West London ICB",
+          "type": "Integrated Care Board",
+          "amount": 3157324547,
+          "pct_of_segment": 15.68
+        }
+      ]
+    },
+    {
+      "segment": "NHS North East and Yorkshire",
+      "total": 19218533116,
+      "transactions": 4,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS North East and North Cumbria ICB",
+          "type": "Integrated Care Board",
+          "amount": 7133010257,
+          "pct_of_segment": 37.12
+        },
+        {
+          "rank": 2,
+          "name": "NHS West Yorkshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 5294673925,
+          "pct_of_segment": 27.55
+        },
+        {
+          "rank": 3,
+          "name": "NHS Humber and North Yorkshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 3651826923,
+          "pct_of_segment": 19
+        },
+        {
+          "rank": 4,
+          "name": "NHS South Yorkshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 3139022011,
+          "pct_of_segment": 16.33
+        }
+      ]
+    },
+    {
+      "segment": "NHS South East",
+      "total": 18567451190,
+      "transactions": 6,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS Kent and Medway ICB",
+          "type": "Integrated Care Board",
+          "amount": 3947812626,
+          "pct_of_segment": 21.26
+        },
+        {
+          "rank": 2,
+          "name": "NHS Sussex ICB",
+          "type": "Integrated Care Board",
+          "amount": 3817727896,
+          "pct_of_segment": 20.56
+        },
+        {
+          "rank": 3,
+          "name": "NHS Hampshire and Isle Of Wight ICB",
+          "type": "Integrated Care Board",
+          "amount": 3815834268,
+          "pct_of_segment": 20.55
+        },
+        {
+          "rank": 4,
+          "name": "NHS Buckinghamshire, Oxfordshire and Berkshire West ICB",
+          "type": "Integrated Care Board",
+          "amount": 3367344349,
+          "pct_of_segment": 18.14
+        },
+        {
+          "rank": 5,
+          "name": "NHS Surrey Heartlands ICB",
+          "type": "Integrated Care Board",
+          "amount": 2157067981,
+          "pct_of_segment": 11.62
+        },
+        {
+          "rank": 6,
+          "name": "NHS Frimley ICB",
+          "type": "Integrated Care Board",
+          "amount": 1461664070,
+          "pct_of_segment": 7.87
+        }
+      ]
+    },
+    {
+      "segment": "NHS North West",
+      "total": 17098560300,
+      "transactions": 3,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS Greater Manchester ICB",
+          "type": "Integrated Care Board",
+          "amount": 6733273264,
+          "pct_of_segment": 39.38
+        },
+        {
+          "rank": 2,
+          "name": "NHS Cheshire and Merseyside ICB",
+          "type": "Integrated Care Board",
+          "amount": 6229166082,
+          "pct_of_segment": 36.43
+        },
+        {
+          "rank": 3,
+          "name": "NHS Lancashire and South Cumbria ICB",
+          "type": "Integrated Care Board",
+          "amount": 4136120954,
+          "pct_of_segment": 24.19
+        }
+      ]
+    },
+    {
+      "segment": "NHS East of England",
+      "total": 13794500031,
+      "transactions": 6,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS Hertfordshire and West Essex ICB",
+          "type": "Integrated Care Board",
+          "amount": 3078913605,
+          "pct_of_segment": 22.32
+        },
+        {
+          "rank": 2,
+          "name": "NHS Mid and South Essex ICB",
+          "type": "Integrated Care Board",
+          "amount": 2491379956,
+          "pct_of_segment": 18.06
+        },
+        {
+          "rank": 3,
+          "name": "NHS Norfolk and Waveney ICB",
+          "type": "Integrated Care Board",
+          "amount": 2302496176,
+          "pct_of_segment": 16.69
+        },
+        {
+          "rank": 4,
+          "name": "NHS Suffolk and North East Essex ICB",
+          "type": "Integrated Care Board",
+          "amount": 2127973804,
+          "pct_of_segment": 15.43
+        },
+        {
+          "rank": 5,
+          "name": "NHS Bedfordshire, Luton and Milton Keynes ICB",
+          "type": "Integrated Care Board",
+          "amount": 1980066540,
+          "pct_of_segment": 14.35
+        },
+        {
+          "rank": 6,
+          "name": "NHS Cambridgeshire and Peterborough ICB",
+          "type": "Integrated Care Board",
+          "amount": 1813669950,
+          "pct_of_segment": 13.15
+        }
+      ]
+    },
+    {
+      "segment": "NHS South West",
+      "total": 12180464075,
+      "transactions": 7,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS Devon ICB",
+          "type": "Integrated Care Board",
+          "amount": 2686441331,
+          "pct_of_segment": 22.06
+        },
+        {
+          "rank": 2,
+          "name": "NHS Bristol, North Somerset and South Gloucestershire ICB",
+          "type": "Integrated Care Board",
+          "amount": 2040351357,
+          "pct_of_segment": 16.75
+        },
+        {
+          "rank": 3,
+          "name": "NHS Bath and North East Somerset, Swindon and Wiltshire ICB",
+          "type": "Integrated Care Board",
+          "amount": 1870011442,
+          "pct_of_segment": 15.35
+        },
+        {
+          "rank": 4,
+          "name": "NHS Dorset ICB",
+          "type": "Integrated Care Board",
+          "amount": 1722706107,
+          "pct_of_segment": 14.14
+        },
+        {
+          "rank": 5,
+          "name": "NHS Cornwall and The Isles Of Scilly ICB",
+          "type": "Integrated Care Board",
+          "amount": 1324430297,
+          "pct_of_segment": 10.87
+        },
+        {
+          "rank": 6,
+          "name": "NHS Gloucestershire ICB",
+          "type": "Integrated Care Board",
+          "amount": 1280059565,
+          "pct_of_segment": 10.51
+        },
+        {
+          "rank": 7,
+          "name": "NHS Somerset ICB",
+          "type": "Integrated Care Board",
+          "amount": 1256463976,
+          "pct_of_segment": 10.32
+        }
+      ]
+    },
+    {
+      "segment": "Global & Public Health",
+      "total": 4468184881,
+      "transactions": 2725,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Spain Banco Bilbao Vizcaya Argentaria",
+          "type": "Contractor",
+          "amount": 280614506,
+          "pct_of_segment": 6.28,
+          "notable": true,
+          "notable_reason": "Spanish bank processing EEA medical claims for DHSC"
+        },
+        {
+          "rank": 2,
+          "name": "BIRMINGHAM CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 111801683,
+          "pct_of_segment": 2.5
+        },
+        {
+          "rank": 3,
+          "name": "ALLPAY LIMITED",
+          "type": "Contractor",
+          "amount": 91615866,
+          "pct_of_segment": 2.05
+        },
+        {
+          "rank": 4,
+          "name": "LANCASHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 85992121,
+          "pct_of_segment": 1.92
+        },
+        {
+          "rank": 5,
+          "name": "KENT COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 81473752,
+          "pct_of_segment": 1.82
+        },
+        {
+          "rank": 6,
+          "name": "ESSEX COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 74756909,
+          "pct_of_segment": 1.67
+        },
+        {
+          "rank": 7,
+          "name": "EEA MEDICAL CLAIMS",
+          "type": "Contractor",
+          "amount": 68695036,
+          "pct_of_segment": 1.54
+        },
+        {
+          "rank": 8,
+          "name": "HAMPSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 60463318,
+          "pct_of_segment": 1.35
+        },
+        {
+          "rank": 9,
+          "name": "DURHAM COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 58920933,
+          "pct_of_segment": 1.32
+        },
+        {
+          "rank": 10,
+          "name": "LEEDS CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 58694000,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 11,
+          "name": "HERTFORDSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 58148096,
+          "pct_of_segment": 1.3
+        },
+        {
+          "rank": 12,
+          "name": "LIVERPOOL CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 56220675,
+          "pct_of_segment": 1.26
+        },
+        {
+          "rank": 13,
+          "name": "BRADFORD CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 52308591,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 14,
+          "name": "NOTTINGHAMSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 50304021,
+          "pct_of_segment": 1.13
+        },
+        {
+          "rank": 15,
+          "name": "DERBYSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 49257560,
+          "pct_of_segment": 1.1
+        },
+        {
+          "rank": 16,
+          "name": "NORFOLK COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 48840998,
+          "pct_of_segment": 1.09
+        },
+        {
+          "rank": 17,
+          "name": "INSS Instituto Nacional De La Seguridad Social 4 Madrid",
+          "type": "Contractor",
+          "amount": 46551621,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 18,
+          "name": "STAFFORDSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 46417963,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 19,
+          "name": "SURREY COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 43918221,
+          "pct_of_segment": 0.98
+        },
+        {
+          "rank": 20,
+          "name": "TOWER HAMLETS LONDON BOROUGH COUNCIL",
+          "type": "Local Authority",
+          "amount": 42894546,
+          "pct_of_segment": 0.96
+        }
+      ]
+    },
+    {
+      "segment": "Finance",
+      "total": 4029340502,
+      "transactions": 3167,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "SUPPLY CHAIN COORDINATION LIMITED  SCCL ONLY",
+          "type": "Contractor",
+          "amount": 252954290,
+          "pct_of_segment": 6.28
+        },
+        {
+          "rank": 2,
+          "name": "NOTTINGHAM UNIVERSITY HOSPITALS NHS TRUST",
+          "type": "NHS Body",
+          "amount": 118371000,
+          "pct_of_segment": 2.94
+        },
+        {
+          "rank": 3,
+          "name": "MID CHESHIRE HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 105864522,
+          "pct_of_segment": 2.63
+        },
+        {
+          "rank": 4,
+          "name": "UNIVERSITY HOSPITALS DORSET NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 103997949,
+          "pct_of_segment": 2.58
+        },
+        {
+          "rank": 5,
+          "name": "GENOMICS ENGLAND LTD",
+          "type": "Contractor",
+          "amount": 100000000,
+          "pct_of_segment": 2.48
+        },
+        {
+          "rank": 6,
+          "name": "MID AND SOUTH ESSEX NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 95743727,
+          "pct_of_segment": 2.38
+        },
+        {
+          "rank": 7,
+          "name": "COUNTESS OF CHESTER HOSPITAL NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 93373194,
+          "pct_of_segment": 2.32
+        },
+        {
+          "rank": 8,
+          "name": "UNIVERSITY HOSPITALS OF DERBY AND BURTON NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 71020000,
+          "pct_of_segment": 1.76
+        },
+        {
+          "rank": 9,
+          "name": "LANCASHIRE TEACHING HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 67485240,
+          "pct_of_segment": 1.67
+        },
+        {
+          "rank": 10,
+          "name": "NHS PROPERTY SERVICES LTD",
+          "type": "NHS Body",
+          "amount": 67314424,
+          "pct_of_segment": 1.67
+        },
+        {
+          "rank": 11,
+          "name": "JAMES PAGET UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 65084000,
+          "pct_of_segment": 1.62
+        },
+        {
+          "rank": 12,
+          "name": "UNIVERSITY HOSPITALS PLYMOUTH NHS TRUST",
+          "type": "NHS Body",
+          "amount": 61470000,
+          "pct_of_segment": 1.53
+        },
+        {
+          "rank": 13,
+          "name": "UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST",
+          "type": "NHS Body",
+          "amount": 60964000,
+          "pct_of_segment": 1.51
+        },
+        {
+          "rank": 14,
+          "name": "MANCHESTER UNIVERSITY NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 60405548,
+          "pct_of_segment": 1.5
+        },
+        {
+          "rank": 15,
+          "name": "UNITED LINCOLNSHIRE HOSPITALS NHS TRUST",
+          "type": "NHS Body",
+          "amount": 60259000,
+          "pct_of_segment": 1.5
+        },
+        {
+          "rank": 16,
+          "name": "SANDWELL & WEST BIRMINGHAM HOSPTIALS NHS TRUST",
+          "type": "NHS Body",
+          "amount": 60025000,
+          "pct_of_segment": 1.49
+        },
+        {
+          "rank": 17,
+          "name": "CUMBRIA PARTNERSHIP NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 58422000,
+          "pct_of_segment": 1.45
+        },
+        {
+          "rank": 18,
+          "name": "UNIVERSITY HOSPITALS OF MORECAMBE BAY NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 53663000,
+          "pct_of_segment": 1.33
+        },
+        {
+          "rank": 19,
+          "name": "EAST KENT HOSPITALS UNIVERSITY NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 53134000,
+          "pct_of_segment": 1.32
+        },
+        {
+          "rank": 20,
+          "name": "PORTSMOUTH HOSPITALS UNIVERSITY NHS TRUST",
+          "type": "NHS Body",
+          "amount": 49843152,
+          "pct_of_segment": 1.24
+        }
+      ]
+    },
+    {
+      "segment": "Secondary Care and Integration",
+      "total": 2216402937,
+      "transactions": 742,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS BUSINESS SERVICES AUTHORITY (NHSBSA)",
+          "type": "NHS Body",
+          "amount": 1318208720,
+          "pct_of_segment": 59.48
+        },
+        {
+          "rank": 2,
+          "name": "SCOTTISH GOVERNMENT",
+          "type": "Contractor",
+          "amount": 276026854,
+          "pct_of_segment": 12.45
+        },
+        {
+          "rank": 3,
+          "name": "NHS BLOOD AND TRANSPLANT (NHSBT)",
+          "type": "NHS Body",
+          "amount": 172598188,
+          "pct_of_segment": 7.79
+        },
+        {
+          "rank": 4,
+          "name": "WELSH ASSEMBLY GOVERNMENT",
+          "type": "Contractor",
+          "amount": 167300478,
+          "pct_of_segment": 7.55
+        },
+        {
+          "rank": 5,
+          "name": "HEALTH AND SOCIAL CARE BOARD",
+          "type": "Contractor",
+          "amount": 105438951,
+          "pct_of_segment": 4.76
+        },
+        {
+          "rank": 6,
+          "name": "AIRWAVE SOLUTIONS INTERNATIONAL LTD",
+          "type": "Contractor",
+          "amount": 41251234,
+          "pct_of_segment": 1.86
+        },
+        {
+          "rank": 7,
+          "name": "NHS PENSIONS AGENCY",
+          "type": "NHS Body",
+          "amount": 15400000,
+          "pct_of_segment": 0.69
+        },
+        {
+          "rank": 8,
+          "name": "HOME OFFICE",
+          "type": "Contractor",
+          "amount": 11654326,
+          "pct_of_segment": 0.53
+        },
+        {
+          "rank": 9,
+          "name": "NHS CONFEDERATION",
+          "type": "NHS Body",
+          "amount": 9932797,
+          "pct_of_segment": 0.45
+        },
+        {
+          "rank": 10,
+          "name": "SOUTH WESTERN AMBULANCE SERVICE NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 8786997,
+          "pct_of_segment": 0.4
+        },
+        {
+          "rank": 11,
+          "name": "NHS INJURY BENEFITS SCHEME",
+          "type": "NHS Body",
+          "amount": 8730060,
+          "pct_of_segment": 0.39
+        },
+        {
+          "rank": 12,
+          "name": "TERRAFIX LTD",
+          "type": "Contractor",
+          "amount": 7555989,
+          "pct_of_segment": 0.34
+        },
+        {
+          "rank": 13,
+          "name": "TELENT TECHNOLOGY SERVICES LIMITED",
+          "type": "Contractor",
+          "amount": 6935769,
+          "pct_of_segment": 0.31
+        },
+        {
+          "rank": 14,
+          "name": "SUPPLY CHAIN COORDINATION LIMITED  SCCL ONLY",
+          "type": "Contractor",
+          "amount": 6089471,
+          "pct_of_segment": 0.27
+        },
+        {
+          "rank": 15,
+          "name": "GOVERNMENT LEGAL DEPARTMENT OFFICE MONIES",
+          "type": "Contractor",
+          "amount": 5976973,
+          "pct_of_segment": 0.27
+        },
+        {
+          "rank": 16,
+          "name": "VANTIVE LIMITED",
+          "type": "Contractor",
+          "amount": 4865565,
+          "pct_of_segment": 0.22
+        },
+        {
+          "rank": 17,
+          "name": "TROPICAL HEALTH AND EDUCATION TRUST THET",
+          "type": "Contractor",
+          "amount": 3629835,
+          "pct_of_segment": 0.16
+        },
+        {
+          "rank": 18,
+          "name": "EXPONENTIAL E LIMITED",
+          "type": "Contractor",
+          "amount": 2995886,
+          "pct_of_segment": 0.14
+        },
+        {
+          "rank": 19,
+          "name": "INSIGHT DIRECT UK LTD",
+          "type": "Contractor",
+          "amount": 2941489,
+          "pct_of_segment": 0.13
+        },
+        {
+          "rank": 20,
+          "name": "TROPICAL HEALTH AND EDUCATION TRUST",
+          "type": "Contractor",
+          "amount": 2810001,
+          "pct_of_segment": 0.13
+        }
+      ]
+    },
+    {
+      "segment": "Chief Scientific Adviser",
+      "total": 1556019437,
+      "transactions": 8152,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "MANCHESTER UNIVERSITY NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 56392973,
+          "pct_of_segment": 3.62
+        },
+        {
+          "rank": 2,
+          "name": "BARTS HEALTH NHS TRUST",
+          "type": "NHS Body",
+          "amount": 51395203,
+          "pct_of_segment": 3.3
+        },
+        {
+          "rank": 3,
+          "name": "UNIVERSITY HOSPITAL SOUTHAMPTON NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 46841808,
+          "pct_of_segment": 3.01
+        },
+        {
+          "rank": 4,
+          "name": "GUYS AND ST THOMAS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 46547291,
+          "pct_of_segment": 2.99
+        },
+        {
+          "rank": 5,
+          "name": "UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST",
+          "type": "NHS Body",
+          "amount": 41858618,
+          "pct_of_segment": 2.69
+        },
+        {
+          "rank": 6,
+          "name": "IMPERIAL COLLEGE HEALTHCARE NHS TRUST",
+          "type": "NHS Body",
+          "amount": 41257490,
+          "pct_of_segment": 2.65
+        },
+        {
+          "rank": 7,
+          "name": "OXFORD UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 38386569,
+          "pct_of_segment": 2.47
+        },
+        {
+          "rank": 8,
+          "name": "LEEDS UNIVERSITY OF",
+          "type": "University",
+          "amount": 38328797,
+          "pct_of_segment": 2.46
+        },
+        {
+          "rank": 9,
+          "name": "SHEFFIELD TEACHING HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 37713516,
+          "pct_of_segment": 2.42
+        },
+        {
+          "rank": 10,
+          "name": "THE ROYAL WOLVERHAMPTON NHS TRUST",
+          "type": "NHS Body",
+          "amount": 36565409,
+          "pct_of_segment": 2.35
+        },
+        {
+          "rank": 11,
+          "name": "SOUTHAMPTON UNIVERSITY OF",
+          "type": "University",
+          "amount": 36204375,
+          "pct_of_segment": 2.33
+        },
+        {
+          "rank": 12,
+          "name": "THE NEWCASTLE UPON TYNE NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 36088839,
+          "pct_of_segment": 2.32
+        },
+        {
+          "rank": 13,
+          "name": "CAMBRIDGE UNIVERSITY HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 34687340,
+          "pct_of_segment": 2.23
+        },
+        {
+          "rank": 14,
+          "name": "OXFORD UNIVERSITY OF",
+          "type": "University",
+          "amount": 32730097,
+          "pct_of_segment": 2.1
+        },
+        {
+          "rank": 15,
+          "name": "LEEDS TEACHING HOSPITAL NHS TRUST",
+          "type": "NHS Body",
+          "amount": 32691897,
+          "pct_of_segment": 2.1
+        },
+        {
+          "rank": 16,
+          "name": "NORFOLK & NORWICH UNIVERSITY HOSPITAL NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 31995333,
+          "pct_of_segment": 2.06
+        },
+        {
+          "rank": 17,
+          "name": "NHS PROPERTY SERVICES LTD",
+          "type": "NHS Body",
+          "amount": 30000000,
+          "pct_of_segment": 1.93
+        },
+        {
+          "rank": 18,
+          "name": "ROYAL DEVON UNIVERSITY HEALTHCARE NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 29993409,
+          "pct_of_segment": 1.93
+        },
+        {
+          "rank": 19,
+          "name": "NHS ENGLAND CBA033",
+          "type": "NHS Body",
+          "amount": 29565952,
+          "pct_of_segment": 1.9
+        },
+        {
+          "rank": 20,
+          "name": "UNIVERSITY COLLEGE LONDON HOSPITALS NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 28631912,
+          "pct_of_segment": 1.84
+        }
+      ]
+    },
+    {
+      "segment": "Adult Social Care",
+      "total": 932309892,
+      "transactions": 689,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "DEPARTMENT OF LEVELLING UP, COMMUNITY AND HOUSING",
+          "type": "Contractor",
+          "amount": 625000000,
+          "pct_of_segment": 67.04
+        },
+        {
+          "rank": 2,
+          "name": "NHS BUSINESS SERVICES AUTHORITY (NHSBSA)",
+          "type": "NHS Body",
+          "amount": 60543265,
+          "pct_of_segment": 6.49
+        },
+        {
+          "rank": 3,
+          "name": "SKILLS FOR CARE LTD",
+          "type": "Contractor",
+          "amount": 23390515,
+          "pct_of_segment": 2.51
+        },
+        {
+          "rank": 4,
+          "name": "IMPROVEMENT AND DEVELOPMENT AGENCY",
+          "type": "Contractor",
+          "amount": 13983240,
+          "pct_of_segment": 1.5
+        },
+        {
+          "rank": 5,
+          "name": "GREATER LONDON AUTHORITY",
+          "type": "Contractor",
+          "amount": 13048464,
+          "pct_of_segment": 1.4
+        },
+        {
+          "rank": 6,
+          "name": "THINK AHEAD",
+          "type": "Contractor",
+          "amount": 7142048,
+          "pct_of_segment": 0.77
+        },
+        {
+          "rank": 7,
+          "name": "DURHAM COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 5346780,
+          "pct_of_segment": 0.57
+        },
+        {
+          "rank": 8,
+          "name": "OXFORDSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 5290958,
+          "pct_of_segment": 0.57
+        },
+        {
+          "rank": 9,
+          "name": "NORFOLK COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 5137647,
+          "pct_of_segment": 0.55
+        },
+        {
+          "rank": 10,
+          "name": "LINCOLNSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 4240988,
+          "pct_of_segment": 0.45
+        },
+        {
+          "rank": 11,
+          "name": "LANCASHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 4217612,
+          "pct_of_segment": 0.45
+        },
+        {
+          "rank": 12,
+          "name": "ESSEX COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3844244,
+          "pct_of_segment": 0.41
+        },
+        {
+          "rank": 13,
+          "name": "STAFFORDSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3549644,
+          "pct_of_segment": 0.38
+        },
+        {
+          "rank": 14,
+          "name": "DEVON COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3443452,
+          "pct_of_segment": 0.37
+        },
+        {
+          "rank": 15,
+          "name": "GLOUCESTERSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3407410,
+          "pct_of_segment": 0.37
+        },
+        {
+          "rank": 16,
+          "name": "NOTTINGHAMSHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3374914,
+          "pct_of_segment": 0.36
+        },
+        {
+          "rank": 17,
+          "name": "LEEDS CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3147239,
+          "pct_of_segment": 0.34
+        },
+        {
+          "rank": 18,
+          "name": "MANCHESTER CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 3130457,
+          "pct_of_segment": 0.34
+        },
+        {
+          "rank": 19,
+          "name": "SURREY COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 2880290,
+          "pct_of_segment": 0.31
+        },
+        {
+          "rank": 20,
+          "name": "CAMBRIDGESHIRE COUNTY COUNCIL",
+          "type": "Local Authority",
+          "amount": 2739183,
+          "pct_of_segment": 0.29
+        }
+      ]
+    },
+    {
+      "segment": "Group Operations",
+      "total": 129097140,
+      "transactions": 1103,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "GOVERNMENT PROPERTY AGENCY",
+          "type": "Contractor",
+          "amount": 38059956,
+          "pct_of_segment": 29.48
+        },
+        {
+          "rank": 2,
+          "name": "OMD GROUP LTD",
+          "type": "Contractor",
+          "amount": 18402183,
+          "pct_of_segment": 14.25
+        },
+        {
+          "rank": 3,
+          "name": "EMCOR FACILITIES SERVICES LTD",
+          "type": "Contractor",
+          "amount": 14226151,
+          "pct_of_segment": 11.02
+        },
+        {
+          "rank": 4,
+          "name": "DEPARTMENT FOR WORK AND PENSIONS (DWP)",
+          "type": "Contractor",
+          "amount": 8823150,
+          "pct_of_segment": 6.83
+        },
+        {
+          "rank": 5,
+          "name": "CABINET OFFICE",
+          "type": "Contractor",
+          "amount": 7872802,
+          "pct_of_segment": 6.1
+        },
+        {
+          "rank": 6,
+          "name": "ENTSERV UK LIMITED",
+          "type": "Contractor",
+          "amount": 5334670,
+          "pct_of_segment": 4.13
+        },
+        {
+          "rank": 7,
+          "name": "ATAMIS LTD",
+          "type": "Contractor",
+          "amount": 4644921,
+          "pct_of_segment": 3.6
+        },
+        {
+          "rank": 8,
+          "name": "TRUSTMARQUE SOLUTIONS LTD",
+          "type": "Contractor",
+          "amount": 4236777,
+          "pct_of_segment": 3.28
+        },
+        {
+          "rank": 9,
+          "name": "HITACHI SOLUTIONS EUROPE LTD",
+          "type": "Contractor",
+          "amount": 2786525,
+          "pct_of_segment": 2.16
+        },
+        {
+          "rank": 10,
+          "name": "GOVERNMENT LEGAL DEPARTMENT OFFICE MONIES",
+          "type": "Contractor",
+          "amount": 2125279,
+          "pct_of_segment": 1.65
+        },
+        {
+          "rank": 11,
+          "name": "COPYRIGHT LICENSING AGENCY",
+          "type": "Contractor",
+          "amount": 2063851,
+          "pct_of_segment": 1.6
+        },
+        {
+          "rank": 12,
+          "name": "BRITISH COUNCIL",
+          "type": "Local Authority",
+          "amount": 1506971,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 13,
+          "name": "MULLENLOWE LONDON",
+          "type": "Contractor",
+          "amount": 1505613,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 14,
+          "name": "LAMBETH LONDON BOROUGH COUNCIL RESTRICTED USE",
+          "type": "Local Authority",
+          "amount": 1373101,
+          "pct_of_segment": 1.06
+        },
+        {
+          "rank": 15,
+          "name": "MOZAIC SERVICES LTD",
+          "type": "Contractor",
+          "amount": 1195220,
+          "pct_of_segment": 0.93
+        },
+        {
+          "rank": 16,
+          "name": "WILLMOTT DIXON INTERIORS LTD",
+          "type": "Contractor",
+          "amount": 1093532,
+          "pct_of_segment": 0.85
+        },
+        {
+          "rank": 17,
+          "name": "COMPUTACENTER UK LTD",
+          "type": "Contractor",
+          "amount": 1042536,
+          "pct_of_segment": 0.81
+        },
+        {
+          "rank": 18,
+          "name": "NHS PROPERTY SERVICES LTD",
+          "type": "NHS Body",
+          "amount": 874731,
+          "pct_of_segment": 0.68
+        },
+        {
+          "rank": 19,
+          "name": "EDF ENERGY PLC",
+          "type": "Contractor",
+          "amount": 866169,
+          "pct_of_segment": 0.67
+        },
+        {
+          "rank": 20,
+          "name": "NEWHAM LONDON BOROUGH COUNCIL",
+          "type": "Local Authority",
+          "amount": 814800,
+          "pct_of_segment": 0.63
+        }
+      ]
+    },
+    {
+      "segment": "Primary Care and Prevention",
+      "total": 62091849,
+      "transactions": 580,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "THE THALIDOMIDE TRUST",
+          "type": "Contractor",
+          "amount": 9814171,
+          "pct_of_segment": 15.81
+        },
+        {
+          "rank": 2,
+          "name": "OMD GROUP LTD",
+          "type": "Contractor",
+          "amount": 6192454,
+          "pct_of_segment": 9.97
+        },
+        {
+          "rank": 3,
+          "name": "KAINOS SOFTWARE LTD",
+          "type": "Contractor",
+          "amount": 5699318,
+          "pct_of_segment": 9.18
+        },
+        {
+          "rank": 4,
+          "name": "NHS ENGLAND CBA033",
+          "type": "NHS Body",
+          "amount": 3536739,
+          "pct_of_segment": 5.7
+        },
+        {
+          "rank": 5,
+          "name": "SERCO LTD",
+          "type": "Outsourcing/IT",
+          "amount": 2978743,
+          "pct_of_segment": 4.8
+        },
+        {
+          "rank": 6,
+          "name": "MULLENLOWE LONDON",
+          "type": "Contractor",
+          "amount": 2842359,
+          "pct_of_segment": 4.58
+        },
+        {
+          "rank": 7,
+          "name": "THE NATIONAL ACADEMY FOR SOCIAL PRESCRIBING",
+          "type": "Contractor",
+          "amount": 1700000,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 8,
+          "name": "ROYAL COLLEGE OF OBSTETRICIANS AND GYNAECOLOGISTS",
+          "type": "Contractor",
+          "amount": 1200002,
+          "pct_of_segment": 1.93
+        },
+        {
+          "rank": 9,
+          "name": "TERRENCE HIGGINS TRUST",
+          "type": "Contractor",
+          "amount": 1106360,
+          "pct_of_segment": 1.78
+        },
+        {
+          "rank": 10,
+          "name": "SOUTH STAFFORDSHIRE WATER PLC",
+          "type": "Contractor",
+          "amount": 1098724,
+          "pct_of_segment": 1.77
+        },
+        {
+          "rank": 11,
+          "name": "WELLSET REPO LIMITED T/A FLIPSIDE",
+          "type": "Contractor",
+          "amount": 986331,
+          "pct_of_segment": 1.59
+        },
+        {
+          "rank": 12,
+          "name": "UK HEALTH SECURITY AGENCY (UKHSA)",
+          "type": "Contractor",
+          "amount": 902184,
+          "pct_of_segment": 1.45
+        },
+        {
+          "rank": 13,
+          "name": "NORTHUMBRIAN WATER LIMITED",
+          "type": "Contractor",
+          "amount": 834877,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 14,
+          "name": "PARAGON CUSTOMER COMMUNICATIONS (LONDON) LTD",
+          "type": "Contractor",
+          "amount": 743779,
+          "pct_of_segment": 1.2
+        },
+        {
+          "rank": 15,
+          "name": "SEVERN TRENT WATER LIMITED",
+          "type": "Contractor",
+          "amount": 712484,
+          "pct_of_segment": 1.15
+        },
+        {
+          "rank": 16,
+          "name": "GEMTEQ LTD",
+          "type": "Contractor",
+          "amount": 673969,
+          "pct_of_segment": 1.09
+        },
+        {
+          "rank": 17,
+          "name": "LEICESTER CITY COUNCIL",
+          "type": "Local Authority",
+          "amount": 630565,
+          "pct_of_segment": 1.02
+        },
+        {
+          "rank": 18,
+          "name": "THE CHILDREN'S SOCIETY (SERVICES) LIMITED",
+          "type": "Contractor",
+          "amount": 557874,
+          "pct_of_segment": 0.9
+        },
+        {
+          "rank": 19,
+          "name": "ISLINGTON LONDON BOROUGH COUNCIL",
+          "type": "Local Authority",
+          "amount": 553077,
+          "pct_of_segment": 0.89
+        },
+        {
+          "rank": 20,
+          "name": "SAMARITANS",
+          "type": "Contractor",
+          "amount": 462304,
+          "pct_of_segment": 0.74
+        }
+      ]
+    },
+    {
+      "segment": "NHSE TD",
+      "total": 53236016,
+      "transactions": 206,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "EGTON MEDICAL INFORMATION SYSTEMS LTD",
+          "type": "Contractor",
+          "amount": 13305438,
+          "pct_of_segment": 24.99
+        },
+        {
+          "rank": 2,
+          "name": "THE PHOENIX PARTNERSHIP LEEDS LTD",
+          "type": "Contractor",
+          "amount": 11211320,
+          "pct_of_segment": 21.06
+        },
+        {
+          "rank": 3,
+          "name": "BAXTER HEALTHCARE LTD",
+          "type": "Contractor",
+          "amount": 4073896,
+          "pct_of_segment": 7.65
+        },
+        {
+          "rank": 4,
+          "name": "REGISTERED NURSING HOME ASSOCIATION LTD",
+          "type": "Contractor",
+          "amount": 2370943,
+          "pct_of_segment": 4.45
+        },
+        {
+          "rank": 5,
+          "name": "FACULTY SCIENCE LTD",
+          "type": "Contractor",
+          "amount": 2178053,
+          "pct_of_segment": 4.09
+        },
+        {
+          "rank": 6,
+          "name": "MEDTRONIC LIMITED",
+          "type": "Contractor",
+          "amount": 1999088,
+          "pct_of_segment": 3.76
+        },
+        {
+          "rank": 7,
+          "name": "NATIONAL CARE ASSOCIATION CYBER GRANT ONLY",
+          "type": "Contractor",
+          "amount": 1965386,
+          "pct_of_segment": 3.69
+        },
+        {
+          "rank": 8,
+          "name": "ATOS IT SOLUTIONS AND SERVICES LTD",
+          "type": "Outsourcing/IT",
+          "amount": 1943118,
+          "pct_of_segment": 3.65
+        },
+        {
+          "rank": 9,
+          "name": "PCTI SOLUTIONS LTD",
+          "type": "Contractor",
+          "amount": 1885144,
+          "pct_of_segment": 3.54
+        },
+        {
+          "rank": 10,
+          "name": "HEALTHY IO UK LTD",
+          "type": "Contractor",
+          "amount": 1031800,
+          "pct_of_segment": 1.94
+        },
+        {
+          "rank": 11,
+          "name": "IBEX MEDICAL ANALYTICS LIMITED",
+          "type": "Contractor",
+          "amount": 900440,
+          "pct_of_segment": 1.69
+        },
+        {
+          "rank": 12,
+          "name": "KINGS COLLEGE LONDON",
+          "type": "Contractor",
+          "amount": 890376,
+          "pct_of_segment": 1.67
+        },
+        {
+          "rank": 13,
+          "name": "PRESCRIBING SERVICES LTD",
+          "type": "Contractor",
+          "amount": 704518,
+          "pct_of_segment": 1.32
+        },
+        {
+          "rank": 14,
+          "name": "NHS ENGLAND CBA033",
+          "type": "NHS Body",
+          "amount": 699494,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 15,
+          "name": "OXFORD UNIVERSITY OF",
+          "type": "University",
+          "amount": 554952,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 16,
+          "name": "KHEIRON MEDICAL TECHNOLOGIES LIMITED",
+          "type": "Contractor",
+          "amount": 549000,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 17,
+          "name": "METADATAWORKS LIMITED",
+          "type": "Contractor",
+          "amount": 525795,
+          "pct_of_segment": 0.99
+        },
+        {
+          "rank": 18,
+          "name": "THE ROYAL COLLEGE OF RADIOLOGISTS",
+          "type": "Contractor",
+          "amount": 466908,
+          "pct_of_segment": 0.88
+        },
+        {
+          "rank": 19,
+          "name": "CREATE CHANGE LONDON LIMITED",
+          "type": "Contractor",
+          "amount": 448485,
+          "pct_of_segment": 0.84
+        },
+        {
+          "rank": 20,
+          "name": "HIPPO DIGITAL LTD",
+          "type": "Contractor",
+          "amount": 440624,
+          "pct_of_segment": 0.83
+        }
+      ]
+    },
+    {
+      "segment": "GPH",
+      "total": 43195399,
+      "transactions": 41,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Not Available",
+          "type": "Contractor",
+          "amount": 16958620,
+          "pct_of_segment": 39.26
+        },
+        {
+          "rank": 2,
+          "name": "EEA GREECE",
+          "type": "Contractor",
+          "amount": 6380188,
+          "pct_of_segment": 14.77
+        },
+        {
+          "rank": 3,
+          "name": "EEA FRANCE",
+          "type": "Contractor",
+          "amount": 6273144,
+          "pct_of_segment": 14.52
+        },
+        {
+          "rank": 4,
+          "name": "EEA Medical Claims",
+          "type": "Contractor",
+          "amount": 4284144,
+          "pct_of_segment": 9.92
+        },
+        {
+          "rank": 5,
+          "name": "GAMRIF",
+          "type": "Contractor",
+          "amount": 2788277,
+          "pct_of_segment": 6.46
+        },
+        {
+          "rank": 6,
+          "name": "EEA Switzerland",
+          "type": "Contractor",
+          "amount": 2621312,
+          "pct_of_segment": 6.07
+        },
+        {
+          "rank": 7,
+          "name": "WHO",
+          "type": "Contractor",
+          "amount": 1714962,
+          "pct_of_segment": 3.97
+        },
+        {
+          "rank": 8,
+          "name": "EEA Germany",
+          "type": "Contractor",
+          "amount": 707406,
+          "pct_of_segment": 1.64
+        },
+        {
+          "rank": 9,
+          "name": "Boston University",
+          "type": "University",
+          "amount": 617942,
+          "pct_of_segment": 1.43
+        },
+        {
+          "rank": 10,
+          "name": "IDRC",
+          "type": "Contractor",
+          "amount": 424411,
+          "pct_of_segment": 0.98
+        },
+        {
+          "rank": 11,
+          "name": "EEA Slovakia",
+          "type": "Contractor",
+          "amount": 192255,
+          "pct_of_segment": 0.45
+        },
+        {
+          "rank": 12,
+          "name": "EEA Czech Republic",
+          "type": "Contractor",
+          "amount": 190806,
+          "pct_of_segment": 0.44
+        },
+        {
+          "rank": 13,
+          "name": "EEA Poland",
+          "type": "Contractor",
+          "amount": 41932,
+          "pct_of_segment": 0.1
+        }
+      ]
+    },
+    {
+      "segment": "CSA",
+      "total": 27820763,
+      "transactions": 40,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "EDCTP",
+          "type": "Contractor",
+          "amount": 20652400,
+          "pct_of_segment": 74.23
+        },
+        {
+          "rank": 2,
+          "name": "FCP",
+          "type": "Contractor",
+          "amount": 2946586,
+          "pct_of_segment": 10.59
+        },
+        {
+          "rank": 3,
+          "name": "Not Available",
+          "type": "Contractor",
+          "amount": 2666097,
+          "pct_of_segment": 9.58
+        },
+        {
+          "rank": 4,
+          "name": "LVCT",
+          "type": "Contractor",
+          "amount": 680961,
+          "pct_of_segment": 2.45
+        },
+        {
+          "rank": 5,
+          "name": "AHPSR",
+          "type": "Contractor",
+          "amount": 477290,
+          "pct_of_segment": 1.72
+        },
+        {
+          "rank": 6,
+          "name": "PREDICT4HEALTH",
+          "type": "Contractor",
+          "amount": 265750,
+          "pct_of_segment": 0.96
+        },
+        {
+          "rank": 7,
+          "name": "Instituto Nacional de Saude",
+          "type": "Contractor",
+          "amount": 87589,
+          "pct_of_segment": 0.31
+        },
+        {
+          "rank": 8,
+          "name": "Athena Infonomics",
+          "type": "Contractor",
+          "amount": 44090,
+          "pct_of_segment": 0.16
+        }
+      ]
+    },
+    {
+      "segment": "NHS Policy & Performance",
+      "total": 5966777,
+      "transactions": 23,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "NHS BUSINESS SERVICES AUTHORITY (NHSBSA)",
+          "type": "NHS Body",
+          "amount": 3000000,
+          "pct_of_segment": 50.28
+        },
+        {
+          "rank": 2,
+          "name": "BURGES SALMON LLP",
+          "type": "Contractor",
+          "amount": 2030921,
+          "pct_of_segment": 34.04
+        },
+        {
+          "rank": 3,
+          "name": "FRUEQENTIS",
+          "type": "Contractor",
+          "amount": 344520,
+          "pct_of_segment": 5.77
+        },
+        {
+          "rank": 4,
+          "name": "MINISTRY OF JUSTICE (MOJ)",
+          "type": "Contractor",
+          "amount": 149219,
+          "pct_of_segment": 2.5
+        },
+        {
+          "rank": 5,
+          "name": "EPIQ SYSTEMS LTD",
+          "type": "Contractor",
+          "amount": 130749,
+          "pct_of_segment": 2.19
+        },
+        {
+          "rank": 6,
+          "name": "FREQUENTIS",
+          "type": "Contractor",
+          "amount": 126051,
+          "pct_of_segment": 2.11
+        },
+        {
+          "rank": 7,
+          "name": "7BR",
+          "type": "Contractor",
+          "amount": 96450,
+          "pct_of_segment": 1.62
+        },
+        {
+          "rank": 8,
+          "name": "GLE (previously known as IIMHL)",
+          "type": "Contractor",
+          "amount": 54523,
+          "pct_of_segment": 0.91
+        },
+        {
+          "rank": 9,
+          "name": "2TG",
+          "type": "Contractor",
+          "amount": 34344,
+          "pct_of_segment": 0.58
+        }
+      ]
+    },
+    {
+      "segment": "Office For Health Improvement & Disparities (OHID)",
+      "total": 4687048,
+      "transactions": 58,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "UK HEALTH SECURITY AGENCY (UKHSA)",
+          "type": "Contractor",
+          "amount": 1555395,
+          "pct_of_segment": 33.18
+        },
+        {
+          "rank": 2,
+          "name": "OMD GROUP LTD",
+          "type": "Contractor",
+          "amount": 1379324,
+          "pct_of_segment": 29.43
+        },
+        {
+          "rank": 3,
+          "name": "SOFTWIRE TECHNOLOGY LTD",
+          "type": "Contractor",
+          "amount": 321525,
+          "pct_of_segment": 6.86
+        },
+        {
+          "rank": 4,
+          "name": "MERCATEO UK LIMITED",
+          "type": "Contractor",
+          "amount": 271055,
+          "pct_of_segment": 5.78
+        },
+        {
+          "rank": 5,
+          "name": "IPSOS MORI UK LTD",
+          "type": "Contractor",
+          "amount": 210000,
+          "pct_of_segment": 4.48
+        },
+        {
+          "rank": 6,
+          "name": "MULLENLOWE LONDON",
+          "type": "Contractor",
+          "amount": 199420,
+          "pct_of_segment": 4.25
+        },
+        {
+          "rank": 7,
+          "name": "WELLSET REPO LIMITED T/A FLIPSIDE",
+          "type": "Contractor",
+          "amount": 137280,
+          "pct_of_segment": 2.93
+        },
+        {
+          "rank": 8,
+          "name": "Universidad Peruana Cayetano Heredia",
+          "type": "Contractor",
+          "amount": 93242,
+          "pct_of_segment": 1.99
+        },
+        {
+          "rank": 9,
+          "name": "UNIVERSIDAD PERUANA CAYETANO HEREDI",
+          "type": "Contractor",
+          "amount": 93242,
+          "pct_of_segment": 1.99
+        },
+        {
+          "rank": 10,
+          "name": "WAVEMAKER LIMITED",
+          "type": "Contractor",
+          "amount": 81401,
+          "pct_of_segment": 1.74
+        },
+        {
+          "rank": 11,
+          "name": "RAND EUROPE COMMUNITY INTEREST COMPANY",
+          "type": "Contractor",
+          "amount": 60000,
+          "pct_of_segment": 1.28
+        },
+        {
+          "rank": 12,
+          "name": "SOCIAL FINANCE LIMITED",
+          "type": "Contractor",
+          "amount": 52727,
+          "pct_of_segment": 1.12
+        },
+        {
+          "rank": 13,
+          "name": "SOUTH LONDON AND MAUDSLEY NHS FOUNDATION TRUST",
+          "type": "NHS Body",
+          "amount": 52564,
+          "pct_of_segment": 1.12
+        },
+        {
+          "rank": 14,
+          "name": "University of Washington Institute",
+          "type": "University",
+          "amount": 50000,
+          "pct_of_segment": 1.07
+        },
+        {
+          "rank": 15,
+          "name": "NCSCT COMMUNITY INTEREST COMPANY",
+          "type": "Contractor",
+          "amount": 46750,
+          "pct_of_segment": 1
+        },
+        {
+          "rank": 16,
+          "name": "SHEFFIELD UNIVERSITY OF",
+          "type": "University",
+          "amount": 28800,
+          "pct_of_segment": 0.61
+        },
+        {
+          "rank": 17,
+          "name": "MARIE STOPES INTERNATIONAL",
+          "type": "Contractor",
+          "amount": 27383,
+          "pct_of_segment": 0.58
+        },
+        {
+          "rank": 18,
+          "name": "DEFINE RESEARCH & INSIGHT LIMITED",
+          "type": "Contractor",
+          "amount": 26940,
+          "pct_of_segment": 0.57
+        }
+      ]
+    },
+    {
+      "segment": "10 Year Health Plan",
+      "total": 1422207,
+      "transactions": 5,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "THINKS INSIGHT AND STRATEGY (BRITAIN THINKS) LTD",
+          "type": "Contractor",
+          "amount": 1422207,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "SCI",
+      "total": 1374856,
+      "transactions": 9,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Frequentis",
+          "type": "Contractor",
+          "amount": 877753,
+          "pct_of_segment": 63.84
+        },
+        {
+          "rank": 2,
+          "name": "Not Available",
+          "type": "Contractor",
+          "amount": 497103,
+          "pct_of_segment": 36.16
+        }
+      ]
+    },
+    {
+      "segment": "Digital Policy Unit",
+      "total": 786299,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Nanox",
+          "type": "Contractor",
+          "amount": 786299,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "DPU",
+      "total": 297056,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Nanox AI",
+          "type": "Contractor",
+          "amount": 297056,
+          "pct_of_segment": 100
+        }
+      ]
+    }
+  ],
+  "source": "NHS England ICB Allocations 2024-25 + DHSC Spending Over £25,000 (non-NHS areas)",
+  "note": "NHS regions show ICB commissioning allocations. Other segments show DHSC departmental spend from Spend >£25k.",
+  "generated": "2026-04-08"
+}

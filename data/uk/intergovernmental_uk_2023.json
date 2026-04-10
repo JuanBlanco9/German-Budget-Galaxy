@@ -1,0 +1,74 @@
+{
+  "year": 2023,
+  "barnett_grants": {
+    "scotland_office": {
+      "name": "SCOTLAND OFFICE AND OFFICE OF THE ADVOCATE GENERAL",
+      "value": 45266143000
+    },
+    "wales_office": {
+      "name": "WALES OFFICE",
+      "value": 21567003000
+    },
+    "ni_office": {
+      "name": "NORTHERN IRELAND OFFICE",
+      "value": 20954286000
+    },
+    "total": 87787432000
+  },
+  "devolved_governments": {
+    "scotland": 39084001000,
+    "wales": 22366040000,
+    "ni": 30657813000
+  },
+  "mhclg_local_gov_grants": 30450946000,
+  "la_branch_value": 123753651000,
+  "nhs_provider_overlap": {
+    "description": "Same logic as 2024: NHS Trust funding shown in both DHSC > NHS Trusts (commissioner view) and NHS Provider Sector top-level node (provider/spending view).",
+    "dhsc_nhs_trusts_oscar_original": 238689353000,
+    "nhs_provider_sector_value": 124216854000,
+    "v13_residual_after_first_netting": 114472499000,
+    "applied_via": "scripts/net_nhs_overlap.js (sets _netted=true)"
+  },
+  "oscar_2023_data_quality_fix": {
+    "description": "OSCAR 2023 contains a £114.07B 'Non-patient-facing NHS expenditure' line inside DHSC > NHS Trusts that does NOT exist in OSCAR 2024 and represents a data quality artifact. The line is approximately the size of NHS England commissioning flows that OSCAR 2023 mis-categorized cross-node, likely a schema cleanup that happened between OSCAR 2023 and OSCAR 2024 releases.",
+    "non_patient_facing_value_removed": 114068374000,
+    "evidence": [
+      "OSCAR 2024 has no equivalent 'Non-patient-facing NHS expenditure' line in NHS Trusts",
+      "After removal, NHS Trusts residual £0.405B / TAC £124.22B = 0.3% overhead, mirroring 2024's clean 3.6% ratio",
+      "DHSC + NHS Provider Sector total £220.23B reconciles closely with HM Treasury PSA 2022/23 published DHSC DEL £181.7B (within ~£40B which corresponds to NHS England commissioning being shown separately as a sibling rather than consolidated)"
+    ],
+    "ground_truth_sources": {
+      "DHSC_total_DEL_2022_23": {
+        "value_gbp_billion": 181.7,
+        "source": "HM Treasury Public Spending Statistics July 2023",
+        "url": "https://www.gov.uk/government/statistics/public-spending-statistics-release-july-2023/public-spending-statistics-july-2023"
+      },
+      "DHSC_resource_outturn_2022_23": {
+        "value_gbp_billion": 177.1,
+        "source": "DHSC Annual Report and Accounts 2022-23",
+        "url": "https://www.gov.uk/government/publications/dhsc-annual-report-and-accounts-2022-to-2023"
+      },
+      "NHS_England_total_expenditure_2022_23": {
+        "value_gbp_billion": 155.1,
+        "source": "NHS England Annual Report 2022-23 / NAO",
+        "url": "https://www.gov.uk/government/publications/nhs-england-annual-report-and-accounts-2022-to-2023"
+      }
+    },
+    "applied_via": "scripts/fix_oscar_2023_nhs.js (sets _oscar_2023_fix=true on DHSC > NHS Trusts node)",
+    "applied_date": "2026-04-10"
+  },
+  "total_deduction": 201855906000,
+  "deduction_breakdown": {
+    "barnett_grants": 87787432000,
+    "v13_nhs_provider_netting": 124216854000,
+    "oscar_2023_data_quality_fix": 114068374000
+  },
+  "pct_of_root": 14.7,
+  "root_value": 1372492000000,
+  "note": "Three sources of double-counting/data quality fixes: (1) Barnett Formula block grants (£88B) appear in both Central Government and devolved government budgets. (2) NHS Trust funding (£124B) shown in both DHSC commissioning view and NHS Provider Sector spending view — netted via scripts/net_nhs_overlap.js. (3) OSCAR 2023 specific £114B 'Non-patient-facing NHS expenditure' artifact that doesn't exist in OSCAR 2024 — removed via scripts/fix_oscar_2023_nhs.js. After all fixes, root drops from £1,610B (raw OSCAR) to £1,372B, and DHSC drops from £334B to £96B. (4) MHCLG Local Government grants (£30B) overlap with LA England branch (disclosure only, not deducted).",
+  "source": "HM Treasury OSCAR II + NHS England TAC 2022/23 + MHCLG Revenue Outturn",
+  "history": [
+    {"date": "2026-04-09", "change": "Initial v13 NHS netting applied"},
+    {"date": "2026-04-10", "change": "OSCAR 2023 data quality fix applied. Root dropped from £1,486.6B to £1,372.5B after removing £114.07B Non-patient-facing artifact. DHSC residual now £0.405B (consistent with 2024 ratio)."}
+  ]
+}

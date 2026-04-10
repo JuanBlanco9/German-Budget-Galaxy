@@ -69,17 +69,48 @@
 - **Parser**: `scripts/build_uk_recipients.js`
 - **Output**: `data/recipients/uk/recipients_uk_{deptId}_2024.json`
 
+### SEGMENT_L4 Enrichment (Level 4 granularity)
+- **Trigger**: Any L3 leaf node (0 children) representing >5% of its department's budget
+- **Column**: SEGMENT_L4_LONG_NAME (col 26 in BUD_*.xlsx)
+- **Name cleaning**: Strip OSCAR code prefix (`X017A049-`), strip accounting suffixes (`DEL PROG VOTED`, `AME`, `NON-VOTED`, `IWC`, `OWC`), title-case if all-caps
+- **Impact**: ~700-800 new leaf nodes per year, 61-85 nodes enriched per year
+- **Mainly affects**: MoD (24 segments under "2.1 Military defence"), DWP (11 segments under "10.2 Old age", 6 under "10.7 Social exclusion", 10 under "10.1 Sickness"), DfE (10 under "9.5 Education", 59 under "9.8 Education n.e.c."), HM Treasury, Home Office, Scottish/Welsh/NI Govts
+- **Applied in**: `build_uk_trees_all.py` post-build pass (2020-2024 only; 2015-2019 OSCAR I does not have SEGMENT_L4)
+- **Does NOT run restructure_uk_nations.js** -- frontend `_loadUKCombinedTree()` handles nation restructuring in-memory
+
+### Level 5+6: Segmented Recipient Data (Spend Over GBP 25k)
+- **15 departments** with full-year 2024 data (12 monthly files each)
+- **Segmentation**: by Expense Area (most depts), Entity (DfT, FCDO, Defra, Cabinet Office), or mapped Cost Centre (DWP)
+- **DWP special mapping**: 2,284 cost centre codes mapped to ~20 benefit categories via `mapDwpCostCentre()` regex
+- **DHSC special handling**: 8 NHS regions (from ICB allocations) + 15 non-NHS departmental areas (excluding "Default Group")
+- **MoD enrichment**: Each Expense Area segment has `expense_type_breakdown` showing spending by type (Equipment, Personnel, Fuel, etc.)
+- **314 supplier enrichments**: `supplier_enrichment.json` with sector, employees, HQ, description (163 councils + 51 NHS trusts auto-generated + 100 researched companies)
+- **Files**: `data/recipients/uk/l5_{dept_id}_2024.json` (15 files)
+- **Source files**: `data/recipients/uk/spend25k/{prefix}_{01..12}.{csv|ods|xlsx}` (180 monthly files across 15 depts)
+- **Builder**: `scripts/build_uk_l5_segmented.js`
+- **Frontend**: Async loads L5 data when expanding a UK department, renders collapsible segments with top suppliers + enrichment descriptions
+
+### ID generation (CRITICAL -- collision fix)
+- Tree node IDs are full slugified names: `re.sub(r'[^a-z0-9]+', '_', name.lower())`
+- Hierarchical: `dept_id__org_id__subfunc_id__segment_id`
+- Previous bug: truncated IDs (`dept[:3]`, `org[:6]`) caused collisions (9 depts shared `dep`, clicking Health showed Business data)
+- Fix applied in `build_uk_trees_all.py` -- zero collisions across all 1,400+ nodes
+
 ## Scripts existentes y que hacen
 
 | Script | Funcion |
 |--------|---------|
-| `scripts/build_uk_trees_all.py` | Parsea OSCAR II XLSX (2020-2024) a tree JSON |
+| `scripts/build_uk_trees_all.py` | Parsea OSCAR II XLSX (2020-2024) a tree JSON with SEGMENT_L4 enrichment + flatten |
 | `scripts/build_uk_trees_historical.py` | Parsea OSCAR Annual Release CSVs (2015-2019) |
 | `scripts/build_uk_la_trees.py` | Parsea MHCLG Revenue Outturn a LA trees |
 | `scripts/build_uk_devolved_trees.js` | Parsea PESA Chapter 9 a devolved nation trees |
 | `scripts/restructure_uk_nations.js` | Separa devolved govts de Central, remove OSCAR LG nodes, integra PESA |
 | `scripts/deduce_intergovernmental_uk.js` | Calcula Barnett block grants, genera intergovernmental_uk_YYYY.json |
-| `scripts/build_uk_recipients.js` | Agrega NHS Allocations + Spend >25k a top 100 recipients |
+| `scripts/build_uk_recipients.js` | Legacy: flat top 100 recipients per dept (superseded by l5_segmented) |
+| `scripts/build_uk_l5_segmented.js` | Builds segmented L5 JSONs: Expense Area/Entity segments with top suppliers |
+| `scripts/enrich_uk_nhs.js` | Injects 42 ICB allocations as children of NHS Trusts node in tree |
+| `scripts/compile_supplier_enrichment.js` | Compiles 314-entry supplier enrichment from auto-gen + researched batches |
+| `scripts/fetch_uk_contracts.js` | Downloads Contracts Finder OCDS API data (78k notices for 2024) |
 
 ## Restructuracion de naciones devueltas
 

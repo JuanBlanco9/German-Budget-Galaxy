@@ -1,0 +1,64 @@
+{
+  "name": "France Collectivités Territoriales 2023",
+  "id": "fr_collectivites",
+  "value": 315733900000,
+  "year": 2023,
+  "source": "Eurostat gov_10a_exp, sector S1313 (Local government), France, COFOG classification. Last updated 2026-03-27.",
+  "note": "Total expenditure by French local governments (régions, départements, communes, EPCI). Eurostat ESA2010 accrual basis. Not consolidated against central government. Status: provisional.",
+  "children": [
+    {
+      "id": "fr_ct_gf01",
+      "name": "General Public Services",
+      "name_fr": "Services généraux des administrations publiques",
+      "value": 60519200000
+    },
+    {
+      "id": "fr_ct_gf03",
+      "name": "Public Order & Safety",
+      "name_fr": "Ordre et sécurité publics",
+      "value": 9769100000
+    },
+    {
+      "id": "fr_ct_gf04",
+      "name": "Economic Affairs",
+      "name_fr": "Affaires économiques",
+      "value": 58718000000
+    },
+    {
+      "id": "fr_ct_gf05",
+      "name": "Environmental Protection",
+      "name_fr": "Protection de l'environnement",
+      "value": 24713800000
+    },
+    {
+      "id": "fr_ct_gf06",
+      "name": "Housing & Community",
+      "name_fr": "Logement et équipements collectifs",
+      "value": 29377100000
+    },
+    {
+      "id": "fr_ct_gf07",
+      "name": "Health",
+      "name_fr": "Santé",
+      "value": 2172500000
+    },
+    {
+      "id": "fr_ct_gf08",
+      "name": "Recreation, Culture & Religion",
+      "name_fr": "Loisirs, culture et culte",
+      "value": 28455800000
+    },
+    {
+      "id": "fr_ct_gf09",
+      "name": "Education",
+      "name_fr": "Enseignement",
+      "value": 44501600000
+    },
+    {
+      "id": "fr_ct_gf10",
+      "name": "Social Protection",
+      "name_fr": "Protection sociale",
+      "value": 57506800000
+    }
+  ]
+}

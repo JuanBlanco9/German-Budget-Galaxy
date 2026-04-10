@@ -1,0 +1,75 @@
+{
+  "year": 2016,
+  "cas_pensions": 0,
+  "solidarite_insertion": 20596284929,
+  "travail_emploi": 22030342539,
+  "cohesion_territoires": 17893735963,
+  "regimes_speciaux": 6320354974,
+  "total_overlap": 66840718405,
+  "pct_of_root": 5.3,
+  "root_value": 1266942948249,
+  "ss_branch_value": 721460291599,
+  "plf_value": 545482656650,
+  "details": {
+    "cas_pensions": {
+      "label": "CAS Pensions (civil servant pensions)",
+      "drees_risk": "Vieillesse-Survie",
+      "items": [],
+      "total": 0
+    },
+    "solidarite_insertion": {
+      "label": "Solidarité, insertion et égalité des chances",
+      "drees_risk": "Pauvreté-Exclusion",
+      "items": [
+        {
+          "name": "Solidarité, insertion et égalité des chances",
+          "value": 18250175727
+        },
+        {
+          "name": "Solidarité",
+          "value": 713416714
+        },
+        {
+          "name": "Solidarité à l'égard des pays en développement",
+          "value": 1632692488
+        }
+      ],
+      "total": 20596284929
+    },
+    "travail_emploi": {
+      "label": "Travail et emploi",
+      "drees_risk": "Emploi",
+      "items": [
+        {
+          "name": "Travail et emploi",
+          "value": 22030342539
+        }
+      ],
+      "total": 22030342539
+    },
+    "cohesion_territoires": {
+      "label": "Cohésion des territoires / APL",
+      "drees_risk": "Logement",
+      "items": [
+        {
+          "name": "Égalité des territoires et logement",
+          "value": 17893735963
+        }
+      ],
+      "total": 17893735963
+    },
+    "regimes_speciaux": {
+      "label": "Régimes sociaux et de retraite",
+      "drees_risk": "Vieillesse",
+      "items": [
+        {
+          "name": "Régimes sociaux et de retraite",
+          "value": 6320354974
+        }
+      ],
+      "total": 6320354974
+    }
+  },
+  "note": "PLF programs that overlap with DREES Protection Sociale coverage. CAS Pensions and Régimes sociaux are exact (full program is overlap). Solidarité, Travail, and Cohésion use PLF totals as ceiling — actual overlap may be lower.",
+  "source": "PLF programme-level identification cross-referenced with DREES CPS risk categories"
+}

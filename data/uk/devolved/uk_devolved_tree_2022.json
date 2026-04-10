@@ -1,0 +1,194 @@
+{
+  "name": "UK Devolved Spending 2022",
+  "id": "uk_devolved",
+  "value": 794898000000,
+  "year": 2022,
+  "source": "HM Treasury PESA 2024, Tables 9.5-9.14 (identifiable expenditure on services by country and function)",
+  "note": "Identifiable expenditure allocated to each UK nation by COFOG function. Includes both central and devolved government spending attributed to each nation.",
+  "children": [
+    {
+      "id": "uk_eng",
+      "name": "England",
+      "value": 650940000000,
+      "children": [
+        {
+          "name": "Social Protection",
+          "value": 241834000000
+        },
+        {
+          "name": "Health",
+          "value": 179219000000
+        },
+        {
+          "name": "Economic Affairs",
+          "value": 82153000000
+        },
+        {
+          "name": "Education",
+          "value": 81264000000
+        },
+        {
+          "name": "Public Order & Safety",
+          "value": 30311000000
+        },
+        {
+          "name": "Environmental Protection",
+          "value": 10855000000
+        },
+        {
+          "name": "Housing & Community",
+          "value": 10641000000
+        },
+        {
+          "name": "General Public Services",
+          "value": 7739000000
+        },
+        {
+          "name": "Recreation, Culture & Religion",
+          "value": 6805000000
+        },
+        {
+          "name": "Defence",
+          "value": 119000000
+        }
+      ]
+    },
+    {
+      "id": "uk_sco",
+      "name": "Scotland",
+      "value": 75825000000,
+      "children": [
+        {
+          "name": "Social Protection",
+          "value": 25902000000
+        },
+        {
+          "name": "Health",
+          "value": 19035000000
+        },
+        {
+          "name": "Economic Affairs",
+          "value": 10356000000
+        },
+        {
+          "name": "Education",
+          "value": 10295000000
+        },
+        {
+          "name": "Public Order & Safety",
+          "value": 3330000000
+        },
+        {
+          "name": "Housing & Community",
+          "value": 2462000000
+        },
+        {
+          "name": "General Public Services",
+          "value": 1739000000
+        },
+        {
+          "name": "Environmental Protection",
+          "value": 1464000000
+        },
+        {
+          "name": "Recreation, Culture & Religion",
+          "value": 1239000000
+        },
+        {
+          "name": "Defence",
+          "value": 3000000
+        }
+      ]
+    },
+    {
+      "id": "uk_wal",
+      "name": "Wales",
+      "value": 41401000000,
+      "children": [
+        {
+          "name": "Social Protection",
+          "value": 16474000000
+        },
+        {
+          "name": "Health",
+          "value": 10697000000
+        },
+        {
+          "name": "Education",
+          "value": 5219000000
+        },
+        {
+          "name": "Economic Affairs",
+          "value": 3881000000
+        },
+        {
+          "name": "Public Order & Safety",
+          "value": 1750000000
+        },
+        {
+          "name": "Housing & Community",
+          "value": 1057000000
+        },
+        {
+          "name": "General Public Services",
+          "value": 941000000
+        },
+        {
+          "name": "Environmental Protection",
+          "value": 749000000
+        },
+        {
+          "name": "Recreation, Culture & Religion",
+          "value": 630000000
+        },
+        {
+          "name": "Defence",
+          "value": 3000000
+        }
+      ]
+    },
+    {
+      "id": "uk_ni",
+      "name": "Northern Ireland",
+      "value": 26732000000,
+      "children": [
+        {
+          "name": "Social Protection",
+          "value": 10033000000
+        },
+        {
+          "name": "Health",
+          "value": 6523000000
+        },
+        {
+          "name": "Education",
+          "value": 3350000000
+        },
+        {
+          "name": "Economic Affairs",
+          "value": 2977000000
+        },
+        {
+          "name": "Public Order & Safety",
+          "value": 1397000000
+        },
+        {
+          "name": "Housing & Community",
+          "value": 1059000000
+        },
+        {
+          "name": "General Public Services",
+          "value": 602000000
+        },
+        {
+          "name": "Recreation, Culture & Religion",
+          "value": 466000000
+        },
+        {
+          "name": "Environmental Protection",
+          "value": 325000000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "germany-ngo-map",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Budget Galaxy</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanBlanco9/Budget-Galaxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanBlanco9/Budget-Galaxy/issues"
+  },
+  "homepage": "https://github.com/JuanBlanco9/Budget-Galaxy#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.87.0",
+    "puppeteer": "^24.40.0",
+    "xlsx": "^0.18.5"
+  }
+}

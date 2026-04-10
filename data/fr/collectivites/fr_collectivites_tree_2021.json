@@ -1,0 +1,64 @@
+{
+  "name": "France Collectivités Territoriales 2021",
+  "id": "fr_collectivites",
+  "value": 279450300000,
+  "year": 2021,
+  "source": "Eurostat gov_10a_exp, sector S1313 (Local government), France, COFOG classification",
+  "note": "Total expenditure by French local governments (régions, départements, communes, EPCI). Eurostat ESA2010 accrual basis. Not consolidated against central government.",
+  "children": [
+    {
+      "id": "fr_ct_gf04",
+      "name": "Economic Affairs",
+      "name_fr": "Affaires économiques",
+      "value": 57839300000
+    },
+    {
+      "id": "fr_ct_gf10",
+      "name": "Social Protection",
+      "name_fr": "Protection sociale",
+      "value": 52946500000
+    },
+    {
+      "id": "fr_ct_gf01",
+      "name": "General Public Services",
+      "name_fr": "Services généraux des administrations publiques",
+      "value": 52664700000
+    },
+    {
+      "id": "fr_ct_gf09",
+      "name": "Education",
+      "name_fr": "Enseignement",
+      "value": 38738900000
+    },
+    {
+      "id": "fr_ct_gf08",
+      "name": "Recreation, Culture & Religion",
+      "name_fr": "Loisirs, culture et culte",
+      "value": 23331000000
+    },
+    {
+      "id": "fr_ct_gf06",
+      "name": "Housing & Community",
+      "name_fr": "Logement et équipements collectifs",
+      "value": 22208500000
+    },
+    {
+      "id": "fr_ct_gf05",
+      "name": "Environmental Protection",
+      "name_fr": "Protection de l'environnement",
+      "value": 21235800000
+    },
+    {
+      "id": "fr_ct_gf03",
+      "name": "Public Order & Safety",
+      "name_fr": "Ordre et sécurité publics",
+      "value": 8524300000
+    },
+    {
+      "id": "fr_ct_gf07",
+      "name": "Health",
+      "name_fr": "Santé",
+      "value": 1961300000
+    }
+  ]
+}

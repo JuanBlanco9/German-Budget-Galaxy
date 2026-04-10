@@ -1,0 +1,6403 @@
+{
+  "dept": "Department for Education",
+  "dept_id": "department_for_education",
+  "year": 2024,
+  "currency": "GBP",
+  "total_dept": 140300000000,
+  "total_spend25k": 111386472643,
+  "partial": false,
+  "months_covered": 12,
+  "segments": [
+    {
+      "segment": "ESFA Funding",
+      "total": 37030406752,
+      "transactions": 131853,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 554457827,
+          "pct_of_segment": 1.5
+        },
+        {
+          "rank": 2,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 534576609,
+          "pct_of_segment": 1.44
+        },
+        {
+          "rank": 3,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 496996249,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 4,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 417661983,
+          "pct_of_segment": 1.13
+        },
+        {
+          "rank": 5,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 403978445,
+          "pct_of_segment": 1.09
+        },
+        {
+          "rank": 6,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 335410739,
+          "pct_of_segment": 0.91
+        },
+        {
+          "rank": 7,
+          "name": "Surrey County Council",
+          "type": "Local Authority",
+          "amount": 308276160,
+          "pct_of_segment": 0.83
+        },
+        {
+          "rank": 8,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 303373818,
+          "pct_of_segment": 0.82
+        },
+        {
+          "rank": 9,
+          "name": "West Sussex County Council",
+          "type": "Local Authority",
+          "amount": 291118179,
+          "pct_of_segment": 0.79
+        },
+        {
+          "rank": 10,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 233498882,
+          "pct_of_segment": 0.63
+        },
+        {
+          "rank": 11,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 227960084,
+          "pct_of_segment": 0.62
+        },
+        {
+          "rank": 12,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 198064429,
+          "pct_of_segment": 0.53
+        },
+        {
+          "rank": 13,
+          "name": "Manchester City Council",
+          "type": "Local Authority",
+          "amount": 197413130,
+          "pct_of_segment": 0.53
+        },
+        {
+          "rank": 14,
+          "name": "Buckinghamshire Council",
+          "type": "Local Authority",
+          "amount": 190105467,
+          "pct_of_segment": 0.51
+        },
+        {
+          "rank": 15,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 189593235,
+          "pct_of_segment": 0.51
+        },
+        {
+          "rank": 16,
+          "name": "Ealing London Borough Council",
+          "type": "Local Authority",
+          "amount": 184684553,
+          "pct_of_segment": 0.5
+        },
+        {
+          "rank": 17,
+          "name": "London Borough Of Tower Hamlets",
+          "type": "Local Authority",
+          "amount": 180391145,
+          "pct_of_segment": 0.49
+        },
+        {
+          "rank": 18,
+          "name": "Staffordshire County Council",
+          "type": "Local Authority",
+          "amount": 180326560,
+          "pct_of_segment": 0.49
+        },
+        {
+          "rank": 19,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 180230293,
+          "pct_of_segment": 0.49
+        },
+        {
+          "rank": 20,
+          "name": "Gloucestershire County Council",
+          "type": "Local Authority",
+          "amount": 177645647,
+          "pct_of_segment": 0.48
+        }
+      ]
+    },
+    {
+      "segment": "ESFA Funding Directorate",
+      "total": 36799728657,
+      "transactions": 118416,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 578597777,
+          "pct_of_segment": 1.57
+        },
+        {
+          "rank": 2,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 574533692,
+          "pct_of_segment": 1.56
+        },
+        {
+          "rank": 3,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 528885048,
+          "pct_of_segment": 1.44
+        },
+        {
+          "rank": 4,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 448890629,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 5,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 421625655,
+          "pct_of_segment": 1.15
+        },
+        {
+          "rank": 6,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 368466529,
+          "pct_of_segment": 1
+        },
+        {
+          "rank": 7,
+          "name": "Surrey County Council",
+          "type": "Local Authority",
+          "amount": 345705841,
+          "pct_of_segment": 0.94
+        },
+        {
+          "rank": 8,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 329460660,
+          "pct_of_segment": 0.9
+        },
+        {
+          "rank": 9,
+          "name": "West Sussex County Council",
+          "type": "Local Authority",
+          "amount": 306190890,
+          "pct_of_segment": 0.83
+        },
+        {
+          "rank": 10,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 249961608,
+          "pct_of_segment": 0.68
+        },
+        {
+          "rank": 11,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 243886828,
+          "pct_of_segment": 0.66
+        },
+        {
+          "rank": 12,
+          "name": "Devon County Council",
+          "type": "Local Authority",
+          "amount": 227251526,
+          "pct_of_segment": 0.62
+        },
+        {
+          "rank": 13,
+          "name": "Manchester City Council",
+          "type": "Local Authority",
+          "amount": 215207769,
+          "pct_of_segment": 0.58
+        },
+        {
+          "rank": 14,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 213046488,
+          "pct_of_segment": 0.58
+        },
+        {
+          "rank": 15,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 203782647,
+          "pct_of_segment": 0.55
+        },
+        {
+          "rank": 16,
+          "name": "Buckinghamshire Council",
+          "type": "Local Authority",
+          "amount": 202877450,
+          "pct_of_segment": 0.55
+        },
+        {
+          "rank": 17,
+          "name": "London Borough Of Tower Hamlets",
+          "type": "Local Authority",
+          "amount": 202426057,
+          "pct_of_segment": 0.55
+        },
+        {
+          "rank": 18,
+          "name": "Ealing London Borough Council",
+          "type": "Local Authority",
+          "amount": 198394632,
+          "pct_of_segment": 0.54
+        },
+        {
+          "rank": 19,
+          "name": "Staffordshire County Council",
+          "type": "Local Authority",
+          "amount": 191232721,
+          "pct_of_segment": 0.52
+        },
+        {
+          "rank": 20,
+          "name": "Gloucestershire County Council",
+          "type": "Local Authority",
+          "amount": 189404151,
+          "pct_of_segment": 0.51
+        }
+      ]
+    },
+    {
+      "segment": "Higher Education Oversight",
+      "total": 23867718679,
+      "transactions": 409,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Student Loans Company Ltd",
+          "type": "Contractor",
+          "amount": 21303634477,
+          "pct_of_segment": 89.26
+        },
+        {
+          "rank": 2,
+          "name": "The Office For Students",
+          "type": "Contractor",
+          "amount": 1647806272,
+          "pct_of_segment": 6.9
+        },
+        {
+          "rank": 3,
+          "name": "Student Loans Co Ltd Invest To Save",
+          "type": "Contractor",
+          "amount": 301984417,
+          "pct_of_segment": 1.27
+        },
+        {
+          "rank": 4,
+          "name": "National Assembly For Wales",
+          "type": "Contractor",
+          "amount": 177248235,
+          "pct_of_segment": 0.74
+        },
+        {
+          "rank": 5,
+          "name": "Student Awards Agency For Scotland Saas",
+          "type": "Contractor",
+          "amount": 170531083,
+          "pct_of_segment": 0.71
+        },
+        {
+          "rank": 6,
+          "name": "Department For The Economy",
+          "type": "Contractor",
+          "amount": 153236390,
+          "pct_of_segment": 0.64
+        },
+        {
+          "rank": 7,
+          "name": "Department For Science, Innovation And Technology",
+          "type": "Contractor",
+          "amount": 57810000,
+          "pct_of_segment": 0.24
+        },
+        {
+          "rank": 8,
+          "name": "Honours Trustee Limited",
+          "type": "Contractor",
+          "amount": 14499229,
+          "pct_of_segment": 0.06
+        },
+        {
+          "rank": 9,
+          "name": "Finance For Higher Education",
+          "type": "Contractor",
+          "amount": 10896438,
+          "pct_of_segment": 0.05
+        },
+        {
+          "rank": 10,
+          "name": "Csr/Hmrc",
+          "type": "Contractor",
+          "amount": 9190817,
+          "pct_of_segment": 0.04
+        },
+        {
+          "rank": 11,
+          "name": "Honours Trustees Ltd",
+          "type": "Contractor",
+          "amount": 4574460,
+          "pct_of_segment": 0.02
+        },
+        {
+          "rank": 12,
+          "name": "London Metro University",
+          "type": "University",
+          "amount": 895521,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 13,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 745950,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 14,
+          "name": "Wolverhampton City Council",
+          "type": "Local Authority",
+          "amount": 710110,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 15,
+          "name": "Barking And Dagenham London Borough Council",
+          "type": "Local Authority",
+          "amount": 709804,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 16,
+          "name": "Hampshire Pension Fund (Hampshire County Council)",
+          "type": "Local Authority",
+          "amount": 706750,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 17,
+          "name": "Manchester City Council",
+          "type": "Local Authority",
+          "amount": 654092,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 18,
+          "name": "Devon County Council",
+          "type": "Local Authority",
+          "amount": 652505,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 19,
+          "name": "East Sussex County Council",
+          "type": "Local Authority",
+          "amount": 635781,
+          "pct_of_segment": 0
+        },
+        {
+          "rank": 20,
+          "name": "Barnet London Borough Council",
+          "type": "Local Authority",
+          "amount": 602133,
+          "pct_of_segment": 0
+        }
+      ]
+    },
+    {
+      "segment": "Education Estates Directorate",
+      "total": 4043041335,
+      "transactions": 13260,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Bowmer And Kirkland Limited",
+          "type": "Contractor",
+          "amount": 230436271,
+          "pct_of_segment": 5.7,
+          "top_contracts": [
+            {
+              "title": "University Academy, Long Sutton - PCSA (con_24060)"
+            },
+            {
+              "title": "Chilmington Green School - Main Works (con_24002)"
+            },
+            {
+              "title": "Bosvena School - Main Works (con_25487)"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Bam Construction Limited",
+          "type": "Contractor",
+          "amount": 176945741,
+          "pct_of_segment": 4.38,
+          "top_contracts": [
+            {
+              "title": "St Leonard's Catholic School - PCSA (con_24160)"
+            },
+            {
+              "title": "Higham Lane North Academy - Main Works (con_24889)"
+            },
+            {
+              "title": "Salesian Academy of St John Bosco - PCSA (con_25342)"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Tilbury Douglas Construction Limited",
+          "type": "Contractor",
+          "amount": 108327175,
+          "pct_of_segment": 2.68
+        },
+        {
+          "rank": 4,
+          "name": "Morgan Sindall Construction And Infrastructure Ltd",
+          "type": "Contractor",
+          "amount": 98179351,
+          "pct_of_segment": 2.43,
+          "top_contracts": [
+            {
+              "title": "Cambridge Mathematics School - PCSA (con_24892)"
+            },
+            {
+              "title": "Star Radcliffe Academy - Temp Works - EWI 1 (con_24658)"
+            },
+            {
+              "title": "Star Radcliffe - Main Works - EWI 1 (con_24659)"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Wates Construction Limited",
+          "type": "Contractor",
+          "amount": 94244714,
+          "pct_of_segment": 2.33,
+          "top_contracts": [
+            {
+              "title": "Brook Mead Academy - Main Works (con_24000)"
+            },
+            {
+              "title": "Hadlow Rural Community School - Other (con_24444)"
+            },
+            {
+              "title": "Woldgate School and Sixth Form College - Main Works (JCT Design & Build Contract) (con_25267)"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "name": "Galliford Try Building Ltd",
+          "type": "Contractor",
+          "amount": 73813520,
+          "pct_of_segment": 1.83,
+          "top_contracts": [
+            {
+              "title": "Bolton UTC - Early Works Agreement extension to PCSA (con_24001)"
+            },
+            {
+              "title": "Endeavour Co-operative Academy - Main Works Contract (JCT D&B Contract) (con_24339)"
+            },
+            {
+              "title": "Bolton University Collegiate School - PCSA for KS3 Extension - Early Works Instruction (con_24891)"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "name": "Kier Construction Southern",
+          "type": "Contractor",
+          "amount": 66374614,
+          "pct_of_segment": 1.64
+        },
+        {
+          "rank": 8,
+          "name": "Kier Construction Eastern",
+          "type": "Contractor",
+          "amount": 55976916,
+          "pct_of_segment": 1.38
+        },
+        {
+          "rank": 9,
+          "name": "Portakabin Limited",
+          "type": "Contractor",
+          "amount": 48540419,
+          "pct_of_segment": 1.2,
+          "top_contracts": [
+            {
+              "title": "Provision of temporary accommodation and associated services - Phase 2 (con_24157)"
+            },
+            {
+              "title": "Great Park Academy - Temp Works (con_24027)"
+            },
+            {
+              "title": "Haygrove School - JCT intermediate Building Contract (con_24005)"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "name": "Reds10 (Uk) Limited",
+          "type": "Contractor",
+          "amount": 39566040,
+          "pct_of_segment": 0.98
+        },
+        {
+          "rank": 11,
+          "name": "Kier London",
+          "type": "Contractor",
+          "amount": 38423694,
+          "pct_of_segment": 0.95
+        },
+        {
+          "rank": 12,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 33646169,
+          "pct_of_segment": 0.83
+        },
+        {
+          "rank": 13,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 31206959,
+          "pct_of_segment": 0.77
+        },
+        {
+          "rank": 14,
+          "name": "Bristol City Council",
+          "type": "Local Authority",
+          "amount": 29205518,
+          "pct_of_segment": 0.72
+        },
+        {
+          "rank": 15,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 28116571,
+          "pct_of_segment": 0.7
+        },
+        {
+          "rank": 16,
+          "name": "Barnsley Metropolitan Borough Council",
+          "type": "Local Authority",
+          "amount": 26225058,
+          "pct_of_segment": 0.65
+        },
+        {
+          "rank": 17,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 24190541,
+          "pct_of_segment": 0.6
+        },
+        {
+          "rank": 18,
+          "name": "Bradford City Council",
+          "type": "Local Authority",
+          "amount": 24143117,
+          "pct_of_segment": 0.6
+        },
+        {
+          "rank": 19,
+          "name": "Willmott Dixon Construction Limited",
+          "type": "Contractor",
+          "amount": 22684608,
+          "pct_of_segment": 0.56,
+          "top_contracts": [
+            {
+              "title": "Oxlow Bridge School - Main Works (con_25331)"
+            },
+            {
+              "title": "Wigan & Leigh College - PCSA (con_25378)"
+            },
+            {
+              "title": "Surrey Maths School - Main Works (con_25981)"
+            }
+          ]
+        },
+        {
+          "rank": 20,
+          "name": "Lewisham London Borough Council",
+          "type": "Local Authority",
+          "amount": 22268888,
+          "pct_of_segment": 0.55
+        }
+      ]
+    },
+    {
+      "segment": "Apprenticeships and Skills Bootcamps",
+      "total": 2437110725,
+      "transactions": 22479,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Multiverse Group Limited",
+          "type": "Contractor",
+          "amount": 64830711,
+          "pct_of_segment": 2.66
+        },
+        {
+          "rank": 2,
+          "name": "Bpp Professional Education Limited",
+          "type": "Contractor",
+          "amount": 56113298,
+          "pct_of_segment": 2.3
+        },
+        {
+          "rank": 3,
+          "name": "Qa Limited",
+          "type": "Contractor",
+          "amount": 53981413,
+          "pct_of_segment": 2.21
+        },
+        {
+          "rank": 4,
+          "name": "Lifetime Training Group Limited",
+          "type": "Contractor",
+          "amount": 53482938,
+          "pct_of_segment": 2.19
+        },
+        {
+          "rank": 5,
+          "name": "Kaplan Financial Limited",
+          "type": "Contractor",
+          "amount": 52426451,
+          "pct_of_segment": 2.15
+        },
+        {
+          "rank": 6,
+          "name": "Corndel Limited",
+          "type": "Contractor",
+          "amount": 48173563,
+          "pct_of_segment": 1.98
+        },
+        {
+          "rank": 7,
+          "name": "British Army",
+          "type": "Contractor",
+          "amount": 38504896,
+          "pct_of_segment": 1.58
+        },
+        {
+          "rank": 8,
+          "name": "Jtl",
+          "type": "Contractor",
+          "amount": 31916722,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 9,
+          "name": "Paragon Education And Skills Limited",
+          "type": "Contractor",
+          "amount": 23681218,
+          "pct_of_segment": 0.97
+        },
+        {
+          "rank": 10,
+          "name": "Ministry Of Defence (Royal Navy)",
+          "type": "Contractor",
+          "amount": 22856194,
+          "pct_of_segment": 0.94
+        },
+        {
+          "rank": 11,
+          "name": "Hit Training Ltd",
+          "type": "Contractor",
+          "amount": 21686987,
+          "pct_of_segment": 0.89
+        },
+        {
+          "rank": 12,
+          "name": "Ministry Of Defence (Raf)",
+          "type": "Contractor",
+          "amount": 21559603,
+          "pct_of_segment": 0.88
+        },
+        {
+          "rank": 13,
+          "name": "Inspiro Learning Limited (Previously Babcock Skills Development And Training Ltd)",
+          "type": "Defence Contractor",
+          "amount": 19230676,
+          "pct_of_segment": 0.79
+        },
+        {
+          "rank": 14,
+          "name": "Sheffield Hallam University",
+          "type": "University",
+          "amount": 18033180,
+          "pct_of_segment": 0.74
+        },
+        {
+          "rank": 15,
+          "name": "Anglia Ruskin University",
+          "type": "University",
+          "amount": 17666272,
+          "pct_of_segment": 0.72
+        },
+        {
+          "rank": 16,
+          "name": "Bpp University Limited",
+          "type": "University",
+          "amount": 16703492,
+          "pct_of_segment": 0.69
+        },
+        {
+          "rank": 17,
+          "name": "Bae Systems Plc",
+          "type": "Defence Contractor",
+          "amount": 16488056,
+          "pct_of_segment": 0.68
+        },
+        {
+          "rank": 18,
+          "name": "Realise Learning And Employment Limited",
+          "type": "Contractor",
+          "amount": 16458420,
+          "pct_of_segment": 0.68
+        },
+        {
+          "rank": 19,
+          "name": "Babington Business College Limited",
+          "type": "Contractor",
+          "amount": 15992161,
+          "pct_of_segment": 0.66
+        },
+        {
+          "rank": 20,
+          "name": "Staffordshire University",
+          "type": "University",
+          "amount": 15709423,
+          "pct_of_segment": 0.64
+        }
+      ]
+    },
+    {
+      "segment": "Capital Directorate",
+      "total": 1881126980,
+      "transactions": 4694,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Bowmer And Kirkland Limited",
+          "type": "Contractor",
+          "amount": 96373305,
+          "pct_of_segment": 5.12,
+          "top_contracts": [
+            {
+              "title": "University Academy, Long Sutton - PCSA (con_24060)"
+            },
+            {
+              "title": "Chilmington Green School - Main Works (con_24002)"
+            },
+            {
+              "title": "Bosvena School - Main Works (con_25487)"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Bam Construction Limited",
+          "type": "Contractor",
+          "amount": 55568235,
+          "pct_of_segment": 2.95,
+          "top_contracts": [
+            {
+              "title": "St Leonard's Catholic School - PCSA (con_24160)"
+            },
+            {
+              "title": "Higham Lane North Academy - Main Works (con_24889)"
+            },
+            {
+              "title": "Salesian Academy of St John Bosco - PCSA (con_25342)"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Wates Construction Limited",
+          "type": "Contractor",
+          "amount": 48821579,
+          "pct_of_segment": 2.6,
+          "top_contracts": [
+            {
+              "title": "Brook Mead Academy - Main Works (con_24000)"
+            },
+            {
+              "title": "Hadlow Rural Community School - Other (con_24444)"
+            },
+            {
+              "title": "Woldgate School and Sixth Form College - Main Works (JCT Design & Build Contract) (con_25267)"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Morgan Sindall Construction And Infrastructure Ltd",
+          "type": "Contractor",
+          "amount": 36867066,
+          "pct_of_segment": 1.96,
+          "top_contracts": [
+            {
+              "title": "Cambridge Mathematics School - PCSA (con_24892)"
+            },
+            {
+              "title": "Star Radcliffe Academy - Temp Works - EWI 1 (con_24658)"
+            },
+            {
+              "title": "Star Radcliffe - Main Works - EWI 1 (con_24659)"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 32724183,
+          "pct_of_segment": 1.74
+        },
+        {
+          "rank": 6,
+          "name": "Tilbury Douglas Construction Limited",
+          "type": "Contractor",
+          "amount": 31364399,
+          "pct_of_segment": 1.67
+        },
+        {
+          "rank": 7,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 26660855,
+          "pct_of_segment": 1.42
+        },
+        {
+          "rank": 8,
+          "name": "Galliford Try Building Ltd",
+          "type": "Contractor",
+          "amount": 25680077,
+          "pct_of_segment": 1.37,
+          "top_contracts": [
+            {
+              "title": "Bolton UTC - Early Works Agreement extension to PCSA (con_24001)"
+            },
+            {
+              "title": "Endeavour Co-operative Academy - Main Works Contract (JCT D&B Contract) (con_24339)"
+            },
+            {
+              "title": "Bolton University Collegiate School - PCSA for KS3 Extension - Early Works Instruction (con_24891)"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 24224371,
+          "pct_of_segment": 1.29
+        },
+        {
+          "rank": 10,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 22103145,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 11,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 21553635,
+          "pct_of_segment": 1.15
+        },
+        {
+          "rank": 12,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 21187522,
+          "pct_of_segment": 1.13
+        },
+        {
+          "rank": 13,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 20184985,
+          "pct_of_segment": 1.07
+        },
+        {
+          "rank": 14,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 20062005,
+          "pct_of_segment": 1.07
+        },
+        {
+          "rank": 15,
+          "name": "London Borough Of Tower Hamlets",
+          "type": "Local Authority",
+          "amount": 19704113,
+          "pct_of_segment": 1.05
+        },
+        {
+          "rank": 16,
+          "name": "Reds10 Uk Limited",
+          "type": "Contractor",
+          "amount": 19515240,
+          "pct_of_segment": 1.04,
+          "top_contracts": [
+            {
+              "title": "Provision of temporary accommodation and associated services - Phase 2 (con_24158)"
+            },
+            {
+              "title": "Mayflower Primary School -  Main Works (JCT IBC) (con_25329)"
+            },
+            {
+              "title": "Sky Academy - Main Works (con_25271)"
+            }
+          ]
+        },
+        {
+          "rank": 17,
+          "name": "Kier Construction Eastern",
+          "type": "Contractor",
+          "amount": 19159040,
+          "pct_of_segment": 1.02
+        },
+        {
+          "rank": 18,
+          "name": "Surrey County Council",
+          "type": "Local Authority",
+          "amount": 18999323,
+          "pct_of_segment": 1.01
+        },
+        {
+          "rank": 19,
+          "name": "Isg Construction Limited",
+          "type": "Contractor",
+          "amount": 18390178,
+          "pct_of_segment": 0.98,
+          "top_contracts": [
+            {
+              "title": "Hempland Primary School - Main Works (JCT D&B Contract) (con_25177)"
+            },
+            {
+              "title": "Tang Hall Primary Academy - PCSA (con_24452)"
+            },
+            {
+              "title": "St Michael's Church of England Academy - Main Works (con_25232)"
+            }
+          ]
+        },
+        {
+          "rank": 20,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 17610292,
+          "pct_of_segment": 0.94
+        }
+      ]
+    },
+    {
+      "segment": "Further Education Oversight",
+      "total": 1059795521,
+      "transactions": 357,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Greater London Authority",
+          "type": "Contractor",
+          "amount": 339023195,
+          "pct_of_segment": 31.99
+        },
+        {
+          "rank": 2,
+          "name": "West Midlands Combined Authority",
+          "type": "Contractor",
+          "amount": 137727430,
+          "pct_of_segment": 13
+        },
+        {
+          "rank": 3,
+          "name": "Greater Manchester Combined Authority",
+          "type": "Contractor",
+          "amount": 99595189,
+          "pct_of_segment": 9.4
+        },
+        {
+          "rank": 4,
+          "name": "West Yorkshire Combined Authority",
+          "type": "Contractor",
+          "amount": 71324694,
+          "pct_of_segment": 6.73
+        },
+        {
+          "rank": 5,
+          "name": "Liverpool City Region Combined Authority",
+          "type": "Contractor",
+          "amount": 56416553,
+          "pct_of_segment": 5.32
+        },
+        {
+          "rank": 6,
+          "name": "North East Combined Authority",
+          "type": "Contractor",
+          "amount": 46205481,
+          "pct_of_segment": 4.36
+        },
+        {
+          "rank": 7,
+          "name": "South Yorkshire Mayoral Combined Authority",
+          "type": "Contractor",
+          "amount": 41320844,
+          "pct_of_segment": 3.9
+        },
+        {
+          "rank": 8,
+          "name": "Tees Valley Combined Authority",
+          "type": "Contractor",
+          "amount": 32954888,
+          "pct_of_segment": 3.11
+        },
+        {
+          "rank": 9,
+          "name": "West Of England Combined Authority",
+          "type": "Contractor",
+          "amount": 15993411,
+          "pct_of_segment": 1.51
+        },
+        {
+          "rank": 10,
+          "name": "Cambridgeshire And Peterborough Combined Authority",
+          "type": "Contractor",
+          "amount": 12898344,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 11,
+          "name": "Newcastle College Group",
+          "type": "Contractor",
+          "amount": 11774687,
+          "pct_of_segment": 1.11
+        },
+        {
+          "rank": 12,
+          "name": "Havant And South Downs College",
+          "type": "Contractor",
+          "amount": 8873111,
+          "pct_of_segment": 0.84
+        },
+        {
+          "rank": 13,
+          "name": "The North Of Tyne Combined Authority",
+          "type": "Contractor",
+          "amount": 8370852,
+          "pct_of_segment": 0.79
+        },
+        {
+          "rank": 14,
+          "name": "City Of Bristol College",
+          "type": "Contractor",
+          "amount": 8032191,
+          "pct_of_segment": 0.76
+        },
+        {
+          "rank": 15,
+          "name": "Riverside College Halton",
+          "type": "Contractor",
+          "amount": 7180881,
+          "pct_of_segment": 0.68
+        },
+        {
+          "rank": 16,
+          "name": "Workers' Educational Association",
+          "type": "Contractor",
+          "amount": 6616240,
+          "pct_of_segment": 0.62
+        },
+        {
+          "rank": 17,
+          "name": "Tec Partnership",
+          "type": "Contractor",
+          "amount": 6034050,
+          "pct_of_segment": 0.57
+        },
+        {
+          "rank": 18,
+          "name": "Wirral Metro College",
+          "type": "Contractor",
+          "amount": 5897628,
+          "pct_of_segment": 0.56
+        },
+        {
+          "rank": 19,
+          "name": "Sandwell College",
+          "type": "Contractor",
+          "amount": 5116773,
+          "pct_of_segment": 0.48
+        },
+        {
+          "rank": 20,
+          "name": "New College Swindon",
+          "type": "Contractor",
+          "amount": 5080279,
+          "pct_of_segment": 0.48
+        }
+      ]
+    },
+    {
+      "segment": "Various",
+      "total": 566292071,
+      "transactions": 12,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Various",
+          "type": "Contractor",
+          "amount": 566292071,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Vulnerable Children Strategy and Educational Engagement",
+      "total": 428508411,
+      "transactions": 781,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 11503449,
+          "pct_of_segment": 2.68
+        },
+        {
+          "rank": 2,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 10178610,
+          "pct_of_segment": 2.38
+        },
+        {
+          "rank": 3,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 9849743,
+          "pct_of_segment": 2.3
+        },
+        {
+          "rank": 4,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 8147547,
+          "pct_of_segment": 1.9
+        },
+        {
+          "rank": 5,
+          "name": "Manchester City Council",
+          "type": "Local Authority",
+          "amount": 7836136,
+          "pct_of_segment": 1.83
+        },
+        {
+          "rank": 6,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 7779605,
+          "pct_of_segment": 1.82
+        },
+        {
+          "rank": 7,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 7490041,
+          "pct_of_segment": 1.75
+        },
+        {
+          "rank": 8,
+          "name": "Family Action",
+          "type": "Contractor",
+          "amount": 7430597,
+          "pct_of_segment": 1.73,
+          "top_contracts": [
+            {
+              "title": "Breakfast Clubs - Awarded Contract"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 7036747,
+          "pct_of_segment": 1.64
+        },
+        {
+          "rank": 10,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 6824986,
+          "pct_of_segment": 1.59
+        },
+        {
+          "rank": 11,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 6529681,
+          "pct_of_segment": 1.52
+        },
+        {
+          "rank": 12,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 6415093,
+          "pct_of_segment": 1.5
+        },
+        {
+          "rank": 13,
+          "name": "Devon County Council",
+          "type": "Local Authority",
+          "amount": 5980227,
+          "pct_of_segment": 1.4
+        },
+        {
+          "rank": 14,
+          "name": "Durham County Council",
+          "type": "Local Authority",
+          "amount": 5755663,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 15,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 5735360,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 16,
+          "name": "Bradford City Council",
+          "type": "Local Authority",
+          "amount": 5663037,
+          "pct_of_segment": 1.32
+        },
+        {
+          "rank": 17,
+          "name": "Staffordshire County Council",
+          "type": "Local Authority",
+          "amount": 5406434,
+          "pct_of_segment": 1.26
+        },
+        {
+          "rank": 18,
+          "name": "West Sussex County Council",
+          "type": "Local Authority",
+          "amount": 5272362,
+          "pct_of_segment": 1.23
+        },
+        {
+          "rank": 19,
+          "name": "Gloucestershire County Council",
+          "type": "Local Authority",
+          "amount": 4865962,
+          "pct_of_segment": 1.14
+        },
+        {
+          "rank": 20,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 4803264,
+          "pct_of_segment": 1.12
+        }
+      ]
+    },
+    {
+      "segment": "Early Years and Families",
+      "total": 366374694,
+      "transactions": 1192,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Hm Revenue And Customs",
+          "type": "Contractor",
+          "amount": 17002926,
+          "pct_of_segment": 4.64
+        },
+        {
+          "rank": 2,
+          "name": "Omd Group Ta Manning Gottlieb Omd Ltd",
+          "type": "Contractor",
+          "amount": 12099799,
+          "pct_of_segment": 3.3
+        },
+        {
+          "rank": 3,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 12003588,
+          "pct_of_segment": 3.28
+        },
+        {
+          "rank": 4,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 9026322,
+          "pct_of_segment": 2.46
+        },
+        {
+          "rank": 5,
+          "name": "Best Practice Network Limited",
+          "type": "Contractor",
+          "amount": 9018068,
+          "pct_of_segment": 2.46
+        },
+        {
+          "rank": 6,
+          "name": "Education Development Trust",
+          "type": "Contractor",
+          "amount": 7660794,
+          "pct_of_segment": 2.09,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - Yorkshire & The Humber"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - North East"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 6431281,
+          "pct_of_segment": 1.76
+        },
+        {
+          "rank": 8,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 5901158,
+          "pct_of_segment": 1.61
+        },
+        {
+          "rank": 9,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 5592297,
+          "pct_of_segment": 1.53
+        },
+        {
+          "rank": 10,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 5532446,
+          "pct_of_segment": 1.51
+        },
+        {
+          "rank": 11,
+          "name": "Sheffield City Council",
+          "type": "Local Authority",
+          "amount": 4760453,
+          "pct_of_segment": 1.3
+        },
+        {
+          "rank": 12,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 4670510,
+          "pct_of_segment": 1.27
+        },
+        {
+          "rank": 13,
+          "name": "Bradford City Council",
+          "type": "Local Authority",
+          "amount": 4532931,
+          "pct_of_segment": 1.24
+        },
+        {
+          "rank": 14,
+          "name": "Durham County Council",
+          "type": "Local Authority",
+          "amount": 4437424,
+          "pct_of_segment": 1.21
+        },
+        {
+          "rank": 15,
+          "name": "Cornwall Council",
+          "type": "Local Authority",
+          "amount": 4057220,
+          "pct_of_segment": 1.11
+        },
+        {
+          "rank": 16,
+          "name": "Bristol City Council",
+          "type": "Local Authority",
+          "amount": 3913135,
+          "pct_of_segment": 1.07
+        },
+        {
+          "rank": 17,
+          "name": "East Sussex County Council",
+          "type": "Local Authority",
+          "amount": 3825507,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 18,
+          "name": "Wakefield City Council",
+          "type": "Local Authority",
+          "amount": 3624812,
+          "pct_of_segment": 0.99
+        },
+        {
+          "rank": 19,
+          "name": "Lewisham London Borough Council",
+          "type": "Local Authority",
+          "amount": 3595252,
+          "pct_of_segment": 0.98
+        },
+        {
+          "rank": 20,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 3531396,
+          "pct_of_segment": 0.96
+        }
+      ]
+    },
+    {
+      "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+      "total": 342113615,
+      "transactions": 2528,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Capita Employee Benefits Ltd",
+          "type": "Outsourcing/IT",
+          "amount": 23174023,
+          "pct_of_segment": 6.77
+        },
+        {
+          "rank": 2,
+          "name": "Ambition Institute",
+          "type": "Contractor",
+          "amount": 18996592,
+          "pct_of_segment": 5.55
+        },
+        {
+          "rank": 3,
+          "name": "School-Led Development Trust",
+          "type": "Contractor",
+          "amount": 14026806,
+          "pct_of_segment": 4.1
+        },
+        {
+          "rank": 4,
+          "name": "Hmrc",
+          "type": "Contractor",
+          "amount": 12746303,
+          "pct_of_segment": 3.73
+        },
+        {
+          "rank": 5,
+          "name": "Teach First",
+          "type": "Contractor",
+          "amount": 10855091,
+          "pct_of_segment": 3.17
+        },
+        {
+          "rank": 6,
+          "name": "Ucl Consultants Limited",
+          "type": "Contractor",
+          "amount": 10266260,
+          "pct_of_segment": 3
+        },
+        {
+          "rank": 7,
+          "name": "Capita Business Services Ltd",
+          "type": "Outsourcing/IT",
+          "amount": 9559918,
+          "pct_of_segment": 2.79
+        },
+        {
+          "rank": 8,
+          "name": "Education Development Trust",
+          "type": "Contractor",
+          "amount": 9004027,
+          "pct_of_segment": 2.63,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - Yorkshire & The Humber"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - North East"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "Ucl Institute Of Education",
+          "type": "Contractor",
+          "amount": 6837960,
+          "pct_of_segment": 2
+        },
+        {
+          "rank": 10,
+          "name": "Best Practice Network Limited",
+          "type": "Contractor",
+          "amount": 5897215,
+          "pct_of_segment": 1.72
+        },
+        {
+          "rank": 11,
+          "name": "The University Of Manchester",
+          "type": "University",
+          "amount": 4029120,
+          "pct_of_segment": 1.18
+        },
+        {
+          "rank": 12,
+          "name": "Sheffield Hallam University",
+          "type": "University",
+          "amount": 3589655,
+          "pct_of_segment": 1.05
+        },
+        {
+          "rank": 13,
+          "name": "Tata Consultancy Services Limited",
+          "type": "Contractor",
+          "amount": 3536500,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 14,
+          "name": "Tes Institute Limited",
+          "type": "Contractor",
+          "amount": 3508873,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 15,
+          "name": "Adroc Limited",
+          "type": "Contractor",
+          "amount": 3481614,
+          "pct_of_segment": 1.02
+        },
+        {
+          "rank": 16,
+          "name": "University Of Worcester",
+          "type": "University",
+          "amount": 3427150,
+          "pct_of_segment": 1
+        },
+        {
+          "rank": 17,
+          "name": "Paddington Academy",
+          "type": "Contractor",
+          "amount": 3240375,
+          "pct_of_segment": 0.95
+        },
+        {
+          "rank": 18,
+          "name": "Birmingham City University",
+          "type": "University",
+          "amount": 2984961,
+          "pct_of_segment": 0.87
+        },
+        {
+          "rank": 19,
+          "name": "University Of Cambridge",
+          "type": "University",
+          "amount": 2972600,
+          "pct_of_segment": 0.87
+        },
+        {
+          "rank": 20,
+          "name": "Edge Hill University",
+          "type": "University",
+          "amount": 2897955,
+          "pct_of_segment": 0.85
+        }
+      ]
+    },
+    {
+      "segment": "Children's Social Care - Strategy and Care System",
+      "total": 330072502,
+      "transactions": 2510,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Cambridge Education",
+          "type": "Contractor",
+          "amount": 53173447,
+          "pct_of_segment": 16.11
+        },
+        {
+          "rank": 2,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 15256562,
+          "pct_of_segment": 4.62
+        },
+        {
+          "rank": 3,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 12515494,
+          "pct_of_segment": 3.79
+        },
+        {
+          "rank": 4,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 8014074,
+          "pct_of_segment": 2.43
+        },
+        {
+          "rank": 5,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 4419543,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 6,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 4322170,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 7,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 4247481,
+          "pct_of_segment": 1.29
+        },
+        {
+          "rank": 8,
+          "name": "Mott Macdonald Limited",
+          "type": "Contractor",
+          "amount": 4213625,
+          "pct_of_segment": 1.28
+        },
+        {
+          "rank": 9,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 3960948,
+          "pct_of_segment": 1.2
+        },
+        {
+          "rank": 10,
+          "name": "Ofsted",
+          "type": "Contractor",
+          "amount": 3849333,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 11,
+          "name": "Manchester City Council",
+          "type": "Local Authority",
+          "amount": 3731454,
+          "pct_of_segment": 1.13
+        },
+        {
+          "rank": 12,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 3689764,
+          "pct_of_segment": 1.12
+        },
+        {
+          "rank": 13,
+          "name": "Croydon London Borough Council",
+          "type": "Local Authority",
+          "amount": 3587297,
+          "pct_of_segment": 1.09
+        },
+        {
+          "rank": 14,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 3585553,
+          "pct_of_segment": 1.09
+        },
+        {
+          "rank": 15,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 3520692,
+          "pct_of_segment": 1.07
+        },
+        {
+          "rank": 16,
+          "name": "Staffordshire County Council",
+          "type": "Local Authority",
+          "amount": 3496732,
+          "pct_of_segment": 1.06
+        },
+        {
+          "rank": 17,
+          "name": "Wiltshire County Council",
+          "type": "Local Authority",
+          "amount": 3483756,
+          "pct_of_segment": 1.06
+        },
+        {
+          "rank": 18,
+          "name": "Bracknell Forest Borough Council",
+          "type": "Local Authority",
+          "amount": 3254357,
+          "pct_of_segment": 0.99
+        },
+        {
+          "rank": 19,
+          "name": "Surrey County Council",
+          "type": "Local Authority",
+          "amount": 3191953,
+          "pct_of_segment": 0.97
+        },
+        {
+          "rank": 20,
+          "name": "Devon County Council",
+          "type": "Local Authority",
+          "amount": 3120258,
+          "pct_of_segment": 0.95
+        }
+      ]
+    },
+    {
+      "segment": "Strategic Finance",
+      "total": 311902935,
+      "transactions": 797,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Warwickshire County Council",
+          "type": "Local Authority",
+          "amount": 11709137,
+          "pct_of_segment": 3.75
+        },
+        {
+          "rank": 2,
+          "name": "Surrey County Council",
+          "type": "Local Authority",
+          "amount": 10987658,
+          "pct_of_segment": 3.52
+        },
+        {
+          "rank": 3,
+          "name": "Devon County Council",
+          "type": "Local Authority",
+          "amount": 10641035,
+          "pct_of_segment": 3.41
+        },
+        {
+          "rank": 4,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 10105533,
+          "pct_of_segment": 3.24
+        },
+        {
+          "rank": 5,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 9958548,
+          "pct_of_segment": 3.19
+        },
+        {
+          "rank": 6,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 8916878,
+          "pct_of_segment": 2.86
+        },
+        {
+          "rank": 7,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 8793259,
+          "pct_of_segment": 2.82
+        },
+        {
+          "rank": 8,
+          "name": "Bedford Borough Council",
+          "type": "Local Authority",
+          "amount": 7525499,
+          "pct_of_segment": 2.41
+        },
+        {
+          "rank": 9,
+          "name": "Wiltshire County Council",
+          "type": "Local Authority",
+          "amount": 7298337,
+          "pct_of_segment": 2.34
+        },
+        {
+          "rank": 10,
+          "name": "Cambridgeshire County Council",
+          "type": "Local Authority",
+          "amount": 7235422,
+          "pct_of_segment": 2.32
+        },
+        {
+          "rank": 11,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 6771504,
+          "pct_of_segment": 2.17
+        },
+        {
+          "rank": 12,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 6658967,
+          "pct_of_segment": 2.13
+        },
+        {
+          "rank": 13,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 6024319,
+          "pct_of_segment": 1.93
+        },
+        {
+          "rank": 14,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 5452595,
+          "pct_of_segment": 1.75
+        },
+        {
+          "rank": 15,
+          "name": "West Sussex County Council",
+          "type": "Local Authority",
+          "amount": 4779548,
+          "pct_of_segment": 1.53
+        },
+        {
+          "rank": 16,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 4598446,
+          "pct_of_segment": 1.47
+        },
+        {
+          "rank": 17,
+          "name": "Staffordshire County Council",
+          "type": "Local Authority",
+          "amount": 4536425,
+          "pct_of_segment": 1.45
+        },
+        {
+          "rank": 18,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 4372502,
+          "pct_of_segment": 1.4
+        },
+        {
+          "rank": 19,
+          "name": "Leicester City Council",
+          "type": "Local Authority",
+          "amount": 4124358,
+          "pct_of_segment": 1.32
+        },
+        {
+          "rank": 20,
+          "name": "Worcestershire County Council",
+          "type": "Local Authority",
+          "amount": 3991226,
+          "pct_of_segment": 1.28
+        }
+      ]
+    },
+    {
+      "segment": "Curriculum and General Qualifications",
+      "total": 276315741,
+      "transactions": 714,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Department For Culture, Media And Sport",
+          "type": "Contractor",
+          "amount": 52763792,
+          "pct_of_segment": 19.1
+        },
+        {
+          "rank": 2,
+          "name": "The Education Endowment Foundation",
+          "type": "Contractor",
+          "amount": 47247196,
+          "pct_of_segment": 17.1
+        },
+        {
+          "rank": 3,
+          "name": "Department For Culture Media And Sport",
+          "type": "Contractor",
+          "amount": 42534922,
+          "pct_of_segment": 15.39
+        },
+        {
+          "rank": 4,
+          "name": "Stem Learning Limited",
+          "type": "Contractor",
+          "amount": 18782342,
+          "pct_of_segment": 6.8
+        },
+        {
+          "rank": 5,
+          "name": "Ucl Consultants Limited",
+          "type": "Contractor",
+          "amount": 11368382,
+          "pct_of_segment": 4.11
+        },
+        {
+          "rank": 6,
+          "name": "Mathematics In Education And Industry",
+          "type": "Contractor",
+          "amount": 8615692,
+          "pct_of_segment": 3.12
+        },
+        {
+          "rank": 7,
+          "name": "Chetham'S School Of Music",
+          "type": "Contractor",
+          "amount": 7417104,
+          "pct_of_segment": 2.68
+        },
+        {
+          "rank": 8,
+          "name": "The Purcell School",
+          "type": "Contractor",
+          "amount": 4028464,
+          "pct_of_segment": 1.46
+        },
+        {
+          "rank": 9,
+          "name": "Royal Ballet School",
+          "type": "Contractor",
+          "amount": 3779739,
+          "pct_of_segment": 1.37
+        },
+        {
+          "rank": 10,
+          "name": "Tribal Education Limited",
+          "type": "Contractor",
+          "amount": 3132571,
+          "pct_of_segment": 1.13
+        },
+        {
+          "rank": 11,
+          "name": "Elmhurst Ballet School Trust",
+          "type": "Contractor",
+          "amount": 2414642,
+          "pct_of_segment": 0.87
+        },
+        {
+          "rank": 12,
+          "name": "The Yehudi Menuhin School",
+          "type": "Contractor",
+          "amount": 2112722,
+          "pct_of_segment": 0.76
+        },
+        {
+          "rank": 13,
+          "name": "Empowering Education International Limited",
+          "type": "Contractor",
+          "amount": 2068054,
+          "pct_of_segment": 0.75
+        },
+        {
+          "rank": 14,
+          "name": "Wells Cathedral School",
+          "type": "Contractor",
+          "amount": 2009144,
+          "pct_of_segment": 0.73
+        },
+        {
+          "rank": 15,
+          "name": "The Holocaust Educational Trust",
+          "type": "Contractor",
+          "amount": 1863260,
+          "pct_of_segment": 0.67
+        },
+        {
+          "rank": 16,
+          "name": "The Hammond School Limited",
+          "type": "Contractor",
+          "amount": 1506170,
+          "pct_of_segment": 0.55
+        },
+        {
+          "rank": 17,
+          "name": "Tring Park School For The Performing Arts",
+          "type": "Contractor",
+          "amount": 1329576,
+          "pct_of_segment": 0.48
+        },
+        {
+          "rank": 18,
+          "name": "Bishop Challoner Catholic College",
+          "type": "Contractor",
+          "amount": 1295202,
+          "pct_of_segment": 0.47
+        },
+        {
+          "rank": 19,
+          "name": "Elmhurst Primary School",
+          "type": "Contractor",
+          "amount": 1188526,
+          "pct_of_segment": 0.43
+        },
+        {
+          "rank": 20,
+          "name": "Cabot Learning Federation",
+          "type": "Contractor",
+          "amount": 990801,
+          "pct_of_segment": 0.36
+        }
+      ]
+    },
+    {
+      "segment": "Regions and Providers",
+      "total": 171011406,
+      "transactions": 523,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Department For Work And Pensions",
+          "type": "Contractor",
+          "amount": 43980149,
+          "pct_of_segment": 25.72
+        },
+        {
+          "rank": 2,
+          "name": "Sparsholt College Hampshire",
+          "type": "Contractor",
+          "amount": 5154755,
+          "pct_of_segment": 3.01
+        },
+        {
+          "rank": 3,
+          "name": "Harlow College",
+          "type": "Contractor",
+          "amount": 4746829,
+          "pct_of_segment": 2.78
+        },
+        {
+          "rank": 4,
+          "name": "Education And Training Foundation",
+          "type": "Contractor",
+          "amount": 4729483,
+          "pct_of_segment": 2.77
+        },
+        {
+          "rank": 5,
+          "name": "Activate Learning",
+          "type": "Contractor",
+          "amount": 4408692,
+          "pct_of_segment": 2.58
+        },
+        {
+          "rank": 6,
+          "name": "Tec Partnership",
+          "type": "Contractor",
+          "amount": 4142123,
+          "pct_of_segment": 2.42
+        },
+        {
+          "rank": 7,
+          "name": "Chichester College Group",
+          "type": "Contractor",
+          "amount": 3930913,
+          "pct_of_segment": 2.3
+        },
+        {
+          "rank": 8,
+          "name": "New City College",
+          "type": "Contractor",
+          "amount": 3885586,
+          "pct_of_segment": 2.27
+        },
+        {
+          "rank": 9,
+          "name": "Suffolk New College",
+          "type": "Contractor",
+          "amount": 3539127,
+          "pct_of_segment": 2.07
+        },
+        {
+          "rank": 10,
+          "name": "Mid Kent College",
+          "type": "Contractor",
+          "amount": 3108312,
+          "pct_of_segment": 1.82
+        },
+        {
+          "rank": 11,
+          "name": "Barnsley College",
+          "type": "Contractor",
+          "amount": 2983397,
+          "pct_of_segment": 1.74
+        },
+        {
+          "rank": 12,
+          "name": "Newham College Of He",
+          "type": "Contractor",
+          "amount": 2715930,
+          "pct_of_segment": 1.59
+        },
+        {
+          "rank": 13,
+          "name": "Weston College",
+          "type": "Contractor",
+          "amount": 2390028,
+          "pct_of_segment": 1.4
+        },
+        {
+          "rank": 14,
+          "name": "Sunderland College",
+          "type": "Contractor",
+          "amount": 2319857,
+          "pct_of_segment": 1.36
+        },
+        {
+          "rank": 15,
+          "name": "Newcastle And Stafford Colleges Group",
+          "type": "Contractor",
+          "amount": 2255223,
+          "pct_of_segment": 1.32
+        },
+        {
+          "rank": 16,
+          "name": "Darlington College",
+          "type": "Contractor",
+          "amount": 2247259,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 17,
+          "name": "Petroc",
+          "type": "Contractor",
+          "amount": 2129105,
+          "pct_of_segment": 1.25
+        },
+        {
+          "rank": 18,
+          "name": "The City Of Liverpool College",
+          "type": "Contractor",
+          "amount": 2093068,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 19,
+          "name": "Blackburn College",
+          "type": "Contractor",
+          "amount": 2089460,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 20,
+          "name": "Bedford College",
+          "type": "Contractor",
+          "amount": 2064271,
+          "pct_of_segment": 1.21
+        }
+      ]
+    },
+    {
+      "segment": "Technical Qualifications and Essential Skills",
+      "total": 169455930,
+      "transactions": 905,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Greater London Authority",
+          "type": "Contractor",
+          "amount": 13882688,
+          "pct_of_segment": 8.19
+        },
+        {
+          "rank": 2,
+          "name": "Education And Training Foundation",
+          "type": "Contractor",
+          "amount": 11515812,
+          "pct_of_segment": 6.8
+        },
+        {
+          "rank": 3,
+          "name": "West Midlands Combined Authority",
+          "type": "Contractor",
+          "amount": 5848999,
+          "pct_of_segment": 3.45
+        },
+        {
+          "rank": 4,
+          "name": "Greater Manchester Combined Authority",
+          "type": "Contractor",
+          "amount": 5017916,
+          "pct_of_segment": 2.96
+        },
+        {
+          "rank": 5,
+          "name": "West Yorkshire Combined Authority",
+          "type": "Contractor",
+          "amount": 4438375,
+          "pct_of_segment": 2.62
+        },
+        {
+          "rank": 6,
+          "name": "Nottingham College",
+          "type": "Contractor",
+          "amount": 3192030,
+          "pct_of_segment": 1.88
+        },
+        {
+          "rank": 7,
+          "name": "Liverpool City Region Combined Authority",
+          "type": "Contractor",
+          "amount": 2921579,
+          "pct_of_segment": 1.72
+        },
+        {
+          "rank": 8,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 2602793,
+          "pct_of_segment": 1.54
+        },
+        {
+          "rank": 9,
+          "name": "South Yorkshire Mayoral Combined Authority",
+          "type": "Contractor",
+          "amount": 2531267,
+          "pct_of_segment": 1.49
+        },
+        {
+          "rank": 10,
+          "name": "Newcastle College Group",
+          "type": "Contractor",
+          "amount": 2415526,
+          "pct_of_segment": 1.43
+        },
+        {
+          "rank": 11,
+          "name": "M I T Skills Limited",
+          "type": "Contractor",
+          "amount": 2307000,
+          "pct_of_segment": 1.36
+        },
+        {
+          "rank": 12,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 2062312,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 13,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 1933959,
+          "pct_of_segment": 1.14
+        },
+        {
+          "rank": 14,
+          "name": "Association Of Colleges",
+          "type": "Contractor",
+          "amount": 1799100,
+          "pct_of_segment": 1.06
+        },
+        {
+          "rank": 15,
+          "name": "The Wkcic Group T/A Capitol City College Group",
+          "type": "Contractor",
+          "amount": 1684980,
+          "pct_of_segment": 0.99
+        },
+        {
+          "rank": 16,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 1628865,
+          "pct_of_segment": 0.96
+        },
+        {
+          "rank": 17,
+          "name": "West Of England Combined Authority",
+          "type": "Contractor",
+          "amount": 1550828,
+          "pct_of_segment": 0.92
+        },
+        {
+          "rank": 18,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 1484398,
+          "pct_of_segment": 0.88
+        },
+        {
+          "rank": 19,
+          "name": "South Staffordshire College",
+          "type": "Contractor",
+          "amount": 1478100,
+          "pct_of_segment": 0.87
+        },
+        {
+          "rank": 20,
+          "name": "The North Of Tyne Combined Authority",
+          "type": "Contractor",
+          "amount": 1440212,
+          "pct_of_segment": 0.85
+        }
+      ]
+    },
+    {
+      "segment": "Children's Social Care - Help, Protection and Social Work",
+      "total": 140584016,
+      "transactions": 621,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Greater Manchester Combined Authority",
+          "type": "Contractor",
+          "amount": 18784333,
+          "pct_of_segment": 13.36
+        },
+        {
+          "rank": 2,
+          "name": "The Frontline Organisation",
+          "type": "Contractor",
+          "amount": 13149715,
+          "pct_of_segment": 9.35,
+          "top_contracts": [
+            {
+              "title": "The National Fast Track Child and Family Social Work Training Programme"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Warwickshire County Council",
+          "type": "Local Authority",
+          "amount": 4020000,
+          "pct_of_segment": 2.86
+        },
+        {
+          "rank": 4,
+          "name": "Dorset Council",
+          "type": "Local Authority",
+          "amount": 3420193,
+          "pct_of_segment": 2.43
+        },
+        {
+          "rank": 5,
+          "name": "Foundations - What Works Centre For Children And Families",
+          "type": "Contractor",
+          "amount": 3409269,
+          "pct_of_segment": 2.43
+        },
+        {
+          "rank": 6,
+          "name": "Wirral Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 3383434,
+          "pct_of_segment": 2.41
+        },
+        {
+          "rank": 7,
+          "name": "Birmingham City Council",
+          "type": "Local Authority",
+          "amount": 3357600,
+          "pct_of_segment": 2.39
+        },
+        {
+          "rank": 8,
+          "name": "Lewisham London Borough Council",
+          "type": "Local Authority",
+          "amount": 3260000,
+          "pct_of_segment": 2.32
+        },
+        {
+          "rank": 9,
+          "name": "Wolverhampton City Council",
+          "type": "Local Authority",
+          "amount": 3249999,
+          "pct_of_segment": 2.31
+        },
+        {
+          "rank": 10,
+          "name": "Skills For Care Ltd",
+          "type": "Contractor",
+          "amount": 2986378,
+          "pct_of_segment": 2.12
+        },
+        {
+          "rank": 11,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 2585367,
+          "pct_of_segment": 1.84
+        },
+        {
+          "rank": 12,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 2490458,
+          "pct_of_segment": 1.77
+        },
+        {
+          "rank": 13,
+          "name": "Luton Borough Council",
+          "type": "Local Authority",
+          "amount": 2430000,
+          "pct_of_segment": 1.73
+        },
+        {
+          "rank": 14,
+          "name": "Redbridge London Borough Council",
+          "type": "Local Authority",
+          "amount": 2430000,
+          "pct_of_segment": 1.73
+        },
+        {
+          "rank": 15,
+          "name": "Walsall Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 2170000,
+          "pct_of_segment": 1.54
+        },
+        {
+          "rank": 16,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 1661465,
+          "pct_of_segment": 1.18
+        },
+        {
+          "rank": 17,
+          "name": "Warrington Borough Council",
+          "type": "Local Authority",
+          "amount": 1600000,
+          "pct_of_segment": 1.14
+        },
+        {
+          "rank": 18,
+          "name": "Bradford City Council",
+          "type": "Local Authority",
+          "amount": 1502400,
+          "pct_of_segment": 1.07
+        },
+        {
+          "rank": 19,
+          "name": "Stoke On Trent City Council",
+          "type": "Local Authority",
+          "amount": 1439884,
+          "pct_of_segment": 1.02
+        },
+        {
+          "rank": 20,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 1400000,
+          "pct_of_segment": 1
+        }
+      ]
+    },
+    {
+      "segment": "SEND and Alternative Provision",
+      "total": 135465355,
+      "transactions": 302,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Family Fund Trust",
+          "type": "Contractor",
+          "amount": 23895278,
+          "pct_of_segment": 17.64
+        },
+        {
+          "rank": 2,
+          "name": "Hmcts Hm Courts And Tribunals Service",
+          "type": "Contractor",
+          "amount": 13414459,
+          "pct_of_segment": 9.9
+        },
+        {
+          "rank": 3,
+          "name": "The University Of Manchester",
+          "type": "University",
+          "amount": 8028757,
+          "pct_of_segment": 5.93
+        },
+        {
+          "rank": 4,
+          "name": "Family Fund Trust",
+          "type": "Contractor",
+          "amount": 7742067,
+          "pct_of_segment": 5.72
+        },
+        {
+          "rank": 5,
+          "name": "The National Development Team For Inclusion",
+          "type": "Contractor",
+          "amount": 7679063,
+          "pct_of_segment": 5.67
+        },
+        {
+          "rank": 6,
+          "name": "Pa Consulting Services Limited",
+          "type": "Contractor",
+          "amount": 5836235,
+          "pct_of_segment": 4.31
+        },
+        {
+          "rank": 7,
+          "name": "Contact",
+          "type": "Contractor",
+          "amount": 5806711,
+          "pct_of_segment": 4.29
+        },
+        {
+          "rank": 8,
+          "name": "University College London",
+          "type": "University",
+          "amount": 4652018,
+          "pct_of_segment": 3.43,
+          "top_contracts": [
+            {
+              "title": "Educational Psychologist Training"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "Wakefield City Council",
+          "type": "Local Authority",
+          "amount": 4032234,
+          "pct_of_segment": 2.98
+        },
+        {
+          "rank": 10,
+          "name": "Manchester City Council",
+          "type": "Local Authority",
+          "amount": 3992523,
+          "pct_of_segment": 2.95
+        },
+        {
+          "rank": 11,
+          "name": "Portsmouth City Council",
+          "type": "Local Authority",
+          "amount": 3856038,
+          "pct_of_segment": 2.85
+        },
+        {
+          "rank": 12,
+          "name": "Hartlepool Borough Council",
+          "type": "Local Authority",
+          "amount": 3709637,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 13,
+          "name": "Rutland County Council",
+          "type": "Local Authority",
+          "amount": 3709637,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 14,
+          "name": "Telford And Wrekin Council",
+          "type": "Local Authority",
+          "amount": 3709637,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 15,
+          "name": "Gloucestershire County Council",
+          "type": "Local Authority",
+          "amount": 3709637,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 16,
+          "name": "Bedford Borough Council",
+          "type": "Local Authority",
+          "amount": 3709637,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 17,
+          "name": "Barnet London Borough Council",
+          "type": "Local Authority",
+          "amount": 3709637,
+          "pct_of_segment": 2.74
+        },
+        {
+          "rank": 18,
+          "name": "Nasen",
+          "type": "Contractor",
+          "amount": 3222567,
+          "pct_of_segment": 2.38
+        },
+        {
+          "rank": 19,
+          "name": "Core And Co Foundation",
+          "type": "Contractor",
+          "amount": 1640000,
+          "pct_of_segment": 1.21
+        },
+        {
+          "rank": 20,
+          "name": "Exceed Academies Trust",
+          "type": "Contractor",
+          "amount": 1254563,
+          "pct_of_segment": 0.93
+        }
+      ]
+    },
+    {
+      "segment": "Strategic Policy Directorate",
+      "total": 118597350,
+      "transactions": 523,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Capita Business Services Ltd - Turing",
+          "type": "Outsourcing/IT",
+          "amount": 56404504,
+          "pct_of_segment": 47.56
+        },
+        {
+          "rank": 2,
+          "name": "Royal Horticultural Society",
+          "type": "Contractor",
+          "amount": 5041557,
+          "pct_of_segment": 4.25
+        },
+        {
+          "rank": 3,
+          "name": "British Council",
+          "type": "Local Authority",
+          "amount": 2964662,
+          "pct_of_segment": 2.5
+        },
+        {
+          "rank": 4,
+          "name": "British Council(The)",
+          "type": "Local Authority",
+          "amount": 2173527,
+          "pct_of_segment": 1.83
+        },
+        {
+          "rank": 5,
+          "name": "Capita Business Services Ltd",
+          "type": "Outsourcing/IT",
+          "amount": 1899352,
+          "pct_of_segment": 1.6
+        },
+        {
+          "rank": 6,
+          "name": "Us Uk Fulbright Educational Commission",
+          "type": "Contractor",
+          "amount": 1814789,
+          "pct_of_segment": 1.53
+        },
+        {
+          "rank": 7,
+          "name": "University Of Leeds",
+          "type": "University",
+          "amount": 1586406,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 8,
+          "name": "The Natural History Museum Trading Company Limited",
+          "type": "Contractor",
+          "amount": 1218884,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 9,
+          "name": "University Of Reading",
+          "type": "University",
+          "amount": 1153165,
+          "pct_of_segment": 0.97
+        },
+        {
+          "rank": 10,
+          "name": "Tpximpact Limited",
+          "type": "Contractor",
+          "amount": 1002253,
+          "pct_of_segment": 0.85
+        },
+        {
+          "rank": 11,
+          "name": "Kingston University Higher Education Corporation",
+          "type": "University",
+          "amount": 969994,
+          "pct_of_segment": 0.82
+        },
+        {
+          "rank": 12,
+          "name": "University Of Newcastle Upon Tyne",
+          "type": "University",
+          "amount": 892304,
+          "pct_of_segment": 0.75
+        },
+        {
+          "rank": 13,
+          "name": "University Of Birmingham",
+          "type": "University",
+          "amount": 878803,
+          "pct_of_segment": 0.74
+        },
+        {
+          "rank": 14,
+          "name": "Coventry University",
+          "type": "University",
+          "amount": 821229,
+          "pct_of_segment": 0.69
+        },
+        {
+          "rank": 15,
+          "name": "Ecorys Uk Limited",
+          "type": "Contractor",
+          "amount": 798931,
+          "pct_of_segment": 0.67
+        },
+        {
+          "rank": 16,
+          "name": "University Of Bristol",
+          "type": "University",
+          "amount": 670580,
+          "pct_of_segment": 0.57
+        },
+        {
+          "rank": 17,
+          "name": "University Of Leicester",
+          "type": "University",
+          "amount": 637631,
+          "pct_of_segment": 0.54
+        },
+        {
+          "rank": 18,
+          "name": "Association Of Commonwealth Universities",
+          "type": "University",
+          "amount": 617628,
+          "pct_of_segment": 0.52
+        },
+        {
+          "rank": 19,
+          "name": "The University Of Westminster",
+          "type": "University",
+          "amount": 593250,
+          "pct_of_segment": 0.5
+        },
+        {
+          "rank": 20,
+          "name": "The University Of Manchester",
+          "type": "University",
+          "amount": 560317,
+          "pct_of_segment": 0.47
+        }
+      ]
+    },
+    {
+      "segment": "Skills Journey",
+      "total": 116037250,
+      "transactions": 602,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Careers And Enterprise Company Ltd",
+          "type": "Contractor",
+          "amount": 33978410,
+          "pct_of_segment": 29.28
+        },
+        {
+          "rank": 2,
+          "name": "Prospects Services",
+          "type": "Contractor",
+          "amount": 14561500,
+          "pct_of_segment": 12.55,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - West Midlands"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - London"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Jisc",
+          "type": "Contractor",
+          "amount": 13991004,
+          "pct_of_segment": 12.06
+        },
+        {
+          "rank": 4,
+          "name": "Education Development Trust",
+          "type": "Contractor",
+          "amount": 9338601,
+          "pct_of_segment": 8.05,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - Yorkshire & The Humber"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - North East"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Omd Group Ta Manning Gottlieb Omd Ltd",
+          "type": "Contractor",
+          "amount": 8387573,
+          "pct_of_segment": 7.23
+        },
+        {
+          "rank": 6,
+          "name": "Seetec Business Technology Centre Limited",
+          "type": "Contractor",
+          "amount": 7991114,
+          "pct_of_segment": 6.89,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - South West"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - North West"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "name": "Find A Future T/A Worldskills Uk",
+          "type": "Contractor",
+          "amount": 7071703,
+          "pct_of_segment": 6.09
+        },
+        {
+          "rank": 8,
+          "name": "Cxk Limited",
+          "type": "Contractor",
+          "amount": 3936126,
+          "pct_of_segment": 3.39,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - South East"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "Futures Advice Skills And Employment Ltd",
+          "type": "Contractor",
+          "amount": 3756073,
+          "pct_of_segment": 3.24,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - East of England"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - East Midlands"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "name": "Netcompany Uk Limited",
+          "type": "Contractor",
+          "amount": 3661474,
+          "pct_of_segment": 3.16
+        },
+        {
+          "rank": 11,
+          "name": "Futures Advice, Skills And Employment Limited",
+          "type": "Contractor",
+          "amount": 2870044,
+          "pct_of_segment": 2.47
+        },
+        {
+          "rank": 12,
+          "name": "Methods Business And Digital Technology Limited",
+          "type": "Contractor",
+          "amount": 2858325,
+          "pct_of_segment": 2.46
+        },
+        {
+          "rank": 13,
+          "name": "Bae Systems Applied Intelligence Limited",
+          "type": "Defence Contractor",
+          "amount": 836960,
+          "pct_of_segment": 0.72
+        },
+        {
+          "rank": 14,
+          "name": "Ipsos (Market Research) Ltd",
+          "type": "Contractor",
+          "amount": 682284,
+          "pct_of_segment": 0.59
+        },
+        {
+          "rank": 15,
+          "name": "Mandc Saatchi (Uk) Limited",
+          "type": "Contractor",
+          "amount": 572081,
+          "pct_of_segment": 0.49
+        },
+        {
+          "rank": 16,
+          "name": "Tribal Education Limited",
+          "type": "Contractor",
+          "amount": 486300,
+          "pct_of_segment": 0.42
+        },
+        {
+          "rank": 17,
+          "name": "Ofsted",
+          "type": "Contractor",
+          "amount": 180907,
+          "pct_of_segment": 0.16
+        },
+        {
+          "rank": 18,
+          "name": "Access Uk Ltd",
+          "type": "Contractor",
+          "amount": 164070,
+          "pct_of_segment": 0.14
+        },
+        {
+          "rank": 19,
+          "name": "Disability Rights Uk",
+          "type": "Contractor",
+          "amount": 150000,
+          "pct_of_segment": 0.13
+        },
+        {
+          "rank": 20,
+          "name": "B L Training Limited",
+          "type": "Contractor",
+          "amount": 117700,
+          "pct_of_segment": 0.1
+        }
+      ]
+    },
+    {
+      "segment": "Regional Directorate",
+      "total": 110347339,
+      "transactions": 1095,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Newton Europe Limited",
+          "type": "Contractor",
+          "amount": 4068304,
+          "pct_of_segment": 3.69
+        },
+        {
+          "rank": 2,
+          "name": "Ofsted",
+          "type": "Contractor",
+          "amount": 2862000,
+          "pct_of_segment": 2.59
+        },
+        {
+          "rank": 3,
+          "name": "Stockport Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 2610004,
+          "pct_of_segment": 2.37
+        },
+        {
+          "rank": 4,
+          "name": "North East Lincolnshire Council",
+          "type": "Local Authority",
+          "amount": 2531186,
+          "pct_of_segment": 2.29
+        },
+        {
+          "rank": 5,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 1872226,
+          "pct_of_segment": 1.7
+        },
+        {
+          "rank": 6,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 1629924,
+          "pct_of_segment": 1.48
+        },
+        {
+          "rank": 7,
+          "name": "Local Government Association",
+          "type": "Contractor",
+          "amount": 1574113,
+          "pct_of_segment": 1.43
+        },
+        {
+          "rank": 8,
+          "name": "Middlesbrough Council",
+          "type": "Local Authority",
+          "amount": 1441672,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 9,
+          "name": "North Yorkshire County Council",
+          "type": "Local Authority",
+          "amount": 1406451,
+          "pct_of_segment": 1.27
+        },
+        {
+          "rank": 10,
+          "name": "Islington London Borough Council",
+          "type": "Local Authority",
+          "amount": 1359462,
+          "pct_of_segment": 1.23
+        },
+        {
+          "rank": 11,
+          "name": "Durham County Council",
+          "type": "Local Authority",
+          "amount": 1195406,
+          "pct_of_segment": 1.08
+        },
+        {
+          "rank": 12,
+          "name": "Knowsley Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 1173878,
+          "pct_of_segment": 1.06
+        },
+        {
+          "rank": 13,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 1149970,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 14,
+          "name": "Rochdale Borough Council",
+          "type": "Local Authority",
+          "amount": 1148499,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 15,
+          "name": "Halton Borough Council",
+          "type": "Local Authority",
+          "amount": 1132004,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 16,
+          "name": "Blackpool Borough Council",
+          "type": "Local Authority",
+          "amount": 1103533,
+          "pct_of_segment": 1
+        },
+        {
+          "rank": 17,
+          "name": "South Tyneside Council",
+          "type": "Local Authority",
+          "amount": 1056055,
+          "pct_of_segment": 0.96
+        },
+        {
+          "rank": 18,
+          "name": "Oldham Metropolitan Borough Council",
+          "type": "Local Authority",
+          "amount": 1054003,
+          "pct_of_segment": 0.96
+        },
+        {
+          "rank": 19,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 1042097,
+          "pct_of_segment": 0.94
+        },
+        {
+          "rank": 20,
+          "name": "Liverpool City Council",
+          "type": "Local Authority",
+          "amount": 1022355,
+          "pct_of_segment": 0.93
+        }
+      ]
+    },
+    {
+      "segment": "Teaching Workforce: Candidates, Trainees, Strategy, Portfolio and Analysis Directorate (CaTSPA)",
+      "total": 77176309,
+      "transactions": 728,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Teach First",
+          "type": "Contractor",
+          "amount": 21098201,
+          "pct_of_segment": 27.34
+        },
+        {
+          "rank": 2,
+          "name": "Omd Group Ta Manning Gottlieb Omd Ltd",
+          "type": "Contractor",
+          "amount": 11973377,
+          "pct_of_segment": 15.51
+        },
+        {
+          "rank": 3,
+          "name": "Teleperformance Limited",
+          "type": "Contractor",
+          "amount": 7415103,
+          "pct_of_segment": 9.61,
+          "top_contracts": [
+            {
+              "title": "Get into Teaching Information Service"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Tecknuovo Ltd",
+          "type": "Contractor",
+          "amount": 4166748,
+          "pct_of_segment": 5.4
+        },
+        {
+          "rank": 5,
+          "name": "Ofsted",
+          "type": "Contractor",
+          "amount": 4081000,
+          "pct_of_segment": 5.29
+        },
+        {
+          "rank": 6,
+          "name": "Tes Institute Limited",
+          "type": "Contractor",
+          "amount": 3013330,
+          "pct_of_segment": 3.9
+        },
+        {
+          "rank": 7,
+          "name": "Adroc Limited",
+          "type": "Contractor",
+          "amount": 2655126,
+          "pct_of_segment": 3.44
+        },
+        {
+          "rank": 8,
+          "name": "St Mary And St Pauls Ce Primary School Ts Account",
+          "type": "Contractor",
+          "amount": 2484912,
+          "pct_of_segment": 3.22
+        },
+        {
+          "rank": 9,
+          "name": "I10 Limited",
+          "type": "Contractor",
+          "amount": 1936967,
+          "pct_of_segment": 2.51
+        },
+        {
+          "rank": 10,
+          "name": "Farsight Consulting Limited",
+          "type": "Contractor",
+          "amount": 1788959,
+          "pct_of_segment": 2.32
+        },
+        {
+          "rank": 11,
+          "name": "Bam Agency Ltd",
+          "type": "Contractor",
+          "amount": 1443062,
+          "pct_of_segment": 1.87
+        },
+        {
+          "rank": 12,
+          "name": "Kin And Carta Uk Limited",
+          "type": "Contractor",
+          "amount": 1277451,
+          "pct_of_segment": 1.66
+        },
+        {
+          "rank": 13,
+          "name": "Now Teach",
+          "type": "Contractor",
+          "amount": 1277233,
+          "pct_of_segment": 1.65
+        },
+        {
+          "rank": 14,
+          "name": "Leicestershire Secondary Scitt",
+          "type": "Contractor",
+          "amount": 1242863,
+          "pct_of_segment": 1.61
+        },
+        {
+          "rank": 15,
+          "name": "Yorkshire And Humber Teacher Training",
+          "type": "Contractor",
+          "amount": 1084275,
+          "pct_of_segment": 1.4
+        },
+        {
+          "rank": 16,
+          "name": "Hmrc",
+          "type": "Contractor",
+          "amount": 1048564,
+          "pct_of_segment": 1.36
+        },
+        {
+          "rank": 17,
+          "name": "Tpximpact Limited",
+          "type": "Contractor",
+          "amount": 1034720,
+          "pct_of_segment": 1.34
+        },
+        {
+          "rank": 18,
+          "name": "Blackberry Productions Ltd",
+          "type": "Contractor",
+          "amount": 962676,
+          "pct_of_segment": 1.25
+        },
+        {
+          "rank": 19,
+          "name": "University Of Sussex",
+          "type": "University",
+          "amount": 686384,
+          "pct_of_segment": 0.89
+        },
+        {
+          "rank": 20,
+          "name": "Education Development Trust",
+          "type": "Contractor",
+          "amount": 592606,
+          "pct_of_segment": 0.77,
+          "top_contracts": [
+            {
+              "title": "National Careers Service - Community Based Service - Yorkshire & The Humber"
+            },
+            {
+              "title": "National Careers Service - Community Based Service - North East"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "Finance and Commercial Group",
+      "total": 70243527,
+      "transactions": 733,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "N/A - Risk Protection Arrangement (Rpa) Member",
+          "type": "Contractor",
+          "amount": 70243527,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Estates",
+      "total": 63361791,
+      "transactions": 294,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Government Property Agency",
+          "type": "Contractor",
+          "amount": 33077509,
+          "pct_of_segment": 52.2
+        },
+        {
+          "rank": 2,
+          "name": "Willmott Dixon Construction Limited",
+          "type": "Contractor",
+          "amount": 26155008,
+          "pct_of_segment": 41.28,
+          "top_contracts": [
+            {
+              "title": "Oxlow Bridge School - Main Works (con_25331)"
+            },
+            {
+              "title": "Wigan & Leigh College - PCSA (con_25378)"
+            },
+            {
+              "title": "Surrey Maths School - Main Works (con_25981)"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Arcadis Llp",
+          "type": "Contractor",
+          "amount": 2740359,
+          "pct_of_segment": 4.32
+        },
+        {
+          "rank": 4,
+          "name": "Wagstaff Bros.,Limited",
+          "type": "Contractor",
+          "amount": 434842,
+          "pct_of_segment": 0.69
+        },
+        {
+          "rank": 5,
+          "name": "Isg Construction Limited",
+          "type": "Contractor",
+          "amount": 401041,
+          "pct_of_segment": 0.63,
+          "top_contracts": [
+            {
+              "title": "Hempland Primary School - Main Works (JCT D&B Contract) (con_25177)"
+            },
+            {
+              "title": "Tang Hall Primary Academy - PCSA (con_24452)"
+            },
+            {
+              "title": "St Michael's Church of England Academy - Main Works (con_25232)"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "name": "Mace Limited",
+          "type": "Contractor",
+          "amount": 253604,
+          "pct_of_segment": 0.4
+        },
+        {
+          "rank": 7,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 201377,
+          "pct_of_segment": 0.32
+        },
+        {
+          "rank": 8,
+          "name": "Whitehall Tv Services Ltd",
+          "type": "Contractor",
+          "amount": 52800,
+          "pct_of_segment": 0.08
+        },
+        {
+          "rank": 9,
+          "name": "Home Office",
+          "type": "Contractor",
+          "amount": 45251,
+          "pct_of_segment": 0.07
+        }
+      ]
+    },
+    {
+      "segment": "ESFA Corporate, Assurance and Restructuring Directorate",
+      "total": 61728263,
+      "transactions": 75,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Leeds City College (Luminate Education Group)",
+          "type": "Contractor",
+          "amount": 13773491,
+          "pct_of_segment": 22.31
+        },
+        {
+          "rank": 2,
+          "name": "Womble Bond Dickinson (Uk) Llp (Client Account)",
+          "type": "Contractor",
+          "amount": 9148816,
+          "pct_of_segment": 14.82
+        },
+        {
+          "rank": 3,
+          "name": "Lte Group",
+          "type": "Contractor",
+          "amount": 9006447,
+          "pct_of_segment": 14.59
+        },
+        {
+          "rank": 4,
+          "name": "Tlt Llp",
+          "type": "Contractor",
+          "amount": 6000000,
+          "pct_of_segment": 9.72
+        },
+        {
+          "rank": 5,
+          "name": "Nelson And Colne College",
+          "type": "Contractor",
+          "amount": 4838330,
+          "pct_of_segment": 7.84
+        },
+        {
+          "rank": 6,
+          "name": "Petroc",
+          "type": "Contractor",
+          "amount": 3467689,
+          "pct_of_segment": 5.62
+        },
+        {
+          "rank": 7,
+          "name": "Exeter College",
+          "type": "Contractor",
+          "amount": 2256239,
+          "pct_of_segment": 3.66
+        },
+        {
+          "rank": 8,
+          "name": "Dwf Law Llp",
+          "type": "Contractor",
+          "amount": 2095095,
+          "pct_of_segment": 3.39
+        },
+        {
+          "rank": 9,
+          "name": "Peterborough Regional College (Inspire Education Group)",
+          "type": "Contractor",
+          "amount": 1865847,
+          "pct_of_segment": 3.02
+        },
+        {
+          "rank": 10,
+          "name": "South Staffordshire College",
+          "type": "Contractor",
+          "amount": 1500000,
+          "pct_of_segment": 2.43
+        },
+        {
+          "rank": 11,
+          "name": "Southend On Sea Borough Council",
+          "type": "Local Authority",
+          "amount": 1500000,
+          "pct_of_segment": 2.43
+        },
+        {
+          "rank": 12,
+          "name": "Plumpton College",
+          "type": "Contractor",
+          "amount": 1133619,
+          "pct_of_segment": 1.84
+        },
+        {
+          "rank": 13,
+          "name": "Burges Salmon Llp",
+          "type": "Contractor",
+          "amount": 1039701,
+          "pct_of_segment": 1.68
+        },
+        {
+          "rank": 14,
+          "name": "Dentons Uk And Middle East Llp (Escrow)",
+          "type": "Contractor",
+          "amount": 954904,
+          "pct_of_segment": 1.55
+        },
+        {
+          "rank": 15,
+          "name": "Mills And Reeve Llp Client Account",
+          "type": "Contractor",
+          "amount": 843750,
+          "pct_of_segment": 1.37
+        },
+        {
+          "rank": 16,
+          "name": "Franklin College",
+          "type": "Contractor",
+          "amount": 534188,
+          "pct_of_segment": 0.87
+        },
+        {
+          "rank": 17,
+          "name": "The Education Training Collective",
+          "type": "Contractor",
+          "amount": 371415,
+          "pct_of_segment": 0.6
+        },
+        {
+          "rank": 18,
+          "name": "Kpmg Llp",
+          "type": "Consultancy",
+          "amount": 294226,
+          "pct_of_segment": 0.48
+        },
+        {
+          "rank": 19,
+          "name": "Morgan Sindall Construction And Infrastructure Ltd",
+          "type": "Contractor",
+          "amount": 223484,
+          "pct_of_segment": 0.36,
+          "top_contracts": [
+            {
+              "title": "Cambridge Mathematics School - PCSA (con_24892)"
+            },
+            {
+              "title": "Star Radcliffe Academy - Temp Works - EWI 1 (con_24658)"
+            },
+            {
+              "title": "Star Radcliffe - Main Works - EWI 1 (con_24659)"
+            }
+          ]
+        },
+        {
+          "rank": 20,
+          "name": "Bdo Llp",
+          "type": "Contractor",
+          "amount": 199581,
+          "pct_of_segment": 0.32
+        }
+      ]
+    },
+    {
+      "segment": "School Analysis, System and Strategy Directorate",
+      "total": 54796897,
+      "transactions": 249,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 3544600,
+          "pct_of_segment": 6.47
+        },
+        {
+          "rank": 2,
+          "name": "Durham County Council",
+          "type": "Local Authority",
+          "amount": 2365700,
+          "pct_of_segment": 4.32
+        },
+        {
+          "rank": 3,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 2018800,
+          "pct_of_segment": 3.68
+        },
+        {
+          "rank": 4,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 1927100,
+          "pct_of_segment": 3.52
+        },
+        {
+          "rank": 5,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 1762300,
+          "pct_of_segment": 3.22
+        },
+        {
+          "rank": 6,
+          "name": "Norfolk County Council",
+          "type": "Local Authority",
+          "amount": 1745000,
+          "pct_of_segment": 3.18
+        },
+        {
+          "rank": 7,
+          "name": "Cornwall Council",
+          "type": "Local Authority",
+          "amount": 1739700,
+          "pct_of_segment": 3.17
+        },
+        {
+          "rank": 8,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 1653300,
+          "pct_of_segment": 3.02
+        },
+        {
+          "rank": 9,
+          "name": "Suffolk County Council",
+          "type": "Local Authority",
+          "amount": 1480600,
+          "pct_of_segment": 2.7
+        },
+        {
+          "rank": 10,
+          "name": "Cambridgeshire County Council",
+          "type": "Local Authority",
+          "amount": 1394200,
+          "pct_of_segment": 2.54
+        },
+        {
+          "rank": 11,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 1335700,
+          "pct_of_segment": 2.44
+        },
+        {
+          "rank": 12,
+          "name": "Devon County Council",
+          "type": "Local Authority",
+          "amount": 1198800,
+          "pct_of_segment": 2.19
+        },
+        {
+          "rank": 13,
+          "name": "Somerset Council",
+          "type": "Local Authority",
+          "amount": 1166900,
+          "pct_of_segment": 2.13
+        },
+        {
+          "rank": 14,
+          "name": "The National Society",
+          "type": "Contractor",
+          "amount": 1160075,
+          "pct_of_segment": 2.12
+        },
+        {
+          "rank": 15,
+          "name": "Nottinghamshire County Council",
+          "type": "Local Authority",
+          "amount": 1147000,
+          "pct_of_segment": 2.09
+        },
+        {
+          "rank": 16,
+          "name": "Leicestershire County Council",
+          "type": "Local Authority",
+          "amount": 1117700,
+          "pct_of_segment": 2.04
+        },
+        {
+          "rank": 17,
+          "name": "Gloucestershire County Council",
+          "type": "Local Authority",
+          "amount": 1022000,
+          "pct_of_segment": 1.87
+        },
+        {
+          "rank": 18,
+          "name": "Dorset Council",
+          "type": "Local Authority",
+          "amount": 1015400,
+          "pct_of_segment": 1.85
+        },
+        {
+          "rank": 19,
+          "name": "Oxfordshire County Council",
+          "type": "Local Authority",
+          "amount": 984800,
+          "pct_of_segment": 1.8
+        },
+        {
+          "rank": 20,
+          "name": "East Sussex County Council",
+          "type": "Local Authority",
+          "amount": 982200,
+          "pct_of_segment": 1.79
+        }
+      ]
+    },
+    {
+      "segment": "National Directorate",
+      "total": 50754527,
+      "transactions": 416,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Dextrous Web Ltd T/A Dxw",
+          "type": "Contractor",
+          "amount": 5293982,
+          "pct_of_segment": 10.43
+        },
+        {
+          "rank": 2,
+          "name": "Cabot Learning Federation",
+          "type": "Contractor",
+          "amount": 932188,
+          "pct_of_segment": 1.84
+        },
+        {
+          "rank": 3,
+          "name": "The Bath And Wells Diocesan Academies Trust",
+          "type": "Contractor",
+          "amount": 724773,
+          "pct_of_segment": 1.43
+        },
+        {
+          "rank": 4,
+          "name": "Northern Star Academies Trust",
+          "type": "Contractor",
+          "amount": 676660,
+          "pct_of_segment": 1.33
+        },
+        {
+          "rank": 5,
+          "name": "United Learning Trust",
+          "type": "Contractor",
+          "amount": 631684,
+          "pct_of_segment": 1.24
+        },
+        {
+          "rank": 6,
+          "name": "Star Academies",
+          "type": "Contractor",
+          "amount": 620000,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 7,
+          "name": "Learning Academies Trust",
+          "type": "Contractor",
+          "amount": 600023,
+          "pct_of_segment": 1.18
+        },
+        {
+          "rank": 8,
+          "name": "Leigh Academies Trust",
+          "type": "Contractor",
+          "amount": 582825,
+          "pct_of_segment": 1.15
+        },
+        {
+          "rank": 9,
+          "name": "The Academy For Character And Excellence",
+          "type": "Contractor",
+          "amount": 579988,
+          "pct_of_segment": 1.14
+        },
+        {
+          "rank": 10,
+          "name": "South East Essex Academy Trust",
+          "type": "Contractor",
+          "amount": 565620,
+          "pct_of_segment": 1.11
+        },
+        {
+          "rank": 11,
+          "name": "Blackdown Education Partnership",
+          "type": "Contractor",
+          "amount": 527064,
+          "pct_of_segment": 1.04
+        },
+        {
+          "rank": 12,
+          "name": "St Joseph Catholic Multi Academy Trust",
+          "type": "Contractor",
+          "amount": 521826,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 13,
+          "name": "The Oak Partnership Trust",
+          "type": "Contractor",
+          "amount": 506615,
+          "pct_of_segment": 1
+        },
+        {
+          "rank": 14,
+          "name": "The Co-Operative Academies Trust",
+          "type": "Contractor",
+          "amount": 497500,
+          "pct_of_segment": 0.98
+        },
+        {
+          "rank": 15,
+          "name": "The Eden Academy",
+          "type": "Contractor",
+          "amount": 482505,
+          "pct_of_segment": 0.95
+        },
+        {
+          "rank": 16,
+          "name": "Leaf Trust",
+          "type": "Contractor",
+          "amount": 482431,
+          "pct_of_segment": 0.95
+        },
+        {
+          "rank": 17,
+          "name": "Insignis Academy Trust",
+          "type": "Contractor",
+          "amount": 481105,
+          "pct_of_segment": 0.95
+        },
+        {
+          "rank": 18,
+          "name": "Diocese Of Chichester Academy Trust",
+          "type": "Contractor",
+          "amount": 449265,
+          "pct_of_segment": 0.89
+        },
+        {
+          "rank": 19,
+          "name": "Northern Education Trust",
+          "type": "Contractor",
+          "amount": 444053,
+          "pct_of_segment": 0.87
+        },
+        {
+          "rank": 20,
+          "name": "Northern Schools Trust",
+          "type": "Contractor",
+          "amount": 441393,
+          "pct_of_segment": 0.87
+        }
+      ]
+    },
+    {
+      "segment": "Technology",
+      "total": 47448990,
+      "transactions": 198,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Bytes Software Services Limited",
+          "type": "Contractor",
+          "amount": 26239183,
+          "pct_of_segment": 55.3,
+          "top_contracts": [
+            {
+              "title": "ITT 55886 VMware Licensing (con_25176)"
+            },
+            {
+              "title": "ITT 55886 VMware Licensing (con_25176)"
+            },
+            {
+              "title": "ITT 53898 Barracuda Licenses (con_24453)"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Methods Business And Digital Technology Limited",
+          "type": "Contractor",
+          "amount": 3943015,
+          "pct_of_segment": 8.31
+        },
+        {
+          "rank": 3,
+          "name": "Computacenter (Uk) Limited",
+          "type": "Contractor",
+          "amount": 3870817,
+          "pct_of_segment": 8.16
+        },
+        {
+          "rank": 4,
+          "name": "Sol-Tec Limited",
+          "type": "Contractor",
+          "amount": 2373756,
+          "pct_of_segment": 5
+        },
+        {
+          "rank": 5,
+          "name": "Cdw Ltd",
+          "type": "Contractor",
+          "amount": 2048449,
+          "pct_of_segment": 4.32
+        },
+        {
+          "rank": 6,
+          "name": "Xma Limited",
+          "type": "Contractor",
+          "amount": 1698797,
+          "pct_of_segment": 3.58
+        },
+        {
+          "rank": 7,
+          "name": "Microsoft Limited",
+          "type": "Contractor",
+          "amount": 1537684,
+          "pct_of_segment": 3.24
+        },
+        {
+          "rank": 8,
+          "name": "Stone Technologies Limited",
+          "type": "Contractor",
+          "amount": 993474,
+          "pct_of_segment": 2.09
+        },
+        {
+          "rank": 9,
+          "name": "Ncc Group Security Services Limited",
+          "type": "Contractor",
+          "amount": 857760,
+          "pct_of_segment": 1.81
+        },
+        {
+          "rank": 10,
+          "name": "Insight Direct (Uk) Ltd",
+          "type": "Contractor",
+          "amount": 498666,
+          "pct_of_segment": 1.05
+        },
+        {
+          "rank": 11,
+          "name": "Unify Holding Uk 1 Limited",
+          "type": "Contractor",
+          "amount": 462418,
+          "pct_of_segment": 0.97
+        },
+        {
+          "rank": 12,
+          "name": "Boxxe Limited",
+          "type": "Contractor",
+          "amount": 361036,
+          "pct_of_segment": 0.76
+        },
+        {
+          "rank": 13,
+          "name": "Ntt Data Uk Limited",
+          "type": "Contractor",
+          "amount": 278539,
+          "pct_of_segment": 0.59
+        },
+        {
+          "rank": 14,
+          "name": "Crayon Limited",
+          "type": "Contractor",
+          "amount": 241805,
+          "pct_of_segment": 0.51
+        },
+        {
+          "rank": 15,
+          "name": "Nexer Digital Ltd",
+          "type": "Contractor",
+          "amount": 233670,
+          "pct_of_segment": 0.49
+        },
+        {
+          "rank": 16,
+          "name": "Bt Group Plc",
+          "type": "Contractor",
+          "amount": 224959,
+          "pct_of_segment": 0.47
+        },
+        {
+          "rank": 17,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 215551,
+          "pct_of_segment": 0.45
+        },
+        {
+          "rank": 18,
+          "name": "The Engine Group Limited",
+          "type": "Contractor",
+          "amount": 144432,
+          "pct_of_segment": 0.3
+        },
+        {
+          "rank": 19,
+          "name": "Engine Partners Uk Llp - Engine Transformation",
+          "type": "Contractor",
+          "amount": 114377,
+          "pct_of_segment": 0.24
+        },
+        {
+          "rank": 20,
+          "name": "Silobreaker Limited",
+          "type": "Contractor",
+          "amount": 114000,
+          "pct_of_segment": 0.24
+        }
+      ]
+    },
+    {
+      "segment": "Children's Social Care - Safeguarding and Workforce",
+      "total": 42493560,
+      "transactions": 398,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Frontline Organisation",
+          "type": "Contractor",
+          "amount": 11161433,
+          "pct_of_segment": 26.27,
+          "top_contracts": [
+            {
+              "title": "The National Fast Track Child and Family Social Work Training Programme"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Foundations - What Works Centre For Children And Families",
+          "type": "Contractor",
+          "amount": 5258349,
+          "pct_of_segment": 12.37
+        },
+        {
+          "rank": 3,
+          "name": "Skills For Care Ltd",
+          "type": "Contractor",
+          "amount": 2974463,
+          "pct_of_segment": 7
+        },
+        {
+          "rank": 4,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 1459522,
+          "pct_of_segment": 3.43
+        },
+        {
+          "rank": 5,
+          "name": "Nspcc",
+          "type": "Contractor",
+          "amount": 1000000,
+          "pct_of_segment": 2.35
+        },
+        {
+          "rank": 6,
+          "name": "Somerset Council",
+          "type": "Local Authority",
+          "amount": 824220,
+          "pct_of_segment": 1.94
+        },
+        {
+          "rank": 7,
+          "name": "North Tyneside Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 749418,
+          "pct_of_segment": 1.76
+        },
+        {
+          "rank": 8,
+          "name": "Sefton Council",
+          "type": "Local Authority",
+          "amount": 725000,
+          "pct_of_segment": 1.71
+        },
+        {
+          "rank": 9,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 666580,
+          "pct_of_segment": 1.57
+        },
+        {
+          "rank": 10,
+          "name": "Coventry City Council",
+          "type": "Local Authority",
+          "amount": 611241,
+          "pct_of_segment": 1.44
+        },
+        {
+          "rank": 11,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 609279,
+          "pct_of_segment": 1.43
+        },
+        {
+          "rank": 12,
+          "name": "Stoke On Trent City Council",
+          "type": "Local Authority",
+          "amount": 548067,
+          "pct_of_segment": 1.29
+        },
+        {
+          "rank": 13,
+          "name": "Derby City Council",
+          "type": "Local Authority",
+          "amount": 505465,
+          "pct_of_segment": 1.19
+        },
+        {
+          "rank": 14,
+          "name": "Talent International (Uk) Ltd",
+          "type": "Contractor",
+          "amount": 495742,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 15,
+          "name": "Vsc Plus Limited",
+          "type": "Contractor",
+          "amount": 472950,
+          "pct_of_segment": 1.11
+        },
+        {
+          "rank": 16,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 459988,
+          "pct_of_segment": 1.08
+        },
+        {
+          "rank": 17,
+          "name": "Solihull Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 439300,
+          "pct_of_segment": 1.03
+        },
+        {
+          "rank": 18,
+          "name": "Sheffield City Council",
+          "type": "Local Authority",
+          "amount": 414834,
+          "pct_of_segment": 0.98
+        },
+        {
+          "rank": 19,
+          "name": "Swindon Borough Council",
+          "type": "Local Authority",
+          "amount": 388894,
+          "pct_of_segment": 0.92
+        },
+        {
+          "rank": 20,
+          "name": "Hammersmith And Fulham London Borough Council",
+          "type": "Local Authority",
+          "amount": 372667,
+          "pct_of_segment": 0.88
+        }
+      ]
+    },
+    {
+      "segment": "Standards and Testing Agency",
+      "total": 42059006,
+      "transactions": 110,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Capita Business Services Ltd",
+          "type": "Outsourcing/IT",
+          "amount": 21590312,
+          "pct_of_segment": 51.33
+        },
+        {
+          "rank": 2,
+          "name": "Nfer Trading Limited Inv T",
+          "type": "Contractor",
+          "amount": 6858796,
+          "pct_of_segment": 16.31
+        },
+        {
+          "rank": 3,
+          "name": "Parcelforce Worldwide",
+          "type": "Contractor",
+          "amount": 5863267,
+          "pct_of_segment": 13.94
+        },
+        {
+          "rank": 4,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 3766653,
+          "pct_of_segment": 8.96
+        },
+        {
+          "rank": 5,
+          "name": "Made Tech Limited",
+          "type": "Contractor",
+          "amount": 1305817,
+          "pct_of_segment": 3.1
+        },
+        {
+          "rank": 6,
+          "name": "Pearson Education Limited",
+          "type": "Contractor",
+          "amount": 854409,
+          "pct_of_segment": 2.03,
+          "top_contracts": [
+            {
+              "title": "Progress in Reading Literacy Study (PIRLS) 2026 National Research Coordinator & National Study Centre for England. (con_"
+            },
+            {
+              "title": "Test Operations Service 2025 con_25418"
+            },
+            {
+              "title": "T Levels Generation 2 Wave 1: Contract for the provision of services in relation to the Construction: Design, Surveying "
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "name": "Acer International United Kingdom Limited",
+          "type": "Contractor",
+          "amount": 729695,
+          "pct_of_segment": 1.73
+        },
+        {
+          "rank": 8,
+          "name": "Olive Jar Digital Ltd",
+          "type": "Contractor",
+          "amount": 506501,
+          "pct_of_segment": 1.2
+        },
+        {
+          "rank": 9,
+          "name": "V I Resourcing Ltd",
+          "type": "Contractor",
+          "amount": 107760,
+          "pct_of_segment": 0.26
+        },
+        {
+          "rank": 10,
+          "name": "Gwasg Pia Cyfyngedig",
+          "type": "Contractor",
+          "amount": 72568,
+          "pct_of_segment": 0.17
+        },
+        {
+          "rank": 11,
+          "name": "Lancashire County Council",
+          "type": "Local Authority",
+          "amount": 65159,
+          "pct_of_segment": 0.15
+        },
+        {
+          "rank": 12,
+          "name": "Hampshire County Council",
+          "type": "Local Authority",
+          "amount": 45002,
+          "pct_of_segment": 0.11
+        },
+        {
+          "rank": 13,
+          "name": "Hertfordshire County Council",
+          "type": "Local Authority",
+          "amount": 42364,
+          "pct_of_segment": 0.1
+        },
+        {
+          "rank": 14,
+          "name": "Kent County Council",
+          "type": "Local Authority",
+          "amount": 38288,
+          "pct_of_segment": 0.09
+        },
+        {
+          "rank": 15,
+          "name": "Derbyshire County Council",
+          "type": "Local Authority",
+          "amount": 31810,
+          "pct_of_segment": 0.08
+        },
+        {
+          "rank": 16,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 30186,
+          "pct_of_segment": 0.07
+        },
+        {
+          "rank": 17,
+          "name": "North Yorkshire County Council",
+          "type": "Local Authority",
+          "amount": 28350,
+          "pct_of_segment": 0.07
+        },
+        {
+          "rank": 18,
+          "name": "Leeds City Council",
+          "type": "Local Authority",
+          "amount": 25104,
+          "pct_of_segment": 0.06
+        },
+        {
+          "rank": 19,
+          "name": "Lincolnshire County Council",
+          "type": "Local Authority",
+          "amount": 25104,
+          "pct_of_segment": 0.06
+        },
+        {
+          "rank": 20,
+          "name": "Gloucestershire County Council",
+          "type": "Local Authority",
+          "amount": 25100,
+          "pct_of_segment": 0.06
+        }
+      ]
+    },
+    {
+      "segment": "Data",
+      "total": 29438482,
+      "transactions": 296,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Engine Partners Uk Llp - Engine Transformation",
+          "type": "Contractor",
+          "amount": 10352158,
+          "pct_of_segment": 35.17
+        },
+        {
+          "rank": 2,
+          "name": "Opencast Software Europe Limited",
+          "type": "Contractor",
+          "amount": 4262880,
+          "pct_of_segment": 14.48
+        },
+        {
+          "rank": 3,
+          "name": "Cognizant Worldwide Limited",
+          "type": "Contractor",
+          "amount": 3727184,
+          "pct_of_segment": 12.66
+        },
+        {
+          "rank": 4,
+          "name": "Rm Plc",
+          "type": "Contractor",
+          "amount": 3099318,
+          "pct_of_segment": 10.53
+        },
+        {
+          "rank": 5,
+          "name": "Bramble Hub Limited",
+          "type": "Contractor",
+          "amount": 2799682,
+          "pct_of_segment": 9.51
+        },
+        {
+          "rank": 6,
+          "name": "Solirius Ltd",
+          "type": "Contractor",
+          "amount": 2022579,
+          "pct_of_segment": 6.87,
+          "top_contracts": [
+            {
+              "title": "Learner Data Service - Delivery Resource Capability"
+            },
+            {
+              "title": "con_24724-Improving social worker experience of the Child Protection Information Sharing service (CP-IS)"
+            },
+            {
+              "title": "con_15416: Project Titan: Enter Learning Data and Verified Credentials"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "name": "Scrumconnect Limited",
+          "type": "Contractor",
+          "amount": 783465,
+          "pct_of_segment": 2.66
+        },
+        {
+          "rank": 8,
+          "name": "Engine Partners Uk Llp",
+          "type": "Contractor",
+          "amount": 780870,
+          "pct_of_segment": 2.65
+        },
+        {
+          "rank": 9,
+          "name": "Computacenter (Uk) Limited",
+          "type": "Contractor",
+          "amount": 626977,
+          "pct_of_segment": 2.13
+        },
+        {
+          "rank": 10,
+          "name": "Cdw Ltd",
+          "type": "Contractor",
+          "amount": 344838,
+          "pct_of_segment": 1.17
+        },
+        {
+          "rank": 11,
+          "name": "Granicus-Firmstep",
+          "type": "Contractor",
+          "amount": 192720,
+          "pct_of_segment": 0.65
+        },
+        {
+          "rank": 12,
+          "name": "Faculty Science Limited",
+          "type": "Contractor",
+          "amount": 151763,
+          "pct_of_segment": 0.52
+        },
+        {
+          "rank": 13,
+          "name": "Wonde Limited",
+          "type": "Contractor",
+          "amount": 126935,
+          "pct_of_segment": 0.43
+        },
+        {
+          "rank": 14,
+          "name": "Avolution (Uk) Limited",
+          "type": "Contractor",
+          "amount": 65180,
+          "pct_of_segment": 0.22
+        },
+        {
+          "rank": 15,
+          "name": "Restore Plc",
+          "type": "Contractor",
+          "amount": 42062,
+          "pct_of_segment": 0.14
+        },
+        {
+          "rank": 16,
+          "name": "Sandhill Consultants Ltd",
+          "type": "Contractor",
+          "amount": 38076,
+          "pct_of_segment": 0.13
+        },
+        {
+          "rank": 17,
+          "name": "Gowling Wlg (Uk) Llp Client Account",
+          "type": "Contractor",
+          "amount": 21795,
+          "pct_of_segment": 0.07
+        }
+      ]
+    },
+    {
+      "segment": "ESFA Finance and Provider Market Oversight Directorate",
+      "total": 27267765,
+      "transactions": 45,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Burges Salmon Llp",
+          "type": "Contractor",
+          "amount": 12985348,
+          "pct_of_segment": 47.62
+        },
+        {
+          "rank": 2,
+          "name": "Pinsent Masons Llp (Client Account)",
+          "type": "Contractor",
+          "amount": 3710834,
+          "pct_of_segment": 13.61
+        },
+        {
+          "rank": 3,
+          "name": "Peterborough Regional College (Inspire Education Group)",
+          "type": "Contractor",
+          "amount": 3063723,
+          "pct_of_segment": 11.24
+        },
+        {
+          "rank": 4,
+          "name": "Middlesbrough College",
+          "type": "Contractor",
+          "amount": 1806186,
+          "pct_of_segment": 6.62
+        },
+        {
+          "rank": 5,
+          "name": "Lincoln College",
+          "type": "Contractor",
+          "amount": 1794054,
+          "pct_of_segment": 6.58
+        },
+        {
+          "rank": 6,
+          "name": "Dwf Law Llp",
+          "type": "Contractor",
+          "amount": 1224108,
+          "pct_of_segment": 4.49
+        },
+        {
+          "rank": 7,
+          "name": "Leeds City College (Luminate Education Group)",
+          "type": "Contractor",
+          "amount": 721719,
+          "pct_of_segment": 2.65
+        },
+        {
+          "rank": 8,
+          "name": "Morley College Limited",
+          "type": "Contractor",
+          "amount": 500000,
+          "pct_of_segment": 1.83
+        },
+        {
+          "rank": 9,
+          "name": "The Education Training Collective",
+          "type": "Contractor",
+          "amount": 401353,
+          "pct_of_segment": 1.47
+        },
+        {
+          "rank": 10,
+          "name": "Kpmg Llp",
+          "type": "Consultancy",
+          "amount": 387195,
+          "pct_of_segment": 1.42
+        },
+        {
+          "rank": 11,
+          "name": "Pricewaterhousecoopers Llp",
+          "type": "Contractor",
+          "amount": 136607,
+          "pct_of_segment": 0.5
+        },
+        {
+          "rank": 12,
+          "name": "Deloitte Llp",
+          "type": "Consultancy",
+          "amount": 108000,
+          "pct_of_segment": 0.4
+        },
+        {
+          "rank": 13,
+          "name": "Mazars Llp",
+          "type": "Contractor",
+          "amount": 83395,
+          "pct_of_segment": 0.31
+        },
+        {
+          "rank": 14,
+          "name": "Pinsent Masons Llp (Office Account)",
+          "type": "Contractor",
+          "amount": 66600,
+          "pct_of_segment": 0.24
+        },
+        {
+          "rank": 15,
+          "name": "East Kent College",
+          "type": "Contractor",
+          "amount": 64435,
+          "pct_of_segment": 0.24
+        },
+        {
+          "rank": 16,
+          "name": "Ernst And Young Llp",
+          "type": "Contractor",
+          "amount": 51805,
+          "pct_of_segment": 0.19
+        },
+        {
+          "rank": 17,
+          "name": "Rsm Uk Risk Assurance Services Llp",
+          "type": "Contractor",
+          "amount": 49360,
+          "pct_of_segment": 0.18
+        },
+        {
+          "rank": 18,
+          "name": "Bdo Llp",
+          "type": "Contractor",
+          "amount": 36488,
+          "pct_of_segment": 0.13
+        },
+        {
+          "rank": 19,
+          "name": "Franklin College",
+          "type": "Contractor",
+          "amount": 29866,
+          "pct_of_segment": 0.11
+        },
+        {
+          "rank": 20,
+          "name": "Frp Advisory Trading Limited",
+          "type": "Contractor",
+          "amount": 24439,
+          "pct_of_segment": 0.09
+        }
+      ]
+    },
+    {
+      "segment": "Pupil Wellbeing and Safeguarding",
+      "total": 24707551,
+      "transactions": 70,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Osf Ap",
+          "type": "Contractor",
+          "amount": 19984994,
+          "pct_of_segment": 80.89
+        },
+        {
+          "rank": 2,
+          "name": "Active Partnerships",
+          "type": "Contractor",
+          "amount": 1874141,
+          "pct_of_segment": 7.59
+        },
+        {
+          "rank": 3,
+          "name": "The Duke Of Edinburgh'S Award",
+          "type": "Contractor",
+          "amount": 1038408,
+          "pct_of_segment": 4.2
+        },
+        {
+          "rank": 4,
+          "name": "Youth Sport Trust",
+          "type": "Contractor",
+          "amount": 343356,
+          "pct_of_segment": 1.39
+        },
+        {
+          "rank": 5,
+          "name": "I.F.F Research Limited",
+          "type": "Contractor",
+          "amount": 221913,
+          "pct_of_segment": 0.9
+        },
+        {
+          "rank": 6,
+          "name": "National Childrens Bureau",
+          "type": "Contractor",
+          "amount": 172839,
+          "pct_of_segment": 0.7
+        },
+        {
+          "rank": 7,
+          "name": "Diana Award",
+          "type": "Contractor",
+          "amount": 149000,
+          "pct_of_segment": 0.6
+        },
+        {
+          "rank": 8,
+          "name": "Ofsted",
+          "type": "Contractor",
+          "amount": 123208,
+          "pct_of_segment": 0.5
+        },
+        {
+          "rank": 9,
+          "name": "Bloom Procurement Services Ltd",
+          "type": "Contractor",
+          "amount": 109600,
+          "pct_of_segment": 0.44
+        },
+        {
+          "rank": 10,
+          "name": "Department For Culture Media And Sport",
+          "type": "Contractor",
+          "amount": 100000,
+          "pct_of_segment": 0.4
+        },
+        {
+          "rank": 11,
+          "name": "Equaliteach Cic",
+          "type": "Contractor",
+          "amount": 92908,
+          "pct_of_segment": 0.38
+        },
+        {
+          "rank": 12,
+          "name": "Anne Frank Trust",
+          "type": "Contractor",
+          "amount": 88830,
+          "pct_of_segment": 0.36
+        },
+        {
+          "rank": 13,
+          "name": "Diversity Role Models",
+          "type": "Contractor",
+          "amount": 76350,
+          "pct_of_segment": 0.31
+        },
+        {
+          "rank": 14,
+          "name": "Sports Leaders Uk Limited",
+          "type": "Contractor",
+          "amount": 72031,
+          "pct_of_segment": 0.29
+        },
+        {
+          "rank": 15,
+          "name": "Omd Group Ta Manning Gottlieb Omd Ltd",
+          "type": "Contractor",
+          "amount": 69662,
+          "pct_of_segment": 0.28
+        },
+        {
+          "rank": 16,
+          "name": "The Resilience In Unity Project",
+          "type": "Contractor",
+          "amount": 66000,
+          "pct_of_segment": 0.27
+        },
+        {
+          "rank": 17,
+          "name": "Clue Computing Company Limited",
+          "type": "Contractor",
+          "amount": 42540,
+          "pct_of_segment": 0.17
+        },
+        {
+          "rank": 18,
+          "name": "Home Office",
+          "type": "Contractor",
+          "amount": 30000,
+          "pct_of_segment": 0.12
+        },
+        {
+          "rank": 19,
+          "name": "Education And Training Foundation",
+          "type": "Contractor",
+          "amount": 27884,
+          "pct_of_segment": 0.11
+        },
+        {
+          "rank": 20,
+          "name": "MayorS Office For Policing And Crime",
+          "type": "Contractor",
+          "amount": 23887,
+          "pct_of_segment": 0.1
+        }
+      ]
+    },
+    {
+      "segment": "SARDIS",
+      "total": 20928084,
+      "transactions": 241,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "I.F.F Research Limited",
+          "type": "Contractor",
+          "amount": 3072877,
+          "pct_of_segment": 14.68
+        },
+        {
+          "rank": 2,
+          "name": "National Centre For Social Research",
+          "type": "Contractor",
+          "amount": 1861723,
+          "pct_of_segment": 8.9
+        },
+        {
+          "rank": 3,
+          "name": "Hive It Limited",
+          "type": "Contractor",
+          "amount": 1797363,
+          "pct_of_segment": 8.59
+        },
+        {
+          "rank": 4,
+          "name": "Ecorys Uk Limited",
+          "type": "Contractor",
+          "amount": 1634366,
+          "pct_of_segment": 7.81
+        },
+        {
+          "rank": 5,
+          "name": "Ipsos (Market Research) Ltd",
+          "type": "Contractor",
+          "amount": 1527812,
+          "pct_of_segment": 7.3
+        },
+        {
+          "rank": 6,
+          "name": "Pearson Education Limited",
+          "type": "Contractor",
+          "amount": 1475270,
+          "pct_of_segment": 7.05,
+          "top_contracts": [
+            {
+              "title": "Progress in Reading Literacy Study (PIRLS) 2026 National Research Coordinator & National Study Centre for England. (con_"
+            },
+            {
+              "title": "Test Operations Service 2025 con_25418"
+            },
+            {
+              "title": "T Levels Generation 2 Wave 1: Contract for the provision of services in relation to the Construction: Design, Surveying "
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "name": "Verian Group Uk Limited",
+          "type": "Contractor",
+          "amount": 1309377,
+          "pct_of_segment": 6.26
+        },
+        {
+          "rank": 8,
+          "name": "University College London",
+          "type": "University",
+          "amount": 1175292,
+          "pct_of_segment": 5.62,
+          "top_contracts": [
+            {
+              "title": "Educational Psychologist Training"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "name": "The Anna Freud Centre",
+          "type": "Contractor",
+          "amount": 788974,
+          "pct_of_segment": 3.77
+        },
+        {
+          "rank": 10,
+          "name": "Oecd",
+          "type": "Contractor",
+          "amount": 646118,
+          "pct_of_segment": 3.09
+        },
+        {
+          "rank": 11,
+          "name": "Alphaplus Consultancy Limited",
+          "type": "Contractor",
+          "amount": 483147,
+          "pct_of_segment": 2.31
+        },
+        {
+          "rank": 12,
+          "name": "Cognizant Worldwide Limited",
+          "type": "Contractor",
+          "amount": 397769,
+          "pct_of_segment": 1.9
+        },
+        {
+          "rank": 13,
+          "name": "Kantar Public Uk Limited",
+          "type": "Contractor",
+          "amount": 370407,
+          "pct_of_segment": 1.77
+        },
+        {
+          "rank": 14,
+          "name": "Engine Partners Uk Llp - Engine Transformation",
+          "type": "Contractor",
+          "amount": 364820,
+          "pct_of_segment": 1.74
+        },
+        {
+          "rank": 15,
+          "name": "Centre For Enterprise Ltd",
+          "type": "Contractor",
+          "amount": 307867,
+          "pct_of_segment": 1.47
+        },
+        {
+          "rank": 16,
+          "name": "Cooper Gibson Ltd",
+          "type": "Contractor",
+          "amount": 256056,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 17,
+          "name": "Lse Enterprise Ltd",
+          "type": "Contractor",
+          "amount": 256056,
+          "pct_of_segment": 1.22
+        },
+        {
+          "rank": 18,
+          "name": "Icf Consulting Services Limited",
+          "type": "Contractor",
+          "amount": 248225,
+          "pct_of_segment": 1.19
+        },
+        {
+          "rank": 19,
+          "name": "University Of Warwick",
+          "type": "University",
+          "amount": 235708,
+          "pct_of_segment": 1.13
+        },
+        {
+          "rank": 20,
+          "name": "Institute For Employment Studies",
+          "type": "Contractor",
+          "amount": 216630,
+          "pct_of_segment": 1.04
+        }
+      ]
+    },
+    {
+      "segment": "Commercial",
+      "total": 20190635,
+      "transactions": 105,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 9195033,
+          "pct_of_segment": 45.54
+        },
+        {
+          "rank": 2,
+          "name": "Environment Agency",
+          "type": "Contractor",
+          "amount": 3950000,
+          "pct_of_segment": 19.56
+        },
+        {
+          "rank": 3,
+          "name": "Willis Limited",
+          "type": "Contractor",
+          "amount": 1242042,
+          "pct_of_segment": 6.15
+        },
+        {
+          "rank": 4,
+          "name": "Government Legal Department",
+          "type": "Contractor",
+          "amount": 1085250,
+          "pct_of_segment": 5.38
+        },
+        {
+          "rank": 5,
+          "name": "Cognizant Worldwide Limited",
+          "type": "Contractor",
+          "amount": 923254,
+          "pct_of_segment": 4.57
+        },
+        {
+          "rank": 6,
+          "name": "Government Actuarys Dept",
+          "type": "Contractor",
+          "amount": 842511,
+          "pct_of_segment": 4.17
+        },
+        {
+          "rank": 7,
+          "name": "Bravosolution Uk Limited",
+          "type": "Contractor",
+          "amount": 461100,
+          "pct_of_segment": 2.28
+        },
+        {
+          "rank": 8,
+          "name": "Topmark Claims Management Part Of The Davies Group",
+          "type": "Contractor",
+          "amount": 409451,
+          "pct_of_segment": 2.03
+        },
+        {
+          "rank": 9,
+          "name": "The Government Legal Department",
+          "type": "Contractor",
+          "amount": 339750,
+          "pct_of_segment": 1.68
+        },
+        {
+          "rank": 10,
+          "name": "Newham London Borough Council",
+          "type": "Local Authority",
+          "amount": 245000,
+          "pct_of_segment": 1.21
+        },
+        {
+          "rank": 11,
+          "name": "The Chartered Institute Of Procurement And Supply",
+          "type": "Contractor",
+          "amount": 212400,
+          "pct_of_segment": 1.05
+        },
+        {
+          "rank": 12,
+          "name": "Southern Water Services Limited",
+          "type": "Contractor",
+          "amount": 211050,
+          "pct_of_segment": 1.05
+        },
+        {
+          "rank": 13,
+          "name": "Commerce Decisions Limited",
+          "type": "Contractor",
+          "amount": 160800,
+          "pct_of_segment": 0.8
+        },
+        {
+          "rank": 14,
+          "name": "Alexander Mann Solutions Limited",
+          "type": "Contractor",
+          "amount": 142071,
+          "pct_of_segment": 0.7
+        },
+        {
+          "rank": 15,
+          "name": "Nexer Digital Ltd",
+          "type": "Contractor",
+          "amount": 101488,
+          "pct_of_segment": 0.5
+        },
+        {
+          "rank": 16,
+          "name": "East Sussex County Council",
+          "type": "Local Authority",
+          "amount": 100000,
+          "pct_of_segment": 0.5
+        },
+        {
+          "rank": 17,
+          "name": "Essex County Council",
+          "type": "Local Authority",
+          "amount": 74650,
+          "pct_of_segment": 0.37
+        },
+        {
+          "rank": 18,
+          "name": "Hounslow London Borough Council",
+          "type": "Local Authority",
+          "amount": 65000,
+          "pct_of_segment": 0.32
+        },
+        {
+          "rank": 19,
+          "name": "Lewisham London Borough Council",
+          "type": "Local Authority",
+          "amount": 60000,
+          "pct_of_segment": 0.3
+        },
+        {
+          "rank": 20,
+          "name": "Luton Borough Council",
+          "type": "Local Authority",
+          "amount": 55000,
+          "pct_of_segment": 0.27
+        }
+      ]
+    },
+    {
+      "segment": "Customer Experience and Digital",
+      "total": 12446826,
+      "transactions": 145,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Arvato Limited",
+          "type": "Contractor",
+          "amount": 3535785,
+          "pct_of_segment": 28.41
+        },
+        {
+          "rank": 2,
+          "name": "Cognizant Worldwide Limited",
+          "type": "Contractor",
+          "amount": 3175040,
+          "pct_of_segment": 25.51
+        },
+        {
+          "rank": 3,
+          "name": "Andigital Limited",
+          "type": "Contractor",
+          "amount": 2483283,
+          "pct_of_segment": 19.95
+        },
+        {
+          "rank": 4,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 791335,
+          "pct_of_segment": 6.36
+        },
+        {
+          "rank": 5,
+          "name": "Faculty Science Limited",
+          "type": "Contractor",
+          "amount": 503499,
+          "pct_of_segment": 4.05
+        },
+        {
+          "rank": 6,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 476285,
+          "pct_of_segment": 3.83
+        },
+        {
+          "rank": 7,
+          "name": "Ntt Data Uk Limited",
+          "type": "Contractor",
+          "amount": 369507,
+          "pct_of_segment": 2.97
+        },
+        {
+          "rank": 8,
+          "name": "Fujitsu Services Ltd",
+          "type": "Outsourcing/IT",
+          "amount": 331176,
+          "pct_of_segment": 2.66
+        },
+        {
+          "rank": 9,
+          "name": "Unify Holding Uk 1 Limited",
+          "type": "Contractor",
+          "amount": 189641,
+          "pct_of_segment": 1.52
+        },
+        {
+          "rank": 10,
+          "name": "Cabinet Office Rm Shared Services",
+          "type": "Contractor",
+          "amount": 154408,
+          "pct_of_segment": 1.24
+        },
+        {
+          "rank": 11,
+          "name": "Usertesting Technologies Limited",
+          "type": "Contractor",
+          "amount": 122675,
+          "pct_of_segment": 0.99
+        },
+        {
+          "rank": 12,
+          "name": "Ormiston Academies Trust",
+          "type": "Contractor",
+          "amount": 101798,
+          "pct_of_segment": 0.82
+        },
+        {
+          "rank": 13,
+          "name": "Kpmg Llp",
+          "type": "Consultancy",
+          "amount": 99962,
+          "pct_of_segment": 0.8
+        },
+        {
+          "rank": 14,
+          "name": "Farsight Consulting Limited",
+          "type": "Contractor",
+          "amount": 59081,
+          "pct_of_segment": 0.47
+        },
+        {
+          "rank": 15,
+          "name": "Potteries Educational Trust",
+          "type": "Contractor",
+          "amount": 31351,
+          "pct_of_segment": 0.25
+        },
+        {
+          "rank": 16,
+          "name": "I.F.F Research Limited",
+          "type": "Contractor",
+          "amount": 22000,
+          "pct_of_segment": 0.18
+        }
+      ]
+    },
+    {
+      "segment": "Operational Finance",
+      "total": 7004181,
+      "transactions": 276,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Agile Management Solutions Ltd",
+          "type": "Contractor",
+          "amount": 2723008,
+          "pct_of_segment": 38.88
+        },
+        {
+          "rank": 2,
+          "name": "Hm Treasury Group",
+          "type": "Contractor",
+          "amount": 1902500,
+          "pct_of_segment": 27.16
+        },
+        {
+          "rank": 3,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 755293,
+          "pct_of_segment": 10.78
+        },
+        {
+          "rank": 4,
+          "name": "Mercurius It Ltd.",
+          "type": "Contractor",
+          "amount": 558027,
+          "pct_of_segment": 7.97
+        },
+        {
+          "rank": 5,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 345257,
+          "pct_of_segment": 4.93
+        },
+        {
+          "rank": 6,
+          "name": "Montagu Evans Llp",
+          "type": "Contractor",
+          "amount": 344300,
+          "pct_of_segment": 4.92
+        },
+        {
+          "rank": 7,
+          "name": "National Audit Office",
+          "type": "Contractor",
+          "amount": 247500,
+          "pct_of_segment": 3.53
+        },
+        {
+          "rank": 8,
+          "name": "Dun And Bradstreet (U.K.) Limited",
+          "type": "Contractor",
+          "amount": 100376,
+          "pct_of_segment": 1.43
+        },
+        {
+          "rank": 9,
+          "name": "Actica Consulting Limited",
+          "type": "Contractor",
+          "amount": 27920,
+          "pct_of_segment": 0.4
+        }
+      ]
+    },
+    {
+      "segment": "Legal Adviser's Office",
+      "total": 6733928,
+      "transactions": 8,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Government Legal Department",
+          "type": "Contractor",
+          "amount": 6633750,
+          "pct_of_segment": 98.51
+        },
+        {
+          "rank": 2,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 100178,
+          "pct_of_segment": 1.49
+        }
+      ]
+    },
+    {
+      "segment": "Human Resources",
+      "total": 6183152,
+      "transactions": 63,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 2665039,
+          "pct_of_segment": 43.1
+        },
+        {
+          "rank": 2,
+          "name": "Workday Ltd",
+          "type": "Contractor",
+          "amount": 1551340,
+          "pct_of_segment": 25.09
+        },
+        {
+          "rank": 3,
+          "name": "The Government Legal Department",
+          "type": "Contractor",
+          "amount": 414188,
+          "pct_of_segment": 6.7
+        },
+        {
+          "rank": 4,
+          "name": "Edenred (Incentives And Motivation) Limited",
+          "type": "Contractor",
+          "amount": 302690,
+          "pct_of_segment": 4.9
+        },
+        {
+          "rank": 5,
+          "name": "Duradiamond Healthcare Limited",
+          "type": "Contractor",
+          "amount": 250876,
+          "pct_of_segment": 4.06
+        },
+        {
+          "rank": 6,
+          "name": "Ministry Of Justice",
+          "type": "Contractor",
+          "amount": 246190,
+          "pct_of_segment": 3.98
+        },
+        {
+          "rank": 7,
+          "name": "Sscl On Behalf Of Cabinet Office",
+          "type": "Contractor",
+          "amount": 202839,
+          "pct_of_segment": 3.28
+        },
+        {
+          "rank": 8,
+          "name": "Netpremacy Limited",
+          "type": "Contractor",
+          "amount": 132379,
+          "pct_of_segment": 2.14
+        },
+        {
+          "rank": 9,
+          "name": "Ernst And Young Llp",
+          "type": "Contractor",
+          "amount": 114145,
+          "pct_of_segment": 1.85
+        },
+        {
+          "rank": 10,
+          "name": "Csl Kpmg Llp",
+          "type": "Consultancy",
+          "amount": 100759,
+          "pct_of_segment": 1.63
+        },
+        {
+          "rank": 11,
+          "name": "Headspace Meditation Limited",
+          "type": "Contractor",
+          "amount": 58800,
+          "pct_of_segment": 0.95
+        },
+        {
+          "rank": 12,
+          "name": "Mycsp Limited",
+          "type": "Contractor",
+          "amount": 55237,
+          "pct_of_segment": 0.89
+        },
+        {
+          "rank": 13,
+          "name": "Kpmg Llp",
+          "type": "Consultancy",
+          "amount": 46401,
+          "pct_of_segment": 0.75
+        },
+        {
+          "rank": 14,
+          "name": "Firebrand Training Limited",
+          "type": "Contractor",
+          "amount": 42269,
+          "pct_of_segment": 0.68
+        }
+      ]
+    },
+    {
+      "segment": "ESFA Academies and Maintained Schools",
+      "total": 4065343,
+      "transactions": 65,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Schoolscompany Trust",
+          "type": "Contractor",
+          "amount": 425000,
+          "pct_of_segment": 10.45
+        },
+        {
+          "rank": 2,
+          "name": "Dorset Studio School",
+          "type": "Contractor",
+          "amount": 404171,
+          "pct_of_segment": 9.94
+        },
+        {
+          "rank": 3,
+          "name": "St Bede'S Catholic School And Byron Sixth Form College",
+          "type": "Contractor",
+          "amount": 370122,
+          "pct_of_segment": 9.1
+        },
+        {
+          "rank": 4,
+          "name": "Barnet London Borough Council",
+          "type": "Local Authority",
+          "amount": 272000,
+          "pct_of_segment": 6.69
+        },
+        {
+          "rank": 5,
+          "name": "The London Oratory School",
+          "type": "Contractor",
+          "amount": 213717,
+          "pct_of_segment": 5.26
+        },
+        {
+          "rank": 6,
+          "name": "North Yorkshire County Council",
+          "type": "Local Authority",
+          "amount": 204821,
+          "pct_of_segment": 5.04
+        },
+        {
+          "rank": 7,
+          "name": "Aston Manor Academy",
+          "type": "Contractor",
+          "amount": 188513,
+          "pct_of_segment": 4.64
+        },
+        {
+          "rank": 8,
+          "name": "Ferryhill School",
+          "type": "Contractor",
+          "amount": 177457,
+          "pct_of_segment": 4.37
+        },
+        {
+          "rank": 9,
+          "name": "Brit School For Performing Arts And Technology (Ct",
+          "type": "Contractor",
+          "amount": 144670,
+          "pct_of_segment": 3.56
+        },
+        {
+          "rank": 10,
+          "name": "Aylesford School Warwick",
+          "type": "Contractor",
+          "amount": 126185,
+          "pct_of_segment": 3.1
+        },
+        {
+          "rank": 11,
+          "name": "St Teresa'S Catholic Primary School",
+          "type": "Contractor",
+          "amount": 125836,
+          "pct_of_segment": 3.1
+        },
+        {
+          "rank": 12,
+          "name": "Entrust Support Services Limited",
+          "type": "Contractor",
+          "amount": 122616,
+          "pct_of_segment": 3.02
+        },
+        {
+          "rank": 13,
+          "name": "St Anne'S Catholic Primary School",
+          "type": "Contractor",
+          "amount": 97840,
+          "pct_of_segment": 2.41
+        },
+        {
+          "rank": 14,
+          "name": "Institute Of School Business Leadership (Isbl)",
+          "type": "Contractor",
+          "amount": 82350,
+          "pct_of_segment": 2.03
+        },
+        {
+          "rank": 15,
+          "name": "St Edward'S Catholic Academy",
+          "type": "Contractor",
+          "amount": 76923,
+          "pct_of_segment": 1.89
+        },
+        {
+          "rank": 16,
+          "name": "The Gilberd School",
+          "type": "Contractor",
+          "amount": 76744,
+          "pct_of_segment": 1.89
+        },
+        {
+          "rank": 17,
+          "name": "Shelley College, A Share Academy",
+          "type": "Contractor",
+          "amount": 74447,
+          "pct_of_segment": 1.83
+        },
+        {
+          "rank": 18,
+          "name": "Mistley Norman Church Of England Primary School",
+          "type": "Contractor",
+          "amount": 67130,
+          "pct_of_segment": 1.65
+        },
+        {
+          "rank": 19,
+          "name": "Cooper Gibson Ltd",
+          "type": "Contractor",
+          "amount": 61386,
+          "pct_of_segment": 1.51
+        },
+        {
+          "rank": 20,
+          "name": "Woodkirk Academy",
+          "type": "Contractor",
+          "amount": 56341,
+          "pct_of_segment": 1.39
+        }
+      ]
+    },
+    {
+      "segment": "ESFA Schools Financial Support and Oversight",
+      "total": 3785221,
+      "transactions": 51,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Teesside Pension Fund",
+          "type": "Contractor",
+          "amount": 527000,
+          "pct_of_segment": 13.92
+        },
+        {
+          "rank": 2,
+          "name": "Milton School",
+          "type": "Contractor",
+          "amount": 394389,
+          "pct_of_segment": 10.42
+        },
+        {
+          "rank": 3,
+          "name": "Bristol Cathedral Choir School",
+          "type": "Contractor",
+          "amount": 301630,
+          "pct_of_segment": 7.97
+        },
+        {
+          "rank": 4,
+          "name": "St Bede'S Catholic School And Byron Sixth Form College",
+          "type": "Contractor",
+          "amount": 200336,
+          "pct_of_segment": 5.29
+        },
+        {
+          "rank": 5,
+          "name": "St Martin-In-The-Fields High School For Girls",
+          "type": "Contractor",
+          "amount": 199594,
+          "pct_of_segment": 5.27
+        },
+        {
+          "rank": 6,
+          "name": "Royal Borough Of Kingston Pension Fund",
+          "type": "Local Authority",
+          "amount": 194266,
+          "pct_of_segment": 5.13
+        },
+        {
+          "rank": 7,
+          "name": "The London Oratory School",
+          "type": "Contractor",
+          "amount": 193587,
+          "pct_of_segment": 5.11
+        },
+        {
+          "rank": 8,
+          "name": "Bevan Brittan Llp",
+          "type": "Contractor",
+          "amount": 169015,
+          "pct_of_segment": 4.47
+        },
+        {
+          "rank": 9,
+          "name": "The Schoolscompany Trust",
+          "type": "Contractor",
+          "amount": 169000,
+          "pct_of_segment": 4.46
+        },
+        {
+          "rank": 10,
+          "name": "North Yorkshire County Council",
+          "type": "Local Authority",
+          "amount": 143625,
+          "pct_of_segment": 3.79
+        },
+        {
+          "rank": 11,
+          "name": "Durham County Council",
+          "type": "Local Authority",
+          "amount": 134037,
+          "pct_of_segment": 3.54
+        },
+        {
+          "rank": 12,
+          "name": "Dorset Studio School",
+          "type": "Contractor",
+          "amount": 112389,
+          "pct_of_segment": 2.97
+        },
+        {
+          "rank": 13,
+          "name": "Aston Manor Academy",
+          "type": "Contractor",
+          "amount": 104532,
+          "pct_of_segment": 2.76
+        },
+        {
+          "rank": 14,
+          "name": "Katherines Primary Academy And Nursery",
+          "type": "Contractor",
+          "amount": 78305,
+          "pct_of_segment": 2.07
+        },
+        {
+          "rank": 15,
+          "name": "Brit School For Performing Arts And Technology (Ct",
+          "type": "Contractor",
+          "amount": 72335,
+          "pct_of_segment": 1.91
+        },
+        {
+          "rank": 16,
+          "name": "Aylesford School Warwick",
+          "type": "Contractor",
+          "amount": 58645,
+          "pct_of_segment": 1.55
+        },
+        {
+          "rank": 17,
+          "name": "Stockport Metro Borough Council",
+          "type": "Local Authority",
+          "amount": 58106,
+          "pct_of_segment": 1.54
+        },
+        {
+          "rank": 18,
+          "name": "Merrylands Primary School",
+          "type": "Contractor",
+          "amount": 55906,
+          "pct_of_segment": 1.48
+        },
+        {
+          "rank": 19,
+          "name": "St Benet'S Catholic Primary School, Ouston",
+          "type": "Contractor",
+          "amount": 55577,
+          "pct_of_segment": 1.47
+        },
+        {
+          "rank": 20,
+          "name": "St Thomas À Becket Catholic Secondary School, A Voluntary Academy",
+          "type": "Contractor",
+          "amount": 52135,
+          "pct_of_segment": 1.38
+        }
+      ]
+    },
+    {
+      "segment": "Schools Financial Support and Oversight",
+      "total": 2783266,
+      "transactions": 30,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Kingsway School",
+          "type": "Contractor",
+          "amount": 490000,
+          "pct_of_segment": 17.61
+        },
+        {
+          "rank": 2,
+          "name": "St Bede'S Catholic School And Byron Sixth Form College",
+          "type": "Contractor",
+          "amount": 434571,
+          "pct_of_segment": 15.61
+        },
+        {
+          "rank": 3,
+          "name": "St John Bosco Catholic Primary School, Town End Farm, Sunderland",
+          "type": "Contractor",
+          "amount": 286310,
+          "pct_of_segment": 10.29
+        },
+        {
+          "rank": 4,
+          "name": "Kensington Aldridge Academy",
+          "type": "Contractor",
+          "amount": 175413,
+          "pct_of_segment": 6.3
+        },
+        {
+          "rank": 5,
+          "name": "Dorset Studio School",
+          "type": "Contractor",
+          "amount": 172980,
+          "pct_of_segment": 6.22
+        },
+        {
+          "rank": 6,
+          "name": "North West Kent Alternative Provision Service",
+          "type": "Contractor",
+          "amount": 146367,
+          "pct_of_segment": 5.26
+        },
+        {
+          "rank": 7,
+          "name": "Durham County Council",
+          "type": "Local Authority",
+          "amount": 119633,
+          "pct_of_segment": 4.3
+        },
+        {
+          "rank": 8,
+          "name": "Danesfield Church Of England Voluntary Controlled Community Middle School",
+          "type": "Contractor",
+          "amount": 90396,
+          "pct_of_segment": 3.25
+        },
+        {
+          "rank": 9,
+          "name": "St Leonard'S Catholic School",
+          "type": "Contractor",
+          "amount": 88178,
+          "pct_of_segment": 3.17
+        },
+        {
+          "rank": 10,
+          "name": "Aston Manor Academy",
+          "type": "Contractor",
+          "amount": 86651,
+          "pct_of_segment": 3.11
+        },
+        {
+          "rank": 11,
+          "name": "The Schoolscompany Trust",
+          "type": "Contractor",
+          "amount": 81000,
+          "pct_of_segment": 2.91
+        },
+        {
+          "rank": 12,
+          "name": "Lydeard St Lawrence Community Primary School",
+          "type": "Contractor",
+          "amount": 76500,
+          "pct_of_segment": 2.75
+        },
+        {
+          "rank": 13,
+          "name": "St James' Catholic Primary School, Hebburn",
+          "type": "Contractor",
+          "amount": 73561,
+          "pct_of_segment": 2.64
+        },
+        {
+          "rank": 14,
+          "name": "Shelley College, A Share Academy",
+          "type": "Contractor",
+          "amount": 67064,
+          "pct_of_segment": 2.41
+        },
+        {
+          "rank": 15,
+          "name": "Bedonwell Infant And Nursery School",
+          "type": "Contractor",
+          "amount": 52453,
+          "pct_of_segment": 1.88
+        },
+        {
+          "rank": 16,
+          "name": "Merrylands Primary School",
+          "type": "Contractor",
+          "amount": 43247,
+          "pct_of_segment": 1.55
+        },
+        {
+          "rank": 17,
+          "name": "St Thomas More Catholic Comprehensive School",
+          "type": "Contractor",
+          "amount": 40703,
+          "pct_of_segment": 1.46
+        },
+        {
+          "rank": 18,
+          "name": "London Borough Of Tower Hamlets",
+          "type": "Local Authority",
+          "amount": 40424,
+          "pct_of_segment": 1.45
+        },
+        {
+          "rank": 19,
+          "name": "Aylesford School Warwick",
+          "type": "Contractor",
+          "amount": 37033,
+          "pct_of_segment": 1.33
+        },
+        {
+          "rank": 20,
+          "name": "Harefield School",
+          "type": "Contractor",
+          "amount": 36500,
+          "pct_of_segment": 1.31
+        }
+      ]
+    },
+    {
+      "segment": "Communications",
+      "total": 1801716,
+      "transactions": 20,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Scroll Projects Ltd",
+          "type": "Contractor",
+          "amount": 1332765,
+          "pct_of_segment": 73.97
+        },
+        {
+          "rank": 2,
+          "name": "Ntt Data Uk Limited",
+          "type": "Contractor",
+          "amount": 237407,
+          "pct_of_segment": 13.18
+        },
+        {
+          "rank": 3,
+          "name": "Nla Media Access Ltd",
+          "type": "Contractor",
+          "amount": 78660,
+          "pct_of_segment": 4.37
+        },
+        {
+          "rank": 4,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 50000,
+          "pct_of_segment": 2.78
+        },
+        {
+          "rank": 5,
+          "name": "Verian Group Uk Limited",
+          "type": "Contractor",
+          "amount": 44285,
+          "pct_of_segment": 2.46
+        },
+        {
+          "rank": 6,
+          "name": "Runtime Collective Ltd T/A Brandwatch",
+          "type": "Contractor",
+          "amount": 37200,
+          "pct_of_segment": 2.06
+        },
+        {
+          "rank": 7,
+          "name": "Tag Europe Limited",
+          "type": "Contractor",
+          "amount": 21399,
+          "pct_of_segment": 1.19
+        }
+      ]
+    },
+    {
+      "segment": "Insights and Transformations - DSDS",
+      "total": 1224887,
+      "transactions": 25,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Method4 Limited",
+          "type": "Contractor",
+          "amount": 512611,
+          "pct_of_segment": 41.85
+        },
+        {
+          "rank": 2,
+          "name": "Warp Technologies Limited",
+          "type": "Contractor",
+          "amount": 384975,
+          "pct_of_segment": 31.43
+        },
+        {
+          "rank": 3,
+          "name": "Professional Data Management Services Limited",
+          "type": "Contractor",
+          "amount": 264456,
+          "pct_of_segment": 21.59
+        },
+        {
+          "rank": 4,
+          "name": "Office For National Statistics",
+          "type": "Contractor",
+          "amount": 31453,
+          "pct_of_segment": 2.57
+        },
+        {
+          "rank": 5,
+          "name": "Passageways (Uk) Ltd",
+          "type": "Contractor",
+          "amount": 31392,
+          "pct_of_segment": 2.56
+        }
+      ]
+    },
+    {
+      "segment": "Central Operations",
+      "total": 805861,
+      "transactions": 7,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Hippo Digital Limited",
+          "type": "Contractor",
+          "amount": 769647,
+          "pct_of_segment": 95.51
+        },
+        {
+          "rank": 2,
+          "name": "Made Tech Ltd",
+          "type": "Contractor",
+          "amount": 36214,
+          "pct_of_segment": 4.49
+        }
+      ]
+    },
+    {
+      "segment": "Funding",
+      "total": 710000,
+      "transactions": 4,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Integrated Education Fund",
+          "type": "Contractor",
+          "amount": 540000,
+          "pct_of_segment": 76.06
+        },
+        {
+          "rank": 2,
+          "name": "Nicie",
+          "type": "Contractor",
+          "amount": 170000,
+          "pct_of_segment": 23.94
+        }
+      ]
+    },
+    {
+      "segment": "Skills Strategy and Engagement",
+      "total": 685271,
+      "transactions": 14,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "University Of Warwick",
+          "type": "University",
+          "amount": 320635,
+          "pct_of_segment": 46.79
+        },
+        {
+          "rank": 2,
+          "name": "Sdn Enterprises Limited",
+          "type": "Contractor",
+          "amount": 253689,
+          "pct_of_segment": 37.02
+        },
+        {
+          "rank": 3,
+          "name": "Greater Manchester Combined Authority",
+          "type": "Contractor",
+          "amount": 54288,
+          "pct_of_segment": 7.92
+        },
+        {
+          "rank": 4,
+          "name": "Institute For Apprenticeships And Technical Education",
+          "type": "Contractor",
+          "amount": 28991,
+          "pct_of_segment": 4.23,
+          "top_contracts": [
+            {
+              "title": "Generation 2 Wave 3 T Levels"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Bloom Procurement Services Ltd",
+          "type": "Contractor",
+          "amount": 27668,
+          "pct_of_segment": 4.04
+        }
+      ]
+    },
+    {
+      "segment": "Resilience",
+      "total": 636773,
+      "transactions": 14,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Government Legal Department",
+          "type": "Contractor",
+          "amount": 351625,
+          "pct_of_segment": 55.22
+        },
+        {
+          "rank": 2,
+          "name": "The Government Legal Department",
+          "type": "Contractor",
+          "amount": 201808,
+          "pct_of_segment": 31.69
+        },
+        {
+          "rank": 3,
+          "name": "Software For Data Analysis Ltd",
+          "type": "Contractor",
+          "amount": 83340,
+          "pct_of_segment": 13.09
+        }
+      ]
+    },
+    {
+      "segment": "Commercial Delivery",
+      "total": 635359,
+      "transactions": 3,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Pearson Education Limited",
+          "type": "Contractor",
+          "amount": 635359,
+          "pct_of_segment": 100,
+          "top_contracts": [
+            {
+              "title": "Progress in Reading Literacy Study (PIRLS) 2026 National Research Coordinator & National Study Centre for England. (con_"
+            },
+            {
+              "title": "Test Operations Service 2025 con_25418"
+            },
+            {
+              "title": "T Levels Generation 2 Wave 1: Contract for the provision of services in relation to the Construction: Design, Surveying "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "Delivery Business Services Group",
+      "total": 518200,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Open Awards",
+          "type": "Contractor",
+          "amount": 518200,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Teaching Regulation Agency",
+      "total": 477714,
+      "transactions": 15,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Adroc Ltd",
+          "type": "Contractor",
+          "amount": 238800,
+          "pct_of_segment": 49.99
+        },
+        {
+          "rank": 2,
+          "name": "Kingsley Napley Llp",
+          "type": "Contractor",
+          "amount": 84707,
+          "pct_of_segment": 17.73
+        },
+        {
+          "rank": 3,
+          "name": "Eversheds Sutherland International Llp",
+          "type": "Contractor",
+          "amount": 56897,
+          "pct_of_segment": 11.91
+        },
+        {
+          "rank": 4,
+          "name": "Warwick Conferences",
+          "type": "Contractor",
+          "amount": 44053,
+          "pct_of_segment": 9.22
+        },
+        {
+          "rank": 5,
+          "name": "Capsticks Limited",
+          "type": "Contractor",
+          "amount": 27959,
+          "pct_of_segment": 5.85
+        },
+        {
+          "rank": 6,
+          "name": "Farsight Consulting Limited",
+          "type": "Contractor",
+          "amount": 25298,
+          "pct_of_segment": 5.3
+        }
+      ]
+    },
+    {
+      "segment": "Strategic Policy Directorate - Self-Funded",
+      "total": 428539,
+      "transactions": 10,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Qinetiq Plc",
+          "type": "Defence Contractor",
+          "amount": 229192,
+          "pct_of_segment": 53.48
+        },
+        {
+          "rank": 2,
+          "name": "Home Office",
+          "type": "Contractor",
+          "amount": 99347,
+          "pct_of_segment": 23.18
+        },
+        {
+          "rank": 3,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 45000,
+          "pct_of_segment": 10.5
+        },
+        {
+          "rank": 4,
+          "name": "Transformation By Design Ltd",
+          "type": "Contractor",
+          "amount": 30000,
+          "pct_of_segment": 7
+        },
+        {
+          "rank": 5,
+          "name": "University College London",
+          "type": "University",
+          "amount": 25000,
+          "pct_of_segment": 5.83,
+          "top_contracts": [
+            {
+              "title": "Educational Psychologist Training"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "Commissioning and Development",
+      "total": 242463,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "City And Guilds Of London Institute",
+          "type": "Contractor",
+          "amount": 242463,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Corporate Services",
+      "total": 214814,
+      "transactions": 6,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Corporate Travel Management (North) Ltd",
+          "type": "Contractor",
+          "amount": 84498,
+          "pct_of_segment": 39.34
+        },
+        {
+          "rank": 2,
+          "name": "National Audit Office",
+          "type": "Contractor",
+          "amount": 76000,
+          "pct_of_segment": 35.38
+        },
+        {
+          "rank": 3,
+          "name": "Government Internal Audit Agency",
+          "type": "Contractor",
+          "amount": 54316,
+          "pct_of_segment": 25.29
+        }
+      ]
+    },
+    {
+      "segment": "Strategy and Delivery",
+      "total": 135833,
+      "transactions": 5,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Csl Kpmg Llp",
+          "type": "Consultancy",
+          "amount": 96143,
+          "pct_of_segment": 70.78
+        },
+        {
+          "rank": 2,
+          "name": "Gartner U.K. Limited",
+          "type": "Contractor",
+          "amount": 39690,
+          "pct_of_segment": 29.22
+        }
+      ]
+    },
+    {
+      "segment": "Commercial Delivery and Legal",
+      "total": 116445,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Pearson Education Limited",
+          "type": "Contractor",
+          "amount": 116445,
+          "pct_of_segment": 100,
+          "top_contracts": [
+            {
+              "title": "Progress in Reading Literacy Study (PIRLS) 2026 National Research Coordinator & National Study Centre for England. (con_"
+            },
+            {
+              "title": "Test Operations Service 2025 con_25418"
+            },
+            {
+              "title": "T Levels Generation 2 Wave 1: Contract for the provision of services in relation to the Construction: Design, Surveying "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "segment": "Strategy and Communication",
+      "total": 76640,
+      "transactions": 2,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Isg Live Limited",
+          "type": "Contractor",
+          "amount": 42000,
+          "pct_of_segment": 54.8
+        },
+        {
+          "rank": 2,
+          "name": "Calder Conferences Limited",
+          "type": "Contractor",
+          "amount": 34640,
+          "pct_of_segment": 45.2
+        }
+      ]
+    },
+    {
+      "segment": "Private Office",
+      "total": 48724,
+      "transactions": 3,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Cabinet Office",
+          "type": "Contractor",
+          "amount": 48724,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Advanced British Standard",
+      "total": 30000,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Deltapoll Limited",
+          "type": "Contractor",
+          "amount": 30000,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Operations and Infrastructure DG",
+      "total": 28910,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Department For Business Energy And Industrial Strategy",
+          "type": "Contractor",
+          "amount": 28910,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Corporate Functions",
+      "total": 28503,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Corporate Travel Management (North) Ltd",
+          "type": "Contractor",
+          "amount": 28503,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Strategy DG",
+      "total": 21423,
+      "transactions": 1,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Ernst And Young Llp",
+          "type": "Contractor",
+          "amount": 21423,
+          "pct_of_segment": 100
+        }
+      ]
+    }
+  ],
+  "source": "UK Government Spending Over £25,000, Department for Education, 2024",
+  "note": "Segmented by expense area. Only covers transactions over £25,000.",
+  "generated": "2026-04-08"
+}

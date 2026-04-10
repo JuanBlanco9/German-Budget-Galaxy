@@ -1,0 +1,520 @@
+{
+  "dept": "DCMS",
+  "dept_id": "department_for_culture_media_and_sport",
+  "year": 2024,
+  "currency": "GBP",
+  "total_dept": 13200000000,
+  "total_spend25k": 6052952219,
+  "partial": false,
+  "months_covered": 12,
+  "segments": [
+    {
+      "segment": "BBC & Broadcasting",
+      "total": 3863208665,
+      "transactions": 21,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "British Broadcasting Corporation",
+          "type": "Contractor",
+          "amount": 3863208665,
+          "pct_of_segment": 100,
+          "notable": true,
+          "notable_reason": "BBC receives direct DCMS funding in addition to TV licence fee"
+        }
+      ]
+    },
+    {
+      "segment": "National Museums & Heritage",
+      "total": 629565551,
+      "transactions": 228,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "British Library",
+          "type": "Contractor",
+          "amount": 137732839,
+          "pct_of_segment": 21.88
+        },
+        {
+          "rank": 2,
+          "name": "Historic England (GIA)",
+          "type": "Contractor",
+          "amount": 88474000,
+          "pct_of_segment": 14.05
+        },
+        {
+          "rank": 3,
+          "name": "Natural History Museum",
+          "type": "Contractor",
+          "amount": 87772979,
+          "pct_of_segment": 13.94
+        },
+        {
+          "rank": 4,
+          "name": "British Museum",
+          "type": "Contractor",
+          "amount": 78620500,
+          "pct_of_segment": 12.49
+        },
+        {
+          "rank": 5,
+          "name": "Science Museum Group (ex-NMSI)",
+          "type": "Contractor",
+          "amount": 57395456,
+          "pct_of_segment": 9.12
+        },
+        {
+          "rank": 6,
+          "name": "Tate Gallery",
+          "type": "Contractor",
+          "amount": 56330360,
+          "pct_of_segment": 8.95
+        },
+        {
+          "rank": 7,
+          "name": "Imperial War Museum",
+          "type": "Contractor",
+          "amount": 31888272,
+          "pct_of_segment": 5.07
+        },
+        {
+          "rank": 8,
+          "name": "National Museums & Galleries Merseyside",
+          "type": "Contractor",
+          "amount": 30303854,
+          "pct_of_segment": 4.81
+        },
+        {
+          "rank": 9,
+          "name": "National Gallery",
+          "type": "Contractor",
+          "amount": 28746909,
+          "pct_of_segment": 4.57
+        },
+        {
+          "rank": 10,
+          "name": "National Portrait Gallery",
+          "type": "Contractor",
+          "amount": 10413269,
+          "pct_of_segment": 1.65
+        },
+        {
+          "rank": 11,
+          "name": "The Royal Armouries",
+          "type": "Contractor",
+          "amount": 8634200,
+          "pct_of_segment": 1.37
+        },
+        {
+          "rank": 12,
+          "name": "Horniman Museum",
+          "type": "Contractor",
+          "amount": 4852822,
+          "pct_of_segment": 0.77
+        },
+        {
+          "rank": 13,
+          "name": "Wallace Collection",
+          "type": "Contractor",
+          "amount": 4591980,
+          "pct_of_segment": 0.73
+        },
+        {
+          "rank": 14,
+          "name": "Geffrye Museum",
+          "type": "Contractor",
+          "amount": 2189000,
+          "pct_of_segment": 0.35
+        },
+        {
+          "rank": 15,
+          "name": "Historic England",
+          "type": "Contractor",
+          "amount": 835876,
+          "pct_of_segment": 0.13
+        },
+        {
+          "rank": 16,
+          "name": "The British Museum Great Court Limited",
+          "type": "Contractor",
+          "amount": 639485,
+          "pct_of_segment": 0.1
+        },
+        {
+          "rank": 17,
+          "name": "Oxford Univ. Museum of Natural History",
+          "type": "Contractor",
+          "amount": 143750,
+          "pct_of_segment": 0.02
+        }
+      ]
+    },
+    {
+      "segment": "Arts & Culture",
+      "total": 537683882,
+      "transactions": 12,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Arts Council of England",
+          "type": "Local Authority",
+          "amount": 537683882,
+          "pct_of_segment": 100
+        }
+      ]
+    },
+    {
+      "segment": "Other DCMS",
+      "total": 518263111,
+      "transactions": 1435,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Victoria & Albert Museum",
+          "type": "Contractor",
+          "amount": 57029776,
+          "pct_of_segment": 11
+        },
+        {
+          "rank": 2,
+          "name": "National Citizen Service",
+          "type": "Contractor",
+          "amount": 50657431,
+          "pct_of_segment": 9.77
+        },
+        {
+          "rank": 3,
+          "name": "VisitBritain",
+          "type": "Contractor",
+          "amount": 46277178,
+          "pct_of_segment": 8.93
+        },
+        {
+          "rank": 4,
+          "name": "West Midlands Combined Authority",
+          "type": "Contractor",
+          "amount": 40719367,
+          "pct_of_segment": 7.86
+        },
+        {
+          "rank": 5,
+          "name": "East Midlands Business Limited",
+          "type": "Contractor",
+          "amount": 31014680,
+          "pct_of_segment": 5.98
+        },
+        {
+          "rank": 6,
+          "name": "British Film Institute",
+          "type": "Contractor",
+          "amount": 30094787,
+          "pct_of_segment": 5.81
+        },
+        {
+          "rank": 7,
+          "name": "MHCLG",
+          "type": "Contractor",
+          "amount": 28888148,
+          "pct_of_segment": 5.57
+        },
+        {
+          "rank": 8,
+          "name": "National Maritime Museum",
+          "type": "Contractor",
+          "amount": 25970217,
+          "pct_of_segment": 5.01
+        },
+        {
+          "rank": 9,
+          "name": "Department for Science",
+          "type": "Contractor",
+          "amount": 24849577,
+          "pct_of_segment": 4.79
+        },
+        {
+          "rank": 10,
+          "name": "Groundwork UK",
+          "type": "Contractor",
+          "amount": 16947495,
+          "pct_of_segment": 3.27
+        },
+        {
+          "rank": 11,
+          "name": "Scottish Football Association (SFA)",
+          "type": "Contractor",
+          "amount": 11425000,
+          "pct_of_segment": 2.2
+        },
+        {
+          "rank": 12,
+          "name": "British Council",
+          "type": "Local Authority",
+          "amount": 10142217,
+          "pct_of_segment": 1.96
+        },
+        {
+          "rank": 13,
+          "name": "United Kingdom Anti Doping Ltd",
+          "type": "Contractor",
+          "amount": 9161000,
+          "pct_of_segment": 1.77
+        },
+        {
+          "rank": 14,
+          "name": "UK Games Talent and Finance C.I.C",
+          "type": "Contractor",
+          "amount": 7583048,
+          "pct_of_segment": 1.46
+        },
+        {
+          "rank": 15,
+          "name": "Football Association of Wales Limited",
+          "type": "Contractor",
+          "amount": 6791721,
+          "pct_of_segment": 1.31
+        },
+        {
+          "rank": 16,
+          "name": "UK Communtity Foundations",
+          "type": "Contractor",
+          "amount": 5999741,
+          "pct_of_segment": 1.16
+        },
+        {
+          "rank": 17,
+          "name": "Kantar Public UK Ltd",
+          "type": "Contractor",
+          "amount": 5750504,
+          "pct_of_segment": 1.11
+        },
+        {
+          "rank": 18,
+          "name": "Government Property Agency",
+          "type": "Contractor",
+          "amount": 5675326,
+          "pct_of_segment": 1.1
+        },
+        {
+          "rank": 19,
+          "name": "Irish Football Association",
+          "type": "Contractor",
+          "amount": 4694407,
+          "pct_of_segment": 0.91
+        },
+        {
+          "rank": 20,
+          "name": "Government Legal Department",
+          "type": "Contractor",
+          "amount": 3651902,
+          "pct_of_segment": 0.7
+        }
+      ]
+    },
+    {
+      "segment": "Sport",
+      "total": 234492691,
+      "transactions": 24,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Sport England",
+          "type": "Contractor",
+          "amount": 147298919,
+          "pct_of_segment": 62.82,
+          "top_contracts": [
+            {
+              "title": "SE1157 Evaluation, Learning and Innovation partner for Sport England's Open Fund"
+            },
+            {
+              "title": "SE1151 - Creating a Leadership Community"
+            },
+            {
+              "title": "SE1151 - Creating a Leadership Community"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "United Kingdom Sports Council",
+          "type": "Local Authority",
+          "amount": 87193772,
+          "pct_of_segment": 37.18
+        }
+      ]
+    },
+    {
+      "segment": "Social Investment",
+      "total": 133707736,
+      "transactions": 25,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Social Investment Buisness",
+          "type": "Contractor",
+          "amount": 120472000,
+          "pct_of_segment": 90.1
+        },
+        {
+          "rank": 2,
+          "name": "Social Investment Business",
+          "type": "Contractor",
+          "amount": 13235736,
+          "pct_of_segment": 9.9
+        }
+      ]
+    },
+    {
+      "segment": "National Lottery & Heritage",
+      "total": 102707563,
+      "transactions": 35,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "TNLCF - Community Organisations Cos",
+          "type": "Contractor",
+          "amount": 42785751,
+          "pct_of_segment": 41.66
+        },
+        {
+          "rank": 2,
+          "name": "National Heritage Memorial Fund",
+          "type": "Contractor",
+          "amount": 28000000,
+          "pct_of_segment": 27.26
+        },
+        {
+          "rank": 3,
+          "name": "GIA Gambling Commission(Lottery)",
+          "type": "Contractor",
+          "amount": 19686449,
+          "pct_of_segment": 19.17
+        },
+        {
+          "rank": 4,
+          "name": "NLCF Big Lottery Fund - Life Chances",
+          "type": "Contractor",
+          "amount": 9078079,
+          "pct_of_segment": 8.84
+        },
+        {
+          "rank": 5,
+          "name": "NLCF Big Lottery Fund - #iwill Fund",
+          "type": "Contractor",
+          "amount": 2060106,
+          "pct_of_segment": 2.01
+        },
+        {
+          "rank": 6,
+          "name": "TNLCF - The Big Lottery Fund -",
+          "type": "Contractor",
+          "amount": 1097178,
+          "pct_of_segment": 1.07
+        }
+      ]
+    },
+    {
+      "segment": "Royal Parks",
+      "total": 26969618,
+      "transactions": 18,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "The Royal Parks (Barter Only)",
+          "type": "Contractor",
+          "amount": 16052534,
+          "pct_of_segment": 59.52
+        },
+        {
+          "rank": 2,
+          "name": "The Royal Parks",
+          "type": "Contractor",
+          "amount": 10917084,
+          "pct_of_segment": 40.48
+        }
+      ]
+    },
+    {
+      "segment": "Research & Innovation",
+      "total": 5953402,
+      "transactions": 95,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Ipsos (Market Research) Ltd",
+          "type": "Contractor",
+          "amount": 3247328,
+          "pct_of_segment": 54.55,
+          "top_contracts": [
+            {
+              "title": "Online Advertising Experiences Survey"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "UKRI – Engineering & Physical Sciences",
+          "type": "Contractor",
+          "amount": 1141456,
+          "pct_of_segment": 19.17
+        },
+        {
+          "rank": 3,
+          "name": "Arts and Humamities Research Council",
+          "type": "Local Authority",
+          "amount": 831722,
+          "pct_of_segment": 13.97
+        },
+        {
+          "rank": 4,
+          "name": "National Centre for Social Research",
+          "type": "Contractor",
+          "amount": 588346,
+          "pct_of_segment": 9.88,
+          "top_contracts": [
+            {
+              "title": "Gambling Act Review Monitoring and Evaluation Plan"
+            },
+            {
+              "title": "Funding Model Review"
+            },
+            {
+              "title": "Exploring the Impact of Innovation on Productivity within DCMS Sectors"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Research Works Ltd",
+          "type": "Contractor",
+          "amount": 114592,
+          "pct_of_segment": 1.92
+        },
+        {
+          "rank": 6,
+          "name": "IFF Research",
+          "type": "Contractor",
+          "amount": 29958,
+          "pct_of_segment": 0.5
+        }
+      ]
+    },
+    {
+      "segment": "Regulation",
+      "total": 400000,
+      "transactions": 2,
+      "top_recipients": [
+        {
+          "rank": 1,
+          "name": "Ofcom",
+          "type": "Contractor",
+          "amount": 400000,
+          "pct_of_segment": 100
+        }
+      ]
+    }
+  ],
+  "source": "UK Government Spending Over £25,000, DCMS, 2024",
+  "note": "Segmented by expense area. Only covers transactions over £25,000.",
+  "generated": "2026-04-08"
+}

@@ -731,6 +731,36 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
   .lp-explore-btn{padding:14px 44px;font-size:16px}
   .bl-desc-action{padding:8px 0;font-size:13px}
 }
+/* ── Geo badges + local spend (v24) ── */
+.geo-badge{font-size:9px;font-weight:600;padding:1px 5px;border-radius:3px;margin-left:4px;vertical-align:middle;display:inline-block}
+.geo-badge.local{background:#1a4731;color:#52c41a}
+.geo-badge.postcode{background:#2d3748;color:#a0aec0}
+.geo-badge.type{background:#3d3400;color:#d4a017}
+.local-summary{margin:8px 0 12px;padding:8px 10px;background:rgba(82,196,26,0.08);border-radius:4px;border-left:3px solid #52c41a;font-size:12px}
+.local-bar{height:5px;background:rgba(255,255,255,0.1);border-radius:3px;margin-bottom:5px;overflow:hidden}
+.local-fill{height:100%;background:#52c41a;border-radius:3px;transition:width .3s}
+.local-pct{font-weight:700;color:#52c41a;font-size:14px}
+.local-detail{color:#718096;font-size:11px}
+/* ── Subcategories panel (v24) ── */
+.subcats-panel{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.1)}
+.subcats-title{font-weight:600;font-size:12px;color:#e2e8f0;margin-bottom:8px}
+.subcats-note{font-weight:400;font-size:10px;color:#718096;display:block;margin-top:2px}
+.subcat-row{display:grid;grid-template-columns:220px 1fr 110px;align-items:center;gap:6px;margin-bottom:5px}
+.subcat-label{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#cbd5e0}
+.subcat-track{background:rgba(255,255,255,0.08);border-radius:2px;height:13px;overflow:hidden}
+.subcat-bar{height:100%;background:#4a9eff;border-radius:2px;transition:width .3s}
+.subcat-nums{display:flex;gap:6px;justify-content:flex-end;font-size:11px}
+.subcat-amt{font-weight:600;color:#e2e8f0}
+.subcat-pct{color:#718096;min-width:30px;text-align:right}
+/* ── Supplier map (v24) ── */
+.sup-map{margin-top:12px;width:100%;min-height:180px}
+/* ── Dual treemap sidebar (v24) ── */
+.right-col{position:fixed;right:0;top:55px;width:32%;height:calc(100vh - 55px);display:flex;flex-direction:column;border-left:1px solid rgba(255,255,255,0.08);background:rgba(10,10,20,0.85);z-index:100;display:none}
+.tc-context{flex:0 0 38%;padding:10px;border-bottom:1px solid rgba(255,255,255,0.08);overflow:hidden}
+.tc-detail{flex:1;padding:10px;overflow:hidden}
+.tc-label{font-size:9px;color:#4a5568;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:6px}
+.tc-context svg,.tc-detail svg{width:100%;height:calc(100% - 20px)}
+@media(min-width:1200px){.right-col{display:flex}#tab-budgetlist .bl-container{margin-right:33%}}
 </style>
 </head>
 <body>
@@ -838,7 +868,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
     <div style="font-size:11px;color:rgba(255,255,255,.85);margin-bottom:20px;text-shadow:0 1px 6px rgba(0,0,0,.7)">More countries coming soon: &#127463;&#127479; Brazil &middot; &#127470;&#127473; Israel &middot; &#127464;&#127462; Canada &middot; &#127471;&#127477; Japan</div>
 
     <div class="lp-footer">
-      MIT License &middot; Open Source &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a> &middot; <a href="https://github.com/sponsors/JuanBlanco9" target="_blank" style="color:var(--accent)">&hearts; Support</a> &middot; Juan Blanco
+      MIT License &middot; Open Source &middot; <a href="/methodology.html" style="color:var(--accent)">Methodology</a> &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a> &middot; <a href="https://github.com/sponsors/JuanBlanco9" target="_blank" style="color:var(--accent)">&hearts; Support</a> &middot; Juan Blanco
     </div>
   </div>
 </div>
@@ -932,6 +962,16 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 <!-- BUDGET LIST TAB -->
 <div id="tab-budgetlist" class="panel" style="display:none">
   <div class="bl-container" id="bl-container"></div>
+  <div class="right-col" id="rightCol">
+    <div class="tc-context">
+      <div class="tc-label">context</div>
+      <svg id="tcContextSvg"></svg>
+    </div>
+    <div class="tc-detail">
+      <div class="tc-label">current level</div>
+      <svg id="tcDetailSvg"></svg>
+    </div>
+  </div>
 </div>
 
 <!-- MAP TAB -->
@@ -1176,6 +1216,16 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
       <p style="margin-bottom:8px">&bull; Enrichment data (beneficiary counts, international comparisons) is <strong>approximate and from various reporting periods</strong> (mostly 2023&ndash;2024). It has been fact-checked against official sources but may not reflect the most current figures.</p>
       <p style="margin-bottom:20px">&bull; Translations of official German budget item names are provided for accessibility. <strong>The official names are in German</strong> &mdash; use the DE/EN toggle or the translate button for individual items.</p>
 
+      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Fiscal consolidation</h2>
+      <p style="margin-bottom:12px">Budget Galaxy combines multiple levels of government for Germany, France, and the UK. Central government transfers to subnational entities may appear at both levels, inflating the combined total. Deduction files (<code>intergovernmental_*.json</code>) document the exact amounts by year.</p>
+      <table style="width:100%;font-size:12px;border-collapse:collapse;margin-bottom:20px">
+        <tr style="border-bottom:1px solid var(--border);color:var(--dim)"><td style="padding:6px 0;font-weight:600">Country</td><td style="padding:6px 0;font-weight:600">Overlap</td><td style="padding:6px 0;font-weight:600">Source of overlap</td></tr>
+        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">&#127465;&#127466; Germany</td><td style="padding:6px 0">&euro;110&ndash;180B (6&ndash;8%)</td><td style="padding:6px 0">Federal transfers to social insurance (GRV, GKV, BA)</td></tr>
+        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">&#127467;&#127479; France</td><td style="padding:6px 0">&euro;60&ndash;170B (5&ndash;10%)</td><td style="padding:6px 0">PLF programs also in DREES Protection Sociale</td></tr>
+        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">&#127468;&#127463; United Kingdom</td><td style="padding:6px 0">&pound;55&ndash;95B (5&ndash;7%)</td><td style="padding:6px 0">Barnett Formula block grants to Scotland, Wales and Northern Ireland</td></tr>
+        <tr><td style="padding:6px 0">&#127482;&#127480; United States</td><td style="padding:6px 0">$0</td><td style="padding:6px 0">Federal budget shown alone; state/local data not combined</td></tr>
+      </table>
+
       <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Sources</h2>
       <table style="width:100%;font-size:12px;border-collapse:collapse">
         <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Federal Budget</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de" target="_blank" style="color:var(--accent)">bundeshaushalt.de</a> &mdash; Bundesministerium der Finanzen</td></tr>
@@ -1254,7 +1304,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
     </div>
 
     <div style="margin-top:32px;padding:16px;text-align:center;font-size:11px;color:var(--dim)">
-      MIT License &middot; Open Source &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a> &middot; <a href="https://github.com/sponsors/JuanBlanco9" target="_blank" style="color:var(--accent)">&hearts; Support</a> &middot; Juan Blanco
+      MIT License &middot; Open Source &middot; <a href="/methodology.html" style="color:var(--accent)">Methodology</a> &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank" style="color:var(--accent)">GitHub</a> &middot; <a href="https://github.com/sponsors/JuanBlanco9" target="_blank" style="color:var(--accent)">&hearts; Support</a> &middot; Juan Blanco
     </div>
   </div>
 </div>
@@ -4062,8 +4112,8 @@ function getBudgetDesc(node){
   const descs=galaxyLang==='de'?budgetDescDE:budgetDescEN;
   if(descs[id]) return descs[id];
 
-  // Check programme enrichment (now includes DE sozialversicherung + laender)
-  const progEnr=(PROGRAM_ENRICHMENT[currentCountry]||{})[name];
+  // Check programme enrichment (DE SV/Laender + US states + FR/UK)
+  const progEnr=(PROGRAM_ENRICHMENT[currentCountry]||{})[name]||(currentCountry==='us'?(window._usStatesEnr||{})[name]:null);
   if(progEnr) return progEnr.d;
 
   // For items with children, describe from top children
@@ -4260,6 +4310,8 @@ function getGalaxyColor(d){
   if(id==='laender') return '#a63d40';               // Länder — burgundy
   if(id==='kommunen') return '#0d8a8a';              // Kommunen — teal
   if(id==='uk_la') return '#0d8a8a';                 // UK Local Authorities — teal
+  if(id==='nhs_provider_sector') return '#d4380d';   // NHS Provider Sector — NHS red
+  if(id==='local_government_england') return '#0d8a8a'; // Local Government England — teal
   if(id==='secu') return '#1b9e4b';                  // FR Sécurité Sociale — green
   const ep=parseInt(id,10);
   if([11,15,17].includes(ep)) return '#2d6a4f'; // Social
@@ -4341,30 +4393,125 @@ function mvFmtVal(v,sym){
   return sym+Math.round(v).toLocaleString();
 }
 
+// Build combined US tree: federal agencies + "50 States" sphere
+async function _loadUSCombinedTree(year){
+  const [federal,statesNet]=await Promise.all([
+    fetch(`${API}/budget/country/us?year=${year}`).then(r=>r.json()),
+    fetch(`/data/us/states/us_states_tree_${year}_net.json`).then(r=>r.json()).catch(()=>null)
+  ]);
+  if(statesNet&&statesNet.children){
+    const statesNetTotal=(statesNet.children||[]).reduce((s,st)=>s+(st._net_value||st.value),0);
+    return {
+      name:'United States '+year,
+      value:federal.value+statesNetTotal,
+      children:[
+        ...federal.children,
+        {id:'us_50states',name:'50 States',value:statesNetTotal,
+         children:(statesNet.children||[]).map(s=>({...s,value:s._net_value||s.value}))}
+      ]
+    };
+  }
+  return federal;
+}
+
+// Restructure UK tree: extract devolved governments as siblings of Central Government
+async function _loadUKCombinedTree(year){
+  const raw=await fetch(`${API}/budget/country/uk?year=${year}`).then(r=>r.json());
+  if(!raw||!raw.children) return raw;
+  const devolvedTests=[
+    {test:n=>n.includes('scottish government'), id:'uk_scotland', label:'Scotland'},
+    {test:n=>n.includes('welsh assembly')||n.includes('welsh government'), id:'uk_wales', label:'Wales'},
+    {test:n=>n.includes('northern ireland executive'), id:'uk_ni', label:'Northern Ireland'}
+  ];
+  // Also remove OSCAR II LOCAL GOVERNMENT SCOTLAND/WALES/NI (overlaps with devolved)
+  const oscarLgRe=/^LOCAL GOVERNMENT (SCOTLAND|WALES|NORTHERN IRELAND)$/i;
+  const nations=[];
+  const central=[];
+  raw.children.forEach(c=>{
+    const nl=(c.name||'').toLowerCase().trim();
+    const dm=devolvedTests.find(d=>d.test(nl));
+    if(dm){
+      nations.push({id:dm.id,name:dm.label,value:Math.max(0,c.value),children:c.children});
+    }else if(oscarLgRe.test((c.name||'').trim())){
+      // skip — overlaps with devolved
+    }else{
+      central.push(c);
+    }
+  });
+  if(nations.length===0) return raw;
+  const centralValue=central.reduce((s,c)=>s+Math.max(0,c.value),0);
+  return {
+    name:raw.name,
+    value:centralValue+nations.reduce((s,n)=>s+n.value,0),
+    children:[
+      ...central,
+      ...nations
+    ]
+  };
+}
+
+// Build combined FR tree: PLF ministries + "Collectivités territoriales" sphere
+async function _loadFRCombinedTree(year){
+  const [central,collectivites]=await Promise.all([
+    fetch(`${API}/budget/country/fr?year=${year}`).then(r=>r.json()),
+    fetch(`/data/fr/collectivites/fr_collectivites_tree_${year}.json`).then(r=>r.json()).catch(()=>null)
+  ]);
+  if(collectivites&&collectivites.children){
+    // Remove "Relations avec les collectivités territoriales" from PLF to avoid double-counting
+    let totalDeducted=0;
+    const prunedChildren=central.children.map(ministry=>{
+      if(!ministry.children) return ministry;
+      let md=0;
+      const kept=ministry.children.filter(c=>{
+        if((c.name||'').toLowerCase().includes('relations avec les collectivit')){md+=c.value;return false}
+        return true;
+      });
+      if(md===0) return ministry;
+      totalDeducted+=md;
+      return {...ministry,value:ministry.value-md,children:kept};
+    });
+    const ctValue=collectivites.value;
+    return {
+      name:central.name,
+      value:central.value-totalDeducted+ctValue,
+      children:[
+        ...prunedChildren,
+        {id:'fr_collectivites',name:'Collectivités territoriales',value:ctValue,
+         children:collectivites.children}
+      ]
+    };
+  }
+  return central;
+}
+
 function mvGoToExplorer(countryCode, nodeName, year){
   closeMvInfo();
-  // Switch country context without resetting multiverse
   currentCountry=countryCode;
   const meta=COUNTRY_META[countryCode];
   galaxyYear=year||meta.defaultYear;
-  // Update header
   const h1=document.querySelector('.header h1');
   if(h1) h1.innerHTML=`<span>${meta.flag} ${meta.name}</span> Budget Galaxy`;
   document.querySelectorAll('.country-switch button').forEach(b=>b.classList.toggle('active',b.dataset.country===countryCode));
   const langDiv=document.getElementById('global-lang');
   if(langDiv) langDiv.style.display=countryCode==='de'?'':'none';
-  // Load budget explorer for that year and navigate to node
   blRoot=null;
-  const url=countryCode==='de'?`${API}/budget/tree?year=${galaxyYear}`:`${API}/budget/country/${countryCode}?year=${galaxyYear}`;
-  fetch(url).then(r=>r.json()).then(data=>{
+  const _loadAndNav=function(data){
     blRoot=d3.hierarchy(data).sum(d=>d.children?0:d.value).sort((a,b)=>b.value-a.value);
-    // Find target node by name
     let target=null;
     blRoot.each(d=>{if(d.data.name===nodeName) target=d});
     showTab('budgetlist',null);
-    if(target) renderBudgetList(target);
-    else renderBudgetList(blRoot);
-  });
+    if(target) renderBudgetList(target); else renderBudgetList(blRoot);
+  };
+  if(countryCode==='us'){
+    _loadUSCombinedTree(galaxyYear).then(_loadAndNav);
+  }else if(countryCode==='uk'){
+    _loadUKCombinedTree(galaxyYear).then(_loadAndNav);
+  }else if(countryCode==='fr'){
+    _loadFRCombinedTree(galaxyYear).then(_loadAndNav);
+  }else{
+    const url=countryCode==='de'?`${API}/budget/tree?year=${galaxyYear}`:`${API}/budget/country/${countryCode}?year=${galaxyYear}`;
+    fetch(url).then(r=>r.json()).then(_loadAndNav);
+  }
 }
 
 const US_SPENDING_TYPES={
@@ -4421,6 +4568,7 @@ async function loadProgramEnrichments(cc){
 
 const MV_ENRICHMENT={
 us:{
+"50 States":{keyFigures:"$3.0T net (2022, after deducting ~$1.3T in federal grants). 50 states + DC. 19.7M state/local employees.",desc:"Education is the largest category (~30%), followed by public welfare (Medicaid), highways, police, and hospitals. States receive ~$1.3T/year in federal grants (Medicaid, education, highways) which are excluded here to avoid double-counting with the federal agencies.",fact:"State and local governments employ nearly 1 in 7 American workers — 5x the federal civilian workforce."},
 "Department of Health and Human Services":{keyFigures:"Medicare: 67M beneficiaries. Medicaid/CHIP: 92M enrollees. NIH funds ~50,000 research grants/year. ~80,000 employees.",desc:"95% flows to Medicare and Medicaid. The rest funds NIH biomedical research, FDA, CDC, and public health.",fact:"Medicare alone processes over 1 billion claims per year. HHS is the largest grant-making agency in the federal government."},
 "Department of the Treasury":{keyFigures:"Net interest on debt: ~$882B (FY2024). IRS processed 163M returns, issued $452B in refunds. IRS: ~90,000 employees.",desc:"The vast majority pays interest on ~$35T in federal debt. The rest funds the IRS, Bureau of the Fiscal Service, and sanctions programs (OFAC).",fact:"Interest on the debt surpassed defense spending for the first time in FY2024."},
 "Department of Defense":{keyFigures:"1.3M active-duty, 750K civilians, 800K Reserve/Guard. ~4,800 sites in 160 countries. ~13,000 aircraft, 290 ships.",desc:"One-third personnel (pay, TRICARE for 9.6M), one-third operations/maintenance, one-third procurement and R&D.",fact:"DoD is the world's largest employer. Its real estate portfolio (26M acres) is larger than Virginia."},
@@ -4447,6 +4595,9 @@ fr:{
 "Transition écologique, énergie, climat et prévention des risques":{keyFigures:"56 nuclear reactors (~65% of electricity). Target: 40% renewable by 2030. 800,000 MaPrimeRénov' dossiers (2023). 1,800 Seveso sites.",desc:"Energy transition (renewables, EV bonuses), MaPrimeRénov', biodiversity, nuclear safety (ASN), water/air quality, and climate adaptation.",fact:"France has the lowest-carbon electricity in the G7 (~55g CO2/kWh vs 350g in Germany), yet was the only EU country to miss its 2020 renewable target."},
 },
 uk:{
+"Scotland":{keyFigures:"5.4M population. Scottish Parliament (Holyrood). Devolved: health, education, justice, transport.",desc:"The Scottish Government manages NHS Scotland, Police Scotland, Scottish education, and transport. Funded primarily by Barnett Formula block grant from Westminster.",fact:"Scotland has the highest per-capita public spending in the UK at ~£14,500/head, 15% above the UK average."},
+"Wales":{keyFigures:"3.1M population. Welsh Parliament (Senedd Cymru). Devolved: health, education, local government.",desc:"The Welsh Government manages NHS Wales, Welsh education, and local government funding. Funded primarily by Barnett Formula block grant.",fact:"Wales receives ~£14,000/head in public spending, 11% above the UK average."},
+"Northern Ireland":{keyFigures:"1.9M population. NI Assembly (Stormont). Broadest devolution: includes policing and justice.",desc:"The NI Executive manages health, education, policing, justice, and agriculture — broader powers than Scotland or Wales. Funded by block grant plus local revenues.",fact:"Northern Ireland has the highest per-capita public spending in the UK at ~£14,500/head."},
 "Work and Pensions":{keyFigures:"12.7M State Pension recipients. 5.5M Universal Credit claimants. 2.6M PIP claimants.",desc:"State Pension (~£125B) and working-age benefits: Universal Credit, Housing Benefit, disability (PIP/DLA), and Employment Support Allowance.",fact:"DWP's annual expenditure exceeds the entire GDP of Portugal."},
 "Health and Social Care":{keyFigures:"NHS treats 1.3M patients every 24 hours. 1.4M NHS staff — world's 5th largest employer. 340M GP appointments/year.",desc:"Predominantly NHS England (~£165B): hospitals, GP services, mental health, prescriptions. The rest: social care grants, UKHSA, capital investment.",fact:"Public satisfaction with the NHS fell to its lowest recorded level (24%) in the 2023 BSA survey."},
 "HM Revenue & Customs":{keyFigures:"Collects ~£820B in tax revenue. 12M Self Assessment returns/year. 65,000 employees.",desc:"Tax credits and child benefit payments (~£30B), tax system administration, customs enforcement, and taxpayer compliance activities.",fact:"HMRC's 'tax gap' is £39.8B (4.8%) — for every £1 spent on operations it recovers roughly £20 in revenue."},
@@ -4509,14 +4660,27 @@ function openMvInfo(node){
     html+=`</div>`;
   }
 
-  // Programme-level enrichment (150 programmes across US/FR/UK)
-  const progEnr=(PROGRAM_ENRICHMENT[cc]||{})[name];
+  // Programme-level enrichment (US/FR/UK) + US states enrichment
+  const progEnr=(PROGRAM_ENRICHMENT[cc]||{})[name]||(cc==='us'?(window._usStatesEnr||{})[name]:null);
   if(progEnr&&!enr){
     html+=`<div style="margin:12px 0;padding:10px;background:rgba(255,255,255,.04);border-radius:6px;border:1px solid var(--border)">`;
     if(progEnr.y) html+=`<div style="font-size:9px;color:var(--dim);margin-bottom:4px">Est. ${progEnr.y}</div>`;
     html+=`<div style="font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px">${esc(progEnr.d)}</div>`;
     if(progEnr.b&&progEnr.b!=='not applicable') html+=`<div style="font-size:10px;color:var(--accent);line-height:1.5">${esc(progEnr.b)}</div>`;
     html+=`</div>`;
+  }
+
+  // NHS Trust panel (sector badge + ICB + expenditure breakdown)
+  if(node.data&&node.data._source&&String(node.data._source).startsWith('NHS TAC ')){
+    html+=renderNHSTrustPanel(node.data);
+  }
+  // NHS Staff Costs drill-down panel (cost type + workforce composition)
+  if(node.data&&node.data._workforce){
+    html+=renderNHSStaffPanel(node.data);
+  }
+  // Council top suppliers panel (Spend Over £500 metadata)
+  if(node.data&&node.data._top_suppliers){
+    html+=renderCouncilSuppliersPanel(node.data);
   }
 
   // Spending type breakdown (US agencies)
@@ -4651,6 +4815,15 @@ function closeMvInfo(){
   if(card) card.classList.remove('open');
 }
 
+// US state regions for Multiverse sub-sphere colors
+const MV_STATE_REGIONS={
+  CT:'ne',ME:'ne',MA:'ne',NH:'ne',NJ:'ne',NY:'ne',PA:'ne',RI:'ne',VT:'ne',
+  AL:'s',AR:'s',DC:'s',DE:'s',FL:'s',GA:'s',KY:'s',LA:'s',MD:'s',MS:'s',NC:'s',OK:'s',SC:'s',TN:'s',TX:'s',VA:'s',WV:'s',
+  IL:'mw',IN:'mw',IA:'mw',KS:'mw',MI:'mw',MN:'mw',MO:'mw',NE:'mw',ND:'mw',OH:'mw',SD:'mw',WI:'mw',
+  AK:'w',AZ:'w',CA:'w',CO:'w',HI:'w',ID:'w',MT:'w',NV:'w',NM:'w',OR:'w',UT:'w',WA:'w',WY:'w'
+};
+const MV_REGION_PAL={ne:'#1a3d7a',s:'#a01c1c',mw:'#c06010',w:'#1e6a35'};
+
 let multiverseLoaded=false;
 let multiverseYear=2024;
 let mvAvailableYears={};
@@ -4658,8 +4831,9 @@ let mvAvailableYears={};
 async function loadMultiverse(forceYear){
   const container=document.getElementById('multiverse-container');
   if(!container) return;
-  // Preload enrichments for all countries
+  // Preload enrichments for all countries + US states
   ['de','us','fr','uk'].forEach(c=>loadProgramEnrichments(c));
+  if(!window._usStatesEnr){window._usStatesEnr={};fetch('/data/us/states/us_states_enrichment.json').then(r=>r.ok?r.json():{}).then(d=>{window._usStatesEnr=d}).catch(()=>{})}
 
   if(forceYear) multiverseYear=forceYear;
 
@@ -4715,8 +4889,16 @@ async function loadMultiverse(forceYear){
   await Promise.all(countryCodes.map(async c=>{
     if(!(mvAvailableYears[c]||[]).includes(multiverseYear)) return;
     try{
-      const url=c==='de'?`${API}/budget/tree?year=${multiverseYear}`:`${API}/budget/country/${c}?year=${multiverseYear}`;
-      rawTrees[c]=await (await fetch(url)).json();
+      if(c==='us'){
+        rawTrees.us=await _loadUSCombinedTree(multiverseYear);
+      }else if(c==='uk'){
+        rawTrees.uk=await _loadUKCombinedTree(multiverseYear);
+      }else if(c==='fr'){
+        rawTrees.fr=await _loadFRCombinedTree(multiverseYear);
+      }else{
+        const url=c==='de'?`${API}/budget/tree?year=${multiverseYear}`:`${API}/budget/country/${c}?year=${multiverseYear}`;
+        rawTrees[c]=await (await fetch(url)).json();
+      }
     }catch(e){console.error('Multiverse fetch',c,e)}
   }));
 
@@ -4807,9 +4989,8 @@ async function loadMultiverse(forceYear){
   // Sphere gradients for depth-1 nodes (ministries/agencies within each country)
   allNodes.filter(d=>d.depth===1).forEach(d=>{
     const cc=d._country;
-    const pal=palettes[cc]||palettes.de;
     const i=d.parent?d.parent.children.indexOf(d):0;
-    const col=pal[i%pal.length];
+    const col=getMvColor(d);
     const c=d3.color(col);
     if(!c) return;
     const gid=`mvsph-${cc}-${i}`;
@@ -4819,9 +5000,45 @@ async function loadMultiverse(forceYear){
     grad.append('stop').attr('offset','55%').attr('stop-color',col);
     grad.append('stop').attr('offset','100%').attr('stop-color',c.darker(1.5).toString());
   });
+  // Sphere gradients for US depth-2 states inside "50 States"
+  allNodes.filter(d=>d.depth===2&&d._country==='us'&&d.parent&&d.parent.data&&d.parent.data.id==='us_50states').forEach((d,si)=>{
+    const col=getMvColor(d);
+    const c=d3.color(col);if(!c) return;
+    const gid='mvsph-us-st-'+si;
+    d._gradId=gid;
+    const grad=defs.append('radialGradient').attr('id',gid).attr('cx','35%').attr('cy','30%').attr('r','65%');
+    grad.append('stop').attr('offset','0%').attr('stop-color',c.brighter(1.2).toString());
+    grad.append('stop').attr('offset','55%').attr('stop-color',col);
+    grad.append('stop').attr('offset','100%').attr('stop-color',c.darker(1.5).toString());
+  });
 
   function getMvColor(d){
     const cc=d._country||'de';
+    if(cc==='us'){
+      let d1=d;while(d1&&d1.depth>1&&d1.parent) d1=d1.parent;
+      if(d1&&d1.data&&d1.data.id==='us_50states') return '#1a5a9e';
+      let d2=d;while(d2&&d2.depth>2&&d2.parent) d2=d2.parent;
+      if(d2&&d2.depth===2&&d2.parent&&d2.parent.data&&d2.parent.data.id==='us_50states'){
+        const abbr=(d2.data.abbr||'').toUpperCase()||(d2.data.id||'').replace('us_','').toUpperCase();
+        const reg=MV_STATE_REGIONS[abbr];
+        if(reg) return MV_REGION_PAL[reg];
+      }
+    }
+    // UK: Central Government grey, devolved nations colored
+    if(cc==='uk'){
+      let d1=d;while(d1&&d1.depth>1&&d1.parent) d1=d1.parent;
+      const uid=d1&&d1.data&&d1.data.id;
+      if(uid==='uk_scotland') return '#1a3a6a';
+      if(uid==='uk_wales') return '#8a1a1a';
+      if(uid==='uk_ni') return '#1a5a2a';
+      if(uid==='nhs_provider_sector') return '#d4380d';
+      if(uid==='local_government_england') return '#0d8a8a';
+    }
+    // FR: Collectivités territoriales in teal
+    if(cc==='fr'){
+      let d1=d;while(d1&&d1.depth>1&&d1.parent) d1=d1.parent;
+      if(d1&&d1.data&&d1.data.id==='fr_collectivites') return '#0d8a8a';
+    }
     const pal=palettes[cc];
     let anc=d;while(anc&&anc.depth>1&&anc.parent) anc=anc.parent;
     const i=anc&&anc.parent?anc.parent.children.indexOf(anc):0;
@@ -5868,6 +6085,341 @@ function galaxySearchSelect(depth,id){
   }
 }
 
+// ── NHS Trust Panel ─────────────────────────────
+const NHS_SECTOR_COLORS={
+  'Acute':'#d4380d',
+  'Mental Health':'#722ed1',
+  'Ambulance':'#d46b08',
+  'Community':'#0d8a8a',
+  'Specialist':'#096dd9'
+};
+const NHS_CATEGORY_COLORS={
+  'Staff Costs':'#d4380d',
+  'Clinical Supplies & Drugs':'#fa8c16',
+  'Premises & Infrastructure':'#13c2c2',
+  'Other Operating Costs':'#8c8c8c'
+};
+// Colors for the Staff Costs sub-breakdown (cost type)
+const NHS_STAFF_COST_COLORS={
+  'Salaries & wages':'#d4380d',
+  'Employer pensions':'#fa541c',
+  'Social security & levy':'#fa8c16',
+  'Agency & temporary staff':'#a8071a',
+  'Termination & post-employment':'#8c8c8c',
+  'Other & adjustments':'#595959'
+};
+// Colors for the workforce composition view (by staff group)
+const NHS_WORKFORCE_COLORS={
+  'Medical & dental':'#d4380d',
+  'Nursing, midwifery & HV':'#722ed1',
+  'Scientific, therapeutic & technical':'#096dd9',
+  'Administration & estates':'#8c8c8c',
+  'Healthcare assistants & support':'#0d8a8a',
+  'Ambulance staff':'#d46b08',
+  'Nursing learners':'#9254de',
+  'Healthcare science':'#0050b3',
+  'Social care':'#13c2c2',
+  'Other':'#595959'
+};
+// Format WTE numbers with English locale (avoid system locale ambiguity)
+function fmtWte(n){
+  if(n==null) return '';
+  return Math.round(n).toLocaleString('en-GB');
+}
+function renderNHSTrustPanel(data){
+  // data: tree node data with _source='NHS TAC 2023/24', _sector, _icb, children
+  const sector=data._sector||'Unknown';
+  const sectorColor=NHS_SECTOR_COLORS[sector]||'#888';
+  const icb=data._icb;
+  const region=data._region||'';
+  const total=data.value||0;
+  const children=data.children||[];
+
+  let h=`<div style="margin:10px 0;padding:12px;background:rgba(212,56,13,.04);border:1px solid rgba(212,56,13,.18);border-radius:8px">`;
+
+  // Header: sector badge + ICB + region
+  h+=`<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px">`;
+  h+=`<span style="display:inline-block;padding:2px 8px;background:${sectorColor};color:#fff;font-size:10px;font-weight:700;border-radius:10px;text-transform:uppercase;letter-spacing:.5px">${esc(sector)}</span>`;
+  if(icb&&icb.name){
+    const icbShort=icb.name.replace(/^NHS\s+/i,'').replace(/\s+INTEGRATED CARE BOARD$/i,'').replace(/\s+ICB$/i,'');
+    h+=`<span style="font-size:10px;color:var(--dim)">commissioned by <span style="color:var(--text)">${esc(icbShort)}</span></span>`;
+  }
+  if(region) h+=`<span style="font-size:10px;color:var(--dim)">· ${esc(region)}</span>`;
+  h+=`</div>`;
+
+  // Expenditure breakdown bars
+  if(children.length>0){
+    h+=`<div style="font-size:9px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Operating Expenditure</div>`;
+    const sorted=children.slice().sort((a,b)=>b.value-a.value);
+    sorted.forEach(c=>{
+      const cName=c.name||'';
+      const cVal=c.value||0;
+      const pct=total>0?(cVal/total*100):0;
+      const col=NHS_CATEGORY_COLORS[cName]||'#888';
+      h+=`<div style="margin-bottom:6px">
+        <div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:2px">
+          <span style="color:var(--text)">${esc(cName)}</span>
+          <span style="color:var(--dim)">${fmtEur(cVal)} <span style="opacity:.6">${pct.toFixed(0)}%</span></span>
+        </div>
+        <div style="height:5px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">
+          <div style="width:${pct.toFixed(1)}%;height:100%;background:${col}"></div>
+        </div>
+      </div>`;
+    });
+  }
+
+  // Source — derive FY label from _source field (e.g., "NHS TAC 2022/23")
+  const srcLabel=(data._source||'').replace(/^NHS TAC\s*/,'');
+  h+=`<div style="font-size:9px;color:var(--dim);margin-top:8px;text-align:right">Source: NHS England TAC ${esc(srcLabel)}</div>`;
+  h+=`</div>`;
+  return h;
+}
+
+// Renders the Staff Costs drill-down panel:
+// — Cost breakdown by type (Salaries / Pensions / Social sec / Agency / etc.)
+// — Workforce composition by staff group (Medical / Nursing / Admin / etc.)
+// Triggered when the user clicks/expands a Staff Costs node that has _workforce metadata.
+function renderNHSStaffPanel(data){
+  const total=data.value||0;
+  const children=data.children||[];
+  const wf=data._workforce;
+  const wfTotal=wf?wf.total_wte:0;
+
+  let h=`<div style="margin:10px 0;padding:14px;background:rgba(212,56,13,.05);border:1px solid rgba(212,56,13,.2);border-radius:8px">`;
+
+  // Header
+  h+=`<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px">`;
+  h+=`<span style="display:inline-block;padding:2px 8px;background:#d4380d;color:#fff;font-size:10px;font-weight:700;border-radius:10px;text-transform:uppercase;letter-spacing:.5px">Staff</span>`;
+  h+=`<span style="font-size:13px;color:var(--text);font-weight:700">${fmtEur(total)}</span>`;
+  if(wfTotal>0) h+=`<span style="font-size:10px;color:var(--dim)">· ${fmtWte(wfTotal)} WTE</span>`;
+  h+=`</div>`;
+
+  // VIEW 1: Cost breakdown by type
+  if(children.length>0){
+    h+=`<div style="font-size:9px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Cost breakdown by type</div>`;
+    const sorted=children.slice().sort((a,b)=>b.value-a.value);
+    sorted.forEach(c=>{
+      const cName=c.name||'';
+      const cVal=c.value||0;
+      const pct=total>0?(cVal/total*100):0;
+      const col=NHS_STAFF_COST_COLORS[cName]||'#888';
+      h+=`<div style="margin-bottom:6px">
+        <div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:2px">
+          <span style="color:var(--text)">${esc(cName)}</span>
+          <span style="color:var(--dim)">${fmtEur(cVal)} <span style="opacity:.6">${pct.toFixed(0)}%</span></span>
+        </div>
+        <div style="height:5px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">
+          <div style="width:${Math.max(0,pct).toFixed(1)}%;height:100%;background:${col}"></div>
+        </div>
+      </div>`;
+    });
+  }
+
+  // VIEW 2: Workforce composition by staff group
+  if(wf&&wf.groups&&wf.groups.length>0&&wfTotal>0){
+    h+=`<div style="font-size:9px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin:14px 0 6px">Workforce composition (WTE)</div>`;
+    const groups=wf.groups.slice().sort((a,b)=>b.fte-a.fte);
+    groups.forEach(g=>{
+      const pct=wfTotal>0?(g.fte/wfTotal*100):0;
+      const col=NHS_WORKFORCE_COLORS[g.name]||'#888';
+      h+=`<div style="margin-bottom:6px">
+        <div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:2px">
+          <span style="color:var(--text)">${esc(g.name)}</span>
+          <span style="color:var(--dim)">${fmtWte(g.fte)} WTE <span style="opacity:.6">${pct.toFixed(0)}%</span></span>
+        </div>
+        <div style="height:5px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">
+          <div style="width:${pct.toFixed(1)}%;height:100%;background:${col}"></div>
+        </div>
+      </div>`;
+    });
+    h+=`<div style="font-size:9px;color:var(--dim);margin-top:8px;line-height:1.5;font-style:italic">Note: cost breakdown (above) is by cost type. Workforce composition is by staff group. NHS TAC reports these as two separate views; cost per individual staff group is not directly available.</div>`;
+  }
+
+  // Source
+  const srcLabel=(data._source||'').replace(/^NHS TAC09?\s*/,'');
+  h+=`<div style="font-size:9px;color:var(--dim);margin-top:10px;text-align:right">Source: NHS England TAC09 ${esc(srcLabel)}</div>`;
+  h+=`</div>`;
+  return h;
+}
+
+// Renders the "Top suppliers" panel for council service nodes that have
+// _top_suppliers metadata attached from Spend Over £500 transparency data.
+// Shown alongside the existing tree breakdown — these are NOT children
+// of the service node, they are a separate accounting view (transactions
+// captured by the £500 disclosure threshold).
+function renderCouncilSuppliersPanel(data){
+  const ts=data._top_suppliers;
+  if(!ts||!ts.suppliers||ts.suppliers.length===0) return '';
+  const sups=ts.suppliers;
+  const nodeId=(data.id||data.name||'').replace(/[^a-z0-9]/gi,'_');
+
+  let h=`<div style="margin:10px 0;padding:14px;background:rgba(13,138,138,.05);border:1px solid rgba(13,138,138,.2);border-radius:8px">`;
+
+  // Header
+  h+=`<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px">`;
+  h+=`<span style="display:inline-block;padding:2px 8px;background:#0d8a8a;color:#fff;font-size:10px;font-weight:700;border-radius:10px;text-transform:uppercase;letter-spacing:.5px">Suppliers</span>`;
+  h+=`<span style="font-size:12px;color:var(--text);font-weight:600">\u00A3${(ts.spend_total/1e6).toFixed(1)}M</span>`;
+  h+=`<span style="font-size:10px;color:var(--dim)">${ts.transaction_count.toLocaleString('en-GB')} transactions \u00B7 ${ts.unique_suppliers.toLocaleString('en-GB')} unique suppliers</span>`;
+  h+=`</div>`;
+
+  // Local spend summary
+  const realSups=sups.filter(s=>!s.name.startsWith('Other ('));
+  const localSups=realSups.filter(s=>s._local===true);
+  if(localSups.length>0){
+    const localSpend=localSups.reduce((a,s)=>a+(s.amount||0),0);
+    const totalSpend=realSups.reduce((a,s)=>a+(s.amount||0),0);
+    const pctL=totalSpend>0?Math.round(localSpend/totalSpend*100):0;
+    h+=`<div class="local-summary">
+      <div class="local-bar"><div class="local-fill" style="width:${pctL}%"></div></div>
+      <span class="local-pct">${pctL}%</span> local spend \u00B7
+      <span class="local-detail">${localSups.length} of ${realSups.length} top suppliers based in this area</span>
+    </div>`;
+  }
+
+  // Subcategories panel FIRST (if available)
+  if(data._subcategories&&data._subcategories.length>=2){
+    h+=renderSubcategoriesPanel(data._subcategories,data.value);
+  }
+
+  // Coverage caveat
+  h+=`<div style="font-size:10px;color:var(--dim);font-style:italic;margin-bottom:10px;line-height:1.45">${esc(ts.coverage_note||'')}</div>`;
+
+  // Top suppliers list
+  h+=`<div style="font-size:9px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Top suppliers (Spend Over \u00A3500 disclosure)</div>`;
+  sups.forEach((sup,i)=>{
+    const isOther=sup.name.startsWith('Other (');
+    const col=isOther?'#595959':'#0d8a8a';
+    const pct=sup.pct||0;
+    // Geo badges
+    let badge='';
+    if(!isOther){
+      if(sup._local===true) badge='<span class="geo-badge local">LOCAL</span>';
+      else if(sup._postcode){
+        const area=sup._postcode.replace(/[0-9\s].*/,'').trim();
+        badge='<span class="geo-badge postcode">'+esc(area)+'</span>';
+      }
+      if(sup._company_type==='plc') badge+='<span class="geo-badge type">PLC</span>';
+    }
+    h+=`<div style="margin-bottom:6px">
+      <div style="display:flex;justify-content:space-between;font-size:10px;margin-bottom:2px;gap:8px">
+        <span style="color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1">${esc(sup.name)}${badge}</span>
+        <span style="color:var(--dim);flex-shrink:0">\u00A3${(sup.amount/1e6).toFixed(2)}M <span style="opacity:.6">${pct.toFixed(1)}%</span> \u00B7 ${sup.transactions} tx</span>
+      </div>
+      <div style="height:4px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden">
+        <div style="width:${Math.min(100,pct).toFixed(1)}%;height:100%;background:${col}"></div>
+      </div>
+    </div>`;
+  });
+
+  // Source
+  h+=`<div style="font-size:9px;color:var(--dim);margin-top:8px;text-align:right">Source: ${esc(ts.source||'')} \u00B7 FY ${esc(ts.fy_label||'')}</div>`;
+
+  // Supplier map LAST
+  h+=`<div class="sup-map" id="sup-map-${nodeId}"></div>`;
+
+  h+=`</div>`;
+
+  // Schedule map render after DOM insert (slight delay for layout)
+  setTimeout(()=>{
+    const mapEl=document.getElementById('sup-map-'+nodeId);
+    if(mapEl&&mapEl.clientWidth>0) renderSupplierMap(sups,mapEl);
+  },150);
+
+  return h;
+}
+
+// ── Subcategories panel (v24) ──────────────────
+function renderSubcategoriesPanel(subcats,parentValue){
+  if(!subcats||subcats.length<2) return '';
+  const total=subcats.reduce((a,s)=>a+s.value,0);
+  const maxVal=Math.max(...subcats.map(s=>s.value));
+  let h='<div class="subcats-panel">';
+  h+='<div class="subcats-title">Spend breakdown by purpose';
+  h+='<span class="subcats-note">What this service actually spends on (from supplier payment categories)</span>';
+  h+='</div>';
+  subcats.forEach((sc,i)=>{
+    const w=maxVal>0?Math.round(sc.value/maxVal*100):0;
+    const op=Math.max(0.35,0.9-i*0.07);
+    h+=`<div class="subcat-row">
+      <div class="subcat-label" title="${esc(sc.name)}">${esc(sc.name)}</div>
+      <div class="subcat-track"><div class="subcat-bar" style="width:${w}%;opacity:${op}"></div></div>
+      <div class="subcat-nums">
+        <span class="subcat-amt">\u00A3${(sc.value/1e6).toFixed(1)}M</span>
+        <span class="subcat-pct">${sc.pct}%</span>
+      </div>
+    </div>`;
+  });
+  h+='</div>';
+  return h;
+}
+
+// ── Supplier postcode map (v24) ────────────────
+const PC_COORDS={
+  'GL':[51.86,-2.24],'LS':[53.80,-1.55],'ME':[51.27,0.52],'CT':[51.28,1.09],
+  'TN':[51.08,0.26],'DA':[51.44,0.22],'NW':[51.55,-0.17],'SE':[51.48,-0.05],
+  'SW':[51.47,-0.19],'BS':[51.45,-2.59],'M':[53.48,-2.24],'S':[53.38,-1.47],
+  'OL':[53.54,-2.12],'DY':[52.51,-2.08],'NG':[52.95,-1.15],'BN':[50.82,-0.14],
+  'NR':[52.63,1.30],'PE':[52.57,-0.25],'TR':[50.26,-5.05],'PL':[50.37,-4.14],
+  'AL':[51.75,-0.34],'EN':[51.65,-0.07],'HP':[51.75,-0.49],'SG':[51.90,-0.21],
+  'WD':[51.66,-0.40],'MK':[52.04,-0.76],'SL':[51.51,-0.60],'YO':[53.96,-1.08],
+  'HG':[53.99,-1.54],'DL':[54.52,-1.56],'WF':[53.68,-1.50],'OX':[51.75,-1.26],
+  'IP':[52.06,1.16],'CB':[52.21,0.12],'B':[52.48,-1.90],'CV':[52.41,-1.51],
+  'LE':[52.63,-1.13],'DE':[52.92,-1.48],'WN':[53.54,-2.63],'CH':[53.19,-2.89],
+  'L':[53.41,-2.98],'NE':[54.98,-1.62],'E':[51.52,-0.02],'N':[51.56,-0.11],
+  'W':[51.51,-0.20],'EC':[51.52,-0.09],'WC':[51.52,-0.12],'CR':[51.37,-0.10],
+  'SM':[51.40,-0.19],'ST':[52.98,-2.18],'WS':[52.58,-1.98],'WV':[52.59,-2.12],
+  'TS':[54.57,-1.24],'SR':[54.91,-1.38],'BD':[53.79,-1.75],'HD':[53.65,-1.78],
+  'DN':[53.52,-1.13],'SK':[53.41,-2.16],'BL':[53.58,-2.43],'PR':[53.76,-2.70],
+  'BB':[53.75,-2.48],'LA':[54.05,-2.80],'FY':[53.82,-3.05],'SO':[50.90,-1.40],
+  'PO':[50.82,-1.09],'RG':[51.46,-0.97],'GU':[51.24,-0.57],'RH':[51.17,-0.18],
+  'KT':[51.37,-0.31],'TW':[51.44,-0.34],'BR':[51.40,0.02],'RM':[51.56,0.18],
+  'IG':[51.56,0.08],'SS':[51.54,0.71],'CM':[51.73,0.47],'CO':[51.89,0.90],
+  'SN':[51.56,-1.78],'BA':[51.38,-2.36],'EX':[50.72,-3.53],'TQ':[50.46,-3.53],
+  'TA':[51.01,-3.10],'DT':[50.71,-2.44],'SP':[51.07,-1.80],'BH':[50.72,-1.88],
+  'CF':[51.48,-3.18],'SA':[51.62,-3.94],'LD':[52.24,-3.38],'LL':[53.10,-3.80],
+  'SY':[52.41,-2.72],'HR':[52.06,-2.72],'WR':[52.19,-2.22],'NN':[52.24,-0.90],
+  'LN':[53.23,-0.54],'HU':[53.74,-0.33],'EH':[55.95,-3.19],'G':[55.86,-4.25],
+  'KA':[55.46,-4.63],'AB':[57.15,-2.09],'DD':[56.46,-2.97],'FK':[56.00,-3.79],
+  'IV':[57.48,-4.22],'PH':[56.40,-3.44],'PA':[55.84,-4.42],'TD':[55.60,-2.78],
+  'DG':[55.07,-3.61],'BT':[54.60,-5.93],'UB':[51.55,-0.44],'HA':[51.57,-0.34]
+};
+function renderSupplierMap(suppliers,containerEl){
+  if(!suppliers||!containerEl||typeof d3==='undefined') return;
+  const withPc=suppliers.filter(s=>s._postcode&&!s.name.startsWith('Other ('));
+  if(withPc.length<2) return;
+  const W=containerEl.clientWidth||280;
+  const H=200;
+  const latMin=49.9,latMax=55.9,lngMin=-6.0,lngMax=2.0;
+  const toX=lng=>(lng-lngMin)/(lngMax-lngMin)*W;
+  const toY=lat=>(1-(lat-latMin)/(latMax-latMin))*H;
+  const maxSpend=Math.max(...withPc.map(s=>s.amount||0));
+  const svg=d3.select(containerEl).html('')
+    .append('svg').attr('width',W).attr('height',H)
+    .style('background','rgba(0,0,0,0.2)').style('border-radius','4px');
+  svg.append('text').attr('x',6).attr('y',13)
+    .attr('font-size','9px').attr('fill','rgba(255,255,255,0.3)')
+    .text('Supplier locations \u00B7 '+withPc.length+' mapped');
+  const jitter=()=>(Math.random()-0.5)*0.3;
+  withPc.forEach(s=>{
+    const area=s._postcode.replace(/[0-9\s].*/,'').toUpperCase();
+    const c=PC_COORDS[area]||PC_COORDS[area.slice(0,1)];
+    if(!c) return;
+    const x=toX(c[1]+jitter()),y=toY(c[0]+jitter());
+    const sp=s.amount||0;
+    const r=maxSpend>0?Math.max(3,Math.min(11,Math.sqrt(sp/maxSpend)*10)):4;
+    const color=s._local?'#52c41a':'#4a9eff';
+    const dot=svg.append('circle').attr('cx',x).attr('cy',y).attr('r',r)
+      .attr('fill',color).attr('fill-opacity',0.65)
+      .attr('stroke',color).attr('stroke-width',0.5).style('cursor','pointer');
+    dot.append('title').text(s.name+'\n\u00A3'+(sp/1e6).toFixed(2)+'M\n'+s._postcode+(s._local?' \u00B7 LOCAL':''));
+  });
+  const lg=svg.append('g').attr('transform','translate('+(W-78)+','+(H-26)+')');
+  [['#52c41a','Local'],['#4a9eff','National']].forEach(function(p,i){
+    lg.append('circle').attr('cx',0).attr('cy',i*12).attr('r',4).attr('fill',p[0]).attr('fill-opacity',0.8);
+    lg.append('text').attr('x',8).attr('y',i*12+4).attr('font-size','9px').attr('fill','rgba(255,255,255,0.6)').text(p[1]);
+  });
+}
+
 // ── GALAXY INFO CARD (simple) ──────────────────
 function openGalaxyInfo(node){
   if(!node) return;
@@ -5892,12 +6444,20 @@ function openGalaxyInfo(node){
     <div class="gi-pct">${pctOfParent}% ${galaxyLang==='de'?'des Übergeordneten':'of parent'} · ${pctOfTotal}% ${galaxyLang==='de'?'des Gesamthaushalts':'of total budget'}</div>
     <div class="gi-desc">${esc(desc)}</div>`;
 
-  // Double-counting disclaimer for Germany root node in Galaxy view
-  if(currentCountry==='de'&&node===galaxyRoot){
-    html+=`<div style="margin:10px 0;padding:8px 10px;background:rgba(255,193,7,.06);border-radius:6px;border:1px solid rgba(255,193,7,.2);display:flex;align-items:flex-start;gap:6px">`;
-    html+=`<span style="font-size:12px;flex-shrink:0">&#9432;</span>`;
-    html+=`<div style="font-size:10px;color:rgba(255,193,7,.85);line-height:1.5">This total includes all levels of German public spending: federal budget, social insurance, states, and municipalities. Some funds appear in multiple categories &mdash; for example, federal subsidies to pension insurance (~&euro;100B) are counted in both the federal budget and Social Insurance. The true consolidated total (netting out inter-governmental transfers) is lower.</div>`;
-    html+=`</div>`;
+  // Fiscal consolidation disclaimers for root node
+  if(node===galaxyRoot){
+    const ccD=currentCountry;
+    const disclaimers={
+      de:'Consolidated public spending across 4 levels (Bund, Sozialversicherung, 16 L&auml;nder, Kommunen). Federal transfers to social insurance (GRV, GKV, BA) of &euro;110&ndash;180B (6&ndash;8%) are counted at both levels. Net consolidated total is lower than shown.',
+      fr:'Combines PLF central government, Protection Sociale (DREES), and Collectivit&eacute;s territoriales (Eurostat S1313). PLF&ndash;DREES overlaps: &euro;60&ndash;170B (5&ndash;10%). PLF &ldquo;Relations avec les collectivit&eacute;s&rdquo; transfers (&euro;3&ndash;4B) deducted from central budget to avoid double-counting with local government spending. Net consolidated total is lower than shown.',
+      uk:'Central government (OSCAR) includes Barnett Formula block grants (&pound;55&ndash;95B, 5&ndash;7%) to Scotland, Wales and Northern Ireland, also counted in devolved government budgets. Net consolidated total is lower than shown.'
+    };
+    if(disclaimers[ccD]){
+      html+=`<div style="margin:10px 0;padding:8px 10px;background:rgba(255,193,7,.06);border-radius:6px;border:1px solid rgba(255,193,7,.2);display:flex;align-items:flex-start;gap:6px">`;
+      html+=`<span style="font-size:12px;flex-shrink:0">&#9432;</span>`;
+      html+=`<div style="font-size:10px;color:rgba(255,193,7,.85);line-height:1.5">${disclaimers[ccD]}</div>`;
+      html+=`</div>`;
+    }
   }
 
   // Mini spending type bar (only for Germany — other countries don't have Titel-based classification)
@@ -5911,6 +6471,19 @@ function openGalaxyInfo(node){
     html+=`</div>
       <div style="font-size:10px;color:var(--dim);margin-top:6px">${analysis.insights[0]||''}</div>
     </div>`;
+  }
+
+  // NHS Trust panel (sector badge + ICB + expenditure bars)
+  if(node.data._source&&String(node.data._source).startsWith('NHS TAC ')){
+    html+=renderNHSTrustPanel(node.data);
+  }
+  // NHS Staff Costs drill-down panel
+  if(node.data._workforce){
+    html+=renderNHSStaffPanel(node.data);
+  }
+  // Council top suppliers panel
+  if(node.data._top_suppliers){
+    html+=renderCouncilSuppliersPanel(node.data);
   }
 
   // Enriched data (if available)
@@ -6031,6 +6604,10 @@ async function showBudgetYearPicker(){
     }catch(e){years=[meta.defaultYear||2024]}
   }
 
+  // Fetch US states years to mark them in the picker
+  let usStatesYears=[];
+  if(currentCountry==='us'){try{usStatesYears=await fetch(`${API}/budget/us-states/years`).then(r=>r.json())}catch(e){}}
+
   const latestYear=years[0]||2024;
   let html=`<div style="max-width:800px;margin:40px auto;text-align:center">
     <h2 style="font-size:24px;color:var(--text);margin-bottom:8px">${meta.flag||''} ${meta.name||''} Budget Explorer</h2>
@@ -6041,6 +6618,8 @@ async function showBudgetYearPicker(){
     let note='';
     if(y===latestYear) note='Latest';
     if(currentCountry==='de'&&y===2023) note='<span style="color:#e57373">incl. crisis funds</span>';
+    if(currentCountry==='us'&&usStatesYears.includes(y)) note=(note?note+' · ':'')+'<span style="color:var(--accent)">+ 50 States</span>';
+    if(currentCountry==='us'&&!usStatesYears.includes(y)&&!note) note='Federal only';
     html+=`<div onclick="loadBudgetYear(${y})" style="background:var(--surface);border:1px solid ${isLatest?'var(--accent)':'var(--border)'};border-radius:10px;padding:20px 16px;cursor:pointer;transition:border-color .2s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='${isLatest?'var(--accent)':'var(--border)'}'" >
       <div style="font-size:22px;font-weight:700;color:var(--text)">${y}</div>
       <div style="font-size:10px;color:var(--dim);margin-top:4px">${note}</div>
@@ -6054,9 +6633,17 @@ async function loadBudgetYear(year){
   blYear=year;
   blRoot=null;
   try{
-    const url=currentCountry==='de'?`${API}/budget/tree?year=${year}`:`${API}/budget/country/${currentCountry}?year=${year}`;
-    const res=await fetch(url);
-    const data=await res.json();
+    let data;
+    if(currentCountry==='us'){
+      data=await _loadUSCombinedTree(year);
+    }else if(currentCountry==='uk'){
+      data=await _loadUKCombinedTree(year);
+    }else if(currentCountry==='fr'){
+      data=await _loadFRCombinedTree(year);
+    }else{
+      const url=currentCountry==='de'?`${API}/budget/tree?year=${year}`:`${API}/budget/country/${currentCountry}?year=${year}`;
+      data=await (await fetch(url)).json();
+    }
     blRoot=d3.hierarchy(data).sum(d=>d.children?0:d.value).sort((a,b)=>b.value-a.value);
     renderBudgetList(blRoot);
   }catch(e){console.error('Failed to load year',year,e)}
@@ -6139,12 +6726,20 @@ function renderBudgetList(node){
     </div>`;
   }
 
-  // Double-counting disclaimer for Germany root (all years) — consolidated total includes inter-governmental transfers
-  if(currentCountry==='de'&&node===blRoot){
-    html+=`<div style="margin-bottom:16px;padding:10px 14px;background:rgba(255,193,7,.06);border:1px solid rgba(255,193,7,.2);border-radius:8px;display:flex;align-items:flex-start;gap:8px">`;
-    html+=`<span style="font-size:14px;flex-shrink:0">&#9432;</span>`;
-    html+=`<div style="font-size:12px;color:rgba(255,193,7,.85);line-height:1.5">This total includes all levels of German public spending: federal budget, social insurance, states, and municipalities. Some funds appear in multiple categories &mdash; for example, federal subsidies to pension insurance (~&euro;100B) are counted in both the federal budget and Social Insurance. The true consolidated total (netting out inter-governmental transfers) is lower. This is standard in public finance; no country&rsquo;s accounts simply sum all levels without overlap.</div>`;
-    html+=`</div>`;
+  // Fiscal consolidation disclaimer for root node (Budget Explorer)
+  if(node===blRoot){
+    const ccBl=currentCountry;
+    const blDisclaimers={
+      de:'Consolidated across 4 levels (Bund, Sozialversicherung, L&auml;nder, Kommunen). Federal transfers to social insurance (GRV, GKV, BA) of &euro;110&ndash;180B (6&ndash;8%) are counted at both levels. Net consolidated total is lower.',
+      fr:'Combines PLF (central government) and Protection Sociale (DREES). Overlapping programs (CAS Pensions, social assistance, employment, housing, special pensions) total &euro;60&ndash;170B (5&ndash;10%). Net consolidated total is lower.',
+      uk:'Central government (OSCAR) includes Barnett Formula block grants (&pound;55&ndash;95B, 5&ndash;7%) to Scotland, Wales and Northern Ireland, also counted in devolved government budgets. Net consolidated total is lower.'
+    };
+    if(blDisclaimers[ccBl]){
+      html+=`<div style="margin-bottom:16px;padding:10px 14px;background:rgba(255,193,7,.06);border:1px solid rgba(255,193,7,.2);border-radius:8px;display:flex;align-items:flex-start;gap:8px">`;
+      html+=`<span style="font-size:14px;flex-shrink:0">&#9432;</span>`;
+      html+=`<div style="font-size:12px;color:rgba(255,193,7,.85);line-height:1.5">${blDisclaimers[ccBl]}</div>`;
+      html+=`</div>`;
+    }
   }
 
   html+=`<div class="bl-header">
@@ -6160,6 +6755,19 @@ function renderBudgetList(node){
     html+=`<span style="font-size:14px;flex-shrink:0">&#9432;</span>`;
     html+=`<div style="font-size:12px;color:rgba(255,193,7,.85);line-height:1.5">${esc(node.data._disclaimer)}</div>`;
     html+=`</div>`;
+  }
+
+  // NHS Trust panel (sector badge + ICB + expenditure bars)
+  if(node.data._source&&String(node.data._source).startsWith('NHS TAC ')){
+    html+=renderNHSTrustPanel(node.data);
+  }
+  // NHS Staff Costs drill-down panel
+  if(node.data._workforce){
+    html+=renderNHSStaffPanel(node.data);
+  }
+  // Council top suppliers panel
+  if(node.data._top_suppliers){
+    html+=renderCouncilSuppliersPanel(node.data);
   }
 
   // Spending type breakdown (only for Germany — other countries don't have Titel-based classification)
@@ -6243,6 +6851,9 @@ function renderBudgetList(node){
       }
     }).catch(()=>{});
   }
+
+  // Update dual treemap sidebar (v24)
+  updateDualTreemap(node);
 }
 
 // ── ENRICHED NODE DATA ──────────────────────────
@@ -7108,7 +7719,7 @@ function blToggleDesc(el,depth,id,event){
       const kBar=(kid.value/maxKidVal*100).toFixed(0);
       const kId=kid.data.id||kid.data.name;
       const kHasKids=kid.children&&kid.children.length>0;
-      childrenHtml+=`<div style="display:flex;align-items:center;gap:6px;padding:3px 0;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.03)" onclick="event.stopPropagation();${kHasKids?`blNavigate(${kid.depth},'${esc(kId)}')`:`blToggleDesc(this.parentElement.parentElement.parentElement,${kid.depth},'${esc(kId)}',event)`}">
+      childrenHtml+=`<div style="display:flex;align-items:center;gap:6px;padding:3px 0;${kHasKids?'cursor:pointer':'cursor:default;opacity:.85'};border-bottom:1px solid rgba(255,255,255,.03)"${kHasKids?` onclick="event.stopPropagation();blNavigate(${kid.depth},'${esc(kId)}')"`:''}>
         <div style="flex:1;font-size:11px;color:var(--text)">${esc(kName)}</div>
         <div style="width:60px;height:4px;background:rgba(255,255,255,.05);border-radius:2px;flex-shrink:0"><div style="width:${kBar}%;height:100%;background:var(--accent);border-radius:2px;opacity:.5"></div></div>
         <div style="font-size:10px;color:var(--dim);width:50px;text-align:right;flex-shrink:0">${fmtEur(kid.value)}</div>
@@ -7119,16 +7730,127 @@ function blToggleDesc(el,depth,id,event){
     childrenHtml+=`</div>`;
   }
 
+  // Council suppliers + subcategories (v24)
+  let suppliersHtml='';
+  if(node.data._top_suppliers){
+    suppliersHtml+=renderCouncilSuppliersPanel(node.data);
+  }
+
   let descHtml;
   if(enrichHtml){
-    descHtml=`<div class="bl-expanded">${enrichHtml}${childrenHtml}${drillLink}</div>`;
+    descHtml=`<div class="bl-expanded">${enrichHtml}${childrenHtml}${suppliersHtml}${drillLink}</div>`;
   } else {
     descHtml=`<div class="bl-expanded"><div class="bl-desc">
       <div class="bl-desc-text">${esc(desc)}</div>
-    </div>${childrenHtml}${drillLink}</div>`;
+    </div>${childrenHtml}${suppliersHtml}${drillLink}</div>`;
   }
 
   el.insertAdjacentHTML('afterend',descHtml);
+
+  // Async load recipients (Level 5) if available for this department
+  if(node.depth>=1&&currentCountry){
+    // Walk up to find the department-level node (depth 1) to get its id
+    let deptNode=node;
+    while(deptNode&&deptNode.depth>1&&deptNode.parent) deptNode=deptNode.parent;
+    const deptId=deptNode&&deptNode.data?deptNode.data.id:null;
+    const recipYear=blYear||galaxyYear;
+    const panel=el.nextElementSibling;
+    if(deptId) loadRecipients(currentCountry,deptId,recipYear).then(data=>{
+      if(!panel||!panel.parentElement) return;
+      if(data){
+        renderRecipientsPanel(data,panel);
+      }else if(currentCountry==='uk'&&recipYear!==2024){
+        // L5 supplier data only exists for 2024. Show a fallback explaining this.
+        renderRecipientsUnavailable(panel,deptId,recipYear);
+      }
+    });
+  }
+}
+
+// Renders a fallback message when L5 supplier data is unavailable for the
+// selected year. UK Spend Over £25k data has only been compiled for 2024.
+function renderRecipientsUnavailable(container,deptId,year){
+  if(!container||!container.parentElement) return;
+  const wrap=document.createElement('div');
+  wrap.className='bl-recipients-unavailable';
+  wrap.style.cssText='margin:8px 28px 12px 28px;padding:10px 14px;background:rgba(255,193,7,.05);border:1px solid rgba(255,193,7,.18);border-radius:6px;display:flex;align-items:center;gap:10px;flex-wrap:wrap';
+  wrap.innerHTML=`
+    <span style="font-size:13px;flex-shrink:0">&#9432;</span>
+    <div style="flex:1;min-width:200px">
+      <div style="font-size:11px;color:rgba(255,193,7,.9);font-weight:600;margin-bottom:2px">Supplier breakdown available for 2024 only</div>
+      <div style="font-size:10px;color:var(--dim);line-height:1.4">UK Spend Over &pound;25k transactions are compiled per year and currently cover FY2024 only.</div>
+    </div>
+    <button type="button" class="bl-recip-jump" style="background:rgba(255,193,7,.15);color:#ffd54f;border:1px solid rgba(255,193,7,.3);padding:5px 10px;border-radius:4px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;flex-shrink:0">View 2024 data &rarr;</button>
+  `;
+  // Insert as a sibling right after the existing description block
+  container.parentElement.insertBefore(wrap,container.nextSibling);
+  const btn=wrap.querySelector('.bl-recip-jump');
+  if(btn) btn.addEventListener('click',function(e){
+    e.stopPropagation();
+    if(typeof loadBudgetYear==='function') loadBudgetYear(2024);
+  });
+}
+
+// ── Dual treemap sidebar (v24) ─────────────────
+function renderTcTreemap(svgId,parentNode,activeId){
+  const svgEl=document.getElementById(svgId);
+  if(!svgEl||!parentNode) return;
+  const rect=svgEl.getBoundingClientRect();
+  const W=rect.width||200;
+  const H=rect.height||150;
+  const kids=(parentNode.children||[]).filter(c=>c.value>0);
+  if(!kids.length){d3.select(svgEl).selectAll('*').remove();return}
+  const root=d3.hierarchy({name:'root',children:kids.map(c=>({name:c.data.name,value:c.value,id:c.data.id||c.data.name,depth:c.depth,_orig:c}))}).sum(d=>d.value||0).sort((a,b)=>b.value-a.value);
+  d3.treemap().size([W,H]).padding(2).round(true)(root);
+  const svg=d3.select(svgEl);
+  svg.selectAll('*').remove();
+  const leaves=root.leaves();
+  leaves.forEach(leaf=>{
+    const isActive=(leaf.data.id===activeId||leaf.data.name===activeId);
+    const w=leaf.x1-leaf.x0,h=leaf.y1-leaf.y0;
+    if(w<1||h<1) return;
+    const g=svg.append('g').attr('transform','translate('+leaf.x0+','+leaf.y0+')');
+    const col=getGalaxyColor?getGalaxyColor(leaf.data):('#4a9eff');
+    g.append('rect').attr('width',w).attr('height',h)
+      .attr('fill',col).attr('opacity',isActive?0.95:0.3).attr('rx',2)
+      .attr('stroke',isActive?'#fff':'none').attr('stroke-width',isActive?2:0)
+      .style('cursor','pointer')
+      .on('click',function(){
+        const orig=leaf.data._orig;
+        if(orig) blNavigate(orig.depth,leaf.data.id);
+      });
+    if(w>45&&h>16){
+      const lbl=leaf.data.name||'';
+      const maxChars=Math.floor(w/6);
+      g.append('text').attr('x',3).attr('y',isActive?13:12)
+        .attr('font-size','9px').attr('fill','rgba(255,255,255,0.85)')
+        .text(lbl.length>maxChars?lbl.slice(0,maxChars-1)+'\u2026':lbl);
+    }
+    if(isActive&&w>28){
+      g.append('circle').attr('cx',w-8).attr('cy',8).attr('r',4)
+        .attr('fill','#fff').attr('fill-opacity',0.9);
+    }
+    g.append('title').text(leaf.data.name+'\n'+fmtEur(leaf.data.value));
+  });
+}
+function updateDualTreemap(node){
+  const rc=document.getElementById('rightCol');
+  if(!rc||!node) return;
+  if(window.innerWidth<1200) return;
+  // Context: parent level
+  if(node.parent){
+    renderTcTreemap('tcContextSvg',node.parent,node.data.id||node.data.name);
+  } else {
+    d3.select('#tcContextSvg').selectAll('*').remove();
+    d3.select('#tcContextSvg').append('text').attr('x',10).attr('y',20).attr('font-size','11').attr('fill','#4a5568').text('Top level');
+  }
+  // Detail: children of current node
+  if(node.children&&node.children.length>0){
+    renderTcTreemap('tcDetailSvg',node,null);
+  } else {
+    d3.select('#tcDetailSvg').selectAll('*').remove();
+    d3.select('#tcDetailSvg').append('text').attr('x',10).attr('y',20).attr('font-size','11').attr('fill','#4a5568').text('Leaf node \u2014 no sub-items');
+  }
 }
 
 function blNavigate(depth,id){
@@ -7138,6 +7860,117 @@ function blNavigate(depth,id){
     if(d.depth===depth&&(d.data.id===id||d.data.name===id)) target=d;
   });
   if(target) renderBudgetList(target);
+}
+
+// ── TOP RECIPIENTS (Level 5) ─────────────────────
+// Uses dept_id from tree node to fetch l5_{dept_id}_{year}.json on-demand
+let _supplierEnr=null;
+async function _loadSupplierEnr(){
+  if(_supplierEnr) return _supplierEnr;
+  try{const r=await fetch(`${API}/data/recipients/uk/supplier_enrichment.json`);if(r.ok) _supplierEnr=await r.json()}catch(e){}
+  return _supplierEnr||{};
+}
+async function loadRecipients(cc,nodeId,year){
+  if(cc!=='uk'||!nodeId) return null;
+  try{
+    const [data,enr]=await Promise.all([
+      fetch(`${API}/data/recipients/${cc}/l5_${nodeId}_${year}.json`).then(r=>r.ok?r.json():null),
+      _loadSupplierEnr()
+    ]);
+    if(data) data._supplierEnr=enr;
+    return data;
+  }catch(e){return null}
+}
+
+function renderRecipientsPanel(data,container){
+  if(!data) return;
+  const curr=data.currency==='GBP'?'£':data.currency==='EUR'?'€':'$';
+  function fmtA(v){return v>=1e9?curr+(v/1e9).toFixed(2)+'B':v>=1e6?curr+(v/1e6).toFixed(0)+'M':curr+(v/1e3).toFixed(0)+'k'}
+
+  // Segmented format (new): data.segments array with top_recipients inside each
+  if(data.segments&&data.segments.length>0){
+    const segs=data.segments.filter(s=>s.total>0);
+    if(!segs.length) return;
+    const maxSegVal=segs[0].total;
+    let h=`<div class="bl-recipients" style="padding:10px 14px 12px 28px;border-top:1px solid rgba(255,255,255,.06)">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+        <div style="font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px;font-weight:600">Spending Breakdown</div>
+        <div style="font-size:9px;color:var(--dim)">${segs.length} areas${data.partial?' (partial)':''}</div>
+      </div>
+      <div style="font-size:9px;color:var(--dim);margin-bottom:8px">${data.source||''}</div>`;
+
+    const showSegs=Math.min(segs.length,12);
+    for(let si=0;si<showSegs;si++){
+      const seg=segs[si];
+      const segBar=(seg.total/maxSegVal*100).toFixed(0);
+      const uid='seg_'+si+'_'+Math.random().toString(36).slice(2,6);
+      const hasRec=seg.top_recipients&&seg.top_recipients.length>0;
+      h+=`<div style="margin-bottom:2px">
+        <div style="display:flex;align-items:center;gap:6px;padding:4px 0;${hasRec?'cursor:pointer':''};border-bottom:1px solid rgba(255,255,255,.04)"${hasRec?` onclick="var e=document.getElementById('${uid}');e.style.display=e.style.display==='none'?'block':'none'"`:''}>
+          <div style="flex:1;font-size:11px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${esc(seg.segment)}">${esc(seg.segment)}</div>
+          <div style="width:80px;height:4px;background:rgba(255,255,255,.05);border-radius:2px;flex-shrink:0"><div style="width:${segBar}%;height:100%;background:var(--accent);border-radius:2px;opacity:.6"></div></div>
+          <div style="font-size:10px;color:var(--dim);width:55px;text-align:right;flex-shrink:0">${fmtA(seg.total)}</div>
+          <div style="font-size:11px;color:var(--dim);width:12px;text-align:center">${hasRec||seg.expense_type_breakdown?'&#9662;':''}</div>
+        </div>`;
+      if(hasRec||seg.expense_type_breakdown){
+        const enr=data._supplierEnr||{};
+        h+=`<div id="${uid}" style="display:none;padding:2px 0 6px 16px">`;
+        // Expense type breakdown (if available, e.g. MoD)
+        if(seg.expense_type_breakdown&&seg.expense_type_breakdown.length){
+          h+=`<div style="margin-bottom:6px"><div style="font-size:8px;color:var(--accent);text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px">Spending by type</div>`;
+          seg.expense_type_breakdown.slice(0,6).forEach(et=>{
+            h+=`<div style="display:flex;align-items:center;gap:4px;font-size:9px;color:var(--dim);padding:1px 0">
+              <div style="flex:1">${esc(et.name)}</div><div style="width:40px;text-align:right">${fmtA(et.amount)}</div><div style="width:28px;text-align:right">${et.pct}%</div>
+            </div>`;
+          });
+          h+=`</div>`;
+        }
+        seg.top_recipients.slice(0,10).forEach(r=>{
+          const rBar=(r.amount/(seg.top_recipients[0].amount||1)*100).toFixed(0);
+          const se=enr[r.name];
+          const desc=se?`<div style="font-size:8px;color:rgba(255,255,255,.35);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(se.description||'')}${se.employees?' · '+se.employees.toLocaleString()+' staff':''}</div>`:'';
+          const contracts=(r.top_contracts||[]).length?`<div style="margin-top:2px">${r.top_contracts.slice(0,2).map(c=>'<div style="font-size:7px;color:rgba(255,255,255,.25);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+esc(c.title)+'</div>').join('')}</div>`:'';
+          const notable=r.notable?`<span title="${esc(r.notable_reason||'')}" style="font-size:8px;color:#f5a623;margin-left:3px">&#9733;</span>`:'';
+          h+=`<div style="padding:3px 0;border-bottom:1px solid rgba(255,255,255,.02)">
+            <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--dim)">
+              <div style="width:14px;text-align:right;flex-shrink:0;font-size:8px">${r.rank}</div>
+              <div style="flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${esc(r.name)}">${esc(r.name)}${notable}</div>
+              <div style="width:50px;height:3px;background:rgba(255,255,255,.04);border-radius:2px;flex-shrink:0"><div style="width:${rBar}%;height:100%;background:rgba(99,179,237,.4);border-radius:2px"></div></div>
+              <div style="width:50px;text-align:right;flex-shrink:0">${fmtA(r.amount)}</div>
+            </div>${desc}${contracts}
+          </div>`;
+        });
+        h+=`</div>`;
+      }
+      h+=`</div>`;
+    }
+    if(segs.length>showSegs){
+      h+=`<div style="text-align:center;padding:4px 0;font-size:9px;color:var(--dim)">${segs.length-showSegs} more areas</div>`;
+    }
+    h+=`</div>`;
+    container.insertAdjacentHTML('beforeend',h);
+    return;
+  }
+
+  // Flat format (legacy): data.recipients array
+  const recs=data.recipients;
+  if(!recs||!recs.length) return;
+  const maxAmt=recs[0].amount;
+  let h=`<div class="bl-recipients" style="padding:10px 14px 12px 28px;border-top:1px solid rgba(255,255,255,.06)">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+      <div style="font-size:10px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px;font-weight:600">Top ${recs.length} Recipients</div>
+    </div>`;
+  recs.slice(0,20).forEach(r=>{
+    const barW=(r.amount/maxAmt*100).toFixed(0);
+    h+=`<div style="display:flex;align-items:center;gap:6px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.02)">
+      <div style="width:18px;font-size:9px;color:var(--dim);text-align:right;flex-shrink:0">${r.rank}</div>
+      <div style="flex:1;font-size:11px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(r.name||'')}</div>
+      <div style="width:80px;height:4px;background:rgba(255,255,255,.05);border-radius:2px;flex-shrink:0"><div style="width:${barW}%;height:100%;background:var(--accent);border-radius:2px;opacity:.6"></div></div>
+      <div style="font-size:10px;color:var(--dim);width:55px;text-align:right;flex-shrink:0">${fmtA(r.amount)}</div>
+    </div>`;
+  });
+  h+=`</div>`;
+  container.insertAdjacentHTML('beforeend',h);
 }
 
 // ── BUDGET EVOLUTION ────────────────────────────

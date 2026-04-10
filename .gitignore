@@ -113,4 +113,38 @@ Thumbs.db
 # Node
 node_modules/
 data/uk/*.zip
-data/uk/*.zip
+
+# Council spend raw CSVs (too large for git, stored on Vultr)
+data/uk/local_authorities/spend/bristol/
+data/uk/local_authorities/spend/sheffield/
+data/uk/local_authorities/spend/dudley/
+data/uk/local_authorities/spend/nottinghamshire/
+data/uk/local_authorities/spend/lambeth/
+data/uk/local_authorities/spend/merton/
+data/uk/local_authorities/spend/south_glos/
+data/uk/local_authorities/spend/east_sussex/
+data/uk/local_authorities/spend/norfolk/
+data/uk/local_authorities/spend/kent/
+data/uk/local_authorities/spend/cornwall/
+data/uk/local_authorities/spend/southwark/
+data/uk/local_authorities/spend/hertfordshire/
+data/uk/local_authorities/spend/buckinghamshire/
+data/uk/local_authorities/spend/north_yorkshire/
+data/uk/local_authorities/spend/birmingham_new/
+data/uk/local_authorities/spend/essex/
+data/uk/local_authorities/spend/newcastle/
+data/uk/local_authorities/spend/leeds/
+data/uk/local_authorities/spend/manchester/
+data/uk/local_authorities/spend/rochdale/
+data/uk/local_authorities/spend/birmingham_spend_recent.csv
+data/uk/local_authorities/spend/birmingham_spend_2024_25.csv
+data/uk/local_authorities/spend/camden_spend_2023_24.csv
+
+# Backups directory (large)
+data/backups/
+
+# NHS TAC source xlsx (large)
+data/uk/nhs_tac_*.xlsx
+
+# Recipients spend source files
+data/recipients/uk/spend25k/

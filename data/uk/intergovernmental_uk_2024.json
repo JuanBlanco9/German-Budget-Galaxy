@@ -1,0 +1,47 @@
+{
+  "year": 2024,
+  "barnett_grants": {
+    "scotland_office": {
+      "name": "SCOTLAND OFFICE AND OFFICE OF THE ADVOCATE GENERAL",
+      "value": 48574039000
+    },
+    "wales_office": {
+      "name": "WALES OFFICE",
+      "value": 20520872000
+    },
+    "ni_office": {
+      "name": "NORTHERN IRELAND OFFICE",
+      "value": 25518598000
+    },
+    "total": 94613509000
+  },
+  "devolved_governments": {
+    "scotland": 36838904000,
+    "wales": 23902524000,
+    "ni": 33211280000
+  },
+  "mhclg_local_gov_grants": 34435411000,
+  "la_branch_value": 134158661000,
+  "nhs_provider_overlap": {
+    "description": "NHS Trust funding shown both in DHSC > NHS Trusts (commissioner view) and NHS Provider Sector top-level node (provider/spending view). Same money, two views.",
+    "dhsc_nhs_trusts_original": 135538947000,
+    "nhs_provider_sector_value": 130841268000,
+    "deducted_from_dhsc": 130841268000,
+    "residual_in_dhsc": 4697679000,
+    "residual_explanation": "Capital expenditure (PDC, capital loans), HEE training income, and trusts excluded from the TAC sample — items present in DHSC's NHS Trusts allocation but not in TAC EXP0390 operating expenditure.",
+    "applied_via": "scripts/net_nhs_overlap.js (sets _netted=true on DHSC > NHS Trusts node)",
+    "method": "Option B: surgical deduction. DHSC > NHS Trusts reduced by exactly the NHS Provider Sector value, leaving residual. ICB sub-allocations (42 children from enrich_uk_nhs.js) removed because parent value no longer matches and the same money is now represented at top level with sector × trust granularity."
+  },
+  "total_deduction": 225454777000,
+  "deduction_breakdown": {
+    "barnett_grants": 94613509000,
+    "nhs_provider_netting": 130841268000
+  },
+  "pct_of_root": 16.3,
+  "root_value": 1380484395000,
+  "note": "Three sources of double-counting: (1) Barnett Formula block grants (£95B) appear in both Central Government and devolved government budgets. (2) NHS Trust funding (£131B) shown in both DHSC commissioning view and NHS Provider Sector spending view — netted via inject_nhs_trusts.js + net_nhs_overlap.js. (3) MHCLG Local Government grants (£34B) overlap with LA England branch (disclosure only, not deducted from tree).",
+  "source": "HM Treasury OSCAR/OSCAR II + NHS England TAC 2023/24 + MHCLG Revenue Outturn",
+  "history": [
+    {"date": "2026-04-09", "change": "Added nhs_provider_overlap section. Root dropped from £1,383B to £1,380B after NHS netting. Total fiscal consolidation deductions now £225B (16.3% of root vs 6.8% pre-netting)."}
+  ]
+}
