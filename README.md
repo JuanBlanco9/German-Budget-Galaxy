@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JuanBlanco9/Budget-Galaxy">GitHub</a> · MIT License · Open Source
+  <a href="https://budgetgalaxy.com/methodology.html">Methodology</a> ·
+  <a href="https://github.com/JuanBlanco9/Budget-Galaxy">GitHub</a> ·
+  MIT License · Open Source
 </p>
 
 <p align="center">
@@ -24,30 +26,31 @@
   <img src="https://img.shields.io/badge/Vanilla_JS-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/nginx-reverse_proxy-009639?style=flat-square&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/Let's_Encrypt-SSL-003A70?style=flat-square&logo=letsencrypt&logoColor=white" />
-  <img src="https://img.shields.io/badge/4_countries-13,400+_items-4fc3f7?style=flat-square" />
-  <img src="https://img.shields.io/badge/4,035-enrichments-ff7043?style=flat-square" />
 </p>
 
 ---
 
 ## What is Budget Galaxy?
 
-Budget Galaxy turns total public spending into an explorable universe. Navigate from a country's full budget down to individual line items in three clicks. Compare four countries side by side. See how spending evolved through COVID-19, the Zeitenwende, and the energy crisis.
+Budget Galaxy is an interactive visualization of federal and public sector budgets, built from official government data sources. Navigate from a country's full budget down to individual line items, trusts, councils and suppliers in three clicks. Compare four countries side by side. See how spending evolved through COVID-19, the Zeitenwende, and the energy crisis.
 
-Every sphere represents real public money. The size is proportional to the amount. Click to explore.
+Every sphere represents real public money traceable to a specific published dataset. Every transformation applied to that data is documented in the [methodology page](https://budgetgalaxy.com/methodology.html).
 
 ---
 
-## Countries
+## Coverage
 
-| Country | Years | Coverage | Total Spending | Enrichments |
-|---------|-------|----------|----------------|-------------|
-| :de: Germany | 2015-2025 | Federal + social insurance + 16 states + municipalities | EUR 2.3T | 75 |
-| :us: United States | 2017-2025 | Federal (111 agencies) | $6.7T | 2,410 |
-| :fr: France | 2020-2025 | State budget + social protection (20 ministries) | EUR 1.7T | 974 |
-| :gb: United Kingdom | 2020-2024 | Central government + local authorities (22 departments) | GBP 1.4T | 651 |
+| Country | Source | Years | Detail |
+|---------|--------|-------|--------|
+| :de: Germany | bundeshaushalt.de (BMF) | 2015–2024 | L1–L4 (4,388 line items) |
+| :gb: UK | OSCAR HM Treasury | 2015–2024 | L1–L4 (40 departments) |
+| :gb: UK | Spend Over £25k | 2024 | L5–L6 (645k transactions) |
+| :gb: UK | NHS Provider Accounts (TAC) | 2022/23, 2023/24 | L5 (206–212 trusts) |
+| :gb: UK | Local Government (MHCLG) | 2017–2025 | L5 (~400 councils/year) |
+| :us: USA | USAspending.gov | 2017–2025 | L1–L4 (111 agencies) |
+| :fr: France | data.gouv.fr (PLF + DREES) | 2015–2025 | L1–L4 (20+ ministries) |
 
-> More countries coming soon: Brazil, Israel, Canada, Japan
+**UK public sector coverage (2024): approximately 85% of Total Managed Expenditure (£1.38T visualised).**
 
 ---
 
@@ -67,64 +70,58 @@ Zoomable circle-packing visualization. Each ministry is a sphere containing its 
   <img src="images/Budget Galaxy 2.jpg" alt="Budget Galaxy" width="800"/>
 </p>
 
-<p align="center">
-  <img src="images/Budget Galaxy Zoom.jpg" alt="Budget Galaxy Zoom" width="800"/>
-</p>
-
 ### Budget Explorer
-Navigate the budget hierarchy with breadcrumb navigation. Each level shows breakdowns with percentages and enriched context — beneficiary counts, legal basis, international comparisons.
-
-<p align="center">
-  <img src="images/Budget Explorer 1.jpg" alt="Budget Explorer" width="800"/>
-</p>
+Navigate the budget hierarchy with breadcrumb navigation. Each level shows breakdowns with percentages and enriched context — beneficiary counts, legal basis, international comparisons. Segmented supplier drill-down for 15 UK departments (Navy Command, NHS ICBs, Arts Council, PIP, HS2...).
 
 ### Budget Evolution
 10+ years of historical data in a customizable line chart. Toggle between absolute amounts and % of total. Annotated with key events: COVID-19, Zeitenwende, CARES Act, Brexit.
 
-### Enriched Data
-4,035 programme-level enrichments across US, FR, and UK — each investigated with creation year, description, and beneficiaries. Plus 33 ministry-level enrichments with key figures, spending breakdowns, and notable facts.
+### NHS Trust Panel
+Drill from the NHS Provider Sector top-level node down to any of 206+ trusts. Each trust shows its Integrated Care Board commissioner, sector (Acute / Mental Health / Specialist / Community / Ambulance), region, and a 4-category operating expenditure breakdown (Staff / Supplies / Premises / Other) sourced from NHS England's Trust Accounts Consolidation.
+
+### Fiscal Netting
+Budget Galaxy removes double-counting at multiple levels: NHS commissioning vs provider spending, local government grants vs service expenditure, and OSCAR data quality fixes. All corrections are documented and traceable — the residuals are visible in the tree with provenance metadata.
 
 ---
 
-## Data
+## Data Pipeline
 
-All budget data is sourced from official government portals:
+Scripts in `/scripts/` (Node.js and Python):
 
-### Germany (2015-2025)
-- **Source**: [bundeshaushalt.de](https://www.bundeshaushalt.de) (federal), [GKV-Spitzenverband](https://www.gkv-spitzenverband.de) / [DRV Bund](https://www.deutsche-rentenversicherung.de) / [Bundesagentur](https://statistik.arbeitsagentur.de) (social insurance), [Destatis](https://www.destatis.de) (states & municipalities)
-- **Format**: CSV + official statistics, 11 annual files for federal budget
-- **Coverage**: EUR 2.3T total public spending — federal budget (~EUR 500B), social insurance (~EUR 800B), 16 states (~EUR 600B), municipalities (~EUR 350B)
-- **Enrichments**: 75 nodes curated from DRV, Bundesagentur, Destatis, [OECD](https://data.oecd.org), [NATO](https://www.nato.int), GKV
-- **Note**: Totals include inter-governmental transfers (e.g., federal subsidies to pension insurance). Consolidated net total is lower
+| Script | Purpose |
+|--------|---------|
+| `inject_nhs_trusts.js` | Parse NHS TAC xlsx → `nhs_provider_sector` node (year-configurable) |
+| `build_icb_mapping.js` | NHS ODS Spine API → ICB-Trust mapping (211 trusts, 36 ICBs) |
+| `build_nhs_trust_breakdown.js` | TAC EXP subcodes → 4-category breakdown per trust |
+| `inject_nhs_trust_detail.js` | Inject breakdown + ICB metadata into tree |
+| `net_nhs_overlap.js` | Net DHSC ↔ NHS Provider Sector double-counting |
+| `fix_oscar_2023_nhs.js` | Remove £114B OSCAR 2023 "Non-patient-facing" data artifact |
+| `inject_local_gov.js` | MHCLG Revenue Outturn → `local_government_england` node |
+| `replace_oscar_lg.js` | Replace OSCAR II LG placeholder with Revenue Outturn (2020–2023) |
+| `deduce_intergovernmental_{de,fr,uk,us}.js` | Document inter-governmental transfer overlaps |
 
-### United States (2017-2025)
-- **Source**: [USAspending.gov](https://www.usaspending.gov) — official federal spending API
-- **Format**: API (JSON), 9 annual snapshots
-- **Coverage**: $6.7T federal spending across 111 agencies (~5,500 accounts/year)
-- **Enrichments**: 2,410 programmes + spending type breakdown for 14 agencies
+See the [methodology page](https://budgetgalaxy.com/methodology.html) for the full provenance of every dataset.
 
-### France (2020-2025)
-- **Source**: [data.gouv.fr](https://www.data.gouv.fr) — Projet de Loi de Finances (PLF) + social protection accounts
-- **Format**: CSV, 6 annual files
-- **Coverage**: EUR 1.7T total (state budget + social protection) across 30+ missions
-- **Enrichments**: 974 programme-level descriptions
+---
 
-### United Kingdom (2020-2024)
-- **Source**: [HM Treasury OSCAR](https://www.gov.uk/government/collections/oscar-publishing-data) + local authority accounts
-- **Format**: XLSX, 5 annual files
-- **Coverage**: GBP 1.4T total (central government + local authorities) across 22 departments
-- **Enrichments**: 651 programme-level descriptions
+## Key Data Files
 
-**Data integrity:** 25/25 German Einzelplane internally consistent. Percentages sum to 100.000000%. 4,388 Titel verified against bundeshaushalt.de. 4,035 programme enrichments fact-checked. German total public spending cross-verified against Destatis Finanzstatistik.
-
-**Limitation:** Federal budget data shows planned budget (Soll), not actual spending (Ist). Off-budget items (Sondervermogen) not included. German total includes inter-governmental transfers (not consolidated).
+- `data/uk/uk_budget_tree_{year}.json` — UK trees 2015–2024 (OSCAR + Local Gov + NHS netting)
+- `data/bundeshaushalt_tree_{year}.json` — German trees 2015–2024
+- `data/us/us_budget_tree_{year}.json` — US trees 2017–2025
+- `data/fr/fr_budget_tree_{year}.json` — France trees 2015–2025
+- `data/recipients/uk/l5_{dept}_2024.json` — UK supplier L5 (15 departments)
+- `data/recipients/uk/supplier_enrichment.json` — 502 suppliers with sector/description
+- `data/uk/nhs_trust_breakdown_{year}.json` — NHS 4-category breakdown per trust
+- `data/uk/nhs_icb_trust_mapping.json` — 211 trusts × ICB commissioning map
+- `data/uk/intergovernmental_uk_{year}.json` — Fiscal consolidation documentation
 
 ---
 
 ## Architecture
 
 ```
-Frontend (0.45MB HTML)        Backend (FastAPI)
+Frontend (~500KB HTML)        Backend (FastAPI)
 ┌──────────────────────┐     ┌──────────────────────┐
 │  D3.js Circle Pack   │◄───►│  /budget/tree         │
 │  Chart.js Evolution  │◄───►│  /budget/country/{id} │
@@ -156,21 +153,54 @@ open http://localhost:8088
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/budget/tree?year=YYYY` | German budget tree |
-| GET | `/budget/country/{id}?year=YYYY` | US/FR/UK budget tree |
+| GET | `/budget/country/{id}?year=YYYY` | US / FR / UK budget tree |
 | GET | `/budget/country/{id}/history` | Historical data for country |
 | GET | `/budget/history` | German 11-year history |
+| GET | `/data/recipients/uk/l5_{dept}_{year}.json` | UK supplier L5 per department |
+| GET | `/methodology.html` | Full methodology page |
 | GET | `/sitemap.xml` | SEO sitemap |
 | GET | `/health` | Health check |
 
 ---
 
+## Methodology
+
+Full data source documentation, coverage notes, fiscal consolidation methodology, and the OSCAR 2023 data quality correction are documented on the methodology page:
+
+**[budgetgalaxy.com/methodology.html](https://budgetgalaxy.com/methodology.html)**
+
+---
+
+## Limitations
+
+Summary (see [methodology page](https://budgetgalaxy.com/methodology.html) for full details):
+
+- German data is **planned budget, not actual spending** (Soll, not Ist)
+- UK OSCAR data is **planned budget, not final outturn**
+- UK Spend Over £25k **misses below-threshold payments**
+- NHS trust accounts **exclude 3–5 trusts per year** whose accounts had not been adopted at publication date
+- OSCAR schema changed between OSCAR I (pre-2020) and OSCAR II (2020+), causing **year-on-year discontinuities** in the 2018–2020 range
+- Off-budget items (German Sondervermögen, UK UKEF, Network Rail) are **not included**
+- Devolved UK governments (Scotland, Wales, Northern Ireland) are **not in Local Government** dataset
+
+---
+
 ## Roadmap
 
+- [ ] France Collectivités territoriales (Eurostat S1313 already parsed, needs UI integration)
+- [ ] Germany supplier data (Zuwendungsdatenbank)
+- [ ] UK NHS TAC historical years (2020/21, 2021/22)
+- [ ] Budget Comparator tab (side-by-side year/country)
 - [ ] IMF GFS data — ~130 countries at Level 1
-- [ ] Revenue/taxation data as counterpart to spending
-- [ ] Geographic Multiverse layout (continents)
 - [ ] Canada, Spain, Italy, Brazil, Mexico, Japan
-- [ ] Public API with rate limiting
+
+---
+
+## Contributing
+
+Want to add a country or improve the data pipeline? Open an issue.
+
+When adding data: every figure must come from a downloaded, parseable official source with a documented URL. Approximate figures are never acceptable — see the project memory on honest data practice.
 
 ---
 
@@ -187,6 +217,16 @@ Your support helps add more countries, keep the data updated, and improve the pl
 ## License
 
 MIT · Open Source · Open Data
+
+Data is used under open government licences:
+- **UK:** Open Government Licence v3
+- **Germany:** Open Government Data `dl-de/by-2-0`
+- **US:** Public domain (USAspending.gov)
+- **France:** Licence Ouverte / Open Licence
+
+This project has no affiliation with any government body.
+
+---
 
 *Every euro collected from citizens should be understandable to those citizens.*
 
