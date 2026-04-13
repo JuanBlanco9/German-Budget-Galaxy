@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "source": "ONS Local Authority Population Estimates",
+    "edition": "Mid-2023",
+    "release_date": "2024-07-15",
+    "sheet_used": "MYE2 - Persons",
+    "column_used": "All ages",
+    "downloaded_from": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales/mid20232023localauthorityboundarieseditionofthisdataset/mye23tablesew.xlsx",
+    "downloaded_at": "2026-04-13",
+    "note": "Only England and Wales authorities. Police (E23xxx) and Fire (E31xxx) entities are NOT in this file — those are service areas, not geographic local authorities. They do not receive population data (handled by lens system as \"no data\")."
+  },
+  "reference_aggregates": {
+    "E92000001": {
+      "name": "England",
+      "population": 57690323
+    },
+    "K04000001": {
+      "name": "England and Wales",
+      "population": 60854727
+    }
+  },
+  "populations": {
+    "E08000003": {
+      "name": "Manchester",
+      "population": 579917
+    },
+    "E08000005": {
+      "name": "Rochdale",
+      "population": 229756
+    },
+    "E06000065": {
+      "name": "North Yorkshire",
+      "population": 627629
+    },
+    "E08000019": {
+      "name": "Sheffield",
+      "population": 573252
+    },
+    "E08000035": {
+      "name": "Leeds",
+      "population": 829413
+    },
+    "E10000024": {
+      "name": "Nottinghamshire",
+      "population": 844494
+    },
+    "E08000027": {
+      "name": "Dudley",
+      "population": 326680
+    },
+    "E10000015": {
+      "name": "Hertfordshire",
+      "population": 1215387
+    },
+    "E10000020": {
+      "name": "Norfolk",
+      "population": 931943
+    },
+    "E09000007": {
+      "name": "Camden",
+      "population": 220903
+    },
+    "E09000022": {
+      "name": "Lambeth",
+      "population": 315706
+    },
+    "E09000028": {
+      "name": "Southwark",
+      "population": 315519
+    },
+    "E09000024": {
+      "name": "Merton",
+      "population": 215219
+    },
+    "E06000060": {
+      "name": "Buckinghamshire",
+      "population": 566694
+    },
+    "E10000011": {
+      "name": "East Sussex",
+      "population": 555484
+    },
+    "E10000016": {
+      "name": "Kent",
+      "population": 1610251
+    },
+    "E06000023": {
+      "name": "Bristol, City of",
+      "population": 482998
+    },
+    "E06000052": {
+      "name": "Cornwall",
+      "population": 578324
+    },
+    "E06000025": {
+      "name": "South Gloucestershire",
+      "population": 299439
+    }
+  }
+}

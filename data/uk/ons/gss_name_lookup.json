@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "source": "MHCLG Revenue Outturn timeseries",
+    "source_path": "data/uk/local_authorities/revenue_outturn_timeseries.csv",
+    "built_at": "2026-04-13",
+    "match_strategy": "exact for 22 councils; +\" UA\" suffix for 4 unitaries (Cornwall, Buckinghamshire, Bristol, South Gloucestershire)"
+  },
+  "name_to_gss": {
+    "Kent CC": "E10000016",
+    "Hertfordshire CC": "E10000015",
+    "Norfolk CC": "E10000020",
+    "Nottinghamshire CC": "E10000024",
+    "East Sussex CC": "E10000011",
+    "North Yorkshire": "E06000065",
+    "Cornwall": "E06000052",
+    "Buckinghamshire": "E06000060",
+    "Bristol": "E06000023",
+    "South Gloucestershire": "E06000025",
+    "Leeds": "E08000035",
+    "Manchester": "E08000003",
+    "Sheffield": "E08000019",
+    "Dudley": "E08000027",
+    "Rochdale": "E08000005",
+    "Lambeth": "E09000022",
+    "Camden": "E09000007",
+    "Southwark": "E09000028",
+    "Merton": "E09000024",
+    "Kent Police and Crime Commissioner and Chief Constable": "E23000032",
+    "Hertfordshire Police and Crime Commissioner and Chief Constable": "E23000027",
+    "Nottinghamshire Police and Crime Commissioner and Chief Constable": "E23000019",
+    "Kent Combined Fire and Rescue Authority": "E31000022",
+    "Nottinghamshire Combined Fire and Rescue Authority": "E31000030",
+    "East Sussex Combined Fire and Rescue Authority": "E31000014",
+    "Buckinghamshire Combined Fire and Rescue Authority": "E31000004"
+  }
+}
