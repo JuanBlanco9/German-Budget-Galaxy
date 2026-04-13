@@ -159,7 +159,9 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .cmp-col-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
 .cmp-col-badge.left{background:rgba(74,158,255,.15);color:#4a9eff}
 .cmp-col-badge.right{background:rgba(82,196,26,.15);color:#52c41a}
-.cmp-country-select{padding:4px 8px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;cursor:pointer;margin-left:auto}
+.cmp-selectors{display:flex;gap:6px;margin-left:auto;align-items:center}
+.cmp-country-select,.cmp-year-select{padding:4px 8px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;cursor:pointer}
+.cmp-year-select{min-width:62px}
 .cmp-breadcrumb{font-size:11px;color:var(--dim);margin-bottom:10px;line-height:1.6;word-break:break-word}
 .cmp-breadcrumb .crumb{cursor:pointer;text-decoration:underline;text-decoration-color:transparent;transition:text-decoration-color .15s}
 .cmp-breadcrumb .crumb:hover{text-decoration-color:var(--accent);color:var(--accent)}
@@ -1258,12 +1260,15 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
       <div class="cmp-col" id="cmp-left">
         <div class="cmp-col-header">
           <span class="cmp-col-badge left">Left</span>
-          <select class="cmp-country-select" id="cmp-left-country" onchange="cmpChangeCountry('left', this.value)">
-            <option value="uk">&#127468;&#127463; UK</option>
-            <option value="de">&#127465;&#127466; Germany</option>
-            <option value="fr">&#127467;&#127479; France</option>
-            <option value="us">&#127482;&#127480; US</option>
-          </select>
+          <div class="cmp-selectors">
+            <select class="cmp-country-select" id="cmp-left-country" onchange="cmpChangeCountry('left', this.value)">
+              <option value="uk">&#127468;&#127463; UK</option>
+              <option value="de">&#127465;&#127466; Germany</option>
+              <option value="fr">&#127467;&#127479; France</option>
+              <option value="us">&#127482;&#127480; US</option>
+            </select>
+            <select class="cmp-year-select" id="cmp-left-year" onchange="cmpChangeYear('left', this.value)"></select>
+          </div>
         </div>
         <div class="cmp-col-body" id="cmp-left-body">
           <div class="cmp-empty">Loading&hellip;</div>
@@ -1272,12 +1277,15 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
       <div class="cmp-col" id="cmp-right">
         <div class="cmp-col-header">
           <span class="cmp-col-badge right">Right</span>
-          <select class="cmp-country-select" id="cmp-right-country" onchange="cmpChangeCountry('right', this.value)">
-            <option value="uk">&#127468;&#127463; UK</option>
-            <option value="de">&#127465;&#127466; Germany</option>
-            <option value="fr">&#127467;&#127479; France</option>
-            <option value="us">&#127482;&#127480; US</option>
-          </select>
+          <div class="cmp-selectors">
+            <select class="cmp-country-select" id="cmp-right-country" onchange="cmpChangeCountry('right', this.value)">
+              <option value="uk">&#127468;&#127463; UK</option>
+              <option value="de">&#127465;&#127466; Germany</option>
+              <option value="fr">&#127467;&#127479; France</option>
+              <option value="us">&#127482;&#127480; US</option>
+            </select>
+            <select class="cmp-year-select" id="cmp-right-year" onchange="cmpChangeYear('right', this.value)"></select>
+          </div>
         </div>
         <div class="cmp-col-body" id="cmp-right-body">
           <div class="cmp-empty">Loading&hellip;</div>
@@ -4590,11 +4598,19 @@ window.LENS_REGISTRY = {
     label: 'per capita',
     category: 'denominator',
     incompatibleWith: ['pct_of_root', 'pct_of_class', 'pct_of_parent', 'per_demand'],
+    // Population data is currently only available for UK councils in 2024
+    // (ONS mid-2023 estimates, attached in session 1). Other years and
+    // countries are deliberately gated off until we inject equivalent
+    // population data for them. Applying mid-2023 population to e.g. 2019
+    // spending would produce subtly wrong numbers that a serious analyst
+    // would catch — we prefer a visible "not available" state.
     apply: function(value, node, context) {
+      if (!context || context.country !== 'uk' || context.year !== 2024) return null;
       if (typeof node.population !== 'number' || node.population <= 0) return null;
       return value / node.population;
     },
-    isAvailable: function(node) {
+    isAvailable: function(node, context) {
+      if (!context || context.country !== 'uk' || context.year !== 2024) return false;
       return typeof node.population === 'number' && node.population > 0;
     }
   },
@@ -4800,13 +4816,19 @@ function applyLenses(value, node, context) {
 // Helper: build a fresh context object with all reserved fields
 // present but null. Callers (like Compare tab) override the
 // fields they need.
-function makeLensContext(root) {
-  return {
+function makeLensContext(root, extra) {
+  const ctx = {
     root: root || null,
-    targetYear: null,    // reserved for 'real' lens
+    year: null,          // year of the currently loaded tree (used by per_capita gating)
+    country: null,       // country id of the currently loaded tree (uk, de, fr, us)
+    targetYear: null,    // reserved for 'real' lens (different from 'year' — the year we adjust TO)
     previousTree: null,  // reserved for 'yoy' lens
     domain: null         // reserved for 'per_demand' lens
   };
+  if (extra && typeof extra === 'object') {
+    for (const k in extra) if (Object.prototype.hasOwnProperty.call(extra, k)) ctx[k] = extra[k];
+  }
+  return ctx;
 }
 
 // Optional callback invoked by toggleLens when state changes.
@@ -4836,11 +4858,38 @@ var _onLensStateChange = null;
 //   - LENSES RESET ON PAGE LOAD. Not persisted.
 
 window.cmpState = {
-  left:  { country: 'uk', tree: null, root: null, node: null, path: [] },
-  right: { country: 'uk', tree: null, root: null, node: null, path: [] }
+  left:  { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [] },
+  right: { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [] }
 };
 
 const CMP_CURRENCY = { uk: '£', de: '€', fr: '€', us: '$' };
+
+// Per-country available years (known at build time so the year
+// dropdown is populated instantly without extra fetches). These
+// match the actual JSON tree files in data/.
+// - UK uses data/uk/uk_budget_tree_YYYY.json (2015-2024)
+// - DE uses data/bundeshaushalt_tree_YYYY.json via /budget/tree
+//   (NOT data/de/... — the DE API path is different from the others)
+// - FR uses data/fr/fr_budget_tree_YYYY.json (2015-2025)
+// - US uses data/us/us_budget_tree_YYYY.json (2017-2025)
+const CMP_YEARS = {
+  uk: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  de: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+  fr: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+  us: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+};
+
+// Build the correct tree URL for a country+year. Germany uses a
+// different API path than the other countries because the DE tree
+// lives at data/bundeshaushalt_tree_YYYY.json at the top of data/,
+// not under data/de/. This asymmetry is a historical quirk of the
+// project; fixing it at the data layer would require renaming files
+// and coordinating with other views. For Compare tab we work around
+// it with a simple URL map.
+function cmpTreeUrl(country, year) {
+  if (country === 'de') return API + '/budget/tree?year=' + year;
+  return API + '/budget/country/' + country + '?year=' + year;
+}
 
 // Compare-tab-isolated formatter. Intentionally separate from
 // fmtEur() to keep Compare tab changes from affecting other
@@ -4873,11 +4922,16 @@ function fmtLensValue(result, currency) {
 
 // Why a lens could not apply to a given node — for tooltips
 // on "—" cells so the user understands gaps.
-function cmpNoDataReason(activeLensIds, node) {
+function cmpNoDataReason(activeLensIds, node, context) {
   for (let i = 0; i < activeLensIds.length; i++) {
     const id = activeLensIds[i];
-    if (id === 'per_capita' && (typeof node.population !== 'number' || node.population <= 0)) {
-      return 'No population data for this node';
+    if (id === 'per_capita') {
+      if (context && (context.country !== 'uk' || context.year !== 2024)) {
+        return 'per capita requires UK 2024 (population data only available for mid-2023 / FY 2024)';
+      }
+      if (typeof node.population !== 'number' || node.population <= 0) {
+        return 'No population data for this node';
+      }
     }
     if (id === 'pct_of_root') {
       return 'No country root available';
@@ -4887,9 +4941,21 @@ function cmpNoDataReason(activeLensIds, node) {
 }
 
 async function cmpInit() {
+  // Populate the year dropdowns from CMP_YEARS for the initial
+  // country (UK on both sides by default).
+  ['left', 'right'].forEach(function(side) {
+    const state = window.cmpState[side];
+    const years = CMP_YEARS[state.country] || [];
+    const yearSel = document.getElementById('cmp-' + side + '-year');
+    if (yearSel) {
+      yearSel.innerHTML = years.map(function(y) {
+        return '<option value="' + y + '"' + (y === state.year ? ' selected' : '') + '>' + y + '</option>';
+      }).join('');
+    }
+  });
   renderLensPanel();
-  await cmpChangeCountry('left',  cmpState.left.country);
-  await cmpChangeCountry('right', cmpState.right.country);
+  await cmpLoadSide('left');
+  await cmpLoadSide('right');
   // Hook lens state changes to re-render both columns
   _onLensStateChange = function() {
     renderCompareSide('left');
@@ -4898,21 +4964,26 @@ async function cmpInit() {
   };
 }
 
-async function cmpChangeCountry(side, country) {
+// Load the tree for a side given its current country+year. Called
+// whenever either the country or the year selector changes, and at
+// init. Resets the node selection to the root.
+async function cmpLoadSide(side) {
   const state = window.cmpState[side];
-  state.country = country;
+  const country = state.country;
+  const year = state.year;
   state.tree = null;
   state.root = null;
   state.node = null;
   state.path = [];
+
   const body = document.getElementById('cmp-' + side + '-body');
-  if (body) body.innerHTML = '<div class="cmp-empty">Loading ' + country.toUpperCase() + '&hellip;</div>';
+  if (body) body.innerHTML = '<div class="cmp-empty">Loading ' + country.toUpperCase() + ' ' + year + '&hellip;</div>';
 
   try {
-    const url = API + '/budget/country/' + country + '?year=2024';
+    const url = cmpTreeUrl(country, year);
     const tree = await fetch(url).then(function(r) { return r.json(); });
     if (!tree || !tree.children) {
-      body.innerHTML = '<div class="cmp-empty">Could not load ' + country.toUpperCase() + ' tree.</div>';
+      body.innerHTML = '<div class="cmp-empty">Could not load ' + country.toUpperCase() + ' ' + year + ' tree.</div>';
       return;
     }
     state.tree = tree;
@@ -4920,9 +4991,38 @@ async function cmpChangeCountry(side, country) {
     state.node = tree;
     state.path = [{ name: tree.name, ref: tree }];
     renderCompareSide(side);
+    renderLensPanel(); // lens availability may have changed (e.g., per_capita gated by year)
   } catch (e) {
-    body.innerHTML = '<div class="cmp-empty">Error loading ' + country.toUpperCase() + ': ' + e.message + '</div>';
+    body.innerHTML = '<div class="cmp-empty">Error loading ' + country.toUpperCase() + ' ' + year + ': ' + e.message + '</div>';
   }
+}
+
+// Country selector handler. Updates country and rebuilds the year
+// dropdown (because each country has a different set of available
+// years), picks the closest available year, then reloads.
+function cmpChangeCountry(side, country) {
+  const state = window.cmpState[side];
+  state.country = country;
+  // Rebuild year dropdown and pick a valid year
+  const years = CMP_YEARS[country] || [];
+  const yearSel = document.getElementById('cmp-' + side + '-year');
+  if (yearSel) {
+    yearSel.innerHTML = years.map(function(y) {
+      return '<option value="' + y + '">' + y + '</option>';
+    }).join('');
+    // Prefer keeping the current year if available, otherwise latest
+    const preferred = years.indexOf(state.year) >= 0 ? state.year : years[years.length - 1];
+    state.year = preferred;
+    yearSel.value = preferred;
+  }
+  cmpLoadSide(side);
+}
+
+// Year selector handler.
+function cmpChangeYear(side, year) {
+  const state = window.cmpState[side];
+  state.year = parseInt(year, 10) || state.year;
+  cmpLoadSide(side);
 }
 
 function cmpDescend(side, childIndex) {
@@ -4953,7 +5053,7 @@ function renderCompareSide(side) {
   }
 
   const node = state.node;
-  const ctx = makeLensContext(state.root);
+  const ctx = makeLensContext(state.root, { year: state.year, country: state.country });
   const currency = CMP_CURRENCY[state.country] || '£';
 
   // Breadcrumb
@@ -4979,7 +5079,7 @@ function renderCompareSide(side) {
   if (window.activeLenses.size > 0) {
     const activeList = Array.from(window.activeLenses);
     if (nodeResult.value === null) {
-      const reason = cmpNoDataReason(activeList, node);
+      const reason = cmpNoDataReason(activeList, node, ctx);
       html += '<div class="cmp-node-lens no-data" title="' + _escHtml(reason) + '">— ' + _escHtml(activeList.map(function(id) { return (window.LENS_REGISTRY[id] || {}).label || id; }).join(' · ')) + '</div>';
     } else {
       const lensLabel = activeList.map(function(id) { return (window.LENS_REGISTRY[id] || {}).label || id; }).join(' · ');
@@ -5003,7 +5103,7 @@ function renderCompareSide(side) {
       html += '<span class="cmp-child-val">' + childRaw + '</span>';
       if (window.activeLenses.size > 0) {
         if (childRes.value === null) {
-          const reason = cmpNoDataReason(Array.from(window.activeLenses), child);
+          const reason = cmpNoDataReason(Array.from(window.activeLenses), child, ctx);
           html += '<span class="cmp-child-lens no-data" title="' + _escHtml(reason) + '">—</span>';
         } else {
           html += '<span class="cmp-child-lens">' + fmtLensValue(childRes, currency) + '</span>';
@@ -5026,11 +5126,25 @@ function renderLensPanel() {
   const panel = document.getElementById('lens-panel');
   if (!panel) return;
 
-  // Keep the label and conflict-notice containers, replace buttons
+  // Keep the conflict-notice container, replace everything else
   let notice = panel.querySelector('.lens-conflict-notice');
   panel.innerHTML = '<span class="lens-panel-label">Lenses</span>';
 
-  // Render only non-stub lenses as clickable buttons; stubs are omitted for now
+  // A lens is considered "available in Compare tab" if it's available
+  // for either the left side's root or the right side's root. This is
+  // the user-friendly interpretation: we don't disable a lens button
+  // just because one column doesn't support it — each column renders
+  // its own "—" for no-data cells.
+  const leftState  = window.cmpState && window.cmpState.left;
+  const rightState = window.cmpState && window.cmpState.right;
+  function makeSideContext(state) {
+    if (!state || !state.root) return null;
+    return makeLensContext(state.root, { year: state.year, country: state.country });
+  }
+  const leftCtx  = makeSideContext(leftState);
+  const rightCtx = makeSideContext(rightState);
+
+  // Render only non-stub lenses as buttons; stubs are omitted for now
   const implemented = [];
   for (const id in window.LENS_REGISTRY) {
     const lens = window.LENS_REGISTRY[id];
@@ -5038,10 +5152,32 @@ function renderLensPanel() {
     implemented.push(lens);
   }
   implemented.forEach(function(lens) {
+    // Check availability on either side's root
+    let availableLeft  = leftState  && leftState.root  ? lens.isAvailable(leftState.root, leftCtx)   : false;
+    let availableRight = rightState && rightState.root ? lens.isAvailable(rightState.root, rightCtx) : false;
+    const anyAvailable = availableLeft || availableRight;
+
     const btn = document.createElement('button');
-    btn.className = 'lens-button' + (window.activeLenses.has(lens.id) ? ' active' : '');
+    const classes = ['lens-button'];
+    if (window.activeLenses.has(lens.id)) classes.push('active');
+    if (!anyAvailable) classes.push('disabled');
+    btn.className = classes.join(' ');
     btn.textContent = lens.label;
-    btn.onclick = function() { toggleLens(lens.id); };
+
+    if (anyAvailable) {
+      btn.onclick = function() { toggleLens(lens.id); };
+    } else {
+      // Tooltip explaining why the lens is not available
+      let reason = 'Not available for the current selection';
+      if (lens.id === 'per_capita') {
+        reason = 'per capita requires UK 2024 (population data only available for UK councils in mid-2023 / FY 2024)';
+      }
+      btn.title = reason;
+      btn.onclick = function(e) {
+        e.preventDefault();
+        _showLensNotice(reason);
+      };
+    }
     panel.appendChild(btn);
   });
 
