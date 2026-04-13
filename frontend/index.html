@@ -229,9 +229,16 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .dossier-note-issue{display:inline-block;margin-left:8px;font-size:9px;text-transform:uppercase;padding:1px 7px;border-radius:8px;background:rgba(255,112,67,.18);color:var(--accent2);letter-spacing:.4px;vertical-align:middle}
 .dossier-note-body{font-size:11px;color:var(--text);line-height:1.55;opacity:.9}
 .dossier-sup-meta{font-size:10px;color:var(--dim);margin-bottom:8px;line-height:1.5}
-.dossier-sup-row{display:flex;align-items:center;gap:8px;padding:3px 0;font-size:11px}
+.dossier-sup-row{display:flex;align-items:center;gap:8px;padding:4px 6px;font-size:11px;border-radius:3px;transition:background .12s}
+.dossier-sup-row.clickable{cursor:pointer}
+.dossier-sup-row.clickable:hover{background:rgba(79,195,247,.08)}
 .dossier-sup-row .sup-name{flex:1;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dossier-sup-row .sup-val{color:var(--dim);font-size:10px;font-variant-numeric:tabular-nums;flex-shrink:0;text-align:right;min-width:100px}
+.dossier-expand-toggle{margin-top:6px;padding:5px 10px;font-size:10px;color:var(--accent);cursor:pointer;text-align:center;border-radius:3px;background:rgba(79,195,247,.05);border:1px solid rgba(79,195,247,.15);user-select:none;transition:background .12s}
+.dossier-expand-toggle:hover{background:rgba(79,195,247,.12)}
+.csp-lookup{margin-top:6px;font-size:10px;color:var(--dim)}
+.csp-lookup a{color:var(--accent);text-decoration:none;border-bottom:1px dotted rgba(79,195,247,.4);transition:border-color .12s}
+.csp-lookup a:hover{border-bottom-color:var(--accent)}
 .dossier-empty-mini{font-size:11px;color:var(--dim);font-style:italic;padding:2px 0}
 /* Supplier detail panel (session 3) — expandible auxiliary panel */
 .cmp-supplier-panel{background:var(--bg);border:1px solid var(--accent2);border-radius:6px;margin-bottom:14px;overflow:hidden}
@@ -4939,8 +4946,8 @@ var _onLensStateChange = null;
 //   - LENSES RESET ON PAGE LOAD. Not persisted.
 
 window.cmpState = {
-  left:  { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [], activeSupplier: null },
-  right: { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [], activeSupplier: null },
+  left:  { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [], activeSupplier: null, expandedSuppliers: false },
+  right: { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [], activeSupplier: null, expandedSuppliers: false },
   // Supplier index cache. Keyed by `${country}_${year}`. Built once per
   // unique tree in cmpBuildSupplierIndex and reused across reloads.
   // Single source of truth — no window._supplierIndex global.
@@ -5496,11 +5503,23 @@ function cmpSearchClick(side, idx) {
 // supplier key on state.activeSupplier and re-renders the column.
 // The actual panel HTML is emitted by renderCompareSide when
 // state.activeSupplier is set — see Task 4.
+//
+// Scroll behavior: the panel appears at the top of the column body,
+// which can be far above the user's current scroll position when the
+// click originates from a Section 6 row deep in the dossier. Without
+// an explicit scroll, the click looks like it did nothing. We find
+// the panel element after the re-render and scrollIntoView it into
+// the column's scroll container (the .panel element that wraps the
+// whole Compare tab).
 function cmpOpenSupplierPanel(side, normalizedName) {
   const state = window.cmpState[side];
   if (!state) return;
   state.activeSupplier = normalizedName || null;
   renderCompareSide(side);
+  const panelEl = document.getElementById('cmp-' + side + '-supplier-panel');
+  if (panelEl && panelEl.scrollIntoView) {
+    panelEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 function cmpCloseSupplierPanel(side) {
@@ -5560,7 +5579,8 @@ function cmpDescend(side, childIndex) {
   if (!child) return;
   state.node = child;
   state.path.push({ name: child.name, ref: child });
-  state.activeSupplier = null;  // Navigating closes any open supplier panel
+  state.activeSupplier = null;       // close supplier panel on navigate
+  state.expandedSuppliers = false;   // reset Section 6 expand on navigate
   renderCompareSide(side);
 }
 
@@ -5569,8 +5589,38 @@ function cmpNavigateTo(side, depth) {
   if (depth < 0 || depth >= state.path.length) return;
   state.path = state.path.slice(0, depth + 1);
   state.node = state.path[state.path.length - 1].ref;
-  state.activeSupplier = null;  // Navigating closes any open supplier panel
+  state.activeSupplier = null;
+  state.expandedSuppliers = false;
   renderCompareSide(side);
+}
+
+// Toggle Section 6 supplier list between top-5 and the full list.
+// State lives on the column so each side can be toggled independently.
+function cmpToggleSection6Expand(side) {
+  const state = window.cmpState[side];
+  if (!state) return;
+  state.expandedSuppliers = !state.expandedSuppliers;
+  renderCompareSide(side);
+}
+
+// Open the supplier detail panel from a Section 6 row click. The raw
+// supplier name from _top_suppliers is normalized and looked up in the
+// supplier index. If found, opens the full cross-council panel. If the
+// supplier isn't in the index (very rare — would mean it was filtered
+// as redacted, or the tree has no index), does nothing silently.
+function cmpOpenSupplierFromDossier(side, listIndex) {
+  const state = window.cmpState[side];
+  if (!state || !state._section6SupplierList) return;
+  const sup = state._section6SupplierList[listIndex];
+  if (!sup || !sup.name) return;
+  const normalized = cmpNormalizeSupplier(sup.name);
+  if (!normalized) return;
+  const idx = window.cmpState.supplierIndex[state.country + '_' + state.year] || {};
+  if (!idx[normalized]) {
+    // Fall back: do nothing. Could show a small notice in a future pass.
+    return;
+  }
+  cmpOpenSupplierPanel(side, normalized);
 }
 
 // Peer ranking: where does this node sit among its immediate siblings?
@@ -5608,6 +5658,14 @@ function cmpComputeSupplierStats(node) {
     hhi *= 10000;
   }
   const local = real.filter(function(s) { return s._local === true; });
+  // Navigable list: real suppliers minus redacted rows. Redacted rows
+  // are still counted in spendTotal, HHI, and top1/5/10 shares above
+  // (those use `sorted`, which is unfiltered), because they ARE real
+  // spend. But they are hidden from the visible top-N row list because
+  // the rows are meant to be clickable "navigable entities" and
+  // redacted personal payments are not investigable. Consistent with
+  // how cmpBuildSupplierIndex filters the global index.
+  const sortedNavigable = sorted.filter(function(s) { return !cmpIsRedactedOrSynthetic(s.name); });
   return {
     spendTotal: spendTotal,
     transactions: ts.transaction_count || 0,
@@ -5618,7 +5676,8 @@ function cmpComputeSupplierStats(node) {
     hhi: hhi,
     localCount: local.length,
     realTotal: real.length,
-    topList: sorted.slice(0, 5),
+    topList: sortedNavigable.slice(0, 5),  // Visible list only — no redacted
+    fullList: sortedNavigable,             // Same filter, expanded view
     source: ts.source || '',
     fyLabel: ts.fy_label || ''
   };
@@ -5680,7 +5739,7 @@ function cmpRenderSupplierPanel(side, supplierKey, currency) {
   // them up by index without escaping the council name into the HTML
   state._supplierPanelRows = rows;
 
-  let h = '<div class="cmp-supplier-panel">';
+  let h = '<div class="cmp-supplier-panel" id="cmp-' + side + '-supplier-panel">';
 
   // Header
   const totalLbl = fmtLensValue({ value: sup.totalAmount, formatHint: 'currency' }, currency);
@@ -5698,11 +5757,28 @@ function cmpRenderSupplierPanel(side, supplierKey, currency) {
   if (sup.companyTypes && sup.companyTypes.length > 0) {
     metaBits.push('Type: ' + sup.companyTypes.map(_escHtml).join(', '));
   }
-  if (metaBits.length > 0 || sup.hasLocalFlag) {
+  // External lookup links. We don't carry websites in the tree but we
+  // can deep-link into authoritative sources. For UK trees: Companies
+  // House name search returns the registered entity (including its
+  // registered office and filing history) for any limited company. For
+  // non-UK or as a universal fallback, a web search. Both links open
+  // in a new tab so the dossier is never replaced.
+  const lookupLinks = [];
+  if (state.country === 'uk') {
+    const chQuery = encodeURIComponent(sup.displayName || '');
+    lookupLinks.push('<a href="https://find-and-update.company-information.service.gov.uk/search/companies?q=' + chQuery + '" target="_blank" rel="noopener noreferrer">Companies House</a>');
+  }
+  const webQuery = encodeURIComponent((sup.displayName || '') + (state.country === 'uk' ? ' UK' : ''));
+  lookupLinks.push('<a href="https://duckduckgo.com/?q=' + webQuery + '" target="_blank" rel="noopener noreferrer">Web search</a>');
+
+  if (metaBits.length > 0 || sup.hasLocalFlag || lookupLinks.length > 0) {
     h += '<div class="csp-meta">';
     metaBits.forEach(function(m) { h += '<div>' + m + '</div>'; });
     if (sup.hasLocalFlag) {
       h += '<div class="csp-local-badge">local to at least one council</div>';
+    }
+    if (lookupLinks.length > 0) {
+      h += '<div class="csp-lookup">Look up: ' + lookupLinks.join(' &middot; ') + '</div>';
     }
     h += '</div>';
   }
@@ -5891,9 +5967,16 @@ function renderCompareSide(side) {
       const origIdx = node.children.indexOf(child);
       const childRes = applyLenses(child.value, child, ctx);
       const childRaw = fmtLensValue({ value: child.value, formatHint: 'currency' }, currency);
+      // A child is navigable if it has tree children OR has metadata
+      // that the dossier will render (supplier concentration, spending
+      // subcategories). Council services like Adult Social Care are
+      // structural leaves but carry rich _top_suppliers + _subcategories
+      // metadata — jumping into them shows Section 6 and 7 of the dossier.
       const hasKids = child.children && child.children.length > 0;
-      const clickAttr = hasKids ? ' onclick="cmpDescend(\'' + side + '\',' + origIdx + ')"' : '';
-      const leafClass = hasKids ? '' : ' leaf';
+      const hasMeta = !!child._top_suppliers || (Array.isArray(child._subcategories) && child._subcategories.length > 0);
+      const navigable = hasKids || hasMeta;
+      const clickAttr = navigable ? ' onclick="cmpDescend(\'' + side + '\',' + origIdx + ')"' : '';
+      const leafClass = navigable ? '' : ' leaf';
       html += '<div class="cmp-child' + leafClass + '"' + clickAttr + '>';
       html += '<span class="cmp-child-name">' + _escHtml(child.name || '') + '</span>';
       html += '<span class="cmp-child-val">' + childRaw + '</span>';
@@ -5945,15 +6028,28 @@ function renderCompareSide(side) {
       html += '<div class="kv"><div class="kv-lbl">Local (of top)</div><div class="kv-val">' + supStats.localCount + ' / ' + supStats.realTotal + '</div></div>';
     }
     html += '</div>';
-    html += '<div class="dossier-section-title" style="margin-top:2px">Top 5 suppliers</div>';
-    supStats.topList.forEach(function(sup, i) {
+    const expanded = state.expandedSuppliers === true;
+    const displayList = expanded ? supStats.fullList : supStats.topList;
+    const listLabel = expanded ? ('All ' + supStats.fullList.length + ' identified suppliers') : 'Top 5 suppliers';
+    html += '<div class="dossier-section-title" style="margin-top:2px">' + listLabel + '</div>';
+    // Cache the list on state so the click handler can look up entries
+    // by index without escaping raw names into HTML attributes.
+    state._section6SupplierList = displayList;
+    displayList.forEach(function(sup, i) {
       const amtLbl = fmtLensValue({ value: sup.amount, formatHint: 'currency' }, currency);
       const pct = supStats.spendTotal > 0 ? (sup.amount || 0) / supStats.spendTotal * 100 : 0;
-      html += '<div class="dossier-sup-row">';
+      html += '<div class="dossier-sup-row clickable" onmousedown="cmpOpenSupplierFromDossier(\'' + side + '\',' + i + ')">';
       html += '<span class="sup-name">#' + (i + 1) + ' ' + _escHtml(sup.name || '') + '</span>';
       html += '<span class="sup-val">' + amtLbl + ' &middot; ' + pct.toFixed(1) + '%</span>';
       html += '</div>';
     });
+    // Expand / collapse toggle
+    if (supStats.fullList.length > 5) {
+      const toggleLabel = expanded
+        ? 'Show top 5 only'
+        : ('Show all ' + supStats.fullList.length + ' suppliers');
+      html += '<div class="dossier-expand-toggle" onclick="cmpToggleSection6Expand(\'' + side + '\')">' + toggleLabel + '</div>';
+    }
     html += '</div>';
   }
 
