@@ -233,6 +233,27 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .dossier-sup-row .sup-name{flex:1;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dossier-sup-row .sup-val{color:var(--dim);font-size:10px;font-variant-numeric:tabular-nums;flex-shrink:0;text-align:right;min-width:100px}
 .dossier-empty-mini{font-size:11px;color:var(--dim);font-style:italic;padding:2px 0}
+/* Supplier detail panel (session 3) — expandible auxiliary panel */
+.cmp-supplier-panel{background:var(--bg);border:1px solid var(--accent2);border-radius:6px;margin-bottom:14px;overflow:hidden}
+.csp-header{display:flex;align-items:center;gap:10px;padding:10px 12px;background:rgba(255,112,67,.06);border-bottom:1px solid rgba(255,112,67,.2)}
+.csp-title{flex:1;font-size:14px;font-weight:700;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.csp-summary{font-size:11px;color:var(--dim);flex-shrink:0;font-variant-numeric:tabular-nums}
+.csp-close{cursor:pointer;color:var(--dim);font-size:20px;line-height:1;width:22px;height:22px;display:flex;align-items:center;justify-content:center;border-radius:3px;flex-shrink:0;user-select:none}
+.csp-close:hover{background:rgba(255,255,255,.08);color:var(--text)}
+.csp-meta{padding:8px 12px;font-size:10px;color:var(--dim);line-height:1.55;border-bottom:1px solid rgba(40,40,64,.5)}
+.csp-meta div{margin-bottom:2px}
+.csp-meta div:last-child{margin-bottom:0}
+.csp-local-badge{display:inline-block;margin-top:4px;padding:2px 8px;background:rgba(102,187,106,.12);color:var(--green);font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;border-radius:10px}
+.csp-table{font-size:11px}
+.csp-th{display:flex;align-items:center;padding:6px 12px;font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--dim);font-weight:700;background:rgba(255,255,255,.02);border-bottom:1px solid rgba(40,40,64,.6)}
+.csp-tbody{max-height:240px;overflow-y:auto}
+.csp-tr{display:flex;align-items:center;padding:7px 12px;cursor:pointer;border-bottom:1px solid rgba(40,40,64,.3);transition:background .12s}
+.csp-tr:hover{background:rgba(79,195,247,.08)}
+.csp-tr:last-child{border-bottom:none}
+.csp-c1{flex:1;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.csp-c2{width:90px;text-align:right;color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums;flex-shrink:0}
+.csp-c3{width:90px;text-align:right;color:var(--dim);font-variant-numeric:tabular-nums;flex-shrink:0;font-size:10px}
+.csp-svc-count{color:var(--dim);font-size:9px;margin-left:4px}
 .country-switch{display:flex;gap:0;border-radius:5px;overflow:hidden;border:1px solid var(--border);flex-shrink:0;margin-left:16px}
 .country-switch button{background:var(--bg);color:var(--dim);border:none;padding:4px 10px;font-size:11px;font-weight:600;cursor:pointer;font-family:Inter,system-ui,sans-serif;transition:background .2s}
 .country-switch button:hover{background:rgba(255,255,255,.06)}
@@ -5574,6 +5595,126 @@ function cmpComputeSupplierStats(node) {
   };
 }
 
+// Find the path (array of node refs, root-first) from a tree root to
+// a target node ref. Returns null if the target is not in the tree.
+// Used by the supplier panel to navigate the column to a council node
+// when the user clicks it in the panel's "present in" list.
+function cmpFindNodePath(root, target, pathRefs) {
+  if (!root) return null;
+  const next = pathRefs ? pathRefs.concat(root) : [root];
+  if (root === target) return next;
+  const kids = root.children || [];
+  for (let i = 0; i < kids.length; i++) {
+    const r = cmpFindNodePath(kids[i], target, next);
+    if (r) return r;
+  }
+  return null;
+}
+
+// Render the supplier detail panel HTML for a given column. Called
+// from renderCompareSide when state.activeSupplier is set. Looks up
+// the supplier in the cached index, aggregates councils that appear
+// multiple times (supplier present in multiple services of the same
+// council), and emits the panel markup.
+function cmpRenderSupplierPanel(side, supplierKey, currency) {
+  const state = window.cmpState[side];
+  const idx = window.cmpState.supplierIndex[state.country + '_' + state.year] || {};
+  const sup = idx[supplierKey];
+  if (!sup) {
+    // Supplier not found — stale state, clear it
+    return '';
+  }
+
+  // Aggregate councils: same council may appear multiple times if the
+  // supplier is present in multiple services of that council. Sum the
+  // amounts and transaction counts, track the number of services.
+  const byCouncil = {};
+  sup.councils.forEach(function(c) {
+    if (!byCouncil[c.councilName]) {
+      byCouncil[c.councilName] = {
+        councilName: c.councilName,
+        councilNode: c.councilNode,
+        amount: 0,
+        txCount: 0,
+        serviceCount: 0
+      };
+    }
+    const agg = byCouncil[c.councilName];
+    agg.amount += c.amount || 0;
+    agg.txCount += c.txCount || 0;
+    agg.serviceCount += 1;
+  });
+  const rows = Object.keys(byCouncil).map(function(k) { return byCouncil[k]; });
+  rows.sort(function(a, b) { return (b.amount || 0) - (a.amount || 0); });
+
+  // Register the active rows on state for the click handler to look
+  // them up by index without escaping the council name into the HTML
+  state._supplierPanelRows = rows;
+
+  let h = '<div class="cmp-supplier-panel">';
+
+  // Header
+  const totalLbl = fmtLensValue({ value: sup.totalAmount, formatHint: 'currency' }, currency);
+  h += '<div class="csp-header">';
+  h += '<div class="csp-title">' + _escHtml(sup.displayName || '') + '</div>';
+  h += '<div class="csp-summary">' + sup.councilCount + (sup.councilCount === 1 ? ' council' : ' councils') + ' &middot; ' + totalLbl + ' total</div>';
+  h += '<div class="csp-close" title="Close supplier panel" onclick="cmpCloseSupplierPanel(\'' + side + '\')">&times;</div>';
+  h += '</div>';
+
+  // Meta
+  const metaBits = [];
+  if (sup.postcodes && sup.postcodes.length > 0) {
+    metaBits.push('Registered postcodes: ' + sup.postcodes.map(_escHtml).join(', '));
+  }
+  if (sup.companyTypes && sup.companyTypes.length > 0) {
+    metaBits.push('Type: ' + sup.companyTypes.map(_escHtml).join(', '));
+  }
+  if (metaBits.length > 0 || sup.hasLocalFlag) {
+    h += '<div class="csp-meta">';
+    metaBits.forEach(function(m) { h += '<div>' + m + '</div>'; });
+    if (sup.hasLocalFlag) {
+      h += '<div class="csp-local-badge">local to at least one council</div>';
+    }
+    h += '</div>';
+  }
+
+  // Council table
+  h += '<div class="csp-table">';
+  h += '<div class="csp-th"><span class="csp-c1">Council</span><span class="csp-c2">Amount</span><span class="csp-c3">Transactions</span></div>';
+  h += '<div class="csp-tbody">';
+  rows.forEach(function(r, i) {
+    const amtLbl = fmtLensValue({ value: r.amount, formatHint: 'currency' }, currency);
+    const svcSuffix = r.serviceCount > 1 ? ' <span class="csp-svc-count">(' + r.serviceCount + ' services)</span>' : '';
+    h += '<div class="csp-tr" onmousedown="cmpJumpToCouncilFromPanel(\'' + side + '\',' + i + ')">';
+    h += '<span class="csp-c1">' + _escHtml(r.councilName || '') + svcSuffix + '</span>';
+    h += '<span class="csp-c2">' + amtLbl + '</span>';
+    h += '<span class="csp-c3">' + r.txCount.toLocaleString('en-GB') + '</span>';
+    h += '</div>';
+  });
+  h += '</div></div>';
+
+  h += '</div>';
+  return h;
+}
+
+// Click handler for the council rows in the supplier panel. Navigates
+// the column to the council node (not the specific service where the
+// supplier appears) and closes the panel.
+function cmpJumpToCouncilFromPanel(side, rowIdx) {
+  const state = window.cmpState[side];
+  if (!state || !state._supplierPanelRows) return;
+  const row = state._supplierPanelRows[rowIdx];
+  if (!row || !row.councilNode) return;
+  const path = cmpFindNodePath(state.root, row.councilNode, null);
+  if (!path) return;
+  state.node = row.councilNode;
+  state.path = path.map(function(ref) { return { name: ref.name, ref: ref }; });
+  state.activeSupplier = null;
+  state._supplierPanelRows = null;
+  renderCompareSide(side);
+  renderLensPanel();
+}
+
 function renderCompareSide(side) {
   const state = window.cmpState[side];
   const body = document.getElementById('cmp-' + side + '-body');
@@ -5591,6 +5732,11 @@ function renderCompareSide(side) {
   const parentVal = parentRef && typeof parentRef.value === 'number' && parentRef.value > 0 ? parentRef.value : 0;
 
   let html = '';
+
+  // Supplier detail panel (above the dossier when state.activeSupplier is set)
+  if (state.activeSupplier) {
+    html += cmpRenderSupplierPanel(side, state.activeSupplier, currency);
+  }
 
   // Breadcrumb
   html += '<div class="cmp-breadcrumb">';
