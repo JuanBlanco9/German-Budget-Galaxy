@@ -141,8 +141,11 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .about-acc-body .about-gap{border-left:3px solid var(--accent);padding:10px 14px;margin:14px 0;background:rgba(255,255,255,.02);border-radius:0 4px 4px 0}
 .about-acc-body .about-gap-title{font-weight:700;color:var(--text);margin-bottom:6px;display:block}
 /* ── Compare tab + lens system (session 2) ─── */
-#tab-compare{overflow-y:auto;-webkit-overflow-scrolling:touch}
-.compare-wrap{max-width:1280px;margin:0 auto;padding:24px;color:var(--text);min-height:0}
+/* Override .panel height: the default calc(100vh - 80px) underestimates
+   the real header+tabs height (~110px), which pushed the last ~30px of
+   the panel below the viewport and made scroll feel broken. */
+#tab-compare{height:calc(100vh - 110px);overflow-y:auto;-webkit-overflow-scrolling:touch}
+.compare-wrap{max-width:1280px;margin:0 auto;padding:24px 24px 60px;color:var(--text);min-height:0}
 .compare-title{font-size:20px;font-weight:700;margin:0 0 6px}
 .compare-sub{font-size:12px;color:var(--dim);margin-bottom:20px}
 .lens-panel{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:16px}
@@ -155,7 +158,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .lens-conflict-notice.visible{display:block}
 .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:900px){.compare-grid{grid-template-columns:1fr}}
-.cmp-col{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;min-height:400px}
+.cmp-col{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;min-height:400px;min-width:0;overflow:hidden}
 .cmp-col-header{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border)}
 .cmp-col-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
 .cmp-col-badge.left{background:rgba(74,158,255,.15);color:#4a9eff}
@@ -205,15 +208,17 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .dossier-kv .kv-lbl{color:var(--dim);font-size:9px;text-transform:uppercase;letter-spacing:.4px}
 .dossier-kv .kv-val{color:var(--text);font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
 .dossier-kv .kv-val.dim{color:var(--dim);font-weight:400;font-style:italic}
-.dossier-peer-wrap{display:flex;flex-direction:column;gap:3px}
-.dossier-peer-row{display:flex;align-items:center;gap:8px;font-size:11px}
-.dossier-peer-row .peer-name{width:140px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex-shrink:0}
-.dossier-peer-row .peer-fill-wrap{flex:1;height:5px;background:rgba(255,255,255,.04);border-radius:3px;overflow:hidden}
-.dossier-peer-row .peer-fill{height:100%;background:rgba(79,195,247,.4);border-radius:3px}
-.dossier-peer-row .peer-val{font-size:10px;color:var(--dim);min-width:70px;text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums}
+.dossier-nodeid{margin-top:10px;display:flex;flex-direction:column;gap:3px;min-width:0;overflow:hidden}
+.dossier-nodeid .kv-lbl{color:var(--dim);font-size:9px;text-transform:uppercase;letter-spacing:.4px}
+.dossier-nodeid code{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:10px;color:var(--text);background:rgba(255,255,255,.03);padding:4px 8px;border-radius:3px;word-break:break-all;overflow-wrap:anywhere;line-height:1.4;display:block}
+.dossier-peer-wrap{display:flex;flex-direction:column;gap:4px}
+.dossier-peer-row{display:flex;align-items:baseline;gap:10px;font-size:11px;min-width:0}
+.dossier-peer-row .peer-name{flex:1;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.dossier-peer-row .peer-val{font-size:10px;color:var(--dim);text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums}
+.dossier-peer-row .peer-pct{font-size:10px;color:var(--dim);min-width:42px;text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums;opacity:.7}
 .dossier-peer-row.me .peer-name{color:var(--accent2);font-weight:700}
-.dossier-peer-row.me .peer-fill{background:var(--accent2)}
 .dossier-peer-row.me .peer-val{color:var(--accent2);font-weight:600}
+.dossier-peer-row.me .peer-pct{color:var(--accent2);opacity:1}
 .dossier-peer-gap{font-size:10px;color:var(--dim);text-align:center;padding:2px 0;font-style:italic}
 .dossier-note{border-left:3px solid var(--accent2);padding:8px 12px;margin:6px 0;background:rgba(255,112,67,.06);border-radius:0 4px 4px 0}
 .dossier-note-title{font-size:11px;font-weight:700;color:var(--text);margin-bottom:3px}
@@ -5380,10 +5385,11 @@ function renderCompareSide(side) {
   if (popAvailable) {
     html += '<div class="kv"><div class="kv-lbl">Population</div><div class="kv-val">' + node.population.toLocaleString('en-GB') + '</div></div>';
   }
+  html += '</div>';
   if (node.id) {
-    html += '<div class="kv"><div class="kv-lbl">Node ID</div><div class="kv-val">' + _escHtml(String(node.id)) + '</div></div>';
+    html += '<div class="dossier-nodeid"><span class="kv-lbl">Node ID</span><code>' + _escHtml(String(node.id)) + '</code></div>';
   }
-  html += '</div></div>';
+  html += '</div>';
 
   // === Section: Proportions ===
   html += '<div class="dossier-section">';
@@ -5429,8 +5435,8 @@ function renderCompareSide(side) {
       const valLbl = fmtLensValue({ value: sib.value, formatHint: 'currency' }, currency);
       html += '<div class="dossier-peer-row' + (isMe ? ' me' : '') + '">';
       html += '<span class="peer-name">#' + (i + 1) + ' ' + _escHtml(sib.name || '') + '</span>';
-      html += '<span class="peer-fill-wrap"><span class="peer-fill" style="width:' + pct.toFixed(1) + '%"></span></span>';
       html += '<span class="peer-val">' + valLbl + '</span>';
+      html += '<span class="peer-pct">' + pct.toFixed(0) + '%</span>';
       html += '</div>';
     });
     if (!meShown) {
@@ -5440,8 +5446,8 @@ function renderCompareSide(side) {
       const valLbl = fmtLensValue({ value: me.value, formatHint: 'currency' }, currency);
       html += '<div class="dossier-peer-row me">';
       html += '<span class="peer-name">#' + (peer.myIdx + 1) + ' ' + _escHtml(me.name || '') + '</span>';
-      html += '<span class="peer-fill-wrap"><span class="peer-fill" style="width:' + pct.toFixed(1) + '%"></span></span>';
       html += '<span class="peer-val">' + valLbl + '</span>';
+      html += '<span class="peer-pct">' + pct.toFixed(0) + '%</span>';
       html += '</div>';
     }
     html += '</div>';
