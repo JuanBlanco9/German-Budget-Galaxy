@@ -4914,8 +4914,12 @@ var _onLensStateChange = null;
 //   - LENSES RESET ON PAGE LOAD. Not persisted.
 
 window.cmpState = {
-  left:  { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [] },
-  right: { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [] }
+  left:  { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [], activeSupplier: null },
+  right: { country: 'uk', year: 2024, tree: null, root: null, node: null, path: [], activeSupplier: null },
+  // Supplier index cache. Keyed by `${country}_${year}`. Built once per
+  // unique tree in cmpBuildSupplierIndex and reused across reloads.
+  // Single source of truth — no window._supplierIndex global.
+  supplierIndex: {}
 };
 
 const CMP_CURRENCY = { uk: '£', de: '€', fr: '€', us: '$' };
@@ -5046,7 +5050,9 @@ async function cmpLoadSide(side) {
     state.root = tree;
     state.node = tree;
     state.path = [{ name: tree.name, ref: tree }];
+    state.activeSupplier = null;
     cmpBuildSearchIndex(side);
+    cmpBuildSupplierIndex(country, year, tree);
     cmpResetSearch(side);
     renderCompareSide(side);
     renderLensPanel(); // lens availability may have changed (e.g., per_capita gated by year)
@@ -5087,6 +5093,144 @@ function cmpResetSearch(side) {
   if (results) { results.innerHTML = ''; results.classList.remove('open'); }
   const state = window.cmpState[side];
   if (state) state.searchActiveIdx = -1;
+}
+
+// Normalize a supplier company name for index keying. Lowercase,
+// strip common company suffixes, collapse whitespace. NOT fuzzy —
+// two names that differ only in suffix/case collapse to the same
+// key; anything else stays distinct. Known limitation: "Caretech
+// Community Services" and "Caretech Community" do NOT merge (no
+// substring matching, no Levenshtein).
+function cmpNormalizeSupplier(name) {
+  if (!name) return '';
+  let s = String(name).toLowerCase().trim();
+  // Strip "t/a <anything>" (trading-as) suffix — collapses aliases
+  s = s.replace(/\s+t\/a\s.*$/, '');
+  // Strip common company-form suffixes (one pass, repeated until stable)
+  const suffixes = /\s+(ltd|limited|plc|llp|llc|inc|incorporated|uk|co|corporation|corp)\.?$/;
+  let prev;
+  do { prev = s; s = s.replace(suffixes, ''); } while (s !== prev);
+  return s.replace(/\s+/g, ' ').trim();
+}
+
+function cmpIsRedactedOrSynthetic(name) {
+  if (!name) return true;
+  const lower = String(name).toLowerCase().trim();
+  if (lower.startsWith('redacted')) return true;
+  if (lower.indexOf('identity redacted') >= 0) return true;
+  if (lower.startsWith('other (')) return true;
+  return false;
+}
+
+// Pick the best display name when multiple raw names collapse to
+// the same normalized key. Proxy for "properly cased": count
+// lowercase characters and pick the one with the most. "BYTES
+// SOFTWARE LTD" (0 lowercase) loses to "Bytes Software Ltd"
+// (12 lowercase). Ties broken by first-seen order.
+function cmpPickDisplayName(current, candidate) {
+  if (!current) return candidate;
+  const countLower = function(s) { let n=0; for (let i=0;i<s.length;i++) { const c=s.charCodeAt(i); if (c>=97 && c<=122) n++; } return n; };
+  return countLower(candidate) > countLower(current) ? candidate : current;
+}
+
+// Build the global supplier index for a given tree. Keyed by
+// normalized company name. Walks the tree once, aggregates all
+// supplier rows across councils, filters redacted/synthetic rows,
+// and computes cross-council council count. Cached on
+// cmpState.supplierIndex[`${country}_${year}`] — reused across
+// column reloads of the same tree.
+function cmpBuildSupplierIndex(country, year, tree) {
+  const cacheKey = country + '_' + year;
+  if (window.cmpState.supplierIndex[cacheKey]) {
+    // Already built for this tree — reuse
+    return window.cmpState.supplierIndex[cacheKey];
+  }
+
+  const index = {};
+  let excludedToplevel = 0;
+  let filteredRedacted = 0;
+  let rowsProcessed = 0;
+
+  function walk(n, pathRefs) {
+    if (n._top_suppliers && Array.isArray(n._top_suppliers.suppliers)) {
+      // Parent council = immediate parent of the service node. This is
+      // deterministic for 185/186 UK nodes. The one outlier is
+      // "DEPARTMENT OF HEALTH" at top level where suppliers bubble up
+      // from DHSC L5 — skip it explicitly.
+      const parent = pathRefs[pathRefs.length - 1];
+      const isRoot = parent === tree;
+      const isTopLevelDept = parent && /^department/i.test(parent.name || '') && pathRefs.length <= 1;
+      if (isRoot || isTopLevelDept) {
+        excludedToplevel++;
+      } else if (parent) {
+        const councilName = parent.name || '';
+        const councilNode = parent;
+        const serviceNode = n;
+
+        n._top_suppliers.suppliers.forEach(function(row) {
+          rowsProcessed++;
+          if (cmpIsRedactedOrSynthetic(row.name)) {
+            filteredRedacted++;
+            return;
+          }
+          const normalized = cmpNormalizeSupplier(row.name);
+          if (!normalized) { filteredRedacted++; return; }
+
+          let entry = index[normalized];
+          if (!entry) {
+            entry = {
+              displayName: row.name,
+              normalizedName: normalized,
+              totalAmount: 0,
+              councilCount: 0,
+              councils: [],
+              postcodes: [],
+              companyTypes: [],
+              hasLocalFlag: false,
+              isRedacted: false
+            };
+            index[normalized] = entry;
+          } else {
+            entry.displayName = cmpPickDisplayName(entry.displayName, row.name);
+          }
+
+          entry.totalAmount += (typeof row.amount === 'number' ? row.amount : 0);
+          entry.councils.push({
+            councilName: councilName,
+            councilNode: councilNode,
+            serviceNode: serviceNode,
+            serviceName: serviceNode.name || '',
+            amount: row.amount || 0,
+            txCount: row.transactions || 0
+          });
+          if (row._postcode && entry.postcodes.indexOf(row._postcode) < 0) entry.postcodes.push(row._postcode);
+          if (row._company_type && entry.companyTypes.indexOf(row._company_type) < 0) entry.companyTypes.push(row._company_type);
+          if (row._local === true) entry.hasLocalFlag = true;
+        });
+      }
+    }
+    (n.children || []).forEach(function(c) { walk(c, pathRefs.concat(n)); });
+  }
+  walk(tree, []);
+
+  // Recompute councilCount as distinct council names
+  let crossCouncilCount = 0;
+  Object.keys(index).forEach(function(key) {
+    const entry = index[key];
+    const councilSet = {};
+    entry.councils.forEach(function(c) { councilSet[c.councilName] = true; });
+    entry.councilCount = Object.keys(councilSet).length;
+    if (entry.councilCount >= 2) crossCouncilCount++;
+  });
+
+  const uniqueCount = Object.keys(index).length;
+  console.log('Built supplier index for ' + country.toUpperCase() + ' ' + year + ': ' +
+              uniqueCount + ' unique, ' + crossCouncilCount + ' cross-council, ' +
+              filteredRedacted + ' filtered as redacted/synthetic, ' +
+              excludedToplevel + ' excluded_toplevel (of ' + rowsProcessed + ' rows processed)');
+
+  window.cmpState.supplierIndex[cacheKey] = index;
+  return index;
 }
 
 // Substring filter over the index. Case-insensitive, NOT fuzzy. Sort
