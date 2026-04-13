@@ -140,6 +140,45 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .about-acc-body li{margin-bottom:6px}
 .about-acc-body .about-gap{border-left:3px solid var(--accent);padding:10px 14px;margin:14px 0;background:rgba(255,255,255,.02);border-radius:0 4px 4px 0}
 .about-acc-body .about-gap-title{font-weight:700;color:var(--text);margin-bottom:6px;display:block}
+/* ── Compare tab + lens system (session 2) ─── */
+.compare-wrap{max-width:1280px;margin:0 auto;padding:24px;color:var(--text)}
+.compare-title{font-size:20px;font-weight:700;margin:0 0 6px}
+.compare-sub{font-size:12px;color:var(--dim);margin-bottom:20px}
+.lens-panel{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:16px}
+.lens-panel-label{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--dim);font-weight:600;margin-right:8px}
+.lens-button{padding:6px 12px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:20px;color:var(--text);cursor:pointer;font-size:12px;font-weight:500;transition:all .15s}
+.lens-button:hover:not(.disabled){background:rgba(255,255,255,.07);border-color:var(--accent)}
+.lens-button.active{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:600}
+.lens-button.disabled{opacity:.35;cursor:not-allowed}
+.lens-conflict-notice{display:none;margin-left:auto;padding:6px 12px;background:rgba(74,158,255,.1);border:1px solid rgba(74,158,255,.3);border-radius:4px;color:#4a9eff;font-size:11px;max-width:400px}
+.lens-conflict-notice.visible{display:block}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:900px){.compare-grid{grid-template-columns:1fr}}
+.cmp-col{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;min-height:400px}
+.cmp-col-header{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.cmp-col-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.cmp-col-badge.left{background:rgba(74,158,255,.15);color:#4a9eff}
+.cmp-col-badge.right{background:rgba(82,196,26,.15);color:#52c41a}
+.cmp-country-select{padding:4px 8px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;cursor:pointer;margin-left:auto}
+.cmp-breadcrumb{font-size:11px;color:var(--dim);margin-bottom:10px;line-height:1.6;word-break:break-word}
+.cmp-breadcrumb .crumb{cursor:pointer;text-decoration:underline;text-decoration-color:transparent;transition:text-decoration-color .15s}
+.cmp-breadcrumb .crumb:hover{text-decoration-color:var(--accent);color:var(--accent)}
+.cmp-breadcrumb .sep{margin:0 6px;color:var(--dim);opacity:.5}
+.cmp-node-name{font-size:15px;font-weight:700;margin-bottom:4px}
+.cmp-node-raw{font-size:22px;font-weight:700;color:var(--text);margin-bottom:2px}
+.cmp-node-lens{font-size:13px;color:var(--accent);margin-bottom:14px}
+.cmp-node-lens.no-data{color:var(--dim);font-style:italic}
+.cmp-children{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+.cmp-child{display:flex;align-items:center;gap:10px;padding:8px 10px;background:rgba(255,255,255,.02);border-radius:4px;cursor:pointer;transition:background .15s}
+.cmp-child:hover{background:rgba(255,255,255,.06)}
+.cmp-child.leaf{cursor:default}
+.cmp-child.leaf:hover{background:rgba(255,255,255,.02)}
+.cmp-child-name{flex:1;font-size:12px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cmp-child-val{font-size:12px;color:var(--text);font-weight:600;min-width:90px;text-align:right}
+.cmp-child-lens{font-size:10px;color:var(--accent);min-width:85px;text-align:right}
+.cmp-child-lens.no-data{color:var(--dim);font-style:italic}
+.cmp-empty{text-align:center;padding:40px 20px;color:var(--dim);font-size:12px}
+.cmp-nodata-tooltip{cursor:help;border-bottom:1px dotted var(--dim)}
 .country-switch{display:flex;gap:0;border-radius:5px;overflow:hidden;border:1px solid var(--border);flex-shrink:0;margin-left:16px}
 .country-switch button{background:var(--bg);color:var(--dim);border:none;padding:4px 10px;font-size:11px;font-weight:600;cursor:pointer;font-family:Inter,system-ui,sans-serif;transition:background .2s}
 .country-switch button:hover{background:rgba(255,255,255,.06)}
@@ -926,6 +965,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
   <div class="tab active" data-tab="galaxy" onclick="showTab('galaxy',this)">Budget Galaxy</div>
   <div class="tab" data-tab="budgetlist" onclick="showTab('budgetlist',this)">Budget Explorer</div>
   <div class="tab" data-tab="evolution" onclick="showTab('evolution',this)">Budget Evolution</div>
+  <div class="tab" data-tab="compare" onclick="showTab('compare',this)">Compare</div>
   <div class="tab" data-tab="about" onclick="showTab('about',this)">About</div>
   <!-- Hidden tabs - kept in code for future use
   <div class="tab" data-tab="map" onclick="showTab('map',this)">World Map</div>
@@ -1203,6 +1243,50 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 </div>
 
 <!-- ABOUT TAB — PROJECT MANIFESTO -->
+<div id="tab-compare" class="panel" style="display:none">
+  <div class="compare-wrap">
+    <div class="compare-title">Compare</div>
+    <div class="compare-sub">Select any two public spending nodes to compare. Apply lenses to transform the values side by side. Lenses are opt-in &mdash; default view is raw absolute values.</div>
+
+    <div class="lens-panel" id="lens-panel">
+      <span class="lens-panel-label">Lenses</span>
+      <!-- Lens buttons injected by renderLensPanel() -->
+      <div class="lens-conflict-notice"></div>
+    </div>
+
+    <div class="compare-grid">
+      <div class="cmp-col" id="cmp-left">
+        <div class="cmp-col-header">
+          <span class="cmp-col-badge left">Left</span>
+          <select class="cmp-country-select" id="cmp-left-country" onchange="cmpChangeCountry('left', this.value)">
+            <option value="uk">&#127468;&#127463; UK</option>
+            <option value="de">&#127465;&#127466; Germany</option>
+            <option value="fr">&#127467;&#127479; France</option>
+            <option value="us">&#127482;&#127480; US</option>
+          </select>
+        </div>
+        <div class="cmp-col-body" id="cmp-left-body">
+          <div class="cmp-empty">Loading&hellip;</div>
+        </div>
+      </div>
+      <div class="cmp-col" id="cmp-right">
+        <div class="cmp-col-header">
+          <span class="cmp-col-badge right">Right</span>
+          <select class="cmp-country-select" id="cmp-right-country" onchange="cmpChangeCountry('right', this.value)">
+            <option value="uk">&#127468;&#127463; UK</option>
+            <option value="de">&#127465;&#127466; Germany</option>
+            <option value="fr">&#127467;&#127479; France</option>
+            <option value="us">&#127482;&#127480; US</option>
+          </select>
+        </div>
+        <div class="cmp-col-body" id="cmp-right-body">
+          <div class="cmp-empty">Loading&hellip;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="tab-about" class="panel">
   <div style="padding:24px;max-width:900px;margin:0 auto;overflow-y:auto;height:calc(100vh - 80px);line-height:1.7;color:var(--text)">
 
@@ -1878,6 +1962,7 @@ function showTab(name,el){
     if(h1) h1.innerHTML='<span>Budget</span> Multiverse';
   }
   if(name==='galaxy')loadGalaxy();
+  if(name==='compare')cmpInit();
   if(name==='budgetlist'&&!blRoot) showBudgetYearPicker();
   if(name==='evolution'){
     // Force the panel to flex layout filling full height
@@ -4451,6 +4536,534 @@ async function _loadUSCombinedTree(year){
   }
   return federal;
 }
+
+// ============================================================
+// === LENS SYSTEM ============================================
+// ============================================================
+//
+// Composable fiscal transformation layer. A "lens" is a named
+// function that takes a node value and returns a transformed
+// value (or null to signal "no data"). Multiple lenses can be
+// active simultaneously within compatibility rules, and they
+// apply in a deterministic pipeline order.
+//
+// Philosophy:
+//   - DEFAULT IS ABSOLUTE. Lenses are always opt-in.
+//   - COMPOSABLE BUT CURATED. A compatibility matrix gates
+//     which combinations make sense.
+//   - PIPELINE ORDER IS FIXED by category: denominator first,
+//     temporal second, structural third. The user does not
+//     control ordering.
+//   - NO DATA IS A FIRST-CLASS STATE. Lenses return null when
+//     they can't compute, and renders show "—" visibly.
+//
+// Categories:
+//   - denominator: divide value by something (per_capita,
+//     pct_of_root). Mutually exclusive within category.
+//   - temporal: transform over time (real, yoy). Composable
+//     within category.
+//   - structural: derive new metrics (procurement_share,
+//     herfindahl). Mostly separate mode.
+//
+// Adding a new lens: add an entry to LENS_REGISTRY with the
+// fields { id, label, category, incompatibleWith, apply,
+// isAvailable }. The lens is automatically picked up by
+// applyLenses and any UI that reads from LENS_REGISTRY.
+//
+// Context object shape passed to apply():
+//   {
+//     root: <country tree root, stable across navigation>,
+//     targetYear: null,    // reserved for 'real' lens
+//     previousTree: null,  // reserved for 'yoy' lens
+//     domain: null         // reserved for 'per_demand' lens
+//   }
+// Fields not used by the active lenses are null. Callers pass
+// the full shape regardless, so adding new lenses later does
+// not require changing every call site.
+
+const LENS_CATEGORY_ORDER = ['denominator', 'temporal', 'structural'];
+
+window.LENS_REGISTRY = {
+  // ── Denominator lenses ────────────────────────────────────
+  per_capita: {
+    id: 'per_capita',
+    label: 'per capita',
+    category: 'denominator',
+    incompatibleWith: ['pct_of_root', 'pct_of_class', 'pct_of_parent', 'per_demand'],
+    apply: function(value, node, context) {
+      if (typeof node.population !== 'number' || node.population <= 0) return null;
+      return value / node.population;
+    },
+    isAvailable: function(node) {
+      return typeof node.population === 'number' && node.population > 0;
+    }
+  },
+
+  pct_of_root: {
+    id: 'pct_of_root',
+    label: '% of total budget',
+    category: 'denominator',
+    incompatibleWith: ['per_capita', 'pct_of_class', 'pct_of_parent', 'per_demand'],
+    apply: function(value, node, context) {
+      if (!context || !context.root || typeof context.root.value !== 'number' || context.root.value === 0) return null;
+      return (value / context.root.value) * 100;
+    },
+    isAvailable: function(node) {
+      return true; // every node has a country root
+    }
+  },
+
+  // ── Stubbed lenses (registered but not implemented) ───────
+  // These exist in the registry so the UI and compatibility
+  // logic can reference them, but their apply functions throw
+  // until a future session implements them.
+  pct_of_class: {
+    id: 'pct_of_class',
+    label: '% of peer class',
+    category: 'denominator',
+    incompatibleWith: ['per_capita', 'pct_of_root', 'pct_of_parent', 'per_demand'],
+    apply: function() { throw new Error('pct_of_class not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  },
+  pct_of_parent: {
+    id: 'pct_of_parent',
+    label: '% of immediate parent',
+    category: 'denominator',
+    incompatibleWith: ['per_capita', 'pct_of_root', 'pct_of_class', 'per_demand'],
+    apply: function() { throw new Error('pct_of_parent not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  },
+  per_demand: {
+    id: 'per_demand',
+    label: 'per unit of demand',
+    category: 'denominator',
+    incompatibleWith: ['per_capita', 'pct_of_root', 'pct_of_class', 'pct_of_parent'],
+    apply: function() { throw new Error('per_demand not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  },
+  real: {
+    id: 'real',
+    label: 'real terms',
+    category: 'temporal',
+    incompatibleWith: [],
+    apply: function() { throw new Error('real not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  },
+  yoy: {
+    id: 'yoy',
+    label: 'year on year',
+    category: 'temporal',
+    incompatibleWith: [],
+    apply: function() { throw new Error('yoy not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  },
+  procurement_share: {
+    id: 'procurement_share',
+    label: 'procurement share',
+    category: 'structural',
+    incompatibleWith: [],
+    apply: function() { throw new Error('procurement_share not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  },
+  herfindahl: {
+    id: 'herfindahl',
+    label: 'supplier concentration (HHI)',
+    category: 'structural',
+    incompatibleWith: [],
+    apply: function() { throw new Error('herfindahl not implemented'); },
+    isAvailable: function() { return false; },
+    _stub: true
+  }
+};
+
+// Active lens state — a Set of lens ids. Starts empty.
+// Deliberately not persisted in localStorage for now; lenses
+// reset on page reload. This is intentional for phase 1 — once
+// we see usage patterns we can decide whether to persist.
+window.activeLenses = new Set();
+
+// Check whether a new lens can be added to the current active
+// set without conflict. Returns { compatible, conflicts }.
+function isLensCompatible(newLensId, currentActiveSet) {
+  const newLens = window.LENS_REGISTRY[newLensId];
+  if (!newLens) return { compatible: false, conflicts: [] };
+  const conflicts = [];
+  for (const activeId of currentActiveSet) {
+    if (activeId === newLensId) continue;
+    const active = window.LENS_REGISTRY[activeId];
+    if (!active) continue;
+    if ((newLens.incompatibleWith || []).indexOf(activeId) >= 0) conflicts.push(activeId);
+    if ((active.incompatibleWith || []).indexOf(newLensId) >= 0 && conflicts.indexOf(activeId) < 0) conflicts.push(activeId);
+  }
+  return { compatible: conflicts.length === 0, conflicts: conflicts };
+}
+
+// Toggle a lens. On activate, if the lens conflicts with any
+// currently active lens, the conflicting lens(es) are REPLACED
+// (removed) and a transient notice is shown. On deactivate,
+// simply removed from the set.
+function toggleLens(lensId) {
+  const lens = window.LENS_REGISTRY[lensId];
+  if (!lens) return;
+  if (lens._stub) {
+    _showLensNotice(lens.label + ' is not implemented yet');
+    return;
+  }
+  if (window.activeLenses.has(lensId)) {
+    window.activeLenses.delete(lensId);
+    if (typeof _onLensStateChange === 'function') _onLensStateChange();
+    return;
+  }
+  const check = isLensCompatible(lensId, window.activeLenses);
+  if (!check.compatible) {
+    // Replace-on-conflict: remove conflicts, then add new lens.
+    const replacedLabels = check.conflicts.map(function(id) {
+      return (window.LENS_REGISTRY[id] || {}).label || id;
+    });
+    check.conflicts.forEach(function(id) { window.activeLenses.delete(id); });
+    _showLensNotice(lens.label + ' replaced ' + replacedLabels.join(', ') + ' (mutually exclusive)');
+  }
+  window.activeLenses.add(lensId);
+  if (typeof _onLensStateChange === 'function') _onLensStateChange();
+}
+
+// Transient notice in the .lens-conflict-notice container.
+// Auto-dismisses after 3 seconds. Uses neutral info styling —
+// not red, not yellow, just a muted callout.
+function _showLensNotice(text) {
+  const containers = document.querySelectorAll('.lens-conflict-notice');
+  if (!containers.length) {
+    console.log('[lens notice]', text);
+    return;
+  }
+  containers.forEach(function(el) {
+    el.textContent = text;
+    el.classList.add('visible');
+    if (el._dismissTimer) clearTimeout(el._dismissTimer);
+    el._dismissTimer = setTimeout(function() {
+      el.classList.remove('visible');
+    }, 3000);
+  });
+}
+
+// Main pipeline. Applies active lenses in category order.
+// If any lens returns null, short-circuits and returns null.
+// Returns { value, transformed, appliedLenses, formatHint }.
+//
+// formatHint tells the caller how to present the result:
+//   "currency" (default, raw absolute)
+//   "currency_per_capita" (e.g., "£1,700 per capita")
+//   "percent" (e.g., "0.20%")
+function applyLenses(value, node, context) {
+  const ctx = context || {};
+  if (!window.activeLenses.size) {
+    return { value: value, transformed: false, appliedLenses: [], formatHint: 'currency' };
+  }
+  // Build ordered list of active lenses by category
+  const activeList = [];
+  window.activeLenses.forEach(function(id) {
+    const l = window.LENS_REGISTRY[id];
+    if (l) activeList.push(l);
+  });
+  activeList.sort(function(a, b) {
+    return LENS_CATEGORY_ORDER.indexOf(a.category) - LENS_CATEGORY_ORDER.indexOf(b.category);
+  });
+
+  let current = value;
+  const applied = [];
+  let formatHint = 'currency';
+  for (let i = 0; i < activeList.length; i++) {
+    const lens = activeList[i];
+    try {
+      const result = lens.apply(current, node, ctx);
+      if (result === null || typeof result === 'undefined') {
+        return { value: null, transformed: true, appliedLenses: applied.concat([lens.id]), formatHint: 'no_data' };
+      }
+      current = result;
+      applied.push(lens.id);
+      if (lens.id === 'per_capita') formatHint = 'currency_per_capita';
+      else if (lens.id === 'pct_of_root') formatHint = 'percent';
+    } catch (e) {
+      console.warn('[lens apply error]', lens.id, e.message);
+      return { value: null, transformed: true, appliedLenses: applied.concat([lens.id]), formatHint: 'no_data' };
+    }
+  }
+  return { value: current, transformed: true, appliedLenses: applied, formatHint: formatHint };
+}
+
+// Helper: build a fresh context object with all reserved fields
+// present but null. Callers (like Compare tab) override the
+// fields they need.
+function makeLensContext(root) {
+  return {
+    root: root || null,
+    targetYear: null,    // reserved for 'real' lens
+    previousTree: null,  // reserved for 'yoy' lens
+    domain: null         // reserved for 'per_demand' lens
+  };
+}
+
+// Optional callback invoked by toggleLens when state changes.
+// Consumers (like Compare tab) can set this to a re-render
+// function. Set to null by default.
+var _onLensStateChange = null;
+
+// === END LENS SYSTEM =========================================
+
+// ============================================================
+// === COMPARE TAB ============================================
+// ============================================================
+//
+// First consumer of the lens system. Two independent columns,
+// each with its own country + node selection. Navigate by
+// clicking children or breadcrumb items. Active lenses
+// transform both columns simultaneously.
+//
+// Design decisions:
+//   - ISOLATED FORMATTER. Compare tab uses fmtLensValue() and
+//     does NOT modify fmtEur(), fmtAmount(), mvFmtVal(), or
+//     any other existing format function. This protects
+//     Galaxy, Budget Explorer and Multiverse from regressions.
+//   - CROSS-STRUCTURE ALLOWED. User can compare any two nodes
+//     regardless of structural compatibility. No guardrails
+//     on "comparable" types — intentional design freedom.
+//   - LENSES RESET ON PAGE LOAD. Not persisted.
+
+window.cmpState = {
+  left:  { country: 'uk', tree: null, root: null, node: null, path: [] },
+  right: { country: 'uk', tree: null, root: null, node: null, path: [] }
+};
+
+const CMP_CURRENCY = { uk: '£', de: '€', fr: '€', us: '$' };
+
+// Compare-tab-isolated formatter. Intentionally separate from
+// fmtEur() to keep Compare tab changes from affecting other
+// views. Renders values based on the lens format hint.
+function fmtLensValue(result, currency) {
+  if (!result) return '—';
+  if (result.formatHint === 'no_data' || result.value === null) {
+    return '—';
+  }
+  const v = result.value;
+  const sym = currency || '£';
+  if (result.formatHint === 'percent') {
+    if (v < 0.01 && v > 0) return v.toFixed(4) + '%';
+    if (v < 1) return v.toFixed(3) + '%';
+    return v.toFixed(2) + '%';
+  }
+  if (result.formatHint === 'currency_per_capita') {
+    // v is already divided by population, so typical values are
+    // in the range 100 - 5000 (pounds per resident)
+    return sym + v.toLocaleString('en-GB', { maximumFractionDigits: 0 });
+  }
+  // Default currency formatting — abbreviate large numbers
+  const n = Number(v);
+  if (Math.abs(n) >= 1e12) return sym + (n / 1e12).toFixed(2) + 'T';
+  if (Math.abs(n) >= 1e9)  return sym + (n / 1e9).toFixed(2) + 'B';
+  if (Math.abs(n) >= 1e6)  return sym + (n / 1e6).toFixed(1) + 'M';
+  if (Math.abs(n) >= 1e3)  return sym + (n / 1e3).toFixed(0) + 'K';
+  return sym + n.toFixed(0);
+}
+
+// Why a lens could not apply to a given node — for tooltips
+// on "—" cells so the user understands gaps.
+function cmpNoDataReason(activeLensIds, node) {
+  for (let i = 0; i < activeLensIds.length; i++) {
+    const id = activeLensIds[i];
+    if (id === 'per_capita' && (typeof node.population !== 'number' || node.population <= 0)) {
+      return 'No population data for this node';
+    }
+    if (id === 'pct_of_root') {
+      return 'No country root available';
+    }
+  }
+  return 'Data unavailable under active lens';
+}
+
+async function cmpInit() {
+  renderLensPanel();
+  await cmpChangeCountry('left',  cmpState.left.country);
+  await cmpChangeCountry('right', cmpState.right.country);
+  // Hook lens state changes to re-render both columns
+  _onLensStateChange = function() {
+    renderCompareSide('left');
+    renderCompareSide('right');
+    renderLensPanel();
+  };
+}
+
+async function cmpChangeCountry(side, country) {
+  const state = window.cmpState[side];
+  state.country = country;
+  state.tree = null;
+  state.root = null;
+  state.node = null;
+  state.path = [];
+  const body = document.getElementById('cmp-' + side + '-body');
+  if (body) body.innerHTML = '<div class="cmp-empty">Loading ' + country.toUpperCase() + '&hellip;</div>';
+
+  try {
+    const url = API + '/budget/country/' + country + '?year=2024';
+    const tree = await fetch(url).then(function(r) { return r.json(); });
+    if (!tree || !tree.children) {
+      body.innerHTML = '<div class="cmp-empty">Could not load ' + country.toUpperCase() + ' tree.</div>';
+      return;
+    }
+    state.tree = tree;
+    state.root = tree;
+    state.node = tree;
+    state.path = [{ name: tree.name, ref: tree }];
+    renderCompareSide(side);
+  } catch (e) {
+    body.innerHTML = '<div class="cmp-empty">Error loading ' + country.toUpperCase() + ': ' + e.message + '</div>';
+  }
+}
+
+function cmpDescend(side, childIndex) {
+  const state = window.cmpState[side];
+  if (!state.node || !state.node.children) return;
+  const child = state.node.children[childIndex];
+  if (!child) return;
+  state.node = child;
+  state.path.push({ name: child.name, ref: child });
+  renderCompareSide(side);
+}
+
+function cmpNavigateTo(side, depth) {
+  const state = window.cmpState[side];
+  if (depth < 0 || depth >= state.path.length) return;
+  state.path = state.path.slice(0, depth + 1);
+  state.node = state.path[state.path.length - 1].ref;
+  renderCompareSide(side);
+}
+
+function renderCompareSide(side) {
+  const state = window.cmpState[side];
+  const body = document.getElementById('cmp-' + side + '-body');
+  if (!body) return;
+  if (!state.node) {
+    body.innerHTML = '<div class="cmp-empty">Select a country to begin.</div>';
+    return;
+  }
+
+  const node = state.node;
+  const ctx = makeLensContext(state.root);
+  const currency = CMP_CURRENCY[state.country] || '£';
+
+  // Breadcrumb
+  let html = '<div class="cmp-breadcrumb">';
+  state.path.forEach(function(crumb, i) {
+    const isLast = i === state.path.length - 1;
+    const shortName = (crumb.name || '').length > 35 ? (crumb.name.slice(0, 33) + '…') : crumb.name;
+    if (isLast) {
+      html += '<span>' + _escHtml(shortName) + '</span>';
+    } else {
+      html += '<span class="crumb" onclick="cmpNavigateTo(\'' + side + '\',' + i + ')">' + _escHtml(shortName) + '</span>';
+      html += '<span class="sep">›</span>';
+    }
+  });
+  html += '</div>';
+
+  // Current node display
+  const nodeResult = applyLenses(node.value, node, ctx);
+  const absRaw = fmtLensValue({ value: node.value, formatHint: 'currency' }, currency);
+  html += '<div class="cmp-node-name">' + _escHtml(node.name || '') + '</div>';
+  html += '<div class="cmp-node-raw">' + absRaw + '</div>';
+
+  if (window.activeLenses.size > 0) {
+    const activeList = Array.from(window.activeLenses);
+    if (nodeResult.value === null) {
+      const reason = cmpNoDataReason(activeList, node);
+      html += '<div class="cmp-node-lens no-data" title="' + _escHtml(reason) + '">— ' + _escHtml(activeList.map(function(id) { return (window.LENS_REGISTRY[id] || {}).label || id; }).join(' · ')) + '</div>';
+    } else {
+      const lensLabel = activeList.map(function(id) { return (window.LENS_REGISTRY[id] || {}).label || id; }).join(' · ');
+      html += '<div class="cmp-node-lens">' + fmtLensValue(nodeResult, currency) + ' · ' + _escHtml(lensLabel) + '</div>';
+    }
+  }
+
+  // Children
+  if (node.children && node.children.length) {
+    const kids = node.children.slice().sort(function(a, b) { return (b.value || 0) - (a.value || 0); }).slice(0, 10);
+    html += '<div class="cmp-children">';
+    kids.forEach(function(child) {
+      const origIdx = node.children.indexOf(child);
+      const childRes = applyLenses(child.value, child, ctx);
+      const childRaw = fmtLensValue({ value: child.value, formatHint: 'currency' }, currency);
+      const hasKids = child.children && child.children.length > 0;
+      const clickAttr = hasKids ? ' onclick="cmpDescend(\'' + side + '\',' + origIdx + ')"' : '';
+      const leafClass = hasKids ? '' : ' leaf';
+      html += '<div class="cmp-child' + leafClass + '"' + clickAttr + '>';
+      html += '<span class="cmp-child-name">' + _escHtml(child.name || '') + '</span>';
+      html += '<span class="cmp-child-val">' + childRaw + '</span>';
+      if (window.activeLenses.size > 0) {
+        if (childRes.value === null) {
+          const reason = cmpNoDataReason(Array.from(window.activeLenses), child);
+          html += '<span class="cmp-child-lens no-data" title="' + _escHtml(reason) + '">—</span>';
+        } else {
+          html += '<span class="cmp-child-lens">' + fmtLensValue(childRes, currency) + '</span>';
+        }
+      }
+      html += '</div>';
+    });
+    if (node.children.length > 10) {
+      html += '<div class="cmp-empty" style="padding:10px;font-size:10px">' + (node.children.length - 10) + ' more child nodes (not shown)</div>';
+    }
+    html += '</div>';
+  } else {
+    html += '<div class="cmp-empty">Leaf node &mdash; no sub-items.</div>';
+  }
+
+  body.innerHTML = html;
+}
+
+function renderLensPanel() {
+  const panel = document.getElementById('lens-panel');
+  if (!panel) return;
+
+  // Keep the label and conflict-notice containers, replace buttons
+  let notice = panel.querySelector('.lens-conflict-notice');
+  panel.innerHTML = '<span class="lens-panel-label">Lenses</span>';
+
+  // Render only non-stub lenses as clickable buttons; stubs are omitted for now
+  const implemented = [];
+  for (const id in window.LENS_REGISTRY) {
+    const lens = window.LENS_REGISTRY[id];
+    if (lens._stub) continue;
+    implemented.push(lens);
+  }
+  implemented.forEach(function(lens) {
+    const btn = document.createElement('button');
+    btn.className = 'lens-button' + (window.activeLenses.has(lens.id) ? ' active' : '');
+    btn.textContent = lens.label;
+    btn.onclick = function() { toggleLens(lens.id); };
+    panel.appendChild(btn);
+  });
+
+  // Re-attach notice (created fresh if missing)
+  if (!notice) {
+    notice = document.createElement('div');
+    notice.className = 'lens-conflict-notice';
+  }
+  panel.appendChild(notice);
+}
+
+// Minimal HTML escaper for Compare tab (avoids touching esc() used elsewhere).
+function _escHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// === END COMPARE TAB =========================================
 
 // Restructure UK tree: extract devolved governments as siblings of Central Government
 async function _loadUKCombinedTree(year){
