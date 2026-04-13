@@ -1,466 +1,7 @@
 {
   "name": "UK Public Spending 2022",
-  "value": 1257583423000,
+  "value": 1151746849000,
   "children": [
-    {
-      "id": "department_of_health",
-      "name": "DEPARTMENT OF HEALTH",
-      "value": 254378018000,
-      "children": [
-        {
-          "id": "department_of_health__nhs_trusts",
-          "name": "NHS Trusts",
-          "value": 222286912000,
-          "children": [
-            {
-              "id": "department_of_health__nhs_trusts__7_a_medical_services",
-              "name": "7.A Medical services",
-              "value": 116450338000,
-              "children": [
-                {
-                  "id": "department_of_health__nhs_trusts__7_a_medical_services__x0333012_nhs_providers_del_prog_voted",
-                  "name": "Nhs Providers",
-                  "value": 115530488000
-                },
-                {
-                  "id": "department_of_health__nhs_trusts__7_a_medical_services__x0333013_nhs_providers_dept_ame_voted",
-                  "name": "Nhs Providers",
-                  "value": 980632000
-                },
-                {
-                  "id": "department_of_health__nhs_trusts__7_a_medical_services__x0337083_nhs_providers_charitable_funds_del_prog_voted",
-                  "name": "NHS PROVIDERS Charitable Funds",
-                  "value": -60782000
-                }
-              ]
-            },
-            {
-              "id": "department_of_health__nhs_trusts__n_a",
-              "name": "n/a",
-              "value": 105836574000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__nhs_commissioning_board_nhs_england",
-          "name": "NHS Commissioning Board (NHS England)",
-          "value": 66813292000,
-          "children": [
-            {
-              "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services",
-              "name": "7.A Medical services",
-              "value": 51040268000,
-              "children": [
-                {
-                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334005_nhs_england_del_prog_non_voted_nif",
-                  "name": "Nhs England",
-                  "value": 36266858000
-                },
-                {
-                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334010_nhs_commissioning_board_nhs_england_del_prog_voted",
-                  "name": "NHS Commissioning Board (NHS England)",
-                  "value": 12973269000
-                },
-                {
-                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334009_nhs_commissioning_board_nhs_england_del_admin_voted",
-                  "name": "NHS Commissioning Board (NHS England)",
-                  "value": 1789448000
-                },
-                {
-                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334011_nhs_commissioning_board_nhs_england_dept_ame_voted",
-                  "name": "NHS Commissioning Board (NHS England)",
-                  "value": 10693000
-                }
-              ]
-            },
-            {
-              "id": "department_of_health__nhs_commissioning_board_nhs_england__n_a",
-              "name": "n/a",
-              "value": 15773024000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__health_education_england",
-          "name": "Health Education England",
-          "value": 3582384000,
-          "children": [
-            {
-              "id": "department_of_health__health_education_england__n_a",
-              "name": "n/a",
-              "value": 1791740000
-            },
-            {
-              "id": "department_of_health__health_education_england__7_a_medical_services",
-              "name": "7.A Medical services",
-              "value": 1791500000
-            },
-            {
-              "id": "department_of_health__health_education_england__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": -856000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__health_social_care_information_centre_nhs_digital",
-          "name": "Health & Social Care Information Centre (NHS Digital)",
-          "value": 1381415000,
-          "children": [
-            {
-              "id": "department_of_health__health_social_care_information_centre_nhs_digital__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 731964000
-            },
-            {
-              "id": "department_of_health__health_social_care_information_centre_nhs_digital__n_a",
-              "name": "n/a",
-              "value": 649451000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__nhs_property_services",
-          "name": "NHS Property Services",
-          "value": 1183250000,
-          "children": [
-            {
-              "id": "department_of_health__nhs_property_services__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 677352000
-            },
-            {
-              "id": "department_of_health__nhs_property_services__n_a",
-              "name": "n/a",
-              "value": 505898000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__community_health_partnership",
-          "name": "Community Health Partnership",
-          "value": 625485000,
-          "children": [
-            {
-              "id": "department_of_health__community_health_partnership__n_a",
-              "name": "n/a",
-              "value": 317400000
-            },
-            {
-              "id": "department_of_health__community_health_partnership__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 308085000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__genomics_england_limited",
-          "name": "Genomics England Limited",
-          "value": 200952000,
-          "children": [
-            {
-              "id": "department_of_health__genomics_england_limited__n_a",
-              "name": "n/a",
-              "value": 106817000
-            },
-            {
-              "id": "department_of_health__genomics_england_limited__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 94135000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__care_quality_commission",
-          "name": "Care Quality Commission",
-          "value": 150073000,
-          "children": [
-            {
-              "id": "department_of_health__care_quality_commission__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 86596000
-            },
-            {
-              "id": "department_of_health__care_quality_commission__n_a",
-              "name": "n/a",
-              "value": 63477000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__national_institute_for_health_and_care_excellence",
-          "name": "National Institute for Health and Care Excellence",
-          "value": 120838000,
-          "children": [
-            {
-              "id": "department_of_health__national_institute_for_health_and_care_excellence__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 61694000
-            },
-            {
-              "id": "department_of_health__national_institute_for_health_and_care_excellence__n_a",
-              "name": "n/a",
-              "value": 59144000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__health_research_authority",
-          "name": "Health Research Authority",
-          "value": 39536000,
-          "children": [
-            {
-              "id": "department_of_health__health_research_authority__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 21091000
-            },
-            {
-              "id": "department_of_health__health_research_authority__n_a",
-              "name": "n/a",
-              "value": 18445000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__office_of_the_independent_regulator_for_nhs_foundation_trusts_nhs_improvement",
-          "name": "Office of the Independent Regulator for NHS Foundation Trusts (NHS Improvement)",
-          "value": 16118000,
-          "children": [
-            {
-              "id": "department_of_health__office_of_the_independent_regulator_for_nhs_foundation_trusts_nhs_improvement__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 9118000
-            },
-            {
-              "id": "department_of_health__office_of_the_independent_regulator_for_nhs_foundation_trusts_nhs_improvement__n_a",
-              "name": "n/a",
-              "value": 7000000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__nursing_and_midwifery_council",
-          "name": "Nursing and Midwifery Council",
-          "value": 7325000,
-          "children": [
-            {
-              "id": "department_of_health__nursing_and_midwifery_council__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 7126000
-            },
-            {
-              "id": "department_of_health__nursing_and_midwifery_council__n_a",
-              "name": "n/a",
-              "value": 199000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__professional_standards_authority_for_health_and_social_care",
-          "name": "Professional Standards Authority for Health and Social Care",
-          "value": 5885000,
-          "children": [
-            {
-              "id": "department_of_health__professional_standards_authority_for_health_and_social_care__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 3102000
-            },
-            {
-              "id": "department_of_health__professional_standards_authority_for_health_and_social_care__n_a",
-              "name": "n/a",
-              "value": 2783000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__human_tissue_authority",
-          "name": "Human Tissue Authority",
-          "value": 5355000,
-          "children": [
-            {
-              "id": "department_of_health__human_tissue_authority__n_a",
-              "name": "n/a",
-              "value": 2822000
-            },
-            {
-              "id": "department_of_health__human_tissue_authority__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 2533000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__human_fertilisation_and_embryology_authority",
-          "name": "Human Fertilisation and Embryology Authority",
-          "value": 5250000,
-          "children": [
-            {
-              "id": "department_of_health__human_fertilisation_and_embryology_authority__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 2782000
-            },
-            {
-              "id": "department_of_health__human_fertilisation_and_embryology_authority__n_a",
-              "name": "n/a",
-              "value": 2468000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__health_and_care_professions_council",
-          "name": "Health and Care Professions Council",
-          "value": 3160000,
-          "children": [
-            {
-              "id": "department_of_health__health_and_care_professions_council__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": 2623000
-            },
-            {
-              "id": "department_of_health__health_and_care_professions_council__n_a",
-              "name": "n/a",
-              "value": 537000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__supply_chain_coordination_limited",
-          "name": "Supply Chain Coordination Limited",
-          "value": -135188000,
-          "children": [
-            {
-              "id": "department_of_health__supply_chain_coordination_limited__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": -67594000
-            },
-            {
-              "id": "department_of_health__supply_chain_coordination_limited__n_a",
-              "name": "n/a",
-              "value": -67594000
-            }
-          ]
-        },
-        {
-          "id": "department_of_health__department_of_health_nhs",
-          "name": "Department of Health (NHS)",
-          "value": -41914024000,
-          "children": [
-            {
-              "id": "department_of_health__department_of_health_nhs__n_a",
-              "name": "n/a",
-              "value": 4316804000
-            },
-            {
-              "id": "department_of_health__department_of_health_nhs__7_a_medical_services",
-              "name": "7.A Medical services",
-              "value": 3243650000
-            },
-            {
-              "id": "department_of_health__department_of_health_nhs__7_b_medical_research",
-              "name": "7.B Medical research",
-              "value": 1368567000
-            },
-            {
-              "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services",
-              "name": "7.C Central and other health services",
-              "value": -50843045000,
-              "children": [
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331002_department_of_health_administration_del_prog_voted",
-                  "name": "Department Of Health",
-                  "value": 5293507000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337046_ukhsa_del_prog_voted",
-                  "name": "Ukhsa",
-                  "value": 3239081000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337011_nhs_litigation_authority_nhs_resolution_del_prog_voted",
-                  "name": "NHS Litigation Authority (NHS Resolution)",
-                  "value": 2711151000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331001_department_of_health_administration_del_admin_voted",
-                  "name": "Department Of Health",
-                  "value": 390591000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337045_ukhsa_del_admin_voted",
-                  "name": "Ukhsa",
-                  "value": 172491000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337005_nhs_business_services_authority_del_prog_voted",
-                  "name": "Nhs Business Services Authority",
-                  "value": 126186000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337004_nhs_business_services_authority_del_admin_voted",
-                  "name": "Nhs Business Services Authority",
-                  "value": 117141000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331025_mhra_del_admin_voted",
-                  "name": "Mhra",
-                  "value": 29170000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331012_mhra_del_prog_voted",
-                  "name": "Mhra",
-                  "value": 22238000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337090_nhs_counter_fraud_authority_del_admin_voted",
-                  "name": "NHS Counter Fraud Authority",
-                  "value": 13124000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337024_nhs_business_services_authority_dept_ame_voted",
-                  "name": "Nhs Business Services Authority",
-                  "value": 3603000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337091_nhs_counter_fraud_authority_del_prog_voted",
-                  "name": "NHS Counter Fraud Authority",
-                  "value": 1632000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331026_mhra_dept_ame_voted",
-                  "name": "Mhra",
-                  "value": 324000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337092_nhs_counter_fraud_authority_dept_ame_voted",
-                  "name": "NHS Counter Fraud Authority",
-                  "value": 7000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337010_nhs_litigation_authority_nhs_resolution_del_admin_voted",
-                  "name": "NHS Litigation Authority (NHS Resolution)",
-                  "value": -23667000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337047_ukhsa_dept_ame_voted",
-                  "name": "Ukhsa",
-                  "value": -484162000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331003_department_of_health_administration_dept_ame_voted",
-                  "name": "Department Of Health",
-                  "value": -3518781000
-                },
-                {
-                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337027_nhs_litigation_authority_nhs_resolution_dept_ame_voted",
-                  "name": "NHS Litigation Authority (NHS Resolution)",
-                  "value": -58936681000
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "department_for_work_and_pensions",
       "name": "DEPARTMENT FOR WORK AND PENSIONS",
@@ -23402,6 +22943,1125 @@
       "_source": "MHCLG Revenue Outturn (RO5)"
     },
     {
+      "id": "nhs_provider_sector",
+      "name": "NHS Provider Sector",
+      "value": 113872204013.07002,
+      "children": [
+        {
+          "id": "nhs_acute",
+          "name": "NHS Acute Trusts",
+          "value": 86095744400.49002,
+          "children": [
+            {
+              "id": "guy_s_and_st_thomas_nhs_foundation_trust",
+              "name": "Guy's and St Thomas' NHS Foundation Trust",
+              "value": 2596003635.89
+            },
+            {
+              "id": "manchester_university_nhs_foundation_trust",
+              "name": "Manchester University NHS Foundation Trust",
+              "value": 2508750100
+            },
+            {
+              "id": "university_hospitals_birmingham_nhs_foundation_trust",
+              "name": "University Hospitals Birmingham NHS Foundation Trust",
+              "value": 2006470000
+            },
+            {
+              "id": "barts_health_nhs_trust",
+              "name": "Barts Health NHS Trust",
+              "value": 1975734939.64
+            },
+            {
+              "id": "the_leeds_teaching_hospitals_nhs_trust",
+              "name": "The Leeds Teaching Hospitals NHS Trust",
+              "value": 1698848000
+            },
+            {
+              "id": "king_s_college_hospital_nhs_foundation_trust",
+              "name": "King's College Hospital NHS Foundation Trust",
+              "value": 1548879000
+            },
+            {
+              "id": "nottingham_university_hospitals_nhs_trust",
+              "name": "Nottingham University Hospitals NHS Trust",
+              "value": 1441423000
+            },
+            {
+              "id": "imperial_college_healthcare_nhs_trust",
+              "name": "Imperial College Healthcare NHS Trust",
+              "value": 1440556000
+            },
+            {
+              "id": "mid_and_south_essex_nhs_foundation_trust",
+              "name": "Mid and South Essex NHS Foundation Trust",
+              "value": 1401166235.48
+            },
+            {
+              "id": "university_college_london_hospitals_nhs_foundation_trust",
+              "name": "University College London Hospitals NHS Foundation Trust",
+              "value": 1400057073.1599998
+            },
+            {
+              "id": "oxford_university_hospitals_nhs_foundation_trust",
+              "name": "Oxford University Hospitals NHS Foundation Trust",
+              "value": 1386507000
+            },
+            {
+              "id": "sheffield_teaching_hospitals_nhs_foundation_trust",
+              "name": "Sheffield Teaching Hospitals NHS Foundation Trust",
+              "value": 1354022000
+            },
+            {
+              "id": "northern_care_alliance_nhs_foundation_trust",
+              "name": "Northern Care Alliance NHS Foundation Trust",
+              "value": 1353224313.17
+            },
+            {
+              "id": "university_hospitals_sussex_nhs_foundation_trust",
+              "name": "University Hospitals Sussex NHS Foundation Trust",
+              "value": 1352241000
+            },
+            {
+              "id": "royal_free_london_nhs_foundation_trust",
+              "name": "Royal Free London NHS Foundation Trust",
+              "value": 1347009856.7900002
+            },
+            {
+              "id": "the_newcastle_upon_tyne_hospitals_nhs_foundation_trust",
+              "name": "The Newcastle Upon Tyne Hospitals NHS Foundation Trust",
+              "value": 1342253987.7
+            },
+            {
+              "id": "university_hospitals_of_leicester_nhs_trust",
+              "name": "University Hospitals of Leicester NHS Trust",
+              "value": 1279571000
+            },
+            {
+              "id": "cambridge_university_hospitals_nhs_foundation_trust",
+              "name": "Cambridge University Hospitals NHS Foundation Trust",
+              "value": 1230060000
+            },
+            {
+              "id": "university_hospital_southampton_nhs_foundation_trust",
+              "name": "University Hospital Southampton NHS Foundation Trust",
+              "value": 1174214000
+            },
+            {
+              "id": "liverpool_university_hospitals_nhs_foundation_trust",
+              "name": "Liverpool University Hospitals NHS Foundation Trust",
+              "value": 1148407218.27
+            },
+            {
+              "id": "st_george_s_university_hospitals_nhs_foundation_trust",
+              "name": "St George's University Hospitals NHS Foundation Trust",
+              "value": 1070480815.87
+            },
+            {
+              "id": "university_hospitals_bristol_and_weston_nhs_foundation_trust",
+              "name": "University Hospitals Bristol and Weston NHS Foundation Trust",
+              "value": 1050033028.8
+            },
+            {
+              "id": "university_hospitals_of_derby_and_burton_nhs_foundation_trust",
+              "name": "University Hospitals of Derby and Burton NHS Foundation Trust",
+              "value": 1034162000
+            },
+            {
+              "id": "east_suffolk_and_north_essex_nhs_foundation_trust",
+              "name": "East Suffolk and North Essex NHS Foundation Trust",
+              "value": 956909000
+            },
+            {
+              "id": "university_hospitals_of_north_midlands_nhs_trust",
+              "name": "University Hospitals of North Midlands NHS Trust",
+              "value": 928437000
+            },
+            {
+              "id": "frimley_health_nhs_foundation_trust",
+              "name": "Frimley Health NHS Foundation Trust",
+              "value": 927301000
+            },
+            {
+              "id": "sandwell_and_west_birmingham_hospitals_nhs_trust",
+              "name": "Sandwell And West Birmingham Hospitals NHS Trust",
+              "value": 878808000
+            },
+            {
+              "id": "east_kent_hospitals_university_nhs_foundation_trust",
+              "name": "East Kent Hospitals University NHS Foundation Trust",
+              "value": 858571000
+            },
+            {
+              "id": "london_north_west_university_healthcare_nhs_trust",
+              "name": "London North West University Healthcare NHS Trust",
+              "value": 847985000
+            },
+            {
+              "id": "university_hospitals_coventry_and_warwickshire_nhs_trust",
+              "name": "University Hospitals Coventry And Warwickshire NHS Trust",
+              "value": 842847000
+            },
+            {
+              "id": "norfolk_and_norwich_university_hospitals_nhs_foundation_trust",
+              "name": "Norfolk and Norwich University Hospitals NHS Foundation Trust",
+              "value": 802604619.61
+            },
+            {
+              "id": "university_hospitals_plymouth_nhs_trust",
+              "name": "University Hospitals Plymouth NHS Trust",
+              "value": 800119000
+            },
+            {
+              "id": "barking_havering_and_redbridge_university_hospitals_nhs_trust",
+              "name": "Barking, Havering and Redbridge University Hospitals NHS Trust",
+              "value": 798905560.92
+            },
+            {
+              "id": "south_tees_hospitals_nhs_foundation_trust",
+              "name": "South Tees Hospitals NHS Foundation Trust",
+              "value": 795552000
+            },
+            {
+              "id": "hull_university_teaching_hospitals_nhs_trust",
+              "name": "Hull University Teaching Hospitals NHS Trust",
+              "value": 793780739.5
+            },
+            {
+              "id": "the_royal_wolverhampton_nhs_trust",
+              "name": "The Royal Wolverhampton NHS Trust",
+              "value": 791608400
+            },
+            {
+              "id": "chelsea_and_westminster_hospital_nhs_foundation_trust",
+              "name": "Chelsea and Westminster Hospital NHS Foundation Trust",
+              "value": 754632866.5699999
+            },
+            {
+              "id": "north_bristol_nhs_trust",
+              "name": "North Bristol NHS Trust",
+              "value": 754252000
+            },
+            {
+              "id": "portsmouth_hospitals_university_nhs_trust",
+              "name": "Portsmouth Hospitals University NHS Trust",
+              "value": 753022000
+            },
+            {
+              "id": "lancashire_teaching_hospitals_nhs_foundation_trust",
+              "name": "Lancashire Teaching Hospitals NHS Foundation Trust",
+              "value": 743461000
+            },
+            {
+              "id": "bedfordshire_hospitals_nhs_foundation_trust",
+              "name": "Bedfordshire Hospitals NHS Foundation Trust",
+              "value": 726487819.96
+            },
+            {
+              "id": "university_hospitals_dorset_nhs_foundation_trust",
+              "name": "University Hospitals Dorset NHS Foundation Trust",
+              "value": 720773201
+            },
+            {
+              "id": "lewisham_and_greenwich_nhs_trust",
+              "name": "Lewisham and Greenwich NHS Trust",
+              "value": 714417000
+            },
+            {
+              "id": "northumbria_healthcare_nhs_foundation_trust",
+              "name": "Northumbria Healthcare NHS Foundation Trust",
+              "value": 698752000
+            },
+            {
+              "id": "royal_devon_and_exeter_nhs_foundation_trust",
+              "name": "Royal Devon and Exeter NHS Foundation Trust",
+              "value": 691784000
+            },
+            {
+              "id": "gloucestershire_hospitals_nhs_foundation_trust",
+              "name": "Gloucestershire Hospitals NHS Foundation Trust",
+              "value": 687466000
+            },
+            {
+              "id": "united_lincolnshire_hospitals_nhs_trust",
+              "name": "United Lincolnshire Hospitals NHS Trust",
+              "value": 680694000
+            },
+            {
+              "id": "east_lancashire_hospitals_nhs_trust",
+              "name": "East Lancashire Hospitals NHS Trust",
+              "value": 679572000
+            },
+            {
+              "id": "somerset_nhs_foundation_trust",
+              "name": "Somerset NHS Foundation Trust",
+              "value": 669673000
+            },
+            {
+              "id": "the_mid_yorkshire_hospitals_nhs_trust",
+              "name": "The Mid Yorkshire Hospitals NHS Trust",
+              "value": 666942000
+            },
+            {
+              "id": "york_and_scarborough_teaching_hospitals_nhs_foundation_trust",
+              "name": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
+              "value": 654592000
+            },
+            {
+              "id": "south_tyneside_and_sunderland_nhs_foundation_trust",
+              "name": "South Tyneside and Sunderland NHS Foundation Trust",
+              "value": 650620000
+            },
+            {
+              "id": "epsom_and_st_helier_university_hospitals_nhs_trust",
+              "name": "Epsom and St Helier University Hospitals NHS Trust",
+              "value": 628346000
+            },
+            {
+              "id": "blackpool_teaching_hospitals_nhs_foundation_trust",
+              "name": "Blackpool Teaching Hospitals NHS Foundation Trust",
+              "value": 618927610.8000001
+            },
+            {
+              "id": "north_west_anglia_nhs_foundation_trust",
+              "name": "North West Anglia NHS Foundation Trust",
+              "value": 598537445.55
+            },
+            {
+              "id": "county_durham_and_darlington_nhs_foundation_trust",
+              "name": "County Durham and Darlington NHS Foundation Trust",
+              "value": 598209000
+            },
+            {
+              "id": "torbay_and_south_devon_nhs_foundation_trust",
+              "name": "Torbay and South Devon NHS Foundation Trust",
+              "value": 592287000
+            },
+            {
+              "id": "maidstone_and_tunbridge_wells_nhs_trust",
+              "name": "Maidstone and Tunbridge Wells NHS Trust",
+              "value": 591438000
+            },
+            {
+              "id": "royal_cornwall_hospitals_nhs_trust",
+              "name": "Royal Cornwall Hospitals NHS Trust",
+              "value": 577662000
+            },
+            {
+              "id": "worcestershire_acute_hospitals_nhs_trust",
+              "name": "Worcestershire Acute Hospitals NHS Trust",
+              "value": 577210000
+            },
+            {
+              "id": "hampshire_hospitals_nhs_foundation_trust",
+              "name": "Hampshire Hospitals NHS Foundation Trust",
+              "value": 575309000
+            },
+            {
+              "id": "east_and_north_hertfordshire_nhs_trust",
+              "name": "East And North Hertfordshire NHS Trust",
+              "value": 571582110
+            },
+            {
+              "id": "royal_berkshire_nhs_foundation_trust",
+              "name": "Royal Berkshire NHS Foundation Trust",
+              "value": 567331000
+            },
+            {
+              "id": "east_sussex_healthcare_nhs_trust",
+              "name": "East Sussex Healthcare NHS Trust",
+              "value": 561882000
+            },
+            {
+              "id": "buckinghamshire_healthcare_nhs_trust",
+              "name": "Buckinghamshire Healthcare NHS Trust",
+              "value": 559451440
+            },
+            {
+              "id": "the_shrewsbury_and_telford_hospital_nhs_trust",
+              "name": "The Shrewsbury And Telford Hospital NHS Trust",
+              "value": 545023469
+            },
+            {
+              "id": "bradford_teaching_hospitals_nhs_foundation_trust",
+              "name": "Bradford Teaching Hospitals NHS Foundation Trust",
+              "value": 538787410.1400001
+            },
+            {
+              "id": "university_hospitals_of_morecambe_bay_nhs_foundation_trust",
+              "name": "University Hospitals of Morecambe Bay NHS Foundation Trust",
+              "value": 523243000
+            },
+            {
+              "id": "doncaster_and_bassetlaw_teaching_hospitals_nhs_foundation_trust",
+              "name": "Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust",
+              "value": 512914000
+            },
+            {
+              "id": "calderdale_and_huddersfield_nhs_foundation_trust",
+              "name": "Calderdale and Huddersfield NHS Foundation Trust",
+              "value": 506449093.37
+            },
+            {
+              "id": "north_cumbria_integrated_care_nhs_foundation_trust",
+              "name": "North Cumbria Integrated Care NHS Foundation Trust",
+              "value": 504177328
+            },
+            {
+              "id": "st_helens_and_knowsley_teaching_hospitals_nhs_trust",
+              "name": "St Helens And Knowsley Teaching Hospitals NHS Trust",
+              "value": 503126000
+            },
+            {
+              "id": "the_dudley_group_nhs_foundation_trust",
+              "name": "The Dudley Group NHS Foundation Trust",
+              "value": 502543000
+            },
+            {
+              "id": "northern_lincolnshire_and_goole_nhs_foundation_trust",
+              "name": "Northern Lincolnshire and Goole NHS Foundation Trust",
+              "value": 495292000
+            },
+            {
+              "id": "royal_surrey_nhs_foundation_trust",
+              "name": "Royal Surrey NHS Foundation Trust",
+              "value": 491136312.83
+            },
+            {
+              "id": "west_hertfordshire_teaching_hospitals_nhs_trust",
+              "name": "West Hertfordshire Teaching Hospitals NHS Trust",
+              "value": 484663000
+            },
+            {
+              "id": "royal_united_hospitals_bath_nhs_foundation_trust",
+              "name": "Royal United Hospitals Bath NHS Foundation Trust",
+              "value": 475651000
+            },
+            {
+              "id": "wrightington_wigan_and_leigh_nhs_foundation_trust",
+              "name": "Wrightington, Wigan and Leigh NHS Foundation Trust",
+              "value": 474687000
+            },
+            {
+              "id": "northampton_general_hospital_nhs_trust",
+              "name": "Northampton General Hospital NHS Trust",
+              "value": 458554000
+            },
+            {
+              "id": "wirral_university_teaching_hospital_nhs_foundation_trust",
+              "name": "Wirral University Teaching Hospital NHS Foundation Trust",
+              "value": 458044000
+            },
+            {
+              "id": "bolton_nhs_foundation_trust",
+              "name": "Bolton NHS Foundation Trust",
+              "value": 439547000
+            },
+            {
+              "id": "sherwood_forest_hospitals_nhs_foundation_trust",
+              "name": "Sherwood Forest Hospitals NHS Foundation Trust",
+              "value": 437504209.46
+            },
+            {
+              "id": "croydon_health_services_nhs_trust",
+              "name": "Croydon Health Services NHS Trust",
+              "value": 433521800.90999997
+            },
+            {
+              "id": "surrey_and_sussex_healthcare_nhs_trust",
+              "name": "Surrey and Sussex Healthcare NHS Trust",
+              "value": 428950000
+            },
+            {
+              "id": "great_western_hospitals_nhs_foundation_trust",
+              "name": "Great Western Hospitals NHS Foundation Trust",
+              "value": 428507761.53000003
+            },
+            {
+              "id": "ashford_and_st_peter_s_hospitals_nhs_foundation_trust",
+              "name": "Ashford and St Peter's Hospitals NHS Foundation Trust",
+              "value": 411732000
+            },
+            {
+              "id": "stockport_nhs_foundation_trust",
+              "name": "Stockport NHS Foundation Trust",
+              "value": 411294000
+            },
+            {
+              "id": "whittington_health_nhs_trust",
+              "name": "Whittington Health NHS Trust",
+              "value": 403416000
+            },
+            {
+              "id": "medway_nhs_foundation_trust",
+              "name": "Medway NHS Foundation Trust",
+              "value": 393469000
+            },
+            {
+              "id": "homerton_university_hospital_nhs_foundation_trust",
+              "name": "Homerton University Hospital NHS Foundation Trust",
+              "value": 391634000
+            },
+            {
+              "id": "south_warwickshire_nhs_foundation_trust",
+              "name": "South Warwickshire NHS Foundation Trust",
+              "value": 389234000
+            },
+            {
+              "id": "kingston_hospital_nhs_foundation_trust",
+              "name": "Kingston Hospital NHS Foundation Trust",
+              "value": 388874000
+            },
+            {
+              "id": "north_middlesex_university_hospital_nhs_trust",
+              "name": "North Middlesex University Hospital NHS Trust",
+              "value": 385017000
+            },
+            {
+              "id": "north_tees_and_hartlepool_nhs_foundation_trust",
+              "name": "North Tees and Hartlepool NHS Foundation Trust",
+              "value": 380096319.95
+            },
+            {
+              "id": "kettering_general_hospital_nhs_foundation_trust",
+              "name": "Kettering General Hospital NHS Foundation Trust",
+              "value": 368724000
+            },
+            {
+              "id": "dartford_and_gravesham_nhs_trust",
+              "name": "Dartford and Gravesham NHS Trust",
+              "value": 362703000
+            },
+            {
+              "id": "mid_cheshire_hospitals_nhs_foundation_trust",
+              "name": "Mid Cheshire Hospitals NHS Foundation Trust",
+              "value": 360603000
+            },
+            {
+              "id": "walsall_healthcare_nhs_trust",
+              "name": "Walsall Healthcare NHS Trust",
+              "value": 357890000
+            },
+            {
+              "id": "west_suffolk_nhs_foundation_trust",
+              "name": "West Suffolk NHS Foundation Trust",
+              "value": 351020000
+            },
+            {
+              "id": "the_princess_alexandra_hospital_nhs_trust",
+              "name": "The Princess Alexandra Hospital NHS Trust",
+              "value": 349782000
+            },
+            {
+              "id": "the_hillingdon_hospitals_nhs_foundation_trust",
+              "name": "The Hillingdon Hospitals NHS Foundation Trust",
+              "value": 347533000
+            },
+            {
+              "id": "gateshead_health_nhs_foundation_trust",
+              "name": "Gateshead Health NHS Foundation Trust",
+              "value": 343504729
+            },
+            {
+              "id": "the_pennine_acute_hospitals_nhs_trust",
+              "name": "The Pennine Acute Hospitals NHS Trust",
+              "value": 340616394.24
+            },
+            {
+              "id": "the_rotherham_nhs_foundation_trust",
+              "name": "The Rotherham NHS Foundation Trust",
+              "value": 335810000
+            },
+            {
+              "id": "countess_of_chester_hospital_nhs_foundation_trust",
+              "name": "Countess of Chester Hospital NHS Foundation Trust",
+              "value": 335677130.08
+            },
+            {
+              "id": "chesterfield_royal_hospital_nhs_foundation_trust",
+              "name": "Chesterfield Royal Hospital NHS Foundation Trust",
+              "value": 334657000
+            },
+            {
+              "id": "warrington_and_halton_teaching_hospitals_nhs_foundation_trust",
+              "name": "Warrington and Halton Teaching Hospitals NHS Foundation Trust",
+              "value": 329653000
+            },
+            {
+              "id": "milton_keynes_university_hospital_nhs_foundation_trust",
+              "name": "Milton Keynes University Hospital NHS Foundation Trust",
+              "value": 324523000
+            },
+            {
+              "id": "harrogate_and_district_nhs_foundation_trust",
+              "name": "Harrogate and District NHS Foundation Trust",
+              "value": 312153000
+            },
+            {
+              "id": "salisbury_nhs_foundation_trust",
+              "name": "Salisbury NHS Foundation Trust",
+              "value": 311781000
+            },
+            {
+              "id": "wye_valley_nhs_trust",
+              "name": "Wye Valley NHS Trust",
+              "value": 299167000
+            },
+            {
+              "id": "tameside_and_glossop_integrated_care_nhs_foundation_trust",
+              "name": "Tameside and Glossop Integrated Care NHS Foundation Trust",
+              "value": 296252000
+            },
+            {
+              "id": "barnsley_hospital_nhs_foundation_trust",
+              "name": "Barnsley Hospital NHS Foundation Trust",
+              "value": 295101544.11
+            },
+            {
+              "id": "queen_elizabeth_hospital_king_s_lynn_nhs_foundation_trust",
+              "name": "Queen Elizabeth Hospital King's Lynn NHS Foundation Trust",
+              "value": 288606000
+            },
+            {
+              "id": "isle_of_wight_nhs_trust",
+              "name": "Isle of Wight NHS Trust",
+              "value": 282023000
+            },
+            {
+              "id": "james_paget_university_hospitals_nhs_foundation_trust",
+              "name": "James Paget University Hospitals NHS Foundation Trust",
+              "value": 278474879.19
+            },
+            {
+              "id": "northern_devon_healthcare_nhs_trust",
+              "name": "Northern Devon Healthcare NHS Trust",
+              "value": 266161000
+            },
+            {
+              "id": "dorset_county_hospital_nhs_foundation_trust",
+              "name": "Dorset County Hospital NHS Foundation Trust",
+              "value": 253280000
+            },
+            {
+              "id": "southport_and_ormskirk_hospital_nhs_trust",
+              "name": "Southport And Ormskirk Hospital NHS Trust",
+              "value": 247602000
+            },
+            {
+              "id": "airedale_nhs_foundation_trust",
+              "name": "Airedale NHS Foundation Trust",
+              "value": 238086000
+            },
+            {
+              "id": "yeovil_district_hospital_nhs_foundation_trust",
+              "name": "Yeovil District Hospital NHS Foundation Trust",
+              "value": 237413000
+            },
+            {
+              "id": "george_eliot_hospital_nhs_trust",
+              "name": "George Eliot Hospital NHS Trust",
+              "value": 222136000
+            },
+            {
+              "id": "east_cheshire_nhs_trust",
+              "name": "East Cheshire NHS Trust",
+              "value": 198908000
+            }
+          ]
+        },
+        {
+          "id": "nhs_mental_health",
+          "name": "NHS Mental Health Trusts",
+          "value": 15929473334.779997,
+          "children": [
+            {
+              "id": "central_and_north_west_london_nhs_foundation_trust",
+              "name": "Central and North West London NHS Foundation Trust",
+              "value": 671221053.1800001
+            },
+            {
+              "id": "mersey_care_nhs_foundation_trust",
+              "name": "Mersey Care NHS Foundation Trust",
+              "value": 640919000
+            },
+            {
+              "id": "nottinghamshire_healthcare_nhs_foundation_trust",
+              "name": "Nottinghamshire Healthcare NHS Foundation Trust",
+              "value": 594630000
+            },
+            {
+              "id": "east_london_nhs_foundation_trust",
+              "name": "East London NHS Foundation Trust",
+              "value": 583534767.28
+            },
+            {
+              "id": "midlands_partnership_nhs_foundation_trust",
+              "name": "Midlands Partnership NHS Foundation Trust",
+              "value": 546213000
+            },
+            {
+              "id": "oxford_health_nhs_foundation_trust",
+              "name": "Oxford Health NHS Foundation Trust",
+              "value": 541972824.11
+            },
+            {
+              "id": "south_london_and_maudsley_nhs_foundation_trust",
+              "name": "South London and Maudsley NHS Foundation Trust",
+              "value": 532524000
+            },
+            {
+              "id": "cumbria_northumberland_tyne_and_wear_nhs_foundation_trust",
+              "name": "Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust",
+              "value": 532422000
+            },
+            {
+              "id": "lancashire_and_south_cumbria_nhs_foundation_trust",
+              "name": "Lancashire and South Cumbria NHS Foundation Trust",
+              "value": 500723000
+            },
+            {
+              "id": "north_east_london_nhs_foundation_trust",
+              "name": "North East London NHS Foundation Trust",
+              "value": 494950740.34999996
+            },
+            {
+              "id": "essex_partnership_university_nhs_foundation_trust",
+              "name": "Essex Partnership University NHS Foundation Trust",
+              "value": 454856717.61
+            },
+            {
+              "id": "greater_manchester_mental_health_nhs_foundation_trust",
+              "name": "Greater Manchester Mental Health NHS Foundation Trust",
+              "value": 451344000
+            },
+            {
+              "id": "tees_esk_and_wear_valleys_nhs_foundation_trust",
+              "name": "Tees, Esk and Wear Valleys NHS Foundation Trust",
+              "value": 444567000
+            },
+            {
+              "id": "sussex_partnership_nhs_foundation_trust",
+              "name": "Sussex Partnership NHS Foundation Trust",
+              "value": 438411061.32
+            },
+            {
+              "id": "oxleas_nhs_foundation_trust",
+              "name": "Oxleas NHS Foundation Trust",
+              "value": 404964000
+            },
+            {
+              "id": "southern_health_nhs_foundation_trust",
+              "name": "Southern Health NHS Foundation Trust",
+              "value": 403096000
+            },
+            {
+              "id": "barnet_enfield_and_haringey_mental_health_nhs_trust",
+              "name": "Barnet, Enfield And Haringey Mental Health NHS Trust",
+              "value": 382107000
+            },
+            {
+              "id": "west_london_nhs_trust",
+              "name": "West London NHS Trust",
+              "value": 375461000
+            },
+            {
+              "id": "birmingham_and_solihull_mental_health_nhs_foundation_trust",
+              "name": "Birmingham and Solihull Mental Health NHS Foundation Trust",
+              "value": 358979183.21
+            },
+            {
+              "id": "leicestershire_partnership_nhs_trust",
+              "name": "Leicestershire Partnership NHS Trust",
+              "value": 348302000
+            },
+            {
+              "id": "hertfordshire_partnership_university_nhs_foundation_trust",
+              "name": "Hertfordshire Partnership University NHS Foundation Trust",
+              "value": 340527000
+            },
+            {
+              "id": "dorset_healthcare_university_nhs_foundation_trust",
+              "name": "Dorset Healthcare University NHS Foundation Trust",
+              "value": 333895030
+            },
+            {
+              "id": "devon_partnership_nhs_trust",
+              "name": "Devon Partnership NHS Trust",
+              "value": 329155000
+            },
+            {
+              "id": "avon_and_wiltshire_mental_health_partnership_nhs_trust",
+              "name": "Avon and Wiltshire Mental Health Partnership NHS Trust",
+              "value": 328065000
+            },
+            {
+              "id": "surrey_and_borders_partnership_nhs_foundation_trust",
+              "name": "Surrey and Borders Partnership NHS Foundation Trust",
+              "value": 323651000
+            },
+            {
+              "id": "berkshire_healthcare_nhs_foundation_trust",
+              "name": "Berkshire Healthcare NHS Foundation Trust",
+              "value": 313493487.35
+            },
+            {
+              "id": "norfolk_and_suffolk_nhs_foundation_trust",
+              "name": "Norfolk and Suffolk NHS Foundation Trust",
+              "value": 302945875.34000003
+            },
+            {
+              "id": "south_west_yorkshire_partnership_nhs_foundation_trust",
+              "name": "South West Yorkshire Partnership NHS Foundation Trust",
+              "value": 290038000
+            },
+            {
+              "id": "cambridgeshire_and_peterborough_nhs_foundation_trust",
+              "name": "Cambridgeshire and Peterborough NHS Foundation Trust",
+              "value": 275381000
+            },
+            {
+              "id": "coventry_and_warwickshire_partnership_nhs_trust",
+              "name": "Coventry and Warwickshire Partnership NHS Trust",
+              "value": 255295000
+            },
+            {
+              "id": "south_west_london_and_st_george_s_mental_health_nhs_trust",
+              "name": "South West London and St George's Mental Health NHS Trust",
+              "value": 245423860
+            },
+            {
+              "id": "cornwall_partnership_nhs_foundation_trust",
+              "name": "Cornwall Partnership NHS Foundation Trust",
+              "value": 238053000
+            },
+            {
+              "id": "pennine_care_nhs_foundation_trust",
+              "name": "Pennine Care NHS Foundation Trust",
+              "value": 234824000
+            },
+            {
+              "id": "kent_and_medway_nhs_and_social_care_partnership_trust",
+              "name": "Kent and Medway NHS and Social Care Partnership Trust",
+              "value": 226533000
+            },
+            {
+              "id": "cheshire_and_wirral_partnership_nhs_foundation_trust",
+              "name": "Cheshire and Wirral Partnership NHS Foundation Trust",
+              "value": 226504891.48
+            },
+            {
+              "id": "black_country_healthcare_nhs_foundation_trust",
+              "name": "Black Country Healthcare NHS Foundation Trust",
+              "value": 222762868.55
+            },
+            {
+              "id": "leeds_and_york_partnership_nhs_foundation_trust",
+              "name": "Leeds and York Partnership NHS Foundation Trust",
+              "value": 216534000
+            },
+            {
+              "id": "humber_teaching_nhs_foundation_trust",
+              "name": "Humber Teaching NHS Foundation Trust",
+              "value": 212080000
+            },
+            {
+              "id": "bradford_district_care_nhs_foundation_trust",
+              "name": "Bradford District Care NHS Foundation Trust",
+              "value": 198955000
+            },
+            {
+              "id": "camden_and_islington_nhs_foundation_trust",
+              "name": "Camden and Islington NHS Foundation Trust",
+              "value": 192917000
+            },
+            {
+              "id": "rotherham_doncaster_and_south_humber_nhs_foundation_trust",
+              "name": "Rotherham Doncaster and South Humber NHS Foundation Trust",
+              "value": 187618000
+            },
+            {
+              "id": "derbyshire_healthcare_nhs_foundation_trust",
+              "name": "Derbyshire Healthcare NHS Foundation Trust",
+              "value": 179933000
+            },
+            {
+              "id": "sheffield_health_and_social_care_nhs_foundation_trust",
+              "name": "Sheffield Health and Social Care NHS Foundation Trust",
+              "value": 149667175
+            },
+            {
+              "id": "north_staffordshire_combined_healthcare_nhs_trust",
+              "name": "North Staffordshire Combined Healthcare NHS Trust",
+              "value": 145861000
+            },
+            {
+              "id": "lincolnshire_partnership_nhs_foundation_trust",
+              "name": "Lincolnshire Partnership NHS Foundation Trust",
+              "value": 132210799.99999999
+            },
+            {
+              "id": "tavistock_and_portman_nhs_foundation_trust",
+              "name": "Tavistock and Portman NHS Foundation Trust",
+              "value": 75032000
+            },
+            {
+              "id": "north_west_boroughs_healthcare_nhs_foundation_trust",
+              "name": "North West Boroughs Healthcare NHS Foundation Trust",
+              "value": 30070000
+            },
+            {
+              "id": "dudley_integrated_health_and_care_nhs_trust",
+              "name": "Dudley Integrated Health and Care NHS Trust",
+              "value": 20849000
+            }
+          ]
+        },
+        {
+          "id": "nhs_specialist",
+          "name": "NHS Specialist Trusts",
+          "value": 4463857388.47,
+          "children": [
+            {
+              "id": "great_ormond_street_hospital_for_children_nhs_foundation_trust",
+              "name": "Great Ormond Street Hospital for Children NHS Foundation Trust",
+              "value": 591140000
+            },
+            {
+              "id": "birmingham_women_s_and_children_s_nhs_foundation_trust",
+              "name": "Birmingham Women’s and Children's NHS Foundation Trust",
+              "value": 544054000
+            },
+            {
+              "id": "the_royal_marsden_nhs_foundation_trust",
+              "name": "The Royal Marsden NHS Foundation Trust",
+              "value": 513494057.74
+            },
+            {
+              "id": "alder_hey_children_s_nhs_foundation_trust",
+              "name": "Alder Hey Children's NHS Foundation Trust",
+              "value": 379775236.15999997
+            },
+            {
+              "id": "the_christie_nhs_foundation_trust",
+              "name": "The Christie NHS Foundation Trust",
+              "value": 377420247.09000003
+            },
+            {
+              "id": "sheffield_children_s_nhs_foundation_trust",
+              "name": "Sheffield Children's NHS Foundation Trust",
+              "value": 296230000
+            },
+            {
+              "id": "moorfields_eye_hospital_nhs_foundation_trust",
+              "name": "Moorfields Eye Hospital NHS Foundation Trust",
+              "value": 263146565.79000002
+            },
+            {
+              "id": "royal_papworth_hospital_nhs_foundation_trust",
+              "name": "Royal Papworth Hospital NHS Foundation Trust",
+              "value": 260894000
+            },
+            {
+              "id": "the_clatterbridge_cancer_centre_nhs_foundation_trust",
+              "name": "The Clatterbridge Cancer Centre NHS Foundation Trust",
+              "value": 236219421.39000002
+            },
+            {
+              "id": "liverpool_heart_and_chest_hospital_nhs_foundation_trust",
+              "name": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
+              "value": 210164535.29999998
+            },
+            {
+              "id": "royal_national_orthopaedic_hospital_nhs_trust",
+              "name": "Royal National Orthopaedic Hospital NHS Trust",
+              "value": 173950000
+            },
+            {
+              "id": "the_walton_centre_nhs_foundation_trust",
+              "name": "The Walton Centre NHS Foundation Trust",
+              "value": 154447000
+            },
+            {
+              "id": "liverpool_women_s_nhs_foundation_trust",
+              "name": "Liverpool Women's NHS Foundation Trust",
+              "value": 140486000
+            },
+            {
+              "id": "the_robert_jones_and_agnes_hunt_orthopaedic_hospital_nhs_foundation_trust",
+              "name": "The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust",
+              "value": 125087000
+            },
+            {
+              "id": "the_royal_orthopaedic_hospital_nhs_foundation_trust",
+              "name": "The Royal Orthopaedic Hospital NHS Foundation Trust",
+              "value": 113783325
+            },
+            {
+              "id": "queen_victoria_hospital_nhs_foundation_trust",
+              "name": "Queen Victoria Hospital NHS Foundation Trust",
+              "value": 83566000
+            }
+          ]
+        },
+        {
+          "id": "nhs_community",
+          "name": "NHS Community Trusts",
+          "value": 3737973099.3300004,
+          "children": [
+            {
+              "id": "central_london_community_healthcare_nhs_trust",
+              "name": "Central London Community Healthcare NHS Trust",
+              "value": 353410000
+            },
+            {
+              "id": "birmingham_community_healthcare_nhs_foundation_trust",
+              "name": "Birmingham Community Healthcare NHS Foundation Trust",
+              "value": 332110000
+            },
+            {
+              "id": "sussex_community_nhs_foundation_trust",
+              "name": "Sussex Community NHS Foundation Trust",
+              "value": 313756000
+            },
+            {
+              "id": "northamptonshire_healthcare_nhs_foundation_trust",
+              "name": "Northamptonshire Healthcare NHS Foundation Trust",
+              "value": 296098000
+            },
+            {
+              "id": "kent_community_health_nhs_foundation_trust",
+              "name": "Kent Community Health NHS Foundation Trust",
+              "value": 271676000
+            },
+            {
+              "id": "solent_nhs_trust",
+              "name": "Solent NHS Trust",
+              "value": 255332000
+            },
+            {
+              "id": "gloucestershire_health_and_care_nhs_foundation_trust",
+              "name": "Gloucestershire Health and Care NHS Foundation Trust",
+              "value": 253810023.89000002
+            },
+            {
+              "id": "herefordshire_and_worcestershire_health_and_care_nhs_trust",
+              "name": "Herefordshire and Worcestershire Health and Care NHS Trust",
+              "value": 248178000
+            },
+            {
+              "id": "derbyshire_community_health_services_nhs_foundation_trust",
+              "name": "Derbyshire Community Health Services NHS Foundation Trust",
+              "value": 207890000
+            },
+            {
+              "id": "leeds_community_healthcare_nhs_trust",
+              "name": "Leeds Community Healthcare NHS Trust",
+              "value": 194681000
+            },
+            {
+              "id": "cambridgeshire_community_services_nhs_trust",
+              "name": "Cambridgeshire Community Services NHS Trust",
+              "value": 170710000
+            },
+            {
+              "id": "hertfordshire_community_nhs_trust",
+              "name": "Hertfordshire Community NHS Trust",
+              "value": 154377000
+            },
+            {
+              "id": "norfolk_community_health_and_care_nhs_trust",
+              "name": "Norfolk Community Health and Care NHS Trust",
+              "value": 132156075.43999998
+            },
+            {
+              "id": "hounslow_and_richmond_community_healthcare_nhs_trust",
+              "name": "Hounslow and Richmond Community Healthcare NHS Trust",
+              "value": 129296000
+            },
+            {
+              "id": "lincolnshire_community_health_services_nhs_trust",
+              "name": "Lincolnshire Community Health Services NHS Trust",
+              "value": 123187000
+            },
+            {
+              "id": "bridgewater_community_healthcare_nhs_foundation_trust",
+              "name": "Bridgewater Community Healthcare NHS Foundation Trust",
+              "value": 107532000
+            },
+            {
+              "id": "wirral_community_health_and_care_nhs_foundation_trust",
+              "name": "Wirral Community Health and Care NHS Foundation Trust",
+              "value": 97130000
+            },
+            {
+              "id": "shropshire_community_health_nhs_trust",
+              "name": "Shropshire Community Health NHS Trust",
+              "value": 96644000
+            }
+          ]
+        },
+        {
+          "id": "nhs_ambulance",
+          "name": "NHS Ambulance Trusts",
+          "value": 3645155790,
+          "children": [
+            {
+              "id": "london_ambulance_service_nhs_trust",
+              "name": "London Ambulance Service NHS Trust",
+              "value": 601832000
+            },
+            {
+              "id": "north_west_ambulance_service_nhs_trust",
+              "name": "North West Ambulance Service NHS Trust",
+              "value": 468686790
+            },
+            {
+              "id": "east_of_england_ambulance_service_nhs_trust",
+              "name": "East of England Ambulance Service NHS Trust",
+              "value": 409858000
+            },
+            {
+              "id": "west_midlands_ambulance_service_university_nhs_foundation_trust",
+              "name": "West Midlands Ambulance Service University NHS Foundation Trust",
+              "value": 403013000
+            },
+            {
+              "id": "yorkshire_ambulance_service_nhs_trust",
+              "name": "Yorkshire Ambulance Service NHS Trust",
+              "value": 349086000
+            },
+            {
+              "id": "south_western_ambulance_service_nhs_foundation_trust",
+              "name": "South Western Ambulance Service NHS Foundation Trust",
+              "value": 333567000
+            },
+            {
+              "id": "south_central_ambulance_service_nhs_foundation_trust",
+              "name": "South Central Ambulance Service NHS Foundation Trust",
+              "value": 330561000
+            },
+            {
+              "id": "south_east_coast_ambulance_service_nhs_foundation_trust",
+              "name": "South East Coast Ambulance Service NHS Foundation Trust",
+              "value": 311564000
+            },
+            {
+              "id": "east_midlands_ambulance_service_nhs_trust",
+              "name": "East Midlands Ambulance Service NHS Trust",
+              "value": 254742000
+            },
+            {
+              "id": "north_east_ambulance_service_nhs_foundation_trust",
+              "name": "North East Ambulance Service NHS Foundation Trust",
+              "value": 182246000
+            }
+          ]
+        }
+      ],
+      "_disclaimer": "NHS Trust Accounts Consolidation (TAC) 2023/24. Total operating expenditure (EXP0390). Overlap with DHSC commissioning has been netted: see DHSC > \"NHS Trusts (capital & residual funding)\" for the £4.7B that remains in DHSC (capital + non-EXP0390 items).",
+      "_source": "NHS England TAC 2021/22"
+    },
+    {
       "id": "department_for_education",
       "name": "DEPARTMENT FOR EDUCATION",
       "value": 73709913000,
@@ -25381,6 +26041,443 @@
               "id": "scottish_government__scottish_government__n_a__x075a407_tax_revenues_in_scotland_non_budget",
               "name": "Tax Revenues In Scotland",
               "value": -14780017000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "department_of_health",
+      "name": "DEPARTMENT OF HEALTH",
+      "value": 34669239986.92998,
+      "children": [
+        {
+          "id": "department_of_health__nhs_commissioning_board_nhs_england",
+          "name": "NHS Commissioning Board (NHS England)",
+          "value": 66813292000,
+          "children": [
+            {
+              "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services",
+              "name": "7.A Medical services",
+              "value": 51040268000,
+              "children": [
+                {
+                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334005_nhs_england_del_prog_non_voted_nif",
+                  "name": "Nhs England",
+                  "value": 36266858000
+                },
+                {
+                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334010_nhs_commissioning_board_nhs_england_del_prog_voted",
+                  "name": "NHS Commissioning Board (NHS England)",
+                  "value": 12973269000
+                },
+                {
+                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334009_nhs_commissioning_board_nhs_england_del_admin_voted",
+                  "name": "NHS Commissioning Board (NHS England)",
+                  "value": 1789448000
+                },
+                {
+                  "id": "department_of_health__nhs_commissioning_board_nhs_england__7_a_medical_services__x0334011_nhs_commissioning_board_nhs_england_dept_ame_voted",
+                  "name": "NHS Commissioning Board (NHS England)",
+                  "value": 10693000
+                }
+              ]
+            },
+            {
+              "id": "department_of_health__nhs_commissioning_board_nhs_england__n_a",
+              "name": "n/a",
+              "value": 15773024000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__health_education_england",
+          "name": "Health Education England",
+          "value": 3582384000,
+          "children": [
+            {
+              "id": "department_of_health__health_education_england__n_a",
+              "name": "n/a",
+              "value": 1791740000
+            },
+            {
+              "id": "department_of_health__health_education_england__7_a_medical_services",
+              "name": "7.A Medical services",
+              "value": 1791500000
+            },
+            {
+              "id": "department_of_health__health_education_england__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": -856000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__nhs_trusts",
+          "name": "NHS Trusts (capital & residual funding)",
+          "value": 2578133986.9299774,
+          "_na_bucket_removed": true,
+          "_na_bucket_removed_amount": 105836574000,
+          "_na_bucket_removed_note": "OSCAR II \"n/a\" sub-bucket removed as accounting artifact (£105.84B). This bucket is structurally a duplication of provider operating spend and does not reconcile with published DHSC totals. Same pattern as the 2023 \"Non-patient-facing NHS expenditure\" removal in fix_oscar_2023_nhs.js, but the bucket is labelled differently in OSCAR II 2022.",
+          "_netted": true,
+          "_original_value": 116450338000,
+          "_netted_against": "nhs_provider_sector",
+          "_note": "Reduced from £116.5B by £113.9B to avoid double-counting with top-level NHS Provider Sector. Residual represents capital expenditure (PDC, capital loans), HEE training income, and trusts excluded from the TAC sample."
+        },
+        {
+          "id": "department_of_health__health_social_care_information_centre_nhs_digital",
+          "name": "Health & Social Care Information Centre (NHS Digital)",
+          "value": 1381415000,
+          "children": [
+            {
+              "id": "department_of_health__health_social_care_information_centre_nhs_digital__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 731964000
+            },
+            {
+              "id": "department_of_health__health_social_care_information_centre_nhs_digital__n_a",
+              "name": "n/a",
+              "value": 649451000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__nhs_property_services",
+          "name": "NHS Property Services",
+          "value": 1183250000,
+          "children": [
+            {
+              "id": "department_of_health__nhs_property_services__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 677352000
+            },
+            {
+              "id": "department_of_health__nhs_property_services__n_a",
+              "name": "n/a",
+              "value": 505898000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__community_health_partnership",
+          "name": "Community Health Partnership",
+          "value": 625485000,
+          "children": [
+            {
+              "id": "department_of_health__community_health_partnership__n_a",
+              "name": "n/a",
+              "value": 317400000
+            },
+            {
+              "id": "department_of_health__community_health_partnership__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 308085000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__genomics_england_limited",
+          "name": "Genomics England Limited",
+          "value": 200952000,
+          "children": [
+            {
+              "id": "department_of_health__genomics_england_limited__n_a",
+              "name": "n/a",
+              "value": 106817000
+            },
+            {
+              "id": "department_of_health__genomics_england_limited__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 94135000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__care_quality_commission",
+          "name": "Care Quality Commission",
+          "value": 150073000,
+          "children": [
+            {
+              "id": "department_of_health__care_quality_commission__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 86596000
+            },
+            {
+              "id": "department_of_health__care_quality_commission__n_a",
+              "name": "n/a",
+              "value": 63477000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__national_institute_for_health_and_care_excellence",
+          "name": "National Institute for Health and Care Excellence",
+          "value": 120838000,
+          "children": [
+            {
+              "id": "department_of_health__national_institute_for_health_and_care_excellence__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 61694000
+            },
+            {
+              "id": "department_of_health__national_institute_for_health_and_care_excellence__n_a",
+              "name": "n/a",
+              "value": 59144000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__health_research_authority",
+          "name": "Health Research Authority",
+          "value": 39536000,
+          "children": [
+            {
+              "id": "department_of_health__health_research_authority__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 21091000
+            },
+            {
+              "id": "department_of_health__health_research_authority__n_a",
+              "name": "n/a",
+              "value": 18445000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__office_of_the_independent_regulator_for_nhs_foundation_trusts_nhs_improvement",
+          "name": "Office of the Independent Regulator for NHS Foundation Trusts (NHS Improvement)",
+          "value": 16118000,
+          "children": [
+            {
+              "id": "department_of_health__office_of_the_independent_regulator_for_nhs_foundation_trusts_nhs_improvement__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 9118000
+            },
+            {
+              "id": "department_of_health__office_of_the_independent_regulator_for_nhs_foundation_trusts_nhs_improvement__n_a",
+              "name": "n/a",
+              "value": 7000000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__nursing_and_midwifery_council",
+          "name": "Nursing and Midwifery Council",
+          "value": 7325000,
+          "children": [
+            {
+              "id": "department_of_health__nursing_and_midwifery_council__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 7126000
+            },
+            {
+              "id": "department_of_health__nursing_and_midwifery_council__n_a",
+              "name": "n/a",
+              "value": 199000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__professional_standards_authority_for_health_and_social_care",
+          "name": "Professional Standards Authority for Health and Social Care",
+          "value": 5885000,
+          "children": [
+            {
+              "id": "department_of_health__professional_standards_authority_for_health_and_social_care__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 3102000
+            },
+            {
+              "id": "department_of_health__professional_standards_authority_for_health_and_social_care__n_a",
+              "name": "n/a",
+              "value": 2783000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__human_tissue_authority",
+          "name": "Human Tissue Authority",
+          "value": 5355000,
+          "children": [
+            {
+              "id": "department_of_health__human_tissue_authority__n_a",
+              "name": "n/a",
+              "value": 2822000
+            },
+            {
+              "id": "department_of_health__human_tissue_authority__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 2533000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__human_fertilisation_and_embryology_authority",
+          "name": "Human Fertilisation and Embryology Authority",
+          "value": 5250000,
+          "children": [
+            {
+              "id": "department_of_health__human_fertilisation_and_embryology_authority__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 2782000
+            },
+            {
+              "id": "department_of_health__human_fertilisation_and_embryology_authority__n_a",
+              "name": "n/a",
+              "value": 2468000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__health_and_care_professions_council",
+          "name": "Health and Care Professions Council",
+          "value": 3160000,
+          "children": [
+            {
+              "id": "department_of_health__health_and_care_professions_council__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": 2623000
+            },
+            {
+              "id": "department_of_health__health_and_care_professions_council__n_a",
+              "name": "n/a",
+              "value": 537000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__supply_chain_coordination_limited",
+          "name": "Supply Chain Coordination Limited",
+          "value": -135188000,
+          "children": [
+            {
+              "id": "department_of_health__supply_chain_coordination_limited__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": -67594000
+            },
+            {
+              "id": "department_of_health__supply_chain_coordination_limited__n_a",
+              "name": "n/a",
+              "value": -67594000
+            }
+          ]
+        },
+        {
+          "id": "department_of_health__department_of_health_nhs",
+          "name": "Department of Health (NHS)",
+          "value": -41914024000,
+          "children": [
+            {
+              "id": "department_of_health__department_of_health_nhs__n_a",
+              "name": "n/a",
+              "value": 4316804000
+            },
+            {
+              "id": "department_of_health__department_of_health_nhs__7_a_medical_services",
+              "name": "7.A Medical services",
+              "value": 3243650000
+            },
+            {
+              "id": "department_of_health__department_of_health_nhs__7_b_medical_research",
+              "name": "7.B Medical research",
+              "value": 1368567000
+            },
+            {
+              "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services",
+              "name": "7.C Central and other health services",
+              "value": -50843045000,
+              "children": [
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331002_department_of_health_administration_del_prog_voted",
+                  "name": "Department Of Health",
+                  "value": 5293507000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337046_ukhsa_del_prog_voted",
+                  "name": "Ukhsa",
+                  "value": 3239081000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337011_nhs_litigation_authority_nhs_resolution_del_prog_voted",
+                  "name": "NHS Litigation Authority (NHS Resolution)",
+                  "value": 2711151000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331001_department_of_health_administration_del_admin_voted",
+                  "name": "Department Of Health",
+                  "value": 390591000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337045_ukhsa_del_admin_voted",
+                  "name": "Ukhsa",
+                  "value": 172491000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337005_nhs_business_services_authority_del_prog_voted",
+                  "name": "Nhs Business Services Authority",
+                  "value": 126186000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337004_nhs_business_services_authority_del_admin_voted",
+                  "name": "Nhs Business Services Authority",
+                  "value": 117141000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331025_mhra_del_admin_voted",
+                  "name": "Mhra",
+                  "value": 29170000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331012_mhra_del_prog_voted",
+                  "name": "Mhra",
+                  "value": 22238000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337090_nhs_counter_fraud_authority_del_admin_voted",
+                  "name": "NHS Counter Fraud Authority",
+                  "value": 13124000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337024_nhs_business_services_authority_dept_ame_voted",
+                  "name": "Nhs Business Services Authority",
+                  "value": 3603000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337091_nhs_counter_fraud_authority_del_prog_voted",
+                  "name": "NHS Counter Fraud Authority",
+                  "value": 1632000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331026_mhra_dept_ame_voted",
+                  "name": "Mhra",
+                  "value": 324000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337092_nhs_counter_fraud_authority_dept_ame_voted",
+                  "name": "NHS Counter Fraud Authority",
+                  "value": 7000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337010_nhs_litigation_authority_nhs_resolution_del_admin_voted",
+                  "name": "NHS Litigation Authority (NHS Resolution)",
+                  "value": -23667000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337047_ukhsa_dept_ame_voted",
+                  "name": "Ukhsa",
+                  "value": -484162000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0331003_department_of_health_administration_dept_ame_voted",
+                  "name": "Department Of Health",
+                  "value": -3518781000
+                },
+                {
+                  "id": "department_of_health__department_of_health_nhs__7_c_central_and_other_health_services__x0337027_nhs_litigation_authority_nhs_resolution_dept_ame_voted",
+                  "name": "NHS Litigation Authority (NHS Resolution)",
+                  "value": -58936681000
+                }
+              ]
             }
           ]
         }
@@ -30946,6 +32043,13 @@
           ]
         }
       ]
+    }
+  ],
+  "_data_notes": [
+    {
+      "entity": "UK Public Spending 2022",
+      "issue": "oscar_ii_transition_fix",
+      "text": "OSCAR II \"n/a\" NHS Trusts sub-bucket (£105.84B) removed as accounting artifact, consistent with the 2023 fix. NHS Provider Sector (£113.87B) injected from TAC FY 2021/22 as a top-level sibling of DHSC, then DHSC > NHS Trusts netted against it to avoid double-counting (residual £2.58B is capital + PDC). Root value corrected from £1,257.58B to £1,151.75B. Note: DHSC admin + NHS Provider Sector totals £148.54B for 2022 vs £220.17B for 2023 and £214.24B for 2024 — a ~£65B gap that is not explained by the NHS pipeline fixes applied here. This may reflect additional OSCAR schema differences between the 2022 and 2023/24 editions, or items reclassified out of DHSC into other departments in earlier years. Treat 2022 DHSC admin as a lower bound pending further investigation."
     }
   ]
 }
