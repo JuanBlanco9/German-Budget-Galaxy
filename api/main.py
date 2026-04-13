@@ -1,10 +1,13 @@
 import json
+import os
 from pathlib import Path
 
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
+
+from api.hit_tracker import HitTrackerMiddleware, compute_stats
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -15,6 +18,7 @@ app = FastAPI(
 )
 
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(HitTrackerMiddleware)
 
 STATIC_DIR = Path(__file__).parent.parent / "frontend"
 
@@ -231,6 +235,27 @@ def budget_us_states_history():
     for v in result.values():
         v["history"].sort(key=lambda h: h["year"])
     return result
+
+
+# ── Admin stats (hit tracking) ──────────────────────
+#
+# Auth: header X-Admin-Token compared against env var ADMIN_STATS_TOKEN.
+# On failure (missing env, missing header, wrong header) we return 404
+# with the same body FastAPI returns for unknown routes. We do NOT want
+# this endpoint to reveal its own existence to scanners — 401/403 would.
+
+_NOT_FOUND = JSONResponse({"detail": "Not Found"}, status_code=404)
+
+
+@app.get("/admin/stats")
+def admin_stats(request: Request, period: str = Query("week")):
+    expected = os.environ.get("ADMIN_STATS_TOKEN", "")
+    provided = request.headers.get("x-admin-token", "")
+    if not expected or not provided or provided != expected:
+        return _NOT_FOUND
+    if period not in ("day", "week", "month"):
+        period = "week"
+    return compute_stats(period)
 
 
 # ── SEO endpoints ───────────────────────────────────
