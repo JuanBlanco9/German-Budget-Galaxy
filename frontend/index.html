@@ -182,6 +182,33 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .cmp-child-lens.no-data{color:var(--dim);font-style:italic}
 .cmp-empty{text-align:center;padding:40px 20px;color:var(--dim);font-size:12px}
 .cmp-nodata-tooltip{cursor:help;border-bottom:1px dotted var(--dim)}
+/* Dossier panel sections (session 2.6) */
+.dossier-section{margin-top:14px;padding-top:12px;border-top:1px solid var(--border)}
+.dossier-section-title{font-size:9px;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);font-weight:700;margin-bottom:8px}
+.dossier-kv{display:flex;flex-wrap:wrap;gap:10px 16px}
+.dossier-kv .kv{display:flex;flex-direction:column;gap:2px;min-width:72px}
+.dossier-kv .kv-lbl{color:var(--dim);font-size:9px;text-transform:uppercase;letter-spacing:.4px}
+.dossier-kv .kv-val{color:var(--text);font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
+.dossier-kv .kv-val.dim{color:var(--dim);font-weight:400;font-style:italic}
+.dossier-peer-wrap{display:flex;flex-direction:column;gap:3px}
+.dossier-peer-row{display:flex;align-items:center;gap:8px;font-size:11px}
+.dossier-peer-row .peer-name{width:140px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex-shrink:0}
+.dossier-peer-row .peer-fill-wrap{flex:1;height:5px;background:rgba(255,255,255,.04);border-radius:3px;overflow:hidden}
+.dossier-peer-row .peer-fill{height:100%;background:rgba(79,195,247,.4);border-radius:3px}
+.dossier-peer-row .peer-val{font-size:10px;color:var(--dim);min-width:70px;text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums}
+.dossier-peer-row.me .peer-name{color:var(--accent2);font-weight:700}
+.dossier-peer-row.me .peer-fill{background:var(--accent2)}
+.dossier-peer-row.me .peer-val{color:var(--accent2);font-weight:600}
+.dossier-peer-gap{font-size:10px;color:var(--dim);text-align:center;padding:2px 0;font-style:italic}
+.dossier-note{border-left:3px solid var(--accent2);padding:8px 12px;margin:6px 0;background:rgba(255,112,67,.06);border-radius:0 4px 4px 0}
+.dossier-note-title{font-size:11px;font-weight:700;color:var(--text);margin-bottom:3px}
+.dossier-note-issue{display:inline-block;margin-left:8px;font-size:9px;text-transform:uppercase;padding:1px 7px;border-radius:8px;background:rgba(255,112,67,.18);color:var(--accent2);letter-spacing:.4px;vertical-align:middle}
+.dossier-note-body{font-size:11px;color:var(--text);line-height:1.55;opacity:.9}
+.dossier-sup-meta{font-size:10px;color:var(--dim);margin-bottom:8px;line-height:1.5}
+.dossier-sup-row{display:flex;align-items:center;gap:8px;padding:3px 0;font-size:11px}
+.dossier-sup-row .sup-name{flex:1;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dossier-sup-row .sup-val{color:var(--dim);font-size:10px;font-variant-numeric:tabular-nums;flex-shrink:0;text-align:right;min-width:100px}
+.dossier-empty-mini{font-size:11px;color:var(--dim);font-style:italic;padding:2px 0}
 .country-switch{display:flex;gap:0;border-radius:5px;overflow:hidden;border:1px solid var(--border);flex-shrink:0;margin-left:16px}
 .country-switch button{background:var(--bg);color:var(--dim);border:none;padding:4px 10px;font-size:11px;font-weight:600;cursor:pointer;font-family:Inter,system-ui,sans-serif;transition:background .2s}
 .country-switch button:hover{background:rgba(255,255,255,.06)}
@@ -5044,6 +5071,57 @@ function cmpNavigateTo(side, depth) {
   renderCompareSide(side);
 }
 
+// Peer ranking: where does this node sit among its immediate siblings?
+// Returns null when there is no parent (root) or <2 siblings to rank against.
+function cmpComputePeerRank(state) {
+  if (!state || !state.path || state.path.length < 2) return null;
+  const parent = state.path[state.path.length - 2].ref;
+  const siblings = (parent.children || []).slice().sort(function(a, b) { return (b.value || 0) - (a.value || 0); });
+  if (siblings.length < 2) return null;
+  const myIdx = siblings.indexOf(state.node);
+  if (myIdx < 0) return null;
+  return { parent: parent, siblings: siblings, myIdx: myIdx };
+}
+
+// Supplier concentration stats from _top_suppliers metadata.
+// Filters out synthetic "Other (...)" buckets before computing HHI and
+// top-N shares so the numbers reflect identified suppliers only.
+function cmpComputeSupplierStats(node) {
+  const ts = node && node._top_suppliers;
+  if (!ts || !Array.isArray(ts.suppliers) || ts.suppliers.length === 0) return null;
+  const real = ts.suppliers.filter(function(s) { return s && typeof s.name === 'string' && !s.name.startsWith('Other ('); });
+  if (real.length === 0) return null;
+  const spendTotal = typeof ts.spend_total === 'number' ? ts.spend_total : real.reduce(function(a, s) { return a + (s.amount || 0); }, 0);
+  const sorted = real.slice().sort(function(a, b) { return (b.amount || 0) - (a.amount || 0); });
+  const sum = function(arr) { return arr.reduce(function(a, s) { return a + (s.amount || 0); }, 0); };
+  const top1 = sum(sorted.slice(0, 1));
+  const top5 = sum(sorted.slice(0, 5));
+  const top10 = sum(sorted.slice(0, 10));
+  let hhi = 0;
+  if (spendTotal > 0) {
+    sorted.forEach(function(s) {
+      const share = (s.amount || 0) / spendTotal;
+      hhi += share * share;
+    });
+    hhi *= 10000;
+  }
+  const local = real.filter(function(s) { return s._local === true; });
+  return {
+    spendTotal: spendTotal,
+    transactions: ts.transaction_count || 0,
+    uniqueSuppliers: ts.unique_suppliers || real.length,
+    top1Pct: spendTotal > 0 ? top1 / spendTotal * 100 : 0,
+    top5Pct: spendTotal > 0 ? top5 / spendTotal * 100 : 0,
+    top10Pct: spendTotal > 0 ? top10 / spendTotal * 100 : 0,
+    hhi: hhi,
+    localCount: local.length,
+    realTotal: real.length,
+    topList: sorted.slice(0, 5),
+    source: ts.source || '',
+    fyLabel: ts.fy_label || ''
+  };
+}
+
 function renderCompareSide(side) {
   const state = window.cmpState[side];
   const body = document.getElementById('cmp-' + side + '-body');
@@ -5056,9 +5134,14 @@ function renderCompareSide(side) {
   const node = state.node;
   const ctx = makeLensContext(state.root, { year: state.year, country: state.country });
   const currency = CMP_CURRENCY[state.country] || '£';
+  const rootVal = (state.root && typeof state.root.value === 'number' && state.root.value > 0) ? state.root.value : 0;
+  const parentRef = state.path.length >= 2 ? state.path[state.path.length - 2].ref : null;
+  const parentVal = parentRef && typeof parentRef.value === 'number' && parentRef.value > 0 ? parentRef.value : 0;
+
+  let html = '';
 
   // Breadcrumb
-  let html = '<div class="cmp-breadcrumb">';
+  html += '<div class="cmp-breadcrumb">';
   state.path.forEach(function(crumb, i) {
     const isLast = i === state.path.length - 1;
     const shortName = (crumb.name || '').length > 35 ? (crumb.name.slice(0, 33) + '…') : crumb.name;
@@ -5088,8 +5171,92 @@ function renderCompareSide(side) {
     }
   }
 
-  // Children
+  // === Section: Identity ===
+  const depth = Math.max(0, state.path.length - 1);
+  const childCount = (node.children || []).length;
+  const popAvailable = typeof node.population === 'number' && node.population > 0;
+  html += '<div class="dossier-section">';
+  html += '<div class="dossier-section-title">Identity</div>';
+  html += '<div class="dossier-kv">';
+  html += '<div class="kv"><div class="kv-lbl">Country</div><div class="kv-val">' + _escHtml(state.country.toUpperCase()) + '</div></div>';
+  html += '<div class="kv"><div class="kv-lbl">Year</div><div class="kv-val">' + state.year + '</div></div>';
+  html += '<div class="kv"><div class="kv-lbl">Tree depth</div><div class="kv-val">Level ' + depth + '</div></div>';
+  html += '<div class="kv"><div class="kv-lbl">Children</div><div class="kv-val">' + childCount + '</div></div>';
+  if (popAvailable) {
+    html += '<div class="kv"><div class="kv-lbl">Population</div><div class="kv-val">' + node.population.toLocaleString('en-GB') + '</div></div>';
+  }
+  if (node.id) {
+    html += '<div class="kv"><div class="kv-lbl">Node ID</div><div class="kv-val">' + _escHtml(String(node.id)) + '</div></div>';
+  }
+  html += '</div></div>';
+
+  // === Section: Proportions ===
+  html += '<div class="dossier-section">';
+  html += '<div class="dossier-section-title">Proportions</div>';
+  html += '<div class="dossier-kv">';
+  const nodeVal = typeof node.value === 'number' ? node.value : 0;
+  if (rootVal > 0 && state.path.length >= 2) {
+    const pctRoot = nodeVal / rootVal * 100;
+    html += '<div class="kv"><div class="kv-lbl">% of country total</div><div class="kv-val">' + (pctRoot < 0.01 && pctRoot > 0 ? pctRoot.toFixed(4) : pctRoot < 1 ? pctRoot.toFixed(3) : pctRoot.toFixed(2)) + '%</div></div>';
+  } else {
+    html += '<div class="kv"><div class="kv-lbl">% of country total</div><div class="kv-val dim">root</div></div>';
+  }
+  if (parentVal > 0) {
+    const pctParent = nodeVal / parentVal * 100;
+    html += '<div class="kv"><div class="kv-lbl">% of parent</div><div class="kv-val">' + (pctParent < 1 ? pctParent.toFixed(3) : pctParent.toFixed(2)) + '%</div></div>';
+  }
+  if (popAvailable && nodeVal > 0) {
+    const perCap = nodeVal / node.population;
+    html += '<div class="kv"><div class="kv-lbl">Per capita</div><div class="kv-val">' + currency + perCap.toLocaleString('en-GB', { maximumFractionDigits: 0 }) + '</div></div>';
+  } else if (state.country === 'uk' && state.year === 2024) {
+    html += '<div class="kv"><div class="kv-lbl">Per capita</div><div class="kv-val dim">no population</div></div>';
+  }
+  html += '</div></div>';
+
+  // === Section: Peer ranking ===
+  const peer = cmpComputePeerRank(state);
+  if (peer) {
+    const sibs = peer.siblings;
+    const maxVal = (sibs[0] && sibs[0].value) || 0;
+    html += '<div class="dossier-section">';
+    html += '<div class="dossier-section-title">Peer ranking &mdash; among children of ' + _escHtml(peer.parent.name || '') + '</div>';
+    html += '<div class="dossier-kv" style="margin-bottom:10px">';
+    html += '<div class="kv"><div class="kv-lbl">Rank by value</div><div class="kv-val">#' + (peer.myIdx + 1) + ' of ' + sibs.length + '</div></div>';
+    html += '</div>';
+    // Show top 8 siblings + me if I'm outside top 8
+    html += '<div class="dossier-peer-wrap">';
+    const topN = 8;
+    const shown = sibs.slice(0, topN);
+    let meShown = peer.myIdx < topN;
+    shown.forEach(function(sib, i) {
+      const isMe = i === peer.myIdx;
+      const pct = maxVal > 0 ? (sib.value || 0) / maxVal * 100 : 0;
+      const valLbl = fmtLensValue({ value: sib.value, formatHint: 'currency' }, currency);
+      html += '<div class="dossier-peer-row' + (isMe ? ' me' : '') + '">';
+      html += '<span class="peer-name">#' + (i + 1) + ' ' + _escHtml(sib.name || '') + '</span>';
+      html += '<span class="peer-fill-wrap"><span class="peer-fill" style="width:' + pct.toFixed(1) + '%"></span></span>';
+      html += '<span class="peer-val">' + valLbl + '</span>';
+      html += '</div>';
+    });
+    if (!meShown) {
+      html += '<div class="dossier-peer-gap">&hellip; ' + (peer.myIdx - topN) + ' more &hellip;</div>';
+      const me = sibs[peer.myIdx];
+      const pct = maxVal > 0 ? (me.value || 0) / maxVal * 100 : 0;
+      const valLbl = fmtLensValue({ value: me.value, formatHint: 'currency' }, currency);
+      html += '<div class="dossier-peer-row me">';
+      html += '<span class="peer-name">#' + (peer.myIdx + 1) + ' ' + _escHtml(me.name || '') + '</span>';
+      html += '<span class="peer-fill-wrap"><span class="peer-fill" style="width:' + pct.toFixed(1) + '%"></span></span>';
+      html += '<span class="peer-val">' + valLbl + '</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+    html += '</div>';
+  }
+
+  // === Section: Top children ===
   if (node.children && node.children.length) {
+    html += '<div class="dossier-section">';
+    html += '<div class="dossier-section-title">Top children &mdash; ' + node.children.length + ' total' + (node.children.length > 10 ? ', showing 10 largest' : '') + '</div>';
     const kids = node.children.slice().sort(function(a, b) { return (b.value || 0) - (a.value || 0); }).slice(0, 10);
     html += '<div class="cmp-children">';
     kids.forEach(function(child) {
@@ -5112,12 +5279,54 @@ function renderCompareSide(side) {
       }
       html += '</div>';
     });
-    if (node.children.length > 10) {
-      html += '<div class="cmp-empty" style="padding:10px;font-size:10px">' + (node.children.length - 10) + ' more child nodes (not shown)</div>';
+    html += '</div>';
+    html += '</div>';
+  }
+
+  // === Section: Data notes ===
+  if (Array.isArray(node._data_notes) && node._data_notes.length > 0) {
+    html += '<div class="dossier-section">';
+    html += '<div class="dossier-section-title">Data notes</div>';
+    node._data_notes.forEach(function(note) {
+      html += '<div class="dossier-note">';
+      html += '<div class="dossier-note-title">' + _escHtml(note.entity || 'Note');
+      if (note.issue) html += '<span class="dossier-note-issue">' + _escHtml(note.issue) + '</span>';
+      html += '</div>';
+      html += '<div class="dossier-note-body">' + _escHtml(note.text || '') + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+
+  // === Section: Supplier concentration ===
+  const supStats = cmpComputeSupplierStats(node);
+  if (supStats) {
+    html += '<div class="dossier-section">';
+    html += '<div class="dossier-section-title">Supplier concentration</div>';
+    const spendLbl = fmtLensValue({ value: supStats.spendTotal, formatHint: 'currency' }, currency);
+    html += '<div class="dossier-sup-meta">';
+    html += _escHtml(supStats.source) + (supStats.fyLabel ? ' &middot; FY ' + _escHtml(supStats.fyLabel) : '');
+    html += '<br/>' + spendLbl + ' &middot; ' + supStats.transactions.toLocaleString('en-GB') + ' transactions &middot; ' + supStats.uniqueSuppliers.toLocaleString('en-GB') + ' unique suppliers';
+    html += '</div>';
+    html += '<div class="dossier-kv" style="margin-bottom:10px">';
+    html += '<div class="kv"><div class="kv-lbl">Top 1 share</div><div class="kv-val">' + supStats.top1Pct.toFixed(1) + '%</div></div>';
+    html += '<div class="kv"><div class="kv-lbl">Top 5 share</div><div class="kv-val">' + supStats.top5Pct.toFixed(1) + '%</div></div>';
+    html += '<div class="kv"><div class="kv-lbl">Top 10 share</div><div class="kv-val">' + supStats.top10Pct.toFixed(1) + '%</div></div>';
+    html += '<div class="kv"><div class="kv-lbl">HHI</div><div class="kv-val">' + supStats.hhi.toFixed(0) + '</div></div>';
+    if (supStats.localCount > 0) {
+      html += '<div class="kv"><div class="kv-lbl">Local (of top)</div><div class="kv-val">' + supStats.localCount + ' / ' + supStats.realTotal + '</div></div>';
     }
     html += '</div>';
-  } else {
-    html += '<div class="cmp-empty">Leaf node &mdash; no sub-items.</div>';
+    html += '<div class="dossier-section-title" style="margin-top:2px">Top 5 suppliers</div>';
+    supStats.topList.forEach(function(sup, i) {
+      const amtLbl = fmtLensValue({ value: sup.amount, formatHint: 'currency' }, currency);
+      const pct = supStats.spendTotal > 0 ? (sup.amount || 0) / supStats.spendTotal * 100 : 0;
+      html += '<div class="dossier-sup-row">';
+      html += '<span class="sup-name">#' + (i + 1) + ' ' + _escHtml(sup.name || '') + '</span>';
+      html += '<span class="sup-val">' + amtLbl + ' &middot; ' + pct.toFixed(1) + '%</span>';
+      html += '</div>';
+    });
+    html += '</div>';
   }
 
   body.innerHTML = html;
