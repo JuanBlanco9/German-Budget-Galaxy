@@ -114,6 +114,10 @@ Thumbs.db
 node_modules/
 data/uk/*.zip
 
+# Hit tracker logs (server-side only, contain volume/shape data)
+logs/
+*.jsonl
+
 # Council spend raw CSVs (too large for git, stored on Vultr)
 data/uk/local_authorities/spend/bristol/
 data/uk/local_authorities/spend/sheffield/

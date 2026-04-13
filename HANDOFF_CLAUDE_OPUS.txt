@@ -268,9 +268,29 @@ Data tree changes:
     root@96.30.199.112:/opt/germany-ngo-map/data/uk/
 
 API changes (requires uvicorn restart):
-  scp -i ~/.ssh/id_agro_intel api/main.py root@96.30.199.112:/opt/germany-ngo-map/api/
+  scp -i ~/.ssh/id_agro_intel api/main.py api/hit_tracker.py \
+    root@96.30.199.112:/opt/germany-ngo-map/api/
   ssh -i ~/.ssh/id_agro_intel root@96.30.199.112 \
-    "pkill -f uvicorn; sleep 1; cd /opt/germany-ngo-map && nohup /opt/germany-ngo-map/venv/bin/uvicorn api.main:app --host 0.0.0.0 --port 8088 --workers 2 > /var/log/budgetgalaxy.log 2>&1 &"
+    "pkill -9 -f uvicorn; cd /opt/germany-ngo-map && \
+    ADMIN_STATS_TOKEN=<SET_FROM_SECRETS> \
+    nohup /opt/germany-ngo-map/venv/bin/uvicorn api.main:app \
+    --host 0.0.0.0 --port 8088 --workers 2 \
+    > /var/log/budgetgalaxy.log 2>&1 &"
+
+  IMPORTANT — ADMIN_STATS_TOKEN is required for /admin/stats to work.
+  The token is NOT stored in this repo. Retrieve it from the operator's
+  password manager, OR regenerate with:
+    ssh -i ~/.ssh/id_agro_intel root@96.30.199.112 "openssl rand -hex 32"
+  If you regenerate, the old token becomes invalid and you must update
+  any saved curl commands / scripts that use it.
+  If the env var is missing on restart, /admin/stats will silently
+  return 404 for ALL requests (including ones with the correct token).
+  This is by design — see docs/hit-tracking.md for the auth rationale.
+
+  Also note: pkill uses -9 (SIGKILL) rather than the default because
+  we've seen the previous uvicorn fail to release port 8088 within the
+  sleep window, causing [Errno 98] Address already in use on restart.
+  SIGKILL is safe here since uvicorn has no state worth preserving.
 
 Verify production after any deploy:
   curl -s "https://budgetgalaxy.com/budget/country/uk?year=2024" | node -e "..."
