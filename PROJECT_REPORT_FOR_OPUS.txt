@@ -1,0 +1,424 @@
+BUDGET GALAXY — PROJECT STATUS REPORT
+=======================================
+Prepared for: Claude Opus (next assistant/director)
+Date: April 10, 2026
+Authored by: Outgoing Claude Opus instance (v18-v28 session)
+Purpose: Strategic analysis to guide continued development
+
+This is NOT a handoff procedure. For clone/install/deploy steps, see
+HANDOFF_CLAUDE_OPUS.txt. This document exists to help the next director
+decide WHAT to work on and WHY.
+
+=======================================
+EXECUTIVE SUMMARY
+=======================================
+
+Budget Galaxy is currently in a state of DATA ABUNDANCE + INTERFACE DEBT.
+
+We have built one of the most comprehensive public-spending datasets
+available for UK local government — 26 council entities with supplier-
+level transparency, 3,738 suppliers geo-enriched via Companies House,
+108 service breakdowns, £22B in visible procurement data. The data
+quality is honest, traceable, and internally consistent.
+
+The PROBLEM is that most of this depth is not yet visible or usable
+to a visitor. We spent the last 3 sessions building data and only the
+final session building interface. The current frontend exposes roughly
+60% of the data we have. The remaining 40% is sitting in the JSON tree
+with no panels to display it and no search to find it.
+
+The user is a data scientist who values speed and honesty. He explicitly
+deprioritizes "more data" in favor of "show what we have better" when
+asked. That guidance should shape the next 2-3 sessions.
+
+The live site is https://budgetgalaxy.com. Root value: £1,380.5B.
+Everything deployed. Everything working. The question is what to build next.
+
+=======================================
+PART 1 — WHAT WE HAVE (strengths)
+=======================================
+
+DATA PIPELINE (mature, production-grade):
+  The council classification pipeline is the single most valuable thing
+  built this session. It uses Claude Haiku to map any council's internal
+  department names (e.g. "Children, Schools and Family") to the 13 MHCLG
+  standardized service categories. Adding a new council takes ~10 minutes
+  (download CSV + classify + add config) instead of 3 hours of manual
+  mapping.
+
+  This is a reusable engine. It also classifies councils with non-obvious
+  dept names better than hand-crafted rules do — the Leeds validation
+  showed Haiku got "Highways → Transport" and "Libraries → Culture" right
+  where the manual mapping had them wrong (bucketed under the parent OU).
+
+  Companies House integration is also solid: 91% hit rate, persistent
+  cache, robust retry on rate limits. Scales to unlimited suppliers.
+
+UK DEPTH (genuinely deep):
+  - 40 central government departments (OSCAR)
+  - 206 NHS trusts with 4-category operating cost breakdown
+  - 206 NHS trusts with L7 cost types (salaries, agency, PFI, etc)
+  - 206 NHS trusts with workforce composition metadata
+  - 401 English local authorities across 6 classes
+  - 149 councils with DfE S251 education sub-breakdown
+  - 26 councils with supplier-level spend transparency (£22B)
+  - 3,738 suppliers with postcode + company type + local flag
+  - 108 service nodes with spend breakdown by purpose
+
+MULTI-COUNTRY (unique in the market):
+  Budget Galaxy is the only public tool I know of that renders 4
+  different countries' public finance data in a single comparable
+  visualization (the "Multiverse" view). This is not trivial — each
+  country has different data structures, different fiscal years,
+  different accounting bases. The fiscal consolidation work that
+  documents overlaps (Bund→SV, PLF→DREES, Barnett grants, federal→state
+  grants) is genuinely honest and well-researched.
+
+FRONTEND VISUAL DESIGN (Galaxy view):
+  The D3 circle packing with semantic zoom in the Galaxy tab is
+  legitimately impressive. It's the hook that makes visitors stay
+  for more than 10 seconds. The visual hierarchy is clean, the
+  transitions are smooth, and the color scheme (dark with accent
+  teal/blue) looks professional.
+
+=======================================
+PART 2 — WHAT DOESN'T WORK (weaknesses)
+=======================================
+
+DATA INVISIBILITY (the biggest problem):
+  We spent 5+ hours of focused work enriching 3,738 suppliers with
+  Companies House data. The user now sees badges and a dot-map. But:
+
+  - No search. A user looking for "is Serco paid by my council?" has
+    to manually navigate council by council and service by service.
+    With 3,600+ suppliers this is effectively impossible.
+
+  - No aggregation. We know Serco is paid by ~15 different councils
+    for different services. Nowhere in the UI does this get surfaced.
+    We have the data but it's locked inside individual service panels.
+
+  - No cross-council insights. The whole POINT of having 26 councils
+    classified with the same MHCLG schema is to enable comparisons.
+    Currently the user can't answer "does Kent spend more on ASC per
+    capita than Surrey?" even though the answer exists in our data.
+
+THE COMPARATOR IS MISSING (highest-value unbuilt feature):
+  The user explicitly asked for a Compare tab in the final session
+  and it was deferred. Every second visitor on a local government
+  transparency site is going to want to compare their council to
+  a neighbor. This is table-stakes for B2G market positioning.
+
+  A working comparator turns Budget Galaxy from a "cool visualization"
+  into a "tool I actually use for work". That's the difference between
+  a portfolio piece and a product.
+
+MOBILE IS UNTESTED (and probably broken):
+  The Galaxy D3 visualization, the Multiverse, and the new dual treemap
+  sidebar all assume desktop-class screens. Nobody has tested this on
+  a phone. The sidebar has a >1200px media query that hides it on
+  smaller screens, but the main Galaxy canvas doesn't gracefully
+  degrade. Touch zoom probably doesn't work.
+
+  If the target market includes journalists and researchers, mobile
+  matters. If it's only desktop analysts at councils/ministries, it
+  matters less. The user hasn't clarified this.
+
+BUDGET EXPLORER IS BORING:
+  The list-based Budget Explorer is the primary navigation after the
+  Galaxy hook. It's functional but visually uninspiring — rows of
+  bars with percentages. Compared to the Galaxy's wow-factor, it's a
+  letdown. Users who start in Budget Explorer (via URL share) won't
+  see what makes the project impressive.
+
+  The new dual treemap sidebar (v28) partially addresses this but
+  it's hidden behind a 1200px media query and only works in Budget
+  Explorer, not the other tabs.
+
+THE FRONTEND IS A 512KB SINGLE FILE:
+  index.html has 173 named functions, 4 translation systems, 5 data
+  loaders, 7 tab systems, 3 panel renderers, inline CSS, inline JS.
+  It's maintainable today because each section is organized top-down
+  and the variable naming is consistent, but every new feature adds
+  risk of breaking something unrelated.
+
+  Modularization is a 1-2 session refactor with zero user-visible
+  benefit. It's deferred indefinitely until something breaks. When
+  it becomes necessary, use ES modules + esbuild, not a framework.
+
+BIRMINGHAM IS A BLACK HOLE:
+  £3B+ of spending is invisible to the tree because Birmingham's
+  City Observatory purges data via a rolling 24-month window and
+  the Section 114 notice destroyed their MHCLG submission pipeline.
+  We exhausted 6+ alternative sources over 2 sessions and recovered
+  nothing. The FY 2024-25 data is downloaded and classified but
+  cannot be injected because there is no Birmingham node in the
+  MHCLG-derived tree.
+
+  This isn't a bug. It's a reality of covering a council that's
+  in effective bankruptcy. Documentation in the tree should mention
+  this limitation, which it currently doesn't.
+
+=======================================
+PART 3 — THE STRATEGIC QUESTION
+=======================================
+
+WHO IS THIS FOR?
+
+This is the question the project hasn't answered explicitly. The
+answer shapes everything.
+
+Possible audiences:
+  A. JOURNALISTS — need search, alerts, "investigate this supplier"
+     Care about: cross-council patterns, outliers, scandals.
+     Mobile: important (they work in the field).
+
+  B. LOCAL GOV ANALYSTS — need benchmarking, peer comparisons,
+     trend analysis. Care about: per-capita metrics, service ratios,
+     year-over-year. Mobile: unimportant (they work at desks).
+
+  C. CITIZENS / ACTIVISTS — need clarity, simple answers,
+     "where does my council tax go?". Care about: their own
+     council, their own services. Mobile: very important.
+
+  D. ACADEMIC RESEARCHERS — need data exports, methodology
+     transparency, reproducibility. Care about: fiscal
+     consolidation notes, source citations, raw CSV downloads.
+     Mobile: unimportant.
+
+  E. B2G VENDORS — need to know who buys what, where, how much.
+     Care about: supplier aggregation across councils, contract
+     size distribution, geographic concentration. This is the
+     audience our data is BEST positioned to serve.
+
+The current build mostly serves D (researchers) well. The Galaxy
+view serves C (citizens) well. Nobody is well-served for A, B, or E
+yet — and those are the audiences most likely to become recurring
+users or revenue sources.
+
+RECOMMENDATION FOR OPUS:
+  Pick audience B or E (or both) and build for them specifically
+  over the next 2-3 sessions. The data exists. The interface does
+  not. Don't ingest more councils until the existing ones are
+  presented to a specific audience with a specific workflow.
+
+=======================================
+PART 4 — PRIORITIZED NEXT WORK
+=======================================
+
+TIER 1 — DO THIS FIRST (highest ROI, clear user value):
+
+  1. COMPARATOR TAB (Mejora E from prior conversation)
+     Prompt already written, never implemented. This is the single
+     highest-value unbuilt feature. Converts Budget Galaxy from
+     "visualization" to "tool". Serves audiences B and E directly.
+
+     Scope: New tab, two-column layout, independent node selectors
+     per side, per-capita normalization mode, combined supplier
+     map with shared supplier detection, URL sharing.
+
+     Estimated effort: 60-90 minutes of focused work.
+     Risk: low (self-contained, no modifications to existing views).
+     Value: extremely high (B2G market positioning).
+
+  2. GLOBAL SUPPLIER SEARCH
+     A search input (in the nav bar or as a dedicated tab) that
+     takes a supplier name and returns: which councils pay them,
+     how much each, what services, total across the UK.
+
+     Scope: Build an index from _top_suppliers across the tree,
+     fuzzy search input, result list with deep links.
+
+     Estimated effort: 30-45 minutes.
+     Risk: very low (purely additive, read-only from existing tree).
+     Value: high (unique transparency tool, unlocks the 3,738-supplier
+            enrichment work that's currently invisible).
+
+  3. MOBILE MEDIA QUERIES
+     Minimum viable: make Budget Explorer readable on phones.
+     Don't try to make Galaxy/Multiverse work on mobile yet.
+     Just ensure the list view degrades gracefully.
+
+     Scope: CSS media queries only, no JS changes.
+     Estimated effort: 30 minutes.
+     Risk: low.
+     Value: medium-high (expands audience to journalists/activists).
+
+TIER 2 — DO THIS NEXT (valuable, lower urgency):
+
+  4. PER-CAPITA NORMALIZATION
+     Add population metadata to each council node (MHCLG publishes
+     this). Add a toggle somewhere (Budget Explorer? Compare tab?)
+     to show all values per capita instead of absolute.
+
+     Serves audience B (analysts) who need this to make fair
+     comparisons. Kent's absolute £2.7B is meaningless — Kent's
+     £1,700 per capita vs England average £1,200 per capita is
+     the story.
+
+     Estimated effort: 45 min.
+
+  5. EVENT MARKERS ON EVOLUTION TAB
+     Vertical lines for COVID start/end, OSCAR I→II transition,
+     S114 notices, Brexit. Tooltips with context. Makes the YoY
+     chart interpretable instead of looking like data errors.
+
+     Estimated effort: 30 min.
+
+  6. METHODOLOGY ACCORDION
+     The About page is a wall of text. Convert sections to
+     collapsible accordions. Add a visual diagram of the data
+     pipeline (source → parser → tree → enrichment → frontend).
+
+     Estimated effort: 45 min.
+
+TIER 3 — DON'T DO THIS YET (low ROI or high risk):
+
+  X. More councils
+     Point of diminishing returns. 26 is plenty to demonstrate
+     the pattern. Every additional council requires the same
+     effort but adds proportionally less value. Build the search
+     and compare tools FIRST so the existing councils are
+     actually useful.
+
+  X. Birmingham recovery
+     Thoroughly exhausted. Don't waste another session on this.
+     Add a "no data available" note to the tree and move on.
+
+  X. index.html modularization
+     Too risky, no user value. Defer until something breaks.
+
+  X. Canvas 2D rendering
+     Only worth it if we scale to 10+ countries. We're at 4.
+     Premature optimization.
+
+  X. New countries (Japan, Canada, etc.)
+     Also deferred. Build the interface for the countries we
+     have first. Multi-country comparison already exists via
+     Multiverse — polish that instead.
+
+=======================================
+PART 5 — TECHNICAL QUALITY NOTES
+=======================================
+
+The code quality is HIGHER than typical single-file vanilla JS
+projects. Functions are consistently named, comments explain
+the "why" not the "what", data pipelines have idempotency guards
+(inject scripts skip existing metadata unless --force), and the
+fiscal consolidation work shows serious attention to accounting
+correctness.
+
+Specific things to preserve:
+  - The `metadata vs tree children` rule (see feedback_metadata_vs_children
+    in Juan's persistent memory). Budget Galaxy uses _top_suppliers and
+    _subcategories as metadata, NOT tree children, because the spend
+    totals don't reconcile with MHCLG net current expenditure. This is
+    intentional and should be maintained for any new data integrations.
+
+  - The fiscal consolidation scripts (deduce_intergovernmental_*.js)
+    quantify double-counting across government levels. If you add new
+    data sources, always create a corresponding deduction JSON.
+
+  - Haiku classification caches (*_dept_mapping.json). These are
+    checked into GitHub and reused across sessions. Don't delete them
+    unless you're intentionally re-classifying.
+
+  - The Companies House geo cache (supplier_geo_cache.json). Not on
+    GitHub (size), but on Vultr. Regeneratable but costs API calls.
+
+Specific things to fix:
+  - Hardcoded paths to `C:/Users/Usuario/AppData/Local/Temp/bg_check.js`
+    in the JS syntax validation commands. These won't work on the new
+    machine. Use a relative path or `mktemp`.
+
+  - The supplier map has a hardcoded POSTCODE_COORDS lookup that covers
+    UK outer areas (GL, LS, etc) but is incomplete. ~10% of suppliers
+    don't render because their postcode area isn't in the lookup.
+    Could be improved with a proper postcode→coords API.
+
+  - Cornwall's £6.2B total is anomalously high vs other councils.
+    Possibly includes capital + internal transfers in "Net Amount".
+    Needs review before presenting Cornwall data confidently.
+
+=======================================
+PART 6 — RISKS
+=======================================
+
+DATA FRESHNESS RISK:
+  Council spend data is from FY 2023-24. By FY 2024-25 publication
+  (summer/autumn 2025), we'll need to re-run the pipeline for all
+  26 councils. The pipeline is automated enough that this should
+  take ~2-3 hours total, not 2-3 days. But it needs to be done.
+
+DEPENDENCY RISK:
+  Companies House REST API rate-limited to 600 req/min. Currently
+  using ~550/min effective (110ms delay). If they tighten limits,
+  the enrichment script needs a longer delay. Easy fix.
+
+  Anthropic API: Haiku classifier costs ~$0.03 per council. If
+  pricing changes significantly, the per-council cost may matter.
+  Currently negligible.
+
+HOSTING RISK:
+  Vultr server (96.30.199.112) is a single VM. No redundancy. If it
+  dies, the site is down. Domain is on the same Vultr box. Not
+  critical for a portfolio/demo project, but worth noting for future
+  commercialization.
+
+LEGAL RISK:
+  All data used is under Open Government Licence v3.0 (UK) or
+  equivalent (DE/FR/US). Companies House data is also OGL. Everything
+  is attributable and re-shareable. The user has been careful about
+  this — maintain that standard.
+
+=======================================
+PART 7 — SUCCESS METRICS
+=======================================
+
+We don't currently track usage. This is probably the biggest gap
+after the compare tab. The user should decide whether to add
+Plausible/Fathom/Umami (privacy-respecting analytics) so future
+work can be prioritized based on actual user behavior.
+
+Without metrics, we're guessing at what users want. With metrics,
+we'd know whether the supplier panels are even being viewed (my
+suspicion: they're buried 4-5 clicks deep and barely reached).
+
+If adding analytics, instrument at minimum:
+  - Tab views (Galaxy, Explorer, Multiverse, Evolution, Compare)
+  - Council drill-downs (which councils get clicked most)
+  - Supplier panel reaches (does anyone actually see them?)
+  - Country switches (are people using all 4 countries?)
+  - Outbound links (do About page source citations get clicked?)
+
+=======================================
+CLOSING OPINION
+=======================================
+
+Budget Galaxy is genuinely unique. No other tool I'm aware of
+combines: (a) four-country comparison of total public spending,
+(b) council-level supplier transparency with geo enrichment,
+(c) fiscal consolidation honesty, and (d) a visually impressive
+front door via the Galaxy view.
+
+But "unique" isn't the same as "useful to a specific audience
+doing a specific job". The next sessions should relentlessly
+focus on making the existing data serve a defined user workflow,
+not on adding more data.
+
+The single highest-leverage action is building the Compare tab.
+Everything else is secondary. If Opus accomplishes nothing else
+in the next 2 sessions, accomplishing the Compare tab would make
+the whole project noticeably more valuable.
+
+Second highest: supplier search. Third: mobile at least functional.
+
+After those three, reassess with analytics data and user feedback.
+
+The user is smart, fast, and honest. He won't appreciate a session
+that produces a new feature nobody asked for. Focus on what he
+explicitly requested (Compare tab) and what the data clearly enables
+(supplier search) before proposing anything new.
+
+=======================================
+END OF REPORT
+=======================================
