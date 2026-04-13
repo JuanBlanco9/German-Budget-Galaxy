@@ -112,9 +112,34 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .tg-enter-btn.enabled:hover{opacity:.85}
 .tg-footer{margin-top:20px;font-size:11px;color:var(--dim)}
 
-.header{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;z-index:1000}
-.header h1{font-size:16px;font-weight:600}
+.header{background:var(--surface);border-bottom:1px solid var(--border);padding:10px 20px;display:flex;align-items:center;justify-content:space-between;z-index:1000;gap:20px}
+.header-text{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1 1 auto}
+.header h1{font-size:16px;font-weight:600;line-height:1.2;margin:0}
 .header h1 span{color:var(--accent)}
+.header-tagline{font-size:12px;color:var(--dim);font-style:italic;line-height:1.2}
+.header-subhead{font-size:11px;color:var(--dim);line-height:1.35;max-width:640px;opacity:.8}
+@media(max-width:900px){.header-tagline{display:none}.header-subhead{display:none}}
+/* ── About accordions (session 2.5) ─────────── */
+.about-wrap{max-width:820px;margin:0 auto;padding:40px 24px 80px;color:var(--text);line-height:1.65}
+.about-wrap h1{font-size:24px;font-weight:700;margin:0 0 6px;color:var(--text)}
+.about-wrap .about-intro{font-size:13px;color:var(--dim);margin-bottom:28px}
+.about-acc{border-top:1px solid var(--border)}
+.about-acc-item{border-bottom:1px solid var(--border)}
+.about-acc-header{display:flex;align-items:center;gap:12px;padding:18px 4px;cursor:pointer;user-select:none;font-size:15px;font-weight:600;color:var(--text);transition:color .15s}
+.about-acc-header:hover{color:var(--accent)}
+.about-acc-chevron{display:inline-block;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .15s;flex-shrink:0;margin-left:auto}
+.about-acc-item.open > .about-acc-header > .about-acc-chevron{transform:rotate(45deg)}
+.about-acc-body{display:none;padding:4px 4px 24px;font-size:13px;color:var(--text);line-height:1.7}
+.about-acc-item.open > .about-acc-body{display:block}
+.about-acc-body h3{font-size:14px;font-weight:700;color:var(--text);margin:18px 0 6px}
+.about-acc-body h3:first-child{margin-top:4px}
+.about-acc-body p{margin:0 0 12px}
+.about-acc-body .about-country{font-size:13px;font-weight:700;color:var(--accent);margin:20px 0 6px}
+.about-acc-body .about-country:first-child{margin-top:0}
+.about-acc-body ul{margin:0 0 12px;padding-left:20px}
+.about-acc-body li{margin-bottom:6px}
+.about-acc-body .about-gap{border-left:3px solid var(--accent);padding:10px 14px;margin:14px 0;background:rgba(255,255,255,.02);border-radius:0 4px 4px 0}
+.about-acc-body .about-gap-title{font-weight:700;color:var(--text);margin-bottom:6px;display:block}
 .country-switch{display:flex;gap:0;border-radius:5px;overflow:hidden;border:1px solid var(--border);flex-shrink:0;margin-left:16px}
 .country-switch button{background:var(--bg);color:var(--dim);border:none;padding:4px 10px;font-size:11px;font-weight:600;cursor:pointer;font-family:Inter,system-ui,sans-serif;transition:background .2s}
 .country-switch button:hover{background:rgba(255,255,255,.06)}
@@ -877,7 +902,11 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 <div id="main-app" style="display:none">
 
 <div class="header">
-  <h1 id="app-title"><span>Budget</span> Galaxy</h1>
+  <div class="header-text">
+    <h1 id="app-title"><span>Budget</span> Galaxy</h1>
+    <div class="header-tagline">Where does public money actually go?</div>
+    <div class="header-subhead">A tool for comparing public spending across UK, Germany, France, and the US &mdash; down to individual council suppliers when the data exists.</div>
+  </div>
   <div class="country-switch" id="country-switch">
     <button data-country="mv" onclick="showTab('multiverse',null)" style="font-size:10px">&#127760; ALL</button>
     <button class="active" data-country="de" onclick="switchCountry('de')">&#127465;&#127466; DE</button>
@@ -1183,88 +1212,90 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
     </div>
 
     <div id="about-en">
-      <h1 style="font-size:28px;font-weight:700;margin-bottom:8px">About German Budget Galaxy</h1>
+      <div class="about-wrap">
+      <h1>About Budget Galaxy</h1>
+      <div class="about-intro">A reference tool for public spending across four countries. Updated April 2026.</div>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">What is this?</h2>
-      <p style="margin-bottom:12px">An interactive visualization of total public spending in Germany, the US, France, and the UK. Germany alone: &euro;2.3 trillion across federal budget (Bundeshaushalt), social insurance (GKV, pensions, unemployment, care, accidents), 16 federal states, and municipalities.</p>
-      <p style="margin-bottom:20px">Every sphere you see represents a real budget allocation. The size is proportional to the amount. Click any sphere to explore what&rsquo;s inside. Zoom in to see the details. Every euro, dollar, and pound is traceable to an official source.</p>
+      <div class="about-acc">
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Why does this exist?</h2>
-      <p style="margin-bottom:12px">The German federal budget is public. It is published annually by the Bundesministerium der Finanzen. Anyone can look it up.</p>
-      <p style="margin-bottom:12px">But &ldquo;public&rdquo; is not the same as &ldquo;accessible.&rdquo; The official data is spread across thousands of pages of Einzelpl&auml;ne in a format designed for parliamentary procedure, not for public understanding. <strong>Knowing that &euro;44.8 billion goes to pension insurance is not the same as seeing it next to the &euro;47 million for the Federal President.</strong></p>
-      <p style="margin-bottom:20px">This project makes the structure visible. Not to argue for more or less spending in any area, but to give anyone &mdash; citizen, journalist, student, researcher &mdash; an immediate, intuitive grasp of where the money goes.</p>
+        <div class="about-acc-item" id="acc-methodology">
+          <div class="about-acc-header" onclick="toggleAboutAcc('acc-methodology')">
+            Methodology
+            <span class="about-acc-chevron"></span>
+          </div>
+          <div class="about-acc-body">
+            <p>Budget Galaxy aggregates public spending data from official sources in four countries. The structure below summarizes the pipeline for each country.</p>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Three tools</h2>
+            <div class="about-country">United Kingdom</div>
+            <ul>
+              <li>Central government: HM Treasury OSCAR II, covering approximately 55 departments, executive agencies and bodies. The 2023 OSCAR edition was reprocessed to correct a &pound;114B NHS artifact that would otherwise double-count health spending.</li>
+              <li>NHS: trust-level operating cost breakdowns for 206 provider trusts (118 acute, 45 mental health, 18 community, 15 specialist, 10 ambulance), with workforce and cost-type metadata where published. NHS commissioner (ICB) and provider (trust) values are netted against each other to avoid double-counting.</li>
+              <li>Local government: 401 English local authorities from MHCLG Revenue Outturn, plus 19 councils with supplier-level spend parsed from their own published registers and classified into MHCLG service categories. An additional 7 police and fire authorities are covered as separate entities.</li>
+              <li>Population data: ONS mid-2023 local authority estimates (residents, all ages, both sexes), attached to the 19 councils for per-capita analysis. Police and fire authorities do not receive population since they are service areas, not geographic entities.</li>
+            </ul>
 
-      <h3 style="font-size:16px;margin-top:20px;margin-bottom:8px">Budget Galaxy</h3>
-      <p style="margin-bottom:16px">The visual entry point. A zoomable circle-packing visualization where each ministry is a sphere, and within each ministry, departments and budget items nest inside. The biggest sphere &mdash; Labour &amp; Social Affairs at &euro;175.7B &mdash; is impossible to ignore. That&rsquo;s the point.</p>
+            <div class="about-country">Germany, France, United States</div>
+            <ul>
+              <li>Federal budgets from the equivalent official sources (Bundeshaushalt, Loi de Finances / Budget de l&rsquo;&Eacute;tat, OMB Budget of the United States Government).</li>
+              <li>Multi-level consolidation (federal to state to local) is documented per country where the accounting crosses levels.</li>
+            </ul>
 
-      <h3 style="font-size:16px;margin-top:20px;margin-bottom:8px">Budget Explorer</h3>
-      <p style="margin-bottom:16px">The analytical tool. Navigate the budget hierarchy with a breadcrumb trail (like file folders on a computer). Each level shows a breakdown with percentages, spending type analysis (personnel vs. transfers vs. investments), and enriched context &mdash; who benefits, how much per person, how Germany compares internationally.</p>
+            <p>The full data pipeline is in the project repository. Every number on this site can be traced back to a specific line in a specific source file.</p>
+          </div>
+        </div>
 
-      <h3 style="font-size:16px;margin-top:20px;margin-bottom:8px">Budget Evolution</h3>
-      <p style="margin-bottom:16px">The historical view. Ten years of budget data (2015&ndash;2024) showing how spending changed over time. The COVID spike. The Zeitenwende in defence. The explosion of debt service costs. Select any combination of ministries or categories to compare.</p>
+        <div class="about-acc-item" id="acc-gaps">
+          <div class="about-acc-header" onclick="toggleAboutAcc('acc-gaps')">
+            What went wrong
+            <span class="about-acc-chevron"></span>
+          </div>
+          <div class="about-acc-body">
+            <p>Public spending data has gaps, inconsistencies, and quirks that most transparency tools hide. Budget Galaxy documents them here because they matter for how you read the numbers.</p>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Data sources</h2>
-      <p style="margin-bottom:12px">All data comes from the official Bundeshaushalt published by the German Federal Ministry of Finance (Bundesministerium der Finanzen) via <strong>bundeshaushalt.de</strong>.</p>
-      <p style="margin-bottom:12px">Enrichment data (beneficiary counts, international comparisons, institutional context) comes from official statistics published by the relevant federal agencies: Deutsche Rentenversicherung, Bundesagentur f&uuml;r Arbeit, OECD, NATO, Destatis, and others. Each source is cited where it appears.</p>
-      <p style="margin-bottom:20px">Historical data covers Bundeshaushalt Soll (planned budget) for each year from 2015 to 2024.</p>
+            <div class="about-gap">
+              <span class="about-gap-title">Birmingham City Council is absent from the 2023-24 tree.</span>
+              Birmingham issued a Section 114 notice in September 2023, which disrupted their MHCLG submission pipeline. Their public spend register (City Observatory) uses a rolling 24-month window that has since purged 2023-24 transactions. We tried six alternative sources and recovered nothing. The 2024-25 data exists but cannot be injected because Birmingham has no node in the MHCLG-derived tree for that year.
+            </div>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Limitations</h2>
-      <p style="margin-bottom:8px">&bull; This shows the <strong>planned budget</strong> (Soll), not actual spending (Ist). Actual expenditures can differ.</p>
-      <p style="margin-bottom:8px">&bull; <strong>Off-budget items</strong> like the Sonderverm&ouml;gen Bundeswehr (&euro;100B special defence fund) and the Klima- und Transformationsfonds are not included in the Einzelpl&auml;ne and therefore not shown here.</p>
-      <p style="margin-bottom:8px">&bull; Enrichment data (beneficiary counts, international comparisons) is <strong>approximate and from various reporting periods</strong> (mostly 2023&ndash;2024). It has been fact-checked against official sources but may not reflect the most current figures.</p>
-      <p style="margin-bottom:20px">&bull; Translations of official German budget item names are provided for accessibility. <strong>The official names are in German</strong> &mdash; use the DE/EN toggle or the translate button for individual items.</p>
+            <div class="about-gap">
+              <span class="about-gap-title">Cornwall&rsquo;s supplier totals are under review.</span>
+              Cornwall&rsquo;s MHCLG net current expenditure (&pound;1.0B) is consistent with other unitary authorities. But the supplier-level spend derived from Cornwall&rsquo;s raw CSV sums to approximately &pound;6.2B &mdash; roughly 6x the MHCLG operating value, compared to a ratio closer to 1.1x for other councils. The most likely explanation is that Cornwall&rsquo;s &ldquo;Net Amount&rdquo; column includes capital expenditure and internal transfers alongside operating spend. Until this is reconciled, treat Cornwall&rsquo;s supplier figures as an upper bound.
+            </div>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Fiscal consolidation</h2>
-      <p style="margin-bottom:12px">Budget Galaxy combines multiple levels of government for Germany, France, and the UK. Central government transfers to subnational entities may appear at both levels, inflating the combined total. Deduction files (<code>intergovernmental_*.json</code>) document the exact amounts by year.</p>
-      <table style="width:100%;font-size:12px;border-collapse:collapse;margin-bottom:20px">
-        <tr style="border-bottom:1px solid var(--border);color:var(--dim)"><td style="padding:6px 0;font-weight:600">Country</td><td style="padding:6px 0;font-weight:600">Overlap</td><td style="padding:6px 0;font-weight:600">Source of overlap</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">&#127465;&#127466; Germany</td><td style="padding:6px 0">&euro;110&ndash;180B (6&ndash;8%)</td><td style="padding:6px 0">Federal transfers to social insurance (GRV, GKV, BA)</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">&#127467;&#127479; France</td><td style="padding:6px 0">&euro;60&ndash;170B (5&ndash;10%)</td><td style="padding:6px 0">PLF programs also in DREES Protection Sociale</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">&#127468;&#127463; United Kingdom</td><td style="padding:6px 0">&pound;55&ndash;95B (5&ndash;7%)</td><td style="padding:6px 0">Barnett Formula block grants to Scotland, Wales and Northern Ireland</td></tr>
-        <tr><td style="padding:6px 0">&#127482;&#127480; United States</td><td style="padding:6px 0">$0</td><td style="padding:6px 0">Federal budget shown alone; state/local data not combined</td></tr>
-      </table>
+            <div class="about-gap">
+              <span class="about-gap-title">NHS commissioner and provider spending overlap.</span>
+              NHS Integrated Care Boards commission services from NHS Trusts. Summing ICB commissioning and Trust operating costs directly would double-count the same money. Budget Galaxy nets these values against each other. If you compare to a source that doesn&rsquo;t do this netting, expect your totals to be larger than ours.
+            </div>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Sources</h2>
-      <table style="width:100%;font-size:12px;border-collapse:collapse">
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Federal Budget</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de" target="_blank" style="color:var(--accent)">bundeshaushalt.de</a> &mdash; Bundesministerium der Finanzen</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Pensions</td><td style="padding:6px 0"><a href="https://www.deutsche-rentenversicherung.de" target="_blank" style="color:var(--accent)">deutsche-rentenversicherung.de</a> &mdash; DRV Bund</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Employment</td><td style="padding:6px 0"><a href="https://statistik.arbeitsagentur.de" target="_blank" style="color:var(--accent)">statistik.arbeitsagentur.de</a> &mdash; Bundesagentur f&uuml;r Arbeit</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Statistics</td><td style="padding:6px 0"><a href="https://www.destatis.de" target="_blank" style="color:var(--accent)">destatis.de</a> &mdash; Statistisches Bundesamt</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Health</td><td style="padding:6px 0"><a href="https://www.gkv-spitzenverband.de" target="_blank" style="color:var(--accent)">gkv-spitzenverband.de</a> &mdash; GKV-Spitzenverband</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Defence</td><td style="padding:6px 0"><a href="https://www.nato.int/cps/en/natohq/topics_49198.htm" target="_blank" style="color:var(--accent)">NATO Defence Expenditure</a></td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">OECD Data</td><td style="padding:6px 0"><a href="https://data.oecd.org" target="_blank" style="color:var(--accent)">data.oecd.org</a> &mdash; Social Expenditure, Health, Education</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Migration</td><td style="padding:6px 0"><a href="https://www.bamf.de" target="_blank" style="color:var(--accent)">bamf.de</a> &mdash; Bundesamt f&uuml;r Migration und Fl&uuml;chtlinge</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Federal Debt</td><td style="padding:6px 0"><a href="https://www.deutsche-finanzagentur.de" target="_blank" style="color:var(--accent)">deutsche-finanzagentur.de</a> &mdash; Deutsche Finanzagentur</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Development</td><td style="padding:6px 0"><a href="https://www.bmz.de" target="_blank" style="color:var(--accent)">bmz.de</a> &mdash; Bundesministerium f&uuml;r wirtschaftliche Zusammenarbeit</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Railways</td><td style="padding:6px 0"><a href="https://ir.deutschebahn.com" target="_blank" style="color:var(--accent)">ir.deutschebahn.com</a> &mdash; Deutsche Bahn Integrated Report</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0;color:var(--dim)">Research</td><td style="padding:6px 0"><a href="https://www.bmbf.de" target="_blank" style="color:var(--accent)">bmbf.de</a> &mdash; Bundesbericht Forschung und Innovation</td></tr>
-        <tr><td style="padding:6px 0;color:var(--dim)">Global Fund</td><td style="padding:6px 0"><a href="https://www.theglobalfund.org/en/results/" target="_blank" style="color:var(--accent)">theglobalfund.org</a> &mdash; GFATM Results Report</td></tr>
-      </table>
+            <div class="about-gap">
+              <span class="about-gap-title">OSCAR 2023 had a &pound;114B health artifact.</span>
+              The 2023 edition of HM Treasury&rsquo;s OSCAR II dataset contained a &pound;114B discrepancy in health spending that appears to be an accounting-transition artifact from the shift to OSCAR II. We removed it. Our 2023 UK total is therefore lower than a naive OSCAR 2023 sum by approximately that amount.
+            </div>
 
-      <h2 style="font-size:20px;margin-top:32px;margin-bottom:12px;color:var(--accent)">Budget Data by Year</h2>
-      <p style="margin-bottom:12px;font-size:12px;color:var(--dim)">All budget CSVs are sourced from the official Bundeshaushalt published by the Bundesministerium der Finanzen. Each file contains the complete Soll (planned) budget for that fiscal year.</p>
-      <table style="width:100%;font-size:12px;border-collapse:collapse">
-        <tr style="border-bottom:1px solid var(--border);color:var(--dim)"><td style="padding:6px 0;font-weight:600">Year</td><td style="padding:6px 0;font-weight:600">Source</td><td style="padding:6px 0;font-weight:600;text-align:right">Total</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2025</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2025/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2025</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2025/soll/HH_2025.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;501.6B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2024</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2024/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2024</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2024/soll/HH_2024.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;476.8B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2023</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2023/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2023</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2023/soll/HH_2023.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;812.5B <span style="color:#e57373;font-size:10px" title="CSV includes €364B in EPL 60 (crisis stabilization funds). Parliament approved €476B as core budget. The difference is Wirtschaftsstabilisierungsfonds and energy crisis packages.">⚠</span></td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2022</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2022/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2022</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2022/soll/hh_2022_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;495.8B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2021</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2021/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2021</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2021/soll/hh_2021_n2_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;498.6B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2020</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2020/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2020</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2020/soll/hh_2020_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;362.0B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2019</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2019/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2019</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2019/soll/hh_2019_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;356.4B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2018</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2018/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2018</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2018/soll/hh_2018_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;343.6B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2017</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2017/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2017</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2017/soll/hh_2017_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;329.1B</td></tr>
-        <tr style="border-bottom:1px solid var(--border)"><td style="padding:6px 0">2016</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2016/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2016</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2016/soll/Haushalt_2016_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;316.9B</td></tr>
-        <tr><td style="padding:6px 0">2015</td><td style="padding:6px 0"><a href="https://www.bundeshaushalt.de/#/2015/soll/ausgaben/einzelplan.html" target="_blank" style="color:var(--accent)">bundeshaushalt.de/2015</a> &middot; <a href="https://www.bundeshaushalt.de/static/daten/2015/soll/Haushalt_2015_utf8.csv" target="_blank" style="color:var(--dim)">CSV</a></td><td style="padding:6px 0;text-align:right">&euro;299.1B</td></tr>
-      </table>
+            <p>Germany, France, and the United States have their own data quirks documented in the source repository. This page focuses on the UK because it is where we have the deepest coverage.</p>
+          </div>
+        </div>
 
-      <div style="margin-top:32px;padding:16px;border-left:4px solid var(--accent);background:var(--surface);border-radius:0 8px 8px 0;font-style:italic;color:var(--dim)">
-        Every euro collected from citizens should be understandable to those citizens. Not locked in parliamentary formats. Not hidden behind specialist jargon. Visible, explorable, and comparable &mdash; that is what this tool provides.
+        <div class="about-acc-item" id="acc-who">
+          <div class="about-acc-header" onclick="toggleAboutAcc('acc-who')">
+            Who built this and why
+            <span class="about-acc-chevron"></span>
+          </div>
+          <div class="about-acc-body">
+            <p>Budget Galaxy is built and maintained by an independent developer. The project is open and every number is traceable to an official source.</p>
+
+            <p>The project exists because public spending data in most countries is technically published but practically unreadable. Central government datasets are scattered across official portals, local government data is fragmented across hundreds of councils, and cross-country comparison is almost impossible without manual reconciliation. Budget Galaxy is one attempt at closing that gap for four countries.</p>
+
+            <p>The data, the pipeline, and the full source are in the project repository.</p>
+          </div>
+        </div>
+
+      </div>
       </div>
     </div>
-
+    <!-- TODO(i18n): German About content below is legacy and pre-dates the April 2026 refactor.
+         When updating to the new three-accordion structure, translate the methodology, gaps,
+         and who-built-this sections verbatim. Until then, the Deutsch button shows the old content. -->
     <div id="about-de" style="display:none">
       <h1 style="font-size:28px;font-weight:700;margin-bottom:8px">&Uuml;ber German Budget Galaxy</h1>
 
@@ -1687,6 +1718,13 @@ function toggleInfoBox(tabId){
   content.classList.toggle('closed');
   chevron.textContent=isOpen?'\u25BC':'\u25B2';
   localStorage.setItem('infobox_'+tabId+'_open',!isOpen);
+}
+
+// About page accordion toggles (session 2.5)
+function toggleAboutAcc(id){
+  const el=document.getElementById(id);
+  if(!el) return;
+  el.classList.toggle('open');
 }
 
 function initInfoBoxes(){
