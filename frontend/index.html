@@ -200,6 +200,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .cmp-search-result .sr-path{color:var(--dim);font-size:10px;margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cmp-search-result .sr-hit{color:var(--accent);font-weight:700}
 .cmp-search-empty{padding:10px;color:var(--dim);font-size:11px;font-style:italic;text-align:center}
+.cmp-search-divider{padding:4px 10px;font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--dim);background:rgba(255,255,255,.02);border-top:1px solid rgba(40,40,64,.5);border-bottom:1px solid rgba(40,40,64,.5);text-align:center}
+.cmp-search-result.supplier{border-left:3px solid var(--accent2)}
+.cmp-search-result.supplier .sr-name{font-weight:500}
+.cmp-search-result.supplier .sr-kind{display:inline-block;font-size:8px;text-transform:uppercase;letter-spacing:.5px;color:var(--accent2);background:rgba(255,112,67,.12);padding:1px 6px;border-radius:8px;margin-right:6px;vertical-align:middle;font-weight:700}
 /* Dossier panel sections (session 2.6) */
 .dossier-section{margin-top:14px;padding-top:12px;border-top:1px solid var(--border)}
 .dossier-section-title{font-size:9px;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);font-weight:700;margin-bottom:8px}
@@ -5233,23 +5237,28 @@ function cmpBuildSupplierIndex(country, year, tree) {
   return index;
 }
 
-// Substring filter over the index. Case-insensitive, NOT fuzzy. Sort
-// by: (1) exact name match, (2) name-starts-with query, (3) earliest
-// substring position, (4) shallowest path depth. Caps at 15 entries.
+// Mixed substring filter over the node index AND the supplier index.
+// Returns a flat array of typed hits: {type:'node'|'supplier', entry, pos}.
+// Nodes first (up to 10), suppliers second (up to 5). The divider in
+// the rendered dropdown is purely visual — the array stays flat so
+// keyboard navigation treats both groups as a single list.
+// Triggered only when the query is at least 2 characters.
 function cmpSearchFilter(side, query) {
   const state = window.cmpState[side];
   if (!state || !state.searchIndex) return [];
   const q = (query || '').trim().toLowerCase();
-  if (q.length === 0) return [];
-  const hits = [];
+  if (q.length < 2) return [];
+
+  // Node search (same ranking rules as session 2.6)
+  const nodeHits = [];
   for (let i = 0; i < state.searchIndex.length; i++) {
     const entry = state.searchIndex[i];
     const pos = entry.lowerName.indexOf(q);
     if (pos < 0) continue;
-    hits.push({ entry: entry, pos: pos, depth: entry.path.length });
-    if (hits.length > 500) break;  // safety cap on candidate set
+    nodeHits.push({ entry: entry, pos: pos, depth: entry.path.length });
+    if (nodeHits.length > 500) break;
   }
-  hits.sort(function(a, b) {
+  nodeHits.sort(function(a, b) {
     const aExact = a.entry.lowerName === q ? 0 : 1;
     const bExact = b.entry.lowerName === q ? 0 : 1;
     if (aExact !== bExact) return aExact - bExact;
@@ -5257,29 +5266,74 @@ function cmpSearchFilter(side, query) {
     if (a.depth !== b.depth) return a.depth - b.depth;
     return (b.entry.value || 0) - (a.entry.value || 0);
   });
-  return hits.slice(0, 15).map(function(h) { return h.entry; });
+  const nodeResults = nodeHits.slice(0, 10).map(function(h) { return { type: 'node', entry: h.entry, pos: h.pos }; });
+
+  // Supplier search against this tree's cached index
+  const supplierIndex = window.cmpState.supplierIndex[state.country + '_' + state.year] || {};
+  const supHits = [];
+  const supKeys = Object.keys(supplierIndex);
+  for (let i = 0; i < supKeys.length; i++) {
+    const entry = supplierIndex[supKeys[i]];
+    const displayLower = (entry.displayName || '').toLowerCase();
+    const normLower = entry.normalizedName || '';
+    const posDisplay = displayLower.indexOf(q);
+    const posNorm = normLower.indexOf(q);
+    if (posDisplay < 0 && posNorm < 0) continue;
+    const pos = Math.min(posDisplay < 0 ? 1e9 : posDisplay, posNorm < 0 ? 1e9 : posNorm);
+    supHits.push({ entry: entry, pos: pos });
+    if (supHits.length > 500) break;
+  }
+  supHits.sort(function(a, b) {
+    // (a) exact normalized name match first
+    const aExact = a.entry.normalizedName === q ? 0 : 1;
+    const bExact = b.entry.normalizedName === q ? 0 : 1;
+    if (aExact !== bExact) return aExact - bExact;
+    // (b) prefix match second (either displayName or normalizedName starts with q)
+    const aPrefix = (a.entry.normalizedName.indexOf(q) === 0 || (a.entry.displayName || '').toLowerCase().indexOf(q) === 0) ? 0 : 1;
+    const bPrefix = (b.entry.normalizedName.indexOf(q) === 0 || (b.entry.displayName || '').toLowerCase().indexOf(q) === 0) ? 0 : 1;
+    if (aPrefix !== bPrefix) return aPrefix - bPrefix;
+    // (c) by councilCount descending (more cross-council = more relevant)
+    if (a.entry.councilCount !== b.entry.councilCount) return b.entry.councilCount - a.entry.councilCount;
+    // (d) by totalAmount descending as tiebreaker
+    return (b.entry.totalAmount || 0) - (a.entry.totalAmount || 0);
+  });
+  const supplierResults = supHits.slice(0, 5).map(function(h) { return { type: 'supplier', entry: h.entry, pos: h.pos }; });
+
+  return nodeResults.concat(supplierResults);
 }
 
 function cmpSearchRenderResults(side, query, results) {
   const wrap = document.getElementById('cmp-' + side + '-search-results');
   if (!wrap) return;
   const state = window.cmpState[side];
-  if (!query || query.trim().length === 0) {
+  if (!query || query.trim().length < 2) {
     wrap.innerHTML = '';
     wrap.classList.remove('open');
-    if (state) state.searchActiveIdx = -1;
+    if (state) { state.searchActiveIdx = -1; state.searchResults = []; }
     return;
   }
   if (results.length === 0) {
     wrap.innerHTML = '<div class="cmp-search-empty">No matches</div>';
     wrap.classList.add('open');
-    if (state) state.searchActiveIdx = -1;
+    if (state) { state.searchActiveIdx = -1; state.searchResults = []; }
     return;
   }
   const currency = CMP_CURRENCY[state.country] || '£';
   const q = query.trim().toLowerCase();
+
+  // Split into node group and supplier group for rendering
+  const nodeGroup = [];
+  const supplierGroup = [];
+  results.forEach(function(hit, i) {
+    if (hit.type === 'node') nodeGroup.push({ hit: hit, idx: i });
+    else supplierGroup.push({ hit: hit, idx: i });
+  });
+
   let h = '';
-  results.forEach(function(entry, i) {
+
+  // Node group
+  nodeGroup.forEach(function(g) {
+    const entry = g.hit.entry;
     const name = entry.name || '';
     const lower = entry.lowerName;
     const pos = lower.indexOf(q);
@@ -5289,15 +5343,39 @@ function cmpSearchRenderResults(side, query, results) {
     } else {
       nameHtml = _escHtml(name.slice(0, pos)) + '<span class="sr-hit">' + _escHtml(name.slice(pos, pos + q.length)) + '</span>' + _escHtml(name.slice(pos + q.length));
     }
-    // Build breadcrumb skipping the current entry itself
     const crumbs = entry.path.slice(0, -1).map(function(n) { return n.name || ''; });
     const crumbText = crumbs.join(' › ');
     const valLbl = fmtLensValue({ value: entry.value, formatHint: 'currency' }, currency);
-    h += '<div class="cmp-search-result" data-idx="' + i + '" onmousedown="cmpSearchClick(\'' + side + '\',' + i + ')">';
+    h += '<div class="cmp-search-result" data-idx="' + g.idx + '" onmousedown="cmpSearchClick(\'' + side + '\',' + g.idx + ')">';
     h += '<div class="sr-name">' + nameHtml + '<span class="sr-val">' + valLbl + '</span></div>';
     if (crumbText) h += '<div class="sr-path">' + _escHtml(crumbText) + '</div>';
     h += '</div>';
   });
+
+  // Divider + supplier group (only if both groups non-empty)
+  if (nodeGroup.length > 0 && supplierGroup.length > 0) {
+    h += '<div class="cmp-search-divider">&mdash; suppliers &mdash;</div>';
+  }
+
+  supplierGroup.forEach(function(g) {
+    const entry = g.hit.entry;
+    const name = entry.displayName || '';
+    const lower = name.toLowerCase();
+    const pos = lower.indexOf(q);
+    let nameHtml;
+    if (pos < 0) {
+      nameHtml = _escHtml(name);
+    } else {
+      nameHtml = _escHtml(name.slice(0, pos)) + '<span class="sr-hit">' + _escHtml(name.slice(pos, pos + q.length)) + '</span>' + _escHtml(name.slice(pos + q.length));
+    }
+    const totalLbl = fmtLensValue({ value: entry.totalAmount, formatHint: 'currency' }, currency);
+    const councilTxt = entry.councilCount + (entry.councilCount === 1 ? ' council' : ' councils');
+    h += '<div class="cmp-search-result supplier" data-idx="' + g.idx + '" onmousedown="cmpSearchClick(\'' + side + '\',' + g.idx + ')">';
+    h += '<div class="sr-name"><span class="sr-kind">supplier</span>' + nameHtml + '<span class="sr-val">' + totalLbl + '</span></div>';
+    h += '<div class="sr-path">' + councilTxt + ' &middot; total spend</div>';
+    h += '</div>';
+  });
+
   wrap.innerHTML = h;
   wrap.classList.add('open');
   state.searchResults = results;
@@ -5352,18 +5430,46 @@ function cmpSearchKeydown(event, side) {
 function cmpSearchClick(side, idx) {
   const state = window.cmpState[side];
   if (!state || !state.searchResults) return;
-  const entry = state.searchResults[idx];
-  if (!entry) return;
-  cmpJumpTo(side, entry);
+  const hit = state.searchResults[idx];
+  if (!hit) return;
+  if (hit.type === 'supplier') {
+    // Open the supplier panel; do NOT change the current node selection.
+    cmpOpenSupplierPanel(side, hit.entry.normalizedName);
+    cmpResetSearch(side);
+    return;
+  }
+  // Node hit — existing jump behavior (also closes supplier panel).
+  cmpJumpTo(side, hit.entry);
+}
+
+// Open the supplier detail panel for a column. Stores the normalized
+// supplier key on state.activeSupplier and re-renders the column.
+// The actual panel HTML is emitted by renderCompareSide when
+// state.activeSupplier is set — see Task 4.
+function cmpOpenSupplierPanel(side, normalizedName) {
+  const state = window.cmpState[side];
+  if (!state) return;
+  state.activeSupplier = normalizedName || null;
+  renderCompareSide(side);
+}
+
+function cmpCloseSupplierPanel(side) {
+  const state = window.cmpState[side];
+  if (!state) return;
+  state.activeSupplier = null;
+  renderCompareSide(side);
 }
 
 // Jump to a node found via search. Rebuilds state.path from the
 // entry's cached refs so the breadcrumb reflects the full ancestry.
+// Also closes any open supplier panel because the supplier context
+// is no longer active.
 function cmpJumpTo(side, entry) {
   const state = window.cmpState[side];
   if (!state || !entry || !entry.path) return;
   state.node = entry.node;
   state.path = entry.path.map(function(ref) { return { name: ref.name, ref: ref }; });
+  state.activeSupplier = null;
   cmpResetSearch(side);
   renderCompareSide(side);
   renderLensPanel();
@@ -5404,6 +5510,7 @@ function cmpDescend(side, childIndex) {
   if (!child) return;
   state.node = child;
   state.path.push({ name: child.name, ref: child });
+  state.activeSupplier = null;  // Navigating closes any open supplier panel
   renderCompareSide(side);
 }
 
@@ -5412,6 +5519,7 @@ function cmpNavigateTo(side, depth) {
   if (depth < 0 || depth >= state.path.length) return;
   state.path = state.path.slice(0, depth + 1);
   state.node = state.path[state.path.length - 1].ref;
+  state.activeSupplier = null;  // Navigating closes any open supplier panel
   renderCompareSide(side);
 }
 
