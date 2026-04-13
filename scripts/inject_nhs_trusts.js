@@ -74,11 +74,30 @@ function sortChildrenDesc(node) {
 //   - " OrganisationName " vs "OrganisationName", etc.
 //
 // normalizeRow strips whitespace from all keys so callers can use clean names.
+//
+// Cross-year schema drift (historical TAC files 2019/20 — 2021/22):
+//   - "Organisation Name" (with internal space) vs "OrganisationName"
+//   - "Value number" vs "Total"
+// normalizeRow does not strip INTERNAL whitespace from keys (only leading/
+// trailing), so "Organisation Name" stays as-is. The row accessors below
+// fall back to the legacy names when the modern ones are absent.
 
 function normalizeRow(row) {
   const out = {};
   for (const k of Object.keys(row)) out[k.trim()] = row[k];
   return out;
+}
+
+// Read the trust/organisation name field, preferring the modern column
+// "OrganisationName" and falling back to the legacy "Organisation Name".
+function readOrgName(row) {
+  return row.OrganisationName != null ? row.OrganisationName : row['Organisation Name'];
+}
+
+// Read the value field in thousands GBP, preferring the modern column
+// "Total" and falling back to the legacy "Value number".
+function readValueThousands(row) {
+  return row.Total != null ? row.Total : row['Value number'];
 }
 
 function findSheet(wb, targetLower) {
@@ -145,8 +164,8 @@ function parseTACFile(filePath) {
   let subsetMatched = 0;
   for (const row of dataRows) {
     if (row.SubCode === 'EXP0390' && row.MainCode && String(row.MainCode).includes('CY')) {
-      const name = String(row.OrganisationName || '').trim();
-      const valueThousands = parseFloat(row.Total) || 0;
+      const name = String(readOrgName(row) || '').trim();
+      const valueThousands = parseFloat(readValueThousands(row)) || 0;
       const valueFull = valueThousands * 1000;
       let classification = classMap[name];
       if (!classification) {
