@@ -146,8 +146,37 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
    the panel below the viewport and made scroll feel broken. */
 #tab-compare{height:calc(100vh - 110px);overflow-y:auto;-webkit-overflow-scrolling:touch}
 .compare-wrap{max-width:1280px;margin:0 auto;padding:24px 24px 60px;color:var(--text);min-height:0}
+.compare-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}
+.compare-header-text{flex:1;min-width:0}
 .compare-title{font-size:20px;font-weight:700;margin:0 0 6px}
-.compare-sub{font-size:12px;color:var(--dim);margin-bottom:20px}
+.compare-sub{font-size:12px;color:var(--dim);margin:0}
+.cmp-help-button{flex-shrink:0;padding:6px 14px;background:transparent;border:1px solid var(--border);border-radius:4px;color:var(--dim);font-size:12px;font-weight:500;font-family:inherit;cursor:pointer;transition:color .15s,border-color .15s,background .15s}
+.cmp-help-button:hover{color:var(--text);border-color:var(--accent);background:rgba(79,195,247,.05)}
+/* Help modal (session "help") */
+.cmp-help-modal{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:10000;display:flex;align-items:center;justify-content:center}
+.cmp-help-modal.hidden{display:none}
+.cmp-help-backdrop{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.72);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.cmp-help-panel{position:relative;width:640px;max-width:calc(100vw - 32px);max-height:80vh;background:var(--surface);border:1px solid var(--border);border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5);display:flex;flex-direction:column;overflow:hidden}
+.cmp-help-close{position:absolute;top:10px;right:12px;width:28px;height:28px;background:transparent;border:none;color:var(--dim);font-size:24px;line-height:1;cursor:pointer;border-radius:4px;display:flex;align-items:center;justify-content:center;padding:0;z-index:2}
+.cmp-help-close:hover{background:rgba(255,255,255,.08);color:var(--text)}
+.cmp-help-close:focus{outline:1px solid var(--accent);outline-offset:1px}
+.cmp-help-tabs{display:flex;gap:0;padding:16px 48px 0 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+.cmp-help-tab{background:transparent;border:none;padding:10px 18px;color:var(--dim);font-size:13px;font-weight:600;font-family:inherit;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
+.cmp-help-tab:hover{color:var(--text)}
+.cmp-help-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.cmp-help-content{padding:20px 24px 28px;overflow-y:auto;flex:1;line-height:1.65;color:var(--text);font-size:13px}
+.cmp-help-content h3{font-size:14px;font-weight:700;color:var(--text);margin:18px 0 8px;letter-spacing:.2px}
+.cmp-help-content h3:first-child{margin-top:0}
+.cmp-help-content h4{font-size:13px;font-weight:700;color:var(--accent);margin:14px 0 4px}
+.cmp-help-content p{margin:0 0 10px;color:var(--text)}
+.cmp-help-content ul{margin:0 0 12px;padding-left:20px}
+.cmp-help-content li{margin-bottom:4px;color:var(--text)}
+.cmp-help-content em{color:var(--accent);font-style:normal;font-weight:600}
+@media (max-width:700px){
+  .cmp-help-panel{width:90vw;max-height:90vh}
+  .cmp-help-tabs{padding:14px 44px 0 14px}
+  .cmp-help-content{padding:16px 18px 22px}
+}
 .lens-panel{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:8px;margin-bottom:16px}
 .lens-panel-label{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--dim);font-weight:600;margin-right:8px}
 .lens-button{padding:6px 12px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:20px;color:var(--text);cursor:pointer;font-size:12px;font-weight:500;transition:all .15s}
@@ -1327,8 +1356,13 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 <!-- ABOUT TAB — PROJECT MANIFESTO -->
 <div id="tab-compare" class="panel" style="display:none">
   <div class="compare-wrap">
-    <div class="compare-title">Compare</div>
-    <div class="compare-sub">Select any two public spending nodes to compare. Apply lenses to transform the values side by side. Lenses are opt-in &mdash; default view is raw absolute values.</div>
+    <div class="compare-header">
+      <div class="compare-header-text">
+        <div class="compare-title">Compare</div>
+        <div class="compare-sub">Select any two public spending nodes to compare. Apply lenses to transform the values side by side. Lenses are opt-in &mdash; default view is raw absolute values.</div>
+      </div>
+      <button class="cmp-help-button" onclick="cmpOpenHelpModal()" type="button">Help</button>
+    </div>
 
     <div class="lens-panel" id="lens-panel">
       <span class="lens-panel-label">Lenses</span>
@@ -1379,6 +1413,22 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
           <div class="cmp-empty">Loading&hellip;</div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Compare tab "Help" modal. Hidden until the user clicks the
+       Help button in the compare-header. Content is two tabs
+       (Simple/Detailed). State does not persist — always reopens
+       on Simple, does not remember "seen" across sessions. -->
+  <div id="cmp-help-modal" class="cmp-help-modal hidden" role="dialog" aria-modal="true" aria-labelledby="cmp-help-title">
+    <div class="cmp-help-backdrop" onclick="cmpCloseHelpModal()"></div>
+    <div class="cmp-help-panel" onclick="event.stopPropagation()">
+      <button class="cmp-help-close" type="button" onclick="cmpCloseHelpModal()" aria-label="Close help">&times;</button>
+      <div class="cmp-help-tabs" role="tablist">
+        <button class="cmp-help-tab active" id="cmp-help-tab-simple" type="button" role="tab" onclick="cmpSwitchHelpTab('simple')">Simple</button>
+        <button class="cmp-help-tab" id="cmp-help-tab-detailed" type="button" role="tab" onclick="cmpSwitchHelpTab('detailed')">Detailed</button>
+      </div>
+      <div class="cmp-help-content" id="cmp-help-content"></div>
     </div>
   </div>
 </div>
@@ -5054,6 +5104,122 @@ async function cmpInit() {
     renderCompareSide('right');
     renderLensPanel();
   };
+}
+
+// === Help modal ==============================================
+// Two-tab help overlay for the Compare tab. State is ephemeral
+// — always opens on Simple, does not persist across sessions.
+// Content is inline HTML strings rather than separate elements so
+// the modal DOM stays small and there is no "which content div is
+// visible" bookkeeping.
+
+const CMP_HELP_CONTENT_SIMPLE = [
+  '<h3>What this is</h3>',
+  '<p>Compare lets you place two nodes of the public spending tree side by side. Each column is an independent dossier of its selected node.</p>',
+  '<h3>Navigation</h3>',
+  '<ul>',
+  '<li>Click children in <em>Top children</em> to drill down</li>',
+  '<li>Click the breadcrumb to go back up</li>',
+  '<li>Service leaves like <em>Adult Social Care</em> have no sub-tree but still open to reveal their supplier and subcategory data</li>',
+  '<li>Use the search to jump to any node or supplier across the entire tree</li>',
+  '</ul>',
+  '<h3>Countries and years</h3>',
+  '<ul>',
+  '<li>Each column has its own country and year selector</li>',
+  '<li>Both columns default to UK 2024</li>',
+  '<li>You can compare UK 2019 vs UK 2024 to see change over time, or UK vs Germany to compare across countries</li>',
+  '</ul>',
+  '<h3>Lenses</h3>',
+  '<ul>',
+  '<li>Lenses transform the displayed values</li>',
+  '<li><em>per capita</em> divides council spend by population (UK 2024 only — other trees lack population data)</li>',
+  '<li><em>% of total budget</em> shows each node as a share of its country\'s total spend</li>',
+  '<li>Lenses are always opt-in; the default view is raw absolute values</li>',
+  '</ul>',
+  '<h3>Suppliers</h3>',
+  '<ul>',
+  '<li>The <em>Supplier concentration</em> section shows who gets paid</li>',
+  '<li>Click any supplier row to see its full cross-council footprint</li>',
+  '<li>Search for a supplier by name in the jump-to field</li>',
+  '</ul>'
+].join('');
+
+const CMP_HELP_CONTENT_DETAILED = [
+  '<h3>Dossier sections</h3>',
+  '<p>Every column shows up to seven sections about its selected node. Sections that don\'t apply are hidden.</p>',
+  '<h4>1. Identity</h4>',
+  '<p>Basic facts about the node: country, year, depth in the tree, number of children, population (if it\'s a UK council), and internal id.</p>',
+  '<h4>2. Proportions</h4>',
+  '<p>Three ways to see the node\'s relative size: as a percent of the country total, as a percent of its immediate parent, and per capita if population is available.</p>',
+  '<h4>3. Peer ranking</h4>',
+  '<p>Where this node ranks among its siblings in the tree. Rank by absolute value. Up to 8 peers shown with the current node highlighted in accent color.</p>',
+  '<h4>4. Top children</h4>',
+  '<p>The largest children of the node, up to 10 by default with a toggle to show all.</p>',
+  '<h4>5. Data notes</h4>',
+  '<p>Limitations and caveats attached to this specific node or its parent. Birmingham City Council is absent from the 2023-24 tree due to its Section 114 notice. Cornwall\'s supplier totals are under review because the source CSV likely includes capital expenditure. These notes surface automatically when you navigate to an affected node.</p>',
+  '<h4>6. Supplier concentration</h4>',
+  '<p>Statistics on who gets paid: top-1, top-5, top-10 share, HHI (Herfindahl-Hirschman Index, a measure of concentration), count of local suppliers, and the list of top suppliers. HHI below 1500 is low concentration, 1500-2500 is moderate, above 2500 is high.</p>',
+  '<p>Supplier rows are clickable. Clicking opens the supplier detail panel with the supplier\'s full cross-council footprint and a Companies House lookup link.</p>',
+  '<h4>7. Spending subcategories</h4>',
+  '<p>Breakdown of spend by purpose, derived from the supplier disclosure CSV (not from MHCLG net current expenditure). Totals may exceed the node\'s headline value because the two datasets cover different things. The section header shows the ratio explicitly.</p>',
+  '<h3>Why per capita is gated to UK 2024</h3>',
+  '<p>Population data is ONS mid-2023 mid-year estimates. Applying mid-2023 population to spending from other years would produce subtly wrong numbers. Rather than silently doing that, per capita is disabled for non-UK countries and for any UK year other than 2024. The button shows its state in the lens panel.</p>',
+  '<h3>Why Cornwall is flagged</h3>',
+  '<p>Cornwall\'s MHCLG net current expenditure is &pound;1.0 billion, consistent with other unitary authorities. But the supplier-level spend from Cornwall\'s raw CSV sums to roughly &pound;6.2 billion, about six times the MHCLG operating value. The most likely explanation is that the "Net Amount" column in Cornwall\'s source CSV includes capital expenditure and internal transfers. Until this is reconciled, treat Cornwall\'s supplier figures as an upper bound.</p>',
+  '<h3>Why Birmingham is missing</h3>',
+  '<p>Birmingham issued a Section 114 notice in September 2023, which disrupted its MHCLG submission pipeline. Its public spend register uses a rolling 24-month window that has since purged 2023-24 transactions. We tried six alternative sources and recovered nothing. The 2024-25 data exists but cannot be grafted onto a tree that has no Birmingham node for that year.</p>',
+  '<h3>Local suppliers</h3>',
+  '<p>A supplier is flagged "local" when its registered postcode area matches the paying council\'s area. This is a proxy for local economic impact, not a precise measure — a supplier registered in Kent may serve national contracts with Kent CC, and a supplier registered in London may have a Kent branch. Treat the flag as a starting point for investigation, not a final answer.</p>',
+  '<h3>NHS commissioner-provider netting</h3>',
+  '<p>NHS Integrated Care Boards commission services from NHS Trusts. Summing ICB commissioning and Trust operating costs directly would double-count the same money. Budget Galaxy nets these values against each other. If you compare to a source that doesn\'t do this netting, expect your totals to be smaller than theirs.</p>',
+  '<h3>OSCAR 2023 artifact</h3>',
+  '<p>The 2023 edition of HM Treasury\'s OSCAR II dataset contained a &pound;114 billion discrepancy in health spending that appears to be an accounting-transition artifact from the shift to OSCAR II. Budget Galaxy removed it. The 2023 UK total is therefore lower than a naive OSCAR 2023 sum by approximately that amount.</p>'
+].join('');
+
+// One-time Escape handler, attached on open, removed on close.
+let _cmpHelpEscHandler = null;
+
+function cmpOpenHelpModal() {
+  const modal = document.getElementById('cmp-help-modal');
+  if (!modal) return;
+  cmpSwitchHelpTab('simple');  // Always reopen on Simple
+  modal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';  // prevent background scroll
+  const closeBtn = modal.querySelector('.cmp-help-close');
+  if (closeBtn) closeBtn.focus();
+  _cmpHelpEscHandler = function(e) {
+    if (e.key === 'Escape') cmpCloseHelpModal();
+  };
+  document.addEventListener('keydown', _cmpHelpEscHandler);
+}
+
+function cmpCloseHelpModal() {
+  const modal = document.getElementById('cmp-help-modal');
+  if (!modal) return;
+  modal.classList.add('hidden');
+  document.body.style.overflow = '';
+  if (_cmpHelpEscHandler) {
+    document.removeEventListener('keydown', _cmpHelpEscHandler);
+    _cmpHelpEscHandler = null;
+  }
+}
+
+function cmpSwitchHelpTab(tabName) {
+  const content = document.getElementById('cmp-help-content');
+  const simpleTab = document.getElementById('cmp-help-tab-simple');
+  const detailedTab = document.getElementById('cmp-help-tab-detailed');
+  if (!content || !simpleTab || !detailedTab) return;
+  if (tabName === 'detailed') {
+    content.innerHTML = CMP_HELP_CONTENT_DETAILED;
+    simpleTab.classList.remove('active');
+    detailedTab.classList.add('active');
+  } else {
+    content.innerHTML = CMP_HELP_CONTENT_SIMPLE;
+    simpleTab.classList.add('active');
+    detailedTab.classList.remove('active');
+  }
+  // Reset scroll to top when switching tabs
+  content.scrollTop = 0;
 }
 
 // Load the tree for a side given its current country+year. Called
