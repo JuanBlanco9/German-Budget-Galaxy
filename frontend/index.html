@@ -5928,6 +5928,41 @@ function renderCompareSide(side) {
     html += '</div>';
   }
 
+  // === Section: Spending subcategories ===
+  // _subcategories is derived from supplier spend disclosure (the same
+  // source as _top_suppliers), NOT from MHCLG net current expenditure.
+  // Values sum to _top_suppliers.spend_total, not node.value — the
+  // two spend views reconcile at different totals. The pre-computed
+  // `pct` field on each entry is share of subcategory total, not
+  // share of node value. We render it verbatim and label the section
+  // with the subcategory total + node.value ratio so the analyst
+  // knows which universe the percentages live in.
+  if (Array.isArray(node._subcategories) && node._subcategories.length > 0) {
+    const subs = node._subcategories.slice().sort(function(a, b) { return (b.value || 0) - (a.value || 0); });
+    const subTotal = subs.reduce(function(a, s) { return a + (s.value || 0); }, 0);
+    const nodeVal = typeof node.value === 'number' ? node.value : 0;
+    const ratio = nodeVal > 0 ? (subTotal / nodeVal * 100) : 0;
+    html += '<div class="dossier-section">';
+    html += '<div class="dossier-section-title">Spending subcategories &mdash; from supplier disclosure</div>';
+    html += '<div class="dossier-sup-meta">';
+    html += 'Derived from supplier spend disclosure, not MHCLG net current expenditure. ';
+    html += 'Subcategory total ' + fmtLensValue({ value: subTotal, formatHint: 'currency' }, currency);
+    if (nodeVal > 0) {
+      html += ' = ' + ratio.toFixed(0) + '% of node value ' + fmtLensValue({ value: nodeVal, formatHint: 'currency' }, currency);
+    }
+    html += '. Shares below are relative to the subcategory total.';
+    html += '</div>';
+    subs.forEach(function(sub, i) {
+      const amtLbl = fmtLensValue({ value: sub.value, formatHint: 'currency' }, currency);
+      const pct = typeof sub.pct === 'number' ? sub.pct : (subTotal > 0 ? (sub.value || 0) / subTotal * 100 : 0);
+      html += '<div class="dossier-sup-row">';
+      html += '<span class="sup-name">' + _escHtml(sub.name || '') + '</span>';
+      html += '<span class="sup-val">' + amtLbl + ' &middot; ' + pct.toFixed(1) + '%</span>';
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+
   body.innerHTML = html;
 }
 
