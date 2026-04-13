@@ -326,9 +326,10 @@ Specific things to preserve:
     GitHub (size), but on Vultr. Regeneratable but costs API calls.
 
 Specific things to fix:
-  - Hardcoded paths to `C:/Users/Usuario/AppData/Local/Temp/bg_check.js`
-    in the JS syntax validation commands. These won't work on the new
-    machine. Use a relative path or `mktemp`.
+  - (FIXED in session 0a) Hardcoded Windows paths in the JS syntax
+    validation flow. Replaced with os.tmpdir() and a TMP_PATH shell
+    variable so the validation works on Linux, macOS, Windows, and
+    any shell (bash, zsh, sh, Git Bash).
 
   - The supplier map has a hardcoded POSTCODE_COORDS lookup that covers
     UK outer areas (GL, LS, etc) but is incomplete. ~10% of suppliers

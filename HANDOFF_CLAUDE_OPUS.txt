@@ -297,13 +297,16 @@ Verify production after any deploy:
   (check root value, council count, supplier count)
 
 ALWAYS validate JS syntax before deploying frontend:
+  TMP_PATH=$(node -e "console.log(require('path').join(require('os').tmpdir(),'bg_check.js'))")
   node -e "
-  const h=require('fs').readFileSync('frontend/index.html','utf8');
-  const s=h.indexOf('<script>');
-  const e=h.lastIndexOf('</script>');
-  require('fs').writeFileSync('C:/Users/Usuario/AppData/Local/Temp/bg_check.js',h.slice(s+8,e));
-  " && node --check "C:/Users/Usuario/AppData/Local/Temp/bg_check.js" && echo "JS OK"
-  (adjust temp path for non-Windows systems)
+  const fs=require('fs'), path=require('path'), os=require('os');
+  const h=fs.readFileSync('frontend/index.html','utf8');
+  const s=h.indexOf('<script>'), e=h.lastIndexOf('</script>');
+  fs.writeFileSync(path.join(os.tmpdir(),'bg_check.js'), h.slice(s+8,e));
+  "
+  node --check "$TMP_PATH" && echo "JS OK"
+  (cross-platform: uses os.tmpdir() which resolves to %TEMP% on Windows,
+  /tmp on Linux/macOS. Works in bash, zsh, sh, Git Bash.)
 
 ==================================================
 9. CRITICAL RULES (carried forward from prior sessions)
