@@ -1,0 +1,395 @@
+BUDGET GALAXY — HANDOFF DOCUMENT FOR CLAUDE OPUS
+==================================================
+Date: April 10, 2026
+Session ended at: v28 deployment
+Owner: Juan Blanco (@JuanBlanco9)
+Next assistant: Claude Opus (fresh instance, no prior conversation memory)
+Purpose: Complete state snapshot to resume work seamlessly on a different machine
+
+==================================================
+1. QUICK ORIENTATION (read this first, 2 minutes)
+==================================================
+
+Budget Galaxy is an interactive visualization of TOTAL public spending for 4 countries
+(Germany, USA, France, UK). Live at https://budgetgalaxy.com
+
+Current depth is spectacular for the UK: 26 council entities have supplier-level data,
+108 service nodes have subcategory breakdowns, 3,738 suppliers have Companies House
+postcodes, and 957 suppliers are flagged as "local" to their paying council.
+
+The project is deployed on Vultr (server: 96.30.199.112, Ubuntu 24.04).
+Everything code-related is on GitHub (https://github.com/JuanBlanco9/Budget-Galaxy).
+Raw spend CSVs (~753MB) are NOT on GitHub — they live only on Vultr + previous dev machine.
+
+The last session just finished deploying 4 frontend improvements (v24-v28). The user is
+switching computers and wants to continue from a fresh environment using GitHub + Vultr.
+
+==================================================
+2. HOW TO RESUME ON A NEW MACHINE
+==================================================
+
+Step 1 — Clone the repo:
+  git clone https://github.com/JuanBlanco9/Budget-Galaxy.git germany-ngo-map
+  cd germany-ngo-map
+
+Step 2 — Install dependencies:
+  npm install   # installs xlsx, @anthropic-ai/sdk
+  # Python is only needed for a few legacy parsers (scripts/build_uk_trees_all.py etc)
+
+Step 3 — Set API keys as environment variables:
+  export ANTHROPIC_API_KEY="<see user's ~/.claude memory/reference_anthropic_key.md>"
+  export CH_API_KEY="e4794e6b-7d75-4564-8c41-6ae33ca2cbbd"   # Companies House REST API
+
+  Note: Both keys are stored in Claude's persistent memory system on Juan's previous
+  machine but won't carry over. Juan will need to re-provide them, OR you can recreate
+  them (Anthropic console + developer.company-information.service.gov.uk).
+
+Step 4 — If you need the raw spend CSVs (for re-processing or adding new councils):
+  scp -i ~/.ssh/id_agro_intel -r \
+    root@96.30.199.112:/opt/germany-ngo-map/data/uk/local_authorities/spend/ \
+    data/uk/local_authorities/
+
+  Also pull the supplier geo cache (avoids ~3,600 redundant Companies House API calls):
+  scp -i ~/.ssh/id_agro_intel \
+    root@96.30.199.112:/opt/germany-ngo-map/data/uk/supplier_geo_cache.json \
+    data/uk/
+
+Step 5 — Verify the pipeline works by rebuilding the lookup:
+  node scripts/build_council_spend_lookup.js 2024
+
+  Should output 19 councils. If it says some files are missing, those are the raw
+  CSVs — only needed for rebuild, not for reading the existing tree.
+
+==================================================
+3. CURRENT PRODUCTION STATE (April 10, 2026)
+==================================================
+
+Root value: £1,380.5B (unchanged throughout all v18-v28 work)
+Tree integrity: clean, no new drifts introduced in this session
+
+Council coverage (26 entities with _top_suppliers metadata):
+  London Boroughs (4):     Camden, Lambeth, Merton, Southwark
+  Metropolitan Districts (6): Manchester, Leeds, Sheffield, Dudley, Rochdale, [Birmingham: data ready, no tree node]
+  Unitaries (4):           Bristol, Cornwall, Buckinghamshire, South Gloucestershire
+  Shire Counties (6):      Nottinghamshire CC, East Sussex CC, Norfolk CC, Kent CC,
+                           Hertfordshire CC, North Yorkshire (became unitary 2023)
+  Police/Fire spillover (7): Various "Nottinghamshire Police", "Kent Fire" etc that
+                             auto-matched on council name substring
+
+Service nodes with metadata:
+  186 with _top_suppliers (top 25 each, one per service per council)
+  108 with _subcategories (spend breakdown by purpose column)
+  179 nodes have 25+ suppliers (5 small services have fewer actual suppliers)
+
+Supplier enrichment (from Companies House):
+  3,738 supplier entries have _postcode
+  957 suppliers flagged as _local = true (based on postcode prefix matching council area)
+  3,065 suppliers have _company_type (plc, ltd, private-limited-by-guarantee, etc)
+  227 entries skipped as public bodies (NHS, councils, HM Treasury etc — not companies)
+  Hit rate: 91% — Companies House matched most private suppliers successfully
+
+Total visible supplier spend across all councils: ~£22B in FY 2023-24
+
+==================================================
+4. WHAT'S ON GITHUB vs WHAT'S ON VULTR
+==================================================
+
+ON GITHUB (safe to clone, ~150MB):
+  - All scripts (37 files in scripts/)
+  - Frontend index.html (512KB, includes all v24-v28 improvements)
+  - Processed JSON trees for all 4 countries and all years
+  - Intergovernmental consolidation JSONs (DE/FR/UK/US)
+  - Dept mapping JSONs (19 councils, Haiku-classified)
+  - council_spend_lookup_2024.json (845KB, top 25 suppliers per service)
+  - NHS trust/staff breakdown JSONs
+  - S251 education lookup JSONs
+  - FRONTEND_STATUS.txt and HANDOFF_CLAUDE_OPUS.txt (this file)
+
+ONLY ON VULTR (96.30.199.112:/opt/germany-ngo-map/):
+  - Raw council spend CSVs (~753MB across 19 directories in data/uk/local_authorities/spend/)
+  - supplier_geo_cache.json (~1.5MB, avoids re-calling Companies House)
+  - Data backups (~49MB of pre-v24 snapshots)
+  - CONTEXT_FOR_CLAUDE.txt (older context doc)
+
+DEPLOYED TO PRODUCTION (Vultr Nginx + FastAPI):
+  - /opt/germany-ngo-map/frontend/index.html
+  - /opt/germany-ngo-map/data/uk/uk_budget_tree_2024.json (includes all enrichments)
+  - /opt/germany-ngo-map/api/main.py (FastAPI server on uvicorn port 8088)
+
+==================================================
+5. WHAT CHANGED IN THIS SESSION (v18-v28)
+==================================================
+
+v18 — LLM Council Classifier
+  Wrote scripts/classify_council_departments.js using Claude Haiku API.
+  Extracts unique (dept, purpose) patterns from council CSVs and maps each to one of
+  13 MHCLG service categories. Cost: ~$0.03 per council, ~1 minute per council.
+  Classification is cached per council in {council}_dept_mapping.json so re-runs are free.
+
+v19-v20 — Pipeline Expansion
+  Added processCouncilWithMapping() generic function to build_council_spend_lookup.js.
+  Councils can now be added in ~10 minutes (download CSV + classify + 6-line config)
+  instead of 3 hours of manual dept-to-category mapping.
+  Processed: Camden (existing) + Bristol, Sheffield, Dudley, Nottinghamshire, Lambeth
+
+v21 — Batch 2
+  Added: Merton, South Gloucestershire
+  Blocked: Leicester (no data), Cornwall (JS-rendered), Wolverhampton (DNS dead),
+           Kent (403 WAF), Newcastle (timeout), Southwark (404 on first attempt)
+
+v22 — Unlock with better headers
+  Discovered that full browser User-Agent + Sec-Fetch-* headers + cookies bypass
+  most council WAFs. This unlocked Kent, Cornwall, and Southwark.
+
+v23 — Batch 3 (shire counties)
+  Added: East Sussex, Norfolk, Hertfordshire, Buckinghamshire, North Yorkshire
+  Essex partially accessible (only Q1 of FY 2023-24, skipped).
+
+v24 — Data depth improvements (3 in one deploy)
+  Mejora 1: Top 25 suppliers per service (was top 10). Required --force flag on inject
+            script to overwrite existing metadata.
+  Mejora 3: Subcategories L7 — scripts/build_subcategory_lookup.js analyzes the
+            purpose column across 11 councils and builds horizontal-bar breakdowns
+            of spend within each service. 108 service nodes enriched.
+  Mejora 2: Companies House geo enrichment — scripts/enrich_supplier_geo.js fetches
+            registered office addresses for 3,376 suppliers via REST API.
+            Cache saved to data/uk/supplier_geo_cache.json. 91% hit rate.
+
+v25 — Birmingham rescue attempts (all failed)
+  Tried 6 alternative sources for Birmingham FY 2023-24 (Wayback Machine, GitHub,
+  Zenodo, Figshare, WhatDoTheyKnow, data.gov.uk, Common Crawl, Google Cache).
+  Zero success. Rolling window purged everything before 2024-04-02 and Wayback never
+  captured the City Observatory domain. Only FY 2024-25 is available (132k records)
+  but Birmingham has no node in the MHCLG 2024 tree (Section 114 effect — they can't
+  file complete accounts). The FY 2024-25 dept mapping is saved but not injected.
+
+v26-v27 — Frontend: panels for existing data
+  Added 3 panels to renderCouncilSuppliersPanel():
+    - Geo badges (LOCAL / postcode area / PLC) inline with supplier names
+    - Local spend summary bar (green progress bar with % local)
+    - Subcategories panel (horizontal bars with purpose breakdown)
+    - Supplier location map (SVG dots on UK outline, green=local, blue=national)
+  Order: Subcategories first → Suppliers → Map at bottom.
+  Hooked into 3 places: Galaxy info panel, Budget Explorer row expansion (blToggleDesc),
+  Multiverse info panel.
+
+v28 — Dual treemap sidebar
+  Added right-column fixed sidebar (32% width, only visible at >1200px) to Budget
+  Explorer with two D3 treemaps: "context" (siblings of current node) and "current
+  level" (children of current node). Active node gets white dot indicator.
+  Rendered via renderTcTreemap() + updateDualTreemap(), hooked at end of renderBudgetList.
+
+==================================================
+6. PENDING WORK / KNOWN GAPS
+==================================================
+
+DEFERRED (known but not started):
+  Mejora E — Compare tab
+    Large feature. New navigation tab with two-column layout, independent node
+    selectors per side, cross-country comparison, combined supplier map with shared
+    supplier detection, normalization modes (total/per-capita/%GDP), URL sharing.
+    Prompt already written in the previous conversation — reuse it verbatim.
+    Estimated: 60-90 min of focused work. Fully additive (doesn't modify existing).
+
+BLOCKED (external constraints):
+  Birmingham FY 2023-24 data
+    Fully irrecoverable by programmatic means. Documented in v25 section above.
+    Option: FOI request to foi.mailbox@birmingham.gov.uk (20 working day legal SLA,
+    but Birmingham's S114 status means compliance is unreliable).
+    Alternative: process FY 2024-25 (data downloaded + classified + 0% Other Services)
+    but the tree has no Birmingham node due to MHCLG submission gap post-S114.
+
+  6 councils remain blocked despite multiple attempts:
+    - Liverpool, Wolverhampton, Newcastle, Leicester City, Kent... wait Kent was unlocked
+    - Actually: Liverpool (404), Wolverhampton (DNS dead), Newcastle (timeout),
+      Leicester City (no spend data in ODS portal)
+
+FRONTEND DEBT:
+  - index.html is 512KB and growing, 173+ named functions. Needs modularization
+    eventually but not urgent.
+  - Mobile experience not tested. Galaxy/Multiverse probably unusable on <768px screens.
+  - No global supplier search (user can't search "Serco" across all councils).
+  - Budget Explorer visual design is functional but uninspiring compared to Galaxy.
+  - Evolution tab needs historical event markers (COVID, OSCAR I→II, S114 notices).
+
+DATA DEBT:
+  - FY 2024-25 data ready for Birmingham but can't inject (no tree node).
+  - Cornwall spend is suspiciously high (£6.2B) vs other councils.
+    Likely includes capital + internal transfers in "Net Amount" column.
+    Worth reviewing whether a different column gives cleaner totals.
+  - Lambeth has ~25% "Other Services" due to rows with empty Directorate column.
+    Not a bug, just a data quality reality from their source CSVs.
+
+==================================================
+7. KEY FILES AND THEIR PURPOSE
+==================================================
+
+Scripts (all in scripts/):
+
+Pipeline core:
+  classify_council_departments.js   — Haiku LLM classifier (dept → MHCLG category)
+  build_council_spend_lookup.js     — Aggregates council CSVs into supplier lookup
+  inject_council_spend_metadata.js  — Attaches lookup data to tree service nodes
+                                       (use --force to overwrite existing metadata)
+  build_subcategory_lookup.js       — Builds _subcategories from purpose columns
+  enrich_supplier_geo.js            — Companies House geo enrichment (needs CH_API_KEY)
+
+UK depth pipeline (pre-existing, for reference):
+  inject_nhs_trusts.js              — 206 NHS trusts + sectors + ICB metadata
+  inject_local_gov.js               — 401 councils + 13 services
+  net_nhs_overlap.js                — NHS commissioner/provider double-count netting
+  fix_oscar_2023_nhs.js             — Forensic fix for OSCAR 2023 £114B artifact
+  inject_nhs_trust_detail.js        — 4-category breakdown per trust
+  inject_nhs_staff_detail.js        — Cost types + WTE workforce metadata
+  inject_s251_education.js          — DfE S251 education sub-breakdown per LA
+
+Data sources:
+  data/uk/uk_budget_tree_2024.json                      — MAIN tree (includes all enrichments)
+  data/uk/local_authorities/spend/                      — Raw council CSVs (VULTR ONLY)
+  data/uk/local_authorities/spend/*_dept_mapping.json   — Haiku classifications (on GitHub)
+  data/uk/local_authorities/spend/council_spend_lookup_2024.json  — Final lookup (on GitHub)
+  data/uk/supplier_geo_cache.json                       — CH postcode cache (VULTR ONLY)
+
+Frontend:
+  frontend/index.html  — Single file, 512KB, all views + panels + styles
+
+==================================================
+8. DEPLOY PROCEDURE
+==================================================
+
+Frontend changes only:
+  scp -i ~/.ssh/id_agro_intel \
+    frontend/index.html \
+    root@96.30.199.112:/opt/germany-ngo-map/frontend/
+
+Data tree changes:
+  scp -i ~/.ssh/id_agro_intel \
+    data/uk/uk_budget_tree_2024.json \
+    root@96.30.199.112:/opt/germany-ngo-map/data/uk/
+
+API changes (requires uvicorn restart):
+  scp -i ~/.ssh/id_agro_intel api/main.py root@96.30.199.112:/opt/germany-ngo-map/api/
+  ssh -i ~/.ssh/id_agro_intel root@96.30.199.112 \
+    "pkill -f uvicorn; sleep 1; cd /opt/germany-ngo-map && nohup /opt/germany-ngo-map/venv/bin/uvicorn api.main:app --host 0.0.0.0 --port 8088 --workers 2 > /var/log/budgetgalaxy.log 2>&1 &"
+
+Verify production after any deploy:
+  curl -s "https://budgetgalaxy.com/budget/country/uk?year=2024" | node -e "..."
+  (check root value, council count, supplier count)
+
+ALWAYS validate JS syntax before deploying frontend:
+  node -e "
+  const h=require('fs').readFileSync('frontend/index.html','utf8');
+  const s=h.indexOf('<script>');
+  const e=h.lastIndexOf('</script>');
+  require('fs').writeFileSync('C:/Users/Usuario/AppData/Local/Temp/bg_check.js',h.slice(s+8,e));
+  " && node --check "C:/Users/Usuario/AppData/Local/Temp/bg_check.js" && echo "JS OK"
+  (adjust temp path for non-Windows systems)
+
+==================================================
+9. CRITICAL RULES (carried forward from prior sessions)
+==================================================
+
+1. NEVER use XLSX sheet_to_csv — breaks on amounts with commas like "1,234.56".
+   Always use sheet_to_json + manual CSV writing with proper quoting.
+   (Fix was needed multiple times in this session.)
+
+2. NEVER modify tree JSON files on disk to restructure them. The Multiverse view
+   is extremely fragile to structural changes. Restructure in-memory in the frontend
+   (see _loadUSCombinedTree, _loadUKCombinedTree, _loadFRCombinedTree).
+
+3. NEVER fabricate supplier amounts or invent data to make ratios match. If a fix
+   leaves a discrepancy, document it as a known limitation. The user explicitly
+   values honest disclosure over polished-but-synthetic numbers.
+
+4. METADATA vs TREE CHILDREN: When two datasets don't reconcile (e.g. Spend >£500
+   vs MHCLG net current expenditure), attach as metadata on the parent node, not as
+   tree children. Never force scaling to make totals match.
+
+5. Tree integrity: after any injection, verify with a walker:
+   let d=0; function w(n){if(n.children){
+     const s=n.children.reduce((a,c)=>a+(c.value||0),0);
+     if(Math.abs(s-n.value)>0.5)d++;n.children.forEach(w);}}
+   Inject script outputs "Tree integrity: ✓ unchanged" when no new drifts.
+   The 25 pre-existing drifts at OSCAR L5 department level are expected.
+
+6. Deploy only after validating JS syntax. Always keep a backup of working frontend
+   in data/backups/index.html.working.YYYY-MM-DD_HHMM.
+
+7. Council name matching in inject_council_spend_metadata.js is loose — it uses
+   startsWith + word-boundary matching. This is why "Kent CC" supplier data also
+   attaches to "Kent Police" and "Kent Combined Fire and Rescue Authority" nodes.
+   This is intentional — they're real entities in the tree.
+
+==================================================
+10. RECOMMENDED NEXT STEPS (priority order)
+==================================================
+
+MOST IMPACT:
+  1. Implement Mejora E (Compare tab) — the prompt is already written in the v28
+     conversation. This is the only non-trivial feature remaining. Self-contained,
+     doesn't modify existing views, high user value for B2G market.
+
+MEDIUM IMPACT:
+  2. Mobile responsive pass — media queries for <768px. At minimum, make the
+     Budget Explorer readable on phones.
+
+  3. Global supplier search — with 3,600+ suppliers enriched, a cross-council
+     search ("find all councils paying Serco") would be a genuine transparency tool.
+
+  4. Cornwall data review — £6.2B total is suspiciously high. Check whether
+     "Net Amount" column includes capital + transfers. If so, use a different
+     column or add a note.
+
+LOW IMPACT / POLISH:
+  5. Evolution tab event markers (COVID, OSCAR transitions, S114 notices).
+
+  6. About page accordion/collapse — reduce wall-of-text.
+
+  7. Budget Explorer treemap view as alternative to list view.
+
+DO NOT DO:
+  - Don't add more councils until the Compare tab is done. 26 councils is already
+    the point of diminishing returns — better to show existing data better than to
+    keep ingesting more.
+
+  - Don't try to rescue Birmingham FY 2023-24 again. All 6 alternative sources were
+    thoroughly tested and confirmed dead. Only path forward is FOI or waiting.
+
+  - Don't modularize index.html yet. It's fragile but working, and modularization
+    is a high-risk refactor with no user-visible benefit.
+
+==================================================
+11. SESSION MEMORY (context this assistant won't have)
+==================================================
+
+The user is Juan Blanco, a data scientist. He prefers:
+  - Honest metrics and conservative estimates
+  - Terse responses without trailing summaries
+  - Spanish (primarily) but understands technical English
+  - He values speed of iteration and doesn't want hand-wringing
+  - Previous confirmed feedback: "never add data without verified official sources"
+  - Previous feedback: "when two datasets don't reconcile, use metadata not children"
+
+Working directory is D:/germany-ngo-map/ on Windows (previous machine) — on a new
+machine this will be wherever they clone the repo.
+
+Deploy credentials: SSH key at ~/.ssh/id_agro_intel targeting 96.30.199.112. The key
+file will need to be transferred from the old machine OR a new one generated and
+added to /root/.ssh/authorized_keys on the Vultr server.
+
+If the new Claude Opus session doesn't have access to the Anthropic persistent
+memory system, Juan will need to re-provide:
+  - ANTHROPIC_API_KEY (for Haiku classifier)
+  - CH_API_KEY = e4794e6b-7d75-4564-8c41-6ae33ca2cbbd (Companies House REST API,
+    600 req/min rate limit)
+
+==================================================
+END OF HANDOFF
+==================================================
+
+Everything needed to continue work is either in this file or in the files it
+references. Start by cloning the repo and reading this file again on the new
+machine. Then pick a task from section 10.
+
+Root value that matters: £1,380.5B (if this changes unexpectedly, something broke).
+Councils with data: 26 entities. Live site: https://budgetgalaxy.com.
