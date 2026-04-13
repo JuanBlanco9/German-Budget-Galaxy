@@ -37,12 +37,16 @@ Step 2 — Install dependencies:
   # Python is only needed for a few legacy parsers (scripts/build_uk_trees_all.py etc)
 
 Step 3 — Set API keys as environment variables:
-  export ANTHROPIC_API_KEY="<see user's ~/.claude memory/reference_anthropic_key.md>"
-  export CH_API_KEY="e4794e6b-7d75-4564-8c41-6ae33ca2cbbd"   # Companies House REST API
+  export ANTHROPIC_API_KEY="<set via operator's password manager>"
+  export CH_API_KEY="<set via operator's password manager>"      # Companies House REST API
 
-  Note: Both keys are stored in Claude's persistent memory system on Juan's previous
-  machine but won't carry over. Juan will need to re-provide them, OR you can recreate
-  them (Anthropic console + developer.company-information.service.gov.uk).
+  Note: Neither key is stored in this repo. Juan must provide them from a
+  password manager OR regenerate them:
+    - Anthropic: console.anthropic.com (create new key)
+    - Companies House: developer.company-information.service.gov.uk
+      (manage-applications → create REST API key)
+  The Companies House key was rotated in April 2026 — any previously
+  documented value is no longer valid, regenerate before use.
 
 Step 4 — If you need the raw spend CSVs (for re-processing or adding new councils):
   scp -i ~/.ssh/id_agro_intel -r \
@@ -402,9 +406,10 @@ added to /root/.ssh/authorized_keys on the Vultr server.
 
 If the new Claude Opus session doesn't have access to the Anthropic persistent
 memory system, Juan will need to re-provide:
-  - ANTHROPIC_API_KEY (for Haiku classifier)
-  - CH_API_KEY = e4794e6b-7d75-4564-8c41-6ae33ca2cbbd (Companies House REST API,
-    600 req/min rate limit)
+  - ANTHROPIC_API_KEY (for Haiku classifier) — from password manager
+  - CH_API_KEY (Companies House REST API, 600 req/min rate limit) — regenerate
+    at developer.company-information.service.gov.uk/manage-applications. The
+    previous key was rotated in April 2026.
 
 ==================================================
 END OF HANDOFF
