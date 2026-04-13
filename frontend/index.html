@@ -5141,8 +5141,13 @@ function cmpNormalizeSupplier(name) {
 function cmpIsRedactedOrSynthetic(name) {
   if (!name) return true;
   const lower = String(name).toLowerCase().trim();
-  if (lower.startsWith('redacted')) return true;
-  if (lower.indexOf('identity redacted') >= 0) return true;
+  // Any variant containing "redacted" — catches "REDACTED", "Identity
+  // Redacted", "[Redacted]", "xxxxREDACTEDxxxx", "REDACTED - Personal
+  // Payment", etc. 12 distinct raw variants in the UK 2024 tree; all
+  // are masks over personal/confidential data, none are navigable
+  // entities.
+  if (lower.indexOf('redacted') >= 0) return true;
+  // Synthetic rollup buckets emitted by the spend parsers
   if (lower.startsWith('other (')) return true;
   return false;
 }
@@ -5174,6 +5179,7 @@ function cmpBuildSupplierIndex(country, year, tree) {
   const index = {};
   let excludedToplevel = 0;
   let filteredRedacted = 0;
+  let spilloverDeduped = 0;
   let rowsProcessed = 0;
 
   function walk(n, pathRefs) {
@@ -5219,14 +5225,36 @@ function cmpBuildSupplierIndex(country, year, tree) {
             entry.displayName = cmpPickDisplayName(entry.displayName, row.name);
           }
 
-          entry.totalAmount += (typeof row.amount === 'number' ? row.amount : 0);
+          // Spillover dedup. HANDOFF rule 7: inject_council_spend_metadata.js
+          // uses loose name matching, so Kent CC's supplier data also
+          // attaches to Kent Police and Kent Fire (and similar for Bucks,
+          // East Sussex, etc). Those are real entities but the supplier
+          // rows are literal duplicates of the parent council's rows.
+          // If a row with identical (amount, txCount, serviceName) already
+          // exists in this supplier's councils array, skip it — the first
+          // occurrence wins. Tree walk order guarantees Shire Counties /
+          // Unitary / Metropolitan / London Boroughs are visited before
+          // Other Authorities (Police/Fire), so the first-seen entry is
+          // always the real council, not the spillover.
+          const amt = typeof row.amount === 'number' ? row.amount : 0;
+          const tx = row.transactions || 0;
+          const svcName = serviceNode.name || '';
+          const isSpillover = entry.councils.some(function(c) {
+            return c.amount === amt && c.txCount === tx && c.serviceName === svcName;
+          });
+          if (isSpillover) {
+            spilloverDeduped++;
+            return;
+          }
+
+          entry.totalAmount += amt;
           entry.councils.push({
             councilName: councilName,
             councilNode: councilNode,
             serviceNode: serviceNode,
-            serviceName: serviceNode.name || '',
-            amount: row.amount || 0,
-            txCount: row.transactions || 0
+            serviceName: svcName,
+            amount: amt,
+            txCount: tx
           });
           if (row._postcode && entry.postcodes.indexOf(row._postcode) < 0) entry.postcodes.push(row._postcode);
           if (row._company_type && entry.companyTypes.indexOf(row._company_type) < 0) entry.companyTypes.push(row._company_type);
@@ -5252,6 +5280,7 @@ function cmpBuildSupplierIndex(country, year, tree) {
   console.log('Built supplier index for ' + country.toUpperCase() + ' ' + year + ': ' +
               uniqueCount + ' unique, ' + crossCouncilCount + ' cross-council, ' +
               filteredRedacted + ' filtered as redacted/synthetic, ' +
+              spilloverDeduped + ' spillover deduped (police/fire), ' +
               excludedToplevel + ' excluded_toplevel (of ' + rowsProcessed + ' rows processed)');
 
   window.cmpState.supplierIndex[cacheKey] = index;
