@@ -1499,7 +1499,12 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 
             <div class="about-gap">
               <span class="about-gap-title">OSCAR 2023 had a &pound;114B health artifact.</span>
-              The 2023 edition of HM Treasury&rsquo;s OSCAR II dataset contained a &pound;114B discrepancy in health spending that appears to be an accounting-transition artifact from the shift to OSCAR II. We removed it. Our 2023 UK total is therefore lower than a naive OSCAR 2023 sum by approximately that amount.
+              The 2023 edition of HM Treasury&rsquo;s OSCAR II dataset contained a &pound;114B discrepancy in health spending that appears to be an accounting-transition artifact from the shift to OSCAR II. We removed it. Our 2023 UK total is therefore lower than a naive OSCAR 2023 sum by approximately that amount. The same "n/a" NHS Trusts sub-bucket pattern exists in the 2020, 2021, and 2022 trees and was removed in the same way.
+            </div>
+
+            <div class="about-gap">
+              <span class="about-gap-title">Local government depth is England-only.</span>
+              Each of the four UK nations has its total public spending captured at the devolved administration level (Scottish Government &pound;36.84B, Welsh Assembly Government &pound;23.90B, Northern Ireland Executive &pound;33.21B), but only England has a council-by-council breakdown inside Local Government (England). The reason is regulatory: England&rsquo;s 401 local authorities all report to MHCLG in a standardized Revenue Outturn format. Scotland&rsquo;s 32 councils report to the Accounts Commission, Wales&rsquo;s 22 to Welsh Government, and Northern Ireland&rsquo;s 11 districts to DoF NI &mdash; three separate data regimes with different schemas. Integrating them would require three independent pipelines carefully netted against the devolved government totals already captured, to avoid double-counting. For now, treat Scotland, Wales, and NI local spending as aggregated inside their devolved administration node, not broken down by council. The 19 councils with supplier-level detail are also all English for the same reason.
             </div>
 
             <p>Germany, France, and the United States have their own data quirks documented in the source repository. This page focuses on the UK because it is where we have the deepest coverage.</p>
