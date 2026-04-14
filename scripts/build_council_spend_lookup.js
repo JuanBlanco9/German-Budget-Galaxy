@@ -1079,6 +1079,20 @@ const LLM_COUNCILS = [
     source: 'Liverpool City Council Spend Over £500 (liverpool.gov.uk)'
   },
   {
+    name: 'Croydon',
+    code: 'E09000008',
+    dir: path.join(SPEND_DIR, 'croydon'),
+    deptCol: 'Cost Centre Level 3 Description',
+    purposeCol: 'Subjective Description',
+    amountCol: 'Amount',
+    supplierCol: 'Vendor Name',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'croydon_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Croydon Council Payments Over £500 (croydon.gov.uk)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],
