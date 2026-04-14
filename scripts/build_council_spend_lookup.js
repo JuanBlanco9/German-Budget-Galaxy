@@ -1135,6 +1135,20 @@ const LLM_COUNCILS = [
     source: 'West Sussex CC Spend Data (westsussex.gov.uk)'
   },
   {
+    name: 'Lancashire',
+    code: 'E10000017',
+    dir: path.join(SPEND_DIR, 'lancashire'),
+    deptCol: 'Service label',
+    purposeCol: null,
+    amountCol: 'Amount',
+    supplierCol: 'Supplier name',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'lancashire_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Lancashire County Council Payments to Suppliers (transparency.lancashire.gov.uk, 11/12 months — March 2024 not published upstream)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],
@@ -1154,7 +1168,9 @@ const LLM_COUNCILS = [
 
 console.log(`Building council spend lookup for ${YEAR}\n`);
 
-const lookup = {};
+// Preserve externally-built entries (e.g. GLA subsystem from build_gla_suppliers.js).
+// Previously this script overwrote the lookup file every run and silently dropped GLA.
+const lookup = fs.existsSync(OUTPUT) ? JSON.parse(fs.readFileSync(OUTPUT, 'utf8')) : {};
 
 // ── Manual processors (battle-tested, kept as-is) ──
 

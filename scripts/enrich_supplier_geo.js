@@ -57,7 +57,8 @@ const COUNCIL_POSTCODES = {
   'Coventry': ['CV'],
   'Essex CC': ['CM', 'SS', 'CO', 'IG', 'RM'],
   'West Sussex CC': ['BN', 'RH', 'PO'],
-  'Greater London Authority': ['E', 'EC', 'N', 'NW', 'SE', 'SW', 'W', 'WC']
+  'Greater London Authority': ['E', 'EC', 'N', 'NW', 'SE', 'SW', 'W', 'WC'],
+  'Lancashire CC': ['BB', 'FY', 'LA', 'PR', 'OL']
 };
 
 // Skip patterns — these are not companies

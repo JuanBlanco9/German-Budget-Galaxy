@@ -41,6 +41,7 @@ const BACKUP_DIR = path.join(DATA_DIR, 'backups');
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
 const FORCE = args.includes('--force');
+const CLEAR = args.includes('--clear');
 const YEAR = args.find(a => a.match(/^\d{4}$/)) || '2024';
 
 function readJSON(fp) { return JSON.parse(fs.readFileSync(fp, 'utf8')); }
@@ -86,16 +87,27 @@ let councilsAttached = 0;
 let servicesAttached = 0;
 let alreadyHas = 0;
 
-// Walk: for each council node, see if its name matches any in the lookup
+// Optional: clear all existing _top_suppliers first (--clear)
+if (CLEAR) {
+  let cleared = 0;
+  function clearWalk(n) {
+    if (n._top_suppliers) { delete n._top_suppliers; cleared++; }
+    (n.children || []).forEach(clearWalk);
+  }
+  clearWalk(tree);
+  console.log(`Cleared ${cleared} existing _top_suppliers entries\n`);
+}
+
+// Walk: for each council node, see if its name matches any in the lookup.
+// Strict matcher: exact match OR "X CC" (shire county suffix). No first-word
+// match — that was overmatching Police/Fire authorities with the same prefix.
 for (const cls of lg.children) {
   for (const council of cls.children) {
-    // Try matching by council name (lookup keys are short names like "Camden", "Birmingham")
     let entry = null;
     const norm = normalizeName(council.name);
     for (const [key, e] of Object.entries(lookup)) {
       const keyNorm = normalizeName(key);
-      // Council name in tree typically equals or starts with the lookup key
-      if (norm === keyNorm || norm.startsWith(keyNorm + ' ') || keyNorm === norm.split(' ')[0]) {
+      if (norm === keyNorm || norm === keyNorm + ' CC') {
         entry = e;
         break;
       }

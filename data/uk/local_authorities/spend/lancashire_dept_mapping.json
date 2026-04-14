@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "council": "Lancashire",
+    "generated": "2026-04-14",
+    "method": "static — deduced from dominant org units per service code (no LLM needed)",
+    "note": "Lancashire publishes spend with a numeric Service label (1-27). Each code maps cleanly to one MHCLG service based on the dominant organisational units (Agency Residential, Highways, etc.). Code 50 is dust (£0)."
+  },
+  "patterns": {
+    "10|": "Education",
+    "11|": "Children's Social Care",
+    "12|": "Adult Social Care",
+    "13|": "Transport",
+    "15|": "Central Services",
+    "16|": "Central Services",
+    "18|": "Education",
+    "21|": "Adult Social Care",
+    "22|": "Public Health",
+    "27|": "Children's Social Care",
+    "50|": "Central Services"
+  }
+}
