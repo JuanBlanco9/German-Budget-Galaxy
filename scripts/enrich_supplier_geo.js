@@ -56,7 +56,8 @@ const COUNCIL_POSTCODES = {
   'Croydon': ['CR', 'SE'],
   'Coventry': ['CV'],
   'Essex CC': ['CM', 'SS', 'CO', 'IG', 'RM'],
-  'West Sussex CC': ['BN', 'RH', 'PO']
+  'West Sussex CC': ['BN', 'RH', 'PO'],
+  'Greater London Authority': ['E', 'EC', 'N', 'NW', 'SE', 'SW', 'W', 'WC']
 };
 
 // Skip patterns — these are not companies
