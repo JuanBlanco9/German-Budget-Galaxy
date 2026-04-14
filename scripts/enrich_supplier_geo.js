@@ -62,7 +62,8 @@ const COUNCIL_POSTCODES = {
   'Devon CC': ['EX', 'TQ', 'PL'],
   'Staffordshire CC': ['ST', 'WS', 'DE', 'WV'],
   'Lincolnshire CC': ['LN', 'PE', 'NG', 'DN'],
-  'Hampshire CC': ['SO', 'PO', 'GU', 'RG', 'SP']
+  'Hampshire CC': ['SO', 'PO', 'GU', 'RG', 'SP'],
+  'Surrey CC': ['GU', 'KT', 'RH', 'TW', 'CR', 'SM']
 };
 
 // Skip patterns — these are not companies

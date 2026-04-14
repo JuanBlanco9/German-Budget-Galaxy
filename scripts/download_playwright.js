@@ -63,13 +63,40 @@ async function main() {
 
   console.log(`\n=== Playwright download: ${council} ===`);
 
-  const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    viewport: { width: 1920, height: 1080 },
-    locale: 'en-GB'
+  // Cloudflare's cf_clearance cookie is bound to the exact browser
+  // fingerprint (TLS/JA3 + UA) that generated it. Exporting to a new
+  // context fails. Instead, launch the SAME persistent profile that
+  // capture_cf_clearance.js built — reuses all the state that matters.
+  const profileDir = path.join(SPEND_DIR, '.playwright-state', `${council}-profile`);
+  const hasProfile = fs.existsSync(profileDir);
+  if (hasProfile) console.log(`Using persistent profile: ${profileDir}`);
+
+  let context, browser;
+  if (hasProfile) {
+    context = await chromium.launchPersistentContext(profileDir, {
+      headless: false,   // must match capture mode — headless=true invalidates the cookie
+      channel: 'chrome',
+      viewport: null,
+      args: [
+        '--disable-blink-features=AutomationControlled',
+        '--window-position=-2400,-2400'  // push offscreen so it's not in the way
+      ],
+      ignoreDefaultArgs: ['--enable-automation'],
+      acceptDownloads: true
+    });
+  } else {
+    browser = await chromium.launch({ headless: true });
+    context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      viewport: { width: 1920, height: 1080 },
+      locale: 'en-GB',
+      acceptDownloads: true
+    });
+  }
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
   });
-  const page = await context.newPage();
+  const page = context.pages()[0] || await context.newPage();
 
   // Warmup: load the landing page so cookies (including any Cloudflare
   // clearance) are established in the browser context.
@@ -164,7 +191,8 @@ async function main() {
   }
 
   console.log(`\nResult: ${ok} ok, ${fail} failed out of ${files.length}`);
-  await browser.close();
+  await context.close();
+  if (browser) await browser.close();
 }
 
 main().catch(e => { console.error('Fatal:', e); process.exit(1); });

@@ -115,6 +115,44 @@ function addRow(bucket, supplier, amount) {
   bucket[name].count += 1;
 }
 
+// ─── MPS: consolidated Sep23-Mar24 → Police ───────────────
+
+function processMPS() {
+  console.log('\n── MPS (Metropolitan Police Service) ──');
+  const mpsDir = path.join(SPEND_DIR, 'mps');
+  if (!fs.existsSync(mpsDir)) {
+    console.log('  Directory missing — skipping MPS');
+    return null;
+  }
+  const files = fs.readdirSync(mpsDir).filter(f => f.endsWith('.csv'));
+  if (files.length === 0) {
+    console.log('  No CSV files — skipping MPS');
+    return null;
+  }
+  const bySupplier = {};
+  let totalRows = 0;
+
+  for (const f of files) {
+    const { rows } = readCSV(path.join(mpsDir, f), 0, 'utf8');
+    for (const r of rows) {
+      const supplier = r['Supplier Name'];
+      const amt = parseAmount(r['Invoice Amount (Gross)']);
+      addRow(bySupplier, supplier, amt);
+    }
+    totalRows += rows.length;
+    console.log(`  ${f}: ${rows.length} rows`);
+  }
+
+  console.log(`  Total rows: ${totalRows}, unique suppliers: ${Object.keys(bySupplier).length}`);
+  const bucket = buildServiceBucket(
+    bySupplier,
+    '2023/24 (Sep-Mar only, 7 of 12 months)',
+    'Metropolitan Police Service FOI publication scheme — Invoices & Credits over £250 (met.police.uk, Sep 2023 – Mar 2024; Apr-Aug 2023 rolled off upstream)'
+  );
+  console.log(`  Service total: £${(bucket.service_total_in_spend_data / 1e9).toFixed(2)}B`);
+  return bucket;
+}
+
 // ─── LFB: 12 monthly CSVs → Fire & Rescue ─────────────────
 
 function processLFB() {
@@ -243,6 +281,7 @@ function main() {
   const lfbBucket = processLFB();
   const tflBucket = processTfL();
   const glaCoreServices = processGLACore();
+  const mpsBucket = processMPS();
 
   // Merge TfL Transport with GLA core Transport (if any)
   const services = { ...glaCoreServices };
@@ -271,6 +310,7 @@ function main() {
     services['Transport'] = tflBucket;
   }
   services['Fire & Rescue'] = lfbBucket;
+  if (mpsBucket) services['Police'] = mpsBucket;
 
   // Compute total across all services
   const totalSpend = Object.values(services).reduce(

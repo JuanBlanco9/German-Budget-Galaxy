@@ -1205,6 +1205,20 @@ const LLM_COUNCILS = [
     source: 'Hampshire County Council Payments to Suppliers (documents.hants.gov.uk, 12/12 months via Playwright)'
   },
   {
+    name: 'Surrey',
+    code: 'E10000030',
+    dir: path.join(SPEND_DIR, 'surrey'),
+    deptCol: 'Department Incurring Spend',
+    purposeCol: 'Merchant Category',
+    amountCol: 'Gross Amount',
+    supplierCol: 'Beneficiary Name',
+    sep: ',',
+    encoding: 'latin1',
+    mappingFile: path.join(SPEND_DIR, 'surrey_dept_mapping.json'),
+    fyLabel: '2023/24 (Q3+Q4 only, 6 of 12 months)',
+    source: 'Surrey County Council Transparency (surreyi.gov.uk, Oct 2023 – Mar 2024 via Playwright; Apr-Sep 2023 deleted from upstream rolling window)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],

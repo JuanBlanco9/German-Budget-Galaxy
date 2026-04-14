@@ -44915,8 +44915,8 @@
     "year": 2024,
     "fy_label": "2023/24",
     "source": "GLA (data.london.gov.uk) + LFB (london-fire.gov.uk) + TfL (tfl.gov.uk)",
-    "total_transactions": 77869,
-    "total_spend_gbp": 4333738344,
+    "total_transactions": 108614,
+    "total_spend_gbp": 5163783184,
     "services": {
       "Culture": {
         "service_total_in_spend_data": 26863910,
@@ -45439,6 +45439,79 @@
             "amount": 95539352,
             "pct": 22.1,
             "transactions": 10818
+          }
+        ]
+      },
+      "Police": {
+        "service_total_in_spend_data": 830044840,
+        "transaction_count": 30745,
+        "unique_suppliers": 1799,
+        "top_suppliers": [
+          {
+            "name": "Capgemini UK Plc",
+            "amount": 88850516,
+            "pct": 10.7,
+            "transactions": 2676
+          },
+          {
+            "name": "Reed Specialist Recruitment Ltd",
+            "amount": 33393991,
+            "pct": 4,
+            "transactions": 60
+          },
+          {
+            "name": "Shared Services Connected Ltd",
+            "amount": 33198036,
+            "pct": 4,
+            "transactions": 171
+          },
+          {
+            "name": "Softcat Plc",
+            "amount": 28139212,
+            "pct": 3.4,
+            "transactions": 185
+          },
+          {
+            "name": "Leidos Innovations UK Ltd",
+            "amount": 24762681,
+            "pct": 3,
+            "transactions": 12
+          },
+          {
+            "name": "Services Support SEL Ltd",
+            "amount": 18296119,
+            "pct": 2.2,
+            "transactions": 14
+          },
+          {
+            "name": "Bloom Procurement Services Ltd",
+            "amount": 16310008,
+            "pct": 2,
+            "transactions": 230
+          },
+          {
+            "name": "EDF Energy Plc",
+            "amount": 15982127,
+            "pct": 1.9,
+            "transactions": 63
+          },
+          {
+            "name": "Overbury Plc",
+            "amount": 14959675,
+            "pct": 1.8,
+            "transactions": 28
+          },
+          {
+            "name": "Barclaycard Commercial",
+            "amount": 14312411,
+            "pct": 1.7,
+            "transactions": 31
+          },
+          {
+            "name": "Other (1789 suppliers)",
+            "amount": 541840065,
+            "pct": 65.3,
+            "transactions": 27275
           }
         ]
       }
@@ -52797,6 +52870,2034 @@
             "name": "Premier Fire Security",
             "amount": 1000,
             "pct": 26.8,
+            "transactions": 1
+          }
+        ]
+      }
+    }
+  },
+  "Surrey": {
+    "la_name": "Surrey",
+    "la_code": "E10000030",
+    "year": 2024,
+    "fy_label": "2023/24 (Q3+Q4 only, 6 of 12 months)",
+    "source": "Surrey County Council Transparency (surreyi.gov.uk, Oct 2023 – Mar 2024 via Playwright; Apr-Sep 2023 deleted from upstream rolling window)",
+    "total_transactions": 135381,
+    "total_spend_gbp": 1145882501,
+    "services": {
+      "Adult Social Care": {
+        "service_total_in_spend_data": 317583325,
+        "transaction_count": 52441,
+        "unique_suppliers": 1424,
+        "top_suppliers": [
+          {
+            "name": "Redacted Personal Data",
+            "amount": 26360389,
+            "pct": 8.3,
+            "transactions": 10588
+          },
+          {
+            "name": "NHS Surrey Heartlands ICB",
+            "amount": 13027363,
+            "pct": 4.1,
+            "transactions": 27
+          },
+          {
+            "name": "Achieve Together Services Limited",
+            "amount": 9191246,
+            "pct": 2.9,
+            "transactions": 480
+          },
+          {
+            "name": "Care UK Community Partnerships Ltd",
+            "amount": 9050448,
+            "pct": 2.8,
+            "transactions": 242
+          },
+          {
+            "name": "Millbrook Healthcare",
+            "amount": 5596838,
+            "pct": 1.8,
+            "transactions": 14
+          },
+          {
+            "name": "Active Prospects",
+            "amount": 5435243,
+            "pct": 1.7,
+            "transactions": 323
+          },
+          {
+            "name": "Avenues South",
+            "amount": 4370613,
+            "pct": 1.4,
+            "transactions": 253
+          },
+          {
+            "name": "CHD Living Ltd",
+            "amount": 4267742,
+            "pct": 1.3,
+            "transactions": 172
+          },
+          {
+            "name": "Cavendish Care",
+            "amount": 4047847,
+            "pct": 1.3,
+            "transactions": 97
+          },
+          {
+            "name": "Ashcroft Operations Ltd",
+            "amount": 3542064,
+            "pct": 1.1,
+            "transactions": 133
+          },
+          {
+            "name": "Leonard Cheshire Foundation",
+            "amount": 3407861,
+            "pct": 1.1,
+            "transactions": 95
+          },
+          {
+            "name": "Alina Homecare Specialist - Surrey",
+            "amount": 2971454,
+            "pct": 0.9,
+            "transactions": 123
+          },
+          {
+            "name": "Grove Care Partnership Ltd",
+            "amount": 2794591,
+            "pct": 0.9,
+            "transactions": 134
+          },
+          {
+            "name": "Surrey & Borders Partnership NHS Trust",
+            "amount": 2772489,
+            "pct": 0.9,
+            "transactions": 218
+          },
+          {
+            "name": "Boyce Care Ltd",
+            "amount": 2623428,
+            "pct": 0.8,
+            "transactions": 122
+          },
+          {
+            "name": "Ridgemount Residential Home",
+            "amount": 2594064,
+            "pct": 0.8,
+            "transactions": 63
+          },
+          {
+            "name": "Comfort Care Services (UK) Ltd",
+            "amount": 2418521,
+            "pct": 0.8,
+            "transactions": 298
+          },
+          {
+            "name": "Field Lane Foundation",
+            "amount": 2315515,
+            "pct": 0.7,
+            "transactions": 73
+          },
+          {
+            "name": "Heights & Hills Surrey Ltd",
+            "amount": 2277542,
+            "pct": 0.7,
+            "transactions": 54
+          },
+          {
+            "name": "The Brambles",
+            "amount": 2209249,
+            "pct": 0.7,
+            "transactions": 109
+          },
+          {
+            "name": "Church View",
+            "amount": 2142951,
+            "pct": 0.7,
+            "transactions": 79
+          },
+          {
+            "name": "Alpenbest Ltd",
+            "amount": 2065907,
+            "pct": 0.7,
+            "transactions": 1950
+          },
+          {
+            "name": "Compass Childrens Homes Ltd",
+            "amount": 1596721,
+            "pct": 0.5,
+            "transactions": 47
+          },
+          {
+            "name": "Innovative Support Ltd",
+            "amount": 1591308,
+            "pct": 0.5,
+            "transactions": 81
+          },
+          {
+            "name": "Whitmore Vale Housing Association Ltd",
+            "amount": 1536668,
+            "pct": 0.5,
+            "transactions": 88
+          },
+          {
+            "name": "Other (1399 suppliers)",
+            "amount": 197375265,
+            "pct": 62.1,
+            "transactions": 36578
+          }
+        ]
+      },
+      "Children's Social Care": {
+        "service_total_in_spend_data": 78435776,
+        "transaction_count": 18334,
+        "unique_suppliers": 600,
+        "top_suppliers": [
+          {
+            "name": "Redacted Personal Data",
+            "amount": 13334508,
+            "pct": 17,
+            "transactions": 10360
+          },
+          {
+            "name": "Surrey Choices Ltd",
+            "amount": 6783003,
+            "pct": 8.6,
+            "transactions": 21
+          },
+          {
+            "name": "NHS Surrey Heartlands ICB",
+            "amount": 6479370,
+            "pct": 8.3,
+            "transactions": 7
+          },
+          {
+            "name": "Elysium Healthcare Ltd",
+            "amount": 1711301,
+            "pct": 2.2,
+            "transactions": 83
+          },
+          {
+            "name": "Woking Borough Council",
+            "amount": 1517150,
+            "pct": 1.9,
+            "transactions": 3
+          },
+          {
+            "name": "Blak Diamond Social Care Ltd",
+            "amount": 1351552,
+            "pct": 1.7,
+            "transactions": 38
+          },
+          {
+            "name": "Integrated Services Programme",
+            "amount": 897630,
+            "pct": 1.1,
+            "transactions": 149
+          },
+          {
+            "name": "Ruskin Mill Education Trust",
+            "amount": 869773,
+            "pct": 1.1,
+            "transactions": 11
+          },
+          {
+            "name": "The Childrens Trust Nursery",
+            "amount": 848205,
+            "pct": 1.1,
+            "transactions": 28
+          },
+          {
+            "name": "St Christopher Homes",
+            "amount": 845891,
+            "pct": 1.1,
+            "transactions": 33
+          },
+          {
+            "name": "Papillon House School",
+            "amount": 834538,
+            "pct": 1.1,
+            "transactions": 41
+          },
+          {
+            "name": "Barnardo's South East & Anglia",
+            "amount": 802706,
+            "pct": 1,
+            "transactions": 58
+          },
+          {
+            "name": "Acorn Care & Education Ltd",
+            "amount": 754821,
+            "pct": 1,
+            "transactions": 19
+          },
+          {
+            "name": "Jigsaw +",
+            "amount": 729858,
+            "pct": 0.9,
+            "transactions": 183
+          },
+          {
+            "name": "Barnardo's Fostering South East",
+            "amount": 729226,
+            "pct": 0.9,
+            "transactions": 18
+          },
+          {
+            "name": "Caprani Care Ltd",
+            "amount": 722963,
+            "pct": 0.9,
+            "transactions": 74
+          },
+          {
+            "name": "Amegreen Childrens Services Ltd",
+            "amount": 697612,
+            "pct": 0.9,
+            "transactions": 20
+          },
+          {
+            "name": "Nashe UK Ltd",
+            "amount": 679674,
+            "pct": 0.9,
+            "transactions": 25
+          },
+          {
+            "name": "Ambition 24 Hours",
+            "amount": 669480,
+            "pct": 0.9,
+            "transactions": 13
+          },
+          {
+            "name": "White Lodge Centre",
+            "amount": 663444,
+            "pct": 0.8,
+            "transactions": 136
+          },
+          {
+            "name": "Post 19",
+            "amount": 652191,
+            "pct": 0.8,
+            "transactions": 316
+          },
+          {
+            "name": "I Can Services Ltd",
+            "amount": 636858,
+            "pct": 0.8,
+            "transactions": 51
+          },
+          {
+            "name": "Kingsbury Court Care Home",
+            "amount": 627355,
+            "pct": 0.8,
+            "transactions": 28
+          },
+          {
+            "name": "Independence Way",
+            "amount": 621943,
+            "pct": 0.8,
+            "transactions": 176
+          },
+          {
+            "name": "Netpex Ltd",
+            "amount": 583315,
+            "pct": 0.7,
+            "transactions": 95
+          },
+          {
+            "name": "Other (575 suppliers)",
+            "amount": 33391410,
+            "pct": 42.6,
+            "transactions": 6348
+          }
+        ]
+      },
+      "Other Services": {
+        "service_total_in_spend_data": 25215017,
+        "transaction_count": 3115,
+        "unique_suppliers": 395,
+        "top_suppliers": [
+          {
+            "name": "HM Revenue & Customs",
+            "amount": 4515259,
+            "pct": 17.9,
+            "transactions": 2
+          },
+          {
+            "name": "Reed Talent Solutions",
+            "amount": 1724793,
+            "pct": 6.8,
+            "transactions": 42
+          },
+          {
+            "name": "Redacted Personal Data",
+            "amount": 1424012,
+            "pct": 5.6,
+            "transactions": 210
+          },
+          {
+            "name": "Crossroads Care Surrey",
+            "amount": 930541,
+            "pct": 3.7,
+            "transactions": 14
+          },
+          {
+            "name": "Sight for Surrey",
+            "amount": 750931,
+            "pct": 3,
+            "transactions": 18
+          },
+          {
+            "name": "Britannia Homecare Ltd",
+            "amount": 663875,
+            "pct": 2.6,
+            "transactions": 766
+          },
+          {
+            "name": "Action for Carers - Surrey",
+            "amount": 596471,
+            "pct": 2.4,
+            "transactions": 5
+          },
+          {
+            "name": "Guildford Borough Council",
+            "amount": 576234,
+            "pct": 2.3,
+            "transactions": 30
+          },
+          {
+            "name": "Master Park Pavilion Charity",
+            "amount": 472415,
+            "pct": 1.9,
+            "transactions": 3
+          },
+          {
+            "name": "Wilks Head & Eve",
+            "amount": 471512,
+            "pct": 1.9,
+            "transactions": 159
+          },
+          {
+            "name": "Elmbridge Borough Council",
+            "amount": 446849,
+            "pct": 1.8,
+            "transactions": 15
+          },
+          {
+            "name": "Askews & Holts Library Services Ltd",
+            "amount": 405524,
+            "pct": 1.6,
+            "transactions": 8
+          },
+          {
+            "name": "Surrey Heath Borough Council",
+            "amount": 395213,
+            "pct": 1.6,
+            "transactions": 14
+          },
+          {
+            "name": "Epsom & Ewell Borough Council",
+            "amount": 380995,
+            "pct": 1.5,
+            "transactions": 30
+          },
+          {
+            "name": "Magnit Global GRI Limited",
+            "amount": 366392,
+            "pct": 1.5,
+            "transactions": 9
+          },
+          {
+            "name": "Frimley Health NHS Foundation Trust",
+            "amount": 348772,
+            "pct": 1.4,
+            "transactions": 19
+          },
+          {
+            "name": "Reigate & Banstead Borough Council",
+            "amount": 342999,
+            "pct": 1.4,
+            "transactions": 2
+          },
+          {
+            "name": "NHS Surrey Heartlands ICB",
+            "amount": 323126,
+            "pct": 1.3,
+            "transactions": 12
+          },
+          {
+            "name": "Richmond Fellowship",
+            "amount": 284781,
+            "pct": 1.1,
+            "transactions": 8
+          },
+          {
+            "name": "Spelthorne Borough Council",
+            "amount": 277541,
+            "pct": 1.1,
+            "transactions": 3
+          },
+          {
+            "name": "Outsystems Ltd",
+            "amount": 267264,
+            "pct": 1.1,
+            "transactions": 1
+          },
+          {
+            "name": "Woking Borough Council",
+            "amount": 264925,
+            "pct": 1.1,
+            "transactions": 8
+          },
+          {
+            "name": "YMCA East Surrey",
+            "amount": 249483,
+            "pct": 1,
+            "transactions": 142
+          },
+          {
+            "name": "A R Twigg & Son Ltd",
+            "amount": 248644,
+            "pct": 1,
+            "transactions": 1
+          },
+          {
+            "name": "Waverley Borough Council",
+            "amount": 232053,
+            "pct": 0.9,
+            "transactions": 6
+          },
+          {
+            "name": "Other (370 suppliers)",
+            "amount": 8254414,
+            "pct": 32.7,
+            "transactions": 1588
+          }
+        ]
+      },
+      "Education": {
+        "service_total_in_spend_data": 229726559,
+        "transaction_count": 30226,
+        "unique_suppliers": 1636,
+        "top_suppliers": [
+          {
+            "name": "Morgan Sindall Construction &",
+            "amount": 6672000,
+            "pct": 2.9,
+            "transactions": 34
+          },
+          {
+            "name": "Winston Churchill School",
+            "amount": 5118225,
+            "pct": 2.2,
+            "transactions": 63
+          },
+          {
+            "name": "All Hallows Catholic School",
+            "amount": 4405639,
+            "pct": 1.9,
+            "transactions": 46
+          },
+          {
+            "name": "Acorn Care & Education Ltd",
+            "amount": 3531766,
+            "pct": 1.5,
+            "transactions": 210
+          },
+          {
+            "name": "Management & Construction Services Ltd",
+            "amount": 3263383,
+            "pct": 1.4,
+            "transactions": 33
+          },
+          {
+            "name": "The McAvoy Group Ltd",
+            "amount": 3186764,
+            "pct": 1.4,
+            "transactions": 7
+          },
+          {
+            "name": "Kings International College",
+            "amount": 3131732,
+            "pct": 1.4,
+            "transactions": 79
+          },
+          {
+            "name": "Cressey Oasis Education Ltd",
+            "amount": 2993284,
+            "pct": 1.3,
+            "transactions": 91
+          },
+          {
+            "name": "St Dominics School",
+            "amount": 2923206,
+            "pct": 1.3,
+            "transactions": 547
+          },
+          {
+            "name": "Redacted Personal Data",
+            "amount": 2669891,
+            "pct": 1.2,
+            "transactions": 1483
+          },
+          {
+            "name": "Weydon Multi Academy Trust",
+            "amount": 2605185,
+            "pct": 1.1,
+            "transactions": 8
+          },
+          {
+            "name": "Moor House School & College",
+            "amount": 2565072,
+            "pct": 1.1,
+            "transactions": 316
+          },
+          {
+            "name": "Sanctuary Personnel Ltd",
+            "amount": 2508753,
+            "pct": 1.1,
+            "transactions": 32
+          },
+          {
+            "name": "St Josephs Specialist Trust",
+            "amount": 2153564,
+            "pct": 0.9,
+            "transactions": 69
+          },
+          {
+            "name": "Witherslack Group Ltd",
+            "amount": 2144757,
+            "pct": 0.9,
+            "transactions": 106
+          },
+          {
+            "name": "Unsted Park School",
+            "amount": 2130189,
+            "pct": 0.9,
+            "transactions": 112
+          },
+          {
+            "name": "Jigsaw CABAS School",
+            "amount": 1957493,
+            "pct": 0.9,
+            "transactions": 115
+          },
+          {
+            "name": "Holy Trinity COE (A) Junior School",
+            "amount": 1952793,
+            "pct": 0.9,
+            "transactions": 45
+          },
+          {
+            "name": "Wilks Head & Eve",
+            "amount": 1844805,
+            "pct": 0.8,
+            "transactions": 673
+          },
+          {
+            "name": "St Mary's COE Junior School",
+            "amount": 1746361,
+            "pct": 0.8,
+            "transactions": 55
+          },
+          {
+            "name": "Treloar Trust",
+            "amount": 1685284,
+            "pct": 0.7,
+            "transactions": 49
+          },
+          {
+            "name": "Guildford College of F & H Education",
+            "amount": 1569220,
+            "pct": 0.7,
+            "transactions": 269
+          },
+          {
+            "name": "SCC Oakwood School",
+            "amount": 1531071,
+            "pct": 0.7,
+            "transactions": 16
+          },
+          {
+            "name": "More House School",
+            "amount": 1530756,
+            "pct": 0.7,
+            "transactions": 243
+          },
+          {
+            "name": "NCYPE",
+            "amount": 1486749,
+            "pct": 0.6,
+            "transactions": 44
+          },
+          {
+            "name": "Other (1611 suppliers)",
+            "amount": 162418619,
+            "pct": 70.7,
+            "transactions": 25481
+          }
+        ]
+      },
+      "Central Services": {
+        "service_total_in_spend_data": 221497464,
+        "transaction_count": 5443,
+        "unique_suppliers": 811,
+        "top_suppliers": [
+          {
+            "name": "HM Revenue & Customs",
+            "amount": 76019015,
+            "pct": 34.3,
+            "transactions": 119
+          },
+          {
+            "name": "Surrey Pension Fund",
+            "amount": 37177468,
+            "pct": 16.8,
+            "transactions": 62
+          },
+          {
+            "name": "Teachers Pensions",
+            "amount": 22444000,
+            "pct": 10.1,
+            "transactions": 86
+          },
+          {
+            "name": "Surrey & Kent Commercial Services LLP",
+            "amount": 12219292,
+            "pct": 5.5,
+            "transactions": 2
+          },
+          {
+            "name": "London Borough Of Sutton",
+            "amount": 10152716,
+            "pct": 4.6,
+            "transactions": 5
+          },
+          {
+            "name": "Unit 4 Business Software Ltd",
+            "amount": 4175915,
+            "pct": 1.9,
+            "transactions": 23
+          },
+          {
+            "name": "East Sussex County Council",
+            "amount": 3929118,
+            "pct": 1.8,
+            "transactions": 18
+          },
+          {
+            "name": "WS Atkins Plc T/A Atkins Ltd",
+            "amount": 3532272,
+            "pct": 1.6,
+            "transactions": 226
+          },
+          {
+            "name": "E W Beard Ltd",
+            "amount": 3412318,
+            "pct": 1.5,
+            "transactions": 25
+          },
+          {
+            "name": "Mace Operate Ltd",
+            "amount": 2581588,
+            "pct": 1.2,
+            "transactions": 29
+          },
+          {
+            "name": "Stepnell Ltd",
+            "amount": 2365703,
+            "pct": 1.1,
+            "transactions": 17
+          },
+          {
+            "name": "BT Global Services",
+            "amount": 1745764,
+            "pct": 0.8,
+            "transactions": 73
+          },
+          {
+            "name": "MLL Telecom Ltd",
+            "amount": 1679891,
+            "pct": 0.8,
+            "transactions": 57
+          },
+          {
+            "name": "Dell Corporation Ltd",
+            "amount": 1559703,
+            "pct": 0.7,
+            "transactions": 30
+          },
+          {
+            "name": "The Grange Centre",
+            "amount": 1519770,
+            "pct": 0.7,
+            "transactions": 458
+          },
+          {
+            "name": "Border to Coast Pension Partnership Ltd",
+            "amount": 1319424,
+            "pct": 0.6,
+            "transactions": 2
+          },
+          {
+            "name": "Corrigenda Ltd",
+            "amount": 1157920,
+            "pct": 0.5,
+            "transactions": 153
+          },
+          {
+            "name": "Brighton & Hove City Council",
+            "amount": 1055765,
+            "pct": 0.5,
+            "transactions": 3
+          },
+          {
+            "name": "CDW Limited",
+            "amount": 890586,
+            "pct": 0.4,
+            "transactions": 17
+          },
+          {
+            "name": "Ministry of Housing Communities & Local",
+            "amount": 767865,
+            "pct": 0.3,
+            "transactions": 2
+          },
+          {
+            "name": "GMP Drivecare Ltd",
+            "amount": 708336,
+            "pct": 0.3,
+            "transactions": 13
+          },
+          {
+            "name": "31Ten Consulting Ltd",
+            "amount": 651817,
+            "pct": 0.3,
+            "transactions": 25
+          },
+          {
+            "name": "Surrey Heath Borough Council",
+            "amount": 618997,
+            "pct": 0.3,
+            "transactions": 16
+          },
+          {
+            "name": "Environment Agency",
+            "amount": 595712,
+            "pct": 0.3,
+            "transactions": 2
+          },
+          {
+            "name": "DWF Law LLP",
+            "amount": 594358,
+            "pct": 0.3,
+            "transactions": 130
+          },
+          {
+            "name": "Other (786 suppliers)",
+            "amount": 28622152,
+            "pct": 12.9,
+            "transactions": 3850
+          }
+        ]
+      },
+      "Housing": {
+        "service_total_in_spend_data": 27364312,
+        "transaction_count": 1353,
+        "unique_suppliers": 176,
+        "top_suppliers": [
+          {
+            "name": "CO2PEC Ltd",
+            "amount": 2238418,
+            "pct": 8.2,
+            "transactions": 24
+          },
+          {
+            "name": "TG Escapes Ltd",
+            "amount": 2018975,
+            "pct": 7.4,
+            "transactions": 12
+          },
+          {
+            "name": "Reigate & Banstead Borough Council",
+            "amount": 1594150,
+            "pct": 5.8,
+            "transactions": 7
+          },
+          {
+            "name": "Tandridge District Council",
+            "amount": 1547224,
+            "pct": 5.7,
+            "transactions": 7
+          },
+          {
+            "name": "Wilks Head & Eve",
+            "amount": 1534494,
+            "pct": 5.6,
+            "transactions": 136
+          },
+          {
+            "name": "Transform Housing & Support",
+            "amount": 1529284,
+            "pct": 5.6,
+            "transactions": 125
+          },
+          {
+            "name": "Waverley Borough Council",
+            "amount": 1371966,
+            "pct": 5,
+            "transactions": 6
+          },
+          {
+            "name": "Guildford Borough Council",
+            "amount": 1313053,
+            "pct": 4.8,
+            "transactions": 9
+          },
+          {
+            "name": "Elmbridge Borough Council",
+            "amount": 1304313,
+            "pct": 4.8,
+            "transactions": 4
+          },
+          {
+            "name": "Runnymede Borough Council",
+            "amount": 1147286,
+            "pct": 4.2,
+            "transactions": 8
+          },
+          {
+            "name": "Turner & Townsend Project Management Ltd",
+            "amount": 1012953,
+            "pct": 3.7,
+            "transactions": 119
+          },
+          {
+            "name": "Pick Everard",
+            "amount": 912172,
+            "pct": 3.3,
+            "transactions": 33
+          },
+          {
+            "name": "Spelthorne Borough Council",
+            "amount": 866895,
+            "pct": 3.2,
+            "transactions": 7
+          },
+          {
+            "name": "PCP Contractors Ltd",
+            "amount": 797716,
+            "pct": 2.9,
+            "transactions": 15
+          },
+          {
+            "name": "Woking Borough Council",
+            "amount": 735347,
+            "pct": 2.7,
+            "transactions": 6
+          },
+          {
+            "name": "Mole Valley District Council Community Support Services",
+            "amount": 684784,
+            "pct": 2.5,
+            "transactions": 8
+          },
+          {
+            "name": "Pelling LLP",
+            "amount": 646402,
+            "pct": 2.4,
+            "transactions": 89
+          },
+          {
+            "name": "Colours Building Ltd",
+            "amount": 521987,
+            "pct": 1.9,
+            "transactions": 9
+          },
+          {
+            "name": "REDS10 Modular Ltd",
+            "amount": 476808,
+            "pct": 1.7,
+            "transactions": 5
+          },
+          {
+            "name": "Surrey Heath Borough Council",
+            "amount": 431820,
+            "pct": 1.6,
+            "transactions": 6
+          },
+          {
+            "name": "Cushman & Wakefield LLP",
+            "amount": 426536,
+            "pct": 1.6,
+            "transactions": 13
+          },
+          {
+            "name": "Montagu Evans",
+            "amount": 347915,
+            "pct": 1.3,
+            "transactions": 5
+          },
+          {
+            "name": "Epsom & Ewell Borough Council",
+            "amount": 322538,
+            "pct": 1.2,
+            "transactions": 7
+          },
+          {
+            "name": "YMCA East Surrey",
+            "amount": 295340,
+            "pct": 1.1,
+            "transactions": 91
+          },
+          {
+            "name": "Home Group Ltd",
+            "amount": 263598,
+            "pct": 1,
+            "transactions": 18
+          },
+          {
+            "name": "Other (151 suppliers)",
+            "amount": 3022338,
+            "pct": 11,
+            "transactions": 584
+          }
+        ]
+      },
+      "Transport": {
+        "service_total_in_spend_data": 159292115,
+        "transaction_count": 20269,
+        "unique_suppliers": 387,
+        "top_suppliers": [
+          {
+            "name": "Ringway Infrastructure Services Ltd",
+            "amount": 80356850,
+            "pct": 50.4,
+            "transactions": 1944
+          },
+          {
+            "name": "Marston Holdings Ltd",
+            "amount": 5529279,
+            "pct": 3.5,
+            "transactions": 23
+          },
+          {
+            "name": "Yunex Ltd",
+            "amount": 2736896,
+            "pct": 1.7,
+            "transactions": 129
+          },
+          {
+            "name": "Stagecoach Services Ltd",
+            "amount": 2634794,
+            "pct": 1.7,
+            "transactions": 36
+          },
+          {
+            "name": "Xpert Cars Ltd",
+            "amount": 2551488,
+            "pct": 1.6,
+            "transactions": 1091
+          },
+          {
+            "name": "Falcon Coaches Ltd",
+            "amount": 2408677,
+            "pct": 1.5,
+            "transactions": 20
+          },
+          {
+            "name": "Courtesy Cars Redhill",
+            "amount": 2390168,
+            "pct": 1.5,
+            "transactions": 790
+          },
+          {
+            "name": "Stanford Coachworks & Mobility Srvs Ltd",
+            "amount": 2357095,
+            "pct": 1.5,
+            "transactions": 24
+          },
+          {
+            "name": "WS Atkins Plc T/A Atkins Ltd",
+            "amount": 2272438,
+            "pct": 1.4,
+            "transactions": 319
+          },
+          {
+            "name": "AMK Chauffeur Driven Cars & Minicoach",
+            "amount": 2220306,
+            "pct": 1.4,
+            "transactions": 975
+          },
+          {
+            "name": "Surrey Lighting Services Ltd",
+            "amount": 2045111,
+            "pct": 1.3,
+            "transactions": 11
+          },
+          {
+            "name": "Bamford Bus Company Limited (Trading as Wrightbus)",
+            "amount": 2041078,
+            "pct": 1.3,
+            "transactions": 6
+          },
+          {
+            "name": "Camberley Taxis",
+            "amount": 1551373,
+            "pct": 1,
+            "transactions": 620
+          },
+          {
+            "name": "Brighton & Hove Bus and Coach Company Ltd",
+            "amount": 1382374,
+            "pct": 0.9,
+            "transactions": 27
+          },
+          {
+            "name": "Metrobus Ltd",
+            "amount": 1249093,
+            "pct": 0.8,
+            "transactions": 17
+          },
+          {
+            "name": "Angel Cars Woking",
+            "amount": 1247401,
+            "pct": 0.8,
+            "transactions": 470
+          },
+          {
+            "name": "Surrey Transporters Ltd",
+            "amount": 1229537,
+            "pct": 0.8,
+            "transactions": 489
+          },
+          {
+            "name": "Atkins Realis UK Ltd",
+            "amount": 1220352,
+            "pct": 0.8,
+            "transactions": 103
+          },
+          {
+            "name": "Parkers of Reigate Ltd",
+            "amount": 1214363,
+            "pct": 0.8,
+            "transactions": 456
+          },
+          {
+            "name": "UK Car Service",
+            "amount": 1104047,
+            "pct": 0.7,
+            "transactions": 412
+          },
+          {
+            "name": "East Surrey Rural Transport Partnership",
+            "amount": 1037771,
+            "pct": 0.7,
+            "transactions": 281
+          },
+          {
+            "name": "24x7 Surrey Ltd",
+            "amount": 1035921,
+            "pct": 0.7,
+            "transactions": 351
+          },
+          {
+            "name": "Forge Mobility Services Ltd",
+            "amount": 979070,
+            "pct": 0.6,
+            "transactions": 417
+          },
+          {
+            "name": "MP Cars",
+            "amount": 964358,
+            "pct": 0.6,
+            "transactions": 438
+          },
+          {
+            "name": "Nivoshan UK Ltd T/a Nivo Mobility",
+            "amount": 920724,
+            "pct": 0.6,
+            "transactions": 363
+          },
+          {
+            "name": "Other (362 suppliers)",
+            "amount": 34611553,
+            "pct": 21.7,
+            "transactions": 10457
+          }
+        ]
+      },
+      "Public Health": {
+        "service_total_in_spend_data": 27231530,
+        "transaction_count": 812,
+        "unique_suppliers": 258,
+        "top_suppliers": [
+          {
+            "name": "NHS Surrey Heartlands ICB",
+            "amount": 11682099,
+            "pct": 42.9,
+            "transactions": 22
+          },
+          {
+            "name": "Surrey & Borders Partnership NHS Trust",
+            "amount": 4737855,
+            "pct": 17.4,
+            "transactions": 19
+          },
+          {
+            "name": "Central & North West London NHS",
+            "amount": 3036967,
+            "pct": 11.2,
+            "transactions": 55
+          },
+          {
+            "name": "Leatherhead Trinity School & Nursery",
+            "amount": 1436625,
+            "pct": 5.3,
+            "transactions": 49
+          },
+          {
+            "name": "Thrive Tribe Ltd",
+            "amount": 584676,
+            "pct": 2.1,
+            "transactions": 11
+          },
+          {
+            "name": "Luminus Insight CIC",
+            "amount": 328743,
+            "pct": 1.2,
+            "transactions": 4
+          },
+          {
+            "name": "Solent NHS Trust",
+            "amount": 305709,
+            "pct": 1.1,
+            "transactions": 2
+          },
+          {
+            "name": "Kingston Hospital NHS Foundation Trust",
+            "amount": 281049,
+            "pct": 1,
+            "transactions": 5
+          },
+          {
+            "name": "Chelsea & Westminster NHSFT",
+            "amount": 226111,
+            "pct": 0.8,
+            "transactions": 2
+          },
+          {
+            "name": "Via Care Ltd",
+            "amount": 207604,
+            "pct": 0.8,
+            "transactions": 3
+          },
+          {
+            "name": "NHS Frimley ICB",
+            "amount": 187995,
+            "pct": 0.7,
+            "transactions": 1
+          },
+          {
+            "name": "Dorking Healthcare Ltd",
+            "amount": 135000,
+            "pct": 0.5,
+            "transactions": 2
+          },
+          {
+            "name": "Ashford & St Peters NHS Trust",
+            "amount": 128714,
+            "pct": 0.5,
+            "transactions": 5
+          },
+          {
+            "name": "Royal Surrey NHS Foundation Trust",
+            "amount": 125000,
+            "pct": 0.5,
+            "transactions": 2
+          },
+          {
+            "name": "Home Group Ltd",
+            "amount": 106607,
+            "pct": 0.4,
+            "transactions": 3
+          },
+          {
+            "name": "Barn Kids Ltd",
+            "amount": 99895,
+            "pct": 0.4,
+            "transactions": 8
+          },
+          {
+            "name": "Epsom & St Helier Univer Hospital NHS",
+            "amount": 91882,
+            "pct": 0.3,
+            "transactions": 5
+          },
+          {
+            "name": "Magical Moments Preschool Ltd",
+            "amount": 88845,
+            "pct": 0.3,
+            "transactions": 19
+          },
+          {
+            "name": "Sussex Partnership NHS FT",
+            "amount": 88778,
+            "pct": 0.3,
+            "transactions": 12
+          },
+          {
+            "name": "Autism Oxford UK",
+            "amount": 86786,
+            "pct": 0.3,
+            "transactions": 2
+          },
+          {
+            "name": "Naturally Talented Me CIC",
+            "amount": 83700,
+            "pct": 0.3,
+            "transactions": 1
+          },
+          {
+            "name": "Surrey Choices Ltd",
+            "amount": 82018,
+            "pct": 0.3,
+            "transactions": 37
+          },
+          {
+            "name": "Schools Alliance for Excellence",
+            "amount": 74292,
+            "pct": 0.3,
+            "transactions": 1
+          },
+          {
+            "name": "Rethink Mental Illness",
+            "amount": 73800,
+            "pct": 0.3,
+            "transactions": 2
+          },
+          {
+            "name": "PAPYRUS Prevention of Young Suicide",
+            "amount": 69917,
+            "pct": 0.3,
+            "transactions": 1
+          },
+          {
+            "name": "Other (233 suppliers)",
+            "amount": 2880864,
+            "pct": 10.6,
+            "transactions": 539
+          }
+        ]
+      },
+      "Environment": {
+        "service_total_in_spend_data": 50063991,
+        "transaction_count": 1215,
+        "unique_suppliers": 213,
+        "top_suppliers": [
+          {
+            "name": "SUEZ Recycling & Recovery UK Ltd",
+            "amount": 29474370,
+            "pct": 58.9,
+            "transactions": 43
+          },
+          {
+            "name": "Surrey Lighting Services Ltd",
+            "amount": 8389097,
+            "pct": 16.8,
+            "transactions": 18
+          },
+          {
+            "name": "Thameswey Sustainable Communites Ltd",
+            "amount": 1853144,
+            "pct": 3.7,
+            "transactions": 16
+          },
+          {
+            "name": "Surrey Heath Borough Council",
+            "amount": 1026091,
+            "pct": 2,
+            "transactions": 10
+          },
+          {
+            "name": "County Tree Surgeons Ltd",
+            "amount": 668853,
+            "pct": 1.3,
+            "transactions": 33
+          },
+          {
+            "name": "Bill Kear Plant & Agricultural Cont",
+            "amount": 658728,
+            "pct": 1.3,
+            "transactions": 69
+          },
+          {
+            "name": "Glendale Countryside Ltd",
+            "amount": 480723,
+            "pct": 1,
+            "transactions": 154
+          },
+          {
+            "name": "MAYDENCROFT LIMITED",
+            "amount": 469405,
+            "pct": 0.9,
+            "transactions": 28
+          },
+          {
+            "name": "Ringway Infrastructure Services Ltd",
+            "amount": 467176,
+            "pct": 0.9,
+            "transactions": 34
+          },
+          {
+            "name": "Whitehouse Construction Co Ltd",
+            "amount": 432717,
+            "pct": 0.9,
+            "transactions": 4
+          },
+          {
+            "name": "Penfolds Woodland Management Ltd",
+            "amount": 357633,
+            "pct": 0.7,
+            "transactions": 10
+          },
+          {
+            "name": "WS Atkins Plc T/A Atkins Ltd",
+            "amount": 250695,
+            "pct": 0.5,
+            "transactions": 31
+          },
+          {
+            "name": "Nick Knox Plant Hire Ltd",
+            "amount": 239508,
+            "pct": 0.5,
+            "transactions": 21
+          },
+          {
+            "name": "Adeo Global Consulting Ltd",
+            "amount": 237255,
+            "pct": 0.5,
+            "transactions": 17
+          },
+          {
+            "name": "Reigate & Banstead Borough Council",
+            "amount": 204030,
+            "pct": 0.4,
+            "transactions": 1
+          },
+          {
+            "name": "Connick Tree Services Ltd",
+            "amount": 196685,
+            "pct": 0.4,
+            "transactions": 9
+          },
+          {
+            "name": "J A Fox trees",
+            "amount": 182385,
+            "pct": 0.4,
+            "transactions": 8
+          },
+          {
+            "name": "Guildford Borough Council",
+            "amount": 175702,
+            "pct": 0.4,
+            "transactions": 9
+          },
+          {
+            "name": "Kenward Groundworks",
+            "amount": 174306,
+            "pct": 0.3,
+            "transactions": 14
+          },
+          {
+            "name": "PJ Chaffin Limited",
+            "amount": 169554,
+            "pct": 0.3,
+            "transactions": 12
+          },
+          {
+            "name": "T Earis Countryside Ltd",
+            "amount": 167099,
+            "pct": 0.3,
+            "transactions": 45
+          },
+          {
+            "name": "Tetra Tech Environment Planning",
+            "amount": 156060,
+            "pct": 0.3,
+            "transactions": 56
+          },
+          {
+            "name": "Poulsom Plant Hire",
+            "amount": 147590,
+            "pct": 0.3,
+            "transactions": 14
+          },
+          {
+            "name": "Joe Court Forestry Ltd",
+            "amount": 145626,
+            "pct": 0.3,
+            "transactions": 3
+          },
+          {
+            "name": "South East Forestry & Tree Services LTD",
+            "amount": 136387,
+            "pct": 0.3,
+            "transactions": 22
+          },
+          {
+            "name": "Other (188 suppliers)",
+            "amount": 3203173,
+            "pct": 6.4,
+            "transactions": 534
+          }
+        ]
+      },
+      "Fire & Rescue": {
+        "service_total_in_spend_data": 4791132,
+        "transaction_count": 812,
+        "unique_suppliers": 149,
+        "top_suppliers": [
+          {
+            "name": "Rosenbauer UK Limited",
+            "amount": 905824,
+            "pct": 18.9,
+            "transactions": 9
+          },
+          {
+            "name": "Wilks Head & Eve",
+            "amount": 645464,
+            "pct": 13.5,
+            "transactions": 150
+          },
+          {
+            "name": "WEBER RESCUE UK LIMITED",
+            "amount": 398617,
+            "pct": 8.3,
+            "transactions": 6
+          },
+          {
+            "name": "Bristol Uniforms Ltd",
+            "amount": 238943,
+            "pct": 5,
+            "transactions": 7
+          },
+          {
+            "name": "SSS Public Safety Ltd",
+            "amount": 194993,
+            "pct": 4.1,
+            "transactions": 9
+          },
+          {
+            "name": "XPS Administration Ltd",
+            "amount": 157439,
+            "pct": 3.3,
+            "transactions": 14
+          },
+          {
+            "name": "West Sussex County Council",
+            "amount": 122625,
+            "pct": 2.6,
+            "transactions": 4
+          },
+          {
+            "name": "Godiva Ltd",
+            "amount": 100120,
+            "pct": 2.1,
+            "transactions": 2
+          },
+          {
+            "name": "Softcat Ltd",
+            "amount": 91740,
+            "pct": 1.9,
+            "transactions": 1
+          },
+          {
+            "name": "Bilfinger Europa Facility",
+            "amount": 91561,
+            "pct": 1.9,
+            "transactions": 63
+          },
+          {
+            "name": "Terberg DTS (UK) Ltd",
+            "amount": 83462,
+            "pct": 1.7,
+            "transactions": 5
+          },
+          {
+            "name": "Nviro Ltd",
+            "amount": 75398,
+            "pct": 1.6,
+            "transactions": 58
+          },
+          {
+            "name": "Fire Service College Ltd",
+            "amount": 66468,
+            "pct": 1.4,
+            "transactions": 15
+          },
+          {
+            "name": "Real World Group Ltd",
+            "amount": 66456,
+            "pct": 1.4,
+            "transactions": 3
+          },
+          {
+            "name": "National Fire Chiefs Council Ltd",
+            "amount": 66000,
+            "pct": 1.4,
+            "transactions": 1
+          },
+          {
+            "name": "Corrigenda Ltd",
+            "amount": 65317,
+            "pct": 1.4,
+            "transactions": 58
+          },
+          {
+            "name": "Supply + Ltd",
+            "amount": 61473,
+            "pct": 1.3,
+            "transactions": 2
+          },
+          {
+            "name": "Coptrz Ltd",
+            "amount": 58674,
+            "pct": 1.2,
+            "transactions": 1
+          },
+          {
+            "name": "East Sussex Fire & Rescue Service",
+            "amount": 52563,
+            "pct": 1.1,
+            "transactions": 1
+          },
+          {
+            "name": "Northern Diver (International) Ltd",
+            "amount": 45448,
+            "pct": 0.9,
+            "transactions": 2
+          },
+          {
+            "name": "Bytes Software Services",
+            "amount": 44716,
+            "pct": 0.9,
+            "transactions": 1
+          },
+          {
+            "name": "Tructyre Fleet Management Ltd",
+            "amount": 42993,
+            "pct": 0.9,
+            "transactions": 23
+          },
+          {
+            "name": "Skills For Justice Enterprises Ltd",
+            "amount": 40946,
+            "pct": 0.9,
+            "transactions": 5
+          },
+          {
+            "name": "Securitas Security Services (UK) Limited",
+            "amount": 40933,
+            "pct": 0.9,
+            "transactions": 8
+          },
+          {
+            "name": "Safequip Ltd",
+            "amount": 37424,
+            "pct": 0.8,
+            "transactions": 4
+          },
+          {
+            "name": "Other (124 suppliers)",
+            "amount": 995538,
+            "pct": 20.8,
+            "transactions": 360
+          }
+        ]
+      },
+      "Culture": {
+        "service_total_in_spend_data": 3869924,
+        "transaction_count": 1260,
+        "unique_suppliers": 227,
+        "top_suppliers": [
+          {
+            "name": "Wilks Head & Eve",
+            "amount": 593702,
+            "pct": 15.3,
+            "transactions": 248
+          },
+          {
+            "name": "Nviro Ltd",
+            "amount": 299755,
+            "pct": 7.7,
+            "transactions": 217
+          },
+          {
+            "name": "Ripley Village Hall",
+            "amount": 240716,
+            "pct": 6.2,
+            "transactions": 3
+          },
+          {
+            "name": "Redacted Personal Data",
+            "amount": 193185,
+            "pct": 5,
+            "transactions": 85
+          },
+          {
+            "name": "PPL",
+            "amount": 192000,
+            "pct": 5,
+            "transactions": 1
+          },
+          {
+            "name": "Corrigenda Ltd",
+            "amount": 173406,
+            "pct": 4.5,
+            "transactions": 117
+          },
+          {
+            "name": "myProteus Limited",
+            "amount": 170546,
+            "pct": 4.4,
+            "transactions": 5
+          },
+          {
+            "name": "Savills Commercial Ltd",
+            "amount": 165242,
+            "pct": 4.3,
+            "transactions": 5
+          },
+          {
+            "name": "Colliers International",
+            "amount": 145941,
+            "pct": 3.8,
+            "transactions": 5
+          },
+          {
+            "name": "Woking Borough Council",
+            "amount": 93484,
+            "pct": 2.4,
+            "transactions": 15
+          },
+          {
+            "name": "Bloom Procurement Services Ltd",
+            "amount": 85427,
+            "pct": 2.2,
+            "transactions": 1
+          },
+          {
+            "name": "BTU Installation & Maintenance Ltd",
+            "amount": 72220,
+            "pct": 1.9,
+            "transactions": 51
+          },
+          {
+            "name": "Bilfinger Europa Facility",
+            "amount": 71067,
+            "pct": 1.8,
+            "transactions": 59
+          },
+          {
+            "name": "York Road Project",
+            "amount": 66539,
+            "pct": 1.7,
+            "transactions": 6
+          },
+          {
+            "name": "Sheet Anchor Evolve (London) Ltd",
+            "amount": 64551,
+            "pct": 1.7,
+            "transactions": 4
+          },
+          {
+            "name": "Premier Education",
+            "amount": 34701,
+            "pct": 0.9,
+            "transactions": 3
+          },
+          {
+            "name": "Koosa Kids Ltd",
+            "amount": 34073,
+            "pct": 0.9,
+            "transactions": 4
+          },
+          {
+            "name": "S4K Surrey Ltd",
+            "amount": 33877,
+            "pct": 0.9,
+            "transactions": 4
+          },
+          {
+            "name": "C M B Motor Services",
+            "amount": 32500,
+            "pct": 0.8,
+            "transactions": 2
+          },
+          {
+            "name": "Epsom Methodist Church",
+            "amount": 31222,
+            "pct": 0.8,
+            "transactions": 1
+          },
+          {
+            "name": "Cycling Projects",
+            "amount": 29200,
+            "pct": 0.8,
+            "transactions": 2
+          },
+          {
+            "name": "Can Digital Solutions Ltd",
+            "amount": 24540,
+            "pct": 0.6,
+            "transactions": 7
+          },
+          {
+            "name": "Personal Best Education",
+            "amount": 24212,
+            "pct": 0.6,
+            "transactions": 4
+          },
+          {
+            "name": "Barnardo Services Ltd",
+            "amount": 23463,
+            "pct": 0.6,
+            "transactions": 3
+          },
+          {
+            "name": "Camp 4 Champs Ltd",
+            "amount": 23040,
+            "pct": 0.6,
+            "transactions": 4
+          },
+          {
+            "name": "Other (202 suppliers)",
+            "amount": 951317,
+            "pct": 24.6,
+            "transactions": 404
+          }
+        ]
+      },
+      "Planning": {
+        "service_total_in_spend_data": 759950,
+        "transaction_count": 85,
+        "unique_suppliers": 49,
+        "top_suppliers": [
+          {
+            "name": "Francis Construction Ltd",
+            "amount": 193205,
+            "pct": 25.4,
+            "transactions": 1
+          },
+          {
+            "name": "East Sussex County Council",
+            "amount": 58000,
+            "pct": 7.6,
+            "transactions": 1
+          },
+          {
+            "name": "WS Atkins Plc T/A Atkins Ltd",
+            "amount": 56712,
+            "pct": 7.5,
+            "transactions": 7
+          },
+          {
+            "name": "Creative Edge (Northampton) Ltd",
+            "amount": 44732,
+            "pct": 5.9,
+            "transactions": 2
+          },
+          {
+            "name": "Surrey Police Authority",
+            "amount": 39863,
+            "pct": 5.2,
+            "transactions": 1
+          },
+          {
+            "name": "Create Streets Ltd",
+            "amount": 35275,
+            "pct": 4.6,
+            "transactions": 5
+          },
+          {
+            "name": "RPS Consulting Services Ltd",
+            "amount": 33297,
+            "pct": 4.4,
+            "transactions": 7
+          },
+          {
+            "name": "English Rural Housing Association",
+            "amount": 31792,
+            "pct": 4.2,
+            "transactions": 1
+          },
+          {
+            "name": "Atkins Realis UK Ltd",
+            "amount": 25222,
+            "pct": 3.3,
+            "transactions": 3
+          },
+          {
+            "name": "Stantec UK Ltd",
+            "amount": 24488,
+            "pct": 3.2,
+            "transactions": 3
+          },
+          {
+            "name": "Davies March Ltd",
+            "amount": 23100,
+            "pct": 3,
+            "transactions": 1
+          },
+          {
+            "name": "Wood End (Horsley) Ltd",
+            "amount": 19764,
+            "pct": 2.6,
+            "transactions": 1
+          },
+          {
+            "name": "Ardent Management Ltd",
+            "amount": 16469,
+            "pct": 2.2,
+            "transactions": 2
+          },
+          {
+            "name": "MJ Harding Building Contractors",
+            "amount": 15760,
+            "pct": 2.1,
+            "transactions": 1
+          },
+          {
+            "name": "University of the Creative Arts",
+            "amount": 12000,
+            "pct": 1.6,
+            "transactions": 1
+          },
+          {
+            "name": "Yunex Ltd",
+            "amount": 11914,
+            "pct": 1.6,
+            "transactions": 1
+          },
+          {
+            "name": "Hawksmoor Homes Ltd",
+            "amount": 10400,
+            "pct": 1.4,
+            "transactions": 1
+          },
+          {
+            "name": "Colliers Building Consultancy Ltd",
+            "amount": 9200,
+            "pct": 1.2,
+            "transactions": 1
+          },
+          {
+            "name": "University College London",
+            "amount": 8050,
+            "pct": 1.1,
+            "transactions": 1
+          },
+          {
+            "name": "DEF Software Ltd",
+            "amount": 7760,
+            "pct": 1,
+            "transactions": 3
+          },
+          {
+            "name": "Bluebird House Developments Ltd",
+            "amount": 6750,
+            "pct": 0.9,
+            "transactions": 1
+          },
+          {
+            "name": "Haymarket Media Group",
+            "amount": 6480,
+            "pct": 0.9,
+            "transactions": 2
+          },
+          {
+            "name": "Aecom Ltd",
+            "amount": 6219,
+            "pct": 0.8,
+            "transactions": 2
+          },
+          {
+            "name": "Bevan Brittan LLP",
+            "amount": 5915,
+            "pct": 0.8,
+            "transactions": 1
+          },
+          {
+            "name": "TMP Worldwide",
+            "amount": 5637,
+            "pct": 0.7,
+            "transactions": 7
+          },
+          {
+            "name": "Other (24 suppliers)",
+            "amount": 51946,
+            "pct": 6.8,
+            "transactions": 28
+          }
+        ]
+      },
+      "Police": {
+        "service_total_in_spend_data": 51408,
+        "transaction_count": 16,
+        "unique_suppliers": 9,
+        "top_suppliers": [
+          {
+            "name": "Thomas Kneale & Co Ltd",
+            "amount": 23359,
+            "pct": 45.4,
+            "transactions": 6
+          },
+          {
+            "name": "GEMS SW Ltd",
+            "amount": 6900,
+            "pct": 13.4,
+            "transactions": 2
+          },
+          {
+            "name": "Hampshire Fire & Rescue Service",
+            "amount": 6691,
+            "pct": 13,
+            "transactions": 1
+          },
+          {
+            "name": "Aegis Safeguarding Services Ltd",
+            "amount": 6386,
+            "pct": 12.4,
+            "transactions": 2
+          },
+          {
+            "name": "The Outdoors Company Uk Ltd",
+            "amount": 3494,
+            "pct": 6.8,
+            "transactions": 1
+          },
+          {
+            "name": "MP Cars",
+            "amount": 1830,
+            "pct": 3.6,
+            "transactions": 1
+          },
+          {
+            "name": "HCL Chauffeurs UK Ltd",
+            "amount": 1452,
+            "pct": 2.8,
+            "transactions": 1
+          },
+          {
+            "name": "Image@Work Ltd",
+            "amount": 658,
+            "pct": 1.3,
+            "transactions": 1
+          },
+          {
+            "name": "T & J Farnell Ltd",
+            "amount": 637,
+            "pct": 1.2,
             "transactions": 1
           }
         ]

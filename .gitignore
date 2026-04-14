@@ -146,6 +146,10 @@ data/uk/local_authorities/spend/camden_spend_2023_24.csv
 # Backups directory (large)
 data/backups/
 
+# Playwright session state (contains Cloudflare clearance cookies — not secrets
+# but site-specific and expires in ~30 days)
+data/uk/local_authorities/spend/.playwright-state/
+
 # NHS TAC source xlsx (large)
 data/uk/nhs_tac_*.xlsx
 
