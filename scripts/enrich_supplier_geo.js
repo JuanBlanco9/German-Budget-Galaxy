@@ -50,7 +50,8 @@ const COUNCIL_POSTCODES = {
   'Southwark': ['SE'],
   'Hertfordshire CC': ['AL', 'EN', 'HP', 'SG', 'WD'],
   'Buckinghamshire': ['HP', 'MK', 'SL'],
-  'North Yorkshire': ['YO', 'HG', 'DL']
+  'North Yorkshire': ['YO', 'HG', 'DL'],
+  'Bradford': ['BD']
 };
 
 // Skip patterns — these are not companies

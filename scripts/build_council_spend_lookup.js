@@ -1051,6 +1051,20 @@ const LLM_COUNCILS = [
     source: 'North Yorkshire Council Spend Over £500 (datanorthyorkshire.org)'
   },
   {
+    name: 'Bradford',
+    code: 'E08000032',
+    dir: path.join(SPEND_DIR, 'bradford'),
+    deptCol: 'Service Label',
+    purposeCol: 'Expenditure Category',
+    amountCol: 'Net Amount £',
+    supplierCol: 'Supplier Name',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'bradford_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Bradford Council Spend Over £500 (datahub.bradford.gov.uk)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],
