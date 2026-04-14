@@ -1107,6 +1107,20 @@ const LLM_COUNCILS = [
     source: 'Coventry City Council Spend Over £500 (coventry.gov.uk)'
   },
   {
+    name: 'Essex',
+    code: 'E10000012',
+    dir: path.join(SPEND_DIR, 'essex'),
+    deptCol: 'Function',
+    purposeCol: 'Spend Description',
+    amountCol: 'Value',
+    supplierCol: 'Name',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'essex_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Essex County Council Day-to-Day Spending (essex.gov.uk)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],

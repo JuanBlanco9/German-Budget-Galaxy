@@ -54,7 +54,8 @@ const COUNCIL_POSTCODES = {
   'Bradford': ['BD'],
   'Liverpool': ['L'],
   'Croydon': ['CR', 'SE'],
-  'Coventry': ['CV']
+  'Coventry': ['CV'],
+  'Essex CC': ['CM', 'SS', 'CO', 'IG', 'RM']
 };
 
 // Skip patterns — these are not companies
