@@ -121,12 +121,22 @@ for (const cls of lg.children) {
       if (!svcData) continue;
       if (serviceNode._top_suppliers && !FORCE) { alreadyHas++; continue; }
 
+      // Source URL + Wayback archive URL: per-service overrides (needed for
+      // GLA where each service maps to a different publisher) fall back to
+      // council-level. archive_url + captured_at come from archive_sources.js.
+      const source_url = svcData.source_url || entry.source_url || null;
+      const archive_url = svcData.archive_url || entry.archive_url || null;
+      const captured_at = svcData.captured_at || entry.captured_at || null;
+
       serviceNode._top_suppliers = {
         spend_total: svcData.service_total_in_spend_data,
         transaction_count: svcData.transaction_count,
         unique_suppliers: svcData.unique_suppliers,
         suppliers: svcData.top_suppliers,
         source: entry.source,
+        source_url,
+        archive_url,
+        captured_at,
         fy_label: entry.fy_label,
         coverage_note: 'These are payments captured by the council\'s Spend Over £500 transparency disclosure. The total here may not equal the MHCLG service value above because spend data includes capital and transfers but excludes payments below the £500 threshold. Use these as supplier-level context, not as a reconciled sub-budget.'
       };

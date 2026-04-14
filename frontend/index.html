@@ -5850,6 +5850,8 @@ function cmpComputeSupplierStats(node) {
     topList: sortedNavigable.slice(0, 5),  // Visible list only — no redacted
     fullList: sortedNavigable,             // Same filter, expanded view
     source: ts.source || '',
+    sourceUrl: ts.source_url || '',
+    archiveUrl: ts.archive_url || '',
     fyLabel: ts.fy_label || ''
   };
 }
@@ -6188,6 +6190,12 @@ function renderCompareSide(side) {
     const spendLbl = fmtLensValue({ value: supStats.spendTotal, formatHint: 'currency' }, currency);
     html += '<div class="dossier-sup-meta">';
     html += _escHtml(supStats.source) + (supStats.fyLabel ? ' &middot; FY ' + _escHtml(supStats.fyLabel) : '');
+    // Clickable source audit trail
+    const lnkStyle = 'color:#0d8a8a;text-decoration:none;border-bottom:1px dotted #0d8a8a';
+    let lnks = '';
+    if (supStats.sourceUrl) lnks += '<a href="' + _escHtml(supStats.sourceUrl) + '" target="_blank" rel="noopener" style="' + lnkStyle + '" title="Live source">\u{1F310} Live</a>';
+    if (supStats.archiveUrl) lnks += (lnks ? ' &middot; ' : '') + '<a href="' + _escHtml(supStats.archiveUrl) + '" target="_blank" rel="noopener" style="' + lnkStyle + '" title="Permanent Wayback snapshot">\u{1F4E6} Archived</a>';
+    if (lnks) html += '<br/>' + lnks;
     html += '<br/>' + spendLbl + ' &middot; ' + supStats.transactions.toLocaleString('en-GB') + ' transactions &middot; ' + supStats.uniqueSuppliers.toLocaleString('en-GB') + ' unique suppliers';
     html += '</div>';
     html += '<div class="dossier-kv" style="margin-bottom:10px">';
@@ -8238,8 +8246,18 @@ function renderCouncilSuppliersPanel(data){
     </div>`;
   });
 
-  // Source
-  h+=`<div style="font-size:9px;color:var(--dim);margin-top:8px;text-align:right">Source: ${esc(ts.source||'')} \u00B7 FY ${esc(ts.fy_label||'')}</div>`;
+  // Source — clickable live + archived links
+  const linkStyle='color:#0d8a8a;text-decoration:none;border-bottom:1px dotted #0d8a8a';
+  let sourceHtml='';
+  if(ts.source_url){
+    sourceHtml+=`<a href="${esc(ts.source_url)}" target="_blank" rel="noopener" style="${linkStyle}" title="Live source (may break over time)">\u{1F310} Live</a>`;
+  }
+  if(ts.archive_url){
+    if(sourceHtml) sourceHtml+=' \u00B7 ';
+    sourceHtml+=`<a href="${esc(ts.archive_url)}" target="_blank" rel="noopener" style="${linkStyle}" title="Permanent snapshot in the Internet Archive">\u{1F4E6} Archived</a>`;
+  }
+  if(!sourceHtml) sourceHtml=esc(ts.source||'');
+  h+=`<div style="font-size:9px;color:var(--dim);margin-top:8px;text-align:right">${esc(ts.source||'')}<br>${sourceHtml} \u00B7 FY ${esc(ts.fy_label||'')}</div>`;
 
   // Supplier map LAST
   h+=`<div class="sup-map" id="sup-map-${nodeId}"></div>`;

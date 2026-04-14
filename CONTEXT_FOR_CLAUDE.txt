@@ -1,7 +1,9 @@
 BUDGET GALAXY - Project Context
 ================================
-Date: April 6, 2026
+Date: April 10, 2026 (v17b)
 Owner: Juan Blanco (@JuanBlanco9)
+Last major change: Local Gov S251 historical (8 yrs) + 4 council suppliers metadata
+                   + DHSC L5 suppliers metadata (NHS commissioning view)
 
 WHAT IT IS
 ----------
@@ -17,12 +19,13 @@ SSH: ssh -i ~/.ssh/id_agro_intel root@96.30.199.112
 TOTAL SPENDING COVERED (2024)
 ------------------------------
 Germany: €2,287B (Bundeshaushalt €476B + Sozialversicherung €839B + Länder €562B + Kommunen €410B)
-USA: $6,750B (Federal budget)
+USA: $9,518B Federal + $3,042B States net = $12.6T combined (Multiverse shows both for 2017-2022)
 France: €1,745B (PLF state budget €812B + Protection Sociale €933B)
-UK: £1,383B (OSCAR central govt £1,249B + Local Authorities £134B)
+UK: £1,383B (OSCAR departments + Local Authorities + Scotland/Wales/NI devolved)
 
-Note: DE total includes double-counting (~€100B federal subsidies to pension insurance appear in both
-Bundeshaushalt and Sozialversicherung). Disclaimer shown to users at root level.
+Note: All multi-level countries have intergovernmental transfers creating double-counting.
+Disclaimers shown for DE/FR/UK. US states use net values (federal grants deducted).
+See FISCAL CONSOLIDATION section below for exact amounts.
 
 STACK
 -----
@@ -40,9 +43,9 @@ DATA COVERAGE
 Country | Years     | Central Govt | Social Insurance | States/Local | Enrichments
 --------|-----------|-------------|-----------------|--------------|------------
 DE      | 2015-2025 | Bundeshaushalt | GKV+GRV+BA+Pflege+DGUV | 16 Länder + Kommunen | 70+48+inline
-US      | 2017-2025 | Federal      | (included)      | -            | 2,467
+US      | 2017-2025 | Federal      | (included)      | 50 States (2017-2022 in MV) | 2,467+92
 FR      | 2015-2025 | PLF/LFI      | DREES Protection Sociale (2015-2024) | - | 1,631+239
-UK      | 2015-2024 | OSCAR/OSCAR II | -             | Local Auth England (2017-2024) | 779
+UK      | 2015-2024 | OSCAR/OSCAR II | -             | LA England + Scot/Wales/NI | 779
 
 Years with all 4 countries: 2017-2024 (8 years)
 DE+US+FR overlap: 2017-2025
@@ -57,9 +60,189 @@ UK notes: 2015-2019 from OSCAR Annual Release CSVs (pipe-delimited, VERSION_CODE
   2020-2024 from OSCAR II XLSX. Totals differ between eras (~750-960B vs ~1200-1700B) due to
   data model changes (OSCAR II includes additional migration/adjustment types).
   Local Authorities (England) integrated for 2017-2024 (MHCLG Revenue Outturn).
+  Devolved nations (Scottish Gov, Welsh Assembly, NI Executive) restructured in-memory by
+    _loadUKCombinedTree() — extracted from OSCAR flat list as sibling spheres in Multiverse.
+    Also removes OSCAR II LOCAL GOVERNMENT SCOTLAND/WALES/NI depts (2020-2023) to avoid overlap.
 
-US 50 states data: Census Bureau Excel files downloaded (2012-2022) in data/us/states_research/.
-  50 states × 30 functional categories. Parser not yet written. Planned as new "USA" tab.
+US 50 states: Census Bureau Summary Tables (2012-2022), integrated in Multiverse (2017-2022).
+  50 states + DC × 29 functional categories. Net of federal grants (_net_value fields).
+  Parser: scripts/build_us_state_trees.js. Data: data/us/states/us_states_tree_YYYY.json
+  Net trees: data/us/states/us_states_tree_YYYY_net.json (used by Multiverse).
+  Deduction: scripts/deduce_intergovernmental_us.js → data/us/intergovernmental_us_YYYY.json
+  Enrichment: data/us/states/us_states_enrichment.json (92 entries: 51 states + 41 categories).
+  In Multiverse: federal agencies shown sueltas + "50 States" sphere as sibling (blue #1a5a9e).
+  In Budget Explorer: _loadUSCombinedTree() builds combined tree, year picker shows "+ 50 States".
+
+UK COVERAGE MATRIX (state of play, April 10, 2026 — v17b)
+──────────────────────────────────────────────────────────
+Quick reference: which UK year has which layers. Deep details in the
+v13/v16/v17 sections later in this file.
+
+Year | Root      | OSCAR  | LG MHCLG | S251 | NHS L5+L6+L7 | Council L5 | DHSC L5
+-----+-----------+--------+----------+------+--------------+------------+--------
+2015 | £  947B  | I (40) | -        | -    | -            | -          | -
+2016 | £  808B  | I      | -        | -    | -            | -          | -
+2017 | £  961B  | I      | £90B     | 151  | -            | -          | -
+2018 | £  843B  | I      | £92B     | 151  | -            | -          | -
+2019 | £1,054B  | I      | £95B     | 150  | -            | -          | -
+2020 | £1,494B  | II     | £107B    | 150  | -            | -          | -
+2021 | £1,585B  | II     | £108B    | 151  | -            | -          | -
+2022 | £1,258B  | II     | £114B    | 151  | -            | -          | -
+2023 | £1,373B  | II     | £121B    | 149  | 212 trusts   | -          | -
+2024 | £1,380B  | II     | £132B    | 149  | 206 trusts   | 4 councils | ✓
+
+Reading the columns:
+  Root          — UK Public Spending tree root value (post all fixes)
+  OSCAR         — Central government schema (I = pre-2020, II = 2020+)
+  LG MHCLG      — Local Government (England), MHCLG Revenue Outturn injected
+  S251          — # councils with DfE Section 251 Education sub-breakdown
+  NHS L5+L6+L7  — # NHS trusts with provider sector + 4-cat + cost types
+  Council L5    — # councils with _top_suppliers metadata
+  DHSC L5       — DHSC node has _top_suppliers metadata (NHS commissioning)
+
+DEEPEST YEAR: 2024 (everything). 2023 nearly identical (no council suppliers).
+SHALLOWEST: 2015-2016 (central government OSCAR I only, no LG, no S251).
+
+WHAT IS DEEP IN 2024
+────────────────────
+Central Government:
+  - 40 OSCAR departments at L1-L4 (~1,400 nodes)
+  - 15 departments with L5/L6 supplier breakdown (645k transactions)
+    Segmented by Navy Command, NHS ICBs, Arts Council, PIP cost centres,
+    HS2 by stage, etc. — see "UK LEVEL 5/6: RECIPIENT DATA" section below.
+  - DHSC additionally has _top_suppliers metadata: 226 unique recipients
+    across 23 segments (£137.9B gross commissioning view, before netting)
+
+NHS Provider Sector (top-level node, separate from DHSC):
+  - 206 trusts named individually (66 NHS Trusts + 140 Foundation Trusts)
+  - Grouped in 5 sectors: Acute (£99B/118), Mental Health (£19B/45),
+    Specialist (£5B/15), Community (£4B/18), Ambulance (£4B/10)
+  - Each trust → 4 categories (Staff, Supplies, Premises, Other) from EXP0390
+  - Each Staff Costs node → 6 cost types (Salaries 73% / Pensions 12% /
+    Social sec 9% / Agency 6% / Termination / Other)
+  - Each Staff Costs node → _workforce metadata (10 staff groups by WTE)
+  - Each Supplies node → 4 sub-buckets (Drugs, Clinical, General, Inventories)
+  - Each Premises node → 9 sub-buckets (Premises other, Depreciation,
+    Impairments, Establishment, Transport, PFI, Amortisation, Business
+    rates, Lease)
+  - Each trust → _icb metadata (commissioner from NHS Spine ODS API)
+  Maximum depth: NHS Provider Sector → Sector → Trust → Cost category →
+  Cost type sub-bucket = 6 levels + workforce metadata.
+
+Local Government (England):
+  - 401 councils in 6 classes (Shire Counties / Unitaries / Met Districts /
+    London Boroughs / Shire Districts / Other Authorities)
+  - Each council → 13 services (Education, ASC, CSC, Public Health, Housing,
+    Transport, Environment, Culture, Planning, Police, Fire, Central, Other)
+  - 149 councils → S251 Education breakdown (Schools block 60% / SEND 25% /
+    Other ed 13% / Central / Early years)
+  - 32 councils + GLA subsystem (33 lookup entries) → _top_suppliers
+    metadata on 307 service nodes total. Coverage = 35.6% of LG England
+    (£46.8B of £131.6B) as of 2026-04-14.
+  - Session 2026-04-14 additions (see commits ccd6576, d9c848b, 083cf4f,
+    874c3f3): GLA subsystem (LFB, TfL, GLA core, MPS via Playwright
+    persistent profile), Lancashire, Essex, West Sussex, Devon,
+    Staffordshire, Lincolnshire, Hampshire, Surrey.
+  - Partial-coverage entries (documented in fy_label):
+    - Lancashire 11/12 months (March 2024 never published upstream)
+    - Surrey 6/12 months (Apr-Sep 2023 deleted from rolling window)
+    - MPS 7/12 months (Apr-Aug 2023 rolled off FOI publication scheme)
+
+WHAT IS SHALLOW BY YEAR
+───────────────────────
+2015-2016: OSCAR I central only. No LG, no S251 (S251 dataset starts FY 2015-16
+            but our LG injection currently starts at 2017). Not a hard limit,
+            just not done.
+2017-2019: OSCAR I + LG + S251 (~150 councils). No NHS deep, no council
+            suppliers. NHS TAC files for these years not downloaded.
+2020-2022: OSCAR II + LG + S251. OSCAR II LG ENGLAND placeholder fixed via
+            replace_oscar_lg.js. Same NHS / supplier gaps.
+2023:      OSCAR II + LG + S251 + full NHS L7 (212 trusts). No council
+            suppliers, no DHSC L5 metadata. Has OSCAR 2023 forensic fix
+            applied (£114B Non-patient-facing artifact removed).
+2024:      Everything. Reference year for comparison.
+
+WHAT IS NOT IN UK AT ALL (any year)
+────────────────────────────────────
+Devolved governments deep:
+  - Scotland: only top-level OSCAR view via Scottish Government dept.
+    No COSLA local government data integrated.
+  - Wales: same — no StatsWales / Welsh local authorities deep.
+  - Northern Ireland: same.
+  Devolved nations show as sibling spheres in Multiverse (via _loadUKCombinedTree)
+  but their internal structure is OSCAR-only.
+
+Off-budget items:
+  - UKEF (UK Export Finance): £40-50B exposure, not in tree
+  - Network Rail: ~£15-20B/year, not in tree
+  - Bank of England Asset Purchase Facility: not in tree
+  - British Business Bank: only as Treasury sub-line in OSCAR
+
+Capital expenditure:
+  - NHS capital: ~£12B/year, hidden inside EXP0240 Depreciation in TAC.
+    The DHSC NHS Trusts residual £4.7B (2024) is partial proxy.
+  - Local government capital: ~£25-30B/year. MHCLG Capital Outturn is a
+    separate dataset, not parsed.
+
+Sub-£500 council payments:
+  - Spend > £500 disclosure misses 30-40% of council spend by transaction
+    count (utilities, payroll, miscellaneous). Cannot be obtained at
+    supplier level without finer-grained source.
+
+Birmingham FY 2023-24 supplier data:
+  - City Observatory rolling window purged it before any Wayback snapshot.
+  - Only path: FOI request to foi.mailbox@birmingham.gov.uk.
+  - processBirmingham() preserved in script for FY 2024-25 once rolling
+    window covers it.
+
+UK 2024 BY THE NUMBERS
+──────────────────────
+  Root total                       £1,380.5B (post all fixes)
+  Tree integrity                   ✓ 0 drifts at any node
+  Coverage of UK TME (~£1,189B)    ~85% net of documented overlaps
+  OSCAR departments                40
+  L5 supplier file count           15 departments × 645k transactions
+  NHS trusts named                 206
+  NHS L7 cost type nodes injected  206 × 6 = 1,236
+  NHS workforce metadata records   206 × 10 = 2,060
+  Local Authorities                401
+  LA service nodes                 401 × 13 ≈ 5,200
+  S251 Education sub-nodes         149 × 5 = 745
+  Council suppliers metadata nodes 307 (across 32 councils + GLA subsystem)
+  DHSC L5 unique recipients        226
+  Tree JSON file size              ~3 MB
+
+YOY CHECK (post all fixes)
+──────────────────────────
+  2017→2018  -£117B  (OSCAR I noise)
+  2018→2019  +£211B
+  2019→2020  +£440B  (COVID)
+  2020→2021  +£91B
+  2021→2022  -£327B  (COVID winddown)
+  2022→2023  +£115B  (post-COVID recovery)
+  2023→2024  +£8B    (steady growth — was -£106B before OSCAR 2023 fix)
+
+NEXT POSSIBLE EXPANSIONS (logical next steps for UK)
+────────────────────────────────────────────────────
+1. NHS deep historical 2017-2022:
+   Requires downloading 6 more pairs of NHS TAC xlsx files + handling
+   pre-2022 CCG era (Spine API only knows current ICB structure) +
+   possible OSCAR forensic investigation for 2020-2021 schema.
+
+2. More council suppliers: each council requires 3-5 hours of custom
+   service mapping. Birmingham via FOI.
+
+3. Devolved governments deep: Scotland (COSLA), Wales (StatsWales),
+   NI Executive — separate datasets per nation.
+
+4. Off-budget items: UKEF, Network Rail, BoE APF — datasets exist but
+   represent scope creep into a different category of spending.
+
+5. Capital expenditure: NHS capital + LG capital outturn (different
+   datasets per source).
+
+6. S251 historical 2015-2016: easy iteration, just hasn't been done.
+   Same for LG MHCLG 2015-2016.
 
 GERMANY DATA DETAIL
 -------------------
@@ -97,7 +280,12 @@ Data - Source/intermediate (used by integration script):
   data/de/sozialversicherung/                - SV parsed JSONs + source PDFs/Excel
   data/de/laender/                           - Länder parsed JSONs + Destatis/Eurostat source
   data/fr/securite_sociale/                  - FR SS trees (2000-2024, 25 files)
+  data/fr/collectivites/                     - Eurostat S1313 FR COFOG (2015-2024, LIVE in Multiverse via _loadFRCombinedTree)
   data/uk/local_authorities/                 - UK LA trees (2018-2025) + source CSV
+  data/uk/devolved/                          - PESA Chapter 9 by nation (2019-2023, parsed not in UI)
+  data/uk/pesa/                              - PESA 2024 Chapter 9 source Excel
+  data/us/states/                            - Census Bureau state trees (2012-2022) + net versions
+  data/us/states_research/                   - Census Bureau source Excel files
 
 Data - Enrichments:
   data/de/sozialversicherung_enrichment.json - 70 entries (SV branches + sub-items)
@@ -106,6 +294,7 @@ Data - Enrichments:
   data/fr/program_enrichment.json            - 1,631 entries
   data/fr/securite_sociale/securite_sociale_enrichment.json - 239 entries
   data/uk/program_enrichment.json            - 779 entries
+  data/us/states/us_states_enrichment.json   - 92 entries (51 states + 41 categories)
 
 Data - Translations:
   data/de/translations_new_branches.json     - 306 DE→EN translations (SV, Länder, Kapitel)
@@ -128,6 +317,22 @@ Scripts:
   scripts/build_us_trees_all.py              - US tree builder (USAspending.gov API)
   scripts/build_fr_trees_all.js              - FR PLF CSV parser (2020-2025)
   scripts/build_uk_trees_all.py              - UK OSCAR XLSX parser
+  scripts/build_us_state_trees.js            - US Census Bureau state parser
+  scripts/build_uk_devolved_trees.js         - UK PESA Chapter 9 parser (devolved nations)
+  scripts/build_fr_collectivites_trees.js    - FR Eurostat S1313 COFOG parser
+  scripts/deduce_intergovernmental_de.js     - DE fiscal consolidation (Bund→SV transfers)
+  scripts/deduce_intergovernmental_fr.js     - FR fiscal consolidation (PLF/DREES overlap)
+  scripts/deduce_intergovernmental_uk.js     - UK fiscal consolidation (Barnett grants)
+  scripts/deduce_intergovernmental_us.js     - US fiscal consolidation (federal grants to states)
+  scripts/build_uk_l5_segmented.js           - UK L5+6 segmented suppliers (Spend >£25k, 15 depts)
+  scripts/build_uk_recipients.js             - Legacy: UK flat top-100 recipients (superseded by L5)
+  scripts/enrich_uk_nhs.js                   - Injects 42 ICB allocations into NHS Trusts tree node
+  scripts/compile_supplier_enrichment.js     - Compiles 502-entry supplier enrichment JSON
+  scripts/fetch_uk_contracts.js              - Downloads Contracts Finder OCDS API (92k notices)
+  scripts/build_fr_trees_2015_2019.js        - FR PLF parser for older 2015-2019 format
+  scripts/restructure_uk_nations.js          - UK devolved nations restructuring (on-disk)
+  scripts/update_fr_ministry_names.js        - FR ministry name translations
+  scripts/merge_fr_translations.js           - Merge FR translation sources
 
 TRANSLATION SYSTEM
 ------------------
@@ -198,7 +403,7 @@ It:
 5. Adds _disclaimer fields from DATA_LIMITATIONS.json
 6. Backs up originals to data/backups/
 
-COMPLETED (April 6, 2026)
+COMPLETED (April 7, 2026)
 --------------------------
 - Total public spending integration: DE (SV+Länder+Kommunen), FR (SS), UK (LA)
 - Sozialversicherung: 5 branches, 2015-2025, from official BMG/DRV/BA/DGUV sources
@@ -213,6 +418,13 @@ COMPLETED (April 6, 2026)
 - FR "Ministere XX" bug fixed in 2020-2023 trees + parser
 - Deep enrichment: FR 1,631+239, UK 779, US 2,467 entries (100% depth 1-2)
 - 306 DE→EN translations + 565-word wordMap for Titel-level auto-translation
+- USA States tab: 50 states + DC, 2012-2022, Census Bureau data, geographic positioning
+  - Parser: scripts/build_us_state_trees.js (Node.js, xlsx package)
+  - Data: data/us/states/us_states_tree_YYYY.json (11 files)
+  - Enrichment: data/us/states/us_states_enrichment.json (51 states + 30 categories)
+  - API: /budget/us-states, /budget/us-states/years, /budget/us-states/history
+  - Frontend: geographic sphere layout over US map outline (topojson), regional colors
+  - Zoom into state to see functional breakdown (education, welfare, highways, etc.)
 - Translation race condition fixed (await fetch before Galaxy render)
 - Multiverse translates DE names (was only translating FR)
 - Double-counting disclaimer at DE root
@@ -222,20 +434,660 @@ COMPLETED (April 6, 2026)
 - OG image: Multiverse screenshot via Puppeteer
 - Data documentation: DATA_SOURCES.json, DATA_LIMITATIONS.json
 - "Explore in Budget Explorer" apostrophe escaping fix
+- US 50 States in Multiverse: federal agencies sueltas + "50 States" sphere (2017-2022)
+  - _loadUSCombinedTree() combines federal + states on the fly (no tree file modification)
+  - States use _net_value (federal grants deducted) to avoid double counting
+  - Regional colors: NE blue, South red, Midwest orange, West green
+  - Budget Explorer integrated: click state → navigates to functional breakdown
+  - Year picker annotated with "+ 50 States" for years with data
+- UK devolved nations in Multiverse: Scotland, Wales, NI as sibling spheres
+  - _loadUKCombinedTree() extracts from OSCAR flat list on the fly
+  - Also removes OSCAR II LOCAL GOVERNMENT SCOTLAND/WALES/NI depts (2020-2023)
+  - Colors: Scotland blue, Wales red, NI green
+  - Budget Explorer integrated via same function
+- Fiscal consolidation audit: all 4 countries audited, deduction scripts + JSONs created
+  - DE: €110-180B (Bundeszuschüsse to SV), FR: €60-170B (PLF/DREES overlap),
+    UK: £55-95B (Barnett grants), US: $0.7-1.3T (federal grants to states)
+  - Disclaimers added for DE/FR/UK in Galaxy + Budget Explorer + About page
+  - About page: new "Fiscal consolidation" section with methodology table
+- FR collectivités integrated in Multiverse via _loadFRCombinedTree() (2015-2024, Eurostat S1313)
+  - Deducts "Relations avec les collectivités" from PLF (~€3-4B) to avoid double-counting
+  - Teal color (#0d8a8a), 9 COFOG categories. 2025 not available (Eurostat ~T+18mo lag).
+- UK PESA Chapter 9 parsed: devolved nations by COFOG function (2019-2023, not yet in UI)
+- UK Level 5/6 recipient data: 15 departments, 645k transactions, segmented drill-down
+  - MoD by Navy/Army/Air Command, DHSC by NHS region, DWP by benefit category, etc.
+  - 502 suppliers enriched, 475 with contract titles, 23 with notable flags
+  - Frontend shows 3-layer drill-down: segment → expense type → supplier w/ description
+
+UK LEVEL 5/6: RECIPIENT DATA (added April 8, 2026)
+----------------------------------------------------
+15 UK departments with segmented supplier/recipient data from Spend Over £25k.
+645,572 transactions across 180 monthly files (12 months × 15 depts, full year 2024).
+Each department segmented by Expense Area, Entity, or custom mapping.
+
+Special mappings applied:
+  - DWP: 2,284 cost centre codes → 20 benefit categories (mapDwpCostCentre)
+  - DHSC: 8 NHS ICB regions + 15 non-NHS departmental areas (replaces "Default Group")
+  - MoJ: 206 micro-segments → 14 categories (mapMoJSegment)
+  - DCMS: 10 cultural sector categories (mapDcmsSupplier: BBC, Arts, Sport, Museums, etc.)
+  - FCDO: 8 aid categories (mapFcdoSupplier: Multilateral, UN, NGOs, Bilateral, etc.)
+  - MoD: 59 segments + expense_type_breakdown per segment (Personnel, Equipment, Fuel, etc.)
+
+502 supplier enrichments (sector, employees, hq, description) in supplier_enrichment.json.
+475 suppliers with contract titles from Contracts Finder OCDS API (92,928 notices for 2024).
+23 notable flags on interesting suppliers (star icon + tooltip in frontend).
+
+Builder: scripts/build_uk_l5_segmented.js
+Output: data/recipients/uk/l5_{dept_id}_2024.json (15 files)
+Source: data/recipients/uk/spend25k/{prefix}_{01..12}.{csv|ods|xlsx} (180 files)
+
+UK TREE NODE IDs (CRITICAL — no truncation, full slug)
+-------------------------------------------------------
+Tree node IDs are full slugified names: re.sub(r'[^a-z0-9]+', '_', name.lower())
+Hierarchical: dept_id__org_id__subfunc_id__segment_id
+Generated in build_uk_trees_all.py. Zero collisions across all 1,400+ nodes.
+Previous bug: truncated IDs caused navigation to wrong department. Fixed April 8, 2026.
+
+UK NHS TRUSTS + LOCAL GOVERNMENT (DONE, April 9, 2026)
+----------------------------------------------------------
+NHS Provider Sector: 206 trusts (66 NHS Trusts + 140 Foundation Trusts), £130.8B total
+  Source: NHS England TAC 2023/24 (data/uk/nhs_tac_trusts_2024.xlsx + nhs_tac_ft_2024.xlsx)
+  Filter: SubCode='EXP0390' (total operating expenditure), MainCode contains 'CY'
+  Note: Excel column header is " Total " (with surrounding spaces), not "Total"
+  Grouped by 5 sectors: Acute (£99.3B/118), Mental Health (£18.6B/45), Specialist (£4.7B/15),
+    Community (£4.2B/18), Ambulance (£4.1B/10)
+  Classification from "List of Providers" sheet, joined by OrganisationName text match
+  Injected via: scripts/inject_nhs_trusts.js
+  Tree node: id="nhs_provider_sector" at top-level (sibling of DHSC, NOT inside it)
+  Color: #d4380d (NHS red) in getGalaxyColor() and getMvColor()
+
+Local Government (England): 401 councils, £131.6B total (FY 2024-25)
+  Source: MHCLG Revenue Outturn (data/uk/local_authorities/revenue_outturn_timeseries.csv)
+  Filter: year_ending='202503', status='submitted', exclude LA_class='Eng'
+  Grouped by LA_class: Shire Counties (£31.4B/21), Unitary Authorities (£29.3B/61),
+    Other (£25.4B/93), Met Districts (£22.3B/35), London Boroughs (£19.9B/33),
+    Shire Districts (£3.4B/158)
+  Each council has 13 service breakdown (Education, ASC, CSC, Public Health, Housing,
+    Transport, Environment, Culture, Planning, Police, Fire & Rescue, Central, Other)
+  Injected via: scripts/inject_local_gov.js
+  Tree node: id="local_government_england" at top-level
+  Color: #0d8a8a (teal) in getGalaxyColor() and getMvColor()
+
+NHS NETTING (Option B — surgical deduction, April 9, 2026)
+  Problem: DHSC > NHS Trusts (£135.5B in OSCAR, commissioner view) overlaps almost entirely
+    with NHS Provider Sector (£130.8B from TAC, provider/spending view). Same money, two views.
+  Fix: scripts/net_nhs_overlap.js reduces DHSC > NHS Trusts by exactly £130.8B, leaving £4.7B
+    residual (capital expenditure + HEE training + trusts excluded from TAC sample). The 42
+    ICB sub-allocations (from enrich_uk_nhs.js) are removed because the parent value changes
+    and the same money is now shown at top level with sector × trust granularity.
+  Marker: _netted=true on DHSC > NHS Trusts (idempotency guard)
+  Renamed to: "NHS Trusts (capital & residual funding)"
+  Result for 2024:
+    DHSC: £214.2B → £83.4B (Δ -£130.8B)
+    NHS Provider Sector: £130.8B (unchanged)
+    Root: £1,511.3B → £1,380.5B (Δ -£130.8B)
+    Total preserved: £4.7B residual + £130.8B = £135.5B (= original DHSC NHS Trusts)
+  Documented in: data/uk/intergovernmental_uk_2024.json (nhs_provider_overlap section)
+
+Pipeline order (CRITICAL): inject_nhs_trusts → inject_local_gov → net_nhs_overlap → inject_nhs_trust_detail
+  The netting script depends on both NHS Provider Sector existing at top level AND DHSC's
+  original NHS Trusts node being intact. The detail injection adds 4-category breakdown +
+  ICB metadata to each trust leaf. Re-running any script is safe (idempotency guards).
+
+NHS DEPTH v13 (April 9, 2026) — Trust → Expenditure Breakdown + ICB metadata
+  Each of the 206 NHS trust leaves now has 4 child nodes representing operating
+  expenditure categories from TAC subcodes:
+    - Staff Costs (EXP0130, EXP0140) — typically 55-70% of trust spending
+    - Clinical Supplies & Drugs (EXP0150, 0155, 0160, 0170, 0379, 0380A) — 17-29%
+    - Premises & Infrastructure (EXP0200-0260, 0340A-D, 0370, 0375) — 7-15%
+    - Other Operating Costs (remainder = EXP0390 minus the three above) — 6-15%
+
+  Aggregate breakdown across 206 trusts (£130.84B):
+    Staff:    £81.84B (62.6%)
+    Supplies: £22.22B (17.0%)
+    Premises: £15.20B (11.6%)
+    Other:    £11.59B (8.9%)
+
+  Each trust node also carries metadata fields:
+    _source: "NHS TAC 2023/24"
+    _sector: "Acute" | "Mental Health" | "Specialist" | "Community" | "Ambulance"
+    _region: NHS region from "List of Providers" sheet
+    _icb: { code, name } — Integrated Care Board commissioning relationship
+          (or null if not available; in 2024 100% had ICB matched)
+
+  ICB mapping built via NHS Spine ODS REST API (NOT zip downloads — those are
+  CDN-blocked from non-UK requests). Endpoint:
+    https://directory.spineservices.nhs.uk/ORD/2-0-0/organisations/{NHS_CODE}
+    Filter Rels where id=RE5 (commissioning) or RE8 (partnership), Status=Active,
+    Target.PrimaryRoleId.id=RO261 (ICB role).
+  Result: 211 trusts → 36 unique ICBs, 100% match rate.
+
+  Reconciliation: For 1 trust (Lincolnshire Community Health Services NHS Trust),
+    the explicit categories sum to slightly more than EXP0390 due to negative items
+    (impairment reversals, credit allowances) inside the total. The script scales
+    the three positive categories proportionally so children always sum to parent.
+    Affected drift: ~£1.35M / £130.84B (0.001%, invisible in visualization).
+
+  Frontend renderNHSTrustPanel() shown in:
+    - openGalaxyInfo() — Galaxy view side panel (after enrichment block)
+    - renderBudgetList() — Budget Explorer panel (after disclaimer block)
+    - openMvInfo() — Multiverse info panel (after programme enrichment)
+
+  Panel shows: sector badge (color-coded), ICB commissioner shortened, region,
+  4 horizontal bars with category color, value, percentage, source citation.
+
+  Sector badge colors (NHS_SECTOR_COLORS):
+    Acute       → #d4380d (red)
+    Mental Health → #722ed1 (purple)
+    Ambulance   → #d46b08 (orange)
+    Community   → #0d8a8a (teal)
+    Specialist  → #096dd9 (blue)
+
+  Why ICBs are NOT tree nodes: ICBs are commissioning entities (they transfer
+  money from NHS England to providers). They are not service providers — no
+  staff treating patients, no operating theatres. The 42 ICBs as tree leaves
+  was a placeholder when no provider-side data was available. With 206 named
+  trusts × 4-category breakdown, the tree now shows actual service delivery
+  structure. ICB membership is preserved as metadata, not as structure.
+
+  Files created:
+    scripts/build_icb_mapping.js          — fetches ICB-Trust mapping via Spine API
+    scripts/build_nhs_trust_breakdown.js  — parses TAC EXP subcodes → categories
+    scripts/inject_nhs_trust_detail.js    — injects breakdown + metadata into tree
+    data/uk/nhs_icb_trust_mapping.json    — 211 trusts × ICB lookup
+    data/uk/nhs_trust_breakdown_2024.json — 206 trusts × {staff, supplies, premises, other}
+
+NHS DEPTH v16 (April 10, 2026) — Level 7 staff cost types + supply/premises subcodes
+─────────────────────────────────────────────────────────────────────────────────────
+  Extends v13's 4-category breakdown with two more layers:
+
+  STAFF COSTS becomes a branch with cost-type sub-children (TAC09 Table 5.2):
+    - Salaries & wages           (STA0230)        ~73% aggregate
+    - Employer pensions          (STA0250+250A+260) ~12%
+    - Social security & levy     (STA0240+0245)   ~9%
+    - Agency & temporary staff   (STA0300+0310)   ~6% (the famous NHS "agency problem")
+    - Termination & post-employment (STA0270+0280+0290) ~0%
+    - Other & adjustments        (residual to match parent)
+
+  STAFF COSTS also gains _workforce metadata (TAC09 Table 5.3 — average WTE):
+    Medical & dental, Nursing midwifery HV, Scientific/therapeutic/technical,
+    Administration & estates, Healthcare assistants & support, Ambulance, Nursing
+    learners, Healthcare science, Social care, Other.
+
+    IMPORTANT: TAC09 reports cost-by-TYPE (Table 5.2) and workforce-by-GROUP
+    (Table 5.3) as TWO SEPARATE views. Cost-per-medical-FTE is NOT directly
+    available — we don't fabricate it. Frontend panel says so explicitly.
+    NHS Workforce Statistics download was attempted but skipped because the
+    TAC09 Table 5.3 already provides WTE data within the same xlsx files
+    we already have.
+
+  CLINICAL SUPPLIES & DRUGS gets EXP-subcode children:
+    - Drugs costs                    (EXP0170)
+    - Clinical supplies & services   (EXP0150+0155)
+    - General supplies & services    (EXP0160)
+    - Inventories written down       (EXP0379+0380A)
+
+  PREMISES & INFRASTRUCTURE gets EXP-subcode children (9 buckets):
+    - Premises (other)               (EXP0220)
+    - Depreciation                   (EXP0240)
+    - Impairments net of reversals   (EXP0260)
+    - Establishment costs            (EXP0200)
+    - Transport                      (EXP0230A+0230B)
+    - PFI / LIFT charges             (EXP0370+0375)
+    - Amortisation                   (EXP0250)
+    - Business rates                 (EXP0210)
+    - Lease expenditure              (EXP0340A-D)
+
+  Tricky reconciliation: v13 build_nhs_trust_breakdown.js sometimes scaled down
+  a trust's Premises (or Supplies) value when raw EXP code sum exceeded the
+  trust's EXP0390 total. For ~3 trusts (Sandwell, West Hertfordshire, Wye Valley)
+  the raw subcode sum is 10-60% larger than the v13-scaled parent. The script
+  inject_nhs_supply_premises_detail.js handles this by scaling all positive
+  subcode children PROPORTIONALLY to fit the parent value.
+
+  Coverage: 206/206 trusts (2024) and 212/212 trusts (2023) for staff,
+  supplies, and premises. Tree integrity ✓ in both years.
+
+  Frontend renderNHSStaffPanel() shows TWO views in the same panel: cost
+  breakdown bars + workforce composition bars (with the explicit caveat that
+  these are orthogonal lenses on the same money).
+
+  Files created:
+    scripts/build_nhs_staff_breakdown.js       — TAC09 Table 5.2 + 5.3 parser
+    scripts/inject_nhs_staff_detail.js         — injects cost-type children + _workforce metadata
+    scripts/inject_nhs_supply_premises_detail.js — injects 4 supply + 9 premises subcode children
+    data/uk/nhs_staff_breakdown_{2023,2024}.json
+    frontend renderNHSStaffPanel() function + NHS_STAFF_COST_COLORS / NHS_WORKFORCE_COLORS
+
+LOCAL GOV GRANULARITY v17 (April 10, 2026) — Section 251 + Council Spend > £500
+────────────────────────────────────────────────────────────────────────────────
+  PHASE 1 — DfE Section 251 Education breakdown (8 years, ~150 councils each)
+
+    Source: DfE Section 251 Outturn 2024-25 release (published Dec 2025).
+    Single zip with 5 CSVs covering FY 2015-16 through 2024-25.
+    https://content.explore-education-statistics.service.gov.uk/api/releases/654ad3f2-e091-4bd5-b357-b750b90d1e9a/files
+
+    The s251_alleducation_la_regional_national.csv file has 130k rows
+    (LA × year × line item × phase). Per-LA grouping yields ~83 line items
+    per year. We collapse them into 5 navigable buckets:
+      1. Schools block          (lines 1.0.x — Individual Schools Budget)
+      2. High needs (SEND)       (lines 1.2.x — top-ups, AP, support)
+      3. Early years             (lines 1.3.x — central early years)
+      4. Central school services (lines 1.1.x + 1.4.x + 1.5.x + 1.6.x + 1.7.x)
+      5. Other education & community (entire main_category 2)
+
+    Reconciliation: DfE S251 totals differ from MHCLG net current expenditure
+    by 5-15% (different accounting bases — DfE includes academies recoupment).
+    Where they differ, S251 children are SCALED PROPORTIONALLY to fit the
+    MHCLG parent value, with the scaling factor stored in `_s251_scaling_factor`
+    metadata on the parent. ~80% of councils require scaling > 5%.
+
+    3-tier name matching: ONS_code via revenue_outturn CSV → normalized name →
+    fuzzy aliases (e.g. "Durham" ↔ "County Durham", "Bristol" ↔ "Bristol, City of",
+    "Telford & the Wrekin" ↔ "Telford and Wrekin").
+
+    Coverage: ~149-151 councils per year (out of ~160 with positive Education
+    spend). The 11 unmatched are Combined Authorities + GLA which receive
+    Adult Education Budget but don't appear in S251 by design (S251 covers
+    only LAs with statutory education responsibility).
+
+    Years applied: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
+    Tree integrity: ✓ in all 8 years.
+
+  PHASE 2 — Council Spend > £500 supplier metadata (4 councils, METADATA only)
+
+    KEY DESIGN DECISION: Spend > £500 transparency data is a SEPARATE accounting
+    view from MHCLG net current expenditure. It includes capital expenditure,
+    transfers, and payroll, but EXCLUDES sub-£500 payments. The two totals
+    DO NOT RECONCILE and CANNOT be inserted as tree children that sum to the
+    MHCLG service value. Instead, we attach `_top_suppliers` METADATA to each
+    service node — the frontend renders it as an info panel below the tree
+    hierarchy with a clear coverage_note explaining the discrepancy.
+
+    Why this matters: a previous instinct would have been to inject suppliers
+    as tree children, but that would have lied about the numbers. The metadata
+    approach is more honest and the frontend panel is clearly labeled as
+    "Top suppliers (transparency disclosure)" — separate visual treatment from
+    tree children.
+
+    4 councils covered:
+      - Camden:     £740M, 61,550 tx, 9 services (Socrata SODA API, single call)
+      - Rochdale:   £469M, 275,578 tx, 7 services (12 monthly CSVs, latin1)
+      - Manchester: £1,234M, 46,006 tx, 8 services (12 monthly CSVs, header auto-detect)
+      - Leeds:      £1,708M, 299,617 tx, 7 services (Data Mill North CKAN API)
+
+    Per-council service mapping: each council uses different organisational
+    unit / department / service area labels. Custom mapping objects defined
+    in build_council_spend_lookup.js (CAMDEN_OU_MAP, BIRMINGHAM_DEPT_MAP,
+    ROCHDALE_DIR_MAP, MANCHESTER_SVC_MAP, LEEDS_SVC_MAP) plus heuristic
+    fallback functions for unmapped values.
+
+    Birmingham FY 2023-24: NOT AVAILABLE.
+      Birmingham City Observatory's payments-to-suppliers-over-gbp500 dataset
+      is a ROLLING ~24-month window. By April 2026 the window had purged all
+      data older than 2024-04-02. No Wayback Machine snapshots exist from
+      when FY 2023-24 was live (first snapshot Nov 2024, after purge).
+      data.gov.uk never had Birmingham spending data. Legacy birmingham.gov.uk
+      transparency URL returns HTTP 403 with no Wayback captures.
+      Birmingham issued a Section 114 notice in September 2023 (effectively
+      bankrupt), which has affected transparency publishing.
+      Only path forward: FOI request to foi.mailbox@birmingham.gov.uk.
+      processBirmingham() function preserved in script for when rolling
+      window eventually covers FY 2024-25.
+
+    Header auto-detection lesson:
+      Manchester monthly CSVs have inconsistent header positions: apr_2023
+      and may_2023 have a grand total prefix row that pushes the header to
+      row 2, but other 10 months have header at row 0. Solution: detect via
+      `headerHint: "Body Name"` string search across first 8 lines of each
+      file. This is now the default pattern for monthly council files.
+
+    Frontend renderCouncilSuppliersPanel() shows: spend total badge,
+    transaction count, unique suppliers count, coverage_note caveat about
+    why total may differ from parent, and top 10 + Other suppliers as
+    horizontal bars with supplier name + amount + % + transaction count.
+
+  DHSC L5 SUPPLIERS METADATA (April 10, 2026)
+
+    Same `_top_suppliers` pattern attached to the DHSC top-level node, using
+    the existing data/recipients/uk/l5_department_of_health_2024.json file.
+
+    The L5 file contains 23 segments (7 NHS regions + 16 DHSC directorates)
+    with top recipients per segment. We flatten to 226 unique recipients
+    deduplicated by normalized name, top 15 + Other.
+
+    Aggregate £137.9B spend total exceeds the visible DHSC node value
+    (£83.4B post-netting) because the DHSC node was netted against NHS
+    Provider Sector top-level node in v13. The supplier list is the GROSS
+    commissioning view BEFORE netting — useful for seeing where money
+    flows, NOT for reconciling to the visible total. The coverage_note
+    documents this clearly.
+
+    Top recipients (mostly ICBs, the commissioning view):
+      £7.1B  NHS North East and North Cumbria ICB
+      £6.7B  NHS Greater Manchester ICB
+      £6.2B  NHS Cheshire and Merseyside ICB
+      ... (42 ICBs total) + DHSC directorate suppliers
+
+  Files created:
+    scripts/build_s251_lookup.js              — DfE S251 → 5-bucket lookup per LA per year
+    scripts/inject_s251_education.js          — inject S251 children into Education leaves
+    scripts/build_council_spend_lookup.js     — Camden/Rochdale/Manchester/Leeds aggregator
+    scripts/inject_council_spend_metadata.js  — attach _top_suppliers to council service nodes
+    scripts/inject_dhsc_l5_suppliers.js       — flatten L5 → DHSC _top_suppliers metadata
+    data/uk/local_authorities/s251_2024-25.zip                          — DfE raw zip 11.6MB
+    data/uk/local_authorities/s251_alleducation_la_regional_national.csv — 26MB main CSV
+    data/uk/local_authorities/s251_lookup_{2017..2024}.json             — 8 yearly lookups
+    data/uk/local_authorities/spend/camden_spend_2023_24.csv            — 17MB
+    data/uk/local_authorities/spend/rochdale/{2023_APR..2024_MAR}_Spend.csv — 12 files, 40MB
+    data/uk/local_authorities/spend/manchester/{apr_2023..mar_2024}.csv  — 12 files, 6MB
+    data/uk/local_authorities/spend/leeds/spending_{2023_04..2024_03}.csv — 12 files, 78MB
+    data/uk/local_authorities/spend/birmingham_spend_recent.csv         — 30MB (FY 2024-25, no FY 2023-24)
+    data/uk/local_authorities/spend/council_spend_lookup_2024.json      — 4 councils × 31 services
+    frontend renderCouncilSuppliersPanel() function + 3 hooks (Galaxy, Explorer, Multiverse)
+
+FISCAL CONSOLIDATION (audited April 2026)
+-------------------------------------------
+When combining multiple government levels, intergovernmental transfers create double-counting.
+Deduction scripts quantify exact amounts per year. JSONs stored in data/{cc}/intergovernmental_{cc}_{year}.json.
+
+DE (€110-180B, 6-8%):
+  Parser field: Bundeshaushalt uses Soll (planned). SV uses total expenditure (Leistungsausgaben).
+  Transfers: Bundeszuschüsse to GRV (~€93B in 2024), GKV Gesundheitsfonds (€14.5B),
+    Grundsicherung im Alter (€10.9B), knappschaftliche RV (€5.1B), landwirtschaftliche SV (~€4B),
+    DDR-Renten Erstattungen (~€2.4B), Bundesbahn KBS (~€0.3B), Künstlersozialkasse (~€0.3B).
+  Länder: uses bereinigte Ausgaben (net of intra-Länder transfers, correct).
+    But still includes spending funded by Bund transfers (Bundesergänzungszuweisungen).
+  Kommunen: Eurostat S1313, not consolidated against S1311/S1312.
+  Script: scripts/deduce_intergovernmental_de.js — scans by Titel ID suffix.
+  Disclaimer: shown in Galaxy + Budget Explorer for DE root node.
+
+FR (€60-170B, 5-10%):
+  Parser field: PLF uses CP (crédits de paiement). DREES uses Protection Sociale "val" field.
+  DREES "Protection Sociale" is NOT institutional Sécurité Sociale — it covers ALL social protection
+    including State interventions, local government, complementary schemes, private insurance.
+  Overlapping PLF programs: CAS Pensions (€60-68B in 2020-2024), Solidarité/insertion (€25-31B),
+    Travail et emploi (€12-23B), Cohésion des territoires/APL (€15-19B), Régimes sociaux (€6B).
+  CAS Pensions absent from 2015-2019 trees (older PLF format excluded CAS) — explains jump from
+    €60B (2019) to €123B (2020). Verified: not a bug, CAS Pensions was genuinely added to tree.
+  Script: scripts/deduce_intergovernmental_fr.js — exact name match for CAS, substring for others.
+  Disclaimer: shown in Galaxy + Budget Explorer for FR root node.
+
+UK (£20-339B, 2-23%):
+  Parser field: OSCAR uses AMOUNT. LA uses RS_*_net_exp (net of fees, NOT net of grants).
+  FIVE sources of overlap and data quality fixes:
+  1. Barnett Formula block grants (£88-95B in 2023-2024) — Scotland/Wales/NI Office
+     allocations also appear in devolved government budgets. Disclosure only,
+     NOT deducted from tree.
+  2. MHCLG/DCLG "Local Government" grants (£22-38B) — overlap with LA England branch.
+     Disclosure only, NOT deducted from tree.
+  3. NHS Provider Sector overlap with DHSC > NHS Trusts (£124-131B in 2023-2024):
+     Same money, two views (commissioner vs provider). NETTED via scripts/net_nhs_overlap.js
+     which reduces DHSC > NHS Trusts to a residual and removes ICB children.
+     Currently applied to 2023 and 2024.
+  4. OSCAR 2023-specific data quality artifact "Non-patient-facing NHS expenditure"
+     (£114.07B, ONLY in OSCAR 2023, removed via scripts/fix_oscar_2023_nhs.js).
+     See OSCAR 2023 NHS DATA QUALITY FIX section below for full forensic analysis.
+  5. OSCAR II "LOCAL GOVERNMENT ENGLAND/SCOTLAND/WALES/NI" depts (2020-2023 only, £169-196B)
+     These OSCAR II LG departments overlapped ENTIRELY with our integrated LA branch.
+     REPLACED with MHCLG Revenue Outturn via scripts/replace_oscar_lg.js (April 2026).
+     For 2015-2019: no OSCAR II LG depts → no replacement needed, just inject MHCLG.
+  Dept name: "DCLG" (2015-2019), "MHCLG" (2020-2024).
+  Scripts:
+    - scripts/deduce_intergovernmental_uk.js — detects MHCLG grants overlap
+    - scripts/net_nhs_overlap.js — nets NHS provider/commissioner double-count (2023, 2024)
+    - scripts/fix_oscar_2023_nhs.js — removes OSCAR 2023 Non-patient-facing artifact
+    - scripts/replace_oscar_lg.js — replaces OSCAR II LG with MHCLG (2020-2023)
+    - scripts/inject_local_gov.js — injects MHCLG Revenue Outturn (any year)
+  Disclaimer: shown in Galaxy + Budget Explorer for UK root node.
+
+  2024 fiscal consolidation summary (after netting):
+    Root: £1,380.5B
+    Active deductions applied to tree: £131B (NHS netting)
+    Disclosure-only overlaps: £95B (Barnett) + £34B (MHCLG grants) = £129B
+    Total transparent deductions in intergovernmental_uk_2024.json: £225B (16.3%)
+
+  2023 fiscal consolidation summary (after netting + OSCAR 2023 fix):
+    Root: £1,372.5B (down from £1,610.8B raw OSCAR — three layers of fixes)
+    Active deductions applied to tree:
+      - v13 NHS netting:        £124.2B (NHS Provider Sector overlap)
+      - OSCAR 2023 fix:         £114.1B (Non-patient-facing artifact)
+      - LA replacement:          £42.6B (OSCAR II LG → MHCLG)
+      - LegacyukLa removal:           — (uk_la legacy from 2017-2019)
+    Disclosure-only overlaps: £88B (Barnett) + £30B (MHCLG grants)
+    Total transparent deductions in intergovernmental_uk_2023.json: £202B (14.7%)
+
+US ($0.7-1.3T potential, 19-29% of state gross):
+  Federal and state/local shown separately in current visualization. No overlap.
+  State parser uses "Expenditure1" (total) for root, "Direct expenditure by function" for categories.
+  Federal grants to states: $0.58T (2013) → $1.26T (2022), mostly Medicaid + education + highways.
+  Script: scripts/deduce_intergovernmental_us.js — extracts "From Federal Government" revenue per state.
+  Net tree files: data/us/states/us_states_tree_{year}_net.json (with _net_value + _federal_grants fields).
+  Deduction files: data/us/intergovernmental_us_{year}.json (2012-2022).
+  RULE: When combining Federal + States in Multiverse, use _net_value (not value) to avoid ~$1T+ overlap.
+  Ratio check (2022): Federal $6.75T / States net $3.04T = 2.2x (sqrt radii 1.49x — comparable to DE).
+
+RULE FOR FUTURE COUNTRIES: When adding a new government level (subnational, social insurance),
+  always create intergovernmental_{cc}_{year}.json documenting transfer amounts.
+
+OSCAR 2023 NHS DATA QUALITY FIX (April 10, 2026) — FORENSIC INVESTIGATION
+--------------------------------------------------------------------------
+SYMPTOM
+  After applying v13 NHS netting to both 2023 and 2024, the YoY comparison
+  showed UK 2023→2024 dropping by £106B (£1,486B → £1,380B). UK total managed
+  expenditure should be growing year over year, not shrinking. The drop was
+  spurious and concentrated almost entirely in DHSC.
+
+INVESTIGATION
+  1. Compared DHSC composition 2023 vs 2024:
+     - 2023: DHSC = £210.1B, NHS Trusts (residual) = £114.5B
+     - 2024: DHSC =  £83.4B, NHS Trusts (residual) =   £4.7B
+  2. The £4.7B residual in 2024 represents capital + non-EXP0390 items
+     (TAC EXP0390 captures ~96% of DHSC NHS Trusts allocation). The £114.5B
+     in 2023 was 24x larger than expected, suggesting an additional source
+     of double-counting that v13 netting did not catch.
+  3. Walked the pre-netting backup tree for 2023 DHSC > NHS Trusts:
+       £238.69B  NHS Trusts (parent)
+         £124.62B  7.A Medical services
+           £123.04B  Other NHS Trust Spending
+           £   6.62B  NHS North East and North Cumbria ICB
+           ... (42 ICBs, sum = £115.65B)
+         £114.07B  n/a > Non-patient-facing NHS expenditure
+  4. Found TWO levels of structural problems in OSCAR 2023:
+     (a) Internal bug in 7.A Medical services: parent value £124.62B but
+         children sum to £238.69B. Caused by old enrich_uk_nhs.js injecting
+         42 ICBs ALONGSIDE "Other NHS Trust Spending" instead of replacing it.
+     (b) "Non-patient-facing NHS expenditure" line £114.07B inside NHS Trusts
+         that does NOT exist in OSCAR 2024 schema.
+  5. Compared OSCAR 2023 vs OSCAR 2024 DHSC > NHS Trusts structure side-by-side
+     using both pre-netting backups:
+       OSCAR 2023: NHS Trusts = £238.69B
+         > 7.A Medical services £124.62B + Non-patient-facing £114.07B
+       OSCAR 2024: NHS Trusts = £135.54B
+         > 42 ICBs (clean) + Other NHS Trust Spending. NO Non-patient-facing line.
+     This is evidence that HM Treasury cleaned up the OSCAR schema between
+     the 2023 and 2024 release, eliminating the "Non-patient-facing" bucket.
+
+CROSS-REFERENCED GROUND TRUTH (independent sources)
+  - DHSC Annual Report 2022-23: total resource outturn £177.1B
+    https://www.gov.uk/government/publications/dhsc-annual-report-and-accounts-2022-to-2023
+  - HM Treasury PSA July 2023: DHSC total DEL £181.7B
+    https://www.gov.uk/government/statistics/public-spending-statistics-release-july-2023/public-spending-statistics-july-2023
+  - NHS England Annual Report 2022-23: total expenditure £155.1B
+    https://www.gov.uk/government/publications/nhs-england-annual-report-and-accounts-2022-to-2023
+  Our pre-fix OSCAR 2023 DHSC = £334.3B was nearly 2x the published figure.
+  The £152.6B overshoot is approximately the size of NHS England commissioning
+  (£153B), confirming cross-node double-counting was being captured at both
+  the commissioner (NHS England) and provider (NHS Trusts) levels.
+
+FIX APPLIED — scripts/fix_oscar_2023_nhs.js
+  Reduced DHSC > NHS Trusts (residual after v13 netting) by exactly £114.07B,
+  the documented value of the Non-patient-facing line. Sets _oscar_2023_fix=true
+  on the node with full provenance metadata (_oscar_2023_fix_amount,
+  _oscar_2023_fix_note explaining what was removed and why).
+
+  Pre-fix:  DHSC £210.08B, NHS Trusts £114.47B, root £1,486.56B
+  Post-fix: DHSC  £96.01B, NHS Trusts  £0.41B, root £1,372.49B
+
+  Reconciliation:
+    NHS Trusts residual £0.405B / TAC EXP0390 £124.22B = 0.3% overhead
+    2024 reference:     £4.700B / TAC EXP0390 £130.84B = 3.6% overhead
+  Both years have residual ratios consistent with capital + non-EXP0390 items,
+  though 2023's 0.3% is suspiciously low (see KNOWN LIMITATION below).
+
+YOY VALIDATION POST-FIX
+  2022 → 2023: £1,257.6B → £1,372.5B (+£114.9B, post-COVID recovery)
+  2023 → 2024: £1,372.5B → £1,380.5B (+£8.0B, steady growth)
+  vs PRE-FIX:
+  2023 → 2024: £1,486.6B → £1,380.5B (-£106.0B, spurious drop)
+
+KNOWN LIMITATION
+  The 0.3% (2023) vs 3.6% (2024) residual ratio suggests the 2023 residual
+  should probably be £4-5B rather than £0.4B. We can only know the exact value
+  by comparing against TAC 2022/23 capital expenditure data, which we don't
+  currently have. The fix is therefore conservative: we removed exactly the
+  documented £114.07B Non-patient-facing line, no more, no less. We did NOT
+  invent a synthetic adjustment to match the 2024 ratio. This limitation is
+  documented in the _oscar_2023_fix_note metadata on the node and in
+  data/uk/intergovernmental_uk_2023.json oscar_2023_data_quality_fix section.
+
+WHAT THIS TELLS US ABOUT HM TREASURY OSCAR
+  OSCAR is not a single static schema. HM Treasury revises the structure
+  between annual releases. OSCAR 2023 had a "Non-patient-facing NHS expenditure"
+  bucket inside NHS Trusts that essentially captured cross-flows from NHS
+  England commissioning, creating systematic double-counting. OSCAR 2024
+  removed this bucket entirely. Future years should be checked for similar
+  schema-level changes by comparing the same dept's structure across releases.
 
 KNOWN ISSUES / CAVEATS
 -----------------------
 - DE 2023: €812.5B Bundeshaushalt includes crisis stabilization funds (warning shown)
-- DE double-counting: ~€100B in federal-to-SV transfers counted twice (disclaimer shown)
+- DE double-counting: €110-180B in federal-to-SV transfers (6-8%) — disclaimer shown, deduction JSONs created
 - Länder functional depth only 2017-2021 (Destatis 3-4 year publication delay)
 - Länder 2022-2023 per-state totals only (Kassenergebnis), 2025 partial (Q1-Q3)
 - FR 2015-2019: Mission-level (no ministry grouping), 2017 is LFI not PLF (source truncated)
-- FR Protection Sociale = all regimes, broader than just Sécurité Sociale institutions
+- FR double-counting: €60-170B overlap PLF/DREES (5-10%) — disclaimer shown, deduction JSONs created
 - UK 2015-2019: OSCAR totals (750-960B) differ from OSCAR II 2020+ (1200-1700B) due to data model
-- UK Local Authorities = England only (Scotland/Wales/NI separate)
+- UK double-counting: £55-95B Barnett grants (5-7%) — disclaimer shown, deduction JSONs created
+- UK Local Authorities = England only (Scotland/Wales/NI shown as separate devolved spheres)
+- UK 2023 OSCAR data quality artifact: £114B Non-patient-facing NHS expenditure line removed
+  via scripts/fix_oscar_2023_nhs.js. Residual ratio (0.3%) is suspiciously low compared to
+  2024 (3.6%); may need refinement when TAC 2022/23 capital data becomes available.
+- UK YoY volatility 2018-2022 reflects OSCAR I→II schema transition and COVID spike, not
+  data errors. 2023→2024 is now clean (+£8B) after OSCAR 2023 fix.
+- UK Birmingham FY 2023-24 spend > £500: NOT AVAILABLE as machine-readable data.
+  City Observatory rolling window purged it before any Wayback snapshot. data.gov.uk
+  never had Birmingham. Birmingham issued S114 notice Sept 2023 — transparency erratic.
+  Only path: FOI request. processBirmingham() preserved in script for FY 2024-25.
+- UK S251 Education breakdown coverage: ~149-151 of 401 councils per year. The other
+  ~250 councils are Shire Districts (no statutory education role) + Police/Fire/Combined
+  Authorities (no education role) + ~10-12 Combined Authorities receiving Adult Education
+  Budget that DfE doesn't include in S251. This is by-design coverage, not a bug.
+- UK council spend > £500 metadata: only 4 councils currently (Camden, Rochdale, Manchester,
+  Leeds). Each council requires custom service-area mapping. Generalizing to 401 would
+  require ~3-5 hours per council and many councils don't publish machine-readable data.
 - DGUV 2025 not yet published (expected mid-2026)
 - Spending type analysis only works for DE Bundeshaushalt (Titel-based codes)
 - Canvas 2D would improve multiverse performance but is a big rewrite
+
+LESSONS LEARNED (April 7, 2026)
+---------------------------------
+1. NEVER modify tree JSON files on disk to restructure them. The Multiverse is extremely
+   fragile to structural changes (negative values, zero-value parents, circular refs).
+   Instead, restructure IN MEMORY in the frontend JavaScript using async functions like
+   _loadUSCombinedTree() and _loadUKCombinedTree(). This keeps source files untouched
+   and allows the catch() to prevent full Multiverse crashes.
+
+2. OSCAR UK data contains negative accounting values (e.g. -£37B Export Credits).
+   Clamping negatives to 0 creates zero-value parent nodes with children, which
+   d3.pack() CANNOT handle (produces NaN radii → black screen). The correct fix is
+   to either: (a) remove zero-value leaf nodes after clamping, OR (b) never modify
+   the source files and handle in-memory only.
+
+3. After ANY frontend change, always validate JS syntax before deploying:
+   node -e "const h=require('fs').readFileSync('frontend/index.html','utf8');
+   const s=h.indexOf('<script>');const e=h.lastIndexOf('</script>');
+   try{new Function(h.slice(s+8,e));console.log('OK')}catch(e){console.log('ERR:'+e.message)}"
+
+4. Always keep a backup of the last working frontend:
+   data/backups/index.html.working.YYYY-MM-DD
+   If something breaks, restore immediately: cp backup frontend/index.html && scp deploy
+
+5. When re-applying changes after a revert, apply incrementally:
+   a. Start from the last working version (git show HEAD:frontend/index.html)
+   b. Apply HTML-only changes first (disclaimers, About section) — deploy and test
+   c. Then apply JS changes one at a time — deploy and test each
+   d. The Multiverse fetch block is the most dangerous — save it for last
+
+6. const declarations at module scope CANNOT be duplicated (e.g. const REGION_COLORS
+   existed in old code AND in new USA States code → SyntaxError killed entire page).
+   Always grep for existing variable names before declaring new ones.
+
+7. For subnational data integration pattern:
+   a. Parse source data into standalone tree JSONs (data/{cc}/states/ or devolved/)
+   b. Create _load{CC}CombinedTree() async function in frontend
+   c. Fetch original tree + subnational tree in parallel
+   d. Combine in memory: spread original children + add subnational sphere
+   e. Use _net_value fields when deducting intergovernmental transfers
+   f. Never wrap original departments in a container sphere — keep them sueltos
+
+8. FORENSIC DEBUGGING PROCESS for source data quality issues (April 10, 2026):
+   When YoY values move in unexpected directions, do NOT assume the source data is
+   correct just because it's "official". Government accounting databases (OSCAR, PESA)
+   change schema between annual releases. Process:
+   a. Compute YoY deltas for the suspect metric across all available years
+   b. Identify which year(s) break the expected trend
+   c. Inspect the pre-modification backups to see the raw structure
+   d. Compare structural differences node-by-node between the broken year and a
+      known-good year (we did this for OSCAR 2023 vs 2024)
+   e. Cross-reference the suspect total against INDEPENDENT published figures
+      (annual reports, treasury statistics) — never trust a single source
+   f. When you find a discrepancy, prefer SURGICAL deductions of documented
+      line items over scaled adjustments. Document the exact value removed and
+      the source it came from.
+   g. Compute a sanity-check ratio (e.g., residual / TAC) and compare across years.
+      If the ratios don't match, document the discrepancy honestly rather than
+      adjusting the fix to make them match.
+   h. Save full provenance metadata on the modified node (_fix_amount, _fix_note,
+      _original_value) so future sessions can audit and undo if needed.
+   See: scripts/fix_oscar_2023_nhs.js for a worked example.
+
+9. NEVER invent numbers to make ratios match across years. If 2023 residual is 0.3%
+   and 2024 is 3.6%, do NOT scale 2023 up to match. Document the discrepancy as a
+   known limitation. The user explicitly values honest disclosure of imperfect fixes
+   over polished but synthetic numbers. (Reinforces feedback_never_approximate_data.md.)
+
+10. METADATA vs TREE CHILDREN — when integrating two datasets that don't reconcile.
+    Some data sources count things differently and their totals don't match the parent
+    node value. Examples:
+      - Council Spend > £500 vs MHCLG net current expenditure (different basis)
+      - DHSC L5 supplier list (£137.9B gross) vs DHSC node post-netting (£83.4B)
+      - NHS Workforce composition (WTE) vs NHS staff costs (£) — same money, two lenses
+    When this happens, do NOT inject as tree children that "should" sum to the parent —
+    that would force you to either:
+      (a) lie about the numbers (scale to fit), or
+      (b) leave the tree integrity broken
+    Instead, attach as `_top_suppliers` / `_workforce` / `_<custom>` METADATA on the
+    node, with a `coverage_note` field that explicitly explains why the totals differ.
+    The frontend renders metadata as a separate visual panel (not as nested tree
+    children) so users immediately see it's a different accounting view.
+    Examples in the codebase:
+      - renderCouncilSuppliersPanel() — Council Spend > £500
+      - renderNHSStaffPanel() — NHS Workforce + cost types
+      - DHSC._top_suppliers — NHS L5 commissioning view
+    The teal sidebar color and "(transparency disclosure)" labeling distinguishes
+    metadata panels from real tree children visually.
+
+11. HEADER AUTO-DETECT for inconsistent CSV files. Government CSVs often have
+    inconsistent header positions: some files have a grand-total prefix row, some
+    have publication metadata, some are clean. Hardcoding `headerRowIdx: N` breaks
+    when even one file in the batch differs.
+    Solution: pass a `headerHint` string and search for it in the first 8 lines of
+    each file. Example: Manchester monthly CSVs have headers at row 2 in apr_2023
+    and may_2023 (with grand total prefix), but row 0 in the other 10 months. The
+    auto-detect found "Body Name" string and worked across all 12 files.
+    This is now the default pattern for processMonthlyCouncil() in
+    build_council_spend_lookup.js.
 
 CRITICAL DATA RULE
 -------------------
@@ -245,20 +1097,69 @@ If no machine-readable source exists, say so and don't fabricate.
 
 WHAT'S LEFT TO DO
 -----------------
-1. USA 50 STATES TAB (major feature)
-   - Census Bureau Excel files already downloaded: data/us/states_research/ (2012-2022)
-   - 50 states × 30 functional categories (education, welfare, highways, police, etc.)
-   - Research doc: data/us/states_research/STATE_DATA_SOURCES_RESEARCH.md
-   - Needs: parser script, new tab in frontend (reuse circle packing engine), API endpoint
-   - Values in thousands USD (multiply by 1000)
+1. USA 50 STATES IN MULTIVERSE — DONE (April 7, 2026)
+   - Federal agencies sueltas + "50 States" sphere, years 2017-2022
+   - Net of federal grants, regional colors, Budget Explorer integrated
 
-2. BUDGET COMPARATOR TAB (replace Galaxy tab)
+2. UK DEVOLVED NATIONS IN MULTIVERSE — DONE (April 7, 2026)
+   - Scotland, Wales, NI extracted from OSCAR flat list as sibling spheres
+   - In-memory restructuring via _loadUKCombinedTree(), source files untouched
+
+3. FISCAL CONSOLIDATION AUDIT — DONE (April 7, 2026, extended April 10)
+   - All 4 countries audited, deduction scripts + JSONs + disclaimers + About section
+   - April 10 extension: NHS Provider Sector overlap netting (2023, 2024)
+   - April 10 forensic fix: OSCAR 2023 Non-patient-facing artifact removed
+   - April 10: Local Government extended to all 8 UK years (2017-2024)
+
+3a. NHS HISTORICAL EXPANSION (partial, April 10, 2026)
+   - 2024 + 2023: full v13 NHS pipeline applied (provider sector + breakdown + ICB)
+   - 2024 + 2023: v16 staff cost types + supply/premises subcodes (Level 7)
+   - 2017-2022: not yet applied. Would require:
+     a) Downloading 6 more pairs of NHS TAC xlsx files (~50MB each) from NHS England
+     b) Pre-2022 ICB matching is impossible (CCGs existed until July 2022, Spine API
+        only returns current ICB structure)
+     c) For 2020-2021, OSCAR II NHS Trusts schema differs again — needs investigation
+        like the OSCAR 2023 forensic fix
+   - Recommended only if specific case for historical NHS YoY analysis arises.
+
+3b. NHS 2023 RESIDUAL REFINEMENT (low priority, April 10, 2026)
+   - Current 2023 NHS Trusts residual is £0.405B (0.3% of TAC)
+   - 2024 reference is £4.700B (3.6% of TAC)
+   - The 0.3% suggests our fix may have over-deducted by £4-5B, OR the 2024 ratio
+     is the anomaly and 2023 is closer to truth
+   - Cannot resolve without TAC 2022/23 capital expenditure data
+   - Documented as known limitation in oscar_2023_data_quality_fix metadata
+
+3c. S251 LOCAL GOV EDUCATION BREAKDOWN — DONE for 8 years (April 10, 2026)
+   - DfE Section 251 Outturn 2024-25 release (single zip with 10-year time series)
+   - 5-bucket breakdown per LA: Schools block / SEND / Early years / Central / Other education
+   - Coverage: ~149-151 councils per year (out of ~160 with positive Education spend)
+   - 11 unmatched per year are Combined Authorities + GLA (no statutory education role)
+   - Years applied: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 (all 8)
+
+3d. COUNCIL SPEND > £500 SUPPLIER METADATA — DONE for 4 councils (April 10, 2026)
+   - Camden (£740M), Rochdale (£469M), Manchester (£1,234M), Leeds (£1,708M)
+   - 31 service nodes total with _top_suppliers metadata
+   - Pattern: METADATA, NOT tree children (spend > £500 doesn't reconcile with MHCLG NCE)
+   - Birmingham FY 2023-24: NOT AVAILABLE (rolling window purged, FOI required)
+   - Only year currently: 2024. Historical years would need same per-council scraping.
+
+3e. DHSC L5 SUPPLIERS METADATA — DONE (April 10, 2026)
+   - Aggregated existing l5_department_of_health_2024.json (137.9B in 226 recipients)
+   - Top recipients: NHS ICBs (commissioning view, ~£100B) + DHSC directorates
+   - Same metadata pattern as council suppliers
+   - Coverage_note explains why total exceeds parent (v13 netting + OSCAR 2023 fix)
+
+4. FR COLLECTIVITÉS (data ready, not in UI)
+   - Eurostat S1313 COFOG data parsed: data/fr/collectivites/ (2015-2022)
+   - €246-295B across 9 functions. Could be added as "Collectivités" sphere in FR Multiverse
+   - Same pattern as US/UK: _loadFRCombinedTree() + on-the-fly restructuring
+
+5. BUDGET COMPARATOR TAB (replace Galaxy tab)
    - Side-by-side comparison: same country different years, or different countries same year
-   - Galaxy tab is redundant with Multiverse (both show same circle packing)
    - Comparator fills a real gap: "what changed and why"
-   - Fusion: move search/sidebar/lang-toggle from Galaxy into Multiverse
 
-3. NEW COUNTRIES (in priority order)
+6. NEW COUNTRIES (in priority order)
    - Japan: MOF budget data, e-Stat API, 47 prefectures
    - Canada: Open Canada, StatCan, 10 provinces
    - Australia: budget.gov.au CSV, 6 states
@@ -266,6 +1167,6 @@ WHAT'S LEFT TO DO
    - South Korea: KOSIS, Open Fiscal Data
    - Nordics (Sweden/Norway): SCB, SSB
 
-4. Mobile testing on real devices
-5. OG image could be improved (higher quality Multiverse screenshot)
-6. Canvas 2D for better Multiverse performance when scaling to 11 countries
+7. Consistent theme colors cross-country
+8. Mobile testing on real devices
+9. Canvas 2D for better Multiverse performance when scaling to 11 countries
