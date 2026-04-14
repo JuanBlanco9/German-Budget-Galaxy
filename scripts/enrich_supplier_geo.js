@@ -51,7 +51,8 @@ const COUNCIL_POSTCODES = {
   'Hertfordshire CC': ['AL', 'EN', 'HP', 'SG', 'WD'],
   'Buckinghamshire': ['HP', 'MK', 'SL'],
   'North Yorkshire': ['YO', 'HG', 'DL'],
-  'Bradford': ['BD']
+  'Bradford': ['BD'],
+  'Liverpool': ['L']
 };
 
 // Skip patterns — these are not companies

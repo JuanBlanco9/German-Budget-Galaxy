@@ -1065,6 +1065,20 @@ const LLM_COUNCILS = [
     source: 'Bradford Council Spend Over £500 (datahub.bradford.gov.uk)'
   },
   {
+    name: 'Liverpool',
+    code: 'E08000012',
+    dir: path.join(SPEND_DIR, 'liverpool'),
+    deptCol: 'Service Area',
+    purposeCol: 'Expense Type',
+    amountCol: 'Actual Value',
+    supplierCol: 'Vendor',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'liverpool_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Liverpool City Council Spend Over £500 (liverpool.gov.uk)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],
