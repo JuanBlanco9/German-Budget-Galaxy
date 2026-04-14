@@ -58,7 +58,11 @@ const COUNCIL_POSTCODES = {
   'Essex CC': ['CM', 'SS', 'CO', 'IG', 'RM'],
   'West Sussex CC': ['BN', 'RH', 'PO'],
   'Greater London Authority': ['E', 'EC', 'N', 'NW', 'SE', 'SW', 'W', 'WC'],
-  'Lancashire CC': ['BB', 'FY', 'LA', 'PR', 'OL']
+  'Lancashire CC': ['BB', 'FY', 'LA', 'PR', 'OL'],
+  'Devon CC': ['EX', 'TQ', 'PL'],
+  'Staffordshire CC': ['ST', 'WS', 'DE', 'WV'],
+  'Lincolnshire CC': ['LN', 'PE', 'NG', 'DN'],
+  'Hampshire CC': ['SO', 'PO', 'GU', 'RG', 'SP']
 };
 
 // Skip patterns — these are not companies
