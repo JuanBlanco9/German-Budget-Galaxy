@@ -55,7 +55,8 @@ const COUNCIL_POSTCODES = {
   'Liverpool': ['L'],
   'Croydon': ['CR', 'SE'],
   'Coventry': ['CV'],
-  'Essex CC': ['CM', 'SS', 'CO', 'IG', 'RM']
+  'Essex CC': ['CM', 'SS', 'CO', 'IG', 'RM'],
+  'West Sussex CC': ['BN', 'RH', 'PO']
 };
 
 // Skip patterns — these are not companies

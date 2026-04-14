@@ -1121,6 +1121,20 @@ const LLM_COUNCILS = [
     source: 'Essex County Council Day-to-Day Spending (essex.gov.uk)'
   },
   {
+    name: 'West Sussex',
+    code: 'E10000032',
+    dir: path.join(SPEND_DIR, 'west_sussex'),
+    deptCol: 'Service Label',
+    purposeCol: 'Expenditure Category',
+    amountCol: 'Total',
+    supplierCol: 'Supplier name',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'west_sussex_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'West Sussex CC Spend Data (westsussex.gov.uk)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],
