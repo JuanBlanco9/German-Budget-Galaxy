@@ -28,19 +28,54 @@ const https = require('https');
 const LOOKUP = path.join(__dirname, '..', 'data', 'uk', 'local_authorities', 'spend', 'council_spend_lookup_2024.json');
 const FORCE = process.argv.includes('--force');
 const DRY_RUN = process.argv.includes('--dry-run');
-const DELAY_MS = 15000;  // 4/min
+// Authenticated requests get a much higher rate limit (~100/min vs 4/min).
+// Pass credentials via IA_ACCESS_KEY / IA_SECRET_KEY env vars — NEVER commit.
+const IA_ACCESS = process.env.IA_ACCESS_KEY || '';
+const IA_SECRET = process.env.IA_SECRET_KEY || '';
+const HAS_AUTH = IA_ACCESS && IA_SECRET;
+const DELAY_MS = HAS_AUTH ? 2000 : 15000;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// Query the /wayback/available endpoint to see if Wayback already has
+// a snapshot for this URL (from any prior crawl). No rate limit issues,
+// no auth needed. Returns { ok: true, url: snapshot_url } or { ok: false }.
+function waybackAvailable(url) {
+  return new Promise((resolve) => {
+    const apiUrl = 'https://archive.org/wayback/available?url=' + encodeURIComponent(url);
+    https.get(apiUrl, {
+      headers: { 'User-Agent': 'Budget-Galaxy-Audit/1.0 (budgetgalaxy.com)' }
+    }, (res) => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const j = JSON.parse(data);
+          const snap = j.archived_snapshots && j.archived_snapshots.closest;
+          if (snap && snap.available && snap.url) {
+            // Upgrade http:// to https:// for the returned URL
+            const u = snap.url.replace(/^http:\/\//, 'https://');
+            resolve({ ok: true, url: u, timestamp: snap.timestamp });
+          } else {
+            resolve({ ok: false });
+          }
+        } catch (e) {
+          resolve({ ok: false });
+        }
+      });
+    }).on('error', () => resolve({ ok: false }));
+  });
+}
 
 function waybackSave(url) {
   return new Promise((resolve) => {
     const saveUrl = 'https://web.archive.org/save/' + url;
-    const req = https.get(saveUrl, {
-      headers: {
-        'User-Agent': 'Budget-Galaxy-Audit/1.0 (budgetgalaxy.com)',
-        'Accept': 'text/html'
-      }
-    }, (res) => {
+    const headers = {
+      'User-Agent': 'Budget-Galaxy-Audit/1.0 (budgetgalaxy.com)',
+      'Accept': 'text/html'
+    };
+    if (HAS_AUTH) headers['Authorization'] = `LOW ${IA_ACCESS}:${IA_SECRET}`;
+    const req = https.get(saveUrl, { headers }, (res) => {
       // Wayback Save Page Now returns a 302 redirect where `location`
       // header points at the new snapshot URL. NOT content-location.
       const loc = res.headers['location'] || res.headers['content-location'];
@@ -96,32 +131,42 @@ async function main() {
     return;
   }
 
-  let ok = 0, fail = 0;
+  let existing = 0, fresh = 0, fail = 0;
   for (let i = 0; i < tasks.length; i++) {
     const t = tasks[i];
     process.stdout.write(`[${i + 1}/${tasks.length}] ${t.name}... `);
-    const result = await waybackSave(t.url);
-    if (result.ok) {
-      t.target.archive_url = result.url;
+
+    // Pass 1: check if Wayback already has a snapshot
+    const avail = await waybackAvailable(t.url);
+    if (avail.ok) {
+      t.target.archive_url = avail.url;
       t.target.captured_at = now;
-      console.log(`✓ ${result.url.slice(0, 80)}`);
-      ok++;
+      t.target.archive_status = 'existing';
+      console.log(`✓ existing (${avail.timestamp}) ${avail.url.slice(0, 60)}`);
+      existing++;
     } else {
-      // Fallback: use wildcard Wayback search as the "archive" URL. It
-      // may or may not resolve to a real snapshot, but it gives the user
-      // a starting point for manual verification.
-      t.target.archive_url = 'https://web.archive.org/web/*/' + t.url;
-      t.target.captured_at = now;
-      t.target.archive_status = 'pending';
-      console.log(`✗ ${result.status || result.error || 'unknown'} — fallback to wildcard`);
-      fail++;
+      // Pass 2: no existing snapshot — try Save Page Now
+      const result = await waybackSave(t.url);
+      if (result.ok) {
+        t.target.archive_url = result.url;
+        t.target.captured_at = now;
+        t.target.archive_status = 'fresh';
+        console.log(`✓ fresh ${result.url.slice(0, 70)}`);
+        fresh++;
+      } else {
+        // Fallback: wildcard Wayback calendar URL
+        t.target.archive_url = 'https://web.archive.org/web/*/' + t.url;
+        t.target.captured_at = now;
+        t.target.archive_status = 'pending';
+        console.log(`✗ ${result.status || result.error || 'unknown'} — wildcard fallback`);
+        fail++;
+      }
     }
-    // Save progress after each request so we don't lose state on crash
     fs.writeFileSync(LOOKUP, JSON.stringify(lookup, null, 2), 'utf8');
     if (i < tasks.length - 1) await sleep(DELAY_MS);
   }
 
-  console.log(`\nDone: ${ok} snapshots, ${fail} fallbacks`);
+  console.log(`\nDone: ${existing} existing, ${fresh} fresh, ${fail} wildcard fallbacks`);
 }
 
 main().catch(e => { console.error('Fatal:', e); process.exit(1); });
