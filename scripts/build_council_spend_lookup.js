@@ -1093,6 +1093,20 @@ const LLM_COUNCILS = [
     source: 'Croydon Council Payments Over £500 (croydon.gov.uk)'
   },
   {
+    name: 'Coventry',
+    code: 'E08000026',
+    dir: path.join(SPEND_DIR, 'coventry'),
+    deptCol: 'Directorate(T)',
+    purposeCol: 'Proclass(T)',
+    amountCol: 'Amount',
+    supplierCol: 'Supplier(T)',
+    sep: ',',
+    encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'coventry_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Coventry City Council Spend Over £500 (coventry.gov.uk)'
+  },
+  {
     name: 'Birmingham',
     code: 'E08000025',
     files: [path.join(SPEND_DIR, 'birmingham_spend_2024_25.csv')],

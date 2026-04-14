@@ -53,7 +53,8 @@ const COUNCIL_POSTCODES = {
   'North Yorkshire': ['YO', 'HG', 'DL'],
   'Bradford': ['BD'],
   'Liverpool': ['L'],
-  'Croydon': ['CR', 'SE']
+  'Croydon': ['CR', 'SE'],
+  'Coventry': ['CV']
 };
 
 // Skip patterns — these are not companies
