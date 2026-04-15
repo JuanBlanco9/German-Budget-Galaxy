@@ -6,7 +6,9 @@
     "unique_patterns": 211,
     "other_services_count": 12,
     "other_services_pct": 5.7,
-    "note": "Patterns classified as Other Services may need manual review"
+    "note": "Patterns classified as Other Services may need manual review",
+    "refined_other_services": 6,
+    "refined_at": "2026-04-15T02:47:36.607Z"
   },
   "patterns": {
     "Adult Social Care|ACM Teams": "Adult Social Care",
@@ -30,9 +32,9 @@
     "Children's Services|Central": "Children's Social Care",
     "Business Services|Chief Executives": "Central Services",
     "Adult Social Care|Children's Homes": "Children's Social Care",
-    "Communities, Economies Transport|Combined Resources": "Other Services",
+    "Communities, Economies Transport|Combined Resources": "Transport",
     "Governance & Community Services|Communities": "Other Services",
-    "Governance & Community Services|Community Safety": "Other Services",
+    "Governance & Community Services|Community Safety": "Central Services",
     "Adult Social Care|Community Support Services": "Adult Social Care",
     "Children's Services|Connected Families Service Team": "Children's Social Care",
     "Children's Services|Contracts": "Children's Social Care",
@@ -58,7 +60,7 @@
     "Business Services|Education Non-Schools": "Education",
     "Children's Services|EH Community": "Children's Social Care",
     "Children's Services|EH Keywork": "Children's Social Care",
-    "Communities, Economies Transport|Emergency Planning": "Other Services",
+    "Communities, Economies Transport|Emergency Planning": "Transport",
     "Business Services|Engagement Strategy": "Central Services",
     "Business Services|Enterprise Tech, Platform Dev & Systems": "Central Services",
     "Communities, Economies Transport|Environment": "Environment",
@@ -168,7 +170,7 @@
     "Adult Social Care|Sussex Downs & Weald PCT": "Public Health",
     "Children's Services|SWIFT Services": "Children's Social Care",
     "Children's Services|Targeted Intervention": "Children's Social Care",
-    "Governance & Community Services|Trading Standards": "Other Services",
+    "Governance & Community Services|Trading Standards": "Environment",
     "Governance & Community Services|Training": "Central Services",
     "Adult Social Care|Training": "Adult Social Care",
     "Business Services|Transport & Environment": "Transport",
@@ -184,7 +186,7 @@
     "Communities, Economies Transport|ASC Transport Hub": "Transport",
     "Communities, Economies Transport|Bus Support Imp Plan": "Transport",
     "Adult Social Care|Comforts Funds": "Adult Social Care",
-    "Communities, Economies Transport|Communities, Economy and Transport": "Other Services",
+    "Communities, Economies Transport|Communities, Economy and Transport": "Transport",
     "Children's Services|Early Help and Social Care": "Children's Social Care",
     "Children's Services|Early Years & Primary": "Education",
     "Children's Services|Education Improvement": "Education",
@@ -218,7 +220,7 @@
     "Adult Social Care|Central": "Adult Social Care",
     "Business Services|ICT Development": "Central Services",
     "Business Services|Mgt and Support": "Central Services",
-    "Communities, Economies Transport|South East LEP": "Other Services",
+    "Communities, Economies Transport|South East LEP": "Transport",
     "Children's Services|Strategic Partnership": "Children's Social Care"
   }
 }
