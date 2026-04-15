@@ -34,7 +34,8 @@ const PRESETS = {
   surrey: 'https://www.surreyi.gov.uk/dataset/council-spending',
   mps:    'https://www.met.police.uk/foi-ai/metropolitan-police/disclosure-2023/',
   london: 'https://data.london.gov.uk/dataset?q=mopac+spend',
-  hampshire: 'https://www.hants.gov.uk/aboutthecouncil/informationandstats/opendata/opendatasearch/supplierpayments'
+  hampshire: 'https://www.hants.gov.uk/aboutthecouncil/informationandstats/opendata/opendatasearch/supplierpayments',
+  enfield: 'https://www.enfield.gov.uk/services/your-council/what-we-spend-and-how-we-spend-it'
 };
 
 async function main() {

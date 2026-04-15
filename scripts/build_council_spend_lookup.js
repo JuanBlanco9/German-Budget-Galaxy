@@ -1231,7 +1231,205 @@ const LLM_COUNCILS = [
     mappingFile: path.join(SPEND_DIR, 'birmingham_dept_mapping.json'),
     fyLabel: '2024/25',
     source: 'Birmingham City Council Spend Over £500 (City Observatory, FY 2024-25)'
-  }
+  },
+
+  // ═══ LONDON BOROUGHS (session 2026-04-14/15) ═══
+
+  { name: 'City of London', code: 'E09000001', dir: path.join(SPEND_DIR, 'city_of_london'),
+    deptCol: 'Department', purposeCol: 'Purpose of Expenditure', amountCol: 'Net Amount',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'city_of_london_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'City of London Corporation — Local Authority Expenditure monthly XLSX (cityoflondon.gov.uk)' },
+
+  { name: 'Havering', code: 'E09000016', dir: path.join(SPEND_DIR, 'havering'),
+    deptCol: 'Local Authority Department', purposeCol: 'Purpose of Expenditure', amountCol: 'Amount (excluding VAT)',
+    supplierCol: 'Beneficiary', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'havering_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Havering — Spend Over £500 (havering.gov.uk)' },
+
+  { name: 'Greenwich', code: 'E09000011', dir: path.join(SPEND_DIR, 'greenwich'),
+    deptCol: 'LA Department', purposeCol: 'Expenditure Category/Description', amountCol: 'Invoice Line Amount',
+    supplierCol: 'Creditor_Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'greenwich_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Royal Borough of Greenwich — Greater than £500 quarterly (royalgreenwich.gov.uk)' },
+
+  { name: 'Haringey', code: 'E09000014', dir: path.join(SPEND_DIR, 'haringey'),
+    deptCol: 'Department', purposeCol: 'Purpose', amountCol: 'Amount',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'haringey_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Haringey — Council Expenditure quarterly (haringey.gov.uk)' },
+
+  { name: 'Harrow', code: 'E09000015', dir: path.join(SPEND_DIR, 'harrow'),
+    deptCol: 'Department', purposeCol: 'Category/Purpose', amountCol: 'Gross',
+    supplierCol: 'Updated Beneficiary', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'harrow_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Harrow — Council Spend quarterly (harrow.gov.uk)' },
+
+  { name: 'Westminster', code: 'E09000033', dir: path.join(SPEND_DIR, 'westminster'),
+    deptCol: 'Department', purposeCol: 'Expense type', amountCol: 'Amount',
+    supplierCol: 'Supplier name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'westminster_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Westminster City Council — Expenditure Over £500 quarterly (westminster.gov.uk)' },
+
+  { name: 'Barking and Dagenham', code: 'E09000002', dir: path.join(SPEND_DIR, 'barking_dagenham'),
+    deptCol: 'Cost Centre Description', purposeCol: 'Nominal Description', amountCol: 'Gross',
+    supplierCol: 'Supplier', sep: ',', encoding: 'utf8', headerHint: 'Supplier',
+    mappingFile: path.join(SPEND_DIR, 'barking_dagenham_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Barking & Dagenham — Payments over £250 (lbbd.gov.uk, filtered to £500+)' },
+
+  { name: 'Bexley', code: 'E09000004', dir: path.join(SPEND_DIR, 'bexley'),
+    deptCol: 'Service Area', purposeCol: 'Expense Type', amountCol: 'Amount',
+    supplierCol: 'Supplier', sep: ',', encoding: 'utf8', headerHint: 'Supplier',
+    mappingFile: path.join(SPEND_DIR, 'bexley_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Bexley — Payments over £500 (bexley.gov.uk)' },
+
+  { name: 'Islington', code: 'E09000019', dir: path.join(SPEND_DIR, 'islington'),
+    deptCol: 'Department', purposeCol: 'Spend Type', amountCol: 'Net Amount',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'islington_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Islington — Council Spending quarterly (islington.gov.uk)' },
+
+  { name: 'Kensington and Chelsea', code: 'E09000020', dir: path.join(SPEND_DIR, 'rbkc'),
+    deptCol: 'Directorate / service where expenditure incurred', purposeCol: 'purpose_of_spend', amountCol: 'Net Amount',
+    supplierCol: 'Supplier (Beneficiary) name', sep: ',', encoding: 'latin1',
+    mappingFile: path.join(SPEND_DIR, 'rbkc_dept_mapping.json'),
+    fyLabel: '2023/24 (calendar quarters)',
+    source: 'Royal Borough of Kensington & Chelsea — Suppliers/Contracts/Transactions calendar quarterly (rbkc.gov.uk)' },
+
+  { name: 'Tower Hamlets', code: 'E09000030', dir: path.join(SPEND_DIR, 'tower_hamlets'),
+    deptCol: 'Directorate', purposeCol: 'Expense Type', amountCol: 'Net Amount',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'tower_hamlets_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Tower Hamlets — 250 Spend (towerhamlets.gov.uk, filtered to £500+)' },
+
+  { name: 'Barnet', code: 'E09000003', dir: path.join(SPEND_DIR, 'barnet'),
+    deptCol: 'Directorate', purposeCol: 'Expenditure Type', amountCol: 'Expenditure Amount (exc VAT)',
+    supplierCol: 'Vendor Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'barnet_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Barnet — Expenditure Reporting (open.barnet.gov.uk CKAN)' },
+
+  { name: 'Brent', code: 'E09000005', dir: path.join(SPEND_DIR, 'brent'),
+    deptCol: 'Cost Centre Description', purposeCol: 'Subjective Description', amountCol: 'Amount',
+    supplierCol: 'Vendor Name 2', sep: ',', encoding: 'utf8', headerHint: 'Vendor Name',
+    mappingFile: path.join(SPEND_DIR, 'brent_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Brent — What We Spend quarterly (data.brent.gov.uk CKAN)' },
+
+  { name: 'Hounslow', code: 'E09000018', dir: path.join(SPEND_DIR, 'hounslow'),
+    deptCol: 'OrganisationalUnit', purposeCol: 'Purpose', amountCol: 'Amount',
+    supplierCol: 'BeneficiaryName', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'hounslow_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Hounslow — Invoices over £500 (data.hounslow.gov.uk / Datopian)' },
+
+  { name: 'Ealing', code: 'E09000009', dir: path.join(SPEND_DIR, 'ealing'),
+    deptCol: 'Service Label', purposeCol: 'Expenditure Category', amountCol: 'Net Amount',
+    supplierCol: 'Amended Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'ealing_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Ealing — Council Spending Over £250 (ealing.gov.uk, filtered to £500+)' },
+
+  { name: 'Richmond', code: 'E09000027', dir: path.join(SPEND_DIR, 'richmond'),
+    deptCol: 'DIRECTORATE', purposeCol: 'ACTIVITY', amountCol: 'PAYMENT AMOUNT',
+    supplierCol: 'PAYEE', sep: ',', encoding: 'latin1',
+    mappingFile: path.join(SPEND_DIR, 'richmond_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Richmond upon Thames — Council Payments to Suppliers (richmond.gov.uk)' },
+
+  { name: 'Wandsworth', code: 'E09000032', dir: path.join(SPEND_DIR, 'wandsworth'),
+    deptCol: 'DIRECTORATE', purposeCol: 'ACTIVITY', amountCol: 'PAYMENT AMOUNT',
+    supplierCol: 'PAYEE', sep: ',', encoding: 'latin1',
+    mappingFile: path.join(SPEND_DIR, 'wandsworth_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Wandsworth — Council Expenditure (wandsworth.gov.uk)' },
+
+  { name: 'Newham', code: 'E09000025', dir: path.join(SPEND_DIR, 'newham'),
+    deptCol: 'Local Authority Department', purposeCol: 'Purpose', amountCol: 'Amount',
+    supplierCol: 'BENEFICIARY', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'newham_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Newham — Payments to Suppliers over £250 (newham.gov.uk, filtered to £500+)' },
+
+  { name: 'Redbridge', code: 'E09000026', dir: path.join(SPEND_DIR, 'redbridge'),
+    deptCol: 'Directorate', purposeCol: 'Service', amountCol: 'Amount',
+    supplierCol: 'Supplier description', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'redbridge_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Redbridge — Payments Over £500 (data.redbridge.gov.uk)' },
+
+  { name: 'Hillingdon', code: 'E09000017', dir: path.join(SPEND_DIR, 'hillingdon'),
+    deptCol: 'Cclvl4 Desc', purposeCol: 'Account Desc', amountCol: 'Distrib Amount SUM',
+    supplierCol: 'Vendor Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'hillingdon_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Hillingdon — Council Spending Over £500 (pre.hillingdon.gov.uk)' },
+
+  { name: 'Enfield', code: 'E09000010', dir: path.join(SPEND_DIR, 'enfield'),
+    deptCol: 'Service Area Categorisation', purposeCol: 'Expenses Type', amountCol: 'Net Amount',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'enfield_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Enfield — Monthly Transactions over £250 (enfield.gov.uk, via Playwright profile; filtered to £500+)' },
+
+  { name: 'Kingston upon Thames', code: 'E09000021', dir: path.join(SPEND_DIR, 'kingston'),
+    deptCol: 'Expense Area', purposeCol: 'Expense Type', amountCol: 'Amount £ (Excl VAT)',
+    supplierCol: 'Supplier name', sep: ',', encoding: 'latin1',
+    mappingFile: path.join(SPEND_DIR, 'kingston_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Royal Borough of Kingston upon Thames — Over £500 Transparency Code (kingston.gov.uk)' },
+
+  { name: 'Sutton', code: 'E09000029', dir: path.join(SPEND_DIR, 'sutton'),
+    deptCol: 'Expense Area', purposeCol: 'Expense Type', amountCol: 'Amount £ (Excl VAT)',
+    supplierCol: 'Supplier name', sep: ',', encoding: 'latin1',
+    mappingFile: path.join(SPEND_DIR, 'sutton_dept_mapping.json'),
+    fyLabel: '2023/24 (11/12 months, Sep 2023 gap)',
+    source: 'London Borough of Sutton — Payments over £500 (sutton.gov.uk, Liferay DMS, Sep 2023 missing from source)' },
+
+  { name: 'Lewisham', code: 'E09000023', dir: path.join(SPEND_DIR, 'lewisham'),
+    deptCol: 'DEPARTMENT', purposeCol: 'DESCRIPTION', amountCol: '£ SPEND (EXCLUDING VAT)',
+    supplierCol: 'SUPPLIER', sep: ',', encoding: 'utf8', headerHint: 'SUPPLIER',
+    mappingFile: path.join(SPEND_DIR, 'lewisham_dept_mapping.json'),
+    fyLabel: '2023/24 (10/12 months, Apr+Jun 2023 broken upstream)',
+    source: 'London Borough of Lewisham — Council Spending Over £250 (lewisham.gov.uk, filtered to £500+)' },
+
+  { name: 'Hammersmith and Fulham', code: 'E09000013', dir: path.join(SPEND_DIR, 'hammersmith_fulham'),
+    deptCol: 'Cost Center/Capital Project Description', purposeCol: 'GL Account Description', amountCol: 'Amount (Ex VAT)',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'hammersmith_fulham_dept_mapping.json'),
+    fyLabel: '2023/24 (3/4 quarters, Q3 Oct-Dec 2023 unrecoverable)',
+    source: 'London Borough of Hammersmith & Fulham — Spend Data quarterly (lbhf.gov.uk, Q1+Q2 via live origin UA override, Q3 FOI-only)' },
+
+  { name: 'Waltham Forest', code: 'E09000031', dir: path.join(SPEND_DIR, 'waltham_forest'),
+    deptCol: 'Division', purposeCol: 'Service', amountCol: 'Invoice Amount',
+    supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'waltham_forest_dept_mapping.json'),
+    fyLabel: '2023/24 (7/12 months, Apr-Aug 2023 purged by rolling window)',
+    source: 'London Borough of Waltham Forest — Council Spending above £500 (walthamforest.gov.uk)' },
+
+  { name: 'Bromley', code: 'E09000006', dir: path.join(SPEND_DIR, 'bromley'),
+    deptCol: 'Portfolio', purposeCol: 'Merchant Category', amountCol: 'Net Amount',
+    supplierCol: 'Supplier_Name', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'bromley_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'London Borough of Bromley — Payments to Suppliers Over £500 (bromley.gov.uk)' },
+
+  { name: 'Hackney', code: 'E09000012', dir: path.join(SPEND_DIR, 'hackney'),
+    deptCol: '7. DEPARTMENT', purposeCol: '8. PURPOSE OF EXPENDITURE', amountCol: 'Total',
+    supplierCol: '5. BENEFICIARY', sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'hackney_dept_mapping.json'),
+    fyLabel: '2023/24 (11/12 months, May 2023 mislabeled in source)',
+    source: 'London Borough of Hackney — Council Spending Over £250 (hackney.gov.uk via Google Drive, filtered to £500+)' }
 ];
 
 // ─── Main ─────────────────────────────────────────────
@@ -1242,11 +1440,26 @@ console.log(`Building council spend lookup for ${YEAR}\n`);
 // Previously this script overwrote the lookup file every run and silently dropped GLA.
 const lookup = fs.existsSync(OUTPUT) ? JSON.parse(fs.readFileSync(OUTPUT, 'utf8')) : {};
 
+// Helper: merge newly-built council entry with preserved audit trail fields
+// (source_url, archive_url, captured_at, archive_files) from the existing
+// entry. Without this, re-running the build clobbers archive.org mirror URLs
+// populated by archive_sources.js and upload_to_archive_org.js.
+function mergeEntry(name, newEntry) {
+  const existing = lookup[name] || {};
+  lookup[name] = Object.assign({}, newEntry, {
+    source_url: existing.source_url || newEntry.source_url,
+    archive_url: existing.archive_url || newEntry.archive_url,
+    captured_at: existing.captured_at || newEntry.captured_at,
+    archive_status: existing.archive_status || newEntry.archive_status,
+    archive_files: existing.archive_files || newEntry.archive_files
+  });
+}
+
 // ── Manual processors (battle-tested, kept as-is) ──
 
 const camden = processCamden(YEAR);
 if (camden) {
-  lookup['Camden'] = camden;
+  mergeEntry('Camden', camden);
   console.log(`  Camden: £${(camden.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(camden.services).length} services\n`);
   Object.entries(camden.services).forEach(([svc, d]) => {
     console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
@@ -1256,7 +1469,7 @@ console.log();
 
 const birmingham = processBirmingham(YEAR);
 if (birmingham) {
-  lookup['Birmingham'] = birmingham;
+  mergeEntry('Birmingham', birmingham);
   console.log(`\n  Birmingham: £${(birmingham.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(birmingham.services).length} services\n`);
   Object.entries(birmingham.services).forEach(([svc, d]) => {
     console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
@@ -1266,7 +1479,7 @@ if (birmingham) {
 console.log();
 const rochdale = processRochdale(YEAR);
 if (rochdale) {
-  lookup['Rochdale'] = rochdale;
+  mergeEntry('Rochdale', rochdale);
   console.log(`\n  Rochdale: £${(rochdale.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(rochdale.services).length} services\n`);
   Object.entries(rochdale.services).sort((a,b) => b[1].service_total_in_spend_data - a[1].service_total_in_spend_data).forEach(([svc, d]) => {
     console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
@@ -1276,7 +1489,7 @@ if (rochdale) {
 console.log();
 const manchester = processManchester(YEAR);
 if (manchester) {
-  lookup['Manchester'] = manchester;
+  mergeEntry('Manchester', manchester);
   console.log(`\n  Manchester: £${(manchester.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(manchester.services).length} services\n`);
   Object.entries(manchester.services).sort((a,b) => b[1].service_total_in_spend_data - a[1].service_total_in_spend_data).forEach(([svc, d]) => {
     console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
@@ -1286,7 +1499,7 @@ if (manchester) {
 console.log();
 const leeds = processLeeds(YEAR);
 if (leeds) {
-  lookup['Leeds'] = leeds;
+  mergeEntry('Leeds', leeds);
   console.log(`\n  Leeds: £${(leeds.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(leeds.services).length} services\n`);
   Object.entries(leeds.services).sort((a,b) => b[1].service_total_in_spend_data - a[1].service_total_in_spend_data).forEach(([svc, d]) => {
     console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
@@ -1299,7 +1512,7 @@ for (const cfg of LLM_COUNCILS) {
   console.log();
   const result = processCouncilWithMapping(cfg);
   if (result) {
-    lookup[cfg.name] = result;
+    mergeEntry(cfg.name, result);
     console.log(`\n  ${cfg.name}: £${(result.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(result.services).length} services\n`);
     Object.entries(result.services).sort((a, b) => b[1].service_total_in_spend_data - a[1].service_total_in_spend_data).forEach(([svc, d]) => {
       console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);

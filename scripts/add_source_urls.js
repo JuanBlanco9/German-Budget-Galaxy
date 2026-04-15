@@ -57,7 +57,37 @@ const COUNCIL_URLS = {
   'Surrey': 'https://www.surreyi.gov.uk/dataset/council-spending',
 
   // GLA: council-level fallback. Per-service URLs set below override this.
-  'Greater London Authority': 'https://data.london.gov.uk/dataset/gla-group-expenditure-over-250'
+  'Greater London Authority': 'https://data.london.gov.uk/dataset/gla-group-expenditure-over-250',
+
+  // Session 2026-04-15 London Borough additions
+  'City of London': 'https://www.cityoflondon.gov.uk/about-us/budgets-spending/local-authority-expenditure',
+  'Havering': 'https://www.havering.gov.uk/council-data-spending/spend-500',
+  'Greenwich': 'https://www.royalgreenwich.gov.uk/downloads/download/1402/quarterly_payments_in_2023_and_2024',
+  'Haringey': 'https://haringey.gov.uk/business/selling-to-council/council-expenditure',
+  'Harrow': 'https://www.harrow.gov.uk/downloads/download/12587/council-budgets-and-spending',
+  'Westminster': 'https://www.westminster.gov.uk/about-council/transparency/spending-procurement-and-data-transparency/202324',
+  'Barking and Dagenham': 'https://www.lbbd.gov.uk/council-and-democracy/performance-and-spending/corporate-procurement/payments-over-ps250-and-ps500',
+  'Bexley': 'https://www.bexley.gov.uk/bexley-business-employment/business-services/contracts-tenders-and-procurement/expenditure-records/publication-payments-over-ps500',
+  'Islington': 'https://www.islington.gov.uk/about-the-council/information-governance/freedom-of-information/publication-scheme/what-we-spend-and-how-we-spend-it/council-spending',
+  'Kensington and Chelsea': 'https://www.rbkc.gov.uk/council-councillors-and-democracy/open-data-and-transparency/suppliers-contracts-transactions-equalities-information-and-staff-data',
+  'Tower Hamlets': 'https://www.towerhamlets.gov.uk/lgnl/council_and_democracy/transparency/payments_to_suppliers.aspx',
+  'Barnet': 'https://open.barnet.gov.uk/dataset/2331d/expenditure-reporting-202324',
+  'Brent': 'https://data.brent.gov.uk/dataset/vq756/what-we-spend',
+  'Hounslow': 'https://data.hounslow.gov.uk/@london-borough-of-hounslow/council-spending-over-500',
+  'Ealing': 'https://www.ealing.gov.uk/info/201041/council_budgets_and_spending/864/council_spending_over_250/1',
+  'Richmond': 'https://www.richmond.gov.uk/council_payments_to_suppliers',
+  'Wandsworth': 'https://www.wandsworth.gov.uk/the-council/how-the-council-works/council-finances/council-expenditure/',
+  'Newham': 'https://www.newham.gov.uk/council/council-spending',
+  'Redbridge': 'https://data.redbridge.gov.uk/View/finance/payments-over-500-2023-24',
+  'Hillingdon': 'https://pre.hillingdon.gov.uk/performance-spending/council-spending-500',
+  'Enfield': 'https://www.enfield.gov.uk/services/business-and-licensing/doing-business-with-the-council/monthly-reports-for-transactions-over-500',
+  'Kingston upon Thames': 'https://www.kingston.gov.uk/your-council/privacy-and-data/local-government-transparency-code/finance',
+  'Sutton': 'https://www.sutton.gov.uk/web/guest/w/local-government-transparency-code',
+  'Lewisham': 'https://lewisham.gov.uk/mayorandcouncil/aboutthecouncil/finances/council-spending-over-250/council-spending-over-250-in-2023-2024',
+  'Hammersmith and Fulham': 'https://www.lbhf.gov.uk/councillors-and-democracy/data-and-information/transparency/procurement-and-financial-data',
+  'Waltham Forest': 'https://www.walthamforest.gov.uk/council-and-elections/about-us/council-budgets-and-spending/council-transparency/spending-and-procurement-information/council-spending-above-ps500',
+  'Bromley': 'https://www.bromley.gov.uk/council-budgets-spending/council-spending/2',
+  'Hackney': 'https://www.hackney.gov.uk/council-and-elections/finances-and-transparency/transparency/council-spending-over-ps250'
 };
 
 // GLA per-service source URLs — each service maps to a different
