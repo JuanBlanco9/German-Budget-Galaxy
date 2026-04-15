@@ -1,9 +1,13 @@
 BUDGET GALAXY - Project Context
 ================================
-Date: April 10, 2026 (v17b)
+Date: April 15, 2026 (v1.1-london-complete shipped)
 Owner: Juan Blanco (@JuanBlanco9)
-Last major change: Local Gov S251 historical (8 yrs) + 4 council suppliers metadata
-                   + DHSC L5 suppliers metadata (NHS commissioning view)
+Last major change: London Complete — all 28 remaining London boroughs shipped with
+                   supplier-level metadata. Coverage 19.7% → 46.7% MHCLG-attributed
+                   (38.3% tree-visible) in a single session. 4-layer audit trail
+                   (live URLs + Wayback + SHA256 + archive.org mirrors).
+                   Tag: v1.1-london-complete at commit a1b41be.
+                   Follow-up cleanup: 7067838 (refine v2 + duplicate alias removal).
 
 WHAT IT IS
 ----------
@@ -136,17 +140,186 @@ Local Government (England):
     Transport, Environment, Culture, Planning, Police, Fire, Central, Other)
   - 149 councils → S251 Education breakdown (Schools block 60% / SEND 25% /
     Other ed 13% / Central / Early years)
-  - 32 councils + GLA subsystem (33 lookup entries) → _top_suppliers
-    metadata on 307 service nodes total. Coverage = 35.6% of LG England
-    (£46.8B of £131.6B) as of 2026-04-14.
+  - 56 councils + GLA subsystem (60 lookup entries, 533 service nodes)
+    as of 2026-04-15. Coverage metrics (HONEST dual framing):
+      MHCLG-attributed   = 46.7% (£61.47B / £131.6B) — "has any supplier"
+      Tree-visible spend = 38.3% (£50.47B / £131.6B) — actual £ user sees
+    Both numbers belong in reports. The tree-visible is the user-facing
+    reality; MHCLG-attributed is the upper bound for "coverage by council".
+  - Session 2026-04-15 additions: all 28 remaining London boroughs
+    (Camden/Lambeth/Merton/Southwark/Croydon were shipped earlier, this
+    session added the other 28: Barking & Dagenham, Barnet, Bexley,
+    Brent, Bromley, City of London, Ealing, Enfield, Greenwich, Hackney,
+    Hammersmith & Fulham, Haringey, Harrow, Havering, Hillingdon,
+    Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames,
+    Lewisham, Newham, Redbridge, Richmond, Sutton, Tower Hamlets,
+    Waltham Forest, Wandsworth, Westminster).
   - Session 2026-04-14 additions (see commits ccd6576, d9c848b, 083cf4f,
     874c3f3): GLA subsystem (LFB, TfL, GLA core, MPS via Playwright
     persistent profile), Lancashire, Essex, West Sussex, Devon,
     Staffordshire, Lincolnshire, Hampshire, Surrey.
-  - Partial-coverage entries (documented in fy_label):
+  - Partial-coverage entries (_data_notes on tree nodes + fy_label):
     - Lancashire 11/12 months (March 2024 never published upstream)
     - Surrey 6/12 months (Apr-Sep 2023 deleted from rolling window)
     - MPS 7/12 months (Apr-Aug 2023 rolled off FOI publication scheme)
+    - Ealing 10/12 months (May+June 2023 are SQL query dumps with
+      non-standard headers the pipeline can't parse)
+    - Hammersmith & Fulham 3/4 quarters (Q3 Oct-Dec 2023 not recoverable
+      from any source; Q1+Q2 recovered from live origin via UA override)
+    - Hackney 11/12 months (May 2023 GDrive link on council landing
+      page is actually a tenders register, not spend data)
+    - Lewisham 10/12 months (April+June 2023 .ashx URLs return 404
+      after council's Sitecore migration)
+    - Sutton 11/12 months (September 2023 missing from Liferay DMS)
+    - Waltham Forest 7/12 months (April-August 2023 purged by council's
+      rolling window; September 2023 onwards retained)
+
+STANDARD PIPELINE FOR ANY NEW COUNCIL (as of v1.1)
+--------------------------------------------------
+  1. scripts/download_london_boroughs.js (or equivalent) — borough-keyed
+     URL config registry. Add new config entry per council with the URL
+     pattern from discovery.
+  2. scripts/convert_*_xlsx_to_csv.js — if xlsx input, convert with
+     sheet_to_json(raw:true) to preserve commas in amounts (NEVER
+     sheet_to_csv — HANDOFF rule #1).
+  3. scripts/classify_council_departments.js — Haiku classifier with
+     dept + purpose columns. Pass --header-hint for files with metadata
+     preamble rows.
+  4. scripts/refine_other_services.js — MANDATORY post-processor that
+     catches keyword-obvious patterns the classifier dropped into
+     "Other Services". Haiku is systematically too conservative on
+     UK council department coding; the refine step reclassified ~4,700
+     patterns in the London pass and is now standard, not optional.
+     See the "Known long-tail misses" comment at the top of the file
+     for patterns that still need regex extension in v3.
+  5. scripts/build_council_spend_lookup.js — aggregates raw rows into
+     lookup JSON. Uses mergeEntry() helper that PRESERVES source_url,
+     archive_url, archive_files, captured_at from any existing entry —
+     critical bug fix, do not revert to direct assignment.
+  6. scripts/build_gla_suppliers.js — run after build_council_spend_lookup
+     to re-add the GLA subsystem synthetic entry (LFB, TfL, GLA core, MPS)
+     which gets clobbered by a plain build.
+  7. scripts/add_source_urls.js — patches source_url field onto each
+     council entry. Hardcoded URL registry; add new boroughs there.
+  8. scripts/inject_council_spend_metadata.js --clear — attaches
+     _top_suppliers to tree service nodes. Strict match: exact council
+     name OR "X CC" suffix. Rule "first-word match" was removed in
+     commit d9c848b because it over-matched Police/Fire authorities.
+  9. scripts/add_london_data_notes.js — patches _data_notes onto tree
+     nodes where we have known coverage gaps. Re-run AFTER enrich
+     (enrich rewrites the tree and clobbers the notes).
+  10. scripts/enrich_supplier_geo.js — Companies House postcode lookup
+      for any new suppliers. Requires CH_API_KEY env var.
+  11. scripts/generate_sources_md.js — regenerate SOURCES.md manifest.
+      Add new council entries to DIR_MAP at top of file.
+  12. scripts/upload_to_archive_org.js --skip-existing — upload raw
+      files to archive.org item budget-galaxy-uk-councils-2024.
+      Requires IA_ACCESS_KEY + IA_SECRET_KEY env vars.
+
+GOTCHAS & BUG CLASSES TO WATCH FOR
+-----------------------------------
+  - UTF-8 BOM under latin-1 encoding: Richmond/Wandsworth had BOMs at
+    start of files that the build script's BOM stripper missed because
+    it uses the \uFEFF literal which doesn't match the 3-byte UTF-8
+    representation when the file is read as latin-1. Fix was manual
+    BOM stripping on affected files. Watch for this on any latin-1
+    council with mixed-encoding source files.
+  - Build script clobbering audit trail: build_council_spend_lookup.js
+    used to do `lookup[name] = newEntry` which wiped archive_files,
+    source_url, archive_url, captured_at fields populated by external
+    tools. Fixed with mergeEntry() helper. Do not revert.
+  - Upload script race: upload_to_archive_org.js holds the lookup in
+    memory and writes back every 5 files. If build_council_spend_lookup
+    runs concurrently, the upload will clobber the build output. Always
+    run pipelines serially with the upload, or kill the upload, rebuild,
+    then resume upload with --skip-existing.
+  - Classifier conservative mapping: Haiku sends 20-80% of patterns to
+    "Other Services" for councils with non-standard dept naming (e.g.
+    "Head of Looked After Children" or "Director Housing"). The refine
+    post-processor is mandatory. Do not skip step 4 of the pipeline.
+  - Classifier slug != build slug: classify_council_departments.js
+    uses council.toLowerCase().replace(/[^a-z0-9]+/g, '_') to slug the
+    output filename, producing "barking_and_dagenham" / "kensington_and_chelsea"
+    / "kingston_upon_thames" / "hammersmith_and_fulham". The build script
+    references shorter slugs (rbkc, kingston, barking_dagenham,
+    hammersmith_fulham). Either rename the classifier output or adjust
+    the build config. Currently (v1.1) the build uses short slugs and
+    we dropped the classifier-slug aliases in commit 7067838.
+
+AUDIT TRAIL STATUS (v1.1)
+-------------------------
+  Layer 1 — Live landing pages: 60/60 councils
+  Layer 2 — Wayback Machine: 60/60 councils (mostly wildcard fallbacks
+    because anonymous Save Page Now hit rate limits; authenticated
+    Internet Archive S3 keys are saved in memory and can be used for
+    a future re-archive to upgrade wildcards to direct snapshots)
+  Layer 3 — git commits with SHA256: 686 raw files committed to main
+    (the SHA256 hashes live in SOURCES.md, not in separate manifests)
+  Layer 4 — archive.org collection mirror: 245/686 files uploaded to
+    item `budget-galaxy-uk-councils-2024` during the first upload pass
+    before the London run interrupted it. ~340 new London files are
+    pending upload (wave 2 to be kicked off after the v1.1 commits).
+    See scripts/upload_to_archive_org.js --skip-existing.
+  Verification protocol: SOURCES.md near the top has "How to verify a
+    file in 60 seconds" — three commands that let an auditor check any
+    raw file's SHA256 against the manifest.
+
+DISCOVERY POOL STATUS
+---------------------
+  Pool is CLOSED for supplier-level expansion within England-only
+  Local Gov — we investigated all 401 English local authorities via
+  ~14 parallel discovery agents in the session of 2026-04-14/15:
+    28 London Boroughs (done and shipped in v1.1)
+    ~50 English Unitary Authorities (discovered but NOT yet processed)
+    ~24 remaining Metropolitan Districts (discovered, not processed)
+    ~10 remaining Shire Counties (discovered, not processed)
+    8 Police & Crime Commissioners (discovered, not processed)
+    Combined Authorities: GMCA, WMCA, WYCA processable; LCRCA no
+      supplier publication at all
+
+  These ~92 discovered-but-unprocessed councils are the next session's
+  main workload. Discovery reports from the 14 agents have URL patterns,
+  schemas, thresholds, quirks — full context for the downloader. Many
+  are blockers that need Playwright (same pattern as Hampshire/Surrey):
+    Wiltshire, Dorset, Southampton — Cloudflare/Imperva
+    Stockton-on-Tees, Calderdale, Gateshead, Sunderland, Middlesbrough
+    Newcastle (TCP refused from this session's egress — retry from Vultr)
+    Blackburn with Darwen (IP-blocked UK-only)
+
+  Partial-coverage losses (FOI-only, cannot recover):
+    Derbyshire, Suffolk, Bedford — rolling window purged FY 23/24
+    Kingston upon Thames early discovery was WRONG — alternate source
+      found the full data at kingston.gov.uk's transparency code page
+
+DEVOLUTION GAP — ARCHITECTURAL BLOCKER
+---------------------------------------
+  Welsh councils (22), Scottish councils (32), Northern Ireland
+  districts (11) are NOT subject to the England Local Government
+  Transparency Code 2015, which is what mandates monthly spend-over-£500
+  publication. 2 of 16 Welsh councils investigated (Vale of Glamorgan,
+  Newport) publish at all — and Newport only as quarterly cumulative-
+  by-supplier, not transactional. Gwynedd explicitly refused an FOI.
+  Budget Galaxy's supplier-level expansion is effectively capped at
+  English Local Authorities until devolved nations introduce
+  equivalent transparency regimes.
+
+NEXT SESSION STARTING CHECKLIST
+-------------------------------
+  1. Was CONTEXT_FOR_CLAUDE.txt updated? → This file, yes, as of v1.1.
+  2. Did the archive.org wave 2 upload finish? → Check:
+       python -c "import json; d=json.load(open('data/uk/local_authorities/spend/council_spend_lookup_2024.json')); u=sum(len(e.get('archive_files',{})) for e in d.values()); print(f'{u}/686')"
+     Target is 686/686. If lower, resume with:
+       IA_ACCESS_KEY=... IA_SECRET_KEY=... node scripts/upload_to_archive_org.js --skip-existing
+  3. How should Combined Authorities (GMCA, WMCA, WYCA) be modeled in
+     the tree? GMCA publishes £1-2B/quarter of direct spend that
+     includes TfGM, Waste Disposal, Fire & Rescue. Member councils
+     (Bolton, Bury, etc.) appear as *payees/beneficiaries* in GMCA's
+     file. Same for WMCA and WYCA. Avoiding double-counting with the
+     member councils requires either (a) injecting them as separate
+     "Other Authorities" entries with distinct MHCLG values, or
+     (b) attaching them as metadata only. Decision needed before
+     processing the next 92 councils. This is the architectural
+     decision of the next session.
 
 WHAT IS SHALLOW BY YEAR
 ───────────────────────

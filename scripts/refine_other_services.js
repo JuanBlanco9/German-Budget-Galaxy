@@ -15,6 +15,46 @@
  *
  * Usage:
  *   node scripts/refine_other_services.js [--dry-run]
+ *
+ * =====================================================================
+ * Known long-tail misses for future refinement (seen in Hillingdon
+ * post-v2 sampling but not fixed because ROI is marginal at this
+ * stage of the long tail):
+ *
+ *   "Head of Hillingdon Music Service | Equipment Maintenance"
+ *     → should be Culture (council music services are typically part
+ *       of the cultural offer). Fix: add /music\s*service/i under
+ *       Culture, or /head\s*of\s*music/ for the dept-side match.
+ *
+ *   "Head of First Response & Out of Hours | Client Support"
+ *   "Head of First Response & Out of Hours | Agency And Contract Staff"
+ *     → should be Adult Social Care OR Children's Social Care
+ *       depending on the council. Out-of-hours services in UK local
+ *       government are typically social care emergency response
+ *       (EDT — Emergency Duty Team). Ambiguous between CSC and ASC
+ *       without per-council context; may need a council-specific
+ *       override rather than a general rule.
+ *
+ *   "Director Environment And Leisure | Tree Maintenance"
+ *   "Director Environment And Leisure | Private Contractors"
+ *     → probably Environment (tree maintenance = parks/green spaces)
+ *       but the leisure overlap makes it ambiguous. The current
+ *       Environment regex catches "tree\s*maint" only via the
+ *       "parks...grounds" cluster, not directly.
+ *
+ *   "Green Spaces, Sports and Culture | Surveys"
+ *     → mixed-category dept name. Environment OR Culture depending
+ *       on what the survey is for. The classifier was right to defer.
+ *
+ *   "Head of Child & Family Development | Materials Purchase"
+ *     → Children's Social Care (family development = CSC family
+ *       support services). Fix: add /child\s*(&|and)\s*family/i to
+ *       the CSC rule.
+ *
+ * These are ~5-10 patterns across the full refined dataset. A cleaner
+ * fix than extending the regex further would be a better classifier
+ * prompt with few-shot examples in the next iteration.
+ * =====================================================================
  */
 
 const fs = require('fs');
