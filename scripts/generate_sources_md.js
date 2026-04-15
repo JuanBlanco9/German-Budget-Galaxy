@@ -49,7 +49,38 @@ const DIR_MAP = {
   'Devon':                  'devon',
   'Staffordshire':          'staffordshire',
   'Lincolnshire':           'lincolnshire',
-  'Hampshire':              'hampshire'
+  'Hampshire':              'hampshire',
+  'Surrey':                 'surrey',
+
+  // London boroughs (session 2026-04-14/15)
+  'City of London':         'city_of_london',
+  'Havering':               'havering',
+  'Greenwich':              'greenwich',
+  'Haringey':               'haringey',
+  'Harrow':                 'harrow',
+  'Westminster':            'westminster',
+  'Barking and Dagenham':   'barking_dagenham',
+  'Bexley':                 'bexley',
+  'Islington':              'islington',
+  'Kensington and Chelsea': 'rbkc',
+  'Tower Hamlets':          'tower_hamlets',
+  'Barnet':                 'barnet',
+  'Brent':                  'brent',
+  'Hounslow':               'hounslow',
+  'Ealing':                 'ealing',
+  'Richmond':               'richmond',
+  'Wandsworth':             'wandsworth',
+  'Newham':                 'newham',
+  'Redbridge':              'redbridge',
+  'Hillingdon':             'hillingdon',
+  'Enfield':                'enfield',
+  'Kingston upon Thames':   'kingston',
+  'Sutton':                 'sutton',
+  'Lewisham':               'lewisham',
+  'Hammersmith and Fulham': 'hammersmith_fulham',
+  'Waltham Forest':         'waltham_forest',
+  'Bromley':                'bromley',
+  'Hackney':                'hackney'
   // GLA handled specially below — multiple subdirs
 };
 
