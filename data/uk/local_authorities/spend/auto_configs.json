@@ -1,5 +1,28 @@
 [
   {
+    "name": "Middlesbrough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\middlesbrough_council",
+    "deptCol": "Service (T)",
+    "purposeCol": "Expenditure Code Type (T)",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\middlesbrough_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Middlesbrough Council — https://middlesbrough-council-middlesbrough.opendata.arcgis.com/",
+    "source_url": "https://middlesbrough-council-middlesbrough.opendata.arcgis.com/datasets/Middlesbrough::spending-over-500-april-june-2024",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by 4th recon agent — ArcGIS Hub via DCAT walk)",
+    "_manifest_complications": [
+      "Quarterly CSVs (4 files for FY 24/25)",
+      "ArcGIS Hub has DCAT-US JSON catalog at /api/feed/dcat-us/1.1.json",
+      "Item IDs in DCAT identifier field, downloads at https://www.arcgis.com/sharing/rest/content/items/{id}/data",
+      "Schema: Service (T), Directorate (T), Expenditure Code/Type, Expenditure Code Type (T), Date, Amount, Revenue or Capital, Supplier Name"
+    ]
+  },
+  {
     "name": "Portsmouth City Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\portsmouth_city_council",
@@ -1412,8 +1435,8 @@
     "name": "Blackpool Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\blackpool_council",
-    "deptCol": "4CCN - Level 4 Cost Centre Name",
-    "purposeCol": "9AN - Level 9 Account Name",
+    "deptCol": "Service Label",
+    "purposeCol": "Expenditure Category",
     "amountCol": "Gross Value (Detail)",
     "supplierCol": "Supplier Name",
     "sep": ",",
