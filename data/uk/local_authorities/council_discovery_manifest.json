@@ -1266,12 +1266,12 @@
     "blocker_severity": "green",
     "fy_coverage": "12/12 verified",
     "schema": {
-      "supplier_col": "Supplier Name(T)",
-      "dept_col": "Expense Area(T)",
-      "purpose_col": "Expense Code(T)",
-      "amount_col": "Amount",
+      "supplier_col": "Beneficiary",
+      "dept_col": "Merchant Category",
+      "purpose_col": null,
+      "amount_col": "Amount (Net of VAT)",
       "date_col": "Invoice Date",
-      "encoding": "utf8",
+      "encoding": "utf8-bom",
       "sep": "comma"
     },
     "complications": [
@@ -3622,7 +3622,7 @@
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Expense Area",
-      "purpose_col": "Extended Description",
+      "purpose_col": "Expense Type",
       "amount_col": "Amount",
       "date_col": "Date",
       "encoding": "utf8-bom",
@@ -5463,8 +5463,8 @@
     "fy_coverage": "12/12 verified",
     "schema": {
       "supplier_col": "Supplier Name",
-      "dept_col": "Directorate",
-      "purpose_col": "Expenditure Category",
+      "dept_col": "4CCN - Level 4 Cost Centre Name",
+      "purpose_col": "9AN - Level 9 Account Name",
       "amount_col": "Gross Value (Detail)",
       "date_col": "Payment Date",
       "encoding": "utf8-bom",
@@ -5575,7 +5575,7 @@
       "supplier_col": "Supplier Name",
       "dept_col": "Directorate Description",
       "purpose_col": "Purpose of Spend",
-      "amount_col": null,
+      "amount_col": "Exclusive Amount",
       "date_col": "Payment Date",
       "encoding": "utf8-bom",
       "sep": "comma"

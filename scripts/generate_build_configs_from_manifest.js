@@ -220,7 +220,10 @@ function main() {
     if (!e.name) continue;
     if (e.tier === 'devolved') { skipped.devolved++; continue; }
     if (e.blocker_severity === 'red') { skipped.red++; continue; }
-    if (inLookup(e.name)) { skipped.in_lookup++; continue; }
+    // Don't skip councils already in lookup — the build's mergeEntry
+    // preserves existing archive_files and audit trail fields, and
+    // we need ALL manifest-driven councils in auto_configs.json even
+    // if they were processed before (the build reads this file every run).
 
     const slug = slugify(e.name);
     if (seenSlugs.has(slug)) { skipped.dup_slug++; continue; }
