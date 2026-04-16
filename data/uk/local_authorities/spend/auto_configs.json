@@ -1,5 +1,30 @@
 [
   {
+    "name": "Merseyside Police and Crime Commissioner and Chief Constable",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\merseyside_police_crime_commissioner",
+    "deptCol": "Description",
+    "purposeCol": null,
+    "amountCol": "Gross Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\merseyside_police_crime_commissioner_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Merseyside PCC — https://www.merseysidepcc.info/down-to-business/spending/spending-over-500/",
+    "source_url": "https://www.merseysidepcc.info/down-to-business/spending/spending-over-500/",
+    "_manifest_blocker": "DIRECT (manifest yellow, 12 NFI URLs verified across 2023+2024 calendar pages)",
+    "_manifest_complications": [
+      "Two streams per month: OPCC (~14 rows, archived) + NFI/Force (~1300 rows, kept)",
+      "FY 23/24 spans 2023 + 2024 landing pages",
+      "Some headers have leading/trailing spaces ('Payment Date, Description ,Gross Amount, Supplier Name ')",
+      "Mar 2024 file uses combined naming pattern (pcc-nfi-march-2024.csv)",
+      "No dept column — Description (purpose) used as dept signal",
+      "Amounts as strings with £ prefix and thousand commas — build script handles via parseFloat after strip"
+    ]
+  },
+  {
     "name": "Lancashire Police and Crime Commissioner and Chief Constable",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\lancashire_pcc",
