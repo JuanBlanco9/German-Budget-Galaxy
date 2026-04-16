@@ -1,5 +1,28 @@
 [
   {
+    "name": "Cheshire Police and Crime Commissioner and Chief Constable",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_pcc",
+    "deptCol": "Cost Centre",
+    "purposeCol": "Account",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_pcc_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Cheshire PCC — https://www.cheshire-pcc.gov.uk/transparency-and-information/setting-the-police-budget/accounts-and-audit/expenditure-over-500/",
+    "source_url": "https://www.cheshire-pcc.gov.uk/transparency-and-information/setting-the-police-budget/accounts-and-audit/expenditure-over-500/",
+    "_manifest_blocker": "DIRECT (PDF — extracted via custom scripts/extract_cheshire_pcc.py 2026-04-16)",
+    "_manifest_complications": [
+      "PDF text-flow format (no table structure) — needed custom regex parser, not pdfplumber tables nor camelot lattice/stream",
+      "9,095 rows extracted across 4 quarterly PDFs FY 23/24",
+      "Cost centre/supplier boundary detected via first ALL-CAPS token heuristic (some noise expected)",
+      "Date and account merged in source: 'DD/MM/YYYY{Account}' — split via regex"
+    ]
+  },
+  {
     "name": "Oxford City Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oxford_city_council",
