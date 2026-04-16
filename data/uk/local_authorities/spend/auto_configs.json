@@ -1,5 +1,52 @@
 [
   {
+    "name": "Oxford City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oxford_city_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Expenditure Catergory",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "latin1",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oxford_city_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Oxford City Council — https://www.oxford.gov.uk/downloads/download/68/downloads-for-expenditure-over-500",
+    "source_url": "https://www.oxford.gov.uk/downloads/download/68/downloads-for-expenditure-over-500",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by 5th recon agent)",
+    "_manifest_complications": [
+      "4 quarterly CSVs FY 23/24 (file IDs 264/748/3420/3268)",
+      "Latin-1 encoding (£ becomes mojibake in UTF-8)",
+      "Title rows 0-2: 'Expenditure over £500' + period subtitle + blank",
+      "headerHint='Supplier Name' resolves correctly to row 3",
+      "Source typo preserved: 'Expenditure Catergory' (with extra 'r')"
+    ]
+  },
+  {
+    "name": "Hartlepool Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\hartlepool_borough_council",
+    "deptCol": "Service Label",
+    "purposeCol": "Expenditure Category",
+    "amountCol": "Net Value",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\hartlepool_borough_council_dept_mapping.json",
+    "fyLabel": "2024/25 Q4 only",
+    "source": "Hartlepool BC — https://www.hartlepool.gov.uk/downloads/download/23/council-expenditure",
+    "source_url": "https://www.hartlepool.gov.uk/downloads/download/23/council-expenditure",
+    "_manifest_blocker": "DIRECT (only Q4 valid XLSX; ids 43-49 are PDFs disguised as .xlsx — defer)",
+    "_manifest_complications": [
+      "id42 is the only valid XLSX (4,368 data rows) — single quarter Q4 2024/25",
+      "ids 43-49 returned 200 with PDF magic bytes — server mis-types content",
+      "Title rows 0-4: 'LOCAL GOVERNMENT TRANSPARENCY CODE' + quarter info; data starts row 6",
+      "headerHint='Supplier' resolves correctly to row 5"
+    ]
+  },
+  {
     "name": "Avon and Somerset Police and Crime Commissioner and Chief Constable",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\avon_somerset_pcc",
