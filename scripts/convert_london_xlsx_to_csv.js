@@ -28,7 +28,13 @@ const TARGETS = [
   { dir: 'enfield', headerKeyword: 'Supplier Name' },
 
   // Combined Authorities (not London boroughs, but same xlsx→csv pattern)
-  { dir: 'wmca', headerKeyword: 'Cost Centre' }
+  { dir: 'wmca', headerKeyword: 'Cost Centre' },
+
+  // Metropolitan Districts with XLSX files
+  { dir: 'kirklees_metropolitan_borough_council', headerKeyword: 'Supplier' },
+  { dir: 'oldham_metropolitan_borough_council', headerKeyword: 'Supplier' },
+  { dir: 'knowsley_metropolitan_borough_council', headerKeyword: 'Supplier' },
+  { dir: 'st_helens_metropolitan_borough_council', headerKeyword: 'Supplier' }
 ];
 
 function csvEscape(v) {

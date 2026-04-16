@@ -1349,12 +1349,12 @@
     "blocker_severity": "yellow",
     "fy_coverage": "12/12 verified (IDs 13831-13842 range)",
     "schema": {
-      "supplier_col": null,
-      "dept_col": null,
-      "purpose_col": null,
-      "amount_col": null,
+      "supplier_col": "Supplier Name",
+      "dept_col": "Service Area",
+      "purpose_col": "Expenditure Category",
+      "amount_col": "Amount",
       "date_col": null,
-      "encoding": "unknown",
+      "encoding": "utf8",
       "sep": "unknown"
     },
     "complications": [
@@ -3188,12 +3188,12 @@
     "blocker_severity": "green",
     "fy_coverage": "12/12 verified",
     "schema": {
-      "supplier_col": null,
-      "dept_col": null,
-      "purpose_col": null,
-      "amount_col": null,
+      "supplier_col": "SUPPLIER NAME",
+      "dept_col": "EXECUTIVE DIRECTOR",
+      "purpose_col": "SUPPLIER TYPE INTERNAL CLASSIFICATION",
+      "amount_col": "AMOUNT",
       "date_col": null,
-      "encoding": "unknown",
+      "encoding": "utf8",
       "sep": "unknown"
     },
     "complications": [
@@ -3225,12 +3225,12 @@
     "blocker_severity": "green",
     "fy_coverage": "4/4 quarters verified (all 12 months covered quarterly)",
     "schema": {
-      "supplier_col": "Supplier",
-      "dept_col": "Directorate",
+      "supplier_col": "Payee",
+      "dept_col": "Service Area",
       "purpose_col": "Type of Expenditure",
       "amount_col": "Amount (\u00a3)",
       "date_col": "Payment Date",
-      "encoding": "unknown",
+      "encoding": "utf8",
       "sep": "unknown"
     },
     "complications": [
@@ -3838,7 +3838,7 @@
       "purpose_col": "Purpose of Spend",
       "amount_col": "Amount Excluding VAT",
       "date_col": "Payment Date",
-      "encoding": "unknown",
+      "encoding": "utf8",
       "sep": "unknown"
     },
     "complications": [

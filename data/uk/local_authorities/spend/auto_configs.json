@@ -119,6 +119,30 @@
     ]
   },
   {
+    "name": "St Helens Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\st_helens_metropolitan_borough_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Expenditure Category",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\st_helens_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "St Helens Metropolitan Borough Council — https://sthelens.gov.uk/article/4545/Payments-to-suppliers",
+    "source_url": "https://sthelens.gov.uk/article/4545/Payments-to-suppliers",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "Schema not captured — binary XLSX not parsed inline",
+      "February 2024 file is .xls (legacy), all others .xlsx",
+      "October 2023 file has trailing underscore in filename (October2023_.xlsx)",
+      "Legacy transparency portal at secure.sthelens.net/servlet/localtransparency/ also exists as dropdown interface",
+      "Media IDs must be resolved per month"
+    ]
+  },
+  {
     "name": "West Northamptonshire Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\west_northamptonshire_council",
@@ -296,6 +320,54 @@
     ]
   },
   {
+    "name": "Knowsley Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\knowsley_metropolitan_borough_council",
+    "deptCol": "EXECUTIVE DIRECTOR",
+    "purposeCol": null,
+    "amountCol": "AMOUNT",
+    "supplierCol": "SUPPLIER NAME",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "SUPPLIER NAME",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\knowsley_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Knowsley Metropolitan Borough Council — https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500",
+    "source_url": "https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "All 12 files re-dated into /2025-03/ folder after site migration",
+      "December 2023 file has '_0' suffix (versioned reupload)",
+      "Drupal/Frontier CMS — files may move on republication",
+      "13 columns confirmed but column names not documented in report"
+    ],
+    "_validation_warnings": [
+      "purpose: \"SUPPLIER TYPE INTERNAL CLASSIFICATION\" → \"(none)\" [none, closest=\"EXPENSE CODE DESCRIPTION\" d=25]"
+    ]
+  },
+  {
+    "name": "Oldham Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oldham_metropolitan_borough_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Type of Expenditure",
+    "amountCol": "Amount (£)",
+    "supplierCol": "Payee",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Payee",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oldham_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Oldham Metropolitan Borough Council — https://www.oldham.gov.uk/downloads/200681/council_spending_records",
+    "source_url": "https://www.oldham.gov.uk/downloads/200681/council_spending_records",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Quarterly granularity only — 4 files for full FY, no monthly breakdown",
+      "Uses numeric download IDs in URL",
+      "Rich 4-level hierarchy: Portfolio > Directorate > Division > Service Area"
+    ]
+  },
+  {
     "name": "Barnsley Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\barnsley_metropolitan_borough_council",
@@ -372,6 +444,33 @@
       "Trailing space on Body URI field",
       "ProClass and SeRCOP/BVACOP coding columns present",
       "Internal ZIP path: January_2019-March_2024/Trafford-Supplier-Spend-{Month}-{Year}.csv"
+    ]
+  },
+  {
+    "name": "Kirklees Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\kirklees_metropolitan_borough_council",
+    "deptCol": "Cost Centre Description",
+    "purposeCol": "Purpose of Spend",
+    "amountCol": "Amount Excluding VAT",
+    "supplierCol": "Vendor Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Vendor Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\kirklees_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Kirklees Metropolitan Borough Council — https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx",
+    "source_url": "https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "XLSX only — no CSV variant",
+      "Inconsistent filename prefix casing across months (Published-Data / KC-published-data / KC-Published-Data)",
+      "Stray space in some filenames (e.g. 'KC-Published-Data -2023-11-30.xlsx')",
+      "Contains negative amounts (credit notes)",
+      "'Purpose of Spend' often 'REDACTED DATA'",
+      "'Proclass Description' frequently null",
+      "Not hosted on Data Mill North — self-hosted XLSX",
+      "Must scrape landing page to resolve exact filename per month"
     ]
   },
   {

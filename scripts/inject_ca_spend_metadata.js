@@ -40,11 +40,18 @@ const YEAR = args.find(a => a.match(/^\d{4}$/)) || '2024';
 
 const TOP_N = 15;
 
-// Map from lookup key → exact tree node name under "Other Authorities"
+// Map from lookup key → exact tree node name.
+// Includes CAs (under Other Authorities) AND councils whose classifier
+// mapped everything to "Other Services" (single-bucket failure mode).
+// For these councils, parent-level attachment is more useful than
+// trying to force per-service attribution that doesn't match.
 const CA_NODE_MAP = {
   'Greater Manchester Combined Authority': 'Greater Manchester Combined Authority',
   'West Midlands Combined Authority': 'West Midlands Combined Authority',
-  'West Yorkshire Combined Authority': 'West Yorkshire Combined Authority'
+  'West Yorkshire Combined Authority': 'West Yorkshire Combined Authority',
+  'Knowsley Metropolitan Borough Council': 'Knowsley',
+  'Oldham Metropolitan Borough Council': 'Oldham',
+  'St Helens Metropolitan Borough Council': 'St Helens MBC'
 };
 
 function readJSON(fp) { return JSON.parse(fs.readFileSync(fp, 'utf8')); }
