@@ -1,5 +1,27 @@
 [
   {
+    "name": "Gateshead Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gateshead_metropolitan_borough_council",
+    "deptCol": "Nstrg(T)",
+    "purposeCol": "Cipfsubj(T)",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier ID(T)",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier ID(T)",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gateshead_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Gateshead MBC — https://www.gateshead.gov.uk/article/3456/Expenditure-over-500",
+    "source_url": "https://www.gateshead.gov.uk/article/3456/Expenditure-over-500",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent — manifest red was wrong)",
+    "_manifest_complications": [
+      "12 monthly CSVs FY 23/24 (period code 202301 = April 2023, 202312 = March 2024)",
+      "WAF rate-limits sequential downloads — needed Referer + sleep 8s for some files",
+      "Cipfsubj(T) is CIPFA service classification (good MHCLG mapping signal)"
+    ]
+  },
+  {
     "name": "Wokingham Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wokingham_borough_council",
