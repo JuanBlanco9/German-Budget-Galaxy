@@ -1586,6 +1586,21 @@ for (const cfg of LLM_COUNCILS) {
 
 const AUTO_CONFIGS = path.join(SPEND_DIR, 'auto_configs.json');
 if (fs.existsSync(AUTO_CONFIGS)) {
+  // Pre-flight: validate column resolution before building. Catches schema
+  // drift (Bolton mar_2024, Cheshire West purposeCol=null patterns) upfront
+  // instead of after-the-fact via low coverage. Skip with NO_VALIDATE=1.
+  if (!process.env.NO_VALIDATE) {
+    const { spawnSync } = require('child_process');
+    const validatorPath = path.join(__dirname, 'validate_auto_configs.js');
+    if (fs.existsSync(validatorPath)) {
+      const result = spawnSync('node', [validatorPath, '--quiet'], { stdio: 'inherit' });
+      if (result.status !== 0) {
+        console.error('\n✗ Validator failed. Fix auto_configs.json mismatches above, or set NO_VALIDATE=1 to skip.');
+        process.exit(1);
+      }
+    }
+  }
+
   const autoList = JSON.parse(fs.readFileSync(AUTO_CONFIGS, 'utf8'));
   console.log(`\n━━━ Auto-configs from manifest: ${autoList.length} councils ━━━\n`);
   for (const cfg of autoList) {
