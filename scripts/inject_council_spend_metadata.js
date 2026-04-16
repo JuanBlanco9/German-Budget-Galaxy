@@ -78,7 +78,10 @@ const NAME_ALIASES = {
   'NORTH TYNESIDE METROPOLITAN BOROUGH COUNCIL': 'NORTH TYNESIDE',
   'BLACKPOOL COUNCIL': 'BLACKPOOL',
   'WAKEFIELD METROPOLITAN DISTRICT COUNCIL': 'WAKEFIELD',
-  'TELFORD AND WREKIN COUNCIL': 'TELFORD AND THE WREKIN'
+  'TELFORD AND WREKIN COUNCIL': 'TELFORD AND THE WREKIN',
+  'RICHMOND': 'RICHMOND UPON THAMES',
+  'DERBY CITY COUNCIL': 'DERBY CITY',
+  'CITY OF WOLVERHAMPTON COUNCIL': 'WOLVERHAMPTON'
 };
 
 function normalizeName(n) {
@@ -130,6 +133,7 @@ if (!lg) { console.error('local_government_england not found'); process.exit(1);
 let councilsAttached = 0;
 let servicesAttached = 0;
 let alreadyHas = 0;
+const matchedLookupKeys = new Set();
 
 // Optional: clear all existing _top_suppliers first (--clear)
 if (CLEAR) {
@@ -151,15 +155,17 @@ if (CLEAR) {
 for (const cls of lg.children) {
   for (const council of cls.children) {
     let entry = null;
+    let matchedKey = null;
     const norm = normalizeName(council.name);
     if (!norm || norm.length < 4) continue;
     for (const [key, e] of Object.entries(lookup)) {
       const keyNorm = normalizeName(key);
       if (!keyNorm || keyNorm.length < 4) continue;
       if (markersDiverge(norm, keyNorm)) continue;
-      if (norm === keyNorm) { entry = e; break; }
+      if (norm === keyNorm) { entry = e; matchedKey = key; break; }
     }
     if (!entry) continue;
+    matchedLookupKeys.add(matchedKey);
 
     let attachedHere = 0;
     for (const serviceNode of council.children || []) {
@@ -201,6 +207,69 @@ console.log(`\nResults:`);
 console.log(`  Councils attached: ${councilsAttached}`);
 console.log(`  Service nodes attached: ${servicesAttached}`);
 console.log(`  Already had metadata: ${alreadyHas}`);
+
+// Name-resolution check: find lookup entries that didn't match any tree node.
+// Three known instances historically (Wigan MBC, Wakefield, Telford) where
+// silent miss → wrong tree shipped because operator missed "0 attached" log.
+// Suggest closest LG-England council names via Levenshtein so the fix
+// (NAME_ALIAS or rename in lookup) is one edit.
+function levenshtein(a, b) {
+  if (a === b) return 0;
+  if (!a.length) return b.length;
+  if (!b.length) return a.length;
+  const al = a.toLowerCase(), bl = b.toLowerCase();
+  const v0 = new Array(bl.length + 1), v1 = new Array(bl.length + 1);
+  for (let i = 0; i <= bl.length; i++) v0[i] = i;
+  for (let i = 0; i < al.length; i++) {
+    v1[0] = i + 1;
+    for (let j = 0; j < bl.length; j++) {
+      const cost = al[i] === bl[j] ? 0 : 1;
+      v1[j + 1] = Math.min(v1[j] + 1, v0[j + 1] + 1, v0[j] + cost);
+    }
+    for (let j = 0; j <= bl.length; j++) v0[j] = v1[j];
+  }
+  return v0[bl.length];
+}
+
+const lgCouncilNames = [];
+for (const cls of lg.children) for (const c of (cls.children || [])) lgCouncilNames.push(c.name);
+
+// Known orphans: lookup entries that legitimately have no LG-England tree node
+// (e.g. tree-base bugs awaiting separate fix). Listed here to document the gap
+// AND keep the warning loud — every run reminds the operator. Unknown orphans
+// (not in this set) still hard-fail.
+const KNOWN_ORPHANS = new Set([
+  'Birmingham'  // Birmingham City Council has £1B+ budget but is missing from
+                // tree's Local Government (England) subtree entirely. Only
+                // appears under NHS Trusts. Fix requires rebuilding the LG
+                // tree base with Birmingham added — out of scope for inject.
+                // See memory/project_budget_galaxy_next_session.md for details.
+]);
+
+const orphanLookupKeys = Object.keys(lookup).filter(k => !matchedLookupKeys.has(k));
+const unknownOrphans = orphanLookupKeys.filter(k => !KNOWN_ORPHANS.has(k));
+const knownOrphansFound = orphanLookupKeys.filter(k => KNOWN_ORPHANS.has(k));
+
+if (knownOrphansFound.length > 0) {
+  console.log(`\n⚠ ${knownOrphansFound.length} known orphan(s) — documented gap, no fix in this script:`);
+  for (const key of knownOrphansFound) console.log(`    "${key}"`);
+}
+
+if (unknownOrphans.length > 0) {
+  console.log(`\n✗ ${unknownOrphans.length} UNKNOWN orphan(s) — lookup entries with no matching tree node:`);
+  for (const key of unknownOrphans) {
+    const closest = lgCouncilNames
+      .map(n => ({ n, d: levenshtein(key, n) }))
+      .sort((a, b) => a.d - b.d)
+      .slice(0, 3)
+      .map(x => `"${x.n}" (d=${x.d})`);
+    console.log(`    "${key}"`);
+    console.log(`        closest tree nodes: ${closest.join(', ')}`);
+    console.log(`        fix: add NAME_ALIAS in injector OR add to KNOWN_ORPHANS if intentional`);
+  }
+  console.log(`\n✗ Refusing to write tree — fix unknown orphans above.`);
+  process.exit(1);
+}
 
 // Tree integrity (should be unchanged — metadata only)
 let drift = 0;
