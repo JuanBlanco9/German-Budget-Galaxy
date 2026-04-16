@@ -1,5 +1,50 @@
 [
   {
+    "name": "Wokingham Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wokingham_borough_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Description",
+    "amountCol": "Payment Amount (Net)",
+    "supplierCol": "Accounts Payable/Accounts Receivable ID",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Service Area",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wokingham_borough_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Wokingham BC — https://www.wokingham.gov.uk/council-and-meetings/open-data-and-transparency/data-sets-and-open-data",
+    "source_url": "https://www.wokingham.gov.uk/council-and-meetings/open-data-and-transparency/data-sets-and-open-data",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 — manifest 'only 1 file' was true for FY 23/24 but FY 24/25 has full 12/12 months)",
+    "_manifest_complications": [
+      "Single annual XLSX (Over £500 spend 2024-25 payments.xlsx) covers full FY 24/25, 42,405 rows",
+      "URL needs %C2%A3 encoding for £ symbol",
+      "Existing FY 23/24 partial (7/12 months) archived — using FY 24/25 instead",
+      "Supplier column header has trailing space: 'Accounts Payable/Accounts Receivable ID '"
+    ]
+  },
+  {
+    "name": "Royal Borough of Windsor and Maidenhead",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\royal_borough_of_windsor_and_maidenhead",
+    "deptCol": "Directorate",
+    "purposeCol": "Purpose of spend",
+    "amountCol": "Net Amount",
+    "supplierCol": "Supplier (Beneficiary name)",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier (Beneficiary name)",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\royal_borough_of_windsor_and_maidenhead_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "RBWM — https://www.rbwm.gov.uk/home/council-and-democracy/transparency/budget-spending-and-procurement",
+    "source_url": "https://www.rbwm.gov.uk/home/council-and-democracy/transparency/budget-spending-and-procurement",
+    "_manifest_blocker": "DIRECT (manifest mis-diagnosed as wrong-dataset 2026-04-16; agent verified file is supplier register)",
+    "_manifest_complications": [
+      "Header at row 4 (rows 1-3 are title banner) — headerHint resolves correctly",
+      "Annual file covers full FY 23/24 in one CSV (13,589 rows)",
+      "Charge card file (2023-04_2024-03_corporate_charge_card.csv) and parking ledger archived — separate streams"
+    ]
+  },
+  {
     "name": "Nottinghamshire Police and Crime Commissioner and Chief Constable",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\nottinghamshire_pcc",
