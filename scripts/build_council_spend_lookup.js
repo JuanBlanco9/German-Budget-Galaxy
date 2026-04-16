@@ -716,9 +716,32 @@ function processCouncilWithMapping(config) {
     return null;
   }
   const mapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
-  const patterns = mapping.patterns || {};
+  const rawPatterns = mapping.patterns || {};
   const manualOverrides = mapping._manual_overrides || [];
-  console.log(`Processing ${name} (${Object.keys(patterns).length} mapped patterns${manualOverrides.length ? ', ' + manualOverrides.length + ' manual overrides' : ''})...`);
+
+  // Normalize mapping keys at load time to match the row-side normalization.
+  // Without this, councils whose mapping was classified before the apostrophe
+  // fix (commit 7902916) would silently regress: rows produce "Children's"
+  // (normalized) but mapping has "Children\uFFFDs" → no match → Other Services.
+  // 63 of 110 councils have this drift. When two keys collide after
+  // normalization (e.g. mapping classified the variants differently), prefer
+  // the non-"Other Services" value so we recover real classifications.
+  const normKey = (k) => k.replace(/[\u2018\u2019\uFFFD]/g, "'");
+  const patterns = {};
+  let mergeConflicts = 0;
+  for (const [k, v] of Object.entries(rawPatterns)) {
+    const nk = normKey(k);
+    if (patterns[nk] !== undefined && patterns[nk] !== v) {
+      mergeConflicts++;
+      if (patterns[nk] === 'Other Services' && v !== 'Other Services') patterns[nk] = v;
+      // else keep existing (already non-Other or same)
+    } else {
+      patterns[nk] = v;
+    }
+  }
+  const collapsed = Object.keys(rawPatterns).length - Object.keys(patterns).length;
+  const cMsg = collapsed > 0 ? `, ${collapsed} keys collapsed via apostrophe normalization` + (mergeConflicts > 0 ? ` (${mergeConflicts} conflicts resolved)` : '') : '';
+  console.log(`Processing ${name} (${Object.keys(patterns).length} mapped patterns${manualOverrides.length ? ', ' + manualOverrides.length + ' manual overrides' : ''}${cMsg})...`);
 
   // Apply council-scoped overrides AFTER pattern lookup but BEFORE "Other Services"
   // fallback. Each override has match.dept_exact (case-insensitive) and assign.
