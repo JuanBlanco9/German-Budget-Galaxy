@@ -1,5 +1,27 @@
 [
   {
+    "name": "Slough Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\slough_borough_council",
+    "deptCol": "Service Label",
+    "purposeCol": "BV Code",
+    "amountCol": "Amount",
+    "supplierCol": "Vendor Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Vendor Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\slough_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Slough Borough Council — https://www.slough.gov.uk/downloads/download/206/payments-to-suppliers-over-500",
+    "source_url": "https://www.slough.gov.uk/downloads/download/206/payments-to-suppliers-over-500",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by 3rd recon agent)",
+    "_manifest_complications": [
+      "12/12 monthly CSVs FY 23/24",
+      "Each month publishes paired files (XLSX + CSV) at consecutive IDs — second of each pair is CSV",
+      "Slough recovered to LG tree via Birmingham fallback fix today (was missing pre-rebuild)"
+    ]
+  },
+  {
     "name": "Gloucestershire County Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gloucestershire_county_council",
