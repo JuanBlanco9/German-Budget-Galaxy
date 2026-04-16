@@ -97,6 +97,22 @@ function parseCSVLine(line, sep) {
   return r;
 }
 
+// Normalize apostrophe variants to ASCII (U+0027).
+// Same function MUST be applied in build_council_spend_lookup.js so pattern
+// keys match. Three forms observed in council CSVs, all collapsed:
+//   U+2018 ‘   left single quotation mark (curly)
+//   U+2019 '   right single quotation mark (curly)
+//   U+FFFD �   replacement char from cp1252-encoded apostrophe (0x92)
+//             read as UTF-8. 10/12 Telford monthly CSVs ship pre-corrupted
+//             "Children\uFFFDs Safeguarding". Inferred from position
+//             (between letters) — heuristic but consistent across the dir.
+// Scope is INTENTIONALLY narrow: only apostrophe forms, not other Unicode
+// punctuation. Each new char added here needs evidence first.
+function normalizeApostrophes(s) {
+  if (typeof s !== 'string') return s;
+  return s.replace(/[\u2018\u2019\uFFFD]/g, "'");
+}
+
 function readCSVFile(filePath, sep, encoding, headerHint) {
   const buf = fs.readFileSync(filePath);
   const raw = buf.toString(encoding).replace(/^\uFEFF/, '');
@@ -152,8 +168,8 @@ function extractPatterns(files, sep, encoding, headerHint, deptCol, purposeCol) 
     }
 
     for (const r of rows) {
-      const dept = r[deptCol] || 'Unknown';
-      const purpose = purposeCol ? (r[purposeCol] || '') : '';
+      const dept = normalizeApostrophes(r[deptCol] || 'Unknown');
+      const purpose = normalizeApostrophes(purposeCol ? (r[purposeCol] || '') : '');
       patterns.add(dept + '|' + purpose);
     }
     totalRows += rows.length;
@@ -319,10 +335,12 @@ async function main() {
   // Load existing cache if present (idempotency)
   let existingMapping = {};
   let existingMeta = null;
+  let existingOverrides = null;
   if (fs.existsSync(outputFile)) {
     const cached = JSON.parse(fs.readFileSync(outputFile, 'utf8'));
     existingMapping = cached.patterns || {};
     existingMeta = cached._meta;
+    existingOverrides = cached._manual_overrides;  // preserve council-scoped overrides across re-classify
     console.log(`Loaded existing cache: ${Object.keys(existingMapping).length} patterns already classified.`);
   }
 
@@ -337,7 +355,15 @@ async function main() {
   }
 
   // Classify new patterns via Haiku
-  const fullMapping = await classifyPatterns(newPatterns, existingMapping);
+  const rawMapping = await classifyPatterns(newPatterns, existingMapping);
+
+  // Drop orphan keys: cached patterns that no current row produces anymore.
+  // Happens after pre-classifier normalization changes (e.g. apostrophe fix
+  // collapsed curly+straight variants — old curly entries are now unused).
+  const currentSet = new Set(patterns);
+  const fullMapping = Object.fromEntries(Object.entries(rawMapping).filter(([k]) => currentSet.has(k)));
+  const orphansDropped = Object.keys(rawMapping).length - Object.keys(fullMapping).length;
+  if (orphansDropped > 0) console.log(`Dropped ${orphansDropped} orphan keys from cache (no longer produced by CSV rows after normalization).`);
 
   // Build output
   const otherCount = patterns.filter(p => fullMapping[p] === 'Other Services').length;
@@ -353,6 +379,7 @@ async function main() {
 
   const output = {
     _meta: meta,
+    ...(existingOverrides ? { _manual_overrides: existingOverrides } : {}),
     patterns: fullMapping
   };
 

@@ -785,8 +785,14 @@ function processCouncilWithMapping(config) {
       if (!ln.replace(/[,\s]/g, '')) continue;
       const cols = parseCSVLine(ln, sep || ',');
 
-      const dept = (cols[colIdx.dept] || '').replace(/^"|"$/g, '').trim();
-      const purpose = colIdx.purpose !== undefined ? (cols[colIdx.purpose] || '').replace(/^"|"$/g, '').trim() : '';
+      // Apostrophe normalization MUST mirror classify_council_departments.js.
+      // Three forms collapsed: U+2018, U+2019, U+FFFD (replacement char from
+      // cp1252-encoded apostrophe read as UTF-8 — 10/12 Telford monthly CSVs
+      // ship pre-corrupted "Children\uFFFDs Safeguarding"). Heuristic but
+      // consistent across observed councils.
+      const normApos = (s) => s.replace(/[\u2018\u2019\uFFFD]/g, "'");
+      const dept = normApos((cols[colIdx.dept] || '').replace(/^"|"$/g, '').trim());
+      const purpose = colIdx.purpose !== undefined ? normApos((cols[colIdx.purpose] || '').replace(/^"|"$/g, '').trim()) : '';
       let supplier = (cols[colIdx.supplier] || '').replace(/^"|"$/g, '').trim();
       // Council-specific supplier aliases (e.g. merge "TfGM Interbank" +
       // "TFGM" under a single canonical name). Applied before dedup so the
