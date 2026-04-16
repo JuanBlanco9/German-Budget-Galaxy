@@ -1,5 +1,27 @@
 [
   {
+    "name": "Gloucestershire County Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gloucestershire_county_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Expense Type",
+    "amountCol": "Payment Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gloucestershire_county_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Gloucestershire County Council — https://www.gloucestershire.gov.uk/council-and-democracy/performance-and-spending/spend-over-500/",
+    "source_url": "https://www.gloucestershire.gov.uk/council-and-democracy/performance-and-spending/spend-over-500/",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by big-councils agent)",
+    "_manifest_complications": [
+      "12/12 monthly CSVs FY 23/24",
+      "Filenames mostly consistent but some have '-csv' suffix (-csv.csv) — hand-mapped each",
+      "Custom 16-column schema with Service Division (typo: 'Devison'), BVA COP, Industry, Account Group, etc"
+    ]
+  },
+  {
     "name": "Cheshire East Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_east_council",
