@@ -146,13 +146,13 @@
     "blocker_severity": "green",
     "fy_coverage": "4/4 quarters confirmed",
     "schema": {
-      "supplier_col": null,
+      "supplier_col": "Supplier",
       "dept_col": "Organisational Structure Tier 1",
-      "purpose_col": null,
-      "amount_col": null,
+      "purpose_col": "Nominal Description",
+      "amount_col": "Amount",
       "date_col": null,
-      "encoding": "unknown",
-      "sep": "unknown"
+      "encoding": "utf8",
+      "sep": "comma"
     },
     "complications": [
       "Filename typo: Q3 and Q4 filenames use 'gdp' instead of 'gbp'",
@@ -405,8 +405,8 @@
       "purpose_col": "Nominal Description",
       "amount_col": "Total Net Amount",
       "date_col": "Payment Date",
-      "encoding": "unknown",
-      "sep": "unknown"
+      "encoding": "utf8",
+      "sep": "comma"
     },
     "complications": [
       "Filename scheme changed mid-year",
@@ -515,13 +515,13 @@
     ],
     "url_pattern": "https://www.westmorlandandfurness.gov.uk/sites/default/files/{yyyy-mm}/{Category}%20{MONTH}%20{YYYY}%20-%20WF.csv",
     "file_format": "csv",
-    "blocker_severity": "green",
+    "blocker_severity": "red",
     "fy_coverage": "12/12 verified for all 3 categories (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Supplier Name",
-      "dept_col": "Directorate Description",
-      "purpose_col": "Expenditure Description",
-      "amount_col": "Line Amount",
+      "dept_col": "Organisational Unit",
+      "purpose_col": "Service Category Label",
+      "amount_col": "Amount",
       "date_col": "Date",
       "encoding": "utf8",
       "sep": "comma"
@@ -532,7 +532,8 @@
       "2 metadata rows before header (header on row 3)",
       "Filenames inconsistent case/encoding (APRIL2023, MAY%202023, JULY vs July)",
       "New unitary from 1 Apr 2023",
-      "Shares Cumbria legacy schema with Cumberland"
+      "Shares Cumbria legacy schema with Cumberland",
+      "multi-schema legacy councils (Eden + Barrow + South Lakeland + Carlisle) — needs per-source processing"
     ],
     "needs_playwright": false,
     "report_source": "counties_b_big_unitaries_discovery.md"
@@ -1438,7 +1439,7 @@
       "purpose_col": "Expense Type",
       "amount_col": "Amount",
       "date_col": "Date Paid",
-      "encoding": "utf8",
+      "encoding": "latin1",
       "sep": "comma"
     },
     "complications": [
@@ -5236,11 +5237,11 @@
     "schema": {
       "supplier_col": "Supplier name",
       "dept_col": "Service",
-      "purpose_col": "Narrative",
+      "purpose_col": "Expenditure category",
       "amount_col": "Net amount",
       "date_col": "Date",
-      "encoding": "unknown",
-      "sep": "unknown"
+      "encoding": "utf8",
+      "sep": "comma"
     },
     "complications": [
       "No directorate column — only Service and Expenditure category",
@@ -5320,8 +5321,8 @@
       "purpose_col": "Expenses Type",
       "amount_col": "Amount £",
       "date_col": "Date",
-      "encoding": "latin1",
-      "sep": "unknown"
+      "encoding": "utf8",
+      "sep": "comma"
     },
     "complications": [
       "Quarterly files (Apr-Jun, Jul-Sep, Oct-Dec, Jan-Mar), not monthly",
@@ -5652,8 +5653,8 @@
       "purpose_col": "Description",
       "amount_col": "Net Amount",
       "date_col": "Payment Date",
-      "encoding": "unknown",
-      "sep": "unknown"
+      "encoding": "utf8",
+      "sep": "comma"
     },
     "complications": [
       "two 'Description' columns (cost centre description and subjective description) — will collide on naive ingest",

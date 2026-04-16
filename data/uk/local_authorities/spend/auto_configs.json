@@ -24,6 +24,36 @@
     ]
   },
   {
+    "name": "Cheshire West and Chester Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_west_and_chester_council",
+    "deptCol": "Organisational Structure Tier 1(T)",
+    "purposeCol": null,
+    "amountCol": "Net Amount",
+    "supplierCol": "Supplier ID(T)",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier ID(T)",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_west_and_chester_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Cheshire West and Chester Council — https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500",
+    "source_url": "https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Filename typo: Q3 and Q4 filenames use 'gdp' instead of 'gbp'",
+      "Quarterly granularity only — no monthly breakdown",
+      "CSV parallel files discontinued after 2022-23",
+      "Redacted supplier names replaced with REDACTED",
+      "Rich tier hierarchy (People/Community/Environment/Economy/Corporate/Infrastructure)"
+    ],
+    "_validation_warnings": [
+      "dept: \"Organisational Structure Tier 1\" → \"Organisational Structure Tier 1(T)\" [substring]",
+      "purpose: \"Nominal Description\" → \"(none)\" [none, closest=\"Cost Centre(T)\" d=14]",
+      "amount: \"Amount\" → \"Net Amount\" [substring]",
+      "supplier: \"Supplier\" → \"Supplier ID(T)\" [substring]"
+    ]
+  },
+  {
     "name": "Herefordshire Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\herefordshire_council",
@@ -69,6 +99,32 @@
       "BODY NAME column is a linked-data URI not a plain name",
       "Drupal upload-month paths (YYYY-MM) do not correspond to data month",
       "Some rows have posting dates from prior year leaking into current year files"
+    ]
+  },
+  {
+    "name": "Worcestershire County Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\worcestershire_county_council",
+    "deptCol": "Directorate",
+    "purposeCol": "Nominal Description",
+    "amountCol": "Total Net Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\worcestershire_county_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Worcestershire County Council — https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers",
+    "source_url": "https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Filename scheme changed mid-year",
+      "March 2024 and Feb 2024 sheets bundled with Pcard data (likely second tab)",
+      "Capitalisation inconsistent in filenames",
+      "March 2024 file named 'Over £500 and Pcard data March 2024.xlsx'",
+      "Jan 2024 named 'Over500SpendReportJan2024.xlsx'",
+      "URL encoding varies (ps500 vs %C2%A3500)",
+      "Threshold £500"
     ]
   },
   {
@@ -178,7 +234,7 @@
     "amountCol": "Amount",
     "supplierCol": "Supplier Name",
     "sep": ",",
-    "encoding": "utf8",
+    "encoding": "latin1",
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_northamptonshire_council_dept_mapping.json",
     "fyLabel": "2023/24",
@@ -824,6 +880,53 @@
     ]
   },
   {
+    "name": "West Berkshire Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\west_berkshire_council",
+    "deptCol": "Service",
+    "purposeCol": "Expenditure category",
+    "amountCol": "Net amount",
+    "supplierCol": "Supplier name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\west_berkshire_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "West Berkshire Council — https://www.westberks.gov.uk/expenditure-over-500",
+    "source_url": "https://www.westberks.gov.uk/expenditure-over-500",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "No directorate column — only Service and Expenditure category",
+      "Dates are timestamps with microseconds",
+      "Media ID in URL path varies per file — pattern not fully predictable",
+      "Single sheet named 'Data to publish'"
+    ]
+  },
+  {
+    "name": "Bracknell Forest Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bracknell_forest_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Expenses Type",
+    "amountCol": "Amount £",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bracknell_forest_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Bracknell Forest Council — https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it",
+    "source_url": "https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Quarterly files (Apr-Jun, Jul-Sep, Oct-Dec, Jan-Mar), not monthly",
+      "Sheet name contains Latin-1 pound sign (e.g. 'Over £500 April - June')",
+      "Dates mix datetime strings and Excel serial numbers (e.g. 45085) in same column — parser must handle both",
+      "11 columns including a blank trailing column",
+      "Additional columns: Body Name, Body code, Service Division, Responsible Unit, TransNo"
+    ]
+  },
+  {
     "name": "Blackpool Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\blackpool_council",
@@ -915,6 +1018,30 @@
       "data on sheet 2 ('250 Spend'); sheet 1 is licence note; sheet 3 is Card Transactions",
       "no Department column — only cost centre text",
       "some reversal entries create extreme amount values"
+    ]
+  },
+  {
+    "name": "Council of the Isles of Scilly",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\council_of_the_isles_of_scilly",
+    "deptCol": "Directorate",
+    "purposeCol": "Description",
+    "amountCol": "Net Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\council_of_the_isles_of_scilly_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Council of the Isles of Scilly — https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250",
+    "source_url": "https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "two 'Description' columns (cost centre description and subjective description) — will collide on naive ingest",
+      "leading-space column headers need trimming",
+      "URL slug says '£250' but actual threshold is £500",
+      "Line Amount and Net Amount differ for multi-line invoices",
+      "very small volume (~2,200 rows/year)"
     ]
   },
   {

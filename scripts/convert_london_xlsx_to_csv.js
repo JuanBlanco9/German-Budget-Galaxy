@@ -35,7 +35,14 @@ const TARGETS = [
   { dir: 'oldham_metropolitan_borough_council', headerKeyword: 'Supplier' },
   { dir: 'knowsley_metropolitan_borough_council', headerKeyword: 'Supplier' },
   { dir: 'st_helens_metropolitan_borough_council', headerKeyword: 'Supplier' },
-  { dir: 'bury_metropolitan_borough_council', headerKeyword: 'Supplier' }
+  { dir: 'bury_metropolitan_borough_council', headerKeyword: 'Supplier' },
+
+  // Unitaries with XLSX-only data
+  { dir: 'worcestershire_county_council', headerKeyword: 'Supplier Name' },
+  { dir: 'west_berkshire_council', headerKeyword: 'Supplier name' },
+  { dir: 'bracknell_forest_council', headerKeyword: 'Supplier' },
+  { dir: 'council_of_the_isles_of_scilly', headerKeyword: 'Supplier Name' },
+  { dir: 'cheshire_west_and_chester_council', headerKeyword: 'Supplier' }
 ];
 
 function csvEscape(v) {
