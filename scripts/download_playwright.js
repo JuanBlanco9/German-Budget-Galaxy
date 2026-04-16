@@ -48,6 +48,21 @@ const TARGETS = {
     warmupUrl: 'https://www.met.police.uk/SysSiteAssets/foi-media/metropolitan-police/disclosure_2023/september_2023/metropolitan-police-service---expenditure-data.xlsx',
     dir: path.join(SPEND_DIR, 'mps'),
     files: null  // discover dynamically
+  },
+  ntyneside: {
+    warmupUrl: 'https://my.northtyneside.gov.uk/page/20287/transparency',
+    dir: path.join(SPEND_DIR, 'north_tyneside_metropolitan_borough_council'),
+    files: [
+      // FY 23/24: 8 URLs confirmed via Google index (Agent 2). Apr/May/Dec 23 + Mar 24 missing.
+      ['nt_jun_2023.csv', 'https://my.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20June%202023.xlsx.csv'],
+      ['nt_jul_2023.csv', 'https://my.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20July%202023.csv'],
+      ['nt_aug_2023.csv', 'https://my.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20August%202023.csv'],
+      ['nt_sep_2023.csv', 'https://my.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20September%202023.csv'],
+      ['nt_oct_2023.csv', 'https://my.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20October%202023.csv'],
+      ['nt_nov_2023.csv', 'https://northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20November%2023.csv'],
+      ['nt_jan_2024.csv', 'https://my.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20January%2024.csv'],
+      ['nt_feb_2024.csv', 'https://legacy.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20February%2024.csv']
+    ]
   }
 };
 

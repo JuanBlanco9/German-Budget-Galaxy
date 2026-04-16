@@ -3451,14 +3451,13 @@
     "download_urls": [],
     "url_pattern": "https://legacy.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20{Month}%20{YY}.csv",
     "file_format": "csv",
-    "blocker_severity": "red",
+    "blocker_severity": "green",
     "fy_coverage": "9/12 \u2014 Apr/May/Jun 2023 purged (rolling window deletion)",
     "schema": {
-      "supplier_col": "Supplier (Beneficiary) Name",
-      "dept_col": "Directorate/Service",
-      "purpose_col": "Purpose of Spend",
+      "dept_col": "Directorate / Service Where Expenditure Incurred",
+      "purpose_col": "SeRCOP Expenditure Category",
       "amount_col": "Net Amount",
-      "date_col": "Payment Date",
+      "supplier_col": "Supplier (Beneficiary) Name",
       "encoding": "utf8",
       "sep": "comma"
     },

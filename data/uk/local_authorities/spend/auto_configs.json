@@ -491,6 +491,36 @@
     ]
   },
   {
+    "name": "North Tyneside Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_tyneside_metropolitan_borough_council",
+    "deptCol": "Directorate / Service Where Expenditure Incurred",
+    "purposeCol": "SeRCOP Expenditure Category",
+    "amountCol": "Net Amount",
+    "supplierCol": "Supplier (Beneficiary) Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier (Beneficiary) Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_tyneside_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "North Tyneside Metropolitan Borough Council — https://my.northtyneside.gov.uk/page/20287/transparency",
+    "source_url": "https://my.northtyneside.gov.uk/page/20287/transparency",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "HARD BLOCKER: April, May, June 2023 files purged — rolling-window retention policy",
+      "£250 threshold (not £500)",
+      "Landing page redirects to legacy domain for actual files",
+      "Month naming alternates between 4-digit year ('November 2023') and 2-digit year ('March 24') with no rule",
+      "URL-encoded spaces in filenames (%20)",
+      "SeRCOP expenditure codes and URIs included — richest schema in batch",
+      "Capital/Revenue flag column present",
+      "Wayback CDX recovery untested (503 errors)"
+    ],
+    "_validation_warnings": [
+      "dept: \"Directorate\" → \"Directorate / Service Where Expenditure Incurred\" [substring]"
+    ]
+  },
+  {
     "name": "South Tyneside Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\south_tyneside_metropolitan_borough_council",
