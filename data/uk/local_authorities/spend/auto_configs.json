@@ -1,5 +1,28 @@
 [
   {
+    "name": "Lancashire Police and Crime Commissioner and Chief Constable",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\lancashire_pcc",
+    "deptCol": "* Expenditure Category",
+    "purposeCol": null,
+    "amountCol": "TOTAL",
+    "supplierCol": "* SUPPLIER FINAL",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "* SUPPLIER FINAL",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\lancashire_pcc_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Lancashire PCC — https://www.lancashire-pcc.gov.uk/transparency/financial-information/spending-over-500/",
+    "source_url": "https://www.lancashire-pcc.gov.uk/transparency/financial-information/spending-over-500/",
+    "_manifest_blocker": "DIRECT (manifest green, URL Apr-23-Mar-24-1.xlsx pre-listed)",
+    "_manifest_complications": [
+      "Single annual workbook (Apr-23-Mar-24-1.xlsx) with 12 monthly sheets, 9,379 total rows",
+      "No dept column — Expenditure Category used as dept signal",
+      "Sheet names mixed format: 'Apr' vs 'Jan 24' (with year suffix for Jan/Feb/Mar)",
+      "Column headers prefixed with '*' (e.g. '* SUPPLIER FINAL', '* Expenditure Category')"
+    ]
+  },
+  {
     "name": "Hampshire Police and Crime Commissioner and Chief Constable",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\hampshire_iow_pcc",
