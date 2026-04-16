@@ -1,13 +1,18 @@
 BUDGET GALAXY - Project Context
 ================================
-Date: April 15, 2026 (v1.1-london-complete shipped)
+Date: April 16, 2026 (post-Met Districts + Unitaries session)
 Owner: Juan Blanco (@JuanBlanco9)
-Last major change: London Complete — all 28 remaining London boroughs shipped with
-                   supplier-level metadata. Coverage 19.7% → 46.7% MHCLG-attributed
-                   (38.3% tree-visible) in a single session. 4-layer audit trail
-                   (live URLs + Wayback + SHA256 + archive.org mirrors).
-                   Tag: v1.1-london-complete at commit a1b41be.
-                   Follow-up cleanup: 7067838 (refine v2 + duplicate alias removal).
+Last major change: Met Districts + Unitaries — 23 new councils in one session.
+                   110 councils in lookup, 986 service nodes with _top_suppliers,
+                   65.2% MHCLG coverage (£85.8B / £131.6B).
+                   Last commit: 06a7036. Tree md5 live: 553bc5d3e30d19d3fdcabccf7023870b.
+                   Session infra: £100M sanity cap on single transactions (pair-reversal
+                   defense), MBC/Metropolitan District Council alias strip in injector.
+                   Next session: quality fixes on Worcestershire/Cheshire West/Bolton
+                   BEFORE adding new councils (per user instruction 2026-04-16).
+                   See PROMPT_NEXT_SESSION.md for ordered work blocks.
+
+Previous milestone: London Complete — 28 boroughs at v1.1 (commit a1b41be).
 
 WHAT IT IS
 ----------

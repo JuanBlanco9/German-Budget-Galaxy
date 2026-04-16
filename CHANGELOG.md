@@ -2,6 +2,30 @@
 
 All notable changes to Budget Galaxy are documented here.
 
+## [Unreleased] - 2026-04-16 — UK supplier metadata to 65.2% MHCLG
+
+### Added
+- 23 new councils with supplier-level `_top_suppliers` metadata
+  - Wave 1 (Met Districts): Kirklees, Knowsley, Oldham, St Helens, Wigan, Sefton, Rotherham, Bolton, Stockport, Wolverhampton, Wirral, Sandwell, Walsall, Sunderland, S Tyneside, Salford (16 councils, commits 986383f → 81cc14f)
+  - Wave 2 (ad-hoc): North Tyneside via legacy subdomain (9/12 months, commit 1e9c7eb)
+  - Wave 3: Wakefield, Bury (Wayback), North Somerset (commit bef4bf9)
+  - Wave 4 (Unitaries): N Northants, Worcestershire, Cheshire West, W Berkshire, Bracknell Forest, Isles of Scilly (commit 06a7036)
+- `£100M sanity cap` in build_council_spend_lookup.js — rejects pair-reversal entries that otherwise inflate totals (negative-drop + positive-keep asymmetry)
+- `MBC` and `METROPOLITAN DISTRICT COUNCIL` strip rules in inject_council_spend_metadata.js normalizer
+- Wakefield alias in NAME_ALIASES
+
+### Changed
+- Coverage: 19.7% → 46.7% → 56.5% → **65.2% MHCLG** (£85.8B / £131.6B)
+- Lookup entries: 28 → 87 → **110**
+- Service nodes with metadata: 920 → **986**
+- Bury MBC CSVs hand-normalized via sed (10 months had 5 variants of Dept column name)
+
+### Known issues (next session)
+- Worcestershire CC £873M in only 2 services (under-classified — 46 patterns insufficient)
+- Cheshire West £430M in only 6 services (same issue — 6 patterns)
+- Bolton MBC £16M vs £613M MHCLG node (wrong source file or missing data)
+- Westmorland & Furness dropped `blocker=red` — needs 4-stream preprocessor for legacy councils
+
 ## [2.1.0] - 2026-04-06
 
 ### Added

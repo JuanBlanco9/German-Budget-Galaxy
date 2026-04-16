@@ -1,6 +1,6 @@
 # Budget Galaxy — UK Council Spend Sources Manifest
 
-_Generated: 2026-04-16T01:23:50.624Z_
+_Generated: 2026-04-16T13:11:27.274Z_
 
 This file lists every raw data source behind the supplier-level coverage on Budget Galaxy's UK Local Government tree, along with the audit trail that lets independent auditors verify that the figures shown on https://budgetgalaxy.com come from authentic government publications and were not modified after download.
 
@@ -212,6 +212,81 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Total**: 1 files, 16.1MB
 
+### Blackpool Council
+
+**Live source**: [https://www.blackpool.gov.uk/Your-Council/Transparency-and-open-data/Budget,-spending-and-procurement/Payments-over-250.aspx](https://www.blackpool.gov.uk/Your-Council/Transparency-and-open-data/Budget,-spending-and-procurement/Payments-over-250.aspx)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Blackpool Council — https://www.blackpool.gov.uk/Your-Council/Transparency-and-open-data/Budget,-spending-and-procurement/Payments-over-250.aspx  
+
+**Raw files** (13):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `blackpool_council/Purchase-card-spend-over-250-December-2023.csv` | 56.2KB | `be3e7461fe851fd7…` |
+| `blackpool_council/Transparency-spend-April-2023.csv` | 901.8KB | `89d7ff6cab2abaff…` |
+| `blackpool_council/Transparency-spend-August-2023.csv` | 2.1MB | `0f17dfaebd8b962e…` |
+| `blackpool_council/Transparency-spend-December-2023.csv` | 2.2MB | `ba56950b5786cb83…` |
+| `blackpool_council/Transparency-spend-February-2024.csv` | 2.0MB | `3cfacaa17ca9080f…` |
+| `blackpool_council/Transparency-spend-January-2024.csv` | 1.9MB | `66f0638fd713f514…` |
+| `blackpool_council/Transparency-spend-July-2023.csv` | 2.0MB | `5db7b294b0f78eb5…` |
+| `blackpool_council/Transparency-spend-June-2023.csv` | 2.0MB | `a5df40376c596031…` |
+| `blackpool_council/Transparency-spend-Marc-2024.csv` | 2.3MB | `8093006139a6b9d3…` |
+| `blackpool_council/Transparency-spend-May-2023.csv` | 1.7MB | `eb4a847ffb8e205b…` |
+| `blackpool_council/Transparency-spend-November-2023.csv` | 2.0MB | `8f7a3333471c3c7f…` |
+| `blackpool_council/Transparency-spend-October-2023.csv` | 1.9MB | `a7fd7846243480b8…` |
+| `blackpool_council/Transparency-spend-September-2023.csv` | 1.8MB | `fa0176fb7680df44…` |
+
+**Total**: 13 files, 23.0MB
+
+### Bolton Metropolitan Borough Council
+
+**Live source**: [https://www.bolton.gov.uk/downloads/download/196/expenditure_reports](https://www.bolton.gov.uk/downloads/download/196/expenditure_reports)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Bolton Metropolitan Borough Council — https://www.bolton.gov.uk/downloads/download/196/expenditure_reports  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `bolton_metropolitan_borough_council/bolton_apr_2023.csv` | 214.8KB | `b9cd76e50fc919da…` |
+| `bolton_metropolitan_borough_council/bolton_aug_2023.csv` | 227.9KB | `854b5602590f3f8c…` |
+| `bolton_metropolitan_borough_council/bolton_dec_2023.csv` | 215.8KB | `0df47b518b42af75…` |
+| `bolton_metropolitan_borough_council/bolton_feb_2024.csv` | 247.6KB | `92ae0274901e8504…` |
+| `bolton_metropolitan_borough_council/bolton_jan_2024.csv` | 248.6KB | `625a80daa0902c8d…` |
+| `bolton_metropolitan_borough_council/bolton_jul_2023.csv` | 268.5KB | `9a07b76bac9bc698…` |
+| `bolton_metropolitan_borough_council/bolton_jun_2023.csv` | 218.7KB | `cae8cc182057252e…` |
+| `bolton_metropolitan_borough_council/bolton_mar_2024.csv` | 270.7KB | `b6900dc0558771ad…` |
+| `bolton_metropolitan_borough_council/bolton_may_2023.csv` | 234.5KB | `604728186df99d6f…` |
+| `bolton_metropolitan_borough_council/bolton_nov_2023.csv` | 261.5KB | `e0b726f2ac56e4c5…` |
+| `bolton_metropolitan_borough_council/bolton_oct_2023.csv` | 237.2KB | `e9835d36f66316a7…` |
+| `bolton_metropolitan_borough_council/bolton_sep_2023.csv` | 225.7KB | `924c1724d97f337f…` |
+
+**Total**: 12 files, 2.8MB
+
+### Bracknell Forest Council
+
+**Live source**: [https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it](https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Bracknell Forest Council — https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it  
+
+**Raw files** (8):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `bracknell_forest_council/payments-over-500-April-June_2023.csv` | 1.2MB | `59f79d6b9f17c968…` |
+| `bracknell_forest_council/payments-over-500-April-June_2023.xlsx` | 361.6KB | `c4d1f766549982e7…` |
+| `bracknell_forest_council/payments-over-500-january-to-march-2024.csv` | 1.5MB | `174d45a844a5372e…` |
+| `bracknell_forest_council/payments-over-500-january-to-march-2024.xlsx` | 444.6KB | `58943c10ae0f46a4…` |
+| `bracknell_forest_council/payments-over-500-july-2023-to-september-2023.csv` | 1.4MB | `9bfc35943e769545…` |
+| `bracknell_forest_council/payments-over-500-july-2023-to-september-2023.xlsx` | 406.7KB | `d94ce94b7f33849b…` |
+| `bracknell_forest_council/payments-over-500-october-december-2023.csv` | 1.3MB | `25ccb2659c060981…` |
+| `bracknell_forest_council/payments-over-500-october-december-2023.xlsx` | 396.4KB | `cfae1f26afc155bc…` |
+
+**Total**: 8 files, 7.0MB
+
 ### Bradford
 
 **Live source**: [https://datahub.bradford.gov.uk/ebase/datahub/dataset/get.do?datasetId=9](https://datahub.bradford.gov.uk/ebase/datahub/dataset/get.do?datasetId=9)  
@@ -364,6 +439,40 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Total**: 11 files, 26.6MB
 
+### Bury Metropolitan Borough Council
+
+**Live source**: [https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers](https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Bury Metropolitan Borough Council — https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers  
+
+**Raw files** (20):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `bury_metropolitan_borough_council/bury_apr_2023.csv` | 502.8KB | `dbbbdea3eb0ba43d…` |
+| `bury_metropolitan_borough_council/bury_apr_2023.xlsx` | 99.4KB | `ed7759824d0c7f2a…` |
+| `bury_metropolitan_borough_council/bury_aug_2023.csv` | 519.0KB | `6b675b71740b5aeb…` |
+| `bury_metropolitan_borough_council/bury_aug_2023.xlsx` | 104.3KB | `383ecc9ed9332b48…` |
+| `bury_metropolitan_borough_council/bury_dec_2023.csv` | 539.0KB | `6059d3ce1ecb866b…` |
+| `bury_metropolitan_borough_council/bury_dec_2023.xlsx` | 106.6KB | `e3d11771e6064d2c…` |
+| `bury_metropolitan_borough_council/bury_jan_2024.csv` | 658.2KB | `b2831cf5284c79f3…` |
+| `bury_metropolitan_borough_council/bury_jan_2024.xlsx` | 123.7KB | `caa82905dbd8c6ef…` |
+| `bury_metropolitan_borough_council/bury_jul_2023.csv` | 581.3KB | `451159bb13214f86…` |
+| `bury_metropolitan_borough_council/bury_jul_2023.xlsx` | 117.0KB | `279cc17c855c7bc7…` |
+| `bury_metropolitan_borough_council/bury_jun_2023.csv` | 505.7KB | `6337f35c23eb2c15…` |
+| `bury_metropolitan_borough_council/bury_jun_2023.xlsx` | 104.8KB | `5f2a4e250c25ecc7…` |
+| `bury_metropolitan_borough_council/bury_may_2023.csv` | 506.9KB | `54e327c4b86005dd…` |
+| `bury_metropolitan_borough_council/bury_may_2023.xlsx` | 107.8KB | `c2f8f88bc9895675…` |
+| `bury_metropolitan_borough_council/bury_nov_2023.csv` | 507.9KB | `cddd7e29ec44df0b…` |
+| `bury_metropolitan_borough_council/bury_nov_2023.xlsx` | 101.9KB | `f481568ad9a73b50…` |
+| `bury_metropolitan_borough_council/bury_oct_2023.csv` | 543.2KB | `56fe777f42007e31…` |
+| `bury_metropolitan_borough_council/bury_oct_2023.xlsx` | 108.1KB | `452137635b5123d0…` |
+| `bury_metropolitan_borough_council/bury_sep_2023.csv` | 503.5KB | `81938b42205d725b…` |
+| `bury_metropolitan_borough_council/bury_sep_2023.xlsx` | 98.6KB | `42a44bd6b98cc35e…` |
+
+**Total**: 20 files, 6.3MB
+
 ### Cambridgeshire County Council
 
 **Live source**: [https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500](https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500)  
@@ -405,6 +514,28 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Total**: 1 files, 16.1MB
 
+### Cheshire West and Chester Council
+
+**Live source**: [https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500](https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Cheshire West and Chester Council — https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500  
+
+**Raw files** (8):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `cheshire_west_and_chester_council/2023-24-500gbp-spend-quarter-1.csv` | 2.3MB | `25a8a6e1fa6317e5…` |
+| `cheshire_west_and_chester_council/2023-24-500gbp-spend-quarter-1.xlsx` | 575.3KB | `81784d0b2d5594f8…` |
+| `cheshire_west_and_chester_council/2023-24-500gbp-spend-quarter-2.csv` | 2.0MB | `de160bacda27ed08…` |
+| `cheshire_west_and_chester_council/2023-24-500gbp-spend-quarter-2.xlsx` | 497.3KB | `31d61136ee7fb144…` |
+| `cheshire_west_and_chester_council/2023-24-500gdp-spend-quarter-3.csv` | 2.3MB | `6ab996d90c9efdfc…` |
+| `cheshire_west_and_chester_council/2023-24-500gdp-spend-quarter-3.xlsx` | 571.1KB | `9093bba3f1c199d8…` |
+| `cheshire_west_and_chester_council/2023-24-500gdp-spend-quarter-4.csv` | 1.8MB | `e8874dc0ecc9464b…` |
+| `cheshire_west_and_chester_council/2023-24-500gdp-spend-quarter-4.xlsx` | 459.6KB | `26d978c56b859a96…` |
+
+**Total**: 8 files, 10.4MB
+
 ### City of London
 
 **Live source**: [https://www.cityoflondon.gov.uk/about-us/budgets-spending/local-authority-expenditure](https://www.cityoflondon.gov.uk/about-us/budgets-spending/local-authority-expenditure)  
@@ -442,6 +573,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 | `city_of_london/2024_03.xlsx` | 243.7KB | `1040a83d1077f01a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_03.xlsx) |
 
 **Total**: 24 files, 9.2MB
+
+### City of Wolverhampton Council
+
+**Live source**: [discovered inline via agent](discovered inline via agent)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: City of Wolverhampton Council — discovered inline via agent  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `city_of_wolverhampton_council/wolver_apr_2023.csv` | 1.1MB | `bdbba6fa34190bef…` |
+| `city_of_wolverhampton_council/wolver_aug_2023.csv` | 972.1KB | `b72c3952b52959ad…` |
+| `city_of_wolverhampton_council/wolver_dec_2023.csv` | 891.5KB | `e697c5798ca2ce98…` |
+| `city_of_wolverhampton_council/wolver_feb_2024.csv` | 1.2MB | `d4514fe5cb01673f…` |
+| `city_of_wolverhampton_council/wolver_jan_2024.csv` | 1.6MB | `e2798d9cf1f326ec…` |
+| `city_of_wolverhampton_council/wolver_jul_2023.csv` | 1.1MB | `12f831c4d6bc8ee8…` |
+| `city_of_wolverhampton_council/wolver_jun_2023.csv` | 1.1MB | `415cfe3a05bf111c…` |
+| `city_of_wolverhampton_council/wolver_mar_2024.csv` | 1.3MB | `ca2dbc37ace36903…` |
+| `city_of_wolverhampton_council/wolver_may_2023.csv` | 1.0MB | `ff44a29f7400ea42…` |
+| `city_of_wolverhampton_council/wolver_nov_2023.csv` | 1.3MB | `c4e928a03950541d…` |
+| `city_of_wolverhampton_council/wolver_oct_2023.csv` | 932.9KB | `fc7f74e808ee981c…` |
+| `city_of_wolverhampton_council/wolver_sep_2023.csv` | 1.1MB | `b98eb234deba54f6…` |
+
+**Total**: 12 files, 13.5MB
 
 ### City of York Council
 
@@ -484,6 +641,30 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 | `cornwall/cornwall_2024_03.csv` | 6.7MB | `a84de44d963b7d50…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cornwall_cornwall_2024_03.csv) |
 
 **Total**: 12 files, 65.8MB
+
+### Council of the Isles of Scilly
+
+**Live source**: [https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250](https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Council of the Isles of Scilly — https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250  
+
+**Raw files** (10):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q1.2023.2024_0.csv` | 109.6KB | `70ee6e876f7ff14e…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q1.2023.2024_0.xlsx` | 49.9KB | `251b5f8f0f3d7fa7…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q2.2022.2023_1.csv` | 95.6KB | `b5957cb1433e1981…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q2.2022.2023_1.xlsx` | 44.2KB | `0962ce6eb862f82c…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q2.2023.2024.csv` | 135.3KB | `699cc41ffcc70481…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q2.2023.2024.xlsx` | 57.1KB | `b6aaf755413d02c3…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q3.2023.2024.csv` | 194.1KB | `a4c384683ef432f0…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q3.2023.2024.xlsx` | 72.9KB | `ff57b602ad5c9aed…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q4.2023.2024.csv` | 198.2KB | `d5c41b02ba2558a0…` |
+| `council_of_the_isles_of_scilly/Transactions_over_500_-_Q4.2023.2024.xlsx` | 77.9KB | `579ba494535ed306…` |
+
+**Total**: 10 files, 1.0MB
 
 ### County Durham Council
 
@@ -574,6 +755,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 | `croydon/sep_2023.xlsx` | 1.6MB | `134ec556c845954b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/croydon_sep_2023.xlsx) |
 
 **Total**: 24 files, 93.3MB
+
+### Derby City Council
+
+**Live source**: [https://www.derby.gov.uk/council-and-democracy/open-data-freedom-of-information/open-data-transparency/](https://www.derby.gov.uk/council-and-democracy/open-data-freedom-of-information/open-data-transparency/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Derby City Council — https://www.derby.gov.uk/council-and-democracy/open-data-freedom-of-information/open-data-transparency/  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `derby_city_council/payments-to-suppliers-april2023v2.csv` | 778.0KB | `924162965b5d179a…` |
+| `derby_city_council/payments-to-suppliers-august2023v2.csv` | 1.9MB | `510e5a08e5c8990a…` |
+| `derby_city_council/payments-to-suppliers-december-2023.csv` | 1.1MB | `e099986b93e973e6…` |
+| `derby_city_council/payments-to-suppliers-february-2024.csv` | 2.0MB | `26d52101edf1cd09…` |
+| `derby_city_council/payments-to-suppliers-january-2024.csv` | 2.6MB | `f0542ca3d22323a1…` |
+| `derby_city_council/payments-to-suppliers-july2023v2.csv` | 1.6MB | `8cdcbada2d1006d3…` |
+| `derby_city_council/payments-to-suppliers-june2023v2.csv` | 1.8MB | `fc990b8b5aa214c9…` |
+| `derby_city_council/payments-to-suppliers-march-2024.csv` | 2.6MB | `aa441b9099291c76…` |
+| `derby_city_council/payments-to-suppliers-may2023v2.csv` | 2.0MB | `3021899e7c145cb9…` |
+| `derby_city_council/payments-to-suppliers-november-2023.csv` | 1.6MB | `91f354f5e482b70b…` |
+| `derby_city_council/payments-to-suppliers-october-2023.csv` | 2.0MB | `a03b00987a5a821e…` |
+| `derby_city_council/payments-to-suppliers-september2023v2.csv` | 1.8MB | `f2b5c5b2c8db3f9f…` |
+
+**Total**: 12 files, 21.8MB
 
 ### Devon
 
@@ -821,7 +1028,7 @@ _No raw files tracked — data fetched via API at build time._
 | `hammersmith_fulham/q1_apr_jun_2023.xlsx` | 2.1MB | `b2e0284d87f74cd9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q1_apr_jun_2023.xlsx) |
 | `hammersmith_fulham/q2_jul_sep_2023.csv` | 3.2MB | `84e30a01f0162713…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q2_jul_sep_2023.csv) |
 | `hammersmith_fulham/q2_jul_sep_2023.xlsx` | 1.3MB | `0d6efc9b915c76c1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q2_jul_sep_2023.xlsx) |
-| `hammersmith_fulham/q4_jan_mar_2024.csv` | 1.7MB | `b0c77ca6ee981718…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q4_jan_mar_2024.csv) |
+| `hammersmith_fulham/q4_jan_mar_2024.csv` | 1.7MB | `ba9519ac33d298b6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q4_jan_mar_2024.csv) |
 | `hammersmith_fulham/q4_jan_mar_2024.xlsx` | 692.7KB | `e1669010adeb99c3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q4_jan_mar_2024.xlsx) |
 
 **Total**: 6 files, 13.8MB
@@ -1164,6 +1371,82 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 12 files, 6.3MB
 
+### Kirklees Metropolitan Borough Council
+
+**Live source**: [https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx](https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Kirklees Metropolitan Borough Council — https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx  
+
+**Raw files** (24):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `kirklees_metropolitan_borough_council/KC-Published-Data-2023-12-31.csv` | 594.8KB | `0af9003baed2555b…` |
+| `kirklees_metropolitan_borough_council/KC-Published-Data-2023-12-31.xlsx` | 405.5KB | `b433d8b28410b73b…` |
+| `kirklees_metropolitan_borough_council/KC-Published-Data_-2023-11-30.csv` | 640.1KB | `8986d6bac0d74e81…` |
+| `kirklees_metropolitan_borough_council/KC-Published-Data_-2023-11-30.xlsx` | 427.1KB | `d5da54fe19540df6…` |
+| `kirklees_metropolitan_borough_council/KC-published-data-2023-07-31.csv` | 694.7KB | `813822ffb887c91b…` |
+| `kirklees_metropolitan_borough_council/KC-published-data-2023-07-31.xlsx` | 466.7KB | `189abf715dff0b20…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-04-30.csv` | 577.9KB | `d649621c6f508cc8…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-04-30.xlsx` | 409.5KB | `e43ef8cf25e309fa…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-05-31.csv` | 555.8KB | `c55b286adfd40211…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-05-31.xlsx` | 376.7KB | `9b8d4bc4a62d166a…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-08-31.csv` | 598.3KB | `af0f8ada0cf600c1…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-08-31.xlsx` | 401.3KB | `91148f11f9e1a46a…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-09-30.csv` | 528.0KB | `b3d57c4230a64d6d…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-09-30.xlsx` | 364.9KB | `ec675a5c3df278ef…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-10-31.csv` | 680.5KB | `03d7cfe534e8dafd…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2023-10-31.xlsx` | 455.3KB | `1f15b346b8a05de9…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2024-01-31.csv` | 524.4KB | `f0ebc070cf849563…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2024-01-31.xlsx` | 373.1KB | `271172e4a15d7dc0…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2024-02-29.csv` | 623.5KB | `e492d7d62a583fa6…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2024-02-29.xlsx` | 437.7KB | `ae604115416a6f08…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2024-03-31.csv` | 713.9KB | `79e497379adfd144…` |
+| `kirklees_metropolitan_borough_council/Published-Data-2024-03-31.xlsx` | 495.2KB | `bb5c8eabc3eeab9f…` |
+| `kirklees_metropolitan_borough_council/published-data-2023-06-30.csv` | 611.3KB | `472c98137ccce170…` |
+| `kirklees_metropolitan_borough_council/published-data-2023-06-30.xlsx` | 413.4KB | `571a4d1c3e5aadb4…` |
+
+**Total**: 24 files, 12.1MB
+
+### Knowsley Metropolitan Borough Council
+
+**Live source**: [https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500](https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Knowsley Metropolitan Borough Council — https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500  
+
+**Raw files** (24):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `knowsley_metropolitan_borough_council/2023_-_April.csv` | 1.2MB | `8800c8da50161f80…` |
+| `knowsley_metropolitan_borough_council/2023_-_April.xlsx` | 465.4KB | `34500d0401b25ccc…` |
+| `knowsley_metropolitan_borough_council/2023_-_August.csv` | 1.4MB | `216b2282c432d66c…` |
+| `knowsley_metropolitan_borough_council/2023_-_August.xlsx` | 533.6KB | `f88e067bf613610a…` |
+| `knowsley_metropolitan_borough_council/2023_-_December.csv` | 1.4MB | `c0ec8ffa305d7f7c…` |
+| `knowsley_metropolitan_borough_council/2023_-_December.xlsx` | 523.6KB | `498067d3e81c67f2…` |
+| `knowsley_metropolitan_borough_council/2023_-_July.csv` | 995.1KB | `26a54f63adad2cc5…` |
+| `knowsley_metropolitan_borough_council/2023_-_July.xlsx` | 392.2KB | `9902ab382186d223…` |
+| `knowsley_metropolitan_borough_council/2023_-_June.csv` | 1.2MB | `556368e0034e4ec6…` |
+| `knowsley_metropolitan_borough_council/2023_-_June.xlsx` | 475.1KB | `57afd637d8ead8b7…` |
+| `knowsley_metropolitan_borough_council/2023_-_May.csv` | 1.1MB | `1f09902d4bf2dd53…` |
+| `knowsley_metropolitan_borough_council/2023_-_May.xlsx` | 446.3KB | `8fc5fb055598d335…` |
+| `knowsley_metropolitan_borough_council/2023_-_November.csv` | 1.2MB | `ae0231d5fc312990…` |
+| `knowsley_metropolitan_borough_council/2023_-_November.xlsx` | 469.6KB | `c4274c34ef5e3917…` |
+| `knowsley_metropolitan_borough_council/2023_-_October.csv` | 1.3MB | `4072538ccf6a8818…` |
+| `knowsley_metropolitan_borough_council/2023_-_October.xlsx` | 488.7KB | `69c874e50fb7ad22…` |
+| `knowsley_metropolitan_borough_council/2023_-_September.csv` | 981.6KB | `3a8f46933198bc2c…` |
+| `knowsley_metropolitan_borough_council/2023_-_September.xlsx` | 385.6KB | `832d5407c34074e2…` |
+| `knowsley_metropolitan_borough_council/2024_-_February.csv` | 1.3MB | `150d4c64c43dc4de…` |
+| `knowsley_metropolitan_borough_council/2024_-_February.xlsx` | 484.9KB | `60159b6a1783e566…` |
+| `knowsley_metropolitan_borough_council/2024_-_January.csv` | 1.6MB | `f6ca5c7680701e5a…` |
+| `knowsley_metropolitan_borough_council/2024_-_January.xlsx` | 608.4KB | `d3ec40c9d3efc09b…` |
+| `knowsley_metropolitan_borough_council/2024_-_March.csv` | 1.5MB | `6f7055704a3e65d2…` |
+| `knowsley_metropolitan_borough_council/2024_-_March.xlsx` | 553.3KB | `1a60bc46ae1d2513…` |
+
+**Total**: 24 files, 20.7MB
+
 ### Lambeth
 
 **Live source**: [https://www.lambeth.gov.uk/finance-and-performance/council-finances/payments-over-500](https://www.lambeth.gov.uk/finance-and-performance/council-finances/payments-over-500)  
@@ -1447,6 +1730,87 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 5 files, 70.1MB
 
+### North Northamptonshire Council
+
+**Live source**: [https://www.northnorthants.gov.uk/finance/expenditure](https://www.northnorthants.gov.uk/finance/expenditure)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: North Northamptonshire Council — https://www.northnorthants.gov.uk/finance/expenditure  
+
+**Raw files** (24):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `north_northamptonshire_council/file_2ddffp.bin` | 1.2MB | `22a0c7850f1a24e5…` |
+| `north_northamptonshire_council/file_2g8qld.bin` | 1.4MB | `98f20affa4d5d468…` |
+| `north_northamptonshire_council/file_4dc68u.bin` | 1.0MB | `0c5ec3dafd2206bc…` |
+| `north_northamptonshire_council/file_7ar5s2.bin` | 1.2MB | `fe65bf1a0d7c46b1…` |
+| `north_northamptonshire_council/file_7dmgxq.bin` | 1.3MB | `fbd246520212d3f6…` |
+| `north_northamptonshire_council/file_c4dbt4.bin` | 1.1MB | `ef3c0b6903b5d970…` |
+| `north_northamptonshire_council/file_e4c2m9.bin` | 1.1MB | `07db3ca9de1a5a55…` |
+| `north_northamptonshire_council/file_e65qpq.bin` | 1.0MB | `618ac7e8c16476ca…` |
+| `north_northamptonshire_council/file_h1r25h.bin` | 1.3MB | `4ce86d296f9b5b4e…` |
+| `north_northamptonshire_council/file_j38gtc.bin` | 1.0MB | `f7d0e8ba2d55194e…` |
+| `north_northamptonshire_council/file_l377mh.bin` | 1.1MB | `08b7464e9da36d18…` |
+| `north_northamptonshire_council/file_nx5n35.bin` | 1.1MB | `e6e1745db0e803f5…` |
+| `north_northamptonshire_council/nnorthants_2023_04.csv` | 1.1MB | `e6e1745db0e803f5…` |
+| `north_northamptonshire_council/nnorthants_2023_05.csv` | 1.0MB | `618ac7e8c16476ca…` |
+| `north_northamptonshire_council/nnorthants_2023_06.csv` | 1.0MB | `0c5ec3dafd2206bc…` |
+| `north_northamptonshire_council/nnorthants_2023_07.csv` | 1.1MB | `07db3ca9de1a5a55…` |
+| `north_northamptonshire_council/nnorthants_2023_08.csv` | 1.1MB | `08b7464e9da36d18…` |
+| `north_northamptonshire_council/nnorthants_2023_09.csv` | 1.0MB | `f7d0e8ba2d55194e…` |
+| `north_northamptonshire_council/nnorthants_2023_10.csv` | 1.1MB | `ef3c0b6903b5d970…` |
+| `north_northamptonshire_council/nnorthants_2023_11.csv` | 1.2MB | `22a0c7850f1a24e5…` |
+| `north_northamptonshire_council/nnorthants_2023_12.csv` | 1.3MB | `fbd246520212d3f6…` |
+| `north_northamptonshire_council/nnorthants_2024_01.csv` | 1.3MB | `4ce86d296f9b5b4e…` |
+| `north_northamptonshire_council/nnorthants_2024_02.csv` | 1.2MB | `fe65bf1a0d7c46b1…` |
+| `north_northamptonshire_council/nnorthants_2024_03.csv` | 1.4MB | `98f20affa4d5d468…` |
+
+**Total**: 24 files, 27.5MB
+
+### North Somerset Council
+
+**Live source**: [https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250](https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: North Somerset Council — https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250  
+
+**Raw files** (6):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `north_somerset_council/n_somerset_2023_24.csv` | 11.1MB | `080c45f9fc853432…` |
+| `north_somerset_council/n_somerset_2023_24.xlsx` | 3.3MB | `8f31edceb37b22d6…` |
+| `north_somerset_council/spending_over_250_-_2021-22.xlsx` | 2.8MB | `fb99f1cb9bf46f00…` |
+| `north_somerset_council/spending_over_250_-_2022-23.xlsx` | 3.1MB | `7b77f6a68e286d77…` |
+| `north_somerset_council/spending_over_250_-_2023-24.xlsx` | 3.3MB | `8f31edceb37b22d6…` |
+| `north_somerset_council/spending_over_250_-_2024-25.xlsx` | 3.5MB | `8bf50cfdefdaf2f4…` |
+
+**Total**: 6 files, 27.1MB
+
+### North Tyneside Metropolitan Borough Council
+
+**Live source**: [https://my.northtyneside.gov.uk/page/20287/transparency](https://my.northtyneside.gov.uk/page/20287/transparency)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: North Tyneside Metropolitan Borough Council — https://my.northtyneside.gov.uk/page/20287/transparency  
+
+**Raw files** (9):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `north_tyneside_metropolitan_borough_council/nt_aug_2023.csv` | 3.6MB | `5b54a2ef63956c1e…` |
+| `north_tyneside_metropolitan_borough_council/nt_feb_2024.csv` | 4.7MB | `cbc51a8c8d119370…` |
+| `north_tyneside_metropolitan_borough_council/nt_jan_2024.csv` | 3.6MB | `0babdc7c8103edd7…` |
+| `north_tyneside_metropolitan_borough_council/nt_jul_2023.csv` | 3.9MB | `1c6f087e4699f260…` |
+| `north_tyneside_metropolitan_borough_council/nt_jun_2023.csv` | 4.0MB | `a93269043ad7dc69…` |
+| `north_tyneside_metropolitan_borough_council/nt_mar_2024.csv` | 4.4MB | `b896373fd576f654…` |
+| `north_tyneside_metropolitan_borough_council/nt_nov_2023.csv` | 3.6MB | `81937f4bcd991b3b…` |
+| `north_tyneside_metropolitan_borough_council/nt_oct_2023.csv` | 4.1MB | `f649efcafab19de3…` |
+| `north_tyneside_metropolitan_borough_council/nt_sep_2023.csv` | 3.4MB | `720ca40ffbb21fcc…` |
+
+**Total**: 9 files, 35.2MB
+
 ### North Yorkshire
 
 **Live source**: [https://datanorthyorkshire.org/dataset/payments-to-suppliers](https://datanorthyorkshire.org/dataset/payments-to-suppliers)  
@@ -1492,6 +1856,28 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 12 files, 15.8MB
 
+### Oldham Metropolitan Borough Council
+
+**Live source**: [https://www.oldham.gov.uk/downloads/200681/council_spending_records](https://www.oldham.gov.uk/downloads/200681/council_spending_records)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Oldham Metropolitan Borough Council — https://www.oldham.gov.uk/downloads/200681/council_spending_records  
+
+**Raw files** (8):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `oldham_metropolitan_borough_council/april_-_june_2023_spending_records.csv` | 871.9KB | `495671f476df3d00…` |
+| `oldham_metropolitan_borough_council/april_-_june_2023_spending_records.xlsx` | 316.3KB | `96c4a891fc30db90…` |
+| `oldham_metropolitan_borough_council/january_-_march_2024_spending_records.csv` | 884.6KB | `d3bd67b10ba86a1d…` |
+| `oldham_metropolitan_borough_council/january_-_march_2024_spending_records.xlsx` | 329.9KB | `f2983045d88d0b7e…` |
+| `oldham_metropolitan_borough_council/july_-_september_2023_spending_records.csv` | 862.8KB | `420e280d79b6efe4…` |
+| `oldham_metropolitan_borough_council/july_-_september_2023_spending_records.xlsx` | 320.0KB | `997967f4e8ed82f9…` |
+| `oldham_metropolitan_borough_council/october_-_december_2023_spending_records.csv` | 783.1KB | `638735837f9e7544…` |
+| `oldham_metropolitan_borough_council/october_-_december_2023_spending_records.xlsx` | 289.3KB | `ed9bac2fa79b6a77…` |
+
+**Total**: 8 files, 4.5MB
+
 ### Reading Borough Council
 
 **Live source**: [https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/](https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/)  
@@ -1504,18 +1890,18 @@ _No raw files tracked — data fetched via API at build time._
 | File | Size | SHA256 (first 16) | archive.org mirror |
 |---|---|---|---|
 | `reading_borough_council/Over-500-April-2023.csv` | 1.1MB | `cbfebc062f0e56df…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-April-2023.csv) |
-| `reading_borough_council/Over-500-December-23.csv` | 466.0KB | `3c4ffd59210dcfb4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-December-23.csv) |
-| `reading_borough_council/Over-500-February-24B.csv` | 826.1KB | `1df76cbd95b05cd3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-February-24B.csv) |
-| `reading_borough_council/Over-500-March-24B.csv` | 855.5KB | `fca236feaf382680…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-March-24B.csv) |
-| `reading_borough_council/Over-500-Novermber-2024.csv` | 745.4KB | `bc00b25d0d226dae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Novermber-2024.csv) |
-| `reading_borough_council/Over-500-September-2023.csv` | 1.0MB | `db61a438b140a432…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-September-2023.csv) |
+| `reading_borough_council/Over-500-December-23.csv` | 468.1KB | `1a6d99ea762e717a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-December-23.csv) |
+| `reading_borough_council/Over-500-February-24B.csv` | 826.1KB | `836d6cb9aeb83164…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-February-24B.csv) |
+| `reading_borough_council/Over-500-March-24B.csv` | 855.5KB | `a4416667cde9cb2d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-March-24B.csv) |
+| `reading_borough_council/Over-500-Novermber-2024.csv` | 745.4KB | `b265a20b8342b60a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Novermber-2024.csv) |
+| `reading_borough_council/Over-500-September-2023.csv` | 1.0MB | `22160362a0b42b8f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-September-2023.csv) |
 | `reading_borough_council/Over-500-Spend-August-23.csv` | 1.0MB | `b4bd262e58571d41…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-August-23.csv) |
-| `reading_borough_council/Over-500-Spend-January24.csv` | 828.5KB | `3d877fbaf58a2115…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-January24.csv) |
-| `reading_borough_council/Over-500-Spend-July-2023.csv` | 1.2MB | `1348b795233eeae9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-July-2023.csv) |
-| `reading_borough_council/Over-500-Spend-June-2023.csv` | 1.1MB | `d1591d594bb14559…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-June-2023.csv) |
-| `reading_borough_council/Over-500-Spend-May-2023.csv` | 1022.2KB | `a703e985e1af9c33…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-May-2023.csv) |
-| `reading_borough_council/Over-500-Spend-November-2023.csv` | 1.4MB | `875ae5d6c4f11985…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-November-2023.csv) |
-| `reading_borough_council/Over-500-Spend-October-2023.csv` | 1.1MB | `04eb4c9c5df60284…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-October-2023.csv) |
+| `reading_borough_council/Over-500-Spend-January24.csv` | 828.5KB | `b931e36f2d70f887…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-January24.csv) |
+| `reading_borough_council/Over-500-Spend-July-2023.csv` | 1.2MB | `d241f3ef258f3d2c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-July-2023.csv) |
+| `reading_borough_council/Over-500-Spend-June-2023.csv` | 1.1MB | `6a7173cec54b5a0a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-June-2023.csv) |
+| `reading_borough_council/Over-500-Spend-May-2023.csv` | 1022.2KB | `c24e4f5fb616ef64…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-May-2023.csv) |
+| `reading_borough_council/Over-500-Spend-November-2023.csv` | 1.4MB | `7c4e90fc6059a99f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-November-2023.csv) |
+| `reading_borough_council/Over-500-Spend-October-2023.csv` | 1.1MB | `2e81249c3e540af1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-October-2023.csv) |
 
 **Total**: 13 files, 12.5MB
 
@@ -1597,6 +1983,110 @@ _No raw files tracked — data fetched via API at build time._
 | `rochdale/2024_MAR_Spend.csv` | 3.5MB | `45d42200556c1bf5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/rochdale_2024_MAR_Spend.csv) |
 
 **Total**: 12 files, 37.6MB
+
+### Rotherham Metropolitan Borough Council
+
+**Live source**: [https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024](https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Rotherham Metropolitan Borough Council — https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `rotherham_metropolitan_borough_council/rotherham_apr_2023.csv` | 1.1MB | `193f302ac62f3900…` |
+| `rotherham_metropolitan_borough_council/rotherham_aug_2023.csv` | 1.5MB | `7c3b4be18b281205…` |
+| `rotherham_metropolitan_borough_council/rotherham_dec_2023.csv` | 1.6MB | `5079c63340646215…` |
+| `rotherham_metropolitan_borough_council/rotherham_feb_2024.csv` | 1.6MB | `d1efc86f7bdb0c54…` |
+| `rotherham_metropolitan_borough_council/rotherham_jan_2024.csv` | 1.9MB | `432b1702b9239311…` |
+| `rotherham_metropolitan_borough_council/rotherham_jul_2023.csv` | 1.4MB | `440febacf5e03c85…` |
+| `rotherham_metropolitan_borough_council/rotherham_jun_2023.csv` | 1.6MB | `9dcb49992be7901f…` |
+| `rotherham_metropolitan_borough_council/rotherham_mar_2024.csv` | 1.9MB | `93ef8623d59c3364…` |
+| `rotherham_metropolitan_borough_council/rotherham_may_2023.csv` | 1.5MB | `af41ee2e2f152308…` |
+| `rotherham_metropolitan_borough_council/rotherham_nov_2023.csv` | 1.4MB | `15b1bedfe6ab88c7…` |
+| `rotherham_metropolitan_borough_council/rotherham_oct_2023.csv` | 1.6MB | `7224d1120c2a9444…` |
+| `rotherham_metropolitan_borough_council/rotherham_sep_2023.csv` | 1.4MB | `463b6cf6a72bb5fd…` |
+
+**Total**: 12 files, 18.7MB
+
+### Salford City Council
+
+**Live source**: [https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/](https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Salford City Council — https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `salford_city_council/salford_apr_2023.csv` | 247.1KB | `213661b381a78901…` |
+| `salford_city_council/salford_aug_2023.csv` | 206.9KB | `4d1b91f945454bb8…` |
+| `salford_city_council/salford_dec_2023.csv` | 252.8KB | `536cfed1a5ea5d77…` |
+| `salford_city_council/salford_feb_2024.csv` | 259.4KB | `41007c4b865c18d6…` |
+| `salford_city_council/salford_jan_2024.csv` | 279.6KB | `e5c2d1c0592880c4…` |
+| `salford_city_council/salford_jul_2023.csv` | 261.0KB | `14badce017f96cc8…` |
+| `salford_city_council/salford_jun_2023.csv` | 245.6KB | `dc46e945288149ec…` |
+| `salford_city_council/salford_mar_2024.csv` | 262.5KB | `4ea6cbdb487d98e8…` |
+| `salford_city_council/salford_may_2023.csv` | 262.3KB | `671154c1f075a54c…` |
+| `salford_city_council/salford_nov_2023.csv` | 222.5KB | `7f4da8b3409b70f5…` |
+| `salford_city_council/salford_oct_2023.csv` | 242.4KB | `eaac2922c01a2e40…` |
+| `salford_city_council/salford_sep_2023.csv` | 238.1KB | `6dd7ae842a6a52eb…` |
+
+**Total**: 12 files, 2.9MB
+
+### Sandwell Metropolitan Borough Council
+
+**Live source**: [https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500](https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Sandwell Metropolitan Borough Council — https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `sandwell_metropolitan_borough_council/sandwell_apr_2023.csv` | 1016.2KB | `b1e96b28e0100d40…` |
+| `sandwell_metropolitan_borough_council/sandwell_aug_2023.csv` | 2.1MB | `6f024e128cac1e64…` |
+| `sandwell_metropolitan_borough_council/sandwell_dec_2023.csv` | 814.8KB | `4f67cf5a9c0fc148…` |
+| `sandwell_metropolitan_borough_council/sandwell_feb_2024.csv` | 1.1MB | `9414fdda099e8bd4…` |
+| `sandwell_metropolitan_borough_council/sandwell_jan_2024.csv` | 1.2MB | `4ee261222314ea6b…` |
+| `sandwell_metropolitan_borough_council/sandwell_jul_2023.csv` | 1.2MB | `d2c56c0463897b7c…` |
+| `sandwell_metropolitan_borough_council/sandwell_jun_2023.csv` | 1.2MB | `85b05786bb534385…` |
+| `sandwell_metropolitan_borough_council/sandwell_mar_2024.csv` | 1.2MB | `f12b082be6ac0313…` |
+| `sandwell_metropolitan_borough_council/sandwell_may_2023.csv` | 1.1MB | `2ed5cc0b0dfd251c…` |
+| `sandwell_metropolitan_borough_council/sandwell_nov_2023.csv` | 1.1MB | `4cbc789f0dd12b02…` |
+| `sandwell_metropolitan_borough_council/sandwell_oct_2023.csv` | 1.1MB | `f60c842b2e9bd4d0…` |
+| `sandwell_metropolitan_borough_council/sandwell_sep_2023.csv` | 2.0MB | `a1a63f9525f72403…` |
+
+**Total**: 12 files, 14.9MB
+
+### Sefton Metropolitan Borough Council
+
+**Live source**: [https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/](https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Sefton Metropolitan Borough Council — https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `sefton_metropolitan_borough_council/sefton_apr_2023.csv` | 716.5KB | `300b5a11933f8de1…` |
+| `sefton_metropolitan_borough_council/sefton_aug_2023.csv` | 256.1KB | `7bc90064174ce662…` |
+| `sefton_metropolitan_borough_council/sefton_dec_2023.csv` | 789.2KB | `90cbc015d440d164…` |
+| `sefton_metropolitan_borough_council/sefton_feb_2024.csv` | 1.2MB | `0b2ca405c02ef228…` |
+| `sefton_metropolitan_borough_council/sefton_jan_2024.csv` | 789.1KB | `2eb98746c0aa8aea…` |
+| `sefton_metropolitan_borough_council/sefton_jul_2023.csv` | 258.8KB | `486ac03187a293e3…` |
+| `sefton_metropolitan_borough_council/sefton_jun_2023.csv` | 815.6KB | `151ded84d5484687…` |
+| `sefton_metropolitan_borough_council/sefton_mar_2024.csv` | 831.8KB | `53ba6576eb17ab15…` |
+| `sefton_metropolitan_borough_council/sefton_may_2023.csv` | 868.5KB | `0b7bfa5a1c104d7f…` |
+| `sefton_metropolitan_borough_council/sefton_nov_2023.csv` | 827.4KB | `e6e557a7a24aa86b…` |
+| `sefton_metropolitan_borough_council/sefton_oct_2023.csv` | 812.0KB | `8b333ce9e58c882c…` |
+| `sefton_metropolitan_borough_council/sefton_sep_2023.csv` | 0B | `e3b0c44298fc1c14…` |
+
+**Total**: 12 files, 8.0MB
 
 ### Sheffield
 
@@ -1703,6 +2193,32 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 12 files, 12.6MB
 
+### South Tyneside Metropolitan Borough Council
+
+**Live source**: [https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500](https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: South Tyneside Metropolitan Borough Council — https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `south_tyneside_metropolitan_borough_council/st_apr_2023.csv` | 679.2KB | `e4380f794404698c…` |
+| `south_tyneside_metropolitan_borough_council/st_aug_2023.csv` | 688.7KB | `42c2d1474d19964f…` |
+| `south_tyneside_metropolitan_borough_council/st_dec_2023.csv` | 682.9KB | `00e00b026ed64539…` |
+| `south_tyneside_metropolitan_borough_council/st_feb_2024.csv` | 653.2KB | `061aabfe44bb64af…` |
+| `south_tyneside_metropolitan_borough_council/st_jan_2024.csv` | 861.3KB | `b5c9c49140eba999…` |
+| `south_tyneside_metropolitan_borough_council/st_jul_2023.csv` | 747.3KB | `6e894f39e4f25085…` |
+| `south_tyneside_metropolitan_borough_council/st_jun_2023.csv` | 811.6KB | `64c0ae78eb415c9a…` |
+| `south_tyneside_metropolitan_borough_council/st_mar_2024.csv` | 904.1KB | `03371d70baa9f10a…` |
+| `south_tyneside_metropolitan_borough_council/st_may_2023.csv` | 744.3KB | `031802a3fbdae633…` |
+| `south_tyneside_metropolitan_borough_council/st_nov_2023.csv` | 801.7KB | `3d48d4ac8edc23ed…` |
+| `south_tyneside_metropolitan_borough_council/st_oct_2023.csv` | 862.4KB | `e1e927209f94c581…` |
+| `south_tyneside_metropolitan_borough_council/st_sep_2023.csv` | 759.5KB | `768a8382523011c2…` |
+
+**Total**: 12 files, 9.0MB
+
 ### Southwark
 
 **Live source**: [https://www.southwark.gov.uk/council-and-democracy/transparency/how-we-spend-our-money/payments-to-suppliers](https://www.southwark.gov.uk/council-and-democracy/transparency/how-we-spend-our-money/payments-to-suppliers)  
@@ -1741,6 +2257,31 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 24 files, 27.1MB
 
+### St Helens Metropolitan Borough Council
+
+**Live source**: [https://sthelens.gov.uk/article/4545/Payments-to-suppliers](https://sthelens.gov.uk/article/4545/Payments-to-suppliers)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: St Helens Metropolitan Borough Council — https://sthelens.gov.uk/article/4545/Payments-to-suppliers  
+
+**Raw files** (11):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `st_helens_metropolitan_borough_council/05._August.pdf` | 360.4KB | `df04591bf5ed4e6b…` |
+| `st_helens_metropolitan_borough_council/05._August_1.csv` | 492.4KB | `69ba931944e53234…` |
+| `st_helens_metropolitan_borough_council/05._August_1.xlsx` | 196.3KB | `e824722e7512ea49…` |
+| `st_helens_metropolitan_borough_council/Dec.pdf` | 3.2MB | `de6d3a8ff7a030cb…` |
+| `st_helens_metropolitan_borough_council/Dec_1.csv` | 1.4MB | `2bb790e2a4c833b6…` |
+| `st_helens_metropolitan_borough_council/Dec_1.xlsx` | 468.7KB | `992245fc0ef78c62…` |
+| `st_helens_metropolitan_borough_council/Nov_.csv` | 1.4MB | `0defb294b179ff79…` |
+| `st_helens_metropolitan_borough_council/Nov_.xlsx` | 420.0KB | `8251ce830945de0e…` |
+| `st_helens_metropolitan_borough_council/Oct.csv` | 474.8KB | `3fba404a26a5fd91…` |
+| `st_helens_metropolitan_borough_council/Oct.pdf` | 1.4MB | `fecc5e4c15bf1880…` |
+| `st_helens_metropolitan_borough_council/Oct.xlsx` | 181.0KB | `7cfbe627def1d79a…` |
+
+**Total**: 11 files, 10.0MB
+
 ### Staffordshire
 
 **Live source**: [https://www.staffordshire.gov.uk/council-and-democracy/transparency/expenditure-exceeding-ps500/20232024](https://www.staffordshire.gov.uk/council-and-democracy/transparency/expenditure-exceeding-ps500/20232024)  
@@ -1766,6 +2307,50 @@ _No raw files tracked — data fetched via API at build time._
 | `staffordshire/31-12-2023.csv` | 695.6KB | `c42b21b814d84b65…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-12-2023.csv) |
 
 **Total**: 12 files, 9.5MB
+
+### Stockport Metropolitan Borough Council
+
+**Live source**: [https://www.stockport.gov.uk/transparency/spending-and-contracts](https://www.stockport.gov.uk/transparency/spending-and-contracts)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Stockport Metropolitan Borough Council — https://www.stockport.gov.uk/transparency/spending-and-contracts  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `stockport_metropolitan_borough_council/stockport_apr_2023.csv` | 2.0MB | `2b85b282980efd43…` |
+| `stockport_metropolitan_borough_council/stockport_aug_2023.csv` | 2.3MB | `6ce75e977cbd5e3a…` |
+| `stockport_metropolitan_borough_council/stockport_dec_2023.csv` | 1.7MB | `cf1fac0c6bbf7279…` |
+| `stockport_metropolitan_borough_council/stockport_feb_2024.csv` | 1.6MB | `81cc71d411d8fb50…` |
+| `stockport_metropolitan_borough_council/stockport_jan_2024.csv` | 1.8MB | `d70cbbd8edd96dcf…` |
+| `stockport_metropolitan_borough_council/stockport_jul_2023.csv` | 1.9MB | `6c38bff200564367…` |
+| `stockport_metropolitan_borough_council/stockport_jun_2023.csv` | 1.8MB | `82143e0bdd66b4b4…` |
+| `stockport_metropolitan_borough_council/stockport_mar_2024.csv` | 4.1MB | `5fc66c1158e64a48…` |
+| `stockport_metropolitan_borough_council/stockport_may_2023.csv` | 2.0MB | `6e95790064d7b78f…` |
+| `stockport_metropolitan_borough_council/stockport_nov_2023.csv` | 2.2MB | `7f3afd9160bf1b92…` |
+| `stockport_metropolitan_borough_council/stockport_oct_2023.csv` | 2.1MB | `b8f50c50a11b0103…` |
+| `stockport_metropolitan_borough_council/stockport_sep_2023.csv` | 1.6MB | `60b222f6982ee226…` |
+
+**Total**: 12 files, 25.1MB
+
+### Sunderland City Council
+
+**Live source**: [https://www.sunderland.gov.uk/article/13261/Payments-over-500](https://www.sunderland.gov.uk/article/13261/Payments-over-500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Sunderland City Council — https://www.sunderland.gov.uk/article/13261/Payments-over-500  
+
+**Raw files** (4):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `sunderland_city_council/sund_q1_apr_jun_2023.csv` | 1.4MB | `58547b66520bb3ec…` |
+| `sunderland_city_council/sund_q2_jul_sep_2023.csv` | 1.4MB | `e16accb0b8eacb17…` |
+| `sunderland_city_council/sund_q3_oct_dec_2023.xlsx` | 406.8KB | `93374ac61c190e2b…` |
+| `sunderland_city_council/sund_q4_jan_mar_2024.csv` | 1.5MB | `5064fd2e8edd8bab…` |
+
+**Total**: 4 files, 4.6MB
 
 ### Surrey
 
@@ -1886,6 +2471,77 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 12 files, 11.2MB
 
+### Trafford Metropolitan Borough Council
+
+**Live source**: [https://www.trafford.gov.uk/council-data-and-democracy/council-data-and-democracy/transparency-and-accountability/local-government-and-transparency-code/council-spend](https://www.trafford.gov.uk/council-data-and-democracy/council-data-and-democracy/transparency-and-accountability/local-government-and-transparency-code/council-spend)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Trafford Metropolitan Borough Council — https://www.trafford.gov.uk/council-data-and-democracy/council-data-and-democracy/transparency-and-accountability/local-government-and-transparency-code/council-spend  
+
+**Raw files** (13):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-April-2023.csv` | 4.3MB | `611edad014ac6cce…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-August-2023.csv` | 5.3MB | `773f21da7dc9d267…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-December-2023.csv` | 3.2MB | `fcb6de8253cbe8f7…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-February-2024.csv` | 3.7MB | `f1f49d1d7adfdf7d…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-January-2024.csv` | 4.4MB | `523063e315751120…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-July-2023.csv` | 4.2MB | `5fbf7dce4176b8eb…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-June-2023.csv` | 3.9MB | `7785f0e6a476f32e…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-March-2024.csv` | 4.1MB | `e5f52b97a83f7382…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-May-2023.csv` | 4.0MB | `2829dd2045ba1d7e…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-November-2023.csv` | 4.4MB | `0efbefbedbcb9ecc…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-October-2023.csv` | 5.0MB | `4c549a0003a29c27…` |
+| `trafford_metropolitan_borough_council/Trafford-Supplier-Spend-September-2023.csv` | 4.2MB | `638dd780d389d807…` |
+| `trafford_metropolitan_borough_council/supplier-spend-archive.zip` | 33.8MB | `322d0108c2af588b…` |
+
+**Total**: 13 files, 84.6MB
+
+### Wakefield Metropolitan District Council
+
+**Live source**: [https://datamillnorth.org/dataset/e61m0/council-spending](https://datamillnorth.org/dataset/e61m0/council-spending)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Wakefield Metropolitan District Council — https://datamillnorth.org/dataset/e61m0/council-spending  
+
+**Raw files** (4):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `wakefield_metropolitan_district_council/wakefield_q1_2023-24.csv` | 1.7MB | `e4c070dec4e085a5…` |
+| `wakefield_metropolitan_district_council/wakefield_q2_2023-24.csv` | 2.2MB | `c25da7168616fda4…` |
+| `wakefield_metropolitan_district_council/wakefield_q3_2023-24.csv` | 2.0MB | `1a5fdbfaf9ff67ad…` |
+| `wakefield_metropolitan_district_council/wakefield_q4_2023-24.csv` | 2.4MB | `8422b80c4cc8d307…` |
+
+**Total**: 4 files, 8.3MB
+
+### Walsall Metropolitan Borough Council
+
+**Live source**: [https://go.walsall.gov.uk/opendata-datasets](https://go.walsall.gov.uk/opendata-datasets)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Walsall Metropolitan Borough Council — https://go.walsall.gov.uk/opendata-datasets  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `walsall_metropolitan_borough_council/walsall_apr_2023.csv` | 2.2MB | `eba370ea62f15a46…` |
+| `walsall_metropolitan_borough_council/walsall_aug_2023.csv` | 2.8MB | `035ff559f18710d9…` |
+| `walsall_metropolitan_borough_council/walsall_dec_2023.csv` | 2.4MB | `a8cd49e764a9c515…` |
+| `walsall_metropolitan_borough_council/walsall_feb_2024.csv` | 2.4MB | `1ed247fe8ca9a6d1…` |
+| `walsall_metropolitan_borough_council/walsall_jan_2024.csv` | 2.9MB | `88585daf93a029e2…` |
+| `walsall_metropolitan_borough_council/walsall_jul_2023.csv` | 2.2MB | `9f026c50105bd308…` |
+| `walsall_metropolitan_borough_council/walsall_jun_2023.csv` | 3.1MB | `dfc35e8de2a7272c…` |
+| `walsall_metropolitan_borough_council/walsall_mar_2024.csv` | 2.6MB | `2b749dda81066af8…` |
+| `walsall_metropolitan_borough_council/walsall_may_2023.csv` | 2.2MB | `3f081173ba0f2532…` |
+| `walsall_metropolitan_borough_council/walsall_nov_2023.csv` | 2.5MB | `6802f3362ad1ad7f…` |
+| `walsall_metropolitan_borough_council/walsall_oct_2023.csv` | 2.5MB | `d9873beff9c95b73…` |
+| `walsall_metropolitan_borough_council/walsall_sep_2023.csv` | 2.2MB | `01a0a5855a92314b…` |
+
+**Total**: 12 files, 30.0MB
+
 ### Waltham Forest
 
 **Live source**: [https://www.walthamforest.gov.uk/council-and-elections/about-us/council-budgets-and-spending/council-transparency/spending-and-procurement-information/council-spending-above-ps500](https://www.walthamforest.gov.uk/council-and-elections/about-us/council-budgets-and-spending/council-transparency/spending-and-procurement-information/council-spending-above-ps500)  
@@ -1966,9 +2622,88 @@ _No raw files tracked — data fetched via API at build time._
 
 **Total**: 12 files, 14.9MB
 
+### West Berkshire Council
+
+**Live source**: [https://www.westberks.gov.uk/expenditure-over-500](https://www.westberks.gov.uk/expenditure-over-500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: West Berkshire Council — https://www.westberks.gov.uk/expenditure-over-500  
+
+**Raw files** (28):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `west_berkshire_council/Over500_23_P01_-_Published.csv` | 305.4KB | `2d575f3ab18f824d…` |
+| `west_berkshire_council/Over500_23_P01_-_Published.xlsx` | 121.0KB | `a609aac9cca51fa6…` |
+| `west_berkshire_council/Over500_23_P02_-_Published.csv` | 282.7KB | `26e0bdbde7a224f7…` |
+| `west_berkshire_council/Over500_23_P02_-_Published.xlsx` | 117.0KB | `5a9983b65830184b…` |
+| `west_berkshire_council/Over500_23_P03_-_Published.csv` | 322.2KB | `e4b54062a37966a5…` |
+| `west_berkshire_council/Over500_23_P03_-_Published.xlsx` | 132.2KB | `7d63a2026bfb4ae5…` |
+| `west_berkshire_council/Over500_23_P04_-_Published.csv` | 325.2KB | `2133f285d4658052…` |
+| `west_berkshire_council/Over500_23_P04_-_Published.xlsx` | 126.7KB | `6ef27a78048fd3e9…` |
+| `west_berkshire_council/Over500_23_P05_-_Published.csv` | 330.8KB | `b51e1d1524883b33…` |
+| `west_berkshire_council/Over500_23_P05_-_Published.xlsx` | 126.2KB | `4c4418821dacde76…` |
+| `west_berkshire_council/Over500_23_P06_-_Published.csv` | 294.5KB | `6e5984d440004972…` |
+| `west_berkshire_council/Over500_23_P06_-_Published.xlsx` | 114.8KB | `8d1125dbb3ba122e…` |
+| `west_berkshire_council/Over500_23_P07_-_Published.csv` | 305.6KB | `3c78981d9a9fd2f6…` |
+| `west_berkshire_council/Over500_23_P07_-_Published.xlsx` | 123.4KB | `13b5b954b5dbd516…` |
+| `west_berkshire_council/Over500_23_P08_-_Published.csv` | 391.2KB | `a89e1f421eee9992…` |
+| `west_berkshire_council/Over500_23_P08_-_Published.xlsx` | 144.5KB | `4f97793eab5c0feb…` |
+| `west_berkshire_council/Over500_23_P09_-_Published.csv` | 299.2KB | `617341ba14ee4364…` |
+| `west_berkshire_council/Over500_23_P09_-_Published.xlsx` | 118.3KB | `228ed91fcb71efe0…` |
+| `west_berkshire_council/Over500_23_P10_-_Published.csv` | 336.8KB | `e243cad876f02ab4…` |
+| `west_berkshire_council/Over500_23_P10_-_Published.xlsx` | 130.4KB | `6714a596f1f61d0f…` |
+| `west_berkshire_council/Over500_23_P11_-_Published.csv` | 299.6KB | `c32164c6c36d8677…` |
+| `west_berkshire_council/Over500_23_P11_-_Published.xlsx` | 120.3KB | `2d9889941cb24677…` |
+| `west_berkshire_council/Over500_23_P12_-_Published.csv` | 355.6KB | `df0c91e443634aab…` |
+| `west_berkshire_council/Over500_23_P12_-_Published.xlsx` | 140.3KB | `282ec093530fc958…` |
+| `west_berkshire_council/Spend_over__500_-_2022_P10_January.csv` | 295.1KB | `912e1c13625e14d0…` |
+| `west_berkshire_council/Spend_over__500_-_2022_P10_January.xlsx` | 122.0KB | `3fd5e2cd39c76852…` |
+| `west_berkshire_council/Spend_over__500_-_2022_P12_March.csv` | 388.9KB | `a707326c4cd50132…` |
+| `west_berkshire_council/Spend_over__500_-_2022_P12_March.xlsx` | 154.7KB | `426a80cc868bca93…` |
+
+**Total**: 28 files, 6.2MB
+
 ### West Midlands Combined Authority
 
 _No raw files tracked — data fetched via API at build time._
+
+### West Northamptonshire Council
+
+**Live source**: [https://www.westnorthants.gov.uk/access-information/expenditure](https://www.westnorthants.gov.uk/access-information/expenditure)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: West Northamptonshire Council — https://www.westnorthants.gov.uk/access-information/expenditure  
+
+**Raw files** (23):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `west_northamptonshire_council/file_5v67xo.bin` | 2.1MB | `f34b82592e8ef549…` |
+| `west_northamptonshire_council/file_8iohn7.bin` | 2.0MB | `4495bf4b8386120e…` |
+| `west_northamptonshire_council/file_c6auo3.bin` | 2.5MB | `68f90044d5b87414…` |
+| `west_northamptonshire_council/file_czwidp.bin` | 1.9MB | `b50ad16a6f18869f…` |
+| `west_northamptonshire_council/file_fhjmnf.bin` | 1.9MB | `cc92b926273aa060…` |
+| `west_northamptonshire_council/file_lmtzk7.bin` | 1.9MB | `eb0bbd184167bea2…` |
+| `west_northamptonshire_council/file_mc9fk4.bin` | 2.1MB | `99ca3bdee4be8cb1…` |
+| `west_northamptonshire_council/file_r4mca6.bin` | 1.3MB | `88114de7d24d7f31…` |
+| `west_northamptonshire_council/file_w7tbfg.bin` | 1.5MB | `af8dbee249213a15…` |
+| `west_northamptonshire_council/file_y5htbj.bin` | 1.6MB | `c9c107fd7513e0be…` |
+| `west_northamptonshire_council/file_yimxxj.bin` | 2.0MB | `cad17541b157b718…` |
+| `west_northamptonshire_council/wnorthants_2023_04.csv` | 2.3MB | `a0a2cdfac87e6007…` |
+| `west_northamptonshire_council/wnorthants_2023_05.csv` | 1.9MB | `6780b82cb6233a9a…` |
+| `west_northamptonshire_council/wnorthants_2023_06.csv` | 2.1MB | `1ef7551ff7a9c1c1…` |
+| `west_northamptonshire_council/wnorthants_2023_07.csv` | 1.9MB | `7f7b0dcc44ee03ec…` |
+| `west_northamptonshire_council/wnorthants_2023_08.csv` | 2.0MB | `8da9ecb2205a527b…` |
+| `west_northamptonshire_council/wnorthants_2023_09.csv` | 1.9MB | `cf9a104c780267d5…` |
+| `west_northamptonshire_council/wnorthants_2023_10.csv` | 2.0MB | `d59f88fb45690e7a…` |
+| `west_northamptonshire_council/wnorthants_2023_11.csv` | 2.0MB | `f0f8782c52bb7087…` |
+| `west_northamptonshire_council/wnorthants_2023_12.csv` | 2.5MB | `7cf7b95001b6276e…` |
+| `west_northamptonshire_council/wnorthants_2024_01.csv` | 1.5MB | `677eddb1411c1137…` |
+| `west_northamptonshire_council/wnorthants_2024_02.csv` | 1.3MB | `2a575365796bb49b…` |
+| `west_northamptonshire_council/wnorthants_2024_03.csv` | 1.6MB | `540c72bcee6a9fcd…` |
+
+**Total**: 23 files, 43.7MB
 
 ### West Sussex
 
@@ -2007,6 +2742,91 @@ _No raw files tracked — data fetched via API at build time._
 | `westminster/q4_2023_24.csv` | 1.9MB | `49cede1c783c9a67…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/westminster_q4_2023_24.csv) |
 
 **Total**: 4 files, 7.2MB
+
+### Wigan Metropolitan Borough Council
+
+**Live source**: [https://www.wigan.gov.uk/Council/DataProtection-FOI-Stats/Spending-and-Finance-data.aspx](https://www.wigan.gov.uk/Council/DataProtection-FOI-Stats/Spending-and-Finance-data.aspx)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Wigan Metropolitan Borough Council — https://www.wigan.gov.uk/Council/DataProtection-FOI-Stats/Spending-and-Finance-data.aspx  
+
+**Raw files** (5):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `wigan_metropolitan_borough_council/March-2024-Creditor-Payments-CSV.csv` | 5.6MB | `1bff53ef557620b2…` |
+| `wigan_metropolitan_borough_council/March-2024-Payment-card-CSV.csv` | 28.5KB | `edcaee77adb97706…` |
+| `wigan_metropolitan_borough_council/March.csv` | 13.0KB | `a234cd4a851e5804…` |
+| `wigan_metropolitan_borough_council/Open-data-March.csv` | 4.2MB | `7a590b2bf177cf74…` |
+| `wigan_metropolitan_borough_council/Procurement-card-March.csv` | 35.2KB | `38d9ac791fd31eae…` |
+
+**Total**: 5 files, 9.9MB
+
+### Wirral Metropolitan Borough Council
+
+**Live source**: [https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024](https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Wirral Metropolitan Borough Council — https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `wirral_metropolitan_borough_council/wirral_apr_2023.csv` | 866.2KB | `f8585fd3f071631e…` |
+| `wirral_metropolitan_borough_council/wirral_aug_2023.csv` | 1.0MB | `13d0b7b146a3e4d8…` |
+| `wirral_metropolitan_borough_council/wirral_dec_2023.csv` | 1.9MB | `d37644f0e98c831a…` |
+| `wirral_metropolitan_borough_council/wirral_feb_2024.csv` | 1.9MB | `d1fe9b3edf88202d…` |
+| `wirral_metropolitan_borough_council/wirral_jan_2024.csv` | 2.0MB | `560dac9438a94c53…` |
+| `wirral_metropolitan_borough_council/wirral_jul_2023.csv` | 774.1KB | `e66285de0e531011…` |
+| `wirral_metropolitan_borough_council/wirral_jun_2023.csv` | 778.2KB | `07ea8e904d4648d8…` |
+| `wirral_metropolitan_borough_council/wirral_mar_2024.csv` | 2.0MB | `dd7f6be7c8465802…` |
+| `wirral_metropolitan_borough_council/wirral_may_2023.csv` | 754.1KB | `b87147561e49dab1…` |
+| `wirral_metropolitan_borough_council/wirral_nov_2023.csv` | 807.6KB | `2a29005b8657fea2…` |
+| `wirral_metropolitan_borough_council/wirral_oct_2023.csv` | 748.1KB | `d8424e955163f54e…` |
+| `wirral_metropolitan_borough_council/wirral_sep_2023.csv` | 712.7KB | `ad1a7625a220e48a…` |
+
+**Total**: 12 files, 14.2MB
+
+### Worcestershire County Council
+
+**Live source**: [https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers](https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Worcestershire County Council — https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers  
+
+**Raw files** (26):
+
+| File | Size | SHA256 (first 16) |
+|---|---|---|
+| `worcestershire_county_council/Over500SpendReportJan2024.csv` | 635.7KB | `595f1d727e69b033…` |
+| `worcestershire_county_council/Over500SpendReportJan2024.xlsx` | 293.1KB | `ec89baff829c1140…` |
+| `worcestershire_county_council/Over_500_Spend_Report_Dec_2023.csv` | 633.7KB | `12d8bd7b757e10f4…` |
+| `worcestershire_county_council/Over_500_Spend_Report_Dec_2023.xlsx` | 288.3KB | `75078a71dc630a83…` |
+| `worcestershire_county_council/Over_500_Spend_Report_September_2023.csv` | 519.1KB | `7113d5764cba77e7…` |
+| `worcestershire_county_council/Over_500_Spend_Report_September_2023.xlsx` | 249.9KB | `a2927632fc607d10…` |
+| `worcestershire_county_council/Over_500_and_Pcard_data_Feb_2024.csv` | 600.6KB | `f39cefd51be38987…` |
+| `worcestershire_county_council/Over_500_and_Pcard_data_Feb_2024.xlsx` | 280.3KB | `5f2f9b7a560463ba…` |
+| `worcestershire_county_council/Over_500_and_Pcard_data_March_2024.csv` | 642.6KB | `2130f24f78f5ff6c…` |
+| `worcestershire_county_council/Over_500_and_Pcard_data_March_2024.xlsx` | 295.0KB | `e0763545564b1dca…` |
+| `worcestershire_county_council/consultancy_spend_2010_to_2011.xlsx` | 18.7KB | `fbdc8b96ca224b46…` |
+| `worcestershire_county_council/consultancy_spend_2011_to_2012.xlsx` | 22.0KB | `9bad39702c12de42…` |
+| `worcestershire_county_council/over_ps500_spend_report_april_2023.csv` | 565.3KB | `813bc384c5d764d1…` |
+| `worcestershire_county_council/over_ps500_spend_report_april_2023.xlsx` | 267.7KB | `574e6a8621fd01b7…` |
+| `worcestershire_county_council/over_ps500_spend_report_august_2023.csv` | 720.7KB | `484ccd3448f9e2b2…` |
+| `worcestershire_county_council/over_ps500_spend_report_august_2023.xlsx` | 325.2KB | `62606d0664c6bc32…` |
+| `worcestershire_county_council/over_ps500_spend_report_july_2023.csv` | 591.2KB | `b5ad490432cc239d…` |
+| `worcestershire_county_council/over_ps500_spend_report_july_2023.xlsx` | 280.5KB | `e6249dd74e8ab901…` |
+| `worcestershire_county_council/over_ps500_spend_report_june_2023.csv` | 622.2KB | `e0db7f397aedb7a5…` |
+| `worcestershire_county_council/over_ps500_spend_report_june_2023.xlsx` | 295.7KB | `ed26d2ab0959c053…` |
+| `worcestershire_county_council/over_ps500_spend_report_may_23.csv` | 668.7KB | `6618dae8468cb703…` |
+| `worcestershire_county_council/over_ps500_spend_report_may_23.xlsx` | 310.8KB | `456402206fa9cfed…` |
+| `worcestershire_county_council/over_ps500_spend_report_november_2023.csv` | 589.6KB | `de1140cc76b4f511…` |
+| `worcestershire_county_council/over_ps500_spend_report_november_2023.xlsx` | 277.3KB | `4134f18de8a7e1a3…` |
+| `worcestershire_county_council/over_ps500_spend_report_october_2023_2.csv` | 618.1KB | `fd1ff68fa0247784…` |
+| `worcestershire_county_council/over_ps500_spend_report_october_2023_2.xlsx` | 289.6KB | `bcf30af530574f3f…` |
+
+**Total**: 26 files, 10.6MB
 
 ### Greater London Authority
 
@@ -2091,7 +2911,7 @@ The GLA subsystem is a synthetic entry that aggregates four independent publishe
 
 ## Summary
 
-- **Entities**: 81 (80 councils + GLA subsystem)
+- **Entities**: 111 (110 councils + GLA subsystem)
 - **Raw files**: 704
 - **Total size**: 1734.2MB
 - **Coverage**: 35.6% of UK Local Government England (£46.8B of £131.6B) as of 2026-04-14
