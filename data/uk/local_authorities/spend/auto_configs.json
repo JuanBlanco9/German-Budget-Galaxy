@@ -1848,5 +1848,49 @@
       "Spending data only - separate P-Card files exist but excluded (different totals basis).",
       "Total approx GBP 707M across 240k transactions FY 2024/25."
     ]
+  },
+  {
+    "name": "Leicester City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\leicester_city_council",
+    "deptCol": "Department",
+    "purposeCol": "Purpose of expenditure",
+    "amountCol": "Amount",
+    "supplierCol": "Beneficiary",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Beneficiary",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\leicester_city_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Leicester City Council \u2014 https://data.leicester.gov.uk/explore/dataset/expenditure-exceeding-ps500-2024/",
+    "source_url": "https://data.leicester.gov.uk/explore/dataset/expenditure-exceeding-ps500-2024/",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "OpenDataSoft API: dataset name is expenditure-exceeding-ps500-{FY-START-YEAR} (note: 'ps' = pound sign URL-encoded; older 2023 dataset used 'gbp500').",
+      "Export URL: /api/explore/v2.1/catalog/datasets/{dataset}/exports/csv?use_labels=true&delimiter=,",
+      "FY 2024/25 = ps500-2024 dataset (modified 2025-05-13)."
+    ]
+  },
+  {
+    "name": "Nottingham City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\nottingham_city_council",
+    "deptCol": "Department",
+    "purposeCol": "Expenditure Category",
+    "amountCol": "Net Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\nottingham_city_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Nottingham City Council \u2014 https://www.nottinghamcity.gov.uk/your-council/about-the-council/access-to-information/nottingham-data-hub/",
+    "source_url": "https://www.nottinghamcity.gov.uk/your-council/about-the-council/access-to-information/nottingham-data-hub/",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Single FY-aggregated XLSX per year at /media/{slug}/payments-to-suppliers-{YYYY}-{YYYY}.xlsx.",
+      "Slug is non-predictable - extract from data hub landing page if URLs change.",
+      "Total approx GBP 567M across 39k transactions FY 2024/25."
+    ]
   }
 ]
