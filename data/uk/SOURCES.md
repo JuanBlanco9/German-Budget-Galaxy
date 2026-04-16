@@ -1,6 +1,6 @@
 # Budget Galaxy — UK Council Spend Sources Manifest
 
-_Generated: 2026-04-15T02:57:11.899Z_
+_Generated: 2026-04-16T01:23:50.624Z_
 
 This file lists every raw data source behind the supplier-level coverage on Budget Galaxy's UK Local Government tree, along with the audit trail that lets independent auditors verify that the figures shown on https://budgetgalaxy.com come from authentic government publications and were not modified after download.
 
@@ -49,6 +49,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 ## Councils with supplier-level metadata
 
+### BCP Council
+
+**Live source**: [https://www.bcpcouncil.gov.uk/about-the-council/budgets-and-finance/payments-to-suppliers](https://www.bcpcouncil.gov.uk/about-the-council/budgets-and-finance/payments-to-suppliers)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: BCP Council — https://www.bcpcouncil.gov.uk/about-the-council/budgets-and-finance/payments-to-suppliers  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `bcp_council/April-2023-AP-Transparency-Data.csv` | 3.6MB | `8006768f7d3b312b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_April-2023-AP-Transparency-Data.csv) |
+| `bcp_council/August-2023-AP-Transparency-Data.csv` | 5.1MB | `5c0ae1aaf5cc0832…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_August-2023-AP-Transparency-Data.csv) |
+| `bcp_council/December-2023-AP-Transparency.csv` | 4.6MB | `4f6126d110b53d56…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_December-2023-AP-Transparency.csv) |
+| `bcp_council/February-2024-AP-Transparency.csv` | 5.0MB | `70200552af32bf4e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_February-2024-AP-Transparency.csv) |
+| `bcp_council/January-2024-AP-Transparency.csv` | 5.3MB | `7df8f70896682075…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_January-2024-AP-Transparency.csv) |
+| `bcp_council/July-2023-AP-Transparency-Data.csv` | 4.8MB | `594903040b317009…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_July-2023-AP-Transparency-Data.csv) |
+| `bcp_council/June-2023-AP-Transparency-Data.csv` | 5.2MB | `fbafade7ae04dc14…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_June-2023-AP-Transparency-Data.csv) |
+| `bcp_council/March-2024-AP-Transparency.csv` | 5.8MB | `5ed8960bd62141a6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_March-2024-AP-Transparency.csv) |
+| `bcp_council/May-2023-AP-Transparency-Data.csv` | 6.0MB | `efbdb909985d6f39…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_May-2023-AP-Transparency-Data.csv) |
+| `bcp_council/November-2023-AP-Transparency-Data.csv` | 6.0MB | `2fddecd3d9e41af3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_November-2023-AP-Transparency-Data.csv) |
+| `bcp_council/October-2023-AP-Transparency-Data.csv` | 5.2MB | `f0f63c7e0c34cb5b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_October-2023-AP-Transparency-Data.csv) |
+| `bcp_council/September-2023-AP-Transparency-Data.csv` | 4.3MB | `c833c17a1862c9f0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bcp_council_September-2023-AP-Transparency-Data.csv) |
+
+**Total**: 12 files, 60.9MB
+
 ### Barking and Dagenham
 
 **Live source**: [https://www.lbbd.gov.uk/council-and-democracy/performance-and-spending/corporate-procurement/payments-over-ps250-and-ps500](https://www.lbbd.gov.uk/council-and-democracy/performance-and-spending/corporate-procurement/payments-over-ps250-and-ps500)  
@@ -58,20 +84,20 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `barking_dagenham/2023_04.csv` | 717.7KB | `82cc8c04125eb75b…` |
-| `barking_dagenham/2023_05.csv` | 902.2KB | `a841cd1fc50a275d…` |
-| `barking_dagenham/2023_06.csv` | 1.0MB | `1b89f3f980c0f7ea…` |
-| `barking_dagenham/2023_07.csv` | 1.1MB | `301af8912ed5b822…` |
-| `barking_dagenham/2023_08.csv` | 972.1KB | `4fd40ded0493e647…` |
-| `barking_dagenham/2023_09.csv` | 946.3KB | `b34ca0b46a3264e9…` |
-| `barking_dagenham/2023_10.csv` | 953.3KB | `e0686c8f407e2253…` |
-| `barking_dagenham/2023_11.csv` | 1013.7KB | `814e68270d11baf9…` |
-| `barking_dagenham/2023_12.csv` | 993.5KB | `e4f866e452ef712a…` |
-| `barking_dagenham/2024_01.csv` | 12.8MB | `64c480def24f3c02…` |
-| `barking_dagenham/2024_02.csv` | 1023.1KB | `4c1173c38314b87d…` |
-| `barking_dagenham/2024_03.csv` | 1.2MB | `a7a7771e338607bc…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `barking_dagenham/2023_04.csv` | 717.7KB | `82cc8c04125eb75b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_04.csv) |
+| `barking_dagenham/2023_05.csv` | 902.2KB | `a841cd1fc50a275d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_05.csv) |
+| `barking_dagenham/2023_06.csv` | 1.0MB | `1b89f3f980c0f7ea…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_06.csv) |
+| `barking_dagenham/2023_07.csv` | 1.1MB | `301af8912ed5b822…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_07.csv) |
+| `barking_dagenham/2023_08.csv` | 972.1KB | `4fd40ded0493e647…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_08.csv) |
+| `barking_dagenham/2023_09.csv` | 946.3KB | `b34ca0b46a3264e9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_09.csv) |
+| `barking_dagenham/2023_10.csv` | 953.3KB | `e0686c8f407e2253…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_10.csv) |
+| `barking_dagenham/2023_11.csv` | 1013.7KB | `814e68270d11baf9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_11.csv) |
+| `barking_dagenham/2023_12.csv` | 993.5KB | `e4f866e452ef712a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2023_12.csv) |
+| `barking_dagenham/2024_01.csv` | 12.8MB | `64c480def24f3c02…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2024_01.csv) |
+| `barking_dagenham/2024_02.csv` | 1023.1KB | `4c1173c38314b87d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2024_02.csv) |
+| `barking_dagenham/2024_03.csv` | 1.2MB | `a7a7771e338607bc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barking_and_dagenham_2024_03.csv) |
 
 **Total**: 12 files, 23.4MB
 
@@ -84,22 +110,66 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `barnet/2023_04.csv` | 1.5MB | `fc0e16952b22e646…` |
-| `barnet/2023_05.csv` | 1.8MB | `e0c57f6594f33cdc…` |
-| `barnet/2023_06.csv` | 1.9MB | `d9ffa910d52119db…` |
-| `barnet/2023_07.csv` | 1.7MB | `6fd66a10ea46fd66…` |
-| `barnet/2023_08.csv` | 1.7MB | `6894f74bba18b0f5…` |
-| `barnet/2023_09.csv` | 1.6MB | `7a0432d17deb9ff6…` |
-| `barnet/2023_10.csv` | 1.8MB | `2480ae9c7f113b82…` |
-| `barnet/2023_11.csv` | 1.8MB | `ea9a4b07b8de4f3c…` |
-| `barnet/2023_12.csv` | 1.8MB | `b78cd0c73785bbff…` |
-| `barnet/2024_01.csv` | 1.9MB | `ea7326dcf83fe863…` |
-| `barnet/2024_02.csv` | 1.6MB | `4f0839bb26f956e1…` |
-| `barnet/2024_03.csv` | 1.9MB | `f61266a6af13c9e5…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `barnet/2023_04.csv` | 1.5MB | `fc0e16952b22e646…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_04.csv) |
+| `barnet/2023_05.csv` | 1.8MB | `e0c57f6594f33cdc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_05.csv) |
+| `barnet/2023_06.csv` | 1.9MB | `d9ffa910d52119db…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_06.csv) |
+| `barnet/2023_07.csv` | 1.7MB | `6fd66a10ea46fd66…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_07.csv) |
+| `barnet/2023_08.csv` | 1.7MB | `6894f74bba18b0f5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_08.csv) |
+| `barnet/2023_09.csv` | 1.6MB | `7a0432d17deb9ff6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_09.csv) |
+| `barnet/2023_10.csv` | 1.8MB | `2480ae9c7f113b82…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_10.csv) |
+| `barnet/2023_11.csv` | 1.8MB | `ea9a4b07b8de4f3c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_11.csv) |
+| `barnet/2023_12.csv` | 1.8MB | `b78cd0c73785bbff…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2023_12.csv) |
+| `barnet/2024_01.csv` | 1.9MB | `ea7326dcf83fe863…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2024_01.csv) |
+| `barnet/2024_02.csv` | 1.6MB | `4f0839bb26f956e1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2024_02.csv) |
+| `barnet/2024_03.csv` | 1.9MB | `f61266a6af13c9e5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnet_2024_03.csv) |
 
 **Total**: 12 files, 20.9MB
+
+### Barnsley Metropolitan Borough Council
+
+**Live source**: [https://www.barnsley.gov.uk/services/council-and-democracy/information-we-publish/expenditure-over-500/](https://www.barnsley.gov.uk/services/council-and-democracy/information-we-publish/expenditure-over-500/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Barnsley Metropolitan Borough Council — https://www.barnsley.gov.uk/services/council-and-democracy/information-we-publish/expenditure-over-500/  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `barnsley_metropolitan_borough_council/exp-ex-500-aug-23.csv` | 574.0KB | `285c42975227d262…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-aug-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-dec-23.csv` | 487.0KB | `cc63153eb9e404a4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-dec-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-feb-24.csv` | 554.2KB | `081a71ea791255c5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-feb-24.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-jan-24.csv` | 545.3KB | `49a894cd1f4f1768…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-jan-24.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-july-23.csv` | 529.0KB | `e03d36ba4f2cc36a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-july-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-mar-24.csv` | 603.9KB | `7febc82b2c4a799e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-mar-24.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-nov-23.csv` | 674.5KB | `c9702d7207ae56d3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-nov-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-oct-23.csv` | 565.1KB | `8461c438f21fa130…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-oct-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-500-sep-23.csv` | 503.2KB | `326821a3173df0a6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-500-sep-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-gbp500-apr-23.csv` | 452.3KB | `b408130ea4a28c0d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-gbp500-apr-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-gbp500-june-23.csv` | 519.6KB | `2bd70e681b4f3ce5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-gbp500-june-23.csv) |
+| `barnsley_metropolitan_borough_council/exp-ex-gbp500-may-23.csv` | 544.6KB | `7df83c953c13c071…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/barnsley_metropolitan_borough_council_exp-ex-gbp500-may-23.csv) |
+
+**Total**: 12 files, 6.4MB
+
+### Bath and North East Somerset Council
+
+**Live source**: [https://www.bathnes.gov.uk/expenditure-over-ps500](https://www.bathnes.gov.uk/expenditure-over-ps500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Bath and North East Somerset Council — https://www.bathnes.gov.uk/expenditure-over-ps500  
+
+**Raw files** (4):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `bath_and_north_east_somerset_council/Expenditure_over_500_July_to_Sept_2023.csv` | 2.9MB | `a48f7309635bba34…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bath_and_north_east_somerset_council_Expenditure_over_500_July_to_Sept_2023.csv) |
+| `bath_and_north_east_somerset_council/Expenditure_over_500_Q1_2023.csv` | 2.9MB | `7a29c292504e7a0a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bath_and_north_east_somerset_council_Expenditure_over_500_Q1_2023.csv) |
+| `bath_and_north_east_somerset_council/Expenditure_over_500_Q2_2023.csv` | 2.6MB | `920bf0e0fc495a38…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bath_and_north_east_somerset_council_Expenditure_over_500_Q2_2023.csv) |
+| `bath_and_north_east_somerset_council/Expenditure_over_500_Q4_2023.csv` | 2.6MB | `35226bf26402c7f0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bath_and_north_east_somerset_council_Expenditure_over_500_Q4_2023.csv) |
+
+**Total**: 4 files, 11.0MB
 
 ### Bexley
 
@@ -110,20 +180,20 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `bexley/2023_04.csv` | 675.1KB | `dec6a572a8eb091d…` |
-| `bexley/2023_05.csv` | 633.3KB | `6daa6c74e36fe0ad…` |
-| `bexley/2023_06.csv` | 952.8KB | `0bf84da244b84184…` |
-| `bexley/2023_07.csv` | 945.0KB | `e098fcbc88c3b933…` |
-| `bexley/2023_08.csv` | 669.8KB | `0ccd8d782f8f89e7…` |
-| `bexley/2023_09.csv` | 1.2MB | `e4ed169b869a9bf1…` |
-| `bexley/2023_10.csv` | 837.1KB | `1af3d72a24241564…` |
-| `bexley/2023_11.csv` | 658.5KB | `c23daf8c0056c8f5…` |
-| `bexley/2023_12.csv` | 695.1KB | `d5717e73bc7113e3…` |
-| `bexley/2024_01.csv` | 616.3KB | `35c73167b2c9e480…` |
-| `bexley/2024_02.csv` | 920.8KB | `ae6498d35ef1e44b…` |
-| `bexley/2024_03.csv` | 915.7KB | `8b644b5ad15699b0…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `bexley/2023_04.csv` | 675.1KB | `dec6a572a8eb091d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_04.csv) |
+| `bexley/2023_05.csv` | 633.3KB | `6daa6c74e36fe0ad…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_05.csv) |
+| `bexley/2023_06.csv` | 952.8KB | `0bf84da244b84184…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_06.csv) |
+| `bexley/2023_07.csv` | 945.0KB | `e098fcbc88c3b933…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_07.csv) |
+| `bexley/2023_08.csv` | 669.8KB | `0ccd8d782f8f89e7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_08.csv) |
+| `bexley/2023_09.csv` | 1.2MB | `e4ed169b869a9bf1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_09.csv) |
+| `bexley/2023_10.csv` | 837.1KB | `1af3d72a24241564…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_10.csv) |
+| `bexley/2023_11.csv` | 658.5KB | `c23daf8c0056c8f5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_11.csv) |
+| `bexley/2023_12.csv` | 695.1KB | `d5717e73bc7113e3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2023_12.csv) |
+| `bexley/2024_01.csv` | 616.3KB | `35c73167b2c9e480…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2024_01.csv) |
+| `bexley/2024_02.csv` | 920.8KB | `ae6498d35ef1e44b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2024_02.csv) |
+| `bexley/2024_03.csv` | 915.7KB | `8b644b5ad15699b0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bexley_2024_03.csv) |
 
 **Total**: 12 files, 9.5MB
 
@@ -169,15 +239,41 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (5):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `brent/dec_feb_2024.csv` | 2.2MB | `6de6d684feb528e0…` |
-| `brent/jun_aug_2023.csv` | 2.2MB | `e57a04e4baeb8aa8…` |
-| `brent/mar_may_2023.csv` | 2.2MB | `b08b87765a97fa7a…` |
-| `brent/mar_may_2024.csv` | 2.2MB | `f261d24cec251a30…` |
-| `brent/sep_nov_2023.csv` | 2.2MB | `e6e83b4b409e127f…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `brent/dec_feb_2024.csv` | 2.2MB | `6de6d684feb528e0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brent_dec_feb_2024.csv) |
+| `brent/jun_aug_2023.csv` | 2.2MB | `e57a04e4baeb8aa8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brent_jun_aug_2023.csv) |
+| `brent/mar_may_2023.csv` | 2.2MB | `b08b87765a97fa7a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brent_mar_may_2023.csv) |
+| `brent/mar_may_2024.csv` | 2.2MB | `f261d24cec251a30…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brent_mar_may_2024.csv) |
+| `brent/sep_nov_2023.csv` | 2.2MB | `e6e83b4b409e127f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brent_sep_nov_2023.csv) |
 
 **Total**: 5 files, 11.1MB
+
+### Brighton and Hove City Council
+
+**Live source**: [https://www.brighton-hove.gov.uk/council-and-democracy/creditor-payments-over-ps250-2023-2024](https://www.brighton-hove.gov.uk/council-and-democracy/creditor-payments-over-ps250-2023-2024)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Brighton and Hove City Council — https://www.brighton-hove.gov.uk/council-and-democracy/creditor-payments-over-ps250-2023-2024  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_August_2023.csv` | 2.0MB | `dc9841a6d2e851b6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_August_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_December_2023.csv` | 1.8MB | `3367acd3dc12f7d1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_December_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_February_2024.csv` | 2.1MB | `c2de4095ab85e6fd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_February_2024.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_January_2024.csv` | 1.8MB | `72a601a7c75b79ac…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_January_2024.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_July_2023.csv` | 1.8MB | `f6c4e79116ea57d4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_July_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_June_2023.csv` | 2.2MB | `6002e99df142a9c9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_June_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_March_2024.csv` | 2.0MB | `1cc783126eae2376…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_March_2024.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_May_2023.csv` | 1.8MB | `6eac0fd52034dea1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_May_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_November_2023.csv` | 2.1MB | `49998154a4468daf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_November_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_October_2023.csv` | 2.0MB | `d4d8749613470316…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_October_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_Over_250_September_2023.csv` | 2.1MB | `18d34f9708a087d7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_Over_250_September_2023.csv) |
+| `brighton_and_hove_city_council/Creditor_Payments_over_250_April_2023.csv` | 1.7MB | `dba1f3d6a461a43c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/brighton_and_hove_city_council_Creditor_Payments_over_250_April_2023.csv) |
+
+**Total**: 12 files, 23.4MB
 
 ### Bristol
 
@@ -214,32 +310,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (24):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `bromley/2023_04.csv` | 255.3KB | `bd5f0e05920fa7ae…` |
-| `bromley/2023_04.xlsx` | 130.0KB | `c05bca00317e1b56…` |
-| `bromley/2023_05.csv` | 311.3KB | `1abc96d1e3ac4c67…` |
-| `bromley/2023_05.xlsx` | 153.6KB | `bf97fe5dab464176…` |
-| `bromley/2023_06.csv` | 283.1KB | `d6ff885311460bdf…` |
-| `bromley/2023_06.xlsx` | 141.8KB | `1fd8bb92f8c05797…` |
-| `bromley/2023_07.csv` | 587.4KB | `d481c5b598fd5467…` |
-| `bromley/2023_07.xlsx` | 219.5KB | `9843ea3483425524…` |
-| `bromley/2023_08.csv` | 722.6KB | `ad84f99cf294aeb1…` |
-| `bromley/2023_08.xlsx` | 267.8KB | `ffb3db94a63c348f…` |
-| `bromley/2023_09.csv` | 606.7KB | `54308254a255a843…` |
-| `bromley/2023_09.xlsx` | 232.7KB | `ced4b6d0cd06edaf…` |
-| `bromley/2023_10.csv` | 641.8KB | `c1c8d754cb1ed709…` |
-| `bromley/2023_10.xlsx` | 244.9KB | `dd32f0dc3f520861…` |
-| `bromley/2023_11.csv` | 742.0KB | `dd9f3fd67f46a123…` |
-| `bromley/2023_11.xlsx` | 273.2KB | `f06f6b91a147d802…` |
-| `bromley/2023_12.csv` | 567.2KB | `51e5a926d80fecd1…` |
-| `bromley/2023_12.xlsx` | 220.3KB | `1c71c4429b5a29e4…` |
-| `bromley/2024_01.csv` | 1.0MB | `20648e0fafb714a9…` |
-| `bromley/2024_01.xlsx` | 387.0KB | `384dbf39911b7529…` |
-| `bromley/2024_02.csv` | 789.1KB | `aa644a835aceabae…` |
-| `bromley/2024_02.xlsx` | 300.3KB | `8eab82403bb7ac0f…` |
-| `bromley/2024_03.csv` | 664.6KB | `cdaa18ef88c3cd53…` |
-| `bromley/2024_03.xlsx` | 264.6KB | `0faabb95241a4a1d…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `bromley/2023_04.csv` | 255.3KB | `bd5f0e05920fa7ae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_04.csv) |
+| `bromley/2023_04.xlsx` | 130.0KB | `c05bca00317e1b56…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_04.xlsx) |
+| `bromley/2023_05.csv` | 311.3KB | `1abc96d1e3ac4c67…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_05.csv) |
+| `bromley/2023_05.xlsx` | 153.6KB | `bf97fe5dab464176…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_05.xlsx) |
+| `bromley/2023_06.csv` | 283.1KB | `d6ff885311460bdf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_06.csv) |
+| `bromley/2023_06.xlsx` | 141.8KB | `1fd8bb92f8c05797…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_06.xlsx) |
+| `bromley/2023_07.csv` | 587.4KB | `d481c5b598fd5467…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_07.csv) |
+| `bromley/2023_07.xlsx` | 219.5KB | `9843ea3483425524…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_07.xlsx) |
+| `bromley/2023_08.csv` | 722.6KB | `ad84f99cf294aeb1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_08.csv) |
+| `bromley/2023_08.xlsx` | 267.8KB | `ffb3db94a63c348f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_08.xlsx) |
+| `bromley/2023_09.csv` | 606.7KB | `54308254a255a843…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_09.csv) |
+| `bromley/2023_09.xlsx` | 232.7KB | `ced4b6d0cd06edaf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_09.xlsx) |
+| `bromley/2023_10.csv` | 641.8KB | `c1c8d754cb1ed709…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_10.csv) |
+| `bromley/2023_10.xlsx` | 244.9KB | `dd32f0dc3f520861…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_10.xlsx) |
+| `bromley/2023_11.csv` | 742.0KB | `dd9f3fd67f46a123…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_11.csv) |
+| `bromley/2023_11.xlsx` | 273.2KB | `f06f6b91a147d802…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_11.xlsx) |
+| `bromley/2023_12.csv` | 567.2KB | `51e5a926d80fecd1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_12.csv) |
+| `bromley/2023_12.xlsx` | 220.3KB | `1c71c4429b5a29e4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2023_12.xlsx) |
+| `bromley/2024_01.csv` | 1.0MB | `20648e0fafb714a9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2024_01.csv) |
+| `bromley/2024_01.xlsx` | 387.0KB | `384dbf39911b7529…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2024_01.xlsx) |
+| `bromley/2024_02.csv` | 789.1KB | `aa644a835aceabae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2024_02.csv) |
+| `bromley/2024_02.xlsx` | 300.3KB | `8eab82403bb7ac0f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2024_02.xlsx) |
+| `bromley/2024_03.csv` | 664.6KB | `cdaa18ef88c3cd53…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2024_03.csv) |
+| `bromley/2024_03.xlsx` | 264.6KB | `0faabb95241a4a1d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/bromley_2024_03.xlsx) |
 
 **Total**: 24 files, 9.8MB
 
@@ -268,6 +364,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Total**: 11 files, 26.6MB
 
+### Cambridgeshire County Council
+
+**Live source**: [https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500](https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Cambridgeshire County Council — https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `cambridgeshire_county_council/CambsPayments2023-04.csv` | 4.1MB | `67f3d7b084bf880a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-04.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-05.csv` | 4.5MB | `f56b56c23046d48e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-05.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-06.csv` | 8.6MB | `de502cf7d9c38aa7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-06.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-07.csv` | 5.3MB | `495bb21848cbd499…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-07.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-08.csv` | 6.7MB | `3e03fae21464d809…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-08.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-09.csv` | 5.9MB | `b945a9969a948b41…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-09.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-10.csv` | 4.9MB | `918f6f17e1fcb849…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-10.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-11.csv` | 5.5MB | `9becfda418039f82…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-11.csv) |
+| `cambridgeshire_county_council/CambsPayments2023-12.csv` | 7.1MB | `3639488118e70136…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2023-12.csv) |
+| `cambridgeshire_county_council/CambsPayments2024-01.csv` | 4.2MB | `1e5d1d1221664089…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2024-01.csv) |
+| `cambridgeshire_county_council/CambsPayments2024-02.csv` | 3.8MB | `7893cae7392a5277…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2024-02.csv) |
+| `cambridgeshire_county_council/CambsPayments2024-03.csv` | 4.3MB | `ac4929abcd33ae84…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cambridgeshire_county_council_CambsPayments2024-03.csv) |
+
+**Total**: 12 files, 65.0MB
+
 ### Camden
 
 **Live source**: [https://opendata.camden.gov.uk/Finance/Camden-Payments-to-Suppliers/nzbs-6v3d](https://opendata.camden.gov.uk/Finance/Camden-Payments-to-Suppliers/nzbs-6v3d)  
@@ -292,34 +414,50 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (24):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `city_of_london/2023_04.csv` | 635.6KB | `f0749a8420df03dd…` |
-| `city_of_london/2023_04.xlsx` | 237.6KB | `cdefb4b3ebfde578…` |
-| `city_of_london/2023_05.csv` | 532.7KB | `e4d812036e87f983…` |
-| `city_of_london/2023_05.xlsx` | 208.8KB | `df7cf99dc8e80292…` |
-| `city_of_london/2023_06.csv` | 487.2KB | `da5f5b482d7b24e1…` |
-| `city_of_london/2023_06.xlsx` | 197.7KB | `e6287ab10137a484…` |
-| `city_of_london/2023_07.csv` | 520.7KB | `d1af05a0ff8ea66a…` |
-| `city_of_london/2023_07.xlsx` | 211.1KB | `66fb3497feccc78f…` |
-| `city_of_london/2023_08.csv` | 652.6KB | `675ff6742c34cbfb…` |
-| `city_of_london/2023_08.xlsx` | 254.6KB | `ab21dcf5c1249d82…` |
-| `city_of_london/2023_09.csv` | 576.1KB | `8fe7b25e6aedcd9a…` |
-| `city_of_london/2023_09.xlsx` | 228.2KB | `1a88c7866475244c…` |
-| `city_of_london/2023_10.csv` | 543.5KB | `c21e5e11cf8b0221…` |
-| `city_of_london/2023_10.xlsx` | 217.5KB | `6c2befbbd32c8475…` |
-| `city_of_london/2023_11.csv` | 563.0KB | `9e548100e907e7ee…` |
-| `city_of_london/2023_11.xlsx` | 224.8KB | `8507498849d8142c…` |
-| `city_of_london/2023_12.csv` | 508.8KB | `cbe4d7cc21a586d0…` |
-| `city_of_london/2023_12.xlsx` | 203.7KB | `e073da99a7de27a4…` |
-| `city_of_london/2024_01.csv` | 617.3KB | `7efba18bd0aa0beb…` |
-| `city_of_london/2024_01.xlsx` | 239.2KB | `0b4947a6a7742c3c…` |
-| `city_of_london/2024_02.csv` | 522.0KB | `d742efce39abc121…` |
-| `city_of_london/2024_02.xlsx` | 210.0KB | `e5c18f6483e82f5c…` |
-| `city_of_london/2024_03.csv` | 614.6KB | `c8176ecd5b56ce06…` |
-| `city_of_london/2024_03.xlsx` | 243.7KB | `1040a83d1077f01a…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `city_of_london/2023_04.csv` | 635.6KB | `f0749a8420df03dd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_04.csv) |
+| `city_of_london/2023_04.xlsx` | 237.6KB | `cdefb4b3ebfde578…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_04.xlsx) |
+| `city_of_london/2023_05.csv` | 532.7KB | `e4d812036e87f983…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_05.csv) |
+| `city_of_london/2023_05.xlsx` | 208.8KB | `df7cf99dc8e80292…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_05.xlsx) |
+| `city_of_london/2023_06.csv` | 487.2KB | `da5f5b482d7b24e1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_06.csv) |
+| `city_of_london/2023_06.xlsx` | 197.7KB | `e6287ab10137a484…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_06.xlsx) |
+| `city_of_london/2023_07.csv` | 520.7KB | `d1af05a0ff8ea66a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_07.csv) |
+| `city_of_london/2023_07.xlsx` | 211.1KB | `66fb3497feccc78f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_07.xlsx) |
+| `city_of_london/2023_08.csv` | 652.6KB | `675ff6742c34cbfb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_08.csv) |
+| `city_of_london/2023_08.xlsx` | 254.6KB | `ab21dcf5c1249d82…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_08.xlsx) |
+| `city_of_london/2023_09.csv` | 576.1KB | `8fe7b25e6aedcd9a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_09.csv) |
+| `city_of_london/2023_09.xlsx` | 228.2KB | `1a88c7866475244c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_09.xlsx) |
+| `city_of_london/2023_10.csv` | 543.5KB | `c21e5e11cf8b0221…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_10.csv) |
+| `city_of_london/2023_10.xlsx` | 217.5KB | `6c2befbbd32c8475…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_10.xlsx) |
+| `city_of_london/2023_11.csv` | 563.0KB | `9e548100e907e7ee…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_11.csv) |
+| `city_of_london/2023_11.xlsx` | 224.8KB | `8507498849d8142c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_11.xlsx) |
+| `city_of_london/2023_12.csv` | 508.8KB | `cbe4d7cc21a586d0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_12.csv) |
+| `city_of_london/2023_12.xlsx` | 203.7KB | `e073da99a7de27a4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2023_12.xlsx) |
+| `city_of_london/2024_01.csv` | 617.3KB | `7efba18bd0aa0beb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_01.csv) |
+| `city_of_london/2024_01.xlsx` | 239.2KB | `0b4947a6a7742c3c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_01.xlsx) |
+| `city_of_london/2024_02.csv` | 522.0KB | `d742efce39abc121…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_02.csv) |
+| `city_of_london/2024_02.xlsx` | 210.0KB | `e5c18f6483e82f5c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_02.xlsx) |
+| `city_of_london/2024_03.csv` | 614.6KB | `c8176ecd5b56ce06…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_03.csv) |
+| `city_of_london/2024_03.xlsx` | 243.7KB | `1040a83d1077f01a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_london_2024_03.xlsx) |
 
 **Total**: 24 files, 9.2MB
+
+### City of York Council
+
+**Live source**: [https://data.yorkopendata.org/dataset/all-payments-to-suppliers](https://data.yorkopendata.org/dataset/all-payments-to-suppliers)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: City of York Council — https://data.yorkopendata.org/dataset/all-payments-to-suppliers  
+
+**Raw files** (2):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `city_of_york_council/over250payments2023.csv` | 12.3MB | `5d2cdf1712adc5b3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_york_council_over250payments2023.csv) |
+| `city_of_york_council/over250payments2024.csv` | 12.8MB | `e0d410be0af267ec…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/city_of_york_council_over250payments2024.csv) |
+
+**Total**: 2 files, 25.2MB
 
 ### Cornwall
 
@@ -346,6 +484,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 | `cornwall/cornwall_2024_03.csv` | 6.7MB | `a84de44d963b7d50…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/cornwall_cornwall_2024_03.csv) |
 
 **Total**: 12 files, 65.8MB
+
+### County Durham Council
+
+**Live source**: [https://www.durham.gov.uk/article/2437/Payments-to-suppliers-over-500](https://www.durham.gov.uk/article/2437/Payments-to-suppliers-over-500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: County Durham Council — https://www.durham.gov.uk/article/2437/Payments-to-suppliers-over-500  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `county_durham_council/CouncilTransactionsOver500-December2023.csv` | 851.4KB | `3fb2fb3fe35bbdfa…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500-December2023.csv) |
+| `county_durham_council/CouncilTransactionsOver500-November2023.csv` | 960.2KB | `e77e004f6ee9394c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500-November2023.csv) |
+| `county_durham_council/CouncilTransactionsOver500-October2023.csv` | 880.6KB | `a9a7867afce95f35…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500-October2023.csv) |
+| `county_durham_council/CouncilTransactionsOver500-September2023.csv` | 635.4KB | `a53498cc6ad8df2c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500-September2023.csv) |
+| `county_durham_council/CouncilTransactionsOver500February2024.csv` | 989.3KB | `65d5aec855a7839c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500February2024.csv) |
+| `county_durham_council/CouncilTransactionsOver500January2024.csv` | 975.9KB | `9c408b41ed4c8fea…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500January2024.csv) |
+| `county_durham_council/CouncilTransactionsOver500July2023.csv` | 860.2KB | `1536c8f558fc5180…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500July2023.csv) |
+| `county_durham_council/CouncilTransactionsOver500June2023.csv` | 860.2KB | `1536c8f558fc5180…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500June2023.csv) |
+| `county_durham_council/CouncilTransactionsOver500March2024.csv` | 1022.5KB | `808d6ce82277fdf8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver500March2024.csv) |
+| `county_durham_council/CouncilTransactionsOver_500April2023.csv` | 848.8KB | `f056cee80f66e03b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver_500April2023.csv) |
+| `county_durham_council/CouncilTransactionsOver_500May2023.csv` | 923.4KB | `b3d236b7a5d85b2f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_CouncilTransactionsOver_500May2023.csv) |
+| `county_durham_council/TransparenceAugust2023.csv` | 962.4KB | `6f0ede0f6982cdd5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/county_durham_council_TransparenceAugust2023.csv) |
+
+**Total**: 12 files, 10.5MB
 
 ### Coventry
 
@@ -423,19 +587,39 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 | File | Size | SHA256 (first 16) | archive.org mirror |
 |---|---|---|---|
 | `devon/202304.csv` | 1.8MB | `21884b36b515d356…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202304.csv) |
-| `devon/202305.csv` | 2.0MB | `5326657d34bbd389…` | — |
-| `devon/202306.csv` | 2.0MB | `4a41c540b544cd7e…` | — |
-| `devon/202307.csv` | 2.0MB | `ce1295bb1abf857d…` | — |
-| `devon/202308.csv` | 1.6MB | `a23bab2af40c770f…` | — |
-| `devon/202309.csv` | 2.0MB | `6dfcb50b10dc21bf…` | — |
-| `devon/202310.csv` | 1.7MB | `853c34f4b63250da…` | — |
-| `devon/202311.csv` | 2.1MB | `a76f810f8274d902…` | — |
-| `devon/202312.csv` | 1.7MB | `7b9ecce91421184d…` | — |
-| `devon/202401.csv` | 2.0MB | `638f512b01f8bb3b…` | — |
-| `devon/202402.csv` | 2.0MB | `0d10e7e7ad696210…` | — |
-| `devon/202403.csv` | 1.8MB | `fa112b4eedfcd26b…` | — |
+| `devon/202305.csv` | 2.0MB | `5326657d34bbd389…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202305.csv) |
+| `devon/202306.csv` | 2.0MB | `4a41c540b544cd7e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202306.csv) |
+| `devon/202307.csv` | 2.0MB | `ce1295bb1abf857d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202307.csv) |
+| `devon/202308.csv` | 1.6MB | `a23bab2af40c770f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202308.csv) |
+| `devon/202309.csv` | 2.0MB | `6dfcb50b10dc21bf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202309.csv) |
+| `devon/202310.csv` | 1.7MB | `853c34f4b63250da…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202310.csv) |
+| `devon/202311.csv` | 2.1MB | `a76f810f8274d902…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202311.csv) |
+| `devon/202312.csv` | 1.7MB | `7b9ecce91421184d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202312.csv) |
+| `devon/202401.csv` | 2.0MB | `638f512b01f8bb3b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202401.csv) |
+| `devon/202402.csv` | 2.0MB | `0d10e7e7ad696210…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202402.csv) |
+| `devon/202403.csv` | 1.8MB | `fa112b4eedfcd26b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/devon_202403.csv) |
 
 **Total**: 12 files, 22.8MB
+
+### Doncaster Metropolitan Borough Council
+
+**Live source**: [https://www.doncaster.gov.uk/services/the-council-democracy/payments-to-suppliers-reports-2023-24](https://www.doncaster.gov.uk/services/the-council-democracy/payments-to-suppliers-reports-2023-24)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Doncaster Metropolitan Borough Council — https://www.doncaster.gov.uk/services/the-council-democracy/payments-to-suppliers-reports-2023-24  
+
+**Raw files** (6):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `doncaster_metropolitan_borough_council/Published_Spend_Report_December_2023.csv` | 2.6MB | `7008c7f8de6aa402…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/doncaster_metropolitan_borough_council_Published_Spend_Report_December_2023.csv) |
+| `doncaster_metropolitan_borough_council/Published_Spend_Report_February_2024.csv` | 3.1MB | `ea20e3c473794934…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/doncaster_metropolitan_borough_council_Published_Spend_Report_February_2024.csv) |
+| `doncaster_metropolitan_borough_council/Published_Spend_Report_January_2024.csv` | 3.3MB | `d1139a8ca38135b6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/doncaster_metropolitan_borough_council_Published_Spend_Report_January_2024.csv) |
+| `doncaster_metropolitan_borough_council/Published_Spend_Report_March_2024.csv` | 3.4MB | `89ec5f82047cf86f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/doncaster_metropolitan_borough_council_Published_Spend_Report_March_2024.csv) |
+| `doncaster_metropolitan_borough_council/Published_Spend_Report_November_2023-1.csv` | 3.4MB | `782ad3d3f96d1f0c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/doncaster_metropolitan_borough_council_Published_Spend_Report_November_2023-1.csv) |
+| `doncaster_metropolitan_borough_council/Published_Spend_Report_October_2023.csv` | 3.4MB | `e424500efbd3cc61…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/doncaster_metropolitan_borough_council_Published_Spend_Report_October_2023.csv) |
+
+**Total**: 6 files, 19.2MB
 
 ### Dudley
 
@@ -472,20 +656,20 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `ealing/2023_04.csv` | 2.4MB | `a21b96dbfaf62008…` |
-| `ealing/2023_05.csv` | 2.4MB | `5f0cbfd93e9ee778…` |
-| `ealing/2023_06.csv` | 2.1MB | `5469f5e7129c137f…` |
-| `ealing/2023_07.csv` | 2.1MB | `1f5b41ff41a86ad3…` |
-| `ealing/2023_08.csv` | 2.4MB | `077f672eda8a90cf…` |
-| `ealing/2023_09.csv` | 1.9MB | `958c9e56e1b41d2e…` |
-| `ealing/2023_10.csv` | 2.1MB | `8dcb381f5925d3b2…` |
-| `ealing/2023_11.csv` | 2.5MB | `f1544d765760e976…` |
-| `ealing/2023_12.csv` | 1.8MB | `3faba4a944813b96…` |
-| `ealing/2024_01.csv` | 2.2MB | `d52c1f93eba4fe58…` |
-| `ealing/2024_02.csv` | 2.4MB | `b5cba166605cff05…` |
-| `ealing/2024_03.csv` | 2.4MB | `23083e1b34454775…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `ealing/2023_04.csv` | 2.4MB | `a21b96dbfaf62008…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_04.csv) |
+| `ealing/2023_05.csv` | 2.4MB | `5f0cbfd93e9ee778…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_05.csv) |
+| `ealing/2023_06.csv` | 2.1MB | `5469f5e7129c137f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_06.csv) |
+| `ealing/2023_07.csv` | 2.1MB | `1f5b41ff41a86ad3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_07.csv) |
+| `ealing/2023_08.csv` | 2.4MB | `077f672eda8a90cf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_08.csv) |
+| `ealing/2023_09.csv` | 1.9MB | `958c9e56e1b41d2e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_09.csv) |
+| `ealing/2023_10.csv` | 2.1MB | `8dcb381f5925d3b2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_10.csv) |
+| `ealing/2023_11.csv` | 2.5MB | `f1544d765760e976…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_11.csv) |
+| `ealing/2023_12.csv` | 1.8MB | `3faba4a944813b96…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2023_12.csv) |
+| `ealing/2024_01.csv` | 2.2MB | `d52c1f93eba4fe58…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2024_01.csv) |
+| `ealing/2024_02.csv` | 2.4MB | `b5cba166605cff05…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2024_02.csv) |
+| `ealing/2024_03.csv` | 2.4MB | `23083e1b34454775…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/ealing_2024_03.csv) |
 
 **Total**: 12 files, 26.6MB
 
@@ -520,32 +704,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (24):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `enfield/2023_04.csv` | 612.8KB | `b6bc8948864489d8…` |
-| `enfield/2023_04.xlsx` | 281.3KB | `b39f973d5fb8abc6…` |
-| `enfield/2023_05.csv` | 727.5KB | `fe5e35b53b573083…` |
-| `enfield/2023_05.xlsx` | 327.5KB | `5a32e421d6c080db…` |
-| `enfield/2023_06.csv` | 733.9KB | `ae392e48e980a28f…` |
-| `enfield/2023_06.xlsx` | 334.4KB | `e8fa156460bfc15b…` |
-| `enfield/2023_07.csv` | 679.3KB | `ef5b9f6ed9759354…` |
-| `enfield/2023_07.xlsx` | 312.5KB | `58a71910da6b0522…` |
-| `enfield/2023_08.csv` | 722.0KB | `5435386c8cea7931…` |
-| `enfield/2023_08.xlsx` | 326.1KB | `40fde49e228af81c…` |
-| `enfield/2023_09.csv` | 753.5KB | `754660634be5544f…` |
-| `enfield/2023_09.xlsx` | 338.9KB | `244d018fc3b6f863…` |
-| `enfield/2023_10.csv` | 752.6KB | `889cfc17a20a2089…` |
-| `enfield/2023_10.xlsx` | 340.9KB | `fa1c82ae41154154…` |
-| `enfield/2023_11.csv` | 765.5KB | `73507117eb5af75a…` |
-| `enfield/2023_11.xlsx` | 344.3KB | `b953156df62083ba…` |
-| `enfield/2023_12.csv` | 657.0KB | `be9b73c09e23f042…` |
-| `enfield/2023_12.xlsx` | 302.9KB | `bf9f2ab30fdfccf5…` |
-| `enfield/2024_01.csv` | 737.1KB | `348196598baf2b96…` |
-| `enfield/2024_01.xlsx` | 334.9KB | `18930e8c96dc613c…` |
-| `enfield/2024_02.csv` | 773.3KB | `5bcabaff2656fffd…` |
-| `enfield/2024_02.xlsx` | 350.2KB | `a3d78280e4acfc97…` |
-| `enfield/2024_03.csv` | 794.3KB | `49019fd17385fcb9…` |
-| `enfield/2024_03.xlsx` | 361.4KB | `715ad7553ef66377…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `enfield/2023_04.csv` | 612.8KB | `b6bc8948864489d8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_04.csv) |
+| `enfield/2023_04.xlsx` | 281.3KB | `b39f973d5fb8abc6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_04.xlsx) |
+| `enfield/2023_05.csv` | 727.5KB | `fe5e35b53b573083…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_05.csv) |
+| `enfield/2023_05.xlsx` | 327.5KB | `5a32e421d6c080db…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_05.xlsx) |
+| `enfield/2023_06.csv` | 733.9KB | `ae392e48e980a28f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_06.csv) |
+| `enfield/2023_06.xlsx` | 334.4KB | `e8fa156460bfc15b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_06.xlsx) |
+| `enfield/2023_07.csv` | 679.3KB | `ef5b9f6ed9759354…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_07.csv) |
+| `enfield/2023_07.xlsx` | 312.5KB | `58a71910da6b0522…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_07.xlsx) |
+| `enfield/2023_08.csv` | 722.0KB | `5435386c8cea7931…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_08.csv) |
+| `enfield/2023_08.xlsx` | 326.1KB | `40fde49e228af81c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_08.xlsx) |
+| `enfield/2023_09.csv` | 753.5KB | `754660634be5544f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_09.csv) |
+| `enfield/2023_09.xlsx` | 338.9KB | `244d018fc3b6f863…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_09.xlsx) |
+| `enfield/2023_10.csv` | 752.6KB | `889cfc17a20a2089…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_10.csv) |
+| `enfield/2023_10.xlsx` | 340.9KB | `fa1c82ae41154154…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_10.xlsx) |
+| `enfield/2023_11.csv` | 765.5KB | `73507117eb5af75a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_11.csv) |
+| `enfield/2023_11.xlsx` | 344.3KB | `b953156df62083ba…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_11.xlsx) |
+| `enfield/2023_12.csv` | 657.0KB | `be9b73c09e23f042…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_12.csv) |
+| `enfield/2023_12.xlsx` | 302.9KB | `bf9f2ab30fdfccf5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2023_12.xlsx) |
+| `enfield/2024_01.csv` | 737.1KB | `348196598baf2b96…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2024_01.csv) |
+| `enfield/2024_01.xlsx` | 334.9KB | `18930e8c96dc613c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2024_01.xlsx) |
+| `enfield/2024_02.csv` | 773.3KB | `5bcabaff2656fffd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2024_02.csv) |
+| `enfield/2024_02.xlsx` | 350.2KB | `a3d78280e4acfc97…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2024_02.xlsx) |
+| `enfield/2024_03.csv` | 794.3KB | `49019fd17385fcb9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2024_03.csv) |
+| `enfield/2024_03.xlsx` | 361.4KB | `715ad7553ef66377…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/enfield_2024_03.xlsx) |
 
 **Total**: 24 files, 12.4MB
 
@@ -564,12 +748,16 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 | `essex/q1_apr_jun_2023.xlsx` | 4.6MB | `70a717aa5af0493d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q1_apr_jun_2023.xlsx) |
 | `essex/q2_jul_sep_2023.csv` | 13.4MB | `6cbdc32ec5a6640e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q2_jul_sep_2023.csv) |
 | `essex/q2_jul_sep_2023.xls` | 15.6MB | `b259871beb6765a6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q2_jul_sep_2023.xls) |
-| `essex/q3_oct_dec_2023.csv` | 13.2MB | `bba08fa5e5d754ba…` | — |
-| `essex/q3_oct_dec_2023.xlsx` | 4.7MB | `f2f8565384ccded8…` | — |
-| `essex/q4_jan_mar_2024.csv` | 13.9MB | `4b44c516295bd219…` | — |
-| `essex/q4_jan_mar_2024.xls` | 15.5MB | `b87d3910358e7276…` | — |
+| `essex/q3_oct_dec_2023.csv` | 13.2MB | `bba08fa5e5d754ba…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q3_oct_dec_2023.csv) |
+| `essex/q3_oct_dec_2023.xlsx` | 4.7MB | `f2f8565384ccded8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q3_oct_dec_2023.xlsx) |
+| `essex/q4_jan_mar_2024.csv` | 13.9MB | `4b44c516295bd219…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q4_jan_mar_2024.csv) |
+| `essex/q4_jan_mar_2024.xls` | 15.5MB | `b87d3910358e7276…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/essex_q4_jan_mar_2024.xls) |
 
 **Total**: 8 files, 93.8MB
+
+### Greater Manchester Combined Authority
+
+_No raw files tracked — data fetched via API at build time._
 
 ### Greenwich
 
@@ -580,16 +768,16 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (8):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `greenwich/q1_apr_jun_2023.csv` | 1.7MB | `ee8fcdbd3d3de9a4…` |
-| `greenwich/q1_apr_jun_2023.xlsx` | 628.5KB | `b37dfcd5f5aa2d52…` |
-| `greenwich/q2_jul_sep_2023.csv` | 1.6MB | `2c3edf88d2e27cfb…` |
-| `greenwich/q2_jul_sep_2023.xlsx` | 617.0KB | `1fed26ddc4817a71…` |
-| `greenwich/q3_oct_dec_2023.csv` | 2.2MB | `6ab249efb587fa0b…` |
-| `greenwich/q3_oct_dec_2023.xlsx` | 881.8KB | `d8f6d4a4aa8caa64…` |
-| `greenwich/q4_jan_mar_2024.csv` | 2.3MB | `f1bd8a61de647124…` |
-| `greenwich/q4_jan_mar_2024.xlsx` | 842.9KB | `b70e12bcbacde267…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `greenwich/q1_apr_jun_2023.csv` | 1.7MB | `ee8fcdbd3d3de9a4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q1_apr_jun_2023.csv) |
+| `greenwich/q1_apr_jun_2023.xlsx` | 628.5KB | `b37dfcd5f5aa2d52…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q1_apr_jun_2023.xlsx) |
+| `greenwich/q2_jul_sep_2023.csv` | 1.6MB | `2c3edf88d2e27cfb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q2_jul_sep_2023.csv) |
+| `greenwich/q2_jul_sep_2023.xlsx` | 617.0KB | `1fed26ddc4817a71…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q2_jul_sep_2023.xlsx) |
+| `greenwich/q3_oct_dec_2023.csv` | 2.2MB | `6ab249efb587fa0b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q3_oct_dec_2023.csv) |
+| `greenwich/q3_oct_dec_2023.xlsx` | 881.8KB | `d8f6d4a4aa8caa64…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q3_oct_dec_2023.xlsx) |
+| `greenwich/q4_jan_mar_2024.csv` | 2.3MB | `f1bd8a61de647124…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q4_jan_mar_2024.csv) |
+| `greenwich/q4_jan_mar_2024.xlsx` | 842.9KB | `b70e12bcbacde267…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/greenwich_q4_jan_mar_2024.xlsx) |
 
 **Total**: 8 files, 10.8MB
 
@@ -602,21 +790,41 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (11):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `hackney/2023_04.csv` | 1.1MB | `1b7fdfdcdd81ff0c…` |
-| `hackney/2023_06.csv` | 1.1MB | `273cd92c39de0921…` |
-| `hackney/2023_07.csv` | 1.2MB | `13508ca73ab8f8b4…` |
-| `hackney/2023_08.csv` | 1.0MB | `9bff816f2b1ed20d…` |
-| `hackney/2023_09.csv` | 1.1MB | `685ec04b7543c171…` |
-| `hackney/2023_10.csv` | 1.2MB | `be3fa75391eaf16e…` |
-| `hackney/2023_11.csv` | 1.4MB | `7d674111226cd530…` |
-| `hackney/2023_12.csv` | 1.2MB | `226e0a661a8bebac…` |
-| `hackney/2024_01.csv` | 1.1MB | `4e0535d3dd5ba54a…` |
-| `hackney/2024_02.csv` | 1.1MB | `b76bc486c2e1a51f…` |
-| `hackney/2024_03.csv` | 1.4MB | `884ef1d98d1947a9…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `hackney/2023_04.csv` | 1.1MB | `1b7fdfdcdd81ff0c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_04.csv) |
+| `hackney/2023_06.csv` | 1.1MB | `273cd92c39de0921…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_06.csv) |
+| `hackney/2023_07.csv` | 1.2MB | `13508ca73ab8f8b4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_07.csv) |
+| `hackney/2023_08.csv` | 1.0MB | `9bff816f2b1ed20d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_08.csv) |
+| `hackney/2023_09.csv` | 1.1MB | `685ec04b7543c171…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_09.csv) |
+| `hackney/2023_10.csv` | 1.2MB | `be3fa75391eaf16e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_10.csv) |
+| `hackney/2023_11.csv` | 1.4MB | `7d674111226cd530…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_11.csv) |
+| `hackney/2023_12.csv` | 1.2MB | `226e0a661a8bebac…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2023_12.csv) |
+| `hackney/2024_01.csv` | 1.1MB | `4e0535d3dd5ba54a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2024_01.csv) |
+| `hackney/2024_02.csv` | 1.1MB | `b76bc486c2e1a51f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2024_02.csv) |
+| `hackney/2024_03.csv` | 1.4MB | `884ef1d98d1947a9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hackney_2024_03.csv) |
 
 **Total**: 11 files, 12.7MB
+
+### Hammersmith and Fulham
+
+**Live source**: [(none)](#)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24 (3/4 quarters, Q3 Oct-Dec 2023 unrecoverable)  
+**Publisher description**: London Borough of Hammersmith & Fulham — Spend Data quarterly (lbhf.gov.uk, Q1+Q2 via live origin UA override, Q3 FOI-only)  
+
+**Raw files** (6):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `hammersmith_fulham/q1_apr_jun_2023.csv` | 4.9MB | `1405777b909e71ec…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q1_apr_jun_2023.csv) |
+| `hammersmith_fulham/q1_apr_jun_2023.xlsx` | 2.1MB | `b2e0284d87f74cd9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q1_apr_jun_2023.xlsx) |
+| `hammersmith_fulham/q2_jul_sep_2023.csv` | 3.2MB | `84e30a01f0162713…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q2_jul_sep_2023.csv) |
+| `hammersmith_fulham/q2_jul_sep_2023.xlsx` | 1.3MB | `0d6efc9b915c76c1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q2_jul_sep_2023.xlsx) |
+| `hammersmith_fulham/q4_jan_mar_2024.csv` | 1.7MB | `b0c77ca6ee981718…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q4_jan_mar_2024.csv) |
+| `hammersmith_fulham/q4_jan_mar_2024.xlsx` | 692.7KB | `e1669010adeb99c3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hammersmith_and_fulham_q4_jan_mar_2024.xlsx) |
+
+**Total**: 6 files, 13.8MB
 
 ### Hampshire
 
@@ -627,32 +835,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (24):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `hampshire/apr_2023.csv` | 2.8MB | `281e5a55de53fdf0…` |
-| `hampshire/apr_2023.xlsx` | 1003.7KB | `601c3714f831e993…` |
-| `hampshire/aug_2023.csv` | 3.0MB | `e98baedc6ca7b434…` |
-| `hampshire/aug_2023.xlsx` | 1.0MB | `5b7facda3b398263…` |
-| `hampshire/dec_2023.csv` | 4.9MB | `2c5af3d85b3f33bc…` |
-| `hampshire/dec_2023.xlsx` | 1.4MB | `d4fbede4761005e6…` |
-| `hampshire/feb_2024.csv` | 6.6MB | `003f26a967d35459…` |
-| `hampshire/feb_2024.xlsx` | 1.8MB | `ba535c11f2336ecd…` |
-| `hampshire/jan_2024.csv` | 6.1MB | `597e347604b29921…` |
-| `hampshire/jan_2024.xlsx` | 1.7MB | `503ca2e74113941f…` |
-| `hampshire/jul_2023.csv` | 3.1MB | `399a4129d2919148…` |
-| `hampshire/jul_2023.xlsx` | 1.1MB | `d6385d2fd74f3b5d…` |
-| `hampshire/jun_2023.csv` | 3.1MB | `77749e2a546a0c81…` |
-| `hampshire/jun_2023.xlsx` | 1.1MB | `16960e03b33e7287…` |
-| `hampshire/mar_2024.csv` | 7.0MB | `eeca27c71ce2d1f6…` |
-| `hampshire/mar_2024.xlsx` | 2.0MB | `a274ac6442349872…` |
-| `hampshire/may_2023.csv` | 3.5MB | `52905aea57bb8a79…` |
-| `hampshire/may_2023.xlsx` | 1.2MB | `6f08f95c9e48eccc…` |
-| `hampshire/nov_2023.csv` | 4.5MB | `28b20f587e0a5584…` |
-| `hampshire/nov_2023.xlsx` | 1.3MB | `6e258c920f5c3f9a…` |
-| `hampshire/oct_2023.csv` | 2.8MB | `0450fb4759e5c736…` |
-| `hampshire/oct_2023.xlsx` | 1003.8KB | `eefa51c4dfd945e7…` |
-| `hampshire/sep_2023.csv` | 2.8MB | `8622f07d419b8852…` |
-| `hampshire/sep_2023.xlsx` | 978.1KB | `877fdb805fbdaed2…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `hampshire/apr_2023.csv` | 2.8MB | `281e5a55de53fdf0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_apr_2023.csv) |
+| `hampshire/apr_2023.xlsx` | 1003.7KB | `601c3714f831e993…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_apr_2023.xlsx) |
+| `hampshire/aug_2023.csv` | 3.0MB | `e98baedc6ca7b434…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_aug_2023.csv) |
+| `hampshire/aug_2023.xlsx` | 1.0MB | `5b7facda3b398263…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_aug_2023.xlsx) |
+| `hampshire/dec_2023.csv` | 4.9MB | `2c5af3d85b3f33bc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_dec_2023.csv) |
+| `hampshire/dec_2023.xlsx` | 1.4MB | `d4fbede4761005e6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_dec_2023.xlsx) |
+| `hampshire/feb_2024.csv` | 6.6MB | `003f26a967d35459…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_feb_2024.csv) |
+| `hampshire/feb_2024.xlsx` | 1.8MB | `ba535c11f2336ecd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_feb_2024.xlsx) |
+| `hampshire/jan_2024.csv` | 6.1MB | `597e347604b29921…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_jan_2024.csv) |
+| `hampshire/jan_2024.xlsx` | 1.7MB | `503ca2e74113941f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_jan_2024.xlsx) |
+| `hampshire/jul_2023.csv` | 3.1MB | `399a4129d2919148…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_jul_2023.csv) |
+| `hampshire/jul_2023.xlsx` | 1.1MB | `d6385d2fd74f3b5d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_jul_2023.xlsx) |
+| `hampshire/jun_2023.csv` | 3.1MB | `77749e2a546a0c81…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_jun_2023.csv) |
+| `hampshire/jun_2023.xlsx` | 1.1MB | `16960e03b33e7287…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_jun_2023.xlsx) |
+| `hampshire/mar_2024.csv` | 7.0MB | `eeca27c71ce2d1f6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_mar_2024.csv) |
+| `hampshire/mar_2024.xlsx` | 2.0MB | `a274ac6442349872…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_mar_2024.xlsx) |
+| `hampshire/may_2023.csv` | 3.5MB | `52905aea57bb8a79…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_may_2023.csv) |
+| `hampshire/may_2023.xlsx` | 1.2MB | `6f08f95c9e48eccc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_may_2023.xlsx) |
+| `hampshire/nov_2023.csv` | 4.5MB | `28b20f587e0a5584…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_nov_2023.csv) |
+| `hampshire/nov_2023.xlsx` | 1.3MB | `6e258c920f5c3f9a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_nov_2023.xlsx) |
+| `hampshire/oct_2023.csv` | 2.8MB | `0450fb4759e5c736…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_oct_2023.csv) |
+| `hampshire/oct_2023.xlsx` | 1003.8KB | `eefa51c4dfd945e7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_oct_2023.xlsx) |
+| `hampshire/sep_2023.csv` | 2.8MB | `8622f07d419b8852…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_sep_2023.csv) |
+| `hampshire/sep_2023.xlsx` | 978.1KB | `877fdb805fbdaed2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hampshire_sep_2023.xlsx) |
 
 **Total**: 24 files, 65.8MB
 
@@ -665,12 +873,12 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (4):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `haringey/q1_apr_jun_2023.csv` | 1.9MB | `286e94187efba56f…` |
-| `haringey/q2_jul_sep_2023.csv` | 1.1MB | `2e7e76a3e65268cd…` |
-| `haringey/q3_oct_dec_2023.csv` | 1.4MB | `661dae27ce3f7375…` |
-| `haringey/q4_jan_mar_2024.csv` | 1.3MB | `9b183e040e2adec7…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `haringey/q1_apr_jun_2023.csv` | 1.9MB | `286e94187efba56f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/haringey_q1_apr_jun_2023.csv) |
+| `haringey/q2_jul_sep_2023.csv` | 1.1MB | `2e7e76a3e65268cd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/haringey_q2_jul_sep_2023.csv) |
+| `haringey/q3_oct_dec_2023.csv` | 1.4MB | `661dae27ce3f7375…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/haringey_q3_oct_dec_2023.csv) |
+| `haringey/q4_jan_mar_2024.csv` | 1.3MB | `9b183e040e2adec7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/haringey_q4_jan_mar_2024.csv) |
 
 **Total**: 4 files, 5.7MB
 
@@ -683,16 +891,16 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (8):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `harrow/q1_apr_jun_2023.csv` | 927.2KB | `a67a5e3ea586cc1f…` |
-| `harrow/q1_apr_jun_2023.xlsx` | 456.3KB | `75c0db1c658e3a9e…` |
-| `harrow/q2_jul_sep_2023.csv` | 1.3MB | `8cd5a509be1bba4c…` |
-| `harrow/q2_jul_sep_2023.xlsx` | 642.1KB | `22777a158ae8cb85…` |
-| `harrow/q3_oct_dec_2023.csv` | 1.4MB | `9bbb54457b776c2d…` |
-| `harrow/q3_oct_dec_2023.xlsx` | 648.0KB | `33ea5a0c77da9064…` |
-| `harrow/q4_jan_mar_2024.csv` | 1.4MB | `c6f36c525f865d33…` |
-| `harrow/q4_jan_mar_2024.xlsx` | 709.5KB | `76c17fcc8449356c…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `harrow/q1_apr_jun_2023.csv` | 927.2KB | `a67a5e3ea586cc1f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q1_apr_jun_2023.csv) |
+| `harrow/q1_apr_jun_2023.xlsx` | 456.3KB | `75c0db1c658e3a9e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q1_apr_jun_2023.xlsx) |
+| `harrow/q2_jul_sep_2023.csv` | 1.3MB | `8cd5a509be1bba4c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q2_jul_sep_2023.csv) |
+| `harrow/q2_jul_sep_2023.xlsx` | 642.1KB | `22777a158ae8cb85…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q2_jul_sep_2023.xlsx) |
+| `harrow/q3_oct_dec_2023.csv` | 1.4MB | `9bbb54457b776c2d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q3_oct_dec_2023.csv) |
+| `harrow/q3_oct_dec_2023.xlsx` | 648.0KB | `33ea5a0c77da9064…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q3_oct_dec_2023.xlsx) |
+| `harrow/q4_jan_mar_2024.csv` | 1.4MB | `c6f36c525f865d33…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q4_jan_mar_2024.csv) |
+| `harrow/q4_jan_mar_2024.xlsx` | 709.5KB | `76c17fcc8449356c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/harrow_q4_jan_mar_2024.xlsx) |
 
 **Total**: 8 files, 7.4MB
 
@@ -705,22 +913,48 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `havering/2023_04.csv` | 663.1KB | `cb3e84ff215f392c…` |
-| `havering/2023_05.csv` | 901.2KB | `e065ee6063601fd5…` |
-| `havering/2023_06.csv` | 930.8KB | `f0bdfda94c8d620d…` |
-| `havering/2023_07.csv` | 712.6KB | `4ac005e2cfbdb39d…` |
-| `havering/2023_08.csv` | 843.1KB | `cf3d5ac6cebcc32e…` |
-| `havering/2023_09.csv` | 855.8KB | `e7b2d91047b2f681…` |
-| `havering/2023_10.csv` | 765.5KB | `686312d5f665ea93…` |
-| `havering/2023_11.csv` | 878.8KB | `08f45de5a7d4029a…` |
-| `havering/2023_12.csv` | 849.8KB | `a8b4ade3341fc5c4…` |
-| `havering/2024_01.csv` | 936.7KB | `a052ba2d8cbe5127…` |
-| `havering/2024_02.csv` | 849.4KB | `38c72086962cf598…` |
-| `havering/2024_03.csv` | 922.9KB | `8848e4962eef81b5…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `havering/2023_04.csv` | 663.1KB | `cb3e84ff215f392c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_04.csv) |
+| `havering/2023_05.csv` | 901.2KB | `e065ee6063601fd5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_05.csv) |
+| `havering/2023_06.csv` | 930.8KB | `f0bdfda94c8d620d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_06.csv) |
+| `havering/2023_07.csv` | 712.6KB | `4ac005e2cfbdb39d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_07.csv) |
+| `havering/2023_08.csv` | 843.1KB | `cf3d5ac6cebcc32e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_08.csv) |
+| `havering/2023_09.csv` | 855.8KB | `e7b2d91047b2f681…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_09.csv) |
+| `havering/2023_10.csv` | 765.5KB | `686312d5f665ea93…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_10.csv) |
+| `havering/2023_11.csv` | 878.8KB | `08f45de5a7d4029a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_11.csv) |
+| `havering/2023_12.csv` | 849.8KB | `a8b4ade3341fc5c4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2023_12.csv) |
+| `havering/2024_01.csv` | 936.7KB | `a052ba2d8cbe5127…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2024_01.csv) |
+| `havering/2024_02.csv` | 849.4KB | `38c72086962cf598…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2024_02.csv) |
+| `havering/2024_03.csv` | 922.9KB | `8848e4962eef81b5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/havering_2024_03.csv) |
 
 **Total**: 12 files, 9.9MB
+
+### Herefordshire Council
+
+**Live source**: [https://www.herefordshire.gov.uk/your-council/our-open-data/council-expenditure-over-500/](https://www.herefordshire.gov.uk/your-council/our-open-data/council-expenditure-over-500/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Herefordshire Council — https://www.herefordshire.gov.uk/your-council/our-open-data/council-expenditure-over-500/  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `herefordshire_council/april_2023_expenditure_over_-500.csv` | 217.5KB | `6b01cda10f53d86a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_april_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/august_2023_expenditure_over_-500.csv` | 214.9KB | `b74562dce6354d99…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_august_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/december_2023_expenditure_over_-500.csv` | 260.8KB | `e151284e705c282b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_december_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/february_2024_expenditure_over_-500.csv` | 306.3KB | `0c8311939617b830…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_february_2024_expenditure_over_-500.csv) |
+| `herefordshire_council/january_2024_expenditure_over_-500.csv` | 278.2KB | `f6e54a5c574e3049…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_january_2024_expenditure_over_-500.csv) |
+| `herefordshire_council/july_2023_expenditure_over_-500.csv` | 293.9KB | `80e29a6d74c9a839…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_july_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/june_2023_expenditure_over_-500.csv` | 309.0KB | `e47e61e45728d4c0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_june_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/march_2024_expenditure_over_-500.csv` | 348.2KB | `842f70e8792fcdc1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_march_2024_expenditure_over_-500.csv) |
+| `herefordshire_council/may_2023_expenditure_over_-500.csv` | 266.9KB | `958d25516f3dd2e9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_may_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/november_2023_expenditure_over_-500.csv` | 270.9KB | `14b50ef07ff51953…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_november_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/october_2023_expenditure_over_-500.csv` | 262.1KB | `b51b268c2d685d6b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_october_2023_expenditure_over_-500.csv) |
+| `herefordshire_council/september_2023_expenditure_over_-500.csv` | 230.5KB | `b5f80a9e75dd4b52…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/herefordshire_council_september_2023_expenditure_over_-500.csv) |
+
+**Total**: 12 files, 3.2MB
 
 ### Hertfordshire
 
@@ -749,32 +983,32 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (24):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `hillingdon/2023_04.csv` | 189.2KB | `4de07521bb514d3d…` |
-| `hillingdon/2023_04.xlsx` | 109.1KB | `e41794d00df53c42…` |
-| `hillingdon/2023_05.csv` | 203.3KB | `3f56d2cfaf7df8a7…` |
-| `hillingdon/2023_05.xlsx` | 116.9KB | `69b86622fc2bab06…` |
-| `hillingdon/2023_06.csv` | 204.9KB | `02b5da45d672381d…` |
-| `hillingdon/2023_06.xlsx` | 113.7KB | `17b076d1c5c2c48a…` |
-| `hillingdon/2023_07.csv` | 214.6KB | `cb3c04dbaa32024f…` |
-| `hillingdon/2023_07.xlsx` | 112.3KB | `4f58976de7f2d122…` |
-| `hillingdon/2023_08.csv` | 198.3KB | `cc25b652b80dde36…` |
-| `hillingdon/2023_08.xlsx` | 101.0KB | `3f71bd6f4f2bb8bc…` |
-| `hillingdon/2023_09.csv` | 202.3KB | `7759f7a7d75d13e7…` |
-| `hillingdon/2023_09.xlsx` | 101.6KB | `8030660b0a498bf9…` |
-| `hillingdon/2023_10.csv` | 221.0KB | `4f6be6d5b2feb105…` |
-| `hillingdon/2023_10.xlsx` | 116.4KB | `9d085e172c4d940c…` |
-| `hillingdon/2023_11.csv` | 224.4KB | `447ac71d04d34f5e…` |
-| `hillingdon/2023_11.xlsx` | 113.1KB | `bdee6252932c6c41…` |
-| `hillingdon/2023_12.csv` | 203.5KB | `16a6102bb5f8fa96…` |
-| `hillingdon/2023_12.xlsx` | 104.9KB | `af413d9894ee2d4a…` |
-| `hillingdon/2024_01.csv` | 214.4KB | `5a86b6dfe9f5500e…` |
-| `hillingdon/2024_01.xlsx` | 113.5KB | `a88cbde54b3f330b…` |
-| `hillingdon/2024_02.csv` | 200.9KB | `60f42358466d0e7d…` |
-| `hillingdon/2024_02.xlsx` | 101.6KB | `81afe2af14464cc4…` |
-| `hillingdon/2024_03.csv` | 225.8KB | `4a0513ebe965350f…` |
-| `hillingdon/2024_03.xlsx` | 114.5KB | `0b7b84436c627644…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `hillingdon/2023_04.csv` | 189.2KB | `4de07521bb514d3d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_04.csv) |
+| `hillingdon/2023_04.xlsx` | 109.1KB | `e41794d00df53c42…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_04.xlsx) |
+| `hillingdon/2023_05.csv` | 203.3KB | `3f56d2cfaf7df8a7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_05.csv) |
+| `hillingdon/2023_05.xlsx` | 116.9KB | `69b86622fc2bab06…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_05.xlsx) |
+| `hillingdon/2023_06.csv` | 204.9KB | `02b5da45d672381d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_06.csv) |
+| `hillingdon/2023_06.xlsx` | 113.7KB | `17b076d1c5c2c48a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_06.xlsx) |
+| `hillingdon/2023_07.csv` | 214.6KB | `cb3c04dbaa32024f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_07.csv) |
+| `hillingdon/2023_07.xlsx` | 112.3KB | `4f58976de7f2d122…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_07.xlsx) |
+| `hillingdon/2023_08.csv` | 198.3KB | `cc25b652b80dde36…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_08.csv) |
+| `hillingdon/2023_08.xlsx` | 101.0KB | `3f71bd6f4f2bb8bc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_08.xlsx) |
+| `hillingdon/2023_09.csv` | 202.3KB | `7759f7a7d75d13e7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_09.csv) |
+| `hillingdon/2023_09.xlsx` | 101.6KB | `8030660b0a498bf9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_09.xlsx) |
+| `hillingdon/2023_10.csv` | 221.0KB | `4f6be6d5b2feb105…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_10.csv) |
+| `hillingdon/2023_10.xlsx` | 116.4KB | `9d085e172c4d940c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_10.xlsx) |
+| `hillingdon/2023_11.csv` | 224.4KB | `447ac71d04d34f5e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_11.csv) |
+| `hillingdon/2023_11.xlsx` | 113.1KB | `bdee6252932c6c41…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_11.xlsx) |
+| `hillingdon/2023_12.csv` | 203.5KB | `16a6102bb5f8fa96…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_12.csv) |
+| `hillingdon/2023_12.xlsx` | 104.9KB | `af413d9894ee2d4a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2023_12.xlsx) |
+| `hillingdon/2024_01.csv` | 214.4KB | `5a86b6dfe9f5500e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2024_01.csv) |
+| `hillingdon/2024_01.xlsx` | 113.5KB | `a88cbde54b3f330b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2024_01.xlsx) |
+| `hillingdon/2024_02.csv` | 200.9KB | `60f42358466d0e7d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2024_02.csv) |
+| `hillingdon/2024_02.xlsx` | 101.6KB | `81afe2af14464cc4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2024_02.xlsx) |
+| `hillingdon/2024_03.csv` | 225.8KB | `4a0513ebe965350f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2024_03.csv) |
+| `hillingdon/2024_03.xlsx` | 114.5KB | `0b7b84436c627644…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hillingdon_2024_03.xlsx) |
 
 **Total**: 24 files, 3.7MB
 
@@ -787,20 +1021,20 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `hounslow/2023_04.csv` | 465.1KB | `244a08509da8ff36…` |
-| `hounslow/2023_05.csv` | 489.6KB | `a51ac6e327073670…` |
-| `hounslow/2023_06.csv` | 511.2KB | `d46e8f70f24f3bdc…` |
-| `hounslow/2023_07.csv` | 418.0KB | `a787225570a4274c…` |
-| `hounslow/2023_08.csv` | 426.0KB | `cddf96c22c9d96e5…` |
-| `hounslow/2023_09.csv` | 442.0KB | `00aa39af9d1f10cd…` |
-| `hounslow/2023_10.csv` | 487.2KB | `66c4452ae91a7c3b…` |
-| `hounslow/2023_11.csv` | 447.5KB | `1e2078924858a1df…` |
-| `hounslow/2023_12.csv` | 477.7KB | `ccf69721065de31e…` |
-| `hounslow/2024_01.csv` | 459.4KB | `f1887201de8c9307…` |
-| `hounslow/2024_02.csv` | 499.7KB | `3c8108a677686059…` |
-| `hounslow/2024_03.csv` | 627.0KB | `a50df1b2f9c320fe…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `hounslow/2023_04.csv` | 465.1KB | `244a08509da8ff36…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_04.csv) |
+| `hounslow/2023_05.csv` | 489.6KB | `a51ac6e327073670…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_05.csv) |
+| `hounslow/2023_06.csv` | 511.2KB | `d46e8f70f24f3bdc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_06.csv) |
+| `hounslow/2023_07.csv` | 418.0KB | `a787225570a4274c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_07.csv) |
+| `hounslow/2023_08.csv` | 426.0KB | `cddf96c22c9d96e5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_08.csv) |
+| `hounslow/2023_09.csv` | 442.0KB | `00aa39af9d1f10cd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_09.csv) |
+| `hounslow/2023_10.csv` | 487.2KB | `66c4452ae91a7c3b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_10.csv) |
+| `hounslow/2023_11.csv` | 447.5KB | `1e2078924858a1df…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_11.csv) |
+| `hounslow/2023_12.csv` | 477.7KB | `ccf69721065de31e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2023_12.csv) |
+| `hounslow/2024_01.csv` | 459.4KB | `f1887201de8c9307…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2024_01.csv) |
+| `hounslow/2024_02.csv` | 499.7KB | `3c8108a677686059…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2024_02.csv) |
+| `hounslow/2024_03.csv` | 627.0KB | `a50df1b2f9c320fe…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/hounslow_2024_03.csv) |
 
 **Total**: 12 files, 5.6MB
 
@@ -813,12 +1047,12 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (4):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `islington/q1_mar_jun_2023.csv` | 2.7MB | `0683288dae4aaec6…` |
-| `islington/q2_jul_sep_2023.csv` | 2.0MB | `b4a08f996a66669f…` |
-| `islington/q3_oct_dec_2023.csv` | 2.0MB | `9a204598a608660a…` |
-| `islington/q4_jan_mar_2024.csv` | 2.3MB | `255c86b8a1ef3662…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `islington/q1_mar_jun_2023.csv` | 2.7MB | `0683288dae4aaec6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/islington_q1_mar_jun_2023.csv) |
+| `islington/q2_jul_sep_2023.csv` | 2.0MB | `b4a08f996a66669f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/islington_q2_jul_sep_2023.csv) |
+| `islington/q3_oct_dec_2023.csv` | 2.0MB | `9a204598a608660a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/islington_q3_oct_dec_2023.csv) |
+| `islington/q4_jan_mar_2024.csv` | 2.3MB | `255c86b8a1ef3662…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/islington_q4_jan_mar_2024.csv) |
 
 **Total**: 4 files, 9.0MB
 
@@ -831,12 +1065,12 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (4):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `rbkc/q1_2024_cal_jan_mar.csv` | 3.5MB | `317946920612197c…` |
-| `rbkc/q2_2023_cal_apr_jun.csv` | 3.4MB | `3bae9fb6a97eb7f6…` |
-| `rbkc/q3_2023_cal_jul_sep.csv` | 3.6MB | `21f7b0100ed0b349…` |
-| `rbkc/q4_2023_cal_oct_dec.csv` | 3.7MB | `1dafb777fe1ab875…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `rbkc/q1_2024_cal_jan_mar.csv` | 3.5MB | `317946920612197c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kensington_and_chelsea_q1_2024_cal_jan_mar.csv) |
+| `rbkc/q2_2023_cal_apr_jun.csv` | 3.4MB | `3bae9fb6a97eb7f6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kensington_and_chelsea_q2_2023_cal_apr_jun.csv) |
+| `rbkc/q3_2023_cal_jul_sep.csv` | 3.6MB | `21f7b0100ed0b349…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kensington_and_chelsea_q3_2023_cal_jul_sep.csv) |
+| `rbkc/q4_2023_cal_oct_dec.csv` | 3.7MB | `1dafb777fe1ab875…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kensington_and_chelsea_q4_2023_cal_oct_dec.csv) |
 
 **Total**: 4 files, 14.1MB
 
@@ -866,6 +1100,44 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Total**: 12 files, 82.1MB
 
+### Kingston upon Hull City Council
+
+**Live source**: [https://www.hull.gov.uk/open-data/council-expenditure](https://www.hull.gov.uk/open-data/council-expenditure)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Kingston upon Hull City Council — https://www.hull.gov.uk/open-data/council-expenditure  
+
+**Raw files** (24):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `kingston_upon_hull_city_council/file_11hytq.bin` | 1.7MB | `14726357b7b9d53c…` | — |
+| `kingston_upon_hull_city_council/file_1aq2tu.bin` | 1.7MB | `019edc5d89f10a6e…` | — |
+| `kingston_upon_hull_city_council/file_44e96i.bin` | 1.6MB | `600e757652de90e5…` | — |
+| `kingston_upon_hull_city_council/file_56s24l.bin` | 1.4MB | `fa8dae3d22742280…` | — |
+| `kingston_upon_hull_city_council/file_a5u080.bin` | 1.5MB | `435fcf4effe8ea10…` | — |
+| `kingston_upon_hull_city_council/file_d9xe7l.bin` | 1.1MB | `3f6aecb260ae5f5c…` | — |
+| `kingston_upon_hull_city_council/file_gh8225.bin` | 1.4MB | `7ee91f41764852e7…` | — |
+| `kingston_upon_hull_city_council/file_l0tl9n.bin` | 1.9MB | `de44fb1ec9256422…` | — |
+| `kingston_upon_hull_city_council/file_llloas.bin` | 1.5MB | `f35037950c2c5bf2…` | — |
+| `kingston_upon_hull_city_council/file_u2b9g6.bin` | 1.3MB | `0537185216374cf3…` | — |
+| `kingston_upon_hull_city_council/file_v5aay0.bin` | 1.4MB | `b1bca0aa5349dc0b…` | — |
+| `kingston_upon_hull_city_council/file_wnlwxw.bin` | 1.5MB | `543781a7cbd9dfe9…` | — |
+| `kingston_upon_hull_city_council/hull_2023_04.csv` | 1.3MB | `0537185216374cf3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_04.csv) |
+| `kingston_upon_hull_city_council/hull_2023_05.csv` | 1.1MB | `3f6aecb260ae5f5c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_05.csv) |
+| `kingston_upon_hull_city_council/hull_2023_06.csv` | 1.7MB | `14726357b7b9d53c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_06.csv) |
+| `kingston_upon_hull_city_council/hull_2023_07.csv` | 1.4MB | `7ee91f41764852e7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_07.csv) |
+| `kingston_upon_hull_city_council/hull_2023_08.csv` | 1.5MB | `435fcf4effe8ea10…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_08.csv) |
+| `kingston_upon_hull_city_council/hull_2023_09.csv` | 1.4MB | `fa8dae3d22742280…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_09.csv) |
+| `kingston_upon_hull_city_council/hull_2023_10.csv` | 1.5MB | `543781a7cbd9dfe9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_10.csv) |
+| `kingston_upon_hull_city_council/hull_2023_11.csv` | 1.6MB | `600e757652de90e5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_11.csv) |
+| `kingston_upon_hull_city_council/hull_2023_12.csv` | 1.5MB | `f35037950c2c5bf2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2023_12.csv) |
+| `kingston_upon_hull_city_council/hull_2024_01.csv` | 1.7MB | `019edc5d89f10a6e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2024_01.csv) |
+| `kingston_upon_hull_city_council/hull_2024_02.csv` | 1.4MB | `b1bca0aa5349dc0b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2024_02.csv) |
+| `kingston_upon_hull_city_council/hull_2024_03.csv` | 1.9MB | `de44fb1ec9256422…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_hull_city_council_hull_2024_03.csv) |
+
+**Total**: 24 files, 36.0MB
+
 ### Kingston upon Thames
 
 **Live source**: [https://www.kingston.gov.uk/your-council/privacy-and-data/local-government-transparency-code/finance](https://www.kingston.gov.uk/your-council/privacy-and-data/local-government-transparency-code/finance)  
@@ -875,20 +1147,20 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `kingston/RBK_Over___500_payments_May_2023_To_be_published.csv` | 648.9KB | `82349b67b26f55e8…` |
-| `kingston/RBK_Payments_Over___500_April_2023___To_be_published.csv` | 514.8KB | `233faade337f9ae6…` |
-| `kingston/RBK_Payments_over___500_June_2023___To_be_published.csv` | 524.2KB | `6bcf52f72adac232…` |
-| `kingston/RBK_Payments_over___500_March_2024___To_be_published.csv` | 593.5KB | `327917b38e1e9462…` |
-| `kingston/RBK_Payments_over___500_October_2023___For_publishing.csv` | 542.8KB | `8ccc3bacc3a42d71…` |
-| `kingston/RBK_Payments_over___500_September_2023___To_be_published.csv` | 466.1KB | `19dafede6bc9ca95…` |
-| `kingston/RBK_Payments_to_Suppliers_over___500_July_2023___TO_BE_PUBLISHED.csv` | 439.1KB | `c782e290ef6511ec…` |
-| `kingston/RBK_payments_over___500_August_2023___To_be_published.csv` | 626.5KB | `6e48f4ba86d86d91…` |
-| `kingston/RBK_payments_over___500_December_2023___For_publishing.csv` | 513.0KB | `45b3961cfe860709…` |
-| `kingston/RBK_payments_over___500_February_2024___To_be_published.csv` | 525.7KB | `b0cb30db7f99b045…` |
-| `kingston/RBK_payments_over___500_January_2024___To_be_published.csv` | 570.7KB | `5cb5eb53d3a6cd5e…` |
-| `kingston/RBK_payments_over___500_November_2023___TO_BE_PUBLISHED.csv` | 484.0KB | `4adac928a93b71eb…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `kingston/RBK_Over___500_payments_May_2023_To_be_published.csv` | 648.9KB | `82349b67b26f55e8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Over___500_payments_May_2023_To_be_published.csv) |
+| `kingston/RBK_Payments_Over___500_April_2023___To_be_published.csv` | 514.8KB | `233faade337f9ae6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Payments_Over___500_April_2023___To_be_published.csv) |
+| `kingston/RBK_Payments_over___500_June_2023___To_be_published.csv` | 524.2KB | `6bcf52f72adac232…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Payments_over___500_June_2023___To_be_published.csv) |
+| `kingston/RBK_Payments_over___500_March_2024___To_be_published.csv` | 593.5KB | `327917b38e1e9462…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Payments_over___500_March_2024___To_be_published.csv) |
+| `kingston/RBK_Payments_over___500_October_2023___For_publishing.csv` | 542.8KB | `8ccc3bacc3a42d71…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Payments_over___500_October_2023___For_publishing.csv) |
+| `kingston/RBK_Payments_over___500_September_2023___To_be_published.csv` | 466.1KB | `19dafede6bc9ca95…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Payments_over___500_September_2023___To_be_published.csv) |
+| `kingston/RBK_Payments_to_Suppliers_over___500_July_2023___TO_BE_PUBLISHED.csv` | 439.1KB | `c782e290ef6511ec…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_Payments_to_Suppliers_over___500_July_2023___TO_BE_PUBLISHED.csv) |
+| `kingston/RBK_payments_over___500_August_2023___To_be_published.csv` | 626.5KB | `6e48f4ba86d86d91…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_payments_over___500_August_2023___To_be_published.csv) |
+| `kingston/RBK_payments_over___500_December_2023___For_publishing.csv` | 513.0KB | `45b3961cfe860709…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_payments_over___500_December_2023___For_publishing.csv) |
+| `kingston/RBK_payments_over___500_February_2024___To_be_published.csv` | 525.7KB | `b0cb30db7f99b045…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_payments_over___500_February_2024___To_be_published.csv) |
+| `kingston/RBK_payments_over___500_January_2024___To_be_published.csv` | 570.7KB | `5cb5eb53d3a6cd5e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_payments_over___500_January_2024___To_be_published.csv) |
+| `kingston/RBK_payments_over___500_November_2023___TO_BE_PUBLISHED.csv` | 484.0KB | `4adac928a93b71eb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/kingston_upon_thames_RBK_payments_over___500_November_2023___TO_BE_PUBLISHED.csv) |
 
 **Total**: 12 files, 6.3MB
 
@@ -922,19 +1194,19 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 
 **Raw files** (11):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `lancashire/apr_2023.csv` | 2.1MB | `feeb6a818c9c8570…` |
-| `lancashire/aug_2023.csv` | 2.4MB | `61c7dbaf2940aad4…` |
-| `lancashire/dec_2023.csv` | 2.8MB | `ffa23442c8385db7…` |
-| `lancashire/feb_2024.csv` | 1.7MB | `02b4406dd8e8677f…` |
-| `lancashire/jan_2024.csv` | 11.5MB | `285a3f6b9830bd0a…` |
-| `lancashire/jul_2023.csv` | 2.9MB | `fd2bee9b1e28dcdf…` |
-| `lancashire/jun_2023.csv` | 3.0MB | `5019c867dee1fc64…` |
-| `lancashire/may_2023.csv` | 2.1MB | `e690ec5409e62d79…` |
-| `lancashire/nov_2023.csv` | 3.0MB | `bc0f8ea2ee0cc18e…` |
-| `lancashire/oct_2023.csv` | 2.7MB | `25e32f3b79b01df1…` |
-| `lancashire/sep_2023.csv` | 4.7MB | `16b67ef8609cf467…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `lancashire/apr_2023.csv` | 2.1MB | `feeb6a818c9c8570…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_apr_2023.csv) |
+| `lancashire/aug_2023.csv` | 2.4MB | `61c7dbaf2940aad4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_aug_2023.csv) |
+| `lancashire/dec_2023.csv` | 2.8MB | `ffa23442c8385db7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_dec_2023.csv) |
+| `lancashire/feb_2024.csv` | 1.7MB | `02b4406dd8e8677f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_feb_2024.csv) |
+| `lancashire/jan_2024.csv` | 11.5MB | `285a3f6b9830bd0a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_jan_2024.csv) |
+| `lancashire/jul_2023.csv` | 2.9MB | `fd2bee9b1e28dcdf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_jul_2023.csv) |
+| `lancashire/jun_2023.csv` | 3.0MB | `5019c867dee1fc64…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_jun_2023.csv) |
+| `lancashire/may_2023.csv` | 2.1MB | `e690ec5409e62d79…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_may_2023.csv) |
+| `lancashire/nov_2023.csv` | 3.0MB | `bc0f8ea2ee0cc18e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_nov_2023.csv) |
+| `lancashire/oct_2023.csv` | 2.7MB | `25e32f3b79b01df1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_oct_2023.csv) |
+| `lancashire/sep_2023.csv` | 4.7MB | `16b67ef8609cf467…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lancashire_sep_2023.csv) |
 
 **Total**: 11 files, 38.9MB
 
@@ -945,7 +1217,24 @@ In every case, open the issue — the audit trail is a cooperative protocol, not
 **Financial year**: 2023/24  
 **Publisher description**: Leeds City Council via Data Mill North CKAN API  
 
-_No raw files found on disk — may have been processed in-memory from an API._
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `leeds/spending_2023_04.csv` | 7.8MB | `4b08bc2867a50b03…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_04.csv) |
+| `leeds/spending_2023_05.csv` | 5.6MB | `c2d6823963ed62c4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_05.csv) |
+| `leeds/spending_2023_06.csv` | 6.3MB | `63cd7061fa449fa4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_06.csv) |
+| `leeds/spending_2023_07.csv` | 6.2MB | `c8e1076f1fdcf8eb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_07.csv) |
+| `leeds/spending_2023_08.csv` | 6.5MB | `f753beef098b1f00…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_08.csv) |
+| `leeds/spending_2023_09.csv` | 5.7MB | `612534b6715fce47…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_09.csv) |
+| `leeds/spending_2023_10.csv` | 5.9MB | `a2d388a349c066c3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_10.csv) |
+| `leeds/spending_2023_11.csv` | 6.4MB | `db271a868c429411…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_11.csv) |
+| `leeds/spending_2023_12.csv` | 6.4MB | `d293b3fc87ad7ab5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2023_12.csv) |
+| `leeds/spending_2024_01.csv` | 5.4MB | `91a95eae40563e0e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2024_01.csv) |
+| `leeds/spending_2024_02.csv` | 5.6MB | `526ceaf49280c306…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2024_02.csv) |
+| `leeds/spending_2024_03.csv` | 5.7MB | `c4c7b32122a47891…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/leeds_spending_2024_03.csv) |
+
+**Total**: 12 files, 73.4MB
 
 ### Lewisham
 
@@ -956,28 +1245,28 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (20):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `lewisham/2023_05.csv` | 680.2KB | `069718f75687193c…` |
-| `lewisham/2023_05.xlsx` | 215.1KB | `1536777c0c7dc616…` |
-| `lewisham/2023_07.csv` | 707.7KB | `6a6a3cf7431e8e0f…` |
-| `lewisham/2023_07.xlsx` | 229.0KB | `ffdf364b3dffbe54…` |
-| `lewisham/2023_08.csv` | 644.8KB | `3ac6da3d251806b3…` |
-| `lewisham/2023_08.xlsx` | 211.5KB | `a06bb7b80c7e0aae…` |
-| `lewisham/2023_09.csv` | 741.3KB | `756a7ba9937a1aba…` |
-| `lewisham/2023_09.xlsx` | 226.0KB | `7df0aebef3ef3e84…` |
-| `lewisham/2023_10.csv` | 783.6KB | `5e4f0770e2040c3c…` |
-| `lewisham/2023_10.xlsx` | 242.7KB | `714f1db43f97cacf…` |
-| `lewisham/2023_11.csv` | 710.4KB | `499e2d08196bf65a…` |
-| `lewisham/2023_11.xlsx` | 227.7KB | `f8be6e171f7a22e5…` |
-| `lewisham/2023_12.csv` | 683.5KB | `edf98ecd04778615…` |
-| `lewisham/2023_12.xlsx` | 219.6KB | `9dc12bd3938df998…` |
-| `lewisham/2024_01.csv` | 769.0KB | `e4a47f011ba2dd6e…` |
-| `lewisham/2024_01.xlsx` | 246.9KB | `e2705b8198efe62c…` |
-| `lewisham/2024_02.csv` | 776.9KB | `c33a3f2178707f22…` |
-| `lewisham/2024_02.xlsx` | 238.4KB | `7bc0fb2934c830e3…` |
-| `lewisham/2024_03.csv` | 869.2KB | `32e5efb02c8dc468…` |
-| `lewisham/2024_03.xlsx` | 276.8KB | `5102610f3481c5d1…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `lewisham/2023_05.csv` | 680.2KB | `069718f75687193c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_05.csv) |
+| `lewisham/2023_05.xlsx` | 215.1KB | `1536777c0c7dc616…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_05.xlsx) |
+| `lewisham/2023_07.csv` | 707.7KB | `6a6a3cf7431e8e0f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_07.csv) |
+| `lewisham/2023_07.xlsx` | 229.0KB | `ffdf364b3dffbe54…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_07.xlsx) |
+| `lewisham/2023_08.csv` | 644.8KB | `3ac6da3d251806b3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_08.csv) |
+| `lewisham/2023_08.xlsx` | 211.5KB | `a06bb7b80c7e0aae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_08.xlsx) |
+| `lewisham/2023_09.csv` | 741.3KB | `756a7ba9937a1aba…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_09.csv) |
+| `lewisham/2023_09.xlsx` | 226.0KB | `7df0aebef3ef3e84…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_09.xlsx) |
+| `lewisham/2023_10.csv` | 783.6KB | `5e4f0770e2040c3c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_10.csv) |
+| `lewisham/2023_10.xlsx` | 242.7KB | `714f1db43f97cacf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_10.xlsx) |
+| `lewisham/2023_11.csv` | 710.4KB | `499e2d08196bf65a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_11.csv) |
+| `lewisham/2023_11.xlsx` | 227.7KB | `f8be6e171f7a22e5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_11.xlsx) |
+| `lewisham/2023_12.csv` | 683.5KB | `edf98ecd04778615…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_12.csv) |
+| `lewisham/2023_12.xlsx` | 219.6KB | `9dc12bd3938df998…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2023_12.xlsx) |
+| `lewisham/2024_01.csv` | 769.0KB | `e4a47f011ba2dd6e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2024_01.csv) |
+| `lewisham/2024_01.xlsx` | 246.9KB | `e2705b8198efe62c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2024_01.xlsx) |
+| `lewisham/2024_02.csv` | 776.9KB | `c33a3f2178707f22…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2024_02.csv) |
+| `lewisham/2024_02.xlsx` | 238.4KB | `7bc0fb2934c830e3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2024_02.xlsx) |
+| `lewisham/2024_03.csv` | 869.2KB | `32e5efb02c8dc468…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2024_03.csv) |
+| `lewisham/2024_03.xlsx` | 276.8KB | `5102610f3481c5d1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lewisham_2024_03.xlsx) |
 
 **Total**: 20 files, 9.5MB
 
@@ -990,20 +1279,20 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `lincolnshire/2023-04.csv` | 5.2MB | `fce44741aa444cfd…` |
-| `lincolnshire/2023-05.csv` | 7.2MB | `713c07aee1f19bc9…` |
-| `lincolnshire/2023-06.csv` | 10.0MB | `ba44ffb1c31dfc55…` |
-| `lincolnshire/2023-07.csv` | 9.5MB | `e28feffc6865e6b2…` |
-| `lincolnshire/2023-08.csv` | 10.3MB | `0a72cc823ef3b606…` |
-| `lincolnshire/2023-09.csv` | 9.2MB | `a188434583171b88…` |
-| `lincolnshire/2023-10.csv` | 8.3MB | `7d7ab8708f2807fd…` |
-| `lincolnshire/2023-11.csv` | 8.4MB | `1f4a15a0d231aedd…` |
-| `lincolnshire/2023-12.csv` | 7.9MB | `805cac64a6decc57…` |
-| `lincolnshire/2024-01.csv` | 9.4MB | `14726273b9487bfe…` |
-| `lincolnshire/2024-02.csv` | 8.6MB | `ec4593d84e16fd0d…` |
-| `lincolnshire/2024-03.csv` | 9.5MB | `8757d24f4ef364f3…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `lincolnshire/2023-04.csv` | 5.2MB | `fce44741aa444cfd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-04.csv) |
+| `lincolnshire/2023-05.csv` | 7.2MB | `713c07aee1f19bc9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-05.csv) |
+| `lincolnshire/2023-06.csv` | 10.0MB | `ba44ffb1c31dfc55…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-06.csv) |
+| `lincolnshire/2023-07.csv` | 9.5MB | `e28feffc6865e6b2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-07.csv) |
+| `lincolnshire/2023-08.csv` | 10.3MB | `0a72cc823ef3b606…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-08.csv) |
+| `lincolnshire/2023-09.csv` | 9.2MB | `a188434583171b88…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-09.csv) |
+| `lincolnshire/2023-10.csv` | 8.3MB | `7d7ab8708f2807fd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-10.csv) |
+| `lincolnshire/2023-11.csv` | 8.4MB | `1f4a15a0d231aedd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-11.csv) |
+| `lincolnshire/2023-12.csv` | 7.9MB | `805cac64a6decc57…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2023-12.csv) |
+| `lincolnshire/2024-01.csv` | 9.4MB | `14726273b9487bfe…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2024-01.csv) |
+| `lincolnshire/2024-02.csv` | 8.6MB | `ec4593d84e16fd0d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2024-02.csv) |
+| `lincolnshire/2024-03.csv` | 9.5MB | `8757d24f4ef364f3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/lincolnshire_2024-03.csv) |
 
 **Total**: 12 files, 103.5MB
 
@@ -1087,6 +1376,32 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Total**: 2 files, 15.5MB
 
+### Milton Keynes City Council
+
+**Live source**: [https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-0](https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-0)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Milton Keynes City Council — https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-0  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `milton_keynes_city_council/Council_Spend_Data_April_23_0.csv` | 777.8KB | `ecf6a9f6e13dcb4d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_April_23_0.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_August_23.csv` | 685.4KB | `9b819bc10e6c36e5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_August_23.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_December_23.csv` | 663.7KB | `02e4a501b30598b6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_December_23.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_February_24.csv` | 663.1KB | `c2642c8778a0ecad…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_February_24.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_January_24.csv` | 751.3KB | `a4abe65e0de09667…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_January_24.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_July_23.csv` | 661.7KB | `30dc593fbd4695b5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_July_23.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_June_23.csv` | 629.9KB | `a985b5e00417f7d5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_June_23.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_March_24.csv` | 977.3KB | `16225f7ab6c967aa…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_March_24.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_May_23_0.csv` | 763.6KB | `3dd782c928aec41a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_May_23_0.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_November_23.csv` | 750.9KB | `bffe82b2104d23ea…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_November_23.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_October_23.csv` | 656.8KB | `dd58fe31b861a3ce…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_October_23.csv) |
+| `milton_keynes_city_council/Council_Spend_Data_September_23.csv` | 641.7KB | `269bb6cb814065ee…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/milton_keynes_city_council_Council_Spend_Data_September_23.csv) |
+
+**Total**: 12 files, 8.4MB
+
 ### Newham
 
 **Live source**: [https://www.newham.gov.uk/council/council-spending](https://www.newham.gov.uk/council/council-spending)  
@@ -1096,20 +1411,20 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `newham/2023_04.csv` | 3.0MB | `653b6cdce9886dfc…` |
-| `newham/2023_05.csv` | 2.9MB | `93daff13f9181aed…` |
-| `newham/2023_06.csv` | 2.6MB | `021706e55b6061db…` |
-| `newham/2023_07.csv` | 3.4MB | `d95c5cf6e095b790…` |
-| `newham/2023_08.csv` | 3.3MB | `f0a2921d45d1af3b…` |
-| `newham/2023_09.csv` | 2.8MB | `aabfc8aad59f7bfe…` |
-| `newham/2023_10.csv` | 3.5MB | `e3fd65691714a773…` |
-| `newham/2023_11.csv` | 2.7MB | `d15887b7e78a5094…` |
-| `newham/2023_12.csv` | 2.4MB | `fdcc2885a58b2f88…` |
-| `newham/2024_01.csv` | 3.5MB | `5d0f4a66afaad27a…` |
-| `newham/2024_02.csv` | 3.5MB | `39afc80288eb2fc9…` |
-| `newham/2024_03.csv` | 3.0MB | `7a38b454bac7dc22…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `newham/2023_04.csv` | 3.0MB | `653b6cdce9886dfc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_04.csv) |
+| `newham/2023_05.csv` | 2.9MB | `93daff13f9181aed…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_05.csv) |
+| `newham/2023_06.csv` | 2.6MB | `021706e55b6061db…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_06.csv) |
+| `newham/2023_07.csv` | 3.4MB | `d95c5cf6e095b790…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_07.csv) |
+| `newham/2023_08.csv` | 3.3MB | `f0a2921d45d1af3b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_08.csv) |
+| `newham/2023_09.csv` | 2.8MB | `aabfc8aad59f7bfe…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_09.csv) |
+| `newham/2023_10.csv` | 3.5MB | `e3fd65691714a773…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_10.csv) |
+| `newham/2023_11.csv` | 2.7MB | `d15887b7e78a5094…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_11.csv) |
+| `newham/2023_12.csv` | 2.4MB | `fdcc2885a58b2f88…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2023_12.csv) |
+| `newham/2024_01.csv` | 3.5MB | `5d0f4a66afaad27a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2024_01.csv) |
+| `newham/2024_02.csv` | 3.5MB | `39afc80288eb2fc9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2024_02.csv) |
+| `newham/2024_03.csv` | 3.0MB | `7a38b454bac7dc22…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/newham_2024_03.csv) |
 
 **Total**: 12 files, 36.8MB
 
@@ -1177,6 +1492,33 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Total**: 12 files, 15.8MB
 
+### Reading Borough Council
+
+**Live source**: [https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/](https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Reading Borough Council — https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/  
+
+**Raw files** (13):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `reading_borough_council/Over-500-April-2023.csv` | 1.1MB | `cbfebc062f0e56df…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-April-2023.csv) |
+| `reading_borough_council/Over-500-December-23.csv` | 466.0KB | `3c4ffd59210dcfb4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-December-23.csv) |
+| `reading_borough_council/Over-500-February-24B.csv` | 826.1KB | `1df76cbd95b05cd3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-February-24B.csv) |
+| `reading_borough_council/Over-500-March-24B.csv` | 855.5KB | `fca236feaf382680…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-March-24B.csv) |
+| `reading_borough_council/Over-500-Novermber-2024.csv` | 745.4KB | `bc00b25d0d226dae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Novermber-2024.csv) |
+| `reading_borough_council/Over-500-September-2023.csv` | 1.0MB | `db61a438b140a432…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-September-2023.csv) |
+| `reading_borough_council/Over-500-Spend-August-23.csv` | 1.0MB | `b4bd262e58571d41…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-August-23.csv) |
+| `reading_borough_council/Over-500-Spend-January24.csv` | 828.5KB | `3d877fbaf58a2115…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-January24.csv) |
+| `reading_borough_council/Over-500-Spend-July-2023.csv` | 1.2MB | `1348b795233eeae9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-July-2023.csv) |
+| `reading_borough_council/Over-500-Spend-June-2023.csv` | 1.1MB | `d1591d594bb14559…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-June-2023.csv) |
+| `reading_borough_council/Over-500-Spend-May-2023.csv` | 1022.2KB | `a703e985e1af9c33…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-May-2023.csv) |
+| `reading_borough_council/Over-500-Spend-November-2023.csv` | 1.4MB | `875ae5d6c4f11985…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-November-2023.csv) |
+| `reading_borough_council/Over-500-Spend-October-2023.csv` | 1.1MB | `04eb4c9c5df60284…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/reading_borough_council_Over-500-Spend-October-2023.csv) |
+
+**Total**: 13 files, 12.5MB
+
 ### Redbridge
 
 **Live source**: [https://data.redbridge.gov.uk/View/finance/payments-over-500-2023-24](https://data.redbridge.gov.uk/View/finance/payments-over-500-2023-24)  
@@ -1186,20 +1528,20 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `redbridge/2023_04.csv` | 6.7MB | `1aa9b0455bea32f6…` |
-| `redbridge/2023_05.csv` | 8.0MB | `7fa61bfb8d4d54f3…` |
-| `redbridge/2023_06.csv` | 7.4MB | `c856d06b7cea881d…` |
-| `redbridge/2023_07.csv` | 11.5MB | `65cf4f68f8259787…` |
-| `redbridge/2023_08.csv` | 8.6MB | `2c482839ffbaef21…` |
-| `redbridge/2023_09.csv` | 8.9MB | `134606b8bed7cd02…` |
-| `redbridge/2023_10.csv` | 9.8MB | `1de03741465ad9aa…` |
-| `redbridge/2023_11.csv` | 14.8MB | `1f745e581c66849b…` |
-| `redbridge/2023_12.csv` | 8.6MB | `c2b5c7e716ab1e94…` |
-| `redbridge/2024_01.csv` | 12.5MB | `ca2cb1fbc278d9a7…` |
-| `redbridge/2024_02.csv` | 8.8MB | `106e28c48df05352…` |
-| `redbridge/2024_03.csv` | 9.0MB | `db530cb7eb56a800…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `redbridge/2023_04.csv` | 6.7MB | `1aa9b0455bea32f6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_04.csv) |
+| `redbridge/2023_05.csv` | 8.0MB | `7fa61bfb8d4d54f3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_05.csv) |
+| `redbridge/2023_06.csv` | 7.4MB | `c856d06b7cea881d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_06.csv) |
+| `redbridge/2023_07.csv` | 11.5MB | `65cf4f68f8259787…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_07.csv) |
+| `redbridge/2023_08.csv` | 8.6MB | `2c482839ffbaef21…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_08.csv) |
+| `redbridge/2023_09.csv` | 8.9MB | `134606b8bed7cd02…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_09.csv) |
+| `redbridge/2023_10.csv` | 9.8MB | `1de03741465ad9aa…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_10.csv) |
+| `redbridge/2023_11.csv` | 14.8MB | `1f745e581c66849b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_11.csv) |
+| `redbridge/2023_12.csv` | 8.6MB | `c2b5c7e716ab1e94…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2023_12.csv) |
+| `redbridge/2024_01.csv` | 12.5MB | `ca2cb1fbc278d9a7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2024_01.csv) |
+| `redbridge/2024_02.csv` | 8.8MB | `106e28c48df05352…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2024_02.csv) |
+| `redbridge/2024_03.csv` | 9.0MB | `db530cb7eb56a800…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/redbridge_2024_03.csv) |
 
 **Total**: 12 files, 114.6MB
 
@@ -1212,21 +1554,21 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (13):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `richmond/2023_04.csv` | 200.3KB | `9c15de6b9fd5e615…` |
-| `richmond/2023_05.csv` | 241.0KB | `f69ee22f5916a1a5…` |
-| `richmond/2023_06.csv` | 235.8KB | `5bfe873405cf8b30…` |
-| `richmond/2023_07.csv` | 202.5KB | `499822a1da6cbfed…` |
-| `richmond/2023_07.xlsx` | 100.8KB | `dad20f5fdbd02743…` |
-| `richmond/2023_08.csv` | 215.0KB | `35b9fd9b86803cb1…` |
-| `richmond/2023_09.csv` | 254.6KB | `fd0ae881ae977d4e…` |
-| `richmond/2023_10.csv` | 247.0KB | `e6f6dd2e43fb51b4…` |
-| `richmond/2023_11.csv` | 228.9KB | `4ce06d21d09e40b9…` |
-| `richmond/2023_12.csv` | 204.8KB | `34feee11c97643d9…` |
-| `richmond/2024_01.csv` | 223.4KB | `4b4e0687e5cb4131…` |
-| `richmond/2024_02.csv` | 228.0KB | `a1f60711aaa4ba98…` |
-| `richmond/2024_03.csv` | 257.7KB | `d32536b0148cb176…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `richmond/2023_04.csv` | 200.3KB | `9c15de6b9fd5e615…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_04.csv) |
+| `richmond/2023_05.csv` | 241.0KB | `f69ee22f5916a1a5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_05.csv) |
+| `richmond/2023_06.csv` | 235.8KB | `5bfe873405cf8b30…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_06.csv) |
+| `richmond/2023_07.csv` | 202.5KB | `499822a1da6cbfed…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_07.csv) |
+| `richmond/2023_07.xlsx` | 100.8KB | `dad20f5fdbd02743…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_07.xlsx) |
+| `richmond/2023_08.csv` | 215.0KB | `35b9fd9b86803cb1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_08.csv) |
+| `richmond/2023_09.csv` | 254.6KB | `fd0ae881ae977d4e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_09.csv) |
+| `richmond/2023_10.csv` | 247.0KB | `e6f6dd2e43fb51b4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_10.csv) |
+| `richmond/2023_11.csv` | 228.9KB | `4ce06d21d09e40b9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_11.csv) |
+| `richmond/2023_12.csv` | 204.8KB | `34feee11c97643d9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2023_12.csv) |
+| `richmond/2024_01.csv` | 223.4KB | `4b4e0687e5cb4131…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2024_01.csv) |
+| `richmond/2024_02.csv` | 228.0KB | `a1f60711aaa4ba98…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2024_02.csv) |
+| `richmond/2024_03.csv` | 257.7KB | `d32536b0148cb176…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/richmond_2024_03.csv) |
 
 **Total**: 13 files, 2.8MB
 
@@ -1281,6 +1623,59 @@ _No raw files found on disk — may have been processed in-memory from an API._
 | `sheffield/sheffield_2024_03.csv` | 7.2MB | `a117b5ff9509281e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sheffield_sheffield_2024_03.csv) |
 
 **Total**: 12 files, 76.3MB
+
+### Shropshire Council
+
+**Live source**: [https://next.shropshire.gov.uk/open-data/datasets/supplier-payments-over-500/supplier-payments-over-500-2023-2024/](https://next.shropshire.gov.uk/open-data/datasets/supplier-payments-over-500/supplier-payments-over-500-2023-2024/)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Shropshire Council — https://next.shropshire.gov.uk/open-data/datasets/supplier-payments-over-500/supplier-payments-over-500-2023-2024/  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `shropshire_council/payment-december-23.csv` | 518.2KB | `5854c7980ef59ae7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payment-december-23.csv) |
+| `shropshire_council/payments-2023-april.csv` | 614.3KB | `74e84240d9624d77…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-2023-april.csv) |
+| `shropshire_council/payments-2023-june.csv` | 528.6KB | `20b16bdb5fea078f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-2023-june.csv) |
+| `shropshire_council/payments-2023-may.csv` | 536.1KB | `ba06fdcc003fa5e8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-2023-may.csv) |
+| `shropshire_council/payments-august-2023.csv` | 484.3KB | `0d8b3d54f8124b0b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-august-2023.csv) |
+| `shropshire_council/payments-february-2024.csv` | 508.6KB | `77699bc9d7a3bb0b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-february-2024.csv) |
+| `shropshire_council/payments-january-2024.csv` | 485.8KB | `f915556cedce5462…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-january-2024.csv) |
+| `shropshire_council/payments-july-2023.csv` | 483.2KB | `79db34c3888eb1c2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-july-2023.csv) |
+| `shropshire_council/payments-march-2024.csv` | 634.2KB | `b80025c960574bfc…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-march-2024.csv) |
+| `shropshire_council/payments-november-23.csv` | 497.4KB | `f7b45c40b7354622…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-november-23.csv) |
+| `shropshire_council/payments-october-23.csv` | 545.8KB | `7e8ec1f9d294591c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-october-23.csv) |
+| `shropshire_council/payments-september-2023.csv` | 387.0KB | `f47276d31d870b35…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/shropshire_council_payments-september-2023.csv) |
+
+**Total**: 12 files, 6.1MB
+
+### Solihull Metropolitan Borough Council
+
+**Live source**: [https://www.solihull.gov.uk/about-council/expenditure](https://www.solihull.gov.uk/about-council/expenditure)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Solihull Metropolitan Borough Council — https://www.solihull.gov.uk/about-council/expenditure  
+
+**Raw files** (13):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `solihull_metropolitan_borough_council/ExpenditureApril2023-CSV.csv` | 1.5MB | `2e2d52c85b0a25e9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureApril2023-CSV.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureAugust2023.csv` | 1.5MB | `151ea552e6d15dae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureAugust2023.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureDecember2023-csv.csv` | 1.4MB | `22c87af30b53f0d6…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureDecember2023-csv.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureFebruary2024.csv` | 1.9MB | `17bfbd822b33deae…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureFebruary2024.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureJanuary2024.csv` | 1.8MB | `4a996d1544f94073…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureJanuary2024.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureJuly2023.csv` | 1.6MB | `8983bb95c96359f9…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureJuly2023.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureJune2023.csv` | 1.5MB | `ca8c0baa6fd0eae8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureJune2023.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureMarch2024.csv` | 1.9MB | `608289775225c5b1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureMarch2024.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureMay2023-CSV.csv` | 1.5MB | `32e95f7fe3b7e388…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureMay2023-CSV.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureNovember2023.csv` | 1.3MB | `fdc7675709c9f51b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureNovember2023.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureOctober2023excel.csv` | 1.2MB | `3c7672f31aa0242b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureOctober2023excel.csv) |
+| `solihull_metropolitan_borough_council/ExpenditureSeptember2023.csv` | 1.6MB | `87821e6e97099d10…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_ExpenditureSeptember2023.csv) |
+| `solihull_metropolitan_borough_council/July-_250-Expenditure.csv` | 1.3MB | `5da4bb9332f7bc63…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/solihull_metropolitan_borough_council_July-_250-Expenditure.csv) |
+
+**Total**: 13 files, 20.0MB
 
 ### South Gloucestershire
 
@@ -1355,20 +1750,20 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `staffordshire/29-02-2024.csv` | 765.5KB | `36e5f4c293d2ef5e…` |
-| `staffordshire/30-04-2023.csv` | 974.5KB | `1c09ba9a30cdaf9b…` |
-| `staffordshire/30-06-2023.csv` | 721.4KB | `4f8f63841265468a…` |
-| `staffordshire/30-09-2023.csv` | 689.0KB | `6516aaadae5baaa8…` |
-| `staffordshire/30-11-2023.csv` | 834.0KB | `ac6a4f783a401564…` |
-| `staffordshire/31-01-2024.csv` | 919.2KB | `3b34ba8a050583ea…` |
-| `staffordshire/31-03-2024.csv` | 1.0MB | `a3b2bfd8044c9c7d…` |
-| `staffordshire/31-05-2023.csv` | 816.0KB | `7d70a8a494958262…` |
-| `staffordshire/31-07-2023.csv` | 889.3KB | `477ef052144fb346…` |
-| `staffordshire/31-08-2023.csv` | 728.7KB | `fec4184113ffd6ce…` |
-| `staffordshire/31-10-2023.csv` | 667.4KB | `37445eaf324c41ab…` |
-| `staffordshire/31-12-2023.csv` | 695.6KB | `c42b21b814d84b65…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `staffordshire/29-02-2024.csv` | 765.5KB | `36e5f4c293d2ef5e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_29-02-2024.csv) |
+| `staffordshire/30-04-2023.csv` | 974.5KB | `1c09ba9a30cdaf9b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_30-04-2023.csv) |
+| `staffordshire/30-06-2023.csv` | 721.4KB | `4f8f63841265468a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_30-06-2023.csv) |
+| `staffordshire/30-09-2023.csv` | 689.0KB | `6516aaadae5baaa8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_30-09-2023.csv) |
+| `staffordshire/30-11-2023.csv` | 834.0KB | `ac6a4f783a401564…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_30-11-2023.csv) |
+| `staffordshire/31-01-2024.csv` | 919.2KB | `3b34ba8a050583ea…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-01-2024.csv) |
+| `staffordshire/31-03-2024.csv` | 1.0MB | `a3b2bfd8044c9c7d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-03-2024.csv) |
+| `staffordshire/31-05-2023.csv` | 816.0KB | `7d70a8a494958262…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-05-2023.csv) |
+| `staffordshire/31-07-2023.csv` | 889.3KB | `477ef052144fb346…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-07-2023.csv) |
+| `staffordshire/31-08-2023.csv` | 728.7KB | `fec4184113ffd6ce…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-08-2023.csv) |
+| `staffordshire/31-10-2023.csv` | 667.4KB | `37445eaf324c41ab…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-10-2023.csv) |
+| `staffordshire/31-12-2023.csv` | 695.6KB | `c42b21b814d84b65…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/staffordshire_31-12-2023.csv) |
 
 **Total**: 12 files, 9.5MB
 
@@ -1381,10 +1776,10 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (2):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `surrey/q3_oct_dec_2023.csv` | 6.7MB | `5993e9788e6d1942…` |
-| `surrey/q4_jan_mar_2024.csv` | 7.8MB | `c37a04092a7112dd…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `surrey/q3_oct_dec_2023.csv` | 6.7MB | `5993e9788e6d1942…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/surrey_q3_oct_dec_2023.csv) |
+| `surrey/q4_jan_mar_2024.csv` | 7.8MB | `c37a04092a7112dd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/surrey_q4_jan_mar_2024.csv) |
 
 **Total**: 2 files, 14.5MB
 
@@ -1397,21 +1792,73 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (11):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `sutton/2023_04.csv` | 687.1KB | `b013d8a56d3f5591…` |
-| `sutton/2023_05.csv` | 871.9KB | `84afa6ae8e77b4a4…` |
-| `sutton/2023_06.csv` | 859.3KB | `7d34396993e53f83…` |
-| `sutton/2023_07.csv` | 776.0KB | `1ca02cbe204a7dfb…` |
-| `sutton/2023_08.csv` | 750.9KB | `2ed9c8a590af8743…` |
-| `sutton/2023_10.csv` | 781.4KB | `dec7b945550ecde7…` |
-| `sutton/2023_11.csv` | 839.6KB | `77723f5f7ea3be3c…` |
-| `sutton/2023_12.csv` | 826.1KB | `fb229f1b29284844…` |
-| `sutton/2024_01.csv` | 808.4KB | `e1adab988df8202e…` |
-| `sutton/2024_02.csv` | 822.7KB | `ed62581cc7dbe8b8…` |
-| `sutton/2024_03.csv` | 1.3MB | `df9acfa29732fb20…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `sutton/2023_04.csv` | 687.1KB | `b013d8a56d3f5591…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_04.csv) |
+| `sutton/2023_05.csv` | 871.9KB | `84afa6ae8e77b4a4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_05.csv) |
+| `sutton/2023_06.csv` | 859.3KB | `7d34396993e53f83…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_06.csv) |
+| `sutton/2023_07.csv` | 776.0KB | `1ca02cbe204a7dfb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_07.csv) |
+| `sutton/2023_08.csv` | 750.9KB | `2ed9c8a590af8743…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_08.csv) |
+| `sutton/2023_10.csv` | 781.4KB | `dec7b945550ecde7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_10.csv) |
+| `sutton/2023_11.csv` | 839.6KB | `77723f5f7ea3be3c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_11.csv) |
+| `sutton/2023_12.csv` | 826.1KB | `fb229f1b29284844…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2023_12.csv) |
+| `sutton/2024_01.csv` | 808.4KB | `e1adab988df8202e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2024_01.csv) |
+| `sutton/2024_02.csv` | 822.7KB | `ed62581cc7dbe8b8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2024_02.csv) |
+| `sutton/2024_03.csv` | 1.3MB | `df9acfa29732fb20…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/sutton_2024_03.csv) |
 
 **Total**: 11 files, 9.2MB
+
+### Swindon Borough Council
+
+**Live source**: [https://www.swindon.gov.uk/downloads/download/2582/payments_to_suppliers_of_more_than_500_in_2023](https://www.swindon.gov.uk/downloads/download/2582/payments_to_suppliers_of_more_than_500_in_2023)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Swindon Borough Council — https://www.swindon.gov.uk/downloads/download/2582/payments_to_suppliers_of_more_than_500_in_2023  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_april_2023.csv` | 1.0MB | `eabefbdd239802da…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_april_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_august_2023.csv` | 1.5MB | `6a274c2110c68861…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_august_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_december_2023.csv` | 1.2MB | `87bbcd53ea0fa680…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_december_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_february_2024.csv` | 1.2MB | `7911da5d100a7307…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_february_2024.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_january_2024.csv` | 1.4MB | `a3e9adcaed9b475d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_january_2024.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_july_2023.csv` | 1.3MB | `c1d1882bd224909c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_july_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_june_2023.csv` | 1.1MB | `6ad83b4006d53ff4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_june_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_march_2024.csv` | 1.8MB | `5bd3969ba4c395c8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_march_2024.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_may_2023.csv` | 1.6MB | `c93c82b46597049a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_may_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_november_2023.csv` | 1.1MB | `f6566b0b9c69a354…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_november_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_october_2023.csv` | 1.3MB | `251b1427c88b5423…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_october_2023.csv) |
+| `swindon_borough_council/payments_to_suppliers_of_more_than_500_-_september_2023.csv` | 1.4MB | `2532f08daaad28b8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/swindon_borough_council_payments_to_suppliers_of_more_than_500_-_september_2023.csv) |
+
+**Total**: 12 files, 15.9MB
+
+### Thurrock Council
+
+**Live source**: [https://www.thurrock.gov.uk/what-we-spend/payments-to-suppliers](https://www.thurrock.gov.uk/what-we-spend/payments-to-suppliers)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Thurrock Council — https://www.thurrock.gov.uk/what-we-spend/payments-to-suppliers  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `thurrock_council/payments-202304-v01.csv` | 230.9KB | `956b168af5d76252…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202304-v01.csv) |
+| `thurrock_council/payments-202305-v01.csv` | 282.4KB | `785eb5e7377be313…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202305-v01.csv) |
+| `thurrock_council/payments-202306-v01.csv` | 343.2KB | `b25fe7577fbe8912…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202306-v01.csv) |
+| `thurrock_council/payments-202307-v01.csv` | 389.2KB | `d8a8cb7634d0a718…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202307-v01.csv) |
+| `thurrock_council/payments-202308-v01.csv` | 330.5KB | `fe1ad20befe4a07f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202308-v01.csv) |
+| `thurrock_council/payments-202309-v01.csv` | 300.6KB | `3b1e24032c202413…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202309-v01.csv) |
+| `thurrock_council/payments-202310-v01.csv` | 369.8KB | `391ab2459d575dfe…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202310-v01.csv) |
+| `thurrock_council/payments-202311-v01.csv` | 440.2KB | `0c93206f2a656f22…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202311-v01.csv) |
+| `thurrock_council/payments-202312-v01.csv` | 404.6KB | `bb0a3c23d73e014e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202312-v01.csv) |
+| `thurrock_council/payments-202401-v01.csv` | 421.4KB | `62c58350a258fd28…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202401-v01.csv) |
+| `thurrock_council/payments-202402-v01.csv` | 403.3KB | `8d03bb71b8e9f371…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202402-v01.csv) |
+| `thurrock_council/payments-202403-v01.csv` | 510.3KB | `8466994245c0153a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/thurrock_council_payments-202403-v01.csv) |
+
+**Total**: 12 files, 4.3MB
 
 ### Tower Hamlets
 
@@ -1422,20 +1869,20 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `tower_hamlets/2023_04.csv` | 919.9KB | `55bbefcbab8f9554…` |
-| `tower_hamlets/2023_05.csv` | 842.1KB | `39e35c13ba6e0d3e…` |
-| `tower_hamlets/2023_06.csv` | 866.6KB | `580cbc91b44e0d1d…` |
-| `tower_hamlets/2023_07.csv` | 878.8KB | `74dabc3532310b74…` |
-| `tower_hamlets/2023_08.csv` | 835.0KB | `756eb7debb59fe40…` |
-| `tower_hamlets/2023_09.csv` | 878.7KB | `2da827353e4063be…` |
-| `tower_hamlets/2023_10.csv` | 955.1KB | `ddcf35fc3323c10a…` |
-| `tower_hamlets/2023_11.csv` | 944.4KB | `d9d61c5ec8134cdf…` |
-| `tower_hamlets/2023_12.csv` | 1.0MB | `e3ca81e11986c651…` |
-| `tower_hamlets/2024_01.csv` | 906.8KB | `65c9442f55fa9ec2…` |
-| `tower_hamlets/2024_02.csv` | 1006.6KB | `50a5092c368e384b…` |
-| `tower_hamlets/2024_03.csv` | 1.3MB | `d12b28b6d1c9d219…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `tower_hamlets/2023_04.csv` | 919.9KB | `55bbefcbab8f9554…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_04.csv) |
+| `tower_hamlets/2023_05.csv` | 842.1KB | `39e35c13ba6e0d3e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_05.csv) |
+| `tower_hamlets/2023_06.csv` | 866.6KB | `580cbc91b44e0d1d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_06.csv) |
+| `tower_hamlets/2023_07.csv` | 878.8KB | `74dabc3532310b74…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_07.csv) |
+| `tower_hamlets/2023_08.csv` | 835.0KB | `756eb7debb59fe40…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_08.csv) |
+| `tower_hamlets/2023_09.csv` | 878.7KB | `2da827353e4063be…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_09.csv) |
+| `tower_hamlets/2023_10.csv` | 955.1KB | `ddcf35fc3323c10a…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_10.csv) |
+| `tower_hamlets/2023_11.csv` | 944.4KB | `d9d61c5ec8134cdf…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_11.csv) |
+| `tower_hamlets/2023_12.csv` | 1.0MB | `e3ca81e11986c651…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2023_12.csv) |
+| `tower_hamlets/2024_01.csv` | 906.8KB | `65c9442f55fa9ec2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2024_01.csv) |
+| `tower_hamlets/2024_02.csv` | 1006.6KB | `50a5092c368e384b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2024_02.csv) |
+| `tower_hamlets/2024_03.csv` | 1.3MB | `d12b28b6d1c9d219…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/tower_hamlets_2024_03.csv) |
 
 **Total**: 12 files, 11.2MB
 
@@ -1448,22 +1895,22 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (14):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `waltham_forest/2023_09.csv` | 149.9KB | `76f35518bafbf557…` |
-| `waltham_forest/2023_09.xlsx` | 72.5KB | `23b8f9641c51b45f…` |
-| `waltham_forest/2023_10.csv` | 155.4KB | `704cffddd8e164ec…` |
-| `waltham_forest/2023_10.xlsx` | 76.3KB | `0e91487169f7f6b5…` |
-| `waltham_forest/2023_11.csv` | 160.9KB | `95e19a44eaeb1d92…` |
-| `waltham_forest/2023_11.xlsx` | 76.8KB | `c762d6f935c7b6e3…` |
-| `waltham_forest/2023_12.csv` | 184.5KB | `df109c6217e56d2c…` |
-| `waltham_forest/2023_12.xlsx` | 86.5KB | `52118809de6c9db4…` |
-| `waltham_forest/2024_01.csv` | 187.8KB | `ead9c21567d07c7b…` |
-| `waltham_forest/2024_01.xlsx` | 88.2KB | `0bb07571b31d0f4d…` |
-| `waltham_forest/2024_02.csv` | 198.1KB | `0e089b9ce25f44df…` |
-| `waltham_forest/2024_02.xlsx` | 95.6KB | `6958faa9db434841…` |
-| `waltham_forest/2024_03.csv` | 273.8KB | `d4f2329300790071…` |
-| `waltham_forest/2024_03.xlsx` | 117.1KB | `bce8c32559bc8192…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `waltham_forest/2023_09.csv` | 149.9KB | `76f35518bafbf557…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_09.csv) |
+| `waltham_forest/2023_09.xlsx` | 72.5KB | `23b8f9641c51b45f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_09.xlsx) |
+| `waltham_forest/2023_10.csv` | 155.4KB | `704cffddd8e164ec…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_10.csv) |
+| `waltham_forest/2023_10.xlsx` | 76.3KB | `0e91487169f7f6b5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_10.xlsx) |
+| `waltham_forest/2023_11.csv` | 160.9KB | `95e19a44eaeb1d92…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_11.csv) |
+| `waltham_forest/2023_11.xlsx` | 76.8KB | `c762d6f935c7b6e3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_11.xlsx) |
+| `waltham_forest/2023_12.csv` | 184.5KB | `df109c6217e56d2c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_12.csv) |
+| `waltham_forest/2023_12.xlsx` | 86.5KB | `52118809de6c9db4…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2023_12.xlsx) |
+| `waltham_forest/2024_01.csv` | 187.8KB | `ead9c21567d07c7b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2024_01.csv) |
+| `waltham_forest/2024_01.xlsx` | 88.2KB | `0bb07571b31d0f4d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2024_01.xlsx) |
+| `waltham_forest/2024_02.csv` | 198.1KB | `0e089b9ce25f44df…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2024_02.csv) |
+| `waltham_forest/2024_02.xlsx` | 95.6KB | `6958faa9db434841…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2024_02.xlsx) |
+| `waltham_forest/2024_03.csv` | 273.8KB | `d4f2329300790071…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2024_03.csv) |
+| `waltham_forest/2024_03.xlsx` | 117.1KB | `bce8c32559bc8192…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/waltham_forest_2024_03.xlsx) |
 
 **Total**: 14 files, 1.9MB
 
@@ -1476,22 +1923,52 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `wandsworth/2023_04.csv` | 339.2KB | `6bb5091fef7d8711…` |
-| `wandsworth/2023_05.csv` | 415.8KB | `62b37eff7274c922…` |
-| `wandsworth/2023_06.csv` | 372.8KB | `73b3d0c618449616…` |
-| `wandsworth/2023_07.csv` | 363.4KB | `0caaba37f1815138…` |
-| `wandsworth/2023_08.csv` | 432.3KB | `218b71dc76a5426f…` |
-| `wandsworth/2023_09.csv` | 390.0KB | `11fb6b22430d7222…` |
-| `wandsworth/2023_10.csv` | 400.8KB | `03d4e09fa035c9c3…` |
-| `wandsworth/2023_11.csv` | 418.0KB | `b9e0cfd5ca938fd1…` |
-| `wandsworth/2023_12.csv` | 389.8KB | `4e36ad4cd2a528fd…` |
-| `wandsworth/2024_01.csv` | 395.1KB | `e1154cebf832a2d0…` |
-| `wandsworth/2024_02.csv` | 370.2KB | `9be92f46021f02d8…` |
-| `wandsworth/2024_03.csv` | 437.2KB | `b3efb921ac403787…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `wandsworth/2023_04.csv` | 339.2KB | `6bb5091fef7d8711…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_04.csv) |
+| `wandsworth/2023_05.csv` | 415.8KB | `62b37eff7274c922…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_05.csv) |
+| `wandsworth/2023_06.csv` | 372.8KB | `73b3d0c618449616…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_06.csv) |
+| `wandsworth/2023_07.csv` | 363.4KB | `0caaba37f1815138…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_07.csv) |
+| `wandsworth/2023_08.csv` | 432.3KB | `218b71dc76a5426f…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_08.csv) |
+| `wandsworth/2023_09.csv` | 390.0KB | `11fb6b22430d7222…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_09.csv) |
+| `wandsworth/2023_10.csv` | 400.8KB | `03d4e09fa035c9c3…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_10.csv) |
+| `wandsworth/2023_11.csv` | 418.0KB | `b9e0cfd5ca938fd1…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_11.csv) |
+| `wandsworth/2023_12.csv` | 389.8KB | `4e36ad4cd2a528fd…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2023_12.csv) |
+| `wandsworth/2024_01.csv` | 395.1KB | `e1154cebf832a2d0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2024_01.csv) |
+| `wandsworth/2024_02.csv` | 370.2KB | `9be92f46021f02d8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2024_02.csv) |
+| `wandsworth/2024_03.csv` | 437.2KB | `b3efb921ac403787…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/wandsworth_2024_03.csv) |
 
 **Total**: 12 files, 4.6MB
+
+### Warrington Borough Council
+
+**Live source**: [https://www.warrington.gov.uk/council-spending-over-ps500](https://www.warrington.gov.uk/council-spending-over-ps500)  
+**Wayback archive**: [(none)](#)  
+**Financial year**: 2023/24  
+**Publisher description**: Warrington Borough Council — https://www.warrington.gov.uk/council-spending-over-ps500  
+
+**Raw files** (12):
+
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `warrington_borough_council/Final-spend-data-August_2023.csv` | 1.1MB | `800034544c191cab…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final-spend-data-August_2023.csv) |
+| `warrington_borough_council/Final-spend-data-December-2023.csv` | 1.1MB | `4617552ab744824e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final-spend-data-December-2023.csv) |
+| `warrington_borough_council/Final-spend-data-October-2023.csv` | 1.3MB | `eaf2cdbdb09b1618…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final-spend-data-October-2023.csv) |
+| `warrington_borough_council/Final_Spend_Data_-September_2023.csv` | 1.2MB | `e8798dcae6149653…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_-September_2023.csv) |
+| `warrington_borough_council/Final_Spend_Data_-_April_2023.csv` | 962.8KB | `6181e6286d009967…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_-_April_2023.csv) |
+| `warrington_borough_council/Final_Spend_Data_-_January_2024.csv` | 1.6MB | `e427f52d70a71f5b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_-_January_2024.csv) |
+| `warrington_borough_council/Final_Spend_Data_-_July_2023.csv` | 1.2MB | `ba7de8f1f77638fb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_-_July_2023.csv) |
+| `warrington_borough_council/Final_Spend_Data_Feb_2024.csv` | 1.3MB | `da0a251c173c5b9d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_Feb_2024.csv) |
+| `warrington_borough_council/Final_Spend_Data_March_2024.csv` | 1.2MB | `a0170a8b6de947d2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_March_2024.csv) |
+| `warrington_borough_council/Final_Spend_Data_November_2023.csv` | 1.3MB | `cc32b4f3d72c1a57…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_Spend_Data_November_2023.csv) |
+| `warrington_borough_council/Final_spend_data_-_June_2023.csv` | 1.2MB | `2f4d102071bbc53c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_spend_data_-_June_2023.csv) |
+| `warrington_borough_council/Final_spend_data_-_May_2023.csv` | 1.3MB | `1b3c4cdf32bb6fb8…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/warrington_borough_council_Final_spend_data_-_May_2023.csv) |
+
+**Total**: 12 files, 14.9MB
+
+### West Midlands Combined Authority
+
+_No raw files tracked — data fetched via API at build time._
 
 ### West Sussex
 
@@ -1502,12 +1979,16 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (2):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `west_sussex/wscc_spend_2023_24.csv` | 41.7MB | `4786cde0f714bb37…` |
-| `west_sussex/wscc_spend_2023_24.xlsx` | 9.8MB | `ffba1e1602a6b2d5…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `west_sussex/wscc_spend_2023_24.csv` | 41.7MB | `4786cde0f714bb37…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/west_sussex_wscc_spend_2023_24.csv) |
+| `west_sussex/wscc_spend_2023_24.xlsx` | 9.8MB | `ffba1e1602a6b2d5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/west_sussex_wscc_spend_2023_24.xlsx) |
 
 **Total**: 2 files, 51.5MB
+
+### West Yorkshire Combined Authority
+
+_No raw files tracked — data fetched via API at build time._
 
 ### Westminster
 
@@ -1518,12 +1999,12 @@ _No raw files found on disk — may have been processed in-memory from an API._
 
 **Raw files** (4):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `westminster/q1_2023_24.csv` | 1.7MB | `9ac77c6092602e4e…` |
-| `westminster/q2_2023_24.csv` | 1.8MB | `b41f7cefee041bac…` |
-| `westminster/q3_2023_24.csv` | 1.8MB | `e3791b8b2445adb2…` |
-| `westminster/q4_2023_24.csv` | 1.9MB | `49cede1c783c9a67…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `westminster/q1_2023_24.csv` | 1.7MB | `9ac77c6092602e4e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/westminster_q1_2023_24.csv) |
+| `westminster/q2_2023_24.csv` | 1.8MB | `b41f7cefee041bac…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/westminster_q2_2023_24.csv) |
+| `westminster/q3_2023_24.csv` | 1.8MB | `e3791b8b2445adb2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/westminster_q3_2023_24.csv) |
+| `westminster/q4_2023_24.csv` | 1.9MB | `49cede1c783c9a67…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/westminster_q4_2023_24.csv) |
 
 **Total**: 4 files, 7.2MB
 
@@ -1538,20 +2019,20 @@ The GLA subsystem is a synthetic entry that aggregates four independent publishe
 
 **Raw files** (12):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `lfb/apr_2023.csv` | 604.4KB | `7aaa81e9cf127df2…` |
-| `lfb/aug_2023.csv` | 492.5KB | `4d69c104775e434d…` |
-| `lfb/dec_2023.csv` | 345.9KB | `3c9ec0f2999424f7…` |
-| `lfb/feb_2024.csv` | 614.5KB | `51c66fa99c67e541…` |
-| `lfb/jan_2024.csv` | 743.9KB | `73647eb8bac2bf77…` |
-| `lfb/jul_2023.csv` | 882.9KB | `8ba8e2b500480956…` |
-| `lfb/jun_2023.csv` | 927.7KB | `ac79b8f17609898d…` |
-| `lfb/mar_2024.csv` | 568.2KB | `e4f983294e2f218b…` |
-| `lfb/may_2023.csv` | 525.2KB | `1ef3d397da78e6b5…` |
-| `lfb/nov_2023.csv` | 829.2KB | `484aac536adc078d…` |
-| `lfb/oct_2023.csv` | 592.2KB | `66578a9c08ceaa30…` |
-| `lfb/sep_2023.csv` | 509.5KB | `db67aa8985a3f3bb…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `lfb/apr_2023.csv` | 604.4KB | `7aaa81e9cf127df2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_apr_2023.csv) |
+| `lfb/aug_2023.csv` | 492.5KB | `4d69c104775e434d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_aug_2023.csv) |
+| `lfb/dec_2023.csv` | 345.9KB | `3c9ec0f2999424f7…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_dec_2023.csv) |
+| `lfb/feb_2024.csv` | 614.5KB | `51c66fa99c67e541…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_feb_2024.csv) |
+| `lfb/jan_2024.csv` | 743.9KB | `73647eb8bac2bf77…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_jan_2024.csv) |
+| `lfb/jul_2023.csv` | 882.9KB | `8ba8e2b500480956…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_jul_2023.csv) |
+| `lfb/jun_2023.csv` | 927.7KB | `ac79b8f17609898d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_jun_2023.csv) |
+| `lfb/mar_2024.csv` | 568.2KB | `e4f983294e2f218b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_mar_2024.csv) |
+| `lfb/may_2023.csv` | 525.2KB | `1ef3d397da78e6b5…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_may_2023.csv) |
+| `lfb/nov_2023.csv` | 829.2KB | `484aac536adc078d…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_nov_2023.csv) |
+| `lfb/oct_2023.csv` | 592.2KB | `66578a9c08ceaa30…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_oct_2023.csv) |
+| `lfb/sep_2023.csv` | 509.5KB | `db67aa8985a3f3bb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_lfb_sep_2023.csv) |
 
 **Total**: 12 files, 7.5MB
 
@@ -1562,22 +2043,22 @@ The GLA subsystem is a synthetic entry that aggregates four independent publishe
 
 **Raw files** (14):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `tfl/contracts_awarded.csv` | 632.5KB | `a5b011c80dbe15cb…` |
-| `tfl/p01.csv` | 1.5MB | `ce825c729942be70…` |
-| `tfl/p02.csv` | 1.5MB | `421e5212db9b3911…` |
-| `tfl/p03.csv` | 1.4MB | `18922b91c1536b5b…` |
-| `tfl/p04.csv` | 1.5MB | `0ffec0fd8a081be0…` |
-| `tfl/p05.csv` | 1.6MB | `6a26a95b434f2e5e…` |
-| `tfl/p06.csv` | 1.5MB | `1696ae600c7f51fe…` |
-| `tfl/p07.csv` | 1.6MB | `64c455f5d6220d22…` |
-| `tfl/p08.csv` | 1.7MB | `e5ea7923e6f9a7b2…` |
-| `tfl/p09.csv` | 1.7MB | `d5d2142e3dfd64ef…` |
-| `tfl/p10.csv` | 1.6MB | `4a979a11d6aa5206…` |
-| `tfl/p11.csv` | 1.3MB | `e4f287f2adc8cd1c…` |
-| `tfl/p12.csv` | 1.6MB | `ad6573170cc10484…` |
-| `tfl/p13.csv` | 1.9MB | `b06dc1d82f02f264…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `tfl/contracts_awarded.csv` | 632.5KB | `a5b011c80dbe15cb…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_contracts_awarded.csv) |
+| `tfl/p01.csv` | 1.5MB | `ce825c729942be70…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p01.csv) |
+| `tfl/p02.csv` | 1.5MB | `421e5212db9b3911…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p02.csv) |
+| `tfl/p03.csv` | 1.4MB | `18922b91c1536b5b…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p03.csv) |
+| `tfl/p04.csv` | 1.5MB | `0ffec0fd8a081be0…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p04.csv) |
+| `tfl/p05.csv` | 1.6MB | `6a26a95b434f2e5e…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p05.csv) |
+| `tfl/p06.csv` | 1.5MB | `1696ae600c7f51fe…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p06.csv) |
+| `tfl/p07.csv` | 1.6MB | `64c455f5d6220d22…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p07.csv) |
+| `tfl/p08.csv` | 1.7MB | `e5ea7923e6f9a7b2…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p08.csv) |
+| `tfl/p09.csv` | 1.7MB | `d5d2142e3dfd64ef…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p09.csv) |
+| `tfl/p10.csv` | 1.6MB | `4a979a11d6aa5206…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p10.csv) |
+| `tfl/p11.csv` | 1.3MB | `e4f287f2adc8cd1c…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p11.csv) |
+| `tfl/p12.csv` | 1.6MB | `ad6573170cc10484…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p12.csv) |
+| `tfl/p13.csv` | 1.9MB | `b06dc1d82f02f264…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_tfl_p13.csv) |
 
 **Total**: 14 files, 20.8MB
 
@@ -1588,9 +2069,9 @@ The GLA subsystem is a synthetic entry that aggregates four independent publishe
 
 **Raw files** (1):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `gla_core/consolidated_p1_p13_2023_24.csv` | 2.6MB | `8a7b56c9c54cca78…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `gla_core/consolidated_p1_p13_2023_24.csv` | 2.6MB | `8a7b56c9c54cca78…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_core_consolidated_p1_p13_2023_24.csv) |
 
 **Total**: 1 files, 2.6MB
 
@@ -1601,18 +2082,18 @@ The GLA subsystem is a synthetic entry that aggregates four independent publishe
 
 **Raw files** (2):
 
-| File | Size | SHA256 (first 16) |
-|---|---|---|
-| `mps/mps_sep2023_mar2024.xlsx` | 1.6MB | `e879024236ca7066…` |
-| `mps/sep23_mar24.csv` | 2.7MB | `4717f03053159b05…` |
+| File | Size | SHA256 (first 16) | archive.org mirror |
+|---|---|---|---|
+| `mps/mps_sep2023_mar2024.xlsx` | 1.6MB | `e879024236ca7066…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_mps_mps_sep2023_mar2024.xlsx) |
+| `mps/sep23_mar24.csv` | 2.7MB | `4717f03053159b05…` | [mirror](https://archive.org/download/budget-galaxy-uk-councils-2024/gla_mps_sep23_mar24.csv) |
 
 **Total**: 2 files, 4.3MB
 
 ## Summary
 
-- **Entities**: 60 (59 councils + GLA subsystem)
-- **Raw files**: 686
-- **Total size**: 1646.9MB
+- **Entities**: 81 (80 councils + GLA subsystem)
+- **Raw files**: 704
+- **Total size**: 1734.2MB
 - **Coverage**: 35.6% of UK Local Government England (£46.8B of £131.6B) as of 2026-04-14
 
 ---
