@@ -239,11 +239,9 @@ for (const cls of lg.children) for (const c of (cls.children || [])) lgCouncilNa
 // AND keep the warning loud — every run reminds the operator. Unknown orphans
 // (not in this set) still hard-fail.
 const KNOWN_ORPHANS = new Set([
-  'Birmingham'  // Birmingham City Council has £1B+ budget but is missing from
-                // tree's Local Government (England) subtree entirely. Only
-                // appears under NHS Trusts. Fix requires rebuilding the LG
-                // tree base with Birmingham added — out of scope for inject.
-                // See memory/project_budget_galaxy_next_session.md for details.
+  // Empty. Birmingham was previously here (s114 bankruptcy → not_submitted in
+  // RO5 returns) but is now in the tree via the fallback chain in
+  // replace_oscar_lg.js (uses 202303 data tagged _estimated_source_year).
 ]);
 
 const orphanLookupKeys = Object.keys(lookup).filter(k => !matchedLookupKeys.has(k));

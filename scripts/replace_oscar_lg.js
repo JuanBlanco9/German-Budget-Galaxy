@@ -43,6 +43,7 @@ const LA_DIR = path.join(UK_DIR, 'local_authorities');
 const BACKUP_DIR = path.join(DATA_DIR, 'backups');
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
+const FORCE = args.includes('--force');
 const yearArg = args.find(a => a.match(/^\d{4}$/) || a === 'all') || 'all';
 
 const TARGET_YEARS = yearArg === 'all' ? ['2020', '2021', '2022', '2023'] : [yearArg];
@@ -142,24 +143,54 @@ function parseCSV(filePath) {
 // ─── Build MHCLG branch (same logic as inject_local_gov.js) ───
 
 function buildLocalGovTree(rows, csvYear) {
-  const filtered = rows.filter(r =>
+  // Index all rows by LA_name for fallback resolution. Sorted year-desc so
+  // the first 'submitted' candidate per LA is the most recent.
+  const byLAName = {};
+  for (const r of rows) {
+    if (!byLAName[r.LA_name]) byLAName[r.LA_name] = [];
+    byLAName[r.LA_name].push(r);
+  }
+  for (const list of Object.values(byLAName)) list.sort((a, b) => (b.year_ending || '').localeCompare(a.year_ending || ''));
+
+  // Get all LAs that exist in csvYear at all (submitted OR not submitted).
+  // For 'not submitted' rows, fall back to that LA's most recent prior
+  // submitted year. Tag those nodes with _estimated_year so consumers know.
+  // Why: Birmingham (s114 bankruptcy) is 'not submitted' for 202403; without
+  // fallback the council disappears from the tree entirely. Same applies to
+  // 11 other councils (Westmorland, Colchester, etc.). Discovered by tree
+  // audit agent 2026-04-16.
+  const lasInYear = rows.filter(r =>
     r.year_ending === csvYear &&
-    r.status === 'submitted' &&
     r.LA_class !== 'Eng' &&
     r.LA_class !== ''
   );
 
+  const resolved = []; // [{ row, estimated, sourceYear, classFromCsvYear }]
+  for (const yearRow of lasInYear) {
+    const cls = yearRow.LA_class;
+    if (yearRow.status === 'submitted') {
+      resolved.push({ row: yearRow, estimated: false, sourceYear: csvYear, classFromCsvYear: cls });
+      continue;
+    }
+    // Fallback: find this LA's most recent prior submitted row
+    const candidates = (byLAName[yearRow.LA_name] || [])
+      .filter(x => x.status === 'submitted' && x.year_ending && x.year_ending < csvYear);
+    if (candidates.length === 0) continue; // no historical data — genuinely missing
+    const fb = candidates[0];
+    resolved.push({ row: fb, estimated: true, sourceYear: fb.year_ending, classFromCsvYear: cls });
+  }
+
   const byClass = {};
-  for (const r of filtered) {
-    const cls = r.LA_class || 'Other';
+  for (const item of resolved) {
+    const cls = item.classFromCsvYear || 'Other';
     if (!byClass[cls]) byClass[cls] = [];
-    byClass[cls].push(r);
+    byClass[cls].push(item);
   }
 
   const classChildren = [];
-  for (const [cls, las] of Object.entries(byClass)) {
+  for (const [cls, items] of Object.entries(byClass)) {
     const laNodes = [];
-    for (const la of las) {
+    for (const { row: la, estimated, sourceYear } of items) {
       const totalThousands = parseFloat(la['RSX_totsx_net_cur_exp']) || 0;
       if (totalThousands <= 0) continue;
       const totalFull = totalThousands * 1000;
@@ -184,6 +215,10 @@ function buildLocalGovTree(rows, csvYear) {
         services.sort((a, b) => b.value - a.value);
         laNode.children = services;
         laNode.value = namedSum;
+      }
+      if (estimated) {
+        laNode._estimated_source_year = sourceYear;
+        laNode._estimated_reason = 'Council did not submit RO5 return for ' + csvYear + '; using most recent submitted year (' + sourceYear + ')';
       }
       laNodes.push(laNode);
     }
@@ -244,8 +279,8 @@ for (const year of TARGET_YEARS) {
   const existingIdx = tree.children.findIndex(c => c.id === 'local_government_england');
   let existingNode = existingIdx >= 0 ? tree.children[existingIdx] : null;
 
-  if (existingNode && existingNode._source === 'MHCLG Revenue Outturn (RO5)') {
-    console.log(`  SKIP: already MHCLG (£${(existingNode.value/1e9).toFixed(1)}B)`);
+  if (existingNode && existingNode._source === 'MHCLG Revenue Outturn (RO5)' && !FORCE) {
+    console.log(`  SKIP: already MHCLG (£${(existingNode.value/1e9).toFixed(1)}B). Use --force to rebuild.`);
     continue;
   }
 
@@ -257,15 +292,15 @@ for (const year of TARGET_YEARS) {
 
   let oldOscarValue = 0;
   if (existingNode) {
-    if (!isOscarLgEngland(existingNode)) {
+    const isMhclgRebuild = existingNode._source === 'MHCLG Revenue Outturn (RO5)' && FORCE;
+    if (!isOscarLgEngland(existingNode) && !isMhclgRebuild) {
       console.log(`  WARN: existing local_government_england is not OSCAR pattern. Skipping.`);
       console.log(`        name="${existingNode.name}" _source="${existingNode._source}"`);
       continue;
     }
     oldOscarValue = existingNode.value;
-    // Remove OSCAR node
     tree.children.splice(existingIdx, 1);
-    console.log(`  Removed OSCAR LG ENGLAND: £${(oldOscarValue/1e9).toFixed(1)}B`);
+    console.log(`  Removed existing LG node (${isMhclgRebuild ? 'MHCLG --force' : 'OSCAR'}): £${(oldOscarValue/1e9).toFixed(1)}B`);
   } else {
     console.log(`  No existing local_government_england node`);
   }
