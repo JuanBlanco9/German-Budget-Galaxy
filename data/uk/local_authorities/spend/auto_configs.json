@@ -1,5 +1,28 @@
 [
   {
+    "name": "Stoke-on-Trent City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stoke_on_trent_council",
+    "deptCol": "Service Label",
+    "purposeCol": "Exp Category Code",
+    "amountCol": "Sum of Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stoke_on_trent_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Stoke-on-Trent City Council — https://www.stoke.gov.uk/",
+    "source_url": "https://www.stoke.gov.uk/",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 via sitemap.xml + 2-hop scrape)",
+    "_manifest_complications": [
+      "Sitemap.xml has /directory_record/{id}/transparency_report_{month}_{year} URLs",
+      "Each per-month landing page contains actual XLSX download link",
+      "12/12 months FY 23/24 downloaded via 2-hop scrape",
+      "Title row 0: 'Transparency Report {Month} {Year}' — skipped via headerHint='Supplier Name'"
+    ]
+  },
+  {
     "name": "Middlesbrough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\middlesbrough_council",
