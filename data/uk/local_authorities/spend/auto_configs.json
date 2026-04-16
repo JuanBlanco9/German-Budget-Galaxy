@@ -1,5 +1,28 @@
 [
   {
+    "name": "Portsmouth City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\portsmouth_city_council",
+    "deptCol": "Service Area Categorisation",
+    "purposeCol": "Expenses Type",
+    "amountCol": "Payment Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\portsmouth_city_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Portsmouth City Council — https://data.portsmouth.gov.uk/tables/payments-to-suppliers",
+    "source_url": "https://data.portsmouth.gov.uk/tables/payments-to-suppliers",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 — data.portsmouth.gov.uk subdomain bypass; main www. is Cloudflare)",
+    "_manifest_complications": [
+      "Subdomain trick: www.portsmouth.gov.uk is 403 Cloudflare; data.portsmouth.gov.uk works",
+      "12/12 months FY 24/25 via brute-force pattern: /media/tables/03-pcc-spend-transparency-template-fusion-{month}-{year}.csv",
+      "Numeric prefix '03-' worked for all FY 24/25 months (no scraping landing — JS-rendered)",
+      "Canonical schema (data.gov.uk template)"
+    ]
+  },
+  {
     "name": "Luton Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\luton_borough_council",
