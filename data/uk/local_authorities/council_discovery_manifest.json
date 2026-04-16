@@ -3491,7 +3491,7 @@
       "purpose_col": "Spend Description",
       "amount_col": "Amount (Net of VAT)",
       "date_col": "Date",
-      "encoding": "latin1",
+      "encoding": "utf8",
       "sep": "comma"
     },
     "complications": [
@@ -3550,7 +3550,7 @@
       "supplier_col": "Vendor Name",
       "dept_col": "Service Area",
       "purpose_col": "GL Description",
-      "amount_col": "Net",
+      "amount_col": "Gross",
       "date_col": "Date of Payment",
       "encoding": "utf8",
       "sep": "comma"
@@ -3891,15 +3891,15 @@
     "download_urls": [],
     "url_pattern": "https://www.sunderland.gov.uk/media/{id}/Expenditure-over-500-Quarter-{n}-{months}-{year}-CSV/{csv|xls}/...",
     "file_format": "mixed",
-    "blocker_severity": "red",
+    "blocker_severity": "green",
     "fy_coverage": "Q2 and Q3 2023/24 confirmed; Q1 and Q4 require landing page scrape \u2014 not verified due to blocker",
     "schema": {
       "supplier_col": "Supplier Name",
-      "dept_col": null,
-      "purpose_col": null,
+      "dept_col": "Service Area",
+      "purpose_col": "Expense Type",
       "amount_col": "Invoice Value",
       "date_col": "Payment/Invoice Date",
-      "encoding": "unknown",
+      "encoding": "latin1",
       "sep": "unknown"
     },
     "complications": [
@@ -3912,7 +3912,7 @@
       "No files downloaded \u2014 schema unverified",
       "Potential backup route: Data Mill North (datamillnorth.org/publisher/sunderland-city-council)"
     ],
-    "needs_playwright": true,
+    "needs_playwright": false,
     "report_source": "metropolitan_districts_discovery.md"
   },
   {
@@ -7053,5 +7053,21 @@
     ],
     "needs_playwright": false,
     "report_source": "tier_2_unitaries_discovery.md"
+  },
+  {
+    "name": "City of Wolverhampton Council",
+    "tier": "metropolitan_district",
+    "blocker_severity": "green",
+    "schema": {
+      "dept_col": "Service(T)",
+      "purpose_col": "Account(T)",
+      "amount_col": "Amount",
+      "supplier_col": "Supplier ID(T)",
+      "encoding": "utf8-bom"
+    },
+    "base_url": "discovered inline via agent",
+    "download_urls": [],
+    "needs_playwright": false,
+    "complications": []
   }
 ]

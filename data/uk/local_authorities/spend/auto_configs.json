@@ -491,6 +491,56 @@
     ]
   },
   {
+    "name": "South Tyneside Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\south_tyneside_metropolitan_borough_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Spend Description",
+    "amountCol": "Amount (Net of VAT)",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\south_tyneside_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "South Tyneside Metropolitan Borough Council — https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500",
+    "source_url": "https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "Unique media ID per month — must harvest from landing page",
+      "Homepage returns 403 to curl HEAD — must use browser User-Agent",
+      "Combined £500 + GPC (Government Procurement Card) data in single file",
+      "Header has duplicate 'Spend' column names",
+      "Date format dd-MMM-yy",
+      "Latin-1 encoding",
+      "?m= timestamp query parameter present in landing HTML links (not required for download)",
+      "Unrecoverable VAT column present as separate field"
+    ]
+  },
+  {
+    "name": "Salford City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\salford_city_council",
+    "deptCol": "Service Area",
+    "purposeCol": "GL Description",
+    "amountCol": "Gross",
+    "supplierCol": "Vendor Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Vendor Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\salford_city_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Salford City Council — https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/",
+    "source_url": "https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Media slug format changes mid-year: 6-digit numeric IDs (Apr-Sep 2023) then alphanumeric slugs (Oct 2023-Mar 2024)",
+      "Gross, VAT, and Net provided as three separate columns",
+      "GL Description used as purpose field — may be weak/generic",
+      "DocumentNo column present"
+    ]
+  },
+  {
     "name": "Stockport Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stockport_metropolitan_borough_council",
@@ -544,6 +594,75 @@
     ]
   },
   {
+    "name": "Sandwell Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sandwell_metropolitan_borough_council",
+    "deptCol": "Department",
+    "purposeCol": "Summary of Purpose (SeRCOP)",
+    "amountCol": "Amount SUM",
+    "supplierCol": "Beneficiary",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Beneficiary",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sandwell_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Sandwell Metropolitan Borough Council — https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500",
+    "source_url": "https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "File IDs non-predictable — must scrape landing page to resolve all 12 monthly URLs",
+      "Known IDs: Apr=491, Jun=486, Jul=1328, Aug=1330, Feb=2812, Mar=2814; remaining months unknown",
+      "SeRCOP classification column present",
+      "Body column contains a URL",
+      "Trailing empty column"
+    ]
+  },
+  {
+    "name": "Walsall Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\walsall_metropolitan_borough_council",
+    "deptCol": "Directorate where expenditure incurred",
+    "purposeCol": "Purpose of Spend",
+    "amountCol": "Net amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\walsall_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Walsall Metropolitan Borough Council — https://go.walsall.gov.uk/opendata-datasets",
+    "source_url": "https://go.walsall.gov.uk/opendata-datasets",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "Inconsistent filename capitalisation and URL-encoded spaces require landing page scraping",
+      "Header contains newline inside quoted column names (e.g. 'Procurement Classification \\n(Higher Level)')",
+      "Trailing empty commas",
+      "Separate quarterly 'Spend_Transparency_for_Cards' GPC files exist — must not be mixed with main spend files"
+    ]
+  },
+  {
+    "name": "Wirral Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wirral_metropolitan_borough_council",
+    "deptCol": "Department",
+    "purposeCol": "Description",
+    "amountCol": "Paid Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wirral_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Wirral Metropolitan Borough Council — https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024",
+    "source_url": "https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "1 title row before header (e.g. 'Payments for Publishing for Invoices paid between 01-APR-2023 and 30-APR-2023')",
+      "Amounts use thousand separators inside quoted strings (e.g. \"4,175.85\")",
+      "Trailing space in 'Department ' header column name"
+    ]
+  },
+  {
     "name": "Kirklees Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\kirklees_metropolitan_borough_council",
@@ -568,6 +687,36 @@
       "'Proclass Description' frequently null",
       "Not hosted on Data Mill North — self-hosted XLSX",
       "Must scrape landing page to resolve exact filename per month"
+    ]
+  },
+  {
+    "name": "Sunderland City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sunderland_city_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Expense Type",
+    "amountCol": "Invoice Value  £",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "latin1",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sunderland_city_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Sunderland City Council — https://www.sunderland.gov.uk/article/13261/Payments-over-500",
+    "source_url": "https://www.sunderland.gov.uk/article/13261/Payments-over-500",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "HARD BLOCKER: Cloudflare bot-management on /media/ download path returns 403 — CF-RAY header confirmed",
+      "Needs cloudscraper, Playwright, or manual download to retrieve files",
+      "Quarterly cadence (not monthly) — 4 files per FY",
+      "Mixed CSV and XLSX depending on quarter",
+      "XLSX files served under /xls/ URL path segments despite being labelled CSV",
+      "Non-predictable media IDs in URLs — must scrape landing page",
+      "No files downloaded — schema unverified",
+      "Potential backup route: Data Mill North (datamillnorth.org/publisher/sunderland-city-council)"
+    ],
+    "_validation_warnings": [
+      "amount: \"Invoice Value\" → \"Invoice Value  £\" [substring]"
     ]
   },
   {
@@ -758,5 +907,23 @@
       "Negative amounts present (refunds)",
       "Payments to individuals are redacted"
     ]
+  },
+  {
+    "name": "City of Wolverhampton Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\city_of_wolverhampton_council",
+    "deptCol": "Service(T)",
+    "purposeCol": "Account(T)",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier ID(T)",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier ID(T)",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\city_of_wolverhampton_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "City of Wolverhampton Council — discovered inline via agent",
+    "source_url": "discovered inline via agent",
+    "_manifest_blocker": "green",
+    "_manifest_complications": []
   }
 ]
