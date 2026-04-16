@@ -1,5 +1,52 @@
 [
   {
+    "name": "Suffolk County Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\suffolk_county_council",
+    "deptCol": "Directorate",
+    "purposeCol": "Sub-description",
+    "amountCol": "Invoice Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\suffolk_county_council_dept_mapping.json",
+    "fyLabel": "2023/24 (8/12 months)",
+    "source": "Suffolk County Council — https://www.suffolk.gov.uk/council-and-democracy/council-spending-and-performance/payments-to-suppliers",
+    "source_url": "https://www.suffolk.gov.uk/council-and-democracy/council-spending-and-performance/payments-to-suppliers",
+    "_manifest_blocker": "red→DIRECT (verified 2026-04-16 by recon agent — manifest entry 2 was correct, entry 1 was outdated)",
+    "_manifest_complications": [
+      "Schema drift across months: 'Inv Amount' (Aug/Sep/Nov/Dec) vs 'Invoice Amount' (Apr/Oct + general-transactions) — sed-normalized to 'Invoice Amount' at import",
+      "FY 23/24 8/12 months: Apr Jun Jul Aug Sep Oct Nov Dec 2023 (missing May 2023, Jan/Feb/Mar 2024)",
+      "Mar24 URL returns 404 placeholder — no real data",
+      "£250 threshold (lower than typical £500)",
+      "Filename naming inconsistent: 6 SCC-250SpendAllCols, 2 general-transactions"
+    ]
+  },
+  {
+    "name": "Derbyshire County Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derbyshire_county_council",
+    "deptCol": "Service Area Categorisation",
+    "purposeCol": "Expense Type",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derbyshire_county_council_dept_mapping.json",
+    "fyLabel": "2025/26 (8/12 months)",
+    "source": "Derbyshire County Council — https://www.derbyshire.gov.uk/council/budgets-and-spending/spending/spending-over-500.aspx",
+    "source_url": "https://www.derbyshire.gov.uk/council/budgets-and-spending/spending/spending-over-500.aspx",
+    "_manifest_blocker": "red→DIRECT (verified 2026-04-16 by recon agent — manifest was wrong)",
+    "_manifest_complications": [
+      "Apr 2024 - Mar 2025 (full FY 24/25) all 404 on live server — would need Wayback CDX recovery",
+      "FY 25/26 partial: Apr May Jun Aug Sep Oct Nov 2025 + Mar 2026 = 8/12 months (missing Jul/Dec 2025, Jan/Feb 2026)",
+      "FY 24/25 Q4 (Jan/Feb/Mar 2025) downloaded but archived — fyLabel mismatch with main FY 25/26 dataset",
+      "MHCLG node value is FY 24/25 (£1.37B from year_ending 202503); supplier data is FY 25/26 — slight year offset, councils don't change spend dramatically YoY"
+    ]
+  },
+  {
     "name": "Rutland County Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\rutland_county_council",
