@@ -1824,5 +1824,29 @@
       "Q4 2024-25 was latin1, re-encoded to utf-8-sig at prepare time.",
       "FY 2024/25: Q1+Q2+Q3 (utf-8-sig) + Q4 (re-encoded), totals approx GBP 1.04B across 217k transactions."
     ]
+  },
+  {
+    "name": "Central Bedfordshire Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\central_bedfordshire",
+    "deptCol": "Service Label",
+    "purposeCol": "Expenditure Category",
+    "amountCol": "Net Amount",
+    "supplierCol": "Supplier name",
+    "sep": ",",
+    "encoding": "latin1",
+    "headerHint": "Service division code",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\central_bedfordshire_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Central Bedfordshire Council \u2014 https://www.centralbedfordshire.gov.uk/info/28/transparency/285/council_spending",
+    "source_url": "https://www.centralbedfordshire.gov.uk/info/28/transparency/285/council_spending",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Discovery: 4-page paginated council_spending listing (info/28/transparency/285/) lists monthly SharePoint links.",
+      "SharePoint :x:/s/Communications/{token}?e=... rewritten to /sites/Communications/_layouts/15/download.aspx?share={token} - returns CSV anonymously.",
+      "April 2024 file shipped with leading/trailing spaces in 'Net Amount' header AND two trailing empty columns; normalized at scrape time.",
+      "Spending data only - separate P-Card files exist but excluded (different totals basis).",
+      "Total approx GBP 707M across 240k transactions FY 2024/25."
+    ]
   }
 ]
