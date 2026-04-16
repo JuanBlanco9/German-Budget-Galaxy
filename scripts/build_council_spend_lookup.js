@@ -780,6 +780,7 @@ function processCouncilWithMapping(config) {
 
       const patternKey = dept + '|' + purpose;
       const service = patterns[patternKey] || 'Other Services';
+      if (service === '_excluded') continue;
       if (!patterns[patternKey]) unmapped++;
 
       if (!services[service]) services[service] = { suppliers: {}, total: 0, txCount: 0 };
@@ -1460,6 +1461,7 @@ const LLM_COUNCILS = [
     supplierAliases: {
       'TfGM Interbank': 'Transport for Greater Manchester',
       'TFGM': 'Transport for Greater Manchester',
+      'TfGM': 'Transport for Greater Manchester',
       'Transport for Greater Manchester': 'Transport for Greater Manchester'
     } },
 
