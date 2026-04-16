@@ -1,5 +1,26 @@
 [
   {
+    "name": "Telford & Wrekin Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\telford_wrekin_council",
+    "deptCol": "Service Delivery Area(T)",
+    "purposeCol": "Account(T)",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name(T)",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name(T)",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\telford_wrekin_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Telford & Wrekin Council — https://www.telford.gov.uk/info/20110/budgets_and_spending/55/expenditure_over_100",
+    "source_url": "https://www.telford.gov.uk/info/20110/budgets_and_spending/55/expenditure_over_100",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "Dual datasets in source dir: GPC payment cards (12) + expenditure_over_100 supplier register (12). GPC moved to archive/gpc_payment_cards/ — wrong schema for service classification.",
+      "Threshold £100 (lower than typical £500/£250)"
+    ]
+  },
+  {
     "name": "Shropshire Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\shropshire_council",
