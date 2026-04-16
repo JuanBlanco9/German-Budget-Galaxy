@@ -293,6 +293,28 @@
     ]
   },
   {
+    "name": "Bolton Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bolton_metropolitan_borough_council",
+    "deptCol": "Service Area",
+    "purposeCol": "Description",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bolton_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Bolton Metropolitan Borough Council — https://www.bolton.gov.uk/downloads/download/196/expenditure_reports",
+    "source_url": "https://www.bolton.gov.uk/downloads/download/196/expenditure_reports",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "cp1252 encoding — £ sign corrupted without iconv to UTF-8",
+      "File IDs non-sequential (5002–5947), must scrape landing page for IDs",
+      "Amount formatted as '£15,867.72' with currency symbol in field"
+    ]
+  },
+  {
     "name": "Doncaster Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\doncaster_metropolitan_borough_council",
@@ -368,6 +390,29 @@
     ]
   },
   {
+    "name": "Rotherham Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\rotherham_metropolitan_borough_council",
+    "deptCol": "EXPENSE AREA",
+    "purposeCol": "EXPENSE TYPE",
+    "amountCol": "AMOUNT",
+    "supplierCol": "NAME",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "NAME",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\rotherham_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Rotherham Metropolitan Borough Council — https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024",
+    "source_url": "https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Format switches mid-FY from .xls (BIFF/OLE Excel 97-2003) to .xlsx",
+      "Separate companion purchase-card files for each month",
+      "File IDs non-sequential (3198–3565), must scrape landing page",
+      "Author metadata leaks in OLE document properties"
+    ]
+  },
+  {
     "name": "Barnsley Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\barnsley_metropolitan_borough_council",
@@ -394,6 +439,32 @@
     ]
   },
   {
+    "name": "Sefton Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sefton_metropolitan_borough_council",
+    "deptCol": "DEPARTMENT",
+    "purposeCol": "SUMMARY OF EXPENDITURE",
+    "amountCol": "AMOUNT",
+    "supplierCol": "SUPPLIER",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "SUPPLIER",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sefton_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Sefton Metropolitan Borough Council — https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/",
+    "source_url": "https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "1 metadata/title header row before column headers",
+      "Filename alternates between 'spend' and 'spent' — not predictable",
+      "Numeric 4-digit media IDs not guessable — must harvest from landing page",
+      "Latin-1 encoding — £ signs mangle in UTF-8",
+      "Nov 2023 file contains typo 'counsil' in filename",
+      "Negative amounts (credit notes) present",
+      "£500 threshold applied at cost-centre level, not per-transaction"
+    ]
+  },
+  {
     "name": "Solihull Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\solihull_metropolitan_borough_council",
@@ -417,6 +488,32 @@
       "Card Transaction flag column present",
       "ProClass categorisation column included",
       "Service Area Categorisation column present"
+    ]
+  },
+  {
+    "name": "Stockport Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stockport_metropolitan_borough_council",
+    "deptCol": "Service",
+    "purposeCol": "Summary of Purpose of Expenditure",
+    "amountCol": "net_amount",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stockport_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Stockport Metropolitan Borough Council — https://www.stockport.gov.uk/transparency/spending-and-contracts",
+    "source_url": "https://www.stockport.gov.uk/transparency/spending-and-contracts",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Filename prefix/casing varies per month — subtle punctuation differences (Apr-Aug 2023 vs Sep-Nov 2023 vs Dec 2023+)",
+      "No department/directorate column — sparsest schema in batch (6 columns)",
+      "Hosted on S3 bucket 'live-iag-static-assets'",
+      "Personal information redacted to '*Redact - Personal Information'",
+      "Dataset frozen/archival — Stockport migrated to all-spend from April 2025",
+      "Some files duplicated in newer S3 subpath /Transparency+data/Purchases+over+%C2%A3500/",
+      "Script must handle two different S3 subpaths"
     ]
   },
   {

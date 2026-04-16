@@ -2930,7 +2930,7 @@
       "purpose_col": "Description",
       "amount_col": "Amount",
       "date_col": "Payment",
-      "encoding": "cp1252",
+      "encoding": "utf8",
       "sep": "comma"
     },
     "complications": [
@@ -3252,12 +3252,12 @@
     "blocker_severity": "green",
     "fy_coverage": "12/12 verified + 12 purchase card files",
     "schema": {
-      "supplier_col": "Supplier",
-      "dept_col": "Department",
-      "purpose_col": "Category",
-      "amount_col": "Amount",
+      "supplier_col": "NAME",
+      "dept_col": "EXPENSE AREA",
+      "purpose_col": "EXPENSE TYPE",
+      "amount_col": "AMOUNT",
       "date_col": null,
-      "encoding": "unknown",
+      "encoding": "utf8",
       "sep": "unknown"
     },
     "complications": [
@@ -3366,7 +3366,7 @@
       "purpose_col": "SUMMARY OF EXPENDITURE",
       "amount_col": "AMOUNT",
       "date_col": "TRANSACTION DATE",
-      "encoding": "latin1",
+      "encoding": "utf8",
       "sep": "comma"
     },
     "complications": [
@@ -3576,7 +3576,7 @@
     "fy_coverage": "12/12 verified (dataset frozen as of Apr 2025)",
     "schema": {
       "supplier_col": "Supplier",
-      "dept_col": null,
+      "dept_col": "Service",
       "purpose_col": "Summary of Purpose of Expenditure",
       "amount_col": "net_amount",
       "date_col": "invoice_date",
