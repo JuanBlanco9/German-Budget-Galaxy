@@ -1,5 +1,28 @@
 [
   {
+    "name": "Luton Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\luton_borough_council",
+    "deptCol": "Department",
+    "purposeCol": "CC Description",
+    "amountCol": "Value \u00a3",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\luton_borough_council_dept_mapping.json",
+    "fyLabel": "Calendar 2024",
+    "source": "Luton BC — https://www.luton.gov.uk/council-elections/finance-data-performance/accounts-finance/council-spend/2024-spend",
+    "source_url": "https://www.luton.gov.uk/council-elections/finance-data-performance/accounts-finance/council-spend/2024-spend",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by 3rd recon agent)",
+    "_manifest_complications": [
+      "Row 1 is title 'Transparency Report - {Month} {Year}' — headerHint='Supplier' resolves to row 2",
+      "Calendar year 2024 (Jan-Dec 2024) — overlaps FY 23/24 Q4 + FY 24/25 first 9 months",
+      "Department column has trailing space",
+      "Amount column is 'Value £' (with pound symbol literal)"
+    ]
+  },
+  {
     "name": "Slough Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\slough_borough_council",
