@@ -1,0 +1,37 @@
+{
+  "council": "West Yorkshire Combined Authority",
+  "fy": "2023-24",
+  "source": "https://www.westyorks-ca.gov.uk/about-us/governance-and-transparency/transparency-and-freedom-of-information/what-we-spend-and-how-we-spend-it/",
+  "schemas_observed": 3,
+  "schema_notes": [
+    "Q1 uses \"Sheet1\" with columns Document Ref/Date/Beneficiary/Directorate/Summary of Purpose/Merchant Category/Value £",
+    "Q2 uses \"Report\" sheet with columns */Date/Beneficiary/Department/Purpose/Merchant Category/Amount (Exclusive) — CIAXLONE export format",
+    "Q3+Q4 use \"Report\" sheet with 11 columns including Creditor Account, Directorate, Account Sub Group 1/2, Amount (Inclusive+VAT+Exclusive) — appears to be a new FMIS rolled out Aug/Sep 2023"
+  ],
+  "per_quarter": {
+    "Q1 2023 (Apr-Jun)": {
+      "rows": 1874,
+      "total": 119063006.83000019
+    },
+    "Q2 2023 (Jul-Sep)": {
+      "rows": 28,
+      "total": 169167.93
+    },
+    "Q3 2023 (Oct-Dec)": {
+      "rows": 471,
+      "total": 28070319.860000014
+    },
+    "Q4 2024 (Jan-Mar)": {
+      "rows": 1812,
+      "total": 51783145.769999966
+    }
+  },
+  "known_gaps": [
+    {
+      "quarter": "Q2 2023 (Jul-Sep)",
+      "issue": "Upstream file truncated — contains only ~28 data rows before empty tail. Wayback Machine copies match the same truncated state (publisher uploaded it that way). Coverage for FY 2023-24 is effectively 3/4 quarters. Tree node _data_notes should reflect this."
+    }
+  ],
+  "total_rows_parsed": 4185,
+  "total_amount_gbp": 199085640.39000016
+}
