@@ -700,7 +700,8 @@ function processLeeds(year) {
 function processCouncilWithMapping(config) {
   const {
     name, code, files, dir, deptCol, purposeCol, amountCol, supplierCol,
-    sep, encoding, headerHint, mappingFile, year, fyLabel, source
+    sep, encoding, headerHint, mappingFile, year, fyLabel, source,
+    supplierAliases
   } = config;
 
   // Load mapping
@@ -765,7 +766,14 @@ function processCouncilWithMapping(config) {
 
       const dept = (cols[colIdx.dept] || '').replace(/^"|"$/g, '').trim();
       const purpose = colIdx.purpose !== undefined ? (cols[colIdx.purpose] || '').replace(/^"|"$/g, '').trim() : '';
-      const supplier = (cols[colIdx.supplier] || '').replace(/^"|"$/g, '').trim();
+      let supplier = (cols[colIdx.supplier] || '').replace(/^"|"$/g, '').trim();
+      // Council-specific supplier aliases (e.g. merge "TfGM Interbank" +
+      // "TFGM" under a single canonical name). Applied before dedup so the
+      // display name and the normalized key both pick up the alias.
+      if (supplierAliases) {
+        const alias = supplierAliases[supplier] || supplierAliases[supplier.toLowerCase()];
+        if (alias) supplier = alias;
+      }
       const amtRaw = (cols[colIdx.amount] || '').replace(/^"|"$/g, '').replace(/[£,\s]/g, '');
       const amt = parseFloat(amtRaw);
       if (isNaN(amt) || amt <= 0 || !supplier) continue;
@@ -1404,7 +1412,7 @@ const LLM_COUNCILS = [
     source: 'London Borough of Lewisham — Council Spending Over £250 (lewisham.gov.uk, filtered to £500+)' },
 
   { name: 'Hammersmith and Fulham', code: 'E09000013', dir: path.join(SPEND_DIR, 'hammersmith_fulham'),
-    deptCol: 'Cost Center/Capital Project Description', purposeCol: 'GL Account Description', amountCol: 'Amount (Ex VAT)',
+    deptCol: 'Cost Center/Capital Project Description', purposeCol: 'GL Account Description', amountCol: 'Amount £ (Ex VAT)',
     supplierCol: 'Supplier Name', sep: ',', encoding: 'utf8',
     mappingFile: path.join(SPEND_DIR, 'hammersmith_fulham_dept_mapping.json'),
     fyLabel: '2023/24 (3/4 quarters, Q3 Oct-Dec 2023 unrecoverable)',
@@ -1429,7 +1437,49 @@ const LLM_COUNCILS = [
     supplierCol: '5. BENEFICIARY', sep: ',', encoding: 'utf8',
     mappingFile: path.join(SPEND_DIR, 'hackney_dept_mapping.json'),
     fyLabel: '2023/24 (11/12 months, May 2023 mislabeled in source)',
-    source: 'London Borough of Hackney — Council Spending Over £250 (hackney.gov.uk via Google Drive, filtered to £500+)' }
+    source: 'London Borough of Hackney — Council Spending Over £250 (hackney.gov.uk via Google Drive, filtered to £500+)' },
+
+  // ─── Combined Authorities (FY 2023-24) ─────────────────────────────
+  // GMCA, WMCA, WYCA — injected as metadata on their own tree nodes
+  // under Local Government (England) > Other Authorities. They are not
+  // double-counted against member councils: MHCLG Revenue Outturn already
+  // treats each CA as a distinct entity reporting only its own expenditure.
+  // LCRCA excluded — no transparency publication (per discovery 2026-04-15).
+
+  { name: 'Greater Manchester Combined Authority', code: 'E47000001',
+    dir: path.join(SPEND_DIR, 'gmca'),
+    deptCol: 'Procurement Category', purposeCol: 'Purpose of Spend',
+    amountCol: 'Net Amount', supplierCol: 'Beneficiary',
+    sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'gmca_dept_mapping.json'),
+    fyLabel: '2023/24',
+    source: 'Greater Manchester Combined Authority — Quarterly Spend over £500 (greatermanchester-ca.gov.uk)',
+    // Merge both TfGM supplier variants (interbank operating transfers +
+    // direct invoices) under one canonical display name. Keeps the panel
+    // honest without making the user parse internal finance jargon.
+    supplierAliases: {
+      'TfGM Interbank': 'Transport for Greater Manchester',
+      'TFGM': 'Transport for Greater Manchester',
+      'Transport for Greater Manchester': 'Transport for Greater Manchester'
+    } },
+
+  { name: 'West Midlands Combined Authority', code: 'E47000007',
+    dir: path.join(SPEND_DIR, 'wmca'),
+    deptCol: 'Cost Centre', purposeCol: 'Expense Type',
+    amountCol: 'Amount', supplierCol: 'Supplier Name',
+    sep: ',', encoding: 'utf8', headerHint: 'Cost Centre',
+    mappingFile: path.join(SPEND_DIR, 'wmca_dept_mapping.json'),
+    fyLabel: '2023/24 (8/12 months, Apr-Jul 2023 PDF-only upstream)',
+    source: 'West Midlands Combined Authority — Monthly Financial Disclosures (wmca.org.uk, Aug 2023 onwards in XLSX)' },
+
+  { name: 'West Yorkshire Combined Authority', code: 'E47000003',
+    files: [path.join(SPEND_DIR, 'wyca', 'wyca_fy2324_unified.csv')],
+    deptCol: 'directorate', purposeCol: 'purpose',
+    amountCol: 'amount', supplierCol: 'supplier',
+    sep: ',', encoding: 'utf8',
+    mappingFile: path.join(SPEND_DIR, 'wyca_dept_mapping.json'),
+    fyLabel: '2023/24 (3/4 quarters, Q2 upstream truncated)',
+    source: 'West Yorkshire Combined Authority — Quarterly Transparency Expenditure (westyorks-ca.gov.uk, 3 schemas unified via preprocess_wyca.js)' }
 ];
 
 // ─── Main ─────────────────────────────────────────────
@@ -1517,6 +1567,30 @@ for (const cfg of LLM_COUNCILS) {
     Object.entries(result.services).sort((a, b) => b[1].service_total_in_spend_data - a[1].service_total_in_spend_data).forEach(([svc, d]) => {
       console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
     });
+  }
+}
+
+// ── Manifest-driven councils (auto_configs.json generated from discovery reports) ──
+
+const AUTO_CONFIGS = path.join(SPEND_DIR, 'auto_configs.json');
+if (fs.existsSync(AUTO_CONFIGS)) {
+  const autoList = JSON.parse(fs.readFileSync(AUTO_CONFIGS, 'utf8'));
+  console.log(`\n━━━ Auto-configs from manifest: ${autoList.length} councils ━━━\n`);
+  for (const cfg of autoList) {
+    // Absolutise the dir/mappingFile paths (generator writes relative where possible)
+    if (cfg.dir && !path.isAbsolute(cfg.dir)) cfg.dir = path.join(SPEND_DIR, cfg.dir);
+    if (cfg.mappingFile && !path.isAbsolute(cfg.mappingFile)) cfg.mappingFile = path.join(SPEND_DIR, cfg.mappingFile);
+    console.log();
+    const result = processCouncilWithMapping(cfg);
+    if (result) {
+      // Carry through provenance fields from the manifest into the merged entry
+      if (cfg.source_url) result.source_url = cfg.source_url;
+      mergeEntry(cfg.name, result);
+      console.log(`\n  ${cfg.name}: £${(result.total_spend_gbp/1e6).toFixed(1)}M total, ${Object.keys(result.services).length} services\n`);
+      Object.entries(result.services).sort((a, b) => b[1].service_total_in_spend_data - a[1].service_total_in_spend_data).forEach(([svc, d]) => {
+        console.log(`    ${svc.padEnd(25)} £${(d.service_total_in_spend_data/1e6).toFixed(1).padStart(6)}M  (${d.transaction_count} tx, ${d.unique_suppliers} suppliers)`);
+      });
+    }
   }
 }
 

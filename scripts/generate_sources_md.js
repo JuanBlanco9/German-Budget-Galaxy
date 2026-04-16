@@ -22,7 +22,7 @@ const DIR_MAP = {
   'Camden':                 ['camden_spend_2023_24.csv'],
   'Rochdale':               'rochdale',
   'Manchester':             'manchester',
-  'Leeds':                  ['leeds_spend_2024.csv'],
+  'Leeds':                  'leeds',
   'Bristol':                'bristol',
   'Sheffield':              'sheffield',
   'Dudley':                 'dudley',
@@ -152,8 +152,21 @@ function listFiles(spec) {
   return files;
 }
 
+// Load auto_configs.json (generated from the discovery manifest) so SOURCES.md
+// includes manifest-driven councils without requiring DIR_MAP edits.
+let autoConfigMap = {};
+const AUTO_CONFIGS_PATH = path.join(SPEND_DIR, 'auto_configs.json');
+if (fs.existsSync(AUTO_CONFIGS_PATH)) {
+  const autoList = JSON.parse(fs.readFileSync(AUTO_CONFIGS_PATH, 'utf8'));
+  for (const cfg of autoList) {
+    // Extract the slug from the absolute dir path
+    const slug = path.basename(cfg.dir || '');
+    if (cfg.name && slug) autoConfigMap[cfg.name] = slug;
+  }
+}
+
 function renderCouncilSection(name, entry) {
-  const dirSpec = DIR_MAP[name];
+  const dirSpec = DIR_MAP[name] || autoConfigMap[name];
   if (!dirSpec) return `### ${name}\n\n_No raw files tracked — data fetched via API at build time._\n\n`;
 
   const files = listFiles(dirSpec);

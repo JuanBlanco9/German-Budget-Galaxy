@@ -25,16 +25,23 @@ const TARGETS = [
   { dir: 'hammersmith_fulham', headerKeyword: 'Supplier Name' },
   // Richmond has one xlsx for July 2023, rest are CSV
   { dir: 'richmond', headerKeyword: 'PAYEE', onlyFiles: ['2023_07.xlsx'] },
-  { dir: 'enfield', headerKeyword: 'Supplier Name' }
+  { dir: 'enfield', headerKeyword: 'Supplier Name' },
+
+  // Combined Authorities (not London boroughs, but same xlsx→csv pattern)
+  { dir: 'wmca', headerKeyword: 'Cost Centre' }
 ];
 
 function csvEscape(v) {
   if (v === null || v === undefined) return '';
   const s = typeof v === 'number' ? String(v) : String(v);
-  if (s.includes(',') || s.includes('"') || s.includes('\n')) {
-    return '"' + s.replace(/"/g, '""') + '"';
+  // Flatten embedded newlines — build_council_spend_lookup splits on \n
+  // before CSV-parsing, so any multi-line quoted cell (common in LBHF xlsx
+  // headers like "Amount £\n(Ex VAT)") produces broken column indexing.
+  const flat = s.replace(/[\r\n]+/g, ' ').replace(/\s+/g, ' ').trim();
+  if (flat.includes(',') || flat.includes('"')) {
+    return '"' + flat.replace(/"/g, '""') + '"';
   }
-  return s;
+  return flat;
 }
 
 function convertFile(filePath, headerKeyword) {

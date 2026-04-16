@@ -60,11 +60,42 @@ function backup(fp) {
   }
 }
 
+// Hard-coded aliases for councils whose tree name and lookup key diverge
+// beyond what normalisation can reconcile (abbreviations, re-namings).
+const NAME_ALIASES = {
+  'BCP COUNCIL': 'BOURNEMOUTH CHRISTCHURCH AND POOLE',
+  'CITY OF YORK COUNCIL': 'YORK',
+  'COUNTY DURHAM COUNCIL': 'DURHAM',
+  'COUNCIL OF THE ISLES OF SCILLY': 'ISLES OF SCILLY',
+  'KINGSTON UPON HULL CITY COUNCIL': 'KINGSTON UPON HULL'
+};
+
 function normalizeName(n) {
-  return String(n)
-    .toUpperCase()
+  let s = String(n).toUpperCase().replace(/&/g, 'AND');
+  if (NAME_ALIASES[s.trim()]) return NAME_ALIASES[s.trim()];
+  return s
+    .replace(/\bMETROPOLITAN BOROUGH COUNCIL\b/g, '')
+    .replace(/\bCOUNTY COUNCIL\b/g, '')
+    .replace(/\bCITY COUNCIL\b/g, '')
+    .replace(/\bBOROUGH COUNCIL\b/g, '')
+    .replace(/\bDISTRICT COUNCIL\b/g, '')
+    .replace(/\bCOUNCIL\b/g, '')
+    .replace(/\bROYAL BOROUGH OF\b/g, '')
+    .replace(/\bLONDON BOROUGH OF\b/g, '')
+    .replace(/\bCC\b/g, '')
     .replace(/[^A-Z0-9]+/g, ' ')
     .trim();
+}
+
+// Marker-token exclusion: if one side has "POLICE"/"COMBINED AUTHORITY" etc
+// and the other does not, they're different entities.
+const INJECT_MARKERS = ['POLICE', 'PCC', 'CONSTABULARY', 'COMBINED AUTHORITY', 'MAYOR', 'MAYORAL', 'FIRE', 'WASTE'];
+function markersDiverge(a, b) {
+  for (const m of INJECT_MARKERS) {
+    const rx = new RegExp('(?:^|\\s)' + m + '(?:\\s|$)');
+    if (rx.test(a) !== rx.test(b)) return true;
+  }
+  return false;
 }
 
 // ─── Main ─────────────────────────────────────────────
@@ -99,18 +130,21 @@ if (CLEAR) {
 }
 
 // Walk: for each council node, see if its name matches any in the lookup.
-// Strict matcher: exact match OR "X CC" (shire county suffix). No first-word
-// match — that was overmatching Police/Fire authorities with the same prefix.
+// Matcher: after normalising both sides (strip "Council", "County Council",
+// "Royal Borough of", "CC" suffix, etc), require EXACT equality. Substring
+// matching over-matches shire districts to their parent county (e.g.
+// "CAMBRIDGE" ⊂ "CAMBRIDGESHIRE"). Marker tokens guard cross-category
+// matches (Hampshire county vs Hampshire Police).
 for (const cls of lg.children) {
   for (const council of cls.children) {
     let entry = null;
     const norm = normalizeName(council.name);
+    if (!norm || norm.length < 4) continue;
     for (const [key, e] of Object.entries(lookup)) {
       const keyNorm = normalizeName(key);
-      if (norm === keyNorm || norm === keyNorm + ' CC') {
-        entry = e;
-        break;
-      }
+      if (!keyNorm || keyNorm.length < 4) continue;
+      if (markersDiverge(norm, keyNorm)) continue;
+      if (norm === keyNorm) { entry = e; break; }
     }
     if (!entry) continue;
 
