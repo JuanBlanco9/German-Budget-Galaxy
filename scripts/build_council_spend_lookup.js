@@ -717,7 +717,23 @@ function processCouncilWithMapping(config) {
   }
   const mapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
   const patterns = mapping.patterns || {};
-  console.log(`Processing ${name} (${Object.keys(patterns).length} mapped patterns)...`);
+  const manualOverrides = mapping._manual_overrides || [];
+  console.log(`Processing ${name} (${Object.keys(patterns).length} mapped patterns${manualOverrides.length ? ', ' + manualOverrides.length + ' manual overrides' : ''})...`);
+
+  // Apply council-scoped overrides AFTER pattern lookup but BEFORE "Other Services"
+  // fallback. Each override has match.dept_exact (case-insensitive) and assign.
+  // Designed for the case where dept name is an MHCLG literal (e.g. "Adult Social
+  // Care") but classifier weighted purpose and chose Other/Central instead.
+  function applyOverride(dept, purpose, mappedService) {
+    for (const ov of manualOverrides) {
+      const m = ov.match || {};
+      if (m.dept_exact && (dept || '').trim().toLowerCase() === m.dept_exact.toLowerCase()) {
+        return ov.assign;
+      }
+    }
+    return mappedService;
+  }
+  let overrideCount = 0;
 
   // Resolve file list
   let fileList;
@@ -789,9 +805,12 @@ function processCouncilWithMapping(config) {
       if (amt > 100_000_000) continue;
 
       const patternKey = dept + '|' + purpose;
-      const service = patterns[patternKey] || 'Other Services';
+      let service = patterns[patternKey] || 'Other Services';
+      const beforeOverride = service;
+      service = applyOverride(dept, purpose, service);
+      if (service !== beforeOverride) overrideCount++;
       if (service === '_excluded') continue;
-      if (!patterns[patternKey]) unmapped++;
+      if (!patterns[patternKey] && service === 'Other Services') unmapped++;
 
       if (!services[service]) services[service] = { suppliers: {}, total: 0, txCount: 0 };
       services[service].total += amt;
@@ -809,6 +828,7 @@ function processCouncilWithMapping(config) {
 
   if (totalRows === 0) { console.log(`  ${name}: no valid rows`); return null; }
   if (unmapped > 0) console.log(`  ${name}: ${unmapped} rows had unmapped patterns → "Other Services"`);
+  if (overrideCount > 0) console.log(`  ${name}: ${overrideCount} rows reassigned by manual overrides`);
   console.log(`  ${name}: ${totalRows} rows, £${(totalSpend / 1e6).toFixed(1)}M total`);
 
   // Build top suppliers per service (same logic as other processors)

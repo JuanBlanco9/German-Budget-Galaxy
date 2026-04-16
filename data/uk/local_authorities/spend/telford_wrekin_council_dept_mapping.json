@@ -8,6 +8,13 @@
     "other_services_pct": 25.7,
     "note": "Patterns classified as Other Services may need manual review"
   },
+  "_manual_overrides": [
+    {
+      "match": { "dept_exact": "Adult Social Care" },
+      "assign": "Adult Social Care",
+      "reason": "Classifier mapped 32 patterns of dept=Adult Social Care to Other/Central/etc based on purpose (Mobile Phones, Nursing Expenditure, Taxi Costs etc). dept name is MHCLG-literal — ~£9.4M misallocated. See session 2026-04-16 evidence query."
+    }
+  ],
   "patterns": {
     "Adult Social Care|Mobile Phones": "Other Services",
     "Adult Social Care|Employee Costs Recharged": "Other Services",
