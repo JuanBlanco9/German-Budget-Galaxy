@@ -1,5 +1,28 @@
 [
   {
+    "name": "Derbyshire Police and Crime Commissioner and Chief Constable",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derbyshire_pcc",
+    "deptCol": "Service Area Categorisation",
+    "purposeCol": "Expenses Type",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derbyshire_pcc_dept_mapping.json",
+    "fyLabel": "Calendar 2024",
+    "source": "Derbyshire PCC — https://www.derbyshire-pcc.gov.uk/finance-grants/items-of-expenditure-exceeding-500/",
+    "source_url": "https://www.derbyshire-pcc.gov.uk/finance-grants/items-of-expenditure-exceeding-500/",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent)",
+    "_manifest_complications": [
+      "PCC publishes by CALENDAR year not fiscal year — used Jan-Dec 2024 file as proxy for FY 24/25 alignment",
+      "Single annual XLSX with 12 monthly sheets — converted to 12 monthly CSVs at import",
+      "Sheet names mixed: Jan/Feb/Mar/April/May/June/Jul/Aug/Sept/Oct/Nov/Dec",
+      "All rows are dept='Police Services' — classifier should bucket most as Police"
+    ]
+  },
+  {
     "name": "Peterborough City Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\peterborough_city_council",
