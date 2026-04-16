@@ -315,6 +315,29 @@
     ]
   },
   {
+    "name": "Bury Metropolitan Borough Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bury_metropolitan_borough_council",
+    "deptCol": "Dept",
+    "purposeCol": "Proclass",
+    "amountCol": "Invoiced",
+    "supplierCol": "Supplier",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bury_metropolitan_borough_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Bury Metropolitan Borough Council — https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers",
+    "source_url": "https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Rolling 2-year retention window — 6 of 12 FY23/24 months permanently purged as of Apr 2026",
+      "Inconsistent filename conventions ('aug' vs 'august', 'sep-24' vs 'september-2024')",
+      "Naming scheme changed from Dec 2025 to 'payments-to-suppliers-over-500-*.xlsx'",
+      "May–Sep 2023 and Nov 2023 return 404"
+    ]
+  },
+  {
     "name": "Doncaster Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\doncaster_metropolitan_borough_council",
@@ -693,6 +716,33 @@
     ]
   },
   {
+    "name": "Wakefield Metropolitan District Council",
+    "code": "E08000036",
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wakefield_metropolitan_district_council",
+    "deptCol": "Cost Centre Narrative",
+    "purposeCol": "Description of Spend(T)",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wakefield_metropolitan_district_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "Wakefield Metropolitan District Council — https://datamillnorth.org/dataset/e61m0/council-spending",
+    "source_url": "https://datamillnorth.org/dataset/e61m0/council-spending",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Quarterly cadence (not monthly) — 4 files per FY",
+      "File hashes in URLs are non-predictable; must scrape dataset page",
+      "datamillnorth.org returns 403 to direct curl/WebFetch but allows browser UA",
+      "2 metadata rows + 1 blank before header row",
+      "Amounts have trailing space (e.g. '591.63 ')",
+      "REDACTED rows for personal data",
+      "Full ProClass taxonomy included",
+      "Publishes ALL payments (not just ≥£500) since 2019/20 Q1"
+    ]
+  },
+  {
     "name": "Kirklees Metropolitan Borough Council",
     "code": null,
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\kirklees_metropolitan_borough_council",
@@ -842,6 +892,29 @@
       "amount column not visible in header sample — likely further right",
       "filename convention changes mid-year (april2023v2.csv vs october-2023.csv)",
       "redacted rows marked 'redacted personal data'"
+    ]
+  },
+  {
+    "name": "North Somerset Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_somerset_council",
+    "deptCol": "CostCentre",
+    "purposeCol": "Description",
+    "amountCol": "Amount",
+    "supplierCol": "Beneficiary",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Beneficiary",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_somerset_council_dept_mapping.json",
+    "fyLabel": "2023/24",
+    "source": "North Somerset Council — https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250",
+    "source_url": "https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "threshold is £250 not £500 — ~48k rows (44%) are under £500 and need filtering",
+      "data on sheet 2 ('250 Spend'); sheet 1 is licence note; sheet 3 is Card Transactions",
+      "no Department column — only cost centre text",
+      "some reversal entries create extreme amount values"
     ]
   },
   {

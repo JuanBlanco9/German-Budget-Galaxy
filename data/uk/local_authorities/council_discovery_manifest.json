@@ -20,9 +20,9 @@
     },
     "complications": [
       "TLS 1.3-only endpoint breaks Windows schannel curl (exit 35)",
-      "WebFetch returns 404 on pattern guesses \u2014 exact filename capitalisation unknown (Apr vs April)",
+      "WebFetch returns 404 on pattern guesses — exact filename capitalisation unknown (Apr vs April)",
       "data.gov.uk dataset is stale (2014)",
-      "Threshold is \u00a3249.99 (lower than standard \u00a3500)",
+      "Threshold is £249.99 (lower than standard £500)",
       "Needs Linux box or TLS 1.3 capable curl to confirm and download",
       "PDF files published in parallel alongside CSV"
     ],
@@ -49,8 +49,8 @@
       "sep": "unknown"
     },
     "complications": [
-      "JS-rendered er-asset-manager Joomla component \u2014 no static file list in HTML",
-      "AJAX/API endpoint not discoverable without headless browser (tried /api/v1/assetmanager, /components/*, ?option=com_assetmanager \u2014 all 404)",
+      "JS-rendered er-asset-manager Joomla component — no static file list in HTML",
+      "AJAX/API endpoint not discoverable without headless browser (tried /api/v1/assetmanager, /components/*, ?option=com_assetmanager — all 404)",
       "Files hosted on downloads.eastriding.org.uk but index is opaque",
       "Quarterly + monthly publishing cadence mentioned but files unconfirmed",
       "FOI email foi@eastriding.gov.uk is documented fallback"
@@ -92,9 +92,9 @@
     },
     "complications": [
       "Personal redaction placeholder supplier name common (GDPR redaction)",
-      "Amounts as strings with thousand-separator commas \u2014 parser must cast",
+      "Amounts as strings with thousand-separator commas — parser must cast",
       "Body Ref is ONS code (00GG)",
-      "Includes some sub-\u00a3500 rows \u2014 council admits incomplete filtering",
+      "Includes some sub-£500 rows — council admits incomplete filtering",
       "Slugs in URLs are opaque hashes, not date-derived"
     ],
     "needs_playwright": false,
@@ -109,7 +109,7 @@
     "url_pattern": "https://hub.arcgis.com/api/v3/datasets/69d3335d71db4dc5b691f01ee04eedc0/downloads/data?format=csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "complete \u2014 43,501 rows confirmed via ArcGIS count query",
+    "fy_coverage": "complete — 43,501 rows confirmed via ArcGIS count query",
     "schema": {
       "supplier_col": "BeneficiaryName",
       "dept_col": "OrganisationalUnit",
@@ -121,7 +121,7 @@
     },
     "complications": [
       "Data served via ArcGIS Feature Service REST API, not a flat file download",
-      "Pagination required \u2014 default maxRecordCount 2000, exceededTransferLimit=true",
+      "Pagination required — default maxRecordCount 2000, exceededTransferLimit=true",
       "ArcGIS Hub CSV export available as alternative",
       "Three-level Proclass taxonomy for expense categorisation (ProclassLabel_level1/2/3)",
       "Date field is string DD/MM/YYYY not a typed date",
@@ -156,7 +156,7 @@
     },
     "complications": [
       "Filename typo: Q3 and Q4 filenames use 'gdp' instead of 'gbp'",
-      "Quarterly granularity only \u2014 no monthly breakdown",
+      "Quarterly granularity only — no monthly breakdown",
       "CSV parallel files discontinued after 2022-23",
       "Redacted supplier names replaced with REDACTED",
       "Rich tier hierarchy (People/Community/Environment/Economy/Corporate/Infrastructure)"
@@ -209,9 +209,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Supplier name column (Ap/Ar ID(T)) is redacted wholesale \u2014 every row shows 'Redacted'",
+      "Supplier name column (Ap/Ar ID(T)) is redacted wholesale — every row shows 'Redacted'",
       "Unusable for supplier-level analytics without FOI request",
-      "Opaque slug-based URLs \u2014 not date-derivable",
+      "Opaque slug-based URLs — not date-derivable",
       "Period column is YYYYMM integer",
       "TT code column purpose unclear"
     ],
@@ -267,8 +267,8 @@
       "sep": "comma"
     },
     "complications": [
-      "WebFetch returns 403 \u2014 User-Agent spoofing required (curl with Mozilla UA returns 200)",
-      "Inconsistent filename separators (underscores, hyphens, spaces) \u2014 regex matching needed",
+      "WebFetch returns 403 — User-Agent spoofing required (curl with Mozilla UA returns 200)",
+      "Inconsistent filename separators (underscores, hyphens, spaces) — regex matching needed",
       "BODY NAME column is a linked-data URI not a plain name",
       "Drupal upload-month paths (YYYY-MM) do not correspond to data month",
       "Some rows have posting dates from prior year leaking into current year files"
@@ -315,12 +315,12 @@
     },
     "complications": [
       "Section 114 notice issued 29 Nov 2023",
-      "Single annual XLSX per fiscal year \u2014 not monthly",
+      "Single annual XLSX per fiscal year — not monthly",
       "Publication lag of several months due to data review process",
       "Combines supplier payments and Government Procurement Card transactions in one workbook",
       "Multiple older slug URLs exist for partial-year revisions (Q1&2, Q1-Q3) during the year",
       "Older historical files consolidated into single 2016-2023 workbook around S114 date",
-      "Supplier postcode field included (unusual \u2014 geo enrichment possible)"
+      "Supplier postcode field included (unusual — geo enrichment possible)"
     ],
     "needs_playwright": false,
     "report_source": "big_unitaries_discovery_batch.md"
@@ -398,7 +398,7 @@
     "url_pattern": "https://www.worcestershire.gov.uk/sites/default/files/{yyyy-mm}/over_ps500_spend_report_{month}_{yyyy}.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Directorate",
@@ -412,10 +412,10 @@
       "Filename scheme changed mid-year",
       "March 2024 and Feb 2024 sheets bundled with Pcard data (likely second tab)",
       "Capitalisation inconsistent in filenames",
-      "March 2024 file named 'Over \u00a3500 and Pcard data March 2024.xlsx'",
+      "March 2024 file named 'Over £500 and Pcard data March 2024.xlsx'",
       "Jan 2024 named 'Over500SpendReportJan2024.xlsx'",
       "URL encoding varies (ps500 vs %C2%A3500)",
-      "Threshold \u00a3500"
+      "Threshold £500"
     ],
     "needs_playwright": false,
     "report_source": "counties_b_big_unitaries_discovery.md"
@@ -429,7 +429,7 @@
     "url_pattern": "https://www.cumberland.gov.uk/sites/default/files/{yyyy-mm}/{Month}%20{YYYY}%2C%20expenditure%20over%20%C2%A3250%20{category}.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023 \u2013 Mar 2024, multiple categories per month)",
+    "fy_coverage": "12/12 verified (Apr 2023 – Mar 2024, multiple categories per month)",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Directorate Description",
@@ -440,7 +440,7 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold \u00a3250 (not \u00a3500)",
+      "Threshold £250 (not £500)",
       "Multiple files per month per category (trade suppliers, private homes, support related payments to individuals, corporate purchase card, schools purchase card)",
       "2 metadata rows before header (header on row 3)",
       "Encoding issue in 'Resources' column (replacement chars)",
@@ -516,7 +516,7 @@
     "url_pattern": "https://www.westmorlandandfurness.gov.uk/sites/default/files/{yyyy-mm}/{Category}%20{MONTH}%20{YYYY}%20-%20WF.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified for all 3 categories (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 verified for all 3 categories (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Directorate Description",
@@ -527,7 +527,7 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold \u00a3250 (not \u00a3500)",
+      "Threshold £250 (not £500)",
       "3 categories per month (Trade Suppliers, Private Homes, Support Related Payments to Individuals)",
       "2 metadata rows before header (header on row 3)",
       "Filenames inconsistent case/encoding (APRIL2023, MAY%202023, JULY vs July)",
@@ -546,7 +546,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "unknown \u2014 blocked by Cloudflare, no automated access possible",
+    "fy_coverage": "unknown — blocked by Cloudflare, no automated access possible",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -557,7 +557,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "Cloudflare JS challenge \u2014 entire domain returns HTTP 403 to curl",
+      "Cloudflare JS challenge — entire domain returns HTTP 403 to curl",
       "Historical URL pattern abandoned post-2012",
       "DGU listing only has 2010-2011 files",
       "Wayback CDX returns empty for 2023-2024 payments URLs",
@@ -575,7 +575,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "unknown \u2014 blocked by Cloudflare, no automated access possible",
+    "fy_coverage": "unknown — blocked by Cloudflare, no automated access possible",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -586,7 +586,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "Cloudflare \u2014 all tested paths including root and sitemap return HTTP 403",
+      "Cloudflare — all tested paths including root and sitemap return HTTP 403",
       "Sitemap returns 0 bytes",
       "DGU only lists former pre-2019 merger district councils",
       "Requires Playwright/headless browser or manual download"
@@ -616,7 +616,7 @@
     "url_pattern": "https://www.brighton-hove.gov.uk/sites/default/files/{yyyy-mm}/Creditor%20Payments%20Over%20250%20{Month}%20{YYYY}.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Creditor Name",
       "dept_col": "Service Label",
@@ -627,12 +627,12 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold \u00a3250 (not \u00a3500)",
+      "Threshold £250 (not £500)",
       "Dual-published: CSV + PDF for each month",
       "Date format DD/MM/YYYY",
       "18-column schema",
       "Case varies in filenames",
-      "Sibling /spending page is stale 14 MB inline-HTML dump (2020 only) \u2014 do not use"
+      "Sibling /spending page is stale 14 MB inline-HTML dump (2020 only) — do not use"
     ],
     "needs_playwright": false,
     "report_source": "counties_b_big_unitaries_discovery.md"
@@ -646,7 +646,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "not found \u2014 no transparency page located",
+    "fy_coverage": "not found — no transparency page located",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -676,7 +676,7 @@
     "url_pattern": "https://data.portsmouth.gov.uk/media/tables/pcc-spend-transparency-template-fusion-{month}-{YYYY}-.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Service Area Categorisation",
@@ -687,7 +687,7 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold \u00a3500",
+      "Threshold £500",
       "April 2023 uses different page slug (payment-to-suppliers-april-2023 vs payments-to-suppliers-{month}-{YYYY})",
       "Trailing/leading hyphens in some file slugs",
       "Amounts with thousands separators need quoting",
@@ -707,7 +707,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "unknown \u2014 blocked by Imperva/Incapsula, no automated access possible",
+    "fy_coverage": "unknown — blocked by Imperva/Incapsula, no automated access possible",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -718,7 +718,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "Imperva/Incapsula WAF \u2014 all paths return sub-1 KB iframe stub",
+      "Imperva/Incapsula WAF — all paths return sub-1 KB iframe stub",
       "Both www.southampton.gov.uk and data.southampton.gov.uk affected",
       "Sitemap also Incapsula-stubbed",
       "DGU only lists 2010 webarchive XLS",
@@ -761,7 +761,7 @@
     "url_pattern": "https://www.london.gov.uk/media/{id}/download",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "Full year P1\u2013P13 (Apr 2023\u2013Mar 2024) in consolidated file; per-period files also available",
+    "fy_coverage": "Full year P1–P13 (Apr 2023–Mar 2024) in consolidated file; per-period files also available",
     "schema": {
       "supplier_col": "Vendor Name",
       "dept_col": "Directorate",
@@ -772,13 +772,13 @@
       "sep": "comma"
     },
     "complications": [
-      "Header is on row 10 (rows 1\u20139 are metadata); requires skiprows=9 in pandas",
-      "Encoding is Latin-1/cp1252 \u2014 stray byte where \u00a3 sign appears",
-      "Negative reversal rows present \u2014 must sum/net, not count",
-      "Threshold is \u00a3250 excl. VAT, not the standard \u00a3500",
+      "Header is on row 10 (rows 1–9 are metadata); requires skiprows=9 in pandas",
+      "Encoding is Latin-1/cp1252 — stray byte where £ sign appears",
+      "Negative reversal rows present — must sum/net, not count",
+      "Threshold is £250 excl. VAT, not the standard £500",
       "Covers GLA core + GLA Land & Property only; TfL, MPS, LFB are separate bodies",
-      "Summary Total (~\u00a32B) is ~2\u00d7 MHCLG-attributed figure due to grants, capital, and pass-through spend",
-      "P5\u2013P13 per-period URLs not fully enumerated \u2014 linked from landing page only",
+      "Summary Total (~£2B) is ~2× MHCLG-attributed figure due to grants, capital, and pass-through spend",
+      "P5–P13 per-period URLs not fully enumerated — linked from landing page only",
       "Consolidated file (media/106057) recommended; per-period stitching not needed"
     ],
     "needs_playwright": false,
@@ -806,7 +806,7 @@
     "url_pattern": "https://documents.hants.gov.uk/opendata/{YYYY-YYYY}-All-Departments-Output-HCC-Transparency-Reporting-{MonthYYYY}.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 verified \u2014 April 2023 under 2022-2023 FY tag, May 2023\u2013March 2024 under 2023-2024 FY tag",
+    "fy_coverage": "12/12 verified — April 2023 under 2022-2023 FY tag, May 2023–March 2024 under 2023-2024 FY tag",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Department",
@@ -817,19 +817,19 @@
       "sep": "unknown"
     },
     "complications": [
-      "documents.hants.gov.uk behind Akamai-style edge \u2014 returns HTTP 403 to curl/wget/python-requests; requires Chrome UA + Referer + session cookies",
-      "April 2023 file is filed under 2022-2023 FY bucket, not 2023-2024 \u2014 filename quirk, both must be ingested for full FY 2023/24 coverage",
-      "File format is XLSX not CSV \u2014 requires openpyxl; header row position unconfirmed but likely row 1",
-      "Amount column header has leading whitespace in legacy CSV ('       Amount') \u2014 strip header whitespace before matching",
+      "documents.hants.gov.uk behind Akamai-style edge — returns HTTP 403 to curl/wget/python-requests; requires Chrome UA + Referer + session cookies",
+      "April 2023 file is filed under 2022-2023 FY bucket, not 2023-2024 — filename quirk, both must be ingested for full FY 2023/24 coverage",
+      "File format is XLSX not CSV — requires openpyxl; header row position unconfirmed but likely row 1",
+      "Amount column header has leading whitespace in legacy CSV ('       Amount') — strip header whitespace before matching",
       "Date format is dd.mm.yyyy (dots) and labelled 'Posting Date' not 'Payment Date'; can lag real payment date by days/weeks",
       "Data published two months in arrears",
-      "Supplier Name = 'Personal Payments' indicates redacted personal payment \u2014 filter or flag",
-      "Data for January 2023 to October 2023 re-run due to data processing issue \u2014 re-download if cached",
+      "Supplier Name = 'Personal Payments' indicates redacted personal payment — filter or flag",
+      "Data for January 2023 to October 2023 re-run due to data processing issue — re-download if cached",
       "Amounts are net of VAT; no currency symbol, no thousands separators",
-      "Schools delegated budgets excluded \u2014 known coverage gap",
+      "Schools delegated budgets excluded — known coverage gap",
       "Adult Services Spending Area column uses internal abbreviation codes (ACM, CMHT, DAAT, LD, MH, OPH, OP, PD, SP, M&S)",
       "Landing page also blocks bots; recommend discovering future URLs via Wayback Machine snapshots",
-      "data.gov.uk entry exists but is stale (last resource September 2014) \u2014 not usable for FY 2023/24",
+      "data.gov.uk entry exists but is stale (last resource September 2014) — not usable for FY 2023/24",
       "Council uses hants.gov.uk domain, not hampshire.gov.uk"
     ],
     "needs_playwright": true,
@@ -846,7 +846,7 @@
     "url_pattern": "POST https://transparency.lancashire.gov.uk/index.asp?Period={MMYYYY}&Version={N} with body strAction=exportCSV&strOutputFields=service_lable&strOutputFields=service_code&strOutputFields=organisational_unit&strOutputFields=expenditure_category&strOutputFields=expenditure_code&strOutputFields=payment_date&strOutputFields=transaction_number&strOutputFields=amount&strOutputFields=supplier_name",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 months accounted for (Apr 2023\u2013Mar 2024); Mar 2024 requires Version=2; Jan 2024 served as static file with divergent schema",
+    "fy_coverage": "12/12 months accounted for (Apr 2023–Mar 2024); Mar 2024 requires Version=2; Jan 2024 served as static file with divergent schema",
     "schema": {
       "supplier_col": "Supplier name",
       "dept_col": "Organisational unit",
@@ -857,15 +857,15 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250 (incl. VAT), not \u00a3500 \u2014 filter Amount >= 500 in pipeline",
-      "Data served via HTTP POST to a custom ASP dynamic exporter \u2014 not simple GET downloads",
-      "Jan 2024 is a static file with divergent schema: US-spelled headers ('Organizational Unit'), unquoted CSV, date format '4-Jan-24', decimal amounts, empty Transaction Number column \u2014 requires separate parser branch",
+      "Threshold is £250 (incl. VAT), not £500 — filter Amount >= 500 in pipeline",
+      "Data served via HTTP POST to a custom ASP dynamic exporter — not simple GET downloads",
+      "Jan 2024 is a static file with divergent schema: US-spelled headers ('Organizational Unit'), unquoted CSV, date format '4-Jan-24', decimal amounts, empty Transaction Number column — requires separate parser branch",
       "Mar 2024 requires Version=2; Version=1 silently returns a 150-byte stub",
       "Mar 2024 file was amended on 16-Jul-2025 (red banner on viewer)",
-      "Dynamic exporter drops decimals \u2014 amounts appear as integers, possibly truncated pence or rounded pounds",
-      "'Service label' and 'Service code' columns appear identical in many rows (both '11') \u2014 suspected source data quality issue",
+      "Dynamic exporter drops decimals — amounts appear as integers, possibly truncated pence or rounded pounds",
+      "'Service label' and 'Service code' columns appear identical in many rows (both '11') — suspected source data quality issue",
       "Portal dropdown only lists last ~20 months; 2023/24 months not browsable from menu but URL pattern still works",
-      "Trailing comma after last column \u2014 naive parsers may see a spurious 10th empty field",
+      "Trailing comma after last column — naive parsers may see a spurious 10th empty field",
       "No supplier address, no invoice description, no VAT split",
       "Encoding declared as iso-8859-1 in HTML; decode as cp1252 defensively for UK supplier names with accents",
       "No data.gov.uk feed available; fallback is page-by-page HTML scraping of viewer using NoRec parameter",
@@ -907,12 +907,12 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250, not \u00a3500 \u2014 more rows than typical",
-      "Fixed-width whitespace padding on text fields \u2014 trim required",
+      "Threshold is £250, not £500 — more rows than typical",
+      "Fixed-width whitespace padding on text fields — trim required",
       "Amounts use thousand-separator commas inside quoted fields",
-      "Mar 2024 filename literal contains 'Mar 2023' \u2014 treat resource as March 2024",
+      "Mar 2024 filename literal contains 'Mar 2023' — treat resource as March 2024",
       "Multi-line invoices: aggregate by INVOICEID to avoid double-counting",
-      "No VAT flag column \u2014 LFB recovers all VAT",
+      "No VAT flag column — LFB recovers all VAT",
       "12 monthly CSVs to ingest separately"
     ],
     "needs_playwright": false,
@@ -929,7 +929,7 @@
     "url_pattern": "https://www.met.police.uk/SysSiteAssets/foi-media/metropolitan-police/what_we_spend/corporate/mopac-mps-expenditure-invoices-credits-over-250-{period}.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "7/12 confirmed (Sep 2023\u2013Mar 2024); Apr\u2013Aug 2023 file not located, likely exists but URL unverified",
+    "fy_coverage": "7/12 confirmed (Sep 2023–Mar 2024); Apr–Aug 2023 file not located, likely exists but URL unverified",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Cost Centre Description",
@@ -940,11 +940,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "CDN returns HTTP 403 to all curl/automated requests \u2014 browser User-Agent required",
-      "Threshold is \u00a3250 (not the standard \u00a3500)",
-      "Joint MOPAC+MPS publication \u2014 rows do not distinguish legal entity",
+      "CDN returns HTTP 403 to all curl/automated requests — browser User-Agent required",
+      "Threshold is £250 (not the standard £500)",
+      "Joint MOPAC+MPS publication — rows do not distinguish legal entity",
       "Irregular publication cadence (was quarterly through 2021, now ~half-yearly bundles)",
-      "H1 FY 2023/24 (Apr\u2013Aug 2023) file not confirmed \u2014 may not exist as single artifact",
+      "H1 FY 2023/24 (Apr–Aug 2023) file not confirmed — may not exist as single artifact",
       "XLSX only, no CSV",
       "MOPAC london.gov.uk page redirects to MPS publication scheme rather than hosting files"
     ],
@@ -963,23 +963,23 @@
     "url_pattern": "https://www.surreyi.gov.uk/download/e6rgn/{XXX}/ERP%20Spend%20Q{N}%202023-2024.csv",
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "Q3+Q4 confirmed URLs; Q1/Q2 tokens unknown \u2014 2/4 quarters resolved",
+    "fy_coverage": "Q3+Q4 confirmed URLs; Q1/Q2 tokens unknown — 2/4 quarters resolved",
     "schema": {
       "supplier_col": "Beneficiary (supplier) name",
       "dept_col": "Department/Service area incurring spend",
       "purpose_col": "Summary of purpose of spend",
-      "amount_col": "Gross amount (\u00a3)",
+      "amount_col": "Gross amount (£)",
       "date_col": "Date of payment",
       "encoding": "utf8",
       "sep": "comma"
     },
     "complications": [
-      "Surrey-i blocks curl and WebFetch with HTTP 403 \u2014 likely Cloudflare/UA filtering; browser required",
-      "Q1 and Q2 2023/24 file tokens (3-char random strings) not exposed in search index \u2014 manual browser visit needed",
-      "SAP\u2192ERP migration during 2023/24 means Q1/Q2 may use 'SAP Spend Data Qx' filename prefix instead of 'ERP Spend Qx'",
-      "Threshold is \u00a3250 not \u00a3500 \u2014 client-side filtering required to isolate \u00a3500+ spend",
-      "File ID tokens are random 3-char strings, not predictable \u2014 43 files on dataset",
-      "Q3 token 'll8' surfaced for both Q3 23-24 and Q2 24-25 \u2014 needs visual verification",
+      "Surrey-i blocks curl and WebFetch with HTTP 403 — likely Cloudflare/UA filtering; browser required",
+      "Q1 and Q2 2023/24 file tokens (3-char random strings) not exposed in search index — manual browser visit needed",
+      "SAP→ERP migration during 2023/24 means Q1/Q2 may use 'SAP Spend Data Qx' filename prefix instead of 'ERP Spend Qx'",
+      "Threshold is £250 not £500 — client-side filtering required to isolate £500+ spend",
+      "File ID tokens are random 3-char strings, not predictable — 43 files on dataset",
+      "Q3 token 'll8' surfaced for both Q3 23-24 and Q2 24-25 — needs visual verification",
       "Purchase card spend is a separate dataset (ID 2n563) excluded from ERP/SAP files"
     ],
     "needs_playwright": true,
@@ -1010,27 +1010,27 @@
     "url_pattern": "https://content.tfl.gov.uk/tflspend2024p{NN}.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "13/13 four-week periods verified (P01 Apr 2023 \u2013 P13 Mar 2024)",
+    "fy_coverage": "13/13 four-week periods verified (P01 Apr 2023 – P13 Mar 2024)",
     "schema": {
       "supplier_col": "Vendor Name",
       "dept_col": "Entity",
       "purpose_col": "Expenditure Account",
-      "amount_col": "Amount (\u00a3)",
+      "amount_col": "Amount (£)",
       "date_col": "Clearing Date",
       "encoding": "cp1252",
       "sep": "comma"
     },
     "complications": [
       "tfl.gov.uk HTML pages return 403 to bots (Cloudflare-walled); only content.tfl.gov.uk CSV mirror is directly scriptable",
-      "6 metadata rows before header row \u2014 must skip on parse",
-      "Encoding is Windows-1252 (cp1252), not UTF-8; \u00a3 sign appears as \\xa3 if read incorrectly",
-      "Amount values are quoted strings with thousand-separator commas \u2014 must strip commas before casting to float",
-      "Document Number column contains backslashes (e.g. 1005\\5110248428) \u2014 watch escape handling",
+      "6 metadata rows before header row — must skip on parse",
+      "Encoding is Windows-1252 (cp1252), not UTF-8; £ sign appears as \\xa3 if read incorrectly",
+      "Amount values are quoted strings with thousand-separator commas — must strip commas before casting to float",
+      "Document Number column contains backslashes (e.g. 1005\\5110248428) — watch escape handling",
       "Merchant Category column frequently blank",
       "No dedicated cost-centre column; departmental dimension is the Entity column (TfL subsidiary: LUL, DLR, LBSL, Surface, TTL, RfL, TfL Corporate)",
       "Uses 13 four-week accounting periods per FY, not calendar months",
       "Crossrail/Elizabeth line (RfL) payments appear as rows in main file, not a separate file; historical crossrailspend* series returned 404 for FY2024",
-      "contracts-awarded-tfl.csv is a single rolling file (not periodic) covering contracts >\u00a35k awarded"
+      "contracts-awarded-tfl.csv is a single rolling file (not periodic) covering contracts >£5k awarded"
     ],
     "needs_playwright": true,
     "report_source": "discovery_tfl_spend_register.md"
@@ -1049,7 +1049,7 @@
     "url_pattern": null,
     "file_format": "xlsx",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified \u2014 single annual file April 2023\u2013March 2024",
+    "fy_coverage": "12/12 verified — single annual file April 2023–March 2024",
     "schema": {
       "supplier_col": "Supplier",
       "dept_col": "Directorate/Service",
@@ -1060,13 +1060,13 @@
       "sep": "unknown"
     },
     "complications": [
-      "Threshold is \u00a3100 (not \u00a3500) \u2014 expect very high row count",
-      "Negative values present (credit notes, overpayment recoveries) \u2014 do not net blindly",
-      "P-Card transactions included both as merchant-level detail and offsetting payments to card provider \u2014 double-count risk",
+      "Threshold is £100 (not £500) — expect very high row count",
+      "Negative values present (credit notes, overpayment recoveries) — do not net blindly",
+      "P-Card transactions included both as merchant-level detail and offsetting payments to card provider — double-count risk",
       "Some rows fall below threshold due to invoice line-item coding and petty cash inclusion",
       "Accounts Receivable offsets not included",
-      "Single annual XLSX file only \u2014 no monthly breakdown or CSV variant for FY 2023/24",
-      "No published column dictionary \u2014 schema must be inferred from file headers at parse time",
+      "Single annual XLSX file only — no monthly breakdown or CSV variant for FY 2023/24",
+      "No published column dictionary — schema must be inferred from file headers at parse time",
       "Umbraco /media/{shortcode}/ URLs are unstable across re-uploads; re-resolve from landing page rather than hardcoding"
     ],
     "needs_playwright": false,
@@ -1200,7 +1200,7 @@
       "Cloudflare bot challenge blocking most downloads",
       "Only 2/12 files retrieved despite Chrome UA + Referer + Accept headers",
       "Wayback Machine has zero archived snapshots for any of the opendata URLs",
-      "Intermittent Cloudflare challenges \u2014 not a clean UA fix",
+      "Intermittent Cloudflare challenges — not a clean UA fix",
       "Requires Playwright/Selenium with cf-clearance cookie, residential proxy, or direct council contact"
     ],
     "needs_playwright": true,
@@ -1228,9 +1228,9 @@
     "complications": [
       "April-November 2023 files are multi-sheet XLSM workbooks; data on 'Report' sheet or named month sheet (e.g. 'JULY 2023')",
       "December 2023-March 2024 are single-sheet workbooks with data on first sheet",
-      "Value column format inconsistent: April-November uses plain numbers (e.g. -1029.00), December-March uses currency strings (e.g. \"-\u00a32,895.06\") requiring normalisation",
+      "Value column format inconsistent: April-November uses plain numbers (e.g. -1029.00), December-March uses currency strings (e.g. \"-£2,895.06\") requiring normalisation",
       "14 data columns plus trailing empty columns",
-      "Threshold is spend over \u00a3250, not \u00a3500",
+      "Threshold is spend over £250, not £500",
       "Files converted to CSV locally; original source URLs not recorded in this report"
     ],
     "needs_playwright": false,
@@ -1305,7 +1305,7 @@
       "sep": "comma"
     },
     "complications": [
-      "Host blocks server-side fetches (ECONNREFUSED / connection reset) \u2014 WAF or geo-block",
+      "Host blocks server-side fetches (ECONNREFUSED / connection reset) — WAF or geo-block",
       "Quarterly publication, not monthly",
       "Inconsistent filename casing (Q1-... vs q3-...)",
       "Occasional _2 / rerun suffix in filenames",
@@ -1358,7 +1358,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "Schema not captured \u2014 binary XLSX not parsed inline",
+      "Schema not captured — binary XLSX not parsed inline",
       "February 2024 file is .xls (legacy), all others .xlsx",
       "October 2023 file has trailing underscore in filename (October2023_.xlsx)",
       "Legacy transparency portal at secure.sthelens.net/servlet/localtransparency/ also exists as dropdown interface",
@@ -1400,11 +1400,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Amounts stored as text with \u00a3 symbol and commas (e.g. \"-\u00a323,484.00\") \u2014 requires parsing",
+      "Amounts stored as text with £ symbol and commas (e.g. \"-£23,484.00\") — requires parsing",
       "Legacy CCC/NCC/MKC column suffixes from pre-2021 Northamptonshire County + Milton Keynes accounting systems",
       "Many columns sparsely populated depending on source system",
       "Credits shown as negative",
-      "Opaque CMS media IDs \u2014 no human-readable URL pattern"
+      "Opaque CMS media IDs — no human-readable URL pattern"
     ],
     "needs_playwright": false,
     "report_source": "final_met_districts_small_unitaries.md"
@@ -1442,9 +1442,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Amounts stored as text with \u00a3 symbol, thousand separators and quotes (e.g. \"-\u00a38,503.95\")",
-      "Opaque CMS media IDs \u2014 no human-readable URL pattern",
-      "Cleaner schema than West Northamptonshire \u2014 no legacy suffixes"
+      "Amounts stored as text with £ symbol, thousand separators and quotes (e.g. \"-£8,503.95\")",
+      "Opaque CMS media IDs — no human-readable URL pattern",
+      "Cleaner schema than West Northamptonshire — no legacy suffixes"
     ],
     "needs_playwright": false,
     "report_source": "final_met_districts_small_unitaries.md"
@@ -1473,9 +1473,9 @@
     },
     "complications": [
       "Single annual file, not monthly",
-      "Only 4 columns \u2014 no directorate or service area",
+      "Only 4 columns — no directorate or service area",
       "Amount is net of VAT, not gross",
-      "Merchant category is only categorisation \u2014 minimal schema for tree mapping",
+      "Merchant category is only categorisation — minimal schema for tree mapping",
       "Very small council"
     ],
     "needs_playwright": false,
@@ -1502,10 +1502,10 @@
     },
     "complications": [
       "Landing page returns 403 to WebFetch; CSVs on digitalservices.iow.gov.uk and iwc.iow.gov.uk subdomains are fetchable",
-      "Three different host aliases observed: iow.gov.uk, iwc.iow.gov.uk, digitalservices.iow.gov.uk \u2014 complicates scripting",
+      "Three different host aliases observed: iow.gov.uk, iwc.iow.gov.uk, digitalservices.iow.gov.uk — complicates scripting",
       "Stray empty second column header in schema",
       "Date format dd.mm.yyyy (non-ISO)",
-      "SERCOP taxonomy used \u2014 both high-level and detailed categories",
+      "SERCOP taxonomy used — both high-level and detailed categories",
       "Some months may have been published as PDF first"
     ],
     "needs_playwright": false,
@@ -1531,7 +1531,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "No static download file \u2014 data served via Logi Analytics interactive report (rdPage.aspx?rdReport=AP_500_Report)",
+      "No static download file — data served via Logi Analytics interactive report (rdPage.aspx?rdReport=AP_500_Report)",
       "Requires form submission (Year/Month From + To + Submit), switch to Analysis Grid view, then export icon click",
       "Landing page returns 403 to WebFetch",
       "Requires Playwright/Selenium browser automation",
@@ -1565,9 +1565,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "Q3 2023/24 (Oct-Dec 2023) completely unrecoverable \u2014 not on live origin, Wayback Machine, Google, data.london.gov.uk, or data.gov.uk",
+      "Q3 2023/24 (Oct-Dec 2023) completely unrecoverable — not on live origin, Wayback Machine, Google, data.london.gov.uk, or data.gov.uk",
       "Live files are unlinked from public transparency page but still served at direct URLs",
-      "Requires browser/Chrome User-Agent \u2014 returns 403 to default curl/bot UA",
+      "Requires browser/Chrome User-Agent — returns 403 to default curl/bot UA",
       "Q1 has 9 columns (code+description split for cost center and GL); Q2 and Q4 have 7 columns",
       "Reference column name varies per quarter: Q1='Document Number', Q2='Unique reference number', Q4='Reference'",
       "Cost center column name varies: Q1/Q2 use 'Cost Center/Capital Project Description'; Q4 uses 'Service Area/Capital Project Description'",
@@ -1632,25 +1632,25 @@
     "url_pattern": "https://www.kingston.gov.uk/sites/default/files/2025-05/",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified \u2014 Apr 2023 through Mar 2024, batch-uploaded May 2025",
+    "fy_coverage": "12/12 verified — Apr 2023 through Mar 2024, batch-uploaded May 2025",
     "schema": {
       "supplier_col": "Supplier name",
       "dept_col": "Expense Area",
       "purpose_col": "Expense Type",
-      "amount_col": "Amount \u00a3 (Excl VAT)",
+      "amount_col": "Amount £ (Excl VAT)",
       "date_col": "Date",
       "encoding": "latin1",
       "sep": "comma"
     },
     "complications": [
-      "UTF-8 files contain Latin-1 pound sign byte in header \u2014 must decode as cp1252/latin-1",
-      "Amount column name contains non-ASCII \u00a3 character \u2014 rename before ingest",
+      "UTF-8 files contain Latin-1 pound sign byte in header — must decode as cp1252/latin-1",
+      "Amount column name contains non-ASCII £ character — rename before ingest",
       "Date format is DD/MM/YYYY",
       "April 2023 file contains a few 31/03/2023 transactions posted in April accounting period",
-      "data.gov.uk dataset db140e39-afe3-4944-9355-c422b8401ad6 is stale (last updated 2013) \u2014 do not use",
+      "data.gov.uk dataset db140e39-afe3-4944-9355-c422b8401ad6 is stale (last updated 2013) — do not use",
       "Files batch-uploaded May 2025 under /sites/default/files/2025-05/ path",
       "Council Name field value is 'Royal Borough of Kingston' (not full official name)",
-      "Bonus GPC/credit card spend Sep 2023\u2013Feb 2024 available as XLSX-as-CSV files (not downloaded), pattern: Credit_card_spend_<Month>_<YY>.xlsx___Sheet1.csv"
+      "Bonus GPC/credit card spend Sep 2023–Feb 2024 available as XLSX-as-CSV files (not downloaded), pattern: Credit_card_spend_<Month>_<YY>.xlsx___Sheet1.csv"
     ],
     "needs_playwright": false,
     "report_source": "kingston_recovery_alt_sources.md"
@@ -1664,7 +1664,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "unknown \u2014 Cloudflare blocks all access",
+    "fy_coverage": "unknown — Cloudflare blocks all access",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -1715,7 +1715,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "Filename uses ___ in place of \u00a3 sign",
+      "Filename uses ___ in place of £ sign",
       "Some rows have supplier = 'REDACTED PERSONAL INFORMATION'",
       "Dates are Excel serial numbers, not formatted dates",
       "~20,000 rows per quarter"
@@ -1743,12 +1743,12 @@
       "sep": "comma"
     },
     "complications": [
-      "Files hosted on Google Drive \u2014 individual file IDs per month, must scrape landing page to discover IDs",
+      "Files hosted on Google Drive — individual file IDs per month, must scrape landing page to discover IDs",
       "Files named .xlsx but are actually CSV (MIME mismatch)",
-      "Threshold is \u00a3250 not \u00a3500 \u2014 higher row count than typical",
-      "Anchor labels unreliable: file under 'April 2023' header may contain December 2023 data \u2014 must validate by reading YEAR/MONTH columns",
-      "Amount column has leading/trailing spaces, \u00a3 sign, and thousands commas \u2014 needs regex cleaning",
-      "March 2024 missing from landing page \u2014 11/12 months only"
+      "Threshold is £250 not £500 — higher row count than typical",
+      "Anchor labels unreliable: file under 'April 2023' header may contain December 2023 data — must validate by reading YEAR/MONTH columns",
+      "Amount column has leading/trailing spaces, £ sign, and thousands commas — needs regex cleaning",
+      "March 2024 missing from landing page — 11/12 months only"
     ],
     "needs_playwright": false,
     "report_source": "london_boroughs_discovery_batch_2.md"
@@ -1764,7 +1764,7 @@
     "url_pattern": "https://www.lbhf.gov.uk/sites/default/files/{YYYY-MM}/lbhf-spend-data-q{N}-{YY}-{YY}.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "Q4 only (Jan\u2013Mar 2024), 1/4 quarters \u2014 Q1\u2013Q3 purged from live site",
+    "fy_coverage": "Q4 only (Jan–Mar 2024), 1/4 quarters — Q1–Q3 purged from live site",
     "schema": {
       "supplier_col": "Beneficiary",
       "dept_col": "Department",
@@ -1775,9 +1775,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "Rolling window purge: Q1, Q2, Q3 of 2023/24 removed from live site \u2014 only Q4 remains",
-      "Q1\u2013Q3 recovery requires Wayback Machine",
-      "CloudFront 403 on bare curl UA \u2014 requires realistic Chrome UA + Accept-Language + --compressed",
+      "Rolling window purge: Q1, Q2, Q3 of 2023/24 removed from live site — only Q4 remains",
+      "Q1–Q3 recovery requires Wayback Machine",
+      "CloudFront 403 on bare curl UA — requires realistic Chrome UA + Accept-Language + --compressed",
       "'Date incurred -Payment Date' header has rogue hyphen and space",
       "~16,850 rows per quarter"
     ],
@@ -1827,7 +1827,7 @@
     "complications": [
       "Cleanest schema of the batch",
       "Date format DD/MM/YYYY",
-      "Amounts are plain decimals with no \u00a3 sign",
+      "Amounts are plain decimals with no £ sign",
       "~21,000 rows per quarter"
     ],
     "needs_playwright": false,
@@ -1858,11 +1858,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "File URLs use slug-based file IDs with no predictable pattern \u2014 must scrape landing page to discover IDs",
+      "File URLs use slug-based file IDs with no predictable pattern — must scrape landing page to discover IDs",
       "Files served with '-xls-' suffix in slug but are actually Excel 2007+ XLSX",
       "Some suppliers redacted as 'REDACTED PERSONAL DATA' or 'REDACTED COMMERCIAL DATA'",
-      "Purchase card spend is a separate file series \u2014 filter to council-spend slugs only",
-      "Q3 slug says 'september-december' but actually covers Oct\u2013Dec per sibling PDF",
+      "Purchase card spend is a separate file series — filter to council-spend slugs only",
+      "Q3 slug says 'september-december' but actually covers Oct–Dec per sibling PDF",
       "~16,850 rows per quarter"
     ],
     "needs_playwright": false,
@@ -1881,7 +1881,7 @@
     "url_pattern": "https://www.havering.gov.uk/downloads/file/{ID}/{month-year}",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 months verified (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 months verified (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Beneficiary",
       "dept_col": "Local Authority Department",
@@ -1892,9 +1892,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Date format DD-MM-YYYY with leading space \u2014 trim before parsing",
-      "File extension not in URL slug \u2014 served as CSV via Content-Disposition header",
-      "File IDs are non-predictable \u2014 must scrape index page to get all 12 monthly IDs",
+      "Date format DD-MM-YYYY with leading space — trim before parsing",
+      "File extension not in URL slug — served as CSV via Content-Disposition header",
+      "File IDs are non-predictable — must scrape index page to get all 12 monthly IDs",
       "~6,000 rows per month"
     ],
     "needs_playwright": false,
@@ -1933,7 +1933,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "File IDs are scrambled/non-sequential \u2014 must scrape landing page to map IDs",
+      "File IDs are scrambled/non-sequential — must scrape landing page to map IDs",
       "Redirects from main URL to pre.hillingdon.gov.uk subdomain",
       "Calendar-year file split (2023 + 2024), not FY-aligned",
       "Date column is datetime type",
@@ -1987,7 +1987,7 @@
     },
     "complications": [
       "Files hosted on third-party blob.datopian.com (AWS-backed PortalJS)",
-      "Each file has a unique opaque content-addressed hash \u2014 cannot construct URL without scraping dataset page first",
+      "Each file has a unique opaque content-addressed hash — cannot construct URL without scraping dataset page first",
       "136 files total spanning 2010-2026; must identify correct 12 for FY23/24",
       "Additional columns: ServiceCategoryLabel, CategoryInternalName"
     ],
@@ -2029,7 +2029,7 @@
     },
     "complications": [
       "Quarterly files, not monthly (4 files cover FY23/24)",
-      "Q1 file named 'march-2023-through-to-june-2023' \u2014 slight overlap with prior FY (includes March 2023)",
+      "Q1 file named 'march-2023-through-to-june-2023' — slight overlap with prior FY (includes March 2023)",
       "Numeric amounts quoted with thousands-comma separators",
       "Additional columns: Account, Service, Payment type"
     ],
@@ -2061,10 +2061,10 @@
       "sep": "comma"
     },
     "complications": [
-      "Cloudflare-fronted (CF-Ray confirmed) \u2014 curl with default UA passes, no JS challenge",
-      "Calendar quarters not FY quarters \u2014 FY23/24 requires Q2 2023 through Q1 2024",
-      "Raw bytes include \\x92 (Windows-1252) in headers \u2014 treat as cp1252/latin1",
-      "22 columns \u2014 widest schema in batch",
+      "Cloudflare-fronted (CF-Ray confirmed) — curl with default UA passes, no JS challenge",
+      "Calendar quarters not FY quarters — FY23/24 requires Q2 2023 through Q1 2024",
+      "Raw bytes include \\x92 (Windows-1252) in headers — treat as cp1252/latin1",
+      "22 columns — widest schema in batch",
       "Rich metadata: CPV codes, ProClass codes, VCSE flag, registered-charity number, card_transaction flag",
       "Amounts quoted with thousands separators",
       "Actual filename set via Content-Disposition header (e.g. '2023 Q4 - Final_2.csv')"
@@ -2093,7 +2093,7 @@
     },
     "complications": [
       "HARD BLOCKER: no current transparency spend-over-500 publication found",
-      "data.gov.uk dataset last updated 12 Aug 2013, latest file Oct 2010 \u2014 all resources archived at nationalarchives",
+      "data.gov.uk dataset last updated 12 Aug 2013, latest file Oct 2010 — all resources archived at nationalarchives",
       "data.kingston.gov.uk is ArcGIS/InstantAtlas demographics portal with no finance datasets",
       "Two site searches, publisher listing, and CKAN org page all returned negative",
       "Recommendation: FOI request or skip"
@@ -2134,16 +2134,16 @@
       "supplier_col": "SUPPLIER",
       "dept_col": "DEPARTMENT",
       "purpose_col": "DESCRIPTION",
-      "amount_col": "\u00a3 SPEND (EXCLUDING VAT)",
+      "amount_col": "£ SPEND (EXCLUDING VAT)",
       "date_col": "PAYMENT DATE",
       "encoding": "unknown",
       "sep": "unknown"
     },
     "complications": [
-      "Threshold is \u00a3250 not \u00a3500 \u2014 filter amount >= 500 for parity",
-      "Metadata row 1 = title, row 2 = blank, row 3 = headers \u2014 skip 2 rows on read",
-      "Sheet name contains non-ASCII: '\u00a3' stored as \\x92 (cp1252), and sheet name is misspelled (e.g. 'Payemnts ove \u00a3250')",
-      "Path prefix inconsistent across months \u2014 6 different directory stems observed in FY23/24",
+      "Threshold is £250 not £500 — filter amount >= 500 for parity",
+      "Metadata row 1 = title, row 2 = blank, row 3 = headers — skip 2 rows on read",
+      "Sheet name contains non-ASCII: '£' stored as \\x92 (cp1252), and sheet name is misspelled (e.g. 'Payemnts ove £250')",
+      "Path prefix inconsistent across months — 6 different directory stems observed in FY23/24",
       "April and June 2023 use .ashx shell redirects: HEAD returns 404 but GET serves file",
       "Must scrape 23-24 landing page to map all URLs",
       "Also has SERVICE column alongside DEPARTMENT"
@@ -2171,8 +2171,8 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250 not \u00a3500 \u2014 filter amount >= 500 for parity",
-      "File IDs are opaque and non-monotonic across months \u2014 must scrape landing page",
+      "Threshold is £250 not £500 — filter amount >= 500 for parity",
+      "File IDs are opaque and non-monotonic across months — must scrape landing page",
       "Both Excel and CSV offered per month (even IDs = CSV, odd IDs = Excel)",
       "Personal payments redacted as 'Personal Information - Redacted'",
       "Page 2 (/council/council-spending/2) returns 404; earlier months in expanding accordion on page 1",
@@ -2203,10 +2203,10 @@
       "sep": "comma"
     },
     "complications": [
-      "September 2023 URL uses 'sept-2023' not 'september-2023' \u2014 abbreviated month name exception",
+      "September 2023 URL uses 'sept-2023' not 'september-2023' — abbreviated month name exception",
       "Dates include time component: DD/MM/YYYY 00:00:00",
       "Negative amounts present (credits)",
-      "27 columns \u2014 richest schema in batch",
+      "27 columns — richest schema in batch",
       "Includes Company Reg No and OpenCorporates URI",
       "Period field uses YYYYMM fiscal encoding"
     ],
@@ -2301,11 +2301,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Hash segment in URL is random per file \u2014 cannot construct URLs without scraping landing page",
-      "July 2023 is XLSX not CSV \u2014 breaks file format consistency",
+      "Hash segment in URL is random per file — cannot construct URLs without scraping landing page",
+      "July 2023 is XLSX not CSV — breaks file format consistency",
       "PAYMENT AMOUNT is space-padded with thousand separators",
       "SUPPLIER NO column contains literal string 'Invoice' not a real ID",
-      "Aggregate summary file at /media/6021/ must be ignored \u2014 no dates, not transactional",
+      "Aggregate summary file at /media/6021/ must be ignored — no dates, not transactional",
       "Identical 6-col schema to Wandsworth (shared Oracle/SAP finance export)"
     ],
     "needs_playwright": false,
@@ -2325,17 +2325,17 @@
       "supplier_col": "Supplier name",
       "dept_col": "Expense Area",
       "purpose_col": "Expense Type / Supplier Category",
-      "amount_col": "Amount \u00a3 (Excl VAT)",
+      "amount_col": "Amount £ (Excl VAT)",
       "date_col": "Date",
       "encoding": "latin1",
       "sep": "comma"
     },
     "complications": [
-      "Liferay DMS \u2014 each month has unique UUID and timestamp; URLs rotate and must be re-scraped each run",
-      "No static catalog \u2014 cannot cache URLs",
-      "Latin-1 encoding causes \u00a3 sign to appear as replacement character in amount header",
-      "Amount is EXCL VAT (unusual \u2014 most councils include VAT)",
-      "URL path has spaces, \u00a3-sign, inconsistent casing ('Payments over' vs 'payments over', 'over \u00a3500' vs 'of \u00a3500')",
+      "Liferay DMS — each month has unique UUID and timestamp; URLs rotate and must be re-scraped each run",
+      "No static catalog — cannot cache URLs",
+      "Latin-1 encoding causes £ sign to appear as replacement character in amount header",
+      "Amount is EXCL VAT (unusual — most councils include VAT)",
+      "URL path has spaces, £-sign, inconsistent casing ('Payments over' vs 'payments over', 'over £500' vs 'of £500')",
       "Personal data redacted as 'REDACTED - PERSONAL DATA'"
     ],
     "needs_playwright": false,
@@ -2430,7 +2430,7 @@
     "url_pattern": "https://www.towerhamlets.gov.uk/Documents/Transparency-data/Payments-to-suppliers/{folder}/250-Spend-{Month}-{YYYY}.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 likely \u2014 April 2023 HTTP 200 verified, pattern consistent",
+    "fy_coverage": "12/12 likely — April 2023 HTTP 200 verified, pattern consistent",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Directorate / Service / Division / Responsible Unit",
@@ -2441,11 +2441,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250 not \u00a3500 \u2014 more rows than typical, client-side filtering required",
+      "Threshold is £250 not £500 — more rows than typical, client-side filtering required",
       "Folder naming is misleading: Apr-Dec 2023 live in '2022-2023' folder, Jan-Mar 2024 in '2023-2024'",
       "Filename casing varies: full month 'April-2023' for 2023, abbreviated 'Apr-24' for 2024",
       "Filename casing varies between '250-Spend' and '250-spend'",
-      "Apostrophe encoding issue in 'Chief Executive's' \u2014 shows as 'Executive\ufffdS'",
+      "Apostrophe encoding issue in 'Chief Executive's' — shows as 'Executive�S'",
       "No VAT indicator in schema"
     ],
     "needs_playwright": false,
@@ -2460,7 +2460,7 @@
     "url_pattern": "https://www.walthamforest.gov.uk/sites/default/files/{YYYY-MM}/{Month}%20{YYYY}%20Transparency%20Report.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "7/12 \u2014 Apr-Aug 2023 missing (rolling window pruned)",
+    "fy_coverage": "7/12 — Apr-Aug 2023 missing (rolling window pruned)",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Division",
@@ -2471,8 +2471,8 @@
       "sep": "unknown"
     },
     "complications": [
-      "HARD BLOCKER: only 7/12 FY23-24 months available \u2014 Apr-Aug 2023 pruned by rolling window",
-      "mtime folder segment (YYYY-MM) is unpredictable \u2014 files may move to new folders over time",
+      "HARD BLOCKER: only 7/12 FY23-24 months available — Apr-Aug 2023 pruned by rolling window",
+      "mtime folder segment (YYYY-MM) is unpredictable — files may move to new folders over time",
       "Filename typo 'Transparenct' for Sep and Dec 2023",
       "Division and Service columns use codes like 'B0000C-Council Balance Sheet' requiring parsing",
       "Personal data has leading newline: '\\nREDACTED PERSONAL DATA'",
@@ -2528,11 +2528,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Hash segment in URL is random per file \u2014 early months use numeric hashes (e.g. '13692'), later use slugs",
+      "Hash segment in URL is random per file — early months use numeric hashes (e.g. '13692'), later use slugs",
       "SUPPLIER NO column contains literal string 'Invoice' not a real ID (same bug as Richmond)",
       "Identical 6-col schema to Richmond (shared Oracle Fusion finance system)",
-      "Heavy personal-data redaction on Adult Social Services rows \u2014 many duplicate 'Direct Payments to Clients' rows",
-      "Also publishes a PDF twin of each CSV \u2014 ignore PDFs"
+      "Heavy personal-data redaction on Adult Social Services rows — many duplicate 'Direct Payments to Clients' rows",
+      "Also publishes a PDF twin of each CSV — ignore PDFs"
     ],
     "needs_playwright": false,
     "report_source": "london_boroughs_discovery_batch_4.md"
@@ -2562,9 +2562,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Quarterly granularity only \u2014 4 files cover full FY, no monthly breakdown",
+      "Quarterly granularity only — 4 files cover full FY, no monthly breakdown",
       "Files served as CSV despite having no file extension",
-      "URLs are brittle Sitecore CMS paths \u2014 Q4 URL has '-report' suffix breaking the pattern",
+      "URLs are brittle Sitecore CMS paths — Q4 URL has '-report' suffix breaking the pattern",
       "Expense type strings truncated at ~40 chars (e.g. 'B*Voluntary-Spot-V Dep-Enhanced - do not u')",
       "Department names also truncated (e.g. 'ASC Procurement and Business Intelligenc')",
       "Amount field has leading and trailing spaces (e.g. ' 51,294.00 ')",
@@ -2608,12 +2608,12 @@
     "url_pattern": "https://images.reading.gov.uk/{YYYY}/{MM}/Over-500-{Month}-{YY}.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 verified \u2014 Aug23\u2013Mar24 re-uploaded Sept 2025, original mid-2024 URLs dead",
+    "fy_coverage": "12/12 verified — Aug23–Mar24 re-uploaded Sept 2025, original mid-2024 URLs dead",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Service Area / Directorate",
       "purpose_col": "Purpose",
-      "amount_col": "Amount (\u00a3)",
+      "amount_col": "Amount (£)",
       "date_col": null,
       "encoding": "utf8-bom",
       "sep": "comma"
@@ -2621,9 +2621,9 @@
     "complications": [
       "UTF-8 BOM present",
       "Filename pattern drifts: inconsistent 'Spend' infix, '23' vs '2023', 'B' suffixes for Feb/Mar 2024 re-uploads",
-      "Aug 2023 onward re-hosted Sept 2025 \u2014 original mid-2024 URLs are dead",
+      "Aug 2023 onward re-hosted Sept 2025 — original mid-2024 URLs are dead",
       "Negatives in Amount column represent credit notes",
-      "~5,500\u20136,000 rows/month"
+      "~5,500–6,000 rows/month"
     ],
     "needs_playwright": false,
     "report_source": "medium_unitary_authorities_discovery.md"
@@ -2637,7 +2637,7 @@
     "url_pattern": "https://www.medway.gov.uk/download/downloads/id/{ID}/spending_data_{month}_{YYYY}.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 verified (IDs 8274\u20138731)",
+    "fy_coverage": "12/12 verified (IDs 8274–8731)",
     "schema": {
       "supplier_col": "Supplier or Redacted Statement",
       "dept_col": "Directorate/Balance Sheet Heading / Area of Spend / Service Level",
@@ -2648,11 +2648,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "XLSX only \u2014 no CSV variant",
+      "XLSX only — no CSV variant",
       "Non-sequential IDs in URL, cannot template without ID list",
-      "Contains sub-\u00a3500 rows despite \u00a3500 label (e.g. \u00a311.25 from Vodafone) \u2014 filter needed client-side",
+      "Contains sub-£500 rows despite £500 label (e.g. £11.25 from Vodafone) — filter needed client-side",
       "Includes balance-sheet rows (B2000 Dir Exp), not only P&L",
-      "~7,000\u201310,000 rows/month"
+      "~7,000–10,000 rows/month"
     ],
     "needs_playwright": false,
     "report_source": "medium_unitary_authorities_discovery.md"
@@ -2694,7 +2694,7 @@
     "url_pattern": "https://www.milton-keynes.gov.uk/sites/default/files/{YYYY}-{MM-publish}/Council%20Spend%20Data%20{Month}%20{YY}.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 months present \u2014 April 2023 not directly verified, May\u2013Nov 2023 and Mar 2024 confirmed via index",
+    "fy_coverage": "12/12 months present — April 2023 not directly verified, May–Nov 2023 and Mar 2024 confirmed via index",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Service Area Categorisation (MKC only) / Service Division Categorisation (MKC only)",
@@ -2705,12 +2705,12 @@
       "sep": "comma"
     },
     "complications": [
-      "CRITICAL: cp1252 encoding \u2014 \u00a3 symbol corrupts under naive UTF-8 parsing",
-      "Publish-month subdirectory varies per file \u2014 not reliably templatable, must scrape landing page",
+      "CRITICAL: cp1252 encoding — £ symbol corrupts under naive UTF-8 parsing",
+      "Publish-month subdirectory varies per file — not reliably templatable, must scrape landing page",
       "Filename uses 2-digit year (e.g. 'April 23' not 'April 2023')",
       "Some files have '_0' suffix",
-      "Amount values prefixed with \u00a3 and negatives for credits",
-      "~6,000\u20137,000 rows/month"
+      "Amount values prefixed with £ and negatives for credits",
+      "~6,000–7,000 rows/month"
     ],
     "needs_playwright": false,
     "report_source": "medium_unitary_authorities_discovery.md"
@@ -2748,7 +2748,7 @@
     "url_pattern": "https://www.bcpcouncil.gov.uk/documents/about-the-council/{Month}-2023-AP-Transparency-Data.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 months present \u2014 path inconsistencies across months",
+    "fy_coverage": "12/12 months present — path inconsistencies across months",
     "schema": {
       "supplier_col": "BENEFICIARY",
       "dept_col": "LOCAL AUTHORITY DEPARTMENT",
@@ -2762,9 +2762,9 @@
       "Three different URL path prefixes across months: /documents/, /documents-old/, /Assets/About-the-council/Budgets-and-finance/Payments-to-suppliers/",
       "June 2023 file under /documents-old/ not /documents/",
       "2024 files dropped '-Data' suffix in filename",
-      "Threshold effectively \u00a30 \u2014 full AP feed including \u00a313.52 rows; must filter \u2265\u00a3500 client-side",
-      "AMOUNT column is string prefixed with \u00a3",
-      "~25,000\u201330,000 rows/month \u2014 largest of the batch"
+      "Threshold effectively £0 — full AP feed including £13.52 rows; must filter ≥£500 client-side",
+      "AMOUNT column is string prefixed with £",
+      "~25,000–30,000 rows/month — largest of the batch"
     ],
     "needs_playwright": false,
     "report_source": "medium_unitary_authorities_discovery.md"
@@ -2778,24 +2778,24 @@
     "url_pattern": "https://www.luton.gov.uk/system/files/file-visibility/{YYYY-MM}/250-23-{letter}-{month}-payments.csv",
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "Jan\u2013Mar 2024 confirmed; Apr\u2013Dec 2023 URLs broken (legacy /Lists/LutonDocuments/ path returns 404 after Feb 2026 re-platform)",
+    "fy_coverage": "Jan–Mar 2024 confirmed; Apr–Dec 2023 URLs broken (legacy /Lists/LutonDocuments/ path returns 404 after Feb 2026 re-platform)",
     "schema": {
       "supplier_col": "Supplier",
       "dept_col": "Department / CC Description",
       "purpose_col": "Ledger Code",
-      "amount_col": "Value \u00a3",
+      "amount_col": "Value £",
       "date_col": "Date",
       "encoding": "utf8-bom",
       "sep": "comma"
     },
     "complications": [
-      "HARD BLOCKER: Apr\u2013Dec 2023 legacy URLs (/Lists/LutonDocuments/ path) return 404 after Feb 2026 re-platform",
+      "HARD BLOCKER: Apr–Dec 2023 legacy URLs (/Lists/LutonDocuments/ path) return 404 after Feb 2026 re-platform",
       "Must re-scrape 2023-spend landing page to discover new /system/files/file-visibility/ subfolders",
-      "Threshold is \u00a3250 not \u00a3500 \u2014 lower than standard brief",
+      "Threshold is £250 not £500 — lower than standard brief",
       "Row 1 is metadata banner (title row), must skip before header",
       "FY 2023/24 spans two landing pages (2023-spend + 2024-spend)",
-      "Month letters a\u2013l correspond Jan\u2013Dec; FY needs d\u2013l from 2023 pattern + a\u2013c from 2024 pattern",
-      "~5,000\u20135,500 rows/month"
+      "Month letters a–l correspond Jan–Dec; FY needs d–l from 2023 pattern + a–c from 2024 pattern",
+      "~5,000–5,500 rows/month"
     ],
     "needs_playwright": false,
     "report_source": "medium_unitary_authorities_discovery.md"
@@ -2833,7 +2833,7 @@
     "url_pattern": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/payments-{YYYYMM}-v01.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified \u2014 publication uninterrupted despite Dec 2022 S114",
+    "fy_coverage": "12/12 verified — publication uninterrupted despite Dec 2022 S114",
     "schema": {
       "supplier_col": "Beneficiary",
       "dept_col": "Department",
@@ -2846,7 +2846,7 @@
     "complications": [
       "Amount column header has leading/trailing whitespace: ' Amounts '",
       "Amount values are quoted with internal comma formatting e.g. \" 27,000.00 \" with whitespace padding",
-      "S114 issued Dec 2022 \u2014 data complete but row volumes artificially low (~1,800/month vs peers' 5,000\u20137,000) due to spend freeze",
+      "S114 issued Dec 2022 — data complete but row volumes artificially low (~1,800/month vs peers' 5,000–7,000) due to spend freeze",
       "Merchant Category uses CIPFA codes",
       "Month column is textual (Apr-23 style)"
     ],
@@ -2862,7 +2862,7 @@
     "url_pattern": "https://www.southend.gov.uk/downloads/file/{ID}/our-spending-over-500-{month}-{year}",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 months \u2014 must compose from two calendar-year collection pages (2023 + 2024)",
+    "fy_coverage": "12/12 months — must compose from two calendar-year collection pages (2023 + 2024)",
     "schema": {
       "supplier_col": "Supplier name",
       "dept_col": "Directorate / Service Category label",
@@ -2873,13 +2873,13 @@
       "sep": "comma"
     },
     "complications": [
-      "Row 1 is blank metadata row (10 commas) \u2014 breaks naive header parsers, must skip",
-      "Non-sequential file IDs \u2014 cannot template without ID lookup",
+      "Row 1 is blank metadata row (10 commas) — breaks naive header parsers, must skip",
+      "Non-sequential file IDs — cannot template without ID lookup",
       "Published as 3-file bundle per month (CSV + TXT metadata + PDF)",
       "FY 2023/24 spans two calendar-year collection pages",
       "Organisation Code column is a full URI (opendatacommunities.org URL)",
       "Net Amount values quoted with thousand-comma formatting",
-      "~3,000\u20134,000 rows/month"
+      "~3,000–4,000 rows/month"
     ],
     "needs_playwright": false,
     "report_source": "medium_unitary_authorities_discovery.md"
@@ -2893,7 +2893,7 @@
     "url_pattern": "https://www.slough.gov.uk/downloads/file/{ID}/payments-to-suppliers-{month}-{year}",
     "file_format": "mixed",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 verified \u2014 both CSV and XLSX available per month",
+    "fy_coverage": "12/12 verified — both CSV and XLSX available per month",
     "schema": {
       "supplier_col": "Vendor Name",
       "dept_col": "Cost Centre / Service Label",
@@ -2904,10 +2904,10 @@
       "sep": "comma"
     },
     "complications": [
-      "Non-sequential file IDs for each month \u2014 cannot template without ID list",
+      "Non-sequential file IDs for each month — cannot template without ID list",
       "CSV and XLSX both published per month; ID order between formats flips inconsistently",
       "BV Code column is actually CIPFA service expenditure heading, not a BVPI code",
-      "S114 issued Jul 2021, commissioners in place through 2023/24 \u2014 data complete but volumes artificially low (~1,300\u20131,800 rows/month) due to spend freeze",
+      "S114 issued Jul 2021, commissioners in place through 2023/24 — data complete but volumes artificially low (~1,300–1,800 rows/month) due to spend freeze",
       "Amount values quoted with thousand-comma formatting",
       "Standard exclusions: foster carers, social care direct payments, employee expenses omitted"
     ],
@@ -2934,9 +2934,9 @@
       "sep": "comma"
     },
     "complications": [
-      "cp1252 encoding \u2014 \u00a3 sign corrupted without iconv to UTF-8",
-      "File IDs non-sequential (5002\u20135947), must scrape landing page for IDs",
-      "Amount formatted as '\u00a315,867.72' with currency symbol in field"
+      "cp1252 encoding — £ sign corrupted without iconv to UTF-8",
+      "File IDs non-sequential (5002–5947), must scrape landing page for IDs",
+      "Amount formatted as '£15,867.72' with currency symbol in field"
     ],
     "needs_playwright": false,
     "report_source": "metropolitan_districts_batch_2.md"
@@ -2949,22 +2949,22 @@
     "download_urls": [],
     "url_pattern": "https://www.bury.gov.uk/asset-library/spend-over-500-{month}-{year}.xlsx",
     "file_format": "xlsx",
-    "blocker_severity": "red",
-    "fy_coverage": "6/12 \u2014 May\u2013Sep 2023 and Nov 2023 purged (404)",
+    "blocker_severity": "green",
+    "fy_coverage": "6/12 — May–Sep 2023 and Nov 2023 purged (404)",
     "schema": {
       "supplier_col": "Supplier",
-      "dept_col": "Service",
-      "purpose_col": null,
-      "amount_col": "Amount",
-      "date_col": null,
-      "encoding": "unknown",
-      "sep": "unknown"
+      "dept_col": "Dept",
+      "purpose_col": "Proclass",
+      "amount_col": "Invoiced",
+      "date_col": "Date",
+      "encoding": "utf8",
+      "sep": "comma"
     },
     "complications": [
-      "Rolling 2-year retention window \u2014 6 of 12 FY23/24 months permanently purged as of Apr 2026",
+      "Rolling 2-year retention window — 6 of 12 FY23/24 months permanently purged as of Apr 2026",
       "Inconsistent filename conventions ('aug' vs 'august', 'sep-24' vs 'september-2024')",
       "Naming scheme changed from Dec 2025 to 'payments-to-suppliers-over-500-*.xlsx'",
-      "May\u2013Sep 2023 and Nov 2023 return 404"
+      "May–Sep 2023 and Nov 2023 return 404"
     ],
     "needs_playwright": false,
     "report_source": "metropolitan_districts_batch_2.md"
@@ -2994,7 +2994,7 @@
       "Separate 'card-payments' CSV files per month",
       "Older months use .xls format",
       "Quarterly aggregation also mentioned",
-      "Not on Data Mill North \u2014 has own DataWorks portal",
+      "Not on Data Mill North — has own DataWorks portal",
       "Requires headless browser (Playwright/Selenium) or manual download"
     ],
     "needs_playwright": true,
@@ -3027,12 +3027,12 @@
       "sep": "comma"
     },
     "complications": [
-      "NOT a \u00a3500 threshold file \u2014 full spend export, ~22% of rows under \u00a3500",
+      "NOT a £500 threshold file — full spend export, ~22% of rows under £500",
       "~30,000 rows/month (not typical spend-over-500 volume)",
       "Negative/reversed entries present",
       "Fixed-width padding with trailing spaces in dept columns",
       "Supplier redaction: 'REDACTED PERSONAL DATA'",
-      "Dual hosting: Azure blob store (Apr\u2013Sep 2023) and CMS proxy (Oct 2023\u2013Mar 2024)",
+      "Dual hosting: Azure blob store (Apr–Sep 2023) and CMS proxy (Oct 2023–Mar 2024)",
       "November file has '-1' suffix",
       "Separate quarterly purchase-card XLSX files"
     ],
@@ -3060,7 +3060,7 @@
     },
     "complications": [
       "Aggressive WAF returns 403 Forbidden to all UAs (Chrome, Firefox, Googlebot, with Referer)",
-      "Media IDs non-sequential \u2014 require scraping landing page",
+      "Media IDs non-sequential — require scraping landing page",
       "URL filename uses fiscal period code not calendar month (e.g. 202302 = May)",
       "Requires headless browser (Playwright/Selenium) or manual download"
     ],
@@ -3199,7 +3199,7 @@
     "complications": [
       "All 12 files re-dated into /2025-03/ folder after site migration",
       "December 2023 file has '_0' suffix (versioned reupload)",
-      "Drupal/Frontier CMS \u2014 files may move on republication",
+      "Drupal/Frontier CMS — files may move on republication",
       "13 columns confirmed but column names not documented in report"
     ],
     "needs_playwright": false,
@@ -3228,13 +3228,13 @@
       "supplier_col": "Payee",
       "dept_col": "Service Area",
       "purpose_col": "Type of Expenditure",
-      "amount_col": "Amount (\u00a3)",
+      "amount_col": "Amount (£)",
       "date_col": "Payment Date",
       "encoding": "utf8",
       "sep": "unknown"
     },
     "complications": [
-      "Quarterly granularity only \u2014 4 files for full FY, no monthly breakdown",
+      "Quarterly granularity only — 4 files for full FY, no monthly breakdown",
       "Uses numeric download IDs in URL",
       "Rich 4-level hierarchy: Portfolio > Directorate > Division > Service Area"
     ],
@@ -3263,7 +3263,7 @@
     "complications": [
       "Format switches mid-FY from .xls (BIFF/OLE Excel 97-2003) to .xlsx",
       "Separate companion purchase-card files for each month",
-      "File IDs non-sequential (3198\u20133565), must scrape landing page",
+      "File IDs non-sequential (3198–3565), must scrape landing page",
       "Author metadata leaks in OLE document properties"
     ],
     "needs_playwright": false,
@@ -3296,17 +3296,17 @@
       "supplier_col": "Supplier Name",
       "dept_col": "Expense Area",
       "purpose_col": "Expense Type",
-      "amount_col": "Gross Amount \u00a3",
+      "amount_col": "Gross Amount £",
       "date_col": "Transaction Date",
       "encoding": "latin1",
       "sep": "comma"
     },
     "complications": [
       "4 metadata rows preamble before header row (header on row 6)",
-      "\u00a3500 gross threshold (not net)",
+      "£500 gross threshold (not net)",
       "Filename prefix changes: 'exp-ex-gbp500' Apr-Jun 2023, 'exp-ex-500' from Jul 2023",
-      "Unique CMS slug per month \u2014 URLs not guessable without crawling landing page",
-      "Latin-1 encoding with \u00a3 glyphs",
+      "Unique CMS slug per month — URLs not guessable without crawling landing page",
+      "Latin-1 encoding with £ glyphs",
       "VCSE and Charity Number flag columns included",
       "Not on Data Mill North"
     ],
@@ -3371,12 +3371,12 @@
     },
     "complications": [
       "1 metadata/title header row before column headers",
-      "Filename alternates between 'spend' and 'spent' \u2014 not predictable",
-      "Numeric 4-digit media IDs not guessable \u2014 must harvest from landing page",
-      "Latin-1 encoding \u2014 \u00a3 signs mangle in UTF-8",
+      "Filename alternates between 'spend' and 'spent' — not predictable",
+      "Numeric 4-digit media IDs not guessable — must harvest from landing page",
+      "Latin-1 encoding — £ signs mangle in UTF-8",
       "Nov 2023 file contains typo 'counsil' in filename",
       "Negative amounts (credit notes) present",
-      "\u00a3500 threshold applied at cost-centre level, not per-transaction"
+      "£500 threshold applied at cost-centre level, not per-transaction"
     ],
     "needs_playwright": false,
     "report_source": "metropolitan_districts_batch_3.md"
@@ -3432,9 +3432,9 @@
       "sep": "comma"
     },
     "complications": [
-      "\u00a3250 threshold (not \u00a3500)",
+      "£250 threshold (not £500)",
       "Net-of-VAT amounts",
-      "Filename casing and hyphenation chaotic \u2014 varies per month",
+      "Filename casing and hyphenation chaotic — varies per month",
       "Date format dd-mm-yyyy",
       "Card Transaction flag column present",
       "ProClass categorisation column included",
@@ -3452,7 +3452,7 @@
     "url_pattern": "https://legacy.northtyneside.gov.uk/sites/default/files/web-page-related-files/Invoices%20over%20250%20{Month}%20{YY}.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "9/12 \u2014 Apr/May/Jun 2023 purged (rolling window deletion)",
+    "fy_coverage": "9/12 — Apr/May/Jun 2023 purged (rolling window deletion)",
     "schema": {
       "dept_col": "Directorate / Service Where Expenditure Incurred",
       "purpose_col": "SeRCOP Expenditure Category",
@@ -3462,12 +3462,12 @@
       "sep": "comma"
     },
     "complications": [
-      "HARD BLOCKER: April, May, June 2023 files purged \u2014 rolling-window retention policy",
-      "\u00a3250 threshold (not \u00a3500)",
+      "HARD BLOCKER: April, May, June 2023 files purged — rolling-window retention policy",
+      "£250 threshold (not £500)",
       "Landing page redirects to legacy domain for actual files",
       "Month naming alternates between 4-digit year ('November 2023') and 2-digit year ('March 24') with no rule",
       "URL-encoded spaces in filenames (%20)",
-      "SeRCOP expenditure codes and URIs included \u2014 richest schema in batch",
+      "SeRCOP expenditure codes and URIs included — richest schema in batch",
       "Capital/Revenue flag column present",
       "Wayback CDX recovery untested (503 errors)"
     ],
@@ -3494,9 +3494,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Unique media ID per month \u2014 must harvest from landing page",
-      "Homepage returns 403 to curl HEAD \u2014 must use browser User-Agent",
-      "Combined \u00a3500 + GPC (Government Procurement Card) data in single file",
+      "Unique media ID per month — must harvest from landing page",
+      "Homepage returns 403 to curl HEAD — must use browser User-Agent",
+      "Combined £500 + GPC (Government Procurement Card) data in single file",
       "Header has duplicate 'Spend' column names",
       "Date format dd-MMM-yy",
       "Latin-1 encoding",
@@ -3557,7 +3557,7 @@
     "complications": [
       "Media slug format changes mid-year: 6-digit numeric IDs (Apr-Sep 2023) then alphanumeric slugs (Oct 2023-Mar 2024)",
       "Gross, VAT, and Net provided as three separate columns",
-      "GL Description used as purpose field \u2014 may be weak/generic",
+      "GL Description used as purpose field — may be weak/generic",
       "DocumentNo column present"
     ],
     "needs_playwright": false,
@@ -3583,11 +3583,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Filename prefix/casing varies per month \u2014 subtle punctuation differences (Apr-Aug 2023 vs Sep-Nov 2023 vs Dec 2023+)",
-      "No department/directorate column \u2014 sparsest schema in batch (6 columns)",
+      "Filename prefix/casing varies per month — subtle punctuation differences (Apr-Aug 2023 vs Sep-Nov 2023 vs Dec 2023+)",
+      "No department/directorate column — sparsest schema in batch (6 columns)",
       "Hosted on S3 bucket 'live-iag-static-assets'",
       "Personal information redacted to '*Redact - Personal Information'",
-      "Dataset frozen/archival \u2014 Stockport migrated to all-spend from April 2025",
+      "Dataset frozen/archival — Stockport migrated to all-spend from April 2025",
       "Some files duplicated in newer S3 subpath /Transparency+data/Purchases+over+%C2%A3500/",
       "Script must handle two different S3 subpaths"
     ],
@@ -3628,9 +3628,9 @@
       "sep": "comma"
     },
     "complications": [
-      "All FY2023/24 data consolidated into single 34MB ZIP archive \u2014 must download and unzip",
+      "All FY2023/24 data consolidated into single 34MB ZIP archive — must download and unzip",
       "Old per-month URLs (/about-your-council/open-data/docs/) all 404 since Dec 2025 site migration",
-      "Amount column uses quoted thousands separator \u2014 requires thousands=',' on parse",
+      "Amount column uses quoted thousands separator — requires thousands=',' on parse",
       "UTF-8 BOM encoding",
       "VAT registration numbers included in data",
       "Trailing space on Body URI field",
@@ -3660,7 +3660,7 @@
       "sep": "comma"
     },
     "complications": [
-      "File IDs non-predictable \u2014 must scrape landing page to resolve all 12 monthly URLs",
+      "File IDs non-predictable — must scrape landing page to resolve all 12 monthly URLs",
       "Known IDs: Apr=491, Jun=486, Jul=1328, Aug=1330, Feb=2812, Mar=2814; remaining months unknown",
       "SeRCOP classification column present",
       "Body column contains a URL",
@@ -3691,7 +3691,7 @@
     "complications": [
       "3 header rows of query metadata before actual header on line 4",
       "Every data row prefixed with literal 'INSERTED DETAIL' column",
-      "Threshold is NOT \u00a3500 \u2014 publishes ALL payments regardless of amount",
+      "Threshold is NOT £500 — publishes ALL payments regardless of amount",
       "UTF-8 BOM at start of file",
       "Publish-folder date segment in URL must be resolved by scraping"
     ],
@@ -3724,7 +3724,7 @@
       "Inconsistent filename capitalisation and URL-encoded spaces require landing page scraping",
       "Header contains newline inside quoted column names (e.g. 'Procurement Classification \\n(Higher Level)')",
       "Trailing empty commas",
-      "Separate quarterly 'Spend_Transparency_for_Cards' GPC files exist \u2014 must not be mixed with main spend files"
+      "Separate quarterly 'Spend_Transparency_for_Cards' GPC files exist — must not be mixed with main spend files"
     ],
     "needs_playwright": false,
     "report_source": "metropolitan_districts_discovery.md"
@@ -3764,7 +3764,7 @@
     "download_urls": [],
     "url_pattern": "https://datamillnorth.org/download/e61m0/{hash}/Supplier%20Spend%202023-24%20Q{n}.csv",
     "file_format": "csv",
-    "blocker_severity": "yellow",
+    "blocker_severity": "green",
     "fy_coverage": "4 quarterly files Q1-Q4; Q2 confirmed downloadable; Q1/Q3/Q4 expected under same pattern",
     "schema": {
       "supplier_col": "Supplier Name",
@@ -3776,16 +3776,16 @@
       "sep": "comma"
     },
     "complications": [
-      "Quarterly cadence (not monthly) \u2014 4 files per FY",
+      "Quarterly cadence (not monthly) — 4 files per FY",
       "File hashes in URLs are non-predictable; must scrape dataset page",
       "datamillnorth.org returns 403 to direct curl/WebFetch but allows browser UA",
       "2 metadata rows + 1 blank before header row",
       "Amounts have trailing space (e.g. '591.63 ')",
       "REDACTED rows for personal data",
       "Full ProClass taxonomy included",
-      "Publishes ALL payments (not just \u2265\u00a3500) since 2019/20 Q1"
+      "Publishes ALL payments (not just ≥£500) since 2019/20 Q1"
     ],
-    "needs_playwright": true,
+    "needs_playwright": false,
     "report_source": "metropolitan_districts_discovery.md"
   },
   {
@@ -3841,13 +3841,13 @@
       "sep": "unknown"
     },
     "complications": [
-      "XLSX only \u2014 no CSV variant",
+      "XLSX only — no CSV variant",
       "Inconsistent filename prefix casing across months (Published-Data / KC-published-data / KC-Published-Data)",
       "Stray space in some filenames (e.g. 'KC-Published-Data -2023-11-30.xlsx')",
       "Contains negative amounts (credit notes)",
       "'Purpose of Spend' often 'REDACTED DATA'",
       "'Proclass Description' frequently null",
-      "Not hosted on Data Mill North \u2014 self-hosted XLSX",
+      "Not hosted on Data Mill North — self-hosted XLSX",
       "Must scrape landing page to resolve exact filename per month"
     ],
     "needs_playwright": false,
@@ -3873,10 +3873,10 @@
       "sep": "comma"
     },
     "complications": [
-      "HARD BLOCKER: www.newcastle.gov.uk refuses TCP :443 from discovery host \u2014 ECONNREFUSED / timeout on direct curl and WebFetch",
+      "HARD BLOCKER: www.newcastle.gov.uk refuses TCP :443 from discovery host — ECONNREFUSED / timeout on direct curl and WebFetch",
       "Possible IP-level firewall, geo-block, or aggressive WAF",
-      "Threshold is \u00a3250 (not \u00a3500) \u2014 different from standard",
-      "No files downloaded \u2014 schema unverified",
+      "Threshold is £250 (not £500) — different from standard",
+      "No files downloaded — schema unverified",
       "Retry required from different network/egress or via proxy"
     ],
     "needs_playwright": true,
@@ -3891,7 +3891,7 @@
     "url_pattern": "https://www.sunderland.gov.uk/media/{id}/Expenditure-over-500-Quarter-{n}-{months}-{year}-CSV/{csv|xls}/...",
     "file_format": "mixed",
     "blocker_severity": "green",
-    "fy_coverage": "Q2 and Q3 2023/24 confirmed; Q1 and Q4 require landing page scrape \u2014 not verified due to blocker",
+    "fy_coverage": "Q2 and Q3 2023/24 confirmed; Q1 and Q4 require landing page scrape — not verified due to blocker",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Service Area",
@@ -3902,13 +3902,13 @@
       "sep": "unknown"
     },
     "complications": [
-      "HARD BLOCKER: Cloudflare bot-management on /media/ download path returns 403 \u2014 CF-RAY header confirmed",
+      "HARD BLOCKER: Cloudflare bot-management on /media/ download path returns 403 — CF-RAY header confirmed",
       "Needs cloudscraper, Playwright, or manual download to retrieve files",
-      "Quarterly cadence (not monthly) \u2014 4 files per FY",
+      "Quarterly cadence (not monthly) — 4 files per FY",
       "Mixed CSV and XLSX depending on quarter",
       "XLSX files served under /xls/ URL path segments despite being labelled CSV",
-      "Non-predictable media IDs in URLs \u2014 must scrape landing page",
-      "No files downloaded \u2014 schema unverified",
+      "Non-predictable media IDs in URLs — must scrape landing page",
+      "No files downloaded — schema unverified",
       "Potential backup route: Data Mill North (datamillnorth.org/publisher/sunderland-city-council)"
     ],
     "needs_playwright": false,
@@ -3936,7 +3936,7 @@
     "url_pattern": "https://raw.githubusercontent.com/Devon-County-Council/spending/master/DCCSpendingOver500_{YYYYMM}.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Expense Area",
@@ -3947,10 +3947,10 @@
       "sep": "comma"
     },
     "complications": [
-      "UTF-8 BOM on first byte \u2014 strip when parsing headers",
+      "UTF-8 BOM on first byte — strip when parsing headers",
       "Supplier names anonymised for individuals with ****NNNN suffix",
       "Date format is ISO YYYY-MM-DD 00:00:00",
-      "Hosted on GitHub raw \u2014 stable but external dependency"
+      "Hosted on GitHub raw — stable but external dependency"
     ],
     "needs_playwright": false,
     "report_source": "milestone_b_council_discovery.md"
@@ -3977,7 +3977,7 @@
     "url_pattern": "https://www.staffordshire.gov.uk/sites/default/files/2026-02/Staffordshire-County-Council-Expenditure-Over-500-{DD-MM-YYYY}.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023 \u2013 Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023 – Mar 2024)",
     "schema": {
       "supplier_col": "BeneficiaryName",
       "dept_col": "OrganisationalUnit",
@@ -3991,8 +3991,8 @@
       "UTF-8 BOM on header",
       "PaymentDate is UK format DD/MM/YYYY",
       "OrganisationURI has trailing whitespace",
-      "Purpose and CategoryInternal are near-identical \u2014 use Purpose as canonical",
-      "Drupal upload bucket path segment 2026-02/ is literal, not a year indicator \u2014 may change if files are re-uploaded",
+      "Purpose and CategoryInternal are near-identical — use Purpose as canonical",
+      "Drupal upload bucket path segment 2026-02/ is literal, not a year indicator — may change if files are re-uploaded",
       "XLSX fallback available if CSV fails",
       "Feb 2024 end-of-month date is 29-02-2024 (leap year)"
     ],
@@ -4033,7 +4033,7 @@
     "url_pattern": "https://blob.datopian.com/resources/{uuid}/lccspending{YYYY-MM}-{rand6}.csv",
     "file_format": "csv",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 present per CKAN API (Apr 2023 \u2013 Mar 2024), URLs must be resolved via CKAN API at runtime",
+    "fy_coverage": "12/12 present per CKAN API (Apr 2023 – Mar 2024), URLs must be resolved via CKAN API at runtime",
     "schema": {
       "supplier_col": "BeneficiaryName",
       "dept_col": "OrganisationalUnit",
@@ -4044,12 +4044,12 @@
       "sep": "comma"
     },
     "complications": [
-      "Blob storage URLs contain random UUIDs and 6-char suffixes \u2014 hardcoding is brittle, must resolve via CKAN API package_show before each run",
+      "Blob storage URLs contain random UUIDs and 6-char suffixes — hardcoding is brittle, must resolve via CKAN API package_show before each run",
       "CKAN API endpoint: https://data.lincolnshire.gov.uk/api/3/action/package_show?id=lincolnshire-county-council-spending",
-      "File contains rows below \u00a3500 threshold \u2014 filter Amount >= 500 if strict threshold required",
+      "File contains rows below £500 threshold — filter Amount >= 500 if strict threshold required",
       "LCC_Period fiscal-period code does not always match calendar month",
       "22-column schema with heavy metadata prefix",
-      "Purpose is coarse; CategoryInternalName is finer \u2014 prefer CategoryInternalName or concatenate both",
+      "Purpose is coarse; CategoryInternalName is finer — prefer CategoryInternalName or concatenate both",
       "Old lincolnshire.ckan.io domain 301-redirects to data.lincolnshire.gov.uk"
     ],
     "needs_playwright": false,
@@ -4069,14 +4069,14 @@
       "supplier_col": "Beneficiary",
       "dept_col": "Department",
       "purpose_col": "Purpose of Expenditure",
-      "amount_col": "Net Amount \u00a3",
+      "amount_col": "Net Amount £",
       "date_col": null,
       "encoding": "unknown",
       "sep": "comma"
     },
     "complications": [
-      "Pound sign in amount column header (Net Amount \u00a3)",
-      "Quarterly frequency only \u2014 not monthly",
+      "Pound sign in amount column header (Net Amount £)",
+      "Quarterly frequency only — not monthly",
       "Served as application/octet-stream"
     ],
     "needs_playwright": false,
@@ -4102,7 +4102,7 @@
       "sep": "unknown"
     },
     "complications": [
-      "6 metadata rows before header \u2014 header on row 6, data from row 7; requires skiprows=6",
+      "6 metadata rows before header — header on row 6, data from row 7; requires skiprows=6",
       "Transaction numbers stored as text (e.g. 0080020624-style)",
       "301 redirect from HTTPS to HTTP",
       "Quarterly frequency only"
@@ -4119,7 +4119,7 @@
     "url_pattern": "https://www.stockton.gov.uk/media/{4149,4193,...}/Payments-to-suppliers-{Month}-2023/excel/Payments_to_suppliers_-_{Month}_2023.csv",
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "Apr/May/Jul/Aug/Oct/Nov/Dec 2023 confirmed; Jun/Sep/Jan\u2013Mar 2024 unverified \u2014 BLOCKED",
+    "fy_coverage": "Apr/May/Jul/Aug/Oct/Nov/Dec 2023 confirmed; Jun/Sep/Jan–Mar 2024 unverified — BLOCKED",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -4130,11 +4130,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "Cloudflare bot challenge blocks curl and WebFetch \u2014 403 on all automated requests",
-      "__cf_bm cookie required \u2014 must acquire from landing page via real browser session",
-      "Schema unknown \u2014 cannot retrieve files",
+      "Cloudflare bot challenge blocks curl and WebFetch — 403 on all automated requests",
+      "__cf_bm cookie required — must acquire from landing page via real browser session",
+      "Schema unknown — cannot retrieve files",
       "Monthly media IDs not fully enumerated",
-      "Jun/Sep 2023 and Jan\u2013Mar 2024 URLs not confirmed"
+      "Jun/Sep 2023 and Jan–Mar 2024 URLs not confirmed"
     ],
     "needs_playwright": true,
     "report_source": "ne_lincolnshire_unitaries.md"
@@ -4184,9 +4184,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "Two files per month \u2014 Spend and Credits files must be concatenated; credits are negative/refund rows",
+      "Two files per month — Spend and Credits files must be concatenated; credits are negative/refund rows",
       "Filename casing inconsistent between Credit and Credits",
-      "URL-encoded \u00a3 sign (%C2%A3) in filenames",
+      "URL-encoded £ sign (%C2%A3) in filenames",
       "Companion Credits file naming varies"
     ],
     "needs_playwright": false,
@@ -4201,7 +4201,7 @@
     "url_pattern": "https://www.darlington.gov.uk/media/{hash}/transactions-over-500-{month}-2023.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "Apr\u2013Dec 2023 confirmed; Jan\u2013Mar 2024 hashes not yet resolved",
+    "fy_coverage": "Apr–Dec 2023 confirmed; Jan–Mar 2024 hashes not yet resolved",
     "schema": {
       "supplier_col": "apar_name",
       "dept_col": "text servdesc",
@@ -4212,11 +4212,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Hashed URL slugs \u2014 cannot construct URLs programmatically; must scrape landing page to resolve",
-      "5 metadata rows before header \u2014 header on row 7",
+      "Hashed URL slugs — cannot construct URLs programmatically; must scrape landing page to resolve",
+      "5 metadata rows before header — header on row 7",
       "Filename pattern inconsistent: dashes vs underscores (transactions-over-500-{month} vs transactions_over_-500_-_{month})",
       "Typo in header: Directotate",
-      "Jan\u2013Mar 2024 hashes not yet obtained"
+      "Jan–Mar 2024 hashes not yet obtained"
     ],
     "needs_playwright": false,
     "report_source": "ne_lincolnshire_unitaries.md"
@@ -4283,8 +4283,8 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3100 not \u00a3500 \u2014 must filter Amount >= 500 post-load for consistency",
-      "Hashed URL slugs \u2014 cannot construct URLs programmatically",
+      "Threshold is £100 not £500 — must filter Amount >= 500 post-load for consistency",
+      "Hashed URL slugs — cannot construct URLs programmatically",
       "(T) suffix on all text column names",
       "Amounts appear integer-ish (no pence in sample)"
     ],
@@ -4362,7 +4362,7 @@
       "sep": "comma"
     },
     "complications": [
-      "Encoding is CP1252/Windows-1252 \u2014 \u00a3 renders as replacement character if read as UTF-8",
+      "Encoding is CP1252/Windows-1252 — £ renders as replacement character if read as UTF-8",
       "Upload-path month subdirectory differs from transaction month (e.g. April 2023 data stored under /2024/02/)",
       "Filename capitalisation drift: payments vs Payments",
       "Trailing -b suffix on most files; Mar 2024 uses -new suffix instead",
@@ -4393,11 +4393,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Single annual file \u2014 not monthly or quarterly breakdown",
-      "Transaction dates frequently predate the financial year (back-dated postings from 2019, 2022 etc.) \u2014 use Period column (1\u201312) for monthly slicing, not Transaction Date",
+      "Single annual file — not monthly or quarterly breakdown",
+      "Transaction dates frequently predate the financial year (back-dated postings from 2019, 2022 etc.) — use Period column (1–12) for monthly slicing, not Transaction Date",
       "Multiple rows per transaction number (split across cost centres)",
       "Also published as .xlsx and .pdf alongside CSV",
-      "Published late \u2014 October 2025"
+      "Published late — October 2025"
     ],
     "needs_playwright": false,
     "report_source": "ne_lincolnshire_unitaries.md"
@@ -4483,7 +4483,7 @@
     "url_pattern": "https://www.thamesvalley-pcc.gov.uk/wp-content/uploads/YYYY/MM/Transparency-Report-{Month}-YYYY.ods",
     "file_format": "ods",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 verified (Apr 2023\u2013Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023–Mar 2024)",
     "schema": {
       "supplier_col": "Supplier_Name",
       "dept_col": null,
@@ -4494,12 +4494,12 @@
       "sep": "unknown"
     },
     "complications": [
-      "ODS format \u2014 non-standard, minor blocker",
-      "Very thin schema \u2014 only 3 columns: amount, supplier, category",
+      "ODS format — non-standard, minor blocker",
+      "Very thin schema — only 3 columns: amount, supplier, category",
       "No date column",
       "No department/division column",
       "Labelled OPCC but actually joint PCC+Force spend",
-      "Amounts go below \u00a3500 (raw invoice-line extract)",
+      "Amounts go below £500 (raw invoice-line extract)",
       "~8,100 rows/month"
     ],
     "needs_playwright": false,
@@ -4522,7 +4522,7 @@
     "url_pattern": "https://www.westyorkshire.police.uk/sites/default/files/YYYY-MM/{month}_YYYY_published.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 verified (Apr 2023\u2013Mar 2024, separate files)",
+    "fy_coverage": "12/12 verified (Apr 2023–Mar 2024, separate files)",
     "schema": {
       "supplier_col": "SupplierName",
       "dept_col": "Portfolio",
@@ -4535,8 +4535,8 @@
     "complications": [
       "WYCA redirects to West Yorkshire Police website for actual data files",
       "Data hosted at westyorkshire.police.uk not WYCA domain",
-      "Row 0 is title banner, header on row 3 \u2014 non-standard header offset",
-      "Quarterly publication cadence \u2014 some months combined (e.g. 'April and May 2024')",
+      "Row 0 is title banner, header on row 3 — non-standard header offset",
+      "Quarterly publication cadence — some months combined (e.g. 'April and May 2024')",
       "DMPC expenses published separately at /media/rcfi0yep/dmpc-expenses-2023.xlsx",
       "Scope is WY Police operational force only",
       "No date column in schema"
@@ -4553,7 +4553,7 @@
     "url_pattern": "https://www.westmidlands-pcc.gov.uk/wp-content/uploads/2023/11/2023-24-P{1-12}-{Mon}-23.xlsx",
     "file_format": "mixed",
     "blocker_severity": "red",
-    "fy_coverage": "7/12 XLSX (Apr\u2013Oct 2023), 5/12 PDF only (Nov 2023\u2013Mar 2024)",
+    "fy_coverage": "7/12 XLSX (Apr–Oct 2023), 5/12 PDF only (Nov 2023–Mar 2024)",
     "schema": {
       "supplier_col": "Supplier",
       "dept_col": "Department - Service Area",
@@ -4564,10 +4564,10 @@
       "sep": "unknown"
     },
     "complications": [
-      "WAF/Cloudflare blocks headless/curl/WebFetch with 403 \u2014 hard blocker for automated scraping",
+      "WAF/Cloudflare blocks headless/curl/WebFetch with 403 — hard blocker for automated scraping",
       "Must use Wayback Machine or real browser with genuine UA",
-      "Format switched mid-year: XLSX for P1\u2013P7 (Apr\u2013Oct 2023), PDF for P8\u2013P12 (Nov 2023\u2013Mar 2024)",
-      "5 of 12 months are PDF-only \u2014 requires OCR for Nov 2023\u2013Mar 2024",
+      "Format switched mid-year: XLSX for P1–P7 (Apr–Oct 2023), PDF for P8–P12 (Nov 2023–Mar 2024)",
+      "5 of 12 months are PDF-only — requires OCR for Nov 2023–Mar 2024",
       "Covers West Midlands Police operational force"
     ],
     "needs_playwright": true,
@@ -4589,7 +4589,7 @@
     "url_pattern": "https://www.greatermanchester-ca.gov.uk/media/{id}/gmca-spend-500-transparency-q{N}.csv",
     "file_format": "mixed",
     "blocker_severity": "yellow",
-    "fy_coverage": "4/4 quarters present (Q1\u2013Q4 FY2023/24); CSV + XLSX + PDF per quarter",
+    "fy_coverage": "4/4 quarters present (Q1–Q4 FY2023/24); CSV + XLSX + PDF per quarter",
     "schema": {
       "supplier_col": "Beneficiary",
       "dept_col": "Organisation",
@@ -4600,8 +4600,8 @@
       "sep": "comma"
     },
     "complications": [
-      "GMCA file covers entire combined authority \u2014 NOT GMP force spend",
-      "Q1 CSV is 32MB / 1,048,501 lines \u2014 hit Excel row cap, possible truncation artifact",
+      "GMCA file covers entire combined authority — NOT GMP force spend",
+      "Q1 CSV is 32MB / 1,048,501 lines — hit Excel row cap, possible truncation artifact",
       "CSV padded with ~25 trailing empty columns",
       "ISO-8859 (latin1) encoding",
       "Quarterly not monthly publication",
@@ -4620,7 +4620,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "12/12 months present but ALL PDF-only \u2014 no structured data",
+    "fy_coverage": "12/12 months present but ALL PDF-only — no structured data",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -4631,9 +4631,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "ALL force spend files are PDF-only \u2014 hard blocker, requires OCR pipeline",
+      "ALL force spend files are PDF-only — hard blocker, requires OCR pipeline",
       "ICO enforcement notice issued December 2023 for transparency failures",
-      "WAF/403 blocks programmatic access to gmp.police.uk \u2014 use Wayback Machine",
+      "WAF/403 blocks programmatic access to gmp.police.uk — use Wayback Machine",
       "GMCA combined-authority file does NOT include GMP force spend",
       "No structured data available for GMP force operational spend"
     ],
@@ -4686,9 +4686,9 @@
     },
     "complications": [
       "Two files per month: OPCC file (pcc-) and Force/constabulary file (nfi-)",
-      "WAF blocks WebFetch with 403 \u2014 curl with User-Agent header works",
-      "Amounts are strings with \u00a3 prefix and commas (e.g. '\u00a364,786.80') \u2014 require parsing/cleaning",
-      "Calendar-year split pages \u2014 FY23/24 spans two separate landing pages (2023 and 2024)",
+      "WAF blocks WebFetch with 403 — curl with User-Agent header works",
+      "Amounts are strings with £ prefix and commas (e.g. '£64,786.80') — require parsing/cleaning",
+      "Calendar-year split pages — FY23/24 spans two separate landing pages (2023 and 2024)",
       "Force file uses unexplained 'NFI' prefix (constabulary code)",
       "OPCC file has only ~14 rows/month; Force file ~1,332 rows/month",
       "Force schema has only 4 columns (no Procurement Method column)"
@@ -4707,7 +4707,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "Single annual file Apr 2023\u2013Mar 2024 exists but in DOCX format only; Wayback returned 404",
+    "fy_coverage": "Single annual file Apr 2023–Mar 2024 exists but in DOCX format only; Wayback returned 404",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -4718,11 +4718,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "DOCX (Word document) format \u2014 hard blocker, no structured tabular data",
-      "WAF/Cloudflare blocks direct access with 403 \u2014 only accessible via Wayback Machine",
-      "Wayback Machine copy of DOCX returned 404 \u2014 may be inaccessible",
-      "OPCC-only publication \u2014 covers only small OPCC office budget (~\u00a31.5m annual), NOT Kent Police force",
-      "Kent Police force does NOT publish spend-over-\u00a3500 as structured data",
+      "DOCX (Word document) format — hard blocker, no structured tabular data",
+      "WAF/Cloudflare blocks direct access with 403 — only accessible via Wayback Machine",
+      "Wayback Machine copy of DOCX returned 404 — may be inaccessible",
+      "OPCC-only publication — covers only small OPCC office budget (~£1.5m annual), NOT Kent Police force",
+      "Kent Police force does NOT publish spend-over-£500 as structured data",
       "Force spend only available in PDF Statement of Accounts",
       "Cannot ingest Kent force operational spend without FOI request",
       "Historical years mixed formats (docx/pdf/xlsx)"
@@ -4739,7 +4739,7 @@
     "url_pattern": "https://www.hampshire-pcc.gov.uk/wp-content/uploads/YYYY/MM/Transparency-Payments-YYYY-MM.xls",
     "file_format": "xls",
     "blocker_severity": "yellow",
-    "fy_coverage": "12/12 verified (Apr 2023\u2013Mar 2024)",
+    "fy_coverage": "12/12 verified (Apr 2023–Mar 2024)",
     "schema": {
       "supplier_col": "Supplier Name with Redactions",
       "dept_col": "Department",
@@ -4750,10 +4750,10 @@
       "sep": "unknown"
     },
     "complications": [
-      "Legacy .xls (BIFF binary) format \u2014 requires xlrd or conversion; a few months are .xlsx",
-      "Posting dates stored as Excel serial numbers (e.g. 45027 = 2023-04-01) \u2014 need conversion",
+      "Legacy .xls (BIFF binary) format — requires xlrd or conversion; a few months are .xlsx",
+      "Posting dates stored as Excel serial numbers (e.g. 45027 = 2023-04-01) — need conversion",
       "Some supplier names are redacted",
-      "Department column always reads 'Hampshire & Isle of Wight Constabulary' \u2014 no sub-department breakdown",
+      "Department column always reads 'Hampshire & Isle of Wight Constabulary' — no sub-department breakdown",
       "Archive spending at separate URL: /archive-of-spending-over-500"
     ],
     "needs_playwright": false,
@@ -4787,8 +4787,8 @@
       "sep": "unknown"
     },
     "complications": [
-      "Single annual workbook with 12 monthly sheets \u2014 not separate monthly files",
-      "No department/division column \u2014 only expenditure category",
+      "Single annual workbook with 12 monthly sheets — not separate monthly files",
+      "No department/division column — only expenditure category",
       "CSV available on request only (not published)",
       "Dates stored as datetime values",
       "Covers Lancashire Constabulary operational force"
@@ -4807,7 +4807,7 @@
     "url_pattern": null,
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "H1 = Jan\u2013Aug 2023 (filter Apr\u2013Aug 2023 for FY23/24); H2 = Sep 2023\u2013Mar 2024; combined full FY23/24 achievable but requires post-filtering",
+    "fy_coverage": "H1 = Jan–Aug 2023 (filter Apr–Aug 2023 for FY23/24); H2 = Sep 2023–Mar 2024; combined full FY23/24 achievable but requires post-filtering",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -4818,10 +4818,10 @@
       "sep": "unknown"
     },
     "complications": [
-      "Cloudflare JS challenge \u2014 all met.police.uk URLs return 403 from curl regardless of UA/headers",
+      "Cloudflare JS challenge — all met.police.uk URLs return 403 from curl regardless of UA/headers",
       "Browser or Playwright required for download",
       "Wayback Machine cannot serve binary file as fallback",
-      "H1 bundle covers January\u2013August 2023, overlapping FY22/23 Q4 (Jan\u2013Mar 2023); must filter to April 2023+ for FY23/24",
+      "H1 bundle covers January–August 2023, overlapping FY22/23 Q4 (Jan–Mar 2023); must filter to April 2023+ for FY23/24",
       "Data published as half-year bundles (H1 and H2), not monthly or quarterly files",
       "H1 file URL recovered via Wayback CDX snapshot of published-items lister page dated 2023-12-06"
     ],
@@ -4840,7 +4840,7 @@
     "url_pattern": "https://www.surreyi.gov.uk/download/e6rgn/{TOKEN}/ERP%20Spend%20{QUARTER}%20{YYYY-YYYY}.csv",
     "file_format": "csv",
     "blocker_severity": "yellow",
-    "fy_coverage": "Q3+Q4 only \u2014 Q1/Q2 2023-24 deleted from source, 404 since May 2025",
+    "fy_coverage": "Q3+Q4 only — Q1/Q2 2023-24 deleted from source, 404 since May 2025",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -4851,10 +4851,10 @@
       "sep": "comma"
     },
     "complications": [
-      "Q1 (token p9d) and Q2 (token vdt) of 2023-24 were deleted by Surrey and return 404 \u2014 not recoverable from live source",
+      "Q1 (token p9d) and Q2 (token vdt) of 2023-24 were deleted by Surrey and return 404 — not recoverable from live source",
       "Only 50% of FY2023/24 is available from official source (Q3 and Q4 only)",
       "Wayback Machine CDX shows p9d and vdt existed briefly Jan 2024 but only captured redirects, not CSV content",
-      "Token ll8 is ERP Spend Q2 2024-2025, NOT Q3 2023-2024 \u2014 prior labeling error in caller's known URLs",
+      "Token ll8 is ERP Spend Q2 2024-2025, NOT Q3 2023-2024 — prior labeling error in caller's known URLs",
       "Correct Q3 2023-2024 token is 1p1; Q4 2023-2024 token is s2j",
       "Authoritative resource manifest available via JSON API at https://www.surreyi.gov.uk/api/dataset/council-spending-e6rgn (no auth, curl-accessible)",
       "Tokens are stable per upload and only rotate on re-upload",
@@ -4910,10 +4910,10 @@
     },
     "complications": [
       "Encoding is cp1252 not UTF-8",
-      "Amount is string with embedded \u00a3 sign and comma thousands separator e.g. '\u00a35,414.40'",
-      "Threshold is \u00a3500 inc. VAT",
+      "Amount is string with embedded £ sign and comma thousands separator e.g. '£5,414.40'",
+      "Threshold is £500 inc. VAT",
       "CKAN package_show is extremely slow (229s)",
-      "Drupal dataset HTML page hangs 180s+ \u2014 use CKAN API or direct file URLs"
+      "Drupal dataset HTML page hangs 180s+ — use CKAN API or direct file URLs"
     ],
     "needs_playwright": false,
     "report_source": "shire_counties_discovery_batch_a.md"
@@ -4927,7 +4927,7 @@
     "url_pattern": null,
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "0/12 \u2014 rolling window purged, FOI-only",
+    "fy_coverage": "0/12 — rolling window purged, FOI-only",
     "schema": {
       "supplier_col": "Supplier name",
       "dept_col": "Service area categorisation",
@@ -4938,9 +4938,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Rolling window \u2014 earliest publicly listed report is January 2025",
+      "Rolling window — earliest publicly listed report is January 2025",
       "FY 2023/24 purged from site",
-      "Must FOI finance team via spending over \u00a3500 enquiry form"
+      "Must FOI finance team via spending over £500 enquiry form"
     ],
     "needs_playwright": false,
     "report_source": "shire_counties_discovery_batch_a.md"
@@ -4978,8 +4978,8 @@
       "sep": "comma"
     },
     "complications": [
-      "Per-file GUID slugs \u2014 must scrape landing page, no deterministic URL pattern",
-      "Threshold is \u00a3500 inc. VAT",
+      "Per-file GUID slugs — must scrape landing page, no deterministic URL pattern",
+      "Threshold is £500 inc. VAT",
       "Includes negative amounts (credits/reversals)",
       "SME size band in Industry column",
       "16 columns including Capital/Revenue and Charity & Company Number"
@@ -4996,7 +4996,7 @@
     "url_pattern": "https://www.leicestershire.gov.uk/sites/default/files/{YYYY}-{MM+1}/Payment-to-suppliers-over-500-[all-]{Month}-{YYYY}.csv",
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "12/12 exist but require Playwright \u2014 Akamai 403",
+    "fy_coverage": "12/12 exist but require Playwright — Akamai 403",
     "schema": {
       "supplier_col": "SUPPLIER NAME",
       "dept_col": "DEPARTMENT",
@@ -5007,11 +5007,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Akamai edge protection \u2014 HTTP 403 on direct curl even with full Chrome UA",
+      "Akamai edge protection — HTTP 403 on direct curl even with full Chrome UA",
       "Needs Playwright with real browser profile",
-      "Filename inconsistency \u2014 'all-' prefix present for Apr\u2013May 2023 only, absent from Jun 2023 onwards",
+      "Filename inconsistency — 'all-' prefix present for Apr–May 2023 only, absent from Jun 2023 onwards",
       "Upload month is +1 from data month",
-      "Threshold is \u00a3500 excl. VAT",
+      "Threshold is £500 excl. VAT",
       "PAY GROUP tag distinguishes VCSE suppliers from Aug 2021 onwards"
     ],
     "needs_playwright": true,
@@ -5026,7 +5026,7 @@
     "url_pattern": "https://www.oxfordshire.gov.uk/sites/default/files/file/council-tax-and-finance-spending/{MonthAbbrev}{YYYY}Over500.csv",
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "12/12 exist but require UK-origin Playwright \u2014 origin IP firewalled",
+    "fy_coverage": "12/12 exist but require UK-origin Playwright — origin IP firewalled",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Service",
@@ -5037,12 +5037,12 @@
       "sep": "comma"
     },
     "complications": [
-      "Origin IP 194.81.226.59 unreachable \u2014 TCP timeouts / ECONNREFUSED from non-UK egress",
-      "Geographic/IP firewall \u2014 needs UK-origin Playwright or UK proxy",
-      "Month abbreviation in filename is inconsistent \u2014 mix of full names (March) and abbreviations (Nov, Apr, etc.)",
+      "Origin IP 194.81.226.59 unreachable — TCP timeouts / ECONNREFUSED from non-UK egress",
+      "Geographic/IP firewall — needs UK-origin Playwright or UK proxy",
+      "Month abbreviation in filename is inconsistent — mix of full names (March) and abbreviations (Nov, Apr, etc.)",
       "Must scrape landing page to get exact filenames",
       "P-Card spend published separately as PCardSpends{Month}{YYYY}.csv",
-      "Threshold is \u00a3500"
+      "Threshold is £500"
     ],
     "needs_playwright": true,
     "report_source": "shire_counties_discovery_batch_a.md"
@@ -5061,7 +5061,7 @@
     "url_pattern": null,
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "4/4 quarterly XLSX \u2014 Playwright-only; Q1 and Q2 incomplete per council's own admission",
+    "fy_coverage": "4/4 quarterly XLSX — Playwright-only; Q1 and Q2 incomplete per council's own admission",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5075,8 +5075,8 @@
       "SharePoint anonymous-share links return HTTP 401 to raw curl",
       "Needs Playwright with browser session for fedauth/rtfa cookies",
       "Data is quarterly not monthly",
-      "Q1 and Q2 2023/24 flagged incomplete by council \u2014 still extracting from finance system",
-      "LGR consolidation \u2014 Somerset Council replaced SCC + 4 districts from 1 Apr 2023; FY 2023/24 is first year of new unitary",
+      "Q1 and Q2 2023/24 flagged incomplete by council — still extracting from finance system",
+      "LGR consolidation — Somerset Council replaced SCC + 4 districts from 1 Apr 2023; FY 2023/24 is first year of new unitary",
       "Data integrity caveats on Q1 and Q2"
     ],
     "needs_playwright": true,
@@ -5091,7 +5091,7 @@
     "url_pattern": null,
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "0/12 \u2014 rolling window purged, FOI-only",
+    "fy_coverage": "0/12 — rolling window purged, FOI-only",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5102,10 +5102,10 @@
       "sep": "comma"
     },
     "complications": [
-      "Rolling window \u2014 earliest publicly listed report is January 2025",
+      "Rolling window — earliest publicly listed report is January 2025",
       "FY 2023/24 purged from site",
       "Must email alison.gray@suffolk.gov.uk or FOI",
-      "Threshold is \u00a3250 not \u00a3500 \u2014 larger row counts, below LGR Transparency Code minimum",
+      "Threshold is £250 not £500 — larger row counts, below LGR Transparency Code minimum",
       "Two datasets published side-by-side: Suffolk County Council operating and Suffolk Pension Fund"
     ],
     "needs_playwright": false,
@@ -5131,9 +5131,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "Two-step fetch required \u2014 must scrape directory-record page to resolve 4-digit API document ID",
-      "Multi-sheet XLSX workbook \u2014 data is in 'pound_500' sheet; must skip _options, _control, PARAMETER sheets",
-      "Each monthly XLSX is a rolling snapshot from 01-Jan-2021 filtered to the month \u2014 must filter Pay Date to target month",
+      "Two-step fetch required — must scrape directory-record page to resolve 4-digit API document ID",
+      "Multi-sheet XLSX workbook — data is in 'pound_500' sheet; must skip _options, _control, PARAMETER sheets",
+      "Each monthly XLSX is a rolling snapshot from 01-Jan-2021 filtered to the month — must filter Pay Date to target month",
       "Amount excludes VAT",
       "Individuals redacted",
       "Oracle BI Publisher template format"
@@ -5150,7 +5150,7 @@
     "url_pattern": "https://www.bedford.gov.uk/files/payments-over-ps250-{month}-{year}.xlsx/download",
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "0/12 \u2014 FY 2023/24 files return HTTP 404; email request required",
+    "fy_coverage": "0/12 — FY 2023/24 files return HTTP 404; email request required",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5164,7 +5164,7 @@
       "HARD BLOCKER: FY 2023/24 files return HTTP 404",
       "Only 2 rolling years displayed on site; older data purged",
       "Must email creditors@bedford.gov.uk to request archive",
-      "Threshold is \u00a3250, not \u00a3500 \u2014 downstream filtering required"
+      "Threshold is £250, not £500 — downstream filtering required"
     ],
     "needs_playwright": false,
     "report_source": "tier_3_unitaries_discovery.md"
@@ -5189,12 +5189,12 @@
       "sep": "comma"
     },
     "complications": [
-      "HARD BLOCKER: Microsoft 365 login gate \u2014 unauthenticated requests redirect to login.microsoftonline.com",
+      "HARD BLOCKER: Microsoft 365 login gate — unauthenticated requests redirect to login.microsoftonline.com",
       "?download=1 still returns sign-in HTML",
       "Files hosted on Communications SharePoint site, not web CMS",
       "Requires Microsoft Graph API auth or manual browser download",
-      "Threshold is \u00a3250, not \u00a3500 \u2014 downstream filtering required",
-      "12 spend files + 12 P-Card files for Apr 2023\u2013Mar 2024 listed"
+      "Threshold is £250, not £500 — downstream filtering required",
+      "12 spend files + 12 P-Card files for Apr 2023–Mar 2024 listed"
     ],
     "needs_playwright": true,
     "report_source": "tier_3_unitaries_discovery.md"
@@ -5243,9 +5243,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "No directorate column \u2014 only Service and Expenditure category",
+      "No directorate column — only Service and Expenditure category",
       "Dates are timestamps with microseconds",
-      "Media ID in URL path varies per file \u2014 pattern not fully predictable",
+      "Media ID in URL path varies per file — pattern not fully predictable",
       "Single sheet named 'Data to publish'"
     ],
     "needs_playwright": false,
@@ -5262,7 +5262,7 @@
     "url_pattern": null,
     "file_format": "xlsx",
     "blocker_severity": "yellow",
-    "fy_coverage": "Full year in single file; file published Nov 2023 \u2014 may be superseded by updated version",
+    "fy_coverage": "Full year in single file; file published Nov 2023 — may be superseded by updated version",
     "schema": {
       "supplier_col": "Accounts Payable/Accounts Receivable ID",
       "dept_col": "Service Area",
@@ -5274,9 +5274,9 @@
     },
     "complications": [
       "Single annual workbook (not monthly files), ~20,666 rows",
-      "Supplier name lives in 'AP/AR ID' column \u2014 misleading column name",
+      "Supplier name lives in 'AP/AR ID' column — misleading column name",
       "No directorate hierarchy, only Service Area + Cost Centre",
-      "File published Nov 2023 despite covering through Mar 2024 \u2014 may be superseded by a later version",
+      "File published Nov 2023 despite covering through Mar 2024 — may be superseded by a later version",
       "Additional columns: Trans.Date, TransNo, Invoice Amount (Gross), Cost Centre Area, VAT Type"
     ],
     "needs_playwright": false,
@@ -5318,15 +5318,15 @@
       "supplier_col": "Supplier",
       "dept_col": "Service Area",
       "purpose_col": "Expenses Type",
-      "amount_col": "Amount \u00a3",
+      "amount_col": "Amount £",
       "date_col": "Date",
       "encoding": "latin1",
       "sep": "unknown"
     },
     "complications": [
       "Quarterly files (Apr-Jun, Jul-Sep, Oct-Dec, Jan-Mar), not monthly",
-      "Sheet name contains Latin-1 pound sign (e.g. 'Over \u00a3500 April - June')",
-      "Dates mix datetime strings and Excel serial numbers (e.g. 45085) in same column \u2014 parser must handle both",
+      "Sheet name contains Latin-1 pound sign (e.g. 'Over £500 April - June')",
+      "Dates mix datetime strings and Excel serial numbers (e.g. 45085) in same column — parser must handle both",
       "11 columns including a blank trailing column",
       "Additional columns: Body Name, Body code, Service Division, Responsible Unit, TransNo"
     ],
@@ -5359,13 +5359,13 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3100, not \u00a3500 \u2014 downstream filtering to \u2265\u00a3500 required",
-      "3 metadata rows at top of file (title + 2 blanks) \u2014 header is on row 4",
-      "Encoding is Latin-1 \u2014 pound sign renders as replacement character in UTF-8",
+      "Threshold is £100, not £500 — downstream filtering to ≥£500 required",
+      "3 metadata rows at top of file (title + 2 blanks) — header is on row 4",
+      "Encoding is Latin-1 — pound sign renders as replacement character in UTF-8",
       "Filename typo: '2024303' instead of '202403'",
       "Trailing blank columns in file",
       "Single annual file (not monthly)",
-      "Council had 2023 Section 114 near-miss \u2014 watch for data retraction or publication pattern changes",
+      "Council had 2023 Section 114 near-miss — watch for data retraction or publication pattern changes",
       "21 columns total"
     ],
     "needs_playwright": false,
@@ -5391,11 +5391,11 @@
       "sep": "comma"
     },
     "complications": [
-      "HARD BLOCKER: datashare.blackburn.gov.uk (5.61.122.73) refuses TCP connections from non-UK IPs \u2014 likely Fortinet/UK-only firewall",
+      "HARD BLOCKER: datashare.blackburn.gov.uk (5.61.122.73) refuses TCP connections from non-UK IPs — likely Fortinet/UK-only firewall",
       "WebFetch returns ECONNREFUSED from sandbox",
       "Needs UK egress proxy or VPN to download",
       "Publishes cumulative files (e.g. April to September, April to October) rather than monthly files",
-      "Threshold \u00a3500",
+      "Threshold £500",
       "Also has interim cumulative partial-year files alongside full-year file"
     ],
     "needs_playwright": false,
@@ -5470,9 +5470,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250, not \u00a3500 \u2014 downstream filtering required",
+      "Threshold is £250, not £500 — downstream filtering required",
       "Filename typo for March 2024: 'Transparency-spend-Marc-2024.csv' (not 'March')",
-      "Amount fields are quoted strings with embedded commas (e.g. \"2,890.00\") \u2014 requires careful CSV parsing",
+      "Amount fields are quoted strings with embedded commas (e.g. \"2,890.00\") — requires careful CSV parsing",
       "Empty/blank column between Service Division and Directorate columns",
       "Redacted personal data rows have supplier = 'REDACTED PERSONAL DATA'",
       "18 columns total including multiple service/directorate hierarchy levels",
@@ -5527,8 +5527,8 @@
     },
     "complications": [
       "encoding is cp1252 not UTF-8",
-      "amounts quoted with pound sign and thousand separators e.g. \"\u00a31,041.00\" need unquoting",
-      "media IDs in URLs are not sequential/predictable \u2014 exact ID list must be maintained"
+      "amounts quoted with pound sign and thousand separators e.g. \"£1,041.00\" need unquoting",
+      "media IDs in URLs are not sequential/predictable — exact ID list must be maintained"
     ],
     "needs_playwright": false,
     "report_source": "unitaries_cleanup_combined_authorities.md"
@@ -5580,8 +5580,8 @@
       "sep": "comma"
     },
     "complications": [
-      "2 metadata rows before header \u2014 skip 2 rows on ingest",
-      "amount column not visible in header sample \u2014 likely further right",
+      "2 metadata rows before header — skip 2 rows on ingest",
+      "amount column not visible in header sample — likely further right",
       "filename convention changes mid-year (april2023v2.csv vs october-2023.csv)",
       "redacted rows marked 'redacted personal data'"
     ],
@@ -5614,9 +5614,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "threshold is \u00a3250 not \u00a3500 \u2014 ~48k rows (44%) are under \u00a3500 and need filtering",
+      "threshold is £250 not £500 — ~48k rows (44%) are under £500 and need filtering",
       "data on sheet 2 ('250 Spend'); sheet 1 is licence note; sheet 3 is Card Transactions",
-      "no Department column \u2014 only cost centre text",
+      "no Department column — only cost centre text",
       "some reversal entries create extreme amount values"
     ],
     "needs_playwright": false,
@@ -5656,9 +5656,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "two 'Description' columns (cost centre description and subjective description) \u2014 will collide on naive ingest",
+      "two 'Description' columns (cost centre description and subjective description) — will collide on naive ingest",
       "leading-space column headers need trimming",
-      "URL slug says '\u00a3250' but actual threshold is \u00a3500",
+      "URL slug says '£250' but actual threshold is £500",
       "Line Amount and Net Amount differ for multi-line invoices",
       "very small volume (~2,200 rows/year)"
     ],
@@ -5694,8 +5694,8 @@
       "sep": "unknown"
     },
     "complications": [
-      "Cloudflare WAF \u2014 WebFetch returns 403; curl with real User-Agent works",
-      "Q4 2023/24 file has 'reupload' prefix \u2014 original was withdrawn/corrected",
+      "Cloudflare WAF — WebFetch returns 403; curl with real User-Agent works",
+      "Q4 2023/24 file has 'reupload' prefix — original was withdrawn/corrected",
       "XLSX data on sheet named 'Cleansed Data'",
       "Organisation column includes TfGM and other bodies alongside GMCA direct spend"
     ],
@@ -5722,11 +5722,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "Apr-Jul 2023 (4 months) available as PDF only \u2014 requires PDF extraction",
-      "two-row merged header in XLSX \u2014 skip row 2 on ingest",
+      "Apr-Jul 2023 (4 months) available as PDF only — requires PDF extraction",
+      "two-row merged header in XLSX — skip row 2 on ingest",
       "calendar-year organisation rather than financial year",
       "no hierarchy above Cost Centre; no Purpose column separate from Expense Type",
-      "opaque hash-based media URLs \u2014 must be resolved from landing page"
+      "opaque hash-based media URLs — must be resolved from landing page"
     ],
     "needs_playwright": false,
     "report_source": "unitaries_cleanup_combined_authorities.md"
@@ -5740,7 +5740,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "No spend-over-\u00a3500 dataset publicly available",
+    "fy_coverage": "No spend-over-£500 dataset publicly available",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5751,8 +5751,8 @@
       "sep": "unknown"
     },
     "complications": [
-      "No spend-over-\u00a3500 transactional dataset found on website or data.gov.uk",
-      "Site is a Next.js SPA \u2014 WebFetch returns 403, curl returns HTML shell only",
+      "No spend-over-£500 transactional dataset found on website or data.gov.uk",
+      "Site is a Next.js SPA — WebFetch returns 403, curl returns HTML shell only",
       "Only available financial documents are Statement of Accounts PDFs",
       "Likely non-compliant with LG Transparency Code 2015",
       "FOI request recommended as only resolution path"
@@ -5798,15 +5798,15 @@
       "supplier_col": "Beneficiary",
       "dept_col": "Directorate",
       "purpose_col": "Summary of Purpose",
-      "amount_col": "Value \u00a3",
+      "amount_col": "Value £",
       "date_col": "Date",
       "encoding": "unknown",
       "sep": "unknown"
     },
     "complications": [
-      "Header at row 13 \u2014 9 blank rows + 2 title rows before header; use skiprows=12",
+      "Header at row 13 — 9 blank rows + 2 title rows before header; use skiprows=12",
       "XLSX has 2 sheets",
-      "Beneficiaries include member councils (Wakefield MDC, Leeds etc.) receiving CA grants \u2014 not duplication",
+      "Beneficiaries include member councils (Wakefield MDC, Leeds etc.) receiving CA grants — not duplication",
       "Some payments are to grant-distributing operators, not end suppliers"
     ],
     "needs_playwright": false,
@@ -5821,7 +5821,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 no transparency feed published",
+    "fy_coverage": "Not available — no transparency feed published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5833,10 +5833,10 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
       "Only Statement of Accounts PDFs published",
       "No monthly transparency feed",
-      "Cloudflare/WAF \u2014 curl returned 404"
+      "Cloudflare/WAF — curl returned 404"
     ],
     "needs_playwright": true,
     "report_source": "welsh_councils_batch_2_north_rural.md"
@@ -5850,7 +5850,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 hard blocker, FOI refused",
+    "fy_coverage": "Not available — hard blocker, FOI refused",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5862,9 +5862,9 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
-      "Explicitly refused FOI request for spend-over-\u00a3500 data citing >2.5 days of work",
-      "Partial WAF \u2014 404 via curl",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
+      "Explicitly refused FOI request for spend-over-£500 data citing >2.5 days of work",
+      "Partial WAF — 404 via curl",
       "Bilingual publication scheme but no dataset published"
     ],
     "needs_playwright": true,
@@ -5879,7 +5879,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 no line-item transparency feed published",
+    "fy_coverage": "Not available — no line-item transparency feed published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5891,9 +5891,9 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
       "Only Statement of Accounts 2023/24 PDF available",
-      "Cloudflare/WAF \u2014 curl exit 35 TLS handshake failure"
+      "Cloudflare/WAF — curl exit 35 TLS handshake failure"
     ],
     "needs_playwright": true,
     "report_source": "welsh_councils_batch_2_north_rural.md"
@@ -5907,7 +5907,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 only aggregate dashboard published",
+    "fy_coverage": "Not available — only aggregate dashboard published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5919,7 +5919,7 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
       "Only high-level aggregate 'How your council tax is spent' dashboard; no transactional data",
       "Likely WAF present",
       "Bilingual site"
@@ -5936,7 +5936,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 datasets page exposes Business Rates CSV only, no supplier payments",
+    "fy_coverage": "Not available — datasets page exposes Business Rates CSV only, no supplier payments",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5948,8 +5948,8 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
-      "Council Datasets page only exposes Business Rates CSV \u2014 no supplier payments published",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
+      "Council Datasets page only exposes Business Rates CSV — no supplier payments published",
       "Uses Oxygen Finance FastTrack early-pay program but does not publish line-level spend"
     ],
     "needs_playwright": false,
@@ -5964,7 +5964,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "yellow",
-    "fy_coverage": "Uncertain \u2014 dedicated URL slug exists but returns 403; needs manual browser verification",
+    "fy_coverage": "Uncertain — dedicated URL slug exists but returns 403; needs manual browser verification",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -5976,8 +5976,8 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
-      "Dedicated payments-over-500 URL slug found but returns 403 via WebFetch \u2014 WAF blocking",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
+      "Dedicated payments-over-500 URL slug found but returns 403 via WebFetch — WAF blocking",
       "Recent FOI requests on WhatDoTheyKnow were 'long overdue' / awaiting response",
       "Possible historical data only; current coverage unknown",
       "Manual browser verification recommended"
@@ -5994,7 +5994,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 only Statement of Accounts and budget narrative published",
+    "fy_coverage": "Not available — only Statement of Accounts and budget narrative published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6006,7 +6006,7 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
       "Only Statement of Accounts and revenue budget narrative published; no supplier transparency CSV"
     ],
     "needs_playwright": false,
@@ -6021,7 +6021,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "Not available \u2014 only Statement of Accounts 2023-24 PDF published",
+    "fy_coverage": "Not available — only Statement of Accounts 2023-24 PDF published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6033,7 +6033,7 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 not subject to England Local Government Transparency Code 2015",
+      "Welsh council — not subject to England Local Government Transparency Code 2015",
       "Only Statement of Accounts 2023-24 PDF available; no line-item transparency feed"
     ],
     "needs_playwright": false,
@@ -6048,7 +6048,7 @@
     "url_pattern": null,
     "file_format": "unknown",
     "blocker_severity": "red",
-    "fy_coverage": "not available \u2014 no machine-readable spend data published",
+    "fy_coverage": "not available — no machine-readable spend data published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6060,11 +6060,11 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
       "No downloadable supplier-level payments dataset as of 2026",
       "2019 FOI response stated publication was 'under review'",
-      "Cloudflare/WAF \u2014 cardiff.gov.uk and foi.cardiff.gov.uk regularly 403 WebFetch",
-      "HARD BLOCKER \u2014 FOI request required",
+      "Cloudflare/WAF — cardiff.gov.uk and foi.cardiff.gov.uk regularly 403 WebFetch",
+      "HARD BLOCKER — FOI request required",
       "Only non-payment datasets published (business rates, Council Tax bands)"
     ],
     "needs_playwright": true,
@@ -6079,7 +6079,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "not available \u2014 no machine-readable spend data published",
+    "fy_coverage": "not available — no machine-readable spend data published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6091,11 +6091,11 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
       "Only budget and statement-of-accounts PDFs published",
-      "Cloudflare/WAF \u2014 403 on WebFetch",
-      "HARD BLOCKER \u2014 FOI request required",
-      "Payments team contact: Fin.Admin@swansea.gov.uk \u2014 no programmatic portal"
+      "Cloudflare/WAF — 403 on WebFetch",
+      "HARD BLOCKER — FOI request required",
+      "Payments team contact: Fin.Admin@swansea.gov.uk — no programmatic portal"
     ],
     "needs_playwright": true,
     "report_source": "welsh_councils_discovery_batch.md"
@@ -6109,7 +6109,7 @@
     "url_pattern": "https://www.newport.gov.uk/documents/Council-and-Democracy/Transparency/Payments-to-suppliers/2023-2024/Payments-to-suppliers-Q{N}-2023.xlsx",
     "file_format": "xlsx",
     "blocker_severity": "yellow",
-    "fy_coverage": "4/4 quarters present \u2014 Q1 Apr\u2013Jun 2023, Q2 Jul\u2013Sep 2023, Q3 Oct\u2013Dec 2023, Q4 Jan\u2013Mar 2024",
+    "fy_coverage": "4/4 quarters present — Q1 Apr–Jun 2023, Q2 Jul–Sep 2023, Q3 Oct–Dec 2023, Q4 Jan–Mar 2024",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6121,13 +6121,13 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
-      "NOT transaction-level \u2014 quarterly cumulative totals by supplier where cumulative exceeds \u00a3500, not individual invoices",
-      "Cloudflare/WAF \u2014 403 on WebFetch; browser UA likely required",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
+      "NOT transaction-level — quarterly cumulative totals by supplier where cumulative exceeds £500, not individual invoices",
+      "Cloudflare/WAF — 403 on WebFetch; browser UA likely required",
       "Historical filenames inconsistent: also observed as Payments-to-suppliers-{YY}{YY}-Qtr{N}.xlsx",
-      "Threshold: cumulative >\u00a3500 per quarter per supplier (not per-invoice)",
+      "Threshold: cumulative >£500 per quarter per supplier (not per-invoice)",
       "Schema differs significantly from English councils and Vale of Glamorgan",
-      "Quarterly cadence only \u2014 coarser than monthly English data"
+      "Quarterly cadence only — coarser than monthly English data"
     ],
     "needs_playwright": true,
     "report_source": "welsh_councils_discovery_batch.md"
@@ -6141,7 +6141,7 @@
     "url_pattern": null,
     "file_format": "xlsx",
     "blocker_severity": "red",
-    "fy_coverage": "not available \u2014 only a stale contracts register, no actual spend data",
+    "fy_coverage": "not available — only a stale contracts register, no actual spend data",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6153,10 +6153,10 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
       "Only a Contracts Register XLSX published (not spend/payments data)",
-      "Contracts register last dated Feb 2022 \u2014 stale",
-      "HARD BLOCKER \u2014 no payment-level data available",
+      "Contracts register last dated Feb 2022 — stale",
+      "HARD BLOCKER — no payment-level data available",
       "Bilingual page (EN/CY toggle) but XLSX is English only"
     ],
     "needs_playwright": false,
@@ -6171,7 +6171,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "not available \u2014 budget summary PDFs only",
+    "fy_coverage": "not available — budget summary PDFs only",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6183,10 +6183,10 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
-      "Only budget summary PDFs published \u2014 no supplier-level data",
-      "Cloudflare/WAF \u2014 ECONNREFUSED on WebFetch",
-      "HARD BLOCKER \u2014 FOI request required",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
+      "Only budget summary PDFs published — no supplier-level data",
+      "Cloudflare/WAF — ECONNREFUSED on WebFetch",
+      "HARD BLOCKER — FOI request required",
       "Recently reported for refusing FOIs on suspension costs"
     ],
     "needs_playwright": true,
@@ -6201,7 +6201,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "not available \u2014 only aggregated percentage breakdown on webpage, no downloadable file",
+    "fy_coverage": "not available — only aggregated percentage breakdown on webpage, no downloadable file",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6213,10 +6213,10 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
-      "Only aggregated % by 11 categories shown on webpage \u2014 no downloadable file",
-      "Annual Budget Digest PDF only \u2014 no supplier-level data",
-      "HARD BLOCKER \u2014 FOI request required",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
+      "Only aggregated % by 11 categories shown on webpage — no downloadable file",
+      "Annual Budget Digest PDF only — no supplier-level data",
+      "HARD BLOCKER — FOI request required",
       "Bilingual website with parallel EN/CY URLs"
     ],
     "needs_playwright": false,
@@ -6231,7 +6231,7 @@
     "url_pattern": null,
     "file_format": "pdf",
     "blocker_severity": "red",
-    "fy_coverage": "not available \u2014 only financial plan, accounts, and budget PDFs published",
+    "fy_coverage": "not available — only financial plan, accounts, and budget PDFs published",
     "schema": {
       "supplier_col": null,
       "dept_col": null,
@@ -6243,10 +6243,10 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
       "Finance Documents page only has Medium Term Financial Plan, Statement of Accounts, Revenue Budget (all PDFs)",
       "Publication scheme mentions spend data but no linked files",
-      "HARD BLOCKER \u2014 FOI request required",
+      "HARD BLOCKER — FOI request required",
       "Contact: finance@wrexham.gov.uk"
     ],
     "needs_playwright": false,
@@ -6261,7 +6261,7 @@
     "url_pattern": "https://www.valeofglamorgan.gov.uk/Documents/Our%20Council/Council/Finance/2023/Payables-Greater-than-500-{Month}-Excel-2023.xls",
     "file_format": "mixed",
     "blocker_severity": "green",
-    "fy_coverage": "12/12 months confirmed listed \u2014 April 2023 through March 2024",
+    "fy_coverage": "12/12 months confirmed listed — April 2023 through March 2024",
     "schema": {
       "supplier_col": "Supplier  Name",
       "dept_col": "Parent Cost Centre Description (Addl)",
@@ -6273,18 +6273,18 @@
     },
     "complications": [
       "devolved nation - out of scope",
-      "Welsh council \u2014 voluntary publication only, not bound by English Transparency Code 2015",
-      "CSV files are TAB-delimited UTF-8-BOM despite .csv extension \u2014 not comma-delimited",
+      "Welsh council — voluntary publication only, not bound by English Transparency Code 2015",
+      "CSV files are TAB-delimited UTF-8-BOM despite .csv extension — not comma-delimited",
       "Both .xls and .csv formats published monthly",
       "Supplier Name column has double space: 'Supplier  Name'",
       "Inconsistent month abbreviations in URLs (April, May-2023, Jun, Jul, Aug, Sept, Oct, Nov, Dec)",
-      "Jan\u2013Mar 2024 files stored under /2023/ folder with -2024 suffix (e.g. Payables-Greater-than-500-Jan-Excel-2024.xls)",
-      "Threshold: >=\u00a3500 per cost-centre charge excl VAT (not per-supplier cumulative)",
+      "Jan–Mar 2024 files stored under /2023/ folder with -2024 suffix (e.g. Payables-Greater-than-500-Jan-Excel-2024.xls)",
+      "Threshold: >=£500 per cost-centre charge excl VAT (not per-supplier cumulative)",
       "Fostering/adoption payments excluded",
       "Sensitive/personal-data payments removed",
       "Uses Oracle 'Payables' terminology",
       "CRLF line terminators",
-      "Files download cleanly \u2014 no Cloudflare/WAF blocking"
+      "Files download cleanly — no Cloudflare/WAF blocking"
     ],
     "needs_playwright": false,
     "report_source": "welsh_councils_discovery_batch.md"
@@ -6335,9 +6335,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Row 1 is a title row 'LBBD Payments Greater than \u00a3250 for Publishing' \u2014 skip 1 row before header",
+      "Row 1 is a title row 'LBBD Payments Greater than £250 for Publishing' — skip 1 row before header",
       "Three identically-named Cost Centre Parent columns",
-      "Threshold is \u00a3250 not \u00a3500 \u2014 filter client-side on Gross >= 500",
+      "Threshold is £250 not £500 — filter client-side on Gross >= 500",
       "Upload month = report month + 1 (e.g. April 2023 lives in 2023-05/)",
       "Amount is gross (inc VAT), not net ex-VAT"
     ],
@@ -6364,9 +6364,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Cloudflare on landing pages but CKAN /api/action/ and /download/ endpoints return 200 with Chrome UA \u2014 no Playwright needed",
-      "Slugs are non-guessable \u2014 must enumerate via CKAN API: https://open.barnet.gov.uk/api/action/package_show?id=2331d",
-      "8th column has multi-line header with embedded newlines \u2014 preserve when parsing",
+      "Cloudflare on landing pages but CKAN /api/action/ and /download/ endpoints return 200 with Chrome UA — no Playwright needed",
+      "Slugs are non-guessable — must enumerate via CKAN API: https://open.barnet.gov.uk/api/action/package_show?id=2331d",
+      "8th column has multi-line header with embedded newlines — preserve when parsing",
       "Rows with PUBLISH-REDACT value have redacted supplier names"
     ],
     "needs_playwright": false,
@@ -6405,9 +6405,9 @@
       "sep": "comma"
     },
     "complications": [
-      "Row 1 is metadata (e.g. ',,,,April 2023 \u00a3500 spend data,,,,') \u2014 skip 1 row before header",
+      "Row 1 is metadata (e.g. ',,,,April 2023 £500 spend data,,,,') — skip 1 row before header",
       "BOM on first cell",
-      "URL slugs are irregular (v2 suffix, sept vs september, mixed case) \u2014 hardcode all 12 URLs",
+      "URL slugs are irregular (v2 suffix, sept vs september, mixed case) — hardcode all 12 URLs",
       "Negative amounts represent credit notes",
       "Upload folder dates are irregular and non-sequential"
     ],
@@ -6440,10 +6440,10 @@
       "sep": "comma"
     },
     "complications": [
-      "Cloudflare on HTML pages but CKAN /api/action/ and /download/ endpoints return 200 with Chrome UA \u2014 no Playwright needed",
-      "Quarterly files not monthly \u2014 FY23/24 spans 5 files",
-      "March 2023 and March 2024 appear in two files each \u2014 deduplicate by Payment Date when stitching",
-      "Row 1 is title metadata \u2014 skip 1 row before header",
+      "Cloudflare on HTML pages but CKAN /api/action/ and /download/ endpoints return 200 with Chrome UA — no Playwright needed",
+      "Quarterly files not monthly — FY23/24 spans 5 files",
+      "March 2023 and March 2024 appear in two files each — deduplicate by Payment Date when stitching",
+      "Row 1 is title metadata — skip 1 row before header",
       "Leading spaces in vendor names (e.g. ' TKE UK Ltd')",
       "Redacted rows show 'REDACTED PERSONAL DATA'",
       "CKAN API needed to enumerate slugs: https://data.brent.gov.uk/api/action/package_show?id=vq756",
@@ -6472,11 +6472,11 @@
       "sep": "unknown"
     },
     "complications": [
-      "File IDs are sequential but irregular \u2014 must scrape landing page each run to extract 12 file IDs",
-      "/downloads/download/NNN/... URLs redirect to landing HTML \u2014 use /downloads/file/{id}/... only",
+      "File IDs are sequential but irregular — must scrape landing page each run to extract 12 file IDs",
+      "/downloads/download/NNN/... URLs redirect to landing HTML — use /downloads/file/{id}/... only",
       "XLSX format despite URL looking like a slug",
       "Dates stored as Excel serial numbers (e.g. 45019 = 03-Apr-2023)",
-      "Single sheet, clean header row 1 \u2014 no metadata prelude"
+      "Single sheet, clean header row 1 — no metadata prelude"
     ],
     "needs_playwright": false,
     "report_source": "london_boroughs_discovery_batch_1.md"
@@ -6514,9 +6514,9 @@
       "sep": "unknown"
     },
     "complications": [
-      "Body column includes both City of London council and City of London Police rows \u2014 filter if council-only needed",
+      "Body column includes both City of London council and City of London Police rows — filter if council-only needed",
       "Clean header row 1, no metadata prelude",
-      "Recent months (from ~April 2025) use a different URL path \u2014 not relevant for FY23/24",
+      "Recent months (from ~April 2025) use a different URL path — not relevant for FY23/24",
       "Exact row counts not confirmed (no Python available during discovery)"
     ],
     "needs_playwright": false,
@@ -6555,11 +6555,11 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250 not \u00a3500 \u2014 filter client-side on Net Amount >= 500 for consistency",
-      "First column named 'columns' contains literal 'INSERTED DETAIL' on every row \u2014 status flag, not data",
+      "Threshold is £250 not £500 — filter client-side on Net Amount >= 500 for consistency",
+      "First column named 'columns' contains literal 'INSERTED DETAIL' on every row — status flag, not data",
       "February and March 2024 IDs are reversed (19746=Feb, 19745=Mar)",
-      "File may contain dates outside nominal month \u2014 use Date column not filename for windowing",
-      "Per-month IDs are non-sequential \u2014 scrape landing page to refresh IDs",
+      "File may contain dates outside nominal month — use Date column not filename for windowing",
+      "Per-month IDs are non-sequential — scrape landing page to refresh IDs",
       "Separate credit_card_spend.xlsx available for Apr23-Feb24 pcard spend as optional enrichment"
     ],
     "needs_playwright": false,
@@ -6600,7 +6600,7 @@
     "complications": [
       "Trailing supplier-ID suffix (****####) on Supplier Name needs cleanup on ingestion",
       "UTF-8 BOM on first row",
-      "GitHub raw CDN served via githubusercontent \u2014 no rate-limit issues for 12 files",
+      "GitHub raw CDN served via githubusercontent — no rate-limit issues for 12 files",
       "Date format: ISO-like '2023-04-03 00:00:00' with time component"
     ],
     "needs_playwright": false,
@@ -6639,9 +6639,9 @@
       "sep": "comma"
     },
     "complications": [
-      "OrganisationURI column has trailing whitespace \u2014 rstrip on ingestion",
-      "XLSX variant has 2 sheets ('Data sheet', 'URI link') \u2014 read sheet 0 only",
-      "URL path includes '/2026-02/' Drupal file-revision datestamp \u2014 not the content date",
+      "OrganisationURI column has trailing whitespace — rstrip on ingestion",
+      "XLSX variant has 2 sheets ('Data sheet', 'URI link') — read sheet 0 only",
+      "URL path includes '/2026-02/' Drupal file-revision datestamp — not the content date",
       "Feb 2024 filename uses 29 not 28 (leap year)",
       "PaymentDate is DD/MM/YYYY in CSV but datetime in XLSX",
       "CategoryInternal often duplicates Purpose"
@@ -6682,9 +6682,9 @@
       "sep": "comma"
     },
     "complications": [
-      "URLs contain randomized hash suffixes \u2014 must be hard-coded or re-scraped from CKAN API; no derivable pattern",
-      "Files ~5 MB each with very low-value rows (sub-500 GBP transactions) \u2014 threshold appears below 500, filter on ingestion",
-      "ISO datetime with '23:00:00' TZ offset on DurationFrom/DurationTo \u2014 use EffectiveDate (DD/MM/YYYY) instead",
+      "URLs contain randomized hash suffixes — must be hard-coded or re-scraped from CKAN API; no derivable pattern",
+      "Files ~5 MB each with very low-value rows (sub-500 GBP transactions) — threshold appears below 500, filter on ingestion",
+      "ISO datetime with '23:00:00' TZ offset on DurationFrom/DurationTo — use EffectiveDate (DD/MM/YYYY) instead",
       "22-column schema is richest of all five councils",
       "CKAN API for stable re-resolution: https://data.lincolnshire.gov.uk/api/3/action/package_show?id=lincolnshire-county-council-spending",
       "LCC_Period encodes financial period as YYYYMM offset (e.g. '202401' = April 2023 i.e. FY month 1)"
@@ -6711,7 +6711,7 @@
     "url_pattern": null,
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "8/12 confirmed live + 1 likely (Mar24); May 2023, Jan 2024, Feb 2024 missing from live site \u2014 Wayback Machine required",
+    "fy_coverage": "8/12 confirmed live + 1 likely (Mar24); May 2023, Jan 2024, Feb 2024 missing from live site — Wayback Machine required",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Directorate",
@@ -6722,12 +6722,12 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is GBP 250 not GBP 500 \u2014 ~30% more rows; must filter post-ingestion",
+      "Threshold is GBP 250 not GBP 500 — ~30% more rows; must filter post-ingestion",
       "Four different filename conventions across FY 2023/24",
-      "Aug 2023 file in /asset-library/imported/ subdirectory \u2014 anomalous path",
-      "May 2023, Jan 2024, Feb 2024 not found on live site after exhaustive probing \u2014 Wayback Machine required",
-      "Mar 2024 URL is search-indexed but not personally verified \u2014 needs probe",
-      "Body Name and Body columns are blank in every row \u2014 must hard-code council identity on ingestion",
+      "Aug 2023 file in /asset-library/imported/ subdirectory — anomalous path",
+      "May 2023, Jan 2024, Feb 2024 not found on live site after exhaustive probing — Wayback Machine required",
+      "Mar 2024 URL is search-indexed but not personally verified — needs probe",
+      "Body Name and Body columns are blank in every row — must hard-code council identity on ingestion",
       "3-level department hierarchy: Directorate > Service Area > Sub-Service Area",
       "Capital and revenue transactions mixed"
     ],
@@ -6747,7 +6747,7 @@
     "url_pattern": "https://www.derbyshire.gov.uk/site-elements/documents/csv/council/spending/{YYYY}/monthly-report-{monthlongname}-{YYYY}-spending-over-500-county-fund.csv",
     "file_format": "csv",
     "blocker_severity": "red",
-    "fy_coverage": "3/12 live (Jan-Mar 2024 only); Apr-Dec 2023 (9 months) deleted from live server \u2014 Wayback Machine mandatory",
+    "fy_coverage": "3/12 live (Jan-Mar 2024 only); Apr-Dec 2023 (9 months) deleted from live server — Wayback Machine mandatory",
     "schema": {
       "supplier_col": "Supplier Name",
       "dept_col": "Service Area Categorisation",
@@ -6758,14 +6758,14 @@
       "sep": "comma"
     },
     "complications": [
-      "Apr-Dec 2023 (9 months) all return HTTP 404 \u2014 files deleted from live server; Wayback Machine is only path",
+      "Apr-Dec 2023 (9 months) all return HTTP 404 — files deleted from live server; Wayback Machine is only path",
       "Inconsistent month-name abbreviation: 'jan-2023' vs 'january-2023'; 'july2023' (no hyphen) vs 'july-2023'",
-      "Two fund streams per month: county-fund (main) and pension-fund (smaller) \u2014 ingest county-fund only",
-      "PII redaction strings ('REDACTED PERSONAL DATA') appear in Supplier Name column \u2014 filter on ingestion",
-      "URL path changed from /csv/council/budgets-and-spending/spending/ to /csv/council/spending/ at some point \u2014 Wayback snapshots may use either",
+      "Two fund streams per month: county-fund (main) and pension-fund (smaller) — ingest county-fund only",
+      "PII redaction strings ('REDACTED PERSONAL DATA') appear in Supplier Name column — filter on ingestion",
+      "URL path changed from /csv/council/budgets-and-spending/spending/ to /csv/council/spending/ at some point — Wayback snapshots may use either",
       "Council actively prunes historical files; even some 2024 months (Sept, Dec 2024) are 404",
       "UTF-8 BOM",
-      "Body column is numeric '1000' \u2014 not a human-readable identifier"
+      "Body column is numeric '1000' — not a human-readable identifier"
     ],
     "needs_playwright": false,
     "report_source": "milestone_b_shire_counties_discovery.md"
@@ -6852,7 +6852,7 @@
       "supplier_col": "Supplier Name",
       "dept_col": "Service - Function",
       "purpose_col": "Expense Description",
-      "amount_col": "Amount \u00a3",
+      "amount_col": "Amount £",
       "date_col": "Payment Date",
       "encoding": "latin1",
       "sep": "comma"
@@ -6900,7 +6900,7 @@
     },
     "complications": [
       "Row 1 is a metadata date label (e.g. Apr-23,,,,,,,,) and must be skipped before the header row",
-      "Dataset includes payments below \u00a3500 threshold despite landing-page framing",
+      "Dataset includes payments below £500 threshold despite landing-page framing",
       "Server returns Content-Type: text/csv with no file extension in URL"
     ],
     "needs_playwright": false,
@@ -7045,7 +7045,7 @@
       "sep": "comma"
     },
     "complications": [
-      "Threshold is \u00a3250 not \u00a3500; ~15-20% extra low-value rows vs other councils; filter downstream for comparability",
+      "Threshold is £250 not £500; ~15-20% extra low-value rows vs other councils; filter downstream for comparability",
       "Filename says over250payments2023.csv but covers full FY 2023/24 (Apr 2023-Mar 2024)",
       "Negative amounts present (refunds)",
       "Payments to individuals are redacted"

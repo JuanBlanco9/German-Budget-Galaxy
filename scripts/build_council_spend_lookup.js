@@ -438,6 +438,11 @@ function processMonthlyCouncil(config) {
       const amtRaw = (cols[colIdx.amount] || '').replace(/^"|"$/g, '').replace(/[£,\s]/g, '');
       const amt = parseFloat(amtRaw);
       if (isNaN(amt) || amt <= 0) continue;
+      // Sanity cap: no single transaction > £100M. Pair-reversal entries
+      // (negative paired with equal positive) would otherwise inflate totals
+      // because we drop negatives above. Seen in North Somerset 2023/24
+      // (LUF 1 - Tropicana / RCKA LTD £4.58B reversal).
+      if (amt > 100_000_000) continue;
 
       const svcArg1 = (cols[colIdx.service] || '').replace(/^"|"$/g, '').trim();
       const svcArg2 = (cols[colIdx.service2] || '').replace(/^"|"$/g, '').trim();
@@ -777,6 +782,11 @@ function processCouncilWithMapping(config) {
       const amtRaw = (cols[colIdx.amount] || '').replace(/^"|"$/g, '').replace(/[£,\s]/g, '');
       const amt = parseFloat(amtRaw);
       if (isNaN(amt) || amt <= 0 || !supplier) continue;
+      // Sanity cap: no single transaction > £100M. Pair-reversal entries
+      // (negative paired with equal positive) would otherwise inflate totals
+      // because we drop negatives above. Seen in North Somerset 2023/24
+      // (LUF 1 - Tropicana / RCKA LTD £4.58B reversal).
+      if (amt > 100_000_000) continue;
 
       const patternKey = dept + '|' + purpose;
       const service = patterns[patternKey] || 'Other Services';

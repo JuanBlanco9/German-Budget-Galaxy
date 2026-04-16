@@ -34,7 +34,8 @@ const TARGETS = [
   { dir: 'kirklees_metropolitan_borough_council', headerKeyword: 'Supplier' },
   { dir: 'oldham_metropolitan_borough_council', headerKeyword: 'Supplier' },
   { dir: 'knowsley_metropolitan_borough_council', headerKeyword: 'Supplier' },
-  { dir: 'st_helens_metropolitan_borough_council', headerKeyword: 'Supplier' }
+  { dir: 'st_helens_metropolitan_borough_council', headerKeyword: 'Supplier' },
+  { dir: 'bury_metropolitan_borough_council', headerKeyword: 'Supplier' }
 ];
 
 function csvEscape(v) {
