@@ -12,14 +12,14 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_pcc_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Cheshire PCC — https://www.cheshire-pcc.gov.uk/transparency-and-information/setting-the-police-budget/accounts-and-audit/expenditure-over-500/",
+    "source": "Cheshire PCC \u2014 https://www.cheshire-pcc.gov.uk/transparency-and-information/setting-the-police-budget/accounts-and-audit/expenditure-over-500/",
     "source_url": "https://www.cheshire-pcc.gov.uk/transparency-and-information/setting-the-police-budget/accounts-and-audit/expenditure-over-500/",
-    "_manifest_blocker": "DIRECT (PDF — extracted via custom scripts/extract_cheshire_pcc.py 2026-04-16)",
+    "_manifest_blocker": "DIRECT (PDF \u2014 extracted via custom scripts/extract_cheshire_pcc.py 2026-04-16)",
     "_manifest_complications": [
-      "PDF text-flow format (no table structure) — needed custom regex parser, not pdfplumber tables nor camelot lattice/stream",
+      "PDF text-flow format (no table structure) \u2014 needed custom regex parser, not pdfplumber tables nor camelot lattice/stream",
       "9,095 rows extracted across 4 quarterly PDFs FY 23/24",
       "Cost centre/supplier boundary detected via first ALL-CAPS token heuristic (some noise expected)",
-      "Date and account merged in source: 'DD/MM/YYYY{Account}' — split via regex"
+      "Date and account merged in source: 'DD/MM/YYYY{Account}' \u2014 split via regex"
     ]
   },
   {
@@ -35,13 +35,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oxford_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Oxford City Council — https://www.oxford.gov.uk/downloads/download/68/downloads-for-expenditure-over-500",
+    "source": "Oxford City Council \u2014 https://www.oxford.gov.uk/downloads/download/68/downloads-for-expenditure-over-500",
     "source_url": "https://www.oxford.gov.uk/downloads/download/68/downloads-for-expenditure-over-500",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 by 5th recon agent)",
     "_manifest_complications": [
       "4 quarterly CSVs FY 23/24 (file IDs 264/748/3420/3268)",
-      "Latin-1 encoding (£ becomes mojibake in UTF-8)",
-      "Title rows 0-2: 'Expenditure over £500' + period subtitle + blank",
+      "Latin-1 encoding (\u00a3 becomes mojibake in UTF-8)",
+      "Title rows 0-2: 'Expenditure over \u00a3500' + period subtitle + blank",
       "headerHint='Supplier Name' resolves correctly to row 3",
       "Source typo preserved: 'Expenditure Catergory' (with extra 'r')"
     ]
@@ -59,12 +59,12 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\hartlepool_borough_council_dept_mapping.json",
     "fyLabel": "2024/25 Q4 only",
-    "source": "Hartlepool BC — https://www.hartlepool.gov.uk/downloads/download/23/council-expenditure",
+    "source": "Hartlepool BC \u2014 https://www.hartlepool.gov.uk/downloads/download/23/council-expenditure",
     "source_url": "https://www.hartlepool.gov.uk/downloads/download/23/council-expenditure",
-    "_manifest_blocker": "DIRECT (only Q4 valid XLSX; ids 43-49 are PDFs disguised as .xlsx — defer)",
+    "_manifest_blocker": "DIRECT (only Q4 valid XLSX; ids 43-49 are PDFs disguised as .xlsx \u2014 defer)",
     "_manifest_complications": [
-      "id42 is the only valid XLSX (4,368 data rows) — single quarter Q4 2024/25",
-      "ids 43-49 returned 200 with PDF magic bytes — server mis-types content",
+      "id42 is the only valid XLSX (4,368 data rows) \u2014 single quarter Q4 2024/25",
+      "ids 43-49 returned 200 with PDF magic bytes \u2014 server mis-types content",
       "Title rows 0-4: 'LOCAL GOVERNMENT TRANSPARENCY CODE' + quarter info; data starts row 6",
       "headerHint='Supplier' resolves correctly to row 5"
     ]
@@ -82,11 +82,11 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\avon_somerset_pcc_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Avon & Somerset PCC — https://www.avonandsomerset-pcc.gov.uk/reports-publications/finance-expenditure/spend-over-500/",
+    "source": "Avon & Somerset PCC \u2014 https://www.avonandsomerset-pcc.gov.uk/reports-publications/finance-expenditure/spend-over-500/",
     "source_url": "https://www.avonandsomerset-pcc.gov.uk/reports-publications/finance-expenditure/spend-over-500/",
-    "_manifest_blocker": "DIRECT (PDF-only — extracted via scripts/extract_pcc_pdf_camelot.py 2026-04-16)",
+    "_manifest_blocker": "DIRECT (PDF-only \u2014 extracted via scripts/extract_pcc_pdf_camelot.py 2026-04-16)",
     "_manifest_complications": [
-      "PDF-only source — Format-for-Publication template, text-positioned tables (no ruled lines)",
+      "PDF-only source \u2014 Format-for-Publication template, text-positioned tables (no ruled lines)",
       "pdfplumber.extract_tables() returns 0 rows; needed camelot stream mode",
       "12/12 monthly PDFs FY 24/25, ~1,200 rows/month average (14,198 total)",
       "Schema: Service Division Org | Expense Type | Detailed Expense Typ | Expense Code | Amount | Supplier Name | Category | VFM-statement"
@@ -105,14 +105,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\norfolk_pcc_dept_mapping.json",
     "fyLabel": "2024/25 (11/12 months)",
-    "source": "Norfolk PCC — https://www.norfolk-pcc.gov.uk/key-information/finance/financial-governance/expenditure-over-500/",
+    "source": "Norfolk PCC \u2014 https://www.norfolk-pcc.gov.uk/key-information/finance/financial-governance/expenditure-over-500/",
     "source_url": "https://www.norfolk-pcc.gov.uk/key-information/finance/financial-governance/expenditure-over-500/",
-    "_manifest_blocker": "DIRECT (PDF-only — extracted via pdfplumber 2026-04-16)",
+    "_manifest_blocker": "DIRECT (PDF-only \u2014 extracted via pdfplumber 2026-04-16)",
     "_manifest_complications": [
-      "PDF-only source — extracted via scripts/extract_pcc_pdf.py (pdfplumber)",
+      "PDF-only source \u2014 extracted via scripts/extract_pcc_pdf.py (pdfplumber)",
       "11/12 FY 24/25 months (Feb 2025 missing)",
-      "Constabulary (CC) stream — full force scope, ~250 rows/month",
-      "Amount col has £ prefix and comma thousands",
+      "Constabulary (CC) stream \u2014 full force scope, ~250 rows/month",
+      "Amount col has \u00a3 prefix and comma thousands",
       "Same schema as Suffolk PCC (Subjective Description used as dept signal)"
     ]
   },
@@ -129,14 +129,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stoke_on_trent_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Stoke-on-Trent City Council — https://www.stoke.gov.uk/",
+    "source": "Stoke-on-Trent City Council \u2014 https://www.stoke.gov.uk/",
     "source_url": "https://www.stoke.gov.uk/",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 via sitemap.xml + 2-hop scrape)",
     "_manifest_complications": [
       "Sitemap.xml has /directory_record/{id}/transparency_report_{month}_{year} URLs",
       "Each per-month landing page contains actual XLSX download link",
       "12/12 months FY 23/24 downloaded via 2-hop scrape",
-      "Title row 0: 'Transparency Report {Month} {Year}' — skipped via headerHint='Supplier Name'"
+      "Title row 0: 'Transparency Report {Month} {Year}' \u2014 skipped via headerHint='Supplier Name'"
     ]
   },
   {
@@ -152,9 +152,9 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\middlesbrough_council_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Middlesbrough Council — https://middlesbrough-council-middlesbrough.opendata.arcgis.com/",
+    "source": "Middlesbrough Council \u2014 https://middlesbrough-council-middlesbrough.opendata.arcgis.com/",
     "source_url": "https://middlesbrough-council-middlesbrough.opendata.arcgis.com/datasets/Middlesbrough::spending-over-500-april-june-2024",
-    "_manifest_blocker": "DIRECT (verified 2026-04-16 by 4th recon agent — ArcGIS Hub via DCAT walk)",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by 4th recon agent \u2014 ArcGIS Hub via DCAT walk)",
     "_manifest_complications": [
       "Quarterly CSVs (4 files for FY 24/25)",
       "ArcGIS Hub has DCAT-US JSON catalog at /api/feed/dcat-us/1.1.json",
@@ -175,13 +175,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\portsmouth_city_council_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Portsmouth City Council — https://data.portsmouth.gov.uk/tables/payments-to-suppliers",
+    "source": "Portsmouth City Council \u2014 https://data.portsmouth.gov.uk/tables/payments-to-suppliers",
     "source_url": "https://data.portsmouth.gov.uk/tables/payments-to-suppliers",
-    "_manifest_blocker": "DIRECT (verified 2026-04-16 — data.portsmouth.gov.uk subdomain bypass; main www. is Cloudflare)",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 \u2014 data.portsmouth.gov.uk subdomain bypass; main www. is Cloudflare)",
     "_manifest_complications": [
       "Subdomain trick: www.portsmouth.gov.uk is 403 Cloudflare; data.portsmouth.gov.uk works",
       "12/12 months FY 24/25 via brute-force pattern: /media/tables/03-pcc-spend-transparency-template-fusion-{month}-{year}.csv",
-      "Numeric prefix '03-' worked for all FY 24/25 months (no scraping landing — JS-rendered)",
+      "Numeric prefix '03-' worked for all FY 24/25 months (no scraping landing \u2014 JS-rendered)",
       "Canonical schema (data.gov.uk template)"
     ]
   },
@@ -198,14 +198,14 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\luton_borough_council_dept_mapping.json",
     "fyLabel": "Calendar 2024",
-    "source": "Luton BC — https://www.luton.gov.uk/council-elections/finance-data-performance/accounts-finance/council-spend/2024-spend",
+    "source": "Luton BC \u2014 https://www.luton.gov.uk/council-elections/finance-data-performance/accounts-finance/council-spend/2024-spend",
     "source_url": "https://www.luton.gov.uk/council-elections/finance-data-performance/accounts-finance/council-spend/2024-spend",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 by 3rd recon agent)",
     "_manifest_complications": [
-      "Row 1 is title 'Transparency Report - {Month} {Year}' — headerHint='Supplier' resolves to row 2",
-      "Calendar year 2024 (Jan-Dec 2024) — overlaps FY 23/24 Q4 + FY 24/25 first 9 months",
+      "Row 1 is title 'Transparency Report - {Month} {Year}' \u2014 headerHint='Supplier' resolves to row 2",
+      "Calendar year 2024 (Jan-Dec 2024) \u2014 overlaps FY 23/24 Q4 + FY 24/25 first 9 months",
       "Department column has trailing space",
-      "Amount column is 'Value £' (with pound symbol literal)"
+      "Amount column is 'Value \u00a3' (with pound symbol literal)"
     ]
   },
   {
@@ -221,12 +221,12 @@
     "headerHint": "Vendor Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\slough_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Slough Borough Council — https://www.slough.gov.uk/downloads/download/206/payments-to-suppliers-over-500",
+    "source": "Slough Borough Council \u2014 https://www.slough.gov.uk/downloads/download/206/payments-to-suppliers-over-500",
     "source_url": "https://www.slough.gov.uk/downloads/download/206/payments-to-suppliers-over-500",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 by 3rd recon agent)",
     "_manifest_complications": [
       "12/12 monthly CSVs FY 23/24",
-      "Each month publishes paired files (XLSX + CSV) at consecutive IDs — second of each pair is CSV",
+      "Each month publishes paired files (XLSX + CSV) at consecutive IDs \u2014 second of each pair is CSV",
       "Slough recovered to LG tree via Birmingham fallback fix today (was missing pre-rebuild)"
     ]
   },
@@ -243,12 +243,12 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gloucestershire_county_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Gloucestershire County Council — https://www.gloucestershire.gov.uk/council-and-democracy/performance-and-spending/spend-over-500/",
+    "source": "Gloucestershire County Council \u2014 https://www.gloucestershire.gov.uk/council-and-democracy/performance-and-spending/spend-over-500/",
     "source_url": "https://www.gloucestershire.gov.uk/council-and-democracy/performance-and-spending/spend-over-500/",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 by big-councils agent)",
     "_manifest_complications": [
       "12/12 monthly CSVs FY 23/24",
-      "Filenames mostly consistent but some have '-csv' suffix (-csv.csv) — hand-mapped each",
+      "Filenames mostly consistent but some have '-csv' suffix (-csv.csv) \u2014 hand-mapped each",
       "Custom 16-column schema with Service Division (typo: 'Devison'), BVA COP, Industry, Account Group, etc"
     ]
   },
@@ -265,13 +265,13 @@
     "headerHint": "BeneficiaryName",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_east_council_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Cheshire East Council — https://opendata-cheshireeast.opendata.arcgis.com/",
+    "source": "Cheshire East Council \u2014 https://opendata-cheshireeast.opendata.arcgis.com/",
     "source_url": "https://opendata-cheshireeast.opendata.arcgis.com/api/download/v1/items/d3804d8915f94ab3b326bc585a30c338/csv?layers=0",
-    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent — ArcGIS open data portal)",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent \u2014 ArcGIS open data portal)",
     "_manifest_complications": [
       "Single annual CSV (15.2MB, 39,512 rows) covers full FY 24/25",
       "Source is ArcGIS Open Data portal, not council main site",
-      "Canonical MHCLG/data.gov.uk schema — minimal mapping work",
+      "Canonical MHCLG/data.gov.uk schema \u2014 minimal mapping work",
       "UTF-8 with BOM"
     ]
   },
@@ -288,15 +288,15 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\durham_pcc_dept_mapping.json",
     "fyLabel": "2024/25 (OPCC office only)",
-    "source": "Durham PCC — https://www.durham-pcc.gov.uk/transparency/expenditures",
+    "source": "Durham PCC \u2014 https://www.durham-pcc.gov.uk/transparency/expenditures",
     "source_url": "https://www.durham-pcc.gov.uk/transparency/expenditures",
     "_manifest_blocker": "DIRECT (single annual XLSX with 12 monthly sheets)",
     "_manifest_complications": [
-      "OPCC office stream only (~57 rows total for entire FY 24/25 — durham.police.uk constabulary 403 from this IP)",
+      "OPCC office stream only (~57 rows total for entire FY 24/25 \u2014 durham.police.uk constabulary 403 from this IP)",
       "Single annual file with 12 monthly sheets",
-      "Tree node £166M MHCLG = full force; this captures only office-side ~£tens of thousands",
+      "Tree node \u00a3166M MHCLG = full force; this captures only office-side ~\u00a3tens of thousands",
       "Period column is YYYYMM integer (e.g. 202401 = Apr 2024)",
-      "No dept column — Account(T) used as dept signal"
+      "No dept column \u2014 Account(T) used as dept signal"
     ]
   },
   {
@@ -312,9 +312,9 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cleveland_pcc_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Cleveland PCC — https://www.cleveland.pcc.police.uk/commissioner/finances/expenditure-over-500/",
+    "source": "Cleveland PCC \u2014 https://www.cleveland.pcc.police.uk/commissioner/finances/expenditure-over-500/",
     "source_url": "https://www.cleveland.pcc.police.uk/commissioner/finances/expenditure-over-500/",
-    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent — best PCC find of the day)",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent \u2014 best PCC find of the day)",
     "_manifest_complications": [
       "Full force scope (~439 rows/month, not just OPCC office)",
       "12/12 months FY 23/24, all monthly XLSX files",
@@ -335,15 +335,15 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\suffolk_pcc_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Suffolk PCC — https://www.suffolk-pcc.gov.uk/key-info/financial/spending-over-500/",
+    "source": "Suffolk PCC \u2014 https://www.suffolk-pcc.gov.uk/key-info/financial/spending-over-500/",
     "source_url": "https://www.suffolk-pcc.gov.uk/key-info/financial/spending-over-500/",
     "_manifest_blocker": "DIRECT (CSV available 2024+; pre-2024 was PDF only)",
     "_manifest_complications": [
       "Header at row 4 (rows 1-3: SUFFOLK CC + EXPENDITURE EXCEEDING title + blank)",
       "12/12 months FY 24/25",
-      "Amount column has £ prefix and quoted format",
-      "No dept — Subjective Description used as dept signal",
-      "FY 23/24 only available as PDF — defer until PDF tooling"
+      "Amount column has \u00a3 prefix and quoted format",
+      "No dept \u2014 Subjective Description used as dept signal",
+      "FY 23/24 only available as PDF \u2014 defer until PDF tooling"
     ]
   },
   {
@@ -359,7 +359,7 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\merseyside_police_crime_commissioner_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Merseyside PCC — https://www.merseysidepcc.info/down-to-business/spending/spending-over-500/",
+    "source": "Merseyside PCC \u2014 https://www.merseysidepcc.info/down-to-business/spending/spending-over-500/",
     "source_url": "https://www.merseysidepcc.info/down-to-business/spending/spending-over-500/",
     "_manifest_blocker": "DIRECT (manifest yellow, 12 NFI URLs verified across 2023+2024 calendar pages)",
     "_manifest_complications": [
@@ -367,8 +367,8 @@
       "FY 23/24 spans 2023 + 2024 landing pages",
       "Some headers have leading/trailing spaces ('Payment Date, Description ,Gross Amount, Supplier Name ')",
       "Mar 2024 file uses combined naming pattern (pcc-nfi-march-2024.csv)",
-      "No dept column — Description (purpose) used as dept signal",
-      "Amounts as strings with £ prefix and thousand commas — build script handles via parseFloat after strip"
+      "No dept column \u2014 Description (purpose) used as dept signal",
+      "Amounts as strings with \u00a3 prefix and thousand commas \u2014 build script handles via parseFloat after strip"
     ]
   },
   {
@@ -384,12 +384,12 @@
     "headerHint": "* SUPPLIER FINAL",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\lancashire_pcc_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Lancashire PCC — https://www.lancashire-pcc.gov.uk/transparency/financial-information/spending-over-500/",
+    "source": "Lancashire PCC \u2014 https://www.lancashire-pcc.gov.uk/transparency/financial-information/spending-over-500/",
     "source_url": "https://www.lancashire-pcc.gov.uk/transparency/financial-information/spending-over-500/",
     "_manifest_blocker": "DIRECT (manifest green, URL Apr-23-Mar-24-1.xlsx pre-listed)",
     "_manifest_complications": [
       "Single annual workbook (Apr-23-Mar-24-1.xlsx) with 12 monthly sheets, 9,379 total rows",
-      "No dept column — Expenditure Category used as dept signal",
+      "No dept column \u2014 Expenditure Category used as dept signal",
       "Sheet names mixed format: 'Apr' vs 'Jan 24' (with year suffix for Jan/Feb/Mar)",
       "Column headers prefixed with '*' (e.g. '* SUPPLIER FINAL', '* Expenditure Category')"
     ]
@@ -407,13 +407,13 @@
     "headerHint": "Spending area",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\hampshire_iow_pcc_dept_mapping.json",
     "fyLabel": "2024/25 (10/12 months)",
-    "source": "Hampshire & IoW PCC — https://www.hampshire-pcc.gov.uk/transparency/money/spending/financial-information/archive-of-spending-over-500/",
+    "source": "Hampshire & IoW PCC \u2014 https://www.hampshire-pcc.gov.uk/transparency/money/spending/financial-information/archive-of-spending-over-500/",
     "source_url": "https://www.hampshire-pcc.gov.uk/transparency/money/spending/financial-information/archive-of-spending-over-500/",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 via archive page)",
     "_manifest_complications": [
-      "Legacy .xls (BIFF binary) format — converted via xlsx library at import",
+      "Legacy .xls (BIFF binary) format \u2014 converted via xlsx library at import",
       "10/12 months FY 24/25: missing Oct + Nov 2024 (not yet published in archive)",
-      "Department col always reads 'Hampshire & Isle of Wight Constabulary' — used Spending area instead for dept signal",
+      "Department col always reads 'Hampshire & Isle of Wight Constabulary' \u2014 used Spending area instead for dept signal",
       "Posting dates stored as Excel serial numbers"
     ]
   },
@@ -430,12 +430,12 @@
     "headerHint": "Supplier ID(T)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\gateshead_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Gateshead MBC — https://www.gateshead.gov.uk/article/3456/Expenditure-over-500",
+    "source": "Gateshead MBC \u2014 https://www.gateshead.gov.uk/article/3456/Expenditure-over-500",
     "source_url": "https://www.gateshead.gov.uk/article/3456/Expenditure-over-500",
-    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent — manifest red was wrong)",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent \u2014 manifest red was wrong)",
     "_manifest_complications": [
       "12 monthly CSVs FY 23/24 (period code 202301 = April 2023, 202312 = March 2024)",
-      "WAF rate-limits sequential downloads — needed Referer + sleep 8s for some files",
+      "WAF rate-limits sequential downloads \u2014 needed Referer + sleep 8s for some files",
       "Cipfsubj(T) is CIPFA service classification (good MHCLG mapping signal)"
     ]
   },
@@ -452,13 +452,13 @@
     "headerHint": "Service Area",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wokingham_borough_council_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Wokingham BC — https://www.wokingham.gov.uk/council-and-meetings/open-data-and-transparency/data-sets-and-open-data",
+    "source": "Wokingham BC \u2014 https://www.wokingham.gov.uk/council-and-meetings/open-data-and-transparency/data-sets-and-open-data",
     "source_url": "https://www.wokingham.gov.uk/council-and-meetings/open-data-and-transparency/data-sets-and-open-data",
-    "_manifest_blocker": "DIRECT (verified 2026-04-16 — manifest 'only 1 file' was true for FY 23/24 but FY 24/25 has full 12/12 months)",
+    "_manifest_blocker": "DIRECT (verified 2026-04-16 \u2014 manifest 'only 1 file' was true for FY 23/24 but FY 24/25 has full 12/12 months)",
     "_manifest_complications": [
-      "Single annual XLSX (Over £500 spend 2024-25 payments.xlsx) covers full FY 24/25, 42,405 rows",
-      "URL needs %C2%A3 encoding for £ symbol",
-      "Existing FY 23/24 partial (7/12 months) archived — using FY 24/25 instead",
+      "Single annual XLSX (Over \u00a3500 spend 2024-25 payments.xlsx) covers full FY 24/25, 42,405 rows",
+      "URL needs %C2%A3 encoding for \u00a3 symbol",
+      "Existing FY 23/24 partial (7/12 months) archived \u2014 using FY 24/25 instead",
       "Supplier column header has trailing space: 'Accounts Payable/Accounts Receivable ID '"
     ]
   },
@@ -475,13 +475,13 @@
     "headerHint": "Supplier (Beneficiary name)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\royal_borough_of_windsor_and_maidenhead_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "RBWM — https://www.rbwm.gov.uk/home/council-and-democracy/transparency/budget-spending-and-procurement",
+    "source": "RBWM \u2014 https://www.rbwm.gov.uk/home/council-and-democracy/transparency/budget-spending-and-procurement",
     "source_url": "https://www.rbwm.gov.uk/home/council-and-democracy/transparency/budget-spending-and-procurement",
     "_manifest_blocker": "DIRECT (manifest mis-diagnosed as wrong-dataset 2026-04-16; agent verified file is supplier register)",
     "_manifest_complications": [
-      "Header at row 4 (rows 1-3 are title banner) — headerHint resolves correctly",
+      "Header at row 4 (rows 1-3 are title banner) \u2014 headerHint resolves correctly",
       "Annual file covers full FY 23/24 in one CSV (13,589 rows)",
-      "Charge card file (2023-04_2024-03_corporate_charge_card.csv) and parking ledger archived — separate streams"
+      "Charge card file (2023-04_2024-03_corporate_charge_card.csv) and parking ledger archived \u2014 separate streams"
     ]
   },
   {
@@ -497,15 +497,15 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\nottinghamshire_pcc_dept_mapping.json",
     "fyLabel": "2024/25",
-    "source": "Nottinghamshire PFCC — https://www.nottinghamshire.pcc.police.uk/Our-Money/Spend-over-500.aspx",
+    "source": "Nottinghamshire PFCC \u2014 https://www.nottinghamshire.pcc.police.uk/Our-Money/Spend-over-500.aspx",
     "source_url": "https://www.nottinghamshire.pcc.police.uk/Our-Money/Spend-over-500.aspx",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent)",
     "_manifest_complications": [
       "Single annual XLSX (Spend-Over-500-2024-25.xlsx, 12 monthly sheets) covers full FY 24/25",
-      "Schema is thin: Month + Supplier + Account Code + Transaction Ref + £. No separate dept/service area — Account Code used as dept",
-      "Amount column header is literally '£' (single character)",
-      "FY 23/24 file 404 — FY 24/25 used for tree alignment (year_ending 202503)",
-      "XLSX has utility sheets (May-Jul Data, Orig, Sheet1 (2), Sheet3) — skipped in conversion"
+      "Schema is thin: Month + Supplier + Account Code + Transaction Ref + \u00a3. No separate dept/service area \u2014 Account Code used as dept",
+      "Amount column header is literally '\u00a3' (single character)",
+      "FY 23/24 file 404 \u2014 FY 24/25 used for tree alignment (year_ending 202503)",
+      "XLSX has utility sheets (May-Jul Data, Orig, Sheet1 (2), Sheet3) \u2014 skipped in conversion"
     ]
   },
   {
@@ -521,14 +521,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derbyshire_pcc_dept_mapping.json",
     "fyLabel": "Calendar 2024",
-    "source": "Derbyshire PCC — https://www.derbyshire-pcc.gov.uk/finance-grants/items-of-expenditure-exceeding-500/",
+    "source": "Derbyshire PCC \u2014 https://www.derbyshire-pcc.gov.uk/finance-grants/items-of-expenditure-exceeding-500/",
     "source_url": "https://www.derbyshire-pcc.gov.uk/finance-grants/items-of-expenditure-exceeding-500/",
     "_manifest_blocker": "DIRECT (verified 2026-04-16 by recon agent)",
     "_manifest_complications": [
-      "PCC publishes by CALENDAR year not fiscal year — used Jan-Dec 2024 file as proxy for FY 24/25 alignment",
-      "Single annual XLSX with 12 monthly sheets — converted to 12 monthly CSVs at import",
+      "PCC publishes by CALENDAR year not fiscal year \u2014 used Jan-Dec 2024 file as proxy for FY 24/25 alignment",
+      "Single annual XLSX with 12 monthly sheets \u2014 converted to 12 monthly CSVs at import",
       "Sheet names mixed: Jan/Feb/Mar/April/May/June/Jul/Aug/Sept/Oct/Nov/Dec",
-      "All rows are dept='Police Services' — classifier should bucket most as Police"
+      "All rows are dept='Police Services' \u2014 classifier should bucket most as Police"
     ]
   },
   {
@@ -544,14 +544,14 @@
     "headerHint": "Beneficiary",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\peterborough_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Peterborough City Council — https://data.cambridgeshireinsight.org.uk/dataset/peterborough-payments-over-%C2%A3500-suppliers",
+    "source": "Peterborough City Council \u2014 https://data.cambridgeshireinsight.org.uk/dataset/peterborough-payments-over-%C2%A3500-suppliers",
     "source_url": "https://data.cambridgeshireinsight.org.uk/dataset/peterborough-payments-over-%C2%A3500-suppliers",
-    "_manifest_blocker": "yellow→DIRECT (verified 2026-04-16 by recon agent — CKAN API bypass works)",
+    "_manifest_blocker": "yellow\u2192DIRECT (verified 2026-04-16 by recon agent \u2014 CKAN API bypass works)",
     "_manifest_complications": [
       "Discovery via CKAN API not HTML scrape: https://data.cambridgeshireinsight.org.uk/api/3/action/package_show?id=peterborough-payments-over-%C2%A3500-suppliers",
       "Source files are .xlsx (multi-sheet, one sheet per month per quarterly workbook), converted to 12 monthly CSVs at import",
-      "Q4 sheet names use 2-digit year ('Jan 24' vs 'Apr 2023') — handled in conversion script",
-      "Amount column header contains \u00a3 (pound symbol) — preserved in auto_config"
+      "Q4 sheet names use 2-digit year ('Jan 24' vs 'Apr 2023') \u2014 handled in conversion script",
+      "Amount column header contains \u00a3 (pound symbol) \u2014 preserved in auto_config"
     ]
   },
   {
@@ -567,14 +567,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\suffolk_county_council_dept_mapping.json",
     "fyLabel": "2023/24 (8/12 months)",
-    "source": "Suffolk County Council — https://www.suffolk.gov.uk/council-and-democracy/council-spending-and-performance/payments-to-suppliers",
+    "source": "Suffolk County Council \u2014 https://www.suffolk.gov.uk/council-and-democracy/council-spending-and-performance/payments-to-suppliers",
     "source_url": "https://www.suffolk.gov.uk/council-and-democracy/council-spending-and-performance/payments-to-suppliers",
-    "_manifest_blocker": "red→DIRECT (verified 2026-04-16 by recon agent — manifest entry 2 was correct, entry 1 was outdated)",
+    "_manifest_blocker": "red\u2192DIRECT (verified 2026-04-16 by recon agent \u2014 manifest entry 2 was correct, entry 1 was outdated)",
     "_manifest_complications": [
-      "Schema drift across months: 'Inv Amount' (Aug/Sep/Nov/Dec) vs 'Invoice Amount' (Apr/Oct + general-transactions) — sed-normalized to 'Invoice Amount' at import",
+      "Schema drift across months: 'Inv Amount' (Aug/Sep/Nov/Dec) vs 'Invoice Amount' (Apr/Oct + general-transactions) \u2014 sed-normalized to 'Invoice Amount' at import",
       "FY 23/24 8/12 months: Apr Jun Jul Aug Sep Oct Nov Dec 2023 (missing May 2023, Jan/Feb/Mar 2024)",
-      "Mar24 URL returns 404 placeholder — no real data",
-      "£250 threshold (lower than typical £500)",
+      "Mar24 URL returns 404 placeholder \u2014 no real data",
+      "\u00a3250 threshold (lower than typical \u00a3500)",
       "Filename naming inconsistent: 6 SCC-250SpendAllCols, 2 general-transactions"
     ]
   },
@@ -591,14 +591,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derbyshire_county_council_dept_mapping.json",
     "fyLabel": "2025/26 (8/12 months)",
-    "source": "Derbyshire County Council — https://www.derbyshire.gov.uk/council/budgets-and-spending/spending/spending-over-500.aspx",
+    "source": "Derbyshire County Council \u2014 https://www.derbyshire.gov.uk/council/budgets-and-spending/spending/spending-over-500.aspx",
     "source_url": "https://www.derbyshire.gov.uk/council/budgets-and-spending/spending/spending-over-500.aspx",
-    "_manifest_blocker": "red→DIRECT (verified 2026-04-16 by recon agent — manifest was wrong)",
+    "_manifest_blocker": "red\u2192DIRECT (verified 2026-04-16 by recon agent \u2014 manifest was wrong)",
     "_manifest_complications": [
-      "Apr 2024 - Mar 2025 (full FY 24/25) all 404 on live server — would need Wayback CDX recovery",
+      "Apr 2024 - Mar 2025 (full FY 24/25) all 404 on live server \u2014 would need Wayback CDX recovery",
       "FY 25/26 partial: Apr May Jun Aug Sep Oct Nov 2025 + Mar 2026 = 8/12 months (missing Jul/Dec 2025, Jan/Feb 2026)",
-      "FY 24/25 Q4 (Jan/Feb/Mar 2025) downloaded but archived — fyLabel mismatch with main FY 25/26 dataset",
-      "MHCLG node value is FY 24/25 (£1.37B from year_ending 202503); supplier data is FY 25/26 — slight year offset, councils don't change spend dramatically YoY"
+      "FY 24/25 Q4 (Jan/Feb/Mar 2025) downloaded but archived \u2014 fyLabel mismatch with main FY 25/26 dataset",
+      "MHCLG node value is FY 24/25 (\u00a31.37B from year_ending 202503); supplier data is FY 25/26 \u2014 slight year offset, councils don't change spend dramatically YoY"
     ]
   },
   {
@@ -614,13 +614,13 @@
     "headerHint": "Supplier Name(T)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\rutland_county_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Rutland County Council — https://www.rutland.gov.uk/council-councillors/budgets-finance/council-spending",
+    "source": "Rutland County Council \u2014 https://www.rutland.gov.uk/council-councillors/budgets-finance/council-spending",
     "source_url": "https://www.rutland.gov.uk/council-councillors/budgets-finance/council-spending",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
       "Single annual file (not monthly) covers full FY 2023/24",
-      "Prior FY 2022/23 file moved to archive/ (different schema — Supplier Number vs Supplier Name)",
-      "Very small council — £55.68M total spend tracked"
+      "Prior FY 2022/23 file moved to archive/ (different schema \u2014 Supplier Number vs Supplier Name)",
+      "Very small council \u2014 \u00a355.68M total spend tracked"
     ]
   },
   {
@@ -636,12 +636,12 @@
     "headerHint": "Supplier Name(T)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\telford_wrekin_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Telford & Wrekin Council — https://www.telford.gov.uk/info/20110/budgets_and_spending/55/expenditure_over_100",
+    "source": "Telford & Wrekin Council \u2014 https://www.telford.gov.uk/info/20110/budgets_and_spending/55/expenditure_over_100",
     "source_url": "https://www.telford.gov.uk/info/20110/budgets_and_spending/55/expenditure_over_100",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "Dual datasets in source dir: GPC payment cards (12) + expenditure_over_100 supplier register (12). GPC moved to archive/gpc_payment_cards/ — wrong schema for service classification.",
-      "Threshold £100 (lower than typical £500/£250)"
+      "Dual datasets in source dir: GPC payment cards (12) + expenditure_over_100 supplier register (12). GPC moved to archive/gpc_payment_cards/ \u2014 wrong schema for service classification.",
+      "Threshold \u00a3100 (lower than typical \u00a3500/\u00a3250)"
     ]
   },
   {
@@ -657,14 +657,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\shropshire_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Shropshire Council — https://next.shropshire.gov.uk/open-data/datasets/supplier-payments-over-500/supplier-payments-over-500-2023-2024/",
+    "source": "Shropshire Council \u2014 https://next.shropshire.gov.uk/open-data/datasets/supplier-payments-over-500/supplier-payments-over-500-2023-2024/",
     "source_url": "https://next.shropshire.gov.uk/open-data/datasets/supplier-payments-over-500/supplier-payments-over-500-2023-2024/",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Personal redaction placeholder supplier name common (GDPR redaction)",
-      "Amounts as strings with thousand-separator commas — parser must cast",
+      "Amounts as strings with thousand-separator commas \u2014 parser must cast",
       "Body Ref is ONS code (00GG)",
-      "Includes some sub-£500 rows — council admits incomplete filtering",
+      "Includes some sub-\u00a3500 rows \u2014 council admits incomplete filtering",
       "Slugs in URLs are opaque hashes, not date-derived"
     ]
   },
@@ -681,21 +681,21 @@
     "headerHint": "Supplier ID(T)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cheshire_west_and_chester_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Cheshire West and Chester Council — https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500",
+    "source": "Cheshire West and Chester Council \u2014 https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500",
     "source_url": "https://www.cheshirewestandchester.gov.uk/your-council/datasets-and-statistics/open-data/expenditure-over-500",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Filename typo: Q3 and Q4 filenames use 'gdp' instead of 'gbp'",
-      "Quarterly granularity only — no monthly breakdown",
+      "Quarterly granularity only \u2014 no monthly breakdown",
       "CSV parallel files discontinued after 2022-23",
       "Redacted supplier names replaced with REDACTED",
       "Rich tier hierarchy (People/Community/Environment/Economy/Corporate/Infrastructure)"
     ],
     "_validation_warnings": [
-      "dept: \"Organisational Structure Tier 1\" → \"Organisational Structure Tier 1(T)\" [substring]",
-      "purpose: \"Nominal Description\" → \"(none)\" [none, closest=\"Cost Centre(T)\" d=14]",
-      "amount: \"Amount\" → \"Net Amount\" [substring]",
-      "supplier: \"Supplier\" → \"Supplier ID(T)\" [substring]"
+      "dept: \"Organisational Structure Tier 1\" \u2192 \"Organisational Structure Tier 1(T)\" [substring]",
+      "purpose: \"Nominal Description\" \u2192 \"(none)\" [none, closest=\"Cost Centre(T)\" d=14]",
+      "amount: \"Amount\" \u2192 \"Net Amount\" [substring]",
+      "supplier: \"Supplier\" \u2192 \"Supplier ID(T)\" [substring]"
     ]
   },
   {
@@ -711,13 +711,13 @@
     "headerHint": "Ap/Ar ID(T)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\herefordshire_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Herefordshire Council — https://www.herefordshire.gov.uk/your-council/our-open-data/council-expenditure-over-500/",
+    "source": "Herefordshire Council \u2014 https://www.herefordshire.gov.uk/your-council/our-open-data/council-expenditure-over-500/",
     "source_url": "https://www.herefordshire.gov.uk/your-council/our-open-data/council-expenditure-over-500/",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "Supplier name column (Ap/Ar ID(T)) is redacted wholesale — every row shows 'Redacted'",
+      "Supplier name column (Ap/Ar ID(T)) is redacted wholesale \u2014 every row shows 'Redacted'",
       "Unusable for supplier-level analytics without FOI request",
-      "Opaque slug-based URLs — not date-derivable",
+      "Opaque slug-based URLs \u2014 not date-derivable",
       "Period column is YYYYMM integer",
       "TT code column purpose unclear"
     ]
@@ -735,12 +735,12 @@
     "headerHint": "SUPPLIER NAME",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\warrington_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Warrington Borough Council — https://www.warrington.gov.uk/council-spending-over-ps500",
+    "source": "Warrington Borough Council \u2014 https://www.warrington.gov.uk/council-spending-over-ps500",
     "source_url": "https://www.warrington.gov.uk/council-spending-over-ps500",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "WebFetch returns 403 — User-Agent spoofing required (curl with Mozilla UA returns 200)",
-      "Inconsistent filename separators (underscores, hyphens, spaces) — regex matching needed",
+      "WebFetch returns 403 \u2014 User-Agent spoofing required (curl with Mozilla UA returns 200)",
+      "Inconsistent filename separators (underscores, hyphens, spaces) \u2014 regex matching needed",
       "BODY NAME column is a linked-data URI not a plain name",
       "Drupal upload-month paths (YYYY-MM) do not correspond to data month",
       "Some rows have posting dates from prior year leaking into current year files"
@@ -759,17 +759,17 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\worcestershire_county_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Worcestershire County Council — https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers",
+    "source": "Worcestershire County Council \u2014 https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers",
     "source_url": "https://www.worcestershire.gov.uk/council-services/council-and-democracy/council-finance/payments-commercial-suppliers",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Filename scheme changed mid-year",
       "March 2024 and Feb 2024 sheets bundled with Pcard data (likely second tab)",
       "Capitalisation inconsistent in filenames",
-      "March 2024 file named 'Over £500 and Pcard data March 2024.xlsx'",
+      "March 2024 file named 'Over \u00a3500 and Pcard data March 2024.xlsx'",
       "Jan 2024 named 'Over500SpendReportJan2024.xlsx'",
       "URL encoding varies (ps500 vs %C2%A3500)",
-      "Threshold £500"
+      "Threshold \u00a3500"
     ]
   },
   {
@@ -785,16 +785,16 @@
     "headerHint": "Creditor Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\brighton_and_hove_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Brighton and Hove City Council — https://www.brighton-hove.gov.uk/council-and-democracy/creditor-payments-over-ps250-2023-2024",
+    "source": "Brighton and Hove City Council \u2014 https://www.brighton-hove.gov.uk/council-and-democracy/creditor-payments-over-ps250-2023-2024",
     "source_url": "https://www.brighton-hove.gov.uk/council-and-democracy/creditor-payments-over-ps250-2023-2024",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Threshold £250 (not £500)",
+      "Threshold \u00a3250 (not \u00a3500)",
       "Dual-published: CSV + PDF for each month",
       "Date format DD/MM/YYYY",
       "18-column schema",
       "Case varies in filenames",
-      "Sibling /spending page is stale 14 MB inline-HTML dump (2020 only) — do not use"
+      "Sibling /spending page is stale 14 MB inline-HTML dump (2020 only) \u2014 do not use"
     ]
   },
   {
@@ -810,7 +810,7 @@
     "headerHint": "Beneficiary",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wigan_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Wigan Metropolitan Borough Council — https://www.wigan.gov.uk/Council/DataProtection-FOI-Stats/Spending-and-Finance-data.aspx",
+    "source": "Wigan Metropolitan Borough Council \u2014 https://www.wigan.gov.uk/Council/DataProtection-FOI-Stats/Spending-and-Finance-data.aspx",
     "source_url": "https://www.wigan.gov.uk/Council/DataProtection-FOI-Stats/Spending-and-Finance-data.aspx",
     "_manifest_blocker": "green",
     "_manifest_complications": [
@@ -832,11 +832,11 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\st_helens_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "St Helens Metropolitan Borough Council — https://sthelens.gov.uk/article/4545/Payments-to-suppliers",
+    "source": "St Helens Metropolitan Borough Council \u2014 https://sthelens.gov.uk/article/4545/Payments-to-suppliers",
     "source_url": "https://sthelens.gov.uk/article/4545/Payments-to-suppliers",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "Schema not captured — binary XLSX not parsed inline",
+      "Schema not captured \u2014 binary XLSX not parsed inline",
       "February 2024 file is .xls (legacy), all others .xlsx",
       "October 2023 file has trailing underscore in filename (October2023_.xlsx)",
       "Legacy transparency portal at secure.sthelens.net/servlet/localtransparency/ also exists as dropdown interface",
@@ -856,18 +856,18 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\west_northamptonshire_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "West Northamptonshire Council — https://www.westnorthants.gov.uk/access-information/expenditure",
+    "source": "West Northamptonshire Council \u2014 https://www.westnorthants.gov.uk/access-information/expenditure",
     "source_url": "https://www.westnorthants.gov.uk/access-information/expenditure",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "Amounts stored as text with £ symbol and commas (e.g. \"-£23,484.00\") — requires parsing",
+      "Amounts stored as text with \u00a3 symbol and commas (e.g. \"-\u00a323,484.00\") \u2014 requires parsing",
       "Legacy CCC/NCC/MKC column suffixes from pre-2021 Northamptonshire County + Milton Keynes accounting systems",
       "Many columns sparsely populated depending on source system",
       "Credits shown as negative",
-      "Opaque CMS media IDs — no human-readable URL pattern"
+      "Opaque CMS media IDs \u2014 no human-readable URL pattern"
     ],
     "_validation_warnings": [
-      "dept: \"Expense Area (CCC & NCC only)\" → \"Expense Area\" [substring]"
+      "dept: \"Expense Area (CCC & NCC only)\" \u2192 \"Expense Area\" [substring]"
     ]
   },
   {
@@ -883,13 +883,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_northamptonshire_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "North Northamptonshire Council — https://www.northnorthants.gov.uk/finance/expenditure",
+    "source": "North Northamptonshire Council \u2014 https://www.northnorthants.gov.uk/finance/expenditure",
     "source_url": "https://www.northnorthants.gov.uk/finance/expenditure",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Amounts stored as text with £ symbol, thousand separators and quotes (e.g. \"-£8,503.95\")",
-      "Opaque CMS media IDs — no human-readable URL pattern",
-      "Cleaner schema than West Northamptonshire — no legacy suffixes"
+      "Amounts stored as text with \u00a3 symbol, thousand separators and quotes (e.g. \"-\u00a38,503.95\")",
+      "Opaque CMS media IDs \u2014 no human-readable URL pattern",
+      "Cleaner schema than West Northamptonshire \u2014 no legacy suffixes"
     ]
   },
   {
@@ -898,22 +898,22 @@
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\reading_borough_council",
     "deptCol": "Service Area",
     "purposeCol": "Purpose",
-    "amountCol": "Amount (£)",
+    "amountCol": "Amount (\u00a3)",
     "supplierCol": "Supplier Name",
     "sep": ",",
     "encoding": "utf8",
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\reading_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Reading Borough Council — https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/",
+    "source": "Reading Borough Council \u2014 https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/",
     "source_url": "https://www.reading.gov.uk/the-council-and-democracy/finance-and-legal-information/council-spending-over-500/",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
       "UTF-8 BOM present",
       "Filename pattern drifts: inconsistent 'Spend' infix, '23' vs '2023', 'B' suffixes for Feb/Mar 2024 re-uploads",
-      "Aug 2023 onward re-hosted Sept 2025 — original mid-2024 URLs are dead",
+      "Aug 2023 onward re-hosted Sept 2025 \u2014 original mid-2024 URLs are dead",
       "Negatives in Amount column represent credit notes",
-      "~5,500–6,000 rows/month"
+      "~5,500\u20136,000 rows/month"
     ]
   },
   {
@@ -929,19 +929,19 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\milton_keynes_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Milton Keynes City Council — https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-0",
+    "source": "Milton Keynes City Council \u2014 https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-0",
     "source_url": "https://www.milton-keynes.gov.uk/your-council-and-elections/council-information-and-accounts/data-performance-and-spending/milton-0",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "CRITICAL: cp1252 encoding — £ symbol corrupts under naive UTF-8 parsing",
-      "Publish-month subdirectory varies per file — not reliably templatable, must scrape landing page",
+      "CRITICAL: cp1252 encoding \u2014 \u00a3 symbol corrupts under naive UTF-8 parsing",
+      "Publish-month subdirectory varies per file \u2014 not reliably templatable, must scrape landing page",
       "Filename uses 2-digit year (e.g. 'April 23' not 'April 2023')",
       "Some files have '_0' suffix",
-      "Amount values prefixed with £ and negatives for credits",
-      "~6,000–7,000 rows/month"
+      "Amount values prefixed with \u00a3 and negatives for credits",
+      "~6,000\u20137,000 rows/month"
     ],
     "_validation_warnings": [
-      "dept: \"Service Area Categorisation (MKC only)\" → \"Service Area Categorisation\" [substring]"
+      "dept: \"Service Area Categorisation (MKC only)\" \u2192 \"Service Area Categorisation\" [substring]"
     ]
   },
   {
@@ -957,16 +957,16 @@
     "headerHint": "BENEFICIARY",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bcp_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "BCP Council — https://www.bcpcouncil.gov.uk/about-the-council/budgets-and-finance/payments-to-suppliers",
+    "source": "BCP Council \u2014 https://www.bcpcouncil.gov.uk/about-the-council/budgets-and-finance/payments-to-suppliers",
     "source_url": "https://www.bcpcouncil.gov.uk/about-the-council/budgets-and-finance/payments-to-suppliers",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
       "Three different URL path prefixes across months: /documents/, /documents-old/, /Assets/About-the-council/Budgets-and-finance/Payments-to-suppliers/",
       "June 2023 file under /documents-old/ not /documents/",
       "2024 files dropped '-Data' suffix in filename",
-      "Threshold effectively £0 — full AP feed including £13.52 rows; must filter ≥£500 client-side",
-      "AMOUNT column is string prefixed with £",
-      "~25,000–30,000 rows/month — largest of the batch"
+      "Threshold effectively \u00a30 \u2014 full AP feed including \u00a313.52 rows; must filter \u2265\u00a3500 client-side",
+      "AMOUNT column is string prefixed with \u00a3",
+      "~25,000\u201330,000 rows/month \u2014 largest of the batch"
     ]
   },
   {
@@ -982,13 +982,13 @@
     "headerHint": "Beneficiary",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\thurrock_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Thurrock Council — https://www.thurrock.gov.uk/what-we-spend/payments-to-suppliers",
+    "source": "Thurrock Council \u2014 https://www.thurrock.gov.uk/what-we-spend/payments-to-suppliers",
     "source_url": "https://www.thurrock.gov.uk/what-we-spend/payments-to-suppliers",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Amount column header has leading/trailing whitespace: ' Amounts '",
       "Amount values are quoted with internal comma formatting e.g. \" 27,000.00 \" with whitespace padding",
-      "S114 issued Dec 2022 — data complete but row volumes artificially low (~1,800/month vs peers' 5,000–7,000) due to spend freeze",
+      "S114 issued Dec 2022 \u2014 data complete but row volumes artificially low (~1,800/month vs peers' 5,000\u20137,000) due to spend freeze",
       "Merchant Category uses CIPFA codes",
       "Month column is textual (Apr-23 style)"
     ]
@@ -1006,13 +1006,13 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bolton_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Bolton Metropolitan Borough Council — https://www.bolton.gov.uk/downloads/download/196/expenditure_reports",
+    "source": "Bolton Metropolitan Borough Council \u2014 https://www.bolton.gov.uk/downloads/download/196/expenditure_reports",
     "source_url": "https://www.bolton.gov.uk/downloads/download/196/expenditure_reports",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "cp1252 encoding — £ sign corrupted without iconv to UTF-8",
-      "File IDs non-sequential (5002–5947), must scrape landing page for IDs",
-      "Amount formatted as '£15,867.72' with currency symbol in field"
+      "cp1252 encoding \u2014 \u00a3 sign corrupted without iconv to UTF-8",
+      "File IDs non-sequential (5002\u20135947), must scrape landing page for IDs",
+      "Amount formatted as '\u00a315,867.72' with currency symbol in field"
     ]
   },
   {
@@ -1028,14 +1028,14 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bury_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Bury Metropolitan Borough Council — https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers",
+    "source": "Bury Metropolitan Borough Council \u2014 https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers",
     "source_url": "https://www.bury.gov.uk/council-and-democracy/budgets-and-spending/payments-to-suppliers",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Rolling 2-year retention window — 6 of 12 FY23/24 months permanently purged as of Apr 2026",
+      "Rolling 2-year retention window \u2014 6 of 12 FY23/24 months permanently purged as of Apr 2026",
       "Inconsistent filename conventions ('aug' vs 'august', 'sep-24' vs 'september-2024')",
       "Naming scheme changed from Dec 2025 to 'payments-to-suppliers-over-500-*.xlsx'",
-      "May–Sep 2023 and Nov 2023 return 404"
+      "May\u2013Sep 2023 and Nov 2023 return 404"
     ]
   },
   {
@@ -1051,16 +1051,16 @@
     "headerHint": "Beneficiary",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\doncaster_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Doncaster Metropolitan Borough Council — https://www.doncaster.gov.uk/services/the-council-democracy/payments-to-suppliers-reports-2023-24",
+    "source": "Doncaster Metropolitan Borough Council \u2014 https://www.doncaster.gov.uk/services/the-council-democracy/payments-to-suppliers-reports-2023-24",
     "source_url": "https://www.doncaster.gov.uk/services/the-council-democracy/payments-to-suppliers-reports-2023-24",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "NOT a £500 threshold file — full spend export, ~22% of rows under £500",
+      "NOT a \u00a3500 threshold file \u2014 full spend export, ~22% of rows under \u00a3500",
       "~30,000 rows/month (not typical spend-over-500 volume)",
       "Negative/reversed entries present",
       "Fixed-width padding with trailing spaces in dept columns",
       "Supplier redaction: 'REDACTED PERSONAL DATA'",
-      "Dual hosting: Azure blob store (Apr–Sep 2023) and CMS proxy (Oct 2023–Mar 2024)",
+      "Dual hosting: Azure blob store (Apr\u2013Sep 2023) and CMS proxy (Oct 2023\u2013Mar 2024)",
       "November file has '-1' suffix",
       "Separate quarterly purchase-card XLSX files"
     ]
@@ -1078,17 +1078,17 @@
     "headerHint": "SUPPLIER NAME",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\knowsley_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Knowsley Metropolitan Borough Council — https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500",
+    "source": "Knowsley Metropolitan Borough Council \u2014 https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500",
     "source_url": "https://www.knowsley.gov.uk/council-and-elections/accounts-budgets-and-spending/spending-over-ps500",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "All 12 files re-dated into /2025-03/ folder after site migration",
       "December 2023 file has '_0' suffix (versioned reupload)",
-      "Drupal/Frontier CMS — files may move on republication",
+      "Drupal/Frontier CMS \u2014 files may move on republication",
       "13 columns confirmed but column names not documented in report"
     ],
     "_validation_warnings": [
-      "purpose: \"SUPPLIER TYPE INTERNAL CLASSIFICATION\" → \"(none)\" [none, closest=\"EXPENSE CODE DESCRIPTION\" d=25]"
+      "purpose: \"SUPPLIER TYPE INTERNAL CLASSIFICATION\" \u2192 \"(none)\" [none, closest=\"EXPENSE CODE DESCRIPTION\" d=25]"
     ]
   },
   {
@@ -1097,18 +1097,18 @@
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oldham_metropolitan_borough_council",
     "deptCol": "Service Area",
     "purposeCol": "Type of Expenditure",
-    "amountCol": "Amount (£)",
+    "amountCol": "Amount (\u00a3)",
     "supplierCol": "Payee",
     "sep": ",",
     "encoding": "utf8",
     "headerHint": "Payee",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\oldham_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Oldham Metropolitan Borough Council — https://www.oldham.gov.uk/downloads/200681/council_spending_records",
+    "source": "Oldham Metropolitan Borough Council \u2014 https://www.oldham.gov.uk/downloads/200681/council_spending_records",
     "source_url": "https://www.oldham.gov.uk/downloads/200681/council_spending_records",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Quarterly granularity only — 4 files for full FY, no monthly breakdown",
+      "Quarterly granularity only \u2014 4 files for full FY, no monthly breakdown",
       "Uses numeric download IDs in URL",
       "Rich 4-level hierarchy: Portfolio > Directorate > Division > Service Area"
     ]
@@ -1126,13 +1126,13 @@
     "headerHint": "NAME",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\rotherham_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Rotherham Metropolitan Borough Council — https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024",
+    "source": "Rotherham Metropolitan Borough Council \u2014 https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024",
     "source_url": "https://www.rotherham.gov.uk/downloads/download/510/financial-reports-and-documentation-2023-to-2024",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Format switches mid-FY from .xls (BIFF/OLE Excel 97-2003) to .xlsx",
       "Separate companion purchase-card files for each month",
-      "File IDs non-sequential (3198–3565), must scrape landing page",
+      "File IDs non-sequential (3198\u20133565), must scrape landing page",
       "Author metadata leaks in OLE document properties"
     ]
   },
@@ -1142,22 +1142,22 @@
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\barnsley_metropolitan_borough_council",
     "deptCol": "Expense Area",
     "purposeCol": "Expense Type",
-    "amountCol": "Gross Amount £",
+    "amountCol": "Gross Amount \u00a3",
     "supplierCol": "Supplier Name",
     "sep": ",",
     "encoding": "latin1",
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\barnsley_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Barnsley Metropolitan Borough Council — https://www.barnsley.gov.uk/services/council-and-democracy/information-we-publish/expenditure-over-500/",
+    "source": "Barnsley Metropolitan Borough Council \u2014 https://www.barnsley.gov.uk/services/council-and-democracy/information-we-publish/expenditure-over-500/",
     "source_url": "https://www.barnsley.gov.uk/services/council-and-democracy/information-we-publish/expenditure-over-500/",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "4 metadata rows preamble before header row (header on row 6)",
-      "£500 gross threshold (not net)",
+      "\u00a3500 gross threshold (not net)",
       "Filename prefix changes: 'exp-ex-gbp500' Apr-Jun 2023, 'exp-ex-500' from Jul 2023",
-      "Unique CMS slug per month — URLs not guessable without crawling landing page",
-      "Latin-1 encoding with £ glyphs",
+      "Unique CMS slug per month \u2014 URLs not guessable without crawling landing page",
+      "Latin-1 encoding with \u00a3 glyphs",
       "VCSE and Charity Number flag columns included",
       "Not on Data Mill North"
     ]
@@ -1175,17 +1175,17 @@
     "headerHint": "SUPPLIER",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sefton_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Sefton Metropolitan Borough Council — https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/",
+    "source": "Sefton Metropolitan Borough Council \u2014 https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/",
     "source_url": "https://www.sefton.gov.uk/your-council/transparency/transparency/council-spend-other-key-documents/council-spend-over-500/",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "1 metadata/title header row before column headers",
-      "Filename alternates between 'spend' and 'spent' — not predictable",
-      "Numeric 4-digit media IDs not guessable — must harvest from landing page",
-      "Latin-1 encoding — £ signs mangle in UTF-8",
+      "Filename alternates between 'spend' and 'spent' \u2014 not predictable",
+      "Numeric 4-digit media IDs not guessable \u2014 must harvest from landing page",
+      "Latin-1 encoding \u2014 \u00a3 signs mangle in UTF-8",
       "Nov 2023 file contains typo 'counsil' in filename",
       "Negative amounts (credit notes) present",
-      "£500 threshold applied at cost-centre level, not per-transaction"
+      "\u00a3500 threshold applied at cost-centre level, not per-transaction"
     ]
   },
   {
@@ -1201,13 +1201,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\solihull_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Solihull Metropolitan Borough Council — https://www.solihull.gov.uk/about-council/expenditure",
+    "source": "Solihull Metropolitan Borough Council \u2014 https://www.solihull.gov.uk/about-council/expenditure",
     "source_url": "https://www.solihull.gov.uk/about-council/expenditure",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "£250 threshold (not £500)",
+      "\u00a3250 threshold (not \u00a3500)",
       "Net-of-VAT amounts",
-      "Filename casing and hyphenation chaotic — varies per month",
+      "Filename casing and hyphenation chaotic \u2014 varies per month",
       "Date format dd-mm-yyyy",
       "Card Transaction flag column present",
       "ProClass categorisation column included",
@@ -1227,21 +1227,21 @@
     "headerHint": "Supplier (Beneficiary) Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_tyneside_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "North Tyneside Metropolitan Borough Council — https://my.northtyneside.gov.uk/page/20287/transparency",
+    "source": "North Tyneside Metropolitan Borough Council \u2014 https://my.northtyneside.gov.uk/page/20287/transparency",
     "source_url": "https://my.northtyneside.gov.uk/page/20287/transparency",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "HARD BLOCKER: April, May, June 2023 files purged — rolling-window retention policy",
-      "£250 threshold (not £500)",
+      "HARD BLOCKER: April, May, June 2023 files purged \u2014 rolling-window retention policy",
+      "\u00a3250 threshold (not \u00a3500)",
       "Landing page redirects to legacy domain for actual files",
       "Month naming alternates between 4-digit year ('November 2023') and 2-digit year ('March 24') with no rule",
       "URL-encoded spaces in filenames (%20)",
-      "SeRCOP expenditure codes and URIs included — richest schema in batch",
+      "SeRCOP expenditure codes and URIs included \u2014 richest schema in batch",
       "Capital/Revenue flag column present",
       "Wayback CDX recovery untested (503 errors)"
     ],
     "_validation_warnings": [
-      "dept: \"Directorate\" → \"Directorate / Service Where Expenditure Incurred\" [substring]"
+      "dept: \"Directorate\" \u2192 \"Directorate / Service Where Expenditure Incurred\" [substring]"
     ]
   },
   {
@@ -1257,13 +1257,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\south_tyneside_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "South Tyneside Metropolitan Borough Council — https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500",
+    "source": "South Tyneside Metropolitan Borough Council \u2014 https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500",
     "source_url": "https://www.southtyneside.gov.uk/article/1350/Council-spending-over-500",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "Unique media ID per month — must harvest from landing page",
-      "Homepage returns 403 to curl HEAD — must use browser User-Agent",
-      "Combined £500 + GPC (Government Procurement Card) data in single file",
+      "Unique media ID per month \u2014 must harvest from landing page",
+      "Homepage returns 403 to curl HEAD \u2014 must use browser User-Agent",
+      "Combined \u00a3500 + GPC (Government Procurement Card) data in single file",
       "Header has duplicate 'Spend' column names",
       "Date format dd-MMM-yy",
       "Latin-1 encoding",
@@ -1284,13 +1284,13 @@
     "headerHint": "Vendor Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\salford_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Salford City Council — https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/",
+    "source": "Salford City Council \u2014 https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/",
     "source_url": "https://www.salford.gov.uk/your-council/finance/council-expenditure-over-500/",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Media slug format changes mid-year: 6-digit numeric IDs (Apr-Sep 2023) then alphanumeric slugs (Oct 2023-Mar 2024)",
       "Gross, VAT, and Net provided as three separate columns",
-      "GL Description used as purpose field — may be weak/generic",
+      "GL Description used as purpose field \u2014 may be weak/generic",
       "DocumentNo column present"
     ]
   },
@@ -1307,15 +1307,15 @@
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\stockport_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Stockport Metropolitan Borough Council — https://www.stockport.gov.uk/transparency/spending-and-contracts",
+    "source": "Stockport Metropolitan Borough Council \u2014 https://www.stockport.gov.uk/transparency/spending-and-contracts",
     "source_url": "https://www.stockport.gov.uk/transparency/spending-and-contracts",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Filename prefix/casing varies per month — subtle punctuation differences (Apr-Aug 2023 vs Sep-Nov 2023 vs Dec 2023+)",
-      "No department/directorate column — sparsest schema in batch (6 columns)",
+      "Filename prefix/casing varies per month \u2014 subtle punctuation differences (Apr-Aug 2023 vs Sep-Nov 2023 vs Dec 2023+)",
+      "No department/directorate column \u2014 sparsest schema in batch (6 columns)",
       "Hosted on S3 bucket 'live-iag-static-assets'",
       "Personal information redacted to '*Redact - Personal Information'",
-      "Dataset frozen/archival — Stockport migrated to all-spend from April 2025",
+      "Dataset frozen/archival \u2014 Stockport migrated to all-spend from April 2025",
       "Some files duplicated in newer S3 subpath /Transparency+data/Purchases+over+%C2%A3500/",
       "Script must handle two different S3 subpaths"
     ]
@@ -1333,13 +1333,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\trafford_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Trafford Metropolitan Borough Council — https://www.trafford.gov.uk/council-data-and-democracy/council-data-and-democracy/transparency-and-accountability/local-government-and-transparency-code/council-spend",
+    "source": "Trafford Metropolitan Borough Council \u2014 https://www.trafford.gov.uk/council-data-and-democracy/council-data-and-democracy/transparency-and-accountability/local-government-and-transparency-code/council-spend",
     "source_url": "https://www.trafford.gov.uk/council-data-and-democracy/council-data-and-democracy/transparency-and-accountability/local-government-and-transparency-code/council-spend",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "All FY2023/24 data consolidated into single 34MB ZIP archive — must download and unzip",
+      "All FY2023/24 data consolidated into single 34MB ZIP archive \u2014 must download and unzip",
       "Old per-month URLs (/about-your-council/open-data/docs/) all 404 since Dec 2025 site migration",
-      "Amount column uses quoted thousands separator — requires thousands=',' on parse",
+      "Amount column uses quoted thousands separator \u2014 requires thousands=',' on parse",
       "UTF-8 BOM encoding",
       "VAT registration numbers included in data",
       "Trailing space on Body URI field",
@@ -1360,11 +1360,11 @@
     "headerHint": "Beneficiary",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sandwell_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Sandwell Metropolitan Borough Council — https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500",
+    "source": "Sandwell Metropolitan Borough Council \u2014 https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500",
     "source_url": "https://www.sandwell.gov.uk/downloads/download/736/transparency-creditor_payments_over_500",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "File IDs non-predictable — must scrape landing page to resolve all 12 monthly URLs",
+      "File IDs non-predictable \u2014 must scrape landing page to resolve all 12 monthly URLs",
       "Known IDs: Apr=491, Jun=486, Jul=1328, Aug=1330, Feb=2812, Mar=2814; remaining months unknown",
       "SeRCOP classification column present",
       "Body column contains a URL",
@@ -1384,14 +1384,14 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\walsall_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Walsall Metropolitan Borough Council — https://go.walsall.gov.uk/opendata-datasets",
+    "source": "Walsall Metropolitan Borough Council \u2014 https://go.walsall.gov.uk/opendata-datasets",
     "source_url": "https://go.walsall.gov.uk/opendata-datasets",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
       "Inconsistent filename capitalisation and URL-encoded spaces require landing page scraping",
       "Header contains newline inside quoted column names (e.g. 'Procurement Classification \\n(Higher Level)')",
       "Trailing empty commas",
-      "Separate quarterly 'Spend_Transparency_for_Cards' GPC files exist — must not be mixed with main spend files"
+      "Separate quarterly 'Spend_Transparency_for_Cards' GPC files exist \u2014 must not be mixed with main spend files"
     ]
   },
   {
@@ -1407,7 +1407,7 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wirral_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Wirral Metropolitan Borough Council — https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024",
+    "source": "Wirral Metropolitan Borough Council \u2014 https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024",
     "source_url": "https://www.wirral.gov.uk/about-council/budgets-and-spending/payments-suppliers-and-agents-2023-2024",
     "_manifest_blocker": "green",
     "_manifest_complications": [
@@ -1429,18 +1429,18 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\wakefield_metropolitan_district_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Wakefield Metropolitan District Council — https://datamillnorth.org/dataset/e61m0/council-spending",
+    "source": "Wakefield Metropolitan District Council \u2014 https://datamillnorth.org/dataset/e61m0/council-spending",
     "source_url": "https://datamillnorth.org/dataset/e61m0/council-spending",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Quarterly cadence (not monthly) — 4 files per FY",
+      "Quarterly cadence (not monthly) \u2014 4 files per FY",
       "File hashes in URLs are non-predictable; must scrape dataset page",
       "datamillnorth.org returns 403 to direct curl/WebFetch but allows browser UA",
       "2 metadata rows + 1 blank before header row",
       "Amounts have trailing space (e.g. '591.63 ')",
       "REDACTED rows for personal data",
       "Full ProClass taxonomy included",
-      "Publishes ALL payments (not just ≥£500) since 2019/20 Q1"
+      "Publishes ALL payments (not just \u2265\u00a3500) since 2019/20 Q1"
     ]
   },
   {
@@ -1456,17 +1456,17 @@
     "headerHint": "Vendor Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\kirklees_metropolitan_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Kirklees Metropolitan Borough Council — https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx",
+    "source": "Kirklees Metropolitan Borough Council \u2014 https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx",
     "source_url": "https://www.kirklees.gov.uk/beta/information-and-data/expenditure-data.aspx",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "XLSX only — no CSV variant",
+      "XLSX only \u2014 no CSV variant",
       "Inconsistent filename prefix casing across months (Published-Data / KC-published-data / KC-Published-Data)",
       "Stray space in some filenames (e.g. 'KC-Published-Data -2023-11-30.xlsx')",
       "Contains negative amounts (credit notes)",
       "'Purpose of Spend' often 'REDACTED DATA'",
       "'Proclass Description' frequently null",
-      "Not hosted on Data Mill North — self-hosted XLSX",
+      "Not hosted on Data Mill North \u2014 self-hosted XLSX",
       "Must scrape landing page to resolve exact filename per month"
     ]
   },
@@ -1476,28 +1476,28 @@
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sunderland_city_council",
     "deptCol": "Service Area",
     "purposeCol": "Expense Type",
-    "amountCol": "Invoice Value  £",
+    "amountCol": "Invoice Value  \u00a3",
     "supplierCol": "Supplier Name",
     "sep": ",",
     "encoding": "latin1",
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\sunderland_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Sunderland City Council — https://www.sunderland.gov.uk/article/13261/Payments-over-500",
+    "source": "Sunderland City Council \u2014 https://www.sunderland.gov.uk/article/13261/Payments-over-500",
     "source_url": "https://www.sunderland.gov.uk/article/13261/Payments-over-500",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "HARD BLOCKER: Cloudflare bot-management on /media/ download path returns 403 — CF-RAY header confirmed",
+      "HARD BLOCKER: Cloudflare bot-management on /media/ download path returns 403 \u2014 CF-RAY header confirmed",
       "Needs cloudscraper, Playwright, or manual download to retrieve files",
-      "Quarterly cadence (not monthly) — 4 files per FY",
+      "Quarterly cadence (not monthly) \u2014 4 files per FY",
       "Mixed CSV and XLSX depending on quarter",
       "XLSX files served under /xls/ URL path segments despite being labelled CSV",
-      "Non-predictable media IDs in URLs — must scrape landing page",
-      "No files downloaded — schema unverified",
+      "Non-predictable media IDs in URLs \u2014 must scrape landing page",
+      "No files downloaded \u2014 schema unverified",
       "Potential backup route: Data Mill North (datamillnorth.org/publisher/sunderland-city-council)"
     ],
     "_validation_warnings": [
-      "amount: \"Invoice Value\" → \"Invoice Value  £\" [substring]"
+      "amount: \"Invoice Value\" \u2192 \"Invoice Value  \u00a3\" [substring]"
     ]
   },
   {
@@ -1513,15 +1513,15 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\cambridgeshire_county_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Cambridgeshire County Council — https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500",
+    "source": "Cambridgeshire County Council \u2014 https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500",
     "source_url": "https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-county-council-expenditure-over-%C2%A3500",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
       "Encoding is cp1252 not UTF-8",
-      "Amount is string with embedded £ sign and comma thousands separator e.g. '£5,414.40'",
-      "Threshold is £500 inc. VAT",
+      "Amount is string with embedded \u00a3 sign and comma thousands separator e.g. '\u00a35,414.40'",
+      "Threshold is \u00a3500 inc. VAT",
       "CKAN package_show is extremely slow (229s)",
-      "Drupal dataset HTML page hangs 180s+ — use CKAN API or direct file URLs"
+      "Drupal dataset HTML page hangs 180s+ \u2014 use CKAN API or direct file URLs"
     ]
   },
   {
@@ -1537,13 +1537,13 @@
     "headerHint": "Supplier name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\west_berkshire_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "West Berkshire Council — https://www.westberks.gov.uk/expenditure-over-500",
+    "source": "West Berkshire Council \u2014 https://www.westberks.gov.uk/expenditure-over-500",
     "source_url": "https://www.westberks.gov.uk/expenditure-over-500",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "No directorate column — only Service and Expenditure category",
+      "No directorate column \u2014 only Service and Expenditure category",
       "Dates are timestamps with microseconds",
-      "Media ID in URL path varies per file — pattern not fully predictable",
+      "Media ID in URL path varies per file \u2014 pattern not fully predictable",
       "Single sheet named 'Data to publish'"
     ]
   },
@@ -1553,20 +1553,20 @@
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bracknell_forest_council",
     "deptCol": "Service Area",
     "purposeCol": "Expenses Type",
-    "amountCol": "Amount £",
+    "amountCol": "Amount \u00a3",
     "supplierCol": "Supplier",
     "sep": ",",
     "encoding": "utf8",
     "headerHint": "Supplier",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bracknell_forest_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Bracknell Forest Council — https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it",
+    "source": "Bracknell Forest Council \u2014 https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it",
     "source_url": "https://www.bracknell-forest.gov.uk/council-and-democracy/finance-and-transparency/publication-scheme/what-we-spend-and-how-we-spend-it",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Quarterly files (Apr-Jun, Jul-Sep, Oct-Dec, Jan-Mar), not monthly",
-      "Sheet name contains Latin-1 pound sign (e.g. 'Over £500 April - June')",
-      "Dates mix datetime strings and Excel serial numbers (e.g. 45085) in same column — parser must handle both",
+      "Sheet name contains Latin-1 pound sign (e.g. 'Over \u00a3500 April - June')",
+      "Dates mix datetime strings and Excel serial numbers (e.g. 45085) in same column \u2014 parser must handle both",
       "11 columns including a blank trailing column",
       "Additional columns: Body Name, Body code, Service Division, Responsible Unit, TransNo"
     ]
@@ -1584,13 +1584,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\blackpool_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Blackpool Council — https://www.blackpool.gov.uk/Your-Council/Transparency-and-open-data/Budget,-spending-and-procurement/Payments-over-250.aspx",
+    "source": "Blackpool Council \u2014 https://www.blackpool.gov.uk/Your-Council/Transparency-and-open-data/Budget,-spending-and-procurement/Payments-over-250.aspx",
     "source_url": "https://www.blackpool.gov.uk/Your-Council/Transparency-and-open-data/Budget,-spending-and-procurement/Payments-over-250.aspx",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Threshold is £250, not £500 — downstream filtering required",
+      "Threshold is \u00a3250, not \u00a3500 \u2014 downstream filtering required",
       "Filename typo for March 2024: 'Transparency-spend-Marc-2024.csv' (not 'March')",
-      "Amount fields are quoted strings with embedded commas (e.g. \"2,890.00\") — requires careful CSV parsing",
+      "Amount fields are quoted strings with embedded commas (e.g. \"2,890.00\") \u2014 requires careful CSV parsing",
       "Empty/blank column between Service Division and Directorate columns",
       "Redacted personal data rows have supplier = 'REDACTED PERSONAL DATA'",
       "18 columns total including multiple service/directorate hierarchy levels",
@@ -1610,13 +1610,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\county_durham_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "County Durham Council — https://www.durham.gov.uk/article/2437/Payments-to-suppliers-over-500",
+    "source": "County Durham Council \u2014 https://www.durham.gov.uk/article/2437/Payments-to-suppliers-over-500",
     "source_url": "https://www.durham.gov.uk/article/2437/Payments-to-suppliers-over-500",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "encoding is cp1252 not UTF-8",
-      "amounts quoted with pound sign and thousand separators e.g. \"£1,041.00\" need unquoting",
-      "media IDs in URLs are not sequential/predictable — exact ID list must be maintained"
+      "amounts quoted with pound sign and thousand separators e.g. \"\u00a31,041.00\" need unquoting",
+      "media IDs in URLs are not sequential/predictable \u2014 exact ID list must be maintained"
     ]
   },
   {
@@ -1632,12 +1632,12 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\derby_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Derby City Council — https://www.derby.gov.uk/council-and-democracy/open-data-freedom-of-information/open-data-transparency/",
+    "source": "Derby City Council \u2014 https://www.derby.gov.uk/council-and-democracy/open-data-freedom-of-information/open-data-transparency/",
     "source_url": "https://www.derby.gov.uk/council-and-democracy/open-data-freedom-of-information/open-data-transparency/",
     "_manifest_blocker": "yellow",
     "_manifest_complications": [
-      "2 metadata rows before header — skip 2 rows on ingest",
-      "amount column not visible in header sample — likely further right",
+      "2 metadata rows before header \u2014 skip 2 rows on ingest",
+      "amount column not visible in header sample \u2014 likely further right",
       "filename convention changes mid-year (april2023v2.csv vs october-2023.csv)",
       "redacted rows marked 'redacted personal data'"
     ]
@@ -1655,13 +1655,13 @@
     "headerHint": "Beneficiary",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_somerset_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "North Somerset Council — https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250",
+    "source": "North Somerset Council \u2014 https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250",
     "source_url": "https://n-somerset.gov.uk/council-democracy/accounts-spending-insurance/accounts-budget/spending-over-ps250",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "threshold is £250 not £500 — ~48k rows (44%) are under £500 and need filtering",
+      "threshold is \u00a3250 not \u00a3500 \u2014 ~48k rows (44%) are under \u00a3500 and need filtering",
       "data on sheet 2 ('250 Spend'); sheet 1 is licence note; sheet 3 is Card Transactions",
-      "no Department column — only cost centre text",
+      "no Department column \u2014 only cost centre text",
       "some reversal entries create extreme amount values"
     ]
   },
@@ -1678,13 +1678,13 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\council_of_the_isles_of_scilly_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Council of the Isles of Scilly — https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250",
+    "source": "Council of the Isles of Scilly \u2014 https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250",
     "source_url": "https://scilly.gov.uk/council-democracy/open-data/payments-over-%C2%A3250",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "two 'Description' columns (cost centre description and subjective description) — will collide on naive ingest",
+      "two 'Description' columns (cost centre description and subjective description) \u2014 will collide on naive ingest",
       "leading-space column headers need trimming",
-      "URL slug says '£250' but actual threshold is £500",
+      "URL slug says '\u00a3250' but actual threshold is \u00a3500",
       "Line Amount and Net Amount differ for multi-line invoices",
       "very small volume (~2,200 rows/year)"
     ]
@@ -1695,14 +1695,14 @@
     "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\swindon_borough_council",
     "deptCol": "Service  - Function",
     "purposeCol": "Expense Description",
-    "amountCol": "Amount £",
+    "amountCol": "Amount \u00a3",
     "supplierCol": "Supplier Name",
     "sep": ",",
     "encoding": "latin1",
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\swindon_borough_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Swindon Borough Council — https://www.swindon.gov.uk/downloads/download/2582/payments_to_suppliers_of_more_than_500_in_2023",
+    "source": "Swindon Borough Council \u2014 https://www.swindon.gov.uk/downloads/download/2582/payments_to_suppliers_of_more_than_500_in_2023",
     "source_url": "https://www.swindon.gov.uk/downloads/download/2582/payments_to_suppliers_of_more_than_500_in_2023",
     "_manifest_blocker": "green",
     "_manifest_complications": [
@@ -1712,7 +1712,7 @@
       "Data split across two landing pages (2023 and 2024)"
     ],
     "_validation_warnings": [
-      "dept: \"Service - Function\" → \"Service  - Function\" [fuzzy, d=1]"
+      "dept: \"Service - Function\" \u2192 \"Service  - Function\" [fuzzy, d=1]"
     ]
   },
   {
@@ -1728,12 +1728,12 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\kingston_upon_hull_city_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Kingston upon Hull City Council — https://www.hull.gov.uk/open-data/council-expenditure",
+    "source": "Kingston upon Hull City Council \u2014 https://www.hull.gov.uk/open-data/council-expenditure",
     "source_url": "https://www.hull.gov.uk/open-data/council-expenditure",
     "_manifest_blocker": "green",
     "_manifest_complications": [
       "Row 1 is a metadata date label (e.g. Apr-23,,,,,,,,) and must be skipped before the header row",
-      "Dataset includes payments below £500 threshold despite landing-page framing",
+      "Dataset includes payments below \u00a3500 threshold despite landing-page framing",
       "Server returns Content-Type: text/csv with no file extension in URL"
     ]
   },
@@ -1750,7 +1750,7 @@
     "headerHint": "Supplier Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\bath_and_north_east_somerset_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "Bath and North East Somerset Council — https://www.bathnes.gov.uk/expenditure-over-ps500",
+    "source": "Bath and North East Somerset Council \u2014 https://www.bathnes.gov.uk/expenditure-over-ps500",
     "source_url": "https://www.bathnes.gov.uk/expenditure-over-ps500",
     "_manifest_blocker": "green",
     "_manifest_complications": [
@@ -1773,11 +1773,11 @@
     "headerHint": "Creditor_Name",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\city_of_york_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "City of York Council — https://data.yorkopendata.org/dataset/all-payments-to-suppliers",
+    "source": "City of York Council \u2014 https://data.yorkopendata.org/dataset/all-payments-to-suppliers",
     "source_url": "https://data.yorkopendata.org/dataset/all-payments-to-suppliers",
     "_manifest_blocker": "green",
     "_manifest_complications": [
-      "Threshold is £250 not £500; ~15-20% extra low-value rows vs other councils; filter downstream for comparability",
+      "Threshold is \u00a3250 not \u00a3500; ~15-20% extra low-value rows vs other councils; filter downstream for comparability",
       "Filename says over250payments2023.csv but covers full FY 2023/24 (Apr 2023-Mar 2024)",
       "Negative amounts present (refunds)",
       "Payments to individuals are redacted"
@@ -1796,9 +1796,33 @@
     "headerHint": "Supplier ID(T)",
     "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\city_of_wolverhampton_council_dept_mapping.json",
     "fyLabel": "2023/24",
-    "source": "City of Wolverhampton Council — discovered inline via agent",
+    "source": "City of Wolverhampton Council \u2014 discovered inline via agent",
     "source_url": "discovered inline via agent",
     "_manifest_blocker": "green",
     "_manifest_complications": []
+  },
+  {
+    "name": "Somerset Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\somerset_council",
+    "deptCol": "Cost Centre",
+    "purposeCol": "Purpose of Spend",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Beneficiary",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Beneficiary",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\somerset_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Somerset Council \u2014 https://www.somerset.gov.uk/finance-performance-and-legal/council-expenditure-over-500/",
+    "source_url": "https://www.somerset.gov.uk/finance-performance-and-legal/council-expenditure-over-500/",
+    "_manifest_blocker": "green",
+    "_manifest_complications": [
+      "Discovery via WP customfilter AJAX endpoint (POST admin-ajax.php) - directory has 142 entries across pre-reorg councils.",
+      "SharePoint guest links require URL rewrite to /sites/SCCPublic/_layouts/15/download.aspx?share={token} (anonymous).",
+      "Mixed CSV/XLSX downloads - XLSX converted to CSV in scrape_somerset_council.py + prepare_somerset_files.py.",
+      "Q4 2024-25 was latin1, re-encoded to utf-8-sig at prepare time.",
+      "FY 2024/25: Q1+Q2+Q3 (utf-8-sig) + Q4 (re-encoded), totals approx GBP 1.04B across 217k transactions."
+    ]
   }
 ]
