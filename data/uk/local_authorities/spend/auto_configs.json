@@ -2240,5 +2240,22 @@
       "NET AMOUNT field has GBP sign and comma separators in quotes.",
       "Total approx GBP 894M across 167k transactions FY 2024/25."
     ]
+  },
+  {
+    "name": "North Lincolnshire Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_lincolnshire",
+    "deptCol": "Service Heads (T)",
+    "purposeCol": "Account (T)",
+    "amountCol": "Amount",
+    "supplierCol": "Supplier Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Supplier Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\north_lincolnshire_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "North Lincolnshire Council - https://www.northlincs.gov.uk/your-council/supplier-payments/",
+    "source_url": "https://www.northlincs.gov.uk/your-council/supplier-payments/",
+    "_manifest_blocker": "yellow"
   }
 ]
