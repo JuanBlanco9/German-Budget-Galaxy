@@ -206,6 +206,7 @@ for (const cls of lg.children) {
         transaction_count: svcData.transaction_count,
         unique_suppliers: svcData.unique_suppliers,
         suppliers: svcData.top_suppliers,
+        purposes: svcData.top_purposes || null,
         source: entry.source,
         source_url,
         archive_url,
