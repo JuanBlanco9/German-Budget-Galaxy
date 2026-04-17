@@ -2178,5 +2178,67 @@
       "Two cols share 'Cost Centre' header (code + name) - second col renamed 'Cost Centre Name' at conversion.",
       "12 monthly XLSX (~28k rows total). Ignores Credit Notes mirror files."
     ]
+  },
+  {
+    "name": "East Riding of Yorkshire Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\east_riding",
+    "deptCol": "Directorate",
+    "purposeCol": "Detail Code Description",
+    "amountCol": "Net Amount",
+    "supplierCol": "Beneficiary Name",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "Beneficiary Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\east_riding_of_yorkshire_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "East Riding of Yorkshire Council - https://www.eastriding.gov.uk/council/governance-and-spending/budgets-and-spending/council-spending-and-salaries/",
+    "source_url": "https://www.eastriding.gov.uk/council/governance-and-spending/budgets-and-spending/council-spending-and-salaries/",
+    "_manifest_blocker": "green"
+  },
+  {
+    "name": "Southampton City Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\southampton",
+    "deptCol": "Service_Label",
+    "purposeCol": "Summary_of_the_purpose_of_the_expenditure",
+    "amountCol": "Net_Amount",
+    "supplierCol": "Supplier_Name",
+    "sep": ",",
+    "encoding": "latin1",
+    "headerHint": "Supplier_Name",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\southampton_city_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Southampton City Council - https://www.southampton.gov.uk/council-democracy/council-data/expenditure-over-fivehundred/",
+    "source_url": "https://www.southampton.gov.uk/council-democracy/council-data/expenditure-over-fivehundred/",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "Incapsula WAF geo-blocks AR IPs. Fetched via Vultr Miami (US works).",
+      "Umbraco CMS, hash-based media URLs (/media/{hash}/...) - scrape landing.",
+      "Quarterly CSVs (not monthly). cp1252/latin1 encoding.",
+      "Total approx GBP 443M FY 2024/25 across 54k transactions."
+    ]
+  },
+  {
+    "name": "Leicestershire County Council",
+    "code": null,
+    "dir": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\leicestershire_county_council",
+    "deptCol": "DEPARTMENT",
+    "purposeCol": "ACCOUNT DESCRIPTION",
+    "amountCol": "NET AMOUNT",
+    "supplierCol": "SUPPLIER NAME",
+    "sep": ",",
+    "encoding": "utf8",
+    "headerHint": "SUPPLIER NAME",
+    "mappingFile": "D:\\germany-ngo-map\\data\\uk\\local_authorities\\spend\\leicestershire_county_council_dept_mapping.json",
+    "fyLabel": "2024/25",
+    "source": "Leicestershire County Council - https://www.leicestershire.gov.uk/about-the-council/council-spending/payments-and-accounts/payments-to-suppliers",
+    "source_url": "https://www.leicestershire.gov.uk/about-the-council/council-spending/payments-and-accounts/payments-to-suppliers",
+    "_manifest_blocker": "yellow",
+    "_manifest_complications": [
+      "Akamai CDN blocks all programmatic access (curl, requests). Files fetched via Wayback Machine replay.",
+      "NET AMOUNT field has GBP sign and comma separators in quotes.",
+      "Total approx GBP 894M across 167k transactions FY 2024/25."
+    ]
   }
 ]
