@@ -1381,8 +1381,8 @@ const LLM_COUNCILS = [
     source: 'London Borough of Tower Hamlets — 250 Spend (towerhamlets.gov.uk, filtered to £500+)' },
 
   { name: 'Barnet', code: 'E09000003', dir: path.join(SPEND_DIR, 'barnet'),
-    deptCol: 'Directorate', purposeCol: 'Expenditure Type', amountCol: 'Expenditure Amount (exc VAT)',
-    supplierCol: 'Vendor Name', sep: ',', encoding: 'utf8',
+    deptCol: 'Department', purposeCol: 'Expenditure Type', amountCol: 'Expenditure Amount (exc VAT)',
+    supplierCol: 'Vendor Name', sep: ',', encoding: 'latin1',
     mappingFile: path.join(SPEND_DIR, 'barnet_dept_mapping.json'),
     fyLabel: '2023/24',
     source: 'London Borough of Barnet — Expenditure Reporting (open.barnet.gov.uk CKAN)' },
