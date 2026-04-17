@@ -1,0 +1,915 @@
+{
+  "dept": "HM Treasury",
+  "dept_id": "uk_hmt",
+  "year": 2024,
+  "currency": "GBP",
+  "total_dept": 63500000000,
+  "total_spend25k": 222172604,
+  "top100_coverage_pct": 99.6,
+  "top100_coverage_of_dept_pct": 0.3,
+  "recipients": [
+    {
+      "rank": 1,
+      "name": "National Savings and Investments",
+      "type": "Contractor",
+      "amount": 122924510,
+      "pct_of_dept": 0.19,
+      "transactions": 26,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 2,
+      "name": "Government Property Agency",
+      "type": "Contractor",
+      "amount": 19735430,
+      "pct_of_dept": 0.03,
+      "transactions": 49,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 3,
+      "name": "Government Legal Department",
+      "type": "Contractor",
+      "amount": 11274692,
+      "pct_of_dept": 0.02,
+      "transactions": 19,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 4,
+      "name": "Phoenix Software Ltd",
+      "type": "Contractor",
+      "amount": 5284561,
+      "pct_of_dept": 0.01,
+      "transactions": 54,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 5,
+      "name": "Cabinet Office",
+      "type": "Contractor",
+      "amount": 4858678,
+      "pct_of_dept": 0.01,
+      "transactions": 23,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 6,
+      "name": "Birmingham City Council",
+      "type": "Local Authority",
+      "amount": 3929884,
+      "pct_of_dept": 0.01,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 7,
+      "name": "Centerprise International Ltd",
+      "type": "Contractor",
+      "amount": 3823328,
+      "pct_of_dept": 0.01,
+      "transactions": 48,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 8,
+      "name": "Eversheds Sutherland International LLP",
+      "type": "Contractor",
+      "amount": 3295432,
+      "pct_of_dept": 0.01,
+      "transactions": 10,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 9,
+      "name": "Deloitte LLP",
+      "type": "Consultancy",
+      "amount": 2282331,
+      "pct_of_dept": 0,
+      "transactions": 28,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 10,
+      "name": "Ernst & Young LLP",
+      "type": "Consultancy",
+      "amount": 2077242,
+      "pct_of_dept": 0,
+      "transactions": 20,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 11,
+      "name": "FCDO Services",
+      "type": "Contractor",
+      "amount": 2063797,
+      "pct_of_dept": 0,
+      "transactions": 21,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 12,
+      "name": "CENTRE FOR FINANCE, INNOVATION AND TECHNOLOGY",
+      "type": "Contractor",
+      "amount": 2058490,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 13,
+      "name": "KPMG LLP",
+      "type": "Consultancy",
+      "amount": 1956612,
+      "pct_of_dept": 0,
+      "transactions": 23,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 14,
+      "name": "NTT DATA UK Ltd",
+      "type": "Contractor",
+      "amount": 1769138,
+      "pct_of_dept": 0,
+      "transactions": 18,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 15,
+      "name": "Bank of England (FAO FRP HO- 5 & Secondments)",
+      "type": "Contractor",
+      "amount": 1711635,
+      "pct_of_dept": 0,
+      "transactions": 21,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 16,
+      "name": "Green Park Interim & Executive Limited",
+      "type": "Contractor",
+      "amount": 1678760,
+      "pct_of_dept": 0,
+      "transactions": 18,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 17,
+      "name": "HM Treasury",
+      "type": "Contractor",
+      "amount": 1519256,
+      "pct_of_dept": 0,
+      "transactions": 13,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 18,
+      "name": "Fair4All Finance",
+      "type": "Contractor",
+      "amount": 1507267,
+      "pct_of_dept": 0,
+      "transactions": 9,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 19,
+      "name": "Bloomberg Finance L.P.",
+      "type": "Contractor",
+      "amount": 1281875,
+      "pct_of_dept": 0,
+      "transactions": 15,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 20,
+      "name": "Government Actuary's Dept",
+      "type": "Contractor",
+      "amount": 1254732,
+      "pct_of_dept": 0,
+      "transactions": 19,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 21,
+      "name": "The Royal Mint",
+      "type": "Contractor",
+      "amount": 1254500,
+      "pct_of_dept": 0,
+      "transactions": 18,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 22,
+      "name": "KPMG LLP (CSL)",
+      "type": "Consultancy",
+      "amount": 1156920,
+      "pct_of_dept": 0,
+      "transactions": 13,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 23,
+      "name": "UK Infrastructure Bank",
+      "type": "Contractor",
+      "amount": 1124754,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 24,
+      "name": "Softcat PLC",
+      "type": "Contractor",
+      "amount": 984480,
+      "pct_of_dept": 0,
+      "transactions": 22,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 25,
+      "name": "Little Fish (UK) Ltd",
+      "type": "Contractor",
+      "amount": 829017,
+      "pct_of_dept": 0,
+      "transactions": 14,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 26,
+      "name": "LCH Clearnet Ltd",
+      "type": "Contractor",
+      "amount": 742881,
+      "pct_of_dept": 0,
+      "transactions": 6,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 27,
+      "name": "London Stock Exchange",
+      "type": "Contractor",
+      "amount": 742500,
+      "pct_of_dept": 0,
+      "transactions": 8,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 28,
+      "name": "ARA Dunedin Asset Management LLP",
+      "type": "Contractor",
+      "amount": 737464,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 29,
+      "name": "WIPRO HOLDINGS (UK) LIMITED",
+      "type": "Contractor",
+      "amount": 734520,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 30,
+      "name": "ESR Europe Property Management Ltd",
+      "type": "Contractor",
+      "amount": 722615,
+      "pct_of_dept": 0,
+      "transactions": 6,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 31,
+      "name": "Sayari Analytics, LLC",
+      "type": "Contractor",
+      "amount": 645340,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 32,
+      "name": "Wipro IT Services UK Societas",
+      "type": "Contractor",
+      "amount": 623749,
+      "pct_of_dept": 0,
+      "transactions": 8,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 33,
+      "name": "Vale of Glamorgan Council",
+      "type": "Local Authority",
+      "amount": 606762,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 34,
+      "name": "Department for Transport",
+      "type": "Contractor",
+      "amount": 590000,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 35,
+      "name": "Ministry of Justice",
+      "type": "Contractor",
+      "amount": 579339,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 36,
+      "name": "The Consumer Council",
+      "type": "Local Authority",
+      "amount": 567617,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 37,
+      "name": "OECD",
+      "type": "Contractor",
+      "amount": 550000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 38,
+      "name": "COSLA",
+      "type": "Contractor",
+      "amount": 539310,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 39,
+      "name": "Hogan Lovells International LLP",
+      "type": "Contractor",
+      "amount": 536964,
+      "pct_of_dept": 0,
+      "transactions": 10,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 40,
+      "name": "IBM UK",
+      "type": "Contractor",
+      "amount": 535503,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 41,
+      "name": "City of London Corporation",
+      "type": "Contractor",
+      "amount": 438000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 42,
+      "name": "Software AG UK LTD",
+      "type": "Contractor",
+      "amount": 435474,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 43,
+      "name": "Government Communications Headquarters",
+      "type": "Contractor",
+      "amount": 431838,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 44,
+      "name": "Freshfields Bruckhaus Deringer",
+      "type": "Contractor",
+      "amount": 406374,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 45,
+      "name": "FIS Capital Markets US LLC",
+      "type": "Contractor",
+      "amount": 395466,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 46,
+      "name": "Bulien LLP",
+      "type": "Contractor",
+      "amount": 358325,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 47,
+      "name": "Competition and Markets Authority",
+      "type": "Contractor",
+      "amount": 350000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 48,
+      "name": "Storm Technologies Ltd",
+      "type": "Contractor",
+      "amount": 311411,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 49,
+      "name": "The Department for Levelling Up, Housing and Communities",
+      "type": "Contractor",
+      "amount": 300000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 50,
+      "name": "Oliver Wyman Limited",
+      "type": "Contractor",
+      "amount": 286000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 51,
+      "name": "Calder Conferences Limited",
+      "type": "Contractor",
+      "amount": 280059,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 52,
+      "name": "Refinitiv",
+      "type": "Contractor",
+      "amount": 278573,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 53,
+      "name": "Stack Data Strategy Limited",
+      "type": "Contractor",
+      "amount": 244382,
+      "pct_of_dept": 0,
+      "transactions": 6,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 54,
+      "name": "S&P Global Market Intelligence LLC",
+      "type": "Contractor",
+      "amount": 240860,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 55,
+      "name": "ThirdSpace, Trading As Kocho",
+      "type": "Contractor",
+      "amount": 240438,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 56,
+      "name": "Gartner UK Limited",
+      "type": "Contractor",
+      "amount": 223140,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 57,
+      "name": "Financial Times Ltd",
+      "type": "Contractor",
+      "amount": 222329,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 58,
+      "name": "PeopleScout Limited",
+      "type": "Contractor",
+      "amount": 214034,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 59,
+      "name": "Wolters Kluwer Tax and Accounting Limited",
+      "type": "Contractor",
+      "amount": 209491,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 60,
+      "name": "EE Ltd",
+      "type": "Contractor",
+      "amount": 188431,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 61,
+      "name": "Bruegel",
+      "type": "Contractor",
+      "amount": 188288,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 62,
+      "name": "Fitch Solutions Limited",
+      "type": "Contractor",
+      "amount": 176604,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 63,
+      "name": "Blue Lights Digital Ltd",
+      "type": "Contractor",
+      "amount": 173757,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 64,
+      "name": "Capita Pension Solutions Limited",
+      "type": "Outsourcing/IT",
+      "amount": 163516,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 65,
+      "name": "HH Associates Limited",
+      "type": "Contractor",
+      "amount": 158829,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 66,
+      "name": "Microsoft Limited UK",
+      "type": "Contractor",
+      "amount": 151807,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 67,
+      "name": "Bank of England (Crest Charges)",
+      "type": "Contractor",
+      "amount": 138771,
+      "pct_of_dept": 0,
+      "transactions": 5,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 68,
+      "name": "Insight Direct (UK) Ltd",
+      "type": "Contractor",
+      "amount": 135242,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 69,
+      "name": "ICA Commercial Services Ltd",
+      "type": "Contractor",
+      "amount": 128620,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 70,
+      "name": "Fivium Limited",
+      "type": "Contractor",
+      "amount": 122744,
+      "pct_of_dept": 0,
+      "transactions": 4,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 71,
+      "name": "de Novo Consulting Services Limited",
+      "type": "Contractor",
+      "amount": 119700,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 72,
+      "name": "Bank of England (3)",
+      "type": "Contractor",
+      "amount": 116523,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 73,
+      "name": "King's College London",
+      "type": "Contractor",
+      "amount": 116000,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 74,
+      "name": "National Audit Office",
+      "type": "Contractor",
+      "amount": 111800,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 75,
+      "name": "Gowling WLG (UK) LLP",
+      "type": "Contractor",
+      "amount": 100480,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 76,
+      "name": "Department for Environment, Food and Rural Affairs",
+      "type": "Contractor",
+      "amount": 100000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 77,
+      "name": "Eastern and Southern Africa Anti-Money Laundering Group (ESAAMLG) Secretariat",
+      "type": "Contractor",
+      "amount": 100000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 78,
+      "name": "Oxford Global Projects UK Limited",
+      "type": "Contractor",
+      "amount": 100000,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 79,
+      "name": "Bytes Software Services",
+      "type": "Contractor",
+      "amount": 95786,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 80,
+      "name": "Slaughter and May",
+      "type": "Contractor",
+      "amount": 94843,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 81,
+      "name": "Version 1 Solutions Limited",
+      "type": "Contractor",
+      "amount": 93040,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 82,
+      "name": "Martin Brokers, a division of BGC Brokers LP",
+      "type": "Contractor",
+      "amount": 86513,
+      "pct_of_dept": 0,
+      "transactions": 3,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 83,
+      "name": "Home Office",
+      "type": "Contractor",
+      "amount": 85597,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 84,
+      "name": "Chartered Institute of Internal Auditors",
+      "type": "Contractor",
+      "amount": 83345,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 85,
+      "name": "Department for Energy Security and Net Zero",
+      "type": "Contractor",
+      "amount": 82000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 86,
+      "name": "4C Associates Ltd",
+      "type": "Contractor",
+      "amount": 80000,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 87,
+      "name": "Regen SW",
+      "type": "Contractor",
+      "amount": 78925,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 88,
+      "name": "Asia/Pacific Group",
+      "type": "Contractor",
+      "amount": 78676,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 89,
+      "name": "One Crown Office Row Chambers",
+      "type": "Contractor",
+      "amount": 73885,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 90,
+      "name": "Daisy Corporate Services Trading Limited",
+      "type": "Contractor",
+      "amount": 73653,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 91,
+      "name": "FCDO",
+      "type": "Contractor",
+      "amount": 72329,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 92,
+      "name": "Penna plc",
+      "type": "Contractor",
+      "amount": 72015,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 93,
+      "name": "Iron Mountain",
+      "type": "Contractor",
+      "amount": 68449,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 94,
+      "name": "VidCruiter Inc.",
+      "type": "Contractor",
+      "amount": 68200,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 95,
+      "name": "Okta Inc",
+      "type": "Contractor",
+      "amount": 64054,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 96,
+      "name": "NLA Media Access Ltd",
+      "type": "Contractor",
+      "amount": 61842,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 97,
+      "name": "Wall Street Systems UK Limited",
+      "type": "Contractor",
+      "amount": 59976,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 98,
+      "name": "Clifford Chance LLP",
+      "type": "Contractor",
+      "amount": 57573,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 99,
+      "name": "PricewaterhouseCoopers",
+      "type": "Contractor",
+      "amount": 57370,
+      "pct_of_dept": 0,
+      "transactions": 2,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    },
+    {
+      "rank": 100,
+      "name": "The Defence Science and Technology Laboratory (DSTL)",
+      "type": "Contractor",
+      "amount": 56230,
+      "pct_of_dept": 0,
+      "transactions": 1,
+      "source": "UK Government Spending Over £25,000, HM Treasury, Calendar Year 2024"
+    }
+  ],
+  "source": "UK Government Spending Over £25,000 (https://www.gov.uk/government/collections/spending-over-25-000)",
+  "note": "Only covers transactions over £25,000. Coverage of total departmental spending depends on the proportion of spend that occurs in transactions over £25k.",
+  "generated": "2026-04-08"
+}

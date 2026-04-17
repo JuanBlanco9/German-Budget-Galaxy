@@ -1,0 +1,4103 @@
+{
+  "name": "UK Public Spending 2019",
+  "value": 1053660383000,
+  "children": [
+    {
+      "id": "dep",
+      "name": "Department of Health",
+      "value": 254119240000,
+      "children": [
+        {
+          "id": "nhs_tr",
+          "name": "NHS Trusts",
+          "value": 167076464000,
+          "children": [
+            {
+              "id": "7.a_medi",
+              "name": "7.A Medical services",
+              "value": 85747039000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 81329425000
+            }
+          ]
+        },
+        {
+          "id": "nhs_co",
+          "name": "NHS Commissioning Board (NHS England)",
+          "value": 65028063000,
+          "children": [
+            {
+              "id": "7.a_medi",
+              "name": "7.A Medical services",
+              "value": 42690921000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 22337142000
+            }
+          ]
+        },
+        {
+          "id": "depart",
+          "name": "Department of Health (NHS)",
+          "value": 12361366000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 5166051000
+            },
+            {
+              "id": "7.a_medi",
+              "name": "7.A Medical services",
+              "value": 5026503000
+            },
+            {
+              "id": "7.b_medi",
+              "name": "7.B Medical research",
+              "value": 1168812000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1000000000
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "name": "Health Education England",
+          "value": 3391510000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1762628000
+            },
+            {
+              "id": "7.a_medi",
+              "name": "7.A Medical services",
+              "value": 1628813000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 69000
+            }
+          ]
+        },
+        {
+          "id": "supply",
+          "name": "Supply Chain Coordination Limited",
+          "value": 3176684000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 1596684000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1580000000
+            }
+          ]
+        },
+        {
+          "id": "nhs_pr",
+          "name": "NHS Property Services",
+          "value": 1416125000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 743625000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 672500000
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "name": "Health & Social Care Information Centre (NHS Digital)",
+          "value": 728138000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 522510000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 205628000
+            }
+          ]
+        },
+        {
+          "id": "commun",
+          "name": "Community Health Partnership",
+          "value": 491898000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 247000000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 244898000
+            }
+          ]
+        },
+        {
+          "id": "genomi",
+          "name": "Genomics England Limited",
+          "value": 118088000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 68088000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 50000000
+            }
+          ]
+        },
+        {
+          "id": "office",
+          "name": "Office of the Independent Regulator for NHS Foundation Trusts (NHS Improvement)",
+          "value": 106263000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 59500000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 46763000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Institute for Health and Care Excellence",
+          "value": 99683000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 50635000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 49048000
+            }
+          ]
+        },
+        {
+          "id": "care_q",
+          "name": "Care Quality Commission",
+          "value": 75199000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 38935000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 36264000
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "name": "Health Research Authority",
+          "value": 34805000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 17462000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 17343000
+            }
+          ]
+        },
+        {
+          "id": "nursin",
+          "name": "Nursing and Midwifery Council",
+          "value": 9764000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 5845000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3919000
+            }
+          ]
+        },
+        {
+          "id": "human_",
+          "name": "Human Tissue Authority",
+          "value": 1848000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 1045000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 803000
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "name": "Health and Care Professions Council",
+          "value": 1569000
+        },
+        {
+          "id": "human_",
+          "name": "Human Fertilisation and Embryology Authority",
+          "value": 1413000,
+          "children": [
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 1410000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3000
+            }
+          ]
+        },
+        {
+          "id": "profes",
+          "name": "Professional Standards Authority for Health and Social Care",
+          "value": 360000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Work and Pensions",
+      "value": 199081352000,
+      "children": [
+        {
+          "id": "depart",
+          "name": "Department for Work and Pensions",
+          "value": 198394147000,
+          "children": [
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 106249617000
+            },
+            {
+              "id": "10.1_sic",
+              "name": "10.1 Sickness and disability; of which: incapacity, disability and injury benefits",
+              "value": 42755169000
+            },
+            {
+              "id": "10.7_soc",
+              "name": "10.7 Social exclusion n.e.c.; of which: family benefits, income support and tax credits",
+              "value": 21482589000
+            },
+            {
+              "id": "10.6_hou",
+              "name": "10.6 Housing",
+              "value": 17707182000
+            },
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 3488502000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 2166367000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 1693556000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: family benefits, income support and tax credits",
+              "value": 1531139000
+            },
+            {
+              "id": "10.5_une",
+              "name": "10.5 Unemployment; of which: other unemployment benefits",
+              "value": 748484000
+            },
+            {
+              "id": "10.3_sur",
+              "name": "10.3 Survivors",
+              "value": 540724000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 23368000
+            },
+            {
+              "id": "4.3_fuel",
+              "name": "4.3 Fuel and energy",
+              "value": 9028000
+            },
+            {
+              "id": "4.9_econ",
+              "name": "4.9 Economic affairs n.e.c.",
+              "value": -4000
+            },
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": -1574000
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "name": "Health and Safety Executive",
+          "value": 263915000,
+          "children": [
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 134925000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 128990000
+            }
+          ]
+        },
+        {
+          "id": "single",
+          "name": "Single Financial Guidance Body",
+          "value": 220481000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 110984000
+            },
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 109497000
+            }
+          ]
+        },
+        {
+          "id": "the_pe",
+          "name": "The Pensions Regulator",
+          "value": 177015000,
+          "children": [
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 93510000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 83505000
+            }
+          ]
+        },
+        {
+          "id": "the_pe",
+          "name": "The Pensions Ombudsman",
+          "value": 15089000,
+          "children": [
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 7759000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 7330000
+            }
+          ]
+        },
+        {
+          "id": "disabl",
+          "name": "Disabled People's Employment Corporation (GB) Ltd",
+          "value": 9500000
+        },
+        {
+          "id": "indepe",
+          "name": "Independent Living Fund",
+          "value": 1200000
+        },
+        {
+          "id": "bpdts_",
+          "name": "BPDTS Ltd",
+          "value": 5000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Education",
+      "value": 108954033000,
+      "children": [
+        {
+          "id": "depart",
+          "name": "Department for Education",
+          "value": 77115296000,
+          "children": [
+            {
+              "id": "9.4_tert",
+              "name": "9.4 Tertiary education",
+              "value": 34405621000
+            },
+            {
+              "id": "9.8_educ",
+              "name": "9.8 Education n.e.c.",
+              "value": 22096458000
+            },
+            {
+              "id": "9.5_educ",
+              "name": "9.5 Education not definable by level",
+              "value": 12579470000
+            },
+            {
+              "id": "9.1_of_w",
+              "name": "9.1 of which: under fives",
+              "value": 3990853000
+            },
+            {
+              "id": "9.2_seco",
+              "name": "9.2 Secondary education",
+              "value": 2977466000
+            },
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 603992000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: personal social services",
+              "value": 253010000
+            },
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 98038000
+            },
+            {
+              "id": "9.6_subs",
+              "name": "9.6 Subsidiary services to education",
+              "value": 90383000
+            },
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 11871000
+            },
+            {
+              "id": "9.1_of_w",
+              "name": "9.1 of which: primary education",
+              "value": 6464000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: family benefits, income support and tax credits",
+              "value": 1670000
+            }
+          ]
+        },
+        {
+          "id": "academ",
+          "name": "Academies",
+          "value": 28363822000
+        },
+        {
+          "id": "office",
+          "name": "Office for Students",
+          "value": 2912453000
+        },
+        {
+          "id": "studen",
+          "name": "Student Loans Company",
+          "value": 474814000,
+          "children": [
+            {
+              "id": "9.5_educ",
+              "name": "9.5 Education not definable by level",
+              "value": 245474000
+            },
+            {
+              "id": "9.4_tert",
+              "name": "9.4 Tertiary education",
+              "value": 229340000
+            }
+          ]
+        },
+        {
+          "id": "instit",
+          "name": "Institute for Apprenticeship",
+          "value": 32865000,
+          "children": [
+            {
+              "id": "9.5_educ",
+              "name": "9.5 Education not definable by level",
+              "value": 19597000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 13268000
+            }
+          ]
+        },
+        {
+          "id": "constr",
+          "name": "Construction Industry Training Board",
+          "value": 27137000
+        },
+        {
+          "id": "locate",
+          "name": "LocatED PLC",
+          "value": 20210000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 10514000
+            },
+            {
+              "id": "9.8_educ",
+              "name": "9.8 Education n.e.c.",
+              "value": 9696000
+            }
+          ]
+        },
+        {
+          "id": "social",
+          "name": "Social Work England",
+          "value": 17732000
+        },
+        {
+          "id": "childr",
+          "name": "Children's Commissioner",
+          "value": 5201000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 2626000
+            },
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 2575000
+            }
+          ]
+        },
+        {
+          "id": "engine",
+          "name": "Engineering Construction Industry Training Board",
+          "value": -867000
+        },
+        {
+          "id": "aggreg",
+          "name": "Aggregator Vehicle PLC",
+          "value": -14630000
+        }
+      ]
+    },
+    {
+      "id": "uk_la",
+      "name": "Local Authorities (England)",
+      "value": 94599982000,
+      "children": [
+        {
+          "id": "uk_la_edu",
+          "name": "Education Services",
+          "value": 32603275000
+        },
+        {
+          "id": "uk_la_asc",
+          "name": "Adult Social Care",
+          "value": 16905497000
+        },
+        {
+          "id": "uk_la_pol",
+          "name": "Police Services",
+          "value": 12203377000
+        },
+        {
+          "id": "uk_la_csc",
+          "name": "Children's Social Care",
+          "value": 9920120000
+        },
+        {
+          "id": "uk_la_env",
+          "name": "Environmental and Regulatory Services",
+          "value": 5145638000
+        },
+        {
+          "id": "uk_la_trans",
+          "name": "Highways and Transport",
+          "value": 3757410000
+        },
+        {
+          "id": "uk_la_cen",
+          "name": "Central Services",
+          "value": 3250829000
+        },
+        {
+          "id": "uk_la_phs",
+          "name": "Public Health",
+          "value": 3227521000
+        },
+        {
+          "id": "uk_la_cul",
+          "name": "Cultural and Related Services",
+          "value": 2228366000
+        },
+        {
+          "id": "uk_la_frs",
+          "name": "Fire and Rescue Services",
+          "value": 2158492000
+        },
+        {
+          "id": "uk_la_hous",
+          "name": "Housing Services",
+          "value": 1774763000
+        },
+        {
+          "id": "uk_la_plan",
+          "name": "Planning and Development",
+          "value": 1382533000
+        },
+        {
+          "id": "uk_la_oth",
+          "name": "Other Services",
+          "value": 42159000
+        }
+      ],
+      "_disclaimer": "Covers England only. Scotland, Wales, and Northern Ireland have separate devolved administrations."
+    },
+    {
+      "id": "min",
+      "name": "Ministry of Defence",
+      "value": 46114118000,
+      "children": [
+        {
+          "id": "minist",
+          "name": "Ministry of Defence",
+          "value": 45733380000,
+          "children": [
+            {
+              "id": "2.1_mili",
+              "name": "2.1 Military defence",
+              "value": 43997276000
+            },
+            {
+              "id": "2.4_r&d_",
+              "name": "2.4 R&D defence",
+              "value": 967940000
+            },
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 680310000
+            },
+            {
+              "id": "2.3_fore",
+              "name": "2.3 Foreign military aid",
+              "value": 87854000
+            }
+          ]
+        },
+        {
+          "id": "territ",
+          "name": "Territorial, Auxiliary and Volunteer Reserve Associations established under s 110 of the Reserve Act",
+          "value": 171762000,
+          "children": [
+            {
+              "id": "2.5_defe",
+              "name": "2.5 Defence n.e.c.",
+              "value": 85881000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 85881000
+            }
+          ]
+        },
+        {
+          "id": "common",
+          "name": "Commonwealth War Graves Commission",
+          "value": 108744000,
+          "children": [
+            {
+              "id": "2.5_defe",
+              "name": "2.5 Defence n.e.c.",
+              "value": 54372000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 54372000
+            }
+          ]
+        },
+        {
+          "id": "royal_",
+          "name": "Royal Hospital, Chelsea",
+          "value": 26740000,
+          "children": [
+            {
+              "id": "2.5_defe",
+              "name": "2.5 Defence n.e.c.",
+              "value": 14045000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 12695000
+            }
+          ]
+        },
+        {
+          "id": "armed_",
+          "name": "Armed Forces Covenant Fund Trustee Ltd",
+          "value": 20000000,
+          "children": [
+            {
+              "id": "2.5_defe",
+              "name": "2.5 Defence n.e.c.",
+              "value": 10000000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 10000000
+            }
+          ]
+        },
+        {
+          "id": "royal_",
+          "name": "Royal Air Force Museum",
+          "value": 19048000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 9524000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 9524000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Army Museum",
+          "value": 14067000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 7467000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 6600000
+            }
+          ]
+        },
+        {
+          "id": "single",
+          "name": "Single Source Regulations Office",
+          "value": 12362000,
+          "children": [
+            {
+              "id": "2.5_defe",
+              "name": "2.5 Defence n.e.c.",
+              "value": 6181000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 6181000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Museum of the Royal Navy",
+          "value": 8013000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 4512000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3501000
+            }
+          ]
+        },
+        {
+          "id": "intern",
+          "name": "International Military Services Limited",
+          "value": 2000,
+          "children": [
+            {
+              "id": "2.5_defe",
+              "name": "2.5 Defence n.e.c.",
+              "value": 1000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hm",
+      "name": "HM Revenue and Customs",
+      "value": 42866376000,
+      "children": [
+        {
+          "id": "hm_rev",
+          "name": "HM Revenue & Customs",
+          "value": 42866376000,
+          "children": [
+            {
+              "id": "10.7_soc",
+              "name": "10.7 Social exclusion n.e.c.; of which: family benefits, income support and tax credits",
+              "value": 17980597000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: family benefits, income support and tax credits",
+              "value": 12053482000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 8552354000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 3866250000
+            },
+            {
+              "id": "6.6_hous",
+              "name": "6.6 Housing and community amenities n.e.c.",
+              "value": 176873000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 90130000
+            },
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 70000000
+            },
+            {
+              "id": "1.6_gene",
+              "name": "1.6 General public services n.e.c.",
+              "value": 44847000
+            },
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 31731000
+            },
+            {
+              "id": "10.6_hou",
+              "name": "10.6 Housing",
+              "value": 112000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Communities and Local Government",
+      "value": 42523275000,
+      "children": [
+        {
+          "id": "clg_lo",
+          "name": "CLG Local Government",
+          "value": 27218372000,
+          "children": [
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 24485844000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 1600000000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1132316000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 212000
+            }
+          ]
+        },
+        {
+          "id": "homes_",
+          "name": "Homes England",
+          "value": 9961112000,
+          "children": [
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 3611631000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3534711000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: other social housing",
+              "value": 1991999000
+            },
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 606467000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 137658000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: local authority housing",
+              "value": 81979000
+            },
+            {
+              "id": "6.6_hous",
+              "name": "6.6 Housing and community amenities n.e.c.",
+              "value": -3333000
+            }
+          ]
+        },
+        {
+          "id": "clg_co",
+          "name": "CLG Communities",
+          "value": 5248228000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1171305000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 1163546000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: local authority housing",
+              "value": 954378000
+            },
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 909772000
+            },
+            {
+              "id": "6.6_hous",
+              "name": "6.6 Housing and community amenities n.e.c.",
+              "value": 416537000
+            },
+            {
+              "id": "10.7_soc",
+              "name": "10.7 Social exclusion n.e.c.; of which: personal social services",
+              "value": 260488000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 209132000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: other social housing",
+              "value": 93810000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 32919000
+            },
+            {
+              "id": "10.6_hou",
+              "name": "10.6 Housing",
+              "value": 16011000
+            },
+            {
+              "id": "4.4_mini",
+              "name": "4.4 Mining, manufacturing and construction",
+              "value": 6300000
+            },
+            {
+              "id": "1.5_r&d_",
+              "name": "1.5 R&D general public services",
+              "value": 5331000
+            },
+            {
+              "id": "3.2_fire",
+              "name": "3.2 Fire-protection services",
+              "value": 3878000
+            },
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 3837000
+            },
+            {
+              "id": "4.9_econ",
+              "name": "4.9 Economic affairs n.e.c.",
+              "value": 764000
+            },
+            {
+              "id": "1.2_fore",
+              "name": "1.2 Foreign economic aid",
+              "value": 566000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local public transport",
+              "value": 284000
+            },
+            {
+              "id": "1.3_gene",
+              "name": "1.3 General services",
+              "value": -630000
+            }
+          ]
+        },
+        {
+          "id": "the_pl",
+          "name": "The Planning Inspectorate",
+          "value": 47383000
+        },
+        {
+          "id": "commis",
+          "name": "Commission for Local Administration CLG Main",
+          "value": 25653000,
+          "children": [
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 14256000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 11397000
+            }
+          ]
+        },
+        {
+          "id": "valuat",
+          "name": "Valuation Tribunal Service CLG Main",
+          "value": 11514000,
+          "children": [
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 5992000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 5522000
+            }
+          ]
+        },
+        {
+          "id": "regula",
+          "name": "Regulator of Social Housing",
+          "value": 5923000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 4169000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: other social housing",
+              "value": 1754000
+            }
+          ]
+        },
+        {
+          "id": "leaseh",
+          "name": "Leasehold Advisory Service",
+          "value": 3735000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1926000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 1809000
+            }
+          ]
+        },
+        {
+          "id": "the_ho",
+          "name": "The Housing Ombudsman",
+          "value": 1355000
+        },
+        {
+          "id": "ebbsfl",
+          "name": "Ebbsfleet Development Corporation",
+          "value": 0
+        },
+        {
+          "id": "tenant",
+          "name": "Tenant Services Authority",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Business Innovation and Skills",
+      "value": 35188022000,
+      "children": [
+        {
+          "id": "uk_res",
+          "name": "UK Research and Innovation",
+          "value": 15625960000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 7763691000
+            },
+            {
+              "id": "4.8_r&d_",
+              "name": "4.8 R&D economic affairs",
+              "value": 5170731000
+            },
+            {
+              "id": "9.7_r&d_",
+              "name": "9.7 R&D education",
+              "value": 2322936000
+            },
+            {
+              "id": "7.b_medi",
+              "name": "7.B Medical research",
+              "value": 174422000
+            },
+            {
+              "id": "5.5_r&d_",
+              "name": "5.5 R&D environment protection",
+              "value": 161180000
+            },
+            {
+              "id": "8.5_r&d_",
+              "name": "8.5 R&D recreation, culture and religion",
+              "value": 33000000
+            }
+          ]
+        },
+        {
+          "id": "nuclea",
+          "name": "Nuclear Decommissioning Authority BEIS",
+          "value": 10815113000,
+          "children": [
+            {
+              "id": "5.1_wast",
+              "name": "5.1 Waste management",
+              "value": 7498113000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3317000000
+            }
+          ]
+        },
+        {
+          "id": "low_ca",
+          "name": "Low Carbon Contracts Company",
+          "value": 4235898000
+        },
+        {
+          "id": "depart",
+          "name": "Department for Business Innovation and Skills",
+          "value": 3351090000,
+          "children": [
+            {
+              "id": "4.8_r&d_",
+              "name": "4.8 R&D economic affairs",
+              "value": 2751327000
+            },
+            {
+              "id": "10.5_une",
+              "name": "10.5 Unemployment; of which: other unemployment benefits",
+              "value": 435569000
+            },
+            {
+              "id": "4.9_econ",
+              "name": "4.9 Economic affairs n.e.c.",
+              "value": 378056000
+            },
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 340156000
+            },
+            {
+              "id": "5.3_poll",
+              "name": "5.3 Pollution abatement",
+              "value": 210408000
+            },
+            {
+              "id": "4.6_comm",
+              "name": "4.6 Communication",
+              "value": 122087000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 116061000
+            },
+            {
+              "id": "4.3_fuel",
+              "name": "4.3 Fuel and energy",
+              "value": 85846000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: family benefits, income support and tax credits",
+              "value": 72000000
+            },
+            {
+              "id": "1.3_gene",
+              "name": "1.3 General services",
+              "value": 70417000
+            },
+            {
+              "id": "8.5_r&d_",
+              "name": "8.5 R&D recreation, culture and religion",
+              "value": 53398000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 51138000
+            },
+            {
+              "id": "5.5_r&d_",
+              "name": "5.5 R&D environment protection",
+              "value": 4210000
+            },
+            {
+              "id": "4.4_mini",
+              "name": "4.4 Mining, manufacturing and construction",
+              "value": 1150000
+            },
+            {
+              "id": "1.2_fore",
+              "name": "1.2 Foreign economic aid",
+              "value": 406000
+            },
+            {
+              "id": "9.5_educ",
+              "name": "9.5 Education not definable by level",
+              "value": 9000
+            },
+            {
+              "id": "9.2_seco",
+              "name": "9.2 Secondary education",
+              "value": -4000
+            },
+            {
+              "id": "10.1_sic",
+              "name": "10.1 Sickness and disability; of which: incapacity, disability and injury benefits",
+              "value": -142267000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: other transport",
+              "value": -454044000
+            },
+            {
+              "id": "5.1_wast",
+              "name": "5.1 Waste management",
+              "value": -744833000
+            }
+          ]
+        },
+        {
+          "id": "britis",
+          "name": "British Business Bank plc",
+          "value": 385798000
+        },
+        {
+          "id": "united",
+          "name": "United Kingdom Atomic Energy Authority",
+          "value": 208484000,
+          "children": [
+            {
+              "id": "5.1_wast",
+              "name": "5.1 Waste management",
+              "value": 123934000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 84550000
+            }
+          ]
+        },
+        {
+          "id": "diamon",
+          "name": "Diamond Light Source Limited",
+          "value": 114534000
+        },
+        {
+          "id": "adviso",
+          "name": "Advisory, Conciliation and Arbitration Service",
+          "value": 102236000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 52044000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 50192000
+            }
+          ]
+        },
+        {
+          "id": "coal_a",
+          "name": "Coal Authority BEIS",
+          "value": 93039000,
+          "children": [
+            {
+              "id": "5.4_prot",
+              "name": "5.4 Protection of biodiversity and landscape",
+              "value": 58244000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 34795000
+            }
+          ]
+        },
+        {
+          "id": "midlan",
+          "name": "Midlands Engine Investment Limited",
+          "value": 77712000,
+          "children": [
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 48460000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 29252000
+            }
+          ]
+        },
+        {
+          "id": "northe",
+          "name": "Northern Powerhouse Investment Limited",
+          "value": 62243000,
+          "children": [
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 56353000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 5890000
+            }
+          ]
+        },
+        {
+          "id": "south_",
+          "name": "South Tees Site Company",
+          "value": 42295000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 21227000
+            },
+            {
+              "id": "4.4_mini",
+              "name": "4.4 Mining, manufacturing and construction",
+              "value": 21068000
+            }
+          ]
+        },
+        {
+          "id": "rc_uk_",
+          "name": "RC UK Shared Services Centre Limited",
+          "value": 36540000,
+          "children": [
+            {
+              "id": "1.3_gene",
+              "name": "1.3 General services",
+              "value": 36536000
+            },
+            {
+              "id": "4.9_econ",
+              "name": "4.9 Economic affairs n.e.c.",
+              "value": 4000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Endowment for Science, Technology and the Arts",
+          "value": 35984000
+        },
+        {
+          "id": "fleetb",
+          "name": "Fleetbank Funding Limited",
+          "value": 26489000,
+          "children": [
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 36871000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": -10382000
+            }
+          ]
+        },
+        {
+          "id": "commit",
+          "name": "Committee on Climate Change BEIS",
+          "value": 10692000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 5354000
+            },
+            {
+              "id": "5.3_poll",
+              "name": "5.3 Pollution abatement",
+              "value": 5338000
+            }
+          ]
+        },
+        {
+          "id": "compet",
+          "name": "Competition Service",
+          "value": 9760000,
+          "children": [
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 4910000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 4850000
+            }
+          ]
+        },
+        {
+          "id": "cornwa",
+          "name": "Cornwall and Isles of Scilly Investments Limited",
+          "value": 5611000,
+          "children": [
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 4290000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1321000
+            }
+          ]
+        },
+        {
+          "id": "oil_&_",
+          "name": "Oil & Gas Authority",
+          "value": 4354000,
+          "children": [
+            {
+              "id": "4.3_fuel",
+              "name": "4.3 Fuel and energy",
+              "value": 2354000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "id": "civil_",
+          "name": "Civil Nuclear Police Authority and Constabulary BEIS",
+          "value": 4249000,
+          "children": [
+            {
+              "id": "3.1_of_w",
+              "name": "3.1 of which: other police services",
+              "value": 3701000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 548000
+            }
+          ]
+        },
+        {
+          "id": "financ",
+          "name": "Financial Reporting Council Limited",
+          "value": 108000
+        },
+        {
+          "id": "postal",
+          "name": "Postal Services Holding Company plc",
+          "value": 29000
+        },
+        {
+          "id": "enrich",
+          "name": "Enrichment Holdings Ltd",
+          "value": 26000
+        },
+        {
+          "id": "electr",
+          "name": "Electricity Settlements Company",
+          "value": -2756000
+        },
+        {
+          "id": "uk_gre",
+          "name": "UK Green Investment Platform Entity",
+          "value": -10144000
+        },
+        {
+          "id": "bis_(p",
+          "name": "BIS (Postal Services Act 2011) Company Limited",
+          "value": -47322000
+        }
+      ]
+    },
+    {
+      "id": "sco",
+      "name": "Scotland Office and Office of the Advocate General",
+      "value": 30920588000,
+      "children": [
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 19224469000
+        },
+        {
+          "id": "not_know",
+          "name": "Not known",
+          "value": 11684000000
+        },
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 12119000
+        }
+      ]
+    },
+    {
+      "id": "sco",
+      "name": "Scottish Government",
+      "value": 29213289000,
+      "children": [
+        {
+          "id": "7.a_medi",
+          "name": "7.A Medical services",
+          "value": 13801296000
+        },
+        {
+          "id": "1.6_gene",
+          "name": "1.6 General public services n.e.c.",
+          "value": 9809935000
+        },
+        {
+          "id": "10.2_old",
+          "name": "10.2 Old age; of which: pensions",
+          "value": 5072628000
+        },
+        {
+          "id": "9.4_tert",
+          "name": "9.4 Tertiary education",
+          "value": 2124134000
+        },
+        {
+          "id": "3.1_of_w",
+          "name": "3.1 of which: other police services",
+          "value": 1742455000
+        },
+        {
+          "id": "4.1_gene",
+          "name": "4.1 General economic, commercial and labour affairs",
+          "value": 1411738000
+        },
+        {
+          "id": "4.5_of_w",
+          "name": "4.5 of which: railway",
+          "value": 996250000
+        },
+        {
+          "id": "6.1_of_w",
+          "name": "6.1 of which: other social housing",
+          "value": 977173000
+        },
+        {
+          "id": "4.5_of_w",
+          "name": "4.5 of which: national roads",
+          "value": 854541000
+        },
+        {
+          "id": "9.2_seco",
+          "name": "9.2 Secondary education",
+          "value": 767621000
+        },
+        {
+          "id": "3.3_law_",
+          "name": "3.3 Law courts",
+          "value": 485617000
+        },
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 477954000
+        },
+        {
+          "id": "9.1_of_w",
+          "name": "9.1 of which: under fives",
+          "value": 462110000
+        },
+        {
+          "id": "3.2_fire",
+          "name": "3.2 Fire-protection services",
+          "value": 448433000
+        },
+        {
+          "id": "9.6_subs",
+          "name": "9.6 Subsidiary services to education",
+          "value": 407604000
+        },
+        {
+          "id": "3.4_pris",
+          "name": "3.4 Prisons",
+          "value": 372260000
+        },
+        {
+          "id": "4.5_of_w",
+          "name": "4.5 of which: other transport",
+          "value": 355051000
+        },
+        {
+          "id": "10.7_soc",
+          "name": "10.7 Social exclusion n.e.c.; of which: family benefits, income support and tax credits",
+          "value": 353473000
+        },
+        {
+          "id": "7.c_cent",
+          "name": "7.C Central and other health services",
+          "value": 327321000
+        },
+        {
+          "id": "4.5_of_w",
+          "name": "4.5 of which: local public transport",
+          "value": 306900000
+        },
+        {
+          "id": "9.8_educ",
+          "name": "9.8 Education n.e.c.",
+          "value": 302736000
+        },
+        {
+          "id": "8.2_cult",
+          "name": "8.2 Cultural services",
+          "value": 227956000
+        },
+        {
+          "id": "10.9_soc",
+          "name": "10.9 Social protection n.e.c.",
+          "value": 197930000
+        },
+        {
+          "id": "7.b_medi",
+          "name": "7.B Medical research",
+          "value": 189000000
+        },
+        {
+          "id": "4.2_of_w",
+          "name": "4.2 of which: other agriculture, food and fisheries policy",
+          "value": 162614000
+        },
+        {
+          "id": "5.6_envi",
+          "name": "5.6 Environment protection n.e.c.",
+          "value": 144109000
+        },
+        {
+          "id": "5.4_prot",
+          "name": "5.4 Protection of biodiversity and landscape",
+          "value": 117616000
+        },
+        {
+          "id": "6.3_wate",
+          "name": "6.3 Water supply",
+          "value": 115777000
+        },
+        {
+          "id": "3.6_publ",
+          "name": "3.6 Public order and safety n.e.c.",
+          "value": 109606000
+        },
+        {
+          "id": "4.9_econ",
+          "name": "4.9 Economic affairs n.e.c.",
+          "value": 81047000
+        },
+        {
+          "id": "4.2_of_w",
+          "name": "4.2 of which: forestry",
+          "value": 78206000
+        },
+        {
+          "id": "4.7_othe",
+          "name": "4.7 Other industries",
+          "value": 58959000
+        },
+        {
+          "id": "10.1_sic",
+          "name": "10.1 Sickness and disability; of which: incapacity, disability and injury benefits",
+          "value": 48400000
+        },
+        {
+          "id": "8.1_recr",
+          "name": "8.1 Recreational and sporting services",
+          "value": 40515000
+        },
+        {
+          "id": "4.6_comm",
+          "name": "4.6 Communication",
+          "value": 32985000
+        },
+        {
+          "id": "10.4_fam",
+          "name": "10.4 Family and children; of which: family benefits, income support and tax credits",
+          "value": 28387000
+        },
+        {
+          "id": "10.4_fam",
+          "name": "10.4 Family and children; of which: personal social services",
+          "value": 24280000
+        },
+        {
+          "id": "5.1_wast",
+          "name": "5.1 Waste management",
+          "value": 23770000
+        },
+        {
+          "id": "1.3_gene",
+          "name": "1.3 General services",
+          "value": 20785000
+        },
+        {
+          "id": "6.2_comm",
+          "name": "6.2 Community development",
+          "value": 17632000
+        },
+        {
+          "id": "1.5_r&d_",
+          "name": "1.5 R&D general public services",
+          "value": 9476000
+        },
+        {
+          "id": "5.3_poll",
+          "name": "5.3 Pollution abatement",
+          "value": 3868000
+        },
+        {
+          "id": "6.6_hous",
+          "name": "6.6 Housing and community amenities n.e.c.",
+          "value": 3006000
+        },
+        {
+          "id": "4.8_r&d_",
+          "name": "4.8 R&D economic affairs",
+          "value": 2405000
+        },
+        {
+          "id": "8.3_broa",
+          "name": "8.3 Broadcasting and publishing services",
+          "value": 2229000
+        },
+        {
+          "id": "1.2_fore",
+          "name": "1.2 Foreign economic aid",
+          "value": 675000
+        },
+        {
+          "id": "6.5_r&d_",
+          "name": "6.5 R&D housing and community amenities",
+          "value": 455000
+        },
+        {
+          "id": "9.7_r&d_",
+          "name": "9.7 R&D education",
+          "value": -180000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": -14385449000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Transport",
+      "value": 27214103000,
+      "children": [
+        {
+          "id": "networ",
+          "name": "Network Rail",
+          "value": 12182474000
+        },
+        {
+          "id": "depart",
+          "name": "Department for Transport",
+          "value": 6395609000,
+          "children": [
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local public transport",
+              "value": 2030603000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: railway",
+              "value": 1538143000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: other transport",
+              "value": 1475652000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local roads",
+              "value": 940507000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 322360000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: national roads",
+              "value": 76206000
+            },
+            {
+              "id": "4.8_r&d_",
+              "name": "4.8 R&D economic affairs",
+              "value": 34626000
+            },
+            {
+              "id": "5.3_poll",
+              "name": "5.3 Pollution abatement",
+              "value": 1377000
+            },
+            {
+              "id": "1.3_gene",
+              "name": "1.3 General services",
+              "value": 368000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 161000
+            },
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": -24394000
+            }
+          ]
+        },
+        {
+          "id": "highwa",
+          "name": "Highways England",
+          "value": 5682495000
+        },
+        {
+          "id": "high_s",
+          "name": "High Speed 2",
+          "value": 2477860000
+        },
+        {
+          "id": "air_tr",
+          "name": "Air Travel Trust",
+          "value": 240372000
+        },
+        {
+          "id": "britis",
+          "name": "British Transport Police Authority",
+          "value": 91420000
+        },
+        {
+          "id": "dft_ol",
+          "name": "DfT OLR Holdings Ltd",
+          "value": 90242000
+        },
+        {
+          "id": "east_w",
+          "name": "East West Rail",
+          "value": 23659000
+        },
+        {
+          "id": "trinit",
+          "name": "Trinity House Lighthouse Service",
+          "value": 18030000
+        },
+        {
+          "id": "northe",
+          "name": "Northern Lighthouse Board",
+          "value": 5949000
+        },
+        {
+          "id": "rail_p",
+          "name": "Rail Passenger Council",
+          "value": 5600000
+        },
+        {
+          "id": "commis",
+          "name": "Commissioners of Irish Lights",
+          "value": 393000
+        },
+        {
+          "id": "london",
+          "name": "London and Continental Railways",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "nor",
+      "name": "Northern Ireland Executive",
+      "value": 25245608000,
+      "children": [
+        {
+          "id": "northe",
+          "name": "Northern Ireland Executive",
+          "value": 25075550000,
+          "children": [
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 6092511000
+            },
+            {
+              "id": "7.a_medi",
+              "name": "7.A Medical services",
+              "value": 4987539000
+            },
+            {
+              "id": "10.1_sic",
+              "name": "10.1 Sickness and disability; of which: incapacity, disability and injury benefits",
+              "value": 2772194000
+            },
+            {
+              "id": "9.2_seco",
+              "name": "9.2 Secondary education",
+              "value": 1243651000
+            },
+            {
+              "id": "3.1_of_w",
+              "name": "3.1 of which: other police services",
+              "value": 931518000
+            },
+            {
+              "id": "9.1_of_w",
+              "name": "9.1 of which: primary education",
+              "value": 835648000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 778401000
+            },
+            {
+              "id": "9.4_tert",
+              "name": "9.4 Tertiary education",
+              "value": 702787000
+            },
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: personal social services",
+              "value": 597251000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local roads",
+              "value": 576723000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: family benefits, income support and tax credits",
+              "value": 505160000
+            },
+            {
+              "id": "10.6_hou",
+              "name": "10.6 Housing",
+              "value": 474909000
+            },
+            {
+              "id": "10.1_sic",
+              "name": "10.1 Sickness and disability; of which: personal social services",
+              "value": 440179000
+            },
+            {
+              "id": "9.8_educ",
+              "name": "9.8 Education n.e.c.",
+              "value": 385651000
+            },
+            {
+              "id": "6.3_wate",
+              "name": "6.3 Water supply",
+              "value": 364627000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: other social housing",
+              "value": 294806000
+            },
+            {
+              "id": "3.3_law_",
+              "name": "3.3 Law courts",
+              "value": 294207000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 268562000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 260922000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: personal social services",
+              "value": 248408000
+            },
+            {
+              "id": "9.6_subs",
+              "name": "9.6 Subsidiary services to education",
+              "value": 243069000
+            },
+            {
+              "id": "1.3_gene",
+              "name": "1.3 General services",
+              "value": 232317000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 186366000
+            },
+            {
+              "id": "3.4_pris",
+              "name": "3.4 Prisons",
+              "value": 174577000
+            },
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 131531000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: railway",
+              "value": 117682000
+            },
+            {
+              "id": "3.2_fire",
+              "name": "3.2 Fire-protection services",
+              "value": 100718000
+            },
+            {
+              "id": "10.3_sur",
+              "name": "10.3 Survivors",
+              "value": 87528000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 82884000
+            },
+            {
+              "id": "9.1_of_w",
+              "name": "9.1 of which: under fives",
+              "value": 77922000
+            },
+            {
+              "id": "1.6_gene",
+              "name": "1.6 General public services n.e.c.",
+              "value": 72883000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local public transport",
+              "value": 70229000
+            },
+            {
+              "id": "9.5_educ",
+              "name": "9.5 Education not definable by level",
+              "value": 67074000
+            },
+            {
+              "id": "8.4_reli",
+              "name": "8.4 Religious and other community services",
+              "value": 58023000
+            },
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 56888000
+            },
+            {
+              "id": "10.5_une",
+              "name": "10.5 Unemployment; of which: other unemployment benefits",
+              "value": 43919000
+            },
+            {
+              "id": "4.3_fuel",
+              "name": "4.3 Fuel and energy",
+              "value": 42237000
+            },
+            {
+              "id": "4.7_othe",
+              "name": "4.7 Other industries",
+              "value": 37602000
+            },
+            {
+              "id": "6.4_stre",
+              "name": "6.4 Street lighting",
+              "value": 28255000
+            },
+            {
+              "id": "4.8_r&d_",
+              "name": "4.8 R&D economic affairs",
+              "value": 25078000
+            },
+            {
+              "id": "7.b_medi",
+              "name": "7.B Medical research",
+              "value": 15192000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: forestry",
+              "value": 14714000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: national roads",
+              "value": 14488000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: market support under CAP",
+              "value": 14121000
+            },
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 11618000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: other transport",
+              "value": 8580000
+            },
+            {
+              "id": "4.4_mini",
+              "name": "4.4 Mining, manufacturing and construction",
+              "value": 1447000
+            },
+            {
+              "id": "4.6_comm",
+              "name": "4.6 Communication",
+              "value": 906000
+            },
+            {
+              "id": "3.5_r&d_",
+              "name": "3.5 R&D public order and safety",
+              "value": 695000
+            },
+            {
+              "id": "9.7_r&d_",
+              "name": "9.7 R&D education",
+              "value": 630000
+            },
+            {
+              "id": "6.5_r&d_",
+              "name": "6.5 R&D housing and community amenities",
+              "value": 460000
+            },
+            {
+              "id": "1.5_r&d_",
+              "name": "1.5 R&D general public services",
+              "value": 263000
+            }
+          ]
+        },
+        {
+          "id": "northe",
+          "name": "Northern Ireland Transport Holding Company",
+          "value": 102369000,
+          "children": [
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: railway",
+              "value": 88515000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local public transport",
+              "value": 13854000
+            }
+          ]
+        },
+        {
+          "id": "northe",
+          "name": "Northern Ireland Trust Ports",
+          "value": 67838000
+        },
+        {
+          "id": "driver",
+          "name": "Driver and Vehicle Testing Agency",
+          "value": 6555000
+        },
+        {
+          "id": "northe",
+          "name": "Northern Ireland Housing Executive",
+          "value": -6704000
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Teachers' Pension Scheme (England and Wales)",
+      "value": 19524725000,
+      "children": [
+        {
+          "id": "teache",
+          "name": "Teachers' Pension Scheme (England & Wales)",
+          "value": 19524725000,
+          "children": [
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 19402079000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 122646000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wel",
+      "name": "Welsh Assembly Government",
+      "value": 16948005000,
+      "children": [
+        {
+          "id": "welsh_",
+          "name": "Welsh Assembly Government",
+          "value": 16877535000,
+          "children": [
+            {
+              "id": "7.a_medi",
+              "name": "7.A Medical services",
+              "value": 7818376000
+            },
+            {
+              "id": "1.6_gene",
+              "name": "1.6 General public services n.e.c.",
+              "value": 3702581000
+            },
+            {
+              "id": "9.2_seco",
+              "name": "9.2 Secondary education",
+              "value": 1173030000
+            },
+            {
+              "id": "not_know",
+              "name": "Not known",
+              "value": 1060996000
+            },
+            {
+              "id": "9.4_tert",
+              "name": "9.4 Tertiary education",
+              "value": 770266000
+            },
+            {
+              "id": "departme",
+              "name": "Departmental unallocated provision",
+              "value": 652788000
+            },
+            {
+              "id": "6.1_of_w",
+              "name": "6.1 of which: local authority housing",
+              "value": 600996000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: national roads",
+              "value": 348181000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 331464000
+            },
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 322394000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: railway",
+              "value": 276721000
+            },
+            {
+              "id": "9.6_subs",
+              "name": "9.6 Subsidiary services to education",
+              "value": 257463000
+            },
+            {
+              "id": "9.8_educ",
+              "name": "9.8 Education n.e.c.",
+              "value": 246304000
+            },
+            {
+              "id": "10.7_soc",
+              "name": "10.7 Social exclusion n.e.c.; of which: personal social services",
+              "value": 215460000
+            },
+            {
+              "id": "4.5_of_w",
+              "name": "4.5 of which: local public transport",
+              "value": 211110000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 191842000
+            },
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 134052000
+            },
+            {
+              "id": "9.1_of_w",
+              "name": "9.1 of which: under fives",
+              "value": 118518000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 114397000
+            },
+            {
+              "id": "9.5_educ",
+              "name": "9.5 Education not definable by level",
+              "value": 94593000
+            },
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 93689000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 83653000
+            },
+            {
+              "id": "10.4_fam",
+              "name": "10.4 Family and children; of which: personal social services",
+              "value": 73460000
+            },
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 64164000
+            },
+            {
+              "id": "5.1_wast",
+              "name": "5.1 Waste management",
+              "value": 56310000
+            },
+            {
+              "id": "7.b_medi",
+              "name": "7.B Medical research",
+              "value": 41863000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: market support under CAP",
+              "value": 37966000
+            },
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 37721000
+            },
+            {
+              "id": "8.6_recr",
+              "name": "8.6 Recreation, culture and religion n.e.c.",
+              "value": 36453000
+            },
+            {
+              "id": "4.7_othe",
+              "name": "4.7 Other industries",
+              "value": 31718000
+            },
+            {
+              "id": "4.8_r&d_",
+              "name": "4.8 R&D economic affairs",
+              "value": 19028000
+            },
+            {
+              "id": "3.2_fire",
+              "name": "3.2 Fire-protection services",
+              "value": 15301000
+            },
+            {
+              "id": "4.6_comm",
+              "name": "4.6 Communication",
+              "value": 13929000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: forestry",
+              "value": 3876000
+            },
+            {
+              "id": "4.9_econ",
+              "name": "4.9 Economic affairs n.e.c.",
+              "value": 2024000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": -2375152000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Assembly for Wales",
+          "value": 57638000
+        },
+        {
+          "id": "wales_",
+          "name": "Wales Audit Office",
+          "value": 7878000
+        },
+        {
+          "id": "public",
+          "name": "Public Service Ombudsman Wales",
+          "value": 4954000
+        }
+      ]
+    },
+    {
+      "id": "wal",
+      "name": "Wales Office",
+      "value": 15054006000,
+      "children": [
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 15049063000
+        },
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 4943000
+        }
+      ]
+    },
+    {
+      "id": "hom",
+      "name": "Home Office",
+      "value": 14775688000,
+      "children": [
+        {
+          "id": "home_o",
+          "name": "Home Office",
+          "value": 14624547000,
+          "children": [
+            {
+              "id": "3.1_of_w",
+              "name": "3.1 of which: other police services",
+              "value": 9864476000
+            },
+            {
+              "id": "3.6_publ",
+              "name": "3.6 Public order and safety n.e.c.",
+              "value": 4058190000
+            },
+            {
+              "id": "3.1_of_w",
+              "name": "3.1 of which: immigration and citizenship",
+              "value": 701881000
+            }
+          ]
+        },
+        {
+          "id": "indepe",
+          "name": "Independent Police Complaints Commission",
+          "value": 75157000
+        },
+        {
+          "id": "colleg",
+          "name": "College of Policing",
+          "value": 45985000
+        },
+        {
+          "id": "office",
+          "name": "Office of the Immigration Services Commissioner",
+          "value": 28934000
+        },
+        {
+          "id": "securi",
+          "name": "Security Industry Authority",
+          "value": 6551000
+        },
+        {
+          "id": "gangma",
+          "name": "Gangmasters Licensing Authority HOF034",
+          "value": 6408000
+        },
+        {
+          "id": "disclo",
+          "name": "Disclosure and Barring Service (DBS)",
+          "value": -11894000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Culture, Media and Sport",
+      "value": 12708032000,
+      "children": [
+        {
+          "id": "bristi",
+          "name": "Bristish Broadcasting Corporation",
+          "value": 7116295000,
+          "children": [
+            {
+              "id": "8.3_broa",
+              "name": "8.3 Broadcasting and publishing services",
+              "value": 3790797000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3325498000
+            }
+          ]
+        },
+        {
+          "id": "arts_c",
+          "name": "Arts Council",
+          "value": 940358000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 494147000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 446211000
+            }
+          ]
+        },
+        {
+          "id": "big_lo",
+          "name": "Big Lottery Fund",
+          "value": 644801000,
+          "children": [
+            {
+              "id": "10.9_soc",
+              "name": "10.9 Social protection n.e.c.",
+              "value": 593175000
+            },
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 45173000
+            },
+            {
+              "id": "7.c_cent",
+              "name": "7.C Central and other health services",
+              "value": 6453000
+            }
+          ]
+        },
+        {
+          "id": "depart",
+          "name": "Department for Culture, Media and Sport",
+          "value": 412383000,
+          "children": [
+            {
+              "id": "8.3_broa",
+              "name": "8.3 Broadcasting and publishing services",
+              "value": 238233000
+            },
+            {
+              "id": "8.6_recr",
+              "name": "8.6 Recreation, culture and religion n.e.c.",
+              "value": 105275000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 64022000
+            },
+            {
+              "id": "8.4_reli",
+              "name": "8.4 Religious and other community services",
+              "value": 54526000
+            },
+            {
+              "id": "8.5_r&d_",
+              "name": "8.5 R&D recreation, culture and religion",
+              "value": 2691000
+            },
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": -8709000
+            },
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": -43655000
+            }
+          ]
+        },
+        {
+          "id": "victor",
+          "name": "Victoria and Albert Museum",
+          "value": 349468000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 296413000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 53055000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Citizen Service",
+          "value": 332874000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 176372000
+            },
+            {
+              "id": "6.2_comm",
+              "name": "6.2 Community development",
+              "value": 156502000
+            }
+          ]
+        },
+        {
+          "id": "herita",
+          "name": "Heritage Lottery Fund",
+          "value": 250850000
+        },
+        {
+          "id": "librar",
+          "name": "Libraries (Subgroup)",
+          "value": 234781000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 137882000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 96899000
+            }
+          ]
+        },
+        {
+          "id": "sport_",
+          "name": "Sport England Lottery",
+          "value": 229976000
+        },
+        {
+          "id": "sport_",
+          "name": "Sport England",
+          "value": 216845000,
+          "children": [
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 118107000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 98738000
+            }
+          ]
+        },
+        {
+          "id": "englis",
+          "name": "English Heritage",
+          "value": 190552000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 100807000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 89745000
+            }
+          ]
+        },
+        {
+          "id": "britis",
+          "name": "British Museum",
+          "value": 177883000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 102217000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 75666000
+            }
+          ]
+        },
+        {
+          "id": "arts_c",
+          "name": "Arts Council of England Lottery",
+          "value": 177531000
+        },
+        {
+          "id": "ofcom",
+          "name": "Ofcom",
+          "value": 168016000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 85516000
+            },
+            {
+              "id": "8.3_broa",
+              "name": "8.3 Broadcasting and publishing services",
+              "value": 82500000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Museum of Science and Industry",
+          "value": 156262000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 85764000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 70498000
+            }
+          ]
+        },
+        {
+          "id": "united",
+          "name": "United Kingdom Sports Council",
+          "value": 137804000,
+          "children": [
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 71177000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 66627000
+            }
+          ]
+        },
+        {
+          "id": "tate_g",
+          "name": "Tate Gallery",
+          "value": 112074000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 70866000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 41208000
+            }
+          ]
+        },
+        {
+          "id": "visit_",
+          "name": "Visit Britain",
+          "value": 110275000,
+          "children": [
+            {
+              "id": "4.7_othe",
+              "name": "4.7 Other industries",
+              "value": 55957000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 54318000
+            }
+          ]
+        },
+        {
+          "id": "natura",
+          "name": "Natural History Museum",
+          "value": 107770000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 61098000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 46672000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Lottery: UK Sport Lottery",
+          "value": 84358000
+        },
+        {
+          "id": "britis",
+          "name": "British Film Institute",
+          "value": 79154000,
+          "children": [
+            {
+              "id": "8.3_broa",
+              "name": "8.3 Broadcasting and publishing services",
+              "value": 44384000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 34770000
+            }
+          ]
+        },
+        {
+          "id": "museum",
+          "name": "Museums and Gallaries (Subgroup)",
+          "value": 66594000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 40157000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 26437000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Gallery",
+          "value": 57454000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 32779000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 24675000
+            }
+          ]
+        },
+        {
+          "id": "imperi",
+          "name": "Imperial War Museum",
+          "value": 57262000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 34440000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 22822000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Museums Liverpool",
+          "value": 49919000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 27533000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 22386000
+            }
+          ]
+        },
+        {
+          "id": "uk_fil",
+          "name": "UK Film Council Lottery",
+          "value": 46986000
+        },
+        {
+          "id": "s4c",
+          "name": "S4C",
+          "value": 43856000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 22788000
+            },
+            {
+              "id": "8.3_broa",
+              "name": "8.3 Broadcasting and publishing services",
+              "value": 21068000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Maritime Museum",
+          "value": 39138000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 22540000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 16598000
+            }
+          ]
+        },
+        {
+          "id": "nation",
+          "name": "National Lottery Commission",
+          "value": 32569000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 16403000
+            },
+            {
+              "id": "8.6_recr",
+              "name": "8.6 Recreation, culture and religion n.e.c.",
+              "value": 16166000
+            }
+          ]
+        },
+        {
+          "id": "birmin",
+          "name": "Birmingham 2022",
+          "value": 30621000,
+          "children": [
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 15650000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 14971000
+            }
+          ]
+        },
+        {
+          "id": "united",
+          "name": "United Kingdom Anti Doping",
+          "value": 18001000,
+          "children": [
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 9010000
+            },
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 8991000
+            }
+          ]
+        },
+        {
+          "id": "inform",
+          "name": "Information Commission",
+          "value": 13084000
+        },
+        {
+          "id": "nation",
+          "name": "National Heritage Memorial Fund",
+          "value": 11997000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 6997000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 5000000
+            }
+          ]
+        },
+        {
+          "id": "church",
+          "name": "Churches Conservation Trust",
+          "value": 5525000,
+          "children": [
+            {
+              "id": "8.2_cult",
+              "name": "8.2 Cultural services",
+              "value": 2781000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 2744000
+            }
+          ]
+        },
+        {
+          "id": "footba",
+          "name": "Football Licensing Authority",
+          "value": 3651000,
+          "children": [
+            {
+              "id": "8.1_recr",
+              "name": "8.1 Recreational and sporting services",
+              "value": 2016000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 1635000
+            }
+          ]
+        },
+        {
+          "id": "the_ga",
+          "name": "The Gambling Commission",
+          "value": 1065000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for International Development",
+      "value": 10859138000,
+      "children": [
+        {
+          "id": "foreig",
+          "name": "Foreign, Commonwealth and Development Office",
+          "value": 10828659000,
+          "children": [
+            {
+              "id": "1.2_fore",
+              "name": "1.2 Foreign economic aid",
+              "value": 10461918000
+            },
+            {
+              "id": "1.5_r&d_",
+              "name": "1.5 R&D general public services",
+              "value": 366740000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "id": "common",
+          "name": "Commonwealth Scholarship Commission",
+          "value": 27270000
+        },
+        {
+          "id": "indepe",
+          "name": "Independent Commission for Aid Impact",
+          "value": 3209000
+        }
+      ]
+    },
+    {
+      "id": "cab",
+      "name": "Cabinet Office: Civil Superannuation",
+      "value": 10563621000,
+      "children": []
+    },
+    {
+      "id": "min",
+      "name": "Ministry of Justice",
+      "value": 9249632000,
+      "children": [
+        {
+          "id": "minist",
+          "name": "Ministry of Justice",
+          "value": 8994881000,
+          "children": [
+            {
+              "id": "3.4_pris",
+              "name": "3.4 Prisons",
+              "value": 4550466000
+            },
+            {
+              "id": "3.3_law_",
+              "name": "3.3 Law courts",
+              "value": 4347712000
+            },
+            {
+              "id": "3.6_publ",
+              "name": "3.6 Public order and safety n.e.c.",
+              "value": 96703000
+            }
+          ]
+        },
+        {
+          "id": "childr",
+          "name": "Children and Family Court Advisory and Support Service",
+          "value": 138075000
+        },
+        {
+          "id": "youth_",
+          "name": "Youth Justice Board",
+          "value": 83856000
+        },
+        {
+          "id": "parole",
+          "name": "Parole Board",
+          "value": 18430000
+        },
+        {
+          "id": "judici",
+          "name": "Judicial Appointments Commission",
+          "value": 7437000
+        },
+        {
+          "id": "crimin",
+          "name": "Criminal Cases Review Commission",
+          "value": 6352000
+        },
+        {
+          "id": "legal_",
+          "name": "Legal Services Board",
+          "value": 372000
+        },
+        {
+          "id": "office",
+          "name": "Office of Legal Complaints",
+          "value": 229000
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "name": "Armed Forces Pension and Compensation Schemes",
+      "value": 8263213000,
+      "children": [
+        {
+          "id": "10.2_old",
+          "name": "10.2 Old age; of which: pensions",
+          "value": 8118050000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 145163000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Environment, Food and Rural Affairs",
+      "value": 4792176000,
+      "children": [
+        {
+          "id": "depart",
+          "name": "Department for Environment, Food and Rural Affairs",
+          "value": 2382273000,
+          "children": [
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 1057400000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: market support under CAP",
+              "value": 883310000
+            },
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 175844000
+            },
+            {
+              "id": "5.3_poll",
+              "name": "5.3 Pollution abatement",
+              "value": 84747000
+            },
+            {
+              "id": "5.4_prot",
+              "name": "5.4 Protection of biodiversity and landscape",
+              "value": 69544000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: forestry",
+              "value": 42254000
+            },
+            {
+              "id": "5.1_wast",
+              "name": "5.1 Waste management",
+              "value": 40530000
+            },
+            {
+              "id": "5.5_r&d_",
+              "name": "5.5 R&D environment protection",
+              "value": 28455000
+            },
+            {
+              "id": "6.3_wate",
+              "name": "6.3 Water supply",
+              "value": 1505000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": -1316000
+            }
+          ]
+        },
+        {
+          "id": "enviro",
+          "name": "Environment Agency",
+          "value": 2104249000,
+          "children": [
+            {
+              "id": "5.6_envi",
+              "name": "5.6 Environment protection n.e.c.",
+              "value": 1164884000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 935834000
+            },
+            {
+              "id": "5.5_r&d_",
+              "name": "5.5 R&D environment protection",
+              "value": 3531000
+            }
+          ]
+        },
+        {
+          "id": "natura",
+          "name": "Natural England",
+          "value": 184294000,
+          "children": [
+            {
+              "id": "5.4_prot",
+              "name": "5.4 Protection of biodiversity and landscape",
+              "value": 93791000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 90412000
+            },
+            {
+              "id": "5.5_r&d_",
+              "name": "5.5 R&D environment protection",
+              "value": 91000
+            }
+          ]
+        },
+        {
+          "id": "royal_",
+          "name": "Royal Botanical Gardens, Kew",
+          "value": 60408000,
+          "children": [
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 32024000
+            },
+            {
+              "id": "5.4_prot",
+              "name": "5.4 Protection of biodiversity and landscape",
+              "value": 28384000
+            }
+          ]
+        },
+        {
+          "id": "marine",
+          "name": "Marine Management Organisation",
+          "value": 58924000,
+          "children": [
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 60124000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": -1200000
+            }
+          ]
+        },
+        {
+          "id": "joint_",
+          "name": "Joint Nature Conservation Committee",
+          "value": 23807000,
+          "children": [
+            {
+              "id": "5.4_prot",
+              "name": "5.4 Protection of biodiversity and landscape",
+              "value": 12148000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 11659000
+            }
+          ]
+        },
+        {
+          "id": "consum",
+          "name": "Consumer Council for Water",
+          "value": 11655000,
+          "children": [
+            {
+              "id": "6.3_wate",
+              "name": "6.3 Water supply",
+              "value": 5871000
+            },
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 5784000
+            }
+          ]
+        },
+        {
+          "id": "agricu",
+          "name": "Agriculture & Horticulture Development Board",
+          "value": 6232000
+        },
+        {
+          "id": "nation",
+          "name": "National Forest Company",
+          "value": 4561000,
+          "children": [
+            {
+              "id": "4.2_of_w",
+              "name": "4.2 of which: other agriculture, food and fisheries policy",
+              "value": 2531000
+            },
+            {
+              "id": "5.4_prot",
+              "name": "5.4 Protection of biodiversity and landscape",
+              "value": 2030000
+            }
+          ]
+        },
+        {
+          "id": "covent",
+          "name": "Covent Garden Market Authority",
+          "value": 3851000
+        },
+        {
+          "id": "sea_fi",
+          "name": "Sea Fish Industry Authority",
+          "value": 665000
+        },
+        {
+          "id": "flood_",
+          "name": "Flood Re",
+          "value": -48743000
+        }
+      ]
+    },
+    {
+      "id": "for",
+      "name": "Foreign and Commonwealth Office",
+      "value": 2747250000,
+      "children": [
+        {
+          "id": "foreig",
+          "name": "Foreign and Commonwealth Office",
+          "value": 2740600000
+        },
+        {
+          "id": "westmi",
+          "name": "Westminster Foundation for Democracy",
+          "value": 6650000
+        }
+      ]
+    },
+    {
+      "id": "roy",
+      "name": "Royal Mail Statutory Pension Scheme",
+      "value": 1207000000,
+      "children": []
+    },
+    {
+      "id": "cab",
+      "name": "Cabinet Office",
+      "value": 1096935000,
+      "children": [
+        {
+          "id": "cabine",
+          "name": "Cabinet Office",
+          "value": 1094715000,
+          "children": [
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 629301000
+            },
+            {
+              "id": "1.6_gene",
+              "name": "1.6 General public services n.e.c.",
+              "value": 422093000
+            },
+            {
+              "id": "1.3_gene",
+              "name": "1.3 General services",
+              "value": 25602000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 17719000
+            }
+          ]
+        },
+        {
+          "id": "civil_",
+          "name": "Civil Service Commission",
+          "value": 1999000
+        },
+        {
+          "id": "the_re",
+          "name": "The Registrar of Consultant Lobbyists",
+          "value": 221000
+        }
+      ]
+    },
+    {
+      "id": "min",
+      "name": "Ministry of Justice: Judicial Pensions Scheme",
+      "value": 585180000,
+      "children": []
+    },
+    {
+      "id": "nat",
+      "name": "National Crime Agency",
+      "value": 573539000,
+      "children": []
+    },
+    {
+      "id": "cro",
+      "name": "Crown Prosecution Service",
+      "value": 556873000,
+      "children": [
+        {
+          "id": "the_cr",
+          "name": "The Crown Prosecution Service",
+          "value": 556873000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for International Trade",
+      "value": 498226000,
+      "children": [
+        {
+          "id": "4.1_gene",
+          "name": "4.1 General economic, commercial and labour affairs",
+          "value": 497926000
+        },
+        {
+          "id": "not_know",
+          "name": "Not known",
+          "value": 300000
+        }
+      ]
+    },
+    {
+      "id": "the",
+      "name": "The Statistics Board",
+      "value": 312969000,
+      "children": [
+        {
+          "id": "statis",
+          "name": "Statistics Board",
+          "value": 312969000
+        }
+      ]
+    },
+    {
+      "id": "uni",
+      "name": "United Kingdom Atomic Energy Authority Pension Schemes",
+      "value": 284533000,
+      "children": [
+        {
+          "id": "depart",
+          "name": "Department for Business, Innovation and Skills: UKAEA Pension Schemes",
+          "value": 284533000,
+          "children": [
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 285609000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": -1076000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind",
+      "name": "Independent Parliamentary Standards Authority",
+      "value": 200124000,
+      "children": [
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 199620000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 504000
+        }
+      ]
+    },
+    {
+      "id": "hou",
+      "name": "House of Lords",
+      "value": 189461000,
+      "children": [
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 189509000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": -48000
+        }
+      ]
+    },
+    {
+      "id": "nat",
+      "name": "National Savings and Investments",
+      "value": 135553000,
+      "children": [
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 119392000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 16161000
+        }
+      ]
+    },
+    {
+      "id": "off",
+      "name": "Office for Standards In Education, Children's Services and Skills",
+      "value": 134045000,
+      "children": [
+        {
+          "id": "office",
+          "name": "Office for Standards in Education, Children's Services and Skills",
+          "value": 134045000
+        }
+      ]
+    },
+    {
+      "id": "com",
+      "name": "Competition and Markets Authority",
+      "value": 119167000,
+      "children": []
+    },
+    {
+      "id": "foo",
+      "name": "Food Standards Agency",
+      "value": 102954000,
+      "children": [
+        {
+          "id": "4.2_of_w",
+          "name": "4.2 of which: other agriculture, food and fisheries policy",
+          "value": 95533000
+        },
+        {
+          "id": "4.8_r&d_",
+          "name": "4.8 R&D economic affairs",
+          "value": 5405000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 2016000
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "name": "Department for Exiting the European Union",
+      "value": 94169000,
+      "children": []
+    },
+    {
+      "id": "nat",
+      "name": "National Audit Office",
+      "value": 66826000,
+      "children": [
+        {
+          "id": "1.1_exec",
+          "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+          "value": 66298000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": 528000
+        }
+      ]
+    },
+    {
+      "id": "ser",
+      "name": "Serious Fraud Office",
+      "value": 56352000,
+      "children": []
+    },
+    {
+      "id": "the",
+      "name": "The National Archives",
+      "value": 38676000,
+      "children": []
+    },
+    {
+      "id": "off",
+      "name": "Office of the Parliamentary Commissioner for Administration and the Health Service Commissioner for England",
+      "value": 29194000,
+      "children": [
+        {
+          "id": "office",
+          "name": "Office of the Parliamentary Commissioner for Administration and Health Services in England",
+          "value": 29194000
+        }
+      ]
+    },
+    {
+      "id": "cha",
+      "name": "Charity Commission",
+      "value": 28248000,
+      "children": []
+    },
+    {
+      "id": "hou",
+      "name": "House of Commons: Administration",
+      "value": 22703000,
+      "children": []
+    },
+    {
+      "id": "dep",
+      "name": "Department for International Development: Overseas Superannuation",
+      "value": 21504000,
+      "children": []
+    },
+    {
+      "id": "off",
+      "name": "Office of Qualifications and Examinations Regulation",
+      "value": 19487000,
+      "children": []
+    },
+    {
+      "id": "ele",
+      "name": "Electoral Commission",
+      "value": 18637000,
+      "children": []
+    },
+    {
+      "id": "hm",
+      "name": "HM Procurator General and Treasury Solicitor",
+      "value": 17647000,
+      "children": []
+    },
+    {
+      "id": "hou",
+      "name": "House of Commons: Members",
+      "value": 15547000,
+      "children": []
+    },
+    {
+      "id": "uni",
+      "name": "United Kingdom Supreme Court",
+      "value": 6738000,
+      "children": []
+    },
+    {
+      "id": "off",
+      "name": "Office of Rail Regulation",
+      "value": 6323000,
+      "children": []
+    },
+    {
+      "id": "cro",
+      "name": "Crown Estate Office",
+      "value": 2357000,
+      "children": []
+    },
+    {
+      "id": "loc",
+      "name": "Local Government Boundary Commission for England",
+      "value": 2009000,
+      "children": []
+    },
+    {
+      "id": "gov",
+      "name": "Government Actuary's Department",
+      "value": -650000,
+      "children": []
+    },
+    {
+      "id": "wat",
+      "name": "Water Services Regulation Authority",
+      "value": -1548000,
+      "children": []
+    },
+    {
+      "id": "off",
+      "name": "Office of Gas and Electricity Markets",
+      "value": -30543000,
+      "children": []
+    },
+    {
+      "id": "exp",
+      "name": "Export Credits Guarantee Department",
+      "value": -54239000,
+      "children": [
+        {
+          "id": "4.1_gene",
+          "name": "4.1 General economic, commercial and labour affairs",
+          "value": 90325000
+        },
+        {
+          "id": "n/a",
+          "name": "n/a",
+          "value": -144564000
+        }
+      ]
+    },
+    {
+      "id": "hm",
+      "name": "HM Treasury",
+      "value": -14221085000,
+      "children": [
+        {
+          "id": "royal_",
+          "name": "Royal Household",
+          "value": 166953000,
+          "children": [
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 84553000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 82400000
+            }
+          ]
+        },
+        {
+          "id": "financ",
+          "name": "Financial Services Compensation Scheme",
+          "value": 61779000
+        },
+        {
+          "id": "infras",
+          "name": "Infrastructure Finance Unit Limited",
+          "value": 43825000
+        },
+        {
+          "id": "united",
+          "name": "United Kingdom Government Investments Limited",
+          "value": 30723000,
+          "children": [
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 15450000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": 15273000
+            }
+          ]
+        },
+        {
+          "id": "office",
+          "name": "Office for Budget Responsibility",
+          "value": 6288000,
+          "children": [
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 3283000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": 3005000
+            }
+          ]
+        },
+        {
+          "id": "help_t",
+          "name": "Help to Buy (HMT) Limited (net)",
+          "value": 1000
+        },
+        {
+          "id": "altern",
+          "name": "Alternative Finance (Treasury) Limited (net)",
+          "value": 1000
+        },
+        {
+          "id": "royal_",
+          "name": "Royal Mint Advisory Committee on the design of coins",
+          "value": 1000
+        },
+        {
+          "id": "uk_fin",
+          "name": "UK Financial Investments Ltd",
+          "value": -337000
+        },
+        {
+          "id": "uk_ass",
+          "name": "UK Asset Resolution (net)",
+          "value": -546582000
+        },
+        {
+          "id": "hm_tre",
+          "name": "HM Treasury",
+          "value": -13983737000,
+          "children": [
+            {
+              "id": "1.1_exec",
+              "name": "1.1 Executive and legislative organs, financial and fiscal affairs, external affairs",
+              "value": 37406169000
+            },
+            {
+              "id": "10.2_old",
+              "name": "10.2 Old age; of which: pensions",
+              "value": 3500000
+            },
+            {
+              "id": "1.2_fore",
+              "name": "1.2 Foreign economic aid",
+              "value": -1568229000
+            },
+            {
+              "id": "n/a",
+              "name": "n/a",
+              "value": -13001840000
+            },
+            {
+              "id": "4.1_gene",
+              "name": "4.1 General economic, commercial and labour affairs",
+              "value": -36823337000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
