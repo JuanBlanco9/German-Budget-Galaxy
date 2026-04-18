@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-04-17T15:37:56Z",
+  "input_rows": 361949,
+  "min_confidence_filter": "none",
+  "by_method": {
+    "unmatched": 216130,
+    "direct_ch_id_not_in_enrichment": 98167,
+    "fuzzy_exact_normalized": 32735,
+    "fuzzy_token_overlap_75": 2158,
+    "no_supplier_name": 709,
+    "direct_ch_id": 12033,
+    "empty_normalized_name": 17
+  },
+  "by_confidence": {
+    "none": 216856,
+    "high": 126304,
+    "medium": 17098,
+    "low": 1691
+  },
+  "unique_ch_numbers_matched": 31440,
+  "rows_matched_any_confidence": 145093,
+  "status": "DRAFT — not wired",
+  "match_rate_pct": 40.09
+}
