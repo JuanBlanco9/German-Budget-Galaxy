@@ -116,7 +116,8 @@ data/uk/*.zip
 
 # Hit tracker logs (server-side only, contain volume/shape data)
 logs/
-*.jsonl
+logs/*.jsonl
+hit-tracker-*.jsonl
 
 # Council spend raw CSVs (too large for git, stored on Vultr)
 data/uk/local_authorities/spend/bristol/
@@ -155,3 +156,34 @@ data/uk/nhs_tac_*.xlsx
 
 # Recipients spend source files
 data/recipients/uk/spend25k/
+
+# Companies House accounts PDFs (too large for git; fetched from CH API)
+data/recipients/uk/supplier_financials/
+data/recipients/uk/enrichment_progress.json
+
+# Companies House API caches (regenerable; persisted locally to avoid re-fetching)
+data/recipients/uk/psc_cache.json
+data/recipients/uk/profile_cache.json
+
+# Procurement raw data + large derived files (regenerable via the pipeline)
+#   contracts_flat_YYYY.jsonl: raw OCDS per year, ~150 MB each
+#   contracts_resolved*.jsonl: ~900 MB (resolver output, regenerable)
+#   supplier_procurement.jsonl: 94 MB aggregation with embedded timelines
+data/procurement/contracts_flat_*.jsonl
+data/procurement/contracts_resolved*.jsonl
+data/procurement/supplier_procurement.jsonl
+data/procurement/_raw/
+data/procurement/_cursor_state.json
+
+# Backup files (pre-rewrite snapshots from in-place scripts)
+*.jsonl.*.bak
+data/recipients/uk/*.bak
+data/recipients/uk/_cleanup_inventory.json
+
+# Parallel draft directories (not wired into main pipeline)
+# Keep for now — will be merged into data/suppliers/ when integration is approved
+# data/suppliers_v2/
+
+# Quality dashboard output (regenerated, not hand-edited)
+data/_quality/dashboard.json
+data/_quality/freshness.json
