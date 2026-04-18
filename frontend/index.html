@@ -1089,6 +1089,93 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
   -->
 </div>
 
+<!-- Global search modal (Cmd+K / Ctrl+K from anywhere, also opened from
+     Multiverse search bar). Searches tree nodes + supplier names across all
+     4 countries. Clicking a result navigates to that node. Added 2026-04-18. -->
+<div id="global-search" class="global-search" style="display:none" onclick="if(event.target===this)closeGlobalSearch()">
+  <div class="gs-card" onclick="event.stopPropagation()">
+    <div class="gs-input-row">
+      <span class="gs-icon">🔍</span>
+      <input id="gs-input" type="text" placeholder="Search any budget, service or supplier..." autocomplete="off" spellcheck="false" />
+      <kbd class="gs-kbd">Esc</kbd>
+    </div>
+    <div id="gs-results" class="gs-results"></div>
+    <div class="gs-footer">
+      <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
+      <span><kbd>↵</kbd> select</span>
+      <span><kbd>Esc</kbd> close</span>
+      <span class="gs-footer-right" id="gs-status">Indexed: <span id="gs-count">—</span></span>
+    </div>
+  </div>
+</div>
+<style>
+.global-search{
+  position:fixed;inset:0;z-index:9999;
+  background:rgba(0,0,0,.6);backdrop-filter:blur(4px);
+  display:flex;align-items:flex-start;justify-content:center;
+  padding-top:10vh;padding-left:16px;padding-right:16px;
+}
+.gs-card{
+  width:100%;max-width:640px;
+  background:var(--surface,#121828);border:1px solid var(--border,#252d42);
+  border-radius:12px;box-shadow:0 24px 60px rgba(0,0,0,.5);
+  display:flex;flex-direction:column;max-height:70vh;overflow:hidden;
+}
+.gs-input-row{
+  display:flex;align-items:center;gap:10px;
+  padding:14px 16px;border-bottom:1px solid var(--border,#252d42);
+}
+.gs-icon{font-size:18px}
+#gs-input{
+  flex:1;background:transparent;border:0;outline:0;
+  color:var(--text,#e8ebf5);font-size:16px;font-family:inherit;
+}
+.gs-kbd,.gs-footer kbd{
+  font-size:10px;background:rgba(255,255,255,.08);
+  border:1px solid var(--border,#252d42);border-radius:4px;
+  padding:2px 6px;color:var(--dim,#8892a8);font-family:inherit;
+}
+.gs-results{flex:1;overflow-y:auto;max-height:50vh}
+.gs-result{
+  display:flex;align-items:center;gap:12px;
+  padding:10px 16px;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.03);
+}
+.gs-result:hover,.gs-result.active{background:rgba(79,195,247,.08)}
+.gs-flag{font-size:20px;line-height:1;flex-shrink:0}
+.gs-main{flex:1;min-width:0}
+.gs-name{
+  font-size:14px;color:var(--text,#e8ebf5);font-weight:500;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.gs-path{
+  font-size:11px;color:var(--dim,#8892a8);margin-top:2px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.gs-value{
+  font-size:11px;color:var(--accent,#4fc3f7);flex-shrink:0;
+  font-variant-numeric:tabular-nums;
+}
+.gs-type{
+  font-size:10px;padding:2px 6px;border-radius:3px;
+  background:rgba(255,255,255,.06);color:var(--dim,#8892a8);
+  flex-shrink:0;text-transform:uppercase;letter-spacing:.5px;
+}
+.gs-type.supplier{background:rgba(13,138,138,.15);color:#0d8a8a}
+.gs-empty{padding:40px 16px;text-align:center;color:var(--dim,#8892a8);font-size:13px}
+.gs-footer{
+  display:flex;align-items:center;gap:14px;
+  padding:10px 16px;border-top:1px solid var(--border,#252d42);
+  font-size:11px;color:var(--dim,#8892a8);
+}
+.gs-footer-right{margin-left:auto}
+mark{background:rgba(79,195,247,.3);color:var(--text,#e8ebf5);padding:0 2px;border-radius:2px}
+@media (max-width:640px){
+  .global-search{padding-top:4vh}
+  .gs-card{max-height:92vh}
+  .gs-footer span:not(.gs-footer-right){display:none}
+}
+</style>
+
 <!-- Explore & Compare sub-nav: visible only when the active main tab is 'explore'.
      Switches between the 4 legacy panels (galaxy/compare/evolution/budgetlist)
      now presented as modes of a single unified tab. -->
@@ -1134,6 +1221,40 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 
 <!-- MULTIVERSE TAB -->
 <div id="tab-multiverse" class="panel" style="display:none">
+  <!-- Search bar overlay (Cmd+K / Ctrl+K from anywhere) -->
+  <div class="mv-search-trigger" onclick="openGlobalSearch()" title="Search (Cmd+K)">
+    <span style="font-size:16px">🔍</span>
+    <span class="mv-search-label">Search budgets, services, suppliers...</span>
+    <kbd class="mv-search-kbd"><span class="mv-search-cmd">⌘</span>K</kbd>
+  </div>
+  <style>
+    .mv-search-trigger{
+      position:absolute;top:14px;left:50%;transform:translateX(-50%);
+      z-index:20;display:flex;align-items:center;gap:10px;
+      background:rgba(18,18,30,.85);backdrop-filter:blur(6px);
+      border:1px solid var(--border,#252d42);border-radius:20px;
+      padding:8px 14px;cursor:pointer;min-width:300px;max-width:90vw;
+      transition:border-color .15s,background .15s;
+    }
+    .mv-search-trigger:hover{
+      border-color:var(--accent,#4fc3f7);
+      background:rgba(18,18,30,.95);
+    }
+    .mv-search-trigger .mv-search-label{
+      flex:1;color:var(--dim,#8892a8);font-size:13px;
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+    }
+    .mv-search-trigger .mv-search-kbd{
+      font-size:10px;background:rgba(255,255,255,.06);
+      border:1px solid var(--border,#252d42);border-radius:4px;
+      padding:2px 6px;color:var(--dim,#8892a8);font-family:inherit;
+    }
+    @media (max-width:640px){
+      .mv-search-trigger{min-width:0;width:calc(100% - 28px);max-width:none;padding:7px 12px}
+      .mv-search-trigger .mv-search-label{font-size:12px}
+      .mv-search-trigger .mv-search-kbd{display:none}
+    }
+  </style>
   <div id="multiverse-container" style="width:100%;height:100%;background:radial-gradient(ellipse at center,#0d1117 0%,#060810 100%);overflow:auto;position:relative"></div>
   <div class="galaxy-info" id="mv-info">
     <div class="gi-close" onclick="closeMvInfo()">&times;</div>
@@ -7023,6 +7144,13 @@ async function loadMultiverse(forceYear){
   const mvRoot={x:cx,y:cy,r:maxExtent,depth:0,data:{name:'Multiverse'},children:countryCodes.map(c=>packed[c]?.root).filter(Boolean)};
   countryCodes.forEach(c=>{if(packed[c]) packed[c].root.parent=mvRoot});
 
+  // Expose packed to global scope for the search index (2026-04-18).
+  // Triggers rebuild of window._searchIndex now that all 4 trees are loaded.
+  window.packed = packed;
+  if (typeof buildSearchIndex === 'function') {
+    try { buildSearchIndex(); } catch (e) { console.warn('search index rebuild failed:', e); }
+  }
+
   // Tooltip
   let tooltip=document.querySelector('.mv-tooltip');
   if(!tooltip){tooltip=document.createElement('div');tooltip.className='galaxy-tooltip mv-tooltip';tooltip.style.display='none';document.body.appendChild(tooltip)}
@@ -7526,6 +7654,11 @@ function renderGalaxy(){
   const diameter=Math.min(width,height);
   const pack=d3.pack().size([diameter,diameter]).padding(d=>d.depth===0?10:d.depth===1?5:2);
   pack(galaxyRoot);
+
+  // Refresh search index with the newly-loaded country tree (2026-04-18)
+  if (typeof buildSearchIndex === 'function') {
+    try { buildSearchIndex(); } catch (e) { /* ignore */ }
+  }
 
   // Semantic zoom state: view = [centerX, centerY, viewDiameter]
   let view=[galaxyRoot.x,galaxyRoot.y,galaxyRoot.r*2.05];
@@ -10851,6 +10984,268 @@ async function init(){
     document.querySelector('.header .stats').innerHTML=`<b>${tot.toLocaleString()}</b> records &middot; <b>${src.length}</b> sources &middot; <b>${orgs.toLocaleString()}</b> organizations`;
   }catch(e){document.querySelector('.header .stats').textContent=''}
 }
+
+// ═══════════════════════════════════════════════════════════════════════
+// Global search (2026-04-18): indexes tree nodes + suppliers across all
+// loaded countries. Opened via Cmd+K/Ctrl+K or the Multiverse search bar.
+// Click a result → navigates to that node (switches country if needed +
+// programmatic zoom via zoomToNode).
+// ═══════════════════════════════════════════════════════════════════════
+
+window._searchIndex = window._searchIndex || [];
+window._searchIndexBuilt = false;
+let _gsSelectedIndex = 0;
+let _gsCurrentResults = [];
+
+const COUNTRY_FLAGS = {de:'🇩🇪', us:'🇺🇸', fr:'🇫🇷', uk:'🇬🇧', gb:'🇬🇧'};
+const COUNTRY_LABELS = {de:'DE', us:'US', fr:'FR', uk:'UK', gb:'UK'};
+
+function buildSearchIndex() {
+  const idx = [];
+  const seen = new Set();
+  function walkTree(node, country, pathArr) {
+    if (!node || !node.data) return;
+    const name = node.data.name || node.data.id || '';
+    const id = node.data.id || name;
+    const key = country + '::' + id;
+    if (!seen.has(key) && name) {
+      seen.add(key);
+      idx.push({
+        type: 'node',
+        id,
+        name,
+        path: pathArr.join(' / '),
+        depth: pathArr.length,
+        value: node.value || 0,
+        country,
+        ref: node,
+      });
+    }
+    // suppliers attached to this node
+    const ts = node.data._top_suppliers;
+    if (ts && Array.isArray(ts.suppliers)) {
+      for (const s of ts.suppliers) {
+        if (!s || !s.name || s.name.startsWith('Other (')) continue;
+        const skey = country + '::sup::' + id + '::' + s.name;
+        if (seen.has(skey)) continue;
+        seen.add(skey);
+        idx.push({
+          type: 'supplier',
+          id: skey,
+          name: s.name,
+          amount: s.amount || 0,
+          path: pathArr.concat([node.data.name || '']).join(' / '),
+          country,
+          parentNodeId: id,
+          parentRef: node,
+        });
+      }
+    }
+    (node.children || []).forEach(c => walkTree(c, country, pathArr.concat([name])));
+  }
+  // Index each country's tree root (built by Multiverse loader or galaxy loader)
+  try {
+    if (window.packed && typeof window.packed === 'object') {
+      Object.entries(window.packed).forEach(([c, p]) => {
+        if (p && p.root) walkTree(p.root, c, []);
+      });
+    }
+    // Also index current galaxyRoot if present (for in-country search without Multiverse).
+    // galaxyRoot/currentCountry are top-level `let` so not on window — use bare refs
+    // with try/catch for temporal-dead-zone safety.
+    try {
+      if (typeof galaxyRoot !== 'undefined' && galaxyRoot && typeof currentCountry !== 'undefined') {
+        // Skip if already indexed via packed[]
+        const alreadyIndexed = idx.some(it => it.country === currentCountry);
+        if (!alreadyIndexed) walkTree(galaxyRoot, currentCountry, []);
+      }
+    } catch (e) { /* TDZ — galaxyRoot/currentCountry not yet declared at script-init time */ }
+  } catch (e) {
+    console.error('buildSearchIndex failed:', e);
+  }
+  window._searchIndex = idx;
+  window._searchIndexBuilt = true;
+  const countEl = document.getElementById('gs-count');
+  if (countEl) countEl.textContent = idx.length.toLocaleString('en-GB');
+  return idx;
+}
+
+function _gsScore(q, item) {
+  const name = (item.name || '').toLowerCase();
+  const path = (item.path || '').toLowerCase();
+  if (name === q) return 1000;
+  if (name.startsWith(q)) return 500;
+  if (name.includes(q)) return 300;
+  if (path.includes(q)) return 80;
+  // token overlap for multi-word queries
+  const qt = q.split(/\s+/).filter(Boolean);
+  const hits = qt.filter(t => name.includes(t)).length;
+  return hits >= qt.length && qt.length > 1 ? 40 * hits : 0;
+}
+
+function _gsSearch(query) {
+  const q = (query || '').trim().toLowerCase();
+  if (!q) return [];
+  if (!window._searchIndexBuilt) buildSearchIndex();
+  const scored = [];
+  for (const item of window._searchIndex) {
+    const s = _gsScore(q, item);
+    if (s > 0) {
+      // Tie-breakers: tree nodes before suppliers, higher value first, shorter names first
+      const typeBonus = item.type === 'node' ? 10 : 0;
+      const valueBonus = Math.min(item.value / 1e10, 5);
+      const nameLen = -item.name.length * 0.01;
+      scored.push({item, score: s + typeBonus + valueBonus + nameLen});
+    }
+  }
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 20).map(s => s.item);
+}
+
+function _gsFormatCurrency(n, country) {
+  if (!n || n <= 0) return '';
+  const sym = country === 'us' ? '$' : country === 'uk' || country === 'gb' ? '£' : '€';
+  if (n >= 1e9) return `${sym}${(n/1e9).toFixed(1)}B`;
+  if (n >= 1e6) return `${sym}${(n/1e6).toFixed(1)}M`;
+  if (n >= 1e3) return `${sym}${(n/1e3).toFixed(1)}K`;
+  return `${sym}${n.toLocaleString('en-GB')}`;
+}
+
+function _gsEscapeHtml(s) {
+  return String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+
+function _gsHighlight(text, q) {
+  if (!q) return _gsEscapeHtml(text);
+  const lc = text.toLowerCase();
+  const qi = lc.indexOf(q.toLowerCase());
+  if (qi < 0) return _gsEscapeHtml(text);
+  return _gsEscapeHtml(text.slice(0, qi)) + '<mark>' + _gsEscapeHtml(text.slice(qi, qi + q.length)) + '</mark>' + _gsEscapeHtml(text.slice(qi + q.length));
+}
+
+function _gsRender(results, query) {
+  const el = document.getElementById('gs-results');
+  if (!el) return;
+  if (!query) {
+    el.innerHTML = `<div class="gs-empty">Type to search across ${(window._searchIndex||[]).length.toLocaleString('en-GB')} budgets, services and suppliers.</div>`;
+    return;
+  }
+  if (results.length === 0) {
+    el.innerHTML = `<div class="gs-empty">No matches for "${_gsEscapeHtml(query)}".</div>`;
+    return;
+  }
+  _gsCurrentResults = results;
+  el.innerHTML = results.map((r, i) => {
+    const flag = COUNTRY_FLAGS[r.country] || '';
+    const value = r.type === 'supplier' ? r.amount : r.value;
+    const vStr = _gsFormatCurrency(value, r.country);
+    const path = r.type === 'supplier' ? r.path : (r.path || COUNTRY_LABELS[r.country] || '');
+    const typeLabel = r.type === 'supplier' ? 'SUPPLIER' : '';
+    const active = i === _gsSelectedIndex ? ' active' : '';
+    return `
+      <div class="gs-result${active}" data-idx="${i}" onmouseenter="_gsSetActive(${i})" onclick="_gsNavigate(${i})">
+        <div class="gs-flag">${flag}</div>
+        <div class="gs-main">
+          <div class="gs-name">${_gsHighlight(r.name, query)}</div>
+          <div class="gs-path">${_gsEscapeHtml(path)}</div>
+        </div>
+        ${vStr ? `<div class="gs-value">${vStr}</div>` : ''}
+        ${typeLabel ? `<div class="gs-type supplier">${typeLabel}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function _gsSetActive(i) {
+  _gsSelectedIndex = i;
+  document.querySelectorAll('.gs-result').forEach((el, idx) => el.classList.toggle('active', idx === i));
+}
+
+function _gsNavigate(i) {
+  const r = _gsCurrentResults[i];
+  if (!r) return;
+  closeGlobalSearch();
+  // Determine target country and switch if needed
+  const targetCountry = r.country === 'gb' ? 'uk' : r.country;
+  const switchCountry = (typeof currentCountry === 'undefined' || currentCountry !== targetCountry);
+  const doNavigate = () => {
+    // Defer zoom until galaxyRoot is loaded for the target country
+    setTimeout(() => {
+      try {
+        if (typeof galaxyRoot === 'undefined' || !galaxyRoot) return;
+        // Find the node in the newly-loaded galaxy tree
+        const nodeId = r.type === 'supplier' ? r.parentNodeId : r.id;
+        const target = galaxyRoot.descendants().find(n => n.data && (n.data.id === nodeId || n.data.name === nodeId));
+        if (target && typeof zoomToNode === 'function') {
+          zoomToNode(target);
+        } else if (target && typeof focusOnNode === 'function') {
+          focusOnNode(target);
+        }
+      } catch (e) { console.warn('search nav failed:', e); }
+    }, switchCountry ? 900 : 200);
+  };
+  if (switchCountry && typeof lpSelectCountry === 'function') {
+    lpSelectCountry(targetCountry);
+    doNavigate();
+  } else if (typeof showTab === 'function') {
+    showTab('galaxy', null);
+    doNavigate();
+  } else {
+    doNavigate();
+  }
+}
+
+function openGlobalSearch() {
+  // Build index lazily on first open
+  if (!window._searchIndexBuilt || (window._searchIndex || []).length === 0) {
+    buildSearchIndex();
+  }
+  const panel = document.getElementById('global-search');
+  if (!panel) return;
+  panel.style.display = 'flex';
+  _gsSelectedIndex = 0;
+  _gsCurrentResults = [];
+  const input = document.getElementById('gs-input');
+  if (input) {
+    input.value = '';
+    setTimeout(() => input.focus(), 50);
+  }
+  _gsRender([], '');
+}
+
+function closeGlobalSearch() {
+  const panel = document.getElementById('global-search');
+  if (panel) panel.style.display = 'none';
+}
+
+// Wire up input + global hotkeys
+document.addEventListener('DOMContentLoaded', () => {
+  const input = document.getElementById('gs-input');
+  if (input) {
+    input.addEventListener('input', (e) => {
+      _gsSelectedIndex = 0;
+      const q = e.target.value;
+      _gsRender(_gsSearch(q), q);
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown') { e.preventDefault(); if (_gsCurrentResults.length) _gsSetActive(Math.min(_gsSelectedIndex + 1, _gsCurrentResults.length - 1)); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); if (_gsCurrentResults.length) _gsSetActive(Math.max(_gsSelectedIndex - 1, 0)); }
+      else if (e.key === 'Enter') { e.preventDefault(); if (_gsCurrentResults.length) _gsNavigate(_gsSelectedIndex); }
+      else if (e.key === 'Escape') { closeGlobalSearch(); }
+    });
+  }
+});
+
+// Global Cmd+K / Ctrl+K shortcut
+document.addEventListener('keydown', (e) => {
+  if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+    e.preventDefault();
+    openGlobalSearch();
+  } else if (e.key === 'Escape') {
+    const panel = document.getElementById('global-search');
+    if (panel && panel.style.display !== 'none') closeGlobalSearch();
+  }
+});
 </script>
 </body>
 </html>
