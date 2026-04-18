@@ -1,0 +1,1374 @@
+{
+  "company_number": "14029510",
+  "display_name": "Newton Europe Limited",
+  "identity": {
+    "ch_number": "14029510",
+    "official_name": "NEWTON EUROPE LIMITED",
+    "display_name": "Newton Europe Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2022-04-06",
+    "age_years": 4,
+    "registered_office": {
+      "address_line_1": "2 Kingston Business Park",
+      "address_line_2": "Kingston Bagpuize",
+      "country": "United Kingdom",
+      "locality": "Abingdon",
+      "postal_code": "OX13 5FE"
+    },
+    "sic_codes": [
+      "99999"
+    ],
+    "sic_labels": [
+      "SIC 99999"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14029510"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 8808304,
+    "rank": 766,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 4740000,
+        "segments": [
+          {
+            "segment": "MBG - Migration & Borders Group",
+            "amount_gbp": 4740000,
+            "pct_of_segment": 1.54,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 4068304,
+        "segments": [
+          {
+            "segment": "Regional Directorate",
+            "amount_gbp": 4068304,
+            "pct_of_segment": 3.69,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-04-25",
+    "period_end": "2024-08-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzQ2Mzk4NDE1MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/14029510_2025-04-25.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-05-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "DYDE, Stephen David",
+        "role": "director",
+        "appointed_on": "2022-04-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Abingdon",
+          "postal_code": "OX13 5FE",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "DYDE, Stephen David",
+        "role": "director",
+        "appointed_on": "2022-04-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Abingdon",
+          "postal_code": "OX13 5FE",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "KING, George Peter Forrest",
+          "role": "director",
+          "appointed_on": "2022-04-06",
+          "resigned_on": "2026-03-16",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1981
+          },
+          "address": {
+            "locality": "Abingdon",
+            "postal_code": "OX13 5FE",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 2,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "14029510",
+          "name": "Newton Consulting Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14029510",
+            "notified_on": "2022-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14029510/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04279175",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04279175",
+          "name": "Newton Industrial Consultants Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04279175",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04279175/persons-with-significant-control/corporate-entity/1YQrW9AvCimseZrbv0SVae4VQt0"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07792361",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "07792361",
+          "name": "Newton Europe Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07792361",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07792361/persons-with-significant-control/corporate-entity/iFU4c5p8hJ08_4eK-khSSfFmqCg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13665173",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "13665173",
+          "name": "Newton Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13665173",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13665173/persons-with-significant-control/corporate-entity/e99AqUSFJUgVTd4OXM3oYPz-GTo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664959",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "13664959",
+          "name": "Newton Europe Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664959",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664959/persons-with-significant-control/corporate-entity/vq9SH1ReNWEKctV-U-zDNB9oJe8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664789",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "13664789",
+          "name": "Newton Group Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664789",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664789/persons-with-significant-control/corporate-entity/FHMzsEe_3Q92B36Q-MSRYDWcft8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664692",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "13664692",
+          "name": "Mr Andrew Marcus Hawes",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664692",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664692/persons-with-significant-control/individual/13jS8kd0bwBJJi0KqA0Y_4AHNPs"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "14029510",
+          "name": "Newton Consulting Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14029510",
+            "notified_on": "2022-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14029510/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04279175",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04279175",
+          "name": "Newton Industrial Consultants Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04279175",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04279175/persons-with-significant-control/corporate-entity/1YQrW9AvCimseZrbv0SVae4VQt0"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07792361",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "07792361",
+          "name": "Newton Europe Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07792361",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07792361/persons-with-significant-control/corporate-entity/iFU4c5p8hJ08_4eK-khSSfFmqCg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13665173",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "13665173",
+          "name": "Newton Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13665173",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13665173/persons-with-significant-control/corporate-entity/e99AqUSFJUgVTd4OXM3oYPz-GTo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664959",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "13664959",
+          "name": "Newton Europe Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664959",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664959/persons-with-significant-control/corporate-entity/vq9SH1ReNWEKctV-U-zDNB9oJe8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664789",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "13664789",
+          "name": "Newton Group Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664789",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664789/persons-with-significant-control/corporate-entity/FHMzsEe_3Q92B36Q-MSRYDWcft8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664692",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "13664692",
+          "name": "Mr Thomas Dudley Wedgwood",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664692",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664692/persons-with-significant-control/individual/iwvMAEOGiUCdN9qjCakAnQbNaZY"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Andrew Marcus Hawes",
+        "Mr Thomas Dudley Wedgwood"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14029510"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2Mzk4NDE1MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/14029510_2025-04-25.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14029510/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14029510/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 766,
+    "enriched_at": "2026-04-16T20:41:23Z",
+    "governance_enriched_at": "2026-04-16T22:40:16Z",
+    "ubo_enriched_at": "2026-04-16T23:25:23Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 31,
+      "total_contracts_non_framework": 31,
+      "total_awarded_gbp": 55974675.0,
+      "total_awarded_non_framework_gbp": 55974675.0,
+      "years_active": 6,
+      "first_year": 2019,
+      "last_year": 2024,
+      "trajectory": "declining",
+      "trajectory_note": "CAGR -30.3% between 2020 (£15M) and 2023 (£5M)",
+      "longest_buyer_relationship": {
+        "buyer": "Leicestershire County Council",
+        "years_count": 2,
+        "years_list": [
+          2021,
+          2022
+        ],
+        "total_value_gbp": 9745000,
+        "n_contracts": 2
+      },
+      "n_unique_buyers_all_years": 21,
+      "max_consecutive_same_buyer_direct": 3
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 500000,
+        "awarded_gbp_non_framework": 500000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Nottinghamshire County Council",
+          "contracts": 1,
+          "value_gbp": 500000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 10,
+        "n_contracts_non_framework": 10,
+        "awarded_gbp_total": 14801945.0,
+        "awarded_gbp_non_framework": 14801945.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Northamptonshire County Council",
+          "contracts": 2,
+          "value_gbp": 8000000
+        },
+        "procurement_method_counts": {
+          "selective": 5,
+          "unspecified": 3,
+          "open": 2
+        }
+      },
+      "2021": {
+        "n_contracts": 6,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 1304102,
+        "awarded_gbp_non_framework": 1304102,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 55.02,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "NHS England",
+          "contracts": 3,
+          "value_gbp": 472576
+        },
+        "procurement_method_counts": {
+          "limited": 3,
+          "selective": 1,
+          "open": 1,
+          "direct": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 9,
+        "awarded_gbp_total": 34251478.0,
+        "awarded_gbp_non_framework": 34251478.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 7,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 2,
+          "value_gbp": 20499978
+        },
+        "procurement_method_counts": {
+          "open": 3,
+          "unspecified": 2,
+          "selective": 4
+        }
+      },
+      "2023": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 5017150,
+        "awarded_gbp_non_framework": 5017150,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 1.77,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 1,
+          "value_gbp": 3950000
+        },
+        "procurement_method_counts": {
+          "selective": 2,
+          "open": 1,
+          "limited": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 100000,
+        "awarded_gbp_non_framework": 100000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "CROYDON COUNCIL",
+          "contracts": 1,
+          "value_gbp": 100000
+        },
+        "procurement_method_counts": {
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "72224000",
+        "top_label": "Project management consultancy services",
+        "top_value_gbp": 500000.0,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "85320000",
+        "top_label": "Social services",
+        "top_value_gbp": 8000000.0,
+        "n_distinct_codes": 6
+      },
+      "2021": {
+        "top_code": "79410000",
+        "top_label": "Business and management consultancy services",
+        "top_value_gbp": 513579.0,
+        "n_distinct_codes": 3
+      },
+      "2022": {
+        "top_code": "79412000",
+        "top_label": "Financial management consultancy services",
+        "top_value_gbp": 20000000.0,
+        "n_distinct_codes": 7
+      },
+      "2023": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 3950000.0,
+        "n_distinct_codes": 4
+      },
+      "2024": {
+        "top_code": "85000000",
+        "top_label": "Health and social work services",
+        "top_value_gbp": 100000.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": true,
+      "consecutive_streak_length": 3,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": true,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 12,
+        "unspecified": 5,
+        "open": 8,
+        "limited": 4,
+        "direct": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 43336720.0,
+        "unspecified": 2026300.0,
+        "open": 9705079.0,
+        "limited": 561576.0,
+        "direct": 345000.0
+      },
+      "sole_source_pct_all_years": 1.62,
+      "competitive_pct_all_years": 94.76,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 2,
+        "value_gbp": 20499978
+      },
+      {
+        "buyer_id": "GB-CFS-52427",
+        "buyer_name": "Leicestershire County Council",
+        "contracts": 2,
+        "value_gbp": 9745000
+      },
+      {
+        "buyer_id": "GB-CFS-71293",
+        "buyer_name": "Northamptonshire County Council",
+        "contracts": 2,
+        "value_gbp": 8000000
+      },
+      {
+        "buyer_id": "GB-CFS-99743",
+        "buyer_name": "Cabinet Office : Cabinet Office",
+        "contracts": 3,
+        "value_gbp": 4879645
+      },
+      {
+        "buyer_id": "GB-CFS-107236",
+        "buyer_name": "Home Office",
+        "contracts": 1,
+        "value_gbp": 3950000
+      },
+      {
+        "buyer_id": "GB-CFS-161601",
+        "buyer_name": "NHS England",
+        "contracts": 3,
+        "value_gbp": 3399360.0
+      },
+      {
+        "buyer_id": "GB-CFS-102322",
+        "buyer_name": "Prime Minister's Office, 10 Downing Street : Cabinet Office",
+        "contracts": 1,
+        "value_gbp": 1000000.0
+      },
+      {
+        "buyer_id": "GB-LAE-BIR",
+        "buyer_name": "Birmingham City Council",
+        "contracts": 1,
+        "value_gbp": 948150
+      },
+      {
+        "buyer_id": "GB-CFS-66347",
+        "buyer_name": "Nottinghamshire County Council",
+        "contracts": 1,
+        "value_gbp": 500000
+      },
+      {
+        "buyer_id": "GB-CFS-156189",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 1,
+        "value_gbp": 500000
+      },
+      {
+        "buyer_id": "GB-CFS-49347",
+        "buyer_name": "Somerset County Council",
+        "contracts": 1,
+        "value_gbp": 500000
+      },
+      {
+        "buyer_id": "GB-CFS-186962",
+        "buyer_name": "Leeds City Council",
+        "contracts": 1,
+        "value_gbp": 400000
+      },
+      {
+        "buyer_id": "GB-CFS-167893",
+        "buyer_name": "University Hospitals Birmingham NHS Foundation Trust",
+        "contracts": 1,
+        "value_gbp": 317947
+      },
+      {
+        "buyer_id": "GB-CFS-58502",
+        "buyer_name": "London Borough of Hackney",
+        "contracts": 1,
+        "value_gbp": 280000
+      },
+      {
+        "buyer_id": "GB-CFS-55641",
+        "buyer_name": "London Borough of Lewisham",
+        "contracts": 1,
+        "value_gbp": 268579
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "79412000",
+        "label": "Financial management consultancy services",
+        "contracts": 1,
+        "value_gbp": 20000000
+      },
+      {
+        "code": "85000000",
+        "label": "Health and social work services",
+        "contracts": 3,
+        "value_gbp": 10548150
+      },
+      {
+        "code": "85320000",
+        "label": "Social services",
+        "contracts": 2,
+        "value_gbp": 8000000
+      },
+      {
+        "code": "79410000",
+        "label": "Business and management consultancy services",
+        "contracts": 5,
+        "value_gbp": 4193579.0
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 1,
+        "value_gbp": 3950000
+      },
+      {
+        "code": "72221000",
+        "label": "Business analysis consultancy services",
+        "contracts": 2,
+        "value_gbp": 3429645
+      },
+      {
+        "code": "79411000",
+        "label": "General management consultancy services",
+        "contracts": 6,
+        "value_gbp": 1703876.0
+      },
+      {
+        "code": "79411100",
+        "label": "Business development consultancy services",
+        "contracts": 1,
+        "value_gbp": 1450000
+      },
+      {
+        "code": "79400000",
+        "label": "Business and management consultancy and related services",
+        "contracts": 2,
+        "value_gbp": 691000
+      },
+      {
+        "code": "72224000",
+        "label": "Project management consultancy services",
+        "contracts": 1,
+        "value_gbp": 500000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-c4ac33b5-a285-4b99-8c84-3a0a88abef77",
+        "date": "2024-09-10T00:00:00+01:00",
+        "buyer": "CROYDON COUNCIL",
+        "title": "Mental Health Social Care Improvement Programme",
+        "value_gbp": 100000,
+        "procurement_method": "direct",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bf711fb8-ef79-4447-9090-4434c33d4097",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5de2a8b5-b7ea-411d-aa36-124310ab6bf2",
+        "date": "2023-10-27T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Data and Performance Excellence (DPEx) - IM System Performance Tool & System Thinking Accelerator",
+        "value_gbp": 3950000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-10-27T00:00:00+01:00",
+        "contract_end": "2024-03-08T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a4f3ba87-3b79-49a8-a9be-95854bbf78ae",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b694d401-fad5-4ebe-8b51-928803d91b46",
+        "date": "2023-06-26T00:00:00+01:00",
+        "buyer": "London Borough of Merton",
+        "title": "Commissioning of external independent support",
+        "value_gbp": 30000,
+        "procurement_method": "open",
+        "cpv_code": "71310000",
+        "cpv_label": "Consultative engineering and construction services",
+        "contract_start": "2023-07-28T00:00:00+01:00",
+        "contract_end": "2024-07-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/74b9522c-4621-4d01-876b-2a4762bfde0e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f63bd8d6-6ab5-47fd-8686-b4eb2f609f94",
+        "date": "2023-03-30T00:00:00+01:00",
+        "buyer": "Birmingham City Council",
+        "title": "Neighbourhood Integration (NI) - Programme Support",
+        "value_gbp": 948150,
+        "procurement_method": "selective",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2023-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5324892e-0b33-4d4b-8dbb-2ad3bdcea31d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-dba14c32-b193-46c0-916b-9b920b639155",
+        "date": "2023-01-11T00:00:00Z",
+        "buyer": "KENT COUNTY COUNCIL",
+        "title": "Saving and Growth Proposals Review",
+        "value_gbp": 89000,
+        "procurement_method": "limited",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2023-01-23T00:00:00Z",
+        "contract_end": "2023-03-13T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/004e6b32-2ee4-4e27-8206-7fc862a4a7c3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-47410f27-5577-4e01-8c01-41b597cb4bc5",
+        "date": "2022-11-10T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "CPU 5279 Childrens Services Review",
+        "value_gbp": 6500,
+        "procurement_method": "open",
+        "cpv_code": "85311300",
+        "cpv_label": "Welfare services for children and young people",
+        "contract_start": "2022-11-24T00:00:00Z",
+        "contract_end": "2024-11-23T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0aedc41d-7a79-4dee-8296-76df0beb32ea",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-91dfbb3a-5206-4022-a77a-3a56af32b6e0",
+        "date": "2022-10-21T00:00:00+01:00",
+        "buyer": "Somerset County Council",
+        "title": "Further Competition under Crown Commercial Services Framework RM6187 Management Consultancy Framework Three (MCF3) Lot 7 Health, Social Care & Community for a review of Somerset County Council Adult Social Care to identify opportunities for improvements and savings",
+        "value_gbp": 500000,
+        "procurement_method": "open",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2022-11-07T00:00:00Z",
+        "contract_end": "2023-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9fedc303-1047-4aac-8f9f-cc0da35b52f6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-16f4384a-3c91-483a-8df9-0de388fb062f",
+        "date": "2022-08-24T00:00:00+01:00",
+        "buyer": "Leicestershire County Council",
+        "title": "Transforming SEND and Inclusion for Leicestershire",
+        "value_gbp": 9500000,
+        "procurement_method": "selective",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2022-09-01T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7007a492-5a98-4605-9402-4d85b5006266",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-efbf1120-34c2-4a26-84f3-257d862e78b2",
+        "date": "2022-08-22T00:00:00+01:00",
+        "buyer": "Leeds City Council",
+        "title": "Intermediate Care Partner",
+        "value_gbp": 400000,
+        "procurement_method": "open",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2022-08-08T00:00:00+01:00",
+        "contract_end": "2024-08-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d6b6580f-af86-41d4-9f9a-1ebd736f371a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-afc606be-f094-4818-8150-f277c6aa77ae",
+        "date": "2022-06-01T00:00:00+01:00",
+        "buyer": "London Borough of Hackney",
+        "title": "Support for Fair Cost of Care Project",
+        "value_gbp": 65000,
+        "procurement_method": null,
+        "cpv_code": "85100000",
+        "cpv_label": "Health services",
+        "contract_start": "2022-07-18T00:00:00+01:00",
+        "contract_end": "2022-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2e27a022-dcf7-4857-8217-0b2509ea2cbc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-069ccb7b-65e6-4e12-ad44-2958bb9b5a48",
+        "date": "2022-04-01T00:00:00+01:00",
+        "buyer": "London Borough of Hackney",
+        "title": "Adult Social Care Transformation",
+        "value_gbp": 280000,
+        "procurement_method": null,
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2022-04-19T00:00:00+01:00",
+        "contract_end": "2022-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d007326c-0a2a-4bea-8042-6999f448de87",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f5b2802d-5a7a-4d7e-a50a-8229d77739dd",
+        "date": "2022-02-17T00:00:00Z",
+        "buyer": "Crown Commercial Service",
+        "title": "ARMY EFFICIENCY DELIVERY PARTNER",
+        "value_gbp": 20000000,
+        "procurement_method": "selective",
+        "cpv_code": "79412000",
+        "cpv_label": "Financial management consultancy services",
+        "contract_start": "2022-02-28T00:00:00Z",
+        "contract_end": "2025-02-27T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1794154a-d32d-4692-aa07-45617526ae68",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-55e4709e-8052-4785-a313-ce0c8c8e3f61",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "NHS England",
+        "title": "System Planning Support",
+        "value_gbp": 3000000.0,
+        "procurement_method": "selective",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2022-01-31T00:00:00Z",
+        "contract_end": "2022-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cfc6564e-3d5f-47c0-b810-deae40fa89fe",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-92e4bf83-7d19-418e-aa72-a029131ae5a5",
+        "date": "2022-01-28T00:00:00Z",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of Consultancy Services for Illegal Migrant Taskforce - Direct Award",
+        "value_gbp": 499978,
+        "procurement_method": "selective",
+        "cpv_code": "98112000",
+        "cpv_label": "Services furnished by professional organisations",
+        "contract_start": "2022-01-31T00:00:00Z",
+        "contract_end": "2022-04-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cd2e3d8a-7277-4dd4-a0a1-aa1af7b7bb48",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-dc159433-0b8a-4953-8276-331ab48baa43",
+        "date": "2021-12-31T00:00:00Z",
+        "buyer": "Leicestershire County Council",
+        "title": "CFS SEN Assessment Diagnostic",
+        "value_gbp": 245000,
+        "procurement_method": "direct",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2022-01-03T00:00:00Z",
+        "contract_end": "2022-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/68c2fc81-014f-49dc-a47c-a1818e828cfc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c7c21a5c-d602-4603-9aa2-7553041702ce",
+        "date": "2021-10-06T00:00:00+01:00",
+        "buyer": "NHS England",
+        "title": "Covid 19 Vaccinations Programme - Strategic Consultancy Support",
+        "value_gbp": 73216,
+        "procurement_method": "limited",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2021-09-01T00:00:00+01:00",
+        "contract_end": "2021-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/795da5c1-4693-405f-80cf-1a0936c94373",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c7b830ad-f398-4179-be38-27a3b7bfd99d",
+        "date": "2021-09-10T00:00:00+01:00",
+        "buyer": "University Hospitals Birmingham NHS Foundation Trust",
+        "title": "Solihull System Change Programme, Diagnostic",
+        "value_gbp": 317947,
+        "procurement_method": "selective",
+        "cpv_code": "79996000",
+        "cpv_label": "Business organisation services",
+        "contract_start": "2021-09-13T00:00:00+01:00",
+        "contract_end": "2022-02-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e0b1c349-52d2-46a0-a009-cf300902b0ba",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b5d01377-b60e-4cee-af42-33e97a4f14dd",
+        "date": "2021-06-14T00:00:00+01:00",
+        "buyer": "NHS England",
+        "title": "Covid 19 Vaccinations Programme - Strategic Consultancy Support",
+        "value_gbp": 199680,
+        "procurement_method": "limited",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2021-05-12T00:00:00+01:00",
+        "contract_end": "2021-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ab682d4b-2547-480e-9b27-42d80b39d4f1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b5d01377-b60e-4cee-af42-33e97a4f14dd",
+        "date": "2021-06-14T00:00:00+01:00",
+        "buyer": "NHS England",
+        "title": "Covid 19 Vaccinations Programme - Strategic Consultancy Support",
+        "value_gbp": 199680,
+        "procurement_method": "limited",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2021-05-12T00:00:00+01:00",
+        "contract_end": "2021-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/943e2848-990f-4ab4-89d1-0f9d47683c82",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-99bb7411-2617-473b-9c83-c8fb3a5cb994",
+        "date": "2021-03-17T00:00:00Z",
+        "buyer": "London Borough of Lewisham",
+        "title": "Adult Social Care Phase 1 Review",
+        "value_gbp": 268579,
+        "procurement_method": "open",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2021-04-12T00:00:00+01:00",
+        "contract_end": "2021-07-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/729c19b2-5e18-46fe-ac05-d25e4b0f8254",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-79a26d5f-4636-409c-b834-d6816a8311d0",
+        "date": "2020-11-13T00:00:00Z",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "Adult Social Care Winter Plan Outcomes Delivery",
+        "value_gbp": 500000,
+        "procurement_method": "selective",
+        "cpv_code": "85140000",
+        "cpv_label": "Miscellaneous health services",
+        "contract_start": "2020-11-16T00:00:00Z",
+        "contract_end": "2021-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/31d251d0-8d0a-42d8-9dda-3246d1dce07f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-60d3b202-eb73-4839-90b1-067ba9ebcdcd",
+        "date": "2020-10-11T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care",
+        "title": "Adult Social Care Winter Plan Delivery",
+        "value_gbp": 191000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2020-09-14T00:00:00+01:00",
+        "contract_end": "2020-10-23T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/821d6db8-4f4b-4c32-b3ee-e57ccd1f0feb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-adc77399-b909-416b-a459-6c805a9da8ae",
+        "date": "2020-10-02T00:00:00+01:00",
+        "buyer": "Cabinet Office : Cabinet Office",
+        "title": "Provision of Consultancy for Support on Readiness Dashboard",
+        "value_gbp": 2000000,
+        "procurement_method": "selective",
+        "cpv_code": "72221000",
+        "cpv_label": "Business analysis consultancy services",
+        "contract_start": "2020-10-05T00:00:00+01:00",
+        "contract_end": "2021-01-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bfd8a1ff-4389-4839-a46d-827dbd53e21d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bf91a375-6064-4f47-8043-ddf3a3802fe7",
+        "date": "2020-07-14T00:00:00+01:00",
+        "buyer": "Cabinet Office : Cabinet Office",
+        "title": "Provision of Consultancy for Outcome Metrics in relation to Transition Readiness",
+        "value_gbp": 1429645,
+        "procurement_method": "selective",
+        "cpv_code": "72221000",
+        "cpv_label": "Business analysis consultancy services",
+        "contract_start": "2020-07-16T00:00:00+01:00",
+        "contract_end": "2020-10-16T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2986455d-98a8-4d33-8854-dc36ad265144",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-33eac3bb-85c5-4f9a-8096-4f45075eee7f",
+        "date": "2020-07-01T00:00:00+01:00",
+        "buyer": "Cabinet Office : Cabinet Office",
+        "title": "URGENT PROCUREMENT COVID-19 - Direct Award Newton",
+        "value_gbp": 1450000,
+        "procurement_method": null,
+        "cpv_code": "79411100",
+        "cpv_label": "Business development consultancy services",
+        "contract_start": "2020-07-01T00:00:00+01:00",
+        "contract_end": "2020-12-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/613717b3-8ba4-429a-b7d0-11a7d46369e1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2f10fdc6-00cb-491a-8483-3583ed772bfd",
+        "date": "2020-06-01T00:00:00+01:00",
+        "buyer": "abb773bedbb680101b84a5305b961981",
+        "title": "Modelling discharge pathways",
+        "value_gbp": 115650,
+        "procurement_method": null,
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2020-06-01T00:00:00+01:00",
+        "contract_end": "2020-08-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4d15bdb3-9cfc-4f75-9c0a-f1517afeb62d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2f10fdc6-00cb-491a-8483-3583ed772bfd",
+        "date": "2020-06-01T00:00:00+01:00",
+        "buyer": "abb773bedbb680101b84a5305b961981",
+        "title": "Modelling discharge pathways",
+        "value_gbp": 115650,
+        "procurement_method": null,
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2020-06-01T00:00:00+01:00",
+        "contract_end": "2020-08-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/79967148-a97a-4777-ae97-b531f780fb07",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ab70dbeb-03d3-47e2-b0a2-10253bc083fe",
+        "date": "2020-04-02T00:00:00+01:00",
+        "buyer": "Prime Minister's Office, 10 Downing Street : Cabinet Office",
+        "title": "The Provision of Covid-19 Consultancy Support",
+        "value_gbp": 1000000.0,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2020-04-06T00:00:00+01:00",
+        "contract_end": "2020-10-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/14b1f83e-f1ce-4737-bdb5-bc098daf9c2f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-80f5bbd9-1ac0-458d-9bee-e24742008e3e",
+        "date": "2020-02-25T00:00:00Z",
+        "buyer": "Northamptonshire County Council",
+        "title": "Northamptonshire County Council Target Operating Model NASS",
+        "value_gbp": 4000000,
+        "procurement_method": "open",
+        "cpv_code": "85320000",
+        "cpv_label": "Social services",
+        "contract_start": "2020-02-28T00:00:00Z",
+        "contract_end": "2021-08-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ceb84700-077f-4d1c-80d3-cf65b8619a37",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-80f5bbd9-1ac0-458d-9bee-e24742008e3e",
+        "date": "2020-02-25T00:00:00Z",
+        "buyer": "Northamptonshire County Council",
+        "title": "Northamptonshire County Council Target Operating Model NASS",
+        "value_gbp": 4000000,
+        "procurement_method": "open",
+        "cpv_code": "85320000",
+        "cpv_label": "Social services",
+        "contract_start": "2020-02-28T00:00:00Z",
+        "contract_end": "2021-08-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0bbe0db6-c7e7-4b3b-9939-6f5939b8748c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 8808304,
+      "awarded_2024_gbp_from_cf": 100000,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 88.1× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.01
+    }
+  }
+}

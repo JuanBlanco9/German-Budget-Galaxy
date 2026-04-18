@@ -1,0 +1,641 @@
+{
+  "company_number": "01584718",
+  "display_name": "Computacenter (Uk) Limited",
+  "identity": {
+    "ch_number": "01584718",
+    "official_name": "COMPUTACENTER (UK) LIMITED",
+    "display_name": "Computacenter (Uk) Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1981-09-09",
+    "age_years": 44,
+    "registered_office": {
+      "address_line_1": "Computacenter",
+      "address_line_2": "Hatfield Avenue",
+      "country": "United Kingdom",
+      "locality": "Hatfield",
+      "postal_code": "AL10 9TW",
+      "region": "Hertfordshire"
+    },
+    "sic_codes": [
+      "62020",
+      "62090",
+      "95110"
+    ],
+    "sic_labels": [
+      "IT consultancy activities",
+      "Other information technology service activities",
+      "SIC 95110"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01584718"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 108443533,
+    "rank": 236,
+    "category": "commercial",
+    "n_departments": 7,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 67884285,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 66648645,
+            "pct_of_segment": 10.27,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Financial Assistance & Pensions Services",
+            "amount_gbp": 316918,
+            "pct_of_segment": 0.12,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Universal Credit",
+            "amount_gbp": 645043,
+            "pct_of_segment": 0.75,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          },
+          {
+            "segment": "People & Change",
+            "amount_gbp": 273679,
+            "pct_of_segment": 3.2,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 14584260,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 5840966,
+            "pct_of_segment": 0.74,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery DG & Programme Office",
+            "amount_gbp": 2506380,
+            "pct_of_segment": 1.45,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "B&T Border Change Delivery",
+            "amount_gbp": 169837,
+            "pct_of_segment": 0.1,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 4342611,
+            "pct_of_segment": 4.15,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Debt Management",
+            "amount_gbp": 58122,
+            "pct_of_segment": 0.13,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          },
+          {
+            "segment": "CDIO Transformation Programmes",
+            "amount_gbp": 1098197,
+            "pct_of_segment": 2.9,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Transformation DG & Programme Office",
+            "amount_gbp": 102814,
+            "pct_of_segment": 1.12,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          },
+          {
+            "segment": "HMRC Security",
+            "amount_gbp": 22759,
+            "pct_of_segment": 0.34,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Knowledge Analysis & Intelligence",
+            "amount_gbp": 181839,
+            "pct_of_segment": 4.67,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Border Service Data and Design",
+            "amount_gbp": 260735,
+            "pct_of_segment": 17.07,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 12636224,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 7352167,
+            "pct_of_segment": 2.6,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Other MoJ",
+            "amount_gbp": 5284057,
+            "pct_of_segment": 2.62,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 4567593,
+        "segments": [
+          {
+            "segment": "MBG - Migration & Borders Group",
+            "amount_gbp": 4567593,
+            "pct_of_segment": 1.48,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 4497794,
+        "segments": [
+          {
+            "segment": "Technology",
+            "amount_gbp": 3870817,
+            "pct_of_segment": 8.16,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Data",
+            "amount_gbp": 626977,
+            "pct_of_segment": 2.13,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 3230841,
+        "segments": [
+          {
+            "segment": "Defence Nuclear Organisation",
+            "amount_gbp": 1269845,
+            "pct_of_segment": 0.56,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Head Office and Corporate Services",
+            "amount_gbp": 1794106,
+            "pct_of_segment": 5.22,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "ICT Delivery Business Group",
+            "amount_gbp": 166890,
+            "pct_of_segment": 2.08,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 1042536,
+        "segments": [
+          {
+            "segment": "Group Operations",
+            "amount_gbp": 1042536,
+            "pct_of_segment": 0.81,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-18",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NDA3MDIxNGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01584718_2025-07-18.pdf",
+      "size_mb": 2.84,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 19,
+    "board_turnover_ratio": 3.8,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BEARD, John Anthony",
+        "role": "director",
+        "appointed_on": "2022-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCINERNEY, Karen Linda",
+        "role": "director",
+        "appointed_on": "2024-12-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORTIMER, Keith Anthony",
+        "role": "director",
+        "appointed_on": "2025-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NORRIS, Michael John",
+        "role": "director",
+        "appointed_on": "1996-09-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "PEREIRA, Simon",
+        "role": "secretary",
+        "appointed_on": "2021-12-09",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "PEREIRA, Simon",
+        "role": "secretary",
+        "appointed_on": "2021-12-09",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BEARD, John Anthony",
+        "role": "director",
+        "appointed_on": "2022-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCINERNEY, Karen Linda",
+        "role": "director",
+        "appointed_on": "2024-12-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORTIMER, Keith Anthony",
+        "role": "director",
+        "appointed_on": "2025-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NORRIS, Michael John",
+        "role": "director",
+        "appointed_on": "1996-09-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Hatfield",
+          "postal_code": "AL10 9TW",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 19,
+      "recent": [
+        {
+          "name": "JEHLE, Marcus Christian",
+          "role": "director",
+          "appointed_on": "2023-06-01",
+          "resigned_on": "2024-12-16",
+          "nationality": "German",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1975
+          },
+          "address": {
+            "locality": "Hatfield",
+            "postal_code": "AL10 9TW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "CONOPHY, Francis Anthony",
+          "role": "director",
+          "appointed_on": "1996-09-11",
+          "resigned_on": "2023-06-01",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1958
+          },
+          "address": {
+            "locality": "Arkley",
+            "postal_code": "EN5 3HS",
+            "country": null
+          }
+        },
+        {
+          "name": "JAMES, Kevin John",
+          "role": "director",
+          "appointed_on": "2019-01-30",
+          "resigned_on": "2022-04-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1964
+          },
+          "address": {
+            "locality": "Hatfield",
+            "postal_code": "AL10 9TW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "GRAY, Raymond John",
+          "role": "secretary",
+          "appointed_on": "2016-09-14",
+          "resigned_on": "2021-12-09",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Hatfield",
+            "postal_code": "AL10 9TW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "WEBB, Christopher Mark",
+          "role": "director",
+          "appointed_on": "2009-04-20",
+          "resigned_on": "2017-09-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1961
+          },
+          "address": {
+            "locality": "Hatfield",
+            "postal_code": "AL10 9RJ",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01584718",
+          "name": "Computacenter Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors",
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01584718",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01584718/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "03110569",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01584718"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NDA3MDIxNGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01584718_2025-07-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01584718/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01584718/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 236,
+    "enriched_at": "2026-04-16T19:54:46Z",
+    "governance_enriched_at": "2026-04-16T22:16:20Z",
+    "ubo_enriched_at": "2026-04-16T22:57:10Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

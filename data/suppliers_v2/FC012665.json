@@ -1,0 +1,1258 @@
+{
+  "company_number": "FC012665",
+  "display_name": "MCKINSEY & COMPANY INC  UNITED KINGDOM",
+  "identity": {
+    "ch_number": "FC012665",
+    "official_name": "MCKINSEY & COMPANY INC UNITED KINGDOM",
+    "display_name": "MCKINSEY & COMPANY INC  UNITED KINGDOM",
+    "status": "active",
+    "type": "oversea-company",
+    "jurisdiction": "united-kingdom",
+    "incorporated": "1993-01-01",
+    "age_years": 33,
+    "registered_office": {
+      "address_line_1": "251 Little Falls Drive",
+      "country": "United States",
+      "locality": "Wilmimgton",
+      "region": "Delaware De19808"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/FC012665"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 10121567,
+    "rank": 740,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 9521567,
+        "segments": [
+          {
+            "segment": "Head Office and Enabling Organisations",
+            "amount_gbp": 7352504,
+            "pct_of_segment": 5.15,
+            "rank_in_segment": 6,
+            "type": "Consultancy"
+          },
+          {
+            "segment": "DES Bespoke Trading Entity",
+            "amount_gbp": 1000000,
+            "pct_of_segment": 1.29,
+            "rank_in_segment": 16,
+            "type": "Consultancy"
+          },
+          {
+            "segment": "Head Office and Corporate Services",
+            "amount_gbp": 1169063,
+            "pct_of_segment": 3.4,
+            "rank_in_segment": 12,
+            "type": "Consultancy"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 600000,
+        "segments": [
+          {
+            "segment": "RPA",
+            "amount_gbp": 600000,
+            "pct_of_segment": 7.04,
+            "rank_in_segment": 5,
+            "type": "Consultancy"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-01-09",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5ODI1NzQwN2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/FC012665_2026-01-09.pdf",
+      "size_mb": 0.61,
+      "exists": true
+    },
+    "next_accounts_due": null,
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 14,
+    "board_turnover_ratio": 4.67,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "DEAKIN, Jonathan Neville",
+        "role": "director",
+        "appointed_on": "2024-10-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC1A 1PB",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HOHMANN, Marcus",
+        "role": "director",
+        "appointed_on": "2024-01-01",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC1A 1PB",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NATTERMANN, Philipp Maximilian",
+        "role": "director",
+        "appointed_on": "2023-03-02",
+        "resigned_on": null,
+        "nationality": "British,German",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC1A 1PB",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "DEAKIN, Jonathan Neville",
+        "role": "director",
+        "appointed_on": "2024-10-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC1A 1PB",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HOHMANN, Marcus",
+        "role": "director",
+        "appointed_on": "2024-01-01",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC1A 1PB",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NATTERMANN, Philipp Maximilian",
+        "role": "director",
+        "appointed_on": "2023-03-02",
+        "resigned_on": null,
+        "nationality": "British,German",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC1A 1PB",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 14,
+      "recent": [
+        {
+          "name": "MEAKIN, Thomas Peter Karl",
+          "role": "director",
+          "appointed_on": "2024-01-01",
+          "resigned_on": "2024-10-30",
+          "nationality": "British,Australian",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1989
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1A 1PB",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "INGLES, Carlos",
+          "role": "director",
+          "appointed_on": "2019-12-12",
+          "resigned_on": "2024-01-01",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1975
+          },
+          "address": {
+            "locality": "New York",
+            "postal_code": null,
+            "country": "United States"
+          }
+        },
+        {
+          "name": "OLANREWAJU, Babatunde Taiwo",
+          "role": "director",
+          "appointed_on": "2022-07-22",
+          "resigned_on": "2024-01-01",
+          "nationality": "British,",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1A 1PB",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "DEWHURST, Martin",
+          "role": "director",
+          "appointed_on": "2004-07-01",
+          "resigned_on": "2023-03-03",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": {
+            "month": 4,
+            "year": 1963
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW7 3BJ",
+            "country": null
+          }
+        },
+        {
+          "name": "SIMMONS, Virginia",
+          "role": "director",
+          "appointed_on": "2020-11-18",
+          "resigned_on": "2022-06-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1971
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1A 1PB",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "FC012665",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 80,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-10",
+        "foreign_jurisdiction_for_uk_contract"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/FC012665"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5ODI1NzQwN2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/FC012665_2026-01-09.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/FC012665/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/FC012665/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 740,
+    "enriched_at": "2026-04-16T20:39:20Z",
+    "governance_enriched_at": "2026-04-16T22:39:11Z",
+    "ubo_enriched_at": "2026-04-16T23:24:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 105,
+      "total_contracts_non_framework": 100,
+      "total_awarded_gbp": 216801599.2228829,
+      "total_awarded_non_framework_gbp": 193344179.34,
+      "years_active": 7,
+      "first_year": 2018,
+      "last_year": 2024,
+      "trajectory": "new_entrant",
+      "trajectory_note": "no contracts before 2024",
+      "longest_buyer_relationship": {
+        "buyer": "H M Revenue & Customs",
+        "years_count": 4,
+        "years_list": [
+          2020,
+          2021,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 16494172,
+        "n_contracts": 8
+      },
+      "n_unique_buyers_all_years": 38,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2018": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 1,
+          "value_gbp": 0
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 6128050,
+        "awarded_gbp_non_framework": 6128050,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 22.5,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 2,
+          "value_gbp": 3750000
+        },
+        "procurement_method_counts": {
+          "selective": 4,
+          "direct": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 41,
+        "n_contracts_non_framework": 40,
+        "awarded_gbp_total": 85614956.66666667,
+        "awarded_gbp_non_framework": 84573290.0,
+        "awarded_gbp_framework_share": 1041666.6666666666,
+        "sole_source_pct": 5.3,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 12,
+        "top_buyer": {
+          "buyer": "Cabinet Office : Cabinet Office",
+          "contracts": 6,
+          "value_gbp": 62284300
+        },
+        "procurement_method_counts": {
+          "selective": 35,
+          "unspecified": 3,
+          "direct": 3
+        }
+      },
+      "2021": {
+        "n_contracts": 21,
+        "n_contracts_non_framework": 20,
+        "awarded_gbp_total": 54702070.0,
+        "awarded_gbp_non_framework": 49702070.0,
+        "awarded_gbp_framework_share": 5000000,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 16,
+        "top_buyer": {
+          "buyer": "BIP SOLUTIONS LIMITED",
+          "contracts": 1,
+          "value_gbp": 30000000.0
+        },
+        "procurement_method_counts": {
+          "selective": 19,
+          "unspecified": 2
+        }
+      },
+      "2022": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 8,
+        "awarded_gbp_total": 3008820,
+        "awarded_gbp_non_framework": 3008820,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "HM TREASURY",
+          "contracts": 2,
+          "value_gbp": 1627520
+        },
+        "procurement_method_counts": {
+          "selective": 7,
+          "unspecified": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 20,
+        "n_contracts_non_framework": 19,
+        "awarded_gbp_total": 36484165.55621622,
+        "awarded_gbp_non_framework": 20267949.34,
+        "awarded_gbp_framework_share": 16216216.216216216,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 10,
+        "top_buyer": {
+          "buyer": "DfTc - Department for Transport",
+          "contracts": 1,
+          "value_gbp": 16216216.216216216
+        },
+        "procurement_method_counts": {
+          "open": 2,
+          "selective": 18
+        }
+      },
+      "2024": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 30863537,
+        "awarded_gbp_non_framework": 29664000,
+        "awarded_gbp_framework_share": 1199537,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Ministry of Housing, Communities and Local Government",
+          "contracts": 2,
+          "value_gbp": 23990000
+        },
+        "procurement_method_counts": {
+          "selective": 7,
+          "unspecified": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2018": {
+        "top_code": "79410000",
+        "top_label": "Business and management consultancy services",
+        "top_value_gbp": 0.0,
+        "n_distinct_codes": 1
+      },
+      "2019": {
+        "top_code": "79410000",
+        "top_label": "Business and management consultancy services",
+        "top_value_gbp": 3750000.0,
+        "n_distinct_codes": 3
+      },
+      "2020": {
+        "top_code": "79400000",
+        "top_label": "Business and management consultancy and related services",
+        "top_value_gbp": 69841580.0,
+        "n_distinct_codes": 17
+      },
+      "2021": {
+        "top_code": "79411100",
+        "top_label": "Business development consultancy services",
+        "top_value_gbp": 31223200.0,
+        "n_distinct_codes": 10
+      },
+      "2022": {
+        "top_code": "72221000",
+        "top_label": "Business analysis consultancy services",
+        "top_value_gbp": 1627520.0,
+        "n_distinct_codes": 7
+      },
+      "2023": {
+        "top_code": "71311200",
+        "top_label": "Transport systems consultancy services",
+        "top_value_gbp": 16216216.216216216,
+        "n_distinct_codes": 8
+      },
+      "2024": {
+        "top_code": "79411000",
+        "top_label": "General management consultancy services",
+        "top_value_gbp": 23990000.0,
+        "n_distinct_codes": 8
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": true,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 91,
+        "unspecified": 8,
+        "direct": 4,
+        "open": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 172360229.2228829,
+        "unspecified": 35760550.0,
+        "direct": 5912820.0,
+        "open": 2768000.0
+      },
+      "sole_source_pct_all_years": 2.73,
+      "competitive_pct_all_years": 80.78,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-99743",
+        "buyer_name": "Cabinet Office : Cabinet Office",
+        "contracts": 7,
+        "value_gbp": 65284300
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/8u5J6V4e",
+        "buyer_name": "BIP SOLUTIONS LIMITED",
+        "contracts": 1,
+        "value_gbp": 30000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/CkD254kv",
+        "buyer_name": "Ministry of Housing, Communities and Local Government",
+        "contracts": 2,
+        "value_gbp": 23990000
+      },
+      {
+        "buyer_id": "GB-GOR-D25",
+        "buyer_name": "H M Revenue & Customs",
+        "contracts": 8,
+        "value_gbp": 16494172
+      },
+      {
+        "buyer_id": "GB-CFS-254499",
+        "buyer_name": "DfTc - Department for Transport",
+        "contracts": 1,
+        "value_gbp": 16216216.216216216
+      },
+      {
+        "buyer_id": "GB-CFS-147078",
+        "buyer_name": "Department of Health and Social Care : Department of Health and Social Care",
+        "contracts": 7,
+        "value_gbp": 9712550
+      },
+      {
+        "buyer_id": "GB-CFS-156189",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 7,
+        "value_gbp": 5621380.0
+      },
+      {
+        "buyer_id": "GB-CFS-99926",
+        "buyer_name": "HM Treasury : HM Treasury",
+        "contracts": 9,
+        "value_gbp": 5426200
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/dXGP288m",
+        "buyer_name": "UK SHARED BUSINESS SERVICES LIMITED",
+        "contracts": 1,
+        "value_gbp": 5000000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 3,
+        "value_gbp": 3750000
+      },
+      {
+        "buyer_id": "GB-CFS-43251",
+        "buyer_name": "HS2",
+        "contracts": 2,
+        "value_gbp": 2836400
+      },
+      {
+        "buyer_id": "GB-CFS-156221",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 4,
+        "value_gbp": 2437700.0
+      },
+      {
+        "buyer_id": "GB-CFS-182991",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 2115000
+      },
+      {
+        "buyer_id": "GB-CFS-99348",
+        "buyer_name": "Ministry of Defence : Ministry of Defence",
+        "contracts": 2,
+        "value_gbp": 2005420
+      },
+      {
+        "buyer_id": "GB-CFS-148108",
+        "buyer_name": "Home Office",
+        "contracts": 2,
+        "value_gbp": 1864000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "79400000",
+        "label": "Business and management consultancy and related services",
+        "contracts": 24,
+        "value_gbp": 87169580.0
+      },
+      {
+        "code": "79411000",
+        "label": "General management consultancy services",
+        "contracts": 13,
+        "value_gbp": 34194460
+      },
+      {
+        "code": "79411100",
+        "label": "Business development consultancy services",
+        "contracts": 5,
+        "value_gbp": 31693200.0
+      },
+      {
+        "code": "71311200",
+        "label": "Transport systems consultancy services",
+        "contracts": 1,
+        "value_gbp": 16216216.216216216
+      },
+      {
+        "code": "79410000",
+        "label": "Business and management consultancy services",
+        "contracts": 11,
+        "value_gbp": 6740485.0
+      },
+      {
+        "code": "71314000",
+        "label": "Energy and related services",
+        "contracts": 1,
+        "value_gbp": 5000000
+      },
+      {
+        "code": "71241000",
+        "label": "Feasibility study, advisory service, analysis",
+        "contracts": 7,
+        "value_gbp": 4846500
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 5,
+        "value_gbp": 4839306.666666666
+      },
+      {
+        "code": "72224000",
+        "label": "Project management consultancy services",
+        "contracts": 8,
+        "value_gbp": 3582000
+      },
+      {
+        "code": "79000000",
+        "label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contracts": 3,
+        "value_gbp": 3218600
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-90bf1500-ed41-45a4-9419-df699e66f488",
+        "date": "2024-12-23T00:00:00Z",
+        "buyer": "Ministry of Housing, Communities and Local Government",
+        "title": "Standby Management Consultancy & Professional Services (Strategy)",
+        "value_gbp": 11995000,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2025-01-06T00:00:00Z",
+        "contract_end": "2028-01-05T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/95f9cf86-ad82-416d-95a5-9b2f3461634f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-90bf1500-ed41-45a4-9419-df699e66f488",
+        "date": "2024-12-23T00:00:00Z",
+        "buyer": "Ministry of Housing, Communities and Local Government",
+        "title": "Standby Management Consultancy & Professional Services (Strategy)",
+        "value_gbp": 11995000,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2025-01-06T00:00:00Z",
+        "contract_end": "2028-01-05T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/95f9cf86-ad82-416d-95a5-9b2f3461634f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d07a47c9-a050-4906-b16d-ff81bf9166f6",
+        "date": "2024-10-11T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "DDaT Review - Programme Design and Portfolio Review",
+        "value_gbp": 889000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2024-10-14T00:00:00+01:00",
+        "contract_end": "2024-11-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fb3acb70-95f7-4c6c-98b2-b8a49c3e70dc",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-91b6ec73-bf21-4cf7-a107-e6dd09c77fb0",
+        "date": "2024-07-08T00:00:00+01:00",
+        "buyer": "H M Revenue & Customs",
+        "title": "Value Initiatives",
+        "value_gbp": 225000,
+        "procurement_method": null,
+        "cpv_code": "72221000",
+        "cpv_label": "Business analysis consultancy services",
+        "contract_start": "2024-07-08T00:00:00+01:00",
+        "contract_end": "2024-09-02T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0da88b24-d526-4488-8e3d-df6c83078185",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-db5be89e-4604-4436-b6ce-24dc833ba4c8",
+        "date": "2024-07-08T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Strategic DDaT Review",
+        "value_gbp": 975000,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2024-07-08T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a5330589-9249-473b-9aba-3ddfac92dcd2",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-3ce29e2f-3694-4cda-bda7-a3bab272e591",
+        "date": "2024-04-04T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "FOR TRANSPARENCY PURPOSES ONLY - Consultancy to Supplement Defence Civilian HR Work on Base Workforce Data & Mode",
+        "value_gbp": 2115000,
+        "procurement_method": "selective",
+        "cpv_code": "79000000",
+        "cpv_label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contract_start": "2024-04-04T00:00:00+01:00",
+        "contract_end": "2024-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/78b1b1d6-570c-428b-a04c-8b2812c56d3a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c658d2d8-3c4e-4c6a-ad64-31192c2a1080",
+        "date": "2024-03-22T00:00:00Z",
+        "buyer": "NHS England",
+        "title": "Digital Maturity Assessments Contract Modification",
+        "value_gbp": 1470000,
+        "procurement_method": null,
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-03-23T00:00:00Z",
+        "contract_end": "2024-10-23T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3c20892e-7ef4-4c2d-8516-b4c5e9cc720a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-048b30de-b886-4daa-a0f3-ce5e0a78802b",
+        "date": "2024-03-05T00:00:00Z",
+        "buyer": "London Ambulance Service NHS Trust",
+        "title": "LAS Development & Deployment of a Patient Outcomes Application",
+        "value_gbp": 899662,
+        "procurement_method": "selective",
+        "cpv_code": "72212900",
+        "cpv_label": "Miscellaneous software development services and computer systems",
+        "contract_start": "2024-01-23T00:00:00Z",
+        "contract_end": "2024-07-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0d8f9c8f-8ef8-4a0b-ae14-31817fcf33cd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9b7ce092-93dc-414c-b2f5-ed4b8831a537",
+        "date": "2024-01-14T00:00:00Z",
+        "buyer": "London Ambulance Service NHS Trust",
+        "title": "LAS Understanding Cost Base and Performance",
+        "value_gbp": 299875,
+        "procurement_method": "selective",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2023-12-29T00:00:00Z",
+        "contract_end": "2024-02-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/638ac0b5-87b9-4df9-8451-f460b61064fc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8a548f14-09e8-44f9-a654-49381647231f",
+        "date": "2023-10-25T00:00:00+01:00",
+        "buyer": "Marine Management Organisation",
+        "title": "Decision Making Database Development & Analysis",
+        "value_gbp": 65000,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2023-10-25T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bdaa59c5-9391-49f0-b86e-a796fe694c4f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d320d113-89e1-4a87-9816-d930ef602774",
+        "date": "2023-10-13T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "SCAH Business Case Development",
+        "value_gbp": 599794,
+        "procurement_method": "selective",
+        "cpv_code": "66171000",
+        "cpv_label": "Financial consultancy services",
+        "contract_start": "2023-10-13T00:00:00+01:00",
+        "contract_end": "2023-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ebe7a1e5-40dd-4ee6-b6cd-67feae17c05b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8707479f-e190-4533-8b18-aea294c2940d",
+        "date": "2023-10-09T00:00:00+01:00",
+        "buyer": "H M Revenue & Customs",
+        "title": "Vat Split Payments Proof of Concept",
+        "value_gbp": 1384000,
+        "procurement_method": "open",
+        "cpv_code": "48110000",
+        "cpv_label": "Point of sale (POS) software package",
+        "contract_start": "2023-10-09T00:00:00+01:00",
+        "contract_end": "2025-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ce8b1f87-d9a1-4936-ae0d-4b07bda993b5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8707479f-e190-4533-8b18-aea294c2940d",
+        "date": "2023-08-30T00:00:00+01:00",
+        "buyer": "H M Revenue & Customs",
+        "title": "Vat Split Payments Proof of Concept",
+        "value_gbp": 1384000,
+        "procurement_method": "open",
+        "cpv_code": "48110000",
+        "cpv_label": "Point of sale (POS) software package",
+        "contract_start": "2023-10-09T00:00:00+01:00",
+        "contract_end": "2025-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ce8b1f87-d9a1-4936-ae0d-4b07bda993b5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-12eb78e8-1c5f-4db0-8f36-9c01de089ede",
+        "date": "2023-07-10T00:00:00+01:00",
+        "buyer": "DfTc - Department for Transport",
+        "title": "Specialist Technical and Commercial Advisory for Rail and Other Transport Systems Framework (STARThree)",
+        "value_gbp": 16216216.216216216,
+        "procurement_method": "selective",
+        "cpv_code": "71311200",
+        "cpv_label": "Transport systems consultancy services",
+        "contract_start": "2023-07-31T00:00:00+01:00",
+        "contract_end": "2025-07-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/80177b28-fd4c-4482-89d3-902384599e17",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4597a56e-1f6d-462d-bbcb-9031697a7dc3",
+        "date": "2023-05-23T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Supporting Enhancement of the Border TOM",
+        "value_gbp": 300000,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2023-05-22T00:00:00+01:00",
+        "contract_end": "2023-07-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d09ba618-7d42-4179-93d7-1e68d8a6f9bf",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4597a56e-1f6d-462d-bbcb-9031697a7dc3",
+        "date": "2023-05-23T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Supporting Enhancement of the Border TOM",
+        "value_gbp": 300000,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2023-05-22T00:00:00+01:00",
+        "contract_end": "2023-07-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/652d0b21-ea51-4f4c-90fb-6e354cb3e04f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1fc4bd6-6069-4f78-b4b8-3c81ce18643c",
+        "date": "2023-04-21T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Target Operating Model Analytical Assurance",
+        "value_gbp": 10000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-04-24T00:00:00+01:00",
+        "contract_end": "2023-05-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dbe33d6a-0c12-4700-b690-dfe65169193b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1fc4bd6-6069-4f78-b4b8-3c81ce18643c",
+        "date": "2023-04-21T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Target Operating Model Analytical Assurance",
+        "value_gbp": 100000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-04-24T00:00:00+01:00",
+        "contract_end": "2023-05-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/99d8a7d3-dc5e-4948-bacd-5a4139821c19",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fc3da89e-289c-4e72-ab48-89eb87992c15",
+        "date": "2023-04-12T00:00:00+01:00",
+        "buyer": "RPA",
+        "title": "DPEL_61540_008_Strategy, work planning and evidence support on private finance",
+        "value_gbp": 500000,
+        "procurement_method": "selective",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2023-03-15T00:00:00Z",
+        "contract_end": "2023-05-15T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/07ad04e6-25a3-40b6-9dc1-475ddbbfc28d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ad82bce2-12f4-4111-823e-d007a6dceffd",
+        "date": "2023-03-08T00:00:00Z",
+        "buyer": "DESNZ",
+        "title": "Department of Science, Innovation & Technology  - Plan Enabling Support",
+        "value_gbp": 475000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-03-08T00:00:00Z",
+        "contract_end": "2023-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/85ce4427-17dd-4777-bb89-01ca954034fa",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-224a863d-10c1-4dfa-a911-8e786fc725f5",
+        "date": "2023-03-02T00:00:00Z",
+        "buyer": "H M Revenue & Customs",
+        "title": "Service Excellence Programe",
+        "value_gbp": 1832172,
+        "procurement_method": "selective",
+        "cpv_code": "79900000",
+        "cpv_label": "Miscellaneous business and business-related services",
+        "contract_start": "2023-03-27T00:00:00+01:00",
+        "contract_end": "2023-09-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2fd3c648-73f3-4942-8724-a9911c290aa0",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-326bd234-4344-4b71-ae2d-f0b84f86f0a4",
+        "date": "2023-02-23T00:00:00Z",
+        "buyer": "H M Revenue & Customs",
+        "title": "Support the Design and Mobilisation of ITST",
+        "value_gbp": 11100000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-02-23T00:00:00Z",
+        "contract_end": "2023-03-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d6ef6800-e676-4e17-9305-1c80928a510e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f6604b49-8073-48a2-b4bb-d7ef34486f0b",
+        "date": "2023-02-07T00:00:00Z",
+        "buyer": "EA",
+        "title": "Rapid review of the regulatory compliance",
+        "value_gbp": 94825,
+        "procurement_method": "selective",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2023-01-25T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a2accbe9-052e-4be8-bb25-950c06007693",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f6604b49-8073-48a2-b4bb-d7ef34486f0b",
+        "date": "2023-02-07T00:00:00Z",
+        "buyer": "EA",
+        "title": "Rapid review of the regulatory compliance",
+        "value_gbp": 94825,
+        "procurement_method": "selective",
+        "cpv_code": "79410000",
+        "cpv_label": "Business and management consultancy services",
+        "contract_start": "2023-01-25T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6bf5ddf1-0600-4b89-88da-621364eb776d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9908634b-5be6-487b-9a59-d321ad9e0641",
+        "date": "2023-01-19T00:00:00Z",
+        "buyer": "McKinsey & Company, Inc. United Kingdom",
+        "title": "Data and Analytics Operating Model",
+        "value_gbp": 916666.67,
+        "procurement_method": "selective",
+        "cpv_code": "72590000",
+        "cpv_label": "Computer-related professional services",
+        "contract_start": "2022-12-10T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7537bbe5-fd71-4253-8696-d7d6970f0584",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9908634b-5be6-487b-9a59-d321ad9e0641",
+        "date": "2023-01-19T00:00:00Z",
+        "buyer": "McKinsey & Company, Inc. United Kingdom",
+        "title": "Data and Analytics Operating Model",
+        "value_gbp": 916666.67,
+        "procurement_method": "selective",
+        "cpv_code": "72590000",
+        "cpv_label": "Computer-related professional services",
+        "contract_start": "2022-12-10T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f96eeace-09db-47d0-a772-0a6ce65b2808",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4ed5adb2-b630-4401-b877-807db19b33b4",
+        "date": "2023-01-11T00:00:00Z",
+        "buyer": "Marine Management Organisation",
+        "title": "Marine Natural Capital",
+        "value_gbp": 65000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-01-11T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/762bae04-9f00-42c4-a166-4bfdb638eb9b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4ed5adb2-b630-4401-b877-807db19b33b4",
+        "date": "2023-01-11T00:00:00Z",
+        "buyer": "Marina Management Organisation",
+        "title": "Marine Natural Capital",
+        "value_gbp": 65000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-01-11T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/89ca1d8d-485d-4d88-aef8-c1dc2d92fdee",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4ed5adb2-b630-4401-b877-807db19b33b4",
+        "date": "2023-01-11T00:00:00Z",
+        "buyer": "MMO",
+        "title": "Marine Natural Capital",
+        "value_gbp": 65000,
+        "procurement_method": "selective",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2023-01-11T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d961c3b3-5b05-4019-b4e3-1ed39521d58b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b9665ce3-e69b-44e2-87e6-d5b2caa72996",
+        "date": "2022-12-30T00:00:00Z",
+        "buyer": "NHS England",
+        "title": "Data and Analytics Operating Model across NHS England Discovery",
+        "value_gbp": 99000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-09-23T00:00:00+01:00",
+        "contract_end": "2022-11-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/469af073-ff4c-4533-94b3-beed9a5765e8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 10121567,
+      "awarded_2024_gbp_from_cf": 30863537,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 3.0× current payments — major pipeline for 2025+.",
+      "ratio": 3.05
+    }
+  }
+}

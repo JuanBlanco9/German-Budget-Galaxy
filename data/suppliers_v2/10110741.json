@@ -1,0 +1,192 @@
+{
+  "company_number": "10110741",
+  "display_name": "EEA MEDICAL CLAIMS",
+  "identity": {
+    "ch_number": "10110741",
+    "official_name": "EEA MEDICAL LTD",
+    "display_name": "EEA MEDICAL CLAIMS",
+    "status": "dissolved",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2016-04-07",
+    "age_years": 10,
+    "registered_office": {
+      "address_line_1": "27 Old Gloucester Street",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "WC1N 3AX"
+    },
+    "sic_codes": [
+      "86220"
+    ],
+    "sic_labels": [
+      "SIC 86220"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/10110741"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 72979180,
+    "rank": 298,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 72979180,
+        "segments": [
+          {
+            "segment": "Global & Public Health",
+            "amount_gbp": 68695036,
+            "pct_of_segment": 1.54,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "GPH",
+            "amount_gbp": 4284144,
+            "pct_of_segment": 9.92,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2017-06-19",
+    "period_end": "2017-04-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-micro-entity",
+    "transaction_id": "MzE3ODM0MzIxNWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/10110741_2017-06-19.pdf",
+      "size_mb": 0.02,
+      "exists": true
+    },
+    "next_accounts_due": null,
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "STUEWE, Lars",
+          "role": "director",
+          "appointed_on": "2016-04-07",
+          "resigned_on": "2018-05-30",
+          "nationality": "German",
+          "occupation": null,
+          "country_of_residence": "Gibraltar",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1978
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "10110741",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 48,
+    "label": "low",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10110741"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzE3ODM0MzIxNWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/10110741_2017-06-19.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10110741/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10110741/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 298,
+    "enriched_at": "2026-04-16T20:01:10Z",
+    "governance_enriched_at": "2026-04-16T22:18:46Z",
+    "ubo_enriched_at": "2026-04-16T23:01:13Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

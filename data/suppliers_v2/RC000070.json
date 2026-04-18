@@ -1,0 +1,978 @@
+{
+  "company_number": "RC000070",
+  "display_name": "BRITISH RED CROSS",
+  "identity": {
+    "ch_number": "RC000070",
+    "official_name": "BRITISH RED CROSS SOCIETY",
+    "display_name": "BRITISH RED CROSS",
+    "status": "active",
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000070"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 52748511,
+    "rank": 369,
+    "category": "charity",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "foreign_commonwealth_and_development_office",
+        "dept_name": "FCDO",
+        "amount_gbp": 52748511,
+        "segments": [
+          {
+            "segment": "International NGOs",
+            "amount_gbp": 52748511,
+            "pct_of_segment": 14.01,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000070",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 78,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000070"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000070/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000070/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "charity",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 369,
+    "enriched_at": "2026-04-16T20:06:39Z",
+    "governance_enriched_at": "2026-04-16T22:21:21Z",
+    "ubo_enriched_at": "2026-04-16T23:08:03Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:10Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 39,
+      "total_contracts_non_framework": 30,
+      "total_awarded_gbp": 246734321.5525,
+      "total_awarded_non_framework_gbp": 17001248.99,
+      "years_active": 6,
+      "first_year": 2019,
+      "last_year": 2024,
+      "trajectory": "declining",
+      "trajectory_note": "CAGR -34.6% between 2020 (£6M) and 2024 (£1M)",
+      "longest_buyer_relationship": {
+        "buyer": "NHS Shared Business Services",
+        "years_count": 2,
+        "years_list": [
+          2020,
+          2023
+        ],
+        "total_value_gbp": 25386348.0,
+        "n_contracts": 2
+      },
+      "n_unique_buyers_all_years": 25,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 100000,
+        "awarded_gbp_non_framework": 100000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Trafford Council",
+          "contracts": 1,
+          "value_gbp": 100000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 6429621.0,
+        "awarded_gbp_non_framework": 6429621.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 40.26,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 7,
+        "top_buyer": {
+          "buyer": "NHS England",
+          "contracts": 3,
+          "value_gbp": 3890456.0
+        },
+        "procurement_method_counts": {
+          "direct": 4,
+          "selective": 2,
+          "open": 3
+        }
+      },
+      "2021": {
+        "n_contracts": 11,
+        "n_contracts_non_framework": 10,
+        "awarded_gbp_total": 2362873.0425,
+        "awarded_gbp_non_framework": 1029800.48,
+        "awarded_gbp_framework_share": 1333072.5625,
+        "sole_source_pct": 4.91,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Peterborough City Council",
+          "contracts": 2,
+          "value_gbp": 1382492.0425
+        },
+        "procurement_method_counts": {
+          "open": 8,
+          "limited": 1,
+          "unspecified": 1,
+          "direct": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 6,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 5788284.0,
+        "awarded_gbp_non_framework": 4588284,
+        "awarded_gbp_framework_share": 1200000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "South of England Procurement Centre",
+          "contracts": 1,
+          "value_gbp": 1682050
+        },
+        "procurement_method_counts": {
+          "open": 6
+        }
+      },
+      "2023": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 230877133.0,
+        "awarded_gbp_non_framework": 3677133,
+        "awarded_gbp_framework_share": 227200000.0,
+        "sole_source_pct": 1.13,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 5,
+        "top_buyer": {
+          "buyer": "Nottinghamshire County Council",
+          "contracts": 4,
+          "value_gbp": 202200000
+        },
+        "procurement_method_counts": {
+          "direct": 2,
+          "open": 2,
+          "selective": 4
+        }
+      },
+      "2024": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 1176410.51,
+        "awarded_gbp_non_framework": 1176410.51,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 10.82,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Reading Borough Council",
+          "contracts": 1,
+          "value_gbp": 675000
+        },
+        "procurement_method_counts": {
+          "limited": 1,
+          "direct": 1,
+          "open": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "85100000",
+        "top_label": "Health services",
+        "top_value_gbp": 100000.0,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "85100000",
+        "top_label": "Health services",
+        "top_value_gbp": 2386348.0,
+        "n_distinct_codes": 5
+      },
+      "2021": {
+        "top_code": "85312000",
+        "top_label": "Social work services without accommodation",
+        "top_value_gbp": 1333072.5625,
+        "n_distinct_codes": 7
+      },
+      "2022": {
+        "top_code": "85000000",
+        "top_label": "Health and social work services",
+        "top_value_gbp": 3088284.0,
+        "n_distinct_codes": 3
+      },
+      "2023": {
+        "top_code": "85000000",
+        "top_label": "Health and social work services",
+        "top_value_gbp": 230632133.0,
+        "n_distinct_codes": 2
+      },
+      "2024": {
+        "top_code": "85320000",
+        "top_label": "Social services",
+        "top_value_gbp": 675000.0,
+        "n_distinct_codes": 3
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": true,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "direct": 8,
+        "selective": 6,
+        "open": 22,
+        "limited": 2,
+        "unspecified": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "direct": 5359877.98,
+        "selective": 205931350.0,
+        "open": 35288061.5725,
+        "limited": 91100.0,
+        "unspecified": 63932.0
+      },
+      "sole_source_pct_all_years": 2.21,
+      "competitive_pct_all_years": 97.76,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-227",
+        "buyer_name": "Nottinghamshire County Council",
+        "contracts": 4,
+        "value_gbp": 202200000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/m6gv6TMA",
+        "buyer_name": "NHS Shared Business Services",
+        "contracts": 2,
+        "value_gbp": 25386348.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/6skA8DF4",
+        "buyer_name": "South of England Procurement Centre",
+        "contracts": 2,
+        "value_gbp": 3682050
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/brx92AEy",
+        "buyer_name": "North Hertfordshire District Council",
+        "contracts": 1,
+        "value_gbp": 2374000
+      },
+      {
+        "buyer_id": "GB-CFS-106909",
+        "buyer_name": "NHS England",
+        "contracts": 2,
+        "value_gbp": 2159106.0
+      },
+      {
+        "buyer_id": "GB-CFS-51020",
+        "buyer_name": "NHS England",
+        "contracts": 1,
+        "value_gbp": 1731350
+      },
+      {
+        "buyer_id": "GB-CFS-145454",
+        "buyer_name": "Kettering General Hospital NHS Foundation Trust",
+        "contracts": 1,
+        "value_gbp": 1500000
+      },
+      {
+        "buyer_id": "GB-CFS-128723",
+        "buyer_name": "Peterborough City Council",
+        "contracts": 1,
+        "value_gbp": 1333072.5625
+      },
+      {
+        "buyer_id": "GB-CFS-198881",
+        "buyer_name": "Yorkshire Ambulance Service NHS Trust",
+        "contracts": 1,
+        "value_gbp": 1200000.0
+      },
+      {
+        "buyer_id": "GB-CFS-188336",
+        "buyer_name": "East Riding of Yorkshire Council",
+        "contracts": 1,
+        "value_gbp": 1058133
+      },
+      {
+        "buyer_id": "GB-CFS-154396",
+        "buyer_name": "Bedford Borough Council",
+        "contracts": 3,
+        "value_gbp": 931908
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/kAv63w3S",
+        "buyer_name": "Reading Borough Council",
+        "contracts": 1,
+        "value_gbp": 675000
+      },
+      {
+        "buyer_id": "GB-CFS-149609",
+        "buyer_name": "Central and North West London NHS Foundation Trust",
+        "contracts": 1,
+        "value_gbp": 644246
+      },
+      {
+        "buyer_id": "GB-CFS-220970",
+        "buyer_name": "NHS Midlands and Lancashire CSU",
+        "contracts": 1,
+        "value_gbp": 393000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/m6gv6TMA",
+        "buyer_name": "N H S Shared Business Services",
+        "contracts": 1,
+        "value_gbp": 374126.01
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "85000000",
+        "label": "Health and social work services",
+        "contracts": 17,
+        "value_gbp": 236601194.51
+      },
+      {
+        "code": "85100000",
+        "label": "Health services",
+        "contracts": 4,
+        "value_gbp": 2731348
+      },
+      {
+        "code": "34114122",
+        "label": "Patient-transport vehicles",
+        "contracts": 3,
+        "value_gbp": 2159106.0
+      },
+      {
+        "code": "85311100",
+        "label": "Welfare services for the elderly",
+        "contracts": 1,
+        "value_gbp": 1500000
+      },
+      {
+        "code": "85312000",
+        "label": "Social work services without accommodation",
+        "contracts": 1,
+        "value_gbp": 1333072.5625
+      },
+      {
+        "code": "85143000",
+        "label": "Ambulance services",
+        "contracts": 1,
+        "value_gbp": 1200000.0
+      },
+      {
+        "code": "85320000",
+        "label": "Social services",
+        "contracts": 1,
+        "value_gbp": 675000
+      },
+      {
+        "code": "85312320",
+        "label": "Counselling services",
+        "contracts": 3,
+        "value_gbp": 153729
+      },
+      {
+        "code": "80560000",
+        "label": "Health and first-aid training services",
+        "contracts": 2,
+        "value_gbp": 133200
+      },
+      {
+        "code": "80562000",
+        "label": "First-aid training services",
+        "contracts": 1,
+        "value_gbp": 66600
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-a250768d-08cf-4398-afc2-1a3c92fea260",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Met Office",
+        "title": "First Aid Training Services",
+        "value_gbp": 24500,
+        "procurement_method": "limited",
+        "cpv_code": "80550000",
+        "cpv_label": "Safety training services",
+        "contract_start": "2024-09-05T00:00:00+01:00",
+        "contract_end": "2027-08-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/62b51394-ebc0-4034-a90b-86b06ff7af1c",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-81f67976-54ff-4f66-9c6e-021bb95f8c3a",
+        "date": "2024-06-13T00:00:00+01:00",
+        "buyer": "Kings College Hospital",
+        "title": "KCH Next Steps Care in Home",
+        "value_gbp": 102784.5,
+        "procurement_method": "direct",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2024-03-01T00:00:00Z",
+        "contract_end": "2025-03-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/853d1689-0388-49ae-be8b-04160bc19ddd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-64f61eeb-7faa-49dc-a0b2-7b22305be36d",
+        "date": "2024-06-03T00:00:00+01:00",
+        "buyer": "N H S Shared Business Services",
+        "title": "Award of Provision of a Home From Hospital service in Croydon on behalf of NHS South West London Integrated Care Board",
+        "value_gbp": 374126.01,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2027-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8fcbc89a-a697-4cef-8673-c8ad2243aa38",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-cca4b5d7-3077-4c6a-9198-02ef0a433e26",
+        "date": "2024-04-17T00:00:00+01:00",
+        "buyer": "Reading Borough Council",
+        "title": "First Point of Contact with Reading Adult Social Care - Lot 1",
+        "value_gbp": 675000,
+        "procurement_method": "open",
+        "cpv_code": "85320000",
+        "cpv_label": "Social services",
+        "contract_start": "2024-04-26T00:00:00+01:00",
+        "contract_end": "2029-04-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4d5e1bf7-1857-46e2-b73c-3217435076e7",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-540bfb16-9526-44e6-baba-8232153ea3d4",
+        "date": "2023-07-28T00:00:00+01:00",
+        "buyer": "East Riding of Yorkshire Council",
+        "title": "Local CoOrdination Service",
+        "value_gbp": 1058133,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-10-01T00:00:00+01:00",
+        "contract_end": "2026-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/65b6070d-0d32-412d-a2c1-29b00bed087f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4e42472f-6de0-416b-8aec-fd1f03e688d8",
+        "date": "2023-07-12T00:00:00+01:00",
+        "buyer": "NHS Shared Business Services",
+        "title": "PATIENT DISCHARGE AND MENTAL HEALTH STEP DOWN CARE SERVICES (SBS10230)",
+        "value_gbp": 25000000.0,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-07-17T00:00:00+01:00",
+        "contract_end": "2026-07-16T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a311ef9c-9376-42d7-ae63-e1af3a4da04b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-414c5fae-deba-4400-b529-b85f455d36f5",
+        "date": "2023-07-01T00:00:00+01:00",
+        "buyer": "North Hertfordshire District Council",
+        "title": "Awarded - Supply of a Response Service to Telecare Service Users",
+        "value_gbp": 2374000,
+        "procurement_method": "direct",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-07-01T00:00:00+01:00",
+        "contract_end": "2028-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2bc04b9c-9251-4539-a19b-b2c8049ba950",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-aa315dd2-5674-4156-961a-56d1d167d2ed",
+        "date": "2023-03-28T00:00:00+01:00",
+        "buyer": "Herefordshire & Worcestershire Integrated Care Board",
+        "title": "A&E High Intensity Usage Service for NHS Herefordshire & Worcestershire ICB",
+        "value_gbp": 245000,
+        "procurement_method": "direct",
+        "cpv_code": "85100000",
+        "cpv_label": "Health services",
+        "contract_start": "2023-03-28T00:00:00+01:00",
+        "contract_end": "2025-03-27T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a7fb975e-fc16-43c6-ad1d-fbe4eaf9b3f0",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7498891d-3ad3-492d-8cf3-d2d6ac1b465f",
+        "date": "2023-03-22T00:00:00Z",
+        "buyer": "Nottinghamshire County Council",
+        "title": "Integrated Community Equipment Loans Service (ICELS) Framework Agreement - Call-Off Order 3, Minor Adaptations",
+        "value_gbp": 5200000,
+        "procurement_method": "selective",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ace7b44f-9212-4011-8ad5-7a9ac19e38ab",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-f08904fc-a6ee-46db-8d09-66ee484892e1",
+        "date": "2023-03-22T00:00:00Z",
+        "buyer": "Nottinghamshire County Council",
+        "title": "Integrated Community Equipment Loans Service (ICELS) Framework Agreement - Call-Off Order 2, Community Equipment - Children",
+        "value_gbp": 16000000,
+        "procurement_method": "selective",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7f474f56-d9b4-4467-a978-5ef5b6116cc6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e60d76d9-08a2-446a-9544-10ae8be355ea",
+        "date": "2023-03-22T00:00:00Z",
+        "buyer": "Nottinghamshire County Council",
+        "title": "Integrated Community Equipment Loans Service (ICELS) Framework Agreement - Call-Off Order 1, Community Equipment - Adults",
+        "value_gbp": 81000000,
+        "procurement_method": "selective",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d565bf57-e45d-4b46-8066-97fd061914bc",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-e60d76d9-08a2-446a-9544-10ae8be355ea",
+        "date": "2023-03-22T00:00:00Z",
+        "buyer": "Nottinghamshire County Council",
+        "title": "Integrated Community Equipment Loans Service (ICELS)",
+        "value_gbp": 100000000,
+        "procurement_method": "selective",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/be0dc932-ffcf-45b5-bfd1-dc425ad25b27",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-cf5699a4-496b-4078-9f3e-5706086b12f0",
+        "date": "2022-12-21T00:00:00Z",
+        "buyer": "South of England Procurement Centre",
+        "title": "High Intensity User Service NHS/SOEPS/21.825 ITT",
+        "value_gbp": 1682050,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2022-09-28T00:00:00+01:00",
+        "contract_end": "2027-09-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4d92ac04-8153-417a-80f3-0df87805f230",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-21f9de18-8f1a-4971-a2e2-bc355c20369f",
+        "date": "2022-11-07T00:00:00Z",
+        "buyer": "Yorkshire Ambulance Service NHS Trust",
+        "title": "YAS 118 Non Emergency Patient Transport Services with Lots",
+        "value_gbp": 1200000.0,
+        "procurement_method": "open",
+        "cpv_code": "85143000",
+        "cpv_label": "Ambulance services",
+        "contract_start": "2022-11-07T00:00:00Z",
+        "contract_end": "2026-11-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3a0df1ba-b058-4cf9-8248-9ada4c6452dc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ec51ad98-6c1a-4799-beb7-885c8701ecc4",
+        "date": "2022-06-28T00:00:00+01:00",
+        "buyer": "NHS Midlands and Lancashire CSU",
+        "title": "Positive Lives Services for NHS Shropshire, Telford and Wrekin Integrated Care Board",
+        "value_gbp": 393000,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2026-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6e335f15-2a79-4f16-be3b-71ff2183fc23",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-60fd9fe1-2788-4b56-b661-a3aca81aa6e1",
+        "date": "2022-06-21T00:00:00+01:00",
+        "buyer": "Bedford Borough Council",
+        "title": "Home from Hospital Service and Home Support and Reablement Service 2022 - AWARD",
+        "value_gbp": 368988,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2022-08-01T00:00:00+01:00",
+        "contract_end": "2025-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/88cce927-2b02-46a0-b5c7-d5fb7ee874ca",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-060ca8ee-d1be-43ed-ac2c-bb429dd8c97e",
+        "date": "2022-03-10T00:00:00Z",
+        "buyer": "Central and North West London NHS Foundation Trust",
+        "title": "High Intensity User Service",
+        "value_gbp": 644246,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2022-04-25T00:00:00+01:00",
+        "contract_end": "2024-04-24T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cfa4c703-0ff4-4843-9dd2-8df4fa3f102a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2802fc83-df9b-44db-b69e-a097dcf73104",
+        "date": "2022-01-10T00:00:00Z",
+        "buyer": "Kettering General Hospital NHS Foundation Trust",
+        "title": "Home from Hospital Discharge Services",
+        "value_gbp": 1500000,
+        "procurement_method": "open",
+        "cpv_code": "85311100",
+        "cpv_label": "Welfare services for the elderly",
+        "contract_start": "2022-03-27T00:00:00Z",
+        "contract_end": "2025-03-26T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bdd9cba3-9300-4f1e-a8c0-f2b6a00cc9a4",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-3b7f5dfb-adf2-4f5a-a78f-8f2cfa452ff7",
+        "date": "2021-12-07T00:00:00Z",
+        "buyer": "Department of Health and Social Care",
+        "title": "Essex Mental Health Independent Services - Emotional and Counselling support",
+        "value_gbp": 51243,
+        "procurement_method": "open",
+        "cpv_code": "85312320",
+        "cpv_label": "Counselling services",
+        "contract_start": "2021-12-03T00:00:00Z",
+        "contract_end": "2022-07-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bc9d6ba0-1b76-4a3d-b6a4-9acfb3f77948",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3b7f5dfb-adf2-4f5a-a78f-8f2cfa452ff7",
+        "date": "2021-12-07T00:00:00Z",
+        "buyer": "Department of Health and Social Care",
+        "title": "Essex Mental Health Independent Services - Emotional and Counselling support",
+        "value_gbp": 51243,
+        "procurement_method": "open",
+        "cpv_code": "85312320",
+        "cpv_label": "Counselling services",
+        "contract_start": "2021-12-03T00:00:00Z",
+        "contract_end": "2022-07-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/63e7a8db-4cb0-48da-9b81-ae3fa77808c3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3b7f5dfb-adf2-4f5a-a78f-8f2cfa452ff7",
+        "date": "2021-12-07T00:00:00Z",
+        "buyer": "ATAMIS LTD",
+        "title": "Essex Mental Health Independent Services - Emotional and Counselling support",
+        "value_gbp": 51243,
+        "procurement_method": "open",
+        "cpv_code": "85312320",
+        "cpv_label": "Counselling services",
+        "contract_start": "2021-12-03T00:00:00Z",
+        "contract_end": "2022-07-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bc9d6ba0-1b76-4a3d-b6a4-9acfb3f77948",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b688ce74-0e1a-4630-a4ad-cc8a2e389812",
+        "date": "2021-11-15T00:00:00Z",
+        "buyer": "Bedford Borough Council",
+        "title": "Home from Hospital Service and  Home Support and Reablement Service and Supporting Independence Service - AWARD",
+        "value_gbp": 281460,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2021-11-01T00:00:00Z",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/13c2d76c-dd5e-4bb6-951b-acd912c6f588",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-b688ce74-0e1a-4630-a4ad-cc8a2e389812",
+        "date": "2021-11-15T00:00:00Z",
+        "buyer": "Bedford Borough Council",
+        "title": "Home from Hospital Service and  Home Support and Reablement Service and Supporting Independence Service - AWARD",
+        "value_gbp": 281460,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2021-11-01T00:00:00Z",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/13c2d76c-dd5e-4bb6-951b-acd912c6f588",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-ed89838a-02ff-4d82-8f85-3902dd9a02d7",
+        "date": "2021-09-02T00:00:00+01:00",
+        "buyer": "Peterborough City Council",
+        "title": "British Red Cross Community Support at Home",
+        "value_gbp": 49419.48,
+        "procurement_method": "direct",
+        "cpv_code": "85144000",
+        "cpv_label": "Residential health facilities services",
+        "contract_start": "2021-10-01T00:00:00+01:00",
+        "contract_end": "2022-11-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/acc30716-845e-4042-b796-a8911d23f3f9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fde32c6d-061b-4054-b15d-ef1f52387643",
+        "date": "2021-05-03T00:00:00+01:00",
+        "buyer": "Peterborough City Council",
+        "title": "Early Intervention and Prevention Pseudo Dynamic Purchasing System (DPS)",
+        "value_gbp": 1333072.5625,
+        "procurement_method": "open",
+        "cpv_code": "85312000",
+        "cpv_label": "Social work services without accommodation",
+        "contract_start": "2021-05-03T00:00:00+01:00",
+        "contract_end": "2028-05-02T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b93ac519-ef6a-48a7-83ce-662a339be25a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1f02e69-9b0f-4572-be00-3cd11101108b",
+        "date": "2021-03-31T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF DERBY",
+        "title": "First Aid Training Courses",
+        "value_gbp": 66600,
+        "procurement_method": "open",
+        "cpv_code": "80560000",
+        "cpv_label": "Health and first-aid training services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/800d4a35-71d4-4bfe-9dee-3de91fe8d042",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1f02e69-9b0f-4572-be00-3cd11101108b",
+        "date": "2021-03-31T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF DERBY",
+        "title": "First Aid Training Courses",
+        "value_gbp": 66600,
+        "procurement_method": "open",
+        "cpv_code": "80560000",
+        "cpv_label": "Health and first-aid training services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/800d4a35-71d4-4bfe-9dee-3de91fe8d042",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-6d4465f9-ebad-41ad-b269-b4be1da3013a",
+        "date": "2021-03-30T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF DERBY",
+        "title": "First Aid at Work Training Courses",
+        "value_gbp": 66600,
+        "procurement_method": "limited",
+        "cpv_code": "80562000",
+        "cpv_label": "First-aid training services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/365613af-8546-4b90-bf81-f21d6197c0b4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-854f1715-0a06-4700-82e9-cda4cd8e63b6",
+        "date": "2021-03-10T00:00:00Z",
+        "buyer": ".East Riding Of Yorkshire Council",
+        "title": "Social Prescribing Connector Service",
+        "value_gbp": 63932,
+        "procurement_method": null,
+        "cpv_code": "85310000",
+        "cpv_label": "Social work services",
+        "contract_start": "2021-09-30T00:00:00+01:00",
+        "contract_end": "2022-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c9c5d588-fc3a-4dcb-8af1-d5c079904b82",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b35839b5-e2fc-44a1-9e9f-cc57f8693d01",
+        "date": "2020-12-23T00:00:00Z",
+        "buyer": "NOE CPC",
+        "title": "Secondary Care Access and Discharge Services - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "85110000",
+        "cpv_label": "Hospital and related services",
+        "contract_start": "2020-11-01T00:00:00Z",
+        "contract_end": "2022-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9c0cbd2-6ff6-42a2-a942-4a4716778852",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 52748511,
+      "awarded_2024_gbp_from_cf": 1176410.51,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 44.8× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.02
+    }
+  }
+}

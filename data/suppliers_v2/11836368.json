@@ -1,0 +1,234 @@
+{
+  "company_number": "11836368",
+  "display_name": "Abellio East Midlands Limited",
+  "identity": {
+    "ch_number": "11836368",
+    "official_name": "ABELLIO LIMITED",
+    "display_name": "Abellio East Midlands Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2019-02-20",
+    "age_years": 7,
+    "registered_office": {
+      "address_line_1": "30 Fleming Square",
+      "country": "England",
+      "locality": "Maryport",
+      "postal_code": "CA15 6HQ"
+    },
+    "sic_codes": [
+      "47910"
+    ],
+    "sic_labels": [
+      "SIC 47910"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/11836368"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 237339139,
+    "rank": 153,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 237339139,
+        "segments": [
+          {
+            "segment": "Department for Transport",
+            "amount_gbp": 237339139,
+            "pct_of_segment": 0.78,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-11-30",
+    "period_end": "2025-02-28",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzQ5MTY2MjU5N2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/11836368_2025-11-30.pdf",
+      "size_mb": 0.02,
+      "exists": true
+    },
+    "next_accounts_due": "2026-11-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "GRAHAM, Iysha Christianne",
+        "role": "director",
+        "appointed_on": "2019-06-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Maryport",
+          "postal_code": "CA15 6HQ",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "GRAHAM, Iysha Christianne",
+        "role": "director",
+        "appointed_on": "2019-06-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Maryport",
+          "postal_code": "CA15 6HQ",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "CREWE, Jai Sebastian",
+          "role": "director",
+          "appointed_on": "2019-02-20",
+          "resigned_on": "2019-06-04",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1997
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC2H 9JQ",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "11836368",
+          "name": "Ms Iysha Christianne Graham",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2019-06-04",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "11836368",
+            "notified_on": "2019-06-04",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/11836368/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Ms Iysha Christianne Graham"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 63,
+    "label": "medium",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-15",
+        "unknown_individual_ubo_very_large_spend"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11836368"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5MTY2MjU5N2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/11836368_2025-11-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11836368/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11836368/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 153,
+    "enriched_at": "2026-04-16T19:25:03Z",
+    "governance_enriched_at": "2026-04-16T22:12:39Z",
+    "ubo_enriched_at": "2026-04-16T22:51:59Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

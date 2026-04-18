@@ -1,0 +1,612 @@
+{
+  "company_number": "02991879",
+  "display_name": "Lgc Ltd",
+  "identity": {
+    "ch_number": "02991879",
+    "official_name": "LGC LIMITED",
+    "display_name": "Lgc Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1994-11-18",
+    "age_years": 31,
+    "registered_office": {
+      "address_line_1": "The Priestley Centre 10 Priestley Road",
+      "address_line_2": "Surrey Research Park",
+      "country": "England",
+      "locality": "Guildford",
+      "postal_code": "GU2 7XY"
+    },
+    "sic_codes": [
+      "74909"
+    ],
+    "sic_labels": [
+      "Other professional, scientific and technical activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02991879"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 13156143,
+    "rank": 685,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_science_innovation_and_technology",
+        "dept_name": "DSIT",
+        "amount_gbp": 13156143,
+        "segments": [
+          {
+            "segment": "Dsit - Science, Innovation And Growth - Dsit - International Research And Innovation Directorate",
+            "amount_gbp": 11748806,
+            "pct_of_segment": 0.37,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Dsit - Science, Innovation And Growth - Dsit - Technology And Innovation Regulation",
+            "amount_gbp": 1407337,
+            "pct_of_segment": 0.17,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-18",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5NTEyMTc1MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02991879_2025-12-18.pdf",
+      "size_mb": 1.2,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 31,
+    "board_turnover_ratio": 7.75,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BRAYBROOK, Julian Hugh, Dr",
+        "role": "director",
+        "appointed_on": "2018-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Guildford",
+          "postal_code": "GU2 7XY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GOSWAMI, Joydeep",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KAELLER, Marcus Rudolf",
+        "role": "director",
+        "appointed_on": "2024-06-03",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "Netherlands",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WATSON, Helen Ruth",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BRAYBROOK, Julian Hugh, Dr",
+        "role": "director",
+        "appointed_on": "2018-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Guildford",
+          "postal_code": "GU2 7XY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GOSWAMI, Joydeep",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KAELLER, Marcus Rudolf",
+        "role": "director",
+        "appointed_on": "2024-06-03",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "Netherlands",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WATSON, Helen Ruth",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 31,
+      "recent": [
+        {
+          "name": "O'SULLIVAN, Euan Ralph Herbert",
+          "role": "director",
+          "appointed_on": "2021-09-17",
+          "resigned_on": "2025-01-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1979
+          },
+          "address": {
+            "locality": "Teddington",
+            "postal_code": "TW11 0LY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "RICHARDS, Lucy",
+          "role": "secretary",
+          "appointed_on": "2022-09-01",
+          "resigned_on": "2024-09-17",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW11 0LY",
+            "country": null
+          }
+        },
+        {
+          "name": "SEHGAL, Vivid",
+          "role": "director",
+          "appointed_on": "2022-03-01",
+          "resigned_on": "2024-05-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1968
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW11 0LY",
+            "country": null
+          }
+        },
+        {
+          "name": "CAVANAGH, Teri-Anne, Ms.",
+          "role": "secretary",
+          "appointed_on": "2020-10-09",
+          "resigned_on": "2022-08-31",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW11 0LY",
+            "country": null
+          }
+        },
+        {
+          "name": "PARSONS, Simon Lawrence",
+          "role": "director",
+          "appointed_on": "2010-10-28",
+          "resigned_on": "2022-01-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1969
+          },
+          "address": {
+            "locality": "Teddington",
+            "postal_code": "TW11 0LY",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02991879",
+          "name": "Lgc Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02991879",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02991879/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03141667",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "03141667",
+          "name": "Lgc Investments Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03141667",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03141667/persons-with-significant-control/corporate-entity/kHnNNOcWYmPMrv6ZbzJO6FulUmc"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04841827",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "04841827",
+          "name": "Lgc Group Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04841827",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04841827/persons-with-significant-control/corporate-entity/FE1fN4pd5cqzFE3TncRXFlS_fTg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04812200",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "04812200",
+          "name": "Lgc Science Investments Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04812200",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04812200/persons-with-significant-control/corporate-entity/aF3pEZL1UW0qB8EIooSsetYkRWw"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07068771",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "07068771",
+          "name": "Lgc Science Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07068771",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07068771/persons-with-significant-control/corporate-entity/_B5yU9uma8NFY7Dn05bvCTivykM"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07115745",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "07115745",
+          "name": "Teddington 2 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07115745",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07115745/persons-with-significant-control/corporate-entity/XAwNhzJK5fKkKcq701BxTzptEgo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07110936",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "07110936",
+          "name": "Lgc Science Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07110936",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07110936/persons-with-significant-control/corporate-entity/wshwwG2hjo5KvdmrAAorOY1_bd4"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07110945",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 8,
+          "from_company": "07110945",
+          "name": "Teddington 3 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07110945",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07110945/persons-with-significant-control/corporate-entity/8QvR6K3HznMPRWPYEiE7uaWb1v8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09903564",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 9,
+          "from_company": "09903564",
+          "name": "Elwy 3 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09903564",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09903564/persons-with-significant-control/corporate-entity/mlyXT2OSLYhGSbpxkodr37Zu2Ok"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09905519",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 10,
+          "from_company": "09905519",
+          "name": "Elwy 2 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09905519",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09905519/persons-with-significant-control/corporate-entity/jZajnXdFZrIKX_5w_Cg5AgR-a-A"
+          },
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "parent_company_number": "09905091",
+          "original_resolution": "max_depth_reached",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02991879"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTEyMTc1MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02991879_2025-12-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02991879/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02991879/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 685,
+    "enriched_at": "2026-04-16T20:34:58Z",
+    "governance_enriched_at": "2026-04-16T22:36:45Z",
+    "ubo_enriched_at": "2026-04-16T23:22:33Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

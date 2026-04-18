@@ -1,0 +1,224 @@
+{
+  "company_number": "12539449",
+  "display_name": "INTERNATIONAL DEVELOPMENT RESEARCH CENTRE",
+  "identity": {
+    "ch_number": "12539449",
+    "official_name": "CAMBRIDGE CENTRE FOR INTERNATIONAL RESEARCH LTD",
+    "display_name": "INTERNATIONAL DEVELOPMENT RESEARCH CENTRE",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2020-03-30",
+    "age_years": 6,
+    "registered_office": {
+      "address_line_1": "The Bradfield Centre",
+      "address_line_2": "184 Cambridge Science Park Rd",
+      "country": "England",
+      "locality": "Milton",
+      "postal_code": "CB4 0GA",
+      "region": "Cambridge"
+    },
+    "sic_codes": [
+      "85590"
+    ],
+    "sic_labels": [
+      "Other education n.e.c."
+    ],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12539449"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 38079981,
+    "rank": 451,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "foreign_commonwealth_and_development_office",
+        "dept_name": "FCDO",
+        "amount_gbp": 38079981,
+        "segments": [
+          {
+            "segment": "Other Aid & Programmes",
+            "amount_gbp": 38079981,
+            "pct_of_segment": 0.99,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-27",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzUxMzAxNzM4NGFkaXF6a2N4",
+    "pdf": null,
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "ZHANG, Yingzi",
+        "role": "director",
+        "appointed_on": "2020-05-01",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1992
+        },
+        "address": {
+          "locality": "22202",
+          "postal_code": null,
+          "country": "United States"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "ZHANG, Yingzi",
+        "role": "director",
+        "appointed_on": "2020-05-01",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1992
+        },
+        "address": {
+          "locality": "22202",
+          "postal_code": null,
+          "country": "United States"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "ZHOU, Lei",
+          "role": "director",
+          "appointed_on": "2020-03-30",
+          "resigned_on": "2020-05-07",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1993
+          },
+          "address": {
+            "locality": "Arlington",
+            "postal_code": "22202",
+            "country": "United States"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "12539449",
+          "name": "Ms Yingzi Zhang",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control",
+            "significant-influence-or-control-as-trust",
+            "significant-influence-or-control-as-firm"
+          ],
+          "notified_on": "2020-05-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12539449",
+            "notified_on": "2020-05-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12539449/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Ms Yingzi Zhang"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12539449"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12539449/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12539449/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 451,
+    "enriched_at": "2026-04-16T20:13:37Z",
+    "governance_enriched_at": "2026-04-16T22:25:16Z",
+    "ubo_enriched_at": "2026-04-16T23:13:25Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

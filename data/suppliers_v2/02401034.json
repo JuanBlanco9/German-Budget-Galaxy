@@ -1,0 +1,695 @@
+{
+  "company_number": "02401034",
+  "display_name": "Student Loans Company Ltd",
+  "identity": {
+    "ch_number": "02401034",
+    "official_name": "STUDENT LOANS COMPANY LIMITED",
+    "display_name": "Student Loans Company Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1989-07-05",
+    "age_years": 36,
+    "registered_office": {
+      "address_line_1": "Memphis Building Lingfield Point",
+      "address_line_2": "Mcmullen Road",
+      "country": "England",
+      "locality": "Darlington",
+      "postal_code": "DL1 1RW"
+    },
+    "sic_codes": [
+      "64929"
+    ],
+    "sic_labels": [
+      "Other credit granting"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02401034"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 21303634477,
+    "rank": 1,
+    "category": "public_body",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 21303634477,
+        "segments": [
+          {
+            "segment": "Higher Education Oversight",
+            "amount_gbp": 21303634477,
+            "pct_of_segment": 89.26,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-24",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NTAxMTg3NGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02401034_2025-07-24.pdf",
+      "size_mb": 4.89,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 10,
+    "officers_resigned_count": 66,
+    "board_turnover_ratio": 6.6,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BEECH, Amanda",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CAMPBELL, Janette Anne",
+        "role": "director",
+        "appointed_on": "2024-10-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LARMER, Christopher James",
+        "role": "director",
+        "appointed_on": "2022-11-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MARSTON, Stephen Andrew",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "English",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MCCOLL, Audrey Majella",
+        "role": "director",
+        "appointed_on": "2021-08-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "OLLERENSHAW, Margaret",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PAGE, Gary Edward",
+        "role": "director",
+        "appointed_on": "2020-10-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TOOTHILL, Natasha",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WALLACE, David Gordon",
+        "role": "director",
+        "appointed_on": "2019-01-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "WOMERSLEY, Gary Stuart",
+        "role": "secretary",
+        "appointed_on": "2015-12-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "WOMERSLEY, Gary Stuart",
+        "role": "secretary",
+        "appointed_on": "2015-12-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BEECH, Amanda",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CAMPBELL, Janette Anne",
+        "role": "director",
+        "appointed_on": "2024-10-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LARMER, Christopher James",
+        "role": "director",
+        "appointed_on": "2022-11-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MARSTON, Stephen Andrew",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "English",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MCCOLL, Audrey Majella",
+        "role": "director",
+        "appointed_on": "2021-08-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "OLLERENSHAW, Margaret",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PAGE, Gary Edward",
+        "role": "director",
+        "appointed_on": "2020-10-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TOOTHILL, Natasha",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WALLACE, David Gordon",
+        "role": "director",
+        "appointed_on": "2019-01-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Darlington",
+          "postal_code": "DL1 1RW",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 66,
+      "recent": [
+        {
+          "name": "LAUENER, Peter Rene",
+          "role": "director",
+          "appointed_on": "2020-04-01",
+          "resigned_on": "2026-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1954
+          },
+          "address": {
+            "locality": "Darlington",
+            "postal_code": "DL1 1RW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MOAR, Charlotte Mary Celia",
+          "role": "director",
+          "appointed_on": "2019-05-07",
+          "resigned_on": "2025-05-06",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1967
+          },
+          "address": {
+            "locality": "Darlington",
+            "postal_code": "DL1 1RW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "TETLOW, Stephen John",
+          "role": "director",
+          "appointed_on": "2019-05-07",
+          "resigned_on": "2025-05-06",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1954
+          },
+          "address": {
+            "locality": "Darlington",
+            "postal_code": "DL1 1RW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CURNOCK COOK, Mary Elizabeth",
+          "role": "director",
+          "appointed_on": "2017-12-11",
+          "resigned_on": "2023-12-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1958
+          },
+          "address": {
+            "locality": "Darlington",
+            "postal_code": "DL1 1RW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WATHEY, Andrew Brian, Professor",
+          "role": "director",
+          "appointed_on": "2018-01-01",
+          "resigned_on": "2023-12-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1958
+          },
+          "address": {
+            "locality": "Darlington",
+            "postal_code": "DL1 1RW",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 4,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "government",
+    "direct_psc_count": 4,
+    "chains_count": 4,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02401034",
+          "name": "Secretary Of State For Education",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02401034",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02401034/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "02401034",
+          "name": "Minister For The Economy, Northern Ireland",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02401034",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02401034/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "02401034",
+          "name": "The Welsh Ministers",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02401034",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02401034/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "02401034",
+          "name": "The Scottish Ministers",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02401034",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02401034/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [
+        "Minister For The Economy, Northern Ireland",
+        "Secretary Of State For Education",
+        "The Scottish Ministers",
+        "The Welsh Ministers"
+      ],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+20",
+        "govt_psc_consistent_with_supplier"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02401034"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NTAxMTg3NGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02401034_2025-07-24.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02401034/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02401034/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "public_body",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 1,
+    "enriched_at": "2026-04-16T19:16:48Z",
+    "governance_enriched_at": "2026-04-16T22:09:06Z",
+    "ubo_enriched_at": "2026-04-16T22:46:49Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

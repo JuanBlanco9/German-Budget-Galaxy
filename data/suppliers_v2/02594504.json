@@ -1,0 +1,1532 @@
+{
+  "company_number": "02594504",
+  "display_name": "JACOBS UK LIMITED",
+  "identity": {
+    "ch_number": "02594504",
+    "official_name": "JACOBS U.K. LIMITED",
+    "display_name": "JACOBS UK LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1991-03-22",
+    "age_years": 35,
+    "registered_office": {
+      "address_line_1": "Cottons Centre",
+      "address_line_2": "Cottons Lane",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "SE1 2QG"
+    },
+    "sic_codes": [
+      "71129",
+      "82990"
+    ],
+    "sic_labels": [
+      "Other engineering activities",
+      "Other business support service activities"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02594504"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 102366138,
+    "rank": 246,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 72811078,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 72811078,
+            "pct_of_segment": 1.59,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 29555060,
+        "segments": [
+          {
+            "segment": "EA",
+            "amount_gbp": 29555060,
+            "pct_of_segment": 3,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-05-22",
+    "period_end": "2024-09-27",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ2NzUxMjIyMmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02594504_2025-05-22.pdf",
+      "size_mb": 3.59,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 8,
+    "officers_resigned_count": 62,
+    "board_turnover_ratio": 7.75,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "CARUSO, Joanne",
+        "role": "director",
+        "appointed_on": "2018-03-26",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LANE, Alexander James",
+        "role": "director",
+        "appointed_on": "2021-08-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1978
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MILES, Sally Linda Joyce",
+        "role": "director",
+        "appointed_on": "2020-12-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NASH, James Edward",
+        "role": "director",
+        "appointed_on": "2025-07-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NATHAMUNI, Venkatesh Rengarajan",
+        "role": "director",
+        "appointed_on": "2025-02-06",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SANDERSON, Richard Ian",
+        "role": "director",
+        "appointed_on": "2025-10-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SCOTT, Courtney",
+        "role": "director",
+        "appointed_on": "2024-10-15",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "ROBERTS, Geoffrey",
+        "role": "secretary",
+        "appointed_on": "2023-08-21",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "ROBERTS, Geoffrey",
+        "role": "secretary",
+        "appointed_on": "2023-08-21",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "CARUSO, Joanne",
+        "role": "director",
+        "appointed_on": "2018-03-26",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LANE, Alexander James",
+        "role": "director",
+        "appointed_on": "2021-08-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1978
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MILES, Sally Linda Joyce",
+        "role": "director",
+        "appointed_on": "2020-12-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NASH, James Edward",
+        "role": "director",
+        "appointed_on": "2025-07-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NATHAMUNI, Venkatesh Rengarajan",
+        "role": "director",
+        "appointed_on": "2025-02-06",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SANDERSON, Richard Ian",
+        "role": "director",
+        "appointed_on": "2025-10-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SCOTT, Courtney",
+        "role": "director",
+        "appointed_on": "2024-10-15",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 62,
+      "recent": [
+        {
+          "name": "KENNY, Katherine Helen",
+          "role": "director",
+          "appointed_on": "2020-12-09",
+          "resigned_on": "2025-07-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "PRAGADA, Robert Venkat",
+          "role": "director",
+          "appointed_on": "2016-06-22",
+          "resigned_on": "2025-02-06",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1968
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "ELLIS, David",
+          "role": "director",
+          "appointed_on": "2016-03-21",
+          "resigned_on": "2024-07-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1972
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HINTON, Martin Edward",
+          "role": "director",
+          "appointed_on": "2021-08-11",
+          "resigned_on": "2024-07-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "JARAMILLO, Claudia",
+          "role": "director",
+          "appointed_on": "2023-08-14",
+          "resigned_on": "2024-04-16",
+          "nationality": "Colombian",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Dallas",
+            "postal_code": null,
+            "country": "United States"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02594504",
+          "name": "Jacobs Uk Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02594504",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02594504/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04420029",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04420029",
+          "name": "Jacobs Europe Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04420029",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04420029/persons-with-significant-control/corporate-entity/92lHrBl9O8iJhYIE2cf0Kk6cbho"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09188414",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "09188414",
+          "name": "Jacobs Solutions Inc ",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-08-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09188414",
+            "notified_on": "2022-08-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09188414/persons-with-significant-control/corporate-entity/Cm_AqDNuKe8IQRVVUImOPLfTutE"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "United States",
+          "parent_registration_number": "6655558",
+          "wikidata": {
+            "qid": "Q3157622",
+            "label": "Jacobs Engineering Group",
+            "description": "American engineering and professional services company",
+            "match_quality": "medium_overlap",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q3157622",
+            "parent_chain": [
+              {
+                "qid": "Q3157622",
+                "label": "Jacobs Engineering Group",
+                "description": "American engineering and professional services company",
+                "country_labels": [
+                  "United States"
+                ],
+                "revision_id": 2475793086,
+                "source_url": "https://www.wikidata.org/wiki/Q3157622"
+              }
+            ],
+            "ultimate_label": "Jacobs Engineering Group",
+            "ultimate_country": "United States",
+            "queries_used": [
+              "Jacobs Solutions Inc ",
+              "Jacobs Solutions"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "United States"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02594504"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2NzUxMjIyMmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02594504_2025-05-22.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02594504/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02594504/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3157622"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 246,
+    "enriched_at": "2026-04-16T19:55:11Z",
+    "governance_enriched_at": "2026-04-16T22:16:29Z",
+    "ubo_enriched_at": "2026-04-16T22:57:44Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 648,
+      "total_contracts_non_framework": 594,
+      "total_awarded_gbp": 4248926387.833477,
+      "total_awarded_non_framework_gbp": 4116073321.2404604,
+      "years_active": 7,
+      "first_year": 2018,
+      "last_year": 2024,
+      "trajectory": "new_entrant",
+      "trajectory_note": "no contracts before 2024",
+      "longest_buyer_relationship": {
+        "buyer": "West Yorkshire Combined Authority",
+        "years_count": 5,
+        "years_list": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 58350691.08,
+        "n_contracts": 15
+      },
+      "n_unique_buyers_all_years": 107,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2018": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 6500000.0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 6500000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Homes England (the name adopted by the Homes and Communities Agency)",
+          "contracts": 1,
+          "value_gbp": 6500000.0
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 1503059836.0,
+        "awarded_gbp_non_framework": 1501559836,
+        "awarded_gbp_framework_share": 1500000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "THE DEPARTMENT FOR TRANSPORT",
+          "contracts": 2,
+          "value_gbp": 1501500000
+        },
+        "procurement_method_counts": {
+          "selective": 3,
+          "open": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 125,
+        "n_contracts_non_framework": 123,
+        "awarded_gbp_total": 1665324564.0897617,
+        "awarded_gbp_non_framework": 1665324564.0897617,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.84,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 23,
+        "top_buyer": {
+          "buyer": "Highways England",
+          "contracts": 7,
+          "value_gbp": 1430591695.3342855
+        },
+        "procurement_method_counts": {
+          "selective": 90,
+          "open": 24,
+          "unspecified": 6,
+          "direct": 4,
+          "limited": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 151,
+        "n_contracts_non_framework": 142,
+        "awarded_gbp_total": 227707063.93514284,
+        "awarded_gbp_non_framework": 263568380.05180952,
+        "awarded_gbp_framework_share": -35861316.11666667,
+        "sole_source_pct": 0.07,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 34,
+        "top_buyer": {
+          "buyer": "Highways England",
+          "contracts": 3,
+          "value_gbp": 211505176.66666666
+        },
+        "procurement_method_counts": {
+          "selective": 119,
+          "open": 17,
+          "unspecified": 12,
+          "direct": 3
+        }
+      },
+      "2022": {
+        "n_contracts": 147,
+        "n_contracts_non_framework": 129,
+        "awarded_gbp_total": 183209597.6823077,
+        "awarded_gbp_non_framework": 47592928.99,
+        "awarded_gbp_framework_share": 135616668.69230768,
+        "sole_source_pct": 0.82,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 25,
+        "top_buyer": {
+          "buyer": "CTM Portal for the NDA Shared Services Alliance",
+          "contracts": 10,
+          "value_gbp": 126012558.0
+        },
+        "procurement_method_counts": {
+          "selective": 125,
+          "direct": 3,
+          "unspecified": 8,
+          "open": 11
+        }
+      },
+      "2023": {
+        "n_contracts": 110,
+        "n_contracts_non_framework": 90,
+        "awarded_gbp_total": 246789171.44959813,
+        "awarded_gbp_non_framework": 234707773.09888887,
+        "awarded_gbp_framework_share": 12081398.350709256,
+        "sole_source_pct": 0.58,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 40,
+        "top_buyer": {
+          "buyer": "Worcestershire County Council",
+          "contracts": 3,
+          "value_gbp": 195000000
+        },
+        "procurement_method_counts": {
+          "selective": 83,
+          "unspecified": 6,
+          "open": 16,
+          "direct": 5
+        }
+      },
+      "2024": {
+        "n_contracts": 110,
+        "n_contracts_non_framework": 107,
+        "awarded_gbp_total": 416336154.6766667,
+        "awarded_gbp_non_framework": 403319839.01,
+        "awarded_gbp_framework_share": 13016315.666666666,
+        "sole_source_pct": 0.09,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 34,
+        "top_buyer": {
+          "buyer": "Hertfordshire County Council - Environment",
+          "contracts": 1,
+          "value_gbp": 290000000
+        },
+        "procurement_method_counts": {
+          "selective": 82,
+          "open": 9,
+          "unspecified": 12,
+          "direct": 7
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2018": {
+        "top_code": "71000000",
+        "top_label": "Architectural, construction, engineering and inspection services",
+        "top_value_gbp": 6500000.0,
+        "n_distinct_codes": 1
+      },
+      "2019": {
+        "top_code": "71311200",
+        "top_label": "Transport systems consultancy services",
+        "top_value_gbp": 1501500000.0,
+        "n_distinct_codes": 3
+      },
+      "2020": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 1285868269.7142856,
+        "n_distinct_codes": 46
+      },
+      "2021": {
+        "top_code": "71310000",
+        "top_label": "Consultative engineering and construction services",
+        "top_value_gbp": 162500000.0,
+        "n_distinct_codes": 49
+      },
+      "2022": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 125000000.0,
+        "n_distinct_codes": 38
+      },
+      "2023": {
+        "top_code": "71311000",
+        "top_label": "Civil engineering consultancy services",
+        "top_value_gbp": 195857853.0,
+        "n_distinct_codes": 45
+      },
+      "2024": {
+        "top_code": "71000000",
+        "top_label": "Architectural, construction, engineering and inspection services",
+        "top_value_gbp": 304390001.0,
+        "n_distinct_codes": 45
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": true,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 502,
+        "open": 79,
+        "unspecified": 44,
+        "direct": 22,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 3616705574.676816,
+        "open": 600575509.5899959,
+        "unspecified": 14206833.506666668,
+        "direct": 4438470.0600000005,
+        "limited": 13000000.0
+      },
+      "sole_source_pct_all_years": 0.41,
+      "competitive_pct_all_years": 98.16,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/tB9q2Ay5",
+        "buyer_name": "THE DEPARTMENT FOR TRANSPORT",
+        "contracts": 9,
+        "value_gbp": 1504227403
+      },
+      {
+        "buyer_id": "GB-CFS-46746",
+        "buyer_name": "Highways England",
+        "contracts": 2,
+        "value_gbp": 1285714285.7142856
+      },
+      {
+        "buyer_id": "GB-CFS-194046",
+        "buyer_name": "Hertfordshire County Council - Environment",
+        "contracts": 1,
+        "value_gbp": 290000000
+      },
+      {
+        "buyer_id": "GB-CFS-43412",
+        "buyer_name": "Worcestershire County Council",
+        "contracts": 7,
+        "value_gbp": 205000000
+      },
+      {
+        "buyer_id": "GB-CFS-42403",
+        "buyer_name": "Highways England",
+        "contracts": 1,
+        "value_gbp": 162500000
+      },
+      {
+        "buyer_id": "GB-CFS-270319",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 9,
+        "value_gbp": 153360000
+      },
+      {
+        "buyer_id": "GB-CFS-160803",
+        "buyer_name": "CTM Portal for the NDA Shared Services Alliance",
+        "contracts": 1,
+        "value_gbp": 125000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-39896",
+        "buyer_name": "Highways England",
+        "contracts": 2,
+        "value_gbp": 86666666.66666667
+      },
+      {
+        "buyer_id": "GB-CFS-176767",
+        "buyer_name": "Ministry of Justice.",
+        "contracts": 3,
+        "value_gbp": 51120000
+      },
+      {
+        "buyer_id": "GB-CFS-57999",
+        "buyer_name": "Highways England",
+        "contracts": 1,
+        "value_gbp": 46666666.666666664
+      },
+      {
+        "buyer_id": "GB-CFS-70145",
+        "buyer_name": "Highways England",
+        "contracts": 1,
+        "value_gbp": 43333333.333333336
+      },
+      {
+        "buyer_id": "GB-CFS-192422",
+        "buyer_name": "West Yorkshire Combined Authority",
+        "contracts": 9,
+        "value_gbp": 41209055.08
+      },
+      {
+        "buyer_id": "GB-CFS-147911",
+        "buyer_name": "CTM Portal for the NDA Shared Services Alliance",
+        "contracts": 2,
+        "value_gbp": 20600000.0
+      },
+      {
+        "buyer_id": "GB-CFS-47084",
+        "buyer_name": "West Yorkshire Combined Authority",
+        "contracts": 6,
+        "value_gbp": 17141636.0
+      },
+      {
+        "buyer_id": "GB-CFS-166459",
+        "buyer_name": "DfTc - Department for Transport",
+        "contracts": 21,
+        "value_gbp": 15173494
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "71311200",
+        "label": "Transport systems consultancy services",
+        "contracts": 41,
+        "value_gbp": 1536886368
+      },
+      {
+        "code": "45000000",
+        "label": "Construction work",
+        "contracts": 7,
+        "value_gbp": 1410962269.7142856
+      },
+      {
+        "code": "71000000",
+        "label": "Architectural, construction, engineering and inspection services",
+        "contracts": 36,
+        "value_gbp": 340286859.9281006
+      },
+      {
+        "code": "71311000",
+        "label": "Civil engineering consultancy services",
+        "contracts": 50,
+        "value_gbp": 205758108.00714284
+      },
+      {
+        "code": "75230000",
+        "label": "Justice services",
+        "contracts": 12,
+        "value_gbp": 204480000
+      },
+      {
+        "code": "71310000",
+        "label": "Consultative engineering and construction services",
+        "contracts": 11,
+        "value_gbp": 163856071.64
+      },
+      {
+        "code": "79415200",
+        "label": "Design consultancy services",
+        "contracts": 11,
+        "value_gbp": 132682064.53
+      },
+      {
+        "code": "66000000",
+        "label": "Financial and insurance services",
+        "contracts": 3,
+        "value_gbp": 46666666.666666664
+      },
+      {
+        "code": "71242000",
+        "label": "Project and design preparation, estimation of costs",
+        "contracts": 1,
+        "value_gbp": 30000000
+      },
+      {
+        "code": "09342000",
+        "label": "Plutonium",
+        "contracts": 2,
+        "value_gbp": 28000000.0
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-acb3b92d-51af-4e27-b100-41009e6f3710",
+        "date": "2024-12-16T00:00:00Z",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "RDE669 National Monitoring Programme Scoping Project for Water Company Wastewater Services",
+        "value_gbp": 65377,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-11-04T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c5bad79b-52ec-4a6b-b117-fd9c422d51e3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d3d204c9-88d3-4158-9bbe-e3e1d630bbe6",
+        "date": "2024-12-09T00:00:00Z",
+        "buyer": "National Highways",
+        "title": "M0091 - RIS3 Project Sponsorship",
+        "value_gbp": 415626.32,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2024-12-09T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6af9e04a-dacd-4751-95a7-c4d597a29340",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3f7c8f89-7b82-49f2-987f-17d7ee3b4d05",
+        "date": "2024-11-29T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "EAN - CDF Lot 1 - Hockwold & Wissey Sluices Refurbishment",
+        "value_gbp": 428500,
+        "procurement_method": "selective",
+        "cpv_code": "71322000",
+        "cpv_label": "Engineering design services for the construction of civil engineering works",
+        "contract_start": "2024-12-04T00:00:00Z",
+        "contract_end": "2025-12-19T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f974f31e-acee-4572-a2a8-b1756235ebee",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0d2c5f1c-43b1-442c-9532-7f7b9cb8bd2b",
+        "date": "2024-11-19T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "SW - CSF to CCS Trans - Reservoir Panel Engineers - Jacobs",
+        "value_gbp": 270108.32,
+        "procurement_method": "selective",
+        "cpv_code": "71311000",
+        "cpv_label": "Civil engineering consultancy services",
+        "contract_start": "2024-11-19T00:00:00Z",
+        "contract_end": "2026-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e09259fa-7bf9-429a-ac1e-1f77bdfd76f6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f428603f-5c3f-4da8-9b1c-336738765fe0",
+        "date": "2024-11-15T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "RDE700 PFAS Enhanced Monitoring 2024/2025  (Year 3) Catchment conceptualisation",
+        "value_gbp": 89831,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-11-19T00:00:00Z",
+        "contract_end": "2025-03-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8d6275aa-0ca0-428b-bfaa-0e2bfd642b37",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-879c8a22-5683-4e1b-bfd1-6bc3cb220e37",
+        "date": "2024-11-15T00:00:00Z",
+        "buyer": "West Yorkshire Combined Authority",
+        "title": "Bus Station Improvement Business Case Development",
+        "value_gbp": 119379,
+        "procurement_method": "selective",
+        "cpv_code": "71250000",
+        "cpv_label": "Architectural, engineering and surveying services",
+        "contract_start": "2024-11-15T00:00:00Z",
+        "contract_end": "2025-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/89a2b84e-4a0d-4e43-b81f-e7d2663ace16",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e8b26641-444d-4492-b50d-64caffec4b47",
+        "date": "2024-11-15T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "NW CDF Lot 1. Altmouth Asset Review",
+        "value_gbp": 63813,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2024-10-28T00:00:00Z",
+        "contract_end": "2025-03-25T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a1c69b59-2f73-45e9-9955-07fe26ae2650",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-713f8b0a-53e7-486c-b2e8-81b77307a177",
+        "date": "2024-11-15T00:00:00Z",
+        "buyer": "Defra group Commercial",
+        "title": "Collaborative Delivery Framework Programme Incentivisation (Eastern)",
+        "value_gbp": 1,
+        "procurement_method": "selective",
+        "cpv_code": "71311000",
+        "cpv_label": "Civil engineering consultancy services",
+        "contract_start": "2024-09-09T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/27301ce2-e87d-4784-8f8c-05247ff9f52c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d9b6f0d7-eaf5-4d2c-90ba-433948bf9faa",
+        "date": "2024-11-14T00:00:00Z",
+        "buyer": "DESNZ",
+        "title": "Independent technical advisory and review services relating to UK Emissions Trading Scheme",
+        "value_gbp": 24944,
+        "procurement_method": "selective",
+        "cpv_code": "76100000",
+        "cpv_label": "Professional services for the gas industry",
+        "contract_start": "2024-11-18T00:00:00Z",
+        "contract_end": "2025-03-15T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a007f7bb-3f2e-4807-a336-ac8cea4bde72",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d9b6f0d7-eaf5-4d2c-90ba-433948bf9faa",
+        "date": "2024-11-14T00:00:00Z",
+        "buyer": "DESNZ",
+        "title": "Independent technical advisory and review services relating to UK Emissions Trading Scheme",
+        "value_gbp": 29932,
+        "procurement_method": "selective",
+        "cpv_code": "76100000",
+        "cpv_label": "Professional services for the gas industry",
+        "contract_start": "2024-11-18T00:00:00Z",
+        "contract_end": "2025-03-15T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a007f7bb-3f2e-4807-a336-ac8cea4bde72",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-794db748-bbf3-4bae-b616-1b2466c3e932",
+        "date": "2024-11-13T00:00:00Z",
+        "buyer": "Natural England",
+        "title": "RDE708  Strategic Flood Risk Solutions for Lowland Peat Restoration",
+        "value_gbp": 31392,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-11-29T00:00:00Z",
+        "contract_end": "2025-03-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/766a6f8e-6eda-4cbb-b907-4390a5ad7f0f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6c21380c-46f3-485c-a228-3c49e2052657",
+        "date": "2024-11-13T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "SW - Phase 2 BiS - PM & PCM Services - WSX Bridges - Jacobs Direct Award - CCS",
+        "value_gbp": 81195.2,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e5ba3eea-554c-46f9-a2a4-e1a3ad97b752",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-304c4650-6f2b-4069-8626-d34e96ce91a6",
+        "date": "2024-11-12T00:00:00Z",
+        "buyer": "DfTc - Department for Transport",
+        "title": "THRE0041 - Rail Infrastructure North (Intercity team) Economic and Technical Advisors, and Project Clienting Services",
+        "value_gbp": 3500000,
+        "procurement_method": "selective",
+        "cpv_code": "71311200",
+        "cpv_label": "Transport systems consultancy services",
+        "contract_start": "2024-11-16T00:00:00Z",
+        "contract_end": "2026-11-17T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bfbd4d5b-3f0a-4a16-a922-453de35ac6dc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c8eb780f-a94f-4295-9a0b-6b8f4f4e7359",
+        "date": "2024-10-30T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "EAST - HNL - CDF - Asset Inspection Package 24-25",
+        "value_gbp": 344958,
+        "procurement_method": "selective",
+        "cpv_code": "71631000",
+        "cpv_label": "Technical inspection services",
+        "contract_start": "2024-09-12T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/acde39c7-2bd5-41d0-a707-42f511ae93dc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1e6d63dc-9646-4d6b-93e1-4ac6c9c4da80",
+        "date": "2024-10-30T00:00:00Z",
+        "buyer": "Environment Agency",
+        "title": "RDE691 Carbon emissions calculations for reference sites of high, medium and lo",
+        "value_gbp": 25616,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-11-01T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/26a99d79-0af5-41fb-bded-a31a1eb8a648",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-742f4265-e2e4-4007-84c6-f781872c6a60",
+        "date": "2024-10-29T00:00:00Z",
+        "buyer": "Ministry of Housing, Communities and Local Government",
+        "title": "Standby Management Consultancy & Professional Services (PMO)",
+        "value_gbp": 10000000,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9e62372-2459-4b5c-82d1-686c108d33e1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-88affa40-bff7-43df-b049-ff7370b40833",
+        "date": "2024-10-28T00:00:00Z",
+        "buyer": "West Yorkshire Combined Authority",
+        "title": "WYCA: Evaluation Services Framework",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "79419000",
+        "cpv_label": "Evaluation consultancy services",
+        "contract_start": "2024-10-28T00:00:00Z",
+        "contract_end": "2027-10-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/61172176-b982-4ef1-838f-d3f99e5d3ae0",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9ddeadff-41a7-4afb-9976-0f18ec5dbc82",
+        "date": "2024-10-27T00:00:00+01:00",
+        "buyer": "Environment Agency",
+        "title": "SE - CCS - South East BiS Transitions - Jacobs",
+        "value_gbp": 76901.67,
+        "procurement_method": "selective",
+        "cpv_code": "71311000",
+        "cpv_label": "Civil engineering consultancy services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7fc1da1c-b07f-4473-8d8f-9906a36ae66e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-abe9f4d1-56ee-448d-8229-d47770620db6",
+        "date": "2024-10-24T00:00:00+01:00",
+        "buyer": "NUCLEAR DECOMMISSIONING AUTHORITY",
+        "title": "Support to Strategic Planning Exploratory Work",
+        "value_gbp": 192803,
+        "procurement_method": "selective",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2024-10-24T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a030b2e3-51aa-49de-91d4-6f4b5b94b0b1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2d53b97b-2bcc-4a52-a559-56a26035c72b",
+        "date": "2024-10-11T00:00:00+01:00",
+        "buyer": "DfTc - Department for Transport",
+        "title": "THRE0020 - Transport Construction and Infrastructure Demand",
+        "value_gbp": 706250,
+        "procurement_method": "selective",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2024-07-11T00:00:00+01:00",
+        "contract_end": "2024-12-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/84e5413d-4777-4030-be05-49be7835dacc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-76549be6-5cc9-4c7e-b235-5f61e954f598",
+        "date": "2024-10-10T00:00:00+01:00",
+        "buyer": "Defra group Commercial",
+        "title": "Flood Risk Management for the Fens - Visualisation",
+        "value_gbp": 127346.5,
+        "procurement_method": "selective",
+        "cpv_code": "72220000",
+        "cpv_label": "Systems and technical consultancy services",
+        "contract_start": "2024-08-12T00:00:00+01:00",
+        "contract_end": "2025-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a2dc1bd5-ec2a-468f-af47-561bfbde95b8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1e057dc5-7ec9-4292-b80b-ea4c6237157a",
+        "date": "2024-10-08T00:00:00+01:00",
+        "buyer": "Environment Agency",
+        "title": "River Parrett Estuary Flood Risk Management Strategy Update",
+        "value_gbp": 74993,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-09-23T00:00:00+01:00",
+        "contract_end": "2025-03-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/76bc7d3f-8d0b-4ae0-bd82-406ad64eb85d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b13856c9-770e-4213-a64c-96d3d96630b9",
+        "date": "2024-10-08T00:00:00+01:00",
+        "buyer": "Environment Agency",
+        "title": "RDE671 Regulatory threshold values for  PFAS",
+        "value_gbp": 79289,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-10-21T00:00:00+01:00",
+        "contract_end": "2025-03-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9771f8b-7378-40c2-98c1-3d0837b06cab",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-06fac302-5e29-4522-9e21-c16ddb6ec29e",
+        "date": "2024-10-07T00:00:00+01:00",
+        "buyer": "Environment Agency",
+        "title": "NW CDF Lot 1 Littleborough Ph1b Construction Design Support Contract",
+        "value_gbp": 1179616,
+        "procurement_method": "selective",
+        "cpv_code": "79415200",
+        "cpv_label": "Design consultancy services",
+        "contract_start": "2024-09-09T00:00:00+01:00",
+        "contract_end": "2027-06-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/295f2db7-052d-4407-b883-96452c37b24b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-aee60be5-8620-407e-94c0-14fb74f69c86",
+        "date": "2024-10-07T00:00:00+01:00",
+        "buyer": "Environment Agency",
+        "title": "NW CDF Lot 1 Appleby FRMS Design Support Contract",
+        "value_gbp": 170063.57,
+        "procurement_method": "selective",
+        "cpv_code": "79415200",
+        "cpv_label": "Design consultancy services",
+        "contract_start": "2024-09-16T00:00:00+01:00",
+        "contract_end": "2026-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f2a424f4-4aad-4248-ab6e-9525e24f0884",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-491065ab-ba81-4a93-afe2-80438a25c69c",
+        "date": "2024-10-02T00:00:00+01:00",
+        "buyer": "East Sussex County Council",
+        "title": "A22 Major Road Network Transition Support",
+        "value_gbp": 469000,
+        "procurement_method": null,
+        "cpv_code": "71530000",
+        "cpv_label": "Construction consultancy services",
+        "contract_start": "2024-09-16T00:00:00+01:00",
+        "contract_end": "2025-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ab6e3221-bac5-44a7-9235-437045684678",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5cc1dd4e-fab9-4c64-ab9b-fa9d88479a39",
+        "date": "2024-09-27T00:00:00+01:00",
+        "buyer": "HAMPSHIRE COUNTY COUNCIL",
+        "title": "PCI_LotA_126 A27 Segensworth Link Cycle Ramp",
+        "value_gbp": 42427.8,
+        "procurement_method": "selective",
+        "cpv_code": "71300000",
+        "cpv_label": "Engineering services",
+        "contract_start": "2024-09-27T00:00:00+01:00",
+        "contract_end": "2025-03-07T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cf5567cd-1c70-48b7-aafe-c95f682ee7d1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-51eb7958-7867-4001-bc97-449564a18fa9",
+        "date": "2024-09-26T00:00:00+01:00",
+        "buyer": "Environment Agency",
+        "title": "NE Hub Client Support Services Phase 2 - Lot 2",
+        "value_gbp": 285167,
+        "procurement_method": "selective",
+        "cpv_code": "71500000",
+        "cpv_label": "Construction-related services",
+        "contract_start": "2024-10-02T00:00:00+01:00",
+        "contract_end": "2026-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/70e1160c-2b4e-463b-bbb9-beb5f5ed7f2f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d2fb1a0d-882e-45d3-b5ce-f241207dc1fe",
+        "date": "2024-09-24T00:00:00+01:00",
+        "buyer": "North Somerset Council",
+        "title": "Bus Service Improvement Plan (BSIP) Transport Hubs Design Team",
+        "value_gbp": 464604,
+        "procurement_method": null,
+        "cpv_code": "71000000",
+        "cpv_label": "Architectural, construction, engineering and inspection services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/aac787d2-460b-4c50-aa9d-8754bc0ac3d2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fa8463c6-4533-4fa9-b1e3-cfbc4a264c3f",
+        "date": "2024-09-23T00:00:00+01:00",
+        "buyer": "Westmorland and Furness Council",
+        "title": "Lot 2B - Railway Principal Bridge Inspections 2024/25",
+        "value_gbp": 35915,
+        "procurement_method": null,
+        "cpv_code": "71000000",
+        "cpv_label": "Architectural, construction, engineering and inspection services",
+        "contract_start": "2024-11-10T00:00:00Z",
+        "contract_end": "2025-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/55876185-a432-4cfc-80fe-83cd0cb014b2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 102366138,
+      "awarded_2024_gbp_from_cf": 416336154.6766667,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 4.1× current payments — major pipeline for 2025+.",
+      "ratio": 4.07
+    }
+  }
+}

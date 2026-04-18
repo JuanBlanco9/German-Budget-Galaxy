@@ -1,0 +1,1538 @@
+{
+  "company_number": "02299747",
+  "display_name": "Capita Business Services Ltd",
+  "identity": {
+    "ch_number": "02299747",
+    "official_name": "CAPITA BUSINESS SERVICES LTD",
+    "display_name": "Capita Business Services Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1988-09-26",
+    "age_years": 37,
+    "registered_office": {
+      "address_line_1": "First Floor, 2 Kingdom Street",
+      "address_line_2": "Paddington",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W2 6BD"
+    },
+    "sic_codes": [
+      "62020"
+    ],
+    "sic_labels": [
+      "IT consultancy activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02299747"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 122797012,
+    "rank": 217,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 81050152,
+        "segments": [
+          {
+            "segment": "Financial Assistance & Pensions Services",
+            "amount_gbp": 41342415,
+            "pct_of_segment": 15.29,
+            "rank_in_segment": 3,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Personal Independence Payment",
+            "amount_gbp": 39707737,
+            "pct_of_segment": 19.22,
+            "rank_in_segment": 2,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 33049582,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 9559918,
+            "pct_of_segment": 2.79,
+            "rank_in_segment": 7,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Strategic Policy Directorate",
+            "amount_gbp": 1899352,
+            "pct_of_segment": 1.6,
+            "rank_in_segment": 5,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Standards and Testing Agency",
+            "amount_gbp": 21590312,
+            "pct_of_segment": 51.33,
+            "rank_in_segment": 1,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 8697278,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 6388271,
+            "pct_of_segment": 1.26,
+            "rank_in_segment": 15,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Head Office and Enabling Organisations",
+            "amount_gbp": 2309007,
+            "pct_of_segment": 1.62,
+            "rank_in_segment": 17,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-25",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MTQ5OTk4NmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02299747_2025-06-25.pdf",
+      "size_mb": 1.95,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 7,
+    "officers_resigned_count": 62,
+    "board_turnover_ratio": 8.86,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GREGORY, Christopher James",
+        "role": "director",
+        "appointed_on": "2024-08-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1987
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HOLROYD, Richard Charles",
+        "role": "director",
+        "appointed_on": "2023-11-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LANSDOWN, Michael William",
+        "role": "director",
+        "appointed_on": "2022-01-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RIPOCHE VAN HECKE, Corinne",
+        "role": "director",
+        "appointed_on": "2023-04-13",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SMYTHE, Anthony",
+        "role": "director",
+        "appointed_on": "2026-02-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2008-12-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2008-12-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GREGORY, Christopher James",
+        "role": "director",
+        "appointed_on": "2024-08-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1987
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HOLROYD, Richard Charles",
+        "role": "director",
+        "appointed_on": "2023-11-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LANSDOWN, Michael William",
+        "role": "director",
+        "appointed_on": "2022-01-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RIPOCHE VAN HECKE, Corinne",
+        "role": "director",
+        "appointed_on": "2023-04-13",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SMYTHE, Anthony",
+        "role": "director",
+        "appointed_on": "2026-02-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CAPITA CORPORATE DIRECTOR LIMITED",
+        "role": "corporate-director",
+        "appointed_on": "2023-05-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 62,
+      "recent": [
+        {
+          "name": "BATE-WILLIAMS, Gemma Rebecca",
+          "role": "director",
+          "appointed_on": "2023-03-28",
+          "resigned_on": "2024-10-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MURRAY, Alistair David",
+          "role": "director",
+          "appointed_on": "2022-05-13",
+          "resigned_on": "2024-01-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FREE, Chantal",
+          "role": "director",
+          "appointed_on": "2019-10-14",
+          "resigned_on": "2023-07-04",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1968
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "PALMER, Linda",
+          "role": "director",
+          "appointed_on": "2021-05-28",
+          "resigned_on": "2023-06-23",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1975
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BILLINGHAM, Mark",
+          "role": "director",
+          "appointed_on": "2022-10-17",
+          "resigned_on": "2023-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02299747",
+          "name": "Capita Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02299747",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02299747/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "06027254",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "06027254",
+          "name": "Capita Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06027254",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06027254/persons-with-significant-control/corporate-entity/DByGts6DT98HqipYA6ZpyWxPUrE"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02081330",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02299747"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MTQ5OTk4NmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02299747_2025-06-25.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02299747/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02299747/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 217,
+    "enriched_at": "2026-04-16T19:31:29Z",
+    "governance_enriched_at": "2026-04-16T22:15:34Z",
+    "ubo_enriched_at": "2026-04-16T22:55:34Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2013,
+      2014,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "summary": {
+      "total_contracts": 402,
+      "total_contracts_non_framework": 350,
+      "total_awarded_gbp": 6141137031.67218,
+      "total_awarded_non_framework_gbp": 3927413444.065,
+      "years_active": 10,
+      "first_year": 2013,
+      "last_year": 2025,
+      "trajectory": "stable",
+      "trajectory_note": "CAGR -12.1% between 2013 (£426M) and 2024 (£103M)",
+      "longest_buyer_relationship": {
+        "buyer": "MINISTRY OF DEFENCE",
+        "years_count": 5,
+        "years_list": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 18064530.16,
+        "n_contracts": 39
+      },
+      "n_unique_buyers_all_years": 171,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2013": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 426166667,
+        "awarded_gbp_non_framework": 426166667,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Transport for London",
+          "contracts": 1,
+          "value_gbp": 426166667
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2014": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 213333333,
+        "awarded_gbp_non_framework": 213333333,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Transport for London",
+          "contracts": 1,
+          "value_gbp": 213333333
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2018": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 108710147,
+        "awarded_gbp_non_framework": 108710147,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 1,
+          "value_gbp": 107910147
+        },
+        "procurement_method_counts": {
+          "open": 1,
+          "selective": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 181184328.56862745,
+        "awarded_gbp_non_framework": 480407,
+        "awarded_gbp_framework_share": 180703921.56862745,
+        "sole_source_pct": 0.07,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "YPO",
+          "contracts": 2,
+          "value_gbp": 176470588.2352941
+        },
+        "procurement_method_counts": {
+          "selective": 4,
+          "limited": 1,
+          "open": 2
+        }
+      },
+      "2020": {
+        "n_contracts": 107,
+        "n_contracts_non_framework": 100,
+        "awarded_gbp_total": 1669097138.4807143,
+        "awarded_gbp_non_framework": 129811424.19500001,
+        "awarded_gbp_framework_share": 1539285714.2857144,
+        "sole_source_pct": 2.28,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 45,
+        "top_buyer": {
+          "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+          "contracts": 5,
+          "value_gbp": 1339285714.2857144
+        },
+        "procurement_method_counts": {
+          "open": 11,
+          "selective": 76,
+          "unspecified": 9,
+          "limited": 3,
+          "direct": 8
+        }
+      },
+      "2021": {
+        "n_contracts": 105,
+        "n_contracts_non_framework": 86,
+        "awarded_gbp_total": 2429556282.969747,
+        "awarded_gbp_non_framework": 2162158352.48,
+        "awarded_gbp_framework_share": 267397930.48974705,
+        "sole_source_pct": 0.16,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 47,
+        "top_buyer": {
+          "buyer": "Project Selborne - To Provide a Training Service for Royal Navy and Royal Marines",
+          "contracts": 1,
+          "value_gbp": 1300900000
+        },
+        "procurement_method_counts": {
+          "open": 18,
+          "unspecified": 6,
+          "selective": 70,
+          "direct": 11
+        }
+      },
+      "2022": {
+        "n_contracts": 58,
+        "n_contracts_non_framework": 49,
+        "awarded_gbp_total": 61570125.65642454,
+        "awarded_gbp_non_framework": 39910498.79,
+        "awarded_gbp_framework_share": 21659626.866424534,
+        "sole_source_pct": 7.14,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 43,
+        "top_buyer": {
+          "buyer": "H M Revenue & Customs",
+          "contracts": 3,
+          "value_gbp": 20060000
+        },
+        "procurement_method_counts": {
+          "unspecified": 5,
+          "selective": 35,
+          "direct": 10,
+          "open": 6,
+          "limited": 2
+        }
+      },
+      "2023": {
+        "n_contracts": 71,
+        "n_contracts_non_framework": 63,
+        "awarded_gbp_total": 948372853.3666667,
+        "awarded_gbp_non_framework": 744010881.7,
+        "awarded_gbp_framework_share": 204361971.66666666,
+        "sole_source_pct": 0.32,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 50,
+        "top_buyer": {
+          "buyer": "Department for Work and Pensions",
+          "contracts": 2,
+          "value_gbp": 692556170.0
+        },
+        "procurement_method_counts": {
+          "unspecified": 10,
+          "direct": 9,
+          "selective": 48,
+          "open": 4
+        }
+      },
+      "2024": {
+        "n_contracts": 49,
+        "n_contracts_non_framework": 43,
+        "awarded_gbp_total": 103076471.63,
+        "awarded_gbp_non_framework": 102762048.9,
+        "awarded_gbp_framework_share": 314422.73,
+        "sole_source_pct": 2.07,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 36,
+        "top_buyer": {
+          "buyer": "KENT COUNTY COUNCIL",
+          "contracts": 2,
+          "value_gbp": 59918840.42
+        },
+        "procurement_method_counts": {
+          "selective": 33,
+          "open": 7,
+          "direct": 5,
+          "unspecified": 4
+        }
+      },
+      "2025": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 69684,
+        "awarded_gbp_non_framework": 69684,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "West Northamptonshire Council",
+          "contracts": 1,
+          "value_gbp": 69684
+        },
+        "procurement_method_counts": {
+          "limited": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2013": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 426166667.0,
+        "n_distinct_codes": 1
+      },
+      "2014": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 213333333.0,
+        "n_distinct_codes": 1
+      },
+      "2018": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 107910147.0,
+        "n_distinct_codes": 2
+      },
+      "2019": {
+        "top_code": "79620000",
+        "top_label": "Supply services of personnel including temporary staff",
+        "top_value_gbp": 176470588.2352941,
+        "n_distinct_codes": 5
+      },
+      "2020": {
+        "top_code": "75000000",
+        "top_label": "Administration, defence and social security services",
+        "top_value_gbp": 1339291714.2857144,
+        "n_distinct_codes": 31
+      },
+      "2021": {
+        "top_code": "80660000",
+        "top_label": "Training and simulation in military electronic systems",
+        "top_value_gbp": 1300900000.0,
+        "n_distinct_codes": 30
+      },
+      "2022": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 22635235.0,
+        "n_distinct_codes": 31
+      },
+      "2023": {
+        "top_code": "85000000",
+        "top_label": "Health and social work services",
+        "top_value_gbp": 692478410.0,
+        "n_distinct_codes": 34
+      },
+      "2024": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 62602241.92,
+        "n_distinct_codes": 26
+      },
+      "2025": {
+        "top_code": "48000000",
+        "top_label": "Software package and information systems",
+        "top_value_gbp": 69684.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 49,
+        "selective": 269,
+        "unspecified": 34,
+        "limited": 7,
+        "direct": 43
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 1992012697.2605138,
+        "selective": 4082814857.111667,
+        "unspecified": 14543591.009999998,
+        "limited": 37024860.0,
+        "direct": 14741026.29
+      },
+      "sole_source_pct_all_years": 0.84,
+      "competitive_pct_all_years": 98.92,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/ahmV766A",
+        "buyer_name": "DEPARTMENT FOR WORK AND PENSIONS",
+        "contracts": 8,
+        "value_gbp": 1404384691.2857144
+      },
+      {
+        "buyer_id": "GB-CFS-101191",
+        "buyer_name": "Project Selborne - To Provide a Training Service for Royal Navy and Royal Marines",
+        "contracts": 1,
+        "value_gbp": 1300900000
+      },
+      {
+        "buyer_id": "GB-CFS-205682",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 16,
+        "value_gbp": 720000000
+      },
+      {
+        "buyer_id": "GB-CFS-189422",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 1,
+        "value_gbp": 692478410.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/5WZu8KXU",
+        "buyer_name": "Transport for London",
+        "contracts": 2,
+        "value_gbp": 639500000
+      },
+      {
+        "buyer_id": "GB-CFS-36635",
+        "buyer_name": "YPO",
+        "contracts": 3,
+        "value_gbp": 376470588.2352941
+      },
+      {
+        "buyer_id": "GB-CFS-68911",
+        "buyer_name": "Student Loans Company",
+        "contracts": 1,
+        "value_gbp": 200000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 9,
+        "value_gbp": 167444674.3333333
+      },
+      {
+        "buyer_id": "GB-CFS-188785",
+        "buyer_name": "NHS London Procurement Partnership (Hosted by Guy's and St Thomas' NHS FT)",
+        "contracts": 1,
+        "value_gbp": 108695652.17391305
+      },
+      {
+        "buyer_id": "GB-CFS-179093",
+        "buyer_name": "Department for Education",
+        "contracts": 1,
+        "value_gbp": 107910147
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/XjVA96JU",
+        "buyer_name": "KENT COUNTY COUNCIL",
+        "contracts": 3,
+        "value_gbp": 59968840.42
+      },
+      {
+        "buyer_id": "GB-CFS-82079",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 1,
+        "value_gbp": 34548126
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/Q299225t",
+        "buyer_name": "EDUCATION AUTHORITY",
+        "contracts": 3,
+        "value_gbp": 22123633.6
+      },
+      {
+        "buyer_id": "GB-CFS-207644",
+        "buyer_name": "Capita Business Services Ltd trading as Capita Learning",
+        "contracts": 4,
+        "value_gbp": 20180000
+      },
+      {
+        "buyer_id": "GB-GOR-D25",
+        "buyer_name": "H M Revenue & Customs",
+        "contracts": 3,
+        "value_gbp": 20060000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "75000000",
+        "label": "Administration, defence and social security services",
+        "contracts": 6,
+        "value_gbp": 1339291714.2857144
+      },
+      {
+        "code": "80660000",
+        "label": "Training and simulation in military electronic systems",
+        "contracts": 1,
+        "value_gbp": 1300900000
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 29,
+        "value_gbp": 1179153061.8405797
+      },
+      {
+        "code": "80500000",
+        "label": "Training services",
+        "contracts": 36,
+        "value_gbp": 727391132.8599999
+      },
+      {
+        "code": "85000000",
+        "label": "Health and social work services",
+        "contracts": 3,
+        "value_gbp": 693078410.0
+      },
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 41,
+        "value_gbp": 257166615.70190477
+      },
+      {
+        "code": "30200000",
+        "label": "Computer equipment and supplies",
+        "contracts": 2,
+        "value_gbp": 201984200.0
+      },
+      {
+        "code": "79620000",
+        "label": "Supply services of personnel including temporary staff",
+        "contracts": 7,
+        "value_gbp": 176911898.2352941
+      },
+      {
+        "code": "79600000",
+        "label": "Recruitment services",
+        "contracts": 4,
+        "value_gbp": 47882240
+      },
+      {
+        "code": "79512000",
+        "label": "Call centre",
+        "contracts": 2,
+        "value_gbp": 34621399
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-59e7d15d-2f48-4c9e-bdd8-4d4d9884579d",
+        "date": "2025-03-25T00:00:00Z",
+        "buyer": "West Northamptonshire Council",
+        "title": "Outsystems 2024/2025",
+        "value_gbp": 69684,
+        "procurement_method": "limited",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/033e2505-c34e-4c24-890e-e77f41a350c4",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f52f3bf8-c1d4-47c4-8f23-abd81928f945",
+        "date": "2024-12-19T00:00:00Z",
+        "buyer": "Gateshead Council",
+        "title": "IT015 PAY360 PAYMENT SUITE HOSTING & SUPPORT WITH SECURE PCI TELEPHONY",
+        "value_gbp": 408197.65,
+        "procurement_method": "selective",
+        "cpv_code": "48440000",
+        "cpv_label": "Financial analysis and accounting software package",
+        "contract_start": "2024-11-30T00:00:00Z",
+        "contract_end": "2029-11-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2442da2d-4be5-4d58-948e-c2243cdd571f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-86e1ca02-7e42-4692-9404-875d72bf2667",
+        "date": "2024-12-02T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "OpNet Training Needs Analysis Contract Award Notice",
+        "value_gbp": 370761,
+        "procurement_method": "selective",
+        "cpv_code": "80521000",
+        "cpv_label": "Training programme services",
+        "contract_start": "2024-12-02T00:00:00Z",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c80b774b-538a-420f-925a-e27064129d1c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6d75abee-8f23-450b-9ca3-4cd5ac1a8f4e",
+        "date": "2024-11-12T00:00:00Z",
+        "buyer": "Defra Commercial",
+        "title": "Public Service Operational Delivery",
+        "value_gbp": 19750,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2020-09-01T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b5561739-6748-4dfa-96fa-4f46416cee58",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9b981788-d12b-432b-b8df-50ed7118bd95",
+        "date": "2024-11-01T00:00:00Z",
+        "buyer": "South Staffordshire Dist Council",
+        "title": "Revenues and Benefits Managed Service",
+        "value_gbp": 662000,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-11-01T00:00:00Z",
+        "contract_end": "2030-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/05b1fa79-f553-4965-9674-228db190e6e3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ba243427-3889-4df2-bd84-26e6b27e1976",
+        "date": "2024-10-14T00:00:00+01:00",
+        "buyer": "University of Sussex",
+        "title": "This notice of tender is for the delivery of the internal enabling works for the replacement of\n      the University's IT Network Infrastructure.\n      This is a highly visible flagship programme for the provision of a modern, secure, high speed\n      wired and wireless campus data network for the entire UoS Falmer Campus. The upgrade of\n      the network infrastructure is instrumental to the University of Sussex achieving its strategic\n      objectives, and central to the delivery of strategic developments in the ITS and Estates\n      roadmap. The project driver being in direct response to negative feedback from the National\n      Student Survey.\n      This works package will therefore",
+        "value_gbp": 0,
+        "procurement_method": null,
+        "cpv_code": "44000000",
+        "cpv_label": "Construction structures and materials; auxiliary products to construction (except electric apparatus)",
+        "contract_start": "0001-01-01T00:00:00Z",
+        "contract_end": "0001-01-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7a04735f-029b-4fc8-9836-c28733140392",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-be5ef23d-a332-4814-b9d3-4bda5314aa25",
+        "date": "2024-10-08T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF SUSSEX(THE)",
+        "title": "Replacement IT Network Infrastructure - Internal Campus Enabling Works",
+        "value_gbp": 7478025,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-10-08T00:00:00+01:00",
+        "contract_end": "2025-08-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7a7d1df9-8102-41a5-9e7b-40e34e238e25",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2a084054-0063-4e29-8678-415d13ff6bf7",
+        "date": "2024-09-27T00:00:00+01:00",
+        "buyer": "Derbyshire Dales District Council",
+        "title": "Provision of Revenues and Benefits Software Maintenance and Associated Services",
+        "value_gbp": 205000,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2025-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/507b37f9-e544-4b78-9fcc-d23d8bacbc66",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bc3309a7-db49-45df-a720-91504cd8a6f9",
+        "date": "2024-09-25T00:00:00+01:00",
+        "buyer": "London Borough of Sutton",
+        "title": "Income Management and Payment Solutions",
+        "value_gbp": 1725366,
+        "procurement_method": "direct",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-09-27T00:00:00+01:00",
+        "contract_end": "2027-09-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ab0d8c7f-7e00-42a3-8f54-d0fc279b9dc1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-847bc932-fbb1-4959-8eab-0fa84dcc7335",
+        "date": "2024-09-24T00:00:00+01:00",
+        "buyer": "West Sussex County Council",
+        "title": "Invoice Processing Services",
+        "value_gbp": 133694,
+        "procurement_method": "selective",
+        "cpv_code": "79999000",
+        "cpv_label": "Scanning and invoicing services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2026-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b131d5b2-6d09-4beb-89b9-06c4e1838747",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-51df0365-09e5-44a0-983b-fe93c209f30b",
+        "date": "2024-08-30T00:00:00+01:00",
+        "buyer": "Essex County Council",
+        "title": "Education Information Management System",
+        "value_gbp": 1530000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2025-11-25T00:00:00Z",
+        "contract_end": "2030-11-25T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/21713b3a-be8e-48ac-bb72-d46ac3bd0069",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31683d1b-2ae3-413f-8c1d-ccc556df69c6",
+        "date": "2024-08-27T00:00:00+01:00",
+        "buyer": "Hertfordshire County Council - Sustainable Growth",
+        "title": "HCC March 2024 - The Provision of a Framework Agreement for Environmental Planning Support and Design Review Services - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "90712100",
+        "cpv_label": "Urban environmental development planning",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2027-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bff73611-a6f8-4759-8903-6cf1fc59eb5d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31683d1b-2ae3-413f-8c1d-ccc556df69c6",
+        "date": "2024-08-27T00:00:00+01:00",
+        "buyer": "Hertfordshire County Council - Sustainable Growth",
+        "title": "HCC March 2024 - The Provision of a Framework Agreement for Environmental Planning Support and Design Review Services - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "90712100",
+        "cpv_label": "Urban environmental development planning",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2027-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bff73611-a6f8-4759-8903-6cf1fc59eb5d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31683d1b-2ae3-413f-8c1d-ccc556df69c6",
+        "date": "2024-08-27T00:00:00+01:00",
+        "buyer": "Hertfordshire County Council - Sustainable Growth",
+        "title": "HCC March 2024 - The Provision of a Framework Agreement for Environmental Planning Support and Design Review Services - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "90712100",
+        "cpv_label": "Urban environmental development planning",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2027-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bff73611-a6f8-4759-8903-6cf1fc59eb5d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31683d1b-2ae3-413f-8c1d-ccc556df69c6",
+        "date": "2024-08-27T00:00:00+01:00",
+        "buyer": "Hertfordshire County Council - Sustainable Growth",
+        "title": "HCC March 2024 - The Provision of a Framework Agreement for Environmental Planning Support and Design Review Services - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "90712100",
+        "cpv_label": "Urban environmental development planning",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2027-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bff73611-a6f8-4759-8903-6cf1fc59eb5d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1c861234-6931-4853-8b94-0574c7dc042b",
+        "date": "2024-08-01T00:00:00+01:00",
+        "buyer": "BANK OF ENGLAND",
+        "title": "Managed Learning Services",
+        "value_gbp": 5000000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-09-08T00:00:00+01:00",
+        "contract_end": "2026-09-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/19de69dd-5b34-4b65-9e93-25493aeeafdf",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-daa4572d-ab44-4281-a0f4-488405be44ba",
+        "date": "2024-07-22T00:00:00+01:00",
+        "buyer": "The Pensions Regulator",
+        "title": "Payment Services Platform",
+        "value_gbp": 54426.44,
+        "procurement_method": "selective",
+        "cpv_code": "30211300",
+        "cpv_label": "Computer platforms",
+        "contract_start": "2024-07-23T00:00:00+01:00",
+        "contract_end": "2026-07-22T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/64622f3a-d09e-4086-8206-1f49e9df91c0",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f9c007b7-d113-4f6f-ad11-9d4eb2b9d418",
+        "date": "2024-07-18T00:00:00+01:00",
+        "buyer": "Lancaster City Council",
+        "title": "LCC - Housing / Property Management System",
+        "value_gbp": 1,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2031-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/133f2b42-a0bf-46eb-985e-260fb1c11d12",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3ea8ea79-715f-48cf-bf59-86b6419d0df3",
+        "date": "2024-07-18T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Training Solution Baselining",
+        "value_gbp": 48000,
+        "procurement_method": "selective",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2024-07-18T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8d3ee1c9-a942-41ad-b100-177cd47948ad",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-208e561c-58a8-4826-be2a-9e4df675811a",
+        "date": "2024-06-26T00:00:00+01:00",
+        "buyer": "KENT COUNTY COUNCIL",
+        "title": "Kent Public Services Network (KPSN)",
+        "value_gbp": 29959420.21,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-08-08T00:00:00+01:00",
+        "contract_end": "2028-08-08T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e1288852-4239-40af-8aef-47ec6e9fb5ee",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-208e561c-58a8-4826-be2a-9e4df675811a",
+        "date": "2024-06-26T00:00:00+01:00",
+        "buyer": "KENT COUNTY COUNCIL",
+        "title": "Kent Public Services Network (KPSN)",
+        "value_gbp": 29959420.21,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-08-08T00:00:00+01:00",
+        "contract_end": "2028-08-08T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e1288852-4239-40af-8aef-47ec6e9fb5ee",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2f1c7247-7d3f-4dab-80e4-3fa2608833bb",
+        "date": "2024-06-19T00:00:00+01:00",
+        "buyer": "London Borough of Waltham Forest",
+        "title": "Out of Hours Future Operating Model",
+        "value_gbp": 176000,
+        "procurement_method": "direct",
+        "cpv_code": "79510000",
+        "cpv_label": "Telephone-answering services",
+        "contract_start": "2024-07-08T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/533315e4-0fbe-4888-b264-f9cac614fb50",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a8e5885e-8f47-4b98-8808-1d987521b2b3",
+        "date": "2024-06-11T00:00:00+01:00",
+        "buyer": "FCDO Services",
+        "title": "IT Procurement Support",
+        "value_gbp": 0,
+        "procurement_method": "selective",
+        "cpv_code": "79418000",
+        "cpv_label": "Procurement consultancy services",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c6ce8033-4819-476c-9c8b-e1613dc32804",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-837b10a7-164c-4630-b393-028f957c1287",
+        "date": "2024-06-03T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "1AVNX SCRUM TRAINING",
+        "value_gbp": 40000,
+        "procurement_method": "selective",
+        "cpv_code": "80511000",
+        "cpv_label": "Staff training services",
+        "contract_start": "2024-06-03T00:00:00+01:00",
+        "contract_end": "2024-09-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/48d1bc2e-4f06-471d-8e4f-e75068718f20",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-da68f01d-c5c5-47a3-b10f-434a8906a7ee",
+        "date": "2024-06-02T00:00:00+01:00",
+        "buyer": "DIGITAL DEFENCE LIMITED",
+        "title": "Defence Digital Procurement Support",
+        "value_gbp": 60000,
+        "procurement_method": "selective",
+        "cpv_code": "71356300",
+        "cpv_label": "Technical support services",
+        "contract_start": "2024-06-03T00:00:00+01:00",
+        "contract_end": "2024-08-02T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/aa2ece1e-d034-4017-a748-2a519ea84b57",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-c5fcb9e5-4061-4a59-aeae-3e355aca66ac",
+        "date": "2024-06-02T00:00:00+01:00",
+        "buyer": "DIGITAL DEFENCE LIMITED",
+        "title": "PS453 PS Proc Support",
+        "value_gbp": 1662600,
+        "procurement_method": "selective",
+        "cpv_code": "71356300",
+        "cpv_label": "Technical support services",
+        "contract_start": "2024-06-03T00:00:00+01:00",
+        "contract_end": "2025-05-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2ebce07b-d56e-49eb-9d08-425c3fc23c79",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-39cabd74-4237-4f79-90ee-ebf2fbdfa7d2",
+        "date": "2024-05-30T00:00:00+01:00",
+        "buyer": "DIGITAL DEFENCE LIMITED",
+        "title": "Defence Digital Procurement Support",
+        "value_gbp": 25000,
+        "procurement_method": "selective",
+        "cpv_code": "71356300",
+        "cpv_label": "Technical support services",
+        "contract_start": "2024-06-03T00:00:00+01:00",
+        "contract_end": "2024-07-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/88c9a583-690b-465d-a01f-edd8396936a3",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-92a0f81c-d5c0-4be0-ac1f-4464c72c6ab9",
+        "date": "2024-05-01T00:00:00+01:00",
+        "buyer": "West Northamptonshire Council",
+        "title": "DWP LADS Development",
+        "value_gbp": 50000,
+        "procurement_method": null,
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2025-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/33872e08-5a99-483e-a311-f44c34d68174",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5d17c254-b48a-4454-919c-d57840cf4eef",
+        "date": "2024-04-30T00:00:00+01:00",
+        "buyer": "East Suffolk North East Essex Foundation Trust",
+        "title": "LIMS Winpath Enterprise Contract Pathology",
+        "value_gbp": 5750736,
+        "procurement_method": "selective",
+        "cpv_code": "85111800",
+        "cpv_label": "Pathology services",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2026-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/da5992a3-269c-4791-b4b8-bcb339d8b901",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ac063598-fba8-4653-aec4-a6c1289fa5ee",
+        "date": "2024-04-29T00:00:00+01:00",
+        "buyer": "SOUTHERN HOUSING",
+        "title": "Capita One Swordfish EDMS",
+        "value_gbp": 96000,
+        "procurement_method": "selective",
+        "cpv_code": "48100000",
+        "cpv_label": "Industry specific software package",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2027-08-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ac6e8f9d-0c3c-43d2-9920-a7e3bea821a5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 122797012,
+      "awarded_2024_gbp_from_cf": 103076471.63,
+      "signal": "balanced",
+      "note": "Awarded and paid roughly aligned.",
+      "ratio": 0.84
+    }
+  }
+}

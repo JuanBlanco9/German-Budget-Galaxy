@@ -1,0 +1,533 @@
+{
+  "company_number": "03799145",
+  "display_name": "TETRA TECH INTERNATIONAL DEVELOPMENT LIMITED",
+  "identity": {
+    "ch_number": "03799145",
+    "official_name": "TETRA TECH INTERNATIONAL DEVELOPMENT LIMITED",
+    "display_name": "TETRA TECH INTERNATIONAL DEVELOPMENT LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1999-07-01",
+    "age_years": 26,
+    "registered_office": {
+      "address_line_1": "1 Northfield Road",
+      "address_line_2": "Reading",
+      "locality": "Berkshire",
+      "postal_code": "RG1 8AH"
+    },
+    "sic_codes": [
+      "70229"
+    ],
+    "sic_labels": [
+      "Management consultancy activities (other)"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/03799145"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 26759525,
+    "rank": 525,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "foreign_commonwealth_and_development_office",
+        "dept_name": "FCDO",
+        "amount_gbp": 26759525,
+        "segments": [
+          {
+            "segment": "Development Contractors",
+            "amount_gbp": 26759525,
+            "pct_of_segment": 6.87,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-05",
+    "period_end": "2025-09-28",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUwODYzOTQyN2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/03799145_2026-03-05.pdf",
+      "size_mb": 0.68,
+      "exists": true
+    },
+    "next_accounts_due": "2027-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 32,
+    "board_turnover_ratio": 6.4,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "EVANS, Matthew John",
+        "role": "director",
+        "appointed_on": "2021-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "HATCH, David Craig",
+        "role": "director",
+        "appointed_on": "2025-11-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "JOINER, David Antony",
+        "role": "director",
+        "appointed_on": "2024-03-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "LEMMON, Richard Alan",
+        "role": "director",
+        "appointed_on": "2017-02-10",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1959
+        },
+        "address": {
+          "locality": "Pasadena",
+          "postal_code": null,
+          "country": "United States"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "MURDOCH, Andrew James",
+        "role": "secretary",
+        "appointed_on": "2021-10-20",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "MURDOCH, Andrew James",
+        "role": "secretary",
+        "appointed_on": "2021-10-20",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "EVANS, Matthew John",
+        "role": "director",
+        "appointed_on": "2021-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "HATCH, David Craig",
+        "role": "director",
+        "appointed_on": "2025-11-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "JOINER, David Antony",
+        "role": "director",
+        "appointed_on": "2024-03-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Berkshire",
+          "postal_code": "RG1 8AH",
+          "country": null
+        }
+      },
+      {
+        "name": "LEMMON, Richard Alan",
+        "role": "director",
+        "appointed_on": "2017-02-10",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1959
+        },
+        "address": {
+          "locality": "Pasadena",
+          "postal_code": null,
+          "country": "United States"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 32,
+      "recent": [
+        {
+          "name": "WARD, Benjamin James",
+          "role": "director",
+          "appointed_on": "2017-02-10",
+          "resigned_on": "2024-03-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1976
+          },
+          "address": {
+            "locality": "Reading",
+            "postal_code": "RG1 8AH",
+            "country": "England"
+          }
+        },
+        {
+          "name": "HOPSON, Preston",
+          "role": "secretary",
+          "appointed_on": "2019-04-01",
+          "resigned_on": "2023-10-05",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Pasadena",
+            "postal_code": null,
+            "country": "United States"
+          }
+        },
+        {
+          "name": "ONSLOW, Keith Martin",
+          "role": "director",
+          "appointed_on": "2015-02-13",
+          "resigned_on": "2021-03-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1964
+          },
+          "address": {
+            "locality": "Berkshire",
+            "postal_code": "RG1 8AH",
+            "country": null
+          }
+        },
+        {
+          "name": "LEMMON, Richard Alan",
+          "role": "secretary",
+          "appointed_on": "2017-02-10",
+          "resigned_on": "2019-03-31",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Pasadena",
+            "postal_code": null,
+            "country": "United States"
+          }
+        },
+        {
+          "name": "CHU, Ronald Jeffry",
+          "role": "secretary",
+          "appointed_on": "2016-03-25",
+          "resigned_on": "2017-02-10",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Berkshire",
+            "postal_code": "RG1 8AH",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "03799145",
+          "name": "Tetra Tech International Development Europe Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03799145",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03799145/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04120956",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04120956",
+          "name": "Tetra Tech Uk Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2020-09-16",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04120956",
+            "notified_on": "2020-09-16",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04120956/persons-with-significant-control/corporate-entity/UFs4z12m0JDAjB1L77uNP6H3wfs"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "12241404",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "12241404",
+          "name": "Tetra Tech Uk Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2019-10-03",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12241404",
+            "notified_on": "2019-10-03",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12241404/persons-with-significant-control/corporate-entity/cRWLig0B-dF8sXk3W-VPgDE2HLo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05909611",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "05909611",
+          "name": "Tetra Tech, Inc.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2017-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05909611",
+            "notified_on": "2017-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05909611/persons-with-significant-control/corporate-entity/Eirj18gaI0nO7w9MXon3ehETaQg"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "United States",
+          "parent_registration_number": "2151089",
+          "wikidata": {
+            "qid": "Q7706196",
+            "label": "Tetra Tech",
+            "description": "company in Pasadena, United States",
+            "match_quality": "exact",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q7706196",
+            "parent_chain": [
+              {
+                "qid": "Q7706196",
+                "label": "Tetra Tech",
+                "description": "company in Pasadena, United States",
+                "country_labels": [
+                  "United States"
+                ],
+                "revision_id": 2474498165,
+                "source_url": "https://www.wikidata.org/wiki/Q7706196"
+              }
+            ],
+            "ultimate_label": "Tetra Tech",
+            "ultimate_country": "United States",
+            "queries_used": [
+              "Tetra Tech, Inc.",
+              "Tetra Tech"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "United States"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/03799145"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwODYzOTQyN2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/03799145_2026-03-05.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03799145/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03799145/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7706196"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 525,
+    "enriched_at": "2026-04-16T20:19:45Z",
+    "governance_enriched_at": "2026-04-16T22:28:22Z",
+    "ubo_enriched_at": "2026-04-16T23:15:54Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

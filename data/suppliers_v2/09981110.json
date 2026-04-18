@@ -1,0 +1,785 @@
+{
+  "company_number": "09981110",
+  "display_name": "ROWDEN TECHNOLOGIES LTD.",
+  "identity": {
+    "ch_number": "09981110",
+    "official_name": "ROWDEN TECHNOLOGIES LTD.",
+    "display_name": "ROWDEN TECHNOLOGIES LTD.",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2016-02-01",
+    "age_years": 10,
+    "registered_office": {
+      "address_line_1": "Unit G3c Bolingbroke Way",
+      "address_line_2": "Patchway",
+      "country": "England",
+      "locality": "Bristol",
+      "postal_code": "BS34 6FE"
+    },
+    "sic_codes": [
+      "62090",
+      "71122"
+    ],
+    "sic_labels": [
+      "Other information technology service activities",
+      "Engineering-related scientific and technical consulting"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/09981110"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16935925,
+    "rank": 616,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 16935925,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 16935925,
+            "pct_of_segment": 3.35,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-22",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4MjEyMjE5M2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/09981110_2025-09-22.pdf",
+      "size_mb": 1.14,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 12,
+    "board_turnover_ratio": 2.4,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BLOOMFIELD, Alexander",
+        "role": "director",
+        "appointed_on": "2022-03-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Australia",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HARPER, Robert",
+        "role": "director",
+        "appointed_on": "2016-02-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1987
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RICH, Elizabeth Anna",
+        "role": "director",
+        "appointed_on": "2026-02-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1988
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ROBINSON, Joseph Martin",
+        "role": "director",
+        "appointed_on": "2025-01-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1984
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TYSON, Rebecca Lindsay",
+        "role": "director",
+        "appointed_on": "2026-01-23",
+        "resigned_on": null,
+        "nationality": "British,American",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1989
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BLOOMFIELD, Alexander",
+        "role": "director",
+        "appointed_on": "2022-03-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Australia",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HARPER, Robert",
+        "role": "director",
+        "appointed_on": "2016-02-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1987
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RICH, Elizabeth Anna",
+        "role": "director",
+        "appointed_on": "2026-02-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1988
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ROBINSON, Joseph Martin",
+        "role": "director",
+        "appointed_on": "2025-01-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1984
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TYSON, Rebecca Lindsay",
+        "role": "director",
+        "appointed_on": "2026-01-23",
+        "resigned_on": null,
+        "nationality": "British,American",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1989
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS34 6FE",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 12,
+      "recent": [
+        {
+          "name": "CHETRI, Suzanne",
+          "role": "secretary",
+          "appointed_on": "2023-01-16",
+          "resigned_on": "2026-02-20",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS34 6FE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "KAMARA, Clifford",
+          "role": "director",
+          "appointed_on": "2022-03-16",
+          "resigned_on": "2025-11-07",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Germany",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1981
+          },
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS34 6FE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "TERRY, Victor Laurence",
+          "role": "director",
+          "appointed_on": "2022-03-16",
+          "resigned_on": "2025-01-14",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1986
+          },
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS34 6FE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "PEREIRA OUTES, Maria Elena",
+          "role": "director",
+          "appointed_on": "2022-03-16",
+          "resigned_on": "2025-01-08",
+          "nationality": "British,Spanish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1980
+          },
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS34 6FE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "LANGTON, William Robert",
+          "role": "director",
+          "appointed_on": "2022-06-17",
+          "resigned_on": "2024-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1982
+          },
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS34 6FE",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "09981110",
+          "name": "Mr Robert Harper",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-50-to-75-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-07-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09981110",
+            "notified_on": "2022-07-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09981110/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Robert Harper"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09981110"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MjEyMjE5M2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/09981110_2025-09-22.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09981110/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09981110/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 616,
+    "enriched_at": "2026-04-16T20:28:11Z",
+    "governance_enriched_at": "2026-04-16T22:32:57Z",
+    "ubo_enriched_at": "2026-04-16T23:19:40Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2021,
+      2022,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 7,
+      "total_contracts_non_framework": 7,
+      "total_awarded_gbp": 6804829.74,
+      "total_awarded_non_framework_gbp": 6804829.74,
+      "years_active": 3,
+      "first_year": 2021,
+      "last_year": 2024,
+      "trajectory": "gap_in_history",
+      "trajectory_note": "no data for 2023",
+      "longest_buyer_relationship": {
+        "buyer": "MINISTRY OF DEFENCE",
+        "years_count": 2,
+        "years_list": [
+          2021,
+          2022
+        ],
+        "total_value_gbp": 5403156.74,
+        "n_contracts": 4
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2021": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 5268626.74,
+        "awarded_gbp_non_framework": 5268626.74,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 3,
+          "value_gbp": 5268626.74
+        },
+        "procurement_method_counts": {
+          "selective": 3
+        }
+      },
+      "2022": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 624396,
+        "awarded_gbp_non_framework": 624396,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "Defence Science and Technology Laboratory",
+          "contracts": 1,
+          "value_gbp": 399616
+        },
+        "procurement_method_counts": {
+          "open": 1,
+          "unspecified": 1,
+          "selective": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 911807,
+        "awarded_gbp_non_framework": 911807,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 1,
+          "value_gbp": 911807
+        },
+        "procurement_method_counts": {
+          "limited": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2021": {
+        "top_code": "71320000",
+        "top_label": "Engineering design services",
+        "top_value_gbp": 3500000.0,
+        "n_distinct_codes": 3
+      },
+      "2022": {
+        "top_code": "73000000",
+        "top_label": "Research and development services and related consultancy services",
+        "top_value_gbp": 399616.0,
+        "n_distinct_codes": 3
+      },
+      "2024": {
+        "top_code": "73436000",
+        "top_label": "Test and evaluation of military electronic systems",
+        "top_value_gbp": 911807.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 4,
+        "open": 1,
+        "unspecified": 1,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 5403156.74,
+        "open": 399616.0,
+        "unspecified": 90250.0,
+        "limited": 911807.0
+      },
+      "sole_source_pct_all_years": 13.4,
+      "competitive_pct_all_years": 85.27,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/3ZzX6jGx",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 1,
+        "value_gbp": 3500000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 3,
+        "value_gbp": 1903156.74
+      },
+      {
+        "buyer_id": "GB-CFS-175488",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 911807
+      },
+      {
+        "buyer_id": "GB-GOR-EA42",
+        "buyer_name": "Defence Science and Technology Laboratory",
+        "contracts": 1,
+        "value_gbp": 399616
+      },
+      {
+        "buyer_id": "GB-CFS-233742",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 90250
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "71320000",
+        "label": "Engineering design services",
+        "contracts": 1,
+        "value_gbp": 3500000
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 1,
+        "value_gbp": 1499126.74
+      },
+      {
+        "code": "73436000",
+        "label": "Test and evaluation of military electronic systems",
+        "contracts": 1,
+        "value_gbp": 911807
+      },
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 1,
+        "value_gbp": 399616
+      },
+      {
+        "code": "72231000",
+        "label": "Development of software for military applications",
+        "contracts": 1,
+        "value_gbp": 269500
+      },
+      {
+        "code": "48000000",
+        "label": "Software package and information systems",
+        "contracts": 1,
+        "value_gbp": 134530
+      },
+      {
+        "code": "79314000",
+        "label": "Feasibility study",
+        "contracts": 1,
+        "value_gbp": 90250
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-d013b1c2-ef86-4017-97b5-daa98b9dae26",
+        "date": "2024-01-04T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "Design and Integration Partner for the Dismounted Situational Awareness project",
+        "value_gbp": 911807,
+        "procurement_method": "limited",
+        "cpv_code": "73436000",
+        "cpv_label": "Test and evaluation of military electronic systems",
+        "contract_start": "2024-01-12T00:00:00Z",
+        "contract_end": "2024-05-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9e145ee1-67d1-4a9b-96f2-ee4e0d80d901",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7dc37c22-061f-4d62-9643-2c0ad5f81b7e",
+        "date": "2022-11-05T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Dev Tools - Rowden Tech (Project Lara)",
+        "value_gbp": 134530,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2022-11-07T00:00:00Z",
+        "contract_end": "2023-11-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d880b4bc-ebbd-4735-9071-7431eceed80b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-72b1b33e-6ceb-4a9c-b60d-57b7e167f184",
+        "date": "2022-10-14T00:00:00+01:00",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "ACC2032343 - Novel and Adaptive C-IED Active Detection",
+        "value_gbp": 399616,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-10-14T00:00:00+01:00",
+        "contract_end": "2024-04-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e9fd07f2-6bac-4650-8074-f2f82bac4097",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-56c0f63f-c7a3-42fb-b7a2-8f81c16be17d",
+        "date": "2022-09-23T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "Provision of Advice and Support Services",
+        "value_gbp": 90250,
+        "procurement_method": null,
+        "cpv_code": "79314000",
+        "cpv_label": "Feasibility study",
+        "contract_start": "2022-09-23T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1a87bfd2-e3ef-4dd3-8503-82c6e6481f00",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5e88d80a-3d02-4da3-9a85-cd473c27686c",
+        "date": "2021-10-19T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Secure Cloud Hosted Mobile Geospatial Service to Enable Dismounted Situational Awareness Evidence Gathering Experimentation",
+        "value_gbp": 1499126.74,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2021-11-01T00:00:00Z",
+        "contract_end": "2023-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d6f9e43e-a41e-4190-8858-409ba0da0af3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9340a03b-d61c-4427-8376-a0322c056796",
+        "date": "2021-08-09T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Product Owner for a Software Development Capability",
+        "value_gbp": 269500,
+        "procurement_method": "selective",
+        "cpv_code": "72231000",
+        "cpv_label": "Development of software for military applications",
+        "contract_start": "2021-08-31T00:00:00+01:00",
+        "contract_end": "2022-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6127d94e-a339-4535-b2e0-b008d6c64ab0",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d39f1822-010e-427d-9501-b14c050a575c",
+        "date": "2021-07-12T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Dismounted Situational Awareness (DSA) Design and Integration Partner (D&IP)",
+        "value_gbp": 3500000,
+        "procurement_method": "selective",
+        "cpv_code": "71320000",
+        "cpv_label": "Engineering design services",
+        "contract_start": "2021-07-12T00:00:00+01:00",
+        "contract_end": "2023-07-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f510d77d-5b3a-4913-8ebd-a0c06f6f75e5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 16935925,
+      "awarded_2024_gbp_from_cf": 911807,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 18.6× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.05
+    }
+  }
+}

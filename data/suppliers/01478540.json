@@ -1,0 +1,448 @@
+{
+  "company_number": "01478540",
+  "display_name": "IRON MOUNTAIN (UK) LTD",
+  "identity": {
+    "ch_number": "01478540",
+    "official_name": "IRON MOUNTAIN (UK) PLC",
+    "display_name": "IRON MOUNTAIN (UK) LTD",
+    "status": "active",
+    "type": "plc",
+    "jurisdiction": "england-wales",
+    "incorporated": "1980-02-11",
+    "age_years": 46,
+    "registered_office": {
+      "address_line_1": "Ground Floor",
+      "address_line_2": "4 More London Riverside",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "SE1 2AU"
+    },
+    "sic_codes": [
+      "52103",
+      "52219"
+    ],
+    "sic_labels": [
+      "SIC 52103",
+      "SIC 52219"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01478540"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 11632700,
+    "rank": 711,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 6308472,
+        "segments": [
+          {
+            "segment": "CD - Corporate & Delivery",
+            "amount_gbp": 6308472,
+            "pct_of_segment": 2.42,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 5324228,
+        "segments": [
+          {
+            "segment": "Estates",
+            "amount_gbp": 4614305,
+            "pct_of_segment": 1.8,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Finance Officer Group",
+            "amount_gbp": 709923,
+            "pct_of_segment": 1.95,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-18",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NDMyMjg1NmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01478540_2025-07-18.pdf",
+      "size_mb": 1.83,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 49,
+    "board_turnover_ratio": 16.33,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "FORD, Nicholas Ben",
+        "role": "director",
+        "appointed_on": "2021-01-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MACKIE, Graeme Robert",
+        "role": "director",
+        "appointed_on": "2024-06-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "VIRGO, John Michael",
+        "role": "secretary",
+        "appointed_on": "2020-05-18",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "VIRGO, John Michael",
+        "role": "secretary",
+        "appointed_on": "2020-05-18",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FORD, Nicholas Ben",
+        "role": "director",
+        "appointed_on": "2021-01-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MACKIE, Graeme Robert",
+        "role": "director",
+        "appointed_on": "2024-06-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 49,
+      "recent": [
+        {
+          "name": "SHEPLEY, Philip Ernest",
+          "role": "director",
+          "appointed_on": "2021-01-08",
+          "resigned_on": "2024-06-14",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1973
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "KEDDY, Patrick John",
+          "role": "director",
+          "appointed_on": "2012-12-12",
+          "resigned_on": "2021-01-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1954
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MACKIE, Graeme Robert",
+          "role": "director",
+          "appointed_on": "2019-11-30",
+          "resigned_on": "2021-01-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1970
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MOYNIHAN, Simon Patrick",
+          "role": "secretary",
+          "appointed_on": "2014-01-14",
+          "resigned_on": "2020-05-18",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MARSHALL, Charlotte Helen",
+          "role": "director",
+          "appointed_on": "2014-01-14",
+          "resigned_on": "2019-11-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1970
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01478540",
+          "name": "Iron Mountain Europe (Group) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2017-10-04",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01478540",
+            "notified_on": "2017-10-04",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01478540/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05882719",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05882719",
+          "name": "Iron Mountain Incorporated",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-11-18",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05882719",
+            "notified_on": "2016-11-18",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05882719/persons-with-significant-control/corporate-entity/9pd9DuMhJLIRqFehurDagheSTO8"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "United States",
+          "parent_registration_number": "5559325",
+          "wikidata": {
+            "qid": "Q1673079",
+            "label": "Iron Mountain Incorporated",
+            "description": "American information management company",
+            "match_quality": "exact",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q1673079",
+            "parent_chain": [
+              {
+                "qid": "Q1673079",
+                "label": "Iron Mountain Incorporated",
+                "description": "American information management company",
+                "country_labels": [
+                  "United States"
+                ],
+                "revision_id": 2438327609,
+                "source_url": "https://www.wikidata.org/wiki/Q1673079"
+              }
+            ],
+            "ultimate_label": "Iron Mountain Incorporated",
+            "ultimate_country": "United States",
+            "queries_used": [
+              "Iron Mountain Incorporated"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "United States"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01478540"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NDMyMjg1NmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01478540_2025-07-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01478540/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01478540/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1673079"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 711,
+    "enriched_at": "2026-04-16T20:37:01Z",
+    "governance_enriched_at": "2026-04-16T22:37:55Z",
+    "ubo_enriched_at": "2026-04-16T23:23:46Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

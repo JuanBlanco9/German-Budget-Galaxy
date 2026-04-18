@@ -1,0 +1,455 @@
+{
+  "company_number": "05934862",
+  "display_name": "REDS10 (UK) LIMITED",
+  "identity": {
+    "ch_number": "05934862",
+    "official_name": "REDS10 (UK) LIMITED",
+    "display_name": "REDS10 (UK) LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2006-09-14",
+    "age_years": 19,
+    "registered_office": {
+      "address_line_1": "129-131 Metal Box Factory, 30 Great Guildford Street",
+      "address_line_2": "Borough",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "SE1 0HS"
+    },
+    "sic_codes": [
+      "41201"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/05934862"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 117687854,
+    "rank": 223,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 59081280,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 39566040,
+            "pct_of_segment": 0.98,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Capital Directorate",
+            "amount_gbp": 19515240,
+            "pct_of_segment": 1.04,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 58606574,
+        "segments": [
+          {
+            "segment": "DEFENCE INFRASTRUCTURE ORGANISATION",
+            "amount_gbp": 58606574,
+            "pct_of_segment": 1.76,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-28",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ5NTY0NTExN2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/05934862_2025-12-28.pdf",
+      "size_mb": 1.74,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 6,
+    "board_turnover_ratio": 1.5,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "RUDDICK, Michael",
+        "role": "director",
+        "appointed_on": "2017-01-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1984
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RUDDICK, Paul",
+        "role": "director",
+        "appointed_on": "2006-09-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RUDDICK, Stephen",
+        "role": "director",
+        "appointed_on": "2020-04-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "RUDDICK, Anna",
+        "role": "secretary",
+        "appointed_on": "2006-09-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "RUDDICK, Anna",
+        "role": "secretary",
+        "appointed_on": "2006-09-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RUDDICK, Michael",
+        "role": "director",
+        "appointed_on": "2017-01-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1984
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RUDDICK, Paul",
+        "role": "director",
+        "appointed_on": "2006-09-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RUDDICK, Stephen",
+        "role": "director",
+        "appointed_on": "2020-04-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 0HS",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 6,
+      "recent": [
+        {
+          "name": "LAIRD, Scott Matthew",
+          "role": "director",
+          "appointed_on": "2021-07-28",
+          "resigned_on": "2026-04-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1984
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 0HS",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BENNION, Matthew John",
+          "role": "director",
+          "appointed_on": "2020-04-28",
+          "resigned_on": "2025-06-09",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1971
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 0HS",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WEARNE, Steven Mark",
+          "role": "director",
+          "appointed_on": "2022-04-01",
+          "resigned_on": "2023-08-10",
+          "nationality": "South African",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1987
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 0HS",
+            "country": "England"
+          }
+        },
+        {
+          "name": "PURVIS, Duncan Bruce",
+          "role": "director",
+          "appointed_on": "2020-07-29",
+          "resigned_on": "2021-07-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1975
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW19 1EX",
+            "country": null
+          }
+        },
+        {
+          "name": "PURVIS, Duncan",
+          "role": "director",
+          "appointed_on": "2018-04-01",
+          "resigned_on": "2020-04-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1975
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW19 1EX",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "05934862",
+          "name": "Reds10 Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2026-04-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05934862",
+            "notified_on": "2026-04-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05934862/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "17042454",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "17042454",
+          "name": "Ruddick Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2026-02-19",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "17042454",
+            "notified_on": "2026-02-19",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/17042454/persons-with-significant-control/corporate-entity/Fi3Zrds3jF72nF0pVFwP4Bfq8rA"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "16946690",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 93,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/05934862"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTY0NTExN2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/05934862_2025-12-28.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/05934862/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/05934862/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 223,
+    "enriched_at": "2026-04-16T19:31:53Z",
+    "governance_enriched_at": "2026-04-16T22:15:43Z",
+    "ubo_enriched_at": "2026-04-16T22:55:55Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

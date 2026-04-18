@@ -1,0 +1,784 @@
+{
+  "company_number": "09172172",
+  "display_name": "EMPOSO LTD",
+  "identity": {
+    "ch_number": "09172172",
+    "official_name": "EMPOSO LIMITED",
+    "display_name": "EMPOSO LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2014-08-12",
+    "age_years": 11,
+    "registered_office": {
+      "address_line_1": "4th Floor 20 Triton Street",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "NW1 3BF"
+    },
+    "sic_codes": [
+      "70229"
+    ],
+    "sic_labels": [
+      "Management consultancy activities (other)"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/09172172"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 24310199,
+    "rank": 548,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 24310199,
+        "segments": [
+          {
+            "segment": "DEFRA",
+            "amount_gbp": 24310199,
+            "pct_of_segment": 1.11,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-04-03",
+    "period_end": "2024-06-28",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ2MTE1Mzk1MGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/09172172_2025-04-03.pdf",
+      "size_mb": 0.89,
+      "exists": true
+    },
+    "next_accounts_due": "2026-03-31",
+    "overdue": true
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 6,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "HILTON, James",
+        "role": "director",
+        "appointed_on": "2022-09-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1978
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 3BF",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MUSGRAVE, James Yann",
+        "role": "director",
+        "appointed_on": "2022-08-24",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1984
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 3BF",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "HAYS NOMINEES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2014-08-12",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 3BF",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "HAYS NOMINEES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2014-08-12",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 3BF",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HILTON, James",
+        "role": "director",
+        "appointed_on": "2022-09-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1978
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 3BF",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MUSGRAVE, James Yann",
+        "role": "director",
+        "appointed_on": "2022-08-24",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1984
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 3BF",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 6,
+      "recent": [
+        {
+          "name": "WINFIELD, Simon",
+          "role": "director",
+          "appointed_on": "2018-07-02",
+          "resigned_on": "2024-10-21",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1969
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW1 3BF",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "EVANS, Douglas George",
+          "role": "director",
+          "appointed_on": "2014-08-12",
+          "resigned_on": "2024-08-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1962
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW1 3BF",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "VENABLES, Paul",
+          "role": "director",
+          "appointed_on": "2014-08-12",
+          "resigned_on": "2022-09-23",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1961
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW1 3BF",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HARRINGTON, John",
+          "role": "director",
+          "appointed_on": "2019-01-16",
+          "resigned_on": "2022-08-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1962
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW1 3BF",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HEAP, Nigel Shaun Christopher",
+          "role": "director",
+          "appointed_on": "2014-09-30",
+          "resigned_on": "2018-07-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1965
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW1 2AF",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "09172172",
+          "name": "Hays Specialist Recruitment (Holdings) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent-as-firm",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09172172",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09172172/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "00934047",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "00934047",
+          "name": "Hays Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00934047",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00934047/persons-with-significant-control/corporate-entity/jHaT99KCy_Pr3qZDz5fQSQfalHQ"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02150950",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 80,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-10",
+        "accounts_overdue"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09172172"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2MTE1Mzk1MGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/09172172_2025-04-03.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09172172/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09172172/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 548,
+    "enriched_at": "2026-04-16T20:21:36Z",
+    "governance_enriched_at": "2026-04-16T22:29:32Z",
+    "ubo_enriched_at": "2026-04-16T23:16:49Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 8,
+      "total_contracts_non_framework": 8,
+      "total_awarded_gbp": 5856007,
+      "total_awarded_non_framework_gbp": 5856007,
+      "years_active": 4,
+      "first_year": 2021,
+      "last_year": 2024,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Defence",
+        "years_count": 2,
+        "years_list": [
+          2022,
+          2023
+        ],
+        "total_value_gbp": 353690,
+        "n_contracts": 2
+      },
+      "n_unique_buyers_all_years": 6,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2021": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 5047567,
+        "awarded_gbp_non_framework": 5047567,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "LANCASHIRE CONSTABULARY",
+          "contracts": 1,
+          "value_gbp": 4527560
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2022": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 393440,
+        "awarded_gbp_non_framework": 393440,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Vehicle Certification Agency",
+          "contracts": 2,
+          "value_gbp": 310000
+        },
+        "procurement_method_counts": {
+          "selective": 3
+        }
+      },
+      "2023": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 370250,
+        "awarded_gbp_non_framework": 370250,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 1,
+          "value_gbp": 270250
+        },
+        "procurement_method_counts": {
+          "unspecified": 1,
+          "selective": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 44750,
+        "awarded_gbp_non_framework": 44750,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "UNIVERSITY OF GLOUCESTERSHIRE",
+          "contracts": 1,
+          "value_gbp": 44750
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2021": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 4527560.0,
+        "n_distinct_codes": 2
+      },
+      "2022": {
+        "top_code": "72224000",
+        "top_label": "Project management consultancy services",
+        "top_value_gbp": 310000.0,
+        "n_distinct_codes": 2
+      },
+      "2023": {
+        "top_code": "72212421",
+        "top_label": "Facilities management software development services",
+        "top_value_gbp": 270250.0,
+        "n_distinct_codes": 2
+      },
+      "2024": {
+        "top_code": "72266000",
+        "top_label": "Software consultancy services",
+        "top_value_gbp": 44750.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 7,
+        "unspecified": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 5756007.0,
+        "unspecified": 100000.0
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 98.29,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/zbKz776r",
+        "buyer_name": "LANCASHIRE CONSTABULARY",
+        "contracts": 1,
+        "value_gbp": 4527560
+      },
+      {
+        "buyer_id": "GB-CFS-43571",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 1,
+        "value_gbp": 520007
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/W8d69ZZY",
+        "buyer_name": "Vehicle Certification Agency",
+        "contracts": 2,
+        "value_gbp": 310000
+      },
+      {
+        "buyer_id": "GB-CFS-244052",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 270250
+      },
+      {
+        "buyer_id": "GB-CFS-180364",
+        "buyer_name": "UK Research & Innovation",
+        "contracts": 1,
+        "value_gbp": 100000
+      },
+      {
+        "buyer_id": "GB-CFS-229630",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 83440
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/U9ba2645",
+        "buyer_name": "UNIVERSITY OF GLOUCESTERSHIRE",
+        "contracts": 1,
+        "value_gbp": 44750
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 1,
+        "value_gbp": 4527560
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 1,
+        "value_gbp": 520007
+      },
+      {
+        "code": "72224000",
+        "label": "Project management consultancy services",
+        "contracts": 2,
+        "value_gbp": 310000
+      },
+      {
+        "code": "72212421",
+        "label": "Facilities management software development services",
+        "contracts": 1,
+        "value_gbp": 270250
+      },
+      {
+        "code": "72212224",
+        "label": "Web page editing software development services",
+        "contracts": 1,
+        "value_gbp": 100000
+      },
+      {
+        "code": "72261000",
+        "label": "Software support services",
+        "contracts": 1,
+        "value_gbp": 83440
+      },
+      {
+        "code": "72266000",
+        "label": "Software consultancy services",
+        "contracts": 1,
+        "value_gbp": 44750
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-7a8c2a85-4b66-46be-abb5-54d732a7517d",
+        "date": "2024-04-17T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF GLOUCESTERSHIRE",
+        "title": "Software as a Service (SaaS) Consultancy Service  - HR & Finance Systems",
+        "value_gbp": 44750,
+        "procurement_method": "selective",
+        "cpv_code": "72266000",
+        "cpv_label": "Software consultancy services",
+        "contract_start": "2024-04-22T00:00:00+01:00",
+        "contract_end": "2024-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/27ff0853-9005-4109-a608-021f22082d71",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a8545410-a6ff-486d-9ba0-3cea19854b28",
+        "date": "2023-10-09T00:00:00+01:00",
+        "buyer": "UK Research & Innovation",
+        "title": "GB-Cambridge: UKRI-2968 BASMet web portal front end redevelopment",
+        "value_gbp": 100000,
+        "procurement_method": null,
+        "cpv_code": "72212224",
+        "cpv_label": "Web page editing software development services",
+        "contract_start": "2023-10-10T00:00:00+01:00",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3d0ba988-1c3d-4b3b-9c87-281bec52526e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4d6eb014-6f9c-4d0e-8ade-ab77ab57d2e5",
+        "date": "2023-05-23T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "SFM-CAFM",
+        "value_gbp": 270250,
+        "procurement_method": "selective",
+        "cpv_code": "72212421",
+        "cpv_label": "Facilities management software development services",
+        "contract_start": "2023-05-23T00:00:00+01:00",
+        "contract_end": "2024-05-22T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b4ae9184-391a-4fa3-80d0-7898027948b6",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fa6aa920-03bc-40e1-b6c7-1f230ec1e6b9",
+        "date": "2022-11-25T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "To Undertake Specialist Cloud support for the move of a legacy SFG20 process to a modern cloud-based solution for FDIS",
+        "value_gbp": 83440,
+        "procurement_method": "selective",
+        "cpv_code": "72261000",
+        "cpv_label": "Software support services",
+        "contract_start": "2022-12-01T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/833b01fc-91f7-4b93-8269-16747868dfba",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-40efa77a-b475-45c6-9f2b-75c873ba4818",
+        "date": "2022-03-25T00:00:00Z",
+        "buyer": "Vehicle Certification Agency",
+        "title": "Change & Comms Management",
+        "value_gbp": 155000,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2022-03-07T00:00:00Z",
+        "contract_end": "2022-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dd7500e6-9de7-403c-a37f-56d1bd831ee3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-40efa77a-b475-45c6-9f2b-75c873ba4818",
+        "date": "2022-03-25T00:00:00Z",
+        "buyer": "Vehicle Certification Agency",
+        "title": "Change & Comms Management",
+        "value_gbp": 155000,
+        "procurement_method": "selective",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2022-03-07T00:00:00Z",
+        "contract_end": "2022-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dd7500e6-9de7-403c-a37f-56d1bd831ee3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f52b2d28-c4b7-40a5-a6d3-eead46778df2",
+        "date": "2021-03-18T00:00:00Z",
+        "buyer": "LANCASHIRE CONSTABULARY",
+        "title": "ICT Consultancy",
+        "value_gbp": 4527560,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6707b512-9a9b-4f2d-9faf-7fde52bffb19",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6fc440f9-e601-438f-83f9-ec8c70d50f1c",
+        "date": "2021-03-02T00:00:00Z",
+        "buyer": "Department for Work and Pensions",
+        "title": "Agile Delivery, Coaching and Training Services",
+        "value_gbp": 520007,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2021-03-03T00:00:00Z",
+        "contract_end": "2022-03-02T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/28867af3-a297-403d-b2ce-3b9915427c7b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 24310199,
+      "awarded_2024_gbp_from_cf": 44750,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 543.2× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.0
+    }
+  }
+}

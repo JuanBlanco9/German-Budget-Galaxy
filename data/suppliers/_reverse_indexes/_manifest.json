@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-04-17T01:24:49Z",
+  "generator": "scripts/build_reverse_lookup_indexes.py",
+  "source_profiles_count": 400,
+  "status": "DRAFT — not wired into _index.json or frontend yet",
+  "indexes": {
+    "_by_ubo_country": {
+      "keys": 27,
+      "total_rows": 85,
+      "description": "Foreign country where a supplier's UBO chain terminates"
+    },
+    "_by_ubo_individual": {
+      "keys": 120,
+      "total_rows": 130,
+      "description": "Natural person UBO → their controlled suppliers (reveals shared ownership)"
+    },
+    "_by_ubo_government": {
+      "keys": 24,
+      "total_rows": 29,
+      "description": "Government body that ultimately owns suppliers"
+    },
+    "_by_ubo_resolution": {
+      "keys": 11,
+      "total_rows": 400,
+      "description": "UBO resolution bucket (government, individual, listed_dispersed, ...)"
+    },
+    "_by_sic_code": {
+      "keys": 166,
+      "total_rows": 563,
+      "description": "SIC 2007 code → suppliers in that industry"
+    },
+    "_by_match_confidence": {
+      "keys": 4,
+      "total_rows": 400,
+      "description": "Match quality label (high/medium/low/suspicious)"
+    },
+    "_by_department": {
+      "keys": 15,
+      "total_rows": 654,
+      "description": "Central govt department → suppliers paid by them"
+    },
+    "_by_company_status": {
+      "keys": 7,
+      "total_rows": 394,
+      "description": "CH company status (active/dissolved/liquidation)"
+    },
+    "_by_jurisdiction": {
+      "keys": 4,
+      "total_rows": 395,
+      "description": "CH jurisdiction (england-wales/scotland/...)"
+    },
+    "_by_legal_form": {
+      "keys": 11,
+      "total_rows": 400,
+      "description": "Company type (ltd/plc/llp/...)"
+    },
+    "_by_age_bucket": {
+      "keys": 6,
+      "total_rows": 400,
+      "description": "Incorporation age range"
+    }
+  },
+  "sic_section_rollup_keys": 21
+}

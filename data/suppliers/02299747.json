@@ -1,0 +1,575 @@
+{
+  "company_number": "02299747",
+  "display_name": "Capita Business Services Ltd",
+  "identity": {
+    "ch_number": "02299747",
+    "official_name": "CAPITA BUSINESS SERVICES LTD",
+    "display_name": "Capita Business Services Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1988-09-26",
+    "age_years": 37,
+    "registered_office": {
+      "address_line_1": "First Floor, 2 Kingdom Street",
+      "address_line_2": "Paddington",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W2 6BD"
+    },
+    "sic_codes": [
+      "62020"
+    ],
+    "sic_labels": [
+      "IT consultancy activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02299747"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 122797012,
+    "rank": 217,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 81050152,
+        "segments": [
+          {
+            "segment": "Financial Assistance & Pensions Services",
+            "amount_gbp": 41342415,
+            "pct_of_segment": 15.29,
+            "rank_in_segment": 3,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Personal Independence Payment",
+            "amount_gbp": 39707737,
+            "pct_of_segment": 19.22,
+            "rank_in_segment": 2,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 33049582,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 9559918,
+            "pct_of_segment": 2.79,
+            "rank_in_segment": 7,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Strategic Policy Directorate",
+            "amount_gbp": 1899352,
+            "pct_of_segment": 1.6,
+            "rank_in_segment": 5,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Standards and Testing Agency",
+            "amount_gbp": 21590312,
+            "pct_of_segment": 51.33,
+            "rank_in_segment": 1,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 8697278,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 6388271,
+            "pct_of_segment": 1.26,
+            "rank_in_segment": 15,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Head Office and Enabling Organisations",
+            "amount_gbp": 2309007,
+            "pct_of_segment": 1.62,
+            "rank_in_segment": 17,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-25",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MTQ5OTk4NmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02299747_2025-06-25.pdf",
+      "size_mb": 1.95,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 7,
+    "officers_resigned_count": 62,
+    "board_turnover_ratio": 8.86,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GREGORY, Christopher James",
+        "role": "director",
+        "appointed_on": "2024-08-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1987
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HOLROYD, Richard Charles",
+        "role": "director",
+        "appointed_on": "2023-11-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LANSDOWN, Michael William",
+        "role": "director",
+        "appointed_on": "2022-01-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RIPOCHE VAN HECKE, Corinne",
+        "role": "director",
+        "appointed_on": "2023-04-13",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SMYTHE, Anthony",
+        "role": "director",
+        "appointed_on": "2026-02-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2008-12-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2008-12-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GREGORY, Christopher James",
+        "role": "director",
+        "appointed_on": "2024-08-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1987
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HOLROYD, Richard Charles",
+        "role": "director",
+        "appointed_on": "2023-11-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LANSDOWN, Michael William",
+        "role": "director",
+        "appointed_on": "2022-01-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RIPOCHE VAN HECKE, Corinne",
+        "role": "director",
+        "appointed_on": "2023-04-13",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SMYTHE, Anthony",
+        "role": "director",
+        "appointed_on": "2026-02-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CAPITA CORPORATE DIRECTOR LIMITED",
+        "role": "corporate-director",
+        "appointed_on": "2023-05-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 62,
+      "recent": [
+        {
+          "name": "BATE-WILLIAMS, Gemma Rebecca",
+          "role": "director",
+          "appointed_on": "2023-03-28",
+          "resigned_on": "2024-10-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MURRAY, Alistair David",
+          "role": "director",
+          "appointed_on": "2022-05-13",
+          "resigned_on": "2024-01-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FREE, Chantal",
+          "role": "director",
+          "appointed_on": "2019-10-14",
+          "resigned_on": "2023-07-04",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1968
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "PALMER, Linda",
+          "role": "director",
+          "appointed_on": "2021-05-28",
+          "resigned_on": "2023-06-23",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1975
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BILLINGHAM, Mark",
+          "role": "director",
+          "appointed_on": "2022-10-17",
+          "resigned_on": "2023-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02299747",
+          "name": "Capita Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02299747",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02299747/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "06027254",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "06027254",
+          "name": "Capita Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06027254",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06027254/persons-with-significant-control/corporate-entity/DByGts6DT98HqipYA6ZpyWxPUrE"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02081330",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02299747"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MTQ5OTk4NmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02299747_2025-06-25.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02299747/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02299747/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 217,
+    "enriched_at": "2026-04-16T19:31:29Z",
+    "governance_enriched_at": "2026-04-16T22:15:34Z",
+    "ubo_enriched_at": "2026-04-16T22:55:34Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

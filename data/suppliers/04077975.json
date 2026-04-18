@@ -1,0 +1,715 @@
+{
+  "company_number": "04077975",
+  "display_name": "SOPRA STERIA LIMITED",
+  "identity": {
+    "ch_number": "04077975",
+    "official_name": "SOPRA STERIA LIMITED",
+    "display_name": "SOPRA STERIA LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2000-09-26",
+    "age_years": 25,
+    "registered_office": {
+      "address_line_1": "6th Floor 1 Bartholomew Close",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1A 7BL"
+    },
+    "sic_codes": [
+      "62020"
+    ],
+    "sic_labels": [
+      "IT consultancy activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04077975"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 30901204,
+    "rank": 497,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 20524558,
+        "segments": [
+          {
+            "segment": "UKVIP - Visas Information & Passports",
+            "amount_gbp": 20524558,
+            "pct_of_segment": 8.17,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 10132190,
+        "segments": [
+          {
+            "segment": "Delivery",
+            "amount_gbp": 419520,
+            "pct_of_segment": 0.74,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Enabling",
+            "amount_gbp": 9712670,
+            "pct_of_segment": 26.93,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 244456,
+        "segments": [
+          {
+            "segment": "Policy & Strategy",
+            "amount_gbp": 244456,
+            "pct_of_segment": 1.55,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-17",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MDM0OTQ1MmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04077975_2025-06-17.pdf",
+      "size_mb": 3.68,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 9,
+    "officers_resigned_count": 30,
+    "board_turnover_ratio": 3.33,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BROOKS-USHER, Giles Maxwell",
+        "role": "director",
+        "appointed_on": "2023-11-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COMMANAY, Pierre-Yves",
+        "role": "director",
+        "appointed_on": "2017-12-08",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GREENE, Maria",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HILDRETH, Mark Peter",
+        "role": "director",
+        "appointed_on": "2026-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1980
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MORAN, John Joseph",
+        "role": "director",
+        "appointed_on": "2008-03-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "France",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1961
+        },
+        "address": {
+          "locality": "75166",
+          "postal_code": null,
+          "country": "France"
+        }
+      },
+      {
+        "name": "NEILSON, John Nairn Macgregor",
+        "role": "director",
+        "appointed_on": "2020-07-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1961
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PASQUIER, Fernand Pierre Louis Marie Charles",
+        "role": "director",
+        "appointed_on": "2023-09-01",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "France",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1935
+        },
+        "address": {
+          "locality": "Paris",
+          "postal_code": "75116",
+          "country": "France"
+        }
+      },
+      {
+        "name": "WALKDEN, Ruth",
+        "role": "director",
+        "appointed_on": "2023-11-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "WALKDEN, Ruth",
+        "role": "secretary",
+        "appointed_on": "2023-11-27",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "WALKDEN, Ruth",
+        "role": "secretary",
+        "appointed_on": "2023-11-27",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BROOKS-USHER, Giles Maxwell",
+        "role": "director",
+        "appointed_on": "2023-11-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COMMANAY, Pierre-Yves",
+        "role": "director",
+        "appointed_on": "2017-12-08",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GREENE, Maria",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HILDRETH, Mark Peter",
+        "role": "director",
+        "appointed_on": "2026-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1980
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MORAN, John Joseph",
+        "role": "director",
+        "appointed_on": "2008-03-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "France",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1961
+        },
+        "address": {
+          "locality": "75166",
+          "postal_code": null,
+          "country": "France"
+        }
+      },
+      {
+        "name": "NEILSON, John Nairn Macgregor",
+        "role": "director",
+        "appointed_on": "2020-07-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1961
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PASQUIER, Fernand Pierre Louis Marie Charles",
+        "role": "director",
+        "appointed_on": "2023-09-01",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "France",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1935
+        },
+        "address": {
+          "locality": "Paris",
+          "postal_code": "75116",
+          "country": "France"
+        }
+      },
+      {
+        "name": "WALKDEN, Ruth",
+        "role": "director",
+        "appointed_on": "2023-11-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 7BL",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 30,
+      "recent": [
+        {
+          "name": "MALARGÉ, Cyril Alexandre",
+          "role": "director",
+          "appointed_on": "2023-09-01",
+          "resigned_on": "2025-11-25",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Paris",
+            "postal_code": "75116",
+            "country": "France"
+          }
+        },
+        {
+          "name": "BROOKS-USHER, Giles Maxwell",
+          "role": "secretary",
+          "appointed_on": "2021-02-22",
+          "resigned_on": "2023-11-27",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Hemel Hempstead",
+            "postal_code": "HP2 7AH",
+            "country": null
+          }
+        },
+        {
+          "name": "CLARK, Kathleen Mary",
+          "role": "director",
+          "appointed_on": "2017-12-08",
+          "resigned_on": "2023-11-27",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1967
+          },
+          "address": {
+            "locality": "Hemel Hempstead",
+            "postal_code": "HP2 7AH",
+            "country": null
+          }
+        },
+        {
+          "name": "AHLUWALIA, Davinder Singh",
+          "role": "director",
+          "appointed_on": "2007-10-17",
+          "resigned_on": "2023-01-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1952
+          },
+          "address": {
+            "locality": "Hemel Hempstead",
+            "postal_code": "HP2 7AH",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CASHMORE, Peter",
+          "role": "secretary",
+          "appointed_on": "2012-12-31",
+          "resigned_on": "2021-02-22",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Hemel Hempstead",
+            "postal_code": "HP2 7AH",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "04077975",
+          "name": "Sopra Steria Services Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04077975",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04077975/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "02706218",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "02706218",
+          "name": "Sopra Steria Holdings Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02706218",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02706218/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04266118",
+          "parent_type": "ltd",
+          "wikidata": {
+            "qid": "Q21021580",
+            "label": "Sopra Steria",
+            "description": "European IT consultancy",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q21021580",
+            "parent_chain": [
+              {
+                "qid": "Q21021580",
+                "label": "Sopra Steria",
+                "description": "European IT consultancy",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2474118094,
+                "source_url": "https://www.wikidata.org/wiki/Q21021580"
+              }
+            ],
+            "ultimate_label": "Sopra Steria",
+            "ultimate_country": "France",
+            "queries_used": [
+              "Sopra Steria Holdings Ltd",
+              "Sopra Steria"
+            ]
+          }
+        },
+        {
+          "step": 3,
+          "from_company": "04266118",
+          "name": "Sopra Steria Group Sa",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04266118",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04266118/persons-with-significant-control/corporate-entity/HSaBNz2Pca60hepIS3-dP65oABE"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "France",
+          "parent_registration_number": null,
+          "wikidata": {
+            "qid": "Q21021580",
+            "label": "Sopra Steria",
+            "description": "European IT consultancy",
+            "match_quality": "exact",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q21021580",
+            "parent_chain": [
+              {
+                "qid": "Q21021580",
+                "label": "Sopra Steria",
+                "description": "European IT consultancy",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2474118094,
+                "source_url": "https://www.wikidata.org/wiki/Q21021580"
+              }
+            ],
+            "ultimate_label": "Sopra Steria",
+            "ultimate_country": "France",
+            "queries_used": [
+              "Sopra Steria Group Sa"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "France"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04077975"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MDM0OTQ1MmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04077975_2025-06-17.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04077975/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04077975/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q21021580"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 497,
+    "enriched_at": "2026-04-16T20:17:39Z",
+    "governance_enriched_at": "2026-04-16T22:27:16Z",
+    "ubo_enriched_at": "2026-04-16T23:14:34Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

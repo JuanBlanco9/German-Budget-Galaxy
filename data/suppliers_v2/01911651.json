@@ -1,0 +1,787 @@
+{
+  "company_number": "01911651",
+  "display_name": "CARE INTERNATIONAL UK",
+  "identity": {
+    "ch_number": "01911651",
+    "official_name": "CARE INTERNATIONAL UK",
+    "display_name": "CARE INTERNATIONAL UK",
+    "status": "active",
+    "type": "private-limited-guarant-nsc",
+    "jurisdiction": "england-wales",
+    "incorporated": "1985-05-07",
+    "age_years": 40,
+    "registered_office": {
+      "address_line_1": "1 St. John's Lane",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1M 4AR"
+    },
+    "sic_codes": [
+      "88990"
+    ],
+    "sic_labels": [
+      "SIC 88990"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01911651"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 33904860,
+    "rank": 479,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "foreign_commonwealth_and_development_office",
+        "dept_name": "FCDO",
+        "amount_gbp": 33904860,
+        "segments": [
+          {
+            "segment": "International NGOs",
+            "amount_gbp": 33904860,
+            "pct_of_segment": 9,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-01-30",
+    "period_end": "2025-06-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzUwMTk2MjQzNGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01911651_2026-01-30.pdf",
+      "size_mb": 3.3,
+      "exists": true
+    },
+    "next_accounts_due": "2027-03-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 11,
+    "officers_resigned_count": 83,
+    "board_turnover_ratio": 7.55,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "D'SOUZA, Desiree Nerissa Melanie",
+        "role": "director",
+        "appointed_on": "2021-03-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "EL ANSARI, Khalid",
+        "role": "director",
+        "appointed_on": "2020-03-25",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1980
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W13 9TZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ISSA, Ziad",
+        "role": "director",
+        "appointed_on": "2025-03-19",
+        "resigned_on": null,
+        "nationality": "Syrian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1993
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KELLY, Laura",
+        "role": "director",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1963
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KHAN, Amadu Wurie, Dr",
+        "role": "director",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": "Sierra Leonean",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LEVY, James",
+        "role": "director",
+        "appointed_on": "2025-10-22",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "NDARUHUTSE, Susanna Mary",
+        "role": "director",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": "British,Rwandan",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1975
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SHERRINGTON, Matthew Andrew",
+        "role": "director",
+        "appointed_on": "2025-03-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SRISATHKURUNATHAN, Sribavan",
+        "role": "director",
+        "appointed_on": "2023-03-29",
+        "resigned_on": null,
+        "nationality": "British,Australian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "STEIN, Lyndall Norma",
+        "role": "director",
+        "appointed_on": "2022-08-01",
+        "resigned_on": null,
+        "nationality": "British,South African",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1949
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TETENBURG, Stefanie Jennifer",
+        "role": "director",
+        "appointed_on": "2025-03-19",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1986
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "D'SOUZA, Desiree Nerissa Melanie",
+        "role": "director",
+        "appointed_on": "2021-03-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "EL ANSARI, Khalid",
+        "role": "director",
+        "appointed_on": "2020-03-25",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1980
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W13 9TZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ISSA, Ziad",
+        "role": "director",
+        "appointed_on": "2025-03-19",
+        "resigned_on": null,
+        "nationality": "Syrian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1993
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KELLY, Laura",
+        "role": "director",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1963
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KHAN, Amadu Wurie, Dr",
+        "role": "director",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": "Sierra Leonean",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LEVY, James",
+        "role": "director",
+        "appointed_on": "2025-10-22",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "NDARUHUTSE, Susanna Mary",
+        "role": "director",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": "British,Rwandan",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1975
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SHERRINGTON, Matthew Andrew",
+        "role": "director",
+        "appointed_on": "2025-03-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SRISATHKURUNATHAN, Sribavan",
+        "role": "director",
+        "appointed_on": "2023-03-29",
+        "resigned_on": null,
+        "nationality": "British,Australian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "STEIN, Lyndall Norma",
+        "role": "director",
+        "appointed_on": "2022-08-01",
+        "resigned_on": null,
+        "nationality": "British,South African",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1949
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TETENBURG, Stefanie Jennifer",
+        "role": "director",
+        "appointed_on": "2025-03-19",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1986
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 4AR",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 83,
+      "recent": [
+        {
+          "name": "SPARROW, Edward",
+          "role": "director",
+          "appointed_on": "2018-12-13",
+          "resigned_on": "2025-11-18",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1953
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1M 4AR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "YUEN, Anita Alison Yee Ping",
+          "role": "director",
+          "appointed_on": "2021-03-02",
+          "resigned_on": "2024-12-04",
+          "nationality": "Canadian",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1973
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E1 6PW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "NOHR, Nadine Joelle, Ms.",
+          "role": "director",
+          "appointed_on": "2016-12-07",
+          "resigned_on": "2024-06-27",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1959
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E1 6PW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CHAPMAN, Nigel Conrad",
+          "role": "director",
+          "appointed_on": "2016-12-07",
+          "resigned_on": "2023-12-06",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1955
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E1 6PW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "KWAKU, Esther",
+          "role": "director",
+          "appointed_on": "2018-12-13",
+          "resigned_on": "2023-12-06",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1978
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E1 6PW",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-12-31",
+        "ceased_on": null
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "01911651",
+          "terminal": true,
+          "resolution": "no_psc_identified",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ]
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01911651"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwMTk2MjQzNGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01911651_2026-01-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01911651/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01911651/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 479,
+    "enriched_at": "2026-04-16T20:16:04Z",
+    "governance_enriched_at": "2026-04-16T22:26:31Z",
+    "ubo_enriched_at": "2026-04-16T23:13:55Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2023
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 0,
+      "total_awarded_gbp": 0,
+      "total_awarded_non_framework_gbp": 0,
+      "years_active": 1,
+      "first_year": 2023,
+      "last_year": 2023,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "Foreign Commonwealth and Development Office",
+        "years_count": 1,
+        "years_list": [
+          2023
+        ],
+        "total_value_gbp": 0,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Foreign Commonwealth and Development Office",
+          "contracts": 1,
+          "value_gbp": 0
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2023": {
+        "top_code": "75211200",
+        "top_label": "Foreign economic-aid-related services",
+        "top_value_gbp": 0.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 1
+      },
+      "procurement_method_value_gbp_all_years": {},
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 0.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-232497",
+        "buyer_name": "Foreign Commonwealth and Development Office",
+        "contracts": 1,
+        "value_gbp": 0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "75211200",
+        "label": "Foreign economic-aid-related services",
+        "contracts": 1,
+        "value_gbp": 0
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-b70e88a2-ca53-4370-9bbb-ad899054a3d7",
+        "date": "2023-12-18T00:00:00Z",
+        "buyer": "Foreign Commonwealth and Development Office",
+        "title": "Global Development Delivery Framework (GDD)",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "75211200",
+        "cpv_label": "Foreign economic-aid-related services",
+        "contract_start": "2023-12-18T00:00:00Z",
+        "contract_end": "2025-12-17T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/aaa25d5f-00b9-4c3f-b8bd-ab66d4bb14b2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 33904860,
+      "awarded_2024_gbp_from_cf": 0,
+      "signal": "paid_on_prior_contracts",
+      "note": "Paid in 2024 but no new awards visible in Contracts Finder — likely on pre-existing multi-year contracts.",
+      "ratio": null
+    }
+  }
+}

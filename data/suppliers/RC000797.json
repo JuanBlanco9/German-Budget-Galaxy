@@ -1,0 +1,157 @@
+{
+  "company_number": "RC000797",
+  "display_name": "The University Of Manchester",
+  "identity": {
+    "ch_number": "RC000797",
+    "official_name": "THE UNIVERSITY OF MANCHESTER",
+    "display_name": "The University Of Manchester",
+    "status": "active",
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000797"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 13131371,
+    "rank": 686,
+    "category": "academic",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 12618194,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 4029120,
+            "pct_of_segment": 1.18,
+            "rank_in_segment": 11,
+            "type": "University"
+          },
+          {
+            "segment": "SEND and Alternative Provision",
+            "amount_gbp": 8028757,
+            "pct_of_segment": 5.93,
+            "rank_in_segment": 3,
+            "type": "University"
+          },
+          {
+            "segment": "Strategic Policy Directorate",
+            "amount_gbp": 560317,
+            "pct_of_segment": 0.47,
+            "rank_in_segment": 20,
+            "type": "University"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 513177,
+        "segments": [
+          {
+            "segment": "Delivery",
+            "amount_gbp": 513177,
+            "pct_of_segment": 0.9,
+            "rank_in_segment": 11,
+            "type": "University"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000797",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000797"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000797/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000797/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "academic",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 686,
+    "enriched_at": "2026-04-16T20:35:08Z",
+    "governance_enriched_at": "2026-04-16T22:36:50Z",
+    "ubo_enriched_at": "2026-04-16T23:23:11Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

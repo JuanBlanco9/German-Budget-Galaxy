@@ -1,0 +1,486 @@
+{
+  "company_number": "06722404",
+  "display_name": "Capita Employee Benefits Ltd",
+  "identity": {
+    "ch_number": "06722404",
+    "official_name": "CAPITA EMPLOYEE BENEFITS HOLDINGS LIMITED",
+    "display_name": "Capita Employee Benefits Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2008-10-13",
+    "age_years": 17,
+    "registered_office": {
+      "address_line_1": "First Floor, 2 Kingdom Street",
+      "address_line_2": "Paddington",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W2 6BD"
+    },
+    "sic_codes": [
+      "70100"
+    ],
+    "sic_labels": [
+      "Activities of head offices"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06722404"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 23174023,
+    "rank": 553,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 23174023,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 23174023,
+            "pct_of_segment": 6.77,
+            "rank_in_segment": 1,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-18",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzQ4MTc0MTU0OGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/06722404_2025-09-18.pdf",
+      "size_mb": 0.21,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 19,
+    "board_turnover_ratio": 6.33,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "CLEMENTS, Christopher Charles",
+        "role": "director",
+        "appointed_on": "2018-10-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2012-04-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2012-04-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CLEMENTS, Christopher Charles",
+        "role": "director",
+        "appointed_on": "2018-10-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CAPITA CORPORATE DIRECTOR LIMITED",
+        "role": "corporate-director",
+        "appointed_on": "2024-02-20",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 19,
+      "recent": [
+        {
+          "name": "HEATLEY, Stuart Robert",
+          "role": "director",
+          "appointed_on": "2021-07-14",
+          "resigned_on": "2025-11-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1967
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W2 6BD",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MOFFATT, Alexandra Mary",
+          "role": "director",
+          "appointed_on": "2018-07-11",
+          "resigned_on": "2020-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "LATNER, Nicholas Edward",
+          "role": "director",
+          "appointed_on": "2017-10-12",
+          "resigned_on": "2018-10-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1978
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1T 3LR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "RING, Susan Lesley",
+          "role": "director",
+          "appointed_on": "2014-06-18",
+          "resigned_on": "2018-07-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1961
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1P 1QT",
+            "country": null
+          }
+        },
+        {
+          "name": "BOWMAN, Andrew John",
+          "role": "director",
+          "appointed_on": "2014-08-12",
+          "resigned_on": "2018-07-03",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1972
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1P 1QT",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "06722404",
+          "name": "Capita Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-12-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06722404",
+            "notified_on": "2021-12-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06722404/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02081330",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 75,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06722404"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MTc0MTU0OGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/06722404_2025-09-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06722404/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06722404/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 553,
+    "enriched_at": "2026-04-16T20:22:13Z",
+    "governance_enriched_at": "2026-04-16T22:29:50Z",
+    "ubo_enriched_at": "2026-04-16T23:17:14Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2021
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 1,
+      "total_awarded_gbp": 50000,
+      "total_awarded_non_framework_gbp": 50000,
+      "years_active": 1,
+      "first_year": 2021,
+      "last_year": 2021,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "HIGHWAYS ENGLAND COMPANY LIMITED",
+        "years_count": 1,
+        "years_list": [
+          2021
+        ],
+        "total_value_gbp": 50000,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 50000,
+        "awarded_gbp_non_framework": 50000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "HIGHWAYS ENGLAND COMPANY LIMITED",
+          "contracts": 1,
+          "value_gbp": 50000
+        },
+        "procurement_method_counts": {
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2021": {
+        "top_code": "71311210",
+        "top_label": "Highways consultancy services",
+        "top_value_gbp": 50000.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": true,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "direct": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "direct": 50000.0
+      },
+      "sole_source_pct_all_years": 100.0,
+      "competitive_pct_all_years": 0.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-158282",
+        "buyer_name": "HIGHWAYS ENGLAND COMPANY LIMITED",
+        "contracts": 1,
+        "value_gbp": 50000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "71311210",
+        "label": "Highways consultancy services",
+        "contracts": 1,
+        "value_gbp": 50000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-a939842c-02c3-4f3a-8805-01c7e2a5a522",
+        "date": "2021-06-16T00:00:00+01:00",
+        "buyer": "HIGHWAYS ENGLAND COMPANY LIMITED",
+        "title": "Life assurance for employees on the FPP Benefit pension scheme",
+        "value_gbp": 50000,
+        "procurement_method": "direct",
+        "cpv_code": "71311210",
+        "cpv_label": "Highways consultancy services",
+        "contract_start": "2021-06-16T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a3313bd1-36f4-4907-addf-bde3ea591e05",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 23174023,
+      "awarded_2024_gbp_from_cf": 50000,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 463.5× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.0
+    }
+  }
+}

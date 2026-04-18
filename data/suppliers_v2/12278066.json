@@ -1,0 +1,219 @@
+{
+  "company_number": "12278066",
+  "display_name": "NEST CORPORATION",
+  "identity": {
+    "ch_number": "12278066",
+    "official_name": "NEST CONSTRUCTION CORPORATION LIMITED",
+    "display_name": "NEST CORPORATION",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2019-10-23",
+    "age_years": 6,
+    "registered_office": {
+      "address_line_1": "9 Liberator House",
+      "address_line_2": "Clopton Park",
+      "country": "England",
+      "locality": "Woodbridge",
+      "postal_code": "IP13 6QT",
+      "region": "Suffolk"
+    },
+    "sic_codes": [
+      "41100"
+    ],
+    "sic_labels": [
+      "Development of building projects"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12278066"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 68858729,
+    "rank": 314,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 68858729,
+        "segments": [
+          {
+            "segment": "Finance & Governance",
+            "amount_gbp": 68858729,
+            "pct_of_segment": 15.75,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-23",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzQ5NjA1MDA0NWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/12278066_2025-12-23.pdf",
+      "size_mb": 0.18,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "GLENDINNING, Nicholas James",
+        "role": "director",
+        "appointed_on": "2019-10-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Woodbridge",
+          "postal_code": "IP13 6QT",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "GLENDINNING, Nicholas James",
+        "role": "director",
+        "appointed_on": "2019-10-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Woodbridge",
+          "postal_code": "IP13 6QT",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "12278066",
+          "name": "Mr Nicholas James Glendinning",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-10-23",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12278066",
+            "notified_on": "2019-10-23",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12278066/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Nicholas James Glendinning"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 63,
+    "label": "medium",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-15",
+        "unknown_individual_ubo_very_large_spend"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12278066"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NjA1MDA0NWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/12278066_2025-12-23.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12278066/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12278066/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 314,
+    "enriched_at": "2026-04-16T20:02:31Z",
+    "governance_enriched_at": "2026-04-16T22:19:26Z",
+    "ubo_enriched_at": "2026-04-16T23:02:08Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

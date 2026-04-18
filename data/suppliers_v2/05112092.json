@@ -1,0 +1,768 @@
+{
+  "company_number": "05112092",
+  "display_name": "SEVERN TRENT SERVICES DEFENCE LIMITED",
+  "identity": {
+    "ch_number": "05112092",
+    "official_name": "SEVERN TRENT SERVICES DEFENCE LIMITED",
+    "display_name": "SEVERN TRENT SERVICES DEFENCE LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2004-04-26",
+    "age_years": 21,
+    "registered_office": {
+      "address_line_1": "Severn Trent Centre",
+      "address_line_2": "2 St John's Street",
+      "locality": "Coventry",
+      "postal_code": "CV1 2LZ"
+    },
+    "sic_codes": [
+      "36000"
+    ],
+    "sic_labels": [
+      "Water collection, treatment and supply"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/05112092"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 64346639,
+    "rank": 326,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 64346639,
+        "segments": [
+          {
+            "segment": "DEFENCE INFRASTRUCTURE ORGANISATION",
+            "amount_gbp": 64346639,
+            "pct_of_segment": 1.93,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-29",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4MjkxNzY2OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/05112092_2025-09-29.pdf",
+      "size_mb": 1.01,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 28,
+    "board_turnover_ratio": 5.6,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "KNOTT, James Robert",
+        "role": "director",
+        "appointed_on": "2025-05-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      },
+      {
+        "name": "LEE, Andrew Philip Charles",
+        "role": "director",
+        "appointed_on": "2023-08-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      },
+      {
+        "name": "MELLING, Philip Richard",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1986
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      },
+      {
+        "name": "MIAH, Tracey Anne",
+        "role": "director",
+        "appointed_on": "2021-02-15",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "RICHARDS, Naomi",
+        "role": "secretary",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "RICHARDS, Naomi",
+        "role": "secretary",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "KNOTT, James Robert",
+        "role": "director",
+        "appointed_on": "2025-05-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      },
+      {
+        "name": "LEE, Andrew Philip Charles",
+        "role": "director",
+        "appointed_on": "2023-08-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      },
+      {
+        "name": "MELLING, Philip Richard",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1986
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      },
+      {
+        "name": "MIAH, Tracey Anne",
+        "role": "director",
+        "appointed_on": "2021-02-15",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV1 2LZ",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 28,
+      "recent": [
+        {
+          "name": "EAGLE, Gemma",
+          "role": "secretary",
+          "appointed_on": "2019-01-30",
+          "resigned_on": "2026-02-17",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Coventry",
+            "postal_code": "CV1 2LZ",
+            "country": null
+          }
+        },
+        {
+          "name": "SWINBURNE, John Paul",
+          "role": "director",
+          "appointed_on": "2019-10-01",
+          "resigned_on": "2025-05-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1969
+          },
+          "address": {
+            "locality": "Coventry",
+            "postal_code": "CV1 2LZ",
+            "country": null
+          }
+        },
+        {
+          "name": "MCPHEELY, Robert Craig",
+          "role": "director",
+          "appointed_on": "2014-12-18",
+          "resigned_on": "2023-10-13",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1962
+          },
+          "address": {
+            "locality": "Coventry",
+            "postal_code": "CV1 2LZ",
+            "country": null
+          }
+        },
+        {
+          "name": "WILLIAMSON, Michael Alasdair Norval",
+          "role": "director",
+          "appointed_on": "2019-01-30",
+          "resigned_on": "2023-04-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1976
+          },
+          "address": {
+            "locality": "Coventry",
+            "postal_code": "CV1 2LZ",
+            "country": null
+          }
+        },
+        {
+          "name": "HARRIS, Sarah Louise",
+          "role": "director",
+          "appointed_on": "2021-12-20",
+          "resigned_on": "2023-03-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1978
+          },
+          "address": {
+            "locality": "Coventry",
+            "postal_code": "CV1 2LZ",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "05112092",
+          "name": "Severn Trent Services Defence Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05112092",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05112092/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05112024",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05112024",
+          "name": "Severn Trent (W&S) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05112024",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05112024/persons-with-significant-control/corporate-entity/A-yisa7Zm7TFtJswiUuhZ48d_AM"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03995023",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "03995023",
+          "name": "Severn Trent Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03995023",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03995023/persons-with-significant-control/corporate-entity/K3FzJDT3cKWubxym87W1M2IwyIQ"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05656363",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "05656363",
+          "name": "Severn Trent Investment Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2025-03-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05656363",
+            "notified_on": "2025-03-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05656363/persons-with-significant-control/corporate-entity/L_9aB1awvqgoQdqOBn9u0oobk1g"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07560050",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "07560050",
+          "name": "Severn Trent Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07560050",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07560050/persons-with-significant-control/corporate-entity/k8cqUa0VSGUREGxPGg-R1ilegjE"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02366619",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/05112092"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MjkxNzY2OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/05112092_2025-09-29.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/05112092/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/05112092/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 326,
+    "enriched_at": "2026-04-16T20:03:36Z",
+    "governance_enriched_at": "2026-04-16T22:19:52Z",
+    "ubo_enriched_at": "2026-04-16T23:02:50Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2022,
+      2023
+    ],
+    "summary": {
+      "total_contracts": 3,
+      "total_contracts_non_framework": 3,
+      "total_awarded_gbp": 1058239.69,
+      "total_awarded_non_framework_gbp": 1058239.69,
+      "years_active": 3,
+      "first_year": 2020,
+      "last_year": 2023,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "The University of Leicester",
+        "years_count": 1,
+        "years_list": [
+          2020
+        ],
+        "total_value_gbp": 700000,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 700000,
+        "awarded_gbp_non_framework": 700000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "The University of Leicester",
+          "contracts": 1,
+          "value_gbp": 700000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 79543.1,
+        "awarded_gbp_non_framework": 79543.1,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Forestry England",
+          "contracts": 1,
+          "value_gbp": 79543.1
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 278696.59,
+        "awarded_gbp_non_framework": 278696.59,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Harper Adams University",
+          "contracts": 1,
+          "value_gbp": 278696.59
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "71600000",
+        "top_label": "Technical testing, analysis and consultancy services",
+        "top_value_gbp": 700000.0,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "71700000",
+        "top_label": "Monitoring and control services",
+        "top_value_gbp": 79543.1,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "71632000",
+        "top_label": "Technical testing services",
+        "top_value_gbp": 278696.59,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 2,
+        "selective": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 779543.1,
+        "selective": 278696.59
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-137312",
+        "buyer_name": "The University of Leicester",
+        "contracts": 1,
+        "value_gbp": 700000
+      },
+      {
+        "buyer_id": "GB-CFS-100395",
+        "buyer_name": "Harper Adams University",
+        "contracts": 1,
+        "value_gbp": 278696.59
+      },
+      {
+        "buyer_id": "GB-CFS-118941",
+        "buyer_name": "Forestry England",
+        "contracts": 1,
+        "value_gbp": 79543.1
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "71600000",
+        "label": "Technical testing, analysis and consultancy services",
+        "contracts": 1,
+        "value_gbp": 700000
+      },
+      {
+        "code": "71632000",
+        "label": "Technical testing services",
+        "contracts": 1,
+        "value_gbp": 278696.59
+      },
+      {
+        "code": "71700000",
+        "label": "Monitoring and control services",
+        "contracts": 1,
+        "value_gbp": 79543.1
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-7a28f619-db53-41b3-950c-1b2ddf071b66",
+        "date": "2023-06-20T00:00:00+01:00",
+        "buyer": "Harper Adams University",
+        "title": "CA10005 - EST0222 | Harper Adams University Provision of L8 Water Hygiene Service Contract",
+        "value_gbp": 278696.59,
+        "procurement_method": "selective",
+        "cpv_code": "71632000",
+        "cpv_label": "Technical testing services",
+        "contract_start": "2023-07-02T00:00:00+01:00",
+        "contract_end": "2026-07-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1f93252e-72b3-46fc-9afc-ccfbc38281ee",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-b6e1b513-c9b1-4ba1-98c7-16da42b52df4",
+        "date": "2022-03-28T00:00:00+01:00",
+        "buyer": "Forestry England",
+        "title": "GB-Bristol: Water Hygiene Monitoring Services  - Central England Forest District",
+        "value_gbp": 79543.1,
+        "procurement_method": "open",
+        "cpv_code": "71700000",
+        "cpv_label": "Monitoring and control services",
+        "contract_start": "2022-04-01T00:00:00+01:00",
+        "contract_end": "2027-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2fdf300b-385e-4e64-adb2-78ed685d0b52",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-24a071ba-ed16-4b11-b230-8bf230262e76",
+        "date": "2020-06-15T00:00:00+01:00",
+        "buyer": "The University of Leicester",
+        "title": "LUV00843 - Water Hygiene Monitoring Services Contract",
+        "value_gbp": 700000,
+        "procurement_method": "open",
+        "cpv_code": "71600000",
+        "cpv_label": "Technical testing, analysis and consultancy services",
+        "contract_start": "2020-08-01T00:00:00+01:00",
+        "contract_end": "2024-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6fc8086b-bbcd-4549-9c48-1525e53303ef",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 64346639,
+      "awarded_2024_gbp_from_cf": 1058239.69,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 60.8× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.02
+    }
+  }
+}

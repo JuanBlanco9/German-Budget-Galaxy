@@ -1,0 +1,848 @@
+{
+  "company_number": "10369857",
+  "display_name": "Corndel Limited",
+  "identity": {
+    "ch_number": "10369857",
+    "official_name": "CORNDEL LIMITED",
+    "display_name": "Corndel Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2016-09-11",
+    "age_years": 9,
+    "registered_office": {
+      "address_line_1": "Fifth Floor",
+      "address_line_2": "80 Old Street",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1V 9AZ"
+    },
+    "sic_codes": [
+      "85320",
+      "85600"
+    ],
+    "sic_labels": [
+      "Technical and vocational secondary education",
+      "SIC 85600"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/10369857"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 48173563,
+    "rank": 390,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 48173563,
+        "segments": [
+          {
+            "segment": "Apprenticeships and Skills Bootcamps",
+            "amount_gbp": 48173563,
+            "pct_of_segment": 1.98,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-04-10",
+    "period_end": "2025-06-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUxNDA1NDI0MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/10369857_2026-04-10.pdf",
+      "size_mb": 1.47,
+      "exists": true
+    },
+    "next_accounts_due": "2027-03-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 11,
+    "board_turnover_ratio": 3.67,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "COSGROVE, Sean",
+        "role": "director",
+        "appointed_on": "2023-03-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1988
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FERGUSON, Kathryn Mary",
+        "role": "director",
+        "appointed_on": "2025-01-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KELLY, James Nicholas",
+        "role": "director",
+        "appointed_on": "2017-08-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "COSGROVE, Sean",
+        "role": "director",
+        "appointed_on": "2023-03-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1988
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FERGUSON, Kathryn Mary",
+        "role": "director",
+        "appointed_on": "2025-01-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KELLY, James Nicholas",
+        "role": "director",
+        "appointed_on": "2017-08-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 11,
+      "recent": [
+        {
+          "name": "WETHERED, Tarquin James Hindmarsh",
+          "role": "director",
+          "appointed_on": "2023-05-09",
+          "resigned_on": "2024-10-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1987
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1K 4QG",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ROSE, Kevin Granville",
+          "role": "director",
+          "appointed_on": "2021-04-29",
+          "resigned_on": "2023-03-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WILLIAMS, Sean Thomas",
+          "role": "director",
+          "appointed_on": "2016-09-21",
+          "resigned_on": "2021-10-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BRANDMAN, Samuel Mark",
+          "role": "director",
+          "appointed_on": "2017-08-18",
+          "resigned_on": "2021-04-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1982
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ALBERG, Richard Daniel",
+          "role": "director",
+          "appointed_on": "2016-09-11",
+          "resigned_on": "2020-11-27",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1965
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2018-10-19",
+        "ceased_on": "2020-11-27"
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "10369857",
+          "name": "Coedu Group Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2025-05-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "10369857",
+            "notified_on": "2025-05-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/10369857/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15981684",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "15981684",
+          "name": "Galileo Global Education Uk Holding Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-09-26",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15981684",
+            "notified_on": "2024-09-26",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15981684/persons-with-significant-control/corporate-entity/DIWGhHF9QSVY8Jq-2c-y89wQ2pk"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "14722406",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10369857"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxNDA1NDI0MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/10369857_2026-04-10.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10369857/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10369857/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 390,
+    "enriched_at": "2026-04-16T20:08:28Z",
+    "governance_enriched_at": "2026-04-16T22:22:50Z",
+    "ubo_enriched_at": "2026-04-16T23:09:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 12,
+      "total_contracts_non_framework": 8,
+      "total_awarded_gbp": 1624750.3892493048,
+      "total_awarded_non_framework_gbp": 557000,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "The British Broadcasting Corporation (BBC)",
+        "years_count": 1,
+        "years_list": [
+          2023
+        ],
+        "total_value_gbp": 961538.4615384615,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 8,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 90000,
+        "awarded_gbp_non_framework": 90000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Hull University Teaching Hospitals NHS Trust",
+          "contracts": 1,
+          "value_gbp": 90000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 121211.92771084339,
+        "awarded_gbp_non_framework": 15000,
+        "awarded_gbp_framework_share": 106211.92771084339,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department For Education",
+          "contracts": 3,
+          "value_gbp": 106211.92771084339
+        },
+        "procurement_method_counts": {
+          "open": 3,
+          "selective": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 113000,
+        "awarded_gbp_non_framework": 113000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": ".East Riding Of Yorkshire Council",
+          "contracts": 1,
+          "value_gbp": 60000
+        },
+        "procurement_method_counts": {
+          "direct": 2
+        }
+      },
+      "2023": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 1225538.4615384615,
+        "awarded_gbp_non_framework": 264000,
+        "awarded_gbp_framework_share": 961538.4615384615,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "The British Broadcasting Corporation (BBC)",
+          "contracts": 1,
+          "value_gbp": 961538.4615384615
+        },
+        "procurement_method_counts": {
+          "selective": 1,
+          "open": 3
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 75000,
+        "awarded_gbp_non_framework": 75000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "East Riding of Yorkshire Council",
+          "contracts": 1,
+          "value_gbp": 75000
+        },
+        "procurement_method_counts": {
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 90000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 121211.92771084339,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 113000.0,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 1225538.4615384615,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 75000.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 7,
+        "selective": 2,
+        "direct": 3
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 460211.9277108434,
+        "selective": 976538.4615384615,
+        "direct": 188000.0
+      },
+      "sole_source_pct_all_years": 11.57,
+      "competitive_pct_all_years": 88.43,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-259950",
+        "buyer_name": "The British Broadcasting Corporation (BBC)",
+        "contracts": 1,
+        "value_gbp": 961538.4615384615
+      },
+      {
+        "buyer_id": "GB-CFS-251689",
+        "buyer_name": "Breckland District Council",
+        "contracts": 3,
+        "value_gbp": 264000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/QfDr2jb7",
+        "buyer_name": "Department For Education",
+        "contracts": 3,
+        "value_gbp": 106211.92771084339
+      },
+      {
+        "buyer_id": "GB-CFS-109223",
+        "buyer_name": "Hull University Teaching Hospitals NHS Trust",
+        "contracts": 1,
+        "value_gbp": 90000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/AB9Ap52c",
+        "buyer_name": "East Riding of Yorkshire Council",
+        "contracts": 1,
+        "value_gbp": 75000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/AB9Ap52c",
+        "buyer_name": ".East Riding Of Yorkshire Council",
+        "contracts": 1,
+        "value_gbp": 60000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/2gx98Qm7",
+        "buyer_name": "THE POLICE AND CRIME COMMISSIONER FOR LINCOLNSHIRE",
+        "contracts": 1,
+        "value_gbp": 53000
+      },
+      {
+        "buyer_id": "GB-CFS-49937",
+        "buyer_name": "North East Lincolnshire Council",
+        "contracts": 1,
+        "value_gbp": 15000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 12,
+        "value_gbp": 1624750.3892493048
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-e32fd8e9-cf7a-448b-8462-7f1fda644e42",
+        "date": "2024-01-16T00:00:00Z",
+        "buyer": "East Riding of Yorkshire Council",
+        "title": "Apprenticeship Levy L4 Data Analyst (Adult Social Care pathway)",
+        "value_gbp": 75000,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2025-02-01T00:00:00Z",
+        "contract_end": "2029-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/80647f16-1bd5-481e-8178-40686f2f4611",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7c9419a1-117d-409b-b541-bb40221d540f",
+        "date": "2023-08-31T00:00:00+01:00",
+        "buyer": "The British Broadcasting Corporation (BBC)",
+        "title": "Apprenticeship Procurement Pathways",
+        "value_gbp": 961538.4615384615,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c12ba645-bcd3-4d27-a3ea-eb5170f65315",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9b0f2e2e-3515-4cf7-8acd-25783e2f33ea",
+        "date": "2023-08-01T00:00:00+01:00",
+        "buyer": "Breckland District Council",
+        "title": "073-GY-23 Provider for Level 6 Chartered Management Apprenticeship - AWARD",
+        "value_gbp": 132000,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2026-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c0e50b3e-8729-4865-aae8-b546bd94978f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9b0f2e2e-3515-4cf7-8acd-25783e2f33ea",
+        "date": "2023-07-17T00:00:00+01:00",
+        "buyer": "Breckland District Council",
+        "title": "073-GY-23 Provider for Level 6 Chartered Management Apprenticeship - AWARD",
+        "value_gbp": 132000,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2026-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c0e50b3e-8729-4865-aae8-b546bd94978f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9b0f2e2e-3515-4cf7-8acd-25783e2f33ea",
+        "date": "2023-07-17T00:00:00+01:00",
+        "buyer": "Breckland District Council",
+        "title": "073-GY-23 Provider for Level 6 Chartered Management Apprenticeship - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2026-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c0e50b3e-8729-4865-aae8-b546bd94978f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d75ae652-ca26-4810-9617-6dbb5db1b99f",
+        "date": "2022-05-24T00:00:00+01:00",
+        "buyer": ".East Riding Of Yorkshire Council",
+        "title": "Apprenticeship levy level 4 data analyst",
+        "value_gbp": 60000,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-05-23T00:00:00+01:00",
+        "contract_end": "2026-05-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/85ff8b76-3ad7-4f3a-95ce-bf0fe4165447",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ad439721-1f8e-4d56-81c0-9d074c09d470",
+        "date": "2022-03-31T00:00:00+01:00",
+        "buyer": "THE POLICE AND CRIME COMMISSIONER FOR LINCOLNSHIRE",
+        "title": "Apprenticeship for various G4S staff transferring back to Lincs Police",
+        "value_gbp": 53000,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-04-01T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a6cc8479-4d4b-478a-a60d-f37fa5de2a0a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ebe2f42f-b294-43fd-828d-00c64b3f58b3",
+        "date": "2021-02-17T00:00:00Z",
+        "buyer": "North East Lincolnshire Council",
+        "title": "Children's Services Data Analyst Apprenticeship NELC Provision of Apprenticeship Training Programmes - Further Competition",
+        "value_gbp": 15000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-03-01T00:00:00Z",
+        "contract_end": "2023-03-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/75cb531e-c291-4c0b-a573-6fc4dded63f9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-de4ebe58-9fef-4f73-b41a-a5788fc817c6",
+        "date": "2021-01-29T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Delivery of Traineeships Reforms and Expansion Programme",
+        "value_gbp": 35403.97590361446,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-02-01T00:00:00Z",
+        "contract_end": "2023-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5c82141e-6944-4d12-9bd5-66321ba27ef8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-de4ebe58-9fef-4f73-b41a-a5788fc817c6",
+        "date": "2021-01-29T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Delivery of Traineeships Reforms and Expansion Programme",
+        "value_gbp": 35403.97590361446,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-02-01T00:00:00Z",
+        "contract_end": "2023-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5c82141e-6944-4d12-9bd5-66321ba27ef8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-de4ebe58-9fef-4f73-b41a-a5788fc817c6",
+        "date": "2021-01-29T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Delivery of Traineeships Reforms and Expansion Programme",
+        "value_gbp": 35403.97590361446,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-02-01T00:00:00Z",
+        "contract_end": "2023-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5c82141e-6944-4d12-9bd5-66321ba27ef8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a4f28fc0-ee88-4dbd-aa9a-0392a3e4ac8b",
+        "date": "2020-12-07T00:00:00Z",
+        "buyer": "Hull University Teaching Hospitals NHS Trust",
+        "title": "HEY/18/352 - LEADERSHIP APPRENTICESHIP SERVICES",
+        "value_gbp": 90000,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-01-01T00:00:00Z",
+        "contract_end": "2022-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ae9cd442-71f0-4b7b-8d45-1fcebff2cae9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 48173563,
+      "awarded_2024_gbp_from_cf": 75000,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 642.3× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.0
+    }
+  }
+}

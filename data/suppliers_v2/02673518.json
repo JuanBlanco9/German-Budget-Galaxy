@@ -1,0 +1,1397 @@
+{
+  "company_number": "02673518",
+  "display_name": "Babington Business College Limited",
+  "identity": {
+    "ch_number": "02673518",
+    "official_name": "BABINGTON BUSINESS COLLEGE LIMITED",
+    "display_name": "Babington Business College Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1991-12-20",
+    "age_years": 34,
+    "registered_office": {
+      "address_line_1": "40 Berkeley Square",
+      "country": "United Kingdom",
+      "locality": "Bristol",
+      "postal_code": "BS8 1HP"
+    },
+    "sic_codes": [
+      "85410"
+    ],
+    "sic_labels": [
+      "SIC 85410"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02673518"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16107296,
+    "rank": 635,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 15992161,
+        "segments": [
+          {
+            "segment": "Apprenticeships and Skills Bootcamps",
+            "amount_gbp": 15992161,
+            "pct_of_segment": 0.66,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 115135,
+        "segments": [
+          {
+            "segment": "People & Change",
+            "amount_gbp": 115135,
+            "pct_of_segment": 1.35,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-08-29",
+    "period_end": "2026-01-31",
+    "accounts_type_code": "AA01",
+    "accounts_type_description": "change-account-reference-date-company-current-extended",
+    "transaction_id": "MzQ3OTE0MDkxMmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02673518_2025-08-29.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-10-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 24,
+    "board_turnover_ratio": 8.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BOTHA, Mark David",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BRAMLEY, Jennifer Ellen",
+        "role": "director",
+        "appointed_on": "2023-05-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HILLS, David Richard",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BOTHA, Mark David",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BRAMLEY, Jennifer Ellen",
+        "role": "director",
+        "appointed_on": "2023-05-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HILLS, David Richard",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 24,
+      "recent": [
+        {
+          "name": "SMITH, Thomas Edward",
+          "role": "director",
+          "appointed_on": "2023-07-31",
+          "resigned_on": "2025-03-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1985
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BLACKBURN, Michael Aaron",
+          "role": "director",
+          "appointed_on": "2024-02-08",
+          "resigned_on": "2024-06-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BASHAM, Mark Rutherford",
+          "role": "director",
+          "appointed_on": "2023-07-18",
+          "resigned_on": "2024-02-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MARSH, David",
+          "role": "director",
+          "appointed_on": "2018-11-14",
+          "resigned_on": "2023-05-16",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1980
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FANTHAM, Adrian Russell",
+          "role": "director",
+          "appointed_on": "2015-08-07",
+          "resigned_on": "2023-03-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-12-20",
+        "ceased_on": "2022-12-09"
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02673518",
+          "name": "Babington Business Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-12-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02673518",
+            "notified_on": "2022-12-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02673518/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07077954",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "07077954",
+          "name": "Knovia Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2025-04-16",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07077954",
+            "notified_on": "2025-04-16",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07077954/persons-with-significant-control/corporate-entity/_eCwe0f4cqw-hO_M3SOrVLk72bA"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14010668",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "14010668",
+          "name": "Knovia Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-03-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14010668",
+            "notified_on": "2022-03-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14010668/persons-with-significant-control/corporate-entity/cCxWY90DFXz777ezef4LrIXxwrU"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14010272",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "14010272",
+          "name": "Knovia Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-03-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14010272",
+            "notified_on": "2022-03-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14010272/persons-with-significant-control/corporate-entity/0pAJKiAX9u-q3dVCu-vwtXk85Sc"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14010138",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "14010138",
+          "name": "Knovia Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-03-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14010138",
+            "notified_on": "2022-03-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14010138/persons-with-significant-control/corporate-entity/sEb_C4wBFnz-LFkLJ42kbRtHeLw"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14009940",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "14009940",
+          "name": "Transformative Training & Education Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2026-03-19",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14009940",
+            "notified_on": "2026-03-19",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14009940/persons-with-significant-control/corporate-entity/Wh_LvtB-IsMePYMtPiIIisYclro"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "16907743",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "16907743",
+          "name": "Transformative Training & Education Midco 2 Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16907743",
+            "notified_on": "2025-12-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16907743/persons-with-significant-control/corporate-entity/02ih88GXQnTaHC4JqjZ2MWxE5_U"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "16907335",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 8,
+          "from_company": "16907335",
+          "name": "Transformative Training & Education Midco Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16907335",
+            "notified_on": "2025-12-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16907335/persons-with-significant-control/corporate-entity/dNaqyRo48r5ESNUX2ZDc3c-wmgs"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "16907155",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 9,
+          "from_company": "16907155",
+          "name": "Transformative Training & Education Holdco Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16907155",
+            "notified_on": "2025-12-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16907155/persons-with-significant-control/corporate-entity/oZMNf5m4M-vob2oymRoYPXC_m7k"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "16906909",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02673518"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3OTE0MDkxMmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02673518_2025-08-29.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02673518/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02673518/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 635,
+    "enriched_at": "2026-04-16T20:30:09Z",
+    "governance_enriched_at": "2026-04-16T22:34:21Z",
+    "ubo_enriched_at": "2026-04-16T23:20:31Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 59,
+      "total_contracts_non_framework": 37,
+      "total_awarded_gbp": 62459451.38938956,
+      "total_awarded_non_framework_gbp": 56511824.72,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "stable",
+      "trajectory_note": "CAGR -9.0% between 2020 (£19M) and 2023 (£15M)",
+      "longest_buyer_relationship": {
+        "buyer": "Cabinet Office",
+        "years_count": 4,
+        "years_list": [
+          2020,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 19520689,
+        "n_contracts": 4
+      },
+      "n_unique_buyers_all_years": 30,
+      "max_consecutive_same_buyer_direct": 3
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 10,
+        "n_contracts_non_framework": 8,
+        "awarded_gbp_total": 19379000.0,
+        "awarded_gbp_non_framework": 19250000.0,
+        "awarded_gbp_framework_share": 129000,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 8,
+        "top_buyer": {
+          "buyer": "Cabinet Office : Cabinet Office",
+          "contracts": 1,
+          "value_gbp": 8000000
+        },
+        "procurement_method_counts": {
+          "selective": 8,
+          "unspecified": 1,
+          "open": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 15,
+        "n_contracts_non_framework": 8,
+        "awarded_gbp_total": 8337390.716220424,
+        "awarded_gbp_non_framework": 6250874,
+        "awarded_gbp_framework_share": 2086516.7162204233,
+        "sole_source_pct": 1.44,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 9,
+        "top_buyer": {
+          "buyer": "Department for Work and Pensions",
+          "contracts": 3,
+          "value_gbp": 2600000
+        },
+        "procurement_method_counts": {
+          "selective": 6,
+          "open": 7,
+          "limited": 1,
+          "unspecified": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 11,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 17471352.80796526,
+        "awarded_gbp_non_framework": 15684109.72,
+        "awarded_gbp_framework_share": 1787243.0879652603,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 8,
+        "top_buyer": {
+          "buyer": "Cabinet Office",
+          "contracts": 1,
+          "value_gbp": 11487348
+        },
+        "procurement_method_counts": {
+          "selective": 5,
+          "open": 5,
+          "unspecified": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 17,
+        "n_contracts_non_framework": 10,
+        "awarded_gbp_total": 16209208.970467033,
+        "awarded_gbp_non_framework": 14527500,
+        "awarded_gbp_framework_share": 1681708.9704670329,
+        "sole_source_pct": 0.37,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 12,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 2,
+          "value_gbp": 11602000
+        },
+        "procurement_method_counts": {
+          "selective": 12,
+          "limited": 1,
+          "open": 3,
+          "unspecified": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 6,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 1062498.894736842,
+        "awarded_gbp_non_framework": 799341,
+        "awarded_gbp_framework_share": 263157.8947368421,
+        "sole_source_pct": 11.95,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Department for Culture, Media and Sport",
+          "contracts": 1,
+          "value_gbp": 652500
+        },
+        "procurement_method_counts": {
+          "selective": 2,
+          "direct": 3,
+          "open": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "80521000",
+        "top_label": "Training programme services",
+        "top_value_gbp": 16740000.0,
+        "n_distinct_codes": 5
+      },
+      "2021": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 4860189.06849315,
+        "n_distinct_codes": 5
+      },
+      "2022": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 14841732.615384616,
+        "n_distinct_codes": 4
+      },
+      "2023": {
+        "top_code": "80500000",
+        "top_label": "Training services",
+        "top_value_gbp": 10262500.0,
+        "n_distinct_codes": 3
+      },
+      "2024": {
+        "top_code": "79000000",
+        "top_label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "top_value_gbp": 652500.0,
+        "n_distinct_codes": 3
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": true,
+      "consecutive_streak_length": 3,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 33,
+        "unspecified": 4,
+        "open": 17,
+        "limited": 2,
+        "direct": 3
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 42106121.399038464,
+        "unspecified": 575000.0,
+        "open": 19471329.990351092,
+        "limited": 180000.0,
+        "direct": 127000.0
+      },
+      "sole_source_pct_all_years": 0.49,
+      "competitive_pct_all_years": 98.59,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/3A4AmUm4",
+        "buyer_name": "Cabinet Office",
+        "contracts": 4,
+        "value_gbp": 19520689
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 3,
+        "value_gbp": 12342000
+      },
+      {
+        "buyer_id": "GB-CFS-99743",
+        "buyer_name": "Cabinet Office : Cabinet Office",
+        "contracts": 1,
+        "value_gbp": 8000000
+      },
+      {
+        "buyer_id": "GB-CFS-54561",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 4,
+        "value_gbp": 5200000
+      },
+      {
+        "buyer_id": "GB-CFS-82079",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 4,
+        "value_gbp": 4290000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/QfDr2jb7",
+        "buyer_name": "Department For Education",
+        "contracts": 8,
+        "value_gbp": 2411821.840307918
+      },
+      {
+        "buyer_id": "GB-CFS-126886",
+        "buyer_name": "Department for Education",
+        "contracts": 1,
+        "value_gbp": 2197874
+      },
+      {
+        "buyer_id": "GB-CFS-80308",
+        "buyer_name": "NHS Shared Business Services Ltd (NHS SBS)",
+        "contracts": 1,
+        "value_gbp": 1849315.0684931506
+      },
+      {
+        "buyer_id": "GB-CFS-259950",
+        "buyer_name": "The British Broadcasting Corporation (BBC)",
+        "contracts": 1,
+        "value_gbp": 961538.4615384615
+      },
+      {
+        "buyer_id": "GB-CFS-172132",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 760000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/Pesn8463",
+        "buyer_name": "Department for Culture, Media and Sport",
+        "contracts": 1,
+        "value_gbp": 652500
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/dXGP288m",
+        "buyer_name": "UK SHARED BUSINESS SERVICES LIMITED",
+        "contracts": 3,
+        "value_gbp": 600000
+      },
+      {
+        "buyer_id": "GB-CFS-186962",
+        "buyer_name": "Leeds City Council",
+        "contracts": 1,
+        "value_gbp": 546428.5714285715
+      },
+      {
+        "buyer_id": "GB-CFS-172674",
+        "buyer_name": "Department for International Trade",
+        "contracts": 1,
+        "value_gbp": 540000
+      },
+      {
+        "buyer_id": "GB-CFS-68457",
+        "buyer_name": "West Midlands Combined Authority",
+        "contracts": 1,
+        "value_gbp": 500000.0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 30,
+        "value_gbp": 26889471.654344797
+      },
+      {
+        "code": "80521000",
+        "label": "Training programme services",
+        "contracts": 3,
+        "value_gbp": 16740000
+      },
+      {
+        "code": "80500000",
+        "label": "Training services",
+        "contracts": 6,
+        "value_gbp": 10525657.894736841
+      },
+      {
+        "code": "79342300",
+        "label": "Customer services",
+        "contracts": 2,
+        "value_gbp": 3200000
+      },
+      {
+        "code": "80400000",
+        "label": "Adult and other education services",
+        "contracts": 11,
+        "value_gbp": 3011821.840307918
+      },
+      {
+        "code": "79632000",
+        "label": "Personnel-training services",
+        "contracts": 1,
+        "value_gbp": 760000
+      },
+      {
+        "code": "79000000",
+        "label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contracts": 1,
+        "value_gbp": 652500
+      },
+      {
+        "code": "80530000",
+        "label": "Vocational training services",
+        "contracts": 4,
+        "value_gbp": 575000
+      },
+      {
+        "code": "98110000",
+        "label": "Services furnished by business, professional and specialist organisations",
+        "contracts": 1,
+        "value_gbp": 105000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-0c4679dd-4e0a-420f-b6eb-e4162c36bfbd",
+        "date": "2024-10-21T00:00:00+01:00",
+        "buyer": "Defra Commercial",
+        "title": "HR People Professional Level 5 ST0238 X 5",
+        "value_gbp": 55000,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2026-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8ac03914-036f-4c5e-b2bd-a7d812f4486e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-42d3f177-fd82-4678-9d33-6fc7e0c6bb8d",
+        "date": "2024-10-18T00:00:00+01:00",
+        "buyer": "Department for Culture, Media and Sport",
+        "title": "Apprenticeship Training Services",
+        "value_gbp": 652500,
+        "procurement_method": "selective",
+        "cpv_code": "79000000",
+        "cpv_label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contract_start": "2024-10-15T00:00:00+01:00",
+        "contract_end": "2026-10-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/58675f53-c85a-4571-80e2-682619f77943",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8ae1a9eb-e0cc-4ae2-837f-73b4e15f8878",
+        "date": "2024-09-09T00:00:00+01:00",
+        "buyer": "Manchester City Council",
+        "title": "TC1141 - Apprenticeship Training and Assessment Providers",
+        "value_gbp": 263157.8947368421,
+        "procurement_method": "open",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2026-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5f944925-df34-4e7d-8e38-7515fd7135be",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3b70bc90-6e3f-489b-a06f-675459b93246",
+        "date": "2024-07-30T00:00:00+01:00",
+        "buyer": "Defra Commercial",
+        "title": "Level 3 Learning and Development Practitioner",
+        "value_gbp": 6000,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2026-04-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f14cc8d8-d7e1-4d9b-ac8a-ac6f7587792c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5e3b98c2-080b-45ae-9ef2-bf520d1d4b2a",
+        "date": "2024-07-30T00:00:00+01:00",
+        "buyer": "Defra Commercial",
+        "title": "Level 4 Regulatory Compliance Officer Apprenticeship x 11",
+        "value_gbp": 66000,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-01-01T00:00:00Z",
+        "contract_end": "2027-01-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2d1a15f0-a355-4acb-87c9-96a3929ffe97",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f5ef3905-5847-498a-9810-e5119f99bc4d",
+        "date": "2024-05-13T00:00:00+01:00",
+        "buyer": "Cabinet Office",
+        "title": "Accountancy Apprenticeship Training Services",
+        "value_gbp": 19841,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-06-13T00:00:00+01:00",
+        "contract_end": "2026-12-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/228cd659-028c-43aa-8843-250adf06a9ad",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e131a295-d02e-41c2-911f-c06441a88f93",
+        "date": "2023-11-15T00:00:00Z",
+        "buyer": "Department for International Trade",
+        "title": "Level 4 Regulatory Compliance Officer Apprenticeship",
+        "value_gbp": 540000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2025-01-01T00:00:00Z",
+        "contract_end": "2026-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c5e0f8f4-e47e-469f-af0e-0bcd018f9b6a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7c9419a1-117d-409b-b541-bb40221d540f",
+        "date": "2023-08-31T00:00:00+01:00",
+        "buyer": "The British Broadcasting Corporation (BBC)",
+        "title": "Apprenticeship Procurement Pathways",
+        "value_gbp": 961538.4615384615,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c12ba645-bcd3-4d27-a3ea-eb5170f65315",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7894e2a9-cfba-4d7b-8dcf-9397c6d99d82",
+        "date": "2023-07-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Apprenticeship L3 Customer Service ST0071, for Scotland.",
+        "value_gbp": 1000000,
+        "procurement_method": "selective",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2023-07-26T00:00:00+01:00",
+        "contract_end": "2026-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d34ed2d9-cf57-4bea-90d8-eca12c0fa3a1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-83f2a739-8d86-4dc5-9248-48414bc746e4",
+        "date": "2023-07-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Provision of Apprenticeship L3 Customer Service ST0071 for Scotland.",
+        "value_gbp": 1000000,
+        "procurement_method": "selective",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2023-08-01T00:00:00+01:00",
+        "contract_end": "2026-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/969f7df5-ff36-4b0a-b8f7-9a0bd77fb014",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58f79ebb-a8c8-4535-b1cd-ce59d6bdecb8",
+        "date": "2023-07-14T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of - CSAU - Level 7 HR Apprenticeship and Training Related Services",
+        "value_gbp": 8189000,
+        "procurement_method": "selective",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2023-07-13T00:00:00+01:00",
+        "contract_end": "2026-07-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/09d97c8b-265c-4240-aad1-82c3851b6e04",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4d67f77e-e8d7-44be-8b12-acb4fbe1b4eb",
+        "date": "2023-06-23T00:00:00+01:00",
+        "buyer": "Greater Manchester Combined Authority (GMCA)",
+        "title": "GMCA Devolved Adult Education Budget - Academic Year 23/24",
+        "value_gbp": 40630.5,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-08-01T00:00:00+01:00",
+        "contract_end": "2024-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b728b7bb-17ba-4bfe-b1d4-e0db5e5d90d8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4d67f77e-e8d7-44be-8b12-acb4fbe1b4eb",
+        "date": "2023-06-23T00:00:00+01:00",
+        "buyer": "Greater Manchester Combined Authority (GMCA)",
+        "title": "GMCA Devolved Adult Education Budget - Academic Year 23/24",
+        "value_gbp": 13111.4375,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-08-01T00:00:00+01:00",
+        "contract_end": "2024-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b728b7bb-17ba-4bfe-b1d4-e0db5e5d90d8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-82bfaf09-9cc1-4b2a-9b0d-96a1820bf3d7",
+        "date": "2023-04-06T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of HR Apprenticeship Training and Related Services",
+        "value_gbp": 3413000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-04-17T00:00:00+01:00",
+        "contract_end": "2025-04-16T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0c598c10-5b7f-44bb-9529-8e57c7a0e440",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d63ae186-f7ff-434b-a4be-a098f7d5a69f",
+        "date": "2023-03-12T00:00:00Z",
+        "buyer": "North Northamptonshire Council",
+        "title": "Call off Apprenticeship delivery HR Level 3 Support and HR Level 5  Consultant Partner",
+        "value_gbp": 60000,
+        "procurement_method": "limited",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-03-20T00:00:00Z",
+        "contract_end": "2026-11-02T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9e54a6bb-d0a3-4b66-816f-6efd99c596a1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-654cf013-8fe4-400a-b3c2-64d54361746c",
+        "date": "2023-03-01T00:00:00Z",
+        "buyer": "Leeds City Council",
+        "title": "Second Opening Skills 3-year Zero value",
+        "value_gbp": 546428.5714285715,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-03-10T00:00:00Z",
+        "contract_end": "2025-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b7eccaee-8323-4df2-a9df-5d442d7cd556",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-59e66768-7f1f-4eff-a7c3-3035de764522",
+        "date": "2023-02-02T00:00:00Z",
+        "buyer": "Bolsover District Council",
+        "title": "The Provision of Apprentice Framework - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-01-10T00:00:00Z",
+        "contract_end": "2025-01-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5be2c7fb-02f9-49d1-8519-379c629440de",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-59e66768-7f1f-4eff-a7c3-3035de764522",
+        "date": "2023-02-02T00:00:00Z",
+        "buyer": "Bolsover District Council",
+        "title": "The Provision of Apprentice Framework - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-01-10T00:00:00Z",
+        "contract_end": "2025-01-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5be2c7fb-02f9-49d1-8519-379c629440de",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-44b4c1b4-2fac-4d24-93d7-781d3f0ba4b9",
+        "date": "2023-02-01T00:00:00Z",
+        "buyer": "NHS SOUTH, CENTRAL AND WEST COMMISSIONING SUPPORT UNIT",
+        "title": "Contract for the Provision of Accountancy Professional Level 7 Apprenticeship",
+        "value_gbp": 126000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-03-10T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1f6ca829-342f-4622-b2da-acaf6fc2eca7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-44b4c1b4-2fac-4d24-93d7-781d3f0ba4b9",
+        "date": "2023-02-01T00:00:00Z",
+        "buyer": "NHS SOUTH, CENTRAL AND WEST COMMISSIONING SUPPORT UNIT",
+        "title": "Contract for the Provision of Accountancy Professional Level 7 Apprenticeship",
+        "value_gbp": 126000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-02-01T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1f6ca829-342f-4622-b2da-acaf6fc2eca7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0f02789c-46ab-4a03-bf79-857a823b8b2e",
+        "date": "2023-01-30T00:00:00Z",
+        "buyer": "Cabinet Office",
+        "title": "Provision of Apprenticeship Training and Related Services",
+        "value_gbp": 13500,
+        "procurement_method": "selective",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2023-01-09T00:00:00Z",
+        "contract_end": "2025-01-08T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/10d22d57-8d3b-4b0e-a781-981ba86032b6",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0839ffc2-8458-49b1-aed7-cd95cde277ca",
+        "date": "2023-01-24T00:00:00Z",
+        "buyer": "Oldham Council",
+        "title": "Delivery of 10 Level 4 Regulatory Compliance Officer Apprenticeships",
+        "value_gbp": 60000,
+        "procurement_method": "selective",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2026-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c867e263-f39d-49b6-a2eb-22dda4203bc8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fa5bbbdc-49ce-4b22-889c-e07892be2e22",
+        "date": "2023-01-16T00:00:00Z",
+        "buyer": "Suffolk County Council",
+        "title": "SCC0088CAC- Associate Project Manager- Level 4 - AWARD",
+        "value_gbp": 120000,
+        "procurement_method": null,
+        "cpv_code": "80530000",
+        "cpv_label": "Vocational training services",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2025-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f635b551-4841-4c68-9d80-c28572ca96a9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-50fcf8da-d5fb-484b-8439-06ca4bffb264",
+        "date": "2022-09-06T00:00:00+01:00",
+        "buyer": "Suffolk County Council",
+        "title": "SCC0083CAC- Senior People Professional Level 7 - AWARD",
+        "value_gbp": 190000,
+        "procurement_method": null,
+        "cpv_code": "80530000",
+        "cpv_label": "Vocational training services",
+        "contract_start": "2022-09-19T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ed25bdf1-2b59-4f5a-ab23-026c7b698e5f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-efec80a2-81ec-46be-ae35-9b7b3b980041",
+        "date": "2022-09-01T00:00:00+01:00",
+        "buyer": "Hampshire County Council",
+        "title": "Framework for the Provision of Apprenticeship Training Providers - AWARD",
+        "value_gbp": 215384.61538461538,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-09-01T00:00:00+01:00",
+        "contract_end": "2025-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/68204d27-f4f0-48c7-bf49-feac4cb94b0b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a7976c71-fcf2-48ce-b03a-141069796589",
+        "date": "2022-08-31T00:00:00+01:00",
+        "buyer": "Department For Education",
+        "title": "Project - 5910 - DfE - Wave 3 Skills Bootcamps Lot 6 - Accelerated Apprenticeships - ITT_1146 (Multiple Contracts)",
+        "value_gbp": 401002.82285714283,
+        "procurement_method": "open",
+        "cpv_code": "80400000",
+        "cpv_label": "Adult and other education services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2023-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2d710359-8578-4cbe-b884-998fc42e79fb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9f494c93-0a29-4938-b96b-6f22e17bc187",
+        "date": "2022-08-31T00:00:00+01:00",
+        "buyer": "Department For Education",
+        "title": "Project - 5910 - DfE - Wave 3 Skills Bootcamps Lot 2 - Digital Bespoke - ITT_1142 (Multiple Contracts)",
+        "value_gbp": 624758.8971428572,
+        "procurement_method": "open",
+        "cpv_code": "80400000",
+        "cpv_label": "Adult and other education services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2023-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/81cba9d7-fc22-4a80-b6f6-c368df942bc2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7031b15a-db45-49d7-93cc-dd24d76ee288",
+        "date": "2022-08-31T00:00:00+01:00",
+        "buyer": "Department For Education",
+        "title": "Project - 5910 - DfE - Wave 3 Skills Bootcamps Lot 1 - Digital Core - ITT_1141 (Multiple Contracts)",
+        "value_gbp": 1308858.472580645,
+        "procurement_method": "open",
+        "cpv_code": "80400000",
+        "cpv_label": "Adult and other education services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2023-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/927a65f4-377b-4db8-978a-f3c106bed43b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1f4a1c9-2cff-452f-83bf-86c736e6ba0d",
+        "date": "2022-07-26T00:00:00+01:00",
+        "buyer": "SOUTHAMPTON CITY COUNCIL",
+        "title": "Apprenticeship Delivery DPS - Regulatory Compliance Officer  Environmental Health  Level 4",
+        "value_gbp": 60000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-09-01T00:00:00+01:00",
+        "contract_end": "2025-09-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/968b92d4-9c35-4ba5-847a-7117ed95563a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fc280745-79d7-42f2-9ada-79318ed703f2",
+        "date": "2022-07-26T00:00:00+01:00",
+        "buyer": "SOUTHAMPTON CITY COUNCIL",
+        "title": "Apprenticeship Delivery - Digital Marketing Level 3",
+        "value_gbp": 66000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-09-01T00:00:00+01:00",
+        "contract_end": "2025-09-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2b62c38b-42da-4fb4-9fc0-2f396e255652",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 16107296,
+      "awarded_2024_gbp_from_cf": 1062498.894736842,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 15.2× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.07
+    }
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "company_number": "13553202",
+  "display_name": "ANIMAL & PLANT HEALTH AGENCY",
+  "identity": {
+    "ch_number": "13553202",
+    "official_name": "ANIMAL & PLANT HEALTH SOLUTIONS LTD",
+    "display_name": "ANIMAL & PLANT HEALTH AGENCY",
+    "status": "dissolved",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2021-08-06",
+    "age_years": 4,
+    "registered_office": {
+      "address_line_1": "24 Enterprise Road",
+      "country": "England",
+      "locality": "Waterlooville",
+      "postal_code": "PO8 0BT"
+    },
+    "sic_codes": [
+      "01629",
+      "75000"
+    ],
+    "sic_labels": [
+      "SIC 01629",
+      "SIC 75000"
+    ],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/13553202"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 25950683,
+    "rank": 533,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 25950683,
+        "segments": [
+          {
+            "segment": "DEFRA",
+            "amount_gbp": 25950683,
+            "pct_of_segment": 1.18,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 4,
+    "board_turnover_ratio": 4.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 4,
+      "recent": [
+        {
+          "name": "POLYVITA LIMITED",
+          "role": "corporate-director",
+          "appointed_on": "2022-06-08",
+          "resigned_on": "2022-06-08",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Waterlooville",
+            "postal_code": "PO8 0BT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BAYBUTT, Shane",
+          "role": "director",
+          "appointed_on": "2022-02-10",
+          "resigned_on": "2022-02-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1997
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "BAYBUTT, Shane Joseph",
+          "role": "director",
+          "appointed_on": "2021-08-06",
+          "resigned_on": "2022-01-18",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1997
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "LEE, Brandon Lee",
+          "role": "director",
+          "appointed_on": "2021-08-06",
+          "resigned_on": "2021-10-21",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1996
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "13553202",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 30,
+    "label": "suspicious",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/13553202"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/13553202/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/13553202/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 533,
+    "enriched_at": "2026-04-16T20:20:31Z",
+    "governance_enriched_at": "2026-04-16T22:28:50Z",
+    "ubo_enriched_at": "2026-04-16T23:16:32Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "summary": {
+      "total_contracts": 6,
+      "total_contracts_non_framework": 6,
+      "total_awarded_gbp": 1193299.53,
+      "total_awarded_non_framework_gbp": 1193299.53,
+      "years_active": 3,
+      "first_year": 2020,
+      "last_year": 2022,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "The Food Standards Agency",
+        "years_count": 3,
+        "years_list": [
+          2020,
+          2021,
+          2022
+        ],
+        "total_value_gbp": 935509.53,
+        "n_contracts": 4
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 199562.37,
+        "awarded_gbp_non_framework": 199562.37,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 69.93,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "The Food Standards Agency",
+          "contracts": 1,
+          "value_gbp": 139562.37
+        },
+        "procurement_method_counts": {
+          "direct": 1,
+          "selective": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 464698.32,
+        "awarded_gbp_non_framework": 464698.32,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 57.44,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "The Food Standards Agency",
+          "contracts": 1,
+          "value_gbp": 266908.32
+        },
+        "procurement_method_counts": {
+          "direct": 1,
+          "selective": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 529038.84,
+        "awarded_gbp_non_framework": 529038.84,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "The Food Standards Agency",
+          "contracts": 2,
+          "value_gbp": 529038.84
+        },
+        "procurement_method_counts": {
+          "open": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "73000000",
+        "top_label": "Research and development services and related consultancy services",
+        "top_value_gbp": 139562.37,
+        "n_distinct_codes": 2
+      },
+      "2021": {
+        "top_code": "73111000",
+        "top_label": "Research laboratory services",
+        "top_value_gbp": 266908.32,
+        "n_distinct_codes": 2
+      },
+      "2022": {
+        "top_code": "73000000",
+        "top_label": "Research and development services and related consultancy services",
+        "top_value_gbp": 529038.84,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": true,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "direct": 2,
+        "selective": 2,
+        "open": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "direct": 406470.69,
+        "selective": 257790.0,
+        "open": 529038.84
+      },
+      "sole_source_pct_all_years": 34.06,
+      "competitive_pct_all_years": 65.94,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-57290",
+        "buyer_name": "The Food Standards Agency",
+        "contracts": 3,
+        "value_gbp": 668601.21
+      },
+      {
+        "buyer_id": "GB-CFS-75434",
+        "buyer_name": "The Food Standards Agency",
+        "contracts": 1,
+        "value_gbp": 266908.32
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/vpJD4jvD",
+        "buyer_name": "Health & Safety Executive",
+        "contracts": 1,
+        "value_gbp": 197790
+      },
+      {
+        "buyer_id": "GB-CFS-135390",
+        "buyer_name": "Public Health England",
+        "contracts": 1,
+        "value_gbp": 60000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 3,
+        "value_gbp": 668601.21
+      },
+      {
+        "code": "73111000",
+        "label": "Research laboratory services",
+        "contracts": 1,
+        "value_gbp": 266908.32
+      },
+      {
+        "code": "79720000",
+        "label": "Investigation services",
+        "contracts": 1,
+        "value_gbp": 197790
+      },
+      {
+        "code": "79419000",
+        "label": "Evaluation consultancy services",
+        "contracts": 1,
+        "value_gbp": 60000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-ca3803c6-6b05-4c10-835e-d707e09b53de",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS430917 - A survey of antimicrobial resistant (AMR) E. coli, Campylobacter and Salmonella on chicken and turkey meat on retail sale in the UK (2022) - Lot 2 - Microbiological Testing, Data Analysis and reporting",
+        "value_gbp": 264519.42,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-01-31T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7412e2fe-720a-45b6-bab7-7b0f8cd6e92b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ca3803c6-6b05-4c10-835e-d707e09b53de",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS430917 - A survey of antimicrobial resistant (AMR) E. coli, Campylobacter and Salmonella on chicken and turkey meat on retail sale in the UK (2022) - Lot 2 - Microbiological Testing, Data Analysis and reporting",
+        "value_gbp": 264519.42,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-01-31T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7412e2fe-720a-45b6-bab7-7b0f8cd6e92b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ec4bf6ee-3c66-4e4f-bc50-67ae8d5ae90e",
+        "date": "2021-07-25T00:00:00+01:00",
+        "buyer": "Health & Safety Executive",
+        "title": "Theme 5 - Mechanisms of Transmission",
+        "value_gbp": 197790,
+        "procurement_method": "selective",
+        "cpv_code": "79720000",
+        "cpv_label": "Investigation services",
+        "contract_start": "2021-08-01T00:00:00+01:00",
+        "contract_end": "2022-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/09a83482-8875-4231-ae07-9ce531329dfe",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-61d3345e-a4b4-4ea3-9b9e-c07882ea79ad",
+        "date": "2021-04-01T00:00:00+01:00",
+        "buyer": "The Food Standards Agency",
+        "title": "NATIONAL REFERENCE LABORATORY for Parasites - Trichinella and Echinococcus",
+        "value_gbp": 266908.32,
+        "procurement_method": "direct",
+        "cpv_code": "73111000",
+        "cpv_label": "Research laboratory services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/228647e7-22f2-4ec1-843b-f5cae1ef1440",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d29c441e-005d-46b6-affa-de09f21b2b7f",
+        "date": "2020-09-28T00:00:00+01:00",
+        "buyer": "The Food Standards Agency",
+        "title": "FS102109 - EU Harmonised Survey of Antimicrobial Resistance (AMR) on Retail Meats (Year 6 - Extended Survey) - Retail lamb and turkey meat - E. coli and Campylobacter",
+        "value_gbp": 139562.37,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2020-09-28T00:00:00+01:00",
+        "contract_end": "2021-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f919d095-e88d-4571-9e26-6f9eb4471287",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-a43ba809-f142-4ffc-9d5e-0b2f62d6e02e",
+        "date": "2020-08-25T00:00:00+01:00",
+        "buyer": "Public Health England",
+        "title": "Professional APHA Veterinary Support Expertise",
+        "value_gbp": 60000,
+        "procurement_method": "selective",
+        "cpv_code": "79419000",
+        "cpv_label": "Evaluation consultancy services",
+        "contract_start": "2020-08-31T00:00:00+01:00",
+        "contract_end": "2021-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b788363c-522b-455b-831b-c073360071d8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 25950683,
+      "awarded_2024_gbp_from_cf": 1193299.53,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 21.7× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.05
+    }
+  }
+}

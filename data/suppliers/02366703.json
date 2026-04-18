@@ -1,0 +1,824 @@
+{
+  "company_number": "02366703",
+  "display_name": "NORTHUMBRIAN WATER LIMITED",
+  "identity": {
+    "ch_number": "02366703",
+    "official_name": "NORTHUMBRIAN WATER LIMITED",
+    "display_name": "NORTHUMBRIAN WATER LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1989-04-01",
+    "age_years": 37,
+    "registered_office": {
+      "address_line_1": "Northumbria House",
+      "address_line_2": "Abbey Road",
+      "locality": "Pity Me",
+      "postal_code": "DH1 5FJ",
+      "region": "Durham"
+    },
+    "sic_codes": [
+      "36000",
+      "37000"
+    ],
+    "sic_labels": [
+      "Water collection, treatment and supply",
+      "Sewerage"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02366703"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 44001485,
+    "rank": 417,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 43166608,
+        "segments": [
+          {
+            "segment": "EA",
+            "amount_gbp": 43166608,
+            "pct_of_segment": 4.38,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 834877,
+        "segments": [
+          {
+            "segment": "Primary Care and Prevention",
+            "amount_gbp": 834877,
+            "pct_of_segment": 1.34,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-08",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ3OTk1NjA1MmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02366703_2025-09-08.pdf",
+      "size_mb": 10.85,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 14,
+    "officers_resigned_count": 56,
+    "board_turnover_ratio": 4.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BRYCE, Alan Alexander",
+        "role": "director",
+        "appointed_on": "2021-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "CHAN, Loi Shun",
+        "role": "director",
+        "appointed_on": "2011-10-14",
+        "resigned_on": null,
+        "nationality": "Chinese",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1962
+        },
+        "address": {
+          "locality": "2 Queen's Road Central",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "HARRIS, Thomas Keith",
+        "role": "director",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1S 1JY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HUNTER, Andrew John",
+        "role": "director",
+        "appointed_on": "2011-10-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1958
+        },
+        "address": {
+          "locality": "The Peak",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "KAM, Hing Lam",
+        "role": "director",
+        "appointed_on": "2011-10-14",
+        "resigned_on": null,
+        "nationality": "Chinese",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1946
+        },
+        "address": {
+          "locality": "55 Garden Road",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "MACRAE, Duncan Nicholas",
+        "role": "director",
+        "appointed_on": "2026-02-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "MCGLADE, Jacqueline Myriam, Professor",
+        "role": "director",
+        "appointed_on": "2021-07-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1955
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "MOTTRAM, Heidi",
+        "role": "director",
+        "appointed_on": "2010-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "NG, Chiu",
+        "role": "director",
+        "appointed_on": "2024-05-20",
+        "resigned_on": null,
+        "nationality": "Chinese",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Hong Kong",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "ROSEWELL, Bridget Clare",
+        "role": "director",
+        "appointed_on": "2021-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1951
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "SEXTON, Richard George",
+        "role": "director",
+        "appointed_on": "2021-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1959
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "TONG BARNES, Wai Che Wendy",
+        "role": "director",
+        "appointed_on": "2012-10-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "VICARY-SMITH, Peter David",
+        "role": "director",
+        "appointed_on": "2021-07-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1962
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "SOMERVILLE, Richard William Peter",
+        "role": "secretary",
+        "appointed_on": "2021-10-08",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "SOMERVILLE, Richard William Peter",
+        "role": "secretary",
+        "appointed_on": "2021-10-08",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "BRYCE, Alan Alexander",
+        "role": "director",
+        "appointed_on": "2021-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "CHAN, Loi Shun",
+        "role": "director",
+        "appointed_on": "2011-10-14",
+        "resigned_on": null,
+        "nationality": "Chinese",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1962
+        },
+        "address": {
+          "locality": "2 Queen's Road Central",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "HARRIS, Thomas Keith",
+        "role": "director",
+        "appointed_on": "2026-02-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1S 1JY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HUNTER, Andrew John",
+        "role": "director",
+        "appointed_on": "2011-10-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1958
+        },
+        "address": {
+          "locality": "The Peak",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "KAM, Hing Lam",
+        "role": "director",
+        "appointed_on": "2011-10-14",
+        "resigned_on": null,
+        "nationality": "Chinese",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1946
+        },
+        "address": {
+          "locality": "55 Garden Road",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "MACRAE, Duncan Nicholas",
+        "role": "director",
+        "appointed_on": "2026-02-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "MCGLADE, Jacqueline Myriam, Professor",
+        "role": "director",
+        "appointed_on": "2021-07-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1955
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "MOTTRAM, Heidi",
+        "role": "director",
+        "appointed_on": "2010-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "NG, Chiu",
+        "role": "director",
+        "appointed_on": "2024-05-20",
+        "resigned_on": null,
+        "nationality": "Chinese",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Hong Kong",
+          "postal_code": null,
+          "country": "Hong Kong"
+        }
+      },
+      {
+        "name": "ROSEWELL, Bridget Clare",
+        "role": "director",
+        "appointed_on": "2021-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1951
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "SEXTON, Richard George",
+        "role": "director",
+        "appointed_on": "2021-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1959
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "TONG BARNES, Wai Che Wendy",
+        "role": "director",
+        "appointed_on": "2012-10-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Hong Kong",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      },
+      {
+        "name": "VICARY-SMITH, Peter David",
+        "role": "director",
+        "appointed_on": "2021-07-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1962
+        },
+        "address": {
+          "locality": "Pity Me",
+          "postal_code": "DH1 5FJ",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 56,
+      "recent": [
+        {
+          "name": "MACRAE, Duncan Nicholas",
+          "role": "director",
+          "appointed_on": "2011-10-14",
+          "resigned_on": "2026-02-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Pity Me",
+            "postal_code": "DH1 5FJ",
+            "country": null
+          }
+        },
+        {
+          "name": "SLAMINKA, Kim Pierre",
+          "role": "director",
+          "appointed_on": "2024-05-24",
+          "resigned_on": "2026-02-17",
+          "nationality": "Australian",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1977
+          },
+          "address": {
+            "locality": "Battersea",
+            "postal_code": "SW11 4AN",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "REW, Paul Francis",
+          "role": "director",
+          "appointed_on": "2010-10-01",
+          "resigned_on": "2021-11-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1953
+          },
+          "address": {
+            "locality": "Pity Me",
+            "postal_code": "DH1 5FJ",
+            "country": null
+          }
+        },
+        {
+          "name": "PARKER, Martin",
+          "role": "secretary",
+          "appointed_on": "2000-04-01",
+          "resigned_on": "2021-10-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Pity Me",
+            "postal_code": "DH1 5FJ",
+            "country": null
+          }
+        },
+        {
+          "name": "NEGRE, Martin Andre Bernard",
+          "role": "director",
+          "appointed_on": "2006-01-01",
+          "resigned_on": "2021-07-31",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "Switzerland",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1946
+          },
+          "address": {
+            "locality": "Pity Me",
+            "postal_code": "DH1 5FJ",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02366703",
+          "name": "Northumbrian Water Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02366703",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02366703/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04760441",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04760441",
+          "name": "Cki Uk Co 5 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04760441",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04760441/persons-with-significant-control/corporate-entity/f13rKJQ2TearcrmpNPlStK2tkFM"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07509455",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "07509455",
+          "name": "Cki Uk Co 6 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07509455",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07509455/persons-with-significant-control/corporate-entity/YKQRcEZYsmDEEQyVgAMVm9fl0as"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "07509449",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02366703"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3OTk1NjA1MmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02366703_2025-09-08.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02366703/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02366703/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 417,
+    "enriched_at": "2026-04-16T20:10:47Z",
+    "governance_enriched_at": "2026-04-16T22:23:56Z",
+    "ubo_enriched_at": "2026-04-16T23:11:08Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "company_number": "02777575",
+  "display_name": "BJSS LIMITED",
+  "identity": {
+    "ch_number": "02777575",
+    "official_name": "BJSS LIMITED",
+    "display_name": "BJSS LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1993-01-06",
+    "age_years": 33,
+    "registered_office": {
+      "address_line_1": "20 Fenchurch Street 14th Floor",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "EC3M 3BY"
+    },
+    "sic_codes": [
+      "62012"
+    ],
+    "sic_labels": [
+      "Business and domestic software development"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02777575"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 37283397,
+    "rank": 456,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 26377474,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 3927893,
+            "pct_of_segment": 1.43,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          },
+          {
+            "segment": "DVSA",
+            "amount_gbp": 22449581,
+            "pct_of_segment": 10.99,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 7816774,
+        "segments": [
+          {
+            "segment": "UKIE - Immigration Enforcement",
+            "amount_gbp": 3798846,
+            "pct_of_segment": 0.95,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "MBG - Migration & Borders Group",
+            "amount_gbp": 4017928,
+            "pct_of_segment": 1.3,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 3089149,
+        "segments": [
+          {
+            "segment": "VMD",
+            "amount_gbp": 3089149,
+            "pct_of_segment": 31.82,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-19",
+    "period_end": "2025-09-30",
+    "accounts_type_code": "AA01",
+    "accounts_type_description": "change-account-reference-date-company-current-extended",
+    "transaction_id": "MzQ4MTc1NTQ0MGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02777575_2025-09-19.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 21,
+    "board_turnover_ratio": 5.25,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "EADES, Darryl",
+        "role": "director",
+        "appointed_on": "2025-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCGEEHAN, Tara, Ms.",
+        "role": "director",
+        "appointed_on": "2025-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PERRON, Steve",
+        "role": "director",
+        "appointed_on": "2025-02-24",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "Canada",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "MORIOKA, Akiko",
+        "role": "secretary",
+        "appointed_on": "2025-07-07",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "MORIOKA, Akiko",
+        "role": "secretary",
+        "appointed_on": "2025-07-07",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "EADES, Darryl",
+        "role": "director",
+        "appointed_on": "2025-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCGEEHAN, Tara, Ms.",
+        "role": "director",
+        "appointed_on": "2025-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PERRON, Steve",
+        "role": "director",
+        "appointed_on": "2025-02-24",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "Canada",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3M 3BY",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 21,
+      "recent": [
+        {
+          "name": "LANDRY MALTAIS, Sarah",
+          "role": "secretary",
+          "appointed_on": "2025-02-24",
+          "resigned_on": "2025-07-07",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "EC3M 3BY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "PICKARD, Angela Adele",
+          "role": "secretary",
+          "appointed_on": "2008-11-10",
+          "resigned_on": "2025-02-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Leeds",
+            "postal_code": "LS1 4HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BUCK, Michael Neil",
+          "role": "director",
+          "appointed_on": "2020-06-08",
+          "resigned_on": "2025-02-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1973
+          },
+          "address": {
+            "locality": "Leeds",
+            "postal_code": "LS1 4HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CAMPBELL, Andrew James",
+          "role": "director",
+          "appointed_on": "2020-06-08",
+          "resigned_on": "2025-02-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1969
+          },
+          "address": {
+            "locality": "Leeds",
+            "postal_code": "LS1 4HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GEARY, Christina Marie",
+          "role": "director",
+          "appointed_on": "2020-06-08",
+          "resigned_on": "2025-02-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1981
+          },
+          "address": {
+            "locality": "Leeds",
+            "postal_code": "LS1 4HR",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02777575",
+          "name": "Cgi Group Holdings Europe Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-02-24",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02777575",
+            "notified_on": "2025-02-24",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02777575/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03290026",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "03290026",
+          "name": "Cgi Inc.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03290026",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03290026/persons-with-significant-control/corporate-entity/SFbJosskgi2GVt-CDaPdpom2HhA"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "Canada",
+          "parent_registration_number": "1142478016",
+          "wikidata": {
+            "qid": "Q1798370",
+            "label": "CGI Group",
+            "description": "multinational information technology company",
+            "match_quality": "exact",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q1798370",
+            "parent_chain": [
+              {
+                "qid": "Q1798370",
+                "label": "CGI Group",
+                "description": "multinational information technology company",
+                "country_labels": [
+                  "Canada"
+                ],
+                "revision_id": 2474197070,
+                "source_url": "https://www.wikidata.org/wiki/Q1798370"
+              }
+            ],
+            "ultimate_label": "CGI Group",
+            "ultimate_country": "Canada",
+            "queries_used": [
+              "Cgi Inc."
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Canada"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02777575"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MTc1NTQ0MGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02777575_2025-09-19.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02777575/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02777575/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1798370"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 456,
+    "enriched_at": "2026-04-16T20:14:08Z",
+    "governance_enriched_at": "2026-04-16T22:25:34Z",
+    "ubo_enriched_at": "2026-04-16T23:13:33Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

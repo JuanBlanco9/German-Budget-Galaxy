@@ -1,0 +1,1637 @@
+{
+  "company_number": "01738519",
+  "display_name": "Centerprise International Ltd",
+  "identity": {
+    "ch_number": "01738519",
+    "official_name": "CENTERPRISE INTERNATIONAL LIMITED",
+    "display_name": "Centerprise International Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1983-07-11",
+    "age_years": 42,
+    "registered_office": {
+      "address_line_1": "Hampshire International Business",
+      "address_line_2": "Park Lime Tree Way Chineham",
+      "locality": "Basingstoke",
+      "postal_code": "RG24 8GQ",
+      "region": "Hampshire"
+    },
+    "sic_codes": [
+      "26200"
+    ],
+    "sic_labels": [
+      "SIC 26200"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01738519"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 17483046,
+    "rank": 607,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 13659719,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 6110555,
+            "pct_of_segment": 1.21,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Air Command",
+            "amount_gbp": 5364061,
+            "pct_of_segment": 1.68,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Navy Command",
+            "amount_gbp": 2185103,
+            "pct_of_segment": 0.79,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_treasury",
+        "dept_name": "HM Treasury",
+        "amount_gbp": 3823327,
+        "segments": [
+          {
+            "segment": "Other",
+            "amount_gbp": 2693993,
+            "pct_of_segment": 2.4,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          },
+          {
+            "segment": "New Tower Services",
+            "amount_gbp": 951245,
+            "pct_of_segment": 29.7,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Discretionary Change (Prev: Solutions Del)",
+            "amount_gbp": 127929,
+            "pct_of_segment": 25.59,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "TBS New Spend Initiatives",
+            "amount_gbp": 50160,
+            "pct_of_segment": 100,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-03",
+    "period_end": "2025-08-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUwODA5MTkwMGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01738519_2026-03-03.pdf",
+      "size_mb": 1.49,
+      "exists": true
+    },
+    "next_accounts_due": "2027-05-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 12,
+    "officers_resigned_count": 24,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "ALLEN, Sharon Ann",
+        "role": "director",
+        "appointed_on": "2012-09-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "COLLYER, John Richard",
+        "role": "director",
+        "appointed_on": "2024-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "ELLIOTT, Michael Jonathan",
+        "role": "director",
+        "appointed_on": "2021-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "FEARN, Peter",
+        "role": "director",
+        "appointed_on": "2017-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1953
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "FINNEY, Andrew John",
+        "role": "director",
+        "appointed_on": "2017-03-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1951
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "KEEGAN, Michael Geoffrey",
+        "role": "director",
+        "appointed_on": "2018-12-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1962
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "LAILEY, Samantha Louise",
+        "role": "director",
+        "appointed_on": "2012-09-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "NASH, Jeremy Shane",
+        "role": "director",
+        "appointed_on": "2016-07-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Wales",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "RAZZAK, Rafi Arif Abdul",
+        "role": "director",
+        "appointed_on": null,
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1949
+        },
+        "address": {
+          "locality": "Upper Basildon",
+          "postal_code": "RG8 8SX",
+          "country": null
+        }
+      },
+      {
+        "name": "RAZZAK, Rebecca",
+        "role": "director",
+        "appointed_on": null,
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1949
+        },
+        "address": {
+          "locality": "Upper Basildon",
+          "postal_code": "RG8 8SX",
+          "country": null
+        }
+      },
+      {
+        "name": "WOOSNAM, Marc Allen",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "ALLEN, Sharon",
+        "role": "secretary",
+        "appointed_on": "2023-11-30",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "ALLEN, Sharon",
+        "role": "secretary",
+        "appointed_on": "2023-11-30",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "ALLEN, Sharon Ann",
+        "role": "director",
+        "appointed_on": "2012-09-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "COLLYER, John Richard",
+        "role": "director",
+        "appointed_on": "2024-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "ELLIOTT, Michael Jonathan",
+        "role": "director",
+        "appointed_on": "2021-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "FEARN, Peter",
+        "role": "director",
+        "appointed_on": "2017-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1953
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "FINNEY, Andrew John",
+        "role": "director",
+        "appointed_on": "2017-03-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1951
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "KEEGAN, Michael Geoffrey",
+        "role": "director",
+        "appointed_on": "2018-12-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1962
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "LAILEY, Samantha Louise",
+        "role": "director",
+        "appointed_on": "2012-09-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "NASH, Jeremy Shane",
+        "role": "director",
+        "appointed_on": "2016-07-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Wales",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      },
+      {
+        "name": "RAZZAK, Rafi Arif Abdul",
+        "role": "director",
+        "appointed_on": null,
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1949
+        },
+        "address": {
+          "locality": "Upper Basildon",
+          "postal_code": "RG8 8SX",
+          "country": null
+        }
+      },
+      {
+        "name": "RAZZAK, Rebecca",
+        "role": "director",
+        "appointed_on": null,
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1949
+        },
+        "address": {
+          "locality": "Upper Basildon",
+          "postal_code": "RG8 8SX",
+          "country": null
+        }
+      },
+      {
+        "name": "WOOSNAM, Marc Allen",
+        "role": "director",
+        "appointed_on": "2024-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Basingstoke",
+          "postal_code": "RG24 8GQ",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 24,
+      "recent": [
+        {
+          "name": "THOMAS, Michael",
+          "role": "secretary",
+          "appointed_on": "2022-01-26",
+          "resigned_on": "2023-11-30",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Basingstoke",
+            "postal_code": "RG24 8GQ",
+            "country": null
+          }
+        },
+        {
+          "name": "WILCOCKS, Philip Lawrence, Rear Admiral",
+          "role": "director",
+          "appointed_on": "2016-12-19",
+          "resigned_on": "2023-04-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1953
+          },
+          "address": {
+            "locality": "Basingstoke",
+            "postal_code": "RG24 8GQ",
+            "country": null
+          }
+        },
+        {
+          "name": "HAMBLIN, Gordon John",
+          "role": "secretary",
+          "appointed_on": "2008-07-14",
+          "resigned_on": "2022-01-04",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Wokingham",
+            "postal_code": "RG41 4BZ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "STEVENS, Garry James",
+          "role": "director",
+          "appointed_on": "2010-06-25",
+          "resigned_on": "2016-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1958
+          },
+          "address": {
+            "locality": "Basingstoke",
+            "postal_code": "RG24 8GQ",
+            "country": null
+          }
+        },
+        {
+          "name": "KAZEROUNIAN, Seyed Abdul Reza",
+          "role": "director",
+          "appointed_on": "2013-07-02",
+          "resigned_on": "2014-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1956
+          },
+          "address": {
+            "locality": "Basingstoke",
+            "postal_code": "RG24 8GQ",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01738519",
+          "name": "Centerprise Intl Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01738519",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01738519/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07333982",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "07333982",
+          "name": "Mr Rafi Arif Abdul Razzak",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07333982",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07333982/persons-with-significant-control/individual/4SyDrLgABX2hoDE5tlGGpqTJlhw"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Rafi Arif Abdul Razzak"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01738519"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwODA5MTkwMGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01738519_2026-03-03.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01738519/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01738519/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 607,
+    "enriched_at": "2026-04-16T20:27:01Z",
+    "governance_enriched_at": "2026-04-16T22:32:18Z",
+    "ubo_enriched_at": "2026-04-16T23:19:23Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2017,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 163,
+      "total_contracts_non_framework": 147,
+      "total_awarded_gbp": -3878255697.346048,
+      "total_awarded_non_framework_gbp": 97986873.55428572,
+      "years_active": 7,
+      "first_year": 2017,
+      "last_year": 2024,
+      "trajectory": "stable",
+      "trajectory_note": "CAGR -7.5% between 2020 (£28M) and 2024 (£21M)",
+      "longest_buyer_relationship": {
+        "buyer": "MINISTRY OF DEFENCE",
+        "years_count": 6,
+        "years_list": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 26354767.65428571,
+        "n_contracts": 33
+      },
+      "n_unique_buyers_all_years": 62,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2017": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 83355,
+        "awarded_gbp_non_framework": 83355,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "South Yorkshire Police Headquarters",
+          "contracts": 1,
+          "value_gbp": 83355
+        },
+        "procurement_method_counts": {
+          "limited": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 593469.56,
+        "awarded_gbp_non_framework": 522669.56,
+        "awarded_gbp_framework_share": 70800,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 5,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 1,
+          "value_gbp": 424464.14
+        },
+        "procurement_method_counts": {
+          "selective": 5
+        }
+      },
+      "2020": {
+        "n_contracts": 46,
+        "n_contracts_non_framework": 41,
+        "awarded_gbp_total": 47377218.36950752,
+        "awarded_gbp_non_framework": 28298521.214285713,
+        "awarded_gbp_framework_share": 19078697.155221805,
+        "sole_source_pct": 0.06,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 18,
+        "top_buyer": {
+          "buyer": "NHS Shared Business Services Ltd (NHS SBS)",
+          "contracts": 1,
+          "value_gbp": 17857142.85714286
+        },
+        "procurement_method_counts": {
+          "open": 9,
+          "unspecified": 5,
+          "selective": 31,
+          "limited": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 28,
+        "n_contracts_non_framework": 25,
+        "awarded_gbp_total": 23753219.82,
+        "awarded_gbp_non_framework": 23729571.92,
+        "awarded_gbp_framework_share": 23647.9,
+        "sole_source_pct": 0.08,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 11,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 6,
+          "value_gbp": 14182226.700000001
+        },
+        "procurement_method_counts": {
+          "limited": 1,
+          "selective": 21,
+          "unspecified": 4,
+          "direct": 1,
+          "open": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 24,
+        "n_contracts_non_framework": 20,
+        "awarded_gbp_total": -3991625197.63,
+        "awarded_gbp_non_framework": 8374802.37,
+        "awarded_gbp_framework_share": -4000000000,
+        "sole_source_pct": -0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 11,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 4,
+          "value_gbp": 7091905.87
+        },
+        "procurement_method_counts": {
+          "selective": 18,
+          "open": 1,
+          "unspecified": 5
+        }
+      },
+      "2023": {
+        "n_contracts": 23,
+        "n_contracts_non_framework": 21,
+        "awarded_gbp_total": 20732074.704444446,
+        "awarded_gbp_non_framework": 16259910.26,
+        "awarded_gbp_framework_share": 4472164.444444444,
+        "sole_source_pct": 0.21,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 14,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 6,
+          "value_gbp": 8164723.65
+        },
+        "procurement_method_counts": {
+          "selective": 15,
+          "unspecified": 5,
+          "direct": 1,
+          "open": 2
+        }
+      },
+      "2024": {
+        "n_contracts": 36,
+        "n_contracts_non_framework": 35,
+        "awarded_gbp_total": 20830162.83,
+        "awarded_gbp_non_framework": 20718043.23,
+        "awarded_gbp_framework_share": 112119.6,
+        "sole_source_pct": 1.08,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 19,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 8,
+          "value_gbp": 11151126.809999999
+        },
+        "procurement_method_counts": {
+          "selective": 19,
+          "unspecified": 11,
+          "limited": 2,
+          "open": 3,
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2017": {
+        "top_code": "72500000",
+        "top_label": "Computer-related services",
+        "top_value_gbp": 83355.0,
+        "n_distinct_codes": 1
+      },
+      "2019": {
+        "top_code": "30100000",
+        "top_label": "Office machinery, equipment and supplies except computers, printers and furniture",
+        "top_value_gbp": 424464.14,
+        "n_distinct_codes": 5
+      },
+      "2020": {
+        "top_code": "30200000",
+        "top_label": "Computer equipment and supplies",
+        "top_value_gbp": 24357091.893642858,
+        "n_distinct_codes": 25
+      },
+      "2021": {
+        "top_code": "30200000",
+        "top_label": "Computer equipment and supplies",
+        "top_value_gbp": 5242290.32,
+        "n_distinct_codes": 13
+      },
+      "2022": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 4530297.0,
+        "n_distinct_codes": 11
+      },
+      "2023": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 7074144.0,
+        "n_distinct_codes": 15
+      },
+      "2024": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 6908052.85,
+        "n_distinct_codes": 13
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 16,
+        "unspecified": 30,
+        "selective": 109,
+        "limited": 5,
+        "direct": 3
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 28474321.74,
+        "selective": 67456468.75157894,
+        "limited": 353339.2,
+        "direct": 46696.35
+      },
+      "sole_source_pct_all_years": 0.33,
+      "competitive_pct_all_years": -3209.29,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 22,
+        "value_gbp": 30969670.769999996
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 32,
+        "value_gbp": 25935764.00428571
+      },
+      {
+        "buyer_id": "GB-CFS-76108",
+        "buyer_name": "NHS Shared Business Services Ltd (NHS SBS)",
+        "contracts": 1,
+        "value_gbp": 17857142.85714286
+      },
+      {
+        "buyer_id": "GB-CFS-135526",
+        "buyer_name": "Strategic Command - Headquarters (was JFC -Northwood) : Ministry of Defence",
+        "contracts": 2,
+        "value_gbp": 12928354.370000001
+      },
+      {
+        "buyer_id": "GB-CFS-99348",
+        "buyer_name": "Ministry of Defence : Ministry of Defence",
+        "contracts": 14,
+        "value_gbp": 5274244.4
+      },
+      {
+        "buyer_id": "GB-CFS-36635",
+        "buyer_name": "YPO",
+        "contracts": 1,
+        "value_gbp": 4444444.444444444
+      },
+      {
+        "buyer_id": "GB-CFS-166586",
+        "buyer_name": "Defence Digital : Defence Digital",
+        "contracts": 1,
+        "value_gbp": 3539491.37
+      },
+      {
+        "buyer_id": "GB-CFS-162238",
+        "buyer_name": "RAF Cosford : Air Command, RAF High Wycombe",
+        "contracts": 4,
+        "value_gbp": 2623615.6
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/NsBK36A7",
+        "buyer_name": "Driver & Vehicle Licensing Agency",
+        "contracts": 4,
+        "value_gbp": 2382332.42
+      },
+      {
+        "buyer_id": "GB-CFS-273831",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 2,
+        "value_gbp": 2014470
+      },
+      {
+        "buyer_id": "GB-CFS-50870",
+        "buyer_name": "Blackpool Council",
+        "contracts": 1,
+        "value_gbp": 2000000
+      },
+      {
+        "buyer_id": "GB-CFS-71687",
+        "buyer_name": "Bristol City Council",
+        "contracts": 1,
+        "value_gbp": 1300000
+      },
+      {
+        "buyer_id": "GB-CFS-85120",
+        "buyer_name": "Notting Hill Genesis",
+        "contracts": 1,
+        "value_gbp": 1300000
+      },
+      {
+        "buyer_id": "GB-LAE-BBD",
+        "buyer_name": "BLACKBURN WITH DARWEN BOROUGH COUNCIL",
+        "contracts": 1,
+        "value_gbp": 1228760
+      },
+      {
+        "buyer_id": "GB-CFS-148980",
+        "buyer_name": "New College Stamford",
+        "contracts": 2,
+        "value_gbp": 862928
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "30200000",
+        "label": "Computer equipment and supplies",
+        "contracts": 31,
+        "value_gbp": 39636128.44364286
+      },
+      {
+        "code": "30000000",
+        "label": "Office and computing machinery, equipment and supplies except furniture and software packages",
+        "contracts": 14,
+        "value_gbp": 12791938.73
+      },
+      {
+        "code": "48000000",
+        "label": "Software package and information systems",
+        "contracts": 15,
+        "value_gbp": 8947733.23
+      },
+      {
+        "code": "72200000",
+        "label": "Software programming and consultancy services",
+        "contracts": 1,
+        "value_gbp": 8906000
+      },
+      {
+        "code": "44316000",
+        "label": "Ironmongery",
+        "contracts": 1,
+        "value_gbp": 4918892.13
+      },
+      {
+        "code": "45000000",
+        "label": "Construction work",
+        "contracts": 1,
+        "value_gbp": 4530297
+      },
+      {
+        "code": "45300000",
+        "label": "Building installation work",
+        "contracts": 1,
+        "value_gbp": 4444444.444444444
+      },
+      {
+        "code": "44316400",
+        "label": "Hardware",
+        "contracts": 8,
+        "value_gbp": 3450225.3100000005
+      },
+      {
+        "code": "50000000",
+        "label": "Repair and maintenance services",
+        "contracts": 2,
+        "value_gbp": 2278463.49
+      },
+      {
+        "code": "48517000",
+        "label": "IT software package",
+        "contracts": 4,
+        "value_gbp": 2232918.43
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-af5c41c1-6656-4d90-a573-d133509ca580",
+        "date": "2024-11-29T00:00:00Z",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of RAVEN Equipment for Break/ Fix Requirements",
+        "value_gbp": 530700,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-12-04T00:00:00Z",
+        "contract_end": "2025-05-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d653b571-89f0-4ed2-a07d-d858002f23c7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-af15dcbf-270c-4de7-a8aa-0edbe5801f78",
+        "date": "2024-11-27T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "DC2E Seraphim",
+        "value_gbp": 983704,
+        "procurement_method": null,
+        "cpv_code": "30000000",
+        "cpv_label": "Office and computing machinery, equipment and supplies except furniture and software packages",
+        "contract_start": "2024-11-27T00:00:00Z",
+        "contract_end": "2025-11-26T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c0378472-4208-48e2-b6eb-930d60faad78",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-30239f18-180b-4505-9824-d349c4f0416f",
+        "date": "2024-11-19T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Opnet Blue Tech Refresh",
+        "value_gbp": 1750255,
+        "procurement_method": null,
+        "cpv_code": "30000000",
+        "cpv_label": "Office and computing machinery, equipment and supplies except furniture and software packages",
+        "contract_start": "2024-11-15T00:00:00Z",
+        "contract_end": "2025-11-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ebab99c4-d455-476a-a34f-426f68618488",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d01751d2-f1ad-4793-9dfb-0bd5f61d607a",
+        "date": "2024-11-14T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "712909450 (DInfoCom/0278) Provision of Crimes HQ SPCB Cellebrite Licences and Support Renewal",
+        "value_gbp": 61693,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-12-06T00:00:00Z",
+        "contract_end": "2025-12-05T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0a8fb7ea-0d25-40cb-adcf-e3493ecb78b5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d28028fb-fc52-4565-bbdd-474bcf233d31",
+        "date": "2024-10-23T00:00:00+01:00",
+        "buyer": "Blackburn with Darwen",
+        "title": "HP Nimble Support",
+        "value_gbp": 36954,
+        "procurement_method": null,
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2024-11-01T00:00:00Z",
+        "contract_end": "2025-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c46e76e7-b192-4f5a-90c5-5fcb870fea4e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-143280ce-b6ef-4d2e-ac16-c8a471fdf57b",
+        "date": "2024-10-10T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "Provision of DEAN / Learn Data Exploitation Service CAN",
+        "value_gbp": 228000,
+        "procurement_method": "selective",
+        "cpv_code": "48219300",
+        "cpv_label": "Administration software package",
+        "contract_start": "2024-10-14T00:00:00+01:00",
+        "contract_end": "2025-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/62210d5e-cb19-4f7b-929e-1e5e128663bf",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-823aa737-9679-4de9-b9aa-e7c37cbf88f6",
+        "date": "2024-10-04T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of 3652 Sustain LEARN and DEAN Services Pan College",
+        "value_gbp": 1920968.38,
+        "procurement_method": "selective",
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2024-10-04T00:00:00+01:00",
+        "contract_end": "2025-10-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/35c4a5f7-c9de-4005-a076-58345ba1dc05",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-823aa737-9679-4de9-b9aa-e7c37cbf88f6",
+        "date": "2024-10-04T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of 3652 Sustain LEARN and DEAN Services Pan College",
+        "value_gbp": 1920968.38,
+        "procurement_method": "selective",
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2024-10-04T00:00:00+01:00",
+        "contract_end": "2025-10-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/35c4a5f7-c9de-4005-a076-58345ba1dc05",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-46f702a7-508e-4060-a930-9d44e95a982b",
+        "date": "2024-10-04T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of 3652 Sustain LEARN and DEAN Services Pan College",
+        "value_gbp": 303980.5,
+        "procurement_method": "selective",
+        "cpv_code": "48218000",
+        "cpv_label": "License management software package",
+        "contract_start": "2024-10-04T00:00:00+01:00",
+        "contract_end": "2025-10-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/69b1f9ef-2e21-4c20-bdad-22e8c2833227",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f9079d36-e763-41bd-af80-42beb3168f16",
+        "date": "2024-10-04T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of 3652 Sustain LEARN and DEAN Services Pan College",
+        "value_gbp": 91839.78,
+        "procurement_method": "selective",
+        "cpv_code": "48218000",
+        "cpv_label": "License management software package",
+        "contract_start": "2024-10-04T00:00:00+01:00",
+        "contract_end": "2025-10-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b5f22b0c-3172-4e41-98c9-a5fdd08e67f4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-46a47328-04a4-4d0c-8983-aa5ebb62ed21",
+        "date": "2024-10-04T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "712875451 - Automated Test Equipment",
+        "value_gbp": 1024950,
+        "procurement_method": "selective",
+        "cpv_code": "32344210",
+        "cpv_label": "Radio equipment",
+        "contract_start": "2024-10-04T00:00:00+01:00",
+        "contract_end": "2025-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e6757f9a-2e43-4de5-95cd-0e541bd79113",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e383e582-5847-4a8a-9b12-577b8ea0e321",
+        "date": "2024-09-24T00:00:00+01:00",
+        "buyer": "South Yorkshire Fire and Rescue Service",
+        "title": "Ruggedized Laptop Tablet Provision and Maintenance Contract",
+        "value_gbp": 121320,
+        "procurement_method": "selective",
+        "cpv_code": "30230000",
+        "cpv_label": "Computer-related equipment",
+        "contract_start": "2024-09-24T00:00:00+01:00",
+        "contract_end": "2029-09-23T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/aa4de5d1-ac70-47ad-96c8-e499dd3c7fb3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6918f729-b769-47f7-a730-0491ce6c3165",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Liverpool City Council",
+        "title": "DN740871 Further Competition under ICT Services Framework DN516498 Lot 3 Edu Hardware  Bank View ICT Requirements for Phase 2 at Parklands  - re advertisement",
+        "value_gbp": 79675,
+        "procurement_method": null,
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2024-09-06T00:00:00+01:00",
+        "contract_end": "2024-10-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5696a956-b10b-4dda-8f89-66c7c5997ec5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4fa4f78b-2c13-4205-9d57-e27c23e829ee",
+        "date": "2024-08-20T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "712473450 - Samsung Devices & Kagwerks Operator Case Kits Procurement (RM6098 Lot 4)",
+        "value_gbp": 989520,
+        "procurement_method": "selective",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-08-20T00:00:00+01:00",
+        "contract_end": "2025-08-20T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d54bf3ab-fe9b-4058-adee-26bb49dec49c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4665f722-0553-4161-82fa-95ba6df7bea1",
+        "date": "2024-08-13T00:00:00+01:00",
+        "buyer": "Milton Keynes College",
+        "title": "CA12941 - Milton Keynes College LSIF Digital Skills Project - Laptops and Peripherals 2023",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2023-11-06T00:00:00Z",
+        "contract_end": "2024-08-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cf9ffa8f-f3a5-45c4-bc47-db00d34a34ed",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7d6ea80d-582e-4f43-8dda-353ed2b61039",
+        "date": "2024-08-07T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Provision of OpNET IT Hardware",
+        "value_gbp": 86941.93,
+        "procurement_method": null,
+        "cpv_code": "30000000",
+        "cpv_label": "Office and computing machinery, equipment and supplies except furniture and software packages",
+        "contract_start": "2024-08-07T00:00:00+01:00",
+        "contract_end": "2025-08-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b94dda05-84e2-4017-9992-2b75e006a9f0",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-649f43e3-a438-457b-9edc-6f34f0bfc910",
+        "date": "2024-08-01T00:00:00+01:00",
+        "buyer": "BLACKBURN WITH DARWEN BOROUGH COUNCIL",
+        "title": "Contract award for device refresh",
+        "value_gbp": 1228760,
+        "procurement_method": "selective",
+        "cpv_code": "30000000",
+        "cpv_label": "Office and computing machinery, equipment and supplies except furniture and software packages",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7f42dabf-bb5f-4438-a3b5-f086c3980822",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e696cf7a-4158-4848-a1d6-ebf776063c6d",
+        "date": "2024-07-29T00:00:00+01:00",
+        "buyer": "Wirral Borough Council",
+        "title": "Re - Tender Direct Support and Maintenance for NetApp storage and compute",
+        "value_gbp": 125662,
+        "procurement_method": null,
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2025-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/492c184d-1af7-4c9a-bb87-6274332c2def",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0624439a-3e73-4720-bc41-041db7d9fa95",
+        "date": "2024-07-11T00:00:00+01:00",
+        "buyer": "Hull College",
+        "title": "ESports IT Hardware",
+        "value_gbp": 112119.6,
+        "procurement_method": "limited",
+        "cpv_code": "44316400",
+        "cpv_label": "Hardware",
+        "contract_start": "2024-07-11T00:00:00+01:00",
+        "contract_end": "2025-07-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3a9ca383-1b9b-4a1b-b0d2-de2bbd770d1c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0624439a-3e73-4720-bc41-041db7d9fa95",
+        "date": "2024-07-11T00:00:00+01:00",
+        "buyer": "Hull College",
+        "title": "ESports IT Hardware",
+        "value_gbp": 112119.6,
+        "procurement_method": "limited",
+        "cpv_code": "44316400",
+        "cpv_label": "Hardware",
+        "contract_start": "2024-07-11T00:00:00+01:00",
+        "contract_end": "2025-07-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3a9ca383-1b9b-4a1b-b0d2-de2bbd770d1c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-32571771-0902-411e-88ac-734a9d010468",
+        "date": "2024-06-13T00:00:00+01:00",
+        "buyer": "Nottinghamshire County Council",
+        "title": "ON PREMISE BACKUP SERVICE",
+        "value_gbp": 180582.24,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-06-24T00:00:00+01:00",
+        "contract_end": "2029-06-24T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a4cacf84-3840-4484-a645-a4f18c7720ee",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-51d2f7e0-14b3-4a33-be7d-97d9b648b014",
+        "date": "2024-06-04T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Juniper qualified Architects",
+        "value_gbp": 60000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-06-14T00:00:00+01:00",
+        "contract_end": "2025-06-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/38a811d4-5134-4860-8009-a55b760bbe9b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c73cf046-6c4b-447e-962f-6f0490390222",
+        "date": "2024-05-24T00:00:00+01:00",
+        "buyer": "NHS Arden and Greater East Midlands Commissioning Support Unit",
+        "title": "1748 v2 WiFi Spark License Renewal for Derby Sites for NHS Arden & GEM CSU",
+        "value_gbp": 46553.87,
+        "procurement_method": "selective",
+        "cpv_code": "48218000",
+        "cpv_label": "License management software package",
+        "contract_start": "2024-03-15T00:00:00Z",
+        "contract_end": "2024-12-18T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3420d5c4-b487-4e8e-bde2-6aca11200d8e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-39b433fb-3c18-4349-9c15-4ce4af59b706",
+        "date": "2024-04-30T00:00:00+01:00",
+        "buyer": "Wirral Borough Council",
+        "title": "3 month Direct NetApp Support & Maintenance",
+        "value_gbp": 31282.97,
+        "procurement_method": null,
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2024-08-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a0216d02-254f-401b-8f0a-3303cd85dba2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c17904a6-d763-4f80-9d53-b5ed88bbe871",
+        "date": "2024-03-24T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "NDH(D) Hardware Trial",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "44316400",
+        "cpv_label": "Hardware",
+        "contract_start": "2024-02-26T00:00:00Z",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/be026af3-7d04-42c4-80d8-3bb740cb71f3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e114eada-36cd-44fb-bb41-2f180d4b11bc",
+        "date": "2024-03-20T00:00:00Z",
+        "buyer": "Dixons Academies Charitable Trust Ltd",
+        "title": "CA13599 - Dixons Academies Trust - IT Equipment Further Competition (Lot 5-CPC/JE/01/2019)",
+        "value_gbp": 100,
+        "procurement_method": "open",
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2027-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/33909d17-3ce9-4fe1-bcfa-c1bb9031aafb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ef7a5c77-d0c1-4b84-82a2-f1f8b174114b",
+        "date": "2024-03-19T00:00:00Z",
+        "buyer": "North Lincolnshire Council",
+        "title": "IT Asset Destruction",
+        "value_gbp": 0,
+        "procurement_method": "direct",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2026-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cf0ab419-e0c3-41ce-b9ec-255502b07afb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-57832193-9b09-43a6-a11f-645e227d4e82",
+        "date": "2024-03-13T00:00:00Z",
+        "buyer": "National Audit Office",
+        "title": "CPT_24_06 Supply of Monitors (London Office)",
+        "value_gbp": 188751.6,
+        "procurement_method": "selective",
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2024-03-19T00:00:00Z",
+        "contract_end": "2026-09-18T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/abdb67a2-0aa8-47f3-aaa3-d14bb59ff3c7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-061eeaf2-c17a-4733-bbf1-8c92374db962",
+        "date": "2024-03-01T00:00:00Z",
+        "buyer": "Cambridgeshire Fire & Rescue Service",
+        "title": "Purchase of MDTs Hardware",
+        "value_gbp": 244245.6,
+        "procurement_method": "selective",
+        "cpv_code": "35000000",
+        "cpv_label": "Security, fire-fighting, police and defence equipment",
+        "contract_start": "2024-03-01T00:00:00Z",
+        "contract_end": "2029-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8ef8ab22-93ee-41ac-a3fa-d71ce2a21a65",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1dc4820c-4875-452d-85b3-5b2ab2f2d2d9",
+        "date": "2024-03-01T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Digital Forensics for Africa",
+        "value_gbp": 24497.5,
+        "procurement_method": "selective",
+        "cpv_code": "38430000",
+        "cpv_label": "Detection and analysis apparatus",
+        "contract_start": "2024-03-01T00:00:00Z",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c2b0cd2f-1508-446b-b40f-cb70480488f8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 17483046,
+      "awarded_2024_gbp_from_cf": 20830162.83,
+      "signal": "balanced",
+      "note": "Awarded and paid roughly aligned.",
+      "ratio": 1.19
+    }
+  }
+}

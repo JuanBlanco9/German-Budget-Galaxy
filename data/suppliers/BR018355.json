@@ -1,0 +1,133 @@
+{
+  "company_number": "BR018355",
+  "display_name": "THE UNITED KINGDOM HYDROGRAPHIC OFFICE",
+  "identity": {
+    "ch_number": "BR018355",
+    "official_name": "CONTINENTAL LIASON OFFICE UNITED KINGDOM",
+    "display_name": "THE UNITED KINGDOM HYDROGRAPHIC OFFICE",
+    "status": "open",
+    "type": "uk-establishment",
+    "jurisdiction": null,
+    "incorporated": "2015-07-18",
+    "age_years": 10,
+    "registered_office": {
+      "address_line_1": "Fonthill Lodge Coombe Hill Road",
+      "locality": "East Grinstead",
+      "postal_code": "RH19 4LY"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/BR018355"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16029204,
+    "rank": 638,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 16029204,
+        "segments": [
+          {
+            "segment": "Strategic Command",
+            "amount_gbp": 16029204,
+            "pct_of_segment": 1.71,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "BR018355",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 63,
+    "label": "medium",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/BR018355"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR018355/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR018355/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 638,
+    "enriched_at": "2026-04-16T20:30:26Z",
+    "governance_enriched_at": "2026-04-16T22:34:30Z",
+    "ubo_enriched_at": "2026-04-16T23:20:31Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

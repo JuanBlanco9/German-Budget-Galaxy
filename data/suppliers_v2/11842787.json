@@ -1,0 +1,797 @@
+{
+  "company_number": "11842787",
+  "display_name": "FEDCAP EMPLOYMENT",
+  "identity": {
+    "ch_number": "11842787",
+    "official_name": "FEDCAP EMPLOYMENT LIMITED",
+    "display_name": "FEDCAP EMPLOYMENT",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2019-02-22",
+    "age_years": 7,
+    "registered_office": {
+      "address_line_1": "Boaz House Massey Road",
+      "address_line_2": "Thornaby",
+      "country": "England",
+      "locality": "Stockton-On-Tees",
+      "postal_code": "TS17 6DY"
+    },
+    "sic_codes": [
+      "85590",
+      "88990"
+    ],
+    "sic_labels": [
+      "Other education n.e.c.",
+      "SIC 88990"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/11842787"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 24438442,
+    "rank": 546,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 24438442,
+        "segments": [
+          {
+            "segment": "Employment Programmes (Restart/WHP)",
+            "amount_gbp": 24438442,
+            "pct_of_segment": 5.52,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-17",
+    "period_end": "2024-09-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MDM5NDE0MGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/11842787_2025-06-17.pdf",
+      "size_mb": 1.57,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "BREZENOFF, Kenneth Samuel",
+        "role": "director",
+        "appointed_on": "2020-06-18",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Stockton-On-Tees",
+          "postal_code": "TS17 6DY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COLLINS, Grant",
+        "role": "director",
+        "appointed_on": "2019-02-22",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1962
+        },
+        "address": {
+          "locality": "Stockton-On-Tees",
+          "postal_code": "TS17 6DY",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BREZENOFF, Kenneth Samuel",
+        "role": "director",
+        "appointed_on": "2020-06-18",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Stockton-On-Tees",
+          "postal_code": "TS17 6DY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COLLINS, Grant",
+        "role": "director",
+        "appointed_on": "2019-02-22",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1962
+        },
+        "address": {
+          "locality": "Stockton-On-Tees",
+          "postal_code": "TS17 6DY",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "11842787",
+          "name": "Fedcap Uk",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-02-22",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "11842787",
+            "notified_on": "2019-02-22",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/11842787/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "10466370",
+          "parent_type": "private-limited-guarant-nsc-limited-exemption",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11842787"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MDM5NDE0MGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/11842787_2025-06-17.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11842787/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11842787/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 546,
+    "enriched_at": "2026-04-16T20:21:18Z",
+    "governance_enriched_at": "2026-04-16T22:29:23Z",
+    "ubo_enriched_at": "2026-04-16T23:16:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 23,
+      "total_contracts_non_framework": 18,
+      "total_awarded_gbp": 6498465942.285714,
+      "total_awarded_non_framework_gbp": 5159180228.0,
+      "years_active": 3,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "gap_in_history",
+      "trajectory_note": "no data for 2023",
+      "longest_buyer_relationship": {
+        "buyer": "Department for Work and Pensions",
+        "years_count": 1,
+        "years_list": [
+          2021
+        ],
+        "total_value_gbp": 5159180228.0,
+        "n_contracts": 16
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 1339285714.2857144,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 1339285714.2857144,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+          "contracts": 5,
+          "value_gbp": 1339285714.2857144
+        },
+        "procurement_method_counts": {
+          "open": 5
+        }
+      },
+      "2021": {
+        "n_contracts": 16,
+        "n_contracts_non_framework": 16,
+        "awarded_gbp_total": 5159180228.0,
+        "awarded_gbp_non_framework": 5159180228.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Department for Work and Pensions",
+          "contracts": 16,
+          "value_gbp": 5159180228.0
+        },
+        "procurement_method_counts": {
+          "selective": 16
+        }
+      },
+      "2024": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Reading Borough Council",
+          "contracts": 2,
+          "value_gbp": 0
+        },
+        "procurement_method_counts": {
+          "open": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "75000000",
+        "top_label": "Administration, defence and social security services",
+        "top_value_gbp": 1339285714.2857144,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 5159180228.0,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "85300000",
+        "top_label": "Social work and related services",
+        "top_value_gbp": 0.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 7,
+        "selective": 16
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 1339285714.2857144,
+        "selective": 5159180228.0
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-223061",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 13,
+        "value_gbp": 4191833935.25
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/ahmV766A",
+        "buyer_name": "DEPARTMENT FOR WORK AND PENSIONS",
+        "contracts": 5,
+        "value_gbp": 1339285714.2857144
+      },
+      {
+        "buyer_id": "GB-CFS-215127",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 3,
+        "value_gbp": 967346292.75
+      },
+      {
+        "buyer_id": "GB-CFS-269965",
+        "buyer_name": "Reading Borough Council",
+        "contracts": 2,
+        "value_gbp": 0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 16,
+        "value_gbp": 5159180228.0
+      },
+      {
+        "code": "75000000",
+        "label": "Administration, defence and social security services",
+        "contracts": 5,
+        "value_gbp": 1339285714.2857144
+      },
+      {
+        "code": "85300000",
+        "label": "Social work and related services",
+        "contracts": 2,
+        "value_gbp": 0
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-d0a8c558-058b-4fac-9662-f1432c7c874c",
+        "date": "2024-03-28T00:00:00Z",
+        "buyer": "Reading Borough Council",
+        "title": "Supported Employment and Training Service - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "85300000",
+        "cpv_label": "Social work and related services",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2027-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bca19ded-d9cf-40b0-b657-ddd83e4ca5cb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d0a8c558-058b-4fac-9662-f1432c7c874c",
+        "date": "2024-03-28T00:00:00Z",
+        "buyer": "Reading Borough Council",
+        "title": "Supported Employment and Training Service - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "85300000",
+        "cpv_label": "Social work and related services",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2027-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bca19ded-d9cf-40b0-b657-ddd83e4ca5cb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0bb3ffa9-ff4c-4c2f-8172-92a3e15ae44d",
+        "date": "2021-04-26T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "Restart Scheme",
+        "value_gbp": 322448764.25,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-26T00:00:00+01:00",
+        "contract_end": "2026-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ba9d897e-3c20-40ac-a1a2-16d586f55295",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-749a1b15-29e1-46fe-abe6-ba1f747b59c4",
+        "date": "2020-10-05T00:00:00+01:00",
+        "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+        "title": "Commercial Agreement for the Provision of Employment and Health Related Services (CAEHRS)",
+        "value_gbp": 267857142.85714287,
+        "procurement_method": "open",
+        "cpv_code": "75000000",
+        "cpv_label": "Administration, defence and social security services",
+        "contract_start": "2020-10-05T00:00:00+01:00",
+        "contract_end": "2025-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f2b0cf0-496d-4aaa-858c-1ca223909f02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-749a1b15-29e1-46fe-abe6-ba1f747b59c4",
+        "date": "2020-10-05T00:00:00+01:00",
+        "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+        "title": "Commercial Agreement for the Provision of Employment and Health Related Services (CAEHRS)",
+        "value_gbp": 267857142.85714287,
+        "procurement_method": "open",
+        "cpv_code": "75000000",
+        "cpv_label": "Administration, defence and social security services",
+        "contract_start": "2020-10-05T00:00:00+01:00",
+        "contract_end": "2025-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f2b0cf0-496d-4aaa-858c-1ca223909f02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-749a1b15-29e1-46fe-abe6-ba1f747b59c4",
+        "date": "2020-10-05T00:00:00+01:00",
+        "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+        "title": "Commercial Agreement for the Provision of Employment and Health Related Services (CAEHRS)",
+        "value_gbp": 267857142.85714287,
+        "procurement_method": "open",
+        "cpv_code": "75000000",
+        "cpv_label": "Administration, defence and social security services",
+        "contract_start": "2020-10-05T00:00:00+01:00",
+        "contract_end": "2025-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f2b0cf0-496d-4aaa-858c-1ca223909f02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-749a1b15-29e1-46fe-abe6-ba1f747b59c4",
+        "date": "2020-10-05T00:00:00+01:00",
+        "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+        "title": "Commercial Agreement for the Provision of Employment and Health Related Services (CAEHRS)",
+        "value_gbp": 267857142.85714287,
+        "procurement_method": "open",
+        "cpv_code": "75000000",
+        "cpv_label": "Administration, defence and social security services",
+        "contract_start": "2020-10-05T00:00:00+01:00",
+        "contract_end": "2025-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f2b0cf0-496d-4aaa-858c-1ca223909f02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-749a1b15-29e1-46fe-abe6-ba1f747b59c4",
+        "date": "2020-10-05T00:00:00+01:00",
+        "buyer": "DEPARTMENT FOR WORK AND PENSIONS",
+        "title": "Commercial Agreement for the Provision of Employment and Health Related Services (CAEHRS)",
+        "value_gbp": 267857142.85714287,
+        "procurement_method": "open",
+        "cpv_code": "75000000",
+        "cpv_label": "Administration, defence and social security services",
+        "contract_start": "2020-10-05T00:00:00+01:00",
+        "contract_end": "2025-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f2b0cf0-496d-4aaa-858c-1ca223909f02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 24438442,
+      "awarded_2024_gbp_from_cf": 0,
+      "signal": "paid_on_prior_contracts",
+      "note": "Paid in 2024 but no new awards visible in Contracts Finder — likely on pre-existing multi-year contracts.",
+      "ratio": null
+    }
+  }
+}

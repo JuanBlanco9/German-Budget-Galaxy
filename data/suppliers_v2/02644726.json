@@ -1,0 +1,1345 @@
+{
+  "company_number": "02644726",
+  "display_name": "Colas Limited",
+  "identity": {
+    "ch_number": "02644726",
+    "official_name": "COLAS LIMITED",
+    "display_name": "Colas Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1991-09-11",
+    "age_years": 34,
+    "registered_office": {
+      "address_line_1": "6210 Bishops Court Birmingham Business Park",
+      "address_line_2": "Solihull Parkway",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B37 7YB"
+    },
+    "sic_codes": [
+      "42110"
+    ],
+    "sic_labels": [
+      "Construction of roads and motorways"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02644726"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 62652955,
+    "rank": 331,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 62652955,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 62652955,
+            "pct_of_segment": 1.37,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-10-06",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4Mzc4NDk3OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02644726_2025-10-06.pdf",
+      "size_mb": 2.66,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 53,
+    "board_turnover_ratio": 13.25,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GRESSE, Aurelien",
+        "role": "director",
+        "appointed_on": "2025-07-28",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KLEEBACH, Oliver",
+        "role": "director",
+        "appointed_on": "2025-05-23",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MADELON, Thierry Hubert",
+        "role": "director",
+        "appointed_on": "2025-09-30",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CIUFU-HAYWARD, Stefan Irinel",
+        "role": "secretary",
+        "appointed_on": "2020-11-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Crawley",
+          "postal_code": "RH10 4NF",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CIUFU-HAYWARD, Stefan Irinel",
+        "role": "secretary",
+        "appointed_on": "2020-11-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Crawley",
+          "postal_code": "RH10 4NF",
+          "country": null
+        }
+      },
+      {
+        "name": "GRESSE, Aurelien",
+        "role": "director",
+        "appointed_on": "2025-07-28",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KLEEBACH, Oliver",
+        "role": "director",
+        "appointed_on": "2025-05-23",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MADELON, Thierry Hubert",
+        "role": "director",
+        "appointed_on": "2025-09-30",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 53,
+      "recent": [
+        {
+          "name": "LAHMAMSI, Faical",
+          "role": "director",
+          "appointed_on": "2019-03-18",
+          "resigned_on": "2025-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "RENAUD, Geoffroy-Romain Christian",
+          "role": "director",
+          "appointed_on": "2021-02-12",
+          "resigned_on": "2025-07-28",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GRASS, Francis",
+          "role": "director",
+          "appointed_on": "2024-02-06",
+          "resigned_on": "2025-05-23",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "LLOBREGAT, Raphael Francois-Joseph",
+          "role": "director",
+          "appointed_on": "2018-07-18",
+          "resigned_on": "2024-02-06",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "JEFFERY, Sean Francis",
+          "role": "director",
+          "appointed_on": "2019-02-20",
+          "resigned_on": "2023-09-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Wales",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02644726",
+          "name": "Colas S.A.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02644726",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02644726/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": "France",
+          "parent_registration_number": "552 025 314",
+          "wikidata": {
+            "qid": "Q2982355",
+            "label": "Colas Group",
+            "description": "French business",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q2982355",
+            "parent_chain": [
+              {
+                "qid": "Q2982355",
+                "label": "Colas Group",
+                "description": "French business",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2470223554,
+                "source_url": "https://www.wikidata.org/wiki/Q2982355"
+              },
+              {
+                "qid": "Q895325",
+                "label": "Bouygues",
+                "description": "French company",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2474122901,
+                "source_url": "https://www.wikidata.org/wiki/Q895325"
+              },
+              {
+                "qid": "Q88097389",
+                "label": "SCDM",
+                "description": "French company",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2300871477,
+                "source_url": "https://www.wikidata.org/wiki/Q88097389"
+              },
+              {
+                "qid": "Q680669",
+                "label": "Martin Bouygues",
+                "description": "French businessperson",
+                "country_labels": [],
+                "revision_id": 2475786841,
+                "source_url": "https://www.wikidata.org/wiki/Q680669"
+              }
+            ],
+            "ultimate_label": "Martin Bouygues",
+            "ultimate_country": null,
+            "queries_used": [
+              "Colas S.A.",
+              "Colas"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "France"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02644726"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4Mzc4NDk3OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02644726_2025-10-06.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02644726/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02644726/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2982355"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 331,
+    "enriched_at": "2026-04-16T20:03:45Z",
+    "governance_enriched_at": "2026-04-16T22:19:56Z",
+    "ubo_enriched_at": "2026-04-16T23:03:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 171,
+      "total_contracts_non_framework": 131,
+      "total_awarded_gbp": 1446952244.670671,
+      "total_awarded_non_framework_gbp": 1242548708.0809524,
+      "years_active": 7,
+      "first_year": 2018,
+      "last_year": 2024,
+      "trajectory": "declining",
+      "trajectory_note": "CAGR -25.7% between 2018 (£38M) and 2024 (£6M)",
+      "longest_buyer_relationship": {
+        "buyer": "Liverpool City Council",
+        "years_count": 4,
+        "years_list": [
+          2019,
+          2021,
+          2022,
+          2023
+        ],
+        "total_value_gbp": 86914363.49333334,
+        "n_contracts": 10
+      },
+      "n_unique_buyers_all_years": 65,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2018": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 37626638.64,
+        "awarded_gbp_non_framework": 37626638.64,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "BHCC City Transport",
+          "contracts": 4,
+          "value_gbp": 37431046.2
+        },
+        "procurement_method_counts": {
+          "open": 5
+        }
+      },
+      "2019": {
+        "n_contracts": 6,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 49172117.82,
+        "awarded_gbp_non_framework": 10838784.486666666,
+        "awarded_gbp_framework_share": 38333333.333333336,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Liverpool City Council",
+          "contracts": 2,
+          "value_gbp": 38333333.333333336
+        },
+        "procurement_method_counts": {
+          "selective": 5,
+          "open": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 16,
+        "n_contracts_non_framework": 11,
+        "awarded_gbp_total": 94060931.55373272,
+        "awarded_gbp_non_framework": 84409779.48,
+        "awarded_gbp_framework_share": 9651152.073732719,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 13,
+        "top_buyer": {
+          "buyer": "Supply Hertfordshire",
+          "contracts": 2,
+          "value_gbp": 38700000.0
+        },
+        "procurement_method_counts": {
+          "open": 13,
+          "selective": 2,
+          "unspecified": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 49,
+        "n_contracts_non_framework": 34,
+        "awarded_gbp_total": 501994231.3598311,
+        "awarded_gbp_non_framework": 465336023.4342857,
+        "awarded_gbp_framework_share": 36658207.92554539,
+        "sole_source_pct": 0.05,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 27,
+        "top_buyer": {
+          "buyer": "Highways England",
+          "contracts": 4,
+          "value_gbp": 378550000.0
+        },
+        "procurement_method_counts": {
+          "selective": 24,
+          "open": 21,
+          "unspecified": 3,
+          "direct": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 45,
+        "n_contracts_non_framework": 36,
+        "awarded_gbp_total": 608397231.2635198,
+        "awarded_gbp_non_framework": 585468530.8633333,
+        "awarded_gbp_framework_share": 22928700.40018648,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 22,
+        "top_buyer": {
+          "buyer": "Cheshire west and Chester Borough Council",
+          "contracts": 1,
+          "value_gbp": 400000000
+        },
+        "procurement_method_counts": {
+          "selective": 13,
+          "open": 22,
+          "unspecified": 10
+        }
+      },
+      "2023": {
+        "n_contracts": 23,
+        "n_contracts_non_framework": 20,
+        "awarded_gbp_total": 112627753.27111112,
+        "awarded_gbp_non_framework": 52516642.160000004,
+        "awarded_gbp_framework_share": 60111111.11111111,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 14,
+        "top_buyer": {
+          "buyer": ".East Riding Of Yorkshire Council",
+          "contracts": 1,
+          "value_gbp": 40000000.0
+        },
+        "procurement_method_counts": {
+          "selective": 10,
+          "unspecified": 7,
+          "open": 6
+        }
+      },
+      "2024": {
+        "n_contracts": 27,
+        "n_contracts_non_framework": 21,
+        "awarded_gbp_total": 43073340.76247619,
+        "awarded_gbp_non_framework": 6352309.016666667,
+        "awarded_gbp_framework_share": 36721031.745809525,
+        "sole_source_pct": 0.46,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 14,
+        "top_buyer": {
+          "buyer": "The North Yorkshire Council",
+          "contracts": 1,
+          "value_gbp": 20000000.0
+        },
+        "procurement_method_counts": {
+          "open": 5,
+          "unspecified": 10,
+          "selective": 11,
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2018": {
+        "top_code": "31500000",
+        "top_label": "Lighting equipment and electric lamps",
+        "top_value_gbp": 37431046.2,
+        "n_distinct_codes": 2
+      },
+      "2019": {
+        "top_code": "45233000",
+        "top_label": "Construction, foundation and surface works for highways, roads",
+        "top_value_gbp": 35000000.0,
+        "n_distinct_codes": 4
+      },
+      "2020": {
+        "top_code": "45233000",
+        "top_label": "Construction, foundation and surface works for highways, roads",
+        "top_value_gbp": 39800000.0,
+        "n_distinct_codes": 10
+      },
+      "2021": {
+        "top_code": "34923000",
+        "top_label": "Road traffic-control equipment",
+        "top_value_gbp": 331216666.6666667,
+        "n_distinct_codes": 23
+      },
+      "2022": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 524957193.4633333,
+        "n_distinct_codes": 18
+      },
+      "2023": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 73804736.96111111,
+        "n_distinct_codes": 7
+      },
+      "2024": {
+        "top_code": "45233000",
+        "top_label": "Construction, foundation and surface works for highways, roads",
+        "top_value_gbp": 20325758.836666666,
+        "n_distinct_codes": 12
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": true,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 73,
+        "selective": 65,
+        "unspecified": 31,
+        "direct": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 1062588431.4856038,
+        "selective": 330435697.7584004,
+        "unspecified": 53478115.42666667,
+        "direct": 450000.0
+      },
+      "sole_source_pct_all_years": 0.03,
+      "competitive_pct_all_years": 96.27,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-46746",
+        "buyer_name": "Highways England",
+        "contracts": 3,
+        "value_gbp": 421264697
+      },
+      {
+        "buyer_id": "GB-CFS-208834",
+        "buyer_name": "Cheshire west and Chester Borough Council",
+        "contracts": 1,
+        "value_gbp": 400000000
+      },
+      {
+        "buyer_id": "GB-CFS-49643",
+        "buyer_name": "North Yorkshire County Council",
+        "contracts": 6,
+        "value_gbp": 53423631.68058824
+      },
+      {
+        "buyer_id": "GB-CFS-93485",
+        "buyer_name": "Highways England",
+        "contracts": 3,
+        "value_gbp": 50250000.0
+      },
+      {
+        "buyer_id": "GB-CFS-49324",
+        "buyer_name": "Liverpool City Council",
+        "contracts": 4,
+        "value_gbp": 48000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-50806",
+        "buyer_name": "Leeds City Council",
+        "contracts": 3,
+        "value_gbp": 46250000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/AB9Ap52c",
+        "buyer_name": ".East Riding Of Yorkshire Council",
+        "contracts": 1,
+        "value_gbp": 40000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-2397",
+        "buyer_name": "Supply Hertfordshire",
+        "contracts": 2,
+        "value_gbp": 38700000.0
+      },
+      {
+        "buyer_id": "GB-CFS-106171",
+        "buyer_name": "Liverpool City Council",
+        "contracts": 2,
+        "value_gbp": 38333333.333333336
+      },
+      {
+        "buyer_id": "GB-CFS-187169",
+        "buyer_name": "BHCC City Transport",
+        "contracts": 4,
+        "value_gbp": 37431046.2
+      },
+      {
+        "buyer_id": "GB-CFS-188336",
+        "buyer_name": "East Riding of Yorkshire Council",
+        "contracts": 2,
+        "value_gbp": 27509250.0
+      },
+      {
+        "buyer_id": "GB-CFS-186962",
+        "buyer_name": "Leeds City Council",
+        "contracts": 1,
+        "value_gbp": 22500000.0
+      },
+      {
+        "buyer_id": "GB-CFS-158282",
+        "buyer_name": "HIGHWAYS ENGLAND COMPANY LIMITED",
+        "contracts": 5,
+        "value_gbp": 22086034
+      },
+      {
+        "buyer_id": "GB-CFS-43412",
+        "buyer_name": "Worcestershire County Council",
+        "contracts": 1,
+        "value_gbp": 21992681.87
+      },
+      {
+        "buyer_id": "GB-CFS-245947",
+        "buyer_name": "The North Yorkshire Council",
+        "contracts": 1,
+        "value_gbp": 20000000.0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "45000000",
+        "label": "Construction work",
+        "contracts": 43,
+        "value_gbp": 624212838.5569721
+      },
+      {
+        "code": "34923000",
+        "label": "Road traffic-control equipment",
+        "contracts": 4,
+        "value_gbp": 332800859.0466667
+      },
+      {
+        "code": "45233000",
+        "label": "Construction, foundation and surface works for highways, roads",
+        "contracts": 29,
+        "value_gbp": 115145898.71121208
+      },
+      {
+        "code": "45233210",
+        "label": "Surface work for highways",
+        "contracts": 6,
+        "value_gbp": 62875000.0
+      },
+      {
+        "code": "71311220",
+        "label": "Highways engineering services",
+        "contracts": 4,
+        "value_gbp": 48000000.0
+      },
+      {
+        "code": "45233220",
+        "label": "Surface work for roads",
+        "contracts": 3,
+        "value_gbp": 39300000.0
+      },
+      {
+        "code": "31500000",
+        "label": "Lighting equipment and electric lamps",
+        "contracts": 4,
+        "value_gbp": 37431046.2
+      },
+      {
+        "code": "71000000",
+        "label": "Architectural, construction, engineering and inspection services",
+        "contracts": 1,
+        "value_gbp": 30000000.0
+      },
+      {
+        "code": "44113000",
+        "label": "Road-construction materials",
+        "contracts": 7,
+        "value_gbp": 29029192.85714286
+      },
+      {
+        "code": "45200000",
+        "label": "Works for complete or part construction and civil engineering work",
+        "contracts": 5,
+        "value_gbp": 26021107.420588233
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-f8e94851-81b9-4d19-96aa-d38b4f68aec7",
+        "date": "2024-07-31T00:00:00+01:00",
+        "buyer": "Barnsley Metropolitan Borough Council",
+        "title": "Specialist Surface Treatment Works",
+        "value_gbp": 600000,
+        "procurement_method": null,
+        "cpv_code": "45233220",
+        "cpv_label": "Surface work for roads",
+        "contract_start": "2024-07-31T00:00:00+01:00",
+        "contract_end": "2025-07-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/842e4b86-6b4a-41c3-8f6c-7ccc39531faa",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d73eea68-e84f-4cfa-a244-194082cf3b9c",
+        "date": "2024-06-12T00:00:00+01:00",
+        "buyer": "Salford City Council",
+        "title": "The Provision of Surface Treatment Works",
+        "value_gbp": 350000,
+        "procurement_method": "selective",
+        "cpv_code": "44113810",
+        "cpv_label": "Surface dressing",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2025-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/73361f30-b968-408a-a279-ad047bfb83d3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-cd2dc692-fa4e-497b-9d7c-ae0f7d4d5d7b",
+        "date": "2024-05-24T00:00:00+01:00",
+        "buyer": "Wolverhampton City Council",
+        "title": "CWC23040 - Carriageway Surface Treatments 2024/2025",
+        "value_gbp": 325758.83666666667,
+        "procurement_method": null,
+        "cpv_code": "45233000",
+        "cpv_label": "Construction, foundation and surface works for highways, roads",
+        "contract_start": "2024-05-28T00:00:00+01:00",
+        "contract_end": "2024-11-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1ce6fce1-a9e3-4c1a-ae7c-502b265e5f80",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-275aff9c-efb6-4d49-84fb-2cb4e9435442",
+        "date": "2024-05-08T00:00:00+01:00",
+        "buyer": "Wigan Council",
+        "title": "Footway Slurry Seal Programme 2024/25 (Including Pre-Patching)",
+        "value_gbp": 482943,
+        "procurement_method": "open",
+        "cpv_code": "45233253",
+        "cpv_label": "Surface work for footpaths",
+        "contract_start": "2024-05-22T00:00:00+01:00",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/52749047-d054-4053-915c-61a5a386f4df",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-275aff9c-efb6-4d49-84fb-2cb4e9435442",
+        "date": "2024-05-08T00:00:00+01:00",
+        "buyer": "Wigan Council",
+        "title": "Footway Slurry Seal Programme 2024/25 (Including Pre-Patching)",
+        "value_gbp": 495000,
+        "procurement_method": "open",
+        "cpv_code": "45233253",
+        "cpv_label": "Surface work for footpaths",
+        "contract_start": "2024-05-22T00:00:00+01:00",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6dbacb52-4003-4dac-b3ce-ef93885ff763",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b87effc8-4242-4df8-9354-24de36a46c23",
+        "date": "2024-05-07T00:00:00+01:00",
+        "buyer": "North Lincolnshire Council",
+        "title": "Lot 10 - 017  Carriageway Recycling 2024-2025",
+        "value_gbp": 298677.92,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-05-07T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6cb298b2-32d9-4c15-ac77-c51822199cdc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2e4d8997-ca08-4f40-9136-02cb57919a85",
+        "date": "2024-05-01T00:00:00+01:00",
+        "buyer": "Rochdale Metropolitan Borough Council",
+        "title": "Rochdale Council - Framework Agreement for Highway Works",
+        "value_gbp": 971428.5714285715,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-05-13T00:00:00+01:00",
+        "contract_end": "2028-05-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fdc8f11d-1abd-4ba8-9d22-773aeaee646c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2e4d8997-ca08-4f40-9136-02cb57919a85",
+        "date": "2024-05-01T00:00:00+01:00",
+        "buyer": "Rochdale Metropolitan Borough Council",
+        "title": "Rochdale Council - Framework Agreement for Highway Works",
+        "value_gbp": 952380.9523809524,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-05-13T00:00:00+01:00",
+        "contract_end": "2028-05-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5c61bdc7-bc7f-4b8d-af52-6944ac028df4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8b414496-d1df-430d-bc2a-44a0a7408d3b",
+        "date": "2024-04-15T00:00:00+01:00",
+        "buyer": "National Highways",
+        "title": "ORT0120 - Provision of Miscellaneous OT Parts and Goods LOT 3",
+        "value_gbp": 353114,
+        "procurement_method": "selective",
+        "cpv_code": "34996000",
+        "cpv_label": "Control, safety or signalling equipment for roads",
+        "contract_start": "2024-04-15T00:00:00+01:00",
+        "contract_end": "2025-04-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1818f7f2-2a90-43b4-96aa-7b30e6e48fce",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f65f1915-b584-423a-8af1-5999b48fb335",
+        "date": "2024-04-15T00:00:00+01:00",
+        "buyer": "National Highways",
+        "title": "ORT0120 Provision of Miscellaneous OT Parts and Goods LOT 2",
+        "value_gbp": 745016,
+        "procurement_method": "selective",
+        "cpv_code": "34996000",
+        "cpv_label": "Control, safety or signalling equipment for roads",
+        "contract_start": "2024-04-15T00:00:00+01:00",
+        "contract_end": "2025-04-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/11b3d6cf-40c3-40e5-8824-0cc4d780a663",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9d0af057-abde-4a05-b713-4f7c388615bb",
+        "date": "2024-04-15T00:00:00+01:00",
+        "buyer": "National Highways",
+        "title": "ORT0120 - Provision of Miscellaneous OT Parts and Goods LOT 1",
+        "value_gbp": 1269,
+        "procurement_method": "selective",
+        "cpv_code": "34996000",
+        "cpv_label": "Control, safety or signalling equipment for roads",
+        "contract_start": "2024-04-15T00:00:00+01:00",
+        "contract_end": "2025-04-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3337e677-bad4-46d5-b4e8-68cf6d9a64c2",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-86a2bcab-fa8b-4e42-9195-d9e2754394ad",
+        "date": "2024-04-10T00:00:00+01:00",
+        "buyer": "National Highways",
+        "title": "ORT0132 - A38 Saltash Tunnel Renewal - Signs and Signals",
+        "value_gbp": 529871.27,
+        "procurement_method": "selective",
+        "cpv_code": "45233294",
+        "cpv_label": "Installation of road signals",
+        "contract_start": "2024-04-22T00:00:00+01:00",
+        "contract_end": "2025-11-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/27d3b780-19e7-41da-a66d-3f3a2c8ff230",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-52b58103-7a17-42af-bdbf-35479747dfe4",
+        "date": "2024-03-31T00:00:00Z",
+        "buyer": "The North Yorkshire Council",
+        "title": "Carriageway Planing & Surfacing Contractor Framework 2024",
+        "value_gbp": 20000000.0,
+        "procurement_method": "open",
+        "cpv_code": "45233000",
+        "cpv_label": "Construction, foundation and surface works for highways, roads",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2c98ed39-7a48-4f80-82ea-a3461816fdc7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-80655e88-7619-4924-b787-01cdbe25bf43",
+        "date": "2024-03-13T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Faraday Road",
+        "value_gbp": 44100,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/de989d41-de4c-4a65-8d84-1e5aba9c0237",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-143cc818-b036-47ff-98fe-9989dcf9c3de",
+        "date": "2024-03-12T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Percy Street",
+        "value_gbp": 26825,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-23T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3a9645e1-202c-4a80-86de-00f1435a6bbe",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b04da7c5-c94d-411c-9bcd-cb7fdbce19e9",
+        "date": "2024-03-11T00:00:00Z",
+        "buyer": "Redcar & Cleveland Borough Council",
+        "title": "Surface Dressing Programme",
+        "value_gbp": 500000,
+        "procurement_method": "selective",
+        "cpv_code": "45230000",
+        "cpv_label": "Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f5f4b615-66bc-44ac-ad80-40842ac85fbc",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-549a259b-415e-4821-8910-29be3ec85db0",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing at Aspley Lane",
+        "value_gbp": 46096.71,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-11-08T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/144db4e1-aad7-4ec8-84a9-d8b716542247",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e4434607-5fef-4fef-a988-3841bfdd28ba",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Aspley Lane",
+        "value_gbp": 49375,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e6362408-9827-437e-bf7e-5997f1a8e03e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7bc8ce2b-2671-4320-9366-8800bf751cb2",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Mapperley Road",
+        "value_gbp": 33950,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/eea53563-a80c-4866-8c94-37cb14ac2de4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9ca1e8cd-d09d-4295-ad28-ef8e79c1e34c",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Stockhill Lane",
+        "value_gbp": 59800,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9982d672-1821-495d-b4b6-de0c51dc210c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-66a2d232-f9e9-4d25-93a7-2ad72558c433",
+        "date": "2024-02-23T00:00:00Z",
+        "buyer": "West Sussex County Council",
+        "title": "Framework for the Provision of Highways Capital Delivery Services",
+        "value_gbp": 12375000.0,
+        "procurement_method": "open",
+        "cpv_code": "45233210",
+        "cpv_label": "Surface work for highways",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8a5c2538-5ce3-4362-878d-0bae23038fcf",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-29a89b38-d64a-49c2-bb28-04aa1210482e",
+        "date": "2024-02-22T00:00:00Z",
+        "buyer": "City of Doncaster Council",
+        "title": "Carriageway Retread 2024/25",
+        "value_gbp": 200000,
+        "procurement_method": "direct",
+        "cpv_code": "45233223",
+        "cpv_label": "Carriageway resurfacing works",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2026-04-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/944723e9-1cfe-4136-8c74-e32ea65c1a98",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-00d881bf-a651-4711-aa1d-3950065ec9d9",
+        "date": "2024-02-12T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Gregory Street",
+        "value_gbp": 25250,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d82988ed-48be-4ff0-bc2f-c56e3b3c42ad",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3e0e4629-3221-4fe1-b8ea-40629d9e4dbd",
+        "date": "2024-02-05T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Microsurfacing - Wollaton Road",
+        "value_gbp": 30627,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-10-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/790c3e55-6295-4f9e-8b3e-1d1ecc8130c1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c31bf1dc-8381-4792-811a-ec8b664c126d",
+        "date": "2024-02-01T00:00:00Z",
+        "buyer": "Hampshire County Council",
+        "title": "Generation 5  2024 - 2028 Civil Engineering, Highways and Transportation Collaborative Framework - AWARD",
+        "value_gbp": 2222222.222,
+        "procurement_method": "open",
+        "cpv_code": "34922000",
+        "cpv_label": "Road-marking equipment",
+        "contract_start": "2024-01-22T00:00:00Z",
+        "contract_end": "2028-01-21T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/043e98bf-5913-4d4c-af89-1d2690bb3079",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-67023d04-6e4c-4c59-8fb2-e3e146d53f50",
+        "date": "2024-01-25T00:00:00Z",
+        "buyer": "North Lincolnshire Council",
+        "title": "Lot 10-016 Footway Slurry Seal 2024-2025",
+        "value_gbp": 125385.28,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3f85d2af-183e-4037-bd2e-37d94da0f4a4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-13e579de-a931-4eef-830e-aec88760f36a",
+        "date": "2024-01-22T00:00:00Z",
+        "buyer": "East Riding of Yorkshire Council",
+        "title": "Feb 2024 Call Off Supply and Apply of Binder",
+        "value_gbp": 1229250.0,
+        "procurement_method": "selective",
+        "cpv_code": "44113000",
+        "cpv_label": "Road-construction materials",
+        "contract_start": "2024-02-01T00:00:00Z",
+        "contract_end": "2026-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9a662fe3-7db8-4e5f-a46b-39babc14091a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7e67b383-bcca-4a25-a0e5-fdee15d09966",
+        "date": "2023-12-01T00:00:00Z",
+        "buyer": "Worcestershire County Council",
+        "title": "A38 Bromsgrove Road Enhancement Scheme - AWARD",
+        "value_gbp": 21992681.87,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2022-12-01T00:00:00Z",
+        "contract_end": "2026-12-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/08e90e12-6c9c-4f08-8ff7-d4bfa84682e9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-dd5e74fc-97e9-4ee1-b841-cb0072dfb078",
+        "date": "2023-10-25T00:00:00+01:00",
+        "buyer": "North Lincolnshire Council",
+        "title": "L10-015 Footway Slurry Seal 2023-2024",
+        "value_gbp": 123302.21,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2023-10-02T00:00:00+01:00",
+        "contract_end": "2023-12-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7ec405c3-da3e-4f48-9459-b9857474362b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7d5c86d4-3a64-4ca3-a3a1-bcbfd07df300",
+        "date": "2023-10-04T00:00:00+01:00",
+        "buyer": "Manchester City Council",
+        "title": "TC886 Highways Construction Works Framework",
+        "value_gbp": 11111111.111111112,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2023-11-01T00:00:00Z",
+        "contract_end": "2025-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f91ba534-c43d-4bad-9fa6-b6d24b59b850",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 62652955,
+      "awarded_2024_gbp_from_cf": 43073340.76247619,
+      "signal": "balanced",
+      "note": "Awarded and paid roughly aligned.",
+      "ratio": 0.69
+    }
+  }
+}

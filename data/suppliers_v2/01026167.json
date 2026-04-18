@@ -1,0 +1,1516 @@
+{
+  "company_number": "01026167",
+  "display_name": "Barclays Bank PLC",
+  "identity": {
+    "ch_number": "01026167",
+    "official_name": "BARCLAYS BANK PLC",
+    "display_name": "Barclays Bank PLC",
+    "status": "active",
+    "type": "plc",
+    "jurisdiction": "england-wales",
+    "incorporated": "1971-10-04",
+    "age_years": 54,
+    "registered_office": {
+      "address_line_1": "1 Churchill Place",
+      "address_line_2": "London",
+      "postal_code": "E14 5HP"
+    },
+    "sic_codes": [
+      "64191"
+    ],
+    "sic_labels": [
+      "Banks"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01026167"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 459453760,
+    "rank": 96,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 441844202,
+        "segments": [
+          {
+            "segment": "Ministry of Defence",
+            "amount_gbp": 441844202,
+            "pct_of_segment": 100,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 17609558,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 17609558,
+            "pct_of_segment": 6.41,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-10",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ2OTM2NDcwM2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01026167_2025-06-10.pdf",
+      "size_mb": 25.6,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 11,
+    "officers_resigned_count": 109,
+    "board_turnover_ratio": 9.91,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BERRY, Robert",
+        "role": "director",
+        "appointed_on": "2022-02-08",
+        "resigned_on": null,
+        "nationality": "British,American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "CROSS, Angela Anna",
+        "role": "director",
+        "appointed_on": "2022-04-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FITZPATRICK, Dawn",
+        "role": "director",
+        "appointed_on": "2019-09-25",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FRANCIS, Mary Elizabeth",
+        "role": "director",
+        "appointed_on": "2019-09-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1948
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HIGGINS, Nigel Paul",
+        "role": "director",
+        "appointed_on": "2019-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MACK, Mary Tabb",
+        "role": "director",
+        "appointed_on": "2025-06-01",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1962
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "MOSES, Menasey Marc",
+        "role": "director",
+        "appointed_on": "2023-01-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1957
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "SHEA, Brian Thomas",
+        "role": "director",
+        "appointed_on": "2024-07-19",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1960
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "VENKATAKRISHNAN, Coimbatore Sundararajan",
+        "role": "director",
+        "appointed_on": "2021-11-01",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WILSON, Julia Susan",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "ELLWOOD, Hannah Elisabeth, Ms.",
+        "role": "secretary",
+        "appointed_on": "2023-02-15",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "ELLWOOD, Hannah Elisabeth, Ms.",
+        "role": "secretary",
+        "appointed_on": "2023-02-15",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "BERRY, Robert",
+        "role": "director",
+        "appointed_on": "2022-02-08",
+        "resigned_on": null,
+        "nationality": "British,American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1964
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "CROSS, Angela Anna",
+        "role": "director",
+        "appointed_on": "2022-04-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FITZPATRICK, Dawn",
+        "role": "director",
+        "appointed_on": "2019-09-25",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FRANCIS, Mary Elizabeth",
+        "role": "director",
+        "appointed_on": "2019-09-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1948
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HIGGINS, Nigel Paul",
+        "role": "director",
+        "appointed_on": "2019-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MACK, Mary Tabb",
+        "role": "director",
+        "appointed_on": "2025-06-01",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1962
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "MOSES, Menasey Marc",
+        "role": "director",
+        "appointed_on": "2023-01-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1957
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "SHEA, Brian Thomas",
+        "role": "director",
+        "appointed_on": "2024-07-19",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1960
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "E14 5HP",
+          "country": null
+        }
+      },
+      {
+        "name": "VENKATAKRISHNAN, Coimbatore Sundararajan",
+        "role": "director",
+        "appointed_on": "2021-11-01",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WILSON, Julia Susan",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "E14 5HP",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 109,
+      "recent": [
+        {
+          "name": "SCHUENEMAN, Diane Lynn",
+          "role": "director",
+          "appointed_on": "2019-09-25",
+          "resigned_on": "2025-01-31",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1952
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5HP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "EL-ERIAN, Mohamed A, Dr",
+          "role": "director",
+          "appointed_on": "2020-01-01",
+          "resigned_on": "2024-08-31",
+          "nationality": "American,Egyptian,French",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1958
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5HP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ASHLEY, Michael St John",
+          "role": "director",
+          "appointed_on": "2019-09-25",
+          "resigned_on": "2023-05-03",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1954
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5HP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "SHAPIRO, Stephen Victor",
+          "role": "secretary",
+          "appointed_on": "2019-09-25",
+          "resigned_on": "2023-02-15",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5HP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MORZARIA, Tushar",
+          "role": "director",
+          "appointed_on": "2020-02-07",
+          "resigned_on": "2022-04-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1969
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5HP",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01026167",
+          "name": "Barclays Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01026167",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01026167/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "no_registration_number",
+          "parent_registration_number_raw": "48839"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01026167"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2OTM2NDcwM2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01026167_2025-06-10.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01026167/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01026167/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 96,
+    "enriched_at": "2026-04-16T19:20:27Z",
+    "governance_enriched_at": "2026-04-16T22:10:48Z",
+    "ubo_enriched_at": "2026-04-16T22:49:09Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 51,
+      "total_contracts_non_framework": 42,
+      "total_awarded_gbp": 431508080.18,
+      "total_awarded_non_framework_gbp": 196667476.18,
+      "years_active": 6,
+      "first_year": 2019,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +66.7% between 2020 (£1M) and 2024 (£9M)",
+      "longest_buyer_relationship": {
+        "buyer": "Post Office Limited",
+        "years_count": 2,
+        "years_list": [
+          2023,
+          2024
+        ],
+        "total_value_gbp": 1935000,
+        "n_contracts": 3
+      },
+      "n_unique_buyers_all_years": 37,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 364000,
+        "awarded_gbp_non_framework": 364000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "North East Lincolnshire Council",
+          "contracts": 1,
+          "value_gbp": 364000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 30491388.0,
+        "awarded_gbp_non_framework": 1226388,
+        "awarded_gbp_framework_share": 29265000.0,
+        "sole_source_pct": 0.59,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 7,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 1,
+          "value_gbp": 28125000.0
+        },
+        "procurement_method_counts": {
+          "selective": 4,
+          "open": 3,
+          "direct": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 6835002.0,
+        "awarded_gbp_non_framework": 1605002,
+        "awarded_gbp_framework_share": 5230000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 7,
+        "top_buyer": {
+          "buyer": "Bury Council",
+          "contracts": 1,
+          "value_gbp": 5000000
+        },
+        "procurement_method_counts": {
+          "open": 4,
+          "selective": 4
+        }
+      },
+      "2022": {
+        "n_contracts": 13,
+        "n_contracts_non_framework": 12,
+        "awarded_gbp_total": 176169000.0,
+        "awarded_gbp_non_framework": 175559000.0,
+        "awarded_gbp_framework_share": 610000,
+        "sole_source_pct": 0.01,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 8,
+        "top_buyer": {
+          "buyer": "H M Revenue & Customs",
+          "contracts": 2,
+          "value_gbp": 90000000
+        },
+        "procurement_method_counts": {
+          "open": 6,
+          "unspecified": 2,
+          "selective": 4,
+          "direct": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 6,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 16170604,
+        "awarded_gbp_non_framework": 8435000,
+        "awarded_gbp_framework_share": 7735604,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 5,
+        "top_buyer": {
+          "buyer": "University of Central Lancashire",
+          "contracts": 1,
+          "value_gbp": 8000000
+        },
+        "procurement_method_counts": {
+          "selective": 3,
+          "open": 1,
+          "unspecified": 2
+        }
+      },
+      "2024": {
+        "n_contracts": 15,
+        "n_contracts_non_framework": 13,
+        "awarded_gbp_total": 201478086.18,
+        "awarded_gbp_non_framework": 9478086.18,
+        "awarded_gbp_framework_share": 192000000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 12,
+        "top_buyer": {
+          "buyer": "THE ASSOCIATION OF NORTH EAST COUNCILS LIMITED",
+          "contracts": 2,
+          "value_gbp": 192000000.0
+        },
+        "procurement_method_counts": {
+          "direct": 1,
+          "selective": 8,
+          "open": 1,
+          "unspecified": 5
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "66000000",
+        "top_label": "Financial and insurance services",
+        "top_value_gbp": 364000.0,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "66110000",
+        "top_label": "Banking services",
+        "top_value_gbp": 28769388.0,
+        "n_distinct_codes": 5
+      },
+      "2021": {
+        "top_code": "66100000",
+        "top_label": "Banking and investment services",
+        "top_value_gbp": 5230000.0,
+        "n_distinct_codes": 4
+      },
+      "2022": {
+        "top_code": "66000000",
+        "top_label": "Financial and insurance services",
+        "top_value_gbp": 174315000.0,
+        "n_distinct_codes": 4
+      },
+      "2023": {
+        "top_code": "66000000",
+        "top_label": "Financial and insurance services",
+        "top_value_gbp": 15735604.0,
+        "n_distinct_codes": 4
+      },
+      "2024": {
+        "top_code": "66000000",
+        "top_label": "Financial and insurance services",
+        "top_value_gbp": 192800000.0,
+        "n_distinct_codes": 6
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 16,
+        "selective": 23,
+        "unspecified": 9,
+        "direct": 3
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 123094069.3,
+        "selective": 302271881.0,
+        "unspecified": 5937741.88,
+        "direct": 204388.0
+      },
+      "sole_source_pct_all_years": 0.05,
+      "competitive_pct_all_years": 98.58,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/NGYE67fS",
+        "buyer_name": "THE ASSOCIATION OF NORTH EAST COUNCILS LIMITED",
+        "contracts": 2,
+        "value_gbp": 192000000.0
+      },
+      {
+        "buyer_id": "GB-GOR-D25",
+        "buyer_name": "H M Revenue & Customs",
+        "contracts": 2,
+        "value_gbp": 90000000
+      },
+      {
+        "buyer_id": "GB-CFS-179733",
+        "buyer_name": "DVLA - Driver & Vehicle Licensing Agency",
+        "contracts": 4,
+        "value_gbp": 84315000.0
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 1,
+        "value_gbp": 28125000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/AAFX3ct4",
+        "buyer_name": "University of Central Lancashire",
+        "contracts": 1,
+        "value_gbp": 8000000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/NAcU5PfK",
+        "buyer_name": "UNIVERSITY OF YORK",
+        "contracts": 1,
+        "value_gbp": 7735604
+      },
+      {
+        "buyer_id": "GB-CFS-50498",
+        "buyer_name": "Bury Council",
+        "contracts": 1,
+        "value_gbp": 5000000
+      },
+      {
+        "buyer_id": "GB-CFS-161309",
+        "buyer_name": "DVSA - Driver and Vehicle Standards Agency",
+        "contracts": 2,
+        "value_gbp": 4447741.88
+      },
+      {
+        "buyer_id": "GB-CFS-40984",
+        "buyer_name": "Norfolk County Council",
+        "contracts": 1,
+        "value_gbp": 1818069.3
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/t9Gu6N7M",
+        "buyer_name": "Post Office Limited",
+        "contracts": 1,
+        "value_gbp": 1800000
+      },
+      {
+        "buyer_id": "GB-CFS-123464",
+        "buyer_name": "Bournemouth Christchurch and Poole Council",
+        "contracts": 1,
+        "value_gbp": 1500000
+      },
+      {
+        "buyer_id": "GB-CFS-112633",
+        "buyer_name": "UK Government Investments : HM Treasury",
+        "contracts": 2,
+        "value_gbp": 1140000.0
+      },
+      {
+        "buyer_id": "GB-LAE-FEN",
+        "buyer_name": "Fenland District Council",
+        "contracts": 2,
+        "value_gbp": 800000
+      },
+      {
+        "buyer_id": "GB-LAE-KIR",
+        "buyer_name": "Kirklees Council",
+        "contracts": 1,
+        "value_gbp": 610000
+      },
+      {
+        "buyer_id": "GB-CFS-187357",
+        "buyer_name": "Sheffield City Council",
+        "contracts": 1,
+        "value_gbp": 490000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "66000000",
+        "label": "Financial and insurance services",
+        "contracts": 14,
+        "value_gbp": 383216604.0
+      },
+      {
+        "code": "66110000",
+        "label": "Banking services",
+        "contracts": 18,
+        "value_gbp": 36747201.18
+      },
+      {
+        "code": "66100000",
+        "label": "Banking and investment services",
+        "contracts": 3,
+        "value_gbp": 5720000.0
+      },
+      {
+        "code": "66113000",
+        "label": "Credit granting services",
+        "contracts": 1,
+        "value_gbp": 1800000
+      },
+      {
+        "code": "22000000",
+        "label": "Printed matter and related products",
+        "contracts": 1,
+        "value_gbp": 1500000
+      },
+      {
+        "code": "66151000",
+        "label": "Financial market operational services",
+        "contracts": 2,
+        "value_gbp": 1140000.0
+      },
+      {
+        "code": "30161000",
+        "label": "Credit cards",
+        "contracts": 8,
+        "value_gbp": 526275
+      },
+      {
+        "code": "30163000",
+        "label": "Charge cards",
+        "contracts": 2,
+        "value_gbp": 470000
+      },
+      {
+        "code": "66111000",
+        "label": "Central bank services",
+        "contracts": 1,
+        "value_gbp": 300000
+      },
+      {
+        "code": "66172000",
+        "label": "Financial transaction processing and clearing-house services",
+        "contracts": 1,
+        "value_gbp": 88000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-60c3a40d-3d5f-4363-ac5f-8ea339af6eb4",
+        "date": "2024-12-01T00:00:00Z",
+        "buyer": "Sheffield Hallam University",
+        "title": "2425-06-FIN-LJ Provision of purchase cards",
+        "value_gbp": 0,
+        "procurement_method": "selective",
+        "cpv_code": "30161000",
+        "cpv_label": "Credit cards",
+        "contract_start": "2024-12-01T00:00:00Z",
+        "contract_end": "2027-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b0b47302-9273-40a1-98b5-f45aa4c04ce5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6dbe0db6-af9a-445b-bbc9-fbd54418d9bc",
+        "date": "2024-11-30T00:00:00Z",
+        "buyer": "Nottinghamshire County Council",
+        "title": "DN734398-Payment Cards - via RM6248-Lot 1-RBC",
+        "value_gbp": 0,
+        "procurement_method": "direct",
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2024-12-01T00:00:00Z",
+        "contract_end": "2028-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5d6499ff-81c9-41f8-9e30-e033d77195bb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0455e72b-b5ed-4ef8-a449-ec9376f5f79a",
+        "date": "2024-11-12T00:00:00Z",
+        "buyer": "Norfolk County Council",
+        "title": "Banking Services - AWARD",
+        "value_gbp": 1818069.3,
+        "procurement_method": "open",
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2025-11-11T00:00:00Z",
+        "contract_end": "2030-11-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/59e12020-2f80-4a9a-980c-e952f9bceb76",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e2003737-2628-4a7c-bbc1-897aaf99196c",
+        "date": "2024-11-04T00:00:00Z",
+        "buyer": "DVSA - Driver and Vehicle Standards Agency",
+        "title": "Contract Award Notice Merchant Acquiring 2023",
+        "value_gbp": 2223870.94,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2025-01-01T00:00:00Z",
+        "contract_end": "2026-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/68ed864e-1fd3-480f-8dff-9b641a721e3c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-241e616d-0ef2-424b-a2f8-fe7254f3126c",
+        "date": "2024-11-04T00:00:00Z",
+        "buyer": "DVSA - Driver and Vehicle Standards Agency",
+        "title": "Contract Award Notice Merchant Acquiring 2023",
+        "value_gbp": 2223870.94,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2025-01-01T00:00:00Z",
+        "contract_end": "2026-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ca18f759-22f4-4440-9d91-52fa59c3e8c2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58a09d03-e2ba-46d1-8412-3decd5901980",
+        "date": "2024-09-30T00:00:00+01:00",
+        "buyer": "Fenland District Council",
+        "title": "Credit Card Provision",
+        "value_gbp": 400000,
+        "procurement_method": null,
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2028-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/79ba5f28-77e7-40f7-936d-8ebc911d2326",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58a09d03-e2ba-46d1-8412-3decd5901980",
+        "date": "2024-09-30T00:00:00+01:00",
+        "buyer": "Fenland District Council",
+        "title": "Credit Card Provision",
+        "value_gbp": 400000,
+        "procurement_method": null,
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2028-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/79ba5f28-77e7-40f7-936d-8ebc911d2326",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-869c9734-f7c0-4b48-8af0-90ccf1a4306a",
+        "date": "2024-07-31T00:00:00+01:00",
+        "buyer": "DEPARTMENT FOR ENVIRONMENT FOOD & RURAL AFFAIRS",
+        "title": "Payment Solutions 2",
+        "value_gbp": 0,
+        "procurement_method": "selective",
+        "cpv_code": "30161000",
+        "cpv_label": "Credit cards",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2028-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4a207799-441c-45b8-93bf-5ea93f69103c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fce6739d-2810-465c-a0e4-05c11218cd7d",
+        "date": "2024-06-26T00:00:00+01:00",
+        "buyer": "LONDON & QUADRANT HOUSING TRUST",
+        "title": "P-Card Contract With Barclays Bank plc T/A Barclaycard Payments",
+        "value_gbp": 31275,
+        "procurement_method": "selective",
+        "cpv_code": "30161000",
+        "cpv_label": "Credit cards",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2025-08-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3e6f4cfe-6427-463e-a492-e3d22e247cc5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8b2fd9a1-a60b-4870-abbc-4227015f9fa3",
+        "date": "2024-04-29T00:00:00+01:00",
+        "buyer": "Breckland District Council",
+        "title": "Credit Card Charges",
+        "value_gbp": 88000,
+        "procurement_method": "selective",
+        "cpv_code": "66172000",
+        "cpv_label": "Financial transaction processing and clearing-house services",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2026-05-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/08ae2d09-2990-4ad5-898f-c3854d1731dd",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4b9184be-446e-4330-9779-9b8bdcfdd94c",
+        "date": "2024-04-01T00:00:00+01:00",
+        "buyer": "Post Office Limited",
+        "title": "Procurement Card",
+        "value_gbp": 1800000,
+        "procurement_method": "selective",
+        "cpv_code": "66113000",
+        "cpv_label": "Credit granting services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cbeaec3e-2249-494a-9cce-3b826372f69c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-df2f7d34-c001-4cb2-98ac-998a16e8e7a8",
+        "date": "2024-03-05T00:00:00Z",
+        "buyer": "THE ASSOCIATION OF NORTH EAST COUNCILS LIMITED",
+        "title": "General Banking Services",
+        "value_gbp": 96000000.0,
+        "procurement_method": "selective",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2024-03-14T00:00:00Z",
+        "contract_end": "2032-03-13T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/54d6547a-a989-43ec-87bc-7fe7b6062611",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-df2f7d34-c001-4cb2-98ac-998a16e8e7a8",
+        "date": "2024-03-05T00:00:00Z",
+        "buyer": "THE ASSOCIATION OF NORTH EAST COUNCILS LIMITED",
+        "title": "General Banking Services",
+        "value_gbp": 96000000.0,
+        "procurement_method": "selective",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2024-03-14T00:00:00Z",
+        "contract_end": "2032-03-13T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/54d6547a-a989-43ec-87bc-7fe7b6062611",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d06f1d8d-896b-488c-9dfe-ba949fa4cbdb",
+        "date": "2024-02-01T00:00:00Z",
+        "buyer": "Nursing And Midwifery Council",
+        "title": "For the Provision of Payment Acceptance Card Call-Off Deliverables",
+        "value_gbp": 370000,
+        "procurement_method": "selective",
+        "cpv_code": "30163000",
+        "cpv_label": "Charge cards",
+        "contract_start": "2024-02-01T00:00:00Z",
+        "contract_end": "2025-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d7452bb8-8f7c-452a-8945-6296f1a05c1d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b72e5ad3-32e2-4cf9-bc16-72486d157931",
+        "date": "2024-01-18T00:00:00Z",
+        "buyer": "Livv Housing Group",
+        "title": "Banking Services",
+        "value_gbp": 123000,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2029-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/db35fb5c-470e-468f-85c9-e3cdd153392e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-72d7d075-0d2b-472e-b754-d9059f0f9fd2",
+        "date": "2023-10-01T00:00:00+01:00",
+        "buyer": "UK INFRASTRUCTURE BANK LIMITED",
+        "title": "C0295 Government Procurement and Corporate Cards",
+        "value_gbp": 200000,
+        "procurement_method": "selective",
+        "cpv_code": "30161000",
+        "cpv_label": "Credit cards",
+        "contract_start": "2023-10-02T00:00:00+01:00",
+        "contract_end": "2025-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cedf77ea-1646-42f7-bcd9-372930122b69",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fda937f5-20d8-44fe-84cf-766838aad87f",
+        "date": "2023-09-28T00:00:00+01:00",
+        "buyer": "University of Central Lancashire",
+        "title": "Procurement Cards",
+        "value_gbp": 8000000,
+        "procurement_method": "selective",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2023-11-01T00:00:00Z",
+        "contract_end": "2027-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3c25cab7-4c41-4efc-9771-e62e665256c6",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ecfb96c0-bb30-42c1-959a-be7b08ea950e",
+        "date": "2023-09-07T00:00:00+01:00",
+        "buyer": "Office of Qualifications and Examinations Regulation (Ofqual)",
+        "title": "EProcurement card services",
+        "value_gbp": 100000,
+        "procurement_method": "open",
+        "cpv_code": "30163000",
+        "cpv_label": "Charge cards",
+        "contract_start": "2023-09-08T00:00:00+01:00",
+        "contract_end": "2025-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/43343704-8e0a-40f5-9bc5-6f2ec9729bca",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f63aa52b-3e34-4435-8fc6-c9202c05cb6f",
+        "date": "2023-07-31T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF YORK",
+        "title": "Public Sector Procurement Cards",
+        "value_gbp": 7735604,
+        "procurement_method": "selective",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2023-08-01T00:00:00+01:00",
+        "contract_end": "2025-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c9c7716d-0766-47d4-b843-43ff9c6515d1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b586d9bc-9c35-419f-b5ab-93a793408de5",
+        "date": "2023-03-16T00:00:00Z",
+        "buyer": "Post Office Limited",
+        "title": "Award notice for Corporate Banking Services",
+        "value_gbp": 75000,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2023-03-15T00:00:00Z",
+        "contract_end": "2025-03-15T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e92072ad-d6f2-4849-b482-af0811a8a9fd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ba29779b-6323-4ab6-a54c-146a8b9aff54",
+        "date": "2023-03-16T00:00:00Z",
+        "buyer": "Post Office Limited",
+        "title": "Award of Corporate Banking Contract",
+        "value_gbp": 60000,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2023-03-16T00:00:00Z",
+        "contract_end": "2025-03-15T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a17cf473-88b5-4688-9be7-d5d98c82bbcd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5fb921b5-47a1-49a7-acf6-354b69b1005d",
+        "date": "2022-12-01T00:00:00Z",
+        "buyer": "UNIVERSITY OF PLYMOUTH",
+        "title": "CCZX22A02",
+        "value_gbp": 0,
+        "procurement_method": "selective",
+        "cpv_code": "30161000",
+        "cpv_label": "Credit cards",
+        "contract_start": "2022-12-02T00:00:00Z",
+        "contract_end": "2024-12-02T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cc41dc76-a2e5-4ac6-97e9-c39d09a3126d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4017122a-7c4e-4e01-9186-825f74e1e439",
+        "date": "2022-11-16T00:00:00Z",
+        "buyer": "Walsall Council e-Tendering",
+        "title": "WP3835 - Banking Services  - AWARD",
+        "value_gbp": 298000,
+        "procurement_method": "open",
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b58a2343-b7a1-4aef-ac7e-a11d7abca629",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a76c5c37-c8ee-4447-9dce-9cfdc582c1ed",
+        "date": "2022-11-08T00:00:00Z",
+        "buyer": "Staffordshire County Council",
+        "title": "IA2848 Banking Services",
+        "value_gbp": 432000,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2038-03-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/57e27bf5-e88b-4c64-a139-53e54f60bb02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a76c5c37-c8ee-4447-9dce-9cfdc582c1ed",
+        "date": "2022-11-08T00:00:00Z",
+        "buyer": "Staffordshire County Council",
+        "title": "IA2848 Banking Services",
+        "value_gbp": 0,
+        "procurement_method": null,
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2038-03-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/57e27bf5-e88b-4c64-a139-53e54f60bb02",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3d29860d-1288-49ed-9a30-e89514f25cd0",
+        "date": "2022-06-30T00:00:00+01:00",
+        "buyer": "Kirklees Council",
+        "title": "Banking Services",
+        "value_gbp": 610000,
+        "procurement_method": "selective",
+        "cpv_code": "66110000",
+        "cpv_label": "Banking services",
+        "contract_start": "2022-07-01T00:00:00+01:00",
+        "contract_end": "2027-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3bf8b112-834b-48d9-a163-554f317fec49",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b3768b82-c9cf-4ba5-bc9b-b1dbc88d45ee",
+        "date": "2022-06-08T00:00:00+01:00",
+        "buyer": "Sheffield City Council",
+        "title": "BANKING SERVICES FOR SHEFFIELD CITY COUNCIL",
+        "value_gbp": 490000,
+        "procurement_method": "open",
+        "cpv_code": "66100000",
+        "cpv_label": "Banking and investment services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2029-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5d57d379-89d2-4dc2-b28a-03e23f3813ff",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-16876928-fc1a-471f-b7a9-f6fe8c4a7c08",
+        "date": "2022-05-31T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Merchant Acquirer Services",
+        "value_gbp": 69170000,
+        "procurement_method": "open",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2022-05-31T00:00:00+01:00",
+        "contract_end": "2025-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cc355c3c-a99d-45a7-90c9-d7e9a504efbd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f779d297-34a2-498b-9eb4-45a67ef0d956",
+        "date": "2022-05-31T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Payment Gateway Services",
+        "value_gbp": 3100000,
+        "procurement_method": "open",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2022-05-31T00:00:00+01:00",
+        "contract_end": "2025-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8f6f26b5-f618-49ed-847e-b8dffc34d8f7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e5a0ce08-e07c-42ed-a26e-c602d8e359fe",
+        "date": "2022-05-31T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Merchant Acquirer Services",
+        "value_gbp": 11528333.333333334,
+        "procurement_method": "open",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2022-05-31T00:00:00+01:00",
+        "contract_end": "2025-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4d0a59a-e455-4ef8-8b3b-cb0755131f51",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 459453760,
+      "awarded_2024_gbp_from_cf": 201478086.18,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 2.3× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.44
+    }
+  }
+}

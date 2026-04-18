@@ -1,0 +1,150 @@
+{
+  "company_number": "RC000648",
+  "display_name": "University Of Bristol",
+  "identity": {
+    "ch_number": "RC000648",
+    "official_name": "UNIVERSITY OF BRISTOL",
+    "display_name": "University Of Bristol",
+    "status": "active",
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000648"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 8060650,
+    "rank": 797,
+    "category": "academic",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_science_innovation_and_technology",
+        "dept_name": "DSIT",
+        "amount_gbp": 7390070,
+        "segments": [
+          {
+            "segment": "Dsit - Science, Innovation And Growth - Dsit - Technology And Innovation Regulation",
+            "amount_gbp": 1796536,
+            "pct_of_segment": 0.22,
+            "rank_in_segment": 16,
+            "type": "University"
+          },
+          {
+            "segment": "Dsit - Digital And Technology Group - Dsit - Digital Infrastructure",
+            "amount_gbp": 5593534,
+            "pct_of_segment": 1.74,
+            "rank_in_segment": 8,
+            "type": "University"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 670580,
+        "segments": [
+          {
+            "segment": "Strategic Policy Directorate",
+            "amount_gbp": 670580,
+            "pct_of_segment": 0.57,
+            "rank_in_segment": 16,
+            "type": "University"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000648",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000648"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000648/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000648/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "academic",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 797,
+    "enriched_at": "2026-04-16T20:44:20Z",
+    "governance_enriched_at": "2026-04-16T22:41:45Z",
+    "ubo_enriched_at": "2026-04-16T23:27:38Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

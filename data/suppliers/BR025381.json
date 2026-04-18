@@ -1,0 +1,193 @@
+{
+  "company_number": "BR025381",
+  "display_name": "EVIDEN TECHNOLOGY SERVICES LIMITED",
+  "identity": {
+    "ch_number": "BR025381",
+    "official_name": "EVIDEN TECHNOLOGY SERVICES LIMITED",
+    "display_name": "EVIDEN TECHNOLOGY SERVICES LIMITED",
+    "status": "open",
+    "type": "uk-establishment",
+    "jurisdiction": null,
+    "incorporated": "2022-12-28",
+    "age_years": 3,
+    "registered_office": {
+      "address_line_1": "Second Floor Mid City Place",
+      "locality": "London",
+      "postal_code": "WC1V 6EA",
+      "region": "71 High Holborn"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/BR025381"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 45370253,
+    "rank": 408,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 45370253,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 20170794,
+            "pct_of_segment": 2.55,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Programme and Operational Delivery",
+            "amount_gbp": 2294924,
+            "pct_of_segment": 1.16,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery DG & Programme Office",
+            "amount_gbp": 1911245,
+            "pct_of_segment": 1.11,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "B&T Border Change Delivery",
+            "amount_gbp": 5994534,
+            "pct_of_segment": 3.7,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 2466310,
+            "pct_of_segment": 2.36,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery Making Tax Digital",
+            "amount_gbp": 6742082,
+            "pct_of_segment": 16.36,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery Group",
+            "amount_gbp": 3691397,
+            "pct_of_segment": 14.31,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Borders & Trade",
+            "amount_gbp": 1727074,
+            "pct_of_segment": 9.45,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          },
+          {
+            "segment": "PDC Customer Strategy & Tax Design",
+            "amount_gbp": 293091,
+            "pct_of_segment": 3.31,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Customer Strategy & Tax Design",
+            "amount_gbp": 78802,
+            "pct_of_segment": 4.64,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "BR025381",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 78,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/BR025381"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR025381/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR025381/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 408,
+    "enriched_at": "2026-04-16T20:10:10Z",
+    "governance_enriched_at": "2026-04-16T22:23:38Z",
+    "ubo_enriched_at": "2026-04-16T23:10:45Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

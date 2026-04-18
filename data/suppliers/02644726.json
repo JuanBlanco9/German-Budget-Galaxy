@@ -1,0 +1,467 @@
+{
+  "company_number": "02644726",
+  "display_name": "Colas Limited",
+  "identity": {
+    "ch_number": "02644726",
+    "official_name": "COLAS LIMITED",
+    "display_name": "Colas Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1991-09-11",
+    "age_years": 34,
+    "registered_office": {
+      "address_line_1": "6210 Bishops Court Birmingham Business Park",
+      "address_line_2": "Solihull Parkway",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B37 7YB"
+    },
+    "sic_codes": [
+      "42110"
+    ],
+    "sic_labels": [
+      "Construction of roads and motorways"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02644726"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 62652955,
+    "rank": 331,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 62652955,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 62652955,
+            "pct_of_segment": 1.37,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-10-06",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4Mzc4NDk3OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02644726_2025-10-06.pdf",
+      "size_mb": 2.66,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 53,
+    "board_turnover_ratio": 13.25,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GRESSE, Aurelien",
+        "role": "director",
+        "appointed_on": "2025-07-28",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KLEEBACH, Oliver",
+        "role": "director",
+        "appointed_on": "2025-05-23",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MADELON, Thierry Hubert",
+        "role": "director",
+        "appointed_on": "2025-09-30",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CIUFU-HAYWARD, Stefan Irinel",
+        "role": "secretary",
+        "appointed_on": "2020-11-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Crawley",
+          "postal_code": "RH10 4NF",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CIUFU-HAYWARD, Stefan Irinel",
+        "role": "secretary",
+        "appointed_on": "2020-11-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Crawley",
+          "postal_code": "RH10 4NF",
+          "country": null
+        }
+      },
+      {
+        "name": "GRESSE, Aurelien",
+        "role": "director",
+        "appointed_on": "2025-07-28",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KLEEBACH, Oliver",
+        "role": "director",
+        "appointed_on": "2025-05-23",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MADELON, Thierry Hubert",
+        "role": "director",
+        "appointed_on": "2025-09-30",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B37 7YB",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 53,
+      "recent": [
+        {
+          "name": "LAHMAMSI, Faical",
+          "role": "director",
+          "appointed_on": "2019-03-18",
+          "resigned_on": "2025-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "RENAUD, Geoffroy-Romain Christian",
+          "role": "director",
+          "appointed_on": "2021-02-12",
+          "resigned_on": "2025-07-28",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GRASS, Francis",
+          "role": "director",
+          "appointed_on": "2024-02-06",
+          "resigned_on": "2025-05-23",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "LLOBREGAT, Raphael Francois-Joseph",
+          "role": "director",
+          "appointed_on": "2018-07-18",
+          "resigned_on": "2024-02-06",
+          "nationality": "French",
+          "occupation": null,
+          "country_of_residence": "France",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "JEFFERY, Sean Francis",
+          "role": "director",
+          "appointed_on": "2019-02-20",
+          "resigned_on": "2023-09-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Wales",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B37 7YB",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02644726",
+          "name": "Colas S.A.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02644726",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02644726/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": "France",
+          "parent_registration_number": "552 025 314",
+          "wikidata": {
+            "qid": "Q2982355",
+            "label": "Colas Group",
+            "description": "French business",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q2982355",
+            "parent_chain": [
+              {
+                "qid": "Q2982355",
+                "label": "Colas Group",
+                "description": "French business",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2470223554,
+                "source_url": "https://www.wikidata.org/wiki/Q2982355"
+              },
+              {
+                "qid": "Q895325",
+                "label": "Bouygues",
+                "description": "French company",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2474122901,
+                "source_url": "https://www.wikidata.org/wiki/Q895325"
+              },
+              {
+                "qid": "Q88097389",
+                "label": "SCDM",
+                "description": "French company",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2300871477,
+                "source_url": "https://www.wikidata.org/wiki/Q88097389"
+              },
+              {
+                "qid": "Q680669",
+                "label": "Martin Bouygues",
+                "description": "French businessperson",
+                "country_labels": [],
+                "revision_id": 2475786841,
+                "source_url": "https://www.wikidata.org/wiki/Q680669"
+              }
+            ],
+            "ultimate_label": "Martin Bouygues",
+            "ultimate_country": null,
+            "queries_used": [
+              "Colas S.A.",
+              "Colas"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "France"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02644726"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4Mzc4NDk3OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02644726_2025-10-06.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02644726/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02644726/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2982355"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 331,
+    "enriched_at": "2026-04-16T20:03:45Z",
+    "governance_enriched_at": "2026-04-16T22:19:56Z",
+    "ubo_enriched_at": "2026-04-16T23:03:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

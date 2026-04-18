@@ -1,0 +1,909 @@
+{
+  "company_number": "09346363",
+  "display_name": "National Highways Limited",
+  "identity": {
+    "ch_number": "09346363",
+    "official_name": "NATIONAL HIGHWAYS LIMITED",
+    "display_name": "National Highways Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2014-12-08",
+    "age_years": 11,
+    "registered_office": {
+      "address_line_1": "Three Snowhill",
+      "address_line_2": "Snow Hill Queensway",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B4 6GA"
+    },
+    "sic_codes": [
+      "43999",
+      "49390",
+      "71129",
+      "84110"
+    ],
+    "sic_labels": [
+      "Other specialised construction activities",
+      "Other passenger land transport n.e.c.",
+      "Other engineering activities",
+      "General public administration activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/09346363"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 5272322166,
+    "rank": 8,
+    "category": "public_body",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 5272322166,
+        "segments": [
+          {
+            "segment": "Department for Transport",
+            "amount_gbp": 5272322166,
+            "pct_of_segment": 17.38,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-29",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NTMxOTYyNGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/09346363_2025-07-29.pdf",
+      "size_mb": 16.38,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 12,
+    "officers_resigned_count": 24,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BLANCHFLOWER, Simon William",
+        "role": "director",
+        "appointed_on": "2023-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CHAUDHRI, Vivek",
+        "role": "director",
+        "appointed_on": "2026-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DALE, Scott",
+        "role": "director",
+        "appointed_on": "2024-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1975
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "JOHAL, Sukhvinder",
+        "role": "director",
+        "appointed_on": "2023-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "JOYCE, Nicholas John",
+        "role": "director",
+        "appointed_on": "2026-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LEWIS, Emmanuel Oluwole",
+        "role": "director",
+        "appointed_on": "2025-03-10",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RHYS WILLIAMS, Gareth Arthur Ludovic Emrys, Sir",
+        "role": "director",
+        "appointed_on": "2024-04-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SHAW, Elliot Mark",
+        "role": "director",
+        "appointed_on": "2024-01-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SHILLINGLAW, Kim Danila",
+        "role": "director",
+        "appointed_on": "2025-02-10",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WHITEMAN, Robert Arthur",
+        "role": "director",
+        "appointed_on": "2025-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WILLS, Simon Marc",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "KEMP, Anthony",
+        "role": "secretary",
+        "appointed_on": "2025-01-10",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "KEMP, Anthony",
+        "role": "secretary",
+        "appointed_on": "2025-01-10",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BLANCHFLOWER, Simon William",
+        "role": "director",
+        "appointed_on": "2023-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CHAUDHRI, Vivek",
+        "role": "director",
+        "appointed_on": "2026-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DALE, Scott",
+        "role": "director",
+        "appointed_on": "2024-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1975
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "JOHAL, Sukhvinder",
+        "role": "director",
+        "appointed_on": "2023-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "JOYCE, Nicholas John",
+        "role": "director",
+        "appointed_on": "2026-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LEWIS, Emmanuel Oluwole",
+        "role": "director",
+        "appointed_on": "2025-03-10",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RHYS WILLIAMS, Gareth Arthur Ludovic Emrys, Sir",
+        "role": "director",
+        "appointed_on": "2024-04-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SHAW, Elliot Mark",
+        "role": "director",
+        "appointed_on": "2024-01-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SHILLINGLAW, Kim Danila",
+        "role": "director",
+        "appointed_on": "2025-02-10",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WHITEMAN, Robert Arthur",
+        "role": "director",
+        "appointed_on": "2025-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WILLS, Simon Marc",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B4 6GA",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 24,
+      "recent": [
+        {
+          "name": "HARRIS, Nicholas James",
+          "role": "director",
+          "appointed_on": "2021-02-01",
+          "resigned_on": "2026-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1965
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B4 6GA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BEINART, Janette Carolyn Mitchell",
+          "role": "director",
+          "appointed_on": "2019-01-21",
+          "resigned_on": "2026-01-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1956
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B4 6GA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ARMITAGE, Matthew",
+          "role": "secretary",
+          "appointed_on": "2016-10-01",
+          "resigned_on": "2025-01-10",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Guildford",
+            "postal_code": "GU1 4LZ",
+            "country": null
+          }
+        },
+        {
+          "name": "CEARNS, Kathryn",
+          "role": "director",
+          "appointed_on": "2018-04-17",
+          "resigned_on": "2024-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1964
+          },
+          "address": {
+            "locality": "Guildford",
+            "postal_code": "GU1 4LZ",
+            "country": null
+          }
+        },
+        {
+          "name": "CAMACHO, Juan Diego Oliva",
+          "role": "director",
+          "appointed_on": "2022-07-01",
+          "resigned_on": "2024-03-31",
+          "nationality": "Spanish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Guildford",
+            "postal_code": "GU1 4LZ",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "government",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "09346363",
+          "name": "Secretary Of State For Transport",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09346363",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09346363/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [
+        "Secretary Of State For Transport"
+      ],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+20",
+        "govt_psc_consistent_with_supplier"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09346363"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NTMxOTYyNGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/09346363_2025-07-29.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09346363/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09346363/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "public_body",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 8,
+    "enriched_at": "2026-04-16T19:17:09Z",
+    "governance_enriched_at": "2026-04-16T22:09:15Z",
+    "ubo_enriched_at": "2026-04-16T22:46:49Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2022,
+      2023
+    ],
+    "summary": {
+      "total_contracts": 3,
+      "total_contracts_non_framework": 3,
+      "total_awarded_gbp": 187082.03,
+      "total_awarded_non_framework_gbp": 187082.03,
+      "years_active": 2,
+      "first_year": 2022,
+      "last_year": 2023,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "Staffordshire County Council",
+        "years_count": 1,
+        "years_list": [
+          2023
+        ],
+        "total_value_gbp": 129049.79,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 28032.24,
+        "awarded_gbp_non_framework": 28032.24,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "WARWICKSHIRE POLICE",
+          "contracts": 1,
+          "value_gbp": 28032.24
+        },
+        "procurement_method_counts": {
+          "unspecified": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 159049.78999999998,
+        "awarded_gbp_non_framework": 159049.78999999998,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Staffordshire County Council",
+          "contracts": 1,
+          "value_gbp": 129049.79
+        },
+        "procurement_method_counts": {
+          "unspecified": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2022": {
+        "top_code": "45312300",
+        "top_label": "Antenna installation work",
+        "top_value_gbp": 28032.24,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "71311210",
+        "top_label": "Highways consultancy services",
+        "top_value_gbp": 129049.79,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 3
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 187082.03
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 0.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/2JAv6sFy",
+        "buyer_name": "Staffordshire County Council",
+        "contracts": 1,
+        "value_gbp": 129049.79
+      },
+      {
+        "buyer_id": "GB-CFS-241911",
+        "buyer_name": "National Highways",
+        "contracts": 1,
+        "value_gbp": 30000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/nAGk82Ar",
+        "buyer_name": "WARWICKSHIRE POLICE",
+        "contracts": 1,
+        "value_gbp": 28032.24
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "71311210",
+        "label": "Highways consultancy services",
+        "contracts": 1,
+        "value_gbp": 129049.79
+      },
+      {
+        "code": "79952000",
+        "label": "Event services",
+        "contracts": 1,
+        "value_gbp": 30000
+      },
+      {
+        "code": "45312300",
+        "label": "Antenna installation work",
+        "contracts": 1,
+        "value_gbp": 28032.24
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-119fd143-9eed-4d01-999a-2a7b2c02d1f2",
+        "date": "2023-12-22T00:00:00Z",
+        "buyer": "Staffordshire County Council",
+        "title": "Branston Interchange",
+        "value_gbp": 129049.79,
+        "procurement_method": null,
+        "cpv_code": "71311210",
+        "cpv_label": "Highways consultancy services",
+        "contract_start": "2024-01-08T00:00:00Z",
+        "contract_end": "2025-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/92352071-8054-4455-8f04-1aab30ac3f99",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1b8f845c-c838-4e71-b68f-c10b14802e13",
+        "date": "2023-08-25T00:00:00+01:00",
+        "buyer": "National Highways",
+        "title": "Commercial Vehicle Safety Event 2024",
+        "value_gbp": 30000,
+        "procurement_method": null,
+        "cpv_code": "79952000",
+        "cpv_label": "Event services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/41712a91-8f60-4b65-9ba2-b2b9e3cc0b21",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-436a4506-5bdb-4ede-9c18-76a38abfbd20",
+        "date": "2022-04-29T00:00:00+01:00",
+        "buyer": "WARWICKSHIRE POLICE",
+        "title": "Relocation of Instation Equipment & Installation of New Antenna",
+        "value_gbp": 28032.24,
+        "procurement_method": null,
+        "cpv_code": "45312300",
+        "cpv_label": "Antenna installation work",
+        "contract_start": "2022-06-17T00:00:00+01:00",
+        "contract_end": "2022-07-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1d56aab5-48ee-4461-8604-fb3b0f0091eb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 5272322166,
+      "awarded_2024_gbp_from_cf": 187082.03,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 28181.9× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.0
+    }
+  }
+}

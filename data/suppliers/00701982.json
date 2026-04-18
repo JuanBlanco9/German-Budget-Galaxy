@@ -1,0 +1,857 @@
+{
+  "company_number": "00701982",
+  "display_name": "Bowmer And Kirkland Limited",
+  "identity": {
+    "ch_number": "00701982",
+    "official_name": "BOWMER AND KIRKLAND LIMITED",
+    "display_name": "Bowmer And Kirkland Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1961-08-30",
+    "age_years": 64,
+    "registered_office": {
+      "address_line_1": "High Edge Court Church Street",
+      "address_line_2": "Heage",
+      "locality": "Belper",
+      "postal_code": "DE56 2BW",
+      "region": "Derbyshire"
+    },
+    "sic_codes": [
+      "41201"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00701982"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 326809576,
+    "rank": 124,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 326809576,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 230436271,
+            "pct_of_segment": 5.7,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Capital Directorate",
+            "amount_gbp": 96373305,
+            "pct_of_segment": 5.12,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-04-24",
+    "period_end": "2024-08-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ2MzcwMzM3NWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/00701982_2025-04-24.pdf",
+      "size_mb": 2.44,
+      "exists": true
+    },
+    "next_accounts_due": "2026-05-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 11,
+    "officers_resigned_count": 12,
+    "board_turnover_ratio": 1.09,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "ARNO, Christopher John",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "BROOK, Neil Kenneth",
+        "role": "director",
+        "appointed_on": "2020-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "CRUTTENDEN, Matthew Charles",
+        "role": "director",
+        "appointed_on": "2020-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "JONES, Ralph Charles",
+        "role": "director",
+        "appointed_on": "1999-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1950
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "KIRKLAND, Christopher Robert",
+        "role": "director",
+        "appointed_on": "2015-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1982
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "KIRKLAND, John Alexander Charles",
+        "role": "director",
+        "appointed_on": "2009-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KIRKLAND, Michael John",
+        "role": "director",
+        "appointed_on": "2009-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MCDONALD, Kevin Daniel",
+        "role": "director",
+        "appointed_on": "2024-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "MUCKLESTONE, Michelle Ann",
+        "role": "director",
+        "appointed_on": "2012-10-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TOWNSEND, Mark Gary",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "MUCKLESTONE, Michelle Ann",
+        "role": "secretary",
+        "appointed_on": "2010-04-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "MUCKLESTONE, Michelle Ann",
+        "role": "secretary",
+        "appointed_on": "2010-04-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "ARNO, Christopher John",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "BROOK, Neil Kenneth",
+        "role": "director",
+        "appointed_on": "2020-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "CRUTTENDEN, Matthew Charles",
+        "role": "director",
+        "appointed_on": "2020-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "JONES, Ralph Charles",
+        "role": "director",
+        "appointed_on": "1999-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1950
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "KIRKLAND, Christopher Robert",
+        "role": "director",
+        "appointed_on": "2015-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1982
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "KIRKLAND, John Alexander Charles",
+        "role": "director",
+        "appointed_on": "2009-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KIRKLAND, Michael John",
+        "role": "director",
+        "appointed_on": "2009-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MCDONALD, Kevin Daniel",
+        "role": "director",
+        "appointed_on": "2024-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      },
+      {
+        "name": "MUCKLESTONE, Michelle Ann",
+        "role": "director",
+        "appointed_on": "2012-10-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": "England"
+        }
+      },
+      {
+        "name": "TOWNSEND, Mark Gary",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Belper",
+          "postal_code": "DE56 2BW",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 12,
+      "recent": [
+        {
+          "name": "LOMAS, John Paul",
+          "role": "director",
+          "appointed_on": "1999-11-01",
+          "resigned_on": "2022-08-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1956
+          },
+          "address": {
+            "locality": "Belper",
+            "postal_code": "DE56 2BW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "KIRKLAND, John Nigel",
+          "role": "director",
+          "appointed_on": null,
+          "resigned_on": "2019-01-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1938
+          },
+          "address": {
+            "locality": "Belper",
+            "postal_code": "DE56 2BW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "KIRKLAND, Robert Malcolm",
+          "role": "director",
+          "appointed_on": null,
+          "resigned_on": "2019-01-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1946
+          },
+          "address": {
+            "locality": "Belper",
+            "postal_code": "DE56 2BW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "SHELDON, Melvin Stuart",
+          "role": "director",
+          "appointed_on": "1995-02-03",
+          "resigned_on": "2015-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1957
+          },
+          "address": {
+            "locality": "Belper",
+            "postal_code": "DE56 2BW",
+            "country": "England"
+          }
+        },
+        {
+          "name": "KIRKLAND, Christopher Robert",
+          "role": "director",
+          "appointed_on": "2010-07-01",
+          "resigned_on": "2013-05-07",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1982
+          },
+          "address": {
+            "locality": "Belper",
+            "postal_code": "DE56 2BW",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 10,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 10,
+    "chains_count": 10,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Kevin Daniel Mcdonald",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2024-09-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2024-09-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Mark Gary Townsend",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2022-09-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2022-09-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Christopher John Arno",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2022-09-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2022-09-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Matthew Charles Cruttenden",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2020-09-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2020-09-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Neil Kenneth Brook",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2020-09-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2020-09-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Michael John Kirkland",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Christopher Robert Kirkland",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr Ralph Charles Jones",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mr John Alexander Charles Kirkland",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "00701982",
+          "name": "Mrs Michelle Ann Mucklestone",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00701982",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Christopher John Arno",
+        "Mr Christopher Robert Kirkland",
+        "Mr John Alexander Charles Kirkland",
+        "Mr Kevin Daniel Mcdonald",
+        "Mr Mark Gary Townsend",
+        "Mr Matthew Charles Cruttenden",
+        "Mr Michael John Kirkland",
+        "Mr Neil Kenneth Brook",
+        "Mr Ralph Charles Jones",
+        "Mrs Michelle Ann Mucklestone"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 98,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+5",
+        "known_family_pe_pattern"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00701982"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2MzcwMzM3NWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/00701982_2025-04-24.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00701982/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00701982/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 124,
+    "enriched_at": "2026-04-16T19:23:17Z",
+    "governance_enriched_at": "2026-04-16T22:11:58Z",
+    "ubo_enriched_at": "2026-04-16T22:51:26Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

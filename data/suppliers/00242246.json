@@ -1,0 +1,466 @@
+{
+  "company_number": "00242246",
+  "display_name": "SERCO LIMITED",
+  "identity": {
+    "ch_number": "00242246",
+    "official_name": "SERCO LIMITED",
+    "display_name": "SERCO LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1929-09-10",
+    "age_years": 96,
+    "registered_office": {
+      "address_line_1": "Serco House",
+      "address_line_2": "16 Bartley Wood Business Park",
+      "locality": "Bartley Way Hook",
+      "postal_code": "RG27 9UY",
+      "region": "Hampshire"
+    },
+    "sic_codes": [
+      "70100",
+      "70229",
+      "72190",
+      "84110"
+    ],
+    "sic_labels": [
+      "Activities of head offices",
+      "Management consultancy activities (other)",
+      "SIC 72190",
+      "General public administration activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00242246"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 237765856,
+    "rank": 151,
+    "category": "commercial",
+    "n_departments": 4,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 100059291,
+        "segments": [
+          {
+            "segment": "Air Command",
+            "amount_gbp": 15378476,
+            "pct_of_segment": 4.8,
+            "rank_in_segment": 6,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Navy Command",
+            "amount_gbp": 84680815,
+            "pct_of_segment": 30.67,
+            "rank_in_segment": 1,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 72155881,
+        "segments": [
+          {
+            "segment": "Employment Programmes (Restart/WHP)",
+            "amount_gbp": 47579626,
+            "pct_of_segment": 10.75,
+            "rank_in_segment": 4,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "Financial Assistance & Pensions Services",
+            "amount_gbp": 24576255,
+            "pct_of_segment": 9.09,
+            "rank_in_segment": 6,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 62571941,
+        "segments": [
+          {
+            "segment": "UKIE - Immigration Enforcement",
+            "amount_gbp": 57509817,
+            "pct_of_segment": 14.42,
+            "rank_in_segment": 3,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "UKVIP - Visas Information & Passports",
+            "amount_gbp": 3908349,
+            "pct_of_segment": 1.56,
+            "rank_in_segment": 14,
+            "type": "Outsourcing/IT"
+          },
+          {
+            "segment": "STARS -  Science, Technology, Analysis, Research & Strategy",
+            "amount_gbp": 1153775,
+            "pct_of_segment": 2.14,
+            "rank_in_segment": 10,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 2978743,
+        "segments": [
+          {
+            "segment": "Primary Care and Prevention",
+            "amount_gbp": 2978743,
+            "pct_of_segment": 4.8,
+            "rank_in_segment": 5,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-10",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MzE4OTA2N2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/00242246_2025-07-10.pdf",
+      "size_mb": 2.43,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 91,
+    "board_turnover_ratio": 30.33,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "STACEY, Shaun Raymond",
+        "role": "director",
+        "appointed_on": "2025-08-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Bartley Way Hook",
+          "postal_code": "RG27 9UY",
+          "country": null
+        }
+      },
+      {
+        "name": "WALTERS, Fiona Mairi",
+        "role": "director",
+        "appointed_on": "2026-03-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Bartley Way Hook",
+          "postal_code": "RG27 9UY",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "MILLER, Amanda",
+        "role": "secretary",
+        "appointed_on": "2025-10-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Bartley Way Hook",
+          "postal_code": "RG27 9UY",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "MILLER, Amanda",
+        "role": "secretary",
+        "appointed_on": "2025-10-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Bartley Way Hook",
+          "postal_code": "RG27 9UY",
+          "country": null
+        }
+      },
+      {
+        "name": "STACEY, Shaun Raymond",
+        "role": "director",
+        "appointed_on": "2025-08-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Bartley Way Hook",
+          "postal_code": "RG27 9UY",
+          "country": null
+        }
+      },
+      {
+        "name": "WALTERS, Fiona Mairi",
+        "role": "director",
+        "appointed_on": "2026-03-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Bartley Way Hook",
+          "postal_code": "RG27 9UY",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 91,
+      "recent": [
+        {
+          "name": "SHAW, Helen",
+          "role": "director",
+          "appointed_on": "2023-01-01",
+          "resigned_on": "2026-03-23",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1983
+          },
+          "address": {
+            "locality": "Bartley Way Hook",
+            "postal_code": "RG27 9UY",
+            "country": null
+          }
+        },
+        {
+          "name": "GRAHAM-BURRELL, Nickesha",
+          "role": "secretary",
+          "appointed_on": "2023-09-15",
+          "resigned_on": "2025-10-01",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Bartley Way Hook",
+            "postal_code": "RG27 9UY",
+            "country": null
+          }
+        },
+        {
+          "name": "GIRNARY, Nazim",
+          "role": "director",
+          "appointed_on": "2021-04-14",
+          "resigned_on": "2025-08-19",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1979
+          },
+          "address": {
+            "locality": "Bartley Way Hook",
+            "postal_code": "RG27 9UY",
+            "country": null
+          }
+        },
+        {
+          "name": "KIRBY, Anthony Andrew",
+          "role": "director",
+          "appointed_on": "2019-07-29",
+          "resigned_on": "2025-05-23",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1981
+          },
+          "address": {
+            "locality": "Hook",
+            "postal_code": "RG27 9UY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "EVELEIGH, David Charles",
+          "role": "secretary",
+          "appointed_on": "2022-06-25",
+          "resigned_on": "2023-09-15",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Bartley Way Hook",
+            "postal_code": "RG27 9UY",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "00242246",
+          "name": "Serco Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00242246",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00242246/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03970268",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "03970268",
+          "name": "Serco Group Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03970268",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03970268/persons-with-significant-control/corporate-entity/19qmzAsLGTwv-mJ1iIZf2PmJx58"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02048608",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00242246"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MzE4OTA2N2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/00242246_2025-07-10.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00242246/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00242246/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 151,
+    "enriched_at": "2026-04-16T19:24:54Z",
+    "governance_enriched_at": "2026-04-16T22:12:34Z",
+    "ubo_enriched_at": "2026-04-16T22:51:59Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

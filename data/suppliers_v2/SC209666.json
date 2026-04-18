@@ -1,0 +1,927 @@
+{
+  "company_number": "SC209666",
+  "display_name": "Galliford Try Building Ltd",
+  "identity": {
+    "ch_number": "SC209666",
+    "official_name": "GALLIFORD TRY BUILDING 2014 LIMITED",
+    "display_name": "Galliford Try Building Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "scotland",
+    "incorporated": "2000-08-02",
+    "age_years": 25,
+    "registered_office": {
+      "address_line_1": "2nd Floor 2 Lochside View",
+      "country": "Scotland",
+      "locality": "Edinburgh",
+      "postal_code": "EH12 9DH"
+    },
+    "sic_codes": [
+      "41201"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/SC209666"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 99493597,
+    "rank": 251,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 99493597,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 73813520,
+            "pct_of_segment": 1.83,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Capital Directorate",
+            "amount_gbp": 25680077,
+            "pct_of_segment": 1.37,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-02-24",
+    "period_end": "2025-06-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzUwNjMwNTI5N2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/SC209666_2026-02-24.pdf",
+      "size_mb": 0.32,
+      "exists": true
+    },
+    "next_accounts_due": "2027-03-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 29,
+    "board_turnover_ratio": 9.67,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "JUBB, Ian Thomas",
+        "role": "director",
+        "appointed_on": "2014-09-05",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH12 9DH",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "WEST, Graham William",
+        "role": "director",
+        "appointed_on": "2016-11-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH12 9DH",
+          "country": "Scotland"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "GALLIFORD TRY SECRETARIAT SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2019-12-20",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Uxbridge",
+          "postal_code": "UB8 2AD",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "GALLIFORD TRY SECRETARIAT SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2019-12-20",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Uxbridge",
+          "postal_code": "UB8 2AD",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "JUBB, Ian Thomas",
+        "role": "director",
+        "appointed_on": "2014-09-05",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH12 9DH",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "WEST, Graham William",
+        "role": "director",
+        "appointed_on": "2016-11-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH12 9DH",
+          "country": "Scotland"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 29,
+      "recent": [
+        {
+          "name": "COCKER, Neil David",
+          "role": "director",
+          "appointed_on": "2019-06-30",
+          "resigned_on": "2025-04-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Edinburgh",
+            "postal_code": "EH12 9DH",
+            "country": "Scotland"
+          }
+        },
+        {
+          "name": "SALT, Nicholas James",
+          "role": "director",
+          "appointed_on": "2017-07-04",
+          "resigned_on": "2019-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Uxbridge",
+            "postal_code": "UB8 2AL",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "COOPER, Martin",
+          "role": "director",
+          "appointed_on": "2011-03-22",
+          "resigned_on": "2019-06-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1971
+          },
+          "address": {
+            "locality": "Edinburgh",
+            "postal_code": "EH12 1LB",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "DE LA MOTTE, Tom",
+          "role": "director",
+          "appointed_on": "2007-01-08",
+          "resigned_on": "2017-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Edinburgh Park",
+            "postal_code": "EH12 9DH",
+            "country": null
+          }
+        },
+        {
+          "name": "WEBSTER, Christopher Charles",
+          "role": "director",
+          "appointed_on": "2010-09-13",
+          "resigned_on": "2014-08-06",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1958
+          },
+          "address": {
+            "locality": "Edinburgh Park",
+            "postal_code": "EH12 9DH",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "SC209666",
+          "name": "Galliford Try Corporate Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC209666",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC209666/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "parent_company_number": "00209666",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 75,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/SC209666"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwNjMwNTI5N2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/SC209666_2026-02-24.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC209666/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC209666/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 251,
+    "enriched_at": "2026-04-16T19:55:41Z",
+    "governance_enriched_at": "2026-04-16T22:16:45Z",
+    "ubo_enriched_at": "2026-04-16T22:58:01Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:10Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 17,
+      "total_contracts_non_framework": 12,
+      "total_awarded_gbp": 1087176864.3623075,
+      "total_awarded_non_framework_gbp": 91984556.67,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "new_entrant",
+      "trajectory_note": "no contracts before 2024",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Justice",
+        "years_count": 3,
+        "years_list": [
+          2021,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 56799161.15,
+        "n_contracts": 8
+      },
+      "n_unique_buyers_all_years": 7,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 187500000.0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 187500000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "East Riding of Yorkshire",
+          "contracts": 1,
+          "value_gbp": 187500000.0
+        },
+        "procurement_method_counts": {
+          "open": 2
+        }
+      },
+      "2021": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 855295580.3023076,
+        "awarded_gbp_non_framework": 47603272.61,
+        "awarded_gbp_framework_share": 807692307.6923077,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 3,
+          "value_gbp": 807692307.6923077
+        },
+        "procurement_method_counts": {
+          "selective": 9
+        }
+      },
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 11688904.13,
+        "awarded_gbp_non_framework": 11688904.13,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Northumberland County Council",
+          "contracts": 1,
+          "value_gbp": 11688904.13
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 4462443.2,
+        "awarded_gbp_non_framework": 4462443.2,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Justice",
+          "contracts": 1,
+          "value_gbp": 4462443.2
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 28229936.73,
+        "awarded_gbp_non_framework": 28229936.73,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Justice",
+          "contracts": 2,
+          "value_gbp": 18642595.34
+        },
+        "procurement_method_counts": {
+          "selective": 4
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 187500000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 808742056.0223078,
+        "n_distinct_codes": 3
+      },
+      "2022": {
+        "top_code": "45210000",
+        "top_label": "Building construction work",
+        "top_value_gbp": 11688904.13,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "45216113",
+        "top_label": "Prison building construction work",
+        "top_value_gbp": 4462443.2,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 18642595.34,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": true,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 3,
+        "selective": 14
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 199188904.13,
+        "selective": 887987960.2323078
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-126886",
+        "buyer_name": "Department for Education",
+        "contracts": 3,
+        "value_gbp": 807692307.6923077
+      },
+      {
+        "buyer_id": "GB-CFS-50790",
+        "buyer_name": "East Riding of Yorkshire",
+        "contracts": 1,
+        "value_gbp": 187500000.0
+      },
+      {
+        "buyer_id": "GB-CFS-183111",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 5,
+        "value_gbp": 33694122.61
+      },
+      {
+        "buyer_id": "GB-CFS-194591",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 2,
+        "value_gbp": 18642595.34
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/H2Ez4838",
+        "buyer_name": "Ministry Of Justice",
+        "contracts": 1,
+        "value_gbp": 13909150
+      },
+      {
+        "buyer_id": "GB-CFS-50036",
+        "buyer_name": "Northumberland County Council",
+        "contracts": 1,
+        "value_gbp": 11688904.13
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/HHz44pYB",
+        "buyer_name": "THE UNIVERSITY OF BIRMINGHAM",
+        "contracts": 2,
+        "value_gbp": 9587341.39
+      },
+      {
+        "buyer_id": "GB-CFS-224728",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 1,
+        "value_gbp": 4462443.2
+      },
+      {
+        "buyer_id": "GB-CFS-126195",
+        "buyer_name": "PAGABO",
+        "contracts": 1,
+        "value_gbp": 0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "45000000",
+        "label": "Construction work",
+        "contracts": 9,
+        "value_gbp": 1014884651.3623078
+      },
+      {
+        "code": "45200000",
+        "label": "Works for complete or part construction and civil engineering work",
+        "contracts": 3,
+        "value_gbp": 41727450
+      },
+      {
+        "code": "45210000",
+        "label": "Building construction work",
+        "contracts": 1,
+        "value_gbp": 11688904.13
+      },
+      {
+        "code": "45453100",
+        "label": "Refurbishment work",
+        "contracts": 2,
+        "value_gbp": 9587341.39
+      },
+      {
+        "code": "45216113",
+        "label": "Prison building construction work",
+        "contracts": 2,
+        "value_gbp": 9288517.48
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-f1154fec-2909-42ea-af53-1248f2f404e7",
+        "date": "2024-10-24T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "HMPPS Whatton - Replace Hot and Cold Water Supply - BPRN: 612/17/4083 [Constructor]",
+        "value_gbp": 7534826.19,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-10-24T00:00:00+01:00",
+        "contract_end": "2026-07-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c9e7806e-7bba-4771-b5b4-b17a971d8d49",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-d34024a3-a3ca-4c49-b00e-d4c1b04ddc81",
+        "date": "2024-06-28T00:00:00+01:00",
+        "buyer": "THE UNIVERSITY OF BIRMINGHAM",
+        "title": "Mason Hall Improvements Project",
+        "value_gbp": 9311764,
+        "procurement_method": "selective",
+        "cpv_code": "45453100",
+        "cpv_label": "Refurbishment work",
+        "contract_start": "2024-06-27T00:00:00+01:00",
+        "contract_end": "2025-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2041c281-ecf4-43dc-9d51-047a8487b85f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1e7af9c6-37dc-40ba-8328-4da6ee084051",
+        "date": "2024-04-09T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "HMP Frankland - Roof Replacement & Close Supervision Centre (CSC) BPRN 630/17/4069 & 8880 [Constructor]",
+        "value_gbp": 11107769.15,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-09T00:00:00+01:00",
+        "contract_end": "2025-03-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ff1bbc41-07f8-46c8-b050-e71af2b775fe",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-9d4e7aee-b0d9-4eac-b12d-d5d8c71299e3",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "THE UNIVERSITY OF BIRMINGHAM",
+        "title": "Mason Hall Cladding",
+        "value_gbp": 275577.39,
+        "procurement_method": "selective",
+        "cpv_code": "45453100",
+        "cpv_label": "Refurbishment work",
+        "contract_start": "2024-02-28T00:00:00Z",
+        "contract_end": "2025-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cb3d472d-6bcb-4be9-be4a-19c0ceb2cbac",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2f7cd356-173e-4f64-b1ec-4779420d2a8f",
+        "date": "2023-09-27T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "HMP Northumberland Rapid Deployment Cells (RDC) BPRN 640/22/8471",
+        "value_gbp": 4462443.2,
+        "procurement_method": "selective",
+        "cpv_code": "45216113",
+        "cpv_label": "Prison building construction work",
+        "contract_start": "2023-07-10T00:00:00+01:00",
+        "contract_end": "2025-04-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4f5c31a2-c6a6-4092-a47a-02ab58a7338a",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-db0a3bfb-ba2d-4ca6-864c-644fae2d7151",
+        "date": "2022-07-12T00:00:00+01:00",
+        "buyer": "Northumberland County Council",
+        "title": "NCC897 - Blyth, Energy Central Learning Hub (ELCH)",
+        "value_gbp": 11688904.13,
+        "procurement_method": "open",
+        "cpv_code": "45210000",
+        "cpv_label": "Building construction work",
+        "contract_start": "2022-08-01T00:00:00+01:00",
+        "contract_end": "2024-07-24T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bf0c84ed-edd9-41a8-a92c-fd67df17b410",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4f584628-1e42-44a7-adb7-29754d9ae565",
+        "date": "2021-12-01T00:00:00Z",
+        "buyer": "Department for Education",
+        "title": "DfE Construction Framework",
+        "value_gbp": 269230769.2307692,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2021-12-01T00:00:00Z",
+        "contract_end": "2025-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8e082dfb-f266-4fa4-baf7-cb69e178b484",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4f584628-1e42-44a7-adb7-29754d9ae565",
+        "date": "2021-12-01T00:00:00Z",
+        "buyer": "Department for Education",
+        "title": "DfE Construction Framework",
+        "value_gbp": 269230769.2307692,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2021-12-01T00:00:00Z",
+        "contract_end": "2025-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8e082dfb-f266-4fa4-baf7-cb69e178b484",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4f584628-1e42-44a7-adb7-29754d9ae565",
+        "date": "2021-12-01T00:00:00Z",
+        "buyer": "Department for Education",
+        "title": "DfE Construction Framework",
+        "value_gbp": 269230769.2307692,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2021-12-01T00:00:00Z",
+        "contract_end": "2025-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8e082dfb-f266-4fa4-baf7-cb69e178b484",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-60bf27de-f5b6-4472-8b06-87ca91bb4f85",
+        "date": "2021-10-28T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "HMP Full Sutton - GENERATOR REPLACEMENT BPRN: 625/17/4150 [Constructor]",
+        "value_gbp": 520716.33,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2021-10-28T00:00:00+01:00",
+        "contract_end": "2022-07-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6b9813fb-3687-4960-aef8-869562a2c1e0",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-da986158-aea7-49c2-ae76-152465684b1c",
+        "date": "2021-07-30T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "HMPPS High Down-New Workshop-BPRN No.646/19/5061",
+        "value_gbp": 529032,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2021-08-24T00:00:00+01:00",
+        "contract_end": "2023-12-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c9266756-5273-4502-9cda-565c17c6e523",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-789eafed-d2fb-421b-84fb-8128de805cb2",
+        "date": "2021-06-22T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "HMP & YOI Moorland - Recover SPR and Replace Gutters - BPRN: 647/17/3563",
+        "value_gbp": 4826074.28,
+        "procurement_method": "selective",
+        "cpv_code": "45216113",
+        "cpv_label": "Prison building construction work",
+        "contract_start": "2021-06-23T00:00:00+01:00",
+        "contract_end": "2024-07-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7b35f9ce-5e10-43c6-813d-df98f863635c",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-11930fb0-532f-4280-8688-de426aa7a3d6",
+        "date": "2021-01-10T00:00:00Z",
+        "buyer": "Ministry of Justice",
+        "title": "Hassockfield IRC Developement Project",
+        "value_gbp": 13909150,
+        "procurement_method": "selective",
+        "cpv_code": "45200000",
+        "cpv_label": "Works for complete or part construction and civil engineering work",
+        "contract_start": "2021-01-11T00:00:00Z",
+        "contract_end": "2021-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7aaf9a3d-bf9d-4ef6-aa66-aa319b6ca501",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-11930fb0-532f-4280-8688-de426aa7a3d6",
+        "date": "2021-01-10T00:00:00Z",
+        "buyer": "Ministry of Justice",
+        "title": "Hassockfield IRC Developement Project",
+        "value_gbp": 13909150,
+        "procurement_method": "selective",
+        "cpv_code": "45200000",
+        "cpv_label": "Works for complete or part construction and civil engineering work",
+        "contract_start": "2021-01-11T00:00:00Z",
+        "contract_end": "2021-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7aaf9a3d-bf9d-4ef6-aa66-aa319b6ca501",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bf8d63b0-f77e-4c48-a62d-3d5a71bccded",
+        "date": "2021-01-10T00:00:00Z",
+        "buyer": "Ministry Of Justice",
+        "title": "Hassockfield IRC Developement Project",
+        "value_gbp": 13909150,
+        "procurement_method": "selective",
+        "cpv_code": "45200000",
+        "cpv_label": "Works for complete or part construction and civil engineering work",
+        "contract_start": "2021-01-11T00:00:00Z",
+        "contract_end": "2021-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6bbd3c43-be1e-45f3-8b8f-b85654e03b39",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f9d455d2-5585-4471-bcd5-1ddb3d557830",
+        "date": "2020-04-29T00:00:00+01:00",
+        "buyer": "East Riding of Yorkshire",
+        "title": "CM128 - YORbuild Major Works Contractors Framework Agreement",
+        "value_gbp": 187500000.0,
+        "procurement_method": "open",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2026-04-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f1399473-54dd-4b96-aff5-bccc86154231",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0ac9f3a6-83f4-4f8a-874c-f927b48d445c",
+        "date": "2020-03-20T00:00:00Z",
+        "buyer": "PAGABO",
+        "title": "National Framework for Major Works 2020 (£5m+) - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2020-04-12T00:00:00+01:00",
+        "contract_end": "2026-04-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7e9bde84-fb44-4e10-b0df-a82261fab10e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 99493597,
+      "awarded_2024_gbp_from_cf": 28229936.73,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 3.5× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.28
+    }
+  }
+}

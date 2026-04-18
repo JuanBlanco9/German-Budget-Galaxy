@@ -1,0 +1,129 @@
+{
+  "company_number": "RC000331",
+  "display_name": "National Heritage Memorial Fund",
+  "identity": {
+    "ch_number": "RC000331",
+    "official_name": "LORD KITCHENER NATIONAL MEMORIAL FUND",
+    "display_name": "National Heritage Memorial Fund",
+    "status": "active",
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000331"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 28000000,
+    "rank": 520,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_culture_media_and_sport",
+        "dept_name": "DCMS",
+        "amount_gbp": 28000000,
+        "segments": [
+          {
+            "segment": "National Lottery & Heritage",
+            "amount_gbp": 28000000,
+            "pct_of_segment": 27.26,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000331",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000331"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000331/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000331/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 520,
+    "enriched_at": "2026-04-16T20:19:17Z",
+    "governance_enriched_at": "2026-04-16T22:28:08Z",
+    "ubo_enriched_at": "2026-04-16T23:15:17Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

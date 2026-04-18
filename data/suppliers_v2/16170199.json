@@ -1,0 +1,198 @@
+{
+  "company_number": "16170199",
+  "display_name": "DVLA",
+  "identity": {
+    "ch_number": "16170199",
+    "official_name": "DVLACOMMERCE LIMITED",
+    "display_name": "DVLA",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2025-01-08",
+    "age_years": 1,
+    "registered_office": {
+      "address_line_1": "1 Priory Close",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "N3 1BB"
+    },
+    "sic_codes": [
+      "47890"
+    ],
+    "sic_labels": [
+      "SIC 47890"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/16170199"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 13570281,
+    "rank": 677,
+    "category": "public_body",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "cabinet_office",
+        "dept_name": "Cabinet Office",
+        "amount_gbp": 13570281,
+        "segments": [
+          {
+            "segment": "Cabinet Office",
+            "amount_gbp": 13570281,
+            "pct_of_segment": 1.7,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "AHMAD, Muhammad Usman",
+        "role": "director",
+        "appointed_on": "2025-01-08",
+        "resigned_on": null,
+        "nationality": "Pakistani",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 2001
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N3 1BB",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "AHMAD, Muhammad Usman",
+        "role": "director",
+        "appointed_on": "2025-01-08",
+        "resigned_on": null,
+        "nationality": "Pakistani",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 2001
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N3 1BB",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "16170199",
+          "name": "Mr Muhammad Usman Ahmad",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-01-08",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16170199",
+            "notified_on": "2025-01-08",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16170199/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Muhammad Usman Ahmad"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 58,
+    "label": "medium",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-20",
+        "company_too_young_(1y)_for_spend"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16170199"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/16170199/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/16170199/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "public_body",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 677,
+    "enriched_at": "2026-04-16T20:34:30Z",
+    "governance_enriched_at": "2026-04-16T22:36:32Z",
+    "ubo_enriched_at": "2026-04-16T23:22:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

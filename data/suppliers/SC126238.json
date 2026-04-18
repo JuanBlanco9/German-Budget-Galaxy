@@ -1,0 +1,516 @@
+{
+  "company_number": "SC126238",
+  "display_name": "CITIZENS ADVICE BUREAU",
+  "identity": {
+    "ch_number": "SC126238",
+    "official_name": "CITIZENS ADVICE BUREAU (GRANGEMOUTH & BO'NESS) LIMITED",
+    "display_name": "CITIZENS ADVICE BUREAU",
+    "status": "active",
+    "type": "private-limited-guarant-nsc",
+    "jurisdiction": "scotland",
+    "incorporated": "1990-07-13",
+    "age_years": 35,
+    "registered_office": {
+      "address_line_1": "4 York Arcade",
+      "country": "Scotland",
+      "locality": "Grangemouth",
+      "postal_code": "FK3 8BA"
+    },
+    "sic_codes": [
+      "63990"
+    ],
+    "sic_labels": [
+      "Other information service activities"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/SC126238"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16780305,
+    "rank": 618,
+    "category": "unclear",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 11877774,
+        "segments": [
+          {
+            "segment": "Victim & Witness Support",
+            "amount_gbp": 11877774,
+            "pct_of_segment": 6.56,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 4902531,
+        "segments": [
+          {
+            "segment": "Universal Credit",
+            "amount_gbp": 4902531,
+            "pct_of_segment": 5.69,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-01-06",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzQ5NTY4Mzg2N2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/SC126238_2026-01-06.pdf",
+      "size_mb": 0.33,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 7,
+    "officers_resigned_count": 16,
+    "board_turnover_ratio": 2.29,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "CURTIS, Robert Andrew",
+        "role": "director",
+        "appointed_on": "2025-07-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1975
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "LAMBIE, Joseph Thomas",
+        "role": "director",
+        "appointed_on": "2008-09-24",
+        "resigned_on": null,
+        "nationality": "United Kingdom",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1941
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "STEWART, Helen Rennie",
+        "role": "director",
+        "appointed_on": "2015-11-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "WARDALL, Gordon James",
+        "role": "director",
+        "appointed_on": "2025-02-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "YOUNG, Jane",
+        "role": "director",
+        "appointed_on": "1993-05-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1946
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "YOUNG, Sandy",
+        "role": "director",
+        "appointed_on": "2020-10-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CURTIS, Robert Andrew",
+        "role": "secretary",
+        "appointed_on": "2025-07-09",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CURTIS, Robert Andrew",
+        "role": "secretary",
+        "appointed_on": "2025-07-09",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "CURTIS, Robert Andrew",
+        "role": "director",
+        "appointed_on": "2025-07-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1975
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "LAMBIE, Joseph Thomas",
+        "role": "director",
+        "appointed_on": "2008-09-24",
+        "resigned_on": null,
+        "nationality": "United Kingdom",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1941
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "STEWART, Helen Rennie",
+        "role": "director",
+        "appointed_on": "2015-11-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "WARDALL, Gordon James",
+        "role": "director",
+        "appointed_on": "2025-02-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1960
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "YOUNG, Jane",
+        "role": "director",
+        "appointed_on": "1993-05-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1946
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "YOUNG, Sandy",
+        "role": "director",
+        "appointed_on": "2020-10-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Grangemouth",
+          "postal_code": "FK3 8BA",
+          "country": "Scotland"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 16,
+      "recent": [
+        {
+          "name": "LAMBIE, Joseph Thomas",
+          "role": "secretary",
+          "appointed_on": "2022-05-24",
+          "resigned_on": "2025-07-09",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Grangemouth",
+            "postal_code": "FK3 8BA",
+            "country": "Scotland"
+          }
+        },
+        {
+          "name": "IRVINE, Elspeth Anderson",
+          "role": "director",
+          "appointed_on": "1997-05-26",
+          "resigned_on": "2023-01-05",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1937
+          },
+          "address": {
+            "locality": "Grangemouth",
+            "postal_code": "FK3 8BA",
+            "country": "Scotland"
+          }
+        },
+        {
+          "name": "IRVINE, Elspeth Anderson",
+          "role": "secretary",
+          "appointed_on": null,
+          "resigned_on": "2022-05-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Grangemouth",
+            "postal_code": "FK3 8BA",
+            "country": "Scotland"
+          }
+        },
+        {
+          "name": "CAMPBELL, Suzanne",
+          "role": "director",
+          "appointed_on": "2010-05-27",
+          "resigned_on": "2012-05-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1961
+          },
+          "address": {
+            "locality": "Falkirk",
+            "postal_code": "FK2 0AQ",
+            "country": "Scotland"
+          }
+        },
+        {
+          "name": "DOUGLAS, James Alexander Ferguson",
+          "role": "director",
+          "appointed_on": null,
+          "resigned_on": "2010-05-21",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": {
+            "month": 8,
+            "year": 1924
+          },
+          "address": {
+            "locality": "Grangemouth",
+            "postal_code": "FK3 8YH",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "SC126238",
+          "name": "Mr William Palombo",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2025-07-21",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC126238",
+            "notified_on": "2025-07-21",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC126238/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr William Palombo"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 80,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/SC126238"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTY4Mzg2N2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/SC126238_2026-01-06.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC126238/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC126238/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 618,
+    "enriched_at": "2026-04-16T20:28:28Z",
+    "governance_enriched_at": "2026-04-16T22:33:06Z",
+    "ubo_enriched_at": "2026-04-16T23:19:40Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

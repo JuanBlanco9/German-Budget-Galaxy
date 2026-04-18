@@ -1,0 +1,190 @@
+{
+  "company_number": "OC377145",
+  "display_name": "PALLADIUM INT LTD  UKPACT",
+  "identity": {
+    "ch_number": "OC377145",
+    "official_name": "PALLADIUM INT. LLP",
+    "display_name": "PALLADIUM INT LTD  UKPACT",
+    "status": "dissolved",
+    "type": "llp",
+    "jurisdiction": "england-wales",
+    "incorporated": "2012-07-23",
+    "age_years": 13,
+    "registered_office": {
+      "address_line_1": "Minshull House",
+      "address_line_2": "67 Wellington Road North",
+      "country": "United Kingdom",
+      "locality": "Stockport",
+      "postal_code": "SK4 2LP",
+      "region": "Cheshire"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/OC377145"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 10146395,
+    "rank": 739,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "foreign_commonwealth_and_development_office",
+        "dept_name": "FCDO",
+        "amount_gbp": 10146395,
+        "segments": [
+          {
+            "segment": "Development Contractors",
+            "amount_gbp": 10146395,
+            "pct_of_segment": 2.61,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 0.5,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "PALLADIUM HOLDINGS LIMITED",
+        "role": "corporate-llp-designated-member",
+        "appointed_on": "2012-07-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Valletta Vlt 1432",
+          "postal_code": null,
+          "country": "Malta"
+        }
+      },
+      {
+        "name": "PALLADIUM INTERNATIONAL SERVICES LTD.",
+        "role": "corporate-llp-designated-member",
+        "appointed_on": "2013-07-22",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Road Town",
+          "postal_code": null,
+          "country": "British Virgin Islands"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "LEVENI, Stefano",
+          "role": "llp-designated-member",
+          "appointed_on": "2012-07-23",
+          "resigned_on": "2013-07-22",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": "Italy",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1971
+          },
+          "address": {
+            "locality": "Valletta Vlt 1432",
+            "postal_code": null,
+            "country": "Malta"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "OC377145",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 48,
+    "label": "low",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/OC377145"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/OC377145/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/OC377145/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 739,
+    "enriched_at": "2026-04-16T20:39:16Z",
+    "governance_enriched_at": "2026-04-16T22:39:07Z",
+    "ubo_enriched_at": "2026-04-16T23:24:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

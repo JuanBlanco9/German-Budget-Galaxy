@@ -1,0 +1,206 @@
+{
+  "company_number": "13553202",
+  "display_name": "ANIMAL & PLANT HEALTH AGENCY",
+  "identity": {
+    "ch_number": "13553202",
+    "official_name": "ANIMAL & PLANT HEALTH SOLUTIONS LTD",
+    "display_name": "ANIMAL & PLANT HEALTH AGENCY",
+    "status": "dissolved",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2021-08-06",
+    "age_years": 4,
+    "registered_office": {
+      "address_line_1": "24 Enterprise Road",
+      "country": "England",
+      "locality": "Waterlooville",
+      "postal_code": "PO8 0BT"
+    },
+    "sic_codes": [
+      "01629",
+      "75000"
+    ],
+    "sic_labels": [
+      "SIC 01629",
+      "SIC 75000"
+    ],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/13553202"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 25950683,
+    "rank": 533,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 25950683,
+        "segments": [
+          {
+            "segment": "DEFRA",
+            "amount_gbp": 25950683,
+            "pct_of_segment": 1.18,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 4,
+    "board_turnover_ratio": 4.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 4,
+      "recent": [
+        {
+          "name": "POLYVITA LIMITED",
+          "role": "corporate-director",
+          "appointed_on": "2022-06-08",
+          "resigned_on": "2022-06-08",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Waterlooville",
+            "postal_code": "PO8 0BT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BAYBUTT, Shane",
+          "role": "director",
+          "appointed_on": "2022-02-10",
+          "resigned_on": "2022-02-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1997
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "BAYBUTT, Shane Joseph",
+          "role": "director",
+          "appointed_on": "2021-08-06",
+          "resigned_on": "2022-01-18",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1997
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "LEE, Brandon Lee",
+          "role": "director",
+          "appointed_on": "2021-08-06",
+          "resigned_on": "2021-10-21",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1996
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC1N 3AX",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "13553202",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 30,
+    "label": "suspicious",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/13553202"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/13553202/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/13553202/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 533,
+    "enriched_at": "2026-04-16T20:20:31Z",
+    "governance_enriched_at": "2026-04-16T22:28:50Z",
+    "ubo_enriched_at": "2026-04-16T23:16:32Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

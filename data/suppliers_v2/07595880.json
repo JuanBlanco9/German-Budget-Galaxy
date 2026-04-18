@@ -1,0 +1,717 @@
+{
+  "company_number": "07595880",
+  "display_name": "MONITOR INTELLIGENCE SERVICES LTD",
+  "identity": {
+    "ch_number": "07595880",
+    "official_name": "MONITOR INTELLIGENCE SERVICES LTD",
+    "display_name": "MONITOR INTELLIGENCE SERVICES LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2011-04-07",
+    "age_years": 15,
+    "registered_office": {
+      "address_line_1": "Regus House Windmill Hill Business Park",
+      "address_line_2": "Whitehill Way",
+      "locality": "Swindon",
+      "postal_code": "SN5 6QR"
+    },
+    "sic_codes": [
+      "62090"
+    ],
+    "sic_labels": [
+      "Other information technology service activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/07595880"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16291136,
+    "rank": 627,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 16291136,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 16291136,
+            "pct_of_segment": 3.22,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-04-07",
+    "period_end": "2025-08-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzUxNDcyNDYxOGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/07595880_2026-04-07.pdf",
+      "size_mb": 0.12,
+      "exists": true
+    },
+    "next_accounts_due": "2027-05-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "REYNOLDS, Jody",
+        "role": "director",
+        "appointed_on": "2011-04-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Swindon",
+          "postal_code": "SN5 6QR",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TULLEY, Andrew Luke",
+        "role": "director",
+        "appointed_on": "2011-04-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Oxford",
+          "postal_code": "OX4 2ET",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "REYNOLDS, Jody",
+        "role": "director",
+        "appointed_on": "2011-04-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Swindon",
+          "postal_code": "SN5 6QR",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TULLEY, Andrew Luke",
+        "role": "director",
+        "appointed_on": "2011-04-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Oxford",
+          "postal_code": "OX4 2ET",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 2,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 2,
+    "chains_count": 2,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "07595880",
+          "name": "Mr Jody Reynolds",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2016-07-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07595880",
+            "notified_on": "2016-07-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07595880/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "07595880",
+          "name": "Mr Andrew Luke Tulley",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2016-07-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07595880",
+            "notified_on": "2016-07-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07595880/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Andrew Luke Tulley",
+        "Mr Jody Reynolds"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 93,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07595880"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxNDcyNDYxOGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/07595880_2026-04-07.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07595880/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07595880/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 627,
+    "enriched_at": "2026-04-16T20:29:17Z",
+    "governance_enriched_at": "2026-04-16T22:33:51Z",
+    "ubo_enriched_at": "2026-04-16T23:20:18Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 12,
+      "total_contracts_non_framework": 12,
+      "total_awarded_gbp": 72683242.4,
+      "total_awarded_non_framework_gbp": 72683242.4,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +80.4% between 2021 (£11M) and 2023 (£35M)",
+      "longest_buyer_relationship": {
+        "buyer": "MINISTRY OF DEFENCE",
+        "years_count": 3,
+        "years_list": [
+          2021,
+          2022,
+          2023
+        ],
+        "total_value_gbp": 38459334.4,
+        "n_contracts": 8
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 356000,
+        "awarded_gbp_non_framework": 356000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Navy Command Commercial",
+          "contracts": 2,
+          "value_gbp": 356000
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2021": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 10734000,
+        "awarded_gbp_non_framework": 10734000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 4,
+          "value_gbp": 10734000
+        },
+        "procurement_method_counts": {
+          "selective": 4
+        }
+      },
+      "2022": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 26294400,
+        "awarded_gbp_non_framework": 26294400,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 2,
+          "value_gbp": 26294400
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2023": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 34930934.4,
+        "awarded_gbp_non_framework": 34930934.4,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Army Commercial",
+          "contracts": 1,
+          "value_gbp": 33500000
+        },
+        "procurement_method_counts": {
+          "selective": 3
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 367908,
+        "awarded_gbp_non_framework": 367908,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Army Commercial",
+          "contracts": 1,
+          "value_gbp": 367908
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 356000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 6734000.0,
+        "n_distinct_codes": 2
+      },
+      "2022": {
+        "top_code": "71600000",
+        "top_label": "Technical testing, analysis and consultancy services",
+        "top_value_gbp": 13147200.0,
+        "n_distinct_codes": 2
+      },
+      "2023": {
+        "top_code": "72500000",
+        "top_label": "Computer-related services",
+        "top_value_gbp": 33500000.0,
+        "n_distinct_codes": 3
+      },
+      "2024": {
+        "top_code": "72261000",
+        "top_label": "Software support services",
+        "top_value_gbp": 367908.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 12
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 72683242.4
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 8,
+        "value_gbp": 38459334.4
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/Ev8V4WuH",
+        "buyer_name": "Army Commercial",
+        "contracts": 2,
+        "value_gbp": 33867908
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/Br3H6DYr",
+        "buyer_name": "Navy Command Commercial",
+        "contracts": 2,
+        "value_gbp": 356000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "72500000",
+        "label": "Computer-related services",
+        "contracts": 1,
+        "value_gbp": 33500000
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 6,
+        "value_gbp": 20237200
+      },
+      {
+        "code": "71600000",
+        "label": "Technical testing, analysis and consultancy services",
+        "contracts": 1,
+        "value_gbp": 13147200
+      },
+      {
+        "code": "48215000",
+        "label": "Networking developers' software package",
+        "contracts": 1,
+        "value_gbp": 4000000
+      },
+      {
+        "code": "71354100",
+        "label": "Digital mapping services",
+        "contracts": 1,
+        "value_gbp": 1035434.4
+      },
+      {
+        "code": "48000000",
+        "label": "Software package and information systems",
+        "contracts": 1,
+        "value_gbp": 395500
+      },
+      {
+        "code": "72261000",
+        "label": "Software support services",
+        "contracts": 1,
+        "value_gbp": 367908
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-14a8afbb-fe17-4498-b050-5c163ddddf55",
+        "date": "2024-08-28T00:00:00+01:00",
+        "buyer": "Army Commercial",
+        "title": "Provision of Continued RPP Transition Team Digital Support",
+        "value_gbp": 367908,
+        "procurement_method": "selective",
+        "cpv_code": "72261000",
+        "cpv_label": "Software support services",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2026-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/96ae7f22-1544-473d-ba75-ac8f949f67ce",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4cdf3d7e-6bae-491f-b6a3-3cb37b2add02",
+        "date": "2023-09-25T00:00:00+01:00",
+        "buyer": "Army Commercial",
+        "title": "708704450 (DInfoCom/0246) - RM1043.8 Lot 1 - ADS - Provision of Develop as a Service",
+        "value_gbp": 33500000,
+        "procurement_method": "selective",
+        "cpv_code": "72500000",
+        "cpv_label": "Computer-related services",
+        "contract_start": "2023-10-02T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e76d539f-6796-4270-8e31-339bfb43d397",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-96410eee-cdb2-4b42-bbd3-317a87cacc86",
+        "date": "2023-03-08T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "(DInfoCom/0235) ADS Integration as a Service (IAAS)",
+        "value_gbp": 1035434.4,
+        "procurement_method": "selective",
+        "cpv_code": "71354100",
+        "cpv_label": "Digital mapping services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/adaae53a-8123-4d53-b4a2-5145377e7f6f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-aea0c888-2152-4dcf-a571-bbd7a345d0ed",
+        "date": "2023-02-09T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "The Provision of ADS Service Management as a Service (SMaaS)",
+        "value_gbp": 395500,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2023-02-15T00:00:00Z",
+        "contract_end": "2025-02-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/78081c0b-9d87-4367-a5e7-0eebaad593fa",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-51ae2565-3a1c-41c5-b638-c31a6fd5d340",
+        "date": "2022-12-08T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Test as a Service",
+        "value_gbp": 13147200,
+        "procurement_method": "selective",
+        "cpv_code": "71600000",
+        "cpv_label": "Technical testing, analysis and consultancy services",
+        "contract_start": "2023-02-01T00:00:00Z",
+        "contract_end": "2026-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0bf1c79f-75b4-4499-8ff6-435be50e64d7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-51ae2565-3a1c-41c5-b638-c31a6fd5d340",
+        "date": "2022-12-08T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Test as a Service",
+        "value_gbp": 13147200,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-02-01T00:00:00Z",
+        "contract_end": "2026-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0bf1c79f-75b4-4499-8ff6-435be50e64d7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bd4498ae-fd24-4e14-9a93-90141f8cc058",
+        "date": "2021-02-19T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Provision of ADS Integration as a Service (IaaS) (DInfoCom/0152)",
+        "value_gbp": 1302000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/449bb14e-d9c7-4a0d-897a-fcefe023f7eb",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bd4498ae-fd24-4e14-9a93-90141f8cc058",
+        "date": "2021-02-19T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Provision of ADS Integration as a Service (IaaS) (DInfoCom/0152)",
+        "value_gbp": 2050000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/449bb14e-d9c7-4a0d-897a-fcefe023f7eb",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-af3d0fa2-5b2a-4610-9e34-218076fc7b9d",
+        "date": "2021-01-29T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "701054389 (DInfoCom/0137) - Provision of ADS Service Management as a Service (SMaaS)",
+        "value_gbp": 3382000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-02-15T00:00:00Z",
+        "contract_end": "2023-02-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b9c62d0d-540c-4b40-8dd2-ede079d3d8d7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1dc4df7c-69e4-40c6-98e1-3d9dbe20bbfc",
+        "date": "2021-01-19T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "ADS Develop as a Service (DaaS)",
+        "value_gbp": 4000000,
+        "procurement_method": "selective",
+        "cpv_code": "48215000",
+        "cpv_label": "Networking developers' software package",
+        "contract_start": "2021-03-01T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f25f330a-22e0-4430-b506-fa01dc23a15e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a3f6b828-759b-48ce-900e-b4a20a2c23d2",
+        "date": "2020-03-05T00:00:00Z",
+        "buyer": "Navy Command Commercial",
+        "title": "Provision of Developer Services for the PCAP People Transformation Programme - OBIEE Developer",
+        "value_gbp": 178000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-03-09T00:00:00Z",
+        "contract_end": "2021-03-09T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/caae5ea6-cbe0-4b2e-be4b-4a0d20abff31",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a3f6b828-759b-48ce-900e-b4a20a2c23d2",
+        "date": "2020-03-05T00:00:00Z",
+        "buyer": "Navy Command Commercial",
+        "title": "Provision of Developer Services for the PCAP People Transformation Programme - OBIEE Developer",
+        "value_gbp": 178000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-03-09T00:00:00Z",
+        "contract_end": "2021-03-09T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/caae5ea6-cbe0-4b2e-be4b-4a0d20abff31",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 16291136,
+      "awarded_2024_gbp_from_cf": 367908,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 44.3× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.02
+    }
+  }
+}

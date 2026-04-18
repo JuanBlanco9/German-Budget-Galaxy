@@ -1,0 +1,251 @@
+{
+  "company_number": "12584542",
+  "display_name": "AFRICAN DEVELOPMENT FUND",
+  "identity": {
+    "ch_number": "12584542",
+    "official_name": "AFRICAN DEVELOPMENT FUNDING GROUP LTD",
+    "display_name": "AFRICAN DEVELOPMENT FUND",
+    "status": "dissolved",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2020-05-04",
+    "age_years": 5,
+    "registered_office": {
+      "address_line_1": "Suite A Bank House",
+      "address_line_2": "81 Judes Road",
+      "country": "England",
+      "locality": "Egham",
+      "postal_code": "TW20 0DF"
+    },
+    "sic_codes": [
+      "70221"
+    ],
+    "sic_labels": [
+      "SIC 70221"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12584542"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 30000000,
+    "rank": 504,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "foreign_commonwealth_and_development_office",
+        "dept_name": "FCDO",
+        "amount_gbp": 30000000,
+        "segments": [
+          {
+            "segment": "Multilateral Organisations",
+            "amount_gbp": 30000000,
+            "pct_of_segment": 1.15,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2023-06-03",
+    "period_end": "2023-05-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzM4MTgyMjI4NGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/12584542_2023-06-03.pdf",
+      "size_mb": 0.02,
+      "exists": true
+    },
+    "next_accounts_due": null,
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 9,
+    "board_turnover_ratio": 9.0,
+    "board_turnover_signal": "high",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 9,
+      "recent": [
+        {
+          "name": "KIM, Gyeun Bai",
+          "role": "director",
+          "appointed_on": "2022-05-26",
+          "resigned_on": "2024-07-01",
+          "nationality": "South Korean",
+          "occupation": null,
+          "country_of_residence": "Hong Kong",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1944
+          },
+          "address": {
+            "locality": "Kowloon",
+            "postal_code": "00000",
+            "country": "Hong Kong"
+          }
+        },
+        {
+          "name": "KUM, Kit Ching Catherine",
+          "role": "director",
+          "appointed_on": "2022-05-26",
+          "resigned_on": "2024-07-01",
+          "nationality": "Hong Konger",
+          "occupation": null,
+          "country_of_residence": "Hong Kong",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1968
+          },
+          "address": {
+            "locality": "Kowloon",
+            "postal_code": "00000",
+            "country": "Hong Kong"
+          }
+        },
+        {
+          "name": "MUDOLO, Willah",
+          "role": "director",
+          "appointed_on": "2020-05-04",
+          "resigned_on": "2024-07-01",
+          "nationality": "Zambian",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW2 2HN",
+            "country": "England"
+          }
+        },
+        {
+          "name": "OTIENO, Duncan Oduor",
+          "role": "director",
+          "appointed_on": "2022-05-26",
+          "resigned_on": "2024-07-01",
+          "nationality": "Kenyan",
+          "occupation": null,
+          "country_of_residence": "Hong Kong",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1976
+          },
+          "address": {
+            "locality": "Kowloon",
+            "postal_code": "00000",
+            "country": "Hong Kong"
+          }
+        },
+        {
+          "name": "MARGARETTA CORPORATE SECRETARIES LIMITED",
+          "role": "corporate-nominee-secretary",
+          "appointed_on": "2020-05-04",
+          "resigned_on": "2024-05-23",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "NW2 2HN",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "12584542",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 35,
+    "label": "low",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12584542"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzM4MTgyMjI4NGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/12584542_2023-06-03.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12584542/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12584542/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 504,
+    "enriched_at": "2026-04-16T20:18:17Z",
+    "governance_enriched_at": "2026-04-16T22:27:38Z",
+    "ubo_enriched_at": "2026-04-16T23:15:04Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

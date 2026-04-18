@@ -1,0 +1,258 @@
+{
+  "company_number": "11995074",
+  "display_name": "DEFRA",
+  "identity": {
+    "ch_number": "11995074",
+    "official_name": "DEFRACT DESIGN LTD",
+    "display_name": "DEFRA",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2019-05-14",
+    "age_years": 6,
+    "registered_office": {
+      "address_line_1": "2 Chamberlain Square",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B3 3AX",
+      "region": "West Midlands"
+    },
+    "sic_codes": [
+      "74100"
+    ],
+    "sic_labels": [
+      "SIC 74100"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/11995074"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 47521424,
+    "rank": 395,
+    "category": "unclear",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 44708556,
+        "segments": [
+          {
+            "segment": "EA",
+            "amount_gbp": 12626325,
+            "pct_of_segment": 1.28,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "NE",
+            "amount_gbp": 25868100,
+            "pct_of_segment": 21.21,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "APHA",
+            "amount_gbp": 5332456,
+            "pct_of_segment": 10.26,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "ANIMAL & PLANT HEALTH AGENCY",
+            "amount_gbp": 230175,
+            "pct_of_segment": 1.01,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          },
+          {
+            "segment": "RPA",
+            "amount_gbp": 35014,
+            "pct_of_segment": 0.41,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "NATURAL ENGLAND",
+            "amount_gbp": 616486,
+            "pct_of_segment": 10.5,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 2812868,
+        "segments": [
+          {
+            "segment": "Change Programmes",
+            "amount_gbp": 2812868,
+            "pct_of_segment": 1.61,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-02-18",
+    "period_end": "2025-05-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzUwNTg5NjQ5MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/11995074_2026-02-18.pdf",
+      "size_mb": 0.02,
+      "exists": true
+    },
+    "next_accounts_due": "2027-02-28",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "BROOKS, Carl",
+        "role": "director",
+        "appointed_on": "2019-05-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1988
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 3AX",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BROOKS, Carl",
+        "role": "director",
+        "appointed_on": "2019-05-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1988
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 3AX",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "11995074",
+          "name": "Mr Carl Brooks",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-05-14",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "11995074",
+            "notified_on": "2019-05-14",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/11995074/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Carl Brooks"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 78,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11995074"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwNTg5NjQ5MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/11995074_2026-02-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11995074/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11995074/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 395,
+    "enriched_at": "2026-04-16T20:09:06Z",
+    "governance_enriched_at": "2026-04-16T22:23:07Z",
+    "ubo_enriched_at": "2026-04-16T23:10:24Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

@@ -1,0 +1,1465 @@
+{
+  "company_number": "04273754",
+  "display_name": "MORGAN SINDALL CONSTRUCTION & INFRASTRUCTURE LIMITED",
+  "identity": {
+    "ch_number": "04273754",
+    "official_name": "MORGAN SINDALL CONSTRUCTION & INFRASTRUCTURE LTD",
+    "display_name": "MORGAN SINDALL CONSTRUCTION & INFRASTRUCTURE LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2001-08-20",
+    "age_years": 24,
+    "registered_office": {
+      "address_line_1": "Kent House",
+      "address_line_2": "14-17 Market Place",
+      "locality": "London",
+      "postal_code": "W1W 8AJ"
+    },
+    "sic_codes": [
+      "41201",
+      "41202",
+      "42120",
+      "42130"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings",
+      "Construction of residential buildings",
+      "Construction of railways",
+      "Construction of bridges and tunnels"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04273754"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 226246593,
+    "rank": 157,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 135269901,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 98179351,
+            "pct_of_segment": 2.43,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Capital Directorate",
+            "amount_gbp": 36867066,
+            "pct_of_segment": 1.96,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "ESFA Corporate, Assurance and Restructuring Directorate",
+            "amount_gbp": 223484,
+            "pct_of_segment": 0.36,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 90549849,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 90549849,
+            "pct_of_segment": 1.97,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 426843,
+        "segments": [
+          {
+            "segment": "Enabling",
+            "amount_gbp": 426843,
+            "pct_of_segment": 1.18,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-04-03",
+    "period_end": "2025-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUxMjk1ODg5MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04273754_2026-04-03.pdf",
+      "size_mb": 2.62,
+      "exists": true
+    },
+    "next_accounts_due": "2027-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 7,
+    "officers_resigned_count": 38,
+    "board_turnover_ratio": 5.43,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "ATKINSON, Mark Roger",
+        "role": "director",
+        "appointed_on": "2020-12-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BOYLE, Patrick Denis",
+        "role": "director",
+        "appointed_on": "2014-03-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "GANGOTRA, Culdip Kelly Kaur",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORGAN, John Christopher",
+        "role": "director",
+        "appointed_on": "2013-12-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": null
+        }
+      },
+      {
+        "name": "SMITH, Simon Craven",
+        "role": "director",
+        "appointed_on": "2017-06-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TEMPLAR-COATES, Oliver Trevor Marwood",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "MINNS, Lisa Ann Katherine",
+        "role": "secretary",
+        "appointed_on": "2025-06-03",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "MINNS, Lisa Ann Katherine",
+        "role": "secretary",
+        "appointed_on": "2025-06-03",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "ATKINSON, Mark Roger",
+        "role": "director",
+        "appointed_on": "2020-12-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BOYLE, Patrick Denis",
+        "role": "director",
+        "appointed_on": "2014-03-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "GANGOTRA, Culdip Kelly Kaur",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORGAN, John Christopher",
+        "role": "director",
+        "appointed_on": "2013-12-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": null
+        }
+      },
+      {
+        "name": "SMITH, Simon Craven",
+        "role": "director",
+        "appointed_on": "2017-06-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TEMPLAR-COATES, Oliver Trevor Marwood",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 38,
+      "recent": [
+        {
+          "name": "MASON, Helen Mary",
+          "role": "secretary",
+          "appointed_on": "2024-06-27",
+          "resigned_on": "2025-04-22",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "W1W 8AJ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "SHERIDAN, Clare",
+          "role": "secretary",
+          "appointed_on": "2001-10-30",
+          "resigned_on": "2024-06-27",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "W1W 8AJ",
+            "country": null
+          }
+        },
+        {
+          "name": "CRUMMETT, Stephen Paul",
+          "role": "director",
+          "appointed_on": "2013-02-26",
+          "resigned_on": "2024-05-07",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1965
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1W 8AJ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "KANE, Paul Edward",
+          "role": "director",
+          "appointed_on": "2020-11-30",
+          "resigned_on": "2022-06-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Rugby",
+            "postal_code": "CV21 2DW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "LEDWIDGE, Joseph John",
+          "role": "director",
+          "appointed_on": "2012-11-27",
+          "resigned_on": "2020-11-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Rugby",
+            "postal_code": "CV21 2DW",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "04273754",
+          "name": "Morgan Sindall Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04273754",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04273754/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05744976",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05744976",
+          "name": "Morgan Sindall Group Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05744976",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05744976/persons-with-significant-control/corporate-entity/DGj0AlcaAGh4zoAu8arAQJlZ6Ok"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "00521970",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04273754"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxMjk1ODg5MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04273754_2026-04-03.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04273754/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04273754/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 157,
+    "enriched_at": "2026-04-16T19:25:39Z",
+    "governance_enriched_at": "2026-04-16T22:12:52Z",
+    "ubo_enriched_at": "2026-04-16T22:52:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 174,
+      "total_contracts_non_framework": 138,
+      "total_awarded_gbp": 14976734519.215181,
+      "total_awarded_non_framework_gbp": 2770409043.7442856,
+      "years_active": 7,
+      "first_year": 2018,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +84.7% between 2018 (£5M) and 2024 (£193M)",
+      "longest_buyer_relationship": {
+        "buyer": "Department For Education",
+        "years_count": 6,
+        "years_list": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 221322764.45,
+        "n_contracts": 31
+      },
+      "n_unique_buyers_all_years": 62,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2018": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 32139178.272727273,
+        "awarded_gbp_non_framework": 4866451,
+        "awarded_gbp_framework_share": 27272727.272727273,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "SCAPE GROUP LIMITED",
+          "contracts": 1,
+          "value_gbp": 27272727.272727273
+        },
+        "procurement_method_counts": {
+          "unspecified": 1,
+          "selective": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 251906326.78,
+        "awarded_gbp_non_framework": 1906326.78,
+        "awarded_gbp_framework_share": 250000000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "Sheffield City Council",
+          "contracts": 1,
+          "value_gbp": 250000000.0
+        },
+        "procurement_method_counts": {
+          "open": 2,
+          "selective": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 26,
+        "n_contracts_non_framework": 18,
+        "awarded_gbp_total": 1639472889.4542856,
+        "awarded_gbp_non_framework": 1417329259.4542856,
+        "awarded_gbp_framework_share": 222143630.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 8,
+        "top_buyer": {
+          "buyer": "Highways England",
+          "contracts": 2,
+          "value_gbp": 1285714285.7142856
+        },
+        "procurement_method_counts": {
+          "selective": 21,
+          "open": 5
+        }
+      },
+      "2021": {
+        "n_contracts": 36,
+        "n_contracts_non_framework": 22,
+        "awarded_gbp_total": 11838319903.588646,
+        "awarded_gbp_non_framework": 431731258.9,
+        "awarded_gbp_framework_share": 11406588644.688644,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 17,
+        "top_buyer": {
+          "buyer": "Scape Group Limited",
+          "contracts": 6,
+          "value_gbp": 10285714285.714287
+        },
+        "procurement_method_counts": {
+          "open": 5,
+          "unspecified": 3,
+          "selective": 28
+        }
+      },
+      "2022": {
+        "n_contracts": 36,
+        "n_contracts_non_framework": 29,
+        "awarded_gbp_total": 799087450.6861905,
+        "awarded_gbp_non_framework": 540436307.4399999,
+        "awarded_gbp_framework_share": 258651143.2461905,
+        "sole_source_pct": 0.9,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 18,
+        "top_buyer": {
+          "buyer": "Manchester City Council",
+          "contracts": 1,
+          "value_gbp": 187500000.0
+        },
+        "procurement_method_counts": {
+          "open": 5,
+          "unspecified": 10,
+          "selective": 20,
+          "direct": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 38,
+        "n_contracts_non_framework": 33,
+        "awarded_gbp_total": 222363404.20333335,
+        "awarded_gbp_non_framework": 180694073.94,
+        "awarded_gbp_framework_share": 41669330.263333336,
+        "sole_source_pct": 1.96,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 20,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 1,
+          "value_gbp": 58000000
+        },
+        "procurement_method_counts": {
+          "selective": 22,
+          "open": 6,
+          "unspecified": 8,
+          "limited": 1,
+          "direct": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 33,
+        "n_contracts_non_framework": 33,
+        "awarded_gbp_total": 193445366.23,
+        "awarded_gbp_non_framework": 193445366.23,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 16.86,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 15,
+        "top_buyer": {
+          "buyer": "University of Greenwich",
+          "contracts": 1,
+          "value_gbp": 60000000.0
+        },
+        "procurement_method_counts": {
+          "direct": 6,
+          "unspecified": 10,
+          "selective": 15,
+          "open": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2018": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 32139178.272727273,
+        "n_distinct_codes": 1
+      },
+      "2019": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 250000000.0,
+        "n_distinct_codes": 3
+      },
+      "2020": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 1635510337.0642855,
+        "n_distinct_codes": 2
+      },
+      "2021": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 11215062129.813261,
+        "n_distinct_codes": 9
+      },
+      "2022": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 585256185.7861905,
+        "n_distinct_codes": 9
+      },
+      "2023": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 174920016.3333333,
+        "n_distinct_codes": 12
+      },
+      "2024": {
+        "top_code": "45000000",
+        "top_label": "Construction work",
+        "top_value_gbp": 99824922.14999998,
+        "n_distinct_codes": 10
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 32,
+        "selective": 108,
+        "open": 25,
+        "direct": 8,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 102873278.10000001,
+        "selective": 13735774875.466942,
+        "open": 1093906075.268242,
+        "direct": 42660495.239999995,
+        "limited": 1519795.14
+      },
+      "sole_source_pct_all_years": 0.29,
+      "competitive_pct_all_years": 99.02,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-184564",
+        "buyer_name": "Scape Group Limited",
+        "contracts": 6,
+        "value_gbp": 10285714285.714287
+      },
+      {
+        "buyer_id": "GB-CFS-46746",
+        "buyer_name": "Highways England",
+        "contracts": 5,
+        "value_gbp": 1465255414.7142856
+      },
+      {
+        "buyer_id": "GB-CFS-126886",
+        "buyer_name": "Department for Education",
+        "contracts": 3,
+        "value_gbp": 807692307.6923077
+      },
+      {
+        "buyer_id": "GB-CFS-42403",
+        "buyer_name": "Highways England",
+        "contracts": 3,
+        "value_gbp": 327000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-49287",
+        "buyer_name": "Devon County Council",
+        "contracts": 1,
+        "value_gbp": 272000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/9G5HgHzZ",
+        "buyer_name": "Sheffield City Council",
+        "contracts": 1,
+        "value_gbp": 250000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/QfDr2jb7",
+        "buyer_name": "Department For Education",
+        "contracts": 31,
+        "value_gbp": 221322764.45000002
+      },
+      {
+        "buyer_id": "GB-CFS-50790",
+        "buyer_name": "East Riding of Yorkshire",
+        "contracts": 1,
+        "value_gbp": 187500000.0
+      },
+      {
+        "buyer_id": "GB-CFS-73916",
+        "buyer_name": "Manchester City Council",
+        "contracts": 1,
+        "value_gbp": 187500000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/5WZu8KXU",
+        "buyer_name": "Transport for London",
+        "contracts": 3,
+        "value_gbp": 179621389.14
+      },
+      {
+        "buyer_id": "GB-CFS-59287",
+        "buyer_name": "Kent County Council",
+        "contracts": 1,
+        "value_gbp": 125000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/jxfb36Bw",
+        "buyer_name": "SOUTHAMPTON CITY COUNCIL",
+        "contracts": 3,
+        "value_gbp": 70759074
+      },
+      {
+        "buyer_id": "GB-CFS-304119",
+        "buyer_name": "University of Greenwich",
+        "contracts": 1,
+        "value_gbp": 60000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-265974",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 58000000
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/9z587U4w",
+        "buyer_name": "Leeds City Council - PACS",
+        "contracts": 2,
+        "value_gbp": 53333333.333333336
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "45000000",
+        "label": "Construction work",
+        "contracts": 105,
+        "value_gbp": 13992712769.419796
+      },
+      {
+        "code": "45233210",
+        "label": "Surface work for highways",
+        "contracts": 3,
+        "value_gbp": 327000000.0
+      },
+      {
+        "code": "45211000",
+        "label": "Construction work for multi-dwelling buildings and individual houses",
+        "contracts": 2,
+        "value_gbp": 272443298.96
+      },
+      {
+        "code": "45234112",
+        "label": "Railway depot construction work",
+        "contracts": 2,
+        "value_gbp": 176961058.76
+      },
+      {
+        "code": "45214400",
+        "label": "Construction work for university buildings",
+        "contracts": 3,
+        "value_gbp": 60103229.0
+      },
+      {
+        "code": "71500000",
+        "label": "Construction-related services",
+        "contracts": 1,
+        "value_gbp": 29300000
+      },
+      {
+        "code": "45200000",
+        "label": "Works for complete or part construction and civil engineering work",
+        "contracts": 2,
+        "value_gbp": 27912401.56
+      },
+      {
+        "code": "71311210",
+        "label": "Highways consultancy services",
+        "contracts": 6,
+        "value_gbp": 23603845.82
+      },
+      {
+        "code": "34000000",
+        "label": "Transport equipment and auxiliary products to transportation",
+        "contracts": 1,
+        "value_gbp": 20000000.0
+      },
+      {
+        "code": "45210000",
+        "label": "Building construction work",
+        "contracts": 3,
+        "value_gbp": 11619961.67
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-c631f7e2-2422-4acd-be8d-65bf857e93a5",
+        "date": "2024-12-18T00:00:00Z",
+        "buyer": "Liverpool City Council",
+        "title": "Arena Convention Centre (ACC), Kings Dock Liverpool - Capital Maintenance and Defects Correction Works",
+        "value_gbp": 282783.46,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-12-19T00:00:00Z",
+        "contract_end": "2025-01-17T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/26b474d1-2488-443b-a6d7-7a303a062779",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e82fba18-da75-445e-b6fb-3adeb935b5f6",
+        "date": "2024-12-11T00:00:00Z",
+        "buyer": "University of Greenwich",
+        "title": "Construction work for university buildings",
+        "value_gbp": 60000000.0,
+        "procurement_method": "open",
+        "cpv_code": "45214400",
+        "cpv_label": "Construction work for university buildings",
+        "contract_start": "2024-12-20T00:00:00Z",
+        "contract_end": "2028-12-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/64f7c8d8-a383-4bc1-a165-4bc2193ab9b8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b9519ce3-25b3-4400-8540-c170fdc4bd74",
+        "date": "2024-11-27T00:00:00Z",
+        "buyer": "Hampshire County Council",
+        "title": "SCF Lot 2 - Alderwood Secondary School 2FE Expansion - AWARD",
+        "value_gbp": 9666318.21,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-11-11T00:00:00Z",
+        "contract_end": "2026-03-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6bb90939-a127-41b5-a4db-17b93f2ffd54",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c0d699f6-7841-407f-96d7-8e1441833b7c",
+        "date": "2024-11-13T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Monks Walk - PCSA (con_26235)",
+        "value_gbp": 558058.1,
+        "procurement_method": "selective",
+        "cpv_code": "71000000",
+        "cpv_label": "Architectural, construction, engineering and inspection services",
+        "contract_start": "2024-11-13T00:00:00Z",
+        "contract_end": "2025-07-02T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5c50ba5e-6f35-46f2-a18a-203dce28855a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b25cc627-bad8-4f63-87ef-f7660723eb62",
+        "date": "2024-11-11T00:00:00Z",
+        "buyer": "North Somerset Council",
+        "title": "Tropicana Design Pre-Construction Services Agreement",
+        "value_gbp": 334200,
+        "procurement_method": null,
+        "cpv_code": "45200000",
+        "cpv_label": "Works for complete or part construction and civil engineering work",
+        "contract_start": "2024-11-15T00:00:00Z",
+        "contract_end": "2026-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c2a34a3e-649b-4c0e-a860-3ca994d1937f",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-6e5765b4-c79d-47f8-8e5d-d409e29c4e56",
+        "date": "2024-11-04T00:00:00Z",
+        "buyer": "Liverpool City Council",
+        "title": "Paddington Village South - PCSA",
+        "value_gbp": 345455.07,
+        "procurement_method": "direct",
+        "cpv_code": "71530000",
+        "cpv_label": "Construction consultancy services",
+        "contract_start": "2024-11-18T00:00:00Z",
+        "contract_end": "2025-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/492d4def-e825-4859-aece-d9955a0daff5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-94679eb2-c46a-4e4b-9771-cb2421fb7a37",
+        "date": "2024-10-01T00:00:00+01:00",
+        "buyer": "Shropshire Council",
+        "title": "GB-Shrewsbury: DMNV 029 - The Development of Roushill Park and Associated Public Realm",
+        "value_gbp": 12000000,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-10-14T00:00:00+01:00",
+        "contract_end": "2025-03-18T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b07b6d34-6400-407e-9d90-f2071d4f9eb0",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-27685ec7-5460-4cfc-90dd-fb5af8183c82",
+        "date": "2024-09-27T00:00:00+01:00",
+        "buyer": "Plymouth City Council",
+        "title": "Armada Way Construction",
+        "value_gbp": 27578201.56,
+        "procurement_method": "direct",
+        "cpv_code": "45200000",
+        "cpv_label": "Works for complete or part construction and civil engineering work",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2026-06-24T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f73da475-58f0-4c57-a3a5-6e0b4a636db4",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-a6cb0d22-30d2-4dfa-b365-c74ec8ac6e2c",
+        "date": "2024-08-27T00:00:00+01:00",
+        "buyer": "Buckinghamshire Council",
+        "title": "Kingsbrook Secondary School Phase 2 - 8 FE Extension -  DN700556",
+        "value_gbp": 651193,
+        "procurement_method": "direct",
+        "cpv_code": "45214220",
+        "cpv_label": "Secondary school construction work",
+        "contract_start": "2024-08-28T00:00:00+01:00",
+        "contract_end": "2025-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dec53477-1ac1-467b-94ce-6b65b655ed29",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d6579ca1-6083-4c5d-9414-f373e1153a87",
+        "date": "2024-08-23T00:00:00+01:00",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "Contract Award Notice for IPMO1615.02",
+        "value_gbp": 445601.96,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-11-25T00:00:00Z",
+        "contract_end": "2025-02-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0d6eb477-f2da-44d0-9736-457df1678869",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-34783fd4-2482-4df1-8d10-c6183b90007b",
+        "date": "2024-08-07T00:00:00+01:00",
+        "buyer": "Leeds City Council",
+        "title": "Council Housing Growth (New Build): Middlecross Extra Care Scheme",
+        "value_gbp": 370649,
+        "procurement_method": "direct",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-22T00:00:00+01:00",
+        "contract_end": "2024-10-18T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4f91a8c-d8e4-4ddc-8c6a-b3efe677787c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8ee70069-bd5e-458e-aee4-d11ddc57ef38",
+        "date": "2024-07-18T00:00:00+01:00",
+        "buyer": "Kent Fire & Rescue Service",
+        "title": "Ashford Fire Station Development - Enabling Works",
+        "value_gbp": 564028,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-18T00:00:00+01:00",
+        "contract_end": "2024-12-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e3fc8781-9021-40bc-9bdb-9157fc1a7565",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8ee70069-bd5e-458e-aee4-d11ddc57ef38",
+        "date": "2024-07-18T00:00:00+01:00",
+        "buyer": "Kent Fire & Rescue Service",
+        "title": "Ashford Fire Station Development - Enabling Works",
+        "value_gbp": 889576,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-18T00:00:00+01:00",
+        "contract_end": "2024-12-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e3fc8781-9021-40bc-9bdb-9157fc1a7565",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2615f9c9-90f8-449e-8b61-4b44cecc1ae3",
+        "date": "2024-07-18T00:00:00+01:00",
+        "buyer": "Kent Fire & Rescue Service",
+        "title": "Ashford Fire Station Development",
+        "value_gbp": 564028,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-18T00:00:00+01:00",
+        "contract_end": "2024-09-06T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ce543947-a4ce-4144-8fb7-09e1b5488bc3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a0486382-81d0-4154-8136-a2573455b4c9",
+        "date": "2024-07-08T00:00:00+01:00",
+        "buyer": "Hampshire County Council",
+        "title": "SCF - Lot 2 - Berewood Primary South - 2FE Primary - Berewood II Primary School - AWARD",
+        "value_gbp": 9205354.84,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-29T00:00:00+01:00",
+        "contract_end": "2025-07-21T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f7b63f32-ca44-46a9-9c57-a9bcdca42f99",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c8cf3c4d-758d-4491-97fc-f119cb8087ba",
+        "date": "2024-07-03T00:00:00+01:00",
+        "buyer": "Hampshire County Council",
+        "title": "SCF Lot 2 - Wellesley Eastern Primary School - 2FE Primary - AWARD",
+        "value_gbp": 9941738.94,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2025-07-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dd9c02e6-4557-4c0e-b8fa-98cd3928cde6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0ac7f41a-c4bd-4b55-891b-577fcf0110e4",
+        "date": "2024-07-01T00:00:00+01:00",
+        "buyer": "South Gloucestershire Council",
+        "title": "Abbeywood School - Permanent Expansion (Phase 1)",
+        "value_gbp": 3278334.81,
+        "procurement_method": "direct",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-07-04T00:00:00+01:00",
+        "contract_end": "2024-09-16T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7e5feb7e-d201-4b10-b7d6-a658f71e1888",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-441f1ef0-93a8-4e6c-9259-8a3b6634333c",
+        "date": "2024-06-17T00:00:00+01:00",
+        "buyer": "Peterborough City Council",
+        "title": "Site Surveys for Great Haddon Primary School",
+        "value_gbp": 31000,
+        "procurement_method": null,
+        "cpv_code": "71250000",
+        "cpv_label": "Architectural, engineering and surveying services",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1a9f82ad-cd40-4044-9d0b-87e3c870c52d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-39784cf3-f3e3-40f4-8bed-6fd448c1669a",
+        "date": "2024-06-14T00:00:00+01:00",
+        "buyer": "Buckinghamshire Council",
+        "title": "BATCH: Cottesloe School 1FE Expansion - Principal Contractor DN652123",
+        "value_gbp": 2898438.53,
+        "procurement_method": "selective",
+        "cpv_code": "45210000",
+        "cpv_label": "Building construction work",
+        "contract_start": "2024-06-15T00:00:00+01:00",
+        "contract_end": "2025-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/801e6626-48c8-4700-ba64-76c1b12b1450",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-44c127b0-30d5-4b81-b2a2-36b0f035b762",
+        "date": "2024-06-06T00:00:00+01:00",
+        "buyer": "Plymouth City Council",
+        "title": "Armada Way enabling works",
+        "value_gbp": 167043,
+        "procurement_method": null,
+        "cpv_code": "45100000",
+        "cpv_label": "Site preparation work",
+        "contract_start": "2024-06-10T00:00:00+01:00",
+        "contract_end": "2024-09-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/291d6f68-b926-4c7c-9da5-43a5d2b35c04",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-be16ccf8-17ff-46ac-a9a5-741cf7d5073e",
+        "date": "2024-06-04T00:00:00+01:00",
+        "buyer": "Hampshire County Council",
+        "title": "SCF Lot 2 - Oakmoor Secondary School - 2 FE Extension - AWARD",
+        "value_gbp": 7353338,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-06-24T00:00:00+01:00",
+        "contract_end": "2025-08-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b8e83098-3309-48a1-bb39-26f7fb842db7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-debfba37-9e83-401f-8172-c6bbc3e84dd2",
+        "date": "2024-04-04T00:00:00+01:00",
+        "buyer": "Department For Education",
+        "title": "Carleton High School - Main Works (JCT D&B Contract) (con_25334)",
+        "value_gbp": 19264724.82,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-04T00:00:00+01:00",
+        "contract_end": "2026-02-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/14409a05-ad3a-4ac7-8b96-285d848282a8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-96e828be-66d1-4165-b573-886c878d675b",
+        "date": "2024-03-31T00:00:00Z",
+        "buyer": "Southampton City Council",
+        "title": "Civic Centre Art Gallery - West Wing Refurbishment (Main Works)",
+        "value_gbp": 4117114.38,
+        "procurement_method": "open",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-02T00:00:00+01:00",
+        "contract_end": "2025-03-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ee089429-37b0-40d0-918b-c7b9ed003720",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fb21b008-57f9-42c0-b5fe-58f074040b18",
+        "date": "2024-03-18T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "Contract Award; RIBA4 Services for IPMO1615.02",
+        "value_gbp": 20696.48,
+        "procurement_method": "selective",
+        "cpv_code": "71220000",
+        "cpv_label": "Architectural design services",
+        "contract_start": "2024-03-18T00:00:00Z",
+        "contract_end": "2024-06-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f9900ed-436a-4531-8d6d-c42ad970b127",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fb21b008-57f9-42c0-b5fe-58f074040b18",
+        "date": "2024-03-18T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "Contract Award; RIBA4 Services for IPMO1615.02",
+        "value_gbp": 20696.48,
+        "procurement_method": "selective",
+        "cpv_code": "71220000",
+        "cpv_label": "Architectural design services",
+        "contract_start": "2024-03-18T00:00:00Z",
+        "contract_end": "2024-06-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f9900ed-436a-4531-8d6d-c42ad970b127",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-24b0e42e-50bd-4fe0-998e-3b54230d3554",
+        "date": "2024-03-15T00:00:00Z",
+        "buyer": "Hampshire County Council",
+        "title": "ICF Lot 1 DA - Bordon Infant and Junior Schools - Expansion from 2FE to 3FE - AWARD",
+        "value_gbp": 4198521,
+        "procurement_method": null,
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-02-26T00:00:00Z",
+        "contract_end": "2025-04-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f17a59e8-a677-4763-8eb9-1d1cce465277",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0ec93ba0-27a3-4dbd-a63a-d6a29999d89f",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Cambridge Mathematics School - PCSA (con_24892)",
+        "value_gbp": 615605.86,
+        "procurement_method": "selective",
+        "cpv_code": "71000000",
+        "cpv_label": "Architectural, construction, engineering and inspection services",
+        "contract_start": "2024-03-04T00:00:00Z",
+        "contract_end": "2024-07-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9c74b055-cea9-4de7-a492-07fdd7015987",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-747a3713-3c31-4cd2-af1c-b945e78bb565",
+        "date": "2024-02-27T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Star Radcliffe Academy - Temp Works - EWI 1 (con_24658)",
+        "value_gbp": 776945.6,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-02-27T00:00:00Z",
+        "contract_end": "2024-06-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/935122b5-83a7-42b5-85d3-8262ecda9b85",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-99caa9d3-727c-498e-9377-571a1ab5237b",
+        "date": "2024-02-27T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Star Radcliffe - Main Works - EWI 1 (con_24659)",
+        "value_gbp": 266183.6,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-02-27T00:00:00Z",
+        "contract_end": "2024-06-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/992e2216-ccf1-4e2d-8b15-8f4ba9dca63f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c49e979c-d69d-4cd5-aa96-5e4ce21d8c32",
+        "date": "2024-02-21T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Pilgrims Way Primary School (con_24448)",
+        "value_gbp": 13354163.81,
+        "procurement_method": "selective",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-02-21T00:00:00Z",
+        "contract_end": "2025-10-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d23e5934-9234-4a45-9630-e1d39c6ebee7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 226246593,
+      "awarded_2024_gbp_from_cf": 193445366.23,
+      "signal": "balanced",
+      "note": "Awarded and paid roughly aligned.",
+      "ratio": 0.86
+    }
+  }
+}

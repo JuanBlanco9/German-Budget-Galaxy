@@ -1,0 +1,496 @@
+{
+  "company_number": "02731277",
+  "display_name": "MASTEK (UK) LTD",
+  "identity": {
+    "ch_number": "02731277",
+    "official_name": "MASTEK (UK) LTD.",
+    "display_name": "MASTEK (UK) LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1992-07-15",
+    "age_years": 33,
+    "registered_office": {
+      "address_line_1": "100 Brook Drive",
+      "address_line_2": "Green Park",
+      "country": "England",
+      "locality": "Reading",
+      "postal_code": "RG2 6UJ"
+    },
+    "sic_codes": [
+      "62012"
+    ],
+    "sic_labels": [
+      "Business and domestic software development"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02731277"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 61081213,
+    "rank": 335,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 37775142,
+        "segments": [
+          {
+            "segment": "UKIE - Immigration Enforcement",
+            "amount_gbp": 711592,
+            "pct_of_segment": 0.18,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "MBG - Migration & Borders Group",
+            "amount_gbp": 37063550,
+            "pct_of_segment": 12.02,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 12753777,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 10870109,
+            "pct_of_segment": 1.37,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 1883668,
+            "pct_of_segment": 1.8,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 10552294,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 5953155,
+            "pct_of_segment": 1.18,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Transformation",
+            "amount_gbp": 3818239,
+            "pct_of_segment": 47.03,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Operations Management",
+            "amount_gbp": 780900,
+            "pct_of_segment": 41.92,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-01-28",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AAMD",
+    "accounts_type_description": "accounts-amended-with-accounts-type-full",
+    "transaction_id": "MzUwMTYxNTM5MGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02731277_2026-01-28.pdf",
+      "size_mb": 1.04,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 30,
+    "board_turnover_ratio": 6.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "DESAI, Ashank Datta",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "Indian",
+        "occupation": null,
+        "country_of_residence": "India",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1951
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GROVER, Rajeev Kumar",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "Indian",
+        "occupation": null,
+        "country_of_residence": "India",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HALKERSTON, Judith Anne",
+        "role": "director",
+        "appointed_on": "2022-10-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1954
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SINGH, Abhishek",
+        "role": "director",
+        "appointed_on": "2020-05-14",
+        "resigned_on": null,
+        "nationality": "Indian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG1 8BW",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "SARKAR, Soutik",
+        "role": "secretary",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "SARKAR, Soutik",
+        "role": "secretary",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DESAI, Ashank Datta",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "Indian",
+        "occupation": null,
+        "country_of_residence": "India",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1951
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GROVER, Rajeev Kumar",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "Indian",
+        "occupation": null,
+        "country_of_residence": "India",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HALKERSTON, Judith Anne",
+        "role": "director",
+        "appointed_on": "2022-10-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1954
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG2 6UJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SINGH, Abhishek",
+        "role": "director",
+        "appointed_on": "2020-05-14",
+        "resigned_on": null,
+        "nationality": "Indian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG1 8BW",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 30,
+      "recent": [
+        {
+          "name": "O'BRIEN, David Leslie",
+          "role": "director",
+          "appointed_on": "2022-01-04",
+          "resigned_on": "2024-10-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1959
+          },
+          "address": {
+            "locality": "Reading",
+            "postal_code": "RG2 6UJ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CHANDRANA, Hiral Suresh",
+          "role": "director",
+          "appointed_on": "2021-07-12",
+          "resigned_on": "2024-09-03",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Reading",
+            "postal_code": "RG2 6UJ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "SANDILYA, Srinivasan",
+          "role": "director",
+          "appointed_on": "2019-11-20",
+          "resigned_on": "2023-03-03",
+          "nationality": "Indian",
+          "occupation": null,
+          "country_of_residence": "India",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1948
+          },
+          "address": {
+            "locality": "Reading",
+            "postal_code": "RG1 8BW",
+            "country": null
+          }
+        },
+        {
+          "name": "AGARWAL, Sidhartha",
+          "role": "secretary",
+          "appointed_on": "2017-02-07",
+          "resigned_on": "2022-12-13",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Reading",
+            "postal_code": "RG1 8BW",
+            "country": null
+          }
+        },
+        {
+          "name": "VENKATASAMY, Damien Narain",
+          "role": "director",
+          "appointed_on": "2021-10-01",
+          "resigned_on": "2022-03-14",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Reading",
+            "postal_code": "RG1 8BW",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02731277",
+          "name": "Mastek Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02731277",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02731277/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": "India",
+          "parent_registration_number": "04-5215"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "India"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02731277"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwMTYxNTM5MGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02731277_2026-01-28.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02731277/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02731277/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 335,
+    "enriched_at": "2026-04-16T20:04:13Z",
+    "governance_enriched_at": "2026-04-16T22:20:10Z",
+    "ubo_enriched_at": "2026-04-16T23:04:15Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

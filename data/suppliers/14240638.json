@@ -1,0 +1,316 @@
+{
+  "company_number": "14240638",
+  "display_name": "ROYAL MAIL",
+  "identity": {
+    "ch_number": "14240638",
+    "official_name": "ROYAL MAIL LIMITED",
+    "display_name": "ROYAL MAIL",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2022-07-18",
+    "age_years": 3,
+    "registered_office": {
+      "address_line_1": "185 Farringdon Road",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1A 1AA"
+    },
+    "sic_codes": [
+      "99999"
+    ],
+    "sic_labels": [
+      "SIC 99999"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14240638"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 21627783,
+    "rank": 574,
+    "category": "public_body",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 21627783,
+        "segments": [
+          {
+            "segment": "UKVIP - Visas Information & Passports",
+            "amount_gbp": 21627783,
+            "pct_of_segment": 8.61,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-22",
+    "period_end": "2025-03-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzQ5NTAxNjkyM2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/14240638_2025-12-22.pdf",
+      "size_mb": 0.12,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "HEILIG, Darren Lee",
+        "role": "director",
+        "appointed_on": "2022-07-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 1AA",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "HEILIG, Darren Lee",
+        "role": "director",
+        "appointed_on": "2022-07-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 1AA",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "14240638",
+          "name": "Royal Mail Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-07-18",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14240638",
+            "notified_on": "2022-07-18",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14240638/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04138203",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04138203",
+          "name": "Ids Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-08-31",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04138203",
+            "notified_on": "2021-08-31",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04138203/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03229377",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "03229377",
+          "name": "International Distribution Services Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-06-28",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03229377",
+            "notified_on": "2021-06-28",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03229377/persons-with-significant-control/corporate-entity/zja3gUuOfaP4W11dpxSRreTMap4"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "08680755",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "08680755",
+          "name": "Ep Uk Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-06-02",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "08680755",
+            "notified_on": "2025-06-02",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/08680755/persons-with-significant-control/corporate-entity/5NaAtPK1B9Zdg6dyyOkqe2ZM9PQ"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15542876",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "15542876",
+          "name": "Ep Uk Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2024-03-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15542876",
+            "notified_on": "2024-03-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15542876/persons-with-significant-control/corporate-entity/1lscLn0-EYVqbhy0r3f4IAooHJw"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15541867",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "15541867",
+          "name": "Mr Daniel Kretínský",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2024-05-08",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15541867",
+            "notified_on": "2024-05-08",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15541867/persons-with-significant-control/individual/_LrJulh8JZDg1GlYdMu9ldL3KSo"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Daniel Kretínský"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14240638"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTAxNjkyM2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/14240638_2025-12-22.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14240638/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14240638/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "public_body",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 574,
+    "enriched_at": "2026-04-16T20:23:52Z",
+    "governance_enriched_at": "2026-04-16T22:30:42Z",
+    "ubo_enriched_at": "2026-04-16T23:17:27Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

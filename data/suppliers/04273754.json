@@ -1,0 +1,581 @@
+{
+  "company_number": "04273754",
+  "display_name": "MORGAN SINDALL CONSTRUCTION & INFRASTRUCTURE LIMITED",
+  "identity": {
+    "ch_number": "04273754",
+    "official_name": "MORGAN SINDALL CONSTRUCTION & INFRASTRUCTURE LTD",
+    "display_name": "MORGAN SINDALL CONSTRUCTION & INFRASTRUCTURE LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2001-08-20",
+    "age_years": 24,
+    "registered_office": {
+      "address_line_1": "Kent House",
+      "address_line_2": "14-17 Market Place",
+      "locality": "London",
+      "postal_code": "W1W 8AJ"
+    },
+    "sic_codes": [
+      "41201",
+      "41202",
+      "42120",
+      "42130"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings",
+      "Construction of residential buildings",
+      "Construction of railways",
+      "Construction of bridges and tunnels"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04273754"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 226246593,
+    "rank": 157,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 135269901,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 98179351,
+            "pct_of_segment": 2.43,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Capital Directorate",
+            "amount_gbp": 36867066,
+            "pct_of_segment": 1.96,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "ESFA Corporate, Assurance and Restructuring Directorate",
+            "amount_gbp": 223484,
+            "pct_of_segment": 0.36,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 90549849,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 90549849,
+            "pct_of_segment": 1.97,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 426843,
+        "segments": [
+          {
+            "segment": "Enabling",
+            "amount_gbp": 426843,
+            "pct_of_segment": 1.18,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-04-03",
+    "period_end": "2025-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUxMjk1ODg5MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04273754_2026-04-03.pdf",
+      "size_mb": 2.62,
+      "exists": true
+    },
+    "next_accounts_due": "2027-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 7,
+    "officers_resigned_count": 38,
+    "board_turnover_ratio": 5.43,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "ATKINSON, Mark Roger",
+        "role": "director",
+        "appointed_on": "2020-12-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BOYLE, Patrick Denis",
+        "role": "director",
+        "appointed_on": "2014-03-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "GANGOTRA, Culdip Kelly Kaur",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORGAN, John Christopher",
+        "role": "director",
+        "appointed_on": "2013-12-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": null
+        }
+      },
+      {
+        "name": "SMITH, Simon Craven",
+        "role": "director",
+        "appointed_on": "2017-06-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TEMPLAR-COATES, Oliver Trevor Marwood",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "MINNS, Lisa Ann Katherine",
+        "role": "secretary",
+        "appointed_on": "2025-06-03",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "MINNS, Lisa Ann Katherine",
+        "role": "secretary",
+        "appointed_on": "2025-06-03",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "ATKINSON, Mark Roger",
+        "role": "director",
+        "appointed_on": "2020-12-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BOYLE, Patrick Denis",
+        "role": "director",
+        "appointed_on": "2014-03-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "GANGOTRA, Culdip Kelly Kaur",
+        "role": "director",
+        "appointed_on": "2024-05-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORGAN, John Christopher",
+        "role": "director",
+        "appointed_on": "2013-12-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W1W 8AJ",
+          "country": null
+        }
+      },
+      {
+        "name": "SMITH, Simon Craven",
+        "role": "director",
+        "appointed_on": "2017-06-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TEMPLAR-COATES, Oliver Trevor Marwood",
+        "role": "director",
+        "appointed_on": "2022-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Coventry",
+          "postal_code": "CV2 2UU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 38,
+      "recent": [
+        {
+          "name": "MASON, Helen Mary",
+          "role": "secretary",
+          "appointed_on": "2024-06-27",
+          "resigned_on": "2025-04-22",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "W1W 8AJ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "SHERIDAN, Clare",
+          "role": "secretary",
+          "appointed_on": "2001-10-30",
+          "resigned_on": "2024-06-27",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "W1W 8AJ",
+            "country": null
+          }
+        },
+        {
+          "name": "CRUMMETT, Stephen Paul",
+          "role": "director",
+          "appointed_on": "2013-02-26",
+          "resigned_on": "2024-05-07",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1965
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1W 8AJ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "KANE, Paul Edward",
+          "role": "director",
+          "appointed_on": "2020-11-30",
+          "resigned_on": "2022-06-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Rugby",
+            "postal_code": "CV21 2DW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "LEDWIDGE, Joseph John",
+          "role": "director",
+          "appointed_on": "2012-11-27",
+          "resigned_on": "2020-11-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Rugby",
+            "postal_code": "CV21 2DW",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "04273754",
+          "name": "Morgan Sindall Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04273754",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04273754/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05744976",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05744976",
+          "name": "Morgan Sindall Group Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05744976",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05744976/persons-with-significant-control/corporate-entity/DGj0AlcaAGh4zoAu8arAQJlZ6Ok"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "00521970",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04273754"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxMjk1ODg5MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04273754_2026-04-03.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04273754/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04273754/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 157,
+    "enriched_at": "2026-04-16T19:25:39Z",
+    "governance_enriched_at": "2026-04-16T22:12:52Z",
+    "ubo_enriched_at": "2026-04-16T22:52:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

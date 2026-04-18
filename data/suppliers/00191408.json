@@ -1,0 +1,639 @@
+{
+  "company_number": "00191408",
+  "display_name": "SKANSKA CONSTRUCTION UK LIMITED",
+  "identity": {
+    "ch_number": "00191408",
+    "official_name": "SKANSKA CONSTRUCTION UK LIMITED",
+    "display_name": "SKANSKA CONSTRUCTION UK LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1923-07-19",
+    "age_years": 102,
+    "registered_office": {
+      "address_line_1": "1 Hercules Way",
+      "country": "United Kingdom",
+      "locality": "Leavesden",
+      "postal_code": "WD25 7GS",
+      "region": "Watford"
+    },
+    "sic_codes": [
+      "41201"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00191408"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 424963230,
+    "rank": 102,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 316303355,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 316303355,
+            "pct_of_segment": 6.9,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 108659875,
+        "segments": [
+          {
+            "segment": "DEFENCE INFRASTRUCTURE ORGANISATION",
+            "amount_gbp": 108659875,
+            "pct_of_segment": 3.27,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-28",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AAMD",
+    "accounts_type_description": "accounts-amended-with-accounts-type-group",
+    "transaction_id": "MzQ3NTMxNzkwOGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/00191408_2025-07-28.pdf",
+      "size_mb": 2.23,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 8,
+    "officers_resigned_count": 59,
+    "board_turnover_ratio": 7.38,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "DOWDING, Katrina Mary",
+        "role": "director",
+        "appointed_on": "2017-05-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MARKS, Lee",
+        "role": "director",
+        "appointed_on": "2026-03-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1972
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCDONALD, Adam Michael",
+        "role": "director",
+        "appointed_on": "2023-05-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORTENSEN, Jo",
+        "role": "director",
+        "appointed_on": "2025-01-01",
+        "resigned_on": null,
+        "nationality": "Norwegian",
+        "occupation": null,
+        "country_of_residence": "Norway",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MUCKIAN, Terry",
+        "role": "director",
+        "appointed_on": "2025-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "OLUDIPE, Meliha Duymaz",
+        "role": "director",
+        "appointed_on": "2022-09-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WILLIAMS, Daniel Martin",
+        "role": "director",
+        "appointed_on": "2025-10-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1982
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "LEVEN, Steven",
+        "role": "secretary",
+        "appointed_on": "2007-01-15",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "LEVEN, Steven",
+        "role": "secretary",
+        "appointed_on": "2007-01-15",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "DOWDING, Katrina Mary",
+        "role": "director",
+        "appointed_on": "2017-05-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MARKS, Lee",
+        "role": "director",
+        "appointed_on": "2026-03-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1972
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCDONALD, Adam Michael",
+        "role": "director",
+        "appointed_on": "2023-05-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MORTENSEN, Jo",
+        "role": "director",
+        "appointed_on": "2025-01-01",
+        "resigned_on": null,
+        "nationality": "Norwegian",
+        "occupation": null,
+        "country_of_residence": "Norway",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MUCKIAN, Terry",
+        "role": "director",
+        "appointed_on": "2025-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "OLUDIPE, Meliha Duymaz",
+        "role": "director",
+        "appointed_on": "2022-09-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WILLIAMS, Daniel Martin",
+        "role": "director",
+        "appointed_on": "2025-10-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1982
+        },
+        "address": {
+          "locality": "Leavesden",
+          "postal_code": "WD25 7GS",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 59,
+      "recent": [
+        {
+          "name": "ENGLISH, Andrew Michael",
+          "role": "director",
+          "appointed_on": "2025-01-01",
+          "resigned_on": "2025-12-12",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1965
+          },
+          "address": {
+            "locality": "Leavesden",
+            "postal_code": "WD25 7GS",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "FAULKNER, Thomas Peter",
+          "role": "director",
+          "appointed_on": "2015-06-15",
+          "resigned_on": "2024-12-02",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1974
+          },
+          "address": {
+            "locality": "Leavesden",
+            "postal_code": "WD25 7GS",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "NEESON, Martin George",
+          "role": "director",
+          "appointed_on": "2016-11-07",
+          "resigned_on": "2023-08-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1968
+          },
+          "address": {
+            "locality": "Leavesden",
+            "postal_code": "WD25 7GS",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "CRAIG, Gregor Lawrence",
+          "role": "director",
+          "appointed_on": "2015-02-27",
+          "resigned_on": "2023-05-02",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1963
+          },
+          "address": {
+            "locality": "Leavesden",
+            "postal_code": "WD25 7GS",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "GANGOTRA, Culdip Kelly Kaur",
+          "role": "director",
+          "appointed_on": "2015-02-27",
+          "resigned_on": "2022-07-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Rickmansworth",
+            "postal_code": "WD3 9SW",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "00191408",
+          "name": "Skanska Uk Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00191408",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00191408/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "00784752",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed"
+        },
+        {
+          "step": 2,
+          "from_company": "00784752",
+          "name": "Skanska Construction Holdings Uk Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00784752",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00784752/persons-with-significant-control/corporate-entity/l_M55-wLoeaZNELBOOTC5R2vb7U"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04101344",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "04101344",
+          "name": "Skanska Ab",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04101344",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04101344/persons-with-significant-control/corporate-entity/s1T5cjAViejPUbZ_v-s-1rD6gXU"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "Sweden",
+          "parent_registration_number": "556000-4615",
+          "wikidata": {
+            "qid": "Q1537811",
+            "label": "Skanska",
+            "description": "Swedish multinational construction and development company",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q1537811",
+            "parent_chain": [
+              {
+                "qid": "Q1537811",
+                "label": "Skanska",
+                "description": "Swedish multinational construction and development company",
+                "country_labels": [
+                  "Sweden"
+                ],
+                "revision_id": 2474418080,
+                "source_url": "https://www.wikidata.org/wiki/Q1537811"
+              }
+            ],
+            "ultimate_label": "Skanska",
+            "ultimate_country": "Sweden",
+            "queries_used": [
+              "Skanska Ab"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Sweden"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00191408"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NTMxNzkwOGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/00191408_2025-07-28.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00191408/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00191408/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1537811"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 102,
+    "enriched_at": "2026-04-16T19:21:00Z",
+    "governance_enriched_at": "2026-04-16T22:11:03Z",
+    "ubo_enriched_at": "2026-04-16T22:49:30Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

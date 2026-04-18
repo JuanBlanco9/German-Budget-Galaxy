@@ -1,0 +1,202 @@
+{
+  "company_number": "12874933",
+  "display_name": "BOSTON BC",
+  "identity": {
+    "ch_number": "12874933",
+    "official_name": "BC GROUP BOSTON LTD",
+    "display_name": "BOSTON BC",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2020-09-13",
+    "age_years": 5,
+    "registered_office": {
+      "address_line_1": "49 Wide Bargate",
+      "country": "England",
+      "locality": "Boston",
+      "postal_code": "PE21 6SH"
+    },
+    "sic_codes": [
+      "56101"
+    ],
+    "sic_labels": [
+      "SIC 56101"
+    ],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12874933"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 18728536,
+    "rank": 597,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_housing_communities_and_local_government",
+        "dept_name": "MHCLG",
+        "amount_gbp": 18728536,
+        "segments": [
+          {
+            "segment": "Local Growth, Communities and Devolution",
+            "amount_gbp": 18728536,
+            "pct_of_segment": 1.33,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2023-06-29",
+    "period_end": null,
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-unaudited-abridged",
+    "transaction_id": "MzM4NDYzNDgxNWFkaXF6a2N4",
+    "pdf": null,
+    "next_accounts_due": "2024-06-30",
+    "overdue": true
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "ALEXANDER, Mohammed",
+        "role": "director",
+        "appointed_on": "2020-09-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1987
+        },
+        "address": {
+          "locality": "Boston",
+          "postal_code": "PE21 6SH",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "ALEXANDER, Mohammed",
+        "role": "director",
+        "appointed_on": "2020-09-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1987
+        },
+        "address": {
+          "locality": "Boston",
+          "postal_code": "PE21 6SH",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "12874933",
+          "name": "Mr Mohammed Alexander",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2020-09-13",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12874933",
+            "notified_on": "2020-09-13",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12874933/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Mohammed Alexander"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 58,
+    "label": "medium",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-10",
+        "accounts_overdue"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12874933"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12874933/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12874933/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 597,
+    "enriched_at": "2026-04-16T20:25:52Z",
+    "governance_enriched_at": "2026-04-16T22:31:42Z",
+    "ubo_enriched_at": "2026-04-16T23:18:37Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

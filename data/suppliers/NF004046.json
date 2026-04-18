@@ -1,0 +1,539 @@
+{
+  "company_number": "NF004046",
+  "display_name": "ORACLE CORPORATION UK LIMITED",
+  "identity": {
+    "ch_number": "NF004046",
+    "official_name": "ORACLE CORPORATION UK LTD",
+    "display_name": "ORACLE CORPORATION UK LIMITED",
+    "status": "active",
+    "type": "oversea-company",
+    "jurisdiction": "united-kingdom",
+    "incorporated": "2005-06-24",
+    "age_years": 20,
+    "registered_office": {
+      "address_line_1": "Unit 8",
+      "address_line_2": "Number One Lanyon Quay",
+      "locality": "Oxford Street",
+      "postal_code": "BT1 3GP",
+      "region": "Belfast"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/NF004046"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 35807607,
+    "rank": 465,
+    "category": "commercial",
+    "n_departments": 4,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 16347778,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 16347778,
+            "pct_of_segment": 2.52,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 15952813,
+        "segments": [
+          {
+            "segment": "DDaT - Digital Data & Technology",
+            "amount_gbp": 12612555,
+            "pct_of_segment": 1.63,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          },
+          {
+            "segment": "DBS - Disclosure & Barring Service",
+            "amount_gbp": 3340258,
+            "pct_of_segment": 4.41,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 3364660,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 3364660,
+            "pct_of_segment": 1.23,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 142356,
+        "segments": [
+          {
+            "segment": "ICT Delivery Business Group",
+            "amount_gbp": 85332,
+            "pct_of_segment": 1.06,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Operations",
+            "amount_gbp": 57024,
+            "pct_of_segment": 7.4,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2006-08-16",
+    "period_end": null,
+    "accounts_type_code": "ACX(NI)",
+    "accounts_type_description": "legacy",
+    "transaction_id": "MjUwMzU0NzI4MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/NF004046_2006-08-16.pdf",
+      "size_mb": 0.95,
+      "exists": true
+    },
+    "next_accounts_due": null,
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 9,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "BAKER, Christopher Francis Henry",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1955
+        },
+        "address": {
+          "locality": "Marlborough",
+          "postal_code": "SN8 3YD",
+          "country": null
+        }
+      },
+      {
+        "name": "ELLISON, Lawrence",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 8,
+          "year": 1944
+        },
+        "address": {
+          "locality": "California 9402 5",
+          "postal_code": null,
+          "country": null
+        }
+      },
+      {
+        "name": "GREEN, Norman Denis",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 11,
+          "year": 1956
+        },
+        "address": {
+          "locality": "Leighton Buzzard",
+          "postal_code": "LU7 8AT",
+          "country": null
+        }
+      },
+      {
+        "name": "HENLEY, Jeffrey Owen",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 11,
+          "year": 1944
+        },
+        "address": {
+          "locality": "California 9402 7",
+          "postal_code": null,
+          "country": null
+        }
+      },
+      {
+        "name": "HUDSON, David James",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 10,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG1 6NJ",
+          "country": null
+        }
+      },
+      {
+        "name": "PLANT, William John",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1954
+        },
+        "address": {
+          "locality": "Burnham",
+          "postal_code": "SL1 8AU",
+          "country": null
+        }
+      },
+      {
+        "name": "SMITH, Ian Anderson",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1948
+        },
+        "address": {
+          "locality": "Upper Eastbourne",
+          "postal_code": "GU29 0BQ",
+          "country": null
+        }
+      },
+      {
+        "name": "VAN DE MOLEN, Marcel Adrianus Johannes",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 8,
+          "year": 1955
+        },
+        "address": {
+          "locality": "2493 Zd",
+          "postal_code": null,
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "HUDSON, David James",
+        "role": "secretary",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG1 6NJ",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "HUDSON, David James",
+        "role": "secretary",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG1 6NJ",
+          "country": null
+        }
+      },
+      {
+        "name": "BAKER, Christopher Francis Henry",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1955
+        },
+        "address": {
+          "locality": "Marlborough",
+          "postal_code": "SN8 3YD",
+          "country": null
+        }
+      },
+      {
+        "name": "ELLISON, Lawrence",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 8,
+          "year": 1944
+        },
+        "address": {
+          "locality": "California 9402 5",
+          "postal_code": null,
+          "country": null
+        }
+      },
+      {
+        "name": "GREEN, Norman Denis",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 11,
+          "year": 1956
+        },
+        "address": {
+          "locality": "Leighton Buzzard",
+          "postal_code": "LU7 8AT",
+          "country": null
+        }
+      },
+      {
+        "name": "HENLEY, Jeffrey Owen",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 11,
+          "year": 1944
+        },
+        "address": {
+          "locality": "California 9402 7",
+          "postal_code": null,
+          "country": null
+        }
+      },
+      {
+        "name": "HUDSON, David James",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 10,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Reading",
+          "postal_code": "RG1 6NJ",
+          "country": null
+        }
+      },
+      {
+        "name": "PLANT, William John",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1954
+        },
+        "address": {
+          "locality": "Burnham",
+          "postal_code": "SL1 8AU",
+          "country": null
+        }
+      },
+      {
+        "name": "SMITH, Ian Anderson",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1948
+        },
+        "address": {
+          "locality": "Upper Eastbourne",
+          "postal_code": "GU29 0BQ",
+          "country": null
+        }
+      },
+      {
+        "name": "VAN DE MOLEN, Marcel Adrianus Johannes",
+        "role": "director",
+        "appointed_on": "2005-06-24",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": {
+          "month": 8,
+          "year": 1955
+        },
+        "address": {
+          "locality": "2493 Zd",
+          "postal_code": null,
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "NF004046",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 83,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-10",
+        "foreign_jurisdiction_for_uk_contract"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/NF004046"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MjUwMzU0NzI4MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/NF004046_2006-08-16.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/NF004046/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/NF004046/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 465,
+    "enriched_at": "2026-04-16T20:14:45Z",
+    "governance_enriched_at": "2026-04-16T22:25:51Z",
+    "ubo_enriched_at": "2026-04-16T23:13:42Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

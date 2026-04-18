@@ -1,0 +1,785 @@
+{
+  "company_number": "02909192",
+  "display_name": "Natural History Museum",
+  "identity": {
+    "ch_number": "02909192",
+    "official_name": "THE NATURAL HISTORY MUSEUM TRADING COMPANY LIMITED",
+    "display_name": "Natural History Museum",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1994-03-16",
+    "age_years": 32,
+    "registered_office": {
+      "address_line_1": "Cromwell Road",
+      "address_line_2": "London",
+      "postal_code": "SW7 5BD"
+    },
+    "sic_codes": [
+      "47190",
+      "74100",
+      "74909",
+      "82301"
+    ],
+    "sic_labels": [
+      "SIC 47190",
+      "SIC 74100",
+      "Other professional, scientific and technical activities",
+      "SIC 82301"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02909192"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 87772979,
+    "rank": 270,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_culture_media_and_sport",
+        "dept_name": "DCMS",
+        "amount_gbp": 87772979,
+        "segments": [
+          {
+            "segment": "National Museums & Heritage",
+            "amount_gbp": 87772979,
+            "pct_of_segment": 13.94,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-08-04",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NjA4MTY5NmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02909192_2025-08-04.pdf",
+      "size_mb": 0.75,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 27,
+    "board_turnover_ratio": 5.4,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GURR, Douglas John, Dr",
+        "role": "director",
+        "appointed_on": "2023-02-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "HALL, Anthony William, Lord Hall Of Birkenhead",
+        "role": "director",
+        "appointed_on": "2024-09-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1951
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "READ, Mark Julian",
+        "role": "director",
+        "appointed_on": "2023-02-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1966
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "WHITEHOUSE, Helen",
+        "role": "director",
+        "appointed_on": "2024-02-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1981
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CLIFFORD-TURNER, Melissa",
+        "role": "secretary",
+        "appointed_on": "2023-08-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CLIFFORD-TURNER, Melissa",
+        "role": "secretary",
+        "appointed_on": "2023-08-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "GURR, Douglas John, Dr",
+        "role": "director",
+        "appointed_on": "2023-02-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1964
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "HALL, Anthony William, Lord Hall Of Birkenhead",
+        "role": "director",
+        "appointed_on": "2024-09-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1951
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "READ, Mark Julian",
+        "role": "director",
+        "appointed_on": "2023-02-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1966
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      },
+      {
+        "name": "WHITEHOUSE, Helen",
+        "role": "director",
+        "appointed_on": "2024-02-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1981
+        },
+        "address": {
+          "locality": null,
+          "postal_code": "SW7 5BD",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 27,
+      "recent": [
+        {
+          "name": "VALLANCE, Patrick John Thompson, Sir",
+          "role": "director",
+          "appointed_on": "2023-02-21",
+          "resigned_on": "2024-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1960
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "SW7 5BD",
+            "country": null
+          }
+        },
+        {
+          "name": "GREENWOOD, Neil Jonathan",
+          "role": "secretary",
+          "appointed_on": "1998-12-01",
+          "resigned_on": "2023-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": null,
+            "postal_code": "SW7 5BD",
+            "country": null
+          }
+        },
+        {
+          "name": "GREENWOOD, Neil Jonathan",
+          "role": "director",
+          "appointed_on": "1998-07-06",
+          "resigned_on": "2023-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1962
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "SW7 5BD",
+            "country": null
+          }
+        },
+        {
+          "name": "GREEN, Stephen Keith, Lord",
+          "role": "director",
+          "appointed_on": "2014-06-17",
+          "resigned_on": "2023-02-21",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1948
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "SW7 5BD",
+            "country": null
+          }
+        },
+        {
+          "name": "DIXON, Michael, Sir",
+          "role": "director",
+          "appointed_on": "2004-07-07",
+          "resigned_on": "2020-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1956
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "SW7 5BD",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "government",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02909192",
+          "name": "The Board Of Trustees Of The Natural History Museum",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2020-08-03",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02909192",
+            "notified_on": "2020-08-03",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02909192/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government",
+          "jurisdiction": null,
+          "parent_registration_number": null,
+          "resolution_note": "retagged_from_corporate_via_name_pattern",
+          "search_best_candidate": {
+            "title": "THE BATTLE MUSEUM OF LOCAL HISTORY TRUST",
+            "number": "CE033179"
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [
+        "The Board Of Trustees Of The Natural History Museum"
+      ],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+20",
+        "govt_psc_consistent_with_supplier"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02909192"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NjA4MTY5NmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02909192_2025-08-04.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02909192/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02909192/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 270,
+    "enriched_at": "2026-04-16T19:58:52Z",
+    "governance_enriched_at": "2026-04-16T22:17:40Z",
+    "ubo_enriched_at": "2026-04-16T23:00:13Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2021,
+      2022,
+      2023
+    ],
+    "summary": {
+      "total_contracts": 8,
+      "total_contracts_non_framework": 8,
+      "total_awarded_gbp": 13451179.68,
+      "total_awarded_non_framework_gbp": 13451179.68,
+      "years_active": 3,
+      "first_year": 2021,
+      "last_year": 2023,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "Department for Education",
+        "years_count": 2,
+        "years_list": [
+          2021,
+          2022
+        ],
+        "total_value_gbp": 12190320,
+        "n_contracts": 6
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2021": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 198000,
+        "awarded_gbp_non_framework": 198000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 2,
+          "value_gbp": 198000
+        },
+        "procurement_method_counts": {
+          "unspecified": 2
+        }
+      },
+      "2022": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 13241520.0,
+        "awarded_gbp_non_framework": 13241520.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 9.43,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 4,
+          "value_gbp": 11992320
+        },
+        "procurement_method_counts": {
+          "open": 4,
+          "direct": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 11659.68,
+        "awarded_gbp_non_framework": 11659.68,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+          "contracts": 1,
+          "value_gbp": 11659.68
+        },
+        "procurement_method_counts": {
+          "limited": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2021": {
+        "top_code": "73100000",
+        "top_label": "Research and experimental development services",
+        "top_value_gbp": 198000.0,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 11992320.0,
+        "n_distinct_codes": 2
+      },
+      "2023": {
+        "top_code": "80500000",
+        "top_label": "Training services",
+        "top_value_gbp": 11659.68,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 2,
+        "open": 4,
+        "direct": 1,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 198000.0,
+        "open": 11992320.0,
+        "direct": 1249200.0,
+        "limited": 11659.68
+      },
+      "sole_source_pct_all_years": 9.37,
+      "competitive_pct_all_years": 89.15,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-226097",
+        "buyer_name": "Department for Education",
+        "contracts": 4,
+        "value_gbp": 11992320
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/QfDr2jb7",
+        "buyer_name": "Department For Education",
+        "contracts": 1,
+        "value_gbp": 1249200.0
+      },
+      {
+        "buyer_id": "GB-CFS-200003",
+        "buyer_name": "Department for Education",
+        "contracts": 2,
+        "value_gbp": 198000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/dXGP288m",
+        "buyer_name": "UK SHARED BUSINESS SERVICES LIMITED",
+        "contracts": 1,
+        "value_gbp": 11659.68
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 4,
+        "value_gbp": 11992320
+      },
+      {
+        "code": "79000000",
+        "label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contracts": 1,
+        "value_gbp": 1249200.0
+      },
+      {
+        "code": "73100000",
+        "label": "Research and experimental development services",
+        "contracts": 2,
+        "value_gbp": 198000
+      },
+      {
+        "code": "80500000",
+        "label": "Training services",
+        "contracts": 1,
+        "value_gbp": 11659.68
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-7af2899b-efa4-4135-a0a4-f2b54dd466b4",
+        "date": "2023-10-03T00:00:00+01:00",
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "title": "GSS23795 AI Fellows Workshop",
+        "value_gbp": 11659.68,
+        "procurement_method": "limited",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2023-10-03T00:00:00+01:00",
+        "contract_end": "2023-10-03T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/597fe478-9f66-4244-9984-5d9a3f76b147",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58a8cb06-faaa-47eb-8518-bd21f562f0b9",
+        "date": "2022-10-04T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "con_16545-SCCU National Education Nature Park and Climate Leaders Award (Park and Award Scheme)",
+        "value_gbp": 2998080,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-10-04T00:00:00+01:00",
+        "contract_end": "2024-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/df1d0d3b-df54-42a4-8c9b-c13815abe56d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58a8cb06-faaa-47eb-8518-bd21f562f0b9",
+        "date": "2022-10-04T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "con_16545-SCCU National Education Nature Park and Climate Leaders Award (Park and Award Scheme)",
+        "value_gbp": 2998080,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-10-04T00:00:00+01:00",
+        "contract_end": "2024-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/df1d0d3b-df54-42a4-8c9b-c13815abe56d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58a8cb06-faaa-47eb-8518-bd21f562f0b9",
+        "date": "2022-10-04T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "con_16545-SCCU National Education Nature Park and Climate Leaders Award (Park and Award Scheme)",
+        "value_gbp": 2998080,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-10-04T00:00:00+01:00",
+        "contract_end": "2024-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/df1d0d3b-df54-42a4-8c9b-c13815abe56d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31d33213-f4f5-4bde-8b03-fbce8de5dfb8",
+        "date": "2022-10-04T00:00:00+01:00",
+        "buyer": "Department For Education",
+        "title": "SCC - National Education Nature Park and Climate Leaders Award (Park and Award Scheme) (con_17131)",
+        "value_gbp": 1249200.0,
+        "procurement_method": "direct",
+        "cpv_code": "79000000",
+        "cpv_label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contract_start": "2022-10-04T00:00:00+01:00",
+        "contract_end": "2024-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cc84d021-fcc4-4bbd-86ee-9d5821f1f63a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58a8cb06-faaa-47eb-8518-bd21f562f0b9",
+        "date": "2022-10-04T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "con_16545-SCCU National Education Nature Park and Climate Leaders Award (Park and Award Scheme)",
+        "value_gbp": 2998080,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-10-04T00:00:00+01:00",
+        "contract_end": "2024-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/df1d0d3b-df54-42a4-8c9b-c13815abe56d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b8c924cd-6084-4ca4-bb54-4bd44df485af",
+        "date": "2021-09-20T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "Sustainability Seed Funding Project",
+        "value_gbp": 99000,
+        "procurement_method": null,
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2021-09-20T00:00:00+01:00",
+        "contract_end": "2021-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/814362cb-431a-412c-a29b-4837be9ea3ba",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b8c924cd-6084-4ca4-bb54-4bd44df485af",
+        "date": "2021-09-20T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "Sustainability Seed Funding Project con_11701",
+        "value_gbp": 99000,
+        "procurement_method": null,
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2021-09-20T00:00:00+01:00",
+        "contract_end": "2021-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/814362cb-431a-412c-a29b-4837be9ea3ba",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 87772979,
+      "awarded_2024_gbp_from_cf": 13451179.68,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 6.5× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.15
+    }
+  }
+}

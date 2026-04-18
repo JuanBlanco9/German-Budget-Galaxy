@@ -1,0 +1,666 @@
+{
+  "company_number": "03246693",
+  "display_name": "JEREMY BENN ASSOCIATES LIMITED.",
+  "identity": {
+    "ch_number": "03246693",
+    "official_name": "JEREMY BENN ASSOCIATES LIMITED",
+    "display_name": "JEREMY BENN ASSOCIATES LIMITED.",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1996-09-06",
+    "age_years": 29,
+    "registered_office": {
+      "address_line_1": "1 Broughton Park Old Lane North",
+      "address_line_2": "Broughton",
+      "country": "England",
+      "locality": "Skipton",
+      "postal_code": "BD23 3FD",
+      "region": "North Yorkshire"
+    },
+    "sic_codes": [
+      "71122"
+    ],
+    "sic_labels": [
+      "Engineering-related scientific and technical consulting"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/03246693"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16002363,
+    "rank": 639,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 16002363,
+        "segments": [
+          {
+            "segment": "EA",
+            "amount_gbp": 16002363,
+            "pct_of_segment": 1.62,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-11",
+    "period_end": "2025-10-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUwOTAxMjI2NGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/03246693_2026-03-11.pdf",
+      "size_mb": 1.5,
+      "exists": true
+    },
+    "next_accounts_due": "2027-07-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 10,
+    "officers_resigned_count": 14,
+    "board_turnover_ratio": 1.4,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "BASSETT, David Graham Henry",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CHARLES, Eleanor Louise",
+        "role": "director",
+        "appointed_on": "2022-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GUBBIN, Andrew David",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HUITSON-LITTLE, Rachel Louise",
+        "role": "director",
+        "appointed_on": "2013-12-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LAWLESS, Mark Reuben, Dr",
+        "role": "director",
+        "appointed_on": "2014-11-01",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MASLEN, Stephen",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1958
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MILLS, Gareth Peter",
+        "role": "director",
+        "appointed_on": "2022-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MORAN, Antony John",
+        "role": "director",
+        "appointed_on": "2022-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PINNELL, Marc Graham",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "ROBSON, Craig",
+        "role": "secretary",
+        "appointed_on": "2013-06-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "ROBSON, Craig",
+        "role": "secretary",
+        "appointed_on": "2013-06-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BASSETT, David Graham Henry",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CHARLES, Eleanor Louise",
+        "role": "director",
+        "appointed_on": "2022-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GUBBIN, Andrew David",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HUITSON-LITTLE, Rachel Louise",
+        "role": "director",
+        "appointed_on": "2013-12-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1980
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LAWLESS, Mark Reuben, Dr",
+        "role": "director",
+        "appointed_on": "2014-11-01",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MASLEN, Stephen",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1958
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MILLS, Gareth Peter",
+        "role": "director",
+        "appointed_on": "2022-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MORAN, Antony John",
+        "role": "director",
+        "appointed_on": "2022-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PINNELL, Marc Graham",
+        "role": "director",
+        "appointed_on": "2011-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Skipton",
+          "postal_code": "BD23 3FD",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 14,
+      "recent": [
+        {
+          "name": "BUCK, Richard George",
+          "role": "director",
+          "appointed_on": "2001-12-01",
+          "resigned_on": "2022-10-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1965
+          },
+          "address": {
+            "locality": "Skipton",
+            "postal_code": "BD23 3FD",
+            "country": "England"
+          }
+        },
+        {
+          "name": "DALE, Alastair George Jervis",
+          "role": "director",
+          "appointed_on": "2011-11-01",
+          "resigned_on": "2022-10-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1957
+          },
+          "address": {
+            "locality": "Skipton",
+            "postal_code": "BD23 3FD",
+            "country": "England"
+          }
+        },
+        {
+          "name": "DEAKIN, Gary John",
+          "role": "director",
+          "appointed_on": "2011-11-01",
+          "resigned_on": "2022-10-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1960
+          },
+          "address": {
+            "locality": "Skipton",
+            "postal_code": "BD23 3FD",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WHITTAKER, Joy Elizabeth",
+          "role": "director",
+          "appointed_on": "2011-11-01",
+          "resigned_on": "2014-04-30",
+          "nationality": "English",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1958
+          },
+          "address": {
+            "locality": "Skipton",
+            "postal_code": "BD23 3AE",
+            "country": null
+          }
+        },
+        {
+          "name": "COOPER, Jonathan Neil",
+          "role": "director",
+          "appointed_on": "2011-11-01",
+          "resigned_on": "2013-06-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1961
+          },
+          "address": {
+            "locality": "Skipton",
+            "postal_code": "BD23 3AE",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "03246693",
+          "name": "Jba Group Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03246693",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03246693/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "06396638",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "06396638",
+          "name": "Jba Group Employee Ownership Trustee Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-50-to-75-percent",
+            "voting-rights-50-to-75-percent"
+          ],
+          "notified_on": "2024-04-03",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06396638",
+            "notified_on": "2024-04-03",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06396638/persons-with-significant-control/corporate-entity/hOayHQYtDnDJjKsLNaQuFvSdwXo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09253569",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "09253569",
+          "name": "Jba Group Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09253569",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09253569/persons-with-significant-control/corporate-entity/7_OfTdMw0k8cFhYeKj4rBgxylus"
+          },
+          "terminal": true,
+          "resolution": "cycle_detected",
+          "parent_company_number": "06396638"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 93,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/03246693"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwOTAxMjI2NGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/03246693_2026-03-11.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03246693/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03246693/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 639,
+    "enriched_at": "2026-04-16T20:30:30Z",
+    "governance_enriched_at": "2026-04-16T22:34:35Z",
+    "ubo_enriched_at": "2026-04-16T23:20:31Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

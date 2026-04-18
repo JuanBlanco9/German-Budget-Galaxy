@@ -1,0 +1,1483 @@
+{
+  "company_number": "02228297",
+  "display_name": "EDF ENERGY CUSTOMERS LIMITED",
+  "identity": {
+    "ch_number": "02228297",
+    "official_name": "EDF ENERGY CUSTOMERS LIMITED",
+    "display_name": "EDF ENERGY CUSTOMERS LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1988-03-08",
+    "age_years": 38,
+    "registered_office": {
+      "address_line_1": "Nova North",
+      "address_line_2": "11 Bressenden Place",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "SW1E 5BY"
+    },
+    "sic_codes": [
+      "35130",
+      "35220"
+    ],
+    "sic_labels": [
+      "SIC 35130",
+      "SIC 35220"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02228297"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 347569651,
+    "rank": 116,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 345818410,
+        "segments": [
+          {
+            "segment": "DEFENCE INFRASTRUCTURE ORGANISATION",
+            "amount_gbp": 283634936,
+            "pct_of_segment": 8.53,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Air Command",
+            "amount_gbp": 36237915,
+            "pct_of_segment": 11.32,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Navy Command",
+            "amount_gbp": 20887990,
+            "pct_of_segment": 7.57,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Enabling",
+            "amount_gbp": 5057569,
+            "pct_of_segment": 14.02,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 1751241,
+        "segments": [
+          {
+            "segment": "KEW",
+            "amount_gbp": 1751241,
+            "pct_of_segment": 5.97,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-21",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NDI5OTk3M2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02228297_2025-07-21.pdf",
+      "size_mb": 2.9,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 8,
+    "officers_resigned_count": 44,
+    "board_turnover_ratio": 5.5,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "ALLEN, Tobias",
+        "role": "director",
+        "appointed_on": "2024-01-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BOASE, Emily",
+        "role": "director",
+        "appointed_on": "2024-10-07",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COMMARET, Philippe Andre Dominique",
+        "role": "director",
+        "appointed_on": "2019-11-06",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DALLEY, Christopher",
+        "role": "director",
+        "appointed_on": "2024-01-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HOLMES, Kaa Stuart",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HUMPHREY, Ceri",
+        "role": "director",
+        "appointed_on": "2023-07-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ROBERTS, Niels Roy",
+        "role": "director",
+        "appointed_on": "2024-12-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "SOUTO, Joe",
+        "role": "secretary",
+        "appointed_on": "2009-09-17",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "SOUTO, Joe",
+        "role": "secretary",
+        "appointed_on": "2009-09-17",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ALLEN, Tobias",
+        "role": "director",
+        "appointed_on": "2024-01-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BOASE, Emily",
+        "role": "director",
+        "appointed_on": "2024-10-07",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COMMARET, Philippe Andre Dominique",
+        "role": "director",
+        "appointed_on": "2019-11-06",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DALLEY, Christopher",
+        "role": "director",
+        "appointed_on": "2024-01-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HOLMES, Kaa Stuart",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HUMPHREY, Ceri",
+        "role": "director",
+        "appointed_on": "2023-07-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ROBERTS, Niels Roy",
+        "role": "director",
+        "appointed_on": "2024-12-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5BY",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 44,
+      "recent": [
+        {
+          "name": "HUGHES, Richard Tudor",
+          "role": "director",
+          "appointed_on": "2016-05-30",
+          "resigned_on": "2026-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1973
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1E 5BY",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MCCORKELL, Camilla",
+          "role": "director",
+          "appointed_on": "2024-10-14",
+          "resigned_on": "2026-03-31",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1986
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1E 5BY",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MEANWELL, Julie Ann",
+          "role": "director",
+          "appointed_on": "2020-02-26",
+          "resigned_on": "2024-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1967
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1T 4EZ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "NUNN, Matthew David  Samuel",
+          "role": "director",
+          "appointed_on": "2022-03-01",
+          "resigned_on": "2024-10-14",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1T 4EZ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FORTUNE, Dawn",
+          "role": "director",
+          "appointed_on": "2018-03-07",
+          "resigned_on": "2024-10-07",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1T 4EZ",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02228297",
+          "name": "Edf Energy Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2017-09-20",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02228297",
+            "notified_on": "2017-09-20",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02228297/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "02366852",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "02366852",
+          "name": "Edf Energy Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2018-04-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02366852",
+            "notified_on": "2018-04-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02366852/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "06930266",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "06930266",
+          "name": "Edf Energy (Uk) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06930266",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06930266/persons-with-significant-control/corporate-entity/G0Um0A_hdfxTZdGEHSSm9IxhnMk"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "02622406",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02228297"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NDI5OTk3M2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02228297_2025-07-21.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02228297/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02228297/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 116,
+    "enriched_at": "2026-04-16T19:22:16Z",
+    "governance_enriched_at": "2026-04-16T22:11:35Z",
+    "ubo_enriched_at": "2026-04-16T22:50:47Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 81,
+      "total_contracts_non_framework": 63,
+      "total_awarded_gbp": 3618028539.650257,
+      "total_awarded_non_framework_gbp": 2568450277.52,
+      "years_active": 6,
+      "first_year": 2019,
+      "last_year": 2024,
+      "trajectory": "new_entrant",
+      "trajectory_note": "no contracts before 2024",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Defence",
+        "years_count": 2,
+        "years_list": [
+          2023,
+          2024
+        ],
+        "total_value_gbp": 509522080,
+        "n_contracts": 3
+      },
+      "n_unique_buyers_all_years": 40,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 10000000000.0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 10000000000.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 3,
+          "value_gbp": 10000000000.0
+        },
+        "procurement_method_counts": {
+          "selective": 3
+        }
+      },
+      "2020": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": -9949416666.666666,
+        "awarded_gbp_non_framework": 12000000.0,
+        "awarded_gbp_framework_share": -9961416666.666666,
+        "sole_source_pct": -0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Local Partnerships",
+          "contracts": 1,
+          "value_gbp": 31250000.0
+        },
+        "procurement_method_counts": {
+          "open": 4,
+          "selective": 3
+        }
+      },
+      "2021": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 107768847.07692307,
+        "awarded_gbp_non_framework": 107768847,
+        "awarded_gbp_framework_share": 0.07692307692307693,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "GOVERNMENT PROPERTY AGENCY",
+          "contracts": 1,
+          "value_gbp": 100000000
+        },
+        "procurement_method_counts": {
+          "selective": 5,
+          "open": 1,
+          "unspecified": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 1080509410.0,
+        "awarded_gbp_non_framework": 70509410.0,
+        "awarded_gbp_framework_share": 1010000000.0,
+        "sole_source_pct": 1.2,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Kent County Council (t/a LASER)",
+          "contracts": 1,
+          "value_gbp": 1000000000.0
+        },
+        "procurement_method_counts": {
+          "open": 7,
+          "direct": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 65602526,
+        "awarded_gbp_non_framework": 65602526,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 7,
+        "top_buyer": {
+          "buyer": "Derbyshire County Council",
+          "contracts": 1,
+          "value_gbp": 40000000
+        },
+        "procurement_method_counts": {
+          "selective": 6,
+          "open": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 49,
+        "n_contracts_non_framework": 44,
+        "awarded_gbp_total": 2313564423.24,
+        "awarded_gbp_non_framework": 2312569494.52,
+        "awarded_gbp_framework_share": 994928.72,
+        "sole_source_pct": 0.01,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 18,
+        "top_buyer": {
+          "buyer": "Transport for London",
+          "contracts": 1,
+          "value_gbp": 1068135163
+        },
+        "procurement_method_counts": {
+          "selective": 43,
+          "unspecified": 3,
+          "direct": 1,
+          "open": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "09000000",
+        "top_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "top_value_gbp": 10000000000.0,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "71314000",
+        "top_label": "Energy and related services",
+        "top_value_gbp": 31250000.0,
+        "n_distinct_codes": 4
+      },
+      "2021": {
+        "top_code": "71314000",
+        "top_label": "Energy and related services",
+        "top_value_gbp": 104960000.0,
+        "n_distinct_codes": 5
+      },
+      "2022": {
+        "top_code": "09000000",
+        "top_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "top_value_gbp": 1010000000.0,
+        "n_distinct_codes": 4
+      },
+      "2023": {
+        "top_code": "09310000",
+        "top_label": "Electricity",
+        "top_value_gbp": 65265496.0,
+        "n_distinct_codes": 4
+      },
+      "2024": {
+        "top_code": "09310000",
+        "top_label": "Electricity",
+        "top_value_gbp": 2056337467.52,
+        "n_distinct_codes": 7
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": true,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 15,
+        "selective": 60,
+        "direct": 2,
+        "unspecified": 4
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 1149215996.3333335,
+        "selective": 2455175867.5200005,
+        "direct": 13250000.0,
+        "unspecified": 386675.7969230769
+      },
+      "sole_source_pct_all_years": 0.1,
+      "competitive_pct_all_years": 26.47,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 3,
+        "value_gbp": 10000000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/5WZu8KXU",
+        "buyer_name": "Transport for London",
+        "contracts": 1,
+        "value_gbp": 1068135163
+      },
+      {
+        "buyer_id": "GB-CFS-144784",
+        "buyer_name": "Kent County Council (t/a LASER)",
+        "contracts": 1,
+        "value_gbp": 1000000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-290680",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 500000000
+      },
+      {
+        "buyer_id": "GB-CFS-183111",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 2,
+        "value_gbp": 431300000
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/33rD6A8J",
+        "buyer_name": "GOVERNMENT PROPERTY AGENCY",
+        "contracts": 2,
+        "value_gbp": 345000000
+      },
+      {
+        "buyer_id": "GB-CFS-138001",
+        "buyer_name": "Gloucestershire County Council",
+        "contracts": 2,
+        "value_gbp": 48360000
+      },
+      {
+        "buyer_id": "GB-CFS-126175",
+        "buyer_name": "Derbyshire County Council",
+        "contracts": 1,
+        "value_gbp": 40000000
+      },
+      {
+        "buyer_id": "GB-CFS-121923",
+        "buyer_name": "Local Partnerships",
+        "contracts": 1,
+        "value_gbp": 31250000.0
+      },
+      {
+        "buyer_id": "GB-CFS-197565",
+        "buyer_name": "Nottingham University Hospitals NHS Trust",
+        "contracts": 1,
+        "value_gbp": 25000000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/CKS38zAq",
+        "buyer_name": "The University of Hertfordshire",
+        "contracts": 1,
+        "value_gbp": 17428408.52
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/RTZp9527",
+        "buyer_name": "Cambridgeshire County Council",
+        "contracts": 1,
+        "value_gbp": 16500000
+      },
+      {
+        "buyer_id": "GB-CFS-26061",
+        "buyer_name": "Liverpool City Council",
+        "contracts": 1,
+        "value_gbp": 13000000.0
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/aBpQ89jk",
+        "buyer_name": "UNIVERSITY OF NOTTINGHAM (THE)",
+        "contracts": 1,
+        "value_gbp": 12000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-203052",
+        "buyer_name": "Cirrus Primary Academy Trust",
+        "contracts": 1,
+        "value_gbp": 10000000.0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "09310000",
+        "label": "Electricity",
+        "contracts": 48,
+        "value_gbp": 2188652373.52
+      },
+      {
+        "code": "09000000",
+        "label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contracts": 12,
+        "value_gbp": 1024889175.7199993
+      },
+      {
+        "code": "09300000",
+        "label": "Electricity, heating, solar and nuclear energy",
+        "contracts": 2,
+        "value_gbp": 245250000
+      },
+      {
+        "code": "71314000",
+        "label": "Energy and related services",
+        "contracts": 6,
+        "value_gbp": 136960000.0
+      },
+      {
+        "code": "65000000",
+        "label": "Public utilities",
+        "contracts": 5,
+        "value_gbp": 13335493.333333334
+      },
+      {
+        "code": "31682000",
+        "label": "Electricity supplies",
+        "contracts": 2,
+        "value_gbp": 8000000
+      },
+      {
+        "code": "65300000",
+        "label": "Electricity distribution and related services",
+        "contracts": 1,
+        "value_gbp": 360000
+      },
+      {
+        "code": "38554000",
+        "label": "Electricity meters",
+        "contracts": 1,
+        "value_gbp": 287650
+      },
+      {
+        "code": "09120000",
+        "label": "Gaseous fuels",
+        "contracts": 1,
+        "value_gbp": 223847
+      },
+      {
+        "code": "65500000",
+        "label": "Meter reading service",
+        "contracts": 1,
+        "value_gbp": 70000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-144dad97-21a0-4650-a5f1-4a57cc49ce52",
+        "date": "2024-11-15T00:00:00Z",
+        "buyer": "Golden Lane Housing Limited",
+        "title": "GB-Manchester: GLH0061 - Provision of Communal Electricity (Half Hourly)",
+        "value_gbp": 33951.06,
+        "procurement_method": null,
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2024-11-21T00:00:00Z",
+        "contract_end": "2027-11-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f0036d81-c00a-4fce-a72e-2d16a84c56d3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-97f214a4-f2ad-4494-a4d0-331ec3a7983c",
+        "date": "2024-11-15T00:00:00Z",
+        "buyer": "Golden Lane Housing Limited",
+        "title": "GB-Manchester: GLH0014 - Provision of Communal Electricity (Non Half Hourly)",
+        "value_gbp": 340224.66,
+        "procurement_method": null,
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2024-11-21T00:00:00Z",
+        "contract_end": "2027-11-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/08a58968-763b-4e7e-856e-2f6c83ac70e5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e2cb7e72-c1bf-4ee8-a94f-eb7ab3e2a475",
+        "date": "2024-09-27T00:00:00+01:00",
+        "buyer": "Transport for London",
+        "title": "Pan-TfL Electricity Supply_2026 - 2029",
+        "value_gbp": 1068135163,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2027-01-04T00:00:00Z",
+        "contract_end": "2029-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2d1ebd5a-a2a9-4520-a307-f0aa77e96993",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5fd5b569-b903-425c-92b7-9b4064184ca3",
+        "date": "2024-09-16T00:00:00+01:00",
+        "buyer": "Kent County Council (t/a LASER Energy)",
+        "title": "Flexible Procurement and Supply of Half Hourly (HH), Non-Half Hourly (NHH), Metered and Unmetered Electricity with Meter Operations and Additional Services - Y18003",
+        "value_gbp": 12500.0,
+        "procurement_method": null,
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-09-30T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ea633e87-72e3-4597-8f03-dfb903d9657f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c4b32e56-f675-4b54-b963-d3392cf0862b",
+        "date": "2024-09-16T00:00:00+01:00",
+        "buyer": "NSAH (ALLIANCE HOMES) LIMITED",
+        "title": "Electricity supplies (half-hourly, non half-hourly, unmetered supplies) - communal and offices",
+        "value_gbp": 608253,
+        "procurement_method": "open",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c3722f93-ea26-47cd-8239-e2ada0d80ada",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-29ffe2da-4f8e-428d-8c5b-4225dd2f9fb1",
+        "date": "2024-09-09T00:00:00+01:00",
+        "buyer": "Nottingham University Hospitals NHS Trust",
+        "title": "Supply of Electricity to Half Hourly & Non-Half Hourly Meters 2025 - 2029",
+        "value_gbp": 25000000,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2025-04-01T00:00:00+01:00",
+        "contract_end": "2029-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d83a8c84-4417-4818-a82b-35263525b268",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a75edd00-268c-48ca-9c4a-f48ed69ffb95",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE SOUTH EAST LTD X 1 HH METER 2024",
+        "value_gbp": 87726,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/51925436-a72c-4117-a3b1-ae5474b9f411",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b4fe3976-4627-454a-92a9-a7b30ae30566",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE GROUP HOLDINGS X 1 HH METER 2024",
+        "value_gbp": 246891,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d0a2fe40-0d88-4d0f-9ff6-8fcd0aa81a8a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7165b6df-fab1-4253-a179-3b2acbc54dfb",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE ENVIRONMENTAL WASTE SERVICES LTD X 18 NHH METER 2024",
+        "value_gbp": 302226,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/23b93a3a-2b37-4920-bb83-aa22b1a76408",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a53b5369-e39e-41ad-9b56-1f8f74f7f7d1",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE ENVIRONMENTAL WASTE SERVICES LTD X 3 HH METER 2024",
+        "value_gbp": 1662504,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/16704c60-1788-4d4b-b4bd-77e13052aaf5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-eee26e35-e81f-4d14-843d-c8dd1b75f114",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE COMMERCIAL SERVICES X 5 NHH METER 2024",
+        "value_gbp": 52035,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d5b132df-bf0a-4f9a-ad65-2468f5151e4b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-691ee966-89ec-49a6-bf7e-f0f89a7f6472",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE COMMERCIAL SERVICES X 1 HH METER OCT 2024",
+        "value_gbp": 368418,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/13bd5388-a88f-49e9-9312-c6fb28eb98a2",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ee0b7909-5ce4-406a-8388-8dcc6cd5657f",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE CARE LTD X 15 NHH METER 2024",
+        "value_gbp": 859257,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/541ebf5e-a16e-4b74-94c3-e75d3bbc8f54",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ad18623a-f627-4f9a-b25b-38973a249b5e",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE CARE LTD X 10 HH METER 2024",
+        "value_gbp": 1087695,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8eee5d7f-5c8b-4c0f-b1e1-469d7636c04d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5a332efb-c896-4c17-a14a-4c5b001e104f",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO EAST HAMPSHIRE NORSE LTD X 1 NHH METER 2024",
+        "value_gbp": 19077,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ca478b58-a09b-4791-a650-ad2a8c577b74",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1d4edf78-5980-4ac5-b530-f9e1a1e32c61",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO ALLIANCE NORSE LTD X 5 NHH METER 2024",
+        "value_gbp": 36303,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4740d375-29d3-47e8-8f8c-77a69cc1fb0a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58edfd81-8520-4cdd-bce4-09919977cdf6",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO MEDWAY NORSE LTD X 5 NHH METERS 2024",
+        "value_gbp": 118599,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4b166f02-894e-4294-8a78-305f64a00cab",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3b2a0259-43ee-42aa-9690-3c31951de97a",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO HAMSON BARRON SMITH LTD X 2 NHH METERS 2024",
+        "value_gbp": 24453,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f96f3853-32c2-43db-9418-092d95cbaa1b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bde012ac-5a5d-4414-90c4-0e6b6981995f",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO ROCHFORD NORSE X 1 NHH METER 2024",
+        "value_gbp": 40914,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/50a6feb6-4aa6-446e-a5a2-342463256f1e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f78e0db4-8c39-4e32-8178-f91dbbd7c4a3",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO UTTLESFORD NORSE SERVICES X 1 NHH METER 2024",
+        "value_gbp": 30054,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/05f0b1f2-11be-4aa1-8ab1-0ba06d2bc17a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-95f0d0f4-2950-4704-b6fc-eabe8d911d0d",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO WEST NORTHAMPTONSHIRE NORSE X 1 HH METER 2024",
+        "value_gbp": 116364,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9eaf93e-cd5e-4d0f-8112-90dccbbc3cb5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-95f0d0f4-2950-4704-b6fc-eabe8d911d0d",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO WEST NORTHAMPTONSHIRE NORSE X 1 HH METER 2024",
+        "value_gbp": 38788,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9eaf93e-cd5e-4d0f-8112-90dccbbc3cb5",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f78e0db4-8c39-4e32-8178-f91dbbd7c4a3",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO UTTLESFORD NORSE SERVICES X 1 NHH METER 2024",
+        "value_gbp": 10018,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/05f0b1f2-11be-4aa1-8ab1-0ba06d2bc17a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bde012ac-5a5d-4414-90c4-0e6b6981995f",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO ROCHFORD NORSE X 1 NHH METER 2024",
+        "value_gbp": 13637,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/50a6feb6-4aa6-446e-a5a2-342463256f1e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3b2a0259-43ee-42aa-9690-3c31951de97a",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO HAMSON BARRON SMITH LTD X 2 NHH METERS 2024",
+        "value_gbp": 8150,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f96f3853-32c2-43db-9418-092d95cbaa1b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-58edfd81-8520-4cdd-bce4-09919977cdf6",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO MEDWAY NORSE LTD X 5 NHH METERS 2024",
+        "value_gbp": 39533,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4b166f02-894e-4294-8a78-305f64a00cab",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1d4edf78-5980-4ac5-b530-f9e1a1e32c61",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO ALLIANCE NORSE LTD X 5 NHH METER 2024",
+        "value_gbp": 12101,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4740d375-29d3-47e8-8f8c-77a69cc1fb0a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5a332efb-c896-4c17-a14a-4c5b001e104f",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO EAST HAMPSHIRE NORSE LTD X 1 NHH METER 2024",
+        "value_gbp": 6359,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ca478b58-a09b-4791-a650-ad2a8c577b74",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ad18623a-f627-4f9a-b25b-38973a249b5e",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE CARE LTD X 10 HH METER 2024",
+        "value_gbp": 362565,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8eee5d7f-5c8b-4c0f-b1e1-469d7636c04d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ee0b7909-5ce4-406a-8388-8dcc6cd5657f",
+        "date": "2024-09-05T00:00:00+01:00",
+        "buyer": "Indigo Swan",
+        "title": "SUPPLY OF MAINS ELECTRICITY TO NORSE CARE LTD X 15 NHH METER 2024",
+        "value_gbp": 286419,
+        "procurement_method": "selective",
+        "cpv_code": "09310000",
+        "cpv_label": "Electricity",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/541ebf5e-a16e-4b74-94c3-e75d3bbc8f54",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 347569651,
+      "awarded_2024_gbp_from_cf": 2313564423.24,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 6.7× current payments — major pipeline for 2025+.",
+      "ratio": 6.66
+    }
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "company_number": "03838084",
+  "display_name": "DEFENCE TRAINING SERVICES LIMITED",
+  "identity": {
+    "ch_number": "03838084",
+    "official_name": "DEFENCE TRAINING SERVICES LIMITED",
+    "display_name": "DEFENCE TRAINING SERVICES LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1999-09-03",
+    "age_years": 26,
+    "registered_office": {
+      "address_line_1": "Third Floor Broad Quay House",
+      "address_line_2": "Prince Street",
+      "locality": "Bristol",
+      "postal_code": "BS1 4DJ"
+    },
+    "sic_codes": [
+      "68320"
+    ],
+    "sic_labels": [
+      "SIC 68320"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/03838084"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 29003682,
+    "rank": 509,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 29003682,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 29003682,
+            "pct_of_segment": 5.74,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-08-06",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NjA5MTQwOGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/03838084_2025-08-06.pdf",
+      "size_mb": 1.12,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 34,
+    "board_turnover_ratio": 6.8,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "DONN, Michael Andrew",
+        "role": "director",
+        "appointed_on": "2013-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1972
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH2 2AH",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LITTLE, Richard Geoffrey, Mr.",
+        "role": "director",
+        "appointed_on": "2023-05-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS1 4DJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCLURE, Cameron Hannah",
+        "role": "director",
+        "appointed_on": "2025-01-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1994
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH2 2LL",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "RITCHIE, Alan Campbell",
+        "role": "director",
+        "appointed_on": "2017-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS1 4DJ",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "SEMPERIAN SECRETARIAT SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2005-09-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7BX",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "SEMPERIAN SECRETARIAT SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2005-09-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7BX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "DONN, Michael Andrew",
+        "role": "director",
+        "appointed_on": "2013-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1972
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH2 2AH",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LITTLE, Richard Geoffrey, Mr.",
+        "role": "director",
+        "appointed_on": "2023-05-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS1 4DJ",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCLURE, Cameron Hannah",
+        "role": "director",
+        "appointed_on": "2025-01-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1994
+        },
+        "address": {
+          "locality": "Edinburgh",
+          "postal_code": "EH2 2LL",
+          "country": "Scotland"
+        }
+      },
+      {
+        "name": "RITCHIE, Alan Campbell",
+        "role": "director",
+        "appointed_on": "2017-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS1 4DJ",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 34,
+      "recent": [
+        {
+          "name": "COHEN, Gershon Daniel",
+          "role": "director",
+          "appointed_on": "2024-01-19",
+          "resigned_on": "2025-01-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1964
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2M 4AG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "SMITH, Martin Timothy",
+          "role": "director",
+          "appointed_on": "2005-04-25",
+          "resigned_on": "2024-01-19",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1967
+          },
+          "address": {
+            "locality": "Edinburgh",
+            "postal_code": "EH2 2AH",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HORNBY, Stephen Paul",
+          "role": "director",
+          "appointed_on": "2008-02-06",
+          "resigned_on": "2023-05-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1957
+          },
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS1 4DJ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MCCABE, Julia Sarah",
+          "role": "director",
+          "appointed_on": "2012-09-03",
+          "resigned_on": "2017-04-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Bristol",
+            "postal_code": "BS1 4DJ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "BREMNER, Alexander George",
+          "role": "director",
+          "appointed_on": "2010-07-01",
+          "resigned_on": "2013-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1954
+          },
+          "address": {
+            "locality": "Fife",
+            "postal_code": "KY3 0TF",
+            "country": "Scotland"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 2,
+    "direct_psc_statements": [
+      {
+        "statement": "steps-to-find-psc-not-yet-completed",
+        "notified_on": "2017-06-23",
+        "ceased_on": "2017-05-11"
+      },
+      {
+        "statement": "steps-to-find-psc-not-yet-completed",
+        "notified_on": "2017-06-23",
+        "ceased_on": "2017-05-11"
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 2,
+    "chains_count": 2,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "03838084",
+          "name": "Pfi Investments Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03838084",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03838084/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05016050",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05016050",
+          "name": "Semperian Infrastructure Portfolio Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05016050",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05016050/persons-with-significant-control/corporate-entity/-jcNWwk7N2paIMkurItszrA_o1w"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "06335776",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "06335776",
+          "name": "Semperian Infrastructure Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06335776",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06335776/persons-with-significant-control/corporate-entity/mGnxyGvFPUEZVzQfCyKic5MtcxM"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "07009647",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control",
+            "steps-to-find-psc-not-yet-completed"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "03838084",
+          "name": "Aberdeen Infrastructure (No.3) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03838084",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03838084/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "06632304",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "06632304",
+          "name": "Aberdeen Infrastructure Finance Gp Limited In Its Capacity As General Partner Of Aberdeen Infrastructure Partners Lp Inc.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2016-11-28",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06632304",
+            "notified_on": "2016-11-28",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06632304/persons-with-significant-control/corporate-entity/6flRmLBK2-_cPApfmGnMOQUe_CA"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": "Guernsey",
+          "parent_registration_number": "49692"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Guernsey"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/03838084"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NjA5MTQwOGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/03838084_2025-08-06.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03838084/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03838084/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 509,
+    "enriched_at": "2026-04-16T20:18:38Z",
+    "governance_enriched_at": "2026-04-16T22:27:49Z",
+    "ubo_enriched_at": "2026-04-16T23:15:04Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

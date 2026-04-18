@@ -1,0 +1,1246 @@
+{
+  "company_number": "00053419",
+  "display_name": "ENTSERV UK LIMITED",
+  "identity": {
+    "ch_number": "00053419",
+    "official_name": "ENTSERV UK LIMITED",
+    "display_name": "ENTSERV UK LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1897-07-21",
+    "age_years": 128,
+    "registered_office": {
+      "address_line_1": "110 Pinehurst Road",
+      "address_line_2": "Farnborough Business Park",
+      "country": "England",
+      "locality": "Farnborough",
+      "postal_code": "GU14 7BF",
+      "region": "Hampshire"
+    },
+    "sic_codes": [
+      "62020"
+    ],
+    "sic_labels": [
+      "IT consultancy activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00053419"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 25333131,
+    "rank": 539,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 10286271,
+        "segments": [
+          {
+            "segment": "Army Command",
+            "amount_gbp": 10286271,
+            "pct_of_segment": 2.04,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 9712190,
+        "segments": [
+          {
+            "segment": "DBS - Disclosure & Barring Service",
+            "amount_gbp": 9712190,
+            "pct_of_segment": 12.81,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 5334670,
+        "segments": [
+          {
+            "segment": "Group Operations",
+            "amount_gbp": 5334670,
+            "pct_of_segment": 4.13,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-04",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5MTk0NTMxOGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/00053419_2025-12-04.pdf",
+      "size_mb": 3.79,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 71,
+    "board_turnover_ratio": 23.67,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "ALLISON, Derek Alan",
+        "role": "director",
+        "appointed_on": "2024-10-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Farnborough",
+          "postal_code": "GU14 7BF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BRABIN, Lawrence Michael",
+        "role": "director",
+        "appointed_on": "2024-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Farnborough",
+          "postal_code": "GU14 7BF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WOODFINE, Michael Charles",
+        "role": "director",
+        "appointed_on": "2017-06-26",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Farnborough",
+          "postal_code": "GU14 7BF",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "ALLISON, Derek Alan",
+        "role": "director",
+        "appointed_on": "2024-10-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Farnborough",
+          "postal_code": "GU14 7BF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BRABIN, Lawrence Michael",
+        "role": "director",
+        "appointed_on": "2024-06-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Farnborough",
+          "postal_code": "GU14 7BF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WOODFINE, Michael Charles",
+        "role": "director",
+        "appointed_on": "2017-06-26",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1971
+        },
+        "address": {
+          "locality": "Farnborough",
+          "postal_code": "GU14 7BF",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 71,
+      "recent": [
+        {
+          "name": "EALES, Hugo Martin",
+          "role": "director",
+          "appointed_on": "2022-01-21",
+          "resigned_on": "2024-07-25",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1967
+          },
+          "address": {
+            "locality": "Aldershot",
+            "postal_code": "GU11 1PZ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HALBARD, Christopher Neal",
+          "role": "director",
+          "appointed_on": "2020-04-07",
+          "resigned_on": "2023-04-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Aldershot",
+            "postal_code": "GU11 1PZ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "TURPIE, Steven James",
+          "role": "director",
+          "appointed_on": "2020-03-04",
+          "resigned_on": "2022-07-15",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Aldershot",
+            "postal_code": "GU11 1PZ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "GOUGH, Tina Anne",
+          "role": "director",
+          "appointed_on": "2016-11-24",
+          "resigned_on": "2020-04-07",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1962
+          },
+          "address": {
+            "locality": "Aldershot",
+            "postal_code": "GU11 1PZ",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MAJED, Maruf Ahmad",
+          "role": "director",
+          "appointed_on": "2018-03-31",
+          "resigned_on": "2020-02-26",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "Singapore",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1955
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "N1C 4AG",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "00053419",
+          "name": "Dxc Technology Company",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2017-04-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00053419",
+            "notified_on": "2017-04-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00053419/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": "Usa (Other)",
+          "parent_registration_number": "E0155692017-0"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Usa (Other)"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00053419"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5MTk0NTMxOGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/00053419_2025-12-04.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00053419/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00053419/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 539,
+    "enriched_at": "2026-04-16T20:20:59Z",
+    "governance_enriched_at": "2026-04-16T22:29:09Z",
+    "ubo_enriched_at": "2026-04-16T23:16:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 31,
+      "total_contracts_non_framework": 25,
+      "total_awarded_gbp": 366736098.1304172,
+      "total_awarded_non_framework_gbp": 329933498.09,
+      "years_active": 6,
+      "first_year": 2019,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +93.7% between 2019 (£5M) and 2024 (£142M)",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Defence",
+        "years_count": 3,
+        "years_list": [
+          2021,
+          2022,
+          2023
+        ],
+        "total_value_gbp": 11404926.33,
+        "n_contracts": 3
+      },
+      "n_unique_buyers_all_years": 13,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 5192960.89,
+        "awarded_gbp_non_framework": 5192960.89,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.23,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Justice.",
+          "contracts": 2,
+          "value_gbp": 5170280.89
+        },
+        "procurement_method_counts": {
+          "selective": 3,
+          "limited": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 69694345.35923077,
+        "awarded_gbp_non_framework": 51925114.589999996,
+        "awarded_gbp_framework_share": 17769230.769230768,
+        "sole_source_pct": 68.56,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Ministry of Justice.",
+          "contracts": 2,
+          "value_gbp": 48249891.24
+        },
+        "procurement_method_counts": {
+          "selective": 8,
+          "limited": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 129118191.49,
+        "awarded_gbp_non_framework": 129118191.49,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Department of Health and Social Care (DHSC)",
+          "contracts": 2,
+          "value_gbp": 97920000
+        },
+        "procurement_method_counts": {
+          "selective": 7
+        }
+      },
+      "2022": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 21058677.27118644,
+        "awarded_gbp_non_framework": 2025309,
+        "awarded_gbp_framework_share": 19033368.27118644,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 1,
+          "value_gbp": 10558792
+        },
+        "procurement_method_counts": {
+          "open": 1,
+          "selective": 2
+        }
+      },
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 1.0,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 1.0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 1,
+          "value_gbp": 1.0
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 141671922.12,
+        "awarded_gbp_non_framework": 141671922.12,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "UK Health Security Agency",
+          "contracts": 3,
+          "value_gbp": 67200000
+        },
+        "procurement_method_counts": {
+          "selective": 7
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "64216120",
+        "top_label": "Electronic mail services",
+        "top_value_gbp": 2672093.07,
+        "n_distinct_codes": 3
+      },
+      "2020": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 65649216.05923077,
+        "n_distinct_codes": 3
+      },
+      "2021": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 97920000.0,
+        "n_distinct_codes": 5
+      },
+      "2022": {
+        "top_code": "50300000",
+        "top_label": "Repair, maintenance and associated services related to personal computers, office equipment, telecommunications and audio-visual equipment",
+        "top_value_gbp": 10558792.0,
+        "n_distinct_codes": 3
+      },
+      "2023": {
+        "top_code": "72590000",
+        "top_label": "Computer-related professional services",
+        "top_value_gbp": 1.0,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "72222300",
+        "top_label": "Information technology services",
+        "top_value_gbp": 67632000.0,
+        "n_distinct_codes": 4
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 28,
+        "limited": 2,
+        "open": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 310463786.5692308,
+        "limited": 47797735.29,
+        "open": 8474576.271186441
+      },
+      "sole_source_pct_all_years": 13.03,
+      "competitive_pct_all_years": 86.97,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-156187",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 2,
+        "value_gbp": 97920000
+      },
+      {
+        "buyer_id": "GB-CFS-278997",
+        "buyer_name": "UK Health Security Agency",
+        "contracts": 3,
+        "value_gbp": 67200000
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 2,
+        "value_gbp": 65180000
+      },
+      {
+        "buyer_id": "GB-CFS-143598",
+        "buyer_name": "Ministry of Justice.",
+        "contracts": 4,
+        "value_gbp": 53420172.13
+      },
+      {
+        "buyer_id": "GB-CFS-143778",
+        "buyer_name": "Post Office Limited",
+        "contracts": 2,
+        "value_gbp": 28945233.769230768
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/t9Gu6N7M",
+        "buyer_name": "Post Office Limited",
+        "contracts": 2,
+        "value_gbp": 12000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-210606",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 10558792
+      },
+      {
+        "buyer_id": "GB-CFS-278488",
+        "buyer_name": "UKHSA",
+        "contracts": 1,
+        "value_gbp": 8859922.12
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 3,
+        "value_gbp": 8840567.51
+      },
+      {
+        "buyer_id": "GB-CFS-192584",
+        "buyer_name": "Highways England",
+        "contracts": 1,
+        "value_gbp": 8474576.271186441
+      },
+      {
+        "buyer_id": "GB-CFS-163489",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 1,
+        "value_gbp": 3241920
+      },
+      {
+        "buyer_id": "GB-CFS-175883",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 846133.33
+      },
+      {
+        "buyer_id": "GB-CFS-188964",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 1,
+        "value_gbp": 700000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/3A4AmUm4",
+        "buyer_name": "Cabinet Office",
+        "contracts": 1,
+        "value_gbp": 432000
+      },
+      {
+        "buyer_id": "GB-GOR-EA46",
+        "buyer_name": "Met Office",
+        "contracts": 5,
+        "value_gbp": 116780
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 11,
+        "value_gbp": 163591896.05923074
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 7,
+        "value_gbp": 80194629.60118644
+      },
+      {
+        "code": "72222000",
+        "label": "Information systems or technology strategic review and planning services",
+        "contracts": 1,
+        "value_gbp": 65000000
+      },
+      {
+        "code": "72600000",
+        "label": "Computer support and consultancy services",
+        "contracts": 1,
+        "value_gbp": 23176003
+      },
+      {
+        "code": "50300000",
+        "label": "Repair, maintenance and associated services related to personal computers, office equipment, telecommunications and audio-visual equipment",
+        "contracts": 1,
+        "value_gbp": 10558792
+      },
+      {
+        "code": "72225000",
+        "label": "System quality assurance assessment and review services",
+        "contracts": 1,
+        "value_gbp": 8859922.12
+      },
+      {
+        "code": "48800000",
+        "label": "Information systems and servers",
+        "contracts": 1,
+        "value_gbp": 3581123.35
+      },
+      {
+        "code": "80510000",
+        "label": "Specialist training services",
+        "contracts": 1,
+        "value_gbp": 3234135.16
+      },
+      {
+        "code": "64216120",
+        "label": "Electronic mail services",
+        "contracts": 1,
+        "value_gbp": 2672093.07
+      },
+      {
+        "code": "32424000",
+        "label": "Network infrastructure",
+        "contracts": 1,
+        "value_gbp": 2498187.82
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-474549c0-c505-49a7-b190-d74d82775164",
+        "date": "2024-04-01T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of Land Training Information System (Project ELGIN)",
+        "value_gbp": 65000000,
+        "procurement_method": "selective",
+        "cpv_code": "72222000",
+        "cpv_label": "Information systems or technology strategic review and planning services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2029-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3343527c-09dd-4d97-babb-4e80125cef93",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f44be104-a274-4bed-a00e-0426d18c8c1c",
+        "date": "2024-03-25T00:00:00Z",
+        "buyer": "UKHSA",
+        "title": "Quality Assurance Testing - Functional and Non Functional",
+        "value_gbp": 8859922.12,
+        "procurement_method": "selective",
+        "cpv_code": "72225000",
+        "cpv_label": "System quality assurance assessment and review services",
+        "contract_start": "2024-03-25T00:00:00Z",
+        "contract_end": "2027-03-24T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c8fcc4b1-4d64-4c27-b21f-ffd74c2d67e4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8c4ec1ea-eb5c-4fea-85be-830c4bac8798",
+        "date": "2024-03-22T00:00:00Z",
+        "buyer": "UK Health Security Agency",
+        "title": "Cloud Platform Managed Service",
+        "value_gbp": 22400000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-03-18T00:00:00Z",
+        "contract_end": "2026-03-17T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2e2fff38-86bb-46d9-be59-bd646a46a4be",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8c4ec1ea-eb5c-4fea-85be-830c4bac8798",
+        "date": "2024-03-22T00:00:00Z",
+        "buyer": "UK Health Security Agency",
+        "title": "Cloud Platform Managed Service",
+        "value_gbp": 22400000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-03-18T00:00:00Z",
+        "contract_end": "2026-03-17T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/56fa7c83-fb26-4f1d-9088-84427ab4b3f2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8c4ec1ea-eb5c-4fea-85be-830c4bac8798",
+        "date": "2024-03-22T00:00:00Z",
+        "buyer": "UK Health Security Agency",
+        "title": "Cloud Platform Managed Service",
+        "value_gbp": 22400000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-03-18T00:00:00Z",
+        "contract_end": "2026-03-17T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/befc2017-1dbe-4fad-882e-d5636c1a5c21",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3c470603-68e3-4878-969f-3f713ffc0517",
+        "date": "2024-02-22T00:00:00Z",
+        "buyer": "Cabinet Office",
+        "title": "Provision of GPG Platforms, Data and Interoperability IT HealthChecks (ITHC)",
+        "value_gbp": 432000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-02-22T00:00:00Z",
+        "contract_end": "2025-02-21T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4baf6cc3-c4eb-4525-9853-3e805ae22103",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c7ecd2c6-0d26-407d-ad37-6cd4df6edb2e",
+        "date": "2024-02-09T00:00:00Z",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of Platforms, Data and Interoperability IT HealthCheck (ITHC)",
+        "value_gbp": 180000,
+        "procurement_method": "selective",
+        "cpv_code": "48611000",
+        "cpv_label": "Database software package",
+        "contract_start": "2024-02-22T00:00:00Z",
+        "contract_end": "2025-03-21T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a5dc0b17-b34c-40b1-b5f4-5a1499b54273",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-01197886-b662-47c8-8a9a-7ce8274fda0d",
+        "date": "2023-11-17T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "RM6249 Digital and IT Professional Services (DIPS) Framework - CAN",
+        "value_gbp": 1.0,
+        "procurement_method": "selective",
+        "cpv_code": "72590000",
+        "cpv_label": "Computer-related professional services",
+        "contract_start": "2023-11-17T00:00:00Z",
+        "contract_end": "2027-11-16T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b92822ac-7c7e-4830-943c-ad78c14a6f75",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fd0c0c5b-fa81-4339-8532-d4b320593742",
+        "date": "2022-09-13T00:00:00+01:00",
+        "buyer": "Highways England",
+        "title": "Information Technology Commercial Framework",
+        "value_gbp": 8474576.271186441,
+        "procurement_method": "open",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2022-09-13T00:00:00+01:00",
+        "contract_end": "2026-09-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6af7a4b5-489d-4e39-8ee0-bc7969ea995c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5ec82a70-d5f4-4239-9d22-88472228ee24",
+        "date": "2022-04-13T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "DPS/00125 SUPPORT SOLUTIONS AND MAINTENANCE 2",
+        "value_gbp": 10558792,
+        "procurement_method": "selective",
+        "cpv_code": "50300000",
+        "cpv_label": "Repair, maintenance and associated services related to personal computers, office equipment, telecommunications and audio-visual equipment",
+        "contract_start": "2022-04-13T00:00:00+01:00",
+        "contract_end": "2027-04-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/595f2967-9644-4a86-bcb5-ac8b12a82a11",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bca067ae-43a1-4cfa-99c2-45963d8c9d9f",
+        "date": "2022-03-07T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Lumeta Licenses and Support",
+        "value_gbp": 2025309,
+        "procurement_method": "selective",
+        "cpv_code": "48218000",
+        "cpv_label": "License management software package",
+        "contract_start": "2022-03-08T00:00:00Z",
+        "contract_end": "2025-03-07T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/12fd79e1-0093-40fa-90cb-798bf982f64e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7c8766f6-c33b-4493-84aa-16c70e8cc4f8",
+        "date": "2021-12-17T00:00:00Z",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHSC: WTD - Information Management Services 4 (IMS4)",
+        "value_gbp": 48960000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-12-17T00:00:00Z",
+        "contract_end": "2029-07-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6abe7cfe-1fd9-4d57-968c-a8912112a25f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-97391473-3a8b-4248-8241-617a5ec6e605",
+        "date": "2021-12-17T00:00:00Z",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHSC: WTD - Information Management Services 4 (IMS4)",
+        "value_gbp": 48960000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-12-17T00:00:00Z",
+        "contract_end": "2029-07-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2fd4f269-6cbc-4fa1-b7c4-7e49b6f1adf9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c37a12ca-7752-4073-a6d4-e18380d0cb0b",
+        "date": "2021-09-03T00:00:00+01:00",
+        "buyer": "Post Office Limited",
+        "title": "POL EUC Managed Services",
+        "value_gbp": 23176003,
+        "procurement_method": "selective",
+        "cpv_code": "72600000",
+        "cpv_label": "Computer support and consultancy services",
+        "contract_start": "2021-09-10T00:00:00+01:00",
+        "contract_end": "2024-09-09T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e07590f9-07d8-4864-957e-dd717acc86b2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-97796603-bdaf-48d3-9b72-e33e0e12695c",
+        "date": "2021-09-01T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Provision of Operational Communications Information System (OpCIS)",
+        "value_gbp": 3234135.16,
+        "procurement_method": "selective",
+        "cpv_code": "80510000",
+        "cpv_label": "Specialist training services",
+        "contract_start": "2021-08-06T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/871f66fe-9036-48ad-bfc2-ad72698c4276",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e747d9a0-241e-4123-ba80-781964ce728b",
+        "date": "2021-06-30T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "PIPCS Development Service",
+        "value_gbp": 3241920,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2021-07-01T00:00:00+01:00",
+        "contract_end": "2023-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f9cbd618-bd57-4d09-bb81-ca90024e8111",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-af9c8bb0-6d49-4cc1-bb61-9b19092930cf",
+        "date": "2021-06-09T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "Support for Army Classroom Training Internet and Official Network (ACTION) awarded through CCS Framework RM3804",
+        "value_gbp": 846133.33,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2021-07-09T00:00:00+01:00",
+        "contract_end": "2024-07-08T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8b85cf0c-00cd-4a92-ba23-760437688b22",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6ff386aa-3a5e-466a-82e6-7124c5a59f95",
+        "date": "2021-05-20T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "PTTP Endpoint Discovery Tooling",
+        "value_gbp": 700000,
+        "procurement_method": "selective",
+        "cpv_code": "32425000",
+        "cpv_label": "Network operating system",
+        "contract_start": "2021-05-27T00:00:00+01:00",
+        "contract_end": "2022-05-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9294400b-507f-49df-87ec-7dbc144a1997",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-84308f7a-0ce4-499b-bee7-ec6e63dc0915",
+        "date": "2020-12-02T00:00:00Z",
+        "buyer": "Post Office Limited",
+        "title": "Contract Award Digital Capability Framework",
+        "value_gbp": 5769230.769230769,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-01-28T00:00:00Z",
+        "contract_end": "2023-01-27T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e5c12127-4dd0-4620-ba9c-771f007c6ea6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9fa89adf-c4f1-44ec-82fb-9b0502699d9b",
+        "date": "2020-12-02T00:00:00Z",
+        "buyer": "Post Office Limited",
+        "title": "Reissue of Contract Award Digital Capability Framework",
+        "value_gbp": 6000000.0,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-01-28T00:00:00Z",
+        "contract_end": "2023-01-27T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/10c8059f-5b75-476d-a48d-eae06d6b9b33",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9fa89adf-c4f1-44ec-82fb-9b0502699d9b",
+        "date": "2020-12-02T00:00:00Z",
+        "buyer": "Post Office Limited",
+        "title": "Reissue of Contract Award Digital Capability Framework",
+        "value_gbp": 6000000.0,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-01-28T00:00:00Z",
+        "contract_end": "2023-01-27T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/10c8059f-5b75-476d-a48d-eae06d6b9b33",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-190682ba-2ef6-45b7-b18c-094f06216b7d",
+        "date": "2020-11-13T00:00:00Z",
+        "buyer": "Met Office",
+        "title": "Software Licences",
+        "value_gbp": 29200,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-11-16T00:00:00Z",
+        "contract_end": "2021-08-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/65ec1967-4e78-4a09-b210-e967b192d756",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-680ec2fe-98bf-4cac-b74d-bf7c157fdccd",
+        "date": "2020-10-02T00:00:00+01:00",
+        "buyer": "Ministry of Justice.",
+        "title": "End User Computing Services for Her Majesty&apos;s Prisons and Probation Service",
+        "value_gbp": 47785885.29,
+        "procurement_method": "limited",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-10-06T00:00:00+01:00",
+        "contract_end": "2023-08-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bf835f71-a6f3-4c23-b6ee-466639f911d1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0b46f98b-2b78-425c-9afd-8a793be7581c",
+        "date": "2020-09-04T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "700098416 (DInfoCom/0086) - Provision of ARTD ACII Support as a Service",
+        "value_gbp": 3581123.35,
+        "procurement_method": "selective",
+        "cpv_code": "48800000",
+        "cpv_label": "Information systems and servers",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b321a133-e056-4ff9-a137-f3ce383401d4",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8cc18b38-4459-4c93-ab35-250d330c510d",
+        "date": "2020-06-23T00:00:00+01:00",
+        "buyer": "Ministry of Justice.",
+        "title": "Data Hosting and Support",
+        "value_gbp": 464005.95,
+        "procurement_method": "selective",
+        "cpv_code": "72910000",
+        "cpv_label": "Computer back-up services",
+        "contract_start": "2020-07-01T00:00:00+01:00",
+        "contract_end": "2021-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dc84eb9a-03d8-4ed4-896f-b479a26f93a6",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-508e6c17-741b-4cee-bf1a-f809b639b934",
+        "date": "2020-06-12T00:00:00+01:00",
+        "buyer": "Met Office",
+        "title": "IT Software Subscription",
+        "value_gbp": 35300,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-06-15T00:00:00+01:00",
+        "contract_end": "2020-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/01f2b8c4-b69a-412a-9cf4-b84931b45ff1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d65889d3-f885-4b52-a754-e49d357b1e92",
+        "date": "2020-03-30T00:00:00+01:00",
+        "buyer": "Met Office",
+        "title": "Software Licences",
+        "value_gbp": 29600,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-03-31T00:00:00+01:00",
+        "contract_end": "2021-03-26T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/994fa859-e451-43af-bfb9-c77ddf0cd313",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f42f9b6d-28e1-48a3-8b41-12cedddbb497",
+        "date": "2019-12-30T00:00:00Z",
+        "buyer": "Ministry of Justice.",
+        "title": "Messaging and Mobility Services",
+        "value_gbp": 2672093.07,
+        "procurement_method": "selective",
+        "cpv_code": "64216120",
+        "cpv_label": "Electronic mail services",
+        "contract_start": "2020-01-15T00:00:00Z",
+        "contract_end": "2020-10-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/21a262e7-e8ac-4589-9213-0d2d9084a915",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e1d5de36-3d2a-4c9b-b12c-7ca4d55adba2",
+        "date": "2019-12-27T00:00:00Z",
+        "buyer": "Ministry of Justice.",
+        "title": "Secure Connectivity Services",
+        "value_gbp": 2498187.82,
+        "procurement_method": "selective",
+        "cpv_code": "32424000",
+        "cpv_label": "Network infrastructure",
+        "contract_start": "2020-01-14T00:00:00Z",
+        "contract_end": "2024-01-13T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a6cfbbdd-5bd4-4feb-b665-29904b9df67e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7a2873e6-7335-4f21-9d51-73dba4a0e11d",
+        "date": "2019-10-24T00:00:00+01:00",
+        "buyer": "Met Office",
+        "title": "IT Software Licence",
+        "value_gbp": 11850,
+        "procurement_method": "limited",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2019-10-24T00:00:00+01:00",
+        "contract_end": "2020-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8428249b-6ac8-4ae3-85c1-c5417b61547f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 25333131,
+      "awarded_2024_gbp_from_cf": 141671922.12,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 5.6× current payments — major pipeline for 2025+.",
+      "ratio": 5.59
+    }
+  }
+}

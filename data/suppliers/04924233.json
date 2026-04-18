@@ -1,0 +1,507 @@
+{
+  "company_number": "04924233",
+  "display_name": "HITACHI SOLUTIONS EUROPE LTD",
+  "identity": {
+    "ch_number": "04924233",
+    "official_name": "HITACHI SOLUTIONS EUROPE LTD",
+    "display_name": "HITACHI SOLUTIONS EUROPE LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2003-10-07",
+    "age_years": 22,
+    "registered_office": {
+      "address_line_1": "110 Bishopsgate",
+      "address_line_2": "23rd Floor",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "EC2N 4AY"
+    },
+    "sic_codes": [
+      "62020"
+    ],
+    "sic_labels": [
+      "IT consultancy activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04924233"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 37287026,
+    "rank": 455,
+    "category": "commercial",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 22945410,
+        "segments": [
+          {
+            "segment": "DEFRA",
+            "amount_gbp": 22945410,
+            "pct_of_segment": 1.04,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 11555091,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 10539777,
+            "pct_of_segment": 1.33,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 1015314,
+            "pct_of_segment": 0.97,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 2786525,
+        "segments": [
+          {
+            "segment": "Group Operations",
+            "amount_gbp": 2786525,
+            "pct_of_segment": 2.16,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-19",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5Mzk2NDg2OGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04924233_2025-12-19.pdf",
+      "size_mb": 1.57,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 6,
+    "officers_resigned_count": 32,
+    "board_turnover_ratio": 5.33,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "FRENCH, Steven",
+        "role": "director",
+        "appointed_on": "2016-04-01",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MIURA, Yasushi",
+        "role": "director",
+        "appointed_on": "2020-04-01",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "Japan",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "OHARA, Soichiro",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "POWELL, Owen Philip",
+        "role": "director",
+        "appointed_on": "2025-07-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SUZUKI, Keitaro",
+        "role": "director",
+        "appointed_on": "2024-04-01",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "POWELL, Owen Philip",
+        "role": "secretary",
+        "appointed_on": "2018-01-11",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "POWELL, Owen Philip",
+        "role": "secretary",
+        "appointed_on": "2018-01-11",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FRENCH, Steven",
+        "role": "director",
+        "appointed_on": "2016-04-01",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MIURA, Yasushi",
+        "role": "director",
+        "appointed_on": "2020-04-01",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "Japan",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "OHARA, Soichiro",
+        "role": "director",
+        "appointed_on": "2023-04-01",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "POWELL, Owen Philip",
+        "role": "director",
+        "appointed_on": "2025-07-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SUZUKI, Keitaro",
+        "role": "director",
+        "appointed_on": "2024-04-01",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2N 4AY",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 32,
+      "recent": [
+        {
+          "name": "GALAMBOS, Thomas John",
+          "role": "director",
+          "appointed_on": "2022-04-01",
+          "resigned_on": "2025-06-30",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1961
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2N 4AY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MORITA, Hideji",
+          "role": "director",
+          "appointed_on": "2019-04-01",
+          "resigned_on": "2024-03-31",
+          "nationality": "Japanese",
+          "occupation": null,
+          "country_of_residence": "Japan",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1962
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2N 4AY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "KIKUKAWA, Hozumi",
+          "role": "director",
+          "appointed_on": "2021-04-01",
+          "resigned_on": "2024-03-19",
+          "nationality": "Japanese",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1964
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2N 4AY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MIYABAYASHI, Kazunori",
+          "role": "director",
+          "appointed_on": "2022-10-01",
+          "resigned_on": "2023-02-06",
+          "nationality": "Japanese",
+          "occupation": null,
+          "country_of_residence": "Usa",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1963
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2N 4AY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "WATANABE, Toshimasa",
+          "role": "director",
+          "appointed_on": "2021-04-01",
+          "resigned_on": "2022-09-30",
+          "nationality": "Japanese",
+          "occupation": null,
+          "country_of_residence": "Japan",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1962
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2N 4AY",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-10-07",
+        "ceased_on": null
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "04924233",
+          "terminal": true,
+          "resolution": "no_psc_identified",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ]
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04924233"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5Mzk2NDg2OGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04924233_2025-12-19.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04924233/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04924233/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 455,
+    "enriched_at": "2026-04-16T20:13:58Z",
+    "governance_enriched_at": "2026-04-16T22:25:29Z",
+    "ubo_enriched_at": "2026-04-16T23:13:33Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

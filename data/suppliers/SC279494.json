@@ -1,0 +1,435 @@
+{
+  "company_number": "SC279494",
+  "display_name": "SSCL SHARED SERVICES CONNECTED LTD",
+  "identity": {
+    "ch_number": "SC279494",
+    "official_name": "SSCL LTD",
+    "display_name": "SSCL SHARED SERVICES CONNECTED LTD",
+    "status": "liquidation",
+    "type": "ltd",
+    "jurisdiction": "scotland",
+    "incorporated": "2005-02-07",
+    "age_years": 21,
+    "registered_office": {
+      "address_line_1": "Unit 1, Ground Floor Airbles House",
+      "address_line_2": "270 Airbles Road",
+      "locality": "Motherwell",
+      "postal_code": "ML1 3AT",
+      "region": "North Lanarkshire"
+    },
+    "sic_codes": [
+      "61900"
+    ],
+    "sic_labels": [
+      "Other telecommunications activities"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/SC279494"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 95188573,
+    "rank": 258,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 95188573,
+        "segments": [
+          {
+            "segment": "Other MoJ",
+            "amount_gbp": 8597870,
+            "pct_of_segment": 4.27,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Shared Services (SSCL)",
+            "amount_gbp": 82513854,
+            "pct_of_segment": 92.87,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Corporate & HQ",
+            "amount_gbp": 2590105,
+            "pct_of_segment": 3.29,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          },
+          {
+            "segment": "HR & People",
+            "amount_gbp": 1486744,
+            "pct_of_segment": 3.66,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2024-05-29",
+    "period_end": "2023-08-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzQyMzU0MTc0MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/SC279494_2024-05-29.pdf",
+      "size_mb": 0.18,
+      "exists": true
+    },
+    "next_accounts_due": "2025-05-31",
+    "overdue": true
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 7,
+    "board_turnover_ratio": 2.33,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "JACKSON, Stephen",
+        "role": "director",
+        "appointed_on": "2005-02-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Glasgow",
+          "postal_code": "G31 4HP",
+          "country": null
+        }
+      },
+      {
+        "name": "JACKSON, Thomas",
+        "role": "director",
+        "appointed_on": "2006-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1954
+        },
+        "address": {
+          "locality": "Glasgow",
+          "postal_code": "G11 5LU",
+          "country": null
+        }
+      },
+      {
+        "name": "JACKSON, Thomas Nisbet",
+        "role": "director",
+        "appointed_on": "2005-02-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Glasgow",
+          "postal_code": "G11 6DJ",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "JACKSON, Stephen",
+        "role": "director",
+        "appointed_on": "2005-02-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Glasgow",
+          "postal_code": "G31 4HP",
+          "country": null
+        }
+      },
+      {
+        "name": "JACKSON, Thomas",
+        "role": "director",
+        "appointed_on": "2006-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1954
+        },
+        "address": {
+          "locality": "Glasgow",
+          "postal_code": "G11 5LU",
+          "country": null
+        }
+      },
+      {
+        "name": "JACKSON, Thomas Nisbet",
+        "role": "director",
+        "appointed_on": "2005-02-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Glasgow",
+          "postal_code": "G11 6DJ",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 7,
+      "recent": [
+        {
+          "name": "CLARK, Carol",
+          "role": "secretary",
+          "appointed_on": "2005-04-11",
+          "resigned_on": "2016-01-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Glasgow",
+            "postal_code": "G33 6NU",
+            "country": null
+          }
+        },
+        {
+          "name": "CLARK, Carol",
+          "role": "director",
+          "appointed_on": "2005-04-11",
+          "resigned_on": "2016-01-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1951
+          },
+          "address": {
+            "locality": "Glasgow",
+            "postal_code": "G33 6NU",
+            "country": null
+          }
+        },
+        {
+          "name": "JACKSON, Amanda",
+          "role": "secretary",
+          "appointed_on": "2005-02-07",
+          "resigned_on": "2005-04-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Glasgow",
+            "postal_code": "G11 5LU",
+            "country": null
+          }
+        },
+        {
+          "name": "JACKSON, Amanda",
+          "role": "director",
+          "appointed_on": "2005-02-07",
+          "resigned_on": "2005-04-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": {
+            "month": 7,
+            "year": 1984
+          },
+          "address": {
+            "locality": "Glasgow",
+            "postal_code": "G11 5LU",
+            "country": null
+          }
+        },
+        {
+          "name": "JACKSON, Maureen",
+          "role": "director",
+          "appointed_on": "2005-02-07",
+          "resigned_on": "2005-04-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": {
+            "month": 7,
+            "year": 1952
+          },
+          "address": {
+            "locality": "Glasgow",
+            "postal_code": "G11 5LU",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 3,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 3,
+    "chains_count": 3,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "SC279494",
+          "name": "Mr Thomas Nisbet Jackson",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-16",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC279494",
+            "notified_on": "2016-04-16",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC279494/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "SC279494",
+          "name": "Mr Stephen Jackson",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-16",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC279494",
+            "notified_on": "2016-04-16",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC279494/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "SC279494",
+          "name": "Mr Thomas Jackson",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC279494",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC279494/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Stephen Jackson",
+        "Mr Thomas Jackson",
+        "Mr Thomas Nisbet Jackson"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 15,
+    "label": "suspicious",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "-30",
+        "company_liquidation_with_high_spend"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-15",
+        "unknown_individual_ubo_very_large_spend"
+      ],
+      [
+        "-10",
+        "accounts_overdue"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/SC279494"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQyMzU0MTc0MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/SC279494_2024-05-29.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC279494/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC279494/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 258,
+    "enriched_at": "2026-04-16T19:57:46Z",
+    "governance_enriched_at": "2026-04-16T22:17:08Z",
+    "ubo_enriched_at": "2026-04-16T22:59:27Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

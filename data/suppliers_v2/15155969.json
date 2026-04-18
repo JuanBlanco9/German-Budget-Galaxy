@@ -1,0 +1,825 @@
+{
+  "company_number": "15155969",
+  "display_name": "6POINT6 LTD",
+  "identity": {
+    "ch_number": "15155969",
+    "official_name": "6POINT626 CONSULTANCY SERVICES LTD",
+    "display_name": "6POINT6 LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2023-09-22",
+    "age_years": 2,
+    "registered_office": {
+      "address_line_1": "Suite E, Ground Floor",
+      "address_line_2": "Profile West, 950 Great West Road",
+      "country": "United Kingdom",
+      "locality": "Brentford",
+      "postal_code": "TW8 9ES"
+    },
+    "sic_codes": [
+      "71122"
+    ],
+    "sic_labels": [
+      "Engineering-related scientific and technical consulting"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/15155969"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 28631637,
+    "rank": 514,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 28631637,
+        "segments": [
+          {
+            "segment": "DDaT - Digital Data & Technology",
+            "amount_gbp": 15181189,
+            "pct_of_segment": 1.96,
+            "rank_in_segment": 15,
+            "type": "Contractor"
+          },
+          {
+            "segment": "MBG - Migration & Borders Group",
+            "amount_gbp": 10171143,
+            "pct_of_segment": 3.3,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "UKBF - UK Border Force",
+            "amount_gbp": 3279305,
+            "pct_of_segment": 1.61,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-04-07",
+    "period_end": "2025-09-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-micro-entity",
+    "transaction_id": "MzUxNDc3NDM1N2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/15155969_2026-04-07.pdf",
+      "size_mb": 0.06,
+      "exists": true
+    },
+    "next_accounts_due": "2027-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "HESS, David Lance",
+        "role": "director",
+        "appointed_on": "2023-09-22",
+        "resigned_on": null,
+        "nationality": "British,Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Brentford",
+          "postal_code": "TW8 9ES",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "HESS, David Lance",
+        "role": "director",
+        "appointed_on": "2023-09-22",
+        "resigned_on": null,
+        "nationality": "British,Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Brentford",
+          "postal_code": "TW8 9ES",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "15155969",
+          "name": "Mr David Lance Hess",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2023-09-22",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15155969",
+            "notified_on": "2023-09-22",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15155969/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr David Lance Hess"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 58,
+    "label": "medium",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-20",
+        "company_too_young_(2y)_for_spend"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/15155969"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxNDc3NDM1N2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/15155969_2026-04-07.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/15155969/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/15155969/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 514,
+    "enriched_at": "2026-04-16T20:18:58Z",
+    "governance_enriched_at": "2026-04-16T22:27:58Z",
+    "ubo_enriched_at": "2026-04-16T23:15:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "summary": {
+      "total_contracts": 18,
+      "total_contracts_non_framework": 15,
+      "total_awarded_gbp": 114106179.52214453,
+      "total_awarded_non_framework_gbp": 113984035,
+      "years_active": 6,
+      "first_year": 2018,
+      "last_year": 2023,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +23.7% between 2018 (£5M) and 2023 (£14M)",
+      "longest_buyer_relationship": {
+        "buyer": "Home Office",
+        "years_count": 5,
+        "years_list": [
+          2018,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "total_value_gbp": 93015235,
+        "n_contracts": 8
+      },
+      "n_unique_buyers_all_years": 4,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2018": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 5000000,
+        "awarded_gbp_non_framework": 5000000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 1,
+          "value_gbp": 5000000
+        },
+        "procurement_method_counts": {
+          "unspecified": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 880000,
+        "awarded_gbp_non_framework": 880000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "ATAMIS LTD",
+          "contracts": 1,
+          "value_gbp": 880000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 12837379.522144523,
+        "awarded_gbp_non_framework": 12715235,
+        "awarded_gbp_framework_share": 122144.52214452214,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 3,
+          "value_gbp": 12715235
+        },
+        "procurement_method_counts": {
+          "selective": 3,
+          "open": 2
+        }
+      },
+      "2021": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 66888800,
+        "awarded_gbp_non_framework": 66888800,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 2,
+          "value_gbp": 50800000
+        },
+        "procurement_method_counts": {
+          "selective": 6,
+          "open": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 14000000,
+        "awarded_gbp_non_framework": 14000000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 1,
+          "value_gbp": 14000000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 14500000,
+        "awarded_gbp_non_framework": 14500000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 72.41,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 1,
+          "value_gbp": 10500000
+        },
+        "procurement_method_counts": {
+          "selective": 2,
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2018": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 5000000.0,
+        "n_distinct_codes": 1
+      },
+      "2019": {
+        "top_code": "72212781",
+        "top_label": "System management software development services",
+        "top_value_gbp": 880000.0,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 7880944.5221445225,
+        "n_distinct_codes": 2
+      },
+      "2021": {
+        "top_code": "72220000",
+        "top_label": "Systems and technical consultancy services",
+        "top_value_gbp": 50800000.0,
+        "n_distinct_codes": 3
+      },
+      "2022": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 14000000.0,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "72611000",
+        "top_label": "Technical computer support services",
+        "top_value_gbp": 10500000.0,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 13,
+        "open": 3,
+        "unspecified": 1,
+        "direct": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 98484035.0,
+        "open": 122144.52214452214,
+        "unspecified": 5000000.0,
+        "direct": 10500000.0
+      },
+      "sole_source_pct_all_years": 9.2,
+      "competitive_pct_all_years": 86.42,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-107236",
+        "buyer_name": "Home Office",
+        "contracts": 4,
+        "value_gbp": 65800000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/hu9j9Du9",
+        "buyer_name": "ATAMIS LTD",
+        "contracts": 5,
+        "value_gbp": 16968800
+      },
+      {
+        "buyer_id": "GB-CFS-234607",
+        "buyer_name": "Home Office",
+        "contracts": 1,
+        "value_gbp": 14000000
+      },
+      {
+        "buyer_id": "GB-CFS-158146",
+        "buyer_name": "Home Office",
+        "contracts": 2,
+        "value_gbp": 8215235
+      },
+      {
+        "buyer_id": "GB-CFS-136913",
+        "buyer_name": "Home Office",
+        "contracts": 1,
+        "value_gbp": 5000000
+      },
+      {
+        "buyer_id": "GB-CFS-172674",
+        "buyer_name": "Department for International Trade",
+        "contracts": 2,
+        "value_gbp": 4000000
+      },
+      {
+        "buyer_id": "GB-CFS-101812",
+        "buyer_name": "Ofgem",
+        "contracts": 3,
+        "value_gbp": 122144.52214452214
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "72220000",
+        "label": "Systems and technical consultancy services",
+        "contracts": 2,
+        "value_gbp": 50800000
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 9,
+        "value_gbp": 35780944.522144526
+      },
+      {
+        "code": "72611000",
+        "label": "Technical computer support services",
+        "contracts": 1,
+        "value_gbp": 10500000
+      },
+      {
+        "code": "72212216",
+        "label": "Network connectivity terminal emulation software development services",
+        "contracts": 2,
+        "value_gbp": 7188800
+      },
+      {
+        "code": "72212517",
+        "label": "IT software development services",
+        "contracts": 1,
+        "value_gbp": 4956435
+      },
+      {
+        "code": "72200000",
+        "label": "Software programming and consultancy services",
+        "contracts": 2,
+        "value_gbp": 4000000
+      },
+      {
+        "code": "72212781",
+        "label": "System management software development services",
+        "contracts": 1,
+        "value_gbp": 880000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-89a341b5-aecc-406f-9e55-ca1d9922c540",
+        "date": "2023-12-14T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "MBTP Cyber Security Support Services - STA",
+        "value_gbp": 10500000,
+        "procurement_method": "direct",
+        "cpv_code": "72611000",
+        "cpv_label": "Technical computer support services",
+        "contract_start": "2023-10-01T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/371875ca-b21d-4ea5-837a-6c7cbabbf4dc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-39bea051-acbb-4495-b4b3-bb281a78fa68",
+        "date": "2023-02-14T00:00:00Z",
+        "buyer": "Department for International Trade",
+        "title": "Department for International Trade - Data Science Innovation Lab",
+        "value_gbp": 2000000,
+        "procurement_method": "selective",
+        "cpv_code": "72200000",
+        "cpv_label": "Software programming and consultancy services",
+        "contract_start": "2023-04-27T00:00:00+01:00",
+        "contract_end": "2025-04-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a5707fea-3afc-4df9-8d76-b57b57cf24ea",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-39bea051-acbb-4495-b4b3-bb281a78fa68",
+        "date": "2023-02-14T00:00:00Z",
+        "buyer": "Department for International Trade",
+        "title": "Department for International Trade - Data Science Innovation Lab",
+        "value_gbp": 2000000,
+        "procurement_method": "selective",
+        "cpv_code": "72200000",
+        "cpv_label": "Software programming and consultancy services",
+        "contract_start": "2023-04-27T00:00:00+01:00",
+        "contract_end": "2025-04-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a5707fea-3afc-4df9-8d76-b57b57cf24ea",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7cd0ca1a-c6c4-49be-9000-83b8b47780b8",
+        "date": "2022-12-16T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Data Engineering",
+        "value_gbp": 14000000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-12-19T00:00:00Z",
+        "contract_end": "2024-12-18T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/63c49644-5765-458c-977a-b50bccb5a6f7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f5e609d1-8c7f-4d7f-9af7-a8fb63403a52",
+        "date": "2021-03-30T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Proc526 - Technical Architecture",
+        "value_gbp": 25400000,
+        "procurement_method": "selective",
+        "cpv_code": "72220000",
+        "cpv_label": "Systems and technical consultancy services",
+        "contract_start": "2021-05-01T00:00:00+01:00",
+        "contract_end": "2023-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c96304f6-c9a6-4a22-b988-7655760557e2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f5e609d1-8c7f-4d7f-9af7-a8fb63403a52",
+        "date": "2021-03-30T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Proc526 - Technical Architecture",
+        "value_gbp": 25400000,
+        "procurement_method": "selective",
+        "cpv_code": "72220000",
+        "cpv_label": "Systems and technical consultancy services",
+        "contract_start": "2021-05-01T00:00:00+01:00",
+        "contract_end": "2023-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/21641f7e-ebe3-4b9d-93d9-7118e11d17f6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-694d10af-50ab-46cc-b558-3a933906b568",
+        "date": "2021-03-21T00:00:00Z",
+        "buyer": "ATAMIS LTD",
+        "title": "Cyber Security Services 2021/22",
+        "value_gbp": 2388800,
+        "procurement_method": "selective",
+        "cpv_code": "72212216",
+        "cpv_label": "Network connectivity terminal emulation software development services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2022-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/97eb78f6-f6d7-4fe5-ba01-59ae4471e8bd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-694d10af-50ab-46cc-b558-3a933906b568",
+        "date": "2021-03-21T00:00:00Z",
+        "buyer": "ATAMIS LTD",
+        "title": "Cyber Security Services 2021/22",
+        "value_gbp": 4800000,
+        "procurement_method": "selective",
+        "cpv_code": "72212216",
+        "cpv_label": "Network connectivity terminal emulation software development services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2022-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ee28b11e-7b18-470f-b51b-20c7ac3687ff",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-efa85e83-e5d1-4f78-a153-e3aaad01b8b0",
+        "date": "2021-02-10T00:00:00Z",
+        "buyer": "Ofgem",
+        "title": "Digital Resource Pool Framework",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-02-10T00:00:00Z",
+        "contract_end": "2022-11-15T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/da91d7e4-d44d-4602-adcf-3228f85ef005",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e242b07f-054b-41f6-9a16-11aecc3583d2",
+        "date": "2021-01-27T00:00:00Z",
+        "buyer": "ATAMIS LTD",
+        "title": "Proc640 Technical Architecture",
+        "value_gbp": 4400000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-02-01T00:00:00Z",
+        "contract_end": "2021-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d9deb489-8f58-4151-8c9a-d6ea1939edcc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ea955110-92a6-446d-b25d-60fa13caf834",
+        "date": "2021-01-10T00:00:00Z",
+        "buyer": "ATAMIS LTD",
+        "title": "Proc585 - Security Architecture",
+        "value_gbp": 4500000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2021-02-01T00:00:00Z",
+        "contract_end": "2023-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/26007ff9-2c40-4356-8932-9046ee91bd9c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e95ff2c8-0f3b-4c9e-8ec0-764d3d4175e7",
+        "date": "2020-08-01T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Proc589 - Security Architecture",
+        "value_gbp": 3258800,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-08-01T00:00:00+01:00",
+        "contract_end": "2021-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fbf05b31-7a81-46db-b88e-9225a1e4dbc7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b7b31742-38bd-4a0c-adfe-c384dd84424e",
+        "date": "2020-07-01T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Proc588 - Technical Architecture",
+        "value_gbp": 4956435,
+        "procurement_method": "selective",
+        "cpv_code": "72212517",
+        "cpv_label": "IT software development services",
+        "contract_start": "2020-07-01T00:00:00+01:00",
+        "contract_end": "2021-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c6e508c4-f235-4833-8d40-cfac81c2caf7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-46b1721c-ab0b-47e4-89eb-2eedba63bee0",
+        "date": "2020-04-15T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Data Engineering-Data services and Analytics",
+        "value_gbp": 4500000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-07-06T00:00:00+01:00",
+        "contract_end": "2022-07-05T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/eb112db6-0fc9-4d4d-9748-018ce4aedef3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8c0305a3-376c-426d-9562-427b8acf0543",
+        "date": "2020-03-27T00:00:00Z",
+        "buyer": "Ofgem",
+        "title": "Dynamic Purchasing System - Digital Services",
+        "value_gbp": 60606.06060606061,
+        "procurement_method": "open",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-03-27T00:00:00Z",
+        "contract_end": "2024-03-26T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/116c5db7-8a80-4037-af78-a1764de8157f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7e0ded3a-83e5-4d7c-b1bb-4aea0981b511",
+        "date": "2020-03-27T00:00:00Z",
+        "buyer": "Ofgem",
+        "title": "Dynamic Purchasing System - Digital Services",
+        "value_gbp": 61538.46153846154,
+        "procurement_method": "open",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-03-27T00:00:00Z",
+        "contract_end": "2024-03-26T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/28e8eeab-85db-4ff9-af29-4739fc7b6019",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3a1f2a2a-b607-456c-a817-a22055002648",
+        "date": "2019-09-25T00:00:00+01:00",
+        "buyer": "ATAMIS LTD",
+        "title": "THEMIS User Interface Framework",
+        "value_gbp": 880000,
+        "procurement_method": "selective",
+        "cpv_code": "72212781",
+        "cpv_label": "System management software development services",
+        "contract_start": "2019-09-25T00:00:00+01:00",
+        "contract_end": "2021-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c745b018-042c-4016-86d6-d180fd7a3784",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2fb3f52e-4159-49ab-a355-add889435f91",
+        "date": "2018-12-03T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "6Point 6 Cyber Security",
+        "value_gbp": 5000000,
+        "procurement_method": null,
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2018-12-03T00:00:00Z",
+        "contract_end": "2020-12-02T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dfe7f1ce-808e-42de-aca1-20160d201c5a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 28631637,
+      "awarded_2024_gbp_from_cf": 114106179.52214453,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 4.0× current payments — major pipeline for 2025+.",
+      "ratio": 3.99
+    }
+  }
+}

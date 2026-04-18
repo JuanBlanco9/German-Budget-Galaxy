@@ -1,0 +1,1323 @@
+{
+  "company_number": "01478540",
+  "display_name": "IRON MOUNTAIN (UK) LTD",
+  "identity": {
+    "ch_number": "01478540",
+    "official_name": "IRON MOUNTAIN (UK) PLC",
+    "display_name": "IRON MOUNTAIN (UK) LTD",
+    "status": "active",
+    "type": "plc",
+    "jurisdiction": "england-wales",
+    "incorporated": "1980-02-11",
+    "age_years": 46,
+    "registered_office": {
+      "address_line_1": "Ground Floor",
+      "address_line_2": "4 More London Riverside",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "SE1 2AU"
+    },
+    "sic_codes": [
+      "52103",
+      "52219"
+    ],
+    "sic_labels": [
+      "SIC 52103",
+      "SIC 52219"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01478540"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 11632700,
+    "rank": 711,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 6308472,
+        "segments": [
+          {
+            "segment": "CD - Corporate & Delivery",
+            "amount_gbp": 6308472,
+            "pct_of_segment": 2.42,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 5324228,
+        "segments": [
+          {
+            "segment": "Estates",
+            "amount_gbp": 4614305,
+            "pct_of_segment": 1.8,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Finance Officer Group",
+            "amount_gbp": 709923,
+            "pct_of_segment": 1.95,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-18",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NDMyMjg1NmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01478540_2025-07-18.pdf",
+      "size_mb": 1.83,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 49,
+    "board_turnover_ratio": 16.33,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "FORD, Nicholas Ben",
+        "role": "director",
+        "appointed_on": "2021-01-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MACKIE, Graeme Robert",
+        "role": "director",
+        "appointed_on": "2024-06-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "VIRGO, John Michael",
+        "role": "secretary",
+        "appointed_on": "2020-05-18",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "VIRGO, John Michael",
+        "role": "secretary",
+        "appointed_on": "2020-05-18",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FORD, Nicholas Ben",
+        "role": "director",
+        "appointed_on": "2021-01-08",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MACKIE, Graeme Robert",
+        "role": "director",
+        "appointed_on": "2024-06-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2AU",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 49,
+      "recent": [
+        {
+          "name": "SHEPLEY, Philip Ernest",
+          "role": "director",
+          "appointed_on": "2021-01-08",
+          "resigned_on": "2024-06-14",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1973
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "KEDDY, Patrick John",
+          "role": "director",
+          "appointed_on": "2012-12-12",
+          "resigned_on": "2021-01-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1954
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MACKIE, Graeme Robert",
+          "role": "director",
+          "appointed_on": "2019-11-30",
+          "resigned_on": "2021-01-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1970
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MOYNIHAN, Simon Patrick",
+          "role": "secretary",
+          "appointed_on": "2014-01-14",
+          "resigned_on": "2020-05-18",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MARSHALL, Charlotte Helen",
+          "role": "director",
+          "appointed_on": "2014-01-14",
+          "resigned_on": "2019-11-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1970
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2AU",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01478540",
+          "name": "Iron Mountain Europe (Group) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2017-10-04",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01478540",
+            "notified_on": "2017-10-04",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01478540/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05882719",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05882719",
+          "name": "Iron Mountain Incorporated",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-11-18",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05882719",
+            "notified_on": "2016-11-18",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05882719/persons-with-significant-control/corporate-entity/9pd9DuMhJLIRqFehurDagheSTO8"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "United States",
+          "parent_registration_number": "5559325",
+          "wikidata": {
+            "qid": "Q1673079",
+            "label": "Iron Mountain Incorporated",
+            "description": "American information management company",
+            "match_quality": "exact",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q1673079",
+            "parent_chain": [
+              {
+                "qid": "Q1673079",
+                "label": "Iron Mountain Incorporated",
+                "description": "American information management company",
+                "country_labels": [
+                  "United States"
+                ],
+                "revision_id": 2438327609,
+                "source_url": "https://www.wikidata.org/wiki/Q1673079"
+              }
+            ],
+            "ultimate_label": "Iron Mountain Incorporated",
+            "ultimate_country": "United States",
+            "queries_used": [
+              "Iron Mountain Incorporated"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "United States"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01478540"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NDMyMjg1NmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01478540_2025-07-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01478540/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01478540/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1673079"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 711,
+    "enriched_at": "2026-04-16T20:37:01Z",
+    "governance_enriched_at": "2026-04-16T22:37:55Z",
+    "ubo_enriched_at": "2026-04-16T23:23:46Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2015,
+      2018,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 91,
+      "total_contracts_non_framework": 64,
+      "total_awarded_gbp": 406432908.9646978,
+      "total_awarded_non_framework_gbp": 157867744.32,
+      "years_active": 7,
+      "first_year": 2015,
+      "last_year": 2024,
+      "trajectory": "new_entrant",
+      "trajectory_note": "no contracts before 2024",
+      "longest_buyer_relationship": {
+        "buyer": "Crown Commercial Service",
+        "years_count": 3,
+        "years_list": [
+          2020,
+          2021,
+          2022
+        ],
+        "total_value_gbp": 149598840.2580645,
+        "n_contracts": 9
+      },
+      "n_unique_buyers_all_years": 52,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2015": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 210000,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 210000,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "DEPARTMENT FOR INTERNATIONAL TRADE",
+          "contracts": 1,
+          "value_gbp": 210000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2018": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 691755,
+        "awarded_gbp_non_framework": 691755,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Health & Safety Executive",
+          "contracts": 1,
+          "value_gbp": 691755
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 12,
+        "n_contracts_non_framework": 11,
+        "awarded_gbp_total": 24444290.14666667,
+        "awarded_gbp_non_framework": 17777623.48,
+        "awarded_gbp_framework_share": 6666666.666666667,
+        "sole_source_pct": 0.47,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 10,
+        "top_buyer": {
+          "buyer": "Department of Health and Social Care",
+          "contracts": 1,
+          "value_gbp": 14251000
+        },
+        "procurement_method_counts": {
+          "selective": 10,
+          "direct": 1,
+          "unspecified": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 20,
+        "n_contracts_non_framework": 16,
+        "awarded_gbp_total": 275586205.7219776,
+        "awarded_gbp_non_framework": 50761521.29,
+        "awarded_gbp_framework_share": 224824684.43197757,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 12,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 6,
+          "value_gbp": 146129032.2580645
+        },
+        "procurement_method_counts": {
+          "unspecified": 1,
+          "selective": 12,
+          "open": 7
+        }
+      },
+      "2022": {
+        "n_contracts": 24,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 8690088.38,
+        "awarded_gbp_non_framework": 2134142.95,
+        "awarded_gbp_framework_share": 6555945.43,
+        "sole_source_pct": 0.71,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 9,
+        "top_buyer": {
+          "buyer": "NHS SOUTH, CENTRAL AND WEST COMMISSIONING SUPPORT UNIT",
+          "contracts": 13,
+          "value_gbp": 6283580.71
+        },
+        "procurement_method_counts": {
+          "selective": 22,
+          "open": 1,
+          "direct": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 21,
+        "n_contracts_non_framework": 18,
+        "awarded_gbp_total": 27220818.856053513,
+        "awarded_gbp_non_framework": 17187374.04,
+        "awarded_gbp_framework_share": 10033444.816053512,
+        "sole_source_pct": 1.57,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 17,
+        "top_buyer": {
+          "buyer": "Sellafield Ltd",
+          "contracts": 1,
+          "value_gbp": 7400000
+        },
+        "procurement_method_counts": {
+          "selective": 14,
+          "unspecified": 1,
+          "open": 3,
+          "direct": 3
+        }
+      },
+      "2024": {
+        "n_contracts": 12,
+        "n_contracts_non_framework": 11,
+        "awarded_gbp_total": 69589750.86,
+        "awarded_gbp_non_framework": 69315327.56,
+        "awarded_gbp_framework_share": 274423.3,
+        "sole_source_pct": 0.02,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 10,
+        "top_buyer": {
+          "buyer": "Nuclear Decommissioning Authority",
+          "contracts": 1,
+          "value_gbp": 65000000
+        },
+        "procurement_method_counts": {
+          "selective": 9,
+          "unspecified": 2,
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2015": {
+        "top_code": "79560000",
+        "top_label": "Filing services",
+        "top_value_gbp": 210000.0,
+        "n_distinct_codes": 1
+      },
+      "2018": {
+        "top_code": "79996100",
+        "top_label": "Records management",
+        "top_value_gbp": 691755.0,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "79996100",
+        "top_label": "Records management",
+        "top_value_gbp": 14251000.0,
+        "n_distinct_codes": 12
+      },
+      "2021": {
+        "top_code": "48400000",
+        "top_label": "Business transaction and personal business software package",
+        "top_value_gbp": 116129032.25806452,
+        "n_distinct_codes": 13
+      },
+      "2022": {
+        "top_code": "60000000",
+        "top_label": "Transport services (excl. Waste transport)",
+        "top_value_gbp": 5976693.61,
+        "n_distinct_codes": 9
+      },
+      "2023": {
+        "top_code": "79996100",
+        "top_label": "Records management",
+        "top_value_gbp": 12648923.076923076,
+        "n_distinct_codes": 13
+      },
+      "2024": {
+        "top_code": "79999100",
+        "top_label": "Scanning services",
+        "top_value_gbp": 65000000.0,
+        "n_distinct_codes": 7
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": true,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 69,
+        "direct": 6,
+        "unspecified": 5,
+        "open": 11
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 139899797.0966667,
+        "direct": 615820.0,
+        "unspecified": 247162.62,
+        "open": 265670129.24803108
+      },
+      "sole_source_pct_all_years": 0.15,
+      "competitive_pct_all_years": 99.79,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 9,
+        "value_gbp": 149598840.2580645
+      },
+      {
+        "buyer_id": "GB-CFS-188785",
+        "buyer_name": "NHS London Procurement Partnership (Hosted by Guy's and St Thomas' NHS FT)",
+        "contracts": 1,
+        "value_gbp": 108695652.17391305
+      },
+      {
+        "buyer_id": "GB-CFS-239241",
+        "buyer_name": "Nuclear Decommissioning Authority",
+        "contracts": 1,
+        "value_gbp": 65000000
+      },
+      {
+        "buyer_id": "GB-CFS-153240",
+        "buyer_name": "Department of Health and Social Care",
+        "contracts": 2,
+        "value_gbp": 18084042
+      },
+      {
+        "buyer_id": "GB-CFS-153867",
+        "buyer_name": "Department of Health and Social Care",
+        "contracts": 1,
+        "value_gbp": 14251000
+      },
+      {
+        "buyer_id": "GB-CFS-244064",
+        "buyer_name": "Sellafield Ltd",
+        "contracts": 1,
+        "value_gbp": 7400000
+      },
+      {
+        "buyer_id": "GB-CFS-220304",
+        "buyer_name": "ESPO",
+        "contracts": 1,
+        "value_gbp": 6956521.739130435
+      },
+      {
+        "buyer_id": "GB-CFS-59495",
+        "buyer_name": "HealthTrust Europe LLP (HTE) acting as agent for the University Hospitals of Coventry and Warwickshire NHS Trust (\"UHCW\")",
+        "contracts": 1,
+        "value_gbp": 6666666.666666667
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/FDEK7nf7",
+        "buyer_name": "NHS SOUTH, CENTRAL AND WEST COMMISSIONING SUPPORT UNIT",
+        "contracts": 13,
+        "value_gbp": 6283580.71
+      },
+      {
+        "buyer_id": "GB-CFS-244435",
+        "buyer_name": "Kent County Council (t/a KCS Procurement Services)",
+        "contracts": 2,
+        "value_gbp": 3076923.076923077
+      },
+      {
+        "buyer_id": "GB-CFS-183111",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 1,
+        "value_gbp": 2619277.04
+      },
+      {
+        "buyer_id": "GB-CFS-278668",
+        "buyer_name": "DESNZ",
+        "contracts": 1,
+        "value_gbp": 2323000
+      },
+      {
+        "buyer_id": "GB-CFS-258854",
+        "buyer_name": "Department for Education",
+        "contracts": 2,
+        "value_gbp": 1800000
+      },
+      {
+        "buyer_id": "GB-CFS-98892",
+        "buyer_name": "CPS",
+        "contracts": 1,
+        "value_gbp": 1414741
+      },
+      {
+        "buyer_id": "GB-CFS-61520",
+        "buyer_name": "Bradford Teaching Hospitals NHS Foundation Trust",
+        "contracts": 1,
+        "value_gbp": 1279448
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "48400000",
+        "label": "Business transaction and personal business software package",
+        "contracts": 3,
+        "value_gbp": 116129032.25806452
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 3,
+        "value_gbp": 109685333.85391305
+      },
+      {
+        "code": "79999100",
+        "label": "Scanning services",
+        "contracts": 3,
+        "value_gbp": 65321887.1
+      },
+      {
+        "code": "63120000",
+        "label": "Storage and warehousing services",
+        "contracts": 6,
+        "value_gbp": 48238094.0
+      },
+      {
+        "code": "79996100",
+        "label": "Records management",
+        "contracts": 13,
+        "value_gbp": 30629929.95692308
+      },
+      {
+        "code": "72300000",
+        "label": "Data services",
+        "contracts": 1,
+        "value_gbp": 6956521.739130435
+      },
+      {
+        "code": "30193700",
+        "label": "File storage box",
+        "contracts": 2,
+        "value_gbp": 6681899.666666667
+      },
+      {
+        "code": "60000000",
+        "label": "Transport services (excl. Waste transport)",
+        "contracts": 12,
+        "value_gbp": 5976693.61
+      },
+      {
+        "code": "64000000",
+        "label": "Postal and telecommunications services",
+        "contracts": 1,
+        "value_gbp": 2619277.04
+      },
+      {
+        "code": "79000000",
+        "label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contracts": 2,
+        "value_gbp": 2529808
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-52347521-8902-4621-a2c4-88f570582500",
+        "date": "2024-12-21T00:00:00Z",
+        "buyer": "DfTc - Department for Transport",
+        "title": "AWARDED: TRHR3269: Digitalisation of DfT HR Microfiche Records",
+        "value_gbp": 58307.88,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2024-01-03T00:00:00Z",
+        "contract_end": "2024-03-03T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7f9a3fff-d590-427d-b311-5923504cbf2a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bf2b1066-c42a-487e-9c3a-692e59642501",
+        "date": "2024-10-14T00:00:00+01:00",
+        "buyer": "Cabinet Office",
+        "title": "Document Management and Data Destruction Service for Infected Blood Compensation Authority",
+        "value_gbp": 56225,
+        "procurement_method": "selective",
+        "cpv_code": "48311100",
+        "cpv_label": "Document management system",
+        "contract_start": "2024-10-14T00:00:00+01:00",
+        "contract_end": "2027-10-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/be89c702-a9f3-41e7-8b72-8f64bce256fb",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bf2b1066-c42a-487e-9c3a-692e59642501",
+        "date": "2024-10-14T00:00:00+01:00",
+        "buyer": "Cabinet Office",
+        "title": "Document Management and Data Destruction Service for Infected Blood Compensation Authority",
+        "value_gbp": 56225,
+        "procurement_method": "selective",
+        "cpv_code": "48311100",
+        "cpv_label": "Document management system",
+        "contract_start": "2024-10-14T00:00:00+01:00",
+        "contract_end": "2027-10-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/be89c702-a9f3-41e7-8b72-8f64bce256fb",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bd08dc1b-f42f-48b8-a432-4ea9bda64ed3",
+        "date": "2024-08-22T00:00:00+01:00",
+        "buyer": "Walsall Healthcare NHS Trust",
+        "title": "WHPC00173",
+        "value_gbp": 372000,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d64289de-607b-400a-b99b-799a6a12ea07",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ac2a8514-df43-49ea-afa2-6c1dd566f6af",
+        "date": "2024-07-03T00:00:00+01:00",
+        "buyer": "Norfolk and Norwich University Hospitals NHS Foundation Trust",
+        "title": "Electronic Document Scanning",
+        "value_gbp": 954681.68,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-07-14T00:00:00+01:00",
+        "contract_end": "2026-07-15T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6d06b47b-4644-4452-affa-4a621c9d4619",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8195a36d-0c98-4330-9a0d-2802245f0db8",
+        "date": "2024-07-01T00:00:00+01:00",
+        "buyer": "London Borough of Islington",
+        "title": "Document Management Solution",
+        "value_gbp": 436640,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2024-08-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f16e787d-b2af-4529-b8da-23bcdbc9cc2d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-755db582-1e26-415e-bf9f-00975c930099",
+        "date": "2024-06-18T00:00:00+01:00",
+        "buyer": "Nuclear Decommissioning Authority",
+        "title": "Provision of Records Management & Archiving, Security and Facilities Management",
+        "value_gbp": 65000000,
+        "procurement_method": "selective",
+        "cpv_code": "79999100",
+        "cpv_label": "Scanning services",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2029-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/405f5f93-d4ef-480a-b9c4-9880e1706859",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-cf821042-a70e-479a-9495-162cd5a6f9c5",
+        "date": "2024-06-17T00:00:00+01:00",
+        "buyer": "DfTc - Department for Transport",
+        "title": "Records management services",
+        "value_gbp": 15233,
+        "procurement_method": null,
+        "cpv_code": "30193700",
+        "cpv_label": "File storage box",
+        "contract_start": "2024-07-01T00:00:00+01:00",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3fecfa17-8c2e-4f71-b296-aff70317f58a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-89601db7-dad4-4685-8401-8e1f9240a2da",
+        "date": "2024-05-27T00:00:00+01:00",
+        "buyer": "Rail Safety and Standards Board",
+        "title": "GB-London: 839028473 Document Management Solutions",
+        "value_gbp": 30960,
+        "procurement_method": null,
+        "cpv_code": "72512000",
+        "cpv_label": "Document management services",
+        "contract_start": "2024-05-28T00:00:00+01:00",
+        "contract_end": "2028-05-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/68ddcd54-3908-49bb-a08c-9d558127f821",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-166b851a-847f-4109-85f9-ebd6ddc253b0",
+        "date": "2024-05-09T00:00:00+01:00",
+        "buyer": "DESNZ",
+        "title": "British Coal Records management",
+        "value_gbp": 2323000,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2028-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8c2246c8-be3b-4eec-8217-2a7547e39e0b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d2a4877d-1817-4e51-b626-26081489b73d",
+        "date": "2024-04-18T00:00:00+01:00",
+        "buyer": "Care Quality Commission",
+        "title": "File Storage, Retrieval & Destruction Services",
+        "value_gbp": 274423.3,
+        "procurement_method": "selective",
+        "cpv_code": "72512000",
+        "cpv_label": "Document management services",
+        "contract_start": "2024-05-01T00:00:00+01:00",
+        "contract_end": "2026-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c29f85d1-fc42-43db-9282-3e90bb113fe4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d549ba7c-afd2-4001-a3cc-1d6d8a682ba6",
+        "date": "2024-02-15T00:00:00Z",
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "title": "DDaT24101 - Closure of Iron Mountain",
+        "value_gbp": 12055,
+        "procurement_method": "direct",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-02-16T00:00:00Z",
+        "contract_end": "2024-02-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/56e7babc-0493-4512-8c2d-d7cb65ab9706",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d03179a2-2079-4968-89a6-76e97a8847a1",
+        "date": "2023-11-28T00:00:00Z",
+        "buyer": "The Pensions Regulator",
+        "title": "External Information Archive Storage",
+        "value_gbp": 35000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-11-29T00:00:00Z",
+        "contract_end": "2025-11-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/75f93891-49f0-47fd-a06c-c5c8e853d512",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1aedfcf9-a50d-4508-9108-1108187109da",
+        "date": "2023-11-27T00:00:00Z",
+        "buyer": "Medicines and Healthcare products Regulatory Agency",
+        "title": "Records Information Management RM6175 Lot 4",
+        "value_gbp": 1000000,
+        "procurement_method": "selective",
+        "cpv_code": "79131000",
+        "cpv_label": "Documentation services",
+        "contract_start": "2023-11-01T00:00:00Z",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/295ec5f3-51eb-4c06-bc08-fb3bd227cb64",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a9d71024-53eb-4555-9fe7-cacb75beece5",
+        "date": "2023-10-31T00:00:00Z",
+        "buyer": "Government Legal Department",
+        "title": "Information Management Services",
+        "value_gbp": 1100000,
+        "procurement_method": "selective",
+        "cpv_code": "72322000",
+        "cpv_label": "Data management services",
+        "contract_start": "2023-11-01T00:00:00Z",
+        "contract_end": "2028-11-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/71304079-48a1-47c1-b0b2-739e5b71d427",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fc03c23c-5d31-4c64-b6ee-245ff5067687",
+        "date": "2023-09-08T00:00:00+01:00",
+        "buyer": "Walsall Healthcare NHS Trust",
+        "title": "WHPC00173",
+        "value_gbp": 372000,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e7e9323e-3e04-4a63-952d-7c94eacf0765",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-54310fd3-2325-4100-a535-6ffee31322f5",
+        "date": "2023-09-01T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "con_19441 Off-site Records Storage Services",
+        "value_gbp": 900000,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2023-09-12T00:00:00+01:00",
+        "contract_end": "2028-08-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e3bbf9f8-0f0e-4ef2-b07b-91b6e1c7e6b4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-47508521-b60d-4822-b07b-fe1f58b6beeb",
+        "date": "2023-09-01T00:00:00+01:00",
+        "buyer": "CPS",
+        "title": "Off Site Document Storage",
+        "value_gbp": 1414741,
+        "procurement_method": "selective",
+        "cpv_code": "79995100",
+        "cpv_label": "Archiving services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2025-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/01ec3237-09e5-4efb-8fa1-d2d17932c390",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-54310fd3-2325-4100-a535-6ffee31322f5",
+        "date": "2023-09-01T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "con_19441 Off-site Records Storage Services",
+        "value_gbp": 900000,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2023-09-12T00:00:00+01:00",
+        "contract_end": "2028-08-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e3bbf9f8-0f0e-4ef2-b07b-91b6e1c7e6b4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d8e2ddf3-26f8-4b43-8979-a58fcd7f9cb9",
+        "date": "2023-08-23T00:00:00+01:00",
+        "buyer": "Arts Council England",
+        "title": "GB-Manchester: ACE 545 STAC Records Information Management",
+        "value_gbp": 88000,
+        "procurement_method": null,
+        "cpv_code": "63121000",
+        "cpv_label": "Storage and retrieval services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2028-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/29217554-f200-43c1-a5f0-dedaea16f0fb",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-325d805d-8355-40d3-ad57-39b7e708d3bb",
+        "date": "2023-08-23T00:00:00+01:00",
+        "buyer": "Midlands & Lancashire C S U",
+        "title": "Storage Services",
+        "value_gbp": 22304,
+        "procurement_method": "selective",
+        "cpv_code": "92512000",
+        "cpv_label": "Archive services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2025-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/be6b5205-9263-4f53-bd0a-4085099ae46f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9e5a2853-2200-43ce-a866-9349916ec24b",
+        "date": "2023-06-14T00:00:00+01:00",
+        "buyer": "OFCOM",
+        "title": "Document Storage and Retrieval 2023",
+        "value_gbp": 140000,
+        "procurement_method": "selective",
+        "cpv_code": "79000000",
+        "cpv_label": "Business services: law, marketing, consulting, recruitment, printing and security",
+        "contract_start": "2023-06-01T00:00:00+01:00",
+        "contract_end": "2027-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9569d0a-b60e-44b4-b874-7b2b3323ca1e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6c575ff5-2b41-4738-bdeb-2499e5a0bd85",
+        "date": "2023-04-27T00:00:00+01:00",
+        "buyer": "Medicines and Healthcare products Regulatory Agency",
+        "title": "Records Information Management RM6175 Lot 5",
+        "value_gbp": 500000,
+        "procurement_method": "selective",
+        "cpv_code": "72512000",
+        "cpv_label": "Document management services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6a07adce-10ce-49ec-b6f6-25a90b0ae01f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0c942189-c0f8-4c74-b5d8-431b685ce861",
+        "date": "2023-04-06T00:00:00+01:00",
+        "buyer": "Humankind Charity",
+        "title": "CA12165 - Document Storage",
+        "value_gbp": 22000,
+        "procurement_method": "direct",
+        "cpv_code": "72512000",
+        "cpv_label": "Document management services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2033-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/79a8b8da-ce84-4b91-8a95-20eca7841395",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b846fe69-c898-4d37-8f63-12cf38409afa",
+        "date": "2023-04-06T00:00:00+01:00",
+        "buyer": "Humankind Charity",
+        "title": "CA12163 - Document Storage",
+        "value_gbp": 250000,
+        "procurement_method": "direct",
+        "cpv_code": "72512000",
+        "cpv_label": "Document management services",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2026-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1b54b2ab-6ff1-4972-bd2a-cbacb5d7c338",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-83bb6c24-4fad-4848-b0bf-cc1d92b8c65d",
+        "date": "2023-04-01T00:00:00+01:00",
+        "buyer": "Magnox Ltd",
+        "title": "Provision of Records Management Services 23-24",
+        "value_gbp": 60000,
+        "procurement_method": "selective",
+        "cpv_code": "72512000",
+        "cpv_label": "Document management services",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2024-07-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cbd661f2-f742-4eb8-b09c-0c7924e67987",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bd4c6a67-6889-4dfb-94e5-311847c3bcb1",
+        "date": "2023-04-01T00:00:00+01:00",
+        "buyer": "Sellafield Ltd",
+        "title": "Records Management",
+        "value_gbp": 7400000,
+        "procurement_method": "selective",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2024-07-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/663e8582-9b61-4380-b0ac-1f06f2e55035",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-718a4964-416e-49a3-aa5b-1d8f359e4f90",
+        "date": "2023-03-02T00:00:00Z",
+        "buyer": "Department for International Trade",
+        "title": "Document Storage and Related services",
+        "value_gbp": 210000,
+        "procurement_method": "selective",
+        "cpv_code": "79900000",
+        "cpv_label": "Miscellaneous business and business-related services",
+        "contract_start": "2023-03-02T00:00:00Z",
+        "contract_end": "2030-03-01T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d120358d-9ae5-4124-ac8e-c720b44a6bf7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-02561deb-9820-4000-86ae-36a449df7a1d",
+        "date": "2023-02-28T00:00:00Z",
+        "buyer": "Kent County Council (t/a KCS Procurement Services)",
+        "title": "Y23002 Supply of Record Information Management",
+        "value_gbp": 1538461.5384615385,
+        "procurement_method": "open",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2027-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/27499978-9d48-4896-80fd-e04258c16057",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-02561deb-9820-4000-86ae-36a449df7a1d",
+        "date": "2023-02-28T00:00:00Z",
+        "buyer": "Kent County Council (t/a KCS Procurement Services)",
+        "title": "Y23002 Supply of Record Information Management",
+        "value_gbp": 1538461.5384615385,
+        "procurement_method": "open",
+        "cpv_code": "79996100",
+        "cpv_label": "Records management",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2027-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fd9b9d21-9cde-45b8-979e-2d7ed5559a4c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 11632700,
+      "awarded_2024_gbp_from_cf": 69589750.86,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 6.0× current payments — major pipeline for 2025+.",
+      "ratio": 5.98
+    }
+  }
+}

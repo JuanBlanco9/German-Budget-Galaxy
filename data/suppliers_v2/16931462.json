@@ -1,0 +1,200 @@
+{
+  "company_number": "16931462",
+  "display_name": "PEARSON PROFESSIONAL",
+  "identity": {
+    "ch_number": "16931462",
+    "official_name": "PEARSON PROFESSIONAL LIMITED",
+    "display_name": "PEARSON PROFESSIONAL",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2025-12-24",
+    "age_years": 0,
+    "registered_office": {
+      "address_line_1": "Fleece Inn Lock Road",
+      "address_line_2": "North Cotes",
+      "country": "United Kingdom",
+      "locality": "Grimsby",
+      "postal_code": "DN36 5UP",
+      "region": "Lincolnshire"
+    },
+    "sic_codes": [
+      "69201"
+    ],
+    "sic_labels": [
+      "SIC 69201"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/16931462"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 25043637,
+    "rank": 541,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 25043637,
+        "segments": [
+          {
+            "segment": "DVSA",
+            "amount_gbp": 25043637,
+            "pct_of_segment": 12.26,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "PEARSON, Frank, Mr.",
+        "role": "director",
+        "appointed_on": "2025-12-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1959
+        },
+        "address": {
+          "locality": "Grimsby",
+          "postal_code": "DN36 5UP",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "PEARSON, Frank, Mr.",
+        "role": "director",
+        "appointed_on": "2025-12-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1959
+        },
+        "address": {
+          "locality": "Grimsby",
+          "postal_code": "DN36 5UP",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "16931462",
+          "name": "Mr. Frank Pearson",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-24",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16931462",
+            "notified_on": "2025-12-24",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16931462/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr. Frank Pearson"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-20",
+        "company_too_young_(0y)_for_spend"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16931462"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/16931462/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/16931462/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 541,
+    "enriched_at": "2026-04-16T20:21:08Z",
+    "governance_enriched_at": "2026-04-16T22:29:14Z",
+    "ubo_enriched_at": "2026-04-16T23:16:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

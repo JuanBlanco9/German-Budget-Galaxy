@@ -1,0 +1,582 @@
+{
+  "company_number": "06015724",
+  "display_name": "National Portrait Gallery",
+  "identity": {
+    "ch_number": "06015724",
+    "official_name": "NATIONAL PORTRAIT GALLERY COMPANY LIMITED",
+    "display_name": "National Portrait Gallery",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2006-12-01",
+    "age_years": 19,
+    "registered_office": {
+      "address_line_1": "National Portrait Gallery",
+      "address_line_2": "St Martins Place",
+      "locality": "London",
+      "postal_code": "WC2H 0HE"
+    },
+    "sic_codes": [
+      "91020"
+    ],
+    "sic_labels": [
+      "SIC 91020"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06015724"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 10413269,
+    "rank": 730,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_culture_media_and_sport",
+        "dept_name": "DCMS",
+        "amount_gbp": 10413269,
+        "segments": [
+          {
+            "segment": "National Museums & Heritage",
+            "amount_gbp": 10413269,
+            "pct_of_segment": 1.65,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-08-26",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-small",
+    "transaction_id": "MzQ3ODU2OTQ1NmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/06015724_2025-08-26.pdf",
+      "size_mb": 0.5,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 9,
+    "officers_resigned_count": 16,
+    "board_turnover_ratio": 1.78,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "BLUNDELL, Roger Frederick Crawford",
+        "role": "director",
+        "appointed_on": "2021-07-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GRAYLING, MP, Christopher Stephen",
+        "role": "director",
+        "appointed_on": "2022-07-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "HUMBY, Clive Robert",
+        "role": "director",
+        "appointed_on": "2025-03-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "JONES, Gareth Gwynne",
+        "role": "director",
+        "appointed_on": "2023-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "SIDDALL, Victoria May",
+        "role": "director",
+        "appointed_on": "2025-03-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "STARLING, Anna Elizabeth",
+        "role": "director",
+        "appointed_on": "2020-05-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "VENTERS, Ewan Andrew",
+        "role": "director",
+        "appointed_on": "2025-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "YAZATA, Mazdak",
+        "role": "director",
+        "appointed_on": "2026-04-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1987
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CHAMBERS, Anna",
+        "role": "secretary",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CHAMBERS, Anna",
+        "role": "secretary",
+        "appointed_on": "2024-03-27",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "BLUNDELL, Roger Frederick Crawford",
+        "role": "director",
+        "appointed_on": "2021-07-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GRAYLING, MP, Christopher Stephen",
+        "role": "director",
+        "appointed_on": "2022-07-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "HUMBY, Clive Robert",
+        "role": "director",
+        "appointed_on": "2025-03-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "JONES, Gareth Gwynne",
+        "role": "director",
+        "appointed_on": "2023-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "SIDDALL, Victoria May",
+        "role": "director",
+        "appointed_on": "2025-03-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "STARLING, Anna Elizabeth",
+        "role": "director",
+        "appointed_on": "2020-05-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "VENTERS, Ewan Andrew",
+        "role": "director",
+        "appointed_on": "2025-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      },
+      {
+        "name": "YAZATA, Mazdak",
+        "role": "director",
+        "appointed_on": "2026-04-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1987
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "WC2H 0HE",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 16,
+      "recent": [
+        {
+          "name": "CULLINAN, Robert Nicholas, Dr",
+          "role": "director",
+          "appointed_on": "2015-06-04",
+          "resigned_on": "2024-05-31",
+          "nationality": "British,American",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1977
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC2H 0HE",
+            "country": null
+          }
+        },
+        {
+          "name": "LAWLER, Rosalind",
+          "role": "director",
+          "appointed_on": "2019-12-02",
+          "resigned_on": "2024-05-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1967
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC2H 0HE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WILLIAMS, Lesley-Ann",
+          "role": "secretary",
+          "appointed_on": "2019-01-24",
+          "resigned_on": "2024-03-27",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "WC2H 0HE",
+            "country": null
+          }
+        },
+        {
+          "name": "SMITH, Alan Keith Patrick",
+          "role": "director",
+          "appointed_on": "2012-03-27",
+          "resigned_on": "2023-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1941
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC2H 0HE",
+            "country": null
+          }
+        },
+        {
+          "name": "TOWNSEND, Christopher Peter",
+          "role": "director",
+          "appointed_on": "2019-03-13",
+          "resigned_on": "2023-09-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1956
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "WC2H 0HE",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2017-08-24",
+        "ceased_on": null
+      },
+      {
+        "statement": "psc-exists-but-not-identified",
+        "notified_on": "2016-12-01",
+        "ceased_on": "2017-08-23"
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "06015724",
+          "terminal": true,
+          "resolution": "no_psc_identified",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control",
+            "psc-exists-but-not-identified"
+          ]
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 93,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06015724"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3ODU2OTQ1NmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/06015724_2025-08-26.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06015724/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06015724/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 730,
+    "enriched_at": "2026-04-16T20:38:48Z",
+    "governance_enriched_at": "2026-04-16T22:38:54Z",
+    "ubo_enriched_at": "2026-04-16T23:24:42Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

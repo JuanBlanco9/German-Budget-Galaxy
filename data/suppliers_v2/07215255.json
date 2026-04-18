@@ -1,0 +1,830 @@
+{
+  "company_number": "07215255",
+  "display_name": "Farsight Consulting Limited",
+  "identity": {
+    "ch_number": "07215255",
+    "official_name": "FARSIGHT CONSULTING LIMITED",
+    "display_name": "Farsight Consulting Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2010-04-07",
+    "age_years": 16,
+    "registered_office": {
+      "address_line_1": "Suite 3d&E, Third Floor, 31",
+      "address_line_2": "Temple Street",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B2 5DB"
+    },
+    "sic_codes": [
+      "70229"
+    ],
+    "sic_labels": [
+      "Management consultancy activities (other)"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/07215255"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 15643991,
+    "rank": 649,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 13770653,
+        "segments": [
+          {
+            "segment": "Prisons & Probation",
+            "amount_gbp": 13770653,
+            "pct_of_segment": 12.35,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 1873338,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Candidates, Trainees, Strategy, Portfolio and Analysis Directorate (CaTSPA)",
+            "amount_gbp": 1788959,
+            "pct_of_segment": 2.32,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Customer Experience and Digital",
+            "amount_gbp": 59081,
+            "pct_of_segment": 0.47,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Teaching Regulation Agency",
+            "amount_gbp": 25298,
+            "pct_of_segment": 5.3,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-11-19",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-audit-exemption-subsiduary",
+    "transaction_id": "MzQ4OTgyNTcwMmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/07215255_2025-11-19.pdf",
+      "size_mb": 0.51,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 4,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "COONEY, Patrick",
+        "role": "director",
+        "appointed_on": "2024-05-20",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Dublin 1, D01f5p8",
+          "postal_code": null,
+          "country": "Ireland"
+        }
+      },
+      {
+        "name": "SINGH, Roopinder",
+        "role": "director",
+        "appointed_on": "2025-06-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B2 5DB",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "COONEY, Patrick",
+        "role": "director",
+        "appointed_on": "2024-05-20",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Dublin 1, D01f5p8",
+          "postal_code": null,
+          "country": "Ireland"
+        }
+      },
+      {
+        "name": "SINGH, Roopinder",
+        "role": "director",
+        "appointed_on": "2025-06-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B2 5DB",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 4,
+      "recent": [
+        {
+          "name": "LAHIFF, Louise Christina, Mrs.",
+          "role": "director",
+          "appointed_on": "2024-05-20",
+          "resigned_on": "2025-04-30",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1978
+          },
+          "address": {
+            "locality": "Dublin 1, D01f5p8",
+            "postal_code": null,
+            "country": "Ireland"
+          }
+        },
+        {
+          "name": "O'CONNOR, Tom",
+          "role": "director",
+          "appointed_on": "2024-05-20",
+          "resigned_on": "2024-11-08",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "Ireland",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1973
+          },
+          "address": {
+            "locality": "Dublin 1, D01f5p8",
+            "postal_code": null,
+            "country": "Ireland"
+          }
+        },
+        {
+          "name": "HURST, Charlotte Elizabeth",
+          "role": "director",
+          "appointed_on": "2018-12-20",
+          "resigned_on": "2024-05-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1968
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW9 6DE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MASTERS, Peter",
+          "role": "director",
+          "appointed_on": "2010-04-07",
+          "resigned_on": "2024-05-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1976
+          },
+          "address": {
+            "locality": "Newport",
+            "postal_code": "NP19 7RX",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "07215255",
+          "name": "Sixty-One Holdings Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2018-12-20",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07215255",
+            "notified_on": "2018-12-20",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07215255/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": null,
+          "parent_registration_number": null,
+          "resolution_note": "name_search_weak_match_low",
+          "search_best_candidate": {
+            "title": "SIXTYONE HOLDINGS LIMITED",
+            "number": "11341347"
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07215255"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4OTgyNTcwMmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/07215255_2025-11-19.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07215255/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07215255/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 649,
+    "enriched_at": "2026-04-16T20:31:38Z",
+    "governance_enriched_at": "2026-04-16T22:35:11Z",
+    "ubo_enriched_at": "2026-04-16T23:21:05Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 13,
+      "total_contracts_non_framework": 13,
+      "total_awarded_gbp": 57685000.0,
+      "total_awarded_non_framework_gbp": 57685000.0,
+      "years_active": 4,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +30.8% between 2020 (£10M) and 2024 (£29M)",
+      "longest_buyer_relationship": {
+        "buyer": "Department for Education",
+        "years_count": 3,
+        "years_list": [
+          2020,
+          2021,
+          2023
+        ],
+        "total_value_gbp": 27500000.0,
+        "n_contracts": 7
+      },
+      "n_unique_buyers_all_years": 5,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 10035000.0,
+        "awarded_gbp_non_framework": 10035000.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 3,
+          "value_gbp": 10000000.0
+        },
+        "procurement_method_counts": {
+          "selective": 4
+        }
+      },
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 1200000,
+        "awarded_gbp_non_framework": 1200000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 1,
+          "value_gbp": 1200000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 17050000,
+        "awarded_gbp_non_framework": 17050000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 3,
+          "value_gbp": 16300000
+        },
+        "procurement_method_counts": {
+          "selective": 4
+        }
+      },
+      "2024": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 29400000,
+        "awarded_gbp_non_framework": 29400000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Justice",
+          "contracts": 3,
+          "value_gbp": 21400000
+        },
+        "procurement_method_counts": {
+          "selective": 4
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 10000000.0,
+        "n_distinct_codes": 2
+      },
+      "2021": {
+        "top_code": "72310000",
+        "top_label": "Data-processing services",
+        "top_value_gbp": 1200000.0,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 12450000.0,
+        "n_distinct_codes": 2
+      },
+      "2024": {
+        "top_code": "72261000",
+        "top_label": "Software support services",
+        "top_value_gbp": 12400000.0,
+        "n_distinct_codes": 4
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 13
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 57685000.0
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-186339",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 1,
+        "value_gbp": 12400000
+      },
+      {
+        "buyer_id": "GB-CFS-201494",
+        "buyer_name": "Department for Education",
+        "contracts": 2,
+        "value_gbp": 11700000
+      },
+      {
+        "buyer_id": "GB-CFS-112088",
+        "buyer_name": "Department for Education",
+        "contracts": 3,
+        "value_gbp": 10000000.0
+      },
+      {
+        "buyer_id": "GB-CFS-183111",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 2,
+        "value_gbp": 9000000
+      },
+      {
+        "buyer_id": "GB-GOR-D241",
+        "buyer_name": "UK EXPORT FINANCE",
+        "contracts": 1,
+        "value_gbp": 8000000
+      },
+      {
+        "buyer_id": "GB-CFS-167631",
+        "buyer_name": "Department for Education",
+        "contracts": 1,
+        "value_gbp": 4600000
+      },
+      {
+        "buyer_id": "GB-CFS-152534",
+        "buyer_name": "Department for Education",
+        "contracts": 1,
+        "value_gbp": 1200000
+      },
+      {
+        "buyer_id": "GB-CFS-258482",
+        "buyer_name": "CPS",
+        "contracts": 1,
+        "value_gbp": 750000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/QfDr2jb7",
+        "buyer_name": "Department For Education",
+        "contracts": 1,
+        "value_gbp": 35000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 6,
+        "value_gbp": 22450000.0
+      },
+      {
+        "code": "72261000",
+        "label": "Software support services",
+        "contracts": 1,
+        "value_gbp": 12400000
+      },
+      {
+        "code": "72611000",
+        "label": "Technical computer support services",
+        "contracts": 1,
+        "value_gbp": 8000000
+      },
+      {
+        "code": "72100000",
+        "label": "Hardware consultancy services",
+        "contracts": 1,
+        "value_gbp": 6000000
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 1,
+        "value_gbp": 4600000
+      },
+      {
+        "code": "32232000",
+        "label": "Video-conferencing equipment",
+        "contracts": 1,
+        "value_gbp": 3000000
+      },
+      {
+        "code": "72310000",
+        "label": "Data-processing services",
+        "contracts": 1,
+        "value_gbp": 1200000
+      },
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 1,
+        "value_gbp": 35000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-5fe523e5-b295-4356-ab96-989f9cdee6fa",
+        "date": "2024-05-22T00:00:00+01:00",
+        "buyer": "Ministry of Justice",
+        "title": "Transforming Sentence Calculation",
+        "value_gbp": 12400000,
+        "procurement_method": "selective",
+        "cpv_code": "72261000",
+        "cpv_label": "Software support services",
+        "contract_start": "2024-06-01T00:00:00+01:00",
+        "contract_end": "2028-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ee7fb040-5999-4659-bb95-35946f3b5e67",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e479849f-1723-44fd-a13f-6d243436dca2",
+        "date": "2024-03-08T00:00:00Z",
+        "buyer": "UK EXPORT FINANCE",
+        "title": "Digital, Data and User Centred Design Support",
+        "value_gbp": 8000000,
+        "procurement_method": "selective",
+        "cpv_code": "72611000",
+        "cpv_label": "Technical computer support services",
+        "contract_start": "2024-03-11T00:00:00Z",
+        "contract_end": "2026-03-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/24c20ccb-714d-45e2-91e0-1f96aa035199",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9bc01bda-f090-4045-b43a-520ea048ff75",
+        "date": "2024-02-19T00:00:00Z",
+        "buyer": "Ministry of Justice",
+        "title": "Prison Legacy Replacement Digital Services",
+        "value_gbp": 6000000,
+        "procurement_method": "selective",
+        "cpv_code": "72100000",
+        "cpv_label": "Hardware consultancy services",
+        "contract_start": "2024-01-15T00:00:00Z",
+        "contract_end": "2027-01-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7a55fe57-fa7e-48c4-be0e-a6b95dd5beeb",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-162ef94e-0d5e-4ae2-b987-3593993e7e08",
+        "date": "2024-02-19T00:00:00Z",
+        "buyer": "Ministry of Justice",
+        "title": "Prison Video Link Booking Service",
+        "value_gbp": 3000000,
+        "procurement_method": "selective",
+        "cpv_code": "32232000",
+        "cpv_label": "Video-conferencing equipment",
+        "contract_start": "2024-01-24T00:00:00Z",
+        "contract_end": "2027-12-23T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8c2a8ade-89c9-4650-a10e-863ed2ac23f9",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-44f82792-a294-49b5-89c0-c24b3e3fa0aa",
+        "date": "2023-09-13T00:00:00+01:00",
+        "buyer": "CPS",
+        "title": "FCT Discovery and Phased Delivery Digital Capability",
+        "value_gbp": 750000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-09-25T00:00:00+01:00",
+        "contract_end": "2024-03-24T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b0ed4e7b-cc8c-4d95-86ff-0f5c9584c623",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-72ecf1b5-e716-4de3-9fb1-f92099646cf3",
+        "date": "2023-04-20T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "Teacher Services Programme B User Centred Design - con_19679",
+        "value_gbp": 7100000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-04-20T00:00:00+01:00",
+        "contract_end": "2025-04-19T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6dc2dac0-4703-4162-8bb7-8ad8d4468329",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ac57893a-5f5b-4866-a557-a848cbbc79f3",
+        "date": "2023-04-20T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "Teacher Services Programme B Product, Delivery and Data - con_19678",
+        "value_gbp": 4600000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-04-20T00:00:00+01:00",
+        "contract_end": "2025-04-19T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e1979ae5-6266-445f-bec6-653738f059c9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fe9cfd48-8528-435c-8fe5-50188b856627",
+        "date": "2023-03-22T00:00:00Z",
+        "buyer": "Department for Education",
+        "title": "AI & Data Service for Apprenticeship",
+        "value_gbp": 4600000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2023-03-22T00:00:00Z",
+        "contract_end": "2025-03-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/735ca2ec-a43e-4b3c-b309-835d0d1a6b4d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-df66685b-0f5f-4462-b41f-b0d96da06325",
+        "date": "2021-03-11T00:00:00Z",
+        "buyer": "Department for Education",
+        "title": "Agile Services for Principal Business Analysis",
+        "value_gbp": 1200000,
+        "procurement_method": "selective",
+        "cpv_code": "72310000",
+        "cpv_label": "Data-processing services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2022-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5a55c746-3019-461c-bfa3-2c29be895998",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1421e04-4d2a-4108-8c19-0fcd84ca8f13",
+        "date": "2020-07-02T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "DFE DIgital Transformation Pipeline (North",
+        "value_gbp": 2500000.0,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-06-26T00:00:00+01:00",
+        "contract_end": "2021-06-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/64f3867c-b5df-4d3a-9996-2896d28b6b89",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1aa1bb18-735f-491c-8c94-a65f152ff006",
+        "date": "2020-07-02T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "DFE DIgital Transformation Pipeline (South)",
+        "value_gbp": 5000000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-06-30T00:00:00+01:00",
+        "contract_end": "2021-06-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cfaec995-b699-4c95-a49e-e7a6c238f995",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1421e04-4d2a-4108-8c19-0fcd84ca8f13",
+        "date": "2020-06-25T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "DFE DIgital Transformation Pipeline (North",
+        "value_gbp": 2500000.0,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-06-26T00:00:00+01:00",
+        "contract_end": "2021-06-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/64f3867c-b5df-4d3a-9996-2896d28b6b89",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-941bad64-de9d-4d6e-ba59-387ed8b6ea6b",
+        "date": "2020-02-24T00:00:00Z",
+        "buyer": "Department For Education",
+        "title": "Discover Teaching User Research (con_6158)",
+        "value_gbp": 35000,
+        "procurement_method": "selective",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2020-02-24T00:00:00Z",
+        "contract_end": "2020-04-19T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ab4244e9-a819-4807-8779-74201f5e73e2",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 15643991,
+      "awarded_2024_gbp_from_cf": 29400000,
+      "signal": "forward_pipeline_moderate",
+      "note": "Awarded 1.9× current payments — moderate growth expected.",
+      "ratio": 1.88
+    }
+  }
+}

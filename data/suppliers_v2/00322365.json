@@ -1,0 +1,884 @@
+{
+  "company_number": "00322365",
+  "display_name": "BP OIL INTERNATIONAL LIMITED",
+  "identity": {
+    "ch_number": "00322365",
+    "official_name": "BP OIL INTERNATIONAL LIMITED",
+    "display_name": "BP OIL INTERNATIONAL LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1936-12-28",
+    "age_years": 89,
+    "registered_office": {
+      "address_line_1": "Chertsey Road",
+      "address_line_2": "Sunbury On Thames",
+      "locality": "Middlesex",
+      "postal_code": "TW16 7BP"
+    },
+    "sic_codes": [
+      "46719"
+    ],
+    "sic_labels": [
+      "SIC 46719"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00322365"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 15079053,
+    "rank": 652,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 15079053,
+        "segments": [
+          {
+            "segment": "Strategic Command",
+            "amount_gbp": 15079053,
+            "pct_of_segment": 1.61,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-30",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MTUxNDk5MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/00322365_2025-06-30.pdf",
+      "size_mb": 0.97,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 71,
+    "board_turnover_ratio": 14.2,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "LAWSON, Brent Jarrod",
+        "role": "director",
+        "appointed_on": "2025-11-12",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1982
+        },
+        "address": {
+          "locality": "Middlesex",
+          "postal_code": "TW16 7BP",
+          "country": null
+        }
+      },
+      {
+        "name": "LIVERMON III, Jefferson Felton",
+        "role": "director",
+        "appointed_on": "2024-08-22",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Middlesex",
+          "postal_code": "TW16 7BP",
+          "country": null
+        }
+      },
+      {
+        "name": "WILKIN, Ben Ralph",
+        "role": "director",
+        "appointed_on": "2024-11-26",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Middlesex",
+          "postal_code": "TW16 7BP",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "BP SECRETARIES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2026-02-11",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Sunbury On Thames",
+          "postal_code": "TW16 7BP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SUNBURY SECRETARIES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2010-07-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3   3AX",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "BP SECRETARIES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2026-02-11",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Sunbury On Thames",
+          "postal_code": "TW16 7BP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SUNBURY SECRETARIES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2010-07-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3   3AX",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LAWSON, Brent Jarrod",
+        "role": "director",
+        "appointed_on": "2025-11-12",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1982
+        },
+        "address": {
+          "locality": "Middlesex",
+          "postal_code": "TW16 7BP",
+          "country": null
+        }
+      },
+      {
+        "name": "LIVERMON III, Jefferson Felton",
+        "role": "director",
+        "appointed_on": "2024-08-22",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1981
+        },
+        "address": {
+          "locality": "Middlesex",
+          "postal_code": "TW16 7BP",
+          "country": null
+        }
+      },
+      {
+        "name": "WILKIN, Ben Ralph",
+        "role": "director",
+        "appointed_on": "2024-11-26",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1979
+        },
+        "address": {
+          "locality": "Middlesex",
+          "postal_code": "TW16 7BP",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 71,
+      "recent": [
+        {
+          "name": "WATT, Emily Ehrgood",
+          "role": "director",
+          "appointed_on": "2023-06-30",
+          "resigned_on": "2025-09-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1985
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW16 7BP",
+            "country": null
+          }
+        },
+        {
+          "name": "SKINNER-REID, Elaine Patricia",
+          "role": "director",
+          "appointed_on": "2024-06-18",
+          "resigned_on": "2024-12-13",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1975
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW16 7BP",
+            "country": null
+          }
+        },
+        {
+          "name": "DEE, Stuart Craig",
+          "role": "director",
+          "appointed_on": "2023-06-30",
+          "resigned_on": "2024-08-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW16 7BP",
+            "country": null
+          }
+        },
+        {
+          "name": "BOSS-WALKER, Sven Roger",
+          "role": "director",
+          "appointed_on": "2021-12-20",
+          "resigned_on": "2024-06-18",
+          "nationality": "Australian",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1977
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW16 7BP",
+            "country": null
+          }
+        },
+        {
+          "name": "PUFFER, Brian Michael",
+          "role": "director",
+          "appointed_on": "2018-01-01",
+          "resigned_on": "2023-06-30",
+          "nationality": "British,American",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1969
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW16 7BP",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "00322365",
+          "name": "Bp International Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00322365",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00322365/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "00542515",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "00542515",
+          "name": "Bp P.L.C.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00542515",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00542515/persons-with-significant-control/corporate-entity/39JLcff0YXJ24WFLwSIVEzc44Js"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "00102498",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00322365"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MTUxNDk5MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/00322365_2025-06-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00322365/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00322365/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 652,
+    "enriched_at": "2026-04-16T20:31:57Z",
+    "governance_enriched_at": "2026-04-16T22:35:20Z",
+    "ubo_enriched_at": "2026-04-16T23:21:05Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 13,
+      "total_contracts_non_framework": 10,
+      "total_awarded_gbp": 157872124.27,
+      "total_awarded_non_framework_gbp": 95250811.77,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "declining",
+      "trajectory_note": "CAGR -16.1% between 2020 (£35M) and 2024 (£17M)",
+      "longest_buyer_relationship": {
+        "buyer": "MINISTRY OF DEFENCE",
+        "years_count": 5,
+        "years_list": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 157872124.26999998,
+        "n_contracts": 13
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 97679695.83,
+        "awarded_gbp_non_framework": 35058383.33,
+        "awarded_gbp_framework_share": 62621312.5,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 8,
+          "value_gbp": 97679695.83
+        },
+        "procurement_method_counts": {
+          "selective": 8
+        }
+      },
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 4500000,
+        "awarded_gbp_non_framework": 4500000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 1,
+          "value_gbp": 4500000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 9000000,
+        "awarded_gbp_non_framework": 9000000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 1,
+          "value_gbp": 9000000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 29292098.94,
+        "awarded_gbp_non_framework": 29292098.94,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 2,
+          "value_gbp": 29292098.94
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 17400329.5,
+        "awarded_gbp_non_framework": 17400329.5,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "MINISTRY OF DEFENCE",
+          "contracts": 1,
+          "value_gbp": 17400329.5
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "09100000",
+        "top_label": "Fuels",
+        "top_value_gbp": 62621312.5,
+        "n_distinct_codes": 2
+      },
+      "2021": {
+        "top_code": "09100000",
+        "top_label": "Fuels",
+        "top_value_gbp": 4500000.0,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "09100000",
+        "top_label": "Fuels",
+        "top_value_gbp": 9000000.0,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "09100000",
+        "top_label": "Fuels",
+        "top_value_gbp": 29292098.94,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "09100000",
+        "top_label": "Fuels",
+        "top_value_gbp": 17400329.5,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": true,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 13
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 157872124.26999998
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/7U7AuvS7",
+        "buyer_name": "MINISTRY OF DEFENCE",
+        "contracts": 13,
+        "value_gbp": 157872124.26999998
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "09100000",
+        "label": "Fuels",
+        "contracts": 8,
+        "value_gbp": 122813740.94
+      },
+      {
+        "code": "09000000",
+        "label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contracts": 5,
+        "value_gbp": 35058383.33
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-8dc4bd9d-0ded-4629-81da-feebc42d15d3",
+        "date": "2024-08-12T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "DFAP/0024/108- Supply and Delivery of F-76 to Loch Striven and Thanckes- Oct 2024 (DDP)",
+        "value_gbp": 17400329.5,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2024-10-19T00:00:00+01:00",
+        "contract_end": "2024-10-26T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d637d3ea-8932-45e5-a294-04a3d9666d51",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b21e9f2d-4dae-4854-877c-72f4ad6624ad",
+        "date": "2023-05-18T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "DFAP/0024/074 - PURCHASE OF 10,000m3 of F-35 TO RAF AKROTIRI via (DDP) JULY 2023",
+        "value_gbp": 6292098.94,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2023-07-05T00:00:00+01:00",
+        "contract_end": "2023-07-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4b1fb44-6f5b-4585-acae-7aff6a912719",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ff6362b8-234d-4e25-b63e-d2fa115fcc5d",
+        "date": "2023-04-27T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "DFAP/0024/071- SUPPLY AND DELIVERY OF F-35 INTO INVERNESS",
+        "value_gbp": 23000000,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2023-07-01T00:00:00+01:00",
+        "contract_end": "2024-11-13T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9e6af354-a479-4f2e-9bbf-517af8fdb410",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3293648c-ef01-45e6-ba1e-d00bfee508c2",
+        "date": "2022-08-24T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "DFAP/0024/057 - Supply & Delivery of F-35 to Cyprus- October 22 (Transparency ONLY)",
+        "value_gbp": 9000000,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2022-08-25T00:00:00+01:00",
+        "contract_end": "2022-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/51b61267-47db-4ce1-9d41-52bdebef6a9a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-90716160-63c2-409c-9c34-7f8771a22b55",
+        "date": "2021-06-07T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "DFAP/0024/020 - Supply of F35 (Not an Opportunity - Transparency Notice Only)",
+        "value_gbp": 4500000,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2021-06-08T00:00:00+01:00",
+        "contract_end": "2021-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b47f365f-29d2-4b30-869e-d3a8e7411de8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-dd1511a6-91bc-4e7c-9aa2-79c1a2eb1d8b",
+        "date": "2020-10-22T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Global Bulk Fuels Services (GBFS)",
+        "value_gbp": 50051312.5,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2020-11-14T00:00:00Z",
+        "contract_end": "2024-11-13T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0afdace3-1a94-444b-8783-b70e5b8813f4",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-96ac0a30-6f20-4e3b-875b-8c2e5d9e8b3a",
+        "date": "2020-10-19T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply & Delivery of F-35",
+        "value_gbp": 3190000,
+        "procurement_method": "selective",
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2020-11-01T00:00:00Z",
+        "contract_end": "2020-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2aa86e6b-b583-41f5-b916-6792bc2c467d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4a03f8b2-3881-44dd-8a31-ffc814b3f9c7",
+        "date": "2020-09-08T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply of F-35 (for Transparency Purposes only)",
+        "value_gbp": 3570000,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2020-10-01T00:00:00+01:00",
+        "contract_end": "2020-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e98c9007-289f-412f-bfa0-96118b58e242",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d0b4ce24-ae5e-4d5f-b1ba-9ad1751eca80",
+        "date": "2020-08-25T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply & Delivery of F-35",
+        "value_gbp": 8500000,
+        "procurement_method": "selective",
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2020-10-01T00:00:00+01:00",
+        "contract_end": "2020-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/482830ed-f476-4d6f-8825-1295e357dba3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6985a05f-7ce4-4ed8-b842-1310a3f08ccd",
+        "date": "2020-07-31T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply of F35 (For Transparency Only)",
+        "value_gbp": 9000000,
+        "procurement_method": "selective",
+        "cpv_code": "09100000",
+        "cpv_label": "Fuels",
+        "contract_start": "2020-08-31T00:00:00+01:00",
+        "contract_end": "2020-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8e713624-d78b-4299-b61f-e7ae23380a99",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-08c35ecc-eb1e-4ade-9b88-3689a22ab636",
+        "date": "2020-02-27T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply & Delivery of F-35",
+        "value_gbp": 8458333.33,
+        "procurement_method": "selective",
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2020-04-01T00:00:00+01:00",
+        "contract_end": "2020-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a06ec5fe-d0e5-4647-99c5-099eca053f27",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8e7a6067-b4df-4a2f-8d8d-b359f3c3d90c",
+        "date": "2020-02-04T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply & Delivery F-76",
+        "value_gbp": 5375000,
+        "procurement_method": "selective",
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2020-03-01T00:00:00Z",
+        "contract_end": "2020-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fdec2b52-70b1-4217-8bc1-31fea12af71e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7a311688-4359-4fe5-83af-5de1a3393a66",
+        "date": "2020-01-17T00:00:00Z",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "Supply & Delivery of F35 to Cyprus",
+        "value_gbp": 9535050,
+        "procurement_method": "selective",
+        "cpv_code": "09000000",
+        "cpv_label": "Petroleum products, fuel, electricity and other sources of energy",
+        "contract_start": "2020-03-01T00:00:00Z",
+        "contract_end": "2020-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a5b08c23-c895-4d26-bd4b-db7540f7508f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 15079053,
+      "awarded_2024_gbp_from_cf": 17400329.5,
+      "signal": "balanced",
+      "note": "Awarded and paid roughly aligned.",
+      "ratio": 1.15
+    }
+  }
+}

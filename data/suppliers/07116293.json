@@ -1,0 +1,248 @@
+{
+  "company_number": "07116293",
+  "display_name": "HMRC",
+  "identity": {
+    "ch_number": "07116293",
+    "official_name": "HMRCO LIMITED",
+    "display_name": "HMRC",
+    "status": "dissolved",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2010-01-05",
+    "age_years": 16,
+    "registered_office": {
+      "address_line_1": "Flat 1 17 Narborough Road",
+      "country": "United Kingdom",
+      "locality": "Leicester",
+      "postal_code": "LE3 0LE"
+    },
+    "sic_codes": [
+      "7414"
+    ],
+    "sic_labels": [
+      "SIC 7414"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/07116293"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 24699355,
+    "rank": 544,
+    "category": "unclear",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 13794867,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 12746303,
+            "pct_of_segment": 3.73,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Teaching Workforce: Candidates, Trainees, Strategy, Portfolio and Analysis Directorate (CaTSPA)",
+            "amount_gbp": 1048564,
+            "pct_of_segment": 1.36,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "cabinet_office",
+        "dept_name": "Cabinet Office",
+        "amount_gbp": 10531214,
+        "segments": [
+          {
+            "segment": "Cabinet Office",
+            "amount_gbp": 10531214,
+            "pct_of_segment": 1.32,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 373274,
+        "segments": [
+          {
+            "segment": "Other Programmes",
+            "amount_gbp": 373274,
+            "pct_of_segment": 0.21,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 2,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BILAL, Hassan",
+        "role": "director",
+        "appointed_on": "2010-02-15",
+        "resigned_on": null,
+        "nationality": "Pakistani",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1985
+        },
+        "address": {
+          "locality": "Leicester",
+          "postal_code": "LE3 0LE",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BILAL, Hassan",
+        "role": "director",
+        "appointed_on": "2010-02-15",
+        "resigned_on": null,
+        "nationality": "Pakistani",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1985
+        },
+        "address": {
+          "locality": "Leicester",
+          "postal_code": "LE3 0LE",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 2,
+      "recent": [
+        {
+          "name": "KHAN, Ahmed",
+          "role": "director",
+          "appointed_on": "2010-04-12",
+          "resigned_on": "2010-04-13",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E11 2JE",
+            "country": null
+          }
+        },
+        {
+          "name": "SHAH, Muhammad Azhar",
+          "role": "director",
+          "appointed_on": "2010-01-05",
+          "resigned_on": "2010-01-06",
+          "nationality": "Pakistani",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1976
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E6 1HS",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "07116293",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 45,
+    "label": "low",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07116293"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07116293/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07116293/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 544,
+    "enriched_at": "2026-04-16T20:21:14Z",
+    "governance_enriched_at": "2026-04-16T22:29:18Z",
+    "ubo_enriched_at": "2026-04-16T23:16:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

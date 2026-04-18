@@ -1,0 +1,142 @@
+{
+  "company_number": "NF002874",
+  "display_name": "MOTOROLA LIMITED",
+  "identity": {
+    "ch_number": "NF002874",
+    "official_name": "MOTOROLA LIMITED",
+    "display_name": "MOTOROLA LIMITED",
+    "status": "converted-closed",
+    "type": "oversea-company",
+    "jurisdiction": "united-kingdom",
+    "incorporated": "1990-01-29",
+    "age_years": 36,
+    "registered_office": {
+      "address_line_1": "Unit 85 Dunlop Commercial Park",
+      "address_line_2": "Balloo",
+      "locality": "Bangor",
+      "region": "Co Down"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/NF002874"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 8568056,
+    "rank": 776,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 8568056,
+        "segments": [
+          {
+            "segment": "PSG - Public Safety Group",
+            "amount_gbp": 8568056,
+            "pct_of_segment": 0.99,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "NF002874",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 63,
+    "label": "medium",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "-10",
+        "company_converted-closed"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-10",
+        "foreign_jurisdiction_for_uk_contract"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/NF002874"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/NF002874/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/NF002874/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 776,
+    "enriched_at": "2026-04-16T20:42:18Z",
+    "governance_enriched_at": "2026-04-16T22:40:43Z",
+    "ubo_enriched_at": "2026-04-16T23:25:53Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

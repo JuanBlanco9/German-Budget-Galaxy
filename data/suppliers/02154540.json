@@ -1,0 +1,714 @@
+{
+  "company_number": "02154540",
+  "display_name": "POST OFFICE LTD",
+  "identity": {
+    "ch_number": "02154540",
+    "official_name": "POST OFFICE LIMITED",
+    "display_name": "POST OFFICE LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1987-08-13",
+    "age_years": 38,
+    "registered_office": {
+      "address_line_1": "100 Wood Street",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "EC2V 7ER"
+    },
+    "sic_codes": [
+      "47190",
+      "53100",
+      "61900",
+      "64999"
+    ],
+    "sic_labels": [
+      "SIC 47190",
+      "SIC 53100",
+      "Other telecommunications activities",
+      "Other financial service activities n.e.c."
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02154540"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 15604023,
+    "rank": 650,
+    "category": "public_body",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 15350637,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 15350637,
+            "pct_of_segment": 5.59,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 253386,
+        "segments": [
+          {
+            "segment": "DBS - Disclosure & Barring Service",
+            "amount_gbp": 253386,
+            "pct_of_segment": 0.33,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-30",
+    "period_end": "2025-03-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ5NTk3ODU3N2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02154540_2025-12-30.pdf",
+      "size_mb": 9.21,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 12,
+    "officers_resigned_count": 81,
+    "board_turnover_ratio": 6.75,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BARLOW, Sarah Jane",
+        "role": "director",
+        "appointed_on": "2025-01-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BRANCH, Emma Louise",
+        "role": "director",
+        "appointed_on": "2025-01-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BROCKLEHURST, Neil James",
+        "role": "director",
+        "appointed_on": "2024-12-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BURTON, Amanda Jane",
+        "role": "director",
+        "appointed_on": "2023-04-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "DARFOOR, Andrew Atta",
+        "role": "director",
+        "appointed_on": "2023-06-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "GRATTON, Lorna Rachel",
+        "role": "director",
+        "appointed_on": "2023-05-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HAWKINS, Richard James",
+        "role": "director",
+        "appointed_on": "2025-03-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "JEFFREYS, Simon John Lewis",
+        "role": "director",
+        "appointed_on": "2023-03-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1952
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "RAILTON, Nigel",
+        "role": "director",
+        "appointed_on": "2024-05-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SLATER, Jonathan",
+        "role": "director",
+        "appointed_on": "2025-05-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1961
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SMITH, Brian Alan",
+        "role": "director",
+        "appointed_on": "2024-12-04",
+        "resigned_on": null,
+        "nationality": "Scottish",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "DILLON, John Edward Michael",
+        "role": "secretary",
+        "appointed_on": "2025-04-14",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "DILLON, John Edward Michael",
+        "role": "secretary",
+        "appointed_on": "2025-04-14",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BARLOW, Sarah Jane",
+        "role": "director",
+        "appointed_on": "2025-01-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BRANCH, Emma Louise",
+        "role": "director",
+        "appointed_on": "2025-01-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BROCKLEHURST, Neil James",
+        "role": "director",
+        "appointed_on": "2024-12-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BURTON, Amanda Jane",
+        "role": "director",
+        "appointed_on": "2023-04-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "DARFOOR, Andrew Atta",
+        "role": "director",
+        "appointed_on": "2023-06-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "GRATTON, Lorna Rachel",
+        "role": "director",
+        "appointed_on": "2023-05-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HAWKINS, Richard James",
+        "role": "director",
+        "appointed_on": "2025-03-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1965
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "JEFFREYS, Simon John Lewis",
+        "role": "director",
+        "appointed_on": "2023-03-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1952
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "RAILTON, Nigel",
+        "role": "director",
+        "appointed_on": "2024-05-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SLATER, Jonathan",
+        "role": "director",
+        "appointed_on": "2025-05-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1961
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SMITH, Brian Alan",
+        "role": "director",
+        "appointed_on": "2024-12-04",
+        "resigned_on": null,
+        "nationality": "Scottish",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2V 7ER",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 81,
+      "recent": [
+        {
+          "name": "MCCANN, Preetha",
+          "role": "director",
+          "appointed_on": "2024-12-20",
+          "resigned_on": "2026-02-06",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1971
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7ER",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "JACOBS, Elliot Marc",
+          "role": "director",
+          "appointed_on": "2021-06-03",
+          "resigned_on": "2025-06-03",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1975
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7ER",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "GRAY, Sarah Isabelle",
+          "role": "secretary",
+          "appointed_on": "2025-01-27",
+          "resigned_on": "2025-04-13",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7ER",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "READ, Nicholas James",
+          "role": "director",
+          "appointed_on": "2019-09-16",
+          "resigned_on": "2025-01-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7ER",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "GAUNT, Brian",
+          "role": "director",
+          "appointed_on": "2022-01-25",
+          "resigned_on": "2025-01-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1958
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7ER",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "government",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02154540",
+          "name": "Secretary Of State For Business And Trade",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02154540",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02154540/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [
+        "Secretary Of State For Business And Trade"
+      ],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+20",
+        "govt_psc_consistent_with_supplier"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02154540"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTk3ODU3N2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02154540_2025-12-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02154540/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02154540/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "public_body",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 650,
+    "enriched_at": "2026-04-16T20:31:47Z",
+    "governance_enriched_at": "2026-04-16T22:35:15Z",
+    "ubo_enriched_at": "2026-04-16T23:21:05Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

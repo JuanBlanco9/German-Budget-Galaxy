@@ -1,0 +1,353 @@
+{
+  "company_number": "06722404",
+  "display_name": "Capita Employee Benefits Ltd",
+  "identity": {
+    "ch_number": "06722404",
+    "official_name": "CAPITA EMPLOYEE BENEFITS HOLDINGS LIMITED",
+    "display_name": "Capita Employee Benefits Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2008-10-13",
+    "age_years": 17,
+    "registered_office": {
+      "address_line_1": "First Floor, 2 Kingdom Street",
+      "address_line_2": "Paddington",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W2 6BD"
+    },
+    "sic_codes": [
+      "70100"
+    ],
+    "sic_labels": [
+      "Activities of head offices"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06722404"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 23174023,
+    "rank": 553,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 23174023,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 23174023,
+            "pct_of_segment": 6.77,
+            "rank_in_segment": 1,
+            "type": "Outsourcing/IT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-18",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-total-exemption-full",
+    "transaction_id": "MzQ4MTc0MTU0OGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/06722404_2025-09-18.pdf",
+      "size_mb": 0.21,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 19,
+    "board_turnover_ratio": 6.33,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "CLEMENTS, Christopher Charles",
+        "role": "director",
+        "appointed_on": "2018-10-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2012-04-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CAPITA GROUP SECRETARY LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2012-04-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CLEMENTS, Christopher Charles",
+        "role": "director",
+        "appointed_on": "2018-10-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CAPITA CORPORATE DIRECTOR LIMITED",
+        "role": "corporate-director",
+        "appointed_on": "2024-02-20",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "W2 6BD",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 19,
+      "recent": [
+        {
+          "name": "HEATLEY, Stuart Robert",
+          "role": "director",
+          "appointed_on": "2021-07-14",
+          "resigned_on": "2025-11-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1967
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W2 6BD",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MOFFATT, Alexandra Mary",
+          "role": "director",
+          "appointed_on": "2018-07-11",
+          "resigned_on": "2020-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2V 7NQ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "LATNER, Nicholas Edward",
+          "role": "director",
+          "appointed_on": "2017-10-12",
+          "resigned_on": "2018-10-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1978
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1T 3LR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "RING, Susan Lesley",
+          "role": "director",
+          "appointed_on": "2014-06-18",
+          "resigned_on": "2018-07-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1961
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1P 1QT",
+            "country": null
+          }
+        },
+        {
+          "name": "BOWMAN, Andrew John",
+          "role": "director",
+          "appointed_on": "2014-08-12",
+          "resigned_on": "2018-07-03",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1972
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1P 1QT",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "06722404",
+          "name": "Capita Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-12-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06722404",
+            "notified_on": "2021-12-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06722404/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02081330",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 75,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06722404"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MTc0MTU0OGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/06722404_2025-09-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06722404/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06722404/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 553,
+    "enriched_at": "2026-04-16T20:22:13Z",
+    "governance_enriched_at": "2026-04-16T22:29:50Z",
+    "ubo_enriched_at": "2026-04-16T23:17:14Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

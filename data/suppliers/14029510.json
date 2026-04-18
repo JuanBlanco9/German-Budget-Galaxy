@@ -1,0 +1,525 @@
+{
+  "company_number": "14029510",
+  "display_name": "Newton Europe Limited",
+  "identity": {
+    "ch_number": "14029510",
+    "official_name": "NEWTON EUROPE LIMITED",
+    "display_name": "Newton Europe Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2022-04-06",
+    "age_years": 4,
+    "registered_office": {
+      "address_line_1": "2 Kingston Business Park",
+      "address_line_2": "Kingston Bagpuize",
+      "country": "United Kingdom",
+      "locality": "Abingdon",
+      "postal_code": "OX13 5FE"
+    },
+    "sic_codes": [
+      "99999"
+    ],
+    "sic_labels": [
+      "SIC 99999"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14029510"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 8808304,
+    "rank": 766,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 4740000,
+        "segments": [
+          {
+            "segment": "MBG - Migration & Borders Group",
+            "amount_gbp": 4740000,
+            "pct_of_segment": 1.54,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 4068304,
+        "segments": [
+          {
+            "segment": "Regional Directorate",
+            "amount_gbp": 4068304,
+            "pct_of_segment": 3.69,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-04-25",
+    "period_end": "2024-08-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzQ2Mzk4NDE1MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/14029510_2025-04-25.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-05-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "DYDE, Stephen David",
+        "role": "director",
+        "appointed_on": "2022-04-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Abingdon",
+          "postal_code": "OX13 5FE",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "DYDE, Stephen David",
+        "role": "director",
+        "appointed_on": "2022-04-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1964
+        },
+        "address": {
+          "locality": "Abingdon",
+          "postal_code": "OX13 5FE",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "KING, George Peter Forrest",
+          "role": "director",
+          "appointed_on": "2022-04-06",
+          "resigned_on": "2026-03-16",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1981
+          },
+          "address": {
+            "locality": "Abingdon",
+            "postal_code": "OX13 5FE",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 2,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "14029510",
+          "name": "Newton Consulting Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14029510",
+            "notified_on": "2022-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14029510/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04279175",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04279175",
+          "name": "Newton Industrial Consultants Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04279175",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04279175/persons-with-significant-control/corporate-entity/1YQrW9AvCimseZrbv0SVae4VQt0"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07792361",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "07792361",
+          "name": "Newton Europe Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07792361",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07792361/persons-with-significant-control/corporate-entity/iFU4c5p8hJ08_4eK-khSSfFmqCg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13665173",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "13665173",
+          "name": "Newton Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13665173",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13665173/persons-with-significant-control/corporate-entity/e99AqUSFJUgVTd4OXM3oYPz-GTo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664959",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "13664959",
+          "name": "Newton Europe Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664959",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664959/persons-with-significant-control/corporate-entity/vq9SH1ReNWEKctV-U-zDNB9oJe8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664789",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "13664789",
+          "name": "Newton Group Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664789",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664789/persons-with-significant-control/corporate-entity/FHMzsEe_3Q92B36Q-MSRYDWcft8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664692",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "13664692",
+          "name": "Mr Andrew Marcus Hawes",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664692",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664692/persons-with-significant-control/individual/13jS8kd0bwBJJi0KqA0Y_4AHNPs"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "14029510",
+          "name": "Newton Consulting Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14029510",
+            "notified_on": "2022-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14029510/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04279175",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04279175",
+          "name": "Newton Industrial Consultants Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04279175",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04279175/persons-with-significant-control/corporate-entity/1YQrW9AvCimseZrbv0SVae4VQt0"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07792361",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "07792361",
+          "name": "Newton Europe Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07792361",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07792361/persons-with-significant-control/corporate-entity/iFU4c5p8hJ08_4eK-khSSfFmqCg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13665173",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "13665173",
+          "name": "Newton Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13665173",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13665173/persons-with-significant-control/corporate-entity/e99AqUSFJUgVTd4OXM3oYPz-GTo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664959",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "13664959",
+          "name": "Newton Europe Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664959",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664959/persons-with-significant-control/corporate-entity/vq9SH1ReNWEKctV-U-zDNB9oJe8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664789",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "13664789",
+          "name": "Newton Group Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-10-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664789",
+            "notified_on": "2021-10-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664789/persons-with-significant-control/corporate-entity/FHMzsEe_3Q92B36Q-MSRYDWcft8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13664692",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "13664692",
+          "name": "Mr Thomas Dudley Wedgwood",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2021-10-17",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13664692",
+            "notified_on": "2021-10-17",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13664692/persons-with-significant-control/individual/iwvMAEOGiUCdN9qjCakAnQbNaZY"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Andrew Marcus Hawes",
+        "Mr Thomas Dudley Wedgwood"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14029510"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2Mzk4NDE1MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/14029510_2025-04-25.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14029510/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14029510/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 766,
+    "enriched_at": "2026-04-16T20:41:23Z",
+    "governance_enriched_at": "2026-04-16T22:40:16Z",
+    "ubo_enriched_at": "2026-04-16T23:25:23Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

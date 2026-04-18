@@ -1,0 +1,1428 @@
+{
+  "company_number": "02991879",
+  "display_name": "Lgc Ltd",
+  "identity": {
+    "ch_number": "02991879",
+    "official_name": "LGC LIMITED",
+    "display_name": "Lgc Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1994-11-18",
+    "age_years": 31,
+    "registered_office": {
+      "address_line_1": "The Priestley Centre 10 Priestley Road",
+      "address_line_2": "Surrey Research Park",
+      "country": "England",
+      "locality": "Guildford",
+      "postal_code": "GU2 7XY"
+    },
+    "sic_codes": [
+      "74909"
+    ],
+    "sic_labels": [
+      "Other professional, scientific and technical activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02991879"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 13156143,
+    "rank": 685,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_science_innovation_and_technology",
+        "dept_name": "DSIT",
+        "amount_gbp": 13156143,
+        "segments": [
+          {
+            "segment": "Dsit - Science, Innovation And Growth - Dsit - International Research And Innovation Directorate",
+            "amount_gbp": 11748806,
+            "pct_of_segment": 0.37,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Dsit - Science, Innovation And Growth - Dsit - Technology And Innovation Regulation",
+            "amount_gbp": 1407337,
+            "pct_of_segment": 0.17,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-18",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5NTEyMTc1MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02991879_2025-12-18.pdf",
+      "size_mb": 1.2,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 31,
+    "board_turnover_ratio": 7.75,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BRAYBROOK, Julian Hugh, Dr",
+        "role": "director",
+        "appointed_on": "2018-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Guildford",
+          "postal_code": "GU2 7XY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GOSWAMI, Joydeep",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KAELLER, Marcus Rudolf",
+        "role": "director",
+        "appointed_on": "2024-06-03",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "Netherlands",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WATSON, Helen Ruth",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BRAYBROOK, Julian Hugh, Dr",
+        "role": "director",
+        "appointed_on": "2018-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1963
+        },
+        "address": {
+          "locality": "Guildford",
+          "postal_code": "GU2 7XY",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GOSWAMI, Joydeep",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KAELLER, Marcus Rudolf",
+        "role": "director",
+        "appointed_on": "2024-06-03",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "Netherlands",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WATSON, Helen Ruth",
+        "role": "director",
+        "appointed_on": "2025-01-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1E 5JL",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 31,
+      "recent": [
+        {
+          "name": "O'SULLIVAN, Euan Ralph Herbert",
+          "role": "director",
+          "appointed_on": "2021-09-17",
+          "resigned_on": "2025-01-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1979
+          },
+          "address": {
+            "locality": "Teddington",
+            "postal_code": "TW11 0LY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "RICHARDS, Lucy",
+          "role": "secretary",
+          "appointed_on": "2022-09-01",
+          "resigned_on": "2024-09-17",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW11 0LY",
+            "country": null
+          }
+        },
+        {
+          "name": "SEHGAL, Vivid",
+          "role": "director",
+          "appointed_on": "2022-03-01",
+          "resigned_on": "2024-05-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1968
+          },
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW11 0LY",
+            "country": null
+          }
+        },
+        {
+          "name": "CAVANAGH, Teri-Anne, Ms.",
+          "role": "secretary",
+          "appointed_on": "2020-10-09",
+          "resigned_on": "2022-08-31",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Middlesex",
+            "postal_code": "TW11 0LY",
+            "country": null
+          }
+        },
+        {
+          "name": "PARSONS, Simon Lawrence",
+          "role": "director",
+          "appointed_on": "2010-10-28",
+          "resigned_on": "2022-01-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1969
+          },
+          "address": {
+            "locality": "Teddington",
+            "postal_code": "TW11 0LY",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02991879",
+          "name": "Lgc Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02991879",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02991879/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03141667",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "03141667",
+          "name": "Lgc Investments Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03141667",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03141667/persons-with-significant-control/corporate-entity/kHnNNOcWYmPMrv6ZbzJO6FulUmc"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04841827",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "04841827",
+          "name": "Lgc Group Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04841827",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04841827/persons-with-significant-control/corporate-entity/FE1fN4pd5cqzFE3TncRXFlS_fTg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04812200",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "04812200",
+          "name": "Lgc Science Investments Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04812200",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04812200/persons-with-significant-control/corporate-entity/aF3pEZL1UW0qB8EIooSsetYkRWw"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07068771",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "07068771",
+          "name": "Lgc Science Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07068771",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07068771/persons-with-significant-control/corporate-entity/_B5yU9uma8NFY7Dn05bvCTivykM"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07115745",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "07115745",
+          "name": "Teddington 2 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07115745",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07115745/persons-with-significant-control/corporate-entity/XAwNhzJK5fKkKcq701BxTzptEgo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07110936",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "07110936",
+          "name": "Lgc Science Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07110936",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07110936/persons-with-significant-control/corporate-entity/wshwwG2hjo5KvdmrAAorOY1_bd4"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07110945",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 8,
+          "from_company": "07110945",
+          "name": "Teddington 3 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07110945",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07110945/persons-with-significant-control/corporate-entity/8QvR6K3HznMPRWPYEiE7uaWb1v8"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09903564",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 9,
+          "from_company": "09903564",
+          "name": "Elwy 3 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09903564",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09903564/persons-with-significant-control/corporate-entity/mlyXT2OSLYhGSbpxkodr37Zu2Ok"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09905519",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 10,
+          "from_company": "09905519",
+          "name": "Elwy 2 Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-06-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09905519",
+            "notified_on": "2016-06-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09905519/persons-with-significant-control/corporate-entity/jZajnXdFZrIKX_5w_Cg5AgR-a-A"
+          },
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "parent_company_number": "09905091",
+          "original_resolution": "max_depth_reached",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02991879"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTEyMTc1MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02991879_2025-12-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02991879/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02991879/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 685,
+    "enriched_at": "2026-04-16T20:34:58Z",
+    "governance_enriched_at": "2026-04-16T22:36:45Z",
+    "ubo_enriched_at": "2026-04-16T23:22:33Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 36,
+      "total_contracts_non_framework": 32,
+      "total_awarded_gbp": 52389680.709310345,
+      "total_awarded_non_framework_gbp": 46872439.33,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +57.2% between 2021 (£3M) and 2024 (£10M)",
+      "longest_buyer_relationship": {
+        "buyer": "Defra Network eTendering Portal",
+        "years_count": 3,
+        "years_list": [
+          2020,
+          2021,
+          2022
+        ],
+        "total_value_gbp": 5725321.379310345,
+        "n_contracts": 7
+      },
+      "n_unique_buyers_all_years": 14,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 180000,
+        "awarded_gbp_non_framework": 180000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Defra Network eTendering Portal",
+          "contracts": 1,
+          "value_gbp": 180000
+        },
+        "procurement_method_counts": {
+          "direct": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 2635216.7,
+        "awarded_gbp_non_framework": 2635216.7,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.38,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "The Food Standards Agency",
+          "contracts": 5,
+          "value_gbp": 2595216.7
+        },
+        "procurement_method_counts": {
+          "open": 6,
+          "direct": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 11,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 37991210.359310344,
+        "awarded_gbp_non_framework": 32473968.98,
+        "awarded_gbp_framework_share": 5517241.379310345,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 5,
+        "top_buyer": {
+          "buyer": "NIBSC",
+          "contracts": 1,
+          "value_gbp": 28000000
+        },
+        "procurement_method_counts": {
+          "open": 5,
+          "selective": 6
+        }
+      },
+      "2023": {
+        "n_contracts": 11,
+        "n_contracts_non_framework": 11,
+        "awarded_gbp_total": 1344785.97,
+        "awarded_gbp_non_framework": 1344785.97,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 5.07,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "BEIS",
+          "contracts": 1,
+          "value_gbp": 500000.0
+        },
+        "procurement_method_counts": {
+          "selective": 5,
+          "open": 3,
+          "direct": 2,
+          "unspecified": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 6,
+        "n_contracts_non_framework": 6,
+        "awarded_gbp_total": 10238467.68,
+        "awarded_gbp_non_framework": 10238467.68,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.59,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "UK Research and Innovation",
+          "contracts": 1,
+          "value_gbp": 9568476
+        },
+        "procurement_method_counts": {
+          "selective": 3,
+          "open": 1,
+          "unspecified": 1,
+          "direct": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "73111000",
+        "top_label": "Research laboratory services",
+        "top_value_gbp": 180000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "73111000",
+        "top_label": "Research laboratory services",
+        "top_value_gbp": 2595215.7,
+        "n_distinct_codes": 4
+      },
+      "2022": {
+        "top_code": "71900000",
+        "top_label": "Laboratory services",
+        "top_value_gbp": 28000000.0,
+        "n_distinct_codes": 4
+      },
+      "2023": {
+        "top_code": "73200000",
+        "top_label": "Research and development consultancy services",
+        "top_value_gbp": 624786.78,
+        "n_distinct_codes": 5
+      },
+      "2024": {
+        "top_code": "79400000",
+        "top_label": "Business and management consultancy and related services",
+        "top_value_gbp": 9568476.0,
+        "n_distinct_codes": 4
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "direct": 5,
+        "open": 15,
+        "selective": 14,
+        "unspecified": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "direct": 318164.25,
+        "open": 17394858.68,
+        "selective": 33879159.07931034,
+        "unspecified": 797498.7
+      },
+      "sole_source_pct_all_years": 0.61,
+      "competitive_pct_all_years": 97.87,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-215660",
+        "buyer_name": "NIBSC",
+        "contracts": 1,
+        "value_gbp": 28000000
+      },
+      {
+        "buyer_id": "GB-CFS-264633",
+        "buyer_name": "UK Research and Innovation",
+        "contracts": 1,
+        "value_gbp": 9568476
+      },
+      {
+        "buyer_id": "GB-CFS-46832",
+        "buyer_name": "Defra Network eTendering Portal",
+        "contracts": 5,
+        "value_gbp": 5535321.379310345
+      },
+      {
+        "buyer_id": "GB-CFS-199897",
+        "buyer_name": "The NHS Commissioning Board (operating under the name of NHS England)",
+        "contracts": 2,
+        "value_gbp": 2891413.08
+      },
+      {
+        "buyer_id": "GB-CFS-75434",
+        "buyer_name": "The Food Standards Agency",
+        "contracts": 5,
+        "value_gbp": 2595216.7
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/hu9j9Du9",
+        "buyer_name": "ATAMIS LTD",
+        "contracts": 1,
+        "value_gbp": 1445706.54
+      },
+      {
+        "buyer_id": "GB-CFS-257207",
+        "buyer_name": "BEIS",
+        "contracts": 1,
+        "value_gbp": 500000.0
+      },
+      {
+        "buyer_id": "GB-CFS-164483",
+        "buyer_name": "NHS England",
+        "contracts": 1,
+        "value_gbp": 406556.18
+      },
+      {
+        "buyer_id": "GB-CFS-240803",
+        "buyer_name": "NHS England",
+        "contracts": 1,
+        "value_gbp": 390942.52
+      },
+      {
+        "buyer_id": "GB-CFS-273422",
+        "buyer_name": "Department for Environment, Food & Rural Affairs",
+        "contracts": 3,
+        "value_gbp": 219050.91999999998
+      },
+      {
+        "buyer_id": "GB-CFS-233774",
+        "buyer_name": "DEFRA",
+        "contracts": 1,
+        "value_gbp": 195290
+      },
+      {
+        "buyer_id": "GB-CFS-93787",
+        "buyer_name": "Defra Network eTendering Portal",
+        "contracts": 1,
+        "value_gbp": 180000
+      },
+      {
+        "buyer_id": "GB-CFS-57290",
+        "buyer_name": "The Food Standards Agency",
+        "contracts": 2,
+        "value_gbp": 118769.36
+      },
+      {
+        "buyer_id": "GB-CFS-225022",
+        "buyer_name": "DEFRA",
+        "contracts": 2,
+        "value_gbp": 73186.78
+      },
+      {
+        "buyer_id": "GB-CFS-249436",
+        "buyer_name": "Food Standards Agency",
+        "contracts": 1,
+        "value_gbp": 59998.24
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "71900000",
+        "label": "Laboratory services",
+        "contracts": 1,
+        "value_gbp": 28000000
+      },
+      {
+        "code": "79400000",
+        "label": "Business and management consultancy and related services",
+        "contracts": 1,
+        "value_gbp": 9568476
+      },
+      {
+        "code": "73100000",
+        "label": "Research and experimental development services",
+        "contracts": 4,
+        "value_gbp": 5517241.379310345
+      },
+      {
+        "code": "72224000",
+        "label": "Project management consultancy services",
+        "contracts": 5,
+        "value_gbp": 5134618.32
+      },
+      {
+        "code": "73111000",
+        "label": "Research laboratory services",
+        "contracts": 5,
+        "value_gbp": 2775215.7
+      },
+      {
+        "code": "73200000",
+        "label": "Research and development consultancy services",
+        "contracts": 10,
+        "value_gbp": 873837.7
+      },
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 7,
+        "value_gbp": 296601.61
+      },
+      {
+        "code": "03000000",
+        "label": "Agricultural, farming, fishing, forestry and related products",
+        "contracts": 2,
+        "value_gbp": 205290
+      },
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 1,
+        "value_gbp": 18400
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-e78cf121-4b6a-4471-92d0-1ef203594bce",
+        "date": "2024-12-20T00:00:00Z",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "RDE638 EU Horizon Europe Thematic Network Tackling Food Fraud by translating research and innovation into practice",
+        "value_gbp": 92861.33,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2025-01-15T00:00:00Z",
+        "contract_end": "2027-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/92a14787-e40d-4b01-9a4f-0268d30a503b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-eb2ebff7-ed93-4ef0-a1b6-3b0495d6d37e",
+        "date": "2024-10-24T00:00:00+01:00",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "RDE667 Virtual Food Authenticity Network to support supply chain resilience",
+        "value_gbp": 114989.59,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-10-23T00:00:00+01:00",
+        "contract_end": "2027-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/becfb846-0e9d-4d40-bdc4-659839b792cd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-57ff68c3-6e80-421b-a7b0-3032bba519e9",
+        "date": "2024-09-30T00:00:00+01:00",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "RDE647 Extension to Project RDE252: 'Developing a framework for  authenticity da",
+        "value_gbp": 11200,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2024-03-15T00:00:00Z",
+        "contract_end": "2024-12-20T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ccf572e5-b561-498f-b6f6-edee25340a86",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-00a727d8-5f27-4b7b-a6b4-6026ce34966e",
+        "date": "2024-09-24T00:00:00+01:00",
+        "buyer": "UK Research and Innovation",
+        "title": "Management and Commercialisation of Intellectual Property and Related Advice",
+        "value_gbp": 9568476,
+        "procurement_method": "open",
+        "cpv_code": "79400000",
+        "cpv_label": "Business and management consultancy and related services",
+        "contract_start": "2024-09-25T00:00:00+01:00",
+        "contract_end": "2029-09-24T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6714ba82-19cd-4d5e-bf41-b85043321ce6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3d81e633-bb0d-4c89-af84-4696a3cf4d1d",
+        "date": "2024-07-04T00:00:00+01:00",
+        "buyer": "NHS England",
+        "title": "Cancer SBRI Healthcare and AI in Health and Care Programmes: Modification",
+        "value_gbp": 390942.52,
+        "procurement_method": null,
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2024-07-04T00:00:00+01:00",
+        "contract_end": "2024-08-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2848b084-2065-4761-babf-63067725e59d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ba8d9ef5-1a4d-4c5c-90b2-f9ab83f70e81",
+        "date": "2024-05-14T00:00:00+01:00",
+        "buyer": "Food Standards Agency",
+        "title": "Public Analyst Training 2024",
+        "value_gbp": 59998.24,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2024-06-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dedb1560-304a-4655-9db8-b51910c16a75",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1982caa5-a8e3-4d96-86f5-5debf73052c1",
+        "date": "2023-12-21T00:00:00Z",
+        "buyer": "DEFRA",
+        "title": "RDE 472 - Food Authenticity Standardisation &  Harmonisation Activities",
+        "value_gbp": 30651.16,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2023-12-22T00:00:00Z",
+        "contract_end": "2025-03-21T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a7232835-5f4f-4ab1-ad10-b2cee6bc3e0c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7603e5df-7121-48c0-965f-5e71559d76ab",
+        "date": "2023-09-27T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Food Authenticity Network (Government  Partner Projects) - FA0199",
+        "value_gbp": 42535.62,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2023-09-28T00:00:00+01:00",
+        "contract_end": "2024-03-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/596ff342-315d-4099-9dc2-40bbfb15c9f8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c09ed28e-3f8d-4748-a3c8-65262f274e0a",
+        "date": "2023-08-29T00:00:00+01:00",
+        "buyer": "Food Standards Agency",
+        "title": "Guidance for POC technology",
+        "value_gbp": 49987,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2024-03-31T00:00:00Z",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d08ed71c-a0b5-4446-b9c5-94ddf0547673",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-23b7fb48-639c-416a-83bb-a1f6c37cee9f",
+        "date": "2023-08-08T00:00:00+01:00",
+        "buyer": "NHS England",
+        "title": "SBRI Healthcare PMO Contract Modification",
+        "value_gbp": 406556.18,
+        "procurement_method": null,
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2023-08-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/36fc69ec-5044-49b3-b6ef-aaa0bdfc96df",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-670960d8-fef7-4c40-8f7c-010f391a50dd",
+        "date": "2023-07-04T00:00:00+01:00",
+        "buyer": "BEIS",
+        "title": "PS22407 - Research Collaboration Network Framework - Lot 2",
+        "value_gbp": 500000.0,
+        "procurement_method": "open",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2023-09-01T00:00:00+01:00",
+        "contract_end": "2024-08-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5e443aa9-b026-4e02-b077-a3ec98806b97",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9b2950ff-f363-4b35-ab94-ca9de24d38d5",
+        "date": "2023-06-15T00:00:00+01:00",
+        "buyer": "Food Standards Agency",
+        "title": "Public Analyst Training",
+        "value_gbp": 49766.01,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2023-06-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6fe1f32d-0e81-4b3a-88fe-6ec75a81ba9c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-239ee691-7dd1-422b-9770-dbded3463fa9",
+        "date": "2023-06-08T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Harmonisation and Standardisation in the Field of Next Generation Sequencing (NG",
+        "value_gbp": 195290,
+        "procurement_method": "open",
+        "cpv_code": "03000000",
+        "cpv_label": "Agricultural, farming, fishing, forestry and related products",
+        "contract_start": "2023-06-01T00:00:00+01:00",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/858a688a-f398-498d-9cf7-c4a7321246c8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-83909372-3048-46eb-985b-5ca06acfb68d",
+        "date": "2023-03-07T00:00:00Z",
+        "buyer": "Defra",
+        "title": "Development of a framework for database  interrogation",
+        "value_gbp": 23300,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2023-03-13T00:00:00Z",
+        "contract_end": "2023-12-08T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8e131448-e132-41b9-805b-a0d59a8c8a75",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-83909372-3048-46eb-985b-5ca06acfb68d",
+        "date": "2023-03-07T00:00:00Z",
+        "buyer": "Defra",
+        "title": "Development of a framework for database  interrogation",
+        "value_gbp": 23300,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2023-03-13T00:00:00Z",
+        "contract_end": "2023-12-08T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f53bff4d-7512-4d52-b0aa-a653abd35392",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1aeee687-aa2e-49ca-8642-7b9c042c5cda",
+        "date": "2023-02-24T00:00:00Z",
+        "buyer": "Defra",
+        "title": "Government Chemist Conference 2023",
+        "value_gbp": 5000,
+        "procurement_method": "selective",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2023-03-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4bb92283-34f4-4cb7-91bd-2348a2dd511b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-84f01129-3de6-4d1f-b7fe-3c9e3a4015e1",
+        "date": "2023-01-17T00:00:00Z",
+        "buyer": "UK Health Security Agency",
+        "title": "Quality Assurance Training",
+        "value_gbp": 18400,
+        "procurement_method": "direct",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-02-13T00:00:00Z",
+        "contract_end": "2023-04-21T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6f072392-e69c-453f-ac4b-efd03c263aef",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0ec4b3d5-4d7f-4ac0-8fa7-8ba3c10c0e51",
+        "date": "2022-12-14T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS900293 Review of methods for the analysis of culinary herbs and spices for authenticity",
+        "value_gbp": 59384.68,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-12-14T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ac7069fa-3544-49a9-8bba-5023640f48d8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0ec4b3d5-4d7f-4ac0-8fa7-8ba3c10c0e51",
+        "date": "2022-12-14T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS900293 Review of methods for the analysis of culinary herbs and spices for authenticity",
+        "value_gbp": 59384.68,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-12-14T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ac7069fa-3544-49a9-8bba-5023640f48d8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-66e2c2d8-f782-4adb-8659-ebd2219c7be7",
+        "date": "2022-09-13T00:00:00+01:00",
+        "buyer": "Defra Network eTendering Portal",
+        "title": "Defra Contract Award for Development of an Authentic Honey Sampling Protocol",
+        "value_gbp": 18080,
+        "procurement_method": "selective",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-09-13T00:00:00+01:00",
+        "contract_end": "2023-03-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/490f0353-87d7-4cc3-bbdd-f44e7df7cb50",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-96932113-ce44-463c-bdca-2aa82737cb78",
+        "date": "2022-03-18T00:00:00Z",
+        "buyer": "NIBSC",
+        "title": "Physico Chemical Laboratory Services",
+        "value_gbp": 28000000,
+        "procurement_method": "selective",
+        "cpv_code": "71900000",
+        "cpv_label": "Laboratory services",
+        "contract_start": "2022-04-01T00:00:00+01:00",
+        "contract_end": "2027-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9ce698ab-552e-4a7c-aa24-84fd880da4d7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ce263a4f-5b26-402e-adc1-6d81364ea39e",
+        "date": "2022-02-18T00:00:00Z",
+        "buyer": "ATAMIS LTD",
+        "title": "PMO support for the Cancer Healthcare and AI in Health and Care Programmes",
+        "value_gbp": 1445706.54,
+        "procurement_method": "open",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2022-02-18T00:00:00Z",
+        "contract_end": "2024-08-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/da447062-4a6b-4286-8442-9430e456e74e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ce263a4f-5b26-402e-adc1-6d81364ea39e",
+        "date": "2022-02-18T00:00:00Z",
+        "buyer": "The NHS Commissioning Board (operating under the name of NHS England)",
+        "title": "PMO support for the Cancer Healthcare and AI in Health and Care Programmes",
+        "value_gbp": 1445706.54,
+        "procurement_method": "open",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2022-02-18T00:00:00Z",
+        "contract_end": "2024-08-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/da447062-4a6b-4286-8442-9430e456e74e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ce263a4f-5b26-402e-adc1-6d81364ea39e",
+        "date": "2022-02-18T00:00:00Z",
+        "buyer": "The NHS Commissioning Board (operating under the name of NHS England)",
+        "title": "PMO support for the Cancer Healthcare and AI in Health and Care Programmes",
+        "value_gbp": 1445706.54,
+        "procurement_method": "open",
+        "cpv_code": "72224000",
+        "cpv_label": "Project management consultancy services",
+        "contract_start": "2022-02-18T00:00:00Z",
+        "contract_end": "2024-08-17T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/33c144a6-b01e-428d-b4ab-2b69a0f8a202",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ff43fea3-6b88-4a69-a5aa-4a4a87773405",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "Defra Network eTendering Portal",
+        "title": "Defra Research Development and Evidence Framework Award",
+        "value_gbp": 0,
+        "procurement_method": "selective",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2022-01-28T00:00:00Z",
+        "contract_end": "2025-01-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4b36ccf-b01f-4291-b7e0-2996c5686194",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ff43fea3-6b88-4a69-a5aa-4a4a87773405",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "Defra Network eTendering Portal",
+        "title": "Defra Research Development and Evidence Framework Award",
+        "value_gbp": 0,
+        "procurement_method": "selective",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2022-01-28T00:00:00Z",
+        "contract_end": "2025-01-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4b36ccf-b01f-4291-b7e0-2996c5686194",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ff43fea3-6b88-4a69-a5aa-4a4a87773405",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "Defra Network eTendering Portal",
+        "title": "Defra Research Development and Evidence Framework Award",
+        "value_gbp": 2758620.6896551726,
+        "procurement_method": "selective",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2022-01-28T00:00:00Z",
+        "contract_end": "2025-01-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4b36ccf-b01f-4291-b7e0-2996c5686194",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ff43fea3-6b88-4a69-a5aa-4a4a87773405",
+        "date": "2022-01-31T00:00:00Z",
+        "buyer": "Defra Network eTendering Portal",
+        "title": "Defra Research Development and Evidence Framework Award",
+        "value_gbp": 2758620.6896551726,
+        "procurement_method": "selective",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2022-01-28T00:00:00Z",
+        "contract_end": "2025-01-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4b36ccf-b01f-4291-b7e0-2996c5686194",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-902c50cc-bbcf-4ff3-89a4-f6009054a07f",
+        "date": "2021-12-16T00:00:00Z",
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "title": "RE21425 - Prostaglandins - Literature review, market analysis, analytical method development and testing - Invitation to Quote",
+        "value_gbp": 30000,
+        "procurement_method": "open",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2022-01-03T00:00:00Z",
+        "contract_end": "2022-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/553a2dbc-1781-48af-b1fc-c88c350855ac",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a6934c0d-03a6-4a8e-b2f3-cf51692faa2d",
+        "date": "2021-08-06T00:00:00+01:00",
+        "buyer": "The Food Standards Agency",
+        "title": "FS616029 National Reference Laboratory for Genetically Modified Organisms in Food and Feed",
+        "value_gbp": 533941.76,
+        "procurement_method": "open",
+        "cpv_code": "73111000",
+        "cpv_label": "Research laboratory services",
+        "contract_start": "2021-08-06T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e8785754-0527-4783-af6f-267d2e10a310",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 13156143,
+      "awarded_2024_gbp_from_cf": 10238467.68,
+      "signal": "balanced",
+      "note": "Awarded and paid roughly aligned.",
+      "ratio": 0.78
+    }
+  }
+}

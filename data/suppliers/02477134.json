@@ -1,0 +1,363 @@
+{
+  "company_number": "02477134",
+  "display_name": "MANNING GOTTLIEB OMD",
+  "identity": {
+    "ch_number": "02477134",
+    "official_name": "MANNING GOTTLIEB OMD",
+    "display_name": "MANNING GOTTLIEB OMD",
+    "status": "dissolved",
+    "type": "private-unlimited",
+    "jurisdiction": "england-wales",
+    "incorporated": "1990-03-05",
+    "age_years": 36,
+    "registered_office": {
+      "address_line_1": "239 Old Marylebone Road",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "NW1 5QT"
+    },
+    "sic_codes": [
+      "7440"
+    ],
+    "sic_labels": [
+      "SIC 7440"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02477134"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 18981807,
+    "rank": 593,
+    "category": "unclear",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 12248721,
+        "segments": [
+          {
+            "segment": "Admin & Operations",
+            "amount_gbp": 7135275,
+            "pct_of_segment": 1.1,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Universal Credit",
+            "amount_gbp": 5113446,
+            "pct_of_segment": 5.94,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 3773113,
+        "segments": [
+          {
+            "segment": "Other MoJ",
+            "amount_gbp": 3678230,
+            "pct_of_segment": 1.83,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Corporate & HQ",
+            "amount_gbp": 94883,
+            "pct_of_segment": 0.12,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_housing_communities_and_local_government",
+        "dept_name": "MHCLG",
+        "amount_gbp": 2959973,
+        "segments": [
+          {
+            "segment": "CFO and Corporate",
+            "amount_gbp": 2959973,
+            "pct_of_segment": 1.23,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2011-01-18",
+    "period_end": "2010-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzAzMDU5NDI3OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02477134_2011-01-18.pdf",
+      "size_mb": 0.04,
+      "exists": true
+    },
+    "next_accounts_due": null,
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 31,
+    "board_turnover_ratio": 15.5,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "PHIPKIN, Anthony Peter",
+        "role": "director",
+        "appointed_on": "2010-01-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1957
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 5QT",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "BRAY, Sally Ann",
+        "role": "secretary",
+        "appointed_on": "2000-03-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 5QT",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "BRAY, Sally Ann",
+        "role": "secretary",
+        "appointed_on": "2000-03-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 5QT",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PHIPKIN, Anthony Peter",
+        "role": "director",
+        "appointed_on": "2010-01-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1957
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "NW1 5QT",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 31,
+      "recent": [
+        {
+          "name": "LONEY, Suzanne Christina Rosemarie",
+          "role": "director",
+          "appointed_on": "2006-03-20",
+          "resigned_on": "2010-01-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1959
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW1 5QT",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "DICKERSON, Bridget Sara",
+          "role": "director",
+          "appointed_on": "1999-09-09",
+          "resigned_on": "2006-03-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1960
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W11 3RS",
+            "country": null
+          }
+        },
+        {
+          "name": "FFITCH, Robert",
+          "role": "director",
+          "appointed_on": "1994-10-01",
+          "resigned_on": "2006-03-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1963
+          },
+          "address": {
+            "locality": "Beckenham",
+            "postal_code": "BR3 5HB",
+            "country": null
+          }
+        },
+        {
+          "name": "GITTINGS, Jonathan",
+          "role": "director",
+          "appointed_on": "1999-11-01",
+          "resigned_on": "2006-03-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": {
+            "month": 6,
+            "year": 1970
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW6 5JB",
+            "country": null
+          }
+        },
+        {
+          "name": "HALL, Stephen",
+          "role": "director",
+          "appointed_on": "2002-10-28",
+          "resigned_on": "2006-03-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": {
+            "month": 12,
+            "year": 1970
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE27 9RZ",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "02477134",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 50,
+    "label": "low",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02477134"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzAzMDU5NDI3OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02477134_2011-01-18.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02477134/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02477134/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 593,
+    "enriched_at": "2026-04-16T20:25:25Z",
+    "governance_enriched_at": "2026-04-16T22:31:28Z",
+    "ubo_enriched_at": "2026-04-16T23:18:32Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

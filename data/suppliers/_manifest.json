@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-04-17T00:43:41Z",
+  "generator_version": "1.1.0",
+  "counts": {
+    "suppliers": 400,
+    "with_governance": 400,
+    "with_ubo": 400,
+    "with_pdf": 355,
+    "with_wikidata": 69,
+    "by_confidence": {
+      "high": 341,
+      "medium": 37,
+      "suspicious": 4,
+      "low": 18
+    },
+    "by_ubo_resolution": {
+      "government": 21,
+      "foreign_via_wikidata": 60,
+      "individual": 60,
+      "listed_dispersed": 100,
+      "partial_listed": 6,
+      "partial_unresolved": 67,
+      "data_gap": 58,
+      "partial_foreign": 3,
+      "foreign_unresolved": 22,
+      "partial_clear": 2,
+      "partial_with_wd": 1
+    }
+  },
+  "sources": {
+    "ranking": "data\\recipients\\uk\\supplier_ranking_classified.json",
+    "enrichment": "data\\recipients\\uk\\supplier_enrichment.jsonl",
+    "governance": "data\\recipients\\uk\\supplier_governance.jsonl",
+    "ubo": "data\\recipients\\uk\\supplier_ubo.jsonl"
+  },
+  "schema_sections": [
+    "identity",
+    "spend_profile",
+    "financial_health",
+    "governance",
+    "ownership_chain",
+    "sources",
+    "classification",
+    "metadata"
+  ]
+}

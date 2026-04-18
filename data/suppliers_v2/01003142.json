@@ -1,0 +1,828 @@
+{
+  "company_number": "01003142",
+  "display_name": "ROLLS-ROYCE PLC",
+  "identity": {
+    "ch_number": "01003142",
+    "official_name": "ROLLS-ROYCE PLC",
+    "display_name": "ROLLS-ROYCE PLC",
+    "status": "active",
+    "type": "plc",
+    "jurisdiction": "england-wales",
+    "incorporated": "1971-02-23",
+    "age_years": 55,
+    "registered_office": {
+      "address_line_1": "Kings Place",
+      "address_line_2": "90 York Way",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "N1 9FX"
+    },
+    "sic_codes": [
+      "25300",
+      "25620",
+      "28110"
+    ],
+    "sic_labels": [
+      "SIC 25300",
+      "SIC 25620",
+      "SIC 28110"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01003142"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 86367819,
+    "rank": 274,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 86367819,
+        "segments": [
+          {
+            "segment": "Defence Equipment and Support",
+            "amount_gbp": 86367819,
+            "pct_of_segment": 1.67,
+            "rank_in_segment": 12,
+            "type": "Defence Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-15",
+    "period_end": "2025-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzUwOTkxMTQ1MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01003142_2026-03-15.pdf",
+      "size_mb": 9.15,
+      "exists": true
+    },
+    "next_accounts_due": "2027-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 6,
+    "officers_resigned_count": 72,
+    "board_turnover_ratio": 12.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "ARMSTRONG, Sarah Anne",
+        "role": "director",
+        "appointed_on": "2023-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "ERGINBILGIC, Tufan",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCCABE, Helen",
+        "role": "director",
+        "appointed_on": "2023-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "VARSELLONA, Maria",
+        "role": "director",
+        "appointed_on": "2026-03-24",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "CONACHER, Matthew Ian",
+        "role": "secretary",
+        "appointed_on": "2025-04-22",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "O'GRADY, Claire-Marie",
+        "role": "secretary",
+        "appointed_on": "2024-09-10",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "CONACHER, Matthew Ian",
+        "role": "secretary",
+        "appointed_on": "2025-04-22",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "O'GRADY, Claire-Marie",
+        "role": "secretary",
+        "appointed_on": "2024-09-10",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "ARMSTRONG, Sarah Anne",
+        "role": "director",
+        "appointed_on": "2023-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "ERGINBILGIC, Tufan",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MCCABE, Helen",
+        "role": "director",
+        "appointed_on": "2023-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1969
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "VARSELLONA, Maria",
+        "role": "director",
+        "appointed_on": "2026-03-24",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "N1 9FX",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 72,
+      "recent": [
+        {
+          "name": "GREGORY, Mark",
+          "role": "director",
+          "appointed_on": "2023-03-01",
+          "resigned_on": "2026-03-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1976
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "N1 9FX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "CARROLL, Nicola",
+          "role": "secretary",
+          "appointed_on": "2021-06-23",
+          "resigned_on": "2025-04-22",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "N1 9FX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "COLES, Pamela Mary",
+          "role": "secretary",
+          "appointed_on": "2014-10-01",
+          "resigned_on": "2024-05-31",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "N1 9FX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "KAKOULLIS, Panos Koulis",
+          "role": "director",
+          "appointed_on": "2021-05-03",
+          "resigned_on": "2023-08-04",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1967
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "N1 9FX",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "EAST, David Warren Arthur",
+          "role": "director",
+          "appointed_on": "2014-01-01",
+          "resigned_on": "2022-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1961
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "N1 9FX",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01003142",
+          "name": "Rolls-Royce Holdings Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2026-01-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01003142",
+            "notified_on": "2026-01-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01003142/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "07524813",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01003142"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwOTkxMTQ1MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01003142_2026-03-15.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01003142/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01003142/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 274,
+    "enriched_at": "2026-04-16T19:59:21Z",
+    "governance_enriched_at": "2026-04-16T22:17:53Z",
+    "ubo_enriched_at": "2026-04-16T23:00:30Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "summary": {
+      "total_contracts": 7,
+      "total_contracts_non_framework": 6,
+      "total_awarded_gbp": 34209006.225666665,
+      "total_awarded_non_framework_gbp": 34198595.434,
+      "years_active": 4,
+      "first_year": 2019,
+      "last_year": 2022,
+      "trajectory": "stable",
+      "trajectory_note": "CAGR +5.3% between 2019 (£14M) and 2021 (£15M)",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+        "years_count": 3,
+        "years_list": [
+          2019,
+          2020,
+          2021
+        ],
+        "total_value_gbp": 33415000,
+        "n_contracts": 3
+      },
+      "n_unique_buyers_all_years": 4,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 13527595.434,
+        "awarded_gbp_non_framework": 13527595.434,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+          "contracts": 1,
+          "value_gbp": 13500000
+        },
+        "procurement_method_counts": {
+          "unspecified": 1,
+          "open": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 4915000,
+        "awarded_gbp_non_framework": 4915000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+          "contracts": 1,
+          "value_gbp": 4915000
+        },
+        "procurement_method_counts": {
+          "unspecified": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 15010410.791666666,
+        "awarded_gbp_non_framework": 15000000,
+        "awarded_gbp_framework_share": 10410.791666666666,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+          "contracts": 1,
+          "value_gbp": 15000000
+        },
+        "procurement_method_counts": {
+          "unspecified": 2
+        }
+      },
+      "2022": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 756000.0,
+        "awarded_gbp_non_framework": 756000.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 7.41,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "United Kingdom Atomic Energy Authority",
+          "contracts": 1,
+          "value_gbp": 700000.0
+        },
+        "procurement_method_counts": {
+          "open": 1,
+          "limited": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "34731100",
+        "top_label": "Aircraft engines",
+        "top_value_gbp": 13500000.0,
+        "n_distinct_codes": 2
+      },
+      "2020": {
+        "top_code": "50211210",
+        "top_label": "Repair and maintenance services of aircraft engines",
+        "top_value_gbp": 4915000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "50211210",
+        "top_label": "Repair and maintenance services of aircraft engines",
+        "top_value_gbp": 15000000.0,
+        "n_distinct_codes": 2
+      },
+      "2022": {
+        "top_code": "71300000",
+        "top_label": "Engineering services",
+        "top_value_gbp": 700000.0,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 4,
+        "open": 2,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 33425410.791666668,
+        "open": 727595.434,
+        "limited": 56000.0
+      },
+      "sole_source_pct_all_years": 0.16,
+      "competitive_pct_all_years": 2.13,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-134380",
+        "buyer_name": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+        "contracts": 3,
+        "value_gbp": 33415000
+      },
+      {
+        "buyer_id": "GB-CFS-106059",
+        "buyer_name": "United Kingdom Atomic Energy Authority",
+        "contracts": 2,
+        "value_gbp": 727595.434
+      },
+      {
+        "buyer_id": "GB-CFS-203069",
+        "buyer_name": "The National Health Service Commissioning  Board, known as NHS England",
+        "contracts": 1,
+        "value_gbp": 56000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/57hG7nME",
+        "buyer_name": "Business Energy and Industrial Strategy",
+        "contracts": 1,
+        "value_gbp": 10410.791666666666
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "50211210",
+        "label": "Repair and maintenance services of aircraft engines",
+        "contracts": 2,
+        "value_gbp": 19915000
+      },
+      {
+        "code": "34731100",
+        "label": "Aircraft engines",
+        "contracts": 1,
+        "value_gbp": 13500000
+      },
+      {
+        "code": "71300000",
+        "label": "Engineering services",
+        "contracts": 1,
+        "value_gbp": 700000.0
+      },
+      {
+        "code": "72266000",
+        "label": "Software consultancy services",
+        "contracts": 1,
+        "value_gbp": 56000
+      },
+      {
+        "code": "09300000",
+        "label": "Electricity, heating, solar and nuclear energy",
+        "contracts": 1,
+        "value_gbp": 27595.434
+      },
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 1,
+        "value_gbp": 10410.791666666666
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-4793c8e9-6e53-4c5a-8faf-46636f386ec1",
+        "date": "2022-02-23T00:00:00Z",
+        "buyer": "The National Health Service Commissioning  Board, known as NHS England",
+        "title": "Accelerating Digital First - Review of AnalystX",
+        "value_gbp": 56000,
+        "procurement_method": "limited",
+        "cpv_code": "72266000",
+        "cpv_label": "Software consultancy services",
+        "contract_start": "2022-02-23T00:00:00Z",
+        "contract_end": "2022-05-23T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b8bc8204-a12d-4e83-bf48-b29dd32c6890",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-42c283a6-2266-4664-b39b-64dbf6c0a3c9",
+        "date": "2022-01-25T00:00:00Z",
+        "buyer": "United Kingdom Atomic Energy Authority",
+        "title": "STEP Manufacture Support Services Framework",
+        "value_gbp": 700000.0,
+        "procurement_method": "open",
+        "cpv_code": "71300000",
+        "cpv_label": "Engineering services",
+        "contract_start": "2022-01-25T00:00:00Z",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4e804a9f-8715-4b28-a535-d82ee6bc53c6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2a3bd939-d34c-4c9e-a73a-3e5603f956f4",
+        "date": "2021-03-22T00:00:00Z",
+        "buyer": "Business Energy and Industrial Strategy",
+        "title": "SBRI Greenhouse Gas Removals  Innovation Competition - Phase 1 [Design Study]",
+        "value_gbp": 10410.791666666666,
+        "procurement_method": null,
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2021-04-06T00:00:00+01:00",
+        "contract_end": "2022-01-06T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a296a7f2-f888-44e7-bf6b-94587dc9a5d0",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3f15ef68-181e-4ca0-8784-1bee53c0a112",
+        "date": "2021-01-21T00:00:00Z",
+        "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+        "title": "Provision of In-Service-Support and Availability of Adour Engines for Hawk T Mk1/1A and Hawk T Mk2 aircraft",
+        "value_gbp": 15000000,
+        "procurement_method": null,
+        "cpv_code": "50211210",
+        "cpv_label": "Repair and maintenance services of aircraft engines",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2022-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/88da4664-3ed4-4b18-b168-907131d7e0b6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6d45660e-0786-4958-a8f4-eacb1f1c0c2c",
+        "date": "2020-09-30T00:00:00+01:00",
+        "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+        "title": "Provision of In-Service-Support and Availability of Adour Engines for Hawk T Mk1/1A and Hawk T Mk2 aircraft",
+        "value_gbp": 4915000,
+        "procurement_method": null,
+        "cpv_code": "50211210",
+        "cpv_label": "Repair and maintenance services of aircraft engines",
+        "contract_start": "2020-12-01T00:00:00Z",
+        "contract_end": "2021-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dea39c13-1400-4e01-b4ef-cf647836a326",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-4800765d-f863-4c93-9a4c-f92055553f65",
+        "date": "2019-12-18T00:00:00Z",
+        "buyer": "Ministry of Defence, Combat Air, UK Military Flying Training System (UKMFTS) Project Team",
+        "title": "Provision of In-Service-Support and Availability of Adour Engines for Hawk T Mk1/1A and Hawk T Mk2 aircraft",
+        "value_gbp": 13500000,
+        "procurement_method": null,
+        "cpv_code": "34731100",
+        "cpv_label": "Aircraft engines",
+        "contract_start": "2020-04-01T00:00:00+01:00",
+        "contract_end": "2020-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d9228615-de30-4a14-8fd6-ba464b109473",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-94c4a96a-69bd-43e4-9fe5-c8454bf7a806",
+        "date": "2019-12-06T00:00:00Z",
+        "buyer": "United Kingdom Atomic Energy Authority",
+        "title": "STEP WP1 - Engineering Design Information Management (EDIM) Review & Report",
+        "value_gbp": 27595.434,
+        "procurement_method": "open",
+        "cpv_code": "09300000",
+        "cpv_label": "Electricity, heating, solar and nuclear energy",
+        "contract_start": "2019-12-18T00:00:00Z",
+        "contract_end": "2020-03-27T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c2569a37-505b-422e-8c5f-ca2334c169ad",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 86367819,
+      "awarded_2024_gbp_from_cf": 34209006.225666665,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 2.5× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.4
+    }
+  }
+}

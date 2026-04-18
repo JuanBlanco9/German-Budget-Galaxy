@@ -1,0 +1,975 @@
+{
+  "company_number": "BR007627",
+  "display_name": "Tata Consultancy Services Limited",
+  "identity": {
+    "ch_number": "BR007627",
+    "official_name": "TATA CONSULTANCY SERVICES LIMITED",
+    "display_name": "Tata Consultancy Services Limited",
+    "status": "open",
+    "type": "uk-establishment",
+    "jurisdiction": null,
+    "incorporated": "2004-04-01",
+    "age_years": 22,
+    "registered_office": {
+      "address_line_1": "18 Grosvenor Place",
+      "locality": "London",
+      "postal_code": "SW1X 7HS"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/BR007627"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16285280,
+    "rank": 629,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 12748780,
+        "segments": [
+          {
+            "segment": "Universal Credit",
+            "amount_gbp": 399000,
+            "pct_of_segment": 0.46,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Child & Family Benefits",
+            "amount_gbp": 12349780,
+            "pct_of_segment": 63.98,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 3536500,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 3536500,
+            "pct_of_segment": 1.03,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "BR007627",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 83,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/BR007627"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR007627/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR007627/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 629,
+    "enriched_at": "2026-04-16T20:29:35Z",
+    "governance_enriched_at": "2026-04-16T22:34:03Z",
+    "ubo_enriched_at": "2026-04-16T23:20:18Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 31,
+      "total_contracts_non_framework": 26,
+      "total_awarded_gbp": 2199354104.8007145,
+      "total_awarded_non_framework_gbp": 2179462581.14,
+      "years_active": 5,
+      "first_year": 2020,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +736.2% between 2020 (£3M) and 2023 (£1987M)",
+      "longest_buyer_relationship": {
+        "buyer": "Department for Work and Pensions",
+        "years_count": 5,
+        "years_list": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "total_value_gbp": 124203881.8,
+        "n_contracts": 11
+      },
+      "n_unique_buyers_all_years": 15,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 3520597.522144522,
+        "awarded_gbp_non_framework": 3398453,
+        "awarded_gbp_framework_share": 122144.52214452214,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department for Work and Pensions",
+          "contracts": 1,
+          "value_gbp": 3398453
+        },
+        "procurement_method_counts": {
+          "open": 2,
+          "selective": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 22380000,
+        "awarded_gbp_non_framework": 22380000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Transport for London",
+          "contracts": 2,
+          "value_gbp": 21500000
+        },
+        "procurement_method_counts": {
+          "selective": 3
+        }
+      },
+      "2022": {
+        "n_contracts": 13,
+        "n_contracts_non_framework": 11,
+        "awarded_gbp_total": 177496714.29340866,
+        "awarded_gbp_non_framework": 166799915.8,
+        "awarded_gbp_framework_share": 10696798.493408663,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 6,
+        "top_buyer": {
+          "buyer": "Department for Work and Pensions",
+          "contracts": 5,
+          "value_gbp": 115315046.8
+        },
+        "procurement_method_counts": {
+          "selective": 10,
+          "unspecified": 2,
+          "open": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 10,
+        "n_contracts_non_framework": 9,
+        "awarded_gbp_total": 1995826482.9851613,
+        "awarded_gbp_non_framework": 1986753902.3400002,
+        "awarded_gbp_framework_share": 9072580.64516129,
+        "sole_source_pct": 75.16,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 8,
+        "top_buyer": {
+          "buyer": "NATIONAL EMPLOYMENT SAVINGS TRUST (NEST) CORPORATION",
+          "contracts": 1,
+          "value_gbp": 1500000000
+        },
+        "procurement_method_counts": {
+          "selective": 7,
+          "open": 2,
+          "limited": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 130310,
+        "awarded_gbp_non_framework": 130310,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department for Work and Pensions",
+          "contracts": 1,
+          "value_gbp": 65310
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "48000000",
+        "top_label": "Software package and information systems",
+        "top_value_gbp": 3398453.0,
+        "n_distinct_codes": 2
+      },
+      "2021": {
+        "top_code": "22454000",
+        "top_label": "Driving licences",
+        "top_value_gbp": 21500000.0,
+        "n_distinct_codes": 2
+      },
+      "2022": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 163084869.0,
+        "n_distinct_codes": 5
+      },
+      "2023": {
+        "top_code": "66000000",
+        "top_label": "Financial and insurance services",
+        "top_value_gbp": 1578310000.0,
+        "n_distinct_codes": 7
+      },
+      "2024": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 65310.0,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": true,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 5,
+        "selective": 23,
+        "unspecified": 2,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 17669301.438492253,
+        "selective": 675462581.14,
+        "unspecified": 6222222.222222222,
+        "limited": 1500000000.0
+      },
+      "sole_source_pct_all_years": 68.2,
+      "competitive_pct_all_years": 31.52,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/2cBT627b",
+        "buyer_name": "NATIONAL EMPLOYMENT SAVINGS TRUST (NEST) CORPORATION",
+        "contracts": 1,
+        "value_gbp": 1500000000
+      },
+      {
+        "buyer_id": "GB-CFS-126886",
+        "buyer_name": "Department for Education",
+        "contracts": 1,
+        "value_gbp": 233866286.34
+      },
+      {
+        "buyer_id": "GB-CFS-41085",
+        "buyer_name": "The British Broadcasting Corporation (BBC)",
+        "contracts": 1,
+        "value_gbp": 170000000
+      },
+      {
+        "buyer_id": "GB-CFS-149719",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 3,
+        "value_gbp": 112500000
+      },
+      {
+        "buyer_id": "GB-CFS-201480",
+        "buyer_name": "British Council",
+        "contracts": 1,
+        "value_gbp": 78310000
+      },
+      {
+        "buyer_id": "GB-CFS-109313",
+        "buyer_name": "Financial Ombudsman Service",
+        "contracts": 2,
+        "value_gbp": 32673092
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/5WZu8KXU",
+        "buyer_name": "Transport for London",
+        "contracts": 2,
+        "value_gbp": 21500000
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/dF9u4MqE",
+        "buyer_name": "LIVESTOCK INFORMATION LIMITED",
+        "contracts": 1,
+        "value_gbp": 12111777
+      },
+      {
+        "buyer_id": "GB-CFS-112585",
+        "buyer_name": "Financial Conduct Authority",
+        "contracts": 1,
+        "value_gbp": 9072580.64516129
+      },
+      {
+        "buyer_id": "GB-CFS-192584",
+        "buyer_name": "Highways England",
+        "contracts": 1,
+        "value_gbp": 8474576.271186441
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 3,
+        "value_gbp": 6700000
+      },
+      {
+        "buyer_id": "GB-CFS-103563",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 2,
+        "value_gbp": 4461811
+      },
+      {
+        "buyer_id": "GB-CFS-101093",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 1,
+        "value_gbp": 3398453
+      },
+      {
+        "buyer_id": "GB-CFS-206794",
+        "buyer_name": "The British Broadcasting Corporation (BBC)",
+        "contracts": 1,
+        "value_gbp": 2222222.222222222
+      },
+      {
+        "buyer_id": "GB-CFS-225050",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 1,
+        "value_gbp": 2077534.8
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "66000000",
+        "label": "Financial and insurance services",
+        "contracts": 2,
+        "value_gbp": 1578310000
+      },
+      {
+        "code": "66523100",
+        "label": "Pension fund administration services",
+        "contracts": 1,
+        "value_gbp": 233866286.34
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 13,
+        "value_gbp": 172428165.16730583
+      },
+      {
+        "code": "75112000",
+        "label": "Administrative services for business operations",
+        "contracts": 1,
+        "value_gbp": 170000000
+      },
+      {
+        "code": "22454000",
+        "label": "Driving licences",
+        "contracts": 2,
+        "value_gbp": 21500000
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 5,
+        "value_gbp": 14553899.271186441
+      },
+      {
+        "code": "48000000",
+        "label": "Software package and information systems",
+        "contracts": 1,
+        "value_gbp": 3398453
+      },
+      {
+        "code": "72225000",
+        "label": "System quality assurance assessment and review services",
+        "contracts": 1,
+        "value_gbp": 2222222.222222222
+      },
+      {
+        "code": "72590000",
+        "label": "Computer-related professional services",
+        "contracts": 1,
+        "value_gbp": 2077534.8
+      },
+      {
+        "code": "72212451",
+        "label": "Enterprise resource planning software development services",
+        "contracts": 1,
+        "value_gbp": 900000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-f729e342-40e3-41d0-81db-759f20afb18b",
+        "date": "2024-03-08T00:00:00Z",
+        "buyer": "Department for Work and Pensions",
+        "title": "MI Activities relating to FAS",
+        "value_gbp": 65310,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-04-04T00:00:00+01:00",
+        "contract_end": "2024-09-06T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/105e73b8-4e49-4b56-8d2e-730f79260202",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7375d2cd-1ec5-4cea-b0f0-ac79c12ac0d6",
+        "date": "2024-01-09T00:00:00Z",
+        "buyer": "University of Bristol",
+        "title": "On Premises Discovery",
+        "value_gbp": 65000,
+        "procurement_method": "selective",
+        "cpv_code": "72130000",
+        "cpv_label": "Computer-site planning consultancy services",
+        "contract_start": "2024-01-09T00:00:00Z",
+        "contract_end": "2024-04-08T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/e9e4102f-b5c3-4d69-a6d4-42bb38e6339b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8469d474-25b2-4e8d-8dcd-61ad30f3775f",
+        "date": "2023-10-24T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "(DWP) SCE Digital Assisted Services - Phase 2",
+        "value_gbp": 2433715,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2023-12-05T00:00:00Z",
+        "contract_end": "2024-12-04T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d6aa270c-da1b-4f6c-b0dc-76da4eb7ac1e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8469d474-25b2-4e8d-8dcd-61ad30f3775f",
+        "date": "2023-10-24T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "(DWP) SCE Digital Assisted Services - Phase 2",
+        "value_gbp": 2028096,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2023-12-05T00:00:00Z",
+        "contract_end": "2024-12-04T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d6aa270c-da1b-4f6c-b0dc-76da4eb7ac1e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-21f58c8e-1c63-466f-b35d-ae8f99a3dd2f",
+        "date": "2023-08-29T00:00:00+01:00",
+        "buyer": "British Council",
+        "title": "UK_2022_Professional Services Business Process Outsourcing - AWARD",
+        "value_gbp": 78310000,
+        "procurement_method": "selective",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2023-05-31T00:00:00+01:00",
+        "contract_end": "2030-05-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ad173e9f-1a4d-432b-9628-0286f6d82b41",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-f6410c2a-ad40-45f1-b861-de4009217dd7",
+        "date": "2023-08-01T00:00:00+01:00",
+        "buyer": "Financial Conduct Authority",
+        "title": "Digital Services Framework Agreement",
+        "value_gbp": 9072580.64516129,
+        "procurement_method": "open",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-09-14T00:00:00+01:00",
+        "contract_end": "2027-09-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9667acd6-aee0-4fd1-90fd-cc2f247761bc",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-56acbd14-be53-4cf0-9c5c-beb66f4052a8",
+        "date": "2023-07-18T00:00:00+01:00",
+        "buyer": "Associated British Ports",
+        "title": "Cloud-based Services - Integration Platform Partner Services - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "72212214",
+        "cpv_label": "Network operating system software development services",
+        "contract_start": "2023-07-01T00:00:00+01:00",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2017f45c-03fe-4a25-8b13-57486ceca672",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-01d0585e-9b88-4eb4-a51b-3097a1ae72f5",
+        "date": "2023-06-28T00:00:00+01:00",
+        "buyer": "The British Broadcasting Corporation (BBC)",
+        "title": "BBC Business Process Outsourcing",
+        "value_gbp": 170000000,
+        "procurement_method": "selective",
+        "cpv_code": "75112000",
+        "cpv_label": "Administrative services for business operations",
+        "contract_start": "2023-07-01T00:00:00+01:00",
+        "contract_end": "2034-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/58cf7243-3883-483b-ad3b-674dfad61b72",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ee1d4900-6cc0-41d7-ad4d-76422cef1cd4",
+        "date": "2023-06-05T00:00:00+01:00",
+        "buyer": "BEIS",
+        "title": "Provision of technical Architect",
+        "value_gbp": 32544,
+        "procurement_method": "selective",
+        "cpv_code": "72610000",
+        "cpv_label": "Computer support services",
+        "contract_start": "2023-06-06T00:00:00+01:00",
+        "contract_end": "2023-10-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5886679d-4924-4981-b75e-4277afa276a5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-dc48300f-ba58-4d7a-9e76-e6550b7b464f",
+        "date": "2023-06-01T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "SRA Project Manager",
+        "value_gbp": 83261,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-06-05T00:00:00+01:00",
+        "contract_end": "2023-12-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d95e8612-7e66-407f-9139-5a8ff7b94de9",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-07251983-8386-4285-9964-f0391e7acb12",
+        "date": "2023-05-28T00:00:00+01:00",
+        "buyer": "Department for Education",
+        "title": "Pension Administration Services: Teachers' Pension Scheme (TPS)",
+        "value_gbp": 233866286.34,
+        "procurement_method": "selective",
+        "cpv_code": "66523100",
+        "cpv_label": "Pension fund administration services",
+        "contract_start": "2023-10-01T00:00:00+01:00",
+        "contract_end": "2035-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/67661fae-dd35-456d-877f-839c637fc1b8",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-cd420747-0b1c-40d6-b53c-b2f1527ea6a4",
+        "date": "2023-05-25T00:00:00+01:00",
+        "buyer": "NATIONAL EMPLOYMENT SAVINGS TRUST (NEST) CORPORATION",
+        "title": "Scheme administration services contract",
+        "value_gbp": 1500000000,
+        "procurement_method": "limited",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2023-06-21T00:00:00+01:00",
+        "contract_end": "2033-06-20T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8bb4718f-c70a-47a6-8361-cf1ee254bfc3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5fa26fe7-6f47-4248-820b-065720a4aef9",
+        "date": "2022-12-01T00:00:00Z",
+        "buyer": "LIVESTOCK INFORMATION LIMITED",
+        "title": "Sheep Support and Enhancements Service",
+        "value_gbp": 12111777,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-01-01T00:00:00Z",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bc59c9a9-1359-47e7-8ec5-cf5fbf31c214",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7f22c530-a4f2-4e15-b6a7-3960c17c2d85",
+        "date": "2022-10-17T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "Provision of Resource for the Transformation of Working Age Benefit Services",
+        "value_gbp": 4000000,
+        "procurement_method": null,
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-10-25T00:00:00+01:00",
+        "contract_end": "2024-10-24T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4f3f8e67-8e81-4339-8df6-ad4391f8b7d4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-22054e98-4aa2-46f9-821c-a70bce547f0a",
+        "date": "2022-10-12T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "SCE - Digital Assisted Services",
+        "value_gbp": 2077534.8,
+        "procurement_method": "selective",
+        "cpv_code": "72590000",
+        "cpv_label": "Computer-related professional services",
+        "contract_start": "2022-09-12T00:00:00+01:00",
+        "contract_end": "2023-09-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5be3707f-21c2-4480-b025-16921c66cf7c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d223e8cf-8ebe-459c-a9c9-635132872841",
+        "date": "2022-10-06T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "(DWP) SCE User Research Contract",
+        "value_gbp": 737512,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2022-11-01T00:00:00Z",
+        "contract_end": "2023-10-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6538536e-07e4-4c06-9445-22ff991884d7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bbf746ee-2c17-42f9-8ec5-6481100224fc",
+        "date": "2022-10-03T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "TCS BaNCS Application Development and Live Service Support Contract",
+        "value_gbp": 1800000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-10-03T00:00:00+01:00",
+        "contract_end": "2025-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/332068a9-ed91-4f99-993c-77a95f56813e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b1080da4-6f87-4424-a45f-cba309f0396d",
+        "date": "2022-09-28T00:00:00+01:00",
+        "buyer": "Crown Commercial Service",
+        "title": "The Provision of Engineering Resource for the AME (Annually Managed Expenditure)",
+        "value_gbp": 900000,
+        "procurement_method": "selective",
+        "cpv_code": "72212451",
+        "cpv_label": "Enterprise resource planning software development services",
+        "contract_start": "2022-10-03T00:00:00+01:00",
+        "contract_end": "2023-10-02T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/48293852-56dd-4721-a139-6702c814e89a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fd0c0c5b-fa81-4339-8532-d4b320593742",
+        "date": "2022-09-13T00:00:00+01:00",
+        "buyer": "Highways England",
+        "title": "Information Technology Commercial Framework",
+        "value_gbp": 8474576.271186441,
+        "procurement_method": "open",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2022-09-13T00:00:00+01:00",
+        "contract_end": "2026-09-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6af7a4b5-489d-4e39-8ee0-bc7969ea995c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3902e991-d9a4-4e90-8533-c1cd111eb46c",
+        "date": "2022-04-11T00:00:00+01:00",
+        "buyer": "The British Broadcasting Corporation (BBC)",
+        "title": "Systems Delivery and Integration Services Framework",
+        "value_gbp": 2222222.222222222,
+        "procurement_method": null,
+        "cpv_code": "72225000",
+        "cpv_label": "System quality assurance assessment and review services",
+        "contract_start": "2022-04-12T00:00:00+01:00",
+        "contract_end": "2026-04-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bf792dea-589c-40b3-9346-699b82694628",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fda41423-2871-44f8-bdf9-139d9029f055",
+        "date": "2022-03-30T00:00:00+01:00",
+        "buyer": "Financial Ombudsman Service",
+        "title": "IT Managed Services",
+        "value_gbp": 16336546,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-04-29T00:00:00+01:00",
+        "contract_end": "2026-04-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/befa0c1b-dd1d-4c80-9697-3a446dd4478a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-fda41423-2871-44f8-bdf9-139d9029f055",
+        "date": "2022-03-30T00:00:00+01:00",
+        "buyer": "Financial Ombudsman Service",
+        "title": "IT Managed Services",
+        "value_gbp": 16336546,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-04-29T00:00:00+01:00",
+        "contract_end": "2026-04-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/befa0c1b-dd1d-4c80-9697-3a446dd4478a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3ae81497-e12e-46a3-ba86-9a5e79056d25",
+        "date": "2022-03-01T00:00:00Z",
+        "buyer": "Department for Work and Pensions",
+        "title": "AWARD - DWP Digital Children - Application Development & Live Support",
+        "value_gbp": 37500000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-03-01T00:00:00Z",
+        "contract_end": "2024-02-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0a74452a-e9b8-44d9-99cb-cab9b9dd225e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3ae81497-e12e-46a3-ba86-9a5e79056d25",
+        "date": "2022-03-01T00:00:00Z",
+        "buyer": "Department for Work and Pensions",
+        "title": "AWARD - DWP Digital Children - Application Development & Live Support",
+        "value_gbp": 37500000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-03-01T00:00:00Z",
+        "contract_end": "2024-02-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0a74452a-e9b8-44d9-99cb-cab9b9dd225e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-3ae81497-e12e-46a3-ba86-9a5e79056d25",
+        "date": "2022-03-01T00:00:00Z",
+        "buyer": "Department for Work and Pensions",
+        "title": "AWARD - DWP Digital Children - Application Development & Live Support",
+        "value_gbp": 37500000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-03-01T00:00:00Z",
+        "contract_end": "2024-02-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0a74452a-e9b8-44d9-99cb-cab9b9dd225e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7d2cb9ed-7aa8-4d0a-bfe7-20433fc5210a",
+        "date": "2021-07-27T00:00:00+01:00",
+        "buyer": "Transport for London",
+        "title": "TPH Outsourced Services - Lot 1 Service System",
+        "value_gbp": 12000000,
+        "procurement_method": "selective",
+        "cpv_code": "22454000",
+        "cpv_label": "Driving licences",
+        "contract_start": "2021-07-28T00:00:00+01:00",
+        "contract_end": "2031-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/319afffb-b5f4-4112-94c4-96e65412dfa9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7d2cb9ed-7aa8-4d0a-bfe7-20433fc5210a",
+        "date": "2021-07-27T00:00:00+01:00",
+        "buyer": "Transport for London",
+        "title": "TPH Outsourced Services - Lot 1 Service System",
+        "value_gbp": 9500000,
+        "procurement_method": "selective",
+        "cpv_code": "22454000",
+        "cpv_label": "Driving licences",
+        "contract_start": "2021-07-28T00:00:00+01:00",
+        "contract_end": "2031-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/319afffb-b5f4-4112-94c4-96e65412dfa9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2bf21564-094a-40c2-8bd4-1d5f809877de",
+        "date": "2021-07-05T00:00:00+01:00",
+        "buyer": "Department for Work and Pensions",
+        "title": "DOS DevOps ID&T",
+        "value_gbp": 880000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2021-07-05T00:00:00+01:00",
+        "contract_end": "2023-07-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/31192f77-3603-4e38-80fe-6d2cd2231a3f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d1abc099-adeb-4485-97ce-21f69f4f7de0",
+        "date": "2020-11-01T00:00:00Z",
+        "buyer": "Department for Work and Pensions",
+        "title": "TCS BaNCS Software 2020-2023 (ecm_8691)",
+        "value_gbp": 3398453,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2020-12-01T00:00:00Z",
+        "contract_end": "2023-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d573c56e-1410-4f0f-b4a2-3f58257dc32b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8c0305a3-376c-426d-9562-427b8acf0543",
+        "date": "2020-03-27T00:00:00Z",
+        "buyer": "Ofgem",
+        "title": "Dynamic Purchasing System - Digital Services",
+        "value_gbp": 60606.06060606061,
+        "procurement_method": "open",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2020-03-27T00:00:00Z",
+        "contract_end": "2024-03-26T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/116c5db7-8a80-4037-af78-a1764de8157f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 16285280,
+      "awarded_2024_gbp_from_cf": 130310,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 125.0× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.01
+    }
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "company_number": "02594504",
+  "display_name": "JACOBS UK LIMITED",
+  "identity": {
+    "ch_number": "02594504",
+    "official_name": "JACOBS U.K. LIMITED",
+    "display_name": "JACOBS UK LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1991-03-22",
+    "age_years": 35,
+    "registered_office": {
+      "address_line_1": "Cottons Centre",
+      "address_line_2": "Cottons Lane",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "SE1 2QG"
+    },
+    "sic_codes": [
+      "71129",
+      "82990"
+    ],
+    "sic_labels": [
+      "Other engineering activities",
+      "Other business support service activities"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02594504"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 102366138,
+    "rank": 246,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 72811078,
+        "segments": [
+          {
+            "segment": "National Highways",
+            "amount_gbp": 72811078,
+            "pct_of_segment": 1.59,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 29555060,
+        "segments": [
+          {
+            "segment": "EA",
+            "amount_gbp": 29555060,
+            "pct_of_segment": 3,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-05-22",
+    "period_end": "2024-09-27",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ2NzUxMjIyMmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02594504_2025-05-22.pdf",
+      "size_mb": 3.59,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 8,
+    "officers_resigned_count": 62,
+    "board_turnover_ratio": 7.75,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "CARUSO, Joanne",
+        "role": "director",
+        "appointed_on": "2018-03-26",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LANE, Alexander James",
+        "role": "director",
+        "appointed_on": "2021-08-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1978
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MILES, Sally Linda Joyce",
+        "role": "director",
+        "appointed_on": "2020-12-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NASH, James Edward",
+        "role": "director",
+        "appointed_on": "2025-07-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NATHAMUNI, Venkatesh Rengarajan",
+        "role": "director",
+        "appointed_on": "2025-02-06",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SANDERSON, Richard Ian",
+        "role": "director",
+        "appointed_on": "2025-10-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SCOTT, Courtney",
+        "role": "director",
+        "appointed_on": "2024-10-15",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "ROBERTS, Geoffrey",
+        "role": "secretary",
+        "appointed_on": "2023-08-21",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "ROBERTS, Geoffrey",
+        "role": "secretary",
+        "appointed_on": "2023-08-21",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "CARUSO, Joanne",
+        "role": "director",
+        "appointed_on": "2018-03-26",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1960
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LANE, Alexander James",
+        "role": "director",
+        "appointed_on": "2021-08-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1978
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MILES, Sally Linda Joyce",
+        "role": "director",
+        "appointed_on": "2020-12-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NASH, James Edward",
+        "role": "director",
+        "appointed_on": "2025-07-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "NATHAMUNI, Venkatesh Rengarajan",
+        "role": "director",
+        "appointed_on": "2025-02-06",
+        "resigned_on": null,
+        "nationality": "American",
+        "occupation": null,
+        "country_of_residence": "United States",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SANDERSON, Richard Ian",
+        "role": "director",
+        "appointed_on": "2025-10-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "SCOTT, Courtney",
+        "role": "director",
+        "appointed_on": "2024-10-15",
+        "resigned_on": null,
+        "nationality": "Australian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SE1 2QG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 62,
+      "recent": [
+        {
+          "name": "KENNY, Katherine Helen",
+          "role": "director",
+          "appointed_on": "2020-12-09",
+          "resigned_on": "2025-07-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "PRAGADA, Robert Venkat",
+          "role": "director",
+          "appointed_on": "2016-06-22",
+          "resigned_on": "2025-02-06",
+          "nationality": "American",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1968
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "ELLIS, David",
+          "role": "director",
+          "appointed_on": "2016-03-21",
+          "resigned_on": "2024-07-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1972
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HINTON, Martin Edward",
+          "role": "director",
+          "appointed_on": "2021-08-11",
+          "resigned_on": "2024-07-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SE1 2QG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "JARAMILLO, Claudia",
+          "role": "director",
+          "appointed_on": "2023-08-14",
+          "resigned_on": "2024-04-16",
+          "nationality": "Colombian",
+          "occupation": null,
+          "country_of_residence": "United States",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Dallas",
+            "postal_code": null,
+            "country": "United States"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02594504",
+          "name": "Jacobs Uk Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02594504",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02594504/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04420029",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04420029",
+          "name": "Jacobs Europe Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04420029",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04420029/persons-with-significant-control/corporate-entity/92lHrBl9O8iJhYIE2cf0Kk6cbho"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09188414",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "09188414",
+          "name": "Jacobs Solutions Inc ",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-08-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09188414",
+            "notified_on": "2022-08-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09188414/persons-with-significant-control/corporate-entity/Cm_AqDNuKe8IQRVVUImOPLfTutE"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "United States",
+          "parent_registration_number": "6655558",
+          "wikidata": {
+            "qid": "Q3157622",
+            "label": "Jacobs Engineering Group",
+            "description": "American engineering and professional services company",
+            "match_quality": "medium_overlap",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q3157622",
+            "parent_chain": [
+              {
+                "qid": "Q3157622",
+                "label": "Jacobs Engineering Group",
+                "description": "American engineering and professional services company",
+                "country_labels": [
+                  "United States"
+                ],
+                "revision_id": 2475793086,
+                "source_url": "https://www.wikidata.org/wiki/Q3157622"
+              }
+            ],
+            "ultimate_label": "Jacobs Engineering Group",
+            "ultimate_country": "United States",
+            "queries_used": [
+              "Jacobs Solutions Inc ",
+              "Jacobs Solutions"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "United States"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02594504"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ2NzUxMjIyMmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02594504_2025-05-22.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02594504/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02594504/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3157622"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 246,
+    "enriched_at": "2026-04-16T19:55:11Z",
+    "governance_enriched_at": "2026-04-16T22:16:29Z",
+    "ubo_enriched_at": "2026-04-16T22:57:44Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

@@ -1,0 +1,879 @@
+{
+  "company_number": "10496066",
+  "display_name": "DHL Parcel UK Ltd",
+  "identity": {
+    "ch_number": "10496066",
+    "official_name": "DHL PARCEL UK HOLDING LIMITED",
+    "display_name": "DHL Parcel UK Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2016-11-24",
+    "age_years": 9,
+    "registered_office": {
+      "address_line_1": "Capitol House 1 Capitol Close",
+      "address_line_2": "Morley",
+      "country": "England",
+      "locality": "Leeds",
+      "postal_code": "LS27 0WH"
+    },
+    "sic_codes": [
+      "82990"
+    ],
+    "sic_labels": [
+      "Other business support service activities"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/10496066"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 49158240,
+    "rank": 386,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 49158240,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 49158240,
+            "pct_of_segment": 17.9,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-10-10",
+    "period_end": "2026-02-28",
+    "accounts_type_code": "AA01",
+    "accounts_type_description": "change-account-reference-date-company-current-extended",
+    "transaction_id": "MzQ4NDQ0NTAyMWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/10496066_2025-10-10.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-11-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 6,
+    "board_turnover_ratio": 3.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "DE LANGE, Martijn Constantijn",
+        "role": "director",
+        "appointed_on": "2025-10-01",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Leeds",
+          "postal_code": "LS27 0WH",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RICHARDSON, Alan",
+        "role": "director",
+        "appointed_on": "2025-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Leeds",
+          "postal_code": "LS27 0WH",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "DE LANGE, Martijn Constantijn",
+        "role": "director",
+        "appointed_on": "2025-10-01",
+        "resigned_on": null,
+        "nationality": "Dutch",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Leeds",
+          "postal_code": "LS27 0WH",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RICHARDSON, Alan",
+        "role": "director",
+        "appointed_on": "2025-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Leeds",
+          "postal_code": "LS27 0WH",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 6,
+      "recent": [
+        {
+          "name": "LYALL, Jaspreet Kaur",
+          "role": "director",
+          "appointed_on": "2023-09-29",
+          "resigned_on": "2025-10-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1985
+          },
+          "address": {
+            "locality": "Slough",
+            "postal_code": "SL1 4LZ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "TRIMM, Michael James",
+          "role": "director",
+          "appointed_on": "2016-11-24",
+          "resigned_on": "2025-10-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1968
+          },
+          "address": {
+            "locality": "Slough",
+            "postal_code": "SL1 4LZ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "KROHN, Peter Michael",
+          "role": "director",
+          "appointed_on": "2019-03-21",
+          "resigned_on": "2023-09-29",
+          "nationality": "Danish",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1957
+          },
+          "address": {
+            "locality": "Slough",
+            "postal_code": "SL1 4LZ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FINK, Steven",
+          "role": "director",
+          "appointed_on": "2016-11-24",
+          "resigned_on": "2020-06-12",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1975
+          },
+          "address": {
+            "locality": "Slough",
+            "postal_code": "SL1 4LZ",
+            "country": "England"
+          }
+        },
+        {
+          "name": "JUELICH, Marco",
+          "role": "director",
+          "appointed_on": "2017-05-03",
+          "resigned_on": "2019-03-21",
+          "nationality": "German",
+          "occupation": null,
+          "country_of_residence": "Germany",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1984
+          },
+          "address": {
+            "locality": "Bracknell",
+            "postal_code": "RG12 1AN",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "10496066",
+          "name": "Evri Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2025-10-01",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "10496066",
+            "notified_on": "2025-10-01",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/10496066/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03900782",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "03900782",
+          "name": "Concert Newco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03900782",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03900782/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13373917",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "13373917",
+          "name": "Concert Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2021-05-04",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13373917",
+            "notified_on": "2021-05-04",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13373917/persons-with-significant-control/corporate-entity/s5p2Ygo5w5ys4LhZMeiN9bvJIqs"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "12659383",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "12659383",
+          "name": "Edge Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-12-23",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12659383",
+            "notified_on": "2024-12-23",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12659383/persons-with-significant-control/corporate-entity/3AF_yQNI5O61HwnkCW9Ai7BrKk0"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15841732",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "15841732",
+          "name": "Edge Finco Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-08-22",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15841732",
+            "notified_on": "2024-08-22",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15841732/persons-with-significant-control/corporate-entity/5p_xtz8nJiIbFaDspLgXhl5s23Y"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15868287",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed"
+        },
+        {
+          "step": 6,
+          "from_company": "15868287",
+          "name": "Edge Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-07-31",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15868287",
+            "notified_on": "2024-07-31",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15868287/persons-with-significant-control/corporate-entity/wiRHRQfqRSGyG9XvBh0z1TL-oKQ"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15841494",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "15841494",
+          "name": "Apollo Global Management, Inc.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2024-07-16",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15841494",
+            "notified_on": "2024-07-16",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15841494/persons-with-significant-control/corporate-entity/SNYL9_ezZmhiwgxh1hE1TABz7Co"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "United States",
+          "parent_registration_number": "4382726",
+          "wikidata": {
+            "qid": "Q619121",
+            "label": "Apollo Global Management",
+            "description": "American private equity firm",
+            "match_quality": "exact",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q619121",
+            "parent_chain": [
+              {
+                "qid": "Q619121",
+                "label": "Apollo Global Management",
+                "description": "American private equity firm",
+                "country_labels": [
+                  "United States"
+                ],
+                "revision_id": 2474512769,
+                "source_url": "https://www.wikidata.org/wiki/Q619121"
+              }
+            ],
+            "ultimate_label": "Apollo Global Management",
+            "ultimate_country": "United States",
+            "queries_used": [
+              "Apollo Global Management, Inc.",
+              "Apollo Global Management"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "United States"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10496066"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4NDQ0NTAyMWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/10496066_2025-10-10.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10496066/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10496066/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q619121"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 386,
+    "enriched_at": "2026-04-16T20:07:59Z",
+    "governance_enriched_at": "2026-04-16T22:22:37Z",
+    "ubo_enriched_at": "2026-04-16T23:08:50Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2017,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 8,
+      "total_contracts_non_framework": 6,
+      "total_awarded_gbp": 3790766671.8333335,
+      "total_awarded_non_framework_gbp": 3777433338.5,
+      "years_active": 5,
+      "first_year": 2017,
+      "last_year": 2024,
+      "trajectory": "new_entrant",
+      "trajectory_note": "no contracts before 2024",
+      "longest_buyer_relationship": {
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "years_count": 1,
+        "years_list": [
+          2023
+        ],
+        "total_value_gbp": 3770476046.0,
+        "n_contracts": 2
+      },
+      "n_unique_buyers_all_years": 6,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2017": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 13333333.333333334,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 13333333.333333334,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "YPO",
+          "contracts": 2,
+          "value_gbp": 13333333.333333334
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 2000000,
+        "awarded_gbp_non_framework": 2000000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Derbyshire County Council",
+          "contracts": 1,
+          "value_gbp": 2000000
+        },
+        "procurement_method_counts": {
+          "unspecified": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 3200000,
+        "awarded_gbp_non_framework": 3200000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Cornwall Council",
+          "contracts": 1,
+          "value_gbp": 3200000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 3770476046.0,
+        "awarded_gbp_non_framework": 3770476046.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+          "contracts": 2,
+          "value_gbp": 3770476046.0
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2024": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 1757292.5,
+        "awarded_gbp_non_framework": 1757292.5,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "United Lincolnshire NHS Trust",
+          "contracts": 1,
+          "value_gbp": 1600000
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2017": {
+        "top_code": "64120000",
+        "top_label": "Courier services",
+        "top_value_gbp": 13333333.333333334,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "64110000",
+        "top_label": "Postal services",
+        "top_value_gbp": 2000000.0,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "64110000",
+        "top_label": "Postal services",
+        "top_value_gbp": 3200000.0,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "64000000",
+        "top_label": "Postal and telecommunications services",
+        "top_value_gbp": 3770476046.0,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "64110000",
+        "top_label": "Postal services",
+        "top_value_gbp": 1600000.0,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": true,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 7,
+        "unspecified": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 3788766671.8333335,
+        "unspecified": 2000000.0
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 99.95,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-258643",
+        "buyer_name": "DVLA - Driver & Vehicle Licensing Agency",
+        "contracts": 2,
+        "value_gbp": 3770476046.0
+      },
+      {
+        "buyer_id": "GB-CFS-36635",
+        "buyer_name": "YPO",
+        "contracts": 2,
+        "value_gbp": 13333333.333333334
+      },
+      {
+        "buyer_id": "GB-CFS-58900",
+        "buyer_name": "Cornwall Council",
+        "contracts": 1,
+        "value_gbp": 3200000
+      },
+      {
+        "buyer_id": "GB-CFS-115409",
+        "buyer_name": "Derbyshire County Council",
+        "contracts": 1,
+        "value_gbp": 2000000
+      },
+      {
+        "buyer_id": "GB-CFS-270764",
+        "buyer_name": "United Lincolnshire NHS Trust",
+        "contracts": 1,
+        "value_gbp": 1600000
+      },
+      {
+        "buyer_id": "GB-CFS-275857",
+        "buyer_name": "Cambridgeshire and Peterborough NHS Foundation Trust",
+        "contracts": 1,
+        "value_gbp": 157292.5
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "64000000",
+        "label": "Postal and telecommunications services",
+        "contracts": 2,
+        "value_gbp": 3770476046.0
+      },
+      {
+        "code": "64120000",
+        "label": "Courier services",
+        "contracts": 3,
+        "value_gbp": 13490625.833333334
+      },
+      {
+        "code": "64110000",
+        "label": "Postal services",
+        "contracts": 3,
+        "value_gbp": 6800000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-f477998c-e57a-4ffb-a101-b8e2594213f0",
+        "date": "2024-08-07T00:00:00+01:00",
+        "buyer": "United Lincolnshire NHS Trust",
+        "title": "Downstream Access Postal / Mail Services",
+        "value_gbp": 1600000,
+        "procurement_method": "selective",
+        "cpv_code": "64110000",
+        "cpv_label": "Postal services",
+        "contract_start": "2024-08-12T00:00:00+01:00",
+        "contract_end": "2026-08-11T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7648008c-4d8c-4f66-aa8f-c4f04e15a922",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-64ebd724-f730-4757-9e85-adf4e69c7958",
+        "date": "2024-01-26T00:00:00Z",
+        "buyer": "Cambridgeshire and Peterborough NHS Foundation Trust",
+        "title": "Logistics Support Courier Services (SBS23-086)",
+        "value_gbp": 157292.5,
+        "procurement_method": "selective",
+        "cpv_code": "64120000",
+        "cpv_label": "Courier services",
+        "contract_start": "2024-01-26T00:00:00Z",
+        "contract_end": "2025-01-25T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ff5b44f1-da33-4882-b58a-e0df0427af62",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7a1ad4f9-b3f6-4c45-ba33-7bdae0045fa5",
+        "date": "2023-08-17T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Outbound Mail Services",
+        "value_gbp": 37331446.0,
+        "procurement_method": "selective",
+        "cpv_code": "64000000",
+        "cpv_label": "Postal and telecommunications services",
+        "contract_start": "2023-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fe3a9a8e-54f0-4e40-b44c-6aeb819ecf57",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7a1ad4f9-b3f6-4c45-ba33-7bdae0045fa5",
+        "date": "2023-08-17T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Outbound Mail Services",
+        "value_gbp": 3733144600.0,
+        "procurement_method": "selective",
+        "cpv_code": "64000000",
+        "cpv_label": "Postal and telecommunications services",
+        "contract_start": "2023-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fe3a9a8e-54f0-4e40-b44c-6aeb819ecf57",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-81868cbe-0c4f-42ef-bb6f-7fbfc4c1150b",
+        "date": "2022-12-06T00:00:00Z",
+        "buyer": "Cornwall Council",
+        "title": "2nd Class Postal Services Solution",
+        "value_gbp": 3200000,
+        "procurement_method": "selective",
+        "cpv_code": "64110000",
+        "cpv_label": "Postal services",
+        "contract_start": "2023-02-01T00:00:00Z",
+        "contract_end": "2025-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5951251e-7d55-4e35-8e38-d9e01c7b942d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c321857f-4407-4d17-948a-82eb545afc44",
+        "date": "2021-02-01T00:00:00Z",
+        "buyer": "Derbyshire County Council",
+        "title": "CCP032 Postal Collection Services",
+        "value_gbp": 2000000,
+        "procurement_method": null,
+        "cpv_code": "64110000",
+        "cpv_label": "Postal services",
+        "contract_start": "2021-02-08T00:00:00Z",
+        "contract_end": "2025-02-07T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f3adc0aa-5224-450a-a2ab-a07475f78dd2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-484efe5a-3179-4e1d-9014-396189644250",
+        "date": "2017-05-15T00:00:00+01:00",
+        "buyer": "YPO",
+        "title": "YPO - 000700 Courier Services",
+        "value_gbp": 6666666.666666667,
+        "procurement_method": "selective",
+        "cpv_code": "64120000",
+        "cpv_label": "Courier services",
+        "contract_start": "2017-05-19T00:00:00+01:00",
+        "contract_end": "2020-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0fc0bb66-003a-41f3-b483-3cf019b79fa5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-484efe5a-3179-4e1d-9014-396189644250",
+        "date": "2017-05-15T00:00:00+01:00",
+        "buyer": "YPO",
+        "title": "YPO - 000700 Courier Services",
+        "value_gbp": 6666666.666666667,
+        "procurement_method": "selective",
+        "cpv_code": "64120000",
+        "cpv_label": "Courier services",
+        "contract_start": "2017-05-19T00:00:00+01:00",
+        "contract_end": "2020-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0fc0bb66-003a-41f3-b483-3cf019b79fa5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 49158240,
+      "awarded_2024_gbp_from_cf": 1757292.5,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 28.0× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.04
+    }
+  }
+}

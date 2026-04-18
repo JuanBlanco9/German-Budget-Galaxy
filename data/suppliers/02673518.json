@@ -1,0 +1,574 @@
+{
+  "company_number": "02673518",
+  "display_name": "Babington Business College Limited",
+  "identity": {
+    "ch_number": "02673518",
+    "official_name": "BABINGTON BUSINESS COLLEGE LIMITED",
+    "display_name": "Babington Business College Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1991-12-20",
+    "age_years": 34,
+    "registered_office": {
+      "address_line_1": "40 Berkeley Square",
+      "country": "United Kingdom",
+      "locality": "Bristol",
+      "postal_code": "BS8 1HP"
+    },
+    "sic_codes": [
+      "85410"
+    ],
+    "sic_labels": [
+      "SIC 85410"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02673518"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 16107296,
+    "rank": 635,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 15992161,
+        "segments": [
+          {
+            "segment": "Apprenticeships and Skills Bootcamps",
+            "amount_gbp": 15992161,
+            "pct_of_segment": 0.66,
+            "rank_in_segment": 19,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 115135,
+        "segments": [
+          {
+            "segment": "People & Change",
+            "amount_gbp": 115135,
+            "pct_of_segment": 1.35,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-08-29",
+    "period_end": "2026-01-31",
+    "accounts_type_code": "AA01",
+    "accounts_type_description": "change-account-reference-date-company-current-extended",
+    "transaction_id": "MzQ3OTE0MDkxMmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02673518_2025-08-29.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-10-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 24,
+    "board_turnover_ratio": 8.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "BOTHA, Mark David",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BRAMLEY, Jennifer Ellen",
+        "role": "director",
+        "appointed_on": "2023-05-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HILLS, David Richard",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BOTHA, Mark David",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "BRAMLEY, Jennifer Ellen",
+        "role": "director",
+        "appointed_on": "2023-05-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HILLS, David Richard",
+        "role": "director",
+        "appointed_on": "2025-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS8 1HP",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 24,
+      "recent": [
+        {
+          "name": "SMITH, Thomas Edward",
+          "role": "director",
+          "appointed_on": "2023-07-31",
+          "resigned_on": "2025-03-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1985
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BLACKBURN, Michael Aaron",
+          "role": "director",
+          "appointed_on": "2024-02-08",
+          "resigned_on": "2024-06-10",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BASHAM, Mark Rutherford",
+          "role": "director",
+          "appointed_on": "2023-07-18",
+          "resigned_on": "2024-02-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MARSH, David",
+          "role": "director",
+          "appointed_on": "2018-11-14",
+          "resigned_on": "2023-05-16",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1980
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FANTHAM, Adrian Russell",
+          "role": "director",
+          "appointed_on": "2015-08-07",
+          "resigned_on": "2023-03-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2AA",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-12-20",
+        "ceased_on": "2022-12-09"
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02673518",
+          "name": "Babington Business Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-12-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02673518",
+            "notified_on": "2022-12-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02673518/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07077954",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "07077954",
+          "name": "Knovia Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2025-04-16",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07077954",
+            "notified_on": "2025-04-16",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07077954/persons-with-significant-control/corporate-entity/_eCwe0f4cqw-hO_M3SOrVLk72bA"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14010668",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "14010668",
+          "name": "Knovia Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-03-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14010668",
+            "notified_on": "2022-03-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14010668/persons-with-significant-control/corporate-entity/cCxWY90DFXz777ezef4LrIXxwrU"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14010272",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "14010272",
+          "name": "Knovia Midco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-03-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14010272",
+            "notified_on": "2022-03-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14010272/persons-with-significant-control/corporate-entity/0pAJKiAX9u-q3dVCu-vwtXk85Sc"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14010138",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "14010138",
+          "name": "Knovia Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2022-03-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14010138",
+            "notified_on": "2022-03-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14010138/persons-with-significant-control/corporate-entity/sEb_C4wBFnz-LFkLJ42kbRtHeLw"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14009940",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "14009940",
+          "name": "Transformative Training & Education Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2026-03-19",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14009940",
+            "notified_on": "2026-03-19",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14009940/persons-with-significant-control/corporate-entity/Wh_LvtB-IsMePYMtPiIIisYclro"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "16907743",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "16907743",
+          "name": "Transformative Training & Education Midco 2 Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16907743",
+            "notified_on": "2025-12-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16907743/persons-with-significant-control/corporate-entity/02ih88GXQnTaHC4JqjZ2MWxE5_U"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "16907335",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 8,
+          "from_company": "16907335",
+          "name": "Transformative Training & Education Midco Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16907335",
+            "notified_on": "2025-12-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16907335/persons-with-significant-control/corporate-entity/dNaqyRo48r5ESNUX2ZDc3c-wmgs"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "16907155",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 9,
+          "from_company": "16907155",
+          "name": "Transformative Training & Education Holdco Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-12-12",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16907155",
+            "notified_on": "2025-12-12",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16907155/persons-with-significant-control/corporate-entity/oZMNf5m4M-vob2oymRoYPXC_m7k"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "16906909",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02673518"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3OTE0MDkxMmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02673518_2025-08-29.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02673518/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02673518/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 635,
+    "enriched_at": "2026-04-16T20:30:09Z",
+    "governance_enriched_at": "2026-04-16T22:34:21Z",
+    "ubo_enriched_at": "2026-04-16T23:20:31Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "company_number": "02099533",
+  "display_name": "Kier Construction Eastern",
+  "identity": {
+    "ch_number": "02099533",
+    "official_name": "KIER CONSTRUCTION LIMITED",
+    "display_name": "Kier Construction Eastern",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1987-02-12",
+    "age_years": 39,
+    "registered_office": {
+      "address_line_1": "2nd Floor",
+      "address_line_2": "Optimum House, Clippers Quay",
+      "country": "England",
+      "locality": "Salford",
+      "postal_code": "M50 3XP"
+    },
+    "sic_codes": [
+      "41201",
+      "42130",
+      "42990"
+    ],
+    "sic_labels": [
+      "Construction of commercial buildings",
+      "Construction of bridges and tunnels",
+      "SIC 42990"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02099533"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 75135956,
+    "rank": 297,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 75135956,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 55976916,
+            "pct_of_segment": 1.38,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Capital Directorate",
+            "amount_gbp": 19159040,
+            "pct_of_segment": 1.02,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-27",
+    "period_end": "2025-06-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5NTYyNjM3OGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02099533_2025-12-27.pdf",
+      "size_mb": 1.97,
+      "exists": true
+    },
+    "next_accounts_due": "2027-03-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 39,
+    "board_turnover_ratio": 13.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "MENDONCA, Basil Christopher",
+        "role": "director",
+        "appointed_on": "2021-08-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Salford",
+          "postal_code": "M50 3XP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "OXLEY, Lisa",
+        "role": "director",
+        "appointed_on": "2023-10-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Salford",
+          "postal_code": "M50 3XP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "STAEHR, Martin",
+        "role": "director",
+        "appointed_on": "2026-01-26",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1985
+        },
+        "address": {
+          "locality": "Salford",
+          "postal_code": "M50 3XP",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "MENDONCA, Basil Christopher",
+        "role": "director",
+        "appointed_on": "2021-08-12",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Salford",
+          "postal_code": "M50 3XP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "OXLEY, Lisa",
+        "role": "director",
+        "appointed_on": "2023-10-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Salford",
+          "postal_code": "M50 3XP",
+          "country": "England"
+        }
+      },
+      {
+        "name": "STAEHR, Martin",
+        "role": "director",
+        "appointed_on": "2026-01-26",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1985
+        },
+        "address": {
+          "locality": "Salford",
+          "postal_code": "M50 3XP",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 39,
+      "recent": [
+        {
+          "name": "THAM, Jaime Foong Yi",
+          "role": "secretary",
+          "appointed_on": "2021-09-24",
+          "resigned_on": "2026-02-17",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Salford",
+            "postal_code": "M50 3XP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ASKEW, James Terence Aldis",
+          "role": "director",
+          "appointed_on": "2025-11-01",
+          "resigned_on": "2026-01-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Salford",
+            "postal_code": "M50 3XP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "TOGWELL, Stuart John",
+          "role": "director",
+          "appointed_on": "2023-01-01",
+          "resigned_on": "2025-11-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1968
+          },
+          "address": {
+            "locality": "Salford",
+            "postal_code": "M50 3XP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GARVIE, Graham Charles",
+          "role": "director",
+          "appointed_on": "2018-08-09",
+          "resigned_on": "2023-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1960
+          },
+          "address": {
+            "locality": "Salford",
+            "postal_code": "M50 3XP",
+            "country": "England"
+          }
+        },
+        {
+          "name": "JONES, Marcus Faughey",
+          "role": "director",
+          "appointed_on": "2016-01-26",
+          "resigned_on": "2023-09-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 11,
+            "year": 1970
+          },
+          "address": {
+            "locality": "Salford",
+            "postal_code": "M50 3XP",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02099533",
+          "name": "Kier Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02099533",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02099533/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "01611136",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "01611136",
+          "name": "Kier Group Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01611136",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01611136/persons-with-significant-control/corporate-entity/Wc-PM5IyH_BWloyHHVWrO6HPkac"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "02708030",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 75,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02099533"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTYyNjM3OGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02099533_2025-12-27.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02099533/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02099533/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 297,
+    "enriched_at": "2026-04-16T20:01:01Z",
+    "governance_enriched_at": "2026-04-16T22:18:42Z",
+    "ubo_enriched_at": "2026-04-16T23:01:13Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

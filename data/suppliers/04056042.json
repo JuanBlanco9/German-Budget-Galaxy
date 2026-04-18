@@ -1,0 +1,441 @@
+{
+  "company_number": "04056042",
+  "display_name": "DHL GLOBAL FORWARDING UK LTD",
+  "identity": {
+    "ch_number": "04056042",
+    "official_name": "DHL GLOBAL FORWARDING (UK) LIMITED",
+    "display_name": "DHL GLOBAL FORWARDING UK LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2000-08-15",
+    "age_years": 25,
+    "registered_office": {
+      "address_line_1": "2 Pine Trees, First Floor",
+      "address_line_2": "Chertsey Lane",
+      "country": "England",
+      "locality": "Staines-Upon-Thames",
+      "postal_code": "TW18 3HR"
+    },
+    "sic_codes": [
+      "52290"
+    ],
+    "sic_labels": [
+      "SIC 52290"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04056042"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 12588790,
+    "rank": 697,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 12588790,
+        "segments": [
+          {
+            "segment": "UKVIP - Visas Information & Passports",
+            "amount_gbp": 12588790,
+            "pct_of_segment": 5.01,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-17",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4MTEzNTUzNGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04056042_2025-09-17.pdf",
+      "size_mb": 2.33,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 18,
+    "board_turnover_ratio": 6.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "LYON, Paul David",
+        "role": "director",
+        "appointed_on": "2025-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MEIER, Coelestin Ignaz",
+        "role": "director",
+        "appointed_on": "2023-07-01",
+        "resigned_on": null,
+        "nationality": "Swiss",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SCHILLING, Thorsten",
+        "role": "director",
+        "appointed_on": "2022-08-01",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "LYON, Paul David",
+        "role": "director",
+        "appointed_on": "2025-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MEIER, Coelestin Ignaz",
+        "role": "director",
+        "appointed_on": "2023-07-01",
+        "resigned_on": null,
+        "nationality": "Swiss",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SCHILLING, Thorsten",
+        "role": "director",
+        "appointed_on": "2022-08-01",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 18,
+      "recent": [
+        {
+          "name": "YOUNG, Michael Paul",
+          "role": "director",
+          "appointed_on": "2017-03-17",
+          "resigned_on": "2025-08-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Staines-Upon-Thames",
+            "postal_code": "TW18 3HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FOLEY, Ryan Peter",
+          "role": "director",
+          "appointed_on": "2024-10-01",
+          "resigned_on": "2025-07-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1980
+          },
+          "address": {
+            "locality": "Staines-Upon-Thames",
+            "postal_code": "TW18 3HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GAGNA, Miriam Marcela",
+          "role": "director",
+          "appointed_on": "2019-04-08",
+          "resigned_on": "2023-07-01",
+          "nationality": "Italian",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Chertsey",
+            "postal_code": "KT16 8SH",
+            "country": "England"
+          }
+        },
+        {
+          "name": "VAN OERLE, Remco Pieter",
+          "role": "director",
+          "appointed_on": "2014-05-21",
+          "resigned_on": "2022-06-30",
+          "nationality": "Dutch",
+          "occupation": null,
+          "country_of_residence": "Switzerland",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Chertsey",
+            "postal_code": "KT16 8SH",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CAMERON, Vari Isabel",
+          "role": "director",
+          "appointed_on": "2000-08-15",
+          "resigned_on": "2019-04-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1961
+          },
+          "address": {
+            "locality": "Chertsey",
+            "postal_code": "KT16 8SH",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "04056042",
+          "name": "Dhl Global Forwarding International Holdings B.V.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2024-11-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04056042",
+            "notified_on": "2024-11-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04056042/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "Germany",
+          "parent_registration_number": "95113185",
+          "wikidata": {
+            "qid": "Q514108",
+            "label": "DHL Global Forwarding",
+            "description": "company of the DHL Group, Part of Deutsche Post AG",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q514108",
+            "parent_chain": [
+              {
+                "qid": "Q514108",
+                "label": "DHL Global Forwarding",
+                "description": "company of the DHL Group, Part of Deutsche Post AG",
+                "country_labels": [
+                  "Germany"
+                ],
+                "revision_id": 2160739075,
+                "source_url": "https://www.wikidata.org/wiki/Q514108"
+              },
+              {
+                "qid": "Q157645",
+                "label": "Deutsche Post AG",
+                "description": "German logistics company",
+                "country_labels": [
+                  "Germany"
+                ],
+                "revision_id": 2474171766,
+                "source_url": "https://www.wikidata.org/wiki/Q157645"
+              },
+              {
+                "qid": "Q658270",
+                "label": "KfW",
+                "description": "German state-owned investment and development bank",
+                "country_labels": [
+                  "Germany"
+                ],
+                "revision_id": 2474170516,
+                "source_url": "https://www.wikidata.org/wiki/Q658270"
+              },
+              {
+                "qid": "Q1201",
+                "label": "Saarland",
+                "description": "state of the Federal Republic of Germany",
+                "country_labels": [
+                  "Germany",
+                  "West Germany"
+                ],
+                "revision_id": 2481555225,
+                "source_url": "https://www.wikidata.org/wiki/Q1201"
+              }
+            ],
+            "ultimate_label": "Saarland",
+            "ultimate_country": "Germany",
+            "queries_used": [
+              "Dhl Global Forwarding International Holdings B.V.",
+              "Dhl Global Forwarding"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Germany"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04056042"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MTEzNTUzNGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04056042_2025-09-17.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04056042/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04056042/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q514108"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 697,
+    "enriched_at": "2026-04-16T20:36:01Z",
+    "governance_enriched_at": "2026-04-16T22:37:25Z",
+    "ubo_enriched_at": "2026-04-16T23:23:46Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

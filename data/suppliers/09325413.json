@@ -1,0 +1,226 @@
+{
+  "company_number": "09325413",
+  "display_name": "Historic England (GIA)",
+  "identity": {
+    "ch_number": "09325413",
+    "official_name": "HISTORIC ENGLAND LIMITED",
+    "display_name": "Historic England (GIA)",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2014-11-24",
+    "age_years": 11,
+    "registered_office": {
+      "address_line_1": "The Engine House",
+      "address_line_2": "Fire Fly Avenue",
+      "country": "England",
+      "locality": "Swindon",
+      "postal_code": "SN2 2EH",
+      "region": "Wiltshire"
+    },
+    "sic_codes": [
+      "84120"
+    ],
+    "sic_labels": [
+      "SIC 84120"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/09325413"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 88474000,
+    "rank": 268,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_culture_media_and_sport",
+        "dept_name": "DCMS",
+        "amount_gbp": 88474000,
+        "segments": [
+          {
+            "segment": "National Museums & Heritage",
+            "amount_gbp": 88474000,
+            "pct_of_segment": 14.05,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-30",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzQ3NTY4OTcyMWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/09325413_2025-07-30.pdf",
+      "size_mb": 0.02,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "WISEMAN, Andrew David",
+        "role": "director",
+        "appointed_on": "2018-07-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4R 2YA",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "WISEMAN, Andrew David",
+        "role": "director",
+        "appointed_on": "2018-07-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4R 2YA",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "HARLOW, Michael Graham",
+          "role": "director",
+          "appointed_on": "2014-11-24",
+          "resigned_on": "2017-12-15",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1969
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1N 2ST",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-11-24",
+        "ceased_on": null
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "09325413",
+          "terminal": true,
+          "resolution": "no_psc_identified",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ]
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 83,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09325413"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NTY4OTcyMWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/09325413_2025-07-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09325413/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09325413/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 268,
+    "enriched_at": "2026-04-16T19:58:44Z",
+    "governance_enriched_at": "2026-04-16T22:17:36Z",
+    "ubo_enriched_at": "2026-04-16T23:00:13Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

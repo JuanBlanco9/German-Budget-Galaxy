@@ -1,0 +1,780 @@
+{
+  "company_number": "06033060",
+  "display_name": "NSL Ltd",
+  "identity": {
+    "ch_number": "06033060",
+    "official_name": "NSL LIMITED",
+    "display_name": "NSL Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2006-12-19",
+    "age_years": 19,
+    "registered_office": {
+      "address_line_1": "Rutland House 8th Floor",
+      "address_line_2": "148 Edmund Street",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B3 2JR"
+    },
+    "sic_codes": [
+      "84110"
+    ],
+    "sic_labels": [
+      "General public administration activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06033060"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 27794561,
+    "rank": 521,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 27794561,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 27794561,
+            "pct_of_segment": 10.12,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-02-02",
+    "period_end": "2025-05-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUwMjQ4MjU2OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/06033060_2026-02-02.pdf",
+      "size_mb": 2.27,
+      "exists": true
+    },
+    "next_accounts_due": "2027-02-28",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 9,
+    "officers_resigned_count": 37,
+    "board_turnover_ratio": 4.11,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "ASTLEY BIRTWISTLE, Edward",
+        "role": "director",
+        "appointed_on": "2024-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1986
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3N 2LS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "COWAN, Emma",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DEL MAR, Sam",
+        "role": "director",
+        "appointed_on": "2024-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FLEMING, Martin",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HANSHAW, Keith",
+        "role": "director",
+        "appointed_on": "2023-09-15",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "JOHNSON, Martin",
+        "role": "director",
+        "appointed_on": "2023-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LAMBERT, Marcus Edward",
+        "role": "director",
+        "appointed_on": "2024-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3N 2LS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MOORE, Fraser",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "SQUIRE PATTON BOGGS SECRETARIAL SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2017-04-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "SQUIRE PATTON BOGGS SECRETARIAL SERVICES LIMITED",
+        "role": "corporate-secretary",
+        "appointed_on": "2017-04-01",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ASTLEY BIRTWISTLE, Edward",
+        "role": "director",
+        "appointed_on": "2024-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1986
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3N 2LS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "COWAN, Emma",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1983
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DEL MAR, Sam",
+        "role": "director",
+        "appointed_on": "2024-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FLEMING, Martin",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HANSHAW, Keith",
+        "role": "director",
+        "appointed_on": "2023-09-15",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1968
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "JOHNSON, Martin",
+        "role": "director",
+        "appointed_on": "2023-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LAMBERT, Marcus Edward",
+        "role": "director",
+        "appointed_on": "2024-07-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1972
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3N 2LS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MOORE, Fraser",
+        "role": "director",
+        "appointed_on": "2025-02-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B3 2JR",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 37,
+      "recent": [
+        {
+          "name": "SINCLAIR, David James",
+          "role": "director",
+          "appointed_on": "2024-07-02",
+          "resigned_on": "2025-12-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1978
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC3N 2LS",
+            "country": "England"
+          }
+        },
+        {
+          "name": "THOMPSON, James",
+          "role": "director",
+          "appointed_on": "2024-07-02",
+          "resigned_on": "2025-04-15",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1967
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC3N 2LS",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WILCOCKSON, Craig Lee",
+          "role": "director",
+          "appointed_on": "2024-07-02",
+          "resigned_on": "2024-10-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1978
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC3N 2LS",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "CORCORAN, Michael John",
+          "role": "director",
+          "appointed_on": "2022-04-06",
+          "resigned_on": "2023-09-15",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1959
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2JR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CALLAGHAN, Stephen James",
+          "role": "director",
+          "appointed_on": "2022-07-15",
+          "resigned_on": "2023-08-04",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1960
+          },
+          "address": {
+            "locality": "Birmingham",
+            "postal_code": "B3 2JR",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "06033060",
+          "name": "Marston (Holdings) Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2017-02-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "06033060",
+            "notified_on": "2017-02-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/06033060/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "04305487",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "04305487",
+          "name": "Magenta Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2016-07-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04305487",
+            "notified_on": "2016-07-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04305487/persons-with-significant-control/corporate-entity/TGcY82QggLr9EuDMECCAZ22Ev6M"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09840182",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "09840182",
+          "name": "Magenta Interco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09840182",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09840182/persons-with-significant-control/corporate-entity/AX87gQheHAsiv-s-npHHQubb8TA"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09840174",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "09840174",
+          "name": "Magenta Pikco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09840174",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09840174/persons-with-significant-control/corporate-entity/ETABC71-gRzQsDXokk4PIJgHCfM"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09840209",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "09840209",
+          "name": "Marston Corporate Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09840209",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09840209/persons-with-significant-control/corporate-entity/NeNZdg7CDoZ_uUHw5REHm8tmC6I"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09840186",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 6,
+          "from_company": "09840186",
+          "name": "Free Flow Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2020-03-23",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09840186",
+            "notified_on": "2020-03-23",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09840186/persons-with-significant-control/corporate-entity/mllDOdxx8V-ka4cE-2M1BfEVTmU"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "12155357",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 7,
+          "from_company": "12155357",
+          "name": "Free Flow Parentco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-10-10",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12155357",
+            "notified_on": "2019-10-10",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12155357/persons-with-significant-control/corporate-entity/2JOAltTSF4ZESpkdv8Oe9G7nGQs"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "12155395",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 8,
+          "from_company": "12155395",
+          "name": "Free Flow Pikco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-10-10",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12155395",
+            "notified_on": "2019-10-10",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12155395/persons-with-significant-control/corporate-entity/HhZSAZMTPfLj1z3WZ31mAUb-U-I"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "12155409",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 9,
+          "from_company": "12155409",
+          "name": "Free Flow Interco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-10-10",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12155409",
+            "notified_on": "2019-10-10",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12155409/persons-with-significant-control/corporate-entity/XzqqcLd79T70fAPX234xhJSmsvU"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "12187604",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 10,
+          "from_company": "12187604",
+          "name": "Free Flow Topco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-10-10",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12187604",
+            "notified_on": "2019-10-10",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12187604/persons-with-significant-control/corporate-entity/oLYUIHjGGR3QfTWhEv8J3iLr9PI"
+          },
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "parent_company_number": "12187599",
+          "original_resolution": "max_depth_reached",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/06033060"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwMjQ4MjU2OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/06033060_2026-02-02.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06033060/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/06033060/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 521,
+    "enriched_at": "2026-04-16T20:19:21Z",
+    "governance_enriched_at": "2026-04-16T22:28:12Z",
+    "ubo_enriched_at": "2026-04-16T23:15:17Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

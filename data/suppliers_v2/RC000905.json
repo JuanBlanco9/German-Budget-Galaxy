@@ -1,0 +1,258 @@
+{
+  "company_number": "RC000905",
+  "display_name": "Academy Of Medical Sciences",
+  "identity": {
+    "ch_number": "RC000905",
+    "official_name": "ACADEMY OF MEDICAL SCIENCES",
+    "display_name": "Academy Of Medical Sciences",
+    "status": null,
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000905"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 17129441,
+    "rank": 610,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_science_innovation_and_technology",
+        "dept_name": "DSIT",
+        "amount_gbp": 17129441,
+        "segments": [
+          {
+            "segment": "Dsit - Science, Innovation And Growth - Dsit - International Research And Innovation Directorate",
+            "amount_gbp": 17129441,
+            "pct_of_segment": 0.55,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000905",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 78,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000905"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000905/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000905/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 610,
+    "enriched_at": "2026-04-16T20:27:23Z",
+    "governance_enriched_at": "2026-04-16T22:32:28Z",
+    "ubo_enriched_at": "2026-04-16T23:19:27Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:10Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2021
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 1,
+      "total_awarded_gbp": 1547716,
+      "total_awarded_non_framework_gbp": 1547716,
+      "years_active": 1,
+      "first_year": 2021,
+      "last_year": 2021,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "Jisc",
+        "years_count": 1,
+        "years_list": [
+          2021
+        ],
+        "total_value_gbp": 1547716,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 1547716,
+        "awarded_gbp_non_framework": 1547716,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Jisc",
+          "contracts": 1,
+          "value_gbp": 1547716
+        },
+        "procurement_method_counts": {
+          "limited": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2021": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 1547716.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": true,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "limited": 1547716.0
+      },
+      "sole_source_pct_all_years": 100.0,
+      "competitive_pct_all_years": 0.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-163480",
+        "buyer_name": "Jisc",
+        "contracts": 1,
+        "value_gbp": 1547716
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 1,
+        "value_gbp": 1547716
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-104e88ad-10db-46e1-8fe8-e35f2ed6be49",
+        "date": "2021-07-06T00:00:00+01:00",
+        "buyer": "Jisc",
+        "title": "Jisc PNAS Publish and Read Agreement",
+        "value_gbp": 1547716,
+        "procurement_method": "limited",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-07-05T00:00:00+01:00",
+        "contract_end": "2023-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/66f342e4-c526-4cfb-8aec-305b23d90174",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 17129441,
+      "awarded_2024_gbp_from_cf": 1547716,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 11.1× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.09
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "company_number": "BR019315",
+  "display_name": "Amazon Web Services UK",
+  "identity": {
+    "ch_number": "BR019315",
+    "official_name": "AMAZON WEB SERVICES EMEA SARL, UK BRANCH",
+    "display_name": "Amazon Web Services UK",
+    "status": "open",
+    "type": "uk-establishment",
+    "jurisdiction": null,
+    "incorporated": "2017-04-07",
+    "age_years": 9,
+    "registered_office": {
+      "address_line_1": "1 Principal Place",
+      "locality": "London",
+      "postal_code": "EC2A 2FA",
+      "region": "Worship Street"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/BR019315"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 82063809,
+    "rank": 281,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 82063809,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 72175987,
+            "pct_of_segment": 9.11,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Programme and Operational Delivery",
+            "amount_gbp": 201943,
+            "pct_of_segment": 0.1,
+            "rank_in_segment": 17,
+            "type": "Contractor"
+          },
+          {
+            "segment": "B&T Border Change Delivery",
+            "amount_gbp": 975241,
+            "pct_of_segment": 0.6,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 8471175,
+            "pct_of_segment": 8.1,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "HMRC Security",
+            "amount_gbp": 213998,
+            "pct_of_segment": 3.23,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Border Delivery Group",
+            "amount_gbp": 25465,
+            "pct_of_segment": 100,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "BR019315",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/BR019315"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR019315/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR019315/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 281,
+    "enriched_at": "2026-04-16T19:59:47Z",
+    "governance_enriched_at": "2026-04-16T22:18:02Z",
+    "ubo_enriched_at": "2026-04-16T23:00:39Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

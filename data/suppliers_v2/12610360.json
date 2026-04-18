@@ -1,0 +1,290 @@
+{
+  "company_number": "12610360",
+  "display_name": "Not Available",
+  "identity": {
+    "ch_number": "12610360",
+    "official_name": "NOT AVAILABLE LTD",
+    "display_name": "Not Available",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2020-05-19",
+    "age_years": 5,
+    "registered_office": {
+      "address_line_1": "103 Cheesemana Terracw Cheesemans Terrace",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W14 9XQ"
+    },
+    "sic_codes": [
+      "10410",
+      "47710",
+      "47890"
+    ],
+    "sic_labels": [
+      "SIC 10410",
+      "SIC 47710",
+      "SIC 47890"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12610360"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 20121820,
+    "rank": 583,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 20121820,
+        "segments": [
+          {
+            "segment": "GPH",
+            "amount_gbp": 16958620,
+            "pct_of_segment": 39.26,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "CSA",
+            "amount_gbp": 2666097,
+            "pct_of_segment": 9.58,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          },
+          {
+            "segment": "SCI",
+            "amount_gbp": 497103,
+            "pct_of_segment": 36.16,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-19",
+    "period_end": "2025-05-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-micro-entity",
+    "transaction_id": "MzUxMTQ5MjAzNmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/12610360_2026-03-19.pdf",
+      "size_mb": 0.03,
+      "exists": true
+    },
+    "next_accounts_due": "2027-02-28",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "NUSEIBEH, Nadia",
+        "role": "director",
+        "appointed_on": "2020-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1995
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W8 6TJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ROCK, Andrew",
+        "role": "director",
+        "appointed_on": "2020-05-19",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1996
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW6 3TN",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "NUSEIBEH, Nadia",
+        "role": "director",
+        "appointed_on": "2020-06-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1995
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "W8 6TJ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ROCK, Andrew",
+        "role": "director",
+        "appointed_on": "2020-05-19",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1996
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW6 3TN",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 2,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 2,
+    "chains_count": 2,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "12610360",
+          "name": "Miss Nadia Nuseibeh",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent",
+            "right-to-appoint-and-remove-directors",
+            "right-to-appoint-and-remove-directors-as-trust",
+            "right-to-appoint-and-remove-directors-as-firm"
+          ],
+          "notified_on": "2020-05-20",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12610360",
+            "notified_on": "2020-05-20",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12610360/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ],
+      [
+        {
+          "step": 1,
+          "from_company": "12610360",
+          "name": "Andrew Rock",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent"
+          ],
+          "notified_on": "2020-05-19",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "12610360",
+            "notified_on": "2020-05-19",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/12610360/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Andrew Rock",
+        "Miss Nadia Nuseibeh"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/12610360"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxMTQ5MjAzNmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/12610360_2026-03-19.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12610360/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/12610360/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 583,
+    "enriched_at": "2026-04-16T20:24:35Z",
+    "governance_enriched_at": "2026-04-16T22:31:01Z",
+    "ubo_enriched_at": "2026-04-16T23:17:41Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

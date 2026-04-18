@@ -1,0 +1,651 @@
+{
+  "company_number": "02174990",
+  "display_name": "SOFTCAT LIMITED",
+  "identity": {
+    "ch_number": "02174990",
+    "official_name": "SOFTCAT PLC",
+    "display_name": "SOFTCAT LIMITED",
+    "status": "active",
+    "type": "plc",
+    "jurisdiction": "england-wales",
+    "incorporated": "1987-10-07",
+    "age_years": 38,
+    "registered_office": {
+      "address_line_1": "Solar House",
+      "address_line_2": "Fieldhouse Lane",
+      "country": "United Kingdom",
+      "locality": "Marlow",
+      "postal_code": "SL7 1LW",
+      "region": "Buckinghamshire"
+    },
+    "sic_codes": [
+      "62090"
+    ],
+    "sic_labels": [
+      "Other information technology service activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02174990"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 126309966,
+    "rank": 213,
+    "category": "commercial",
+    "n_departments": 7,
+    "by_department": [
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 83871307,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 83843854,
+            "pct_of_segment": 12.92,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Child & Family Benefits",
+            "amount_gbp": 27453,
+            "pct_of_segment": 0.14,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 23470856,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 20611284,
+            "pct_of_segment": 2.6,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 1462891,
+            "pct_of_segment": 1.4,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          },
+          {
+            "segment": "CDIO Transformation Programmes",
+            "amount_gbp": 997130,
+            "pct_of_segment": 2.63,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "HMRC Security",
+            "amount_gbp": 399551,
+            "pct_of_segment": 6.04,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 8483273,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 4033422,
+            "pct_of_segment": 1.43,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Prisons & Probation",
+            "amount_gbp": 4449851,
+            "pct_of_segment": 3.99,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 8380187,
+        "segments": [
+          {
+            "segment": "Driver & Vehicle Licensing Agency",
+            "amount_gbp": 4670262,
+            "pct_of_segment": 1.7,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          },
+          {
+            "segment": "DVSA",
+            "amount_gbp": 3709925,
+            "pct_of_segment": 1.82,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "cabinet_office",
+        "dept_name": "Cabinet Office",
+        "amount_gbp": 1660288,
+        "segments": [
+          {
+            "segment": "Crown Commercial Service",
+            "amount_gbp": 1660288,
+            "pct_of_segment": 0.96,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_treasury",
+        "dept_name": "HM Treasury",
+        "amount_gbp": 393058,
+        "segments": [
+          {
+            "segment": "Finance Analytics & Control & Technology",
+            "amount_gbp": 393058,
+            "pct_of_segment": 54.48,
+            "rank_in_segment": 1,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_environment_food_and_rural_affairs",
+        "dept_name": "Defra",
+        "amount_gbp": 50997,
+        "segments": [
+          {
+            "segment": "VMD",
+            "amount_gbp": 50997,
+            "pct_of_segment": 0.53,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-01-06",
+    "period_end": "2025-07-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ5NzgwMTc4OWFkaXF6a2N4",
+    "pdf": null,
+    "next_accounts_due": "2027-01-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 8,
+    "officers_resigned_count": 26,
+    "board_turnover_ratio": 3.25,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "CHARLTON, Graham",
+        "role": "director",
+        "appointed_on": "2015-03-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FERGUSON, Jacqueline Patricia Christine",
+        "role": "director",
+        "appointed_on": "2024-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MECKLENBURGH, Kathryn Isabel, Dr",
+        "role": "director",
+        "appointed_on": "2023-06-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PERRISS, Robyn",
+        "role": "director",
+        "appointed_on": "2019-07-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PRAKASH, Mayank",
+        "role": "director",
+        "appointed_on": "2023-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WATT, Graeme Alistair",
+        "role": "director",
+        "appointed_on": "2018-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WEEDALL, Lynne Marie",
+        "role": "director",
+        "appointed_on": "2022-05-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "THOMAS, Luke",
+        "role": "secretary",
+        "appointed_on": "2019-01-14",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "THOMAS, Luke",
+        "role": "secretary",
+        "appointed_on": "2019-01-14",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "CHARLTON, Graham",
+        "role": "director",
+        "appointed_on": "2015-03-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FERGUSON, Jacqueline Patricia Christine",
+        "role": "director",
+        "appointed_on": "2024-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "MECKLENBURGH, Kathryn Isabel, Dr",
+        "role": "director",
+        "appointed_on": "2023-06-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PERRISS, Robyn",
+        "role": "director",
+        "appointed_on": "2019-07-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PRAKASH, Mayank",
+        "role": "director",
+        "appointed_on": "2023-09-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1973
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WATT, Graeme Alistair",
+        "role": "director",
+        "appointed_on": "2018-04-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1961
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WEEDALL, Lynne Marie",
+        "role": "director",
+        "appointed_on": "2022-05-03",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Marlow",
+          "postal_code": "SL7 1LW",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 26,
+      "recent": [
+        {
+          "name": "MURRIA, Vinodka",
+          "role": "director",
+          "appointed_on": "2015-11-03",
+          "resigned_on": "2024-12-09",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1962
+          },
+          "address": {
+            "locality": "Marlow",
+            "postal_code": "SL7 1LW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "HELLAWELL, Martin John",
+          "role": "director",
+          "appointed_on": "2006-03-24",
+          "resigned_on": "2023-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1965
+          },
+          "address": {
+            "locality": "Marlow",
+            "postal_code": "SL7 1LW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "SLATFORD, Karen",
+          "role": "director",
+          "appointed_on": "2019-12-05",
+          "resigned_on": "2023-01-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1956
+          },
+          "address": {
+            "locality": "Marlow",
+            "postal_code": "SL7 1LW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "VENTRESS, Peter John",
+          "role": "director",
+          "appointed_on": "2015-10-01",
+          "resigned_on": "2019-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1960
+          },
+          "address": {
+            "locality": "Marlow",
+            "postal_code": "SL7 1LW",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "GINSBERG, Lee Dale",
+          "role": "director",
+          "appointed_on": "2015-09-16",
+          "resigned_on": "2019-06-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1957
+          },
+          "address": {
+            "locality": "Marlow",
+            "postal_code": "SL7 1LW",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "02174990",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02174990"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02174990/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02174990/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 213,
+    "enriched_at": "2026-04-16T19:30:54Z",
+    "governance_enriched_at": "2026-04-16T22:15:16Z",
+    "ubo_enriched_at": "2026-04-16T22:55:30Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

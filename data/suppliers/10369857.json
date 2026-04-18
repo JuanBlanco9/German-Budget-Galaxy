@@ -1,0 +1,402 @@
+{
+  "company_number": "10369857",
+  "display_name": "Corndel Limited",
+  "identity": {
+    "ch_number": "10369857",
+    "official_name": "CORNDEL LIMITED",
+    "display_name": "Corndel Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2016-09-11",
+    "age_years": 9,
+    "registered_office": {
+      "address_line_1": "Fifth Floor",
+      "address_line_2": "80 Old Street",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1V 9AZ"
+    },
+    "sic_codes": [
+      "85320",
+      "85600"
+    ],
+    "sic_labels": [
+      "Technical and vocational secondary education",
+      "SIC 85600"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/10369857"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 48173563,
+    "rank": 390,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 48173563,
+        "segments": [
+          {
+            "segment": "Apprenticeships and Skills Bootcamps",
+            "amount_gbp": 48173563,
+            "pct_of_segment": 1.98,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-04-10",
+    "period_end": "2025-06-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUxNDA1NDI0MWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/10369857_2026-04-10.pdf",
+      "size_mb": 1.47,
+      "exists": true
+    },
+    "next_accounts_due": "2027-03-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 11,
+    "board_turnover_ratio": 3.67,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "COSGROVE, Sean",
+        "role": "director",
+        "appointed_on": "2023-03-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1988
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FERGUSON, Kathryn Mary",
+        "role": "director",
+        "appointed_on": "2025-01-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KELLY, James Nicholas",
+        "role": "director",
+        "appointed_on": "2017-08-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "COSGROVE, Sean",
+        "role": "director",
+        "appointed_on": "2023-03-17",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1988
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FERGUSON, Kathryn Mary",
+        "role": "director",
+        "appointed_on": "2025-01-30",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1983
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      },
+      {
+        "name": "KELLY, James Nicholas",
+        "role": "director",
+        "appointed_on": "2017-08-18",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 9AZ",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 11,
+      "recent": [
+        {
+          "name": "WETHERED, Tarquin James Hindmarsh",
+          "role": "director",
+          "appointed_on": "2023-05-09",
+          "resigned_on": "2024-10-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1987
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "W1K 4QG",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ROSE, Kevin Granville",
+          "role": "director",
+          "appointed_on": "2021-04-29",
+          "resigned_on": "2023-03-17",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1966
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        },
+        {
+          "name": "WILLIAMS, Sean Thomas",
+          "role": "director",
+          "appointed_on": "2016-09-21",
+          "resigned_on": "2021-10-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BRANDMAN, Samuel Mark",
+          "role": "director",
+          "appointed_on": "2017-08-18",
+          "resigned_on": "2021-04-29",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1982
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ALBERG, Richard Daniel",
+          "role": "director",
+          "appointed_on": "2016-09-11",
+          "resigned_on": "2020-11-27",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1965
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "NW5 1TL",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2018-10-19",
+        "ceased_on": "2020-11-27"
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "10369857",
+          "name": "Coedu Group Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2025-05-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "10369857",
+            "notified_on": "2025-05-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/10369857/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15981684",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "15981684",
+          "name": "Galileo Global Education Uk Holding Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-09-26",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15981684",
+            "notified_on": "2024-09-26",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15981684/persons-with-significant-control/corporate-entity/DIWGhHF9QSVY8Jq-2c-y89wQ2pk"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "14722406",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/10369857"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxNDA1NDI0MWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/10369857_2026-04-10.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10369857/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/10369857/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 390,
+    "enriched_at": "2026-04-16T20:08:28Z",
+    "governance_enriched_at": "2026-04-16T22:22:50Z",
+    "ubo_enriched_at": "2026-04-16T23:09:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

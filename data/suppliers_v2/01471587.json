@@ -1,0 +1,1483 @@
+{
+  "company_number": "01471587",
+  "display_name": "VODAFONE LIMITED",
+  "identity": {
+    "ch_number": "01471587",
+    "official_name": "VODAFONE LIMITED",
+    "display_name": "VODAFONE LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1980-01-07",
+    "age_years": 46,
+    "registered_office": {
+      "address_line_1": "Vodafone House",
+      "address_line_2": "The Connection",
+      "locality": "Newbury",
+      "postal_code": "RG14 2FN",
+      "region": "Berkshire"
+    },
+    "sic_codes": [
+      "33200",
+      "61900"
+    ],
+    "sic_labels": [
+      "SIC 33200",
+      "Other telecommunications activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/01471587"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 100461669,
+    "rank": 248,
+    "category": "commercial",
+    "n_departments": 4,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 56416414,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 54105746,
+            "pct_of_segment": 19.17,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Prisons & Probation",
+            "amount_gbp": 2310668,
+            "pct_of_segment": 2.07,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 23155158,
+        "segments": [
+          {
+            "segment": "PSG - Public Safety Group",
+            "amount_gbp": 8149399,
+            "pct_of_segment": 0.94,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          },
+          {
+            "segment": "DDaT - Digital Data & Technology",
+            "amount_gbp": 12015636,
+            "pct_of_segment": 1.55,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          },
+          {
+            "segment": "DBS - Disclosure & Barring Service",
+            "amount_gbp": 2990123,
+            "pct_of_segment": 3.95,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 20722924,
+        "segments": [
+          {
+            "segment": "Digital & Technology",
+            "amount_gbp": 20722924,
+            "pct_of_segment": 3.19,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 167173,
+        "segments": [
+          {
+            "segment": "Fraud Investigation Service",
+            "amount_gbp": 167173,
+            "pct_of_segment": 1.45,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-31",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5NjIxNDgyOGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/01471587_2025-12-31.pdf",
+      "size_mb": 2.68,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 5,
+    "officers_resigned_count": 107,
+    "board_turnover_ratio": 21.4,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GLIDDON, Nicholas Francis",
+        "role": "director",
+        "appointed_on": "2022-05-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LERNER, Stephen Daniel",
+        "role": "director",
+        "appointed_on": "2025-05-31",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": null
+        }
+      },
+      {
+        "name": "PURKIS, Darren Martin",
+        "role": "director",
+        "appointed_on": "2025-05-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1972
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": null
+        }
+      },
+      {
+        "name": "TAYLOR, Max",
+        "role": "director",
+        "appointed_on": "2022-12-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "LERNER, Stephen",
+        "role": "secretary",
+        "appointed_on": "2025-05-31",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": null
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "LERNER, Stephen",
+        "role": "secretary",
+        "appointed_on": "2025-05-31",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": null
+        }
+      },
+      {
+        "name": "GLIDDON, Nicholas Francis",
+        "role": "director",
+        "appointed_on": "2022-05-25",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1967
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "LERNER, Stephen Daniel",
+        "role": "director",
+        "appointed_on": "2025-05-31",
+        "resigned_on": null,
+        "nationality": "Canadian",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1966
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": null
+        }
+      },
+      {
+        "name": "PURKIS, Darren Martin",
+        "role": "director",
+        "appointed_on": "2025-05-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1972
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": null
+        }
+      },
+      {
+        "name": "TAYLOR, Max",
+        "role": "director",
+        "appointed_on": "2022-12-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Newbury",
+          "postal_code": "RG14 2FN",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 107,
+      "recent": [
+        {
+          "name": "YORSTON, Andrew Michael",
+          "role": "secretary",
+          "appointed_on": "2021-09-16",
+          "resigned_on": "2025-05-31",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Newbury",
+            "postal_code": "RG14 2FN",
+            "country": null
+          }
+        },
+        {
+          "name": "TOURNON, Emanuele",
+          "role": "director",
+          "appointed_on": "2017-01-01",
+          "resigned_on": "2025-05-31",
+          "nationality": "Italian",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1960
+          },
+          "address": {
+            "locality": "Newbury",
+            "postal_code": "RG14 2FN",
+            "country": null
+          }
+        },
+        {
+          "name": "YORSTON, Andrew Michael",
+          "role": "director",
+          "appointed_on": "2024-09-10",
+          "resigned_on": "2025-03-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1979
+          },
+          "address": {
+            "locality": "Newbury",
+            "postal_code": "RG14 2FN",
+            "country": null
+          }
+        },
+        {
+          "name": "ABOUSHELBAYA, Ahmed Essameldin Ahmed",
+          "role": "director",
+          "appointed_on": "2021-02-15",
+          "resigned_on": "2024-04-09",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1976
+          },
+          "address": {
+            "locality": "Newbury",
+            "postal_code": "RG14 2FN",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "LAMPRELL, Helen",
+          "role": "secretary",
+          "appointed_on": "2013-11-06",
+          "resigned_on": "2021-09-15",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Newbury",
+            "postal_code": "RG14 2FN",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "01471587",
+          "name": "Vodafonethree Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-09-25",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "01471587",
+            "notified_on": "2024-09-25",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01471587/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "14903490",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "14903490",
+          "name": "Vodafone International Operations Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-50-to-75-percent",
+            "voting-rights-50-to-75-percent"
+          ],
+          "notified_on": "2023-05-30",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14903490",
+            "notified_on": "2023-05-30",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14903490/persons-with-significant-control/corporate-entity/uCQm-1Twymj0QkxtWaQIu0J6OCQ"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "02797438",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "02797438",
+          "name": "Vodafone European Investments",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02797438",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02797438/persons-with-significant-control/corporate-entity/i_RZ9N7T03q-51cBKxKmHNRD6Gg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03961908",
+          "parent_type": "private-unlimited"
+        },
+        {
+          "step": 4,
+          "from_company": "03961908",
+          "name": "Vodafone Group Plc",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03961908",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03961908/persons-with-significant-control/corporate-entity/XezG_20BPt2FP2NJXcj_kPllUe0"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "01833679",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/01471587"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NjIxNDgyOGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/01471587_2025-12-31.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01471587/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/01471587/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 248,
+    "enriched_at": "2026-04-16T19:55:22Z",
+    "governance_enriched_at": "2026-04-16T22:16:34Z",
+    "ubo_enriched_at": "2026-04-16T22:57:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 265,
+      "total_contracts_non_framework": 249,
+      "total_awarded_gbp": 1521163359.5145197,
+      "total_awarded_non_framework_gbp": 467208192.73333335,
+      "years_active": 8,
+      "first_year": 2017,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +23.9% between 2017 (£2M) and 2024 (£10M)",
+      "longest_buyer_relationship": {
+        "buyer": "Defra Network eTendering Portal",
+        "years_count": 5,
+        "years_list": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ],
+        "total_value_gbp": 73141736.56000002,
+        "n_contracts": 16
+      },
+      "n_unique_buyers_all_years": 140,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2017": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 2212911,
+        "awarded_gbp_non_framework": 2212911,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Department for Education",
+          "contracts": 1,
+          "value_gbp": 2212911
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2018": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 39426020.66,
+        "awarded_gbp_non_framework": 39426020.66,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Defra Network eTendering Portal",
+          "contracts": 1,
+          "value_gbp": 38092340
+        },
+        "procurement_method_counts": {
+          "selective": 1,
+          "unspecified": 1
+        }
+      },
+      "2019": {
+        "n_contracts": 12,
+        "n_contracts_non_framework": 12,
+        "awarded_gbp_total": 11390101.03,
+        "awarded_gbp_non_framework": 11390101.03,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.64,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 10,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 1,
+          "value_gbp": 8042654
+        },
+        "procurement_method_counts": {
+          "selective": 9,
+          "unspecified": 1,
+          "limited": 2
+        }
+      },
+      "2020": {
+        "n_contracts": 41,
+        "n_contracts_non_framework": 39,
+        "awarded_gbp_total": 51828724.053333335,
+        "awarded_gbp_non_framework": 8828724.053333333,
+        "awarded_gbp_framework_share": 43000000,
+        "sole_source_pct": 4.06,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 29,
+        "top_buyer": {
+          "buyer": "The Department for Business, Energy and Industrial Strategy (BEIS)",
+          "contracts": 2,
+          "value_gbp": 43000000
+        },
+        "procurement_method_counts": {
+          "selective": 28,
+          "limited": 1,
+          "unspecified": 7,
+          "open": 2,
+          "direct": 3
+        }
+      },
+      "2021": {
+        "n_contracts": 58,
+        "n_contracts_non_framework": 57,
+        "awarded_gbp_total": 172854029.12,
+        "awarded_gbp_non_framework": 172031431.49,
+        "awarded_gbp_framework_share": 822597.63,
+        "sole_source_pct": 3.85,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 35,
+        "top_buyer": {
+          "buyer": "Ministry of Justice",
+          "contracts": 2,
+          "value_gbp": 106500000
+        },
+        "procurement_method_counts": {
+          "selective": 35,
+          "unspecified": 10,
+          "direct": 5,
+          "open": 5,
+          "limited": 3
+        }
+      },
+      "2022": {
+        "n_contracts": 63,
+        "n_contracts_non_framework": 54,
+        "awarded_gbp_total": 1140388339.8911865,
+        "awarded_gbp_non_framework": 131187517.62,
+        "awarded_gbp_framework_share": 1009200822.2711865,
+        "sole_source_pct": 0.07,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 42,
+        "top_buyer": {
+          "buyer": "Crown Commercial Service",
+          "contracts": 5,
+          "value_gbp": 1000200000.0
+        },
+        "procurement_method_counts": {
+          "open": 8,
+          "selective": 42,
+          "unspecified": 8,
+          "direct": 5
+        }
+      },
+      "2023": {
+        "n_contracts": 58,
+        "n_contracts_non_framework": 56,
+        "awarded_gbp_total": 93087556.53999999,
+        "awarded_gbp_non_framework": 92187909.66,
+        "awarded_gbp_framework_share": 899646.88,
+        "sole_source_pct": 1.39,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 43,
+        "top_buyer": {
+          "buyer": "Ministry of Justice",
+          "contracts": 4,
+          "value_gbp": 37500000
+        },
+        "procurement_method_counts": {
+          "direct": 4,
+          "selective": 42,
+          "open": 4,
+          "unspecified": 8
+        }
+      },
+      "2024": {
+        "n_contracts": 30,
+        "n_contracts_non_framework": 28,
+        "awarded_gbp_total": 9975677.22,
+        "awarded_gbp_non_framework": 9943577.22,
+        "awarded_gbp_framework_share": 32100,
+        "sole_source_pct": 17.05,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 29,
+        "top_buyer": {
+          "buyer": "DVSA - Driver and Vehicle Standards Agency",
+          "contracts": 1,
+          "value_gbp": 4891192
+        },
+        "procurement_method_counts": {
+          "unspecified": 6,
+          "selective": 17,
+          "open": 1,
+          "direct": 6
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2017": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 2212911.0,
+        "n_distinct_codes": 1
+      },
+      "2018": {
+        "top_code": "32412000",
+        "top_label": "Communications network",
+        "top_value_gbp": 38092340.0,
+        "n_distinct_codes": 2
+      },
+      "2019": {
+        "top_code": "32250000",
+        "top_label": "Mobile telephones",
+        "top_value_gbp": 8356030.0,
+        "n_distinct_codes": 8
+      },
+      "2020": {
+        "top_code": "64200000",
+        "top_label": "Telecommunications services",
+        "top_value_gbp": 44621397.6,
+        "n_distinct_codes": 21
+      },
+      "2021": {
+        "top_code": "64200000",
+        "top_label": "Telecommunications services",
+        "top_value_gbp": 107653829.04,
+        "n_distinct_codes": 25
+      },
+      "2022": {
+        "top_code": "31712112",
+        "top_label": "SIM cards",
+        "top_value_gbp": 1001692000.0,
+        "n_distinct_codes": 23
+      },
+      "2023": {
+        "top_code": "72222300",
+        "top_label": "Information technology services",
+        "top_value_gbp": 37000000.0,
+        "n_distinct_codes": 26
+      },
+      "2024": {
+        "top_code": "32430000",
+        "top_label": "Wide area network",
+        "top_value_gbp": 4891192.0,
+        "n_distinct_codes": 20
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 175,
+        "limited": 6,
+        "unspecified": 41,
+        "open": 20,
+        "direct": 23
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 436088545.06333333,
+        "limited": 7380216.0,
+        "unspecified": 59260171.379999995,
+        "open": 1013131535.3111864,
+        "direct": 5302891.76
+      },
+      "sole_source_pct_all_years": 0.83,
+      "competitive_pct_all_years": 95.27,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/6sQD8uds",
+        "buyer_name": "Crown Commercial Service",
+        "contracts": 5,
+        "value_gbp": 1000200000.0
+      },
+      {
+        "buyer_id": "GB-CFS-183111",
+        "buyer_name": "Ministry of Justice",
+        "contracts": 5,
+        "value_gbp": 142500000
+      },
+      {
+        "buyer_id": "GB-CFS-164483",
+        "buyer_name": "NHS England",
+        "contracts": 2,
+        "value_gbp": 90000000
+      },
+      {
+        "buyer_id": "GB-CFS-42714",
+        "buyer_name": "Defra Network eTendering Portal",
+        "contracts": 5,
+        "value_gbp": 45700252.15
+      },
+      {
+        "buyer_id": "GB-CFS-148233",
+        "buyer_name": "The Department for Business, Energy and Industrial Strategy (BEIS)",
+        "contracts": 2,
+        "value_gbp": 43000000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/5WZu8KXU",
+        "buyer_name": "Transport for London",
+        "contracts": 2,
+        "value_gbp": 27910004
+      },
+      {
+        "buyer_id": "GB-CFS-120903",
+        "buyer_name": "Defra Network eTendering Portal",
+        "contracts": 8,
+        "value_gbp": 27286484.410000004
+      },
+      {
+        "buyer_id": "GB-CFS-59870",
+        "buyer_name": "Department for Work and Pensions",
+        "contracts": 5,
+        "value_gbp": 17170970
+      },
+      {
+        "buyer_id": "GB-CFS-162408",
+        "buyer_name": "Ministry of Justice.",
+        "contracts": 2,
+        "value_gbp": 10965639
+      },
+      {
+        "buyer_id": "GB-CFS-229587",
+        "buyer_name": "Disclosure and Barring Service",
+        "contracts": 3,
+        "value_gbp": 10057156.27
+      },
+      {
+        "buyer_id": "GB-CFS-172980",
+        "buyer_name": "NHS Blood and Transplant",
+        "contracts": 2,
+        "value_gbp": 8809574.370000001
+      },
+      {
+        "buyer_id": "GB-CFS-107236",
+        "buyer_name": "Home Office",
+        "contracts": 2,
+        "value_gbp": 8588654
+      },
+      {
+        "buyer_id": "GB-CFS-192584",
+        "buyer_name": "Highways England",
+        "contracts": 1,
+        "value_gbp": 8474576.271186441
+      },
+      {
+        "buyer_id": "GB-CFS-78285",
+        "buyer_name": "Home Office",
+        "contracts": 6,
+        "value_gbp": 6945882.63
+      },
+      {
+        "buyer_id": "GB-CFS-161309",
+        "buyer_name": "DVSA - Driver and Vehicle Standards Agency",
+        "contracts": 1,
+        "value_gbp": 4891192
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "31712112",
+        "label": "SIM cards",
+        "contracts": 12,
+        "value_gbp": 1003859601.0
+      },
+      {
+        "code": "64200000",
+        "label": "Telecommunications services",
+        "contracts": 23,
+        "value_gbp": 170876155.73999998
+      },
+      {
+        "code": "50332000",
+        "label": "Telecommunications-infrastructure maintenance services",
+        "contracts": 2,
+        "value_gbp": 90000000
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 6,
+        "value_gbp": 47270376.27118644
+      },
+      {
+        "code": "32412000",
+        "label": "Communications network",
+        "contracts": 1,
+        "value_gbp": 38092340
+      },
+      {
+        "code": "64000000",
+        "label": "Postal and telecommunications services",
+        "contracts": 7,
+        "value_gbp": 29829631.44
+      },
+      {
+        "code": "64210000",
+        "label": "Telephone and data transmission services",
+        "contracts": 8,
+        "value_gbp": 21747495.9
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 10,
+        "value_gbp": 17695105.66
+      },
+      {
+        "code": "32250000",
+        "label": "Mobile telephones",
+        "contracts": 31,
+        "value_gbp": 14456592.48
+      },
+      {
+        "code": "64212000",
+        "label": "Mobile-telephone services",
+        "contracts": 33,
+        "value_gbp": 13380022.149999999
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-10d5cb02-5f2a-4018-8999-3fd7b1214d1b",
+        "date": "2024-11-27T00:00:00Z",
+        "buyer": "Construction Industry Training Board",
+        "title": "GB-Peterborough: CITB Mobile Telephony Network Services",
+        "value_gbp": 40842,
+        "procurement_method": null,
+        "cpv_code": "64212000",
+        "cpv_label": "Mobile-telephone services",
+        "contract_start": "2025-02-01T00:00:00Z",
+        "contract_end": "2028-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ac48dcd0-b666-49d4-8570-3fd72c8dd6e0",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-bd9e1d7b-b8f2-4b74-bd6e-6ca08f6b6169",
+        "date": "2024-10-31T00:00:00Z",
+        "buyer": "Lincolnshire County Council",
+        "title": "Mobile voice and data services",
+        "value_gbp": 346320,
+        "procurement_method": null,
+        "cpv_code": "64212000",
+        "cpv_label": "Mobile-telephone services",
+        "contract_start": "2024-11-24T00:00:00Z",
+        "contract_end": "2026-11-23T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/eafe6d5e-bd9b-40aa-9f9e-94c200c13c95",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-8a9f4b40-479f-42e2-a7c1-4e2fc2f2462d",
+        "date": "2024-10-11T00:00:00+01:00",
+        "buyer": "Bournemouth Christchurch and Poole Council",
+        "title": "Mobile Handsets",
+        "value_gbp": 264020,
+        "procurement_method": "open",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-10-14T00:00:00+01:00",
+        "contract_end": "2027-10-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8904f35d-0bf4-4cb9-a4cb-c5e460d1193b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2d2d4d4b-dcf6-4afe-b548-1ee0f2d029c1",
+        "date": "2024-10-01T00:00:00+01:00",
+        "buyer": "HISTORIC ENGLAND LIMITED",
+        "title": "RM6261 - Mobile Voice and Data Services",
+        "value_gbp": 79333.95,
+        "procurement_method": "selective",
+        "cpv_code": "64212000",
+        "cpv_label": "Mobile-telephone services",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a250d65d-f86d-4136-9861-d7a3e1bd4e11",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d5ddbb1a-3f1c-4b59-9601-2f517a6fee8b",
+        "date": "2024-09-23T00:00:00+01:00",
+        "buyer": "Northern Lighthouse Board",
+        "title": "Mobile Voice and Data",
+        "value_gbp": 32100,
+        "procurement_method": "selective",
+        "cpv_code": "64000000",
+        "cpv_label": "Postal and telecommunications services",
+        "contract_start": "2024-09-23T00:00:00+01:00",
+        "contract_end": "2026-09-22T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/46a9cfdb-06de-4bc3-bf50-87dc2334fd8a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e99c9f91-7e37-46e4-acc1-fb298bf4dc17",
+        "date": "2024-09-09T00:00:00+01:00",
+        "buyer": "HS2",
+        "title": "Provision of Inbound Telephony Services",
+        "value_gbp": 40000,
+        "procurement_method": "selective",
+        "cpv_code": "32412100",
+        "cpv_label": "Telecommunications network",
+        "contract_start": "2024-11-04T00:00:00Z",
+        "contract_end": "2026-11-03T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/21d7dfd9-8a46-4f47-b3e8-50975a189dd3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-29e65751-97fe-4910-b298-222a3b942851",
+        "date": "2024-08-14T00:00:00+01:00",
+        "buyer": "Coventry City Council",
+        "title": "COV - Mobile Phone Network Calls/SMS/Data",
+        "value_gbp": 120000,
+        "procurement_method": "selective",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-09-01T00:00:00+01:00",
+        "contract_end": "2027-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/120467be-928e-4894-a762-7f2e53ec014e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d6699d4f-6af8-439c-a167-305705f27284",
+        "date": "2024-08-12T00:00:00+01:00",
+        "buyer": "Ambulance Radio Programme",
+        "title": "DHSC: ARP: Vodafone APN Connections",
+        "value_gbp": 383909,
+        "procurement_method": "selective",
+        "cpv_code": "72212200",
+        "cpv_label": "Networking, Internet and intranet software development services",
+        "contract_start": "2024-09-20T00:00:00+01:00",
+        "contract_end": "2029-09-19T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d6af2dbe-167c-4b39-acd2-5c1c82ea628b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7b701325-b3c0-46f5-a069-4adb4340f936",
+        "date": "2024-08-01T00:00:00+01:00",
+        "buyer": "West Midlands Growth Company Ltd e-Tendering",
+        "title": "Mobile Voice, Data and Device Provision  - AWARD",
+        "value_gbp": 0,
+        "procurement_method": null,
+        "cpv_code": "32510000",
+        "cpv_label": "Wireless telecommunications system",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d26e1487-3e0c-4842-8af9-a4491c586fab",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-112b2508-5652-40c3-9ffe-6d57966c9657",
+        "date": "2024-07-02T00:00:00+01:00",
+        "buyer": "CHESHIRE EAST COUNCIL",
+        "title": "Mobile Voice and Data",
+        "value_gbp": 253830,
+        "procurement_method": "selective",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-07-20T00:00:00+01:00",
+        "contract_end": "2026-07-19T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6051ce51-465d-4571-a2a9-6c1d0852ceb7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-076a103a-d207-4cc4-908a-5c9d9ea010fd",
+        "date": "2024-07-02T00:00:00+01:00",
+        "buyer": "Yorkshire and Humber Police Procurement (Y&HPP)",
+        "title": "Vodafone SIG",
+        "value_gbp": 158018.3,
+        "procurement_method": "direct",
+        "cpv_code": "32412110",
+        "cpv_label": "Internet network",
+        "contract_start": "2024-10-01T00:00:00+01:00",
+        "contract_end": "2027-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c99df14c-c958-4cd5-b017-37af9ea8eb86",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e41ee611-ea1e-45ec-9674-b7e46800f252",
+        "date": "2024-07-01T00:00:00+01:00",
+        "buyer": "Sanctuary Housing Association",
+        "title": "Mobile Telephony 2024",
+        "value_gbp": 500000,
+        "procurement_method": "direct",
+        "cpv_code": "64200000",
+        "cpv_label": "Telecommunications services",
+        "contract_start": "2024-07-17T00:00:00+01:00",
+        "contract_end": "2027-07-16T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c561e897-a9c8-40a9-a656-9e674e9fb442",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e5f7f6be-d97d-4bb3-ac6c-978ce178f35a",
+        "date": "2024-06-25T00:00:00+01:00",
+        "buyer": "London Borough of Hackney",
+        "title": "Mobile telephony 2024",
+        "value_gbp": 235575,
+        "procurement_method": "direct",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2027-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/284d79af-72a4-41b9-a5cc-8f57f31a8972",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2fe0fdd5-152b-4659-8cff-6bda2bf218c3",
+        "date": "2024-06-22T00:00:00+01:00",
+        "buyer": "BRUNEL UNIVERSITY LONDON",
+        "title": "RM6261-0265 Provision of Mobile Voice and Data Services",
+        "value_gbp": 34725.84,
+        "procurement_method": "selective",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-06-23T00:00:00+01:00",
+        "contract_end": "2026-06-22T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a9b518ac-d743-4bb1-89fb-d5b619eaed98",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1e9313dd-a244-4840-b316-b878f817266c",
+        "date": "2024-06-10T00:00:00+01:00",
+        "buyer": "UNIVERSITY OF SUSSEX(THE)",
+        "title": "Provision of new mobile, data and additional services for mobile devices",
+        "value_gbp": 38600,
+        "procurement_method": "selective",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-06-14T00:00:00+01:00",
+        "contract_end": "2026-06-12T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/05bc6007-91a0-48d4-bd60-169938cd91a4",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a0868936-5b54-41f7-8561-1640a313fa42",
+        "date": "2024-06-03T00:00:00+01:00",
+        "buyer": "Plymouth City Council",
+        "title": "Diversionary works - Woolwell to George",
+        "value_gbp": 276887.59,
+        "procurement_method": "direct",
+        "cpv_code": "45231000",
+        "cpv_label": "Construction work for pipelines, communication and power lines",
+        "contract_start": "2024-06-18T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6a918ed3-349e-4d66-a525-cf0fddc77b1d",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-1d43a677-3c75-4a3e-b1a4-b3cdb8ef16c6",
+        "date": "2024-05-30T00:00:00+01:00",
+        "buyer": "Sussex Community NHS Foundation Trust",
+        "title": "VSDM - Voice and Data Cloud Services",
+        "value_gbp": 79200,
+        "procurement_method": null,
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-06-30T00:00:00+01:00",
+        "contract_end": "2025-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/996092dc-9ae2-4270-9997-0c619381a6e0",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f9c2ab41-020b-4c40-a2a1-bb74f4c2782f",
+        "date": "2024-05-23T00:00:00+01:00",
+        "buyer": "Met Office",
+        "title": "Refreshing Vodafone Legacy Services",
+        "value_gbp": 29250,
+        "procurement_method": "selective",
+        "cpv_code": "32000000",
+        "cpv_label": "Radio, television, communication, telecommunication and related equipment",
+        "contract_start": "2024-05-23T00:00:00+01:00",
+        "contract_end": "2026-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/617498f9-1c7e-4aa1-a9d5-b617168ba7af",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-2f1c80bd-9a95-4901-af26-c9263b53065d",
+        "date": "2024-04-15T00:00:00+01:00",
+        "buyer": "Leeds Beckett University",
+        "title": "CJ720 Clearing Contact Centre - RM6116 Network Services 3",
+        "value_gbp": 342000,
+        "procurement_method": "selective",
+        "cpv_code": "72212510",
+        "cpv_label": "Communication software development services",
+        "contract_start": "2024-04-16T00:00:00+01:00",
+        "contract_end": "2027-04-15T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/11eff166-a5a5-467e-9805-d2c358be37a9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-68f86785-e3a9-438a-9ecc-ff37b94e1c84",
+        "date": "2024-04-11T00:00:00+01:00",
+        "buyer": "DVSA - Driver and Vehicle Standards Agency",
+        "title": "Wide Area Network (WAN) 2023",
+        "value_gbp": 4891192,
+        "procurement_method": "selective",
+        "cpv_code": "32430000",
+        "cpv_label": "Wide area network",
+        "contract_start": "2024-04-11T00:00:00+01:00",
+        "contract_end": "2028-04-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/fc0d587a-7e66-4a47-b6eb-ed73346a388e",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ffb77a1a-4e49-4905-a6d6-a665ef41bf4d",
+        "date": "2024-04-08T00:00:00+01:00",
+        "buyer": "Notting Hill Genesis",
+        "title": "NHG - Mobile Phone Service - Voice & Data",
+        "value_gbp": 262656,
+        "procurement_method": null,
+        "cpv_code": "71316000",
+        "cpv_label": "Telecommunication consultancy services",
+        "contract_start": "2024-05-11T00:00:00+01:00",
+        "contract_end": "2026-05-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4ab1d41e-a74c-4b9a-b55e-488c0866355a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-eac0913d-203c-4b96-a8d7-0be07bff8f3b",
+        "date": "2024-04-01T00:00:00+01:00",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "Telephony Non-Geographic Numbers (NGN)",
+        "value_gbp": 75000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2028-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bff8e4b6-3c10-4ec3-b0d1-63629abda6b7",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5cbea565-d7b8-41d3-b4e2-977c925de67c",
+        "date": "2024-03-29T00:00:00Z",
+        "buyer": "Greater Manchester Combined Authority - Greater Manchester Police",
+        "title": "BBME and AtHoc",
+        "value_gbp": 450000,
+        "procurement_method": "direct",
+        "cpv_code": "64220000",
+        "cpv_label": "Telecommunication services except telephone and data transmission services",
+        "contract_start": "2024-04-08T00:00:00+01:00",
+        "contract_end": "2027-04-07T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/42bb17e3-fa34-4859-a025-3dc6d5dcd184",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-cf4829b6-c46c-4dee-90cd-c815567b72de",
+        "date": "2024-03-04T00:00:00Z",
+        "buyer": "Nottingham City Council",
+        "title": "Diversionary Works to Vodafone Apparatus at Upper Parliament Street, The Park, Nottingham",
+        "value_gbp": 80625.64,
+        "procurement_method": "direct",
+        "cpv_code": "45000000",
+        "cpv_label": "Construction work",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-11-08T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/906099b0-434a-44ea-b2c2-98017c2e30d9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f0298868-714c-4920-a711-fc35ed8ed047",
+        "date": "2024-02-23T00:00:00Z",
+        "buyer": "O F W A T",
+        "title": "Mobile Voice and Data 2024",
+        "value_gbp": 22779,
+        "procurement_method": "selective",
+        "cpv_code": "32250000",
+        "cpv_label": "Mobile telephones",
+        "contract_start": "2024-02-23T00:00:00Z",
+        "contract_end": "2027-02-23T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3cf44cd8-6715-4cb9-8630-84244715b7ef",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-911820df-79a2-4d1d-9fbf-16de0051b811",
+        "date": "2024-02-15T00:00:00Z",
+        "buyer": "British Transport Police",
+        "title": "Blackberry UEM Licences",
+        "value_gbp": 431011.74,
+        "procurement_method": "selective",
+        "cpv_code": "48000000",
+        "cpv_label": "Software package and information systems",
+        "contract_start": "2024-08-26T00:00:00+01:00",
+        "contract_end": "2025-08-25T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0179b81b-0b57-41a3-bd95-c8d651fa561b",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-46aa5864-69e4-4f94-ba57-0dc797923d48",
+        "date": "2024-02-06T00:00:00Z",
+        "buyer": "FRIMLEY HEALTH NHS FOUNDATION TRUST",
+        "title": "FHFT - Mobile Services - Voice Data and Text Messaging",
+        "value_gbp": 132417,
+        "procurement_method": "selective",
+        "cpv_code": "64212000",
+        "cpv_label": "Mobile-telephone services",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2027-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1fabf65b-28b7-4030-a499-0d65d70e316a",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-52255eca-d2eb-4ad9-b773-ac6135c420f8",
+        "date": "2024-02-01T00:00:00Z",
+        "buyer": "UNIVERSITY OF SOUTHAMPTON",
+        "title": "Mobile Voice and Data Services",
+        "value_gbp": 81822,
+        "procurement_method": "selective",
+        "cpv_code": "31712112",
+        "cpv_label": "SIM cards",
+        "contract_start": "2024-02-01T00:00:00Z",
+        "contract_end": "2026-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d0703fec-c6e8-4ee5-8c0a-948220d464e1",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d60d9b36-1883-4f63-b42e-daec931f05d6",
+        "date": "2024-01-31T00:00:00Z",
+        "buyer": "Lincolnshire County Council",
+        "title": "Lone Worker Protection Devices",
+        "value_gbp": 259200,
+        "procurement_method": null,
+        "cpv_code": "64223000",
+        "cpv_label": "Paging services",
+        "contract_start": "2024-02-12T00:00:00Z",
+        "contract_end": "2027-02-11T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f605814f-3b9e-404d-b9e1-61a76723ced1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f3639210-542b-436f-b2fc-dae5fd63fea0",
+        "date": "2024-01-31T00:00:00Z",
+        "buyer": "COLLEGE OF POLICING LIMITED",
+        "title": "Provision of DIA Renewal",
+        "value_gbp": 34362.16,
+        "procurement_method": "selective",
+        "cpv_code": "48221000",
+        "cpv_label": "Internet browsing software package",
+        "contract_start": "2024-02-01T00:00:00Z",
+        "contract_end": "2027-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2ab69a02-94d2-46ae-8327-671d9c30f902",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 100461669,
+      "awarded_2024_gbp_from_cf": 9975677.22,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 10.1× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.1
+    }
+  }
+}

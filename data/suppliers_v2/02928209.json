@@ -1,0 +1,361 @@
+{
+  "company_number": "02928209",
+  "display_name": "CWT UK GROUP LTD",
+  "identity": {
+    "ch_number": "02928209",
+    "official_name": "CWT UK GROUP LTD",
+    "display_name": "CWT UK GROUP LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1994-05-12",
+    "age_years": 31,
+    "registered_office": {
+      "address_line_1": "Jj Mack Building",
+      "address_line_2": "33 Charterhouse Street",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1M 6HA"
+    },
+    "sic_codes": [
+      "79110"
+    ],
+    "sic_labels": [
+      "SIC 79110"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02928209"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 33249166,
+    "rank": 485,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 33249166,
+        "segments": [
+          {
+            "segment": "UKIE - Immigration Enforcement",
+            "amount_gbp": 33249166,
+            "pct_of_segment": 8.34,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-15",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4MDc5Mzg5OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02928209_2025-09-15.pdf",
+      "size_mb": 2.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 33,
+    "board_turnover_ratio": 16.5,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "GODIN, Jonathan",
+        "role": "director",
+        "appointed_on": "2024-11-04",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "France",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1985
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 6HA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HARMAN, Denise",
+        "role": "director",
+        "appointed_on": "2019-01-15",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 6HA",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "GODIN, Jonathan",
+        "role": "director",
+        "appointed_on": "2024-11-04",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "France",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1985
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 6HA",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HARMAN, Denise",
+        "role": "director",
+        "appointed_on": "2019-01-15",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1M 6HA",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 33,
+      "recent": [
+        {
+          "name": "BLACKMAN, Amalie-Cora Christianna",
+          "role": "secretary",
+          "appointed_on": "2024-09-23",
+          "resigned_on": "2026-04-01",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1M 6HA",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GIBBS, Aron",
+          "role": "secretary",
+          "appointed_on": "2020-09-05",
+          "resigned_on": "2024-09-20",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5NR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "TURNER, Rhodri Llewelyn Hollister",
+          "role": "director",
+          "appointed_on": "2017-03-29",
+          "resigned_on": "2023-06-16",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1977
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5NR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BOWEN, Christopher",
+          "role": "director",
+          "appointed_on": "2014-08-26",
+          "resigned_on": "2021-09-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1960
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5NR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "SANOTRA, Narinder",
+          "role": "secretary",
+          "appointed_on": "2018-11-26",
+          "resigned_on": "2020-09-25",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "London",
+            "postal_code": "E14 5NR",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02928209",
+          "name": "Cwt Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02928209",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02928209/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "03369718",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "03369718",
+          "name": "Cwt New Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03369718",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03369718/persons-with-significant-control/corporate-entity/9Dw-DxOmQBHqTTce0N3FayiN-iU"
+          },
+          "terminal": true,
+          "resolution": "no_psc_declared_legitimate",
+          "parent_company_number": "05826495",
+          "parent_type": "ltd",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ],
+          "original_resolution": "unresolved_statement",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02928209"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MDc5Mzg5OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02928209_2025-09-15.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02928209/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02928209/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 485,
+    "enriched_at": "2026-04-16T20:16:29Z",
+    "governance_enriched_at": "2026-04-16T22:26:45Z",
+    "ubo_enriched_at": "2026-04-16T23:13:59Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

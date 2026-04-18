@@ -1,0 +1,622 @@
+{
+  "company_number": "BR025381",
+  "display_name": "EVIDEN TECHNOLOGY SERVICES LIMITED",
+  "identity": {
+    "ch_number": "BR025381",
+    "official_name": "EVIDEN TECHNOLOGY SERVICES LIMITED",
+    "display_name": "EVIDEN TECHNOLOGY SERVICES LIMITED",
+    "status": "open",
+    "type": "uk-establishment",
+    "jurisdiction": null,
+    "incorporated": "2022-12-28",
+    "age_years": 3,
+    "registered_office": {
+      "address_line_1": "Second Floor Mid City Place",
+      "locality": "London",
+      "postal_code": "WC1V 6EA",
+      "region": "71 High Holborn"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/BR025381"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 45370253,
+    "rank": 408,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 45370253,
+        "segments": [
+          {
+            "segment": "CDIO - Core",
+            "amount_gbp": 20170794,
+            "pct_of_segment": 2.55,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Programme and Operational Delivery",
+            "amount_gbp": 2294924,
+            "pct_of_segment": 1.16,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery DG & Programme Office",
+            "amount_gbp": 1911245,
+            "pct_of_segment": 1.11,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "B&T Border Change Delivery",
+            "amount_gbp": 5994534,
+            "pct_of_segment": 3.7,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Chief Digital & Information Officer",
+            "amount_gbp": 2466310,
+            "pct_of_segment": 2.36,
+            "rank_in_segment": 8,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery Making Tax Digital",
+            "amount_gbp": 6742082,
+            "pct_of_segment": 16.36,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Change Delivery Group",
+            "amount_gbp": 3691397,
+            "pct_of_segment": 14.31,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Borders & Trade",
+            "amount_gbp": 1727074,
+            "pct_of_segment": 9.45,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          },
+          {
+            "segment": "PDC Customer Strategy & Tax Design",
+            "amount_gbp": 293091,
+            "pct_of_segment": 3.31,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Customer Strategy & Tax Design",
+            "amount_gbp": 78802,
+            "pct_of_segment": 4.64,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "BR025381",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 78,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/BR025381"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR025381/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/BR025381/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 408,
+    "enriched_at": "2026-04-16T20:10:10Z",
+    "governance_enriched_at": "2026-04-16T22:23:38Z",
+    "ubo_enriched_at": "2026-04-16T23:10:45Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 14,
+      "total_contracts_non_framework": 14,
+      "total_awarded_gbp": 15036242.87,
+      "total_awarded_non_framework_gbp": 15036242.87,
+      "years_active": 2,
+      "first_year": 2023,
+      "last_year": 2024,
+      "trajectory": "growing",
+      "trajectory_note": "CAGR +751.5% between 2023 (£2M) and 2024 (£13M)",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Defence",
+        "years_count": 2,
+        "years_list": [
+          2023,
+          2024
+        ],
+        "total_value_gbp": 5523566.34,
+        "n_contracts": 5
+      },
+      "n_unique_buyers_all_years": 7,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2023": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 2,
+        "awarded_gbp_total": 1580209.3399999999,
+        "awarded_gbp_non_framework": 1580209.3399999999,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 2,
+          "value_gbp": 1580209.3399999999
+        },
+        "procurement_method_counts": {
+          "selective": 2
+        }
+      },
+      "2024": {
+        "n_contracts": 12,
+        "n_contracts_non_framework": 12,
+        "awarded_gbp_total": 13456033.530000001,
+        "awarded_gbp_non_framework": 13456033.530000001,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 7,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 3,
+          "value_gbp": 3943357
+        },
+        "procurement_method_counts": {
+          "selective": 11,
+          "unspecified": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2023": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 1580209.3399999999,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "72000000",
+        "top_label": "IT services: consulting, software development, Internet and support",
+        "top_value_gbp": 5872525.0,
+        "n_distinct_codes": 6
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": true,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 13,
+        "unspecified": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 14699719.66,
+        "unspecified": 336523.21
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 97.76,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-198913",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 5,
+        "value_gbp": 5523566.34
+      },
+      {
+        "buyer_id": "GB-CFS-272781",
+        "buyer_name": "DEFRA",
+        "contracts": 1,
+        "value_gbp": 2900000
+      },
+      {
+        "buyer_id": "GB-SRS-supplierregistration.cabinetoffice.gov.uk/C5Ph8Dsz",
+        "buyer_name": "DIGITAL DEFENCE LIMITED",
+        "contracts": 3,
+        "value_gbp": 2852374.48
+      },
+      {
+        "buyer_id": "GB-CFS-264610",
+        "buyer_name": "Department for Environment, Food & Rural Affairs",
+        "contracts": 1,
+        "value_gbp": 1622448
+      },
+      {
+        "buyer_id": "GB-GOR-D25",
+        "buyer_name": "H M Revenue & Customs",
+        "contracts": 1,
+        "value_gbp": 1000000
+      },
+      {
+        "buyer_id": "GB-CFS-274996",
+        "buyer_name": "Sussex Police",
+        "contracts": 1,
+        "value_gbp": 494610.84
+      },
+      {
+        "buyer_id": "GB-CFS-188742",
+        "buyer_name": "UK Research & Innovation",
+        "contracts": 1,
+        "value_gbp": 336523.21
+      },
+      {
+        "buyer_id": "GB-CFS-273422",
+        "buyer_name": "Department for Environment, Food & Rural Affairs",
+        "contracts": 1,
+        "value_gbp": 306720
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 7,
+        "value_gbp": 7452734.34
+      },
+      {
+        "code": "72222300",
+        "label": "Information technology services",
+        "contracts": 1,
+        "value_gbp": 2900000
+      },
+      {
+        "code": "71356300",
+        "label": "Technical support services",
+        "contracts": 3,
+        "value_gbp": 2852374.48
+      },
+      {
+        "code": "72210000",
+        "label": "Programming services of packaged software products",
+        "contracts": 1,
+        "value_gbp": 1000000
+      },
+      {
+        "code": "72300000",
+        "label": "Data services",
+        "contracts": 1,
+        "value_gbp": 494610.84
+      },
+      {
+        "code": "48461000",
+        "label": "Analytical or scientific software package",
+        "contracts": 1,
+        "value_gbp": 336523.21
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-a8a10da2-edba-4155-8d1f-be1154f46c8d",
+        "date": "2024-09-25T00:00:00+01:00",
+        "buyer": "H M Revenue & Customs",
+        "title": "Single Customer Account -  System Architecture Service - DALAS Taxi Rank",
+        "value_gbp": 1000000,
+        "procurement_method": "selective",
+        "cpv_code": "72210000",
+        "cpv_label": "Programming services of packaged software products",
+        "contract_start": "2024-09-25T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f3a0a488-97f0-4582-9cd7-9d3c9bf7167c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-590bd7bc-efaf-46fc-84bf-b68da4c92afa",
+        "date": "2024-08-01T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "BASE/084 - MOVD Run and Change",
+        "value_gbp": 1279635,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/001eb6b6-b26a-40a9-ab17-2a1f508e7f0f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7c737633-48f2-4902-877f-6089f515b680",
+        "date": "2024-05-22T00:00:00+01:00",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "ServiceNow Core support for platform development",
+        "value_gbp": 1622448,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-04-15T00:00:00+01:00",
+        "contract_end": "2025-01-14T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/93354e96-5e14-4c48-a300-22da7cc46fc9",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-697f2de3-f41b-49d0-94ca-01677ab4730e",
+        "date": "2024-05-15T00:00:00+01:00",
+        "buyer": "DEFRA",
+        "title": "Defra Cloud Infrastructure Engineering Service - Extension",
+        "value_gbp": 2900000,
+        "procurement_method": "selective",
+        "cpv_code": "72222300",
+        "cpv_label": "Information technology services",
+        "contract_start": "2024-08-01T00:00:00+01:00",
+        "contract_end": "2024-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ee423c96-b584-4836-abac-708fddba8633",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-a4549011-ff09-446d-b0cd-8d1f1c1dbf9e",
+        "date": "2024-04-21T00:00:00+01:00",
+        "buyer": "DIGITAL DEFENCE LIMITED",
+        "title": "PS430 - Business Modernisation for Support (BMFS) Enabling Agent",
+        "value_gbp": 1902348,
+        "procurement_method": "selective",
+        "cpv_code": "71356300",
+        "cpv_label": "Technical support services",
+        "contract_start": "2024-04-22T00:00:00+01:00",
+        "contract_end": "2025-01-21T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/7a80f7ac-0908-41c4-bc15-858a0aace280",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c12e2959-dff7-4844-ad64-08d15e3280cd",
+        "date": "2024-04-12T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "BASE/079 MNO Applications Packaging",
+        "value_gbp": 1951882,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-04-15T00:00:00+01:00",
+        "contract_end": "2024-10-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3149e5f1-4cd3-4c19-91da-57d76ba4db40",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f0dabbb0-e53d-45cb-b6f3-0cccf3075e11",
+        "date": "2024-03-29T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "BASE/077 - MNO Overarching Support",
+        "value_gbp": 711840,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/824f63a6-a567-4761-be80-7d99c191e5b6",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e0d4a317-2f35-4a08-8809-0a1bc67e8e23",
+        "date": "2024-03-28T00:00:00Z",
+        "buyer": "UK Research & Innovation",
+        "title": "Hardware Maintenance and Software Support Renewal for CDS",
+        "value_gbp": 336523.21,
+        "procurement_method": null,
+        "cpv_code": "48461000",
+        "cpv_label": "Analytical or scientific software package",
+        "contract_start": "2024-03-29T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c3059a68-b377-4160-b1d9-52209a913e54",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e623fd77-4ceb-4d16-9427-41588ac44589",
+        "date": "2024-03-28T00:00:00Z",
+        "buyer": "Department for Environment, Food & Rural Affairs",
+        "title": "ServiceNow Governance and Business Process Support",
+        "value_gbp": 306720,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c229bf61-3129-4abd-a213-0e6df776d845",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-7f4cf9fe-e6cc-44f0-a628-9be4c597b196",
+        "date": "2024-03-25T00:00:00Z",
+        "buyer": "DIGITAL DEFENCE LIMITED",
+        "title": "PS434 - Redacted for Transparency",
+        "value_gbp": 385000,
+        "procurement_method": "selective",
+        "cpv_code": "71356300",
+        "cpv_label": "Technical support services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2024-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9f970ca7-703d-4d47-90c1-35f24e987246",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9bc6c375-dc83-4f2e-9471-d731f7a40a31",
+        "date": "2024-03-14T00:00:00Z",
+        "buyer": "Sussex Police",
+        "title": "Data Science Analytics  - AWARD",
+        "value_gbp": 494610.84,
+        "procurement_method": "selective",
+        "cpv_code": "72300000",
+        "cpv_label": "Data services",
+        "contract_start": "2024-04-01T00:00:00+01:00",
+        "contract_end": "2027-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f03803ac-194d-472d-8fc7-3f063d1f0510",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e7820acf-5448-4923-ba67-534b90037e98",
+        "date": "2024-01-05T00:00:00Z",
+        "buyer": "DIGITAL DEFENCE LIMITED",
+        "title": "Contract Title Redacted",
+        "value_gbp": 565026.48,
+        "procurement_method": "selective",
+        "cpv_code": "71356300",
+        "cpv_label": "Technical support services",
+        "contract_start": "2024-02-01T00:00:00Z",
+        "contract_end": "2024-07-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a1a08f4f-7e45-444c-8e96-6397d96e55fc",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-aa116ff8-9c7f-4bc5-86af-d1bd42927335",
+        "date": "2023-04-30T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "BASE/068 Virtual Desktop Services (VDS) Change and Enhancements",
+        "value_gbp": 986209.34,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-05-01T00:00:00+01:00",
+        "contract_end": "2024-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/deef892f-4e34-4f97-abbd-830567938256",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0e44f7f0-27cf-41bb-b782-7a40373bf893",
+        "date": "2023-04-30T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "BASE/067 - Defence Virtual Desktop Services",
+        "value_gbp": 594000,
+        "procurement_method": "selective",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-05-01T00:00:00+01:00",
+        "contract_end": "2024-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2f65707b-e0d3-42dc-9e92-4f92d7abb5c1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 45370253,
+      "awarded_2024_gbp_from_cf": 13456033.530000001,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 3.4× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.3
+    }
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "company_number": "04056042",
+  "display_name": "DHL GLOBAL FORWARDING UK LTD",
+  "identity": {
+    "ch_number": "04056042",
+    "official_name": "DHL GLOBAL FORWARDING (UK) LIMITED",
+    "display_name": "DHL GLOBAL FORWARDING UK LTD",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2000-08-15",
+    "age_years": 25,
+    "registered_office": {
+      "address_line_1": "2 Pine Trees, First Floor",
+      "address_line_2": "Chertsey Lane",
+      "country": "England",
+      "locality": "Staines-Upon-Thames",
+      "postal_code": "TW18 3HR"
+    },
+    "sic_codes": [
+      "52290"
+    ],
+    "sic_labels": [
+      "SIC 52290"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04056042"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 12588790,
+    "rank": 697,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 12588790,
+        "segments": [
+          {
+            "segment": "UKVIP - Visas Information & Passports",
+            "amount_gbp": 12588790,
+            "pct_of_segment": 5.01,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-17",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ4MTEzNTUzNGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04056042_2025-09-17.pdf",
+      "size_mb": 2.33,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 3,
+    "officers_resigned_count": 18,
+    "board_turnover_ratio": 6.0,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "LYON, Paul David",
+        "role": "director",
+        "appointed_on": "2025-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MEIER, Coelestin Ignaz",
+        "role": "director",
+        "appointed_on": "2023-07-01",
+        "resigned_on": null,
+        "nationality": "Swiss",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SCHILLING, Thorsten",
+        "role": "director",
+        "appointed_on": "2022-08-01",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "LYON, Paul David",
+        "role": "director",
+        "appointed_on": "2025-08-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1974
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MEIER, Coelestin Ignaz",
+        "role": "director",
+        "appointed_on": "2023-07-01",
+        "resigned_on": null,
+        "nationality": "Swiss",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SCHILLING, Thorsten",
+        "role": "director",
+        "appointed_on": "2022-08-01",
+        "resigned_on": null,
+        "nationality": "German",
+        "occupation": null,
+        "country_of_residence": "Germany",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1978
+        },
+        "address": {
+          "locality": "Staines-Upon-Thames",
+          "postal_code": "TW18 3HR",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 18,
+      "recent": [
+        {
+          "name": "YOUNG, Michael Paul",
+          "role": "director",
+          "appointed_on": "2017-03-17",
+          "resigned_on": "2025-08-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Staines-Upon-Thames",
+            "postal_code": "TW18 3HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "FOLEY, Ryan Peter",
+          "role": "director",
+          "appointed_on": "2024-10-01",
+          "resigned_on": "2025-07-24",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1980
+          },
+          "address": {
+            "locality": "Staines-Upon-Thames",
+            "postal_code": "TW18 3HR",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GAGNA, Miriam Marcela",
+          "role": "director",
+          "appointed_on": "2019-04-08",
+          "resigned_on": "2023-07-01",
+          "nationality": "Italian",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1972
+          },
+          "address": {
+            "locality": "Chertsey",
+            "postal_code": "KT16 8SH",
+            "country": "England"
+          }
+        },
+        {
+          "name": "VAN OERLE, Remco Pieter",
+          "role": "director",
+          "appointed_on": "2014-05-21",
+          "resigned_on": "2022-06-30",
+          "nationality": "Dutch",
+          "occupation": null,
+          "country_of_residence": "Switzerland",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1966
+          },
+          "address": {
+            "locality": "Chertsey",
+            "postal_code": "KT16 8SH",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CAMERON, Vari Isabel",
+          "role": "director",
+          "appointed_on": "2000-08-15",
+          "resigned_on": "2019-04-08",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1961
+          },
+          "address": {
+            "locality": "Chertsey",
+            "postal_code": "KT16 8SH",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "04056042",
+          "name": "Dhl Global Forwarding International Holdings B.V.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent"
+          ],
+          "notified_on": "2024-11-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "04056042",
+            "notified_on": "2024-11-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/04056042/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "Germany",
+          "parent_registration_number": "95113185",
+          "wikidata": {
+            "qid": "Q514108",
+            "label": "DHL Global Forwarding",
+            "description": "company of the DHL Group, Part of Deutsche Post AG",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q514108",
+            "parent_chain": [
+              {
+                "qid": "Q514108",
+                "label": "DHL Global Forwarding",
+                "description": "company of the DHL Group, Part of Deutsche Post AG",
+                "country_labels": [
+                  "Germany"
+                ],
+                "revision_id": 2160739075,
+                "source_url": "https://www.wikidata.org/wiki/Q514108"
+              },
+              {
+                "qid": "Q157645",
+                "label": "Deutsche Post AG",
+                "description": "German logistics company",
+                "country_labels": [
+                  "Germany"
+                ],
+                "revision_id": 2474171766,
+                "source_url": "https://www.wikidata.org/wiki/Q157645"
+              },
+              {
+                "qid": "Q658270",
+                "label": "KfW",
+                "description": "German state-owned investment and development bank",
+                "country_labels": [
+                  "Germany"
+                ],
+                "revision_id": 2474170516,
+                "source_url": "https://www.wikidata.org/wiki/Q658270"
+              },
+              {
+                "qid": "Q1201",
+                "label": "Saarland",
+                "description": "state of the Federal Republic of Germany",
+                "country_labels": [
+                  "Germany",
+                  "West Germany"
+                ],
+                "revision_id": 2481555225,
+                "source_url": "https://www.wikidata.org/wiki/Q1201"
+              }
+            ],
+            "ultimate_label": "Saarland",
+            "ultimate_country": "Germany",
+            "queries_used": [
+              "Dhl Global Forwarding International Holdings B.V.",
+              "Dhl Global Forwarding"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Germany"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04056042"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MTEzNTUzNGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04056042_2025-09-17.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04056042/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04056042/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q514108"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 697,
+    "enriched_at": "2026-04-16T20:36:01Z",
+    "governance_enriched_at": "2026-04-16T22:37:25Z",
+    "ubo_enriched_at": "2026-04-16T23:23:46Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "summary": {
+      "total_contracts": 9,
+      "total_contracts_non_framework": 9,
+      "total_awarded_gbp": 122028347.0,
+      "total_awarded_non_framework_gbp": 122028347.0,
+      "years_active": 3,
+      "first_year": 2020,
+      "last_year": 2022,
+      "trajectory": "stable",
+      "trajectory_note": "CAGR +8.2% between 2020 (£56M) and 2022 (£66M)",
+      "longest_buyer_relationship": {
+        "buyer": "Home Office",
+        "years_count": 1,
+        "years_list": [
+          2022
+        ],
+        "total_value_gbp": 65800000,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 4,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 7,
+        "n_contracts_non_framework": 7,
+        "awarded_gbp_total": 56198347.0,
+        "awarded_gbp_non_framework": 56198347.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Department of Health and Social Care (DHSC)",
+          "contracts": 5,
+          "value_gbp": 40826446.199999996
+        },
+        "procurement_method_counts": {
+          "unspecified": 7
+        }
+      },
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 30000,
+        "awarded_gbp_non_framework": 30000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "University of Exeter",
+          "contracts": 1,
+          "value_gbp": 30000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 65800000,
+        "awarded_gbp_non_framework": 65800000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 1,
+          "value_gbp": 65800000
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "63521000",
+        "top_label": "Freight transport agency services",
+        "top_value_gbp": 56198347.00000001,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "63100000",
+        "top_label": "Cargo handling and storage services",
+        "top_value_gbp": 30000.0,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "64121100",
+        "top_label": "Mail delivery services",
+        "top_value_gbp": 65800000.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 7,
+        "open": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 56198347.00000001,
+        "open": 65830000.0
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 53.95,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-78285",
+        "buyer_name": "Home Office",
+        "contracts": 1,
+        "value_gbp": 65800000
+      },
+      {
+        "buyer_id": "GB-CFS-156189",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 5,
+        "value_gbp": 40826446.199999996
+      },
+      {
+        "buyer_id": "GB-CFS-152166",
+        "buyer_name": "Health Family",
+        "contracts": 2,
+        "value_gbp": 15371900.8
+      },
+      {
+        "buyer_id": "GB-CFS-52436",
+        "buyer_name": "University of Exeter",
+        "contracts": 1,
+        "value_gbp": 30000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "64121100",
+        "label": "Mail delivery services",
+        "contracts": 1,
+        "value_gbp": 65800000
+      },
+      {
+        "code": "63521000",
+        "label": "Freight transport agency services",
+        "contracts": 7,
+        "value_gbp": 56198347.00000001
+      },
+      {
+        "code": "63100000",
+        "label": "Cargo handling and storage services",
+        "contracts": 1,
+        "value_gbp": 30000
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-cbdb521c-669e-4383-a2ca-756f78021e0a",
+        "date": "2022-10-13T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "HMPO Passport Secure Delivery International",
+        "value_gbp": 65800000,
+        "procurement_method": "open",
+        "cpv_code": "64121100",
+        "cpv_label": "Mail delivery services",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2028-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ea53222e-d18d-45b5-a52b-61c842356fde",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-b623bf70-4726-474e-b955-634cee45d2a2",
+        "date": "2021-10-18T00:00:00+01:00",
+        "buyer": "University of Exeter",
+        "title": "Import & Export Services (1)",
+        "value_gbp": 30000,
+        "procurement_method": "open",
+        "cpv_code": "63100000",
+        "cpv_label": "Cargo handling and storage services",
+        "contract_start": "2021-10-17T00:00:00+01:00",
+        "contract_end": "2022-10-16T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9ec66830-e7bd-417b-a0fa-ae9a9f2bfd24",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-34acb81f-4dd5-4654-b8e2-72de5e2ee29a",
+        "date": "2020-04-30T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHL",
+        "value_gbp": 10082644.6,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/6d5611d7-a604-4104-8c17-ff8c7bfcdfd2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-34acb81f-4dd5-4654-b8e2-72de5e2ee29a",
+        "date": "2020-04-30T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHL",
+        "value_gbp": 10082644.6,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2537a3cb-cfb0-43a0-83a6-d909d62649e3",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-34acb81f-4dd5-4654-b8e2-72de5e2ee29a",
+        "date": "2020-04-30T00:00:00+01:00",
+        "buyer": "Health Family",
+        "title": "DHL",
+        "value_gbp": 10082644.6,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/93ebe9b2-f755-40c1-ac2b-d69f9021864e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-34acb81f-4dd5-4654-b8e2-72de5e2ee29a",
+        "date": "2020-04-30T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHL",
+        "value_gbp": 10082644.6,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ce20f5d7-f927-4046-8e95-dd03e9cf3b5a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5772643c-2c87-411f-aab3-a9a60a3ea19b",
+        "date": "2020-04-24T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHL",
+        "value_gbp": 5289256.2,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/19f53021-df25-41d8-af98-f7fa0891f13f",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5772643c-2c87-411f-aab3-a9a60a3ea19b",
+        "date": "2020-04-24T00:00:00+01:00",
+        "buyer": "Health Family",
+        "title": "DHL",
+        "value_gbp": 5289256.2,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/37436385-5db8-4c7c-8a33-e7a4a9bdc176",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5772643c-2c87-411f-aab3-a9a60a3ea19b",
+        "date": "2020-04-24T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHL",
+        "value_gbp": 5289256.2,
+        "procurement_method": null,
+        "cpv_code": "63521000",
+        "cpv_label": "Freight transport agency services",
+        "contract_start": "2020-04-30T00:00:00+01:00",
+        "contract_end": "2020-05-04T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cb7edbd6-de8d-4e99-b7f8-82f88501bd5a",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 12588790,
+      "awarded_2024_gbp_from_cf": 122028347.0,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 9.7× current payments — major pipeline for 2025+.",
+      "ratio": 9.69
+    }
+  }
+}

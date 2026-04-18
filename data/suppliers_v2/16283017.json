@@ -1,0 +1,618 @@
+{
+  "company_number": "16283017",
+  "display_name": "Hit Training Ltd",
+  "identity": {
+    "ch_number": "16283017",
+    "official_name": "HIT TRAINING LTD",
+    "display_name": "Hit Training Ltd",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2025-02-28",
+    "age_years": 1,
+    "registered_office": {
+      "address_line_1": "25 Cecil Pashley Way",
+      "address_line_2": "Shoreham Airport",
+      "country": "England",
+      "locality": "Shoreham-By-Sea",
+      "postal_code": "BN43 5FF"
+    },
+    "sic_codes": [
+      "85320"
+    ],
+    "sic_labels": [
+      "Technical and vocational secondary education"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/16283017"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 21686987,
+    "rank": 572,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 21686987,
+        "segments": [
+          {
+            "segment": "Apprenticeships and Skills Bootcamps",
+            "amount_gbp": 21686987,
+            "pct_of_segment": 0.89,
+            "rank_in_segment": 11,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-01-23",
+    "period_end": "2026-03-31",
+    "accounts_type_code": "AA01",
+    "accounts_type_description": "change-account-reference-date-company-current-extended",
+    "transaction_id": "MzUwMTEzNzQ4NWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/16283017_2026-01-23.pdf",
+      "size_mb": 0.08,
+      "exists": true
+    },
+    "next_accounts_due": "2026-11-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "WORLEY, Michael David",
+        "role": "director",
+        "appointed_on": "2025-02-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Shoreham-By-Sea",
+          "postal_code": "BN43 5FF",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "WORLEY, Michael David",
+        "role": "director",
+        "appointed_on": "2025-02-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1970
+        },
+        "address": {
+          "locality": "Shoreham-By-Sea",
+          "postal_code": "BN43 5FF",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "16283017",
+          "name": "Mr Michael David Worley",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2025-02-28",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "16283017",
+            "notified_on": "2025-02-28",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/16283017/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Michael David Worley"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "-20",
+        "company_too_young_(1y)_for_spend"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16283017"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUwMTEzNzQ4NWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/16283017_2026-01-23.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/16283017/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/16283017/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 572,
+    "enriched_at": "2026-04-16T20:23:36Z",
+    "governance_enriched_at": "2026-04-16T22:30:31Z",
+    "ubo_enriched_at": "2026-04-16T23:17:27Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 9,
+      "total_contracts_non_framework": 4,
+      "total_awarded_gbp": 2811396.3112910483,
+      "total_awarded_non_framework_gbp": 308000,
+      "years_active": 5,
+      "first_year": 2019,
+      "last_year": 2024,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "Telford & Wrekin Council",
+        "years_count": 2,
+        "years_list": [
+          2022,
+          2023
+        ],
+        "total_value_gbp": 972222.2222222222,
+        "n_contracts": 2
+      },
+      "n_unique_buyers_all_years": 7,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2019": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 112000,
+        "awarded_gbp_non_framework": 112000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "North Yorkshire County Council",
+          "contracts": 1,
+          "value_gbp": 112000
+        },
+        "procurement_method_counts": {
+          "unspecified": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 2,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 1495789.4736842106,
+        "awarded_gbp_non_framework": 180000,
+        "awarded_gbp_framework_share": 1315789.4736842106,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Nottinghamshire County Council",
+          "contracts": 1,
+          "value_gbp": 1315789.4736842106
+        },
+        "procurement_method_counts": {
+          "unspecified": 1,
+          "open": 1
+        }
+      },
+      "2022": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 641051.282051282,
+        "awarded_gbp_non_framework": 9000,
+        "awarded_gbp_framework_share": 632051.282051282,
+        "sole_source_pct": 1.4,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Telford & Wrekin Council",
+          "contracts": 1,
+          "value_gbp": 416666.6666666667
+        },
+        "procurement_method_counts": {
+          "selective": 1,
+          "open": 2,
+          "limited": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 555555.5555555555,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 555555.5555555555,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Telford & Wrekin Council",
+          "contracts": 1,
+          "value_gbp": 555555.5555555555
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 7000,
+        "awarded_gbp_non_framework": 7000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "HAMPSHIRE COUNTY COUNCIL",
+          "contracts": 1,
+          "value_gbp": 7000
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2019": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 112000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 1495789.4736842106,
+        "n_distinct_codes": 1
+      },
+      "2022": {
+        "top_code": "80530000",
+        "top_label": "Vocational training services",
+        "top_value_gbp": 416666.6666666667,
+        "n_distinct_codes": 2
+      },
+      "2023": {
+        "top_code": "80530000",
+        "top_label": "Vocational training services",
+        "top_value_gbp": 555555.5555555555,
+        "n_distinct_codes": 1
+      },
+      "2024": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 7000.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 2,
+        "open": 3,
+        "selective": 3,
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 292000.0,
+        "open": 1531174.0890688258,
+        "selective": 979222.2222222222,
+        "limited": 9000.0
+      },
+      "sole_source_pct_all_years": 0.32,
+      "competitive_pct_all_years": 89.29,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-66347",
+        "buyer_name": "Nottinghamshire County Council",
+        "contracts": 1,
+        "value_gbp": 1315789.4736842106
+      },
+      {
+        "buyer_id": "GB-CFS-1606",
+        "buyer_name": "Telford & Wrekin Council",
+        "contracts": 2,
+        "value_gbp": 972222.2222222222
+      },
+      {
+        "buyer_id": "GB-CFS-56684",
+        "buyer_name": "North Yorkshire County Council",
+        "contracts": 2,
+        "value_gbp": 292000
+      },
+      {
+        "buyer_id": "GB-CFS-197422",
+        "buyer_name": "Hampshire County Council",
+        "contracts": 1,
+        "value_gbp": 215384.61538461538
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/AB9Ap52c",
+        "buyer_name": ".East Riding Of Yorkshire Council",
+        "contracts": 1,
+        "value_gbp": 9000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/R7P26Eu7",
+        "buyer_name": "HAMPSHIRE COUNTY COUNCIL",
+        "contracts": 1,
+        "value_gbp": 7000
+      },
+      {
+        "buyer_id": "GB-CFS-73899",
+        "buyer_name": "Norfolk County Council",
+        "contracts": 1,
+        "value_gbp": 0
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 7,
+        "value_gbp": 1839174.0890688258
+      },
+      {
+        "code": "80530000",
+        "label": "Vocational training services",
+        "contracts": 2,
+        "value_gbp": 972222.2222222222
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-ac32a6e6-6c9c-4759-a491-6e6411a55dbd",
+        "date": "2024-04-24T00:00:00+01:00",
+        "buyer": "HAMPSHIRE COUNTY COUNCIL",
+        "title": "Learning and skills teacher",
+        "value_gbp": 7000,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-05-20T00:00:00+01:00",
+        "contract_end": "2026-02-22T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5b0645f6-06a4-402a-9190-74176fa99516",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-0383297a-8281-4e3f-a9d4-d843664334e0",
+        "date": "2023-01-17T00:00:00Z",
+        "buyer": "Telford & Wrekin Council",
+        "title": "Apprenticeship Training Services",
+        "value_gbp": 555555.5555555555,
+        "procurement_method": "selective",
+        "cpv_code": "80530000",
+        "cpv_label": "Vocational training services",
+        "contract_start": "2023-05-01T00:00:00+01:00",
+        "contract_end": "2025-05-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9ea871a7-5208-4d00-bd4b-b8c77de792f8",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-efec80a2-81ec-46be-ae35-9b7b3b980041",
+        "date": "2022-09-01T00:00:00+01:00",
+        "buyer": "Hampshire County Council",
+        "title": "Framework for the Provision of Apprenticeship Training Providers - AWARD",
+        "value_gbp": 215384.61538461538,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-09-01T00:00:00+01:00",
+        "contract_end": "2025-08-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/68204d27-f4f0-48c7-bf49-feac4cb94b0b",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f52635a4-ada0-4cff-90be-da522c11567f",
+        "date": "2022-08-31T00:00:00+01:00",
+        "buyer": "Telford & Wrekin Council",
+        "title": "Apprenticeship Training Services",
+        "value_gbp": 416666.6666666667,
+        "procurement_method": "selective",
+        "cpv_code": "80530000",
+        "cpv_label": "Vocational training services",
+        "contract_start": "2022-10-06T00:00:00+01:00",
+        "contract_end": "2025-05-10T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/07f00935-0c60-48ab-87d8-f95c4eee87ac",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c1533901-b9b2-4ea0-a28d-3884133d3b10",
+        "date": "2022-07-18T00:00:00+01:00",
+        "buyer": ".East Riding Of Yorkshire Council",
+        "title": "Apprenticeship levy level 3 events assistant standard",
+        "value_gbp": 9000,
+        "procurement_method": "limited",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-09-01T00:00:00+01:00",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1caaeb01-4b1b-48a5-8e3e-5d4817a4f81e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-083207bc-c2a6-42e3-8237-bc53ad93c097",
+        "date": "2022-01-18T00:00:00Z",
+        "buyer": "Norfolk County Council",
+        "title": "Early Years and Childcare Training Framework Agreement - AWARD",
+        "value_gbp": 0,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2022-02-01T00:00:00Z",
+        "contract_end": "2026-01-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/75f5679d-2152-46dc-a36f-a9c9f65c054c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-c8e08baf-9bfe-4344-b42f-23c175d53938",
+        "date": "2021-05-10T00:00:00+01:00",
+        "buyer": "Nottinghamshire County Council",
+        "title": "Dynamic Purchasing System (DPS) Apprenticeship Training Providers and Associated Training",
+        "value_gbp": 1315789.4736842106,
+        "procurement_method": "open",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-05-11T00:00:00+01:00",
+        "contract_end": "2031-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/57f44cc8-d97f-4435-a2b9-a30126d5700c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-9075ae09-477e-421d-abb7-1b7caebe9a33",
+        "date": "2021-03-12T00:00:00Z",
+        "buyer": "North Yorkshire County Council",
+        "title": "Production Chef Apprenticeship",
+        "value_gbp": 180000,
+        "procurement_method": null,
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-04-01T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/bce5b67b-3a89-4a50-9b2e-d2b7c949d881",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f297282b-440a-4a54-a528-a62f80d2e278",
+        "date": "2019-11-01T00:00:00Z",
+        "buyer": "North Yorkshire County Council",
+        "title": "Cleaning & Catering Apprenticeships",
+        "value_gbp": 112000,
+        "procurement_method": null,
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2019-12-01T00:00:00Z",
+        "contract_end": "2022-11-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/cc776e10-acd8-4900-ac5f-dde4c897f02c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 21686987,
+      "awarded_2024_gbp_from_cf": 7000,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 3098.1× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.0
+    }
+  }
+}

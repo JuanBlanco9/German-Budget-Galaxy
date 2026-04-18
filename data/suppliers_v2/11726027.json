@@ -1,0 +1,341 @@
+{
+  "company_number": "11726027",
+  "display_name": "Lte Group",
+  "identity": {
+    "ch_number": "11726027",
+    "official_name": "LTE GROUP LIMITED",
+    "display_name": "Lte Group",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2018-12-13",
+    "age_years": 7,
+    "registered_office": {
+      "address_line_1": "62-66 Deansgate",
+      "country": "United Kingdom",
+      "locality": "Manchester",
+      "postal_code": "M3 2EN"
+    },
+    "sic_codes": [
+      "47910"
+    ],
+    "sic_labels": [
+      "SIC 47910"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/11726027"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 9006447,
+    "rank": 760,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 9006447,
+        "segments": [
+          {
+            "segment": "ESFA Corporate, Assurance and Restructuring Directorate",
+            "amount_gbp": 9006447,
+            "pct_of_segment": 14.59,
+            "rank_in_segment": 3,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-30",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-micro-entity",
+    "transaction_id": "MzQ4MzI2MjA5M2FkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/11726027_2025-09-30.pdf",
+      "size_mb": 0.03,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "CATON-BROWN, Mason Elliott",
+        "role": "director",
+        "appointed_on": "2018-12-13",
+        "resigned_on": null,
+        "nationality": "English",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1993
+        },
+        "address": {
+          "locality": "Manchester",
+          "postal_code": "M3 2EN",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "CATON-BROWN, Mason Elliott",
+        "role": "director",
+        "appointed_on": "2018-12-13",
+        "resigned_on": null,
+        "nationality": "English",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1993
+        },
+        "address": {
+          "locality": "Manchester",
+          "postal_code": "M3 2EN",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "11726027",
+          "name": "Mr Mason Elliott Caton-Brown",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2018-12-13",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "11726027",
+            "notified_on": "2018-12-13",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/11726027/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Mason Elliott Caton-Brown"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 88,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11726027"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4MzI2MjA5M2FkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/11726027_2025-09-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11726027/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/11726027/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 760,
+    "enriched_at": "2026-04-16T20:40:59Z",
+    "governance_enriched_at": "2026-04-16T22:40:07Z",
+    "ubo_enriched_at": "2026-04-16T23:25:23Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 0,
+      "total_awarded_gbp": 786375,
+      "total_awarded_non_framework_gbp": 0,
+      "years_active": 1,
+      "first_year": 2020,
+      "last_year": 2020,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Justice.",
+        "years_count": 1,
+        "years_list": [
+          2020
+        ],
+        "total_value_gbp": 786375,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 0,
+        "awarded_gbp_total": 786375,
+        "awarded_gbp_non_framework": 0,
+        "awarded_gbp_framework_share": 786375,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Justice.",
+          "contracts": 1,
+          "value_gbp": 786375
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 786375.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 786375.0
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-121051",
+        "buyer_name": "Ministry of Justice.",
+        "contracts": 1,
+        "value_gbp": 786375
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 1,
+        "value_gbp": 786375
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-dc036bfd-87a7-4994-9aaf-9fffeb9c0806",
+        "date": "2020-07-10T00:00:00+01:00",
+        "buyer": "Ministry of Justice.",
+        "title": "Award of a call off contract under the prison education dynamic purchasing system for the supply of IAG services to Yorkshire Group Prisons (LOT17)",
+        "value_gbp": 786375,
+        "procurement_method": "selective",
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2020-11-17T00:00:00Z",
+        "contract_end": "2021-11-16T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b1da4d32-bbf9-49fa-862b-37eae545e28e",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 9006447,
+      "awarded_2024_gbp_from_cf": 786375,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 11.5× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.09
+    }
+  }
+}

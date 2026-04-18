@@ -1,0 +1,359 @@
+{
+  "company_number": "09325413",
+  "display_name": "Historic England (GIA)",
+  "identity": {
+    "ch_number": "09325413",
+    "official_name": "HISTORIC ENGLAND LIMITED",
+    "display_name": "Historic England (GIA)",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2014-11-24",
+    "age_years": 11,
+    "registered_office": {
+      "address_line_1": "The Engine House",
+      "address_line_2": "Fire Fly Avenue",
+      "country": "England",
+      "locality": "Swindon",
+      "postal_code": "SN2 2EH",
+      "region": "Wiltshire"
+    },
+    "sic_codes": [
+      "84120"
+    ],
+    "sic_labels": [
+      "SIC 84120"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/09325413"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 88474000,
+    "rank": 268,
+    "category": "unclear",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_culture_media_and_sport",
+        "dept_name": "DCMS",
+        "amount_gbp": 88474000,
+        "segments": [
+          {
+            "segment": "National Museums & Heritage",
+            "amount_gbp": 88474000,
+            "pct_of_segment": 14.05,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-30",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-dormant",
+    "transaction_id": "MzQ3NTY4OTcyMWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/09325413_2025-07-30.pdf",
+      "size_mb": 0.02,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 1,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "WISEMAN, Andrew David",
+        "role": "director",
+        "appointed_on": "2018-07-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4R 2YA",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "WISEMAN, Andrew David",
+        "role": "director",
+        "appointed_on": "2018-07-31",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1962
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4R 2YA",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 1,
+      "recent": [
+        {
+          "name": "HARLOW, Michael Graham",
+          "role": "director",
+          "appointed_on": "2014-11-24",
+          "resigned_on": "2017-12-15",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1969
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1N 2ST",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-11-24",
+        "ceased_on": null
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "09325413",
+          "terminal": true,
+          "resolution": "no_psc_identified",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ]
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 83,
+    "label": "high",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09325413"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NTY4OTcyMWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/09325413_2025-07-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09325413/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09325413/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 268,
+    "enriched_at": "2026-04-16T19:58:44Z",
+    "governance_enriched_at": "2026-04-16T22:17:36Z",
+    "ubo_enriched_at": "2026-04-16T23:00:13Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2024
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 1,
+      "total_awarded_gbp": 45061,
+      "total_awarded_non_framework_gbp": 45061,
+      "years_active": 1,
+      "first_year": 2024,
+      "last_year": 2024,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "years_count": 1,
+        "years_list": [
+          2024
+        ],
+        "total_value_gbp": 45061,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2024": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 45061,
+        "awarded_gbp_non_framework": 45061,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 100.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+          "contracts": 1,
+          "value_gbp": 45061
+        },
+        "procurement_method_counts": {
+          "limited": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2024": {
+        "top_code": "73210000",
+        "top_label": "Research consultancy services",
+        "top_value_gbp": 45061.0,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": true,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "limited": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "limited": 45061.0
+      },
+      "sole_source_pct_all_years": 100.0,
+      "competitive_pct_all_years": 0.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/dXGP288m",
+        "buyer_name": "UK SHARED BUSINESS SERVICES LIMITED",
+        "contracts": 1,
+        "value_gbp": 45061
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "73210000",
+        "label": "Research consultancy services",
+        "contracts": 1,
+        "value_gbp": 45061
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-fd4898e4-055e-4127-b189-04d6342142db",
+        "date": "2024-03-25T00:00:00Z",
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "title": "PS24094 - Evidence-Gathering on National Centre for Archaeological Archives",
+        "value_gbp": 45061,
+        "procurement_method": "limited",
+        "cpv_code": "73210000",
+        "cpv_label": "Research consultancy services",
+        "contract_start": "2024-01-18T00:00:00Z",
+        "contract_end": "2024-03-25T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d9354ea4-8cc9-486d-a07a-22640d82b4bf",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 88474000,
+      "awarded_2024_gbp_from_cf": 45061,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 1963.4× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.0
+    }
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "company_number": "RC000751",
+  "display_name": "OXFORD UNIVERSITY OF",
+  "identity": {
+    "ch_number": "RC000751",
+    "official_name": "THE PRESIDENT, FELLOWS AND STUDENTS OF TEMPLETON COLLEGE IN   THE UNIVERSITY OF OXFORD",
+    "display_name": "OXFORD UNIVERSITY OF",
+    "status": "active",
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000751"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 33285049,
+    "rank": 484,
+    "category": "academic",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 33285049,
+        "segments": [
+          {
+            "segment": "Chief Scientific Adviser",
+            "amount_gbp": 32730097,
+            "pct_of_segment": 2.1,
+            "rank_in_segment": 14,
+            "type": "University"
+          },
+          {
+            "segment": "NHSE TD",
+            "amount_gbp": 554952,
+            "pct_of_segment": 1.04,
+            "rank_in_segment": 15,
+            "type": "University"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000751",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000751"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000751/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000751/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "academic",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 484,
+    "enriched_at": "2026-04-16T20:16:25Z",
+    "governance_enriched_at": "2026-04-16T22:26:40Z",
+    "ubo_enriched_at": "2026-04-16T23:13:59Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:10Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2013,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "total_contracts": 43,
+      "total_contracts_non_framework": 43,
+      "total_awarded_gbp": 58951201.63,
+      "total_awarded_non_framework_gbp": 58951201.63,
+      "years_active": 6,
+      "first_year": 2013,
+      "last_year": 2024,
+      "trajectory": "declining",
+      "trajectory_note": "CAGR -20.7% between 2020 (£33M) and 2023 (£16M)",
+      "longest_buyer_relationship": {
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "years_count": 3,
+        "years_list": [
+          2020,
+          2022,
+          2023
+        ],
+        "total_value_gbp": 12534564,
+        "n_contracts": 5
+      },
+      "n_unique_buyers_all_years": 19,
+      "max_consecutive_same_buyer_direct": 5
+    },
+    "yearly": {
+      "2013": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 289277.31,
+        "awarded_gbp_non_framework": 289277.31,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "DHSC",
+          "contracts": 1,
+          "value_gbp": 289277.31
+        },
+        "procurement_method_counts": {
+          "unspecified": 1
+        }
+      },
+      "2020": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 9,
+        "awarded_gbp_total": 32744428,
+        "awarded_gbp_non_framework": 32744428,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Health Family",
+          "contracts": 4,
+          "value_gbp": 20153464
+        },
+        "procurement_method_counts": {
+          "unspecified": 9
+        }
+      },
+      "2021": {
+        "n_contracts": 9,
+        "n_contracts_non_framework": 9,
+        "awarded_gbp_total": 5240000,
+        "awarded_gbp_non_framework": 5240000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 4.58,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 4,
+          "value_gbp": 5000000
+        },
+        "procurement_method_counts": {
+          "direct": 5,
+          "selective": 4
+        }
+      },
+      "2022": {
+        "n_contracts": 11,
+        "n_contracts_non_framework": 11,
+        "awarded_gbp_total": 3794745.43,
+        "awarded_gbp_non_framework": 3794745.43,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 14.63,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "HEALTHCARE QUALITY IMPROVEMENT PARTNERSHIP",
+          "contracts": 1,
+          "value_gbp": 2670000
+        },
+        "procurement_method_counts": {
+          "direct": 4,
+          "open": 4,
+          "limited": 2,
+          "unspecified": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 8,
+        "n_contracts_non_framework": 8,
+        "awarded_gbp_total": 16316340.91,
+        "awarded_gbp_non_framework": 16316340.91,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.64,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 8,
+        "top_buyer": {
+          "buyer": "Health Education England",
+          "contracts": 1,
+          "value_gbp": 13862515
+        },
+        "procurement_method_counts": {
+          "direct": 3,
+          "unspecified": 4,
+          "open": 1
+        }
+      },
+      "2024": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 5,
+        "awarded_gbp_total": 566409.98,
+        "awarded_gbp_non_framework": 566409.98,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 12.94,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Waste & Resources Action Programme",
+          "contracts": 1,
+          "value_gbp": 400999.98
+        },
+        "procurement_method_counts": {
+          "unspecified": 3,
+          "direct": 2
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2013": {
+        "top_code": "73110000",
+        "top_label": "Research services",
+        "top_value_gbp": 289277.31,
+        "n_distinct_codes": 1
+      },
+      "2020": {
+        "top_code": "73200000",
+        "top_label": "Research and development consultancy services",
+        "top_value_gbp": 29556628.0,
+        "n_distinct_codes": 3
+      },
+      "2021": {
+        "top_code": "73400000",
+        "top_label": "Research and Development services on security and defence materials",
+        "top_value_gbp": 5000000.0,
+        "n_distinct_codes": 2
+      },
+      "2022": {
+        "top_code": "85000000",
+        "top_label": "Health and social work services",
+        "top_value_gbp": 2670000.0,
+        "n_distinct_codes": 4
+      },
+      "2023": {
+        "top_code": "80000000",
+        "top_label": "Education and training services",
+        "top_value_gbp": 13862515.0,
+        "n_distinct_codes": 8
+      },
+      "2024": {
+        "top_code": "72316000",
+        "top_label": "Data analysis services",
+        "top_value_gbp": 400999.98,
+        "n_distinct_codes": 4
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": true,
+      "consecutive_streak_length": 5,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": true,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": false,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 18,
+        "direct": 14,
+        "selective": 4,
+        "open": 5,
+        "limited": 2
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 48298890.58,
+        "direct": 945611.0499999999,
+        "selective": 5000000.0,
+        "open": 4680000.0,
+        "limited": 26700.0
+      },
+      "sole_source_pct_all_years": 1.65,
+      "competitive_pct_all_years": 16.42,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-151845",
+        "buyer_name": "Health Family",
+        "contracts": 2,
+        "value_gbp": 18534564
+      },
+      {
+        "buyer_id": "GB-CFS-167817",
+        "buyer_name": "Health Education England",
+        "contracts": 1,
+        "value_gbp": 13862515
+      },
+      {
+        "buyer_id": "GB-CFS-156221",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 1,
+        "value_gbp": 10834564
+      },
+      {
+        "buyer_id": "GB-CFS-194135",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 4,
+        "value_gbp": 5000000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/c5Kp8S29",
+        "buyer_name": "HEALTHCARE QUALITY IMPROVEMENT PARTNERSHIP",
+        "contracts": 1,
+        "value_gbp": 2670000
+      },
+      {
+        "buyer_id": "GB-CFS-156189",
+        "buyer_name": "Department of Health and Social Care (DHSC)",
+        "contracts": 3,
+        "value_gbp": 1625000
+      },
+      {
+        "buyer_id": "GB-CFS-152166",
+        "buyer_name": "Health Family",
+        "contracts": 2,
+        "value_gbp": 1618900
+      },
+      {
+        "buyer_id": "GB-CFS-156238",
+        "buyer_name": "Department of Health and Social Care (DHSC - Test and Trace)",
+        "contracts": 1,
+        "value_gbp": 1556400
+      },
+      {
+        "buyer_id": "GB-CFS-57290",
+        "buyer_name": "The Food Standards Agency",
+        "contracts": 7,
+        "value_gbp": 1023045.43
+      },
+      {
+        "buyer_id": "GB-GOR-EA42",
+        "buyer_name": "Defence Science and Technology Laboratory",
+        "contracts": 6,
+        "value_gbp": 953767.63
+      },
+      {
+        "buyer_id": "GB-CFS-251008",
+        "buyer_name": "Waste & Resources Action Programme",
+        "contracts": 1,
+        "value_gbp": 400999.98
+      },
+      {
+        "buyer_id": "GB-CFS-217683",
+        "buyer_name": "DHSC",
+        "contracts": 1,
+        "value_gbp": 289277.31
+      },
+      {
+        "buyer_id": "GB-CFS-288697",
+        "buyer_name": "NHS England",
+        "contracts": 2,
+        "value_gbp": 92090
+      },
+      {
+        "buyer_id": "GB-CFS-153915",
+        "buyer_name": "UK Research & Innovation",
+        "contracts": 1,
+        "value_gbp": 86680
+      },
+      {
+        "buyer_id": "GB-CFS-61985",
+        "buyer_name": "Health Education England",
+        "contracts": 1,
+        "value_gbp": 75000
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "73200000",
+        "label": "Research and development consultancy services",
+        "contracts": 6,
+        "value_gbp": 29556628
+      },
+      {
+        "code": "80000000",
+        "label": "Education and training services",
+        "contracts": 3,
+        "value_gbp": 13954605
+      },
+      {
+        "code": "73400000",
+        "label": "Research and Development services on security and defence materials",
+        "contracts": 4,
+        "value_gbp": 5000000
+      },
+      {
+        "code": "73111000",
+        "label": "Research laboratory services",
+        "contracts": 2,
+        "value_gbp": 3112800
+      },
+      {
+        "code": "85000000",
+        "label": "Health and social work services",
+        "contracts": 1,
+        "value_gbp": 2670000
+      },
+      {
+        "code": "72000000",
+        "label": "IT services: consulting, software development, Internet and support",
+        "contracts": 2,
+        "value_gbp": 1575000
+      },
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 8,
+        "value_gbp": 1063905.4300000002
+      },
+      {
+        "code": "85121200",
+        "label": "Medical specialist services",
+        "contracts": 1,
+        "value_gbp": 713767.63
+      },
+      {
+        "code": "72316000",
+        "label": "Data analysis services",
+        "contracts": 1,
+        "value_gbp": 400999.98
+      },
+      {
+        "code": "73110000",
+        "label": "Research services",
+        "contracts": 1,
+        "value_gbp": 289277.31
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-882659dd-b35a-4878-81ee-92db1b54698b",
+        "date": "2024-11-07T00:00:00Z",
+        "buyer": "DEFRA",
+        "title": "Nature Markets on Goverrment Land",
+        "value_gbp": 14160,
+        "procurement_method": "direct",
+        "cpv_code": "79411000",
+        "cpv_label": "General management consultancy services",
+        "contract_start": "2024-11-07T00:00:00Z",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/53c0cf3d-195d-4d8c-aa9b-972c299fde5f",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-1baa1c0b-4e1f-485d-b24b-c22900923049",
+        "date": "2024-11-01T00:00:00Z",
+        "buyer": "NHS England",
+        "title": "MSc in Global Health Science & Epidemiology 24/25",
+        "value_gbp": 41250,
+        "procurement_method": null,
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2024-11-01T00:00:00Z",
+        "contract_end": "2025-10-30T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f8edda20-a380-4a07-bfbb-04405e6f248e",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-5954d205-aa28-4cf1-aec5-5ce9d4d57684",
+        "date": "2024-06-20T00:00:00+01:00",
+        "buyer": "NHS England",
+        "title": "MSc in Global Health Science & Epidemiology",
+        "value_gbp": 50840,
+        "procurement_method": null,
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2023-10-02T00:00:00+01:00",
+        "contract_end": "2024-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c35edc32-58fc-4895-b061-55262dbcb962",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-84d6af87-2f47-4fde-93eb-14970b80777f",
+        "date": "2024-03-27T00:00:00Z",
+        "buyer": "Waste & Resources Action Programme",
+        "title": "Improving the quality of environmental impact data for food",
+        "value_gbp": 400999.98,
+        "procurement_method": null,
+        "cpv_code": "72316000",
+        "cpv_label": "Data analysis services",
+        "contract_start": "2024-04-03T00:00:00+01:00",
+        "contract_end": "2026-04-02T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/511e6f19-861d-4778-bbbb-4ef67526f695",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-510a5bd7-7e67-4362-80b3-32fe01f12aca",
+        "date": "2024-02-27T00:00:00Z",
+        "buyer": "BANK OF ENGLAND",
+        "title": "University of Oxford AI Masterclass",
+        "value_gbp": 59160,
+        "procurement_method": "direct",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2024-02-27T00:00:00Z",
+        "contract_end": "2024-06-13T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1cde1de0-03d4-488f-9a8d-7c9043fb4025",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-a5a64b0c-f000-40f8-bb3d-3e60c5aaff80",
+        "date": "2023-12-20T00:00:00Z",
+        "buyer": "UK Research & Innovation",
+        "title": "GB-Swindon: UKRI-3622  Bandpass Filters",
+        "value_gbp": 86680,
+        "procurement_method": null,
+        "cpv_code": "42913000",
+        "cpv_label": "Oil, petrol and air-intake filters",
+        "contract_start": "2023-12-22T00:00:00Z",
+        "contract_end": "2024-03-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8d01b3c8-9247-410c-8286-84119abfc635",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-b0cb13f4-7631-46ac-a332-362244ba11de",
+        "date": "2023-09-19T00:00:00+01:00",
+        "buyer": "MINISTRY OF DEFENCE",
+        "title": "PhD Research into Enhanced Assessment of Coronary Disease and Cardiovascular Disease",
+        "value_gbp": 40860,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2023-10-01T00:00:00+01:00",
+        "contract_end": "2026-10-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/80367f63-ea48-45e9-bc27-6479f006c095",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-63e3616f-aa7c-4cbe-a633-1bec4c472d7d",
+        "date": "2023-07-01T00:00:00+01:00",
+        "buyer": "Social Mobility Commission",
+        "title": "Updating 'Childhood Origins of Social Mobility' Report",
+        "value_gbp": 22825,
+        "procurement_method": "direct",
+        "cpv_code": "79315000",
+        "cpv_label": "Social research services",
+        "contract_start": "2023-07-01T00:00:00+01:00",
+        "contract_end": "2024-03-15T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c8dd0a95-5371-4209-8ca5-b4cfe7e038a2",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-9a3276dd-707d-414d-b03d-75e6058f4589",
+        "date": "2023-03-30T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "Perinatal Mortality Review Tool",
+        "value_gbp": 1500000,
+        "procurement_method": "open",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2023-04-01T00:00:00+01:00",
+        "contract_end": "2026-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f59231c8-4232-44d6-8719-c889b13d9c77",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-2d8ca6e9-3b9a-4b11-93ad-eeaed14b2605",
+        "date": "2023-03-01T00:00:00Z",
+        "buyer": "Health Education England",
+        "title": "Oxford Health and Oxford University Consortium - Education Contract",
+        "value_gbp": 13862515,
+        "procurement_method": null,
+        "cpv_code": "80000000",
+        "cpv_label": "Education and training services",
+        "contract_start": "2021-03-01T00:00:00Z",
+        "contract_end": "2026-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/48345aac-6d41-4caa-9712-5cf9013b897e",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-509831a0-dadf-4fcd-be8b-f9c39dbe6255",
+        "date": "2023-02-23T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "DSTL0000013955",
+        "value_gbp": 713767.63,
+        "procurement_method": null,
+        "cpv_code": "85121200",
+        "cpv_label": "Medical specialist services",
+        "contract_start": "2023-02-24T00:00:00Z",
+        "contract_end": "2026-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1e4a63ce-6adb-4fb6-afd3-8c3b6310b976",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-ed620614-b509-4fee-9dbb-7b3a3e33f994",
+        "date": "2023-01-11T00:00:00Z",
+        "buyer": "Medicines and Healthcare Products Regulatory Agency",
+        "title": "Archive Video Outputs on Medicines and Devices (Healthtalk edited Training Videos)",
+        "value_gbp": 39975.42,
+        "procurement_method": "direct",
+        "cpv_code": "92111100",
+        "cpv_label": "Training-film and video-tape production",
+        "contract_start": "2023-01-11T00:00:00Z",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a40a848f-34ab-44bb-8a2e-8f610ddb8cca",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-944c5ec6-94d8-4a0d-a325-e17aed8b40f5",
+        "date": "2023-01-11T00:00:00Z",
+        "buyer": "THE UNIVERSITY OF BIRMINGHAM",
+        "title": "Contract for the Provision of Services to the University of Birmingham",
+        "value_gbp": 49717.86,
+        "procurement_method": null,
+        "cpv_code": "71900000",
+        "cpv_label": "Laboratory services",
+        "contract_start": "2023-02-06T00:00:00Z",
+        "contract_end": "2023-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/469b1f11-74f2-48af-ae53-33fef33351cd",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-14cd4491-0d2e-464c-98c1-676e6cea5f06",
+        "date": "2022-09-14T00:00:00+01:00",
+        "buyer": "Department of Health and Social Care (DHSC)",
+        "title": "DHSC: Policy: Perinatal Mortality Review Tool (PMRT) Interim",
+        "value_gbp": 75000,
+        "procurement_method": "direct",
+        "cpv_code": "72000000",
+        "cpv_label": "IT services: consulting, software development, Internet and support",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2023-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a6f71076-ff23-40fe-ae11-f905c1e622f0",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-eb970239-b5ed-496e-8a9d-5b3dc9bf8fc9",
+        "date": "2022-07-27T00:00:00+01:00",
+        "buyer": "HEALTHCARE QUALITY IMPROVEMENT PARTNERSHIP",
+        "title": "Maternal Newborn & Infant Clinical Outcome Review Programme",
+        "value_gbp": 2670000,
+        "procurement_method": "open",
+        "cpv_code": "85000000",
+        "cpv_label": "Health and social work services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/dde8f944-8833-4c66-b11b-a2c6cd7cf9c7",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-bac48a33-61ab-4ccb-bacb-3e6ac77c1069",
+        "date": "2022-05-24T00:00:00+01:00",
+        "buyer": "The Food Standards Agency",
+        "title": "PATH-SAFE Workstream 1 - Discovery",
+        "value_gbp": 151210.21,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-05-24T00:00:00+01:00",
+        "contract_end": "2022-09-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4c24d372-7207-45f9-ba47-7988fd79fcf0",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-bac48a33-61ab-4ccb-bacb-3e6ac77c1069",
+        "date": "2022-05-24T00:00:00+01:00",
+        "buyer": "The Food Standards Agency",
+        "title": "PATH-SAFE Workstream 1 - Discovery",
+        "value_gbp": 151210.21,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-05-24T00:00:00+01:00",
+        "contract_end": "2022-09-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4c24d372-7207-45f9-ba47-7988fd79fcf0",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-bac48a33-61ab-4ccb-bacb-3e6ac77c1069",
+        "date": "2022-05-24T00:00:00+01:00",
+        "buyer": "The Food Standards Agency",
+        "title": "PATH-SAFE Workstream 1 - Discovery",
+        "value_gbp": 151210.21,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-05-24T00:00:00+01:00",
+        "contract_end": "2022-09-14T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/4c24d372-7207-45f9-ba47-7988fd79fcf0",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-e49d5e07-980d-4ff7-820d-34aba676947d",
+        "date": "2022-03-29T00:00:00+01:00",
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "title": "CS22169 Innovation Strategy for Life Sciences and Healthcare Training",
+        "value_gbp": 13350,
+        "procurement_method": "limited",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2022-03-29T00:00:00+01:00",
+        "contract_end": "2022-03-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5dfd361e-5f73-4df7-94b1-a7ebdc332b7f",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-e49d5e07-980d-4ff7-820d-34aba676947d",
+        "date": "2022-03-29T00:00:00+01:00",
+        "buyer": "UK SHARED BUSINESS SERVICES LIMITED",
+        "title": "CS22169 Innovation Strategy for Life Sciences and Healthcare Training",
+        "value_gbp": 13350,
+        "procurement_method": "limited",
+        "cpv_code": "80500000",
+        "cpv_label": "Training services",
+        "contract_start": "2022-03-29T00:00:00+01:00",
+        "contract_end": "2022-03-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5dfd361e-5f73-4df7-94b1-a7ebdc332b7f",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-1a50790d-e29a-47c8-9a70-37ff9a5b7780",
+        "date": "2022-03-07T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "Supply of a PATH-SAFE Science Lead Fellowship",
+        "value_gbp": 59414.8,
+        "procurement_method": null,
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-03-07T00:00:00Z",
+        "contract_end": "2024-06-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/68fe2c33-3a8f-4f2e-8268-f4a321e2a982",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-9968c405-5322-4506-bd22-a7b37a01504e",
+        "date": "2022-03-03T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS900203 Understanding the Food system",
+        "value_gbp": 170000,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-01-04T00:00:00Z",
+        "contract_end": "2023-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/45298909-a7c5-4909-b3ee-ff8e24b517d8",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-9968c405-5322-4506-bd22-a7b37a01504e",
+        "date": "2022-03-03T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS900203 Understanding the Food system",
+        "value_gbp": 170000,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-01-04T00:00:00Z",
+        "contract_end": "2023-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/45298909-a7c5-4909-b3ee-ff8e24b517d8",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-9968c405-5322-4506-bd22-a7b37a01504e",
+        "date": "2022-03-03T00:00:00Z",
+        "buyer": "The Food Standards Agency",
+        "title": "FS900203 Understanding the Food system",
+        "value_gbp": 170000,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-01-04T00:00:00Z",
+        "contract_end": "2023-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/45298909-a7c5-4909-b3ee-ff8e24b517d8",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-1876abbe-6789-4fb0-9332-bf9358cb1828",
+        "date": "2021-11-03T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "4 year PhD - PULSAR",
+        "value_gbp": 48000,
+        "procurement_method": "direct",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2021-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f0c66bc3-0e28-491e-93b3-9070b84e3858",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-1876abbe-6789-4fb0-9332-bf9358cb1828",
+        "date": "2021-11-03T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "4 year PhD - PULSAR",
+        "value_gbp": 48000,
+        "procurement_method": "direct",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2021-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f0c66bc3-0e28-491e-93b3-9070b84e3858",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-1876abbe-6789-4fb0-9332-bf9358cb1828",
+        "date": "2021-11-03T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "4 year PhD - PULSAR",
+        "value_gbp": 48000,
+        "procurement_method": "direct",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2021-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f0c66bc3-0e28-491e-93b3-9070b84e3858",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-1876abbe-6789-4fb0-9332-bf9358cb1828",
+        "date": "2021-11-03T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "4 year PhD - PULSAR",
+        "value_gbp": 48000,
+        "procurement_method": "direct",
+        "cpv_code": "73100000",
+        "cpv_label": "Research and experimental development services",
+        "contract_start": "2021-10-01T00:00:00+01:00",
+        "contract_end": "2025-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/f0c66bc3-0e28-491e-93b3-9070b84e3858",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-3e947cc9-8690-4a81-ae73-6dfcd0695be8",
+        "date": "2021-09-02T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "UK Academic Centre of Excellence in Hypersonics Science and Technology",
+        "value_gbp": 1250000,
+        "procurement_method": "selective",
+        "cpv_code": "73400000",
+        "cpv_label": "Research and Development services on security and defence materials",
+        "contract_start": "2021-09-02T00:00:00+01:00",
+        "contract_end": "2026-09-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8b3587dd-f576-4aca-ae8c-2bbd3fab8e6b",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      },
+      {
+        "ocid": "ocds-b5fd17-3e947cc9-8690-4a81-ae73-6dfcd0695be8",
+        "date": "2021-09-02T00:00:00+01:00",
+        "buyer": "Ministry of Defence",
+        "title": "UK Academic Centre of Excellence in Hypersonics Science and Technology",
+        "value_gbp": 1250000,
+        "procurement_method": "selective",
+        "cpv_code": "73400000",
+        "cpv_label": "Research and Development services on security and defence materials",
+        "contract_start": "2021-09-02T00:00:00+01:00",
+        "contract_end": "2026-09-01T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8b3587dd-f576-4aca-ae8c-2bbd3fab8e6b",
+        "resolution_method": "fuzzy_token_overlap_75",
+        "resolution_confidence": "medium"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 33285049,
+      "awarded_2024_gbp_from_cf": 566409.98,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 58.8× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.02
+    }
+  }
+}

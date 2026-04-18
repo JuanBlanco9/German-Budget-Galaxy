@@ -1,0 +1,558 @@
+{
+  "company_number": "RC000658",
+  "display_name": "LEEDS UNIVERSITY OF",
+  "identity": {
+    "ch_number": "RC000658",
+    "official_name": "UNIVERSITY OF LEEDS",
+    "display_name": "LEEDS UNIVERSITY OF",
+    "status": "active",
+    "type": "royal-charter",
+    "jurisdiction": "england-wales",
+    "incorporated": null,
+    "age_years": null,
+    "registered_office": null,
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "high_overlap",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/RC000658"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 38328797,
+    "rank": 448,
+    "category": "academic",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_of_health",
+        "dept_name": "Department of Health and Social Care",
+        "amount_gbp": 38328797,
+        "segments": [
+          {
+            "segment": "Chief Scientific Adviser",
+            "amount_gbp": 38328797,
+            "pct_of_segment": 2.46,
+            "rank_in_segment": 8,
+            "type": "University"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "RC000658",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 68,
+    "label": "medium",
+    "reasons": [
+      [
+        "+5",
+        "high_overlap_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/RC000658"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000658/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/RC000658/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "academic",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 448,
+    "enriched_at": "2026-04-16T20:13:15Z",
+    "governance_enriched_at": "2026-04-16T22:25:03Z",
+    "ubo_enriched_at": "2026-04-16T23:13:12Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:10Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "summary": {
+      "total_contracts": 12,
+      "total_contracts_non_framework": 11,
+      "total_awarded_gbp": 9348192.272727273,
+      "total_awarded_non_framework_gbp": 8895465.0,
+      "years_active": 3,
+      "first_year": 2020,
+      "last_year": 2022,
+      "trajectory": "sparse",
+      "trajectory_note": "fewer than 2 years with >=£1M non-framework",
+      "longest_buyer_relationship": {
+        "buyer": "Business Energy and Industrial Strategy",
+        "years_count": 2,
+        "years_list": [
+          2021,
+          2022
+        ],
+        "total_value_gbp": 502590.2727272727,
+        "n_contracts": 2
+      },
+      "n_unique_buyers_all_years": 9,
+      "max_consecutive_same_buyer_direct": 2
+    },
+    "yearly": {
+      "2020": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 8142870.0,
+        "awarded_gbp_non_framework": 8142870.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 1.47,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "FOREIGN, COMMONWEALTH AND DEVELOPMENT OFFICE",
+          "contracts": 1,
+          "value_gbp": 7972870
+        },
+        "procurement_method_counts": {
+          "open": 2,
+          "direct": 1
+        }
+      },
+      "2021": {
+        "n_contracts": 5,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 748406.2727272727,
+        "awarded_gbp_non_framework": 295679.0,
+        "awarded_gbp_framework_share": 452727.2727272727,
+        "sole_source_pct": 35.5,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 4,
+        "top_buyer": {
+          "buyer": "Business Energy and Industrial Strategy",
+          "contracts": 1,
+          "value_gbp": 452727.2727272727
+        },
+        "procurement_method_counts": {
+          "direct": 3,
+          "open": 2
+        }
+      },
+      "2022": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 456916.0,
+        "awarded_gbp_non_framework": 456916.0,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 37.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 3,
+        "top_buyer": {
+          "buyer": "Defence Science and Technology Laboratory",
+          "contracts": 2,
+          "value_gbp": 317225.49
+        },
+        "procurement_method_counts": {
+          "direct": 2,
+          "unspecified": 1,
+          "open": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2020": {
+        "top_code": "75211200",
+        "top_label": "Foreign economic-aid-related services",
+        "top_value_gbp": 7972870.0,
+        "n_distinct_codes": 3
+      },
+      "2021": {
+        "top_code": "73110000",
+        "top_label": "Research services",
+        "top_value_gbp": 482707.2727272727,
+        "n_distinct_codes": 3
+      },
+      "2022": {
+        "top_code": "73000000",
+        "top_label": "Research and development services and related consultancy services",
+        "top_value_gbp": 317225.49,
+        "n_distinct_codes": 3
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 2,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 5,
+        "direct": 6,
+        "unspecified": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 8703600.762727274,
+        "direct": 554764.0,
+        "unspecified": 89827.51
+      },
+      "sole_source_pct_all_years": 5.93,
+      "competitive_pct_all_years": 93.1,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-GOR-D8",
+        "buyer_name": "FOREIGN, COMMONWEALTH AND DEVELOPMENT OFFICE",
+        "contracts": 1,
+        "value_gbp": 7972870
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/57hG7nME",
+        "buyer_name": "Business Energy and Industrial Strategy",
+        "contracts": 2,
+        "value_gbp": 502590.2727272727
+      },
+      {
+        "buyer_id": "GB-GOR-EA42",
+        "buyer_name": "Defence Science and Technology Laboratory",
+        "contracts": 2,
+        "value_gbp": 317225.49
+      },
+      {
+        "buyer_id": "GB-CFS-42572",
+        "buyer_name": "Public Health England",
+        "contracts": 2,
+        "value_gbp": 165699.0
+      },
+      {
+        "buyer_id": "GB-GOR-OT1150",
+        "buyer_name": "RADIOACTIVE WASTE MANAGEMENT LIMITED",
+        "contracts": 1,
+        "value_gbp": 120000
+      },
+      {
+        "buyer_id": "GB-GOR-D240",
+        "buyer_name": "O F W A T",
+        "contracts": 1,
+        "value_gbp": 100000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/HHz44pYB",
+        "buyer_name": "THE UNIVERSITY OF BIRMINGHAM",
+        "contracts": 1,
+        "value_gbp": 89827.51
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/au8q6EUc",
+        "buyer_name": "CENTRE FOR PROCESS INNOVATION LIMITED",
+        "contracts": 1,
+        "value_gbp": 50000.0
+      },
+      {
+        "buyer_id": "GB-CFS-99743",
+        "buyer_name": "Cabinet Office : Cabinet Office",
+        "contracts": 1,
+        "value_gbp": 29980
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "75211200",
+        "label": "Foreign economic-aid-related services",
+        "contracts": 1,
+        "value_gbp": 7972870
+      },
+      {
+        "code": "73000000",
+        "label": "Research and development services and related consultancy services",
+        "contracts": 4,
+        "value_gbp": 537225.49
+      },
+      {
+        "code": "73110000",
+        "label": "Research services",
+        "contracts": 3,
+        "value_gbp": 532570.2727272727
+      },
+      {
+        "code": "38000000",
+        "label": "Laboratory, optical and precision equipments (excl. glasses)",
+        "contracts": 3,
+        "value_gbp": 255526.51
+      },
+      {
+        "code": "73200000",
+        "label": "Research and development consultancy services",
+        "contracts": 1,
+        "value_gbp": 50000.0
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-b4cd3aad-a20a-4289-ad78-36397115064c",
+        "date": "2022-12-22T00:00:00Z",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "ACC6033834 -  Precision Time Synchronization",
+        "value_gbp": 198023.49,
+        "procurement_method": "open",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2023-01-09T00:00:00Z",
+        "contract_end": "2023-07-09T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/d1c97aa2-2c9f-472d-b672-e6f45890fd38",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-14d0c1fc-855a-4545-aea8-f0c97c525e54",
+        "date": "2022-12-06T00:00:00Z",
+        "buyer": "Business Energy and Industrial Strategy",
+        "title": "PROVISION OF UPDATING THE MODELLED BENEFITS FROM RESOURCE EFFICIENCY TO THE DEPARTMENT OF BUSINESS, ENERGY AND INDUSTRIAL STRATEGY",
+        "value_gbp": 49863,
+        "procurement_method": "direct",
+        "cpv_code": "73110000",
+        "cpv_label": "Research services",
+        "contract_start": "2022-11-28T00:00:00Z",
+        "contract_end": "2024-02-29T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/05257b51-40f3-4174-9114-931614469396",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-ae994588-5aa3-466e-9762-2e254e1deb4f",
+        "date": "2022-09-28T00:00:00+01:00",
+        "buyer": "Defence Science and Technology Laboratory",
+        "title": "4 Year PhD",
+        "value_gbp": 119202,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2022-10-01T00:00:00+01:00",
+        "contract_end": "2026-09-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/8b71c5fd-be6d-4846-b57d-d5cbf9da3e00",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-25361e8c-cb17-4e51-9293-e72e29e3e550",
+        "date": "2022-05-30T00:00:00+01:00",
+        "buyer": "THE UNIVERSITY OF BIRMINGHAM",
+        "title": "Contract for the Supply of Scientific and Laboratory Equipment to the  University of Birmingham",
+        "value_gbp": 89827.51,
+        "procurement_method": null,
+        "cpv_code": "38000000",
+        "cpv_label": "Laboratory, optical and precision equipments (excl. glasses)",
+        "contract_start": "2022-05-30T00:00:00+01:00",
+        "contract_end": "2022-06-23T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b0bdfa81-97c3-4986-9825-975e9ba2f487",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-f5a8a3a2-c49a-47f0-b1c5-11116026031c",
+        "date": "2021-07-29T00:00:00+01:00",
+        "buyer": "O F W A T",
+        "title": "Econometric Advice",
+        "value_gbp": 100000,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2021-07-30T00:00:00+01:00",
+        "contract_end": "2025-07-29T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3b6905a9-620b-4734-8685-c745055408f3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d27140dc-399c-495e-81e7-cef6eb315a98",
+        "date": "2021-07-14T00:00:00+01:00",
+        "buyer": "Business Energy and Industrial Strategy",
+        "title": "Climate Services for a Net Zero World (CS-N0W)",
+        "value_gbp": 452727.2727272727,
+        "procurement_method": "open",
+        "cpv_code": "73110000",
+        "cpv_label": "Research services",
+        "contract_start": "2021-07-14T00:00:00+01:00",
+        "contract_end": "2025-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/25cad504-d0ba-4431-bdae-0d495e8e11e3",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-aeb685d4-1366-4aa4-9f00-33cd36bebe25",
+        "date": "2021-04-21T00:00:00+01:00",
+        "buyer": "Cabinet Office : Cabinet Office",
+        "title": "Provision of a Systematic Review of the Evidence of the Lived Experience of Disabled People in the UK",
+        "value_gbp": 29980,
+        "procurement_method": "open",
+        "cpv_code": "73110000",
+        "cpv_label": "Research services",
+        "contract_start": "2021-04-29T00:00:00+01:00",
+        "contract_end": "2021-10-28T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/9e008994-2817-4703-807a-b61526b66d24",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6d4ab96b-4b91-433e-bfa2-7f454e73ecb1",
+        "date": "2021-01-11T00:00:00Z",
+        "buyer": "Public Health England",
+        "title": "PHE_ Scientific Leeds Surveillance testing for C.Difficile  infection",
+        "value_gbp": 82849.5,
+        "procurement_method": "direct",
+        "cpv_code": "38000000",
+        "cpv_label": "Laboratory, optical and precision equipments (excl. glasses)",
+        "contract_start": "2021-01-11T00:00:00Z",
+        "contract_end": "2022-01-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1a0b01bf-49b6-4bb6-81cf-b47684ecbe9d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-6d4ab96b-4b91-433e-bfa2-7f454e73ecb1",
+        "date": "2021-01-11T00:00:00Z",
+        "buyer": "Public Health England",
+        "title": "PHE_ Scientific Leeds Surveillance testing for C.Difficile  infection",
+        "value_gbp": 82849.5,
+        "procurement_method": "direct",
+        "cpv_code": "38000000",
+        "cpv_label": "Laboratory, optical and precision equipments (excl. glasses)",
+        "contract_start": "2021-01-11T00:00:00Z",
+        "contract_end": "2022-01-10T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1a0b01bf-49b6-4bb6-81cf-b47684ecbe9d",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-107222f5-8032-4032-b6ac-e915dbc67a37",
+        "date": "2020-10-26T00:00:00Z",
+        "buyer": "CENTRE FOR PROCESS INNOVATION LIMITED",
+        "title": "Supply of Consultancy in Relation to SMEs in the Food & Drink Industry Sector",
+        "value_gbp": 50000.0,
+        "procurement_method": "open",
+        "cpv_code": "73200000",
+        "cpv_label": "Research and development consultancy services",
+        "contract_start": "2020-10-28T00:00:00Z",
+        "contract_end": "2023-10-27T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/834ae9cb-ff6b-4545-9f52-93d57842cf6f",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-e3836c49-73d0-4411-9925-23dab487265d",
+        "date": "2020-04-30T00:00:00+01:00",
+        "buyer": "FOREIGN, COMMONWEALTH AND DEVELOPMENT OFFICE",
+        "title": "PO 8616 - HEALTH RESEARCH PROGRAMME CONSORTIA (RPCS): FILLING THE GAPS IN EVIDENCE: BUILDING STRONGER AND MORE RESILIENT HEALTH SYSTEMS - LOT 1 Contract Award",
+        "value_gbp": 7972870,
+        "procurement_method": "open",
+        "cpv_code": "75211200",
+        "cpv_label": "Foreign economic-aid-related services",
+        "contract_start": "2020-05-01T00:00:00+01:00",
+        "contract_end": "2026-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/01d5c708-b394-4d56-9fe5-698312a2b0e7",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-06b7a508-501b-4398-bc4c-f3fd0e6f35b5",
+        "date": "2020-03-26T00:00:00Z",
+        "buyer": "RADIOACTIVE WASTE MANAGEMENT LIMITED",
+        "title": "PhD Leeds Hydrothermal Aging",
+        "value_gbp": 120000,
+        "procurement_method": "direct",
+        "cpv_code": "73000000",
+        "cpv_label": "Research and development services and related consultancy services",
+        "contract_start": "2020-03-27T00:00:00Z",
+        "contract_end": "2024-03-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/626b2ebf-c74b-4b90-9e6d-2196c3e0882c",
+        "resolution_method": "direct_ch_id",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 38328797,
+      "awarded_2024_gbp_from_cf": 9348192.272727273,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 4.1× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.24
+    }
+  }
+}

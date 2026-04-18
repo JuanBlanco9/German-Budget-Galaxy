@@ -1,0 +1,381 @@
+{
+  "company_number": "07116293",
+  "display_name": "HMRC",
+  "identity": {
+    "ch_number": "07116293",
+    "official_name": "HMRCO LIMITED",
+    "display_name": "HMRC",
+    "status": "dissolved",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2010-01-05",
+    "age_years": 16,
+    "registered_office": {
+      "address_line_1": "Flat 1 17 Narborough Road",
+      "country": "United Kingdom",
+      "locality": "Leicester",
+      "postal_code": "LE3 0LE"
+    },
+    "sic_codes": [
+      "7414"
+    ],
+    "sic_labels": [
+      "SIC 7414"
+    ],
+    "ch_match_quality": "prefix",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/07116293"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 24699355,
+    "rank": 544,
+    "category": "unclear",
+    "n_departments": 3,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 13794867,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Teachers and Tutors Directorate (TAT)",
+            "amount_gbp": 12746303,
+            "pct_of_segment": 3.73,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Teaching Workforce: Candidates, Trainees, Strategy, Portfolio and Analysis Directorate (CaTSPA)",
+            "amount_gbp": 1048564,
+            "pct_of_segment": 1.36,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "cabinet_office",
+        "dept_name": "Cabinet Office",
+        "amount_gbp": 10531214,
+        "segments": [
+          {
+            "segment": "Cabinet Office",
+            "amount_gbp": 10531214,
+            "pct_of_segment": 1.32,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 373274,
+        "segments": [
+          {
+            "segment": "Other Programmes",
+            "amount_gbp": 373274,
+            "pct_of_segment": 0.21,
+            "rank_in_segment": 18,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 1,
+    "officers_resigned_count": 2,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BILAL, Hassan",
+        "role": "director",
+        "appointed_on": "2010-02-15",
+        "resigned_on": null,
+        "nationality": "Pakistani",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1985
+        },
+        "address": {
+          "locality": "Leicester",
+          "postal_code": "LE3 0LE",
+          "country": null
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BILAL, Hassan",
+        "role": "director",
+        "appointed_on": "2010-02-15",
+        "resigned_on": null,
+        "nationality": "Pakistani",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1985
+        },
+        "address": {
+          "locality": "Leicester",
+          "postal_code": "LE3 0LE",
+          "country": null
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 2,
+      "recent": [
+        {
+          "name": "KHAN, Ahmed",
+          "role": "director",
+          "appointed_on": "2010-04-12",
+          "resigned_on": "2010-04-13",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E11 2JE",
+            "country": null
+          }
+        },
+        {
+          "name": "SHAH, Muhammad Azhar",
+          "role": "director",
+          "appointed_on": "2010-01-05",
+          "resigned_on": "2010-01-06",
+          "nationality": "Pakistani",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1976
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "E6 1HS",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "07116293",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 45,
+    "label": "low",
+    "reasons": [
+      [
+        "+15",
+        "prefix_name_match"
+      ],
+      [
+        "-25",
+        "company_dissolved_with_high_spend"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07116293"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07116293/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07116293/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 544,
+    "enriched_at": "2026-04-16T20:21:14Z",
+    "governance_enriched_at": "2026-04-16T22:29:18Z",
+    "ubo_enriched_at": "2026-04-16T23:16:44Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2022
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 1,
+      "total_awarded_gbp": 11528333.333333334,
+      "total_awarded_non_framework_gbp": 11528333.333333334,
+      "years_active": 1,
+      "first_year": 2022,
+      "last_year": 2022,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "years_count": 1,
+        "years_list": [
+          2022
+        ],
+        "total_value_gbp": 11528333.333333334,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2022": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 11528333.333333334,
+        "awarded_gbp_non_framework": 11528333.333333334,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+          "contracts": 1,
+          "value_gbp": 11528333.333333334
+        },
+        "procurement_method_counts": {
+          "open": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2022": {
+        "top_code": "66000000",
+        "top_label": "Financial and insurance services",
+        "top_value_gbp": 11528333.333333334,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "open": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "open": 11528333.333333334
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-179733",
+        "buyer_name": "DVLA - Driver & Vehicle Licensing Agency",
+        "contracts": 1,
+        "value_gbp": 11528333.333333334
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "66000000",
+        "label": "Financial and insurance services",
+        "contracts": 1,
+        "value_gbp": 11528333.333333334
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-e5a0ce08-e07c-42ed-a26e-c602d8e359fe",
+        "date": "2022-05-31T00:00:00+01:00",
+        "buyer": "DVLA - Driver & Vehicle Licensing Agency",
+        "title": "Provision of Merchant Acquirer Services",
+        "value_gbp": 11528333.333333334,
+        "procurement_method": "open",
+        "cpv_code": "66000000",
+        "cpv_label": "Financial and insurance services",
+        "contract_start": "2022-05-31T00:00:00+01:00",
+        "contract_end": "2025-05-31T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c4d0a59a-e455-4ef8-8b3b-cb0755131f51",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 24699355,
+      "awarded_2024_gbp_from_cf": 11528333.333333334,
+      "signal": "paid_exceeds_awarded",
+      "note": "Paid 2.1× awarded — payments on existing contracts, scope changes, or framework draw-downs not in new notices.",
+      "ratio": 0.47
+    }
+  }
+}

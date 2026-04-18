@@ -1,0 +1,540 @@
+{
+  "company_number": "NF002874",
+  "display_name": "MOTOROLA LIMITED",
+  "identity": {
+    "ch_number": "NF002874",
+    "official_name": "MOTOROLA LIMITED",
+    "display_name": "MOTOROLA LIMITED",
+    "status": "converted-closed",
+    "type": "oversea-company",
+    "jurisdiction": "united-kingdom",
+    "incorporated": "1990-01-29",
+    "age_years": 36,
+    "registered_office": {
+      "address_line_1": "Unit 85 Dunlop Commercial Park",
+      "address_line_2": "Balloo",
+      "locality": "Bangor",
+      "region": "Co Down"
+    },
+    "sic_codes": [],
+    "sic_labels": [],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/NF002874"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 8568056,
+    "rank": 776,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 8568056,
+        "segments": [
+          {
+            "segment": "PSG - Public Safety Group",
+            "amount_gbp": 8568056,
+            "pct_of_segment": 0.99,
+            "rank_in_segment": 13,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": null,
+  "governance": {
+    "officers_active_count": 0,
+    "officers_resigned_count": 0,
+    "board_turnover_ratio": 0.0,
+    "board_turnover_signal": "low",
+    "active_directors": [],
+    "secretaries": [],
+    "all_active_officers": [],
+    "resigned_officers_summary": {
+      "count": 0,
+      "recent": []
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "data_gap",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "NF002874",
+          "terminal": true,
+          "resolution": "data_gap_other",
+          "statements": [],
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 63,
+    "label": "medium",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "-10",
+        "company_converted-closed"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-10",
+        "foreign_jurisdiction_for_uk_contract"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/NF002874"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/NF002874/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/NF002874/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 776,
+    "enriched_at": "2026-04-16T20:42:18Z",
+    "governance_enriched_at": "2026-04-16T22:40:43Z",
+    "ubo_enriched_at": "2026-04-16T23:25:53Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2015,
+      2019,
+      2021,
+      2023
+    ],
+    "summary": {
+      "total_contracts": 11,
+      "total_contracts_non_framework": 11,
+      "total_awarded_gbp": 2867654481.7,
+      "total_awarded_non_framework_gbp": 2867654481.7,
+      "years_active": 4,
+      "first_year": 2015,
+      "last_year": 2023,
+      "trajectory": "gap_in_history",
+      "trajectory_note": "no data for 2022",
+      "longest_buyer_relationship": {
+        "buyer": "Home Office",
+        "years_count": 3,
+        "years_list": [
+          2015,
+          2019,
+          2023
+        ],
+        "total_value_gbp": 2866547019,
+        "n_contracts": 9
+      },
+      "n_unique_buyers_all_years": 3,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2015": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 1228500000,
+        "awarded_gbp_non_framework": 1228500000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 3,
+          "value_gbp": 1228500000
+        },
+        "procurement_method_counts": {
+          "unspecified": 3
+        }
+      },
+      "2019": {
+        "n_contracts": 4,
+        "n_contracts_non_framework": 4,
+        "awarded_gbp_total": 1638000000,
+        "awarded_gbp_non_framework": 1638000000,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Home Office",
+          "contracts": 4,
+          "value_gbp": 1638000000
+        },
+        "procurement_method_counts": {
+          "unspecified": 4
+        }
+      },
+      "2021": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 388323.6,
+        "awarded_gbp_non_framework": 388323.6,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "HIGHWAYS ENGLAND COMPANY LIMITED",
+          "contracts": 1,
+          "value_gbp": 388323.6
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      },
+      "2023": {
+        "n_contracts": 3,
+        "n_contracts_non_framework": 3,
+        "awarded_gbp_total": 766158.1,
+        "awarded_gbp_non_framework": 766158.1,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 2,
+        "top_buyer": {
+          "buyer": "LANCASHIRE CONSTABULARY",
+          "contracts": 1,
+          "value_gbp": 719139.1
+        },
+        "procurement_method_counts": {
+          "selective": 3
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2015": {
+        "top_code": "32500000",
+        "top_label": "Telecommunications equipment and supplies",
+        "top_value_gbp": 1228500000.0,
+        "n_distinct_codes": 1
+      },
+      "2019": {
+        "top_code": "32500000",
+        "top_label": "Telecommunications equipment and supplies",
+        "top_value_gbp": 1638000000.0,
+        "n_distinct_codes": 1
+      },
+      "2021": {
+        "top_code": "71311210",
+        "top_label": "Highways consultancy services",
+        "top_value_gbp": 388323.6,
+        "n_distinct_codes": 1
+      },
+      "2023": {
+        "top_code": "30200000",
+        "top_label": "Computer equipment and supplies",
+        "top_value_gbp": 719139.1,
+        "n_distinct_codes": 2
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": false,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "unspecified": 7,
+        "selective": 4
+      },
+      "procurement_method_value_gbp_all_years": {
+        "unspecified": 2866500000.0,
+        "selective": 1154481.7
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 0.04,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-188915",
+        "buyer_name": "Home Office",
+        "contracts": 7,
+        "value_gbp": 2866500000
+      },
+      {
+        "buyer_id": "GB-SRS-sid4gov.cabinetoffice.gov.uk/zbKz776r",
+        "buyer_name": "LANCASHIRE CONSTABULARY",
+        "contracts": 1,
+        "value_gbp": 719139.1
+      },
+      {
+        "buyer_id": "GB-CFS-158282",
+        "buyer_name": "HIGHWAYS ENGLAND COMPANY LIMITED",
+        "contracts": 1,
+        "value_gbp": 388323.6
+      },
+      {
+        "buyer_id": "GB-CFS-198568",
+        "buyer_name": "Home Office",
+        "contracts": 2,
+        "value_gbp": 47019
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "32500000",
+        "label": "Telecommunications equipment and supplies",
+        "contracts": 7,
+        "value_gbp": 2866500000
+      },
+      {
+        "code": "30200000",
+        "label": "Computer equipment and supplies",
+        "contracts": 1,
+        "value_gbp": 719139.1
+      },
+      {
+        "code": "71311210",
+        "label": "Highways consultancy services",
+        "contracts": 1,
+        "value_gbp": 388323.6
+      },
+      {
+        "code": "72251000",
+        "label": "Disaster recovery services",
+        "contracts": 2,
+        "value_gbp": 47019
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-201f8e52-eea7-448c-a78f-1d79cf7ebc5b",
+        "date": "2023-12-12T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Support Services for Airwave 2024/26",
+        "value_gbp": 36377,
+        "procurement_method": "selective",
+        "cpv_code": "72251000",
+        "cpv_label": "Disaster recovery services",
+        "contract_start": "2024-01-01T00:00:00Z",
+        "contract_end": "2026-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/88a2ddb4-8772-4f00-9590-38911bd3a54c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-5c27d804-ca5b-4d87-bc81-cca8cf88ea2e",
+        "date": "2023-03-01T00:00:00Z",
+        "buyer": "LANCASHIRE CONSTABULARY",
+        "title": "Airwave Terminals , hand held devices",
+        "value_gbp": 719139.1,
+        "procurement_method": "selective",
+        "cpv_code": "30200000",
+        "cpv_label": "Computer equipment and supplies",
+        "contract_start": "2023-03-01T00:00:00Z",
+        "contract_end": "2031-02-28T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ad2f0891-fa58-4426-9aed-a3c20c0e9224",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-87785bed-03d8-460a-b98e-c74bb739aab0",
+        "date": "2023-01-01T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Disaster Recovery Key Management Facility (KMF) Support Services",
+        "value_gbp": 10642,
+        "procurement_method": "selective",
+        "cpv_code": "72251000",
+        "cpv_label": "Disaster recovery services",
+        "contract_start": "2023-01-01T00:00:00Z",
+        "contract_end": "2023-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/3650bc81-d3a5-4e15-b5b4-4a9d9cd05905",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d7e24c58-0375-4861-9519-9cc13811da6d",
+        "date": "2021-03-09T00:00:00Z",
+        "buyer": "HIGHWAYS ENGLAND COMPANY LIMITED",
+        "title": "Body Cameras for Traffic Officers",
+        "value_gbp": 388323.6,
+        "procurement_method": "selective",
+        "cpv_code": "71311210",
+        "cpv_label": "Highways consultancy services",
+        "contract_start": "2021-03-25T00:00:00Z",
+        "contract_end": "2023-03-24T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/54ed24f7-894d-481c-8682-b1cdbe2d72f5",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31fd802f-1db7-48b3-82d1-e30bb696a969",
+        "date": "2019-05-14T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2019-05-14T00:00:00+01:00",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/afcd05b4-c8b9-4d47-b41c-5969d09f575c",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d2040876-e1a0-4209-92ac-bcecb10b3651",
+        "date": "2019-05-14T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2019-05-14T00:00:00+01:00",
+        "contract_end": "2023-12-18T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/b46bbcfb-866d-482b-9925-b48ee9f95fcd",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d2040876-e1a0-4209-92ac-bcecb10b3651",
+        "date": "2019-05-14T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2019-05-14T00:00:00+01:00",
+        "contract_end": "2023-12-19T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/c0e0adca-269e-482f-8715-1d27557123de",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-d2040876-e1a0-4209-92ac-bcecb10b3651",
+        "date": "2019-05-14T00:00:00+01:00",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2019-05-14T00:00:00+01:00",
+        "contract_end": "2023-12-18T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/2b453eb5-f5aa-41b9-91ff-3caf637555f2",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31fd802f-1db7-48b3-82d1-e30bb696a969",
+        "date": "2015-12-09T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2015-12-09T00:00:00Z",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/ec306aa8-af22-4719-a47d-f02d763dd8d4",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31fd802f-1db7-48b3-82d1-e30bb696a969",
+        "date": "2015-12-09T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2015-12-09T00:00:00Z",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/1be69ad0-c7e0-4626-93d9-2c9b718369b1",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      },
+      {
+        "ocid": "ocds-b5fd17-31fd802f-1db7-48b3-82d1-e30bb696a969",
+        "date": "2015-12-09T00:00:00Z",
+        "buyer": "Home Office",
+        "title": "Emergency Services Network (ESN) - Lot 2 User Services",
+        "value_gbp": 409500000,
+        "procurement_method": null,
+        "cpv_code": "32500000",
+        "cpv_label": "Telecommunications equipment and supplies",
+        "contract_start": "2019-05-15T00:00:00+01:00",
+        "contract_end": "2024-12-31T23:59:59Z",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/546686f5-8303-4f15-8e7e-461ecda5fc80",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 8568056,
+      "awarded_2024_gbp_from_cf": 2867654481.7,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 334.7× current payments — major pipeline for 2025+.",
+      "ratio": 334.69
+    }
+  }
+}

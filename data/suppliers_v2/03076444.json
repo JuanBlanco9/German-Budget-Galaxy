@@ -1,0 +1,612 @@
+{
+  "company_number": "03076444",
+  "display_name": "NORTHERN TRAINS LIMITED",
+  "identity": {
+    "ch_number": "03076444",
+    "official_name": "NORTHERN TRAINS LIMITED",
+    "display_name": "NORTHERN TRAINS LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1995-06-30",
+    "age_years": 30,
+    "registered_office": {
+      "address_line_1": "George Stephenson House",
+      "address_line_2": "Toft Green",
+      "country": "England",
+      "locality": "York",
+      "postal_code": "YO1 6JT"
+    },
+    "sic_codes": [
+      "49100"
+    ],
+    "sic_labels": [
+      "Passenger rail transport, interurban"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/03076444"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 1172053063,
+    "rank": 62,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 1172053063,
+        "segments": [
+          {
+            "segment": "Department for Transport",
+            "amount_gbp": 1172053063,
+            "pct_of_segment": 3.86,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-07-25",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NTA0MjE5OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/03076444_2025-07-25.pdf",
+      "size_mb": 2.93,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 9,
+    "officers_resigned_count": 32,
+    "board_turnover_ratio": 3.56,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BUTLER, Karen Elizabeth",
+        "role": "director",
+        "appointed_on": "2025-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1976
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HARRISON, Richard Charles Vyvyan",
+        "role": "director",
+        "appointed_on": "2020-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "Y01 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HINDS, Richard John",
+        "role": "director",
+        "appointed_on": "2023-11-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1975
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HORNBY, Alexander Lloyd",
+        "role": "director",
+        "appointed_on": "2024-11-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1981
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HYNES, Alexander John",
+        "role": "director",
+        "appointed_on": "2026-01-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1977
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LINDSAY, David Stuart",
+        "role": "director",
+        "appointed_on": "2025-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1973
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RICE, Matthew Eric John",
+        "role": "director",
+        "appointed_on": "2024-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1982
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WILLIAMS, Patricia Anne",
+        "role": "director",
+        "appointed_on": "2020-12-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "Y01 6JT",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "PRICE, Anusha",
+        "role": "secretary",
+        "appointed_on": "2024-01-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "PRICE, Anusha",
+        "role": "secretary",
+        "appointed_on": "2024-01-23",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BUTLER, Karen Elizabeth",
+        "role": "director",
+        "appointed_on": "2025-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1976
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HARRISON, Richard Charles Vyvyan",
+        "role": "director",
+        "appointed_on": "2020-03-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1967
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "Y01 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HINDS, Richard John",
+        "role": "director",
+        "appointed_on": "2023-11-28",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1975
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HORNBY, Alexander Lloyd",
+        "role": "director",
+        "appointed_on": "2024-11-27",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1981
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HYNES, Alexander John",
+        "role": "director",
+        "appointed_on": "2026-01-07",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1977
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LINDSAY, David Stuart",
+        "role": "director",
+        "appointed_on": "2025-08-04",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1973
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RICE, Matthew Eric John",
+        "role": "director",
+        "appointed_on": "2024-04-16",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1982
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO1 6JT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "WILLIAMS, Patricia Anne",
+        "role": "director",
+        "appointed_on": "2020-12-02",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1970
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "Y01 6JT",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 32,
+      "recent": [
+        {
+          "name": "GISBY, Robin William, Mr.",
+          "role": "director",
+          "appointed_on": "2020-03-01",
+          "resigned_on": "2025-12-23",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1956
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "Y01 6JT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "POWLES, Mark Andrew",
+          "role": "director",
+          "appointed_on": "2020-07-31",
+          "resigned_on": "2024-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1961
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "YO1 6JT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "AUSTIN, Peter Kenneth",
+          "role": "director",
+          "appointed_on": "2023-03-21",
+          "resigned_on": "2024-06-11",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1968
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "YO1 6JT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "DONOVAN, Nicholas Charles",
+          "role": "director",
+          "appointed_on": "2020-03-01",
+          "resigned_on": "2024-05-05",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1963
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "Y01 6JT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "HENDERSON, Jenny",
+          "role": "secretary",
+          "appointed_on": "2022-03-23",
+          "resigned_on": "2024-01-23",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "York",
+            "postal_code": "Y01 6JT",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "government",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "03076444",
+          "name": "Dft Operator Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2019-03-05",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "03076444",
+            "notified_on": "2019-03-05",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/03076444/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "07141122",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "07141122",
+          "name": "The Secretary Of State For Transport",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors",
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07141122",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07141122/persons-with-significant-control/legal-person/GpsLCDzyaqXhtgRxJ-APoGOwphE"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [
+        "The Secretary Of State For Transport"
+      ],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+20",
+        "govt_psc_consistent_with_supplier"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/03076444"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NTA0MjE5OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/03076444_2025-07-25.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03076444/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/03076444/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 62,
+    "enriched_at": "2026-04-16T19:18:57Z",
+    "governance_enriched_at": "2026-04-16T22:10:12Z",
+    "ubo_enriched_at": "2026-04-16T22:48:04Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "no_contracts_found",
+    "note": "No Contracts Finder matches for this supplier in 2020-2024."
+  }
+}

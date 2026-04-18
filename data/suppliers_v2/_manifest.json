@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-04-17T15:47:10Z",
+  "generator_version": "1.2.0-procurement-draft",
+  "status": "DRAFT — parallel to data/suppliers/. Not wired anywhere.",
+  "source_profiles_dir": "data\\suppliers",
+  "inputs": {
+    "timeline_jsonl": "data\\procurement\\supplier_timeline.jsonl",
+    "procurement_jsonl": "data\\procurement\\supplier_procurement.jsonl"
+  },
+  "counts": {
+    "profiles_processed": 400,
+    "with_procurement_data": 303,
+    "no_contracts_found": 97,
+    "forward_pipeline_large": 84,
+    "paid_exceeds_awarded": 154,
+    "trajectory_distribution": {
+      "growing": 98,
+      "declining": 46,
+      "insufficient_data": 31,
+      "new_entrant": 24,
+      "sparse": 30,
+      "gap_in_history": 31,
+      "stable": 35,
+      "exited": 8
+    }
+  },
+  "additions_vs_v1": [
+    "added `procurement` section with 5-year timeline + summary + yearly + cpv_evolution",
+    "added `procurement.cross_layer_signals` (paid L5 vs awarded CF comparison)",
+    "added procurement source citation to `sources` when matched",
+    "extended `_index.json` rows with procurement_* filter fields"
+  ],
+  "integration_steps_when_aligned": [
+    "merge logic into scripts/build_supplier_profiles.py",
+    "delete data/suppliers_v2/ after merging",
+    "rebuild data/suppliers/ with the merged script",
+    "update frontend to render profile.procurement section",
+    "add procurement filter chips to supplier list UI using new _index.json fields"
+  ]
+}

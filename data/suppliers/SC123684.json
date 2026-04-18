@@ -1,0 +1,406 @@
+{
+  "company_number": "SC123684",
+  "display_name": "JFD LIMITED",
+  "identity": {
+    "ch_number": "SC123684",
+    "official_name": "JFD LIMITED",
+    "display_name": "JFD LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "scotland",
+    "incorporated": "1990-03-12",
+    "age_years": 36,
+    "registered_office": {
+      "address_line_1": "Jfd Westhill Industrial Estate",
+      "address_line_2": "Enterprise Drive",
+      "locality": "Westhill",
+      "postal_code": "AB32 6TQ",
+      "region": "Aberdeen"
+    },
+    "sic_codes": [
+      "32990"
+    ],
+    "sic_labels": [
+      "SIC 32990"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/SC123684"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 12919766,
+    "rank": 692,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 12919766,
+        "segments": [
+          {
+            "segment": "Defence Nuclear Organisation",
+            "amount_gbp": 12919766,
+            "pct_of_segment": 5.69,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-06-30",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3MTkzMDk5OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/SC123684_2025-06-30.pdf",
+      "size_mb": 0.95,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 27,
+    "board_turnover_ratio": 13.5,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "DEVLIN, Richard",
+        "role": "director",
+        "appointed_on": "2025-09-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1984
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3V 3QX",
+          "country": "England"
+        }
+      },
+      {
+        "name": "NISBET, Heather",
+        "role": "director",
+        "appointed_on": "2025-09-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1991
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3V 3QX",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "DEVLIN, Richard",
+        "role": "director",
+        "appointed_on": "2025-09-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1984
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3V 3QX",
+          "country": "England"
+        }
+      },
+      {
+        "name": "NISBET, Heather",
+        "role": "director",
+        "appointed_on": "2025-09-19",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1991
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC3V 3QX",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 27,
+      "recent": [
+        {
+          "name": "HALES, Robert Antony",
+          "role": "director",
+          "appointed_on": "2025-09-19",
+          "resigned_on": "2026-03-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1984
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC3V 3QX",
+            "country": "England"
+          }
+        },
+        {
+          "name": "CALDWELL, Sarah",
+          "role": "director",
+          "appointed_on": "2018-06-01",
+          "resigned_on": "2025-09-19",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1975
+          },
+          "address": {
+            "locality": "Westhill",
+            "postal_code": "AB32 6TQ",
+            "country": null
+          }
+        },
+        {
+          "name": "GRAY, Daniel John",
+          "role": "director",
+          "appointed_on": "2021-02-16",
+          "resigned_on": "2025-09-19",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1962
+          },
+          "address": {
+            "locality": "Westhill",
+            "postal_code": "AB32 6TQ",
+            "country": null
+          }
+        },
+        {
+          "name": "SPEIRS, Peter Alexander",
+          "role": "secretary",
+          "appointed_on": "2022-09-01",
+          "resigned_on": "2022-12-31",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Westhill",
+            "postal_code": "AB32 6TQ",
+            "country": null
+          }
+        },
+        {
+          "name": "SPEIRS, Peter Alexander",
+          "role": "director",
+          "appointed_on": "2022-10-31",
+          "resigned_on": "2022-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1979
+          },
+          "address": {
+            "locality": "Westhill",
+            "postal_code": "AB32 6TQ",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "listed_dispersed",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "SC123684",
+          "name": "James Fisher Marine Services Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC123684",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC123684/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "05171777",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "05171777",
+          "name": "James Fisher Holdings Uk Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2018-12-31",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "05171777",
+            "notified_on": "2018-12-31",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/05171777/persons-with-significant-control/corporate-entity/c59Q8ud0yb2wx24drbTbonihT3M"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09869339",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "09869339",
+          "name": "James Fisher Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-08-28",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09869339",
+            "notified_on": "2024-08-28",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09869339/persons-with-significant-control/corporate-entity/K7kylttxcAu7SGQees1o6s1mLwA"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15365408",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "15365408",
+          "name": "James Fisher And Sons Public Limited Company",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2023-12-20",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15365408",
+            "notified_on": "2023-12-20",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15365408/persons-with-significant-control/corporate-entity/CbKxo8Wxx-NLmE2wfPQC-nRDPqQ"
+          },
+          "terminal": true,
+          "resolution": "listed_dispersed_legitimate",
+          "parent_company_number": "00211475",
+          "parent_type": "plc",
+          "note": "parent is PLC — possibly publicly listed",
+          "original_resolution": "no_psc_data",
+          "resolution_refined_at": "2026-04-17T00:41:20Z"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": true
+    }
+  },
+  "match_confidence": {
+    "score": 85,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/SC123684"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3MTkzMDk5OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/SC123684_2025-06-30.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC123684/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/SC123684/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 692,
+    "enriched_at": "2026-04-16T20:35:39Z",
+    "governance_enriched_at": "2026-04-16T22:37:08Z",
+    "ubo_enriched_at": "2026-04-16T23:23:29Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

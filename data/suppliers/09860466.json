@@ -1,0 +1,578 @@
+{
+  "company_number": "09860466",
+  "display_name": "West Midlands Trains Limited",
+  "identity": {
+    "ch_number": "09860466",
+    "official_name": "WEST MIDLANDS TRAINS LIMITED",
+    "display_name": "West Midlands Trains Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2015-11-06",
+    "age_years": 10,
+    "registered_office": {
+      "address_line_1": "2nd Floor St Andrew's House",
+      "address_line_2": "18-20 St Andrew Street",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "EC4A 3AG"
+    },
+    "sic_codes": [
+      "49100"
+    ],
+    "sic_labels": [
+      "Passenger rail transport, interurban"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/09860466"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 867996000,
+    "rank": 71,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_transport",
+        "dept_name": "Department for Transport",
+        "amount_gbp": 867996000,
+        "segments": [
+          {
+            "segment": "Department for Transport",
+            "amount_gbp": 864922893,
+            "pct_of_segment": 2.85,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          },
+          {
+            "segment": "EWR",
+            "amount_gbp": 3073107,
+            "pct_of_segment": 4.3,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-12-20",
+    "period_end": "2025-03-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ5NTYyNTg5OWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/09860466_2025-12-20.pdf",
+      "size_mb": 1.93,
+      "exists": true
+    },
+    "next_accounts_due": "2026-12-31",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 6,
+    "officers_resigned_count": 16,
+    "board_turnover_ratio": 2.67,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "BOOTH, Dominic Daniel Gerard",
+        "role": "director",
+        "appointed_on": "2015-11-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1963
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FUJIWARA, Kazuya",
+        "role": "director",
+        "appointed_on": "2025-10-24",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "Japan",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 4AS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HARRIS, Christiaan Spencer",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PILBEAM, Alan Thomas",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TRIVEDI, Tapan",
+        "role": "director",
+        "appointed_on": "2023-10-11",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1980
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 4AS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WRIGHT, Paul",
+        "role": "director",
+        "appointed_on": "2026-02-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "BOOTH, Dominic Daniel Gerard",
+        "role": "director",
+        "appointed_on": "2015-11-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1963
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "FUJIWARA, Kazuya",
+        "role": "director",
+        "appointed_on": "2025-10-24",
+        "resigned_on": null,
+        "nationality": "Japanese",
+        "occupation": null,
+        "country_of_residence": "Japan",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1970
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 4AS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "HARRIS, Christiaan Spencer",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "PILBEAM, Alan Thomas",
+        "role": "director",
+        "appointed_on": "2023-04-14",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1967
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "TRIVEDI, Tapan",
+        "role": "director",
+        "appointed_on": "2023-10-11",
+        "resigned_on": null,
+        "nationality": "French",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1980
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1A 4AS",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "name": "WRIGHT, Paul",
+        "role": "director",
+        "appointed_on": "2026-02-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1981
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC4A 3AG",
+          "country": "United Kingdom"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 16,
+      "recent": [
+        {
+          "name": "COFFEY, Timothy Joseph Martin",
+          "role": "director",
+          "appointed_on": "2024-09-10",
+          "resigned_on": "2026-02-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1975
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC4A 3AG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "MCCONNELL, Ian Matthew",
+          "role": "director",
+          "appointed_on": "2022-05-01",
+          "resigned_on": "2026-02-01",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1977
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC4A 3AG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "NAKAJIMA, Yoshinobu",
+          "role": "director",
+          "appointed_on": "2024-05-21",
+          "resigned_on": "2025-10-24",
+          "nationality": "Japanese",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 4,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1A 4AS",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "LINDSAY, David Stuart",
+          "role": "director",
+          "appointed_on": "2018-01-23",
+          "resigned_on": "2024-07-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 12,
+            "year": 1973
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC4A 3AG",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "NISHIHARA, Soichi",
+          "role": "director",
+          "appointed_on": "2022-10-04",
+          "resigned_on": "2024-05-21",
+          "nationality": "Japanese",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 5,
+            "year": 1979
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1A 4AS",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "individual",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "09860466",
+          "name": "West Midlands Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09860466",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09860466/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "09860602",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "09860602",
+          "name": "Transport Uk Holdings Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "09860602",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/09860602/persons-with-significant-control/corporate-entity/A9rACbdeOhKVDI-7Dp89dyY1Beo"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "SC488448",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "SC488448",
+          "name": "Transport Uk Group Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2023-02-28",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "SC488448",
+            "notified_on": "2023-02-28",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/SC488448/persons-with-significant-control/corporate-entity/RRz6D9JjOiT_TiFtwS88shRriGg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "13663807",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "13663807",
+          "name": "Norton Green Investments Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent"
+          ],
+          "notified_on": "2023-10-05",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "13663807",
+            "notified_on": "2023-10-05",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/13663807/persons-with-significant-control/corporate-entity/5hZkO86rwRmwSiI8VAZCw8vCkYw"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15315690",
+          "parent_type": "private-unlimited"
+        },
+        {
+          "step": 5,
+          "from_company": "15315690",
+          "name": "Mr Dominic Daniel Gerard Booth",
+          "kind": "individual-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2023-11-29",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15315690",
+            "notified_on": "2023-11-29",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15315690/persons-with-significant-control/individual/rYW-7jEiUP7HqCwZAux24nzBcCM"
+          },
+          "terminal": true,
+          "resolution": "individual"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [
+        "Mr Dominic Daniel Gerard Booth"
+      ],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+5",
+        "known_family_pe_pattern"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09860466"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ5NTYyNTg5OWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/09860466_2025-12-20.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09860466/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/09860466/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 71,
+    "enriched_at": "2026-04-16T19:19:29Z",
+    "governance_enriched_at": "2026-04-16T22:10:26Z",
+    "ubo_enriched_at": "2026-04-16T22:48:31Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

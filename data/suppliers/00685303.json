@@ -1,0 +1,526 @@
+{
+  "company_number": "00685303",
+  "display_name": "Portakabin Limited",
+  "identity": {
+    "ch_number": "00685303",
+    "official_name": "PORTAKABIN LIMITED",
+    "display_name": "Portakabin Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1961-03-03",
+    "age_years": 65,
+    "registered_office": {
+      "address_line_1": "Yorkon House New Lane",
+      "address_line_2": "Huntington",
+      "country": "England",
+      "locality": "York",
+      "postal_code": "YO32 9PT"
+    },
+    "sic_codes": [
+      "32990",
+      "77390"
+    ],
+    "sic_labels": [
+      "SIC 32990",
+      "SIC 77390"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00685303"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 48540419,
+    "rank": 387,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 48540419,
+        "segments": [
+          {
+            "segment": "Education Estates Directorate",
+            "amount_gbp": 48540419,
+            "pct_of_segment": 1.2,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-09-05",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-group",
+    "transaction_id": "MzQ3OTc5Njk3NWFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/00685303_2025-09-05.pdf",
+      "size_mb": 1.55,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 4,
+    "officers_resigned_count": 34,
+    "board_turnover_ratio": 8.5,
+    "board_turnover_signal": "high",
+    "active_directors": [
+      {
+        "name": "COLLINS, Jonathan Mark",
+        "role": "director",
+        "appointed_on": "2013-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1971
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "IBBETSON, Daniel Frederick",
+        "role": "director",
+        "appointed_on": "2021-11-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1970
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "URWIN, Gavin",
+        "role": "director",
+        "appointed_on": "2023-03-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1977
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "THOMSON, Simon",
+        "role": "secretary",
+        "appointed_on": "2023-01-09",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "THOMSON, Simon",
+        "role": "secretary",
+        "appointed_on": "2023-01-09",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COLLINS, Jonathan Mark",
+        "role": "director",
+        "appointed_on": "2013-10-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1971
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "IBBETSON, Daniel Frederick",
+        "role": "director",
+        "appointed_on": "2021-11-29",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1970
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "URWIN, Gavin",
+        "role": "director",
+        "appointed_on": "2023-03-06",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1977
+        },
+        "address": {
+          "locality": "York",
+          "postal_code": "YO32 9PT",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 34,
+      "recent": [
+        {
+          "name": "NEWELL, Stephen Paul",
+          "role": "director",
+          "appointed_on": "2017-08-01",
+          "resigned_on": "2024-03-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1965
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "YO32 9PT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "POLLARD, Simon",
+          "role": "director",
+          "appointed_on": "2021-08-31",
+          "resigned_on": "2024-03-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1976
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "YO32 9PT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "ROBINSON, James David Kinbar",
+          "role": "director",
+          "appointed_on": "2015-11-30",
+          "resigned_on": "2024-03-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1967
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "YO32 9PT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "GOFORTH, Martin Ian",
+          "role": "secretary",
+          "appointed_on": "2017-01-01",
+          "resigned_on": "2023-01-09",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "York",
+            "postal_code": "YO32 9PT",
+            "country": "England"
+          }
+        },
+        {
+          "name": "STAINTON, Amanda Clare",
+          "role": "director",
+          "appointed_on": "2008-04-21",
+          "resigned_on": "2022-06-30",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1964
+          },
+          "address": {
+            "locality": "York",
+            "postal_code": "YO32 9PT",
+            "country": "England"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "00685303",
+          "name": "Portakabin Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2024-05-23",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "00685303",
+            "notified_on": "2024-05-23",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/00685303/persons-with-significant-control"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15610153",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 2,
+          "from_company": "15610153",
+          "name": "Pacific Bidco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2024-06-11",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15610153",
+            "notified_on": "2024-06-11",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15610153/persons-with-significant-control/corporate-entity/VFd-lKA1fmjkvYsszMIyYf-pEQg"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15400796",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 3,
+          "from_company": "15400796",
+          "name": "Pacific Holdco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-01-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15400796",
+            "notified_on": "2024-01-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15400796/persons-with-significant-control/corporate-entity/3D9WcmX9M6AMBmwQ_lGW3RPm7OU"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15400689",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 4,
+          "from_company": "15400689",
+          "name": "Pacific Topco Limited",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2024-01-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15400689",
+            "notified_on": "2024-01-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15400689/persons-with-significant-control/corporate-entity/RWVH35V-KW4W7BybuvX5tI15oTQ"
+          },
+          "terminal": false,
+          "resolution": null,
+          "parent_company_number": "15400634",
+          "parent_type": "ltd"
+        },
+        {
+          "step": 5,
+          "from_company": "15400634",
+          "name": "Antin Infrastructure Partners S.A.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "significant-influence-or-control"
+          ],
+          "notified_on": "2024-01-09",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "15400634",
+            "notified_on": "2024-01-09",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/15400634/persons-with-significant-control/corporate-entity/DX50-gTlIb4L_x3UAQq1mv-Jf5E"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "France",
+          "parent_registration_number": "900 682 667",
+          "wikidata": {
+            "qid": "Q85742021",
+            "label": "Antin Infrastructure Partners",
+            "description": "French private equity firm",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q85742021",
+            "parent_chain": [
+              {
+                "qid": "Q85742021",
+                "label": "Antin Infrastructure Partners",
+                "description": "French private equity firm",
+                "country_labels": [
+                  "France"
+                ],
+                "revision_id": 2461312263,
+                "source_url": "https://www.wikidata.org/wiki/Q85742021"
+              }
+            ],
+            "ultimate_label": "Antin Infrastructure Partners",
+            "ultimate_country": "France",
+            "queries_used": [
+              "Antin Infrastructure Partners S.A.",
+              "Antin Infrastructure Partners"
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "France"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 95,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ],
+      [
+        "-5",
+        "high_board_turnover"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00685303"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3OTc5Njk3NWFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/00685303_2025-09-05.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00685303/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/00685303/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q85742021"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 387,
+    "enriched_at": "2026-04-16T20:08:07Z",
+    "governance_enriched_at": "2026-04-16T22:22:41Z",
+    "ubo_enriched_at": "2026-04-16T23:08:54Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

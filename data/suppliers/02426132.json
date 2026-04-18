@@ -1,0 +1,722 @@
+{
+  "company_number": "02426132",
+  "display_name": "LEONARDO UK LIMITED",
+  "identity": {
+    "ch_number": "02426132",
+    "official_name": "LEONARDO UK LTD",
+    "display_name": "LEONARDO UK LIMITED",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "1989-09-25",
+    "age_years": 36,
+    "registered_office": {
+      "address_line_1": "1 Eagle Place",
+      "address_line_2": "St James's",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "SW1Y 6AF"
+    },
+    "sic_codes": [
+      "26309",
+      "26511",
+      "30300",
+      "33160"
+    ],
+    "sic_labels": [
+      "SIC 26309",
+      "SIC 26511",
+      "Aircraft and spacecraft manufacture",
+      "SIC 33160"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02426132"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 143580501,
+    "rank": 200,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 113766431,
+        "segments": [
+          {
+            "segment": "Defence Equipment and Support",
+            "amount_gbp": 110974920,
+            "pct_of_segment": 2.14,
+            "rank_in_segment": 11,
+            "type": "Defence Contractor"
+          },
+          {
+            "segment": "DES Bespoke Trading Entity",
+            "amount_gbp": 1169289,
+            "pct_of_segment": 1.51,
+            "rank_in_segment": 13,
+            "type": "Defence Contractor"
+          },
+          {
+            "segment": "Delivery",
+            "amount_gbp": 1622222,
+            "pct_of_segment": 2.86,
+            "rank_in_segment": 7,
+            "type": "Defence Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "home_office",
+        "dept_name": "Home Office",
+        "amount_gbp": 29814070,
+        "segments": [
+          {
+            "segment": "DDaT - Digital Data & Technology",
+            "amount_gbp": 27820186,
+            "pct_of_segment": 3.59,
+            "rank_in_segment": 8,
+            "type": "Defence Contractor"
+          },
+          {
+            "segment": "HSG - Homeland Security Group",
+            "amount_gbp": 1993884,
+            "pct_of_segment": 5.22,
+            "rank_in_segment": 7,
+            "type": "Defence Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-08-04",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ3NjA4MDQxNGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/02426132_2025-08-04.pdf",
+      "size_mb": 3.18,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 10,
+    "officers_resigned_count": 34,
+    "board_turnover_ratio": 3.4,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "ALLEN, Wendy",
+        "role": "director",
+        "appointed_on": "2021-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1975
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BONAIUTO, Federico",
+        "role": "director",
+        "appointed_on": "2023-07-14",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Rome",
+          "postal_code": null,
+          "country": "Italy"
+        }
+      },
+      {
+        "name": "CAMPORA, Andrea",
+        "role": "director",
+        "appointed_on": "2024-02-21",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COLMAN, Nigel",
+        "role": "director",
+        "appointed_on": "2025-03-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CUTILLO, Gian Piero",
+        "role": "director",
+        "appointed_on": "2017-07-20",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1963
+        },
+        "address": {
+          "locality": "00195 Roma",
+          "postal_code": null,
+          "country": "Italy"
+        }
+      },
+      {
+        "name": "DE FAZIO, Marco",
+        "role": "director",
+        "appointed_on": "2023-07-14",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Rome",
+          "postal_code": null,
+          "country": "Italy"
+        }
+      },
+      {
+        "name": "HAMILTON, Mark Wayne",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HIGGINS, Clive James",
+        "role": "director",
+        "appointed_on": "2021-07-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LEGGETTER, Allan David",
+        "role": "director",
+        "appointed_on": "2024-02-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [
+      {
+        "name": "BERTOLA, Lorenzo",
+        "role": "secretary",
+        "appointed_on": "2023-06-08",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      }
+    ],
+    "all_active_officers": [
+      {
+        "name": "BERTOLA, Lorenzo",
+        "role": "secretary",
+        "appointed_on": "2023-06-08",
+        "resigned_on": null,
+        "nationality": null,
+        "occupation": null,
+        "country_of_residence": null,
+        "date_of_birth": null,
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ALLEN, Wendy",
+        "role": "director",
+        "appointed_on": "2021-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1975
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BONAIUTO, Federico",
+        "role": "director",
+        "appointed_on": "2023-07-14",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1969
+        },
+        "address": {
+          "locality": "Rome",
+          "postal_code": null,
+          "country": "Italy"
+        }
+      },
+      {
+        "name": "CAMPORA, Andrea",
+        "role": "director",
+        "appointed_on": "2024-02-21",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "COLMAN, Nigel",
+        "role": "director",
+        "appointed_on": "2025-03-11",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "CUTILLO, Gian Piero",
+        "role": "director",
+        "appointed_on": "2017-07-20",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1963
+        },
+        "address": {
+          "locality": "00195 Roma",
+          "postal_code": null,
+          "country": "Italy"
+        }
+      },
+      {
+        "name": "DE FAZIO, Marco",
+        "role": "director",
+        "appointed_on": "2023-07-14",
+        "resigned_on": null,
+        "nationality": "Italian",
+        "occupation": null,
+        "country_of_residence": "Italy",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Rome",
+          "postal_code": null,
+          "country": "Italy"
+        }
+      },
+      {
+        "name": "HAMILTON, Mark Wayne",
+        "role": "director",
+        "appointed_on": "2023-01-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1974
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "HIGGINS, Clive James",
+        "role": "director",
+        "appointed_on": "2021-07-23",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1977
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      },
+      {
+        "name": "LEGGETTER, Allan David",
+        "role": "director",
+        "appointed_on": "2024-02-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1971
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "SW1Y 6AF",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 34,
+      "recent": [
+        {
+          "name": "CLARKE, Adam Oliver",
+          "role": "director",
+          "appointed_on": "2022-07-27",
+          "resigned_on": "2025-02-28",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 10,
+            "year": 1980
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1Y 6AF",
+            "country": "England"
+          }
+        },
+        {
+          "name": "DI BARTOLOMEO,, Pasquale",
+          "role": "director",
+          "appointed_on": "2021-02-24",
+          "resigned_on": "2023-07-06",
+          "nationality": "Italian",
+          "occupation": null,
+          "country_of_residence": "Italy",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1969
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW1Y 6AF",
+            "country": "England"
+          }
+        },
+        {
+          "name": "PARRELLA, Andrea",
+          "role": "director",
+          "appointed_on": "2017-01-01",
+          "resigned_on": "2023-06-23",
+          "nationality": "Italian",
+          "occupation": null,
+          "country_of_residence": "Italy",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1966
+          },
+          "address": {
+            "locality": "00195 Roma",
+            "postal_code": null,
+            "country": "Italy"
+          }
+        },
+        {
+          "name": "THOMSIT, Kevin Geoffrey",
+          "role": "secretary",
+          "appointed_on": "2017-02-16",
+          "resigned_on": "2023-05-16",
+          "nationality": null,
+          "occupation": null,
+          "country_of_residence": null,
+          "date_of_birth": null,
+          "address": {
+            "locality": "Yeovil",
+            "postal_code": "BA20 2YB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "BONE, Norman James",
+          "role": "director",
+          "appointed_on": "2011-01-01",
+          "resigned_on": "2022-12-31",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1962
+          },
+          "address": {
+            "locality": "Luton",
+            "postal_code": "LU1 3PG",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_via_wikidata",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "02426132",
+          "name": "Leonardo S.P.A.",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ],
+          "notified_on": "2016-04-06",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "02426132",
+            "notified_on": "2016-04-06",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/02426132/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_via_wikidata",
+          "jurisdiction": "Italy",
+          "parent_registration_number": "0401990585",
+          "wikidata": {
+            "qid": "Q910379",
+            "label": "Leonardo",
+            "description": "Italian defense, security and aerospace company",
+            "match_quality": "prefix",
+            "wikidata_url": "https://www.wikidata.org/wiki/Q910379",
+            "parent_chain": [
+              {
+                "qid": "Q910379",
+                "label": "Leonardo",
+                "description": "Italian defense, security and aerospace company",
+                "country_labels": [
+                  "Italy"
+                ],
+                "revision_id": 2477564875,
+                "source_url": "https://www.wikidata.org/wiki/Q910379"
+              },
+              {
+                "qid": "Q3708633",
+                "label": "Q3708633",
+                "description": "",
+                "country_labels": [
+                  "Italy"
+                ],
+                "revision_id": 2454473719,
+                "source_url": "https://www.wikidata.org/wiki/Q3708633"
+              },
+              {
+                "qid": "Q1116000",
+                "label": "Ministry of Economy and Finance",
+                "description": "Italian ministry for economy and finances",
+                "country_labels": [
+                  "Italy"
+                ],
+                "revision_id": 2482280125,
+                "source_url": "https://www.wikidata.org/wiki/Q1116000"
+              },
+              {
+                "qid": "Q3773971",
+                "label": "Government of Italy",
+                "description": "highest executive authority in Italy",
+                "country_labels": [
+                  "Italy"
+                ],
+                "revision_id": 2479233765,
+                "source_url": "https://www.wikidata.org/wiki/Q3773971"
+              }
+            ],
+            "ultimate_label": "Government of Italy",
+            "ultimate_country": "Italy",
+            "queries_used": [
+              "Leonardo S.P.A."
+            ]
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [
+        "Italy"
+      ],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ],
+      [
+        "+10",
+        "foreign_chain_resolved"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02426132"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ3NjA4MDQxNGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/02426132_2025-08-04.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02426132/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/02426132/persons-with-significant-control"
+    },
+    {
+      "section": "ownership_chain.wikidata",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q910379"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 200,
+    "enriched_at": "2026-04-16T19:29:06Z",
+    "governance_enriched_at": "2026-04-16T22:14:36Z",
+    "ubo_enriched_at": "2026-04-16T22:54:35Z",
+    "wikidata_merged_at": "2026-04-17T00:08:36Z",
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

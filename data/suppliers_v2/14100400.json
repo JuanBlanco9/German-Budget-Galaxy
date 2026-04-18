@@ -1,0 +1,424 @@
+{
+  "company_number": "14100400",
+  "display_name": "NAVANTIA UK LTD.",
+  "identity": {
+    "ch_number": "14100400",
+    "official_name": "NAVANTIA UK LTD.",
+    "display_name": "NAVANTIA UK LTD.",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2022-05-11",
+    "age_years": 3,
+    "registered_office": {
+      "address_line_1": "First Floor",
+      "address_line_2": "28-29 Threadneedle Street",
+      "country": "United Kingdom",
+      "locality": "London",
+      "postal_code": "EC2R 8AY"
+    },
+    "sic_codes": [
+      "30110",
+      "33150",
+      "43999",
+      "82990"
+    ],
+    "sic_labels": [
+      "SIC 30110",
+      "SIC 33150",
+      "Other specialised construction activities",
+      "Other business support service activities"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14100400"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 203867576,
+    "rank": 163,
+    "category": "commercial",
+    "n_departments": 1,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_defence",
+        "dept_name": "Ministry of Defence",
+        "amount_gbp": 203867576,
+        "segments": [
+          {
+            "segment": "Defence Equipment and Support",
+            "amount_gbp": 203867576,
+            "pct_of_segment": 3.93,
+            "rank_in_segment": 7,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2026-03-28",
+    "period_end": "2025-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzUxMjIyODMwMGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/14100400_2026-03-28.pdf",
+      "size_mb": 1.64,
+      "exists": true
+    },
+    "next_accounts_due": "2027-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 2,
+    "board_turnover_ratio": 1.0,
+    "board_turnover_signal": "low",
+    "active_directors": [
+      {
+        "name": "ISIDRO MARTINEZ, Alberto",
+        "role": "director",
+        "appointed_on": "2024-10-10",
+        "resigned_on": null,
+        "nationality": "Spanish",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS1 2NT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MARTINEZ PEREZ DE ROJAS, Donato",
+        "role": "director",
+        "appointed_on": "2025-08-18",
+        "resigned_on": null,
+        "nationality": "Spanish",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2R 8AY",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "ISIDRO MARTINEZ, Alberto",
+        "role": "director",
+        "appointed_on": "2024-10-10",
+        "resigned_on": null,
+        "nationality": "Spanish",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1977
+        },
+        "address": {
+          "locality": "Bristol",
+          "postal_code": "BS1 2NT",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MARTINEZ PEREZ DE ROJAS, Donato",
+        "role": "director",
+        "appointed_on": "2025-08-18",
+        "resigned_on": null,
+        "nationality": "Spanish",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC2R 8AY",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 2,
+      "recent": [
+        {
+          "name": "GARCIA, Juan Ignacio De La Cueva",
+          "role": "director",
+          "appointed_on": "2022-05-11",
+          "resigned_on": "2025-08-18",
+          "nationality": "Spanish",
+          "occupation": null,
+          "country_of_residence": "Spain",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1974
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2R 8AY",
+            "country": "United Kingdom"
+          }
+        },
+        {
+          "name": "BLANCO, Agustin Alvarez",
+          "role": "director",
+          "appointed_on": "2022-05-11",
+          "resigned_on": "2024-10-10",
+          "nationality": "Spanish",
+          "occupation": null,
+          "country_of_residence": "Spain",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1963
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC2R 8AY",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "government",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "14100400",
+          "name": "Sociedad Estatal De Participaciones Industriales",
+          "kind": "legal-person-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2022-05-11",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "14100400",
+            "notified_on": "2022-05-11",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/14100400/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "government"
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [
+        "Sociedad Estatal De Participaciones Industriales"
+      ],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 100,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+20",
+        "govt_psc_consistent_with_supplier"
+      ],
+      [
+        "+3",
+        "stable_board"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/14100400"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzUxMjIyODMwMGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/14100400_2026-03-28.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14100400/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/14100400/persons-with-significant-control"
+    },
+    {
+      "section": "procurement",
+      "type": "contracts_finder_ocds",
+      "url": "https://www.contractsfinder.service.gov.uk",
+      "note": "Per-contract source URLs embedded in procurement.contracts_timeline[].source_url"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 163,
+    "enriched_at": "2026-04-16T19:26:18Z",
+    "governance_enriched_at": "2026-04-16T22:13:46Z",
+    "ubo_enriched_at": "2026-04-16T22:52:51Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.2.0-procurement-draft",
+    "procurement_enriched_at": "2026-04-17T15:47:09Z"
+  },
+  "procurement": {
+    "status": "matched",
+    "data_sources": [
+      "contracts_finder_ocds"
+    ],
+    "coverage_years": [
+      2023
+    ],
+    "summary": {
+      "total_contracts": 1,
+      "total_contracts_non_framework": 1,
+      "total_awarded_gbp": 1634221030.27,
+      "total_awarded_non_framework_gbp": 1634221030.27,
+      "years_active": 1,
+      "first_year": 2023,
+      "last_year": 2023,
+      "trajectory": "insufficient_data",
+      "trajectory_note": "only one year of data",
+      "longest_buyer_relationship": {
+        "buyer": "Ministry of Defence",
+        "years_count": 1,
+        "years_list": [
+          2023
+        ],
+        "total_value_gbp": 1634221030.27,
+        "n_contracts": 1
+      },
+      "n_unique_buyers_all_years": 1,
+      "max_consecutive_same_buyer_direct": 0
+    },
+    "yearly": {
+      "2023": {
+        "n_contracts": 1,
+        "n_contracts_non_framework": 1,
+        "awarded_gbp_total": 1634221030.27,
+        "awarded_gbp_non_framework": 1634221030.27,
+        "awarded_gbp_framework_share": 0,
+        "sole_source_pct": 0.0,
+        "avg_n_tenderers": null,
+        "n_unique_buyers": 1,
+        "top_buyer": {
+          "buyer": "Ministry of Defence",
+          "contracts": 1,
+          "value_gbp": 1634221030.27
+        },
+        "procurement_method_counts": {
+          "selective": 1
+        }
+      }
+    },
+    "cpv_evolution": {
+      "2023": {
+        "top_code": "34512400",
+        "top_label": "Cargo ships",
+        "top_value_gbp": 1634221030.27,
+        "n_distinct_codes": 1
+      }
+    },
+    "flags": {
+      "consecutive_same_buyer_direct_awards": false,
+      "consecutive_streak_length": 0,
+      "single_buyer_dependency_always": true,
+      "trajectory_growing": false,
+      "trajectory_declining": false,
+      "new_entrant_last_year": false,
+      "only_frameworks": false,
+      "sole_source_heavy": false,
+      "framework_captive": false,
+      "single_buyer_dependency": true,
+      "repeat_same_buyer_direct": false,
+      "mixed_below_and_above_threshold": false
+    },
+    "procurement_detail": {
+      "procurement_method_count_all_years": {
+        "selective": 1
+      },
+      "procurement_method_value_gbp_all_years": {
+        "selective": 1634221030.27
+      },
+      "sole_source_pct_all_years": 0.0,
+      "competitive_pct_all_years": 100.0,
+      "framework_pct_all_years": 0.0,
+      "avg_n_tenderers_all_years": null,
+      "tenderers_disclosed_pct": 0.0
+    },
+    "top_buyers_all_years": [
+      {
+        "buyer_id": "GB-CFS-218867",
+        "buyer_name": "Ministry of Defence",
+        "contracts": 1,
+        "value_gbp": 1634221030.27
+      }
+    ],
+    "cpv_breakdown_all_years": [
+      {
+        "code": "34512400",
+        "label": "Cargo ships",
+        "contracts": 1,
+        "value_gbp": 1634221030.27
+      }
+    ],
+    "contracts_timeline": [
+      {
+        "ocid": "ocds-b5fd17-b4ae3904-8703-4d8b-b546-a4c82411a8a0",
+        "date": "2023-01-17T00:00:00Z",
+        "buyer": "Ministry of Defence",
+        "title": "Fleet Solid Support - Manufacture Contract",
+        "value_gbp": 1634221030.27,
+        "procurement_method": "selective",
+        "cpv_code": "34512400",
+        "cpv_label": "Cargo ships",
+        "contract_start": "2023-01-17T00:00:00Z",
+        "contract_end": "2032-04-30T23:59:59+01:00",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/96604a07-e893-4828-abdc-7b634b395fad",
+        "resolution_method": "fuzzy_exact_normalized",
+        "resolution_confidence": "high"
+      }
+    ],
+    "cross_layer_signals": {
+      "paid_2024_gbp_from_l5": 203867576,
+      "awarded_2024_gbp_from_cf": 1634221030.27,
+      "signal": "forward_pipeline_large",
+      "note": "Awarded 8.0× current payments — major pipeline for 2025+.",
+      "ratio": 8.02
+    }
+  }
+}

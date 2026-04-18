@@ -1,0 +1,350 @@
+{
+  "company_number": "07215255",
+  "display_name": "Farsight Consulting Limited",
+  "identity": {
+    "ch_number": "07215255",
+    "official_name": "FARSIGHT CONSULTING LIMITED",
+    "display_name": "Farsight Consulting Limited",
+    "status": "active",
+    "type": "ltd",
+    "jurisdiction": "england-wales",
+    "incorporated": "2010-04-07",
+    "age_years": 16,
+    "registered_office": {
+      "address_line_1": "Suite 3d&E, Third Floor, 31",
+      "address_line_2": "Temple Street",
+      "country": "England",
+      "locality": "Birmingham",
+      "postal_code": "B2 5DB"
+    },
+    "sic_codes": [
+      "70229"
+    ],
+    "sic_labels": [
+      "Management consultancy activities (other)"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/07215255"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 15643991,
+    "rank": 649,
+    "category": "commercial",
+    "n_departments": 2,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_justice",
+        "dept_name": "Ministry of Justice",
+        "amount_gbp": 13770653,
+        "segments": [
+          {
+            "segment": "Prisons & Probation",
+            "amount_gbp": 13770653,
+            "pct_of_segment": 12.35,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 1873338,
+        "segments": [
+          {
+            "segment": "Teaching Workforce: Candidates, Trainees, Strategy, Portfolio and Analysis Directorate (CaTSPA)",
+            "amount_gbp": 1788959,
+            "pct_of_segment": 2.32,
+            "rank_in_segment": 10,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Customer Experience and Digital",
+            "amount_gbp": 59081,
+            "pct_of_segment": 0.47,
+            "rank_in_segment": 14,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Teaching Regulation Agency",
+            "amount_gbp": 25298,
+            "pct_of_segment": 5.3,
+            "rank_in_segment": 6,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2025-11-19",
+    "period_end": "2024-12-31",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-audit-exemption-subsiduary",
+    "transaction_id": "MzQ4OTgyNTcwMmFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/07215255_2025-11-19.pdf",
+      "size_mb": 0.51,
+      "exists": true
+    },
+    "next_accounts_due": "2026-09-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 2,
+    "officers_resigned_count": 4,
+    "board_turnover_ratio": 2.0,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "COONEY, Patrick",
+        "role": "director",
+        "appointed_on": "2024-05-20",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Dublin 1, D01f5p8",
+          "postal_code": null,
+          "country": "Ireland"
+        }
+      },
+      {
+        "name": "SINGH, Roopinder",
+        "role": "director",
+        "appointed_on": "2025-06-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B2 5DB",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "COONEY, Patrick",
+        "role": "director",
+        "appointed_on": "2024-05-20",
+        "resigned_on": null,
+        "nationality": "Irish",
+        "occupation": null,
+        "country_of_residence": "Ireland",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1976
+        },
+        "address": {
+          "locality": "Dublin 1, D01f5p8",
+          "postal_code": null,
+          "country": "Ireland"
+        }
+      },
+      {
+        "name": "SINGH, Roopinder",
+        "role": "director",
+        "appointed_on": "2025-06-09",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 1,
+          "year": 1965
+        },
+        "address": {
+          "locality": "Birmingham",
+          "postal_code": "B2 5DB",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 4,
+      "recent": [
+        {
+          "name": "LAHIFF, Louise Christina, Mrs.",
+          "role": "director",
+          "appointed_on": "2024-05-20",
+          "resigned_on": "2025-04-30",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "Scotland",
+          "date_of_birth": {
+            "month": 9,
+            "year": 1978
+          },
+          "address": {
+            "locality": "Dublin 1, D01f5p8",
+            "postal_code": null,
+            "country": "Ireland"
+          }
+        },
+        {
+          "name": "O'CONNOR, Tom",
+          "role": "director",
+          "appointed_on": "2024-05-20",
+          "resigned_on": "2024-11-08",
+          "nationality": "Irish",
+          "occupation": null,
+          "country_of_residence": "Ireland",
+          "date_of_birth": {
+            "month": 1,
+            "year": 1973
+          },
+          "address": {
+            "locality": "Dublin 1, D01f5p8",
+            "postal_code": null,
+            "country": "Ireland"
+          }
+        },
+        {
+          "name": "HURST, Charlotte Elizabeth",
+          "role": "director",
+          "appointed_on": "2018-12-20",
+          "resigned_on": "2024-05-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 2,
+            "year": 1968
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "SW9 6DE",
+            "country": "England"
+          }
+        },
+        {
+          "name": "MASTERS, Peter",
+          "role": "director",
+          "appointed_on": "2010-04-07",
+          "resigned_on": "2024-05-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "United Kingdom",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1976
+          },
+          "address": {
+            "locality": "Newport",
+            "postal_code": "NP19 7RX",
+            "country": "United Kingdom"
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 1,
+    "direct_psc_statements": []
+  },
+  "ownership_chain": {
+    "resolution": "foreign_unresolved",
+    "direct_psc_count": 1,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 1,
+          "from_company": "07215255",
+          "name": "Sixty-One Holdings Ltd",
+          "kind": "corporate-entity-person-with-significant-control",
+          "natures_of_control": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent"
+          ],
+          "notified_on": "2018-12-20",
+          "source": {
+            "type": "ch_psc",
+            "from_company": "07215255",
+            "notified_on": "2018-12-20",
+            "url": "https://find-and-update.company-information.service.gov.uk/company/07215255/persons-with-significant-control"
+          },
+          "terminal": true,
+          "resolution": "foreign_unresolved",
+          "jurisdiction": null,
+          "parent_registration_number": null,
+          "resolution_note": "name_search_weak_match_low",
+          "search_best_candidate": {
+            "title": "SIXTYONE HOLDINGS LIMITED",
+            "number": "11341347"
+          }
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07215255"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ4OTgyNTcwMmFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/07215255_2025-11-19.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07215255/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/07215255/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "commercial",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 649,
+    "enriched_at": "2026-04-16T20:31:38Z",
+    "governance_enriched_at": "2026-04-16T22:35:11Z",
+    "ubo_enriched_at": "2026-04-16T23:21:05Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "company_number": "04392418",
+  "display_name": "NATIONAL CENTRE FOR SOCIAL RESEARCH",
+  "identity": {
+    "ch_number": "04392418",
+    "official_name": "NATIONAL CENTRE FOR SOCIAL RESEARCH",
+    "display_name": "NATIONAL CENTRE FOR SOCIAL RESEARCH",
+    "status": "active",
+    "type": "private-limited-guarant-nsc-limited-exemption",
+    "jurisdiction": "england-wales",
+    "incorporated": "2002-03-12",
+    "age_years": 24,
+    "registered_office": {
+      "address_line_1": "3rd Floor Block 3 Tiller And Lock",
+      "address_line_2": "250 City Road",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "EC1V 2AB"
+    },
+    "sic_codes": [
+      "72200"
+    ],
+    "sic_labels": [
+      "SIC 72200"
+    ],
+    "ch_match_quality": "exact",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04392418"
+  },
+  "spend_profile": {
+    "total_gbp_2024": 11727977,
+    "rank": 709,
+    "category": "unclear",
+    "n_departments": 5,
+    "by_department": [
+      {
+        "dept_id": "ministry_of_housing_communities_and_local_government",
+        "dept_name": "MHCLG",
+        "amount_gbp": 8625018,
+        "segments": [
+          {
+            "segment": "CFO and Corporate",
+            "amount_gbp": 8625018,
+            "pct_of_segment": 3.6,
+            "rank_in_segment": 5,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_education",
+        "dept_name": "Department for Education",
+        "amount_gbp": 1861723,
+        "segments": [
+          {
+            "segment": "SARDIS",
+            "amount_gbp": 1861723,
+            "pct_of_segment": 8.9,
+            "rank_in_segment": 2,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_culture_media_and_sport",
+        "dept_name": "DCMS",
+        "amount_gbp": 588346,
+        "segments": [
+          {
+            "segment": "Research & Innovation",
+            "amount_gbp": 588346,
+            "pct_of_segment": 9.88,
+            "rank_in_segment": 4,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "department_for_work_and_pensions",
+        "dept_name": "Department for Work and Pensions",
+        "amount_gbp": 493132,
+        "segments": [
+          {
+            "segment": "Other Programmes",
+            "amount_gbp": 493132,
+            "pct_of_segment": 0.28,
+            "rank_in_segment": 16,
+            "type": "Contractor"
+          }
+        ]
+      },
+      {
+        "dept_id": "hm_revenue_and_customs",
+        "dept_name": "HM Revenue and Customs",
+        "amount_gbp": 159758,
+        "segments": [
+          {
+            "segment": "Knowledge Analysis & Intelligence",
+            "amount_gbp": 127897,
+            "pct_of_segment": 3.28,
+            "rank_in_segment": 9,
+            "type": "Contractor"
+          },
+          {
+            "segment": "Customer Strategy & Tax Design",
+            "amount_gbp": 31861,
+            "pct_of_segment": 1.88,
+            "rank_in_segment": 12,
+            "type": "Contractor"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_health": {
+    "last_filing_date": "2024-12-06",
+    "period_end": "2024-06-30",
+    "accounts_type_code": "AA",
+    "accounts_type_description": "accounts-with-accounts-type-full",
+    "transaction_id": "MzQ0NjI3NjM2OGFkaXF6a2N4",
+    "pdf": {
+      "path": "data/recipients/uk/supplier_financials/04392418_2024-12-06.pdf",
+      "size_mb": 3.14,
+      "exists": true
+    },
+    "next_accounts_due": "2026-06-30",
+    "overdue": false
+  },
+  "governance": {
+    "officers_active_count": 12,
+    "officers_resigned_count": 39,
+    "board_turnover_ratio": 3.25,
+    "board_turnover_signal": "medium",
+    "active_directors": [
+      {
+        "name": "ANITHA, Sundari, Professor",
+        "role": "director",
+        "appointed_on": "2023-07-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BARNARD, Helen Jane",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BROOKS, James",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DUKE, Mark",
+        "role": "director",
+        "appointed_on": "2019-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ETHERINGTON, Stuart James, Sir",
+        "role": "director",
+        "appointed_on": "2021-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FOSTER, Oliver James",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GABBITAS, Saratha Rajeswaran",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GORDON, Bruce Malcolm",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MACFARLANE, Phyllis Joan",
+        "role": "director",
+        "appointed_on": "2019-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1948
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PARK, Alison Macdonald",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RIVERS, Ian",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SKERO, Nina",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1990
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      }
+    ],
+    "secretaries": [],
+    "all_active_officers": [
+      {
+        "name": "ANITHA, Sundari, Professor",
+        "role": "director",
+        "appointed_on": "2023-07-20",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1973
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BARNARD, Helen Jane",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1976
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "BROOKS, James",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "DUKE, Mark",
+        "role": "director",
+        "appointed_on": "2019-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 10,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "ETHERINGTON, Stuart James, Sir",
+        "role": "director",
+        "appointed_on": "2021-02-24",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1955
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "FOSTER, Oliver James",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1979
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GABBITAS, Saratha Rajeswaran",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1982
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "GORDON, Bruce Malcolm",
+        "role": "director",
+        "appointed_on": "2022-06-21",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 11,
+          "year": 1959
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "MACFARLANE, Phyllis Joan",
+        "role": "director",
+        "appointed_on": "2019-11-01",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1948
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "PARK, Alison Macdonald",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 7,
+          "year": 1966
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "RIVERS, Ian",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "Scotland",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1968
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      },
+      {
+        "name": "SKERO, Nina",
+        "role": "director",
+        "appointed_on": "2025-11-13",
+        "resigned_on": null,
+        "nationality": "British",
+        "occupation": null,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 3,
+          "year": 1990
+        },
+        "address": {
+          "locality": "London",
+          "postal_code": "EC1V 2AB",
+          "country": "England"
+        }
+      }
+    ],
+    "resigned_officers_summary": {
+      "count": 39,
+      "recent": [
+        {
+          "name": "ENGLAND, Jude",
+          "role": "director",
+          "appointed_on": "2017-02-09",
+          "resigned_on": "2026-02-18",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1954
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1V 2AB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "LOPEZ, Desirée",
+          "role": "director",
+          "appointed_on": "2019-12-01",
+          "resigned_on": "2026-02-18",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 8,
+            "year": 1974
+          },
+          "address": {
+            "locality": "London",
+            "postal_code": "EC1V 2AB",
+            "country": "England"
+          }
+        },
+        {
+          "name": "HAVELOCK, Peter Richard David",
+          "role": "director",
+          "appointed_on": "2016-10-03",
+          "resigned_on": "2025-07-22",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 6,
+            "year": 1967
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "EC1V 0AX",
+            "country": null
+          }
+        },
+        {
+          "name": "MOHAN, John, Professor",
+          "role": "director",
+          "appointed_on": "2023-05-01",
+          "resigned_on": "2025-02-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 7,
+            "year": 1958
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "EC1V 0AX",
+            "country": null
+          }
+        },
+        {
+          "name": "WEST, Stephen Raymond",
+          "role": "director",
+          "appointed_on": "2016-01-08",
+          "resigned_on": "2025-02-20",
+          "nationality": "British",
+          "occupation": null,
+          "country_of_residence": "England",
+          "date_of_birth": {
+            "month": 3,
+            "year": 1958
+          },
+          "address": {
+            "locality": null,
+            "postal_code": "EC1V 0AX",
+            "country": null
+          }
+        }
+      ]
+    },
+    "direct_psc_count": 0,
+    "direct_psc_statements": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2017-03-07",
+        "ceased_on": null
+      }
+    ]
+  },
+  "ownership_chain": {
+    "resolution": "partial_unresolved",
+    "direct_psc_count": 0,
+    "chains_count": 1,
+    "chains": [
+      [
+        {
+          "step": 0,
+          "from_company": "04392418",
+          "terminal": true,
+          "resolution": "no_psc_identified",
+          "statements": [
+            "no-individual-or-entity-with-signficant-control"
+          ]
+        }
+      ]
+    ],
+    "ubo_summary": {
+      "ultimate_individuals": [],
+      "ultimate_governments": [],
+      "ultimate_foreign_countries": [],
+      "listed_dispersed_signal": false
+    }
+  },
+  "match_confidence": {
+    "score": 90,
+    "label": "high",
+    "reasons": [
+      [
+        "+25",
+        "exact_name_match"
+      ],
+      [
+        "+10",
+        "company_active"
+      ],
+      [
+        "+5",
+        "established_company_10y_plus"
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "section": "identity",
+      "type": "companies_house_api",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04392418"
+    },
+    {
+      "section": "financial_health",
+      "type": "ch_filing_pdf",
+      "transaction_id": "MzQ0NjI3NjM2OGFkaXF6a2N4",
+      "pdf_path": "data/recipients/uk/supplier_financials/04392418_2024-12-06.pdf"
+    },
+    {
+      "section": "governance.officers",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04392418/officers"
+    },
+    {
+      "section": "governance.psc",
+      "type": "companies_house_api",
+      "url": "https://api.company-information.service.gov.uk/company/04392418/persons-with-significant-control"
+    }
+  ],
+  "classification": {
+    "category": "unclear",
+    "ch_eligible_source_reason": null
+  },
+  "metadata": {
+    "source_rank": 709,
+    "enriched_at": "2026-04-16T20:36:51Z",
+    "governance_enriched_at": "2026-04-16T22:37:51Z",
+    "ubo_enriched_at": "2026-04-16T23:23:46Z",
+    "wikidata_merged_at": null,
+    "generated_at": "2026-04-17T00:43:41Z",
+    "generator_version": "1.1.0"
+  }
+}
