@@ -23,6 +23,7 @@ UKTrace.setTrees({
   spending: JSON.parse(fs.readFileSync(path.join(D, 'uk_budget_tree_2024.json'), 'utf8')),
   revenue:  JSON.parse(fs.readFileSync(path.join(D, 'fiscal', 'uk_revenue_2024_2025.json'), 'utf8')),
   psnb:     JSON.parse(fs.readFileSync(path.join(D, 'fiscal', 'uk_psnb_historical.json'), 'utf8')),
+  councilFinance: JSON.parse(fs.readFileSync(path.join(D, 'fiscal', 'uk_council_finance_2023_24.json'), 'utf8')),
 });
 
 let pass = 0, fail = 0;
@@ -102,6 +103,24 @@ const expectedCFOut = (direct.total_direct_tax + vat.per_tax_gbp.vat)
                     + (trace.nodes.find(n => n.id === 'borrowing').per_household_gbp);
 t('CF outflow distribution conserves user contribution + borrowing', () =>
   approx(cfOutflows, expectedCFOut, 2));
+
+// ── Council finance integration ──
+t('Summary includes real council finance facts', () => {
+  const cf = trace.summary.council_facts;
+  return cf && cf.name && cf.central_grants_received_gbp > 0 && cf.share_of_all_council_grants > 0;
+});
+
+t('User\'s share of central grants to their council is non-trivial', () => {
+  const cf = trace.summary.council_facts;
+  return cf && cf.your_share_of_central_grant_gbp > 5 && cf.your_share_of_central_grant_gbp < 5000;
+});
+
+t('User\'s council has service breakdown links', () => {
+  const serviceLinks = trace.links.filter(l =>
+    l.source === 'council_direct' || l.source === 'council_grant'
+  );
+  return serviceLinks.length >= 3;
+});
 
 // ── Pretty print summary for manual eyeballing ──
 console.log('\n=== Gareth, £42,000 rUK, Hillingdon Band D, 2024-25 ===\n');
