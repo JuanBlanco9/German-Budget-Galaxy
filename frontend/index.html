@@ -1004,41 +1004,37 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
     <div class="lp-title" style="font-size:32px;margin-bottom:4px;letter-spacing:2px">BUDGET GALAXY</div>
     <div class="lp-tagline" style="max-width:none;margin:0 auto 8px;line-height:1.6;font-size:14px;color:rgba(255,255,255,.95);white-space:nowrap;background:rgba(0,0,0,.4);display:inline-block;padding:6px 18px;border-radius:6px">Explore how nations spend. Every ministry, every department, every dollar, euro and pound &mdash; visualized.</div>
 
-    <!-- Multiverse card -->
-    <div onclick="lpGoToTab('multiverse')" style="background:linear-gradient(135deg,rgba(18,18,30,.9),rgba(30,30,50,.9));border:1px solid var(--accent);border-radius:12px;padding:16px 32px;cursor:pointer;text-align:center;margin:0 auto 20px;max-width:420px;transition:transform .2s,box-shadow .2s" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(79,195,247,.2)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
-      <div style="font-size:28px;margin-bottom:4px;letter-spacing:4px">&#127465;&#127466; &#127482;&#127480; &#127467;&#127479; &#127468;&#127463;</div>
-      <div style="font-size:18px;font-weight:700;color:var(--text);letter-spacing:1px">MULTIVERSE</div>
-      <div style="font-size:11px;color:var(--accent);margin-top:4px">All budgets in one universe</div>
+    <!-- Two primary action cards (2026-04-18 IA redesign) -->
+    <div class="lp-action-row" style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin:0 auto 20px;max-width:760px">
+      <div onclick="lpGoToTab('multiverse')" class="lp-action-card" style="flex:1;min-width:280px;background:linear-gradient(135deg,rgba(18,18,30,.9),rgba(30,30,50,.9));border:1px solid var(--accent);border-radius:12px;padding:22px 28px;cursor:pointer;text-align:center;transition:transform .2s,box-shadow .2s" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 24px rgba(79,195,247,.2)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+        <div style="font-size:32px;margin-bottom:6px">&#127776;</div>
+        <div style="font-size:20px;font-weight:700;color:var(--text);letter-spacing:1px">MULTIVERSE</div>
+        <div style="font-size:12px;color:var(--accent);margin-top:4px">All 4 countries in one canvas</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.7);margin-top:2px">DE &middot; US &middot; FR &middot; GB</div>
+      </div>
+      <div onclick="lpGoToTab('explore')" class="lp-action-card" style="flex:1;min-width:280px;background:linear-gradient(135deg,rgba(18,18,30,.9),rgba(30,30,50,.9));border:1px solid var(--border);border-radius:12px;padding:22px 28px;cursor:pointer;text-align:center;transition:transform .2s,box-shadow .2s,border-color .2s" onmouseover="this.style.transform='translateY(-3px)';this.style.borderColor='var(--accent)';this.style.boxShadow='0 8px 24px rgba(79,195,247,.15)'" onmouseout="this.style.transform='';this.style.borderColor='var(--border)';this.style.boxShadow=''">
+        <div style="font-size:32px;margin-bottom:6px">&#128269;</div>
+        <div style="font-size:20px;font-weight:700;color:var(--text);letter-spacing:1px">EXPLORE &amp; COMPARE</div>
+        <div style="font-size:12px;color:var(--accent);margin-top:4px">Deep-dive one budget, or compare two</div>
+        <div style="font-size:10px;color:rgba(255,255,255,.7);margin-top:2px">Single &middot; Compare &middot; Timeline &middot; List</div>
+      </div>
     </div>
 
-    <!-- Country selector -->
-    <div style="font-size:11px;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;text-shadow:0 1px 6px rgba(0,0,0,.7)">Or choose a country</div>
-    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:28px">
-      <div onclick="lpSelectCountry('de')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
-        <div style="font-size:36px;margin-bottom:6px">&#127465;&#127466;</div>
-        <div style="font-size:16px;font-weight:700;color:var(--text)">Germany</div>
-        <div style="font-size:11px;color:var(--accent);margin-top:4px">&euro;502B &middot; 2025</div>
-        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">11 years &middot; 26 ministries</div>
-      </div>
-      <div onclick="lpSelectCountry('us')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
-        <div style="font-size:36px;margin-bottom:6px">&#127482;&#127480;</div>
-        <div style="font-size:16px;font-weight:700;color:var(--text)">United States</div>
-        <div style="font-size:11px;color:var(--accent);margin-top:4px">$12.7T &middot; 2024</div>
-        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">111 agencies</div>
-      </div>
-      <div onclick="lpSelectCountry('fr')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
-        <div style="font-size:36px;margin-bottom:6px">&#127467;&#127479;</div>
-        <div style="font-size:16px;font-weight:700;color:var(--text)">France</div>
-        <div style="font-size:11px;color:var(--accent);margin-top:4px">&euro;823B &middot; 2025</div>
-        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">20 minist&egrave;res</div>
-      </div>
-      <div onclick="lpSelectCountry('uk')" class="lp-country-card" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 24px;cursor:pointer;text-align:center;min-width:160px;transition:border-color .2s,transform .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
-        <div style="font-size:36px;margin-bottom:6px">&#127468;&#127463;</div>
-        <div style="font-size:16px;font-weight:700;color:var(--text)">United Kingdom</div>
-        <div style="font-size:11px;color:var(--accent);margin-top:4px">&pound;1,130B &middot; 2024</div>
-        <div style="font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.8)">22 departments</div>
-      </div>
+    <!-- Quick-pick country chips (for direct-link users landing here from Google) -->
+    <div style="font-size:11px;color:rgba(255,255,255,.75);margin-bottom:8px">Or jump directly to a country:</div>
+    <div style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:24px">
+      <button onclick="lpSelectCountry('uk')" class="lp-country-chip" style="background:rgba(18,18,30,.6);border:1px solid var(--border);border-radius:20px;padding:6px 14px;cursor:pointer;color:var(--text);font-size:12px;font-family:inherit">&#127468;&#127463; UK &middot; &pound;1,130B</button>
+      <button onclick="lpSelectCountry('us')" class="lp-country-chip" style="background:rgba(18,18,30,.6);border:1px solid var(--border);border-radius:20px;padding:6px 14px;cursor:pointer;color:var(--text);font-size:12px;font-family:inherit">&#127482;&#127480; US &middot; $12.7T</button>
+      <button onclick="lpSelectCountry('de')" class="lp-country-chip" style="background:rgba(18,18,30,.6);border:1px solid var(--border);border-radius:20px;padding:6px 14px;cursor:pointer;color:var(--text);font-size:12px;font-family:inherit">&#127465;&#127466; DE &middot; &euro;502B</button>
+      <button onclick="lpSelectCountry('fr')" class="lp-country-chip" style="background:rgba(18,18,30,.6);border:1px solid var(--border);border-radius:20px;padding:6px 14px;cursor:pointer;color:var(--text);font-size:12px;font-family:inherit">&#127467;&#127479; FR &middot; &euro;823B</button>
     </div>
+    <style>
+      .lp-country-chip:hover{border-color:var(--accent);background:rgba(79,195,247,.08)}
+      @media (max-width:640px){
+        .lp-action-row{flex-direction:column;gap:12px;max-width:420px}
+        .lp-action-card{min-width:0;padding:18px 20px}
+      }
+    </style>
 
     <div style="font-size:11px;color:rgba(255,255,255,.85);margin-bottom:20px;text-shadow:0 1px 6px rgba(0,0,0,.7)">More countries coming soon: &#127463;&#127479; Brazil &middot; &#127470;&#127473; Israel &middot; &#127464;&#127462; Canada &middot; &#127471;&#127477; Japan</div>
 
@@ -1073,11 +1069,14 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 
 <div class="tabs">
   <div class="tab" data-tab="multiverse" onclick="showTab('multiverse',this)">Multiverse</div>
-  <div class="tab active" data-tab="galaxy" onclick="showTab('galaxy',this)">Budget Galaxy</div>
-  <div class="tab" data-tab="budgetlist" onclick="showTab('budgetlist',this)">Budget Explorer</div>
-  <div class="tab" data-tab="evolution" onclick="showTab('evolution',this)">Budget Evolution</div>
-  <div class="tab" data-tab="compare" onclick="showTab('compare',this)">Compare</div>
+  <div class="tab active" data-tab="explore" onclick="showTab('explore',this)">Explore &amp; Compare</div>
   <div class="tab" data-tab="about" onclick="showTab('about',this)">About</div>
+  <!-- Legacy tabs consolidated into 'explore' (2026-04-18). Old data-tab values
+       preserved for deep-link aliasing in showTab routing logic. -->
+  <!-- <div class="tab" data-tab="galaxy">Budget Galaxy</div> -->
+  <!-- <div class="tab" data-tab="budgetlist">Budget Explorer</div> -->
+  <!-- <div class="tab" data-tab="evolution">Budget Evolution</div> -->
+  <!-- <div class="tab" data-tab="compare">Compare</div> -->
   <!-- Hidden tabs - kept in code for future use
   <div class="tab" data-tab="map" onclick="showTab('map',this)">World Map</div>
   <div class="tab" data-tab="countries" onclick="showTab('countries',this)">Country Rankings</div>
@@ -1089,6 +1088,49 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
   <div class="tab" data-tab="terms" onclick="showTab('terms',this)">Terms</div>
   -->
 </div>
+
+<!-- Explore & Compare sub-nav: visible only when the active main tab is 'explore'.
+     Switches between the 4 legacy panels (galaxy/compare/evolution/budgetlist)
+     now presented as modes of a single unified tab. -->
+<div id="explore-subnav" class="explore-subnav" style="display:none">
+  <button type="button" class="subnav-btn" data-sub="galaxy" onclick="showTab('galaxy',null)">
+    <span class="subnav-icon">📍</span> Single view
+  </button>
+  <button type="button" class="subnav-btn" data-sub="compare" onclick="showTab('compare',null)">
+    <span class="subnav-icon">↔</span> Compare
+  </button>
+  <button type="button" class="subnav-btn" data-sub="evolution" onclick="showTab('evolution',null)">
+    <span class="subnav-icon">📈</span> Timeline
+  </button>
+  <button type="button" class="subnav-btn" data-sub="budgetlist" onclick="showTab('budgetlist',null)">
+    <span class="subnav-icon">📋</span> Breadcrumb list
+  </button>
+</div>
+<style>
+.explore-subnav{
+  display:flex;gap:6px;padding:6px 12px;
+  background:rgba(18,18,30,.6);border-bottom:1px solid var(--border);
+  overflow-x:auto;scrollbar-width:none;
+}
+.explore-subnav::-webkit-scrollbar{display:none}
+.explore-subnav .subnav-btn{
+  background:transparent;border:1px solid transparent;color:var(--dim);
+  padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px;
+  white-space:nowrap;transition:all .15s;
+}
+.explore-subnav .subnav-btn:hover{color:var(--text);background:rgba(79,195,247,.08)}
+.explore-subnav .subnav-btn.active{
+  color:var(--accent);background:rgba(79,195,247,.12);
+  border-color:rgba(79,195,247,.3);
+}
+.explore-subnav .subnav-icon{margin-right:4px;font-size:13px}
+@media (max-width:767px){
+  .explore-subnav{padding:4px 8px}
+  .explore-subnav .subnav-btn{padding:5px 8px;font-size:11px}
+  /* Compare hidden on mobile — requires side-by-side real estate. See design 2026-04-18. */
+  .explore-subnav .subnav-btn[data-sub="compare"]{display:none}
+}
+</style>
 
 <!-- MULTIVERSE TAB -->
 <div id="tab-multiverse" class="panel" style="display:none">
@@ -2094,7 +2136,16 @@ function restoreTabState(tab){
   }
 }
 
+// Maps sub-mode names to their parent main tab. 'explore' is the unified
+// Explore & Compare tab introduced 2026-04-18. Legacy URL aliases preserved.
+const EXPLORE_SUBMODES = {galaxy:1, compare:1, evolution:1, budgetlist:1};
+function _exploreParent(name){ return EXPLORE_SUBMODES[name] ? 'explore' : name; }
+
 function showTab(name,el){
+  // 'explore' alone has no panel — redirect to last chosen sub-mode or default 'galaxy'
+  if (name === 'explore') {
+    name = localStorage.getItem('last_explore_sub') || 'galaxy';
+  }
   // Save current tab state before switching
   saveCurrentTabState();
 
@@ -2103,8 +2154,29 @@ function showTab(name,el){
   const panel=document.getElementById('tab-'+name);
   panel.classList.add('active');
   panel.style.display=(name==='map'||name==='evolution')?'flex':'block';
-  if(el)el.classList.add('active');
-  else document.querySelector(`.tab[data-tab="${name}"]`).classList.add('active');
+  // Highlight the main tab (resolving sub-modes to their parent 'explore')
+  const _mainTab = _exploreParent(name);
+  if(el && el.classList.contains('tab')) el.classList.add('active');
+  else {
+    const mainEl = document.querySelector(`.tab[data-tab="${_mainTab}"]`);
+    if (mainEl) mainEl.classList.add('active');
+  }
+
+  // Toggle Explore & Compare sub-nav visibility + active sub-button
+  const subnav = document.getElementById('explore-subnav');
+  if (subnav) {
+    if (_mainTab === 'explore') {
+      subnav.style.display = 'flex';
+      subnav.querySelectorAll('.subnav-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.sub === name);
+      });
+      // Remember last sub-mode for when user clicks "Explore & Compare" tab directly
+      localStorage.setItem('last_explore_sub', name);
+    } else {
+      subnav.style.display = 'none';
+    }
+  }
+
   if(name==='multiverse'){
     panel.style.display='block';loadMultiverse();
     // Highlight ALL button in country switcher
@@ -6763,10 +6835,61 @@ let multiverseLoaded=false;
 let multiverseYear=2024;
 let mvAvailableYears={};
 
+// Mobile multiverse: render a country picker (CSS only, zero D3) instead of
+// parallel rendering which crashes on low-memory mobile devices. Desktop/tablet
+// behavior (parallel D3) unchanged. Breakpoint 768px per responsive design
+// decision 2026-04-18.
+function _mvIsMobile(){ return window.innerWidth < 768; }
+
+function renderMultiverseMobilePicker(container){
+  const countries = [
+    {code:'uk', flag:'\u{1F1EC}\u{1F1E7}', name:'United Kingdom', total:'\u00A31,130B', year:'2024', detail:'22 depts \u00B7 supplier-level'},
+    {code:'us', flag:'\u{1F1FA}\u{1F1F8}', name:'United States',   total:'$12.7T',     year:'2024', detail:'111 fed agencies + 50 states'},
+    {code:'de', flag:'\u{1F1E9}\u{1F1EA}', name:'Germany',         total:'\u20AC502B',  year:'2025', detail:'Bund + SV + 16 Länder'},
+    {code:'fr', flag:'\u{1F1EB}\u{1F1F7}', name:'France',          total:'\u20AC823B',  year:'2025', detail:'20 ministères'},
+  ];
+  container.innerHTML = `
+    <div class="mv-mobile-picker" style="padding:24px 16px;max-width:520px;margin:0 auto">
+      <div style="text-align:center;margin-bottom:20px">
+        <div style="font-size:18px;font-weight:700;color:var(--text);letter-spacing:1px;margin-bottom:4px">\u{1F30C} MULTIVERSE</div>
+        <div style="font-size:12px;color:var(--dim)">Pick a country to explore</div>
+      </div>
+      ${countries.map(c => `
+        <div onclick="lpSelectCountry('${c.code}')" class="mv-mobile-card" style="display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:10px;cursor:pointer;transition:border-color .15s,transform .15s">
+          <div style="font-size:36px;line-height:1">${c.flag}</div>
+          <div style="flex:1;min-width:0">
+            <div style="font-size:16px;font-weight:700;color:var(--text)">${c.name}</div>
+            <div style="font-size:11px;color:var(--accent);margin-top:2px">${c.total} \u00B7 ${c.year}</div>
+            <div style="font-size:10px;color:rgba(255,255,255,.7);margin-top:2px">${c.detail}</div>
+          </div>
+          <div style="color:var(--dim);font-size:20px">\u203A</div>
+        </div>
+      `).join('')}
+      <div style="font-size:10px;color:rgba(255,255,255,.55);text-align:center;margin-top:16px;font-style:italic">
+        Parallel Multiverse view available on desktop (\u2265 768px).<br>
+        Mobile shows one country at a time for performance.
+      </div>
+    </div>
+    <style>
+      .mv-mobile-picker .mv-mobile-card:hover,
+      .mv-mobile-picker .mv-mobile-card:active{
+        border-color:var(--accent);transform:translateY(-1px)
+      }
+    </style>
+  `;
+}
+
 async function loadMultiverse(forceYear){
   const container=document.getElementById('multiverse-container');
   if(!container) return;
-  // Preload enrichments for all countries + US states
+
+  // Mobile: serve static picker, skip D3 rendering entirely
+  if (_mvIsMobile()) {
+    renderMultiverseMobilePicker(container);
+    return;
+  }
+
+  // Preload enrichments for all countries + US states (desktop/tablet)
   ['de','us','fr','uk'].forEach(c=>loadProgramEnrichments(c));
   if(!window._usStatesEnr){window._usStatesEnr={};fetch('/data/us/states/us_states_enrichment.json').then(r=>r.ok?r.json():{}).then(d=>{window._usStatesEnr=d}).catch(()=>{})}
 
@@ -8216,6 +8339,12 @@ function renderCouncilSuppliersPanel(data){
     h+=renderSubcategoriesPanel(data._subcategories,data.value);
   }
 
+  // Top purposes — what was actually bought, from supplier transaction categories
+  // Populated for 96.7% of nodes with _top_suppliers; more granular than _subcategories
+  if(ts.purposes&&Array.isArray(ts.purposes)&&ts.purposes.length>=2){
+    h+=renderPurposesPanel(ts.purposes);
+  }
+
   // Coverage caveat
   h+=`<div style="font-size:10px;color:var(--dim);font-style:italic;margin-bottom:10px;line-height:1.45">${esc(ts.coverage_note||'')}</div>`;
 
@@ -8294,6 +8423,42 @@ function renderSubcategoriesPanel(subcats,parentValue){
       </div>
     </div>`;
   });
+  h+='</div>';
+  return h;
+}
+
+// ── Purposes panel (from _top_suppliers.purposes, Opción A transparency) ──
+// Shows the top categories of what the service actually bought, inferred from
+// supplier transaction labels/descriptions. Complementary to _subcategories
+// (which is node-structural). Populated for 96.7% of nodes.
+function renderPurposesPanel(purposes){
+  if(!purposes||!Array.isArray(purposes)||purposes.length<2) return '';
+  const maxAmt=Math.max(...purposes.map(p=>p.amount||0));
+  // Use top 8 to avoid overwhelming the panel
+  const shown=purposes.slice(0,8);
+  let h='<div class="subcats-panel" style="margin-top:10px">';
+  h+='<div class="subcats-title">Top purchase categories';
+  h+='<span class="subcats-note">Extracted from supplier transaction descriptions (Spend Over \u00A3500)</span>';
+  h+='</div>';
+  shown.forEach((p,i)=>{
+    const w=maxAmt>0?Math.round((p.amount||0)/maxAmt*100):0;
+    const op=Math.max(0.35,0.9-i*0.07);
+    const label=p.label||'';
+    const pct=p.pct!=null?p.pct.toFixed(1):'-';
+    const amt=p.amount!=null?(p.amount/1e6).toFixed(2):'-';
+    const tx=p.transactions!=null?p.transactions.toLocaleString('en-GB'):'-';
+    h+=`<div class="subcat-row">
+      <div class="subcat-label" title="${esc(label)}">${esc(label)}</div>
+      <div class="subcat-track"><div class="subcat-bar" style="width:${w}%;opacity:${op};background:#0d8a8a"></div></div>
+      <div class="subcat-nums">
+        <span class="subcat-amt">\u00A3${amt}M</span>
+        <span class="subcat-pct">${pct}%</span>
+      </div>
+    </div>`;
+  });
+  if(purposes.length>8){
+    h+=`<div style="font-size:10px;color:var(--dim);margin-top:4px;font-style:italic">...${purposes.length-8} more categories</div>`;
+  }
   h+='</div>';
   return h;
 }
