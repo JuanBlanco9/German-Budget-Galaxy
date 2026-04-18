@@ -370,4 +370,118 @@ The realistic next milestone is **94-95%** with UK VPS purchase + OCR install. B
 
 ---
 
+## 19. Supplier deep-enrichment layer (added Apr 17-18, 2026)
+
+Second enrichment layer built on top of the MHCLG tree + `_top_suppliers` data
+described in section 3. Takes supplier NAMES (strings) and turns them into
+structured per-supplier profiles with identity, ownership, governance, and
+procurement history. **Complementary to, not replacing, the council-scraping
+pipeline.**
+
+### Scope
+
+Input: the `_top_suppliers` lists attached to 1,488 service nodes in the tree.
+Output: `data/suppliers/{company_number}.json` — one profile per unique
+Companies House entity, with 8 structured sections.
+
+### Pipeline (14 scripts, all idempotent + resume-safe)
+
+```
+  Stage 1: identity (Companies House API)
+    build_uk_supplier_ranking.py   → 2,388 dedup'd unique names
+    classify_uk_suppliers.py       → 13-category classifier (council, NHS,
+                                     commercial, NDPB, international_body, ...)
+    enrich_uk_suppliers.py         → CH search + profile + accounts PDF download
+
+  Stage 2: governance
+    enrich_uk_suppliers_governance.py → officers + direct PSCs
+
+  Stage 3: ownership chain walk
+    enrich_uk_suppliers_ubo.py           → recursive PSC chain walker
+    enrich_uk_suppliers_wikidata.py      → foreign-parent resolution via Wikidata
+    resolve_ubo_unknown_jurisdictions.py → CH search by PSC name fallback
+    infer_ubo_suffix_jurisdictions.py    → regex infer jurisdiction from suffix
+    merge_wikidata_to_ubo.py             → merge findings into UBO chains
+    split_partial_unresolved.py          → listed_dispersed vs data_gap
+    validate_match_quality.py            → 0-100 confidence scoring
+
+  Stage 4: profile integration
+    build_supplier_profiles.py       → 400 per-supplier JSONs
+    build_reverse_lookup_indexes.py  → 11 inverted indexes
+
+  Stage 5: procurement history (DRAFT — parallel data/suppliers_v2/)
+    procurement_ingest_contracts_finder.py      → OCDS per-year ingest 2020-2024
+    procurement_resolve_to_suppliers.py         → 3-pass entity resolution
+    procurement_fix_framework_inflation.py      → framework share dilution
+    procurement_aggregate_by_supplier.py        → per-supplier metrics
+    procurement_build_supplier_timelines.py     → 5-year CAGR + trajectory
+    build_supplier_profiles_with_procurement.py → v2 integrator (DRAFT)
+```
+
+### Current state (end of 2026-04-17)
+
+| Dataset | Count | Status |
+|---|---:|---|
+| Unique dedup'd supplier names | 2,388 | complete |
+| CH-eligible after classifier | 1,932 | complete |
+| CH-enriched (batch 1+2 in progress) | 1,708 | **batch 2 still running** |
+| Top 500 with full governance + UBO | 400 | complete |
+| UBO chains walked (5-hop max) | 400 | complete |
+| Wikidata resolved foreign parents | 60 | complete |
+| 5-year procurement timelines | 716 | complete (DRAFT) |
+| Production-ready profiles (v1) | 400 | `data/suppliers/` |
+| v2 profiles with procurement | 400 | `data/suppliers_v2/` (DRAFT) |
+| UBO resolution: government | 21 | £38.78B spend |
+| UBO resolution: individual UBO | 60 | £5.58B spend |
+| UBO resolution: listed_dispersed | 100 | £9.65B spend |
+| UBO resolution: foreign_via_wikidata | 60 | £7.77B spend |
+| Match confidence high | 341 | 85% |
+
+### Key findings surfaced
+
+- **Consulting boom**: Capgemini +150% CAGR, Accenture +88%, IBM +189%,
+  Deloitte +510%, BT +239% (2020-2024)
+- **BAE Global Combat Munitions**: £3.4B 100% sole-source
+- **Full Support Healthcare**: £1.8B 96% SS (pandemic PPE)
+- **Vinci UK → Qatar Investment Authority** (via Wikidata chain walk)
+- **17 dissolved/liquidation suppliers** still receiving payments
+  (Interserve, ISG, V&A Ltd, Tate Gallery Projects, ...)
+- **Cross-layer**: Jacobs UK awarded £770M 2024 but paid only £102M →
+  £668M pipeline for 2025+
+
+### Docs that explain this layer in detail
+
+- `docs/uk_supplier_enrichment/METHODOLOGY.md` — full pipeline docs
+- `docs/uk_supplier_enrichment/ROADMAP.md` — 10 next-iteration items
+- `docs/uk_supplier_enrichment/PROCUREMENT_KICKOFF.md` — CF sources + strategy
+- `docs/data_quality_dashboard/SPEC.md` — proposed /quality dashboard design
+- `data/procurement/_DRAFT_NOT_WIRED.md` — integration steps when aligned
+
+### What's NOT wired
+
+- Frontend does not yet render `profile.procurement` (v2 is DRAFT parallel dir)
+- `_index.json` has procurement filter fields in v2 only
+- Methodology page on the site doesn't reference the supplier enrichment layer yet
+- `/quality` dashboard is specced but not built
+
+### Gitignored (regenerable)
+
+- `data/recipients/uk/supplier_financials/` — 832 MB CH accounts PDFs
+- `data/procurement/contracts_flat_*.jsonl` — 685 MB raw OCDS per year
+- `data/procurement/contracts_resolved*.jsonl` — ~1.8 GB resolver output
+- `data/procurement/supplier_procurement.jsonl` — 94 MB aggregation
+- Caches: `psc_cache.json`, `profile_cache.json`
+
+To regenerate from a clean clone: run the pipeline with `CH_API_KEY` set.
+See METHODOLOGY.md for the exact command order.
+
+### Legal considerations (re-flagged)
+
+Pushing this layer to the public repo makes supplier identity + UBO chains +
+procurement patterns visible on github.com/JuanBlanco9/Budget-Galaxy. Deploy
+to budgetgalaxy.com is separate and gated on Juan's JP Morgan exclusivity
+clarification.
+
+---
+
 ## End of handoff. Good luck.
