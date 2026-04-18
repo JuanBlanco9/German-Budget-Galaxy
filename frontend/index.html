@@ -1049,7 +1049,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 
 <div class="header">
   <div class="header-text">
-    <h1 id="app-title"><span>Budget</span> Galaxy</h1>
+    <h1 id="app-title" onclick="goToLanding()" title="Back to home" style="cursor:pointer;user-select:none"><span>Budget</span> Galaxy</h1>
     <div class="header-tagline">Where does public money actually go?</div>
     <div class="header-subhead">A tool for comparing public spending across UK, Germany, France, and the US &mdash; down to individual council suppliers when the data exists.</div>
   </div>
@@ -1070,6 +1070,7 @@ mark{background:rgba(255,200,0,.25);color:inherit;border-radius:2px;padding:0 2p
 <div class="tabs">
   <div class="tab" data-tab="multiverse" onclick="showTab('multiverse',this)">Multiverse</div>
   <div class="tab active" data-tab="explore" onclick="showTab('explore',this)">Explore &amp; Compare</div>
+  <div class="tab" data-tab="suppliers" onclick="showTab('suppliers',this)">Suppliers</div>
   <div class="tab" data-tab="about" onclick="showTab('about',this)">About</div>
   <!-- Legacy tabs consolidated into 'explore' (2026-04-18). Old data-tab values
        preserved for deep-link aliasing in showTab routing logic. -->
@@ -1596,6 +1597,172 @@ mark{background:rgba(79,195,247,.3);color:var(--text,#e8ebf5);padding:0 2px;bord
   </div>
 </div>
 
+<!-- SUPPLIERS TAB (added 2026-04-18) — surfaces the 400 per-supplier profiles
+     from data/suppliers/{ch_number}.json with list view + detail drill-in.
+     Data: data/suppliers/_index.json + data/suppliers/{ch_number}.json -->
+<div id="tab-suppliers" class="panel" style="display:none">
+  <div class="suppliers-layout">
+    <!-- Master: list of suppliers -->
+    <div class="suppliers-list" id="suppliers-list">
+      <div class="suppliers-header">
+        <div class="suppliers-title">🏢 UK Suppliers</div>
+        <div class="suppliers-count" id="suppliers-count">Loading...</div>
+        <input type="text" id="suppliers-search" placeholder="🔍 Search by name or CH number..." autocomplete="off" spellcheck="false" />
+      </div>
+      <div class="suppliers-rows" id="suppliers-rows"></div>
+    </div>
+    <!-- Detail: profile of selected supplier -->
+    <div class="suppliers-detail" id="suppliers-detail">
+      <div class="suppliers-empty" id="suppliers-empty">
+        <div style="font-size:48px;margin-bottom:14px;opacity:.4">🏢</div>
+        <div style="font-size:16px;color:var(--text);font-weight:600;margin-bottom:4px">Select a supplier</div>
+        <div style="font-size:12px;color:var(--dim);max-width:320px;line-height:1.5">
+          400 UK government suppliers with identity, governance, ownership chains and procurement history — click any name to explore.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+.suppliers-layout{
+  display:grid;grid-template-columns:360px 1fr;height:calc(100vh - 80px);
+}
+.suppliers-list{
+  border-right:1px solid var(--border,#252d42);
+  display:flex;flex-direction:column;
+  background:rgba(18,18,30,.4);
+  overflow:hidden;
+}
+.suppliers-header{
+  padding:16px;border-bottom:1px solid var(--border,#252d42);
+  background:rgba(18,18,30,.6);
+}
+.suppliers-title{
+  font-size:14px;font-weight:600;color:var(--text,#e8ebf5);letter-spacing:.5px;
+}
+.suppliers-count{
+  font-size:11px;color:var(--dim,#8892a8);margin-top:4px;
+}
+#suppliers-search{
+  width:100%;margin-top:10px;padding:8px 10px;
+  background:rgba(255,255,255,.04);border:1px solid var(--border,#252d42);
+  color:var(--text,#e8ebf5);border-radius:6px;font-size:12px;font-family:inherit;
+  outline:none;
+}
+#suppliers-search:focus{border-color:var(--accent,#4fc3f7)}
+.suppliers-rows{
+  flex:1;overflow-y:auto;
+}
+.sup-row{
+  padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.04);
+  cursor:pointer;transition:background .1s;
+}
+.sup-row:hover,.sup-row.active{background:rgba(79,195,247,.08)}
+.sup-row.active{border-left:3px solid var(--accent,#4fc3f7);padding-left:11px}
+.sup-row-name{
+  font-size:13px;font-weight:500;color:var(--text,#e8ebf5);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.sup-row-meta{
+  font-size:10px;color:var(--dim,#8892a8);margin-top:2px;
+  display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+}
+.sup-row-rank{color:var(--accent,#4fc3f7);font-weight:600}
+.sup-row-badges{display:flex;gap:4px;margin-top:3px;flex-wrap:wrap}
+.sup-badge{
+  font-size:9px;padding:1px 5px;border-radius:3px;
+  letter-spacing:.3px;font-weight:600;
+}
+.sup-badge.govt{background:rgba(192,132,252,.15);color:#c084fc}
+.sup-badge.individual{background:rgba(96,165,250,.15);color:#60a5fa}
+.sup-badge.foreign{background:rgba(251,146,60,.15);color:#fb923c}
+.sup-badge.listed{background:rgba(110,231,183,.15);color:#6ee7b7}
+.sup-badge.gap{background:rgba(251,191,36,.15);color:#fbbf24}
+.sup-badge.suspicious{background:rgba(248,113,113,.15);color:#f87171}
+.sup-badge.dissolved{background:rgba(248,113,113,.15);color:#f87171}
+.suppliers-detail{
+  overflow-y:auto;padding:28px 36px;
+}
+.suppliers-empty{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  height:100%;text-align:center;padding:40px;
+}
+/* Detail panel sections (ported from _preview.html pattern) */
+.sd-header{
+  display:flex;align-items:start;justify-content:space-between;
+  gap:30px;margin-bottom:24px;padding-bottom:18px;
+  border-bottom:1px solid var(--border,#252d42);
+}
+.sd-title{
+  font-size:22px;font-weight:600;color:var(--text,#e8ebf5);
+  margin:0 0 8px 0;line-height:1.2;
+}
+.sd-subtitle{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.sd-big-num{font-size:28px;font-weight:700;color:var(--accent,#4fc3f7);text-align:right}
+.sd-big-label{font-size:11px;color:var(--dim,#8892a8);text-transform:uppercase;letter-spacing:.8px;text-align:right}
+.sd-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.sd-card{
+  background:var(--surface,#121828);border:1px solid var(--border,#252d42);
+  border-radius:8px;padding:16px;
+}
+.sd-card.full{grid-column:1 / -1}
+.sd-card h3{
+  margin:0 0 12px 0;font-size:11px;letter-spacing:1px;
+  text-transform:uppercase;color:var(--dim,#8892a8);font-weight:500;
+}
+.sd-kv{display:grid;grid-template-columns:120px 1fr;gap:6px 12px;font-size:12px}
+.sd-kv .k{color:var(--dim,#8892a8)}
+.sd-kv .v{color:var(--text,#e8ebf5)}
+.sd-kv .v a{color:var(--accent,#4fc3f7);text-decoration:none}
+.sd-kv .v a:hover{text-decoration:underline}
+/* Chain viz */
+.sd-chain{
+  display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:8px;
+}
+.sd-hop{
+  background:rgba(255,255,255,.03);border:1px solid var(--border,#252d42);
+  border-radius:6px;padding:8px 12px;max-width:220px;
+  font-size:11px;
+}
+.sd-hop.terminal.individual{border-color:#60a5fa;box-shadow:0 0 0 1px #60a5fa}
+.sd-hop.terminal.government{border-color:#c084fc;box-shadow:0 0 0 1px #c084fc}
+.sd-hop.terminal.foreign{border-color:#fb923c;box-shadow:0 0 0 1px #fb923c}
+.sd-hop-name{font-weight:500;color:var(--text,#e8ebf5)}
+.sd-hop-kind{font-size:10px;color:var(--dim,#8892a8);margin-top:2px}
+.sd-hop-src{margin-top:4px}
+.sd-hop-src a{font-size:10px;color:var(--accent,#4fc3f7);text-decoration:none}
+.sd-arrow{color:var(--dim,#8892a8);font-size:16px}
+.sd-table{width:100%;border-collapse:collapse;font-size:11px}
+.sd-table th{text-align:left;color:var(--dim,#8892a8);font-weight:500;text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--border,#252d42);font-size:10px}
+.sd-table td{padding:6px 8px;border-bottom:1px solid rgba(255,255,255,.03);color:var(--text,#e8ebf5)}
+.sd-dept-bar{display:grid;grid-template-columns:160px 1fr 80px;gap:10px;align-items:center;padding:4px 0;font-size:11px}
+.sd-dept-bar .dept{color:var(--text,#e8ebf5);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sd-dept-bar .bar-wrap{background:rgba(255,255,255,.04);height:14px;border-radius:2px}
+.sd-dept-bar .bar{background:var(--accent,#4fc3f7);height:100%;border-radius:2px}
+.sd-dept-bar .amt{text-align:right;color:var(--dim,#8892a8);font-variant-numeric:tabular-nums}
+.sd-status{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600;letter-spacing:.3px}
+.sd-status.active{background:rgba(74,222,128,.15);color:#4ade80}
+.sd-status.dissolved,.sd-status.liquidation,.sd-status.administration,.sd-status.closed{background:rgba(248,113,113,.15);color:#f87171}
+.sd-back{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:12px;color:var(--dim,#8892a8);cursor:pointer;
+  padding:6px 10px;border-radius:4px;transition:all .15s;
+  background:transparent;border:0;font-family:inherit;
+  margin-bottom:12px;
+}
+.sd-back:hover{background:rgba(255,255,255,.05);color:var(--text,#e8ebf5)}
+.sd-sources{font-size:11px;color:var(--dim,#8892a8);line-height:1.6}
+.sd-sources a{color:var(--accent,#4fc3f7);text-decoration:none}
+@media (max-width:900px){
+  .suppliers-layout{grid-template-columns:1fr}
+  .suppliers-list{max-height:40vh;border-right:0;border-bottom:1px solid var(--border,#252d42)}
+  .suppliers-detail{padding:20px 16px}
+  .sd-cards{grid-template-columns:1fr}
+  .sd-header{flex-direction:column;gap:12px}
+  .sd-big-num,.sd-big-label{text-align:left}
+}
+</style>
+
 <div id="tab-about" class="panel">
   <div style="padding:24px;max-width:900px;margin:0 auto;overflow-y:auto;height:calc(100vh - 80px);line-height:1.7;color:var(--text)">
 
@@ -2094,6 +2261,22 @@ function lpGoToTab(tabName){
   setTimeout(function(){ showTab(tabName,null); },100);
 }
 
+// Click on "Budget Galaxy" logo/title → back to landing page.
+// Preserves current tab state in localStorage so the browser back button
+// or a click on a landing card can return to where the user was.
+function goToLanding(){
+  try { if (typeof saveCurrentTabState === 'function') saveCurrentTabState(); } catch(e){}
+  // Close any open overlays (search modal, side sheets)
+  const gs = document.getElementById('global-search');
+  if (gs && gs.style.display !== 'none') gs.style.display = 'none';
+  // Show landing, hide app
+  document.getElementById('landing-page').classList.remove('hidden');
+  document.getElementById('main-app').style.display = 'none';
+  // Clear URL + scroll
+  try { history.pushState({}, '', '/'); } catch(e){}
+  window.scrollTo(0, 0);
+}
+
 function processUrlParams(){
   const urlParams=new URLSearchParams(window.location.search);
   const targetTab=urlParams.get('tab');
@@ -2306,6 +2489,7 @@ function showTab(name,el){
     if(h1) h1.innerHTML='<span>Budget</span> Multiverse';
   }
   if(name==='galaxy')loadGalaxy();
+  if(name==='suppliers' && typeof loadSuppliersTab==='function') loadSuppliersTab();
   if(name==='compare')cmpInit();
   if(name==='budgetlist'&&!blRoot) showBudgetYearPicker();
   if(name==='evolution'){
@@ -11246,6 +11430,321 @@ document.addEventListener('keydown', (e) => {
     if (panel && panel.style.display !== 'none') closeGlobalSearch();
   }
 });
+
+// ═══════════════════════════════════════════════════════════════════════
+// Suppliers tab (2026-04-18): surfaces the 400 per-supplier profiles
+// (data/suppliers/{ch_number}.json) with list + detail drill-in.
+// ═══════════════════════════════════════════════════════════════════════
+
+window._suppliersIndex = null;
+window._suppliersCurrentCh = null;
+
+const SUPPLIERS_INDEX_URL = '/data/suppliers/_index.json';
+const SUPPLIER_PROFILE_URL = (ch) => `/data/suppliers/${ch}.json`;
+
+function _supEscapeHtml(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+function _supFmtGBP(n){
+  if(n==null||isNaN(n))return '—';
+  if(n>=1e9)return '£'+(n/1e9).toFixed(2)+'B';
+  if(n>=1e6)return '£'+(n/1e6).toFixed(1)+'M';
+  if(n>=1e3)return '£'+(n/1e3).toFixed(1)+'K';
+  return '£'+Math.round(n).toLocaleString('en-GB');
+}
+
+// UBO resolution → badge {class, label}
+function _supUboBadge(res, countries){
+  if(!res)return null;
+  const map={
+    government:['govt','🏛️ Govt'],
+    individual:['individual','👤 Individual'],
+    foreign_via_wikidata:['foreign','🌍 Foreign'],
+    foreign_unresolved:['foreign','🌍 Foreign'],
+    partial_foreign:['foreign','🌍 Partial foreign'],
+    partial_foreign_wd:['foreign','🌍 Partial foreign'],
+    listed_dispersed:['listed','📈 Listed'],
+    data_gap:['gap','⚠ Data gap'],
+    partial_unresolved:['gap','⚠ Partial'],
+  };
+  const [cls,label]=map[res]||['','?'];
+  const flag=countries&&countries.length?' '+countries.map(c=>c.substring(0,10)).join(', '):'';
+  return {cls,label:label+flag};
+}
+
+async function loadSuppliersTab(){
+  if(!window._suppliersIndex){
+    try{
+      const r=await fetch(SUPPLIERS_INDEX_URL);
+      if(!r.ok)throw new Error('fetch failed '+r.status);
+      window._suppliersIndex=await r.json();
+    }catch(e){
+      document.getElementById('suppliers-rows').innerHTML=`<div style="padding:40px;text-align:center;color:var(--dim);font-size:12px">Failed to load supplier index: ${_supEscapeHtml(e.message)}</div>`;
+      return;
+    }
+  }
+  _supRenderList('');
+  document.getElementById('suppliers-count').textContent=`${window._suppliersIndex.length} suppliers · sorted by FY 2024 spend`;
+
+  // Wire search (once)
+  const input=document.getElementById('suppliers-search');
+  if(input && !input._wired){
+    input._wired=true;
+    input.addEventListener('input',e=>_supRenderList(e.target.value));
+  }
+
+  // Auto-select from URL hash: /#suppliers/02401034
+  const hash=location.hash||'';
+  const m=hash.match(/^#suppliers\/([A-Z0-9]+)/i);
+  if(m){
+    _supSelectSupplier(m[1]);
+  }
+}
+
+function _supRenderList(query){
+  const rows=document.getElementById('suppliers-rows');
+  if(!rows)return;
+  const list=window._suppliersIndex||[];
+  const q=(query||'').trim().toLowerCase();
+  const filtered=q
+    ? list.filter(s=>(s.display_name||'').toLowerCase().includes(q)||(s.company_number||'').toLowerCase().includes(q))
+    : list;
+  const count=document.getElementById('suppliers-count');
+  if(count){
+    count.textContent=q?`${filtered.length} of ${list.length} suppliers matching "${query}"`:`${list.length} suppliers · sorted by FY 2024 spend`;
+  }
+  rows.innerHTML=filtered.slice(0,300).map(s=>{
+    const ubo=_supUboBadge(s.ubo_resolution,s.ubo_ultimate_countries);
+    const isActive=s.company_number===window._suppliersCurrentCh;
+    const statusBadge=s.status && s.status!=='active'?`<span class="sup-badge dissolved">${_supEscapeHtml(s.status.toUpperCase())}</span>`:'';
+    const confBadge=s.match_confidence_label==='suspicious'||s.match_confidence_label==='low'
+      ?`<span class="sup-badge suspicious">match: ${s.match_confidence_label}</span>`:'';
+    return `
+      <div class="sup-row${isActive?' active':''}" data-ch="${_supEscapeHtml(s.company_number)}" onclick="_supSelectSupplier('${_supEscapeHtml(s.company_number)}')">
+        <div class="sup-row-name">${_supEscapeHtml(s.display_name||s.official_name||s.company_number)}</div>
+        <div class="sup-row-meta">
+          <span class="sup-row-rank">#${s.rank||'—'}</span>
+          <span>${_supFmtGBP(s.total_gbp_2024)}</span>
+          <span>· ${s.n_departments||0} dept${s.n_departments===1?'':'s'}</span>
+        </div>
+        <div class="sup-row-badges">
+          ${ubo?`<span class="sup-badge ${ubo.cls}">${_supEscapeHtml(ubo.label)}</span>`:''}
+          ${statusBadge}
+          ${confBadge}
+        </div>
+      </div>
+    `;
+  }).join('');
+  if(filtered.length>300){
+    rows.insertAdjacentHTML('beforeend',`<div style="padding:12px;text-align:center;color:var(--dim);font-size:11px;font-style:italic">Showing first 300 of ${filtered.length}. Refine search for more.</div>`);
+  }
+  if(filtered.length===0){
+    rows.innerHTML=`<div style="padding:40px;text-align:center;color:var(--dim);font-size:12px">No matches for "${_supEscapeHtml(query)}"</div>`;
+  }
+}
+
+async function _supSelectSupplier(chNumber){
+  window._suppliersCurrentCh=chNumber;
+  // Update URL
+  try{ history.replaceState({},'','/#suppliers/'+chNumber); }catch(e){}
+  // Highlight row
+  document.querySelectorAll('.sup-row').forEach(el=>el.classList.toggle('active',el.dataset.ch===chNumber));
+  const detail=document.getElementById('suppliers-detail');
+  if(!detail)return;
+  detail.innerHTML=`<div style="padding:40px;text-align:center;color:var(--dim);font-size:12px">Loading supplier profile...</div>`;
+  try{
+    const r=await fetch(SUPPLIER_PROFILE_URL(chNumber));
+    if(!r.ok)throw new Error('fetch failed '+r.status);
+    const profile=await r.json();
+    detail.innerHTML=_supRenderDetail(profile);
+    detail.scrollTop=0;
+  }catch(e){
+    detail.innerHTML=`<div style="padding:40px;text-align:center;color:var(--dim);font-size:12px">Failed to load profile for ${_supEscapeHtml(chNumber)}: ${_supEscapeHtml(e.message)}</div>`;
+  }
+}
+
+function _supRenderDetail(p){
+  const id=p.identity||{};
+  const spend=p.spend_profile||{};
+  const fin=p.financial_health;
+  const gov=p.governance;
+  const own=p.ownership_chain;
+  const maxSpend=Math.max(...((spend.by_department||[]).map(d=>d.amount_gbp)),1);
+  const statusClass=['active','open'].includes(id.status)?'active':id.status||'';
+
+  let h=`<button class="sd-back" onclick="_supSelectSupplier(null);_supClearDetail()">← Back to list</button>`;
+
+  // Header
+  h+=`<div class="sd-header">
+    <div>
+      <h1 class="sd-title">${_supEscapeHtml(id.official_name||p.display_name)}</h1>
+      <div class="sd-subtitle">
+        <span class="sd-status ${_supEscapeHtml(statusClass)}">${_supEscapeHtml((id.status||'?').toUpperCase())}</span>
+        <span style="font-size:11px;color:var(--dim)">#${spend.rank||'—'}</span>
+        <span style="font-size:11px;color:var(--dim)">·</span>
+        <span style="font-size:11px;color:var(--dim)">${_supEscapeHtml(spend.category||'commercial')}</span>
+        ${id.ch_url?`<a href="${_supEscapeHtml(id.ch_url)}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-size:11px;margin-left:8px">↗ Companies House</a>`:''}
+      </div>
+    </div>
+    <div>
+      <div class="sd-big-label">Total FY 2024</div>
+      <div class="sd-big-num">${_supFmtGBP(spend.total_gbp_2024)}</div>
+    </div>
+  </div>`;
+
+  // Identity + Financial Health
+  h+=`<div class="sd-cards">`;
+  h+=`<div class="sd-card"><h3>Identity</h3><div class="sd-kv">
+    <div class="k">CH Number</div><div class="v">${_supEscapeHtml(id.ch_number||'—')}</div>
+    <div class="k">Jurisdiction</div><div class="v">${_supEscapeHtml(id.jurisdiction||'—')}</div>
+    <div class="k">Incorporated</div><div class="v">${_supEscapeHtml(id.incorporated||'—')}${id.age_years?' <span style="color:var(--dim)">('+id.age_years+' yr)</span>':''}</div>
+    <div class="k">Type</div><div class="v">${_supEscapeHtml(id.type||'—')}</div>
+    <div class="k">SIC codes</div><div class="v">${(id.sic_codes||[]).join(', ')||'—'}</div>
+    <div class="k">Industry</div><div class="v">${_supEscapeHtml((id.sic_labels||[]).join(', ')||'—')}</div>
+    <div class="k">Registered office</div><div class="v">${_supEscapeHtml([id.registered_office?.locality,id.registered_office?.postal_code,id.registered_office?.country].filter(Boolean).join(', ')||'—')}</div>
+  </div></div>`;
+
+  h+=`<div class="sd-card"><h3>Financial Health</h3>`;
+  if(fin){
+    h+=`<div class="sd-kv">
+      <div class="k">Last filing</div><div class="v">${_supEscapeHtml(fin.last_filing_date||'—')}</div>
+      <div class="k">Period end</div><div class="v">${_supEscapeHtml(fin.period_end||'—')}</div>
+      <div class="k">Accounts type</div><div class="v">${_supEscapeHtml(fin.accounts_type_description||'—')}</div>
+      <div class="k">Next due</div><div class="v">${_supEscapeHtml(fin.next_accounts_due||'—')}${fin.overdue?' <span class="sup-badge suspicious">OVERDUE</span>':''}</div>
+      ${fin.pdf&&fin.pdf.path?`<div class="k">Accounts PDF</div><div class="v"><a href="/${_supEscapeHtml(fin.pdf.path)}" target="_blank" rel="noopener">↗ Download (${fin.pdf.size_mb||'?'} MB)</a></div>`:''}
+    </div>`;
+  }else{
+    h+=`<div style="color:var(--dim);font-size:12px;font-style:italic">No financial data available</div>`;
+  }
+  h+=`</div>`;
+  h+=`</div>`;
+
+  // Spend by Department
+  if(spend.by_department && spend.by_department.length){
+    h+=`<div class="sd-card full"><h3>Spend by Department · FY 2024</h3>`;
+    for(const d of spend.by_department){
+      const pct=maxSpend>0?(d.amount_gbp/maxSpend*100).toFixed(1):0;
+      h+=`<div class="sd-dept-bar">
+        <div class="dept">${_supEscapeHtml(d.dept_name)}</div>
+        <div class="bar-wrap"><div class="bar" style="width:${pct}%"></div></div>
+        <div class="amt">${_supFmtGBP(d.amount_gbp)}</div>
+      </div>`;
+    }
+    h+=`</div>`;
+  }
+
+  // Governance + Ownership summary
+  h+=`<div class="sd-cards">`;
+  if(gov){
+    h+=`<div class="sd-card"><h3>Governance · Board</h3>
+      <div class="sd-kv" style="margin-bottom:10px">
+        <div class="k">Active directors</div><div class="v">${gov.active_directors?.length||0}</div>
+        <div class="k">All active officers</div><div class="v">${gov.officers_active_count||0}</div>
+        <div class="k">Resigned (historical)</div><div class="v">${gov.officers_resigned_count||0}</div>
+        <div class="k">Board turnover</div><div class="v"><span class="sup-badge ${gov.board_turnover_signal==='high'?'suspicious':gov.board_turnover_signal==='medium'?'gap':''}">${_supEscapeHtml(gov.board_turnover_signal||'—')}</span> (ratio ${gov.board_turnover_ratio||'—'})</div>
+      </div>`;
+    if(gov.active_directors?.length){
+      h+=`<table class="sd-table">
+        <thead><tr><th>Director</th><th>Since</th><th>Nationality</th></tr></thead>
+        <tbody>`;
+      for(const d of gov.active_directors.slice(0,10)){
+        h+=`<tr><td><strong>${_supEscapeHtml(d.name||'—')}</strong></td><td>${_supEscapeHtml(d.appointed_on||'—')}</td><td>${_supEscapeHtml(d.nationality||'—')}</td></tr>`;
+      }
+      h+=`</tbody></table>`;
+    }
+    h+=`</div>`;
+  }
+  if(own){
+    h+=`<div class="sd-card"><h3>Ownership · Summary</h3>
+      <div class="sd-kv" style="margin-bottom:10px">
+        <div class="k">Resolution</div><div class="v"><span class="sup-badge ${(_supUboBadge(own.resolution,[])||{}).cls||''}">${_supEscapeHtml(own.resolution||'—')}</span></div>
+        <div class="k">Direct PSCs</div><div class="v">${own.direct_psc_count||0}</div>
+        <div class="k">Chains walked</div><div class="v">${own.chains_count||(own.chains||[]).length||0}</div>
+      </div>`;
+    const s=own.ubo_summary||{};
+    if(s.ultimate_individuals?.length)h+=`<div style="margin:8px 0;font-size:12px"><strong style="color:#60a5fa">👤 Individual UBOs:</strong> ${_supEscapeHtml(s.ultimate_individuals.join(', '))}</div>`;
+    if(s.ultimate_governments?.length)h+=`<div style="margin:8px 0;font-size:12px"><strong style="color:#c084fc">🏛️ Government:</strong> ${_supEscapeHtml(s.ultimate_governments.join(', '))}</div>`;
+    if(s.ultimate_foreign_countries?.length)h+=`<div style="margin:8px 0;font-size:12px"><strong style="color:#fb923c">🌍 Foreign:</strong> ${_supEscapeHtml(s.ultimate_foreign_countries.join(', '))}</div>`;
+    h+=`</div>`;
+  }
+  h+=`</div>`;
+
+  // Ownership chain visualization (full width)
+  if(own && own.chains?.length){
+    h+=`<div class="sd-card full"><h3>Ownership chain — walked via CH PSC + Wikidata</h3>`;
+    own.chains.forEach((chain,i)=>{
+      const last=chain[chain.length-1]||{};
+      const termLabel=last.resolution==='individual'?`👤 ${_supEscapeHtml(last.name||'')}`
+                   : last.resolution==='government'?`🏛️ ${_supEscapeHtml(last.name||'')}`
+                   : (last.resolution||'').includes('foreign')?`🌍 ${_supEscapeHtml(last.jurisdiction||last.name||'')}`
+                   : _supEscapeHtml(last.resolution||'?');
+      h+=`<div style="margin:16px 0"><div style="font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px">Chain ${i+1} · ${chain.length} hop${chain.length===1?'':'s'} → ${termLabel}</div><div class="sd-chain">`;
+      chain.forEach((hop,idx)=>{
+        if(!hop||typeof hop!=='object')return;
+        if(idx>0)h+=`<div class="sd-arrow">→</div>`;
+        const isTerminal=idx===chain.length-1;
+        let termCls='';
+        if(isTerminal){
+          if(hop.resolution==='individual')termCls='terminal individual';
+          else if(hop.resolution==='government')termCls='terminal government';
+          else if((hop.resolution||'').includes('foreign'))termCls='terminal foreign';
+        }
+        const wd=hop.wikidata;
+        h+=`<div class="sd-hop ${termCls}">
+          <div class="sd-hop-name">${_supEscapeHtml(hop.name||hop.resolution||'?')}</div>
+          <div class="sd-hop-kind">${_supEscapeHtml((hop.kind||'').replace(/-person-with-significant-control$/,''))}</div>
+          ${hop.jurisdiction?`<div style="font-size:10px;color:#fb923c;margin-top:3px">${_supEscapeHtml(hop.jurisdiction)}</div>`:''}
+          ${wd?`<div style="font-size:9px;padding:1px 5px;border-radius:3px;background:rgba(79,195,247,.15);color:var(--accent);margin-top:4px;display:inline-block">Wikidata: ${_supEscapeHtml(wd.qid||'')}</div>`:''}
+          ${hop.source?.url?`<div class="sd-hop-src"><a href="${_supEscapeHtml(hop.source.url)}" target="_blank" rel="noopener">↗ source</a></div>`:''}
+        </div>`;
+      });
+      h+=`</div></div>`;
+    });
+    h+=`</div>`;
+  }
+
+  // Match confidence
+  if(p.match_confidence){
+    const mc=p.match_confidence;
+    const cls=mc.label==='high'?'':mc.label==='medium'?'gap':'suspicious';
+    h+=`<div class="sd-card full"><h3>Match confidence</h3>
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px">
+        <div style="font-size:36px;font-weight:700;color:var(--accent)">${mc.score||'—'}</div>
+        <div>
+          <div><span class="sup-badge ${cls}">${_supEscapeHtml((mc.label||'').toUpperCase())}</span></div>
+          <div style="font-size:11px;color:var(--dim);margin-top:4px">Name matching + company status + age + UBO consistency</div>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--dim)">
+        ${(mc.reasons||[]).map(r=>Array.isArray(r)?`<span style="margin-right:10px">${_supEscapeHtml(r[0])} ${_supEscapeHtml(r[1])}</span>`:'').join('')}
+      </div>
+    </div>`;
+  }
+
+  // Sources footer
+  if(p.sources?.length){
+    h+=`<div class="sd-card full"><h3>Sources · all claims cited</h3><div class="sd-sources">`;
+    for(const s of p.sources){
+      h+=`<div style="padding:3px 0">
+        <span style="color:var(--dim)">${_supEscapeHtml(s.section)}</span> →
+        <span style="color:var(--text)">${_supEscapeHtml(s.type)}</span>
+        ${s.url?` · <a href="${_supEscapeHtml(s.url)}" target="_blank" rel="noopener">↗ ${_supEscapeHtml(s.url.substring(0,70))}${s.url.length>70?'…':''}</a>`:''}
+      </div>`;
+    }
+    h+=`</div></div>`;
+  }
+
+  return h;
+}
+
+function _supClearDetail(){
+  window._suppliersCurrentCh=null;
+  try{ history.replaceState({},'','/#suppliers'); }catch(e){}
+  document.querySelectorAll('.sup-row').forEach(el=>el.classList.remove('active'));
+  const detail=document.getElementById('suppliers-detail');
+  if(detail){
+    detail.innerHTML=`<div class="suppliers-empty"><div style="font-size:48px;margin-bottom:14px;opacity:.4">🏢</div><div style="font-size:16px;color:var(--text);font-weight:600;margin-bottom:4px">Select a supplier</div><div style="font-size:12px;color:var(--dim);max-width:320px;line-height:1.5">400 UK government suppliers with identity, governance, ownership chains and procurement history — click any name to explore.</div></div>`;
+  }
+}
 </script>
 </body>
 </html>
