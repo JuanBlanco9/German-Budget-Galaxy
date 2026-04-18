@@ -116,9 +116,7 @@ t('User\'s share of central grants to their council is non-trivial', () => {
 });
 
 t('User\'s council has service breakdown links', () => {
-  const serviceLinks = trace.links.filter(l =>
-    l.source === 'council_direct' || l.source === 'council_grant'
-  );
+  const serviceLinks = trace.links.filter(l => l.source === 'council_user');
   return serviceLinks.length >= 3;
 });
 

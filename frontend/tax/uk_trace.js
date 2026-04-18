@@ -266,15 +266,15 @@
             { annual_total_gbp: localGov.value,
               share_of_spending: localGov.value / totalSpending_gbp });
 
-    // User's council nodes
-    const userCouncilDirectId = 'council_direct';
-    const userCouncilGrantId = 'council_grant';
-    addNode(userCouncilDirectId, `${input.council_name || 'Your Council'} (Council Tax)`,
+    // User's council — ONE unified node that receives both Council Tax (direct)
+    // AND a share of central grants, and fans out to the services that council
+    // spends on. Keeps the two funding sources visible (as two incoming links)
+    // without duplicating the council as two nodes.
+    const userCouncilId = 'council_user';
+    addNode(userCouncilId, `${input.council_name || 'Your Council'}`,
             'local_pool',
-            { total_ct_per_household: null });
-    addNode(userCouncilGrantId, `${input.council_name || 'Your Council'} (central grant share)`,
-            'local_pool',
-            { central_grants_to_council_gbp: userCouncilGrants,
+            { total_ct_per_household: null,
+              central_grants_to_council_gbp: userCouncilGrants,
               share_of_all_council_grants: userCouncilShareOfGrants });
     addNode('council_other', 'Other councils (rest of England)', 'local_pool',
             { n_other_councils: (_councilFinance?.council_count || 0) - 1 });
@@ -283,7 +283,7 @@
     addLink('user', 'hmrc_income_tax', userIT, 'Income Tax');
     addLink('user', 'hmrc_ni', userNI, 'National Insurance');
     addLink('user', 'hmrc_vat', userVAT, 'VAT (estimated)');
-    addLink('user', userCouncilDirectId, userCT, 'Council Tax (direct)');
+    addLink('user', userCouncilId, userCT, 'Council Tax (direct)');
 
     addLink('hmrc_income_tax', 'consolidated_fund', userIT);
     addLink('hmrc_ni', 'consolidated_fund', userNI);
@@ -298,21 +298,21 @@
       if (key === 'local_gov') {
         // CF → local_gov pool
         addLink('consolidated_fund', 'spend_local_gov', userShare);
-        // local_gov pool → your council grant (real share)
+        // local_gov pool → same user-council node (grant share path)
         const toYourCouncil = userShare * userCouncilShareOfGrants;
         const toOthers = userShare - toYourCouncil;
-        addLink('spend_local_gov', userCouncilGrantId, toYourCouncil,
-                'Your council\'s share of central grants');
+        addLink('spend_local_gov', userCouncilId, toYourCouncil,
+                'Central grant share to your council');
         addLink('spend_local_gov', 'council_other', toOthers,
-                'Share going to all other councils');
+                'Grants to all other councils');
       } else {
         addLink('consolidated_fund', `spend_${key}`, userShare);
       }
     }
 
-    // ── LINKS: The user's council → services ──
-    // We attribute user's contribution to their council proportionally across
-    // the services that council spends on (from RS_*_net_exp data).
+    // ── LINKS: User's council → services ──
+    // Total reaching the user's council this year (from user's pocket) =
+    // Council Tax direct + user's share of the central grant pot.
     const totalToUserCouncil =
       userCT + effectiveContribution *
         (localGov.value / totalSpending_gbp) * userCouncilShareOfGrants;
@@ -326,8 +326,7 @@
           const id = `cs_${_slug(name)}`;
           addNode(id, name, 'council_service', { annual_total_gbp: value });
           const userShare = totalToUserCouncil * (value / serviceTotal);
-          addLink(userCouncilDirectId, id, userShare / 2);
-          addLink(userCouncilGrantId, id, userShare / 2);
+          addLink(userCouncilId, id, userShare);
         }
       }
     }
