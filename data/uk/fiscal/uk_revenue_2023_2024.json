@@ -1,0 +1,286 @@
+{
+  "id": "uk_revenue",
+  "name": "UK HMRC Tax Receipts — 2023 to 2024",
+  "country": "uk",
+  "year_label": "2023 to 2024",
+  "fiscal_year_start": 2023,
+  "unit": "GBP_million",
+  "value_gbp_m": 828584.0,
+  "sum_of_children_gbp_m": 828586.0,
+  "reconciliation_note": "Sum of categories (£828,586m) vs reported total (£828,584m). Difference £-2.0m reflects \"Misc\" and rounding; Bank Payroll Tax ([X]) is unallocated historical item.",
+  "source": {
+    "publisher": "HM Revenue & Customs",
+    "dataset": "HMRC tax receipts and NICs for the UK (annual bulletin)",
+    "landing_url": "https://www.gov.uk/government/statistics/hmrc-tax-and-nics-receipts-for-the-uk",
+    "file_url": "https://assets.publishing.service.gov.uk/media/69b429649d8b52961a62b414/NS_Table.ods",
+    "file_sha256": "ac2d7cdbb92e49b8fa0c9c1bf4beaa9f2428c7b62a2a1cc6ada801cd9e9d86fb",
+    "downloaded_at": "2026-04-18",
+    "sheet": "Receipts_Annually"
+  },
+  "children": [
+    {
+      "id": "uk_rev_direct",
+      "name": "Taxes on income & earnings",
+      "children": [
+        {
+          "id": "uk_rev_income_tax",
+          "name": "Income Tax",
+          "value_gbp_m": 275255.0,
+          "children": [
+            {
+              "id": "uk_rev_it_paye",
+              "name": "PAYE (employees)",
+              "value_gbp_m": 237272.0
+            },
+            {
+              "id": "uk_rev_it_sa",
+              "name": "Self-Assessment",
+              "value_gbp_m": 42256.0
+            }
+          ]
+        },
+        {
+          "id": "uk_rev_nic",
+          "name": "National Insurance Contributions",
+          "value_gbp_m": 179190.0,
+          "children": [
+            {
+              "id": "uk_rev_nic_employer",
+              "name": "Employer Class 1",
+              "value_gbp_m": 108501.0
+            },
+            {
+              "id": "uk_rev_nic_employee",
+              "name": "Employee Class 1",
+              "value_gbp_m": 62236.0
+            },
+            {
+              "id": "uk_rev_nic_sa",
+              "name": "Self-Employed (Class 2 & 4)",
+              "value_gbp_m": 4502.0
+            },
+            {
+              "id": "uk_rev_nic_other",
+              "name": "Other NIC",
+              "value_gbp_m": 3951.0
+            }
+          ]
+        },
+        {
+          "id": "uk_rev_cgt",
+          "name": "Capital Gains Tax",
+          "value_gbp_m": 14493.0
+        },
+        {
+          "id": "uk_rev_apprent",
+          "name": "Apprenticeship Levy",
+          "value_gbp_m": 3841.0
+        }
+      ],
+      "value_gbp_m": 472779.0
+    },
+    {
+      "id": "uk_rev_business",
+      "name": "Business & corporate taxes",
+      "children": [
+        {
+          "id": "uk_rev_corp_tax",
+          "name": "Corporation Tax",
+          "value_gbp_m": 85658.0,
+          "children": [
+            {
+              "id": "uk_rev_corp_offshore",
+              "name": "Offshore (inc. above)",
+              "value_gbp_m": 2951.0,
+              "note": "Included in parent Corporation Tax — not additive"
+            }
+          ]
+        },
+        {
+          "id": "uk_rev_bank_levy",
+          "name": "Bank Levy",
+          "value_gbp_m": 1428.0
+        },
+        {
+          "id": "uk_rev_bank_sur",
+          "name": "Bank Surcharge",
+          "value_gbp_m": 1446.0
+        },
+        {
+          "id": "uk_rev_dpt",
+          "name": "Diverted Profits Tax",
+          "value_gbp_m": 108.0
+        },
+        {
+          "id": "uk_rev_dst",
+          "name": "Digital Services Tax",
+          "value_gbp_m": 678.0
+        },
+        {
+          "id": "uk_rev_rpdt",
+          "name": "Residential Property Developer Tax",
+          "value_gbp_m": 103.0
+        },
+        {
+          "id": "uk_rev_epl",
+          "name": "Energy Profits Levy",
+          "value_gbp_m": 3587.0
+        },
+        {
+          "id": "uk_rev_egl",
+          "name": "Electricity Generators Levy",
+          "value_gbp_m": 1473.0
+        },
+        {
+          "id": "uk_rev_ecl",
+          "name": "Economic Crime Levy",
+          "value_gbp_m": 13.0
+        },
+        {
+          "id": "uk_rev_prt",
+          "name": "Petroleum Revenue Tax",
+          "value_gbp_m": -428.0
+        }
+      ],
+      "value_gbp_m": 94066.0
+    },
+    {
+      "id": "uk_rev_consumption",
+      "name": "Consumption & indirect taxes",
+      "children": [
+        {
+          "id": "uk_rev_vat",
+          "name": "VAT",
+          "value_gbp_m": 168389.0
+        },
+        {
+          "id": "uk_rev_fuel_duty",
+          "name": "Fuel Duty (Hydrocarbon Oil)",
+          "value_gbp_m": 24923.0
+        },
+        {
+          "id": "uk_rev_alcohol",
+          "name": "Alcohol Duties",
+          "value_gbp_m": 12589.0,
+          "children": [
+            {
+              "id": "uk_rev_spirits",
+              "name": "Spirits",
+              "value_gbp_m": 4137.0
+            },
+            {
+              "id": "uk_rev_beer",
+              "name": "Beer",
+              "value_gbp_m": 3621.0
+            },
+            {
+              "id": "uk_rev_wines",
+              "name": "Wines",
+              "value_gbp_m": 4611.0
+            },
+            {
+              "id": "uk_rev_cider",
+              "name": "Cider",
+              "value_gbp_m": 220.0
+            }
+          ]
+        },
+        {
+          "id": "uk_rev_tobacco",
+          "name": "Tobacco Duties",
+          "value_gbp_m": 8804.0
+        },
+        {
+          "id": "uk_rev_betting",
+          "name": "Betting & Gaming",
+          "value_gbp_m": 3389.0
+        },
+        {
+          "id": "uk_rev_apd",
+          "name": "Air Passenger Duty",
+          "value_gbp_m": 3811.0
+        },
+        {
+          "id": "uk_rev_ipt",
+          "name": "Insurance Premium Tax",
+          "value_gbp_m": 8146.0
+        },
+        {
+          "id": "uk_rev_sdil",
+          "name": "Soft Drinks Industry Levy",
+          "value_gbp_m": 338.0
+        },
+        {
+          "id": "uk_rev_ppt",
+          "name": "Plastic Packaging Tax",
+          "value_gbp_m": 270.0
+        },
+        {
+          "id": "uk_rev_ccl",
+          "name": "Climate Change Levy",
+          "value_gbp_m": 1827.0
+        },
+        {
+          "id": "uk_rev_landfill",
+          "name": "Landfill Tax",
+          "value_gbp_m": 489.0
+        },
+        {
+          "id": "uk_rev_aggregates",
+          "name": "Aggregates Levy",
+          "value_gbp_m": 350.0
+        }
+      ],
+      "value_gbp_m": 233325.0
+    },
+    {
+      "id": "uk_rev_capital",
+      "name": "Capital & wealth taxes",
+      "children": [
+        {
+          "id": "uk_rev_iht",
+          "name": "Inheritance Tax",
+          "value_gbp_m": 7499.0
+        },
+        {
+          "id": "uk_rev_sdlt",
+          "name": "Stamp Duty Land Tax",
+          "value_gbp_m": 11614.0
+        },
+        {
+          "id": "uk_rev_sds",
+          "name": "Stamp Duty (Shares / SDRT)",
+          "value_gbp_m": 3199.0
+        },
+        {
+          "id": "uk_rev_ated",
+          "name": "Annual Tax on Enveloped Dwellings",
+          "value_gbp_m": 132.0
+        }
+      ],
+      "value_gbp_m": 22444.0
+    },
+    {
+      "id": "uk_rev_other",
+      "name": "Customs & other",
+      "children": [
+        {
+          "id": "uk_rev_customs",
+          "name": "Customs Duties",
+          "value_gbp_m": 4804.0
+        },
+        {
+          "id": "uk_rev_penalties",
+          "name": "Penalties",
+          "value_gbp_m": 1168.0
+        },
+        {
+          "id": "uk_rev_swiss",
+          "name": "Swiss Capital Tax",
+          "value_gbp_m": 0.0
+        }
+      ],
+      "value_gbp_m": 5972.0
+    }
+  ]
+}
