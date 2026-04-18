@@ -6,7 +6,15 @@
     "unique_patterns": 563,
     "other_services_count": 64,
     "other_services_pct": 11.4,
-    "note": "Patterns classified as Other Services may need manual review"
+    "note": "Patterns classified as Other Services may need manual review",
+    "known_issue_high_central_services": {
+      "flagged_at": "2026-04-17",
+      "pct_central_services": 34.8,
+      "amount_central_services_gbp": 202100000,
+      "note": "Nottingham City Council uses cost-centre codes in the purpose field (e.g., \"4080-Postal Services\", \"5159-Consultants Fees\") attached to bland dept names like \"Finance & Resources\" or \"Balance Sheet\". Haiku classifier assigns these to Central Services as default. True service split likely under-represents Education/Adult Social Care and over-represents Central Services. Correct fix requires per-code review (e.g., \"4090-IT Equipment Hardware\" when bought by \"Growth & City Development\" is arguably NOT Central Services). Deferred until cost-centre taxonomy reviewed with human-in-the-loop.",
+      "suggested_next_step": "Review all Finance & Resources|NNNN-* patterns, distinguishing genuinely central functions (Legal, HR, Procurement) from bought-on-behalf (IT hardware/software, Training, Consultants) which should be reassigned to the actual service.",
+      "handoff_reference": "project_budget_galaxy_next_session.md line 110"
+    }
   },
   "patterns": {
     "Finance & Resources|4233-Transport of Bodies": "Other Services",

@@ -8,7 +8,16 @@
     "other_services_pct": 44.7,
     "note": "Patterns classified as Other Services may need manual review",
     "refined_other_services": 0,
-    "refined_at": "2026-04-16T11:51:31.118Z"
+    "refined_at": "2026-04-16T11:51:31.118Z",
+    "ndr_exclusion_applied": {
+      "date": "2026-04-17",
+      "reason": "NDR collection-fund pass-through to MHCLG/DLUHC; not discretionary spend",
+      "patterns_excluded": [
+        "Director Strategic & Operational Finance|Non-Domestic Rates",
+        "Unallocated Budgets and Corporate Funding|Levy on Retained NDR"
+      ],
+      "approx_value_gbp_removed": 984700000
+    }
   },
   "patterns": {
     "Director Planning & Regeneration (PHT)|Counsel's Fees": "Other Services",
@@ -225,7 +234,7 @@
     "Director Operational Assets|Materials Purchase": "Other Services",
     "Capital Programme and Planned Works - Programmes|Contract  - Building Works": "Other Services",
     "Transport and Projects Team - Community Engagement|Street Furniture": "Transport",
-    "Director Strategic & Operational Finance|Non-Domestic Rates": "Other Services",
+    "Director Strategic & Operational Finance|Non-Domestic Rates": "_excluded",
     "Uncontrollable Accounting Items|Investment Expenses": "Other Services",
     "Director of Children and Young People's Services|Subscriptions": "Children's Social Care",
     "Director Planning & Regeneration (PHT)|Private Contractors": "Other Services",
@@ -912,7 +921,7 @@
     "Head of SEND & Inclusion|Advertising": "Education",
     "Green Spaces, Sports and Culture|Street Lighting": "Culture",
     "Head of Business Administration|Refuse Collection": "Environment",
-    "Unallocated Budgets and Corporate Funding|Levy on Retained NDR": "Other Services",
+    "Unallocated Budgets and Corporate Funding|Levy on Retained NDR": "_excluded",
     "Unallocated Budgets and Corporate Funding|Other Government Grants": "Other Services",
     "Head of Highways|Clothing, Uniforms and Laundry": "Transport",
     "Head of Children in Need of Help and Protection|Contingent Labour": "Children's Social Care",
