@@ -1,0 +1,366 @@
+{
+  "country": "uk",
+  "subject": "indirect_tax_shares_by_income_decile",
+  "ons_fiscal_year_source": "2017-18",
+  "unit": "GBP_per_year_per_household",
+  "note": "Decile ratios (indirect tax as share of disposable income) from the ONS \"Effects of Taxes and Benefits\" historical dataset. Ratios are stable year-to-year and serve as the distribution basis. For absolute current-year estimates, scale by the ratio of (current VAT/duty take) to (2017-18 VAT/duty take), or simply use the ratios directly against the user's current disposable income. Decile cutoffs are on equivalised gross income; a single-person household has equivalisation factor 1.0, a couple ~1.5, each child +0.3.",
+  "source": {
+    "publisher": "Office for National Statistics (ONS)",
+    "dataset": "Effects of taxes and benefits on UK household income — Income, tax and benefit data by income decile for all households (historical dataset)",
+    "landing_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/theeffectsoftaxesandbenefitsonhouseholdincomehistoricaldatasets",
+    "file_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/theeffectsoftaxesandbenefitsonhouseholdincomehistoricaldatasets/incometaxandbenefitdatabyincomedecileforallhouseholds/incometaxandbenefitdatabyincomedecileforallhouseholds.xlsx",
+    "file_sha256": "a22791d0fe3aecfd94b3ed34c4ddbe0efef816310121f8e4fc24dab3fe4358e9",
+    "downloaded_at": "2026-04-18",
+    "sheet": "2017-18"
+  },
+  "decile_cutoffs_equivalised_gross_income_gbp": [
+    {
+      "decile": 1,
+      "upper_equivalised_gross_gbp": 13904.0
+    },
+    {
+      "decile": 2,
+      "upper_equivalised_gross_gbp": 17849.0
+    },
+    {
+      "decile": 3,
+      "upper_equivalised_gross_gbp": 21118.0
+    },
+    {
+      "decile": 4,
+      "upper_equivalised_gross_gbp": 24554.0
+    },
+    {
+      "decile": 5,
+      "upper_equivalised_gross_gbp": 28179.0
+    },
+    {
+      "decile": 6,
+      "upper_equivalised_gross_gbp": 32333.0
+    },
+    {
+      "decile": 7,
+      "upper_equivalised_gross_gbp": 37455.0
+    },
+    {
+      "decile": 8,
+      "upper_equivalised_gross_gbp": 44880.0
+    },
+    {
+      "decile": 9,
+      "upper_equivalised_gross_gbp": 58667.0
+    }
+  ],
+  "deciles": [
+    {
+      "decile": 1,
+      "label": "Bottom",
+      "equivalised_disposable_income_gbp": 9621.0,
+      "disposable_income_gbp": 9329.0,
+      "gross_income_gbp": 11076.0,
+      "indirect_taxes_gbp": {
+        "vat": 1404.0,
+        "tobacco_duty": 305.0,
+        "beer_cider_duty": 70.0,
+        "wines_spirits_duty": 113.0,
+        "fuel_duty": 240.0,
+        "ved": 97.0,
+        "tv_license": 106.0,
+        "sdlt": 66.0,
+        "customs": 22.0,
+        "betting": 44.0,
+        "insurance_premium_tax": 63.0,
+        "air_passenger_duty": 31.0,
+        "national_lottery": 46.0,
+        "other": 15.0
+      },
+      "total_indirect_taxes_gbp": 2622.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.1505,
+        "total_indirect": 0.2811,
+        "fuel_duty": 0.0257,
+        "alcohol": 0.0196,
+        "tobacco": 0.0327
+      }
+    },
+    {
+      "decile": 2,
+      "label": "2nd",
+      "equivalised_disposable_income_gbp": 15975.0,
+      "disposable_income_gbp": 17047.0,
+      "gross_income_gbp": 19346.0,
+      "indirect_taxes_gbp": {
+        "vat": 1632.0,
+        "tobacco_duty": 381.0,
+        "beer_cider_duty": 63.0,
+        "wines_spirits_duty": 113.0,
+        "fuel_duty": 330.0,
+        "ved": 121.0,
+        "tv_license": 107.0,
+        "sdlt": 71.0,
+        "customs": 25.0,
+        "betting": 69.0,
+        "insurance_premium_tax": 74.0,
+        "air_passenger_duty": 29.0,
+        "national_lottery": 51.0,
+        "other": 8.0
+      },
+      "total_indirect_taxes_gbp": 3074.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0957,
+        "total_indirect": 0.1803,
+        "fuel_duty": 0.0194,
+        "alcohol": 0.0103,
+        "tobacco": 0.0223
+      }
+    },
+    {
+      "decile": 3,
+      "label": "3rd",
+      "equivalised_disposable_income_gbp": 19511.0,
+      "disposable_income_gbp": 20609.0,
+      "gross_income_gbp": 23172.0,
+      "indirect_taxes_gbp": {
+        "vat": 1713.0,
+        "tobacco_duty": 290.0,
+        "beer_cider_duty": 71.0,
+        "wines_spirits_duty": 151.0,
+        "fuel_duty": 317.0,
+        "ved": 138.0,
+        "tv_license": 108.0,
+        "sdlt": 100.0,
+        "customs": 25.0,
+        "betting": 59.0,
+        "insurance_premium_tax": 74.0,
+        "air_passenger_duty": 41.0,
+        "national_lottery": 47.0,
+        "other": 16.0
+      },
+      "total_indirect_taxes_gbp": 3150.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0831,
+        "total_indirect": 0.1528,
+        "fuel_duty": 0.0154,
+        "alcohol": 0.0108,
+        "tobacco": 0.0141
+      }
+    },
+    {
+      "decile": 4,
+      "label": "4th",
+      "equivalised_disposable_income_gbp": 22732.0,
+      "disposable_income_gbp": 24602.0,
+      "gross_income_gbp": 28846.0,
+      "indirect_taxes_gbp": {
+        "vat": 2195.0,
+        "tobacco_duty": 291.0,
+        "beer_cider_duty": 96.0,
+        "wines_spirits_duty": 154.0,
+        "fuel_duty": 486.0,
+        "ved": 156.0,
+        "tv_license": 107.0,
+        "sdlt": 72.0,
+        "customs": 29.0,
+        "betting": 82.0,
+        "insurance_premium_tax": 105.0,
+        "air_passenger_duty": 40.0,
+        "national_lottery": 58.0,
+        "other": 37.0
+      },
+      "total_indirect_taxes_gbp": 3908.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0892,
+        "total_indirect": 0.1588,
+        "fuel_duty": 0.0198,
+        "alcohol": 0.0102,
+        "tobacco": 0.0118
+      }
+    },
+    {
+      "decile": 5,
+      "label": "5th",
+      "equivalised_disposable_income_gbp": 26299.0,
+      "disposable_income_gbp": 29055.0,
+      "gross_income_gbp": 34519.0,
+      "indirect_taxes_gbp": {
+        "vat": 2404.0,
+        "tobacco_duty": 356.0,
+        "beer_cider_duty": 113.0,
+        "wines_spirits_duty": 199.0,
+        "fuel_duty": 496.0,
+        "ved": 144.0,
+        "tv_license": 113.0,
+        "sdlt": 117.0,
+        "customs": 32.0,
+        "betting": 75.0,
+        "insurance_premium_tax": 104.0,
+        "air_passenger_duty": 61.0,
+        "national_lottery": 60.0,
+        "other": 9.0
+      },
+      "total_indirect_taxes_gbp": 4283.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0827,
+        "total_indirect": 0.1474,
+        "fuel_duty": 0.0171,
+        "alcohol": 0.0107,
+        "tobacco": 0.0123
+      }
+    },
+    {
+      "decile": 6,
+      "label": "6th",
+      "equivalised_disposable_income_gbp": 30249.0,
+      "disposable_income_gbp": 32790.0,
+      "gross_income_gbp": 39894.0,
+      "indirect_taxes_gbp": {
+        "vat": 2915.0,
+        "tobacco_duty": 297.0,
+        "beer_cider_duty": 134.0,
+        "wines_spirits_duty": 240.0,
+        "fuel_duty": 527.0,
+        "ved": 173.0,
+        "tv_license": 113.0,
+        "sdlt": 134.0,
+        "customs": 35.0,
+        "betting": 101.0,
+        "insurance_premium_tax": 123.0,
+        "air_passenger_duty": 57.0,
+        "national_lottery": 86.0,
+        "other": 4.0
+      },
+      "total_indirect_taxes_gbp": 4939.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0889,
+        "total_indirect": 0.1506,
+        "fuel_duty": 0.0161,
+        "alcohol": 0.0114,
+        "tobacco": 0.0091
+      }
+    },
+    {
+      "decile": 7,
+      "label": "7th",
+      "equivalised_disposable_income_gbp": 34893.0,
+      "disposable_income_gbp": 37617.0,
+      "gross_income_gbp": 46291.0,
+      "indirect_taxes_gbp": {
+        "vat": 3120.0,
+        "tobacco_duty": 278.0,
+        "beer_cider_duty": 139.0,
+        "wines_spirits_duty": 243.0,
+        "fuel_duty": 600.0,
+        "ved": 189.0,
+        "tv_license": 127.0,
+        "sdlt": 206.0,
+        "customs": 37.0,
+        "betting": 84.0,
+        "insurance_premium_tax": 130.0,
+        "air_passenger_duty": 78.0,
+        "national_lottery": 72.0,
+        "other": 29.0
+      },
+      "total_indirect_taxes_gbp": 5332.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0829,
+        "total_indirect": 0.1417,
+        "fuel_duty": 0.016,
+        "alcohol": 0.0102,
+        "tobacco": 0.0074
+      }
+    },
+    {
+      "decile": 8,
+      "label": "8th",
+      "equivalised_disposable_income_gbp": 40860.0,
+      "disposable_income_gbp": 45653.0,
+      "gross_income_gbp": 57197.0,
+      "indirect_taxes_gbp": {
+        "vat": 3797.0,
+        "tobacco_duty": 252.0,
+        "beer_cider_duty": 186.0,
+        "wines_spirits_duty": 323.0,
+        "fuel_duty": 668.0,
+        "ved": 216.0,
+        "tv_license": 126.0,
+        "sdlt": 275.0,
+        "customs": 43.0,
+        "betting": 75.0,
+        "insurance_premium_tax": 154.0,
+        "air_passenger_duty": 114.0,
+        "national_lottery": 59.0,
+        "other": 20.0
+      },
+      "total_indirect_taxes_gbp": 6308.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0832,
+        "total_indirect": 0.1382,
+        "fuel_duty": 0.0146,
+        "alcohol": 0.0111,
+        "tobacco": 0.0055
+      }
+    },
+    {
+      "decile": 9,
+      "label": "9th",
+      "equivalised_disposable_income_gbp": 50772.0,
+      "disposable_income_gbp": 56795.0,
+      "gross_income_gbp": 72668.0,
+      "indirect_taxes_gbp": {
+        "vat": 4666.0,
+        "tobacco_duty": 384.0,
+        "beer_cider_duty": 191.0,
+        "wines_spirits_duty": 428.0,
+        "fuel_duty": 698.0,
+        "ved": 216.0,
+        "tv_license": 130.0,
+        "sdlt": 371.0,
+        "customs": 51.0,
+        "betting": 151.0,
+        "insurance_premium_tax": 165.0,
+        "air_passenger_duty": 146.0,
+        "national_lottery": 70.0,
+        "other": 19.0
+      },
+      "total_indirect_taxes_gbp": 7686.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0822,
+        "total_indirect": 0.1353,
+        "fuel_duty": 0.0123,
+        "alcohol": 0.0109,
+        "tobacco": 0.0068
+      }
+    },
+    {
+      "decile": 10,
+      "label": "Top",
+      "equivalised_disposable_income_gbp": 87480.0,
+      "disposable_income_gbp": 95207.0,
+      "gross_income_gbp": 124725.0,
+      "indirect_taxes_gbp": {
+        "vat": 6101.0,
+        "tobacco_duty": 139.0,
+        "beer_cider_duty": 198.0,
+        "wines_spirits_duty": 483.0,
+        "fuel_duty": 646.0,
+        "ved": 258.0,
+        "tv_license": 133.0,
+        "sdlt": 861.0,
+        "customs": 67.0,
+        "betting": 68.0,
+        "insurance_premium_tax": 206.0,
+        "air_passenger_duty": 239.0,
+        "national_lottery": 64.0,
+        "other": 19.0
+      },
+      "total_indirect_taxes_gbp": 9482.0,
+      "ratios_of_disposable_income": {
+        "vat": 0.0641,
+        "total_indirect": 0.0996,
+        "fuel_duty": 0.0068,
+        "alcohol": 0.0072,
+        "tobacco": 0.0015
+      }
+    }
+  ]
+}

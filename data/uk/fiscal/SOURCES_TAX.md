@@ -154,24 +154,119 @@ band), plus two historical spot-checks (£30k in 2019-20 and £50k in
 
 ---
 
-## Upcoming sources (not yet captured — planned next)
+## Council Tax bands per council per year
 
-These will be added to this manifest as each dataset lands:
+**Publisher**: Ministry of Housing, Communities and Local Government (MHCLG)
+**Dataset**: Council Tax levels set by local authorities in England — Table 8 "Area council tax by band"
+**Coverage**: 296 English councils, fiscal year 2024-25
+**Unit**: GBP per year (area all-in bill: billing authority + county/GLA + police + fire + parish)
+**Live source**: https://www.gov.uk/government/statistics/council-tax-levels-set-by-local-authorities-in-england-2024-to-2025
 
-1. **Council Tax band values per council per year**
-   - MHCLG "Council tax levels set by local authorities in England"
-   - Live: https://www.gov.uk/government/statistics/council-tax-levels-set-by-local-authorities-in-england-2024-to-2025
-   - Target file: `data/uk/fiscal/uk_council_tax_bands_YYYY.csv`
+### Raw files
 
-2. **ONS household consumption by income decile** (for VAT estimate)
-   - ONS "Effects of taxes and benefits on household income"
-   - Target file: `data/uk/fiscal/ons_decile_consumption.csv`
+| Path | SHA256 (first 16) | Notes |
+| ---- | ----------------- | ----- |
+| `data/uk/fiscal/council_tax/ct_table7_2024_25.ods` | `f92887cfc83bc059` | Band D average + % change |
+| `data/uk/fiscal/council_tax/ct_table8_2024_25.ods` | `249127ae1bff3f37` | All bands A–H per LA (the source of truth) |
+| `data/uk/fiscal/council_tax/ct_table9_2024_25.ods` | `ade111fc09ad25d5` | Council tax requirement + chargeable dwellings |
 
-3. **OBR Public Sector Net Borrowing**
-   - OBR Economic and Fiscal Outlook CSV
-   - Target file: `data/uk/fiscal/obr_psnb.csv`
+### Derived JSON
 
-Each will be added here with SHA256 and a regeneration command.
+| Path | SHA256 (first 16) | Notes |
+| ---- | ----------------- | ----- |
+| `data/uk/fiscal/council_tax/uk_council_tax_2024_25.json` | `4c885b66e8efc77f` | 296 councils × 8 bands, structured |
+
+Regeneration: `python scripts/build_uk_council_tax.py`
+
+---
+
+## ONS indirect-tax shares by income decile (for VAT estimate)
+
+**Publisher**: Office for National Statistics (ONS)
+**Dataset**: Effects of Taxes and Benefits on UK Household Income — historical datasets (`incometaxandbenefitdatabyincomedecileforallhouseholds.xlsx`)
+**Coverage**: Decile-level tax breakdown, 1977 through 2017-18 (we use the 2017-18 sheet)
+**Unit**: GBP per year per household
+**Live source**: https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/theeffectsoftaxesandbenefitsonhouseholdincomehistoricaldatasets
+
+### Raw file
+
+| Path | SHA256 (first 16) | Notes |
+| ---- | ----------------- | ----- |
+| `data/uk/fiscal/ons_etb_by_decile_all.xlsx` | `a22791d0fe3aecfd` | All-households dataset, 1977-2018, by decile |
+
+### Derived JSON
+
+| Path | SHA256 (first 16) | Notes |
+| ---- | ----------------- | ----- |
+| `data/uk/fiscal/uk_indirect_tax_shares_by_decile.json` | `7c1b84c747bc9163` | 10 deciles × {VAT, fuel, alcohol, tobacco, VED, TV licence, SDLT, customs, betting, IPT, APD, lottery, other} + ratios of disposable income |
+
+Regeneration: `python scripts/build_uk_indirect_tax_shares.py`
+
+### Caveats
+
+- ONS did not continue this exact historical file past FY 2017-18. The decile RATIOS of indirect tax to disposable income are stable year-on-year; absolute figures in current-year terms are derived by applying these ratios to the user's current-year disposable income. Future work: add an automated re-fetch of the latest ONS release (Sept 2025, FYE 2024) for more current ratios.
+- VAT estimate is a decile average. Actual VAT depends on individual consumption (a low-income household that smokes + drives has a different bill than one that doesn't). The calculator output is labelled "estimated" with a tooltip explaining methodology.
+
+---
+
+## OBR Public Sector Net Borrowing & Debt
+
+**Publisher**: Office for Budget Responsibility (OBR)
+**Dataset**: Historical Public Finances Database (sheet: "Aggregates (£m)")
+**Coverage**: Outturn data 1700-01 through 2022-23 (latest actual year in the historical DB). 2023-24 and 2024-25 will be added when released or via EFO forecast file.
+**Unit**: GBP million
+**Live source**: https://obr.uk/data/
+
+### Raw file
+
+| Path | SHA256 (first 16) | Notes |
+| ---- | ----------------- | ----- |
+| `data/uk/fiscal/obr_historical_public_finances.xlsx` | `df154a4774807de3` | Full historical finances database (March 2026 EFO vintage) |
+
+### Derived JSON
+
+| Path | SHA256 (first 16) | Notes |
+| ---- | ----------------- | ----- |
+| `data/uk/fiscal/uk_psnb_historical.json` | `dadd68586f64abbd` | PSNB + PSND + nominal GDP, 2000-01 through 2022-23 |
+
+Regeneration: `python scripts/build_uk_psnb.py`
+
+### Known gap
+
+The historical DB reports up to 2022-23. For the live "borrowing per household this year" figure in the taxpayer view, use the most recent EFO forecast (shipped in `obr.uk/economic-and-fiscal-outlooks/`). Day 3 work will add auto-merge of the latest EFO forecast vintage.
+
+---
+
+## Frontend tax modules
+
+The browser-side calculator stack under `frontend/tax/`:
+
+| Module | Purpose |
+| ------ | ------- |
+| `uk_calc.js` | Income Tax + NI (rUK + Scotland), personal allowance taper |
+| `uk_vat.js` | VAT + other indirect taxes estimated from ONS decile shares |
+| `uk_council_tax.js` | Council + band → annual bill lookup |
+| `uk_trace.js` | Given user inputs, builds the directed graph of £ flows for Sankey rendering |
+
+Cross-module end-to-end test: `node frontend/tax/uk_trace.test.js` — 11 assertions verifying the pipeline reconciles (user outflows = IT+NI+VAT+CT; HMRC flushes fully to Consolidated Fund; CF distribution conserves user contribution + borrowing share).
+
+---
+
+## Known limitations (v1)
+
+Honest list of what the current data + calculator DOES NOT cover:
+
+- **Council-level spending trace**: the user's share of central grants to their specific council is approximated as 1/N (1/300 for England councils). Day-3 work will integrate the MHCLG `revenue_outturn_timeseries.csv` columns (`RG_grantin*`) for exact per-council central funding.
+- **Scotland/Wales/NI local taxes**: only English council tax is covered. Scottish Council Tax bands (different values) and NI domestic rates (no bands) are coming in v1.1.
+- **Self-employed**: NI Class 2/4 not in the calculator. Income Tax works via Self-Assessment path anyway.
+- **Dividend / savings tax**: not modelled.
+- **Employer NI**: not attributed to user (it's not their direct liability).
+- **Stamp Duty Land Tax**: the VAT-like decile estimate includes it, but it's an event-based tax (only paid when buying property); a future refinement will let users toggle this on/off based on whether they bought a home that year.
+- **Pension contributions**: explicitly excluded — they are your savings, not tax.
+- **Student loan repayments**: excluded — not a tax.
+- **Corporation Tax incidence on consumers**: not attributed. Economic literature is divided on how much CT falls on consumers vs shareholders vs workers.
+
+These are documented so users know what is covered and what is not.
 
 ---
 

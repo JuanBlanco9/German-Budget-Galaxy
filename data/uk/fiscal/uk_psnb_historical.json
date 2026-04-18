@@ -1,0 +1,225 @@
+{
+  "country": "uk",
+  "subject": "public_sector_borrowing_and_debt",
+  "unit": "GBP_million",
+  "source": {
+    "publisher": "Office for Budget Responsibility (OBR)",
+    "dataset": "Historical Public Finances Database",
+    "landing_url": "https://obr.uk/data/",
+    "file_url": "https://obr.uk/download/historical-public-finances-database/",
+    "file_path": "data/uk/fiscal/obr_historical_public_finances.xlsx",
+    "file_sha256": "df154a4774807de330ad3b356db085c1d7adf4b1a4f7bcd13484ad9374f0e3f8",
+    "downloaded_at": "2026-04-18",
+    "sheet": "Aggregates (£m)"
+  },
+  "note": "PSNB = Public Sector Net Borrowing (annual deficit; positive = gov spent more than it received). PSND = Public Sector Net Debt (cumulative stock). GDP is nominal. Values from 2000-01 onwards; full series in source goes back to 1700-01.",
+  "series": [
+    {
+      "fiscal_year_label": "2000-01",
+      "fiscal_year_start": 2000,
+      "psnb_gbp_m": -15247.0,
+      "psnd_gbp_m": 322000.0,
+      "nominal_gdp_gbp_m": 1114341.0,
+      "psnb_pct_of_gdp": -1.37,
+      "psnd_pct_of_gdp": 28.9
+    },
+    {
+      "fiscal_year_label": "2001-02",
+      "fiscal_year_start": 2001,
+      "psnb_gbp_m": 6579.0,
+      "psnd_gbp_m": 330600.0,
+      "nominal_gdp_gbp_m": 1152999.0,
+      "psnb_pct_of_gdp": 0.57,
+      "psnd_pct_of_gdp": 28.67
+    },
+    {
+      "fiscal_year_label": "2002-03",
+      "fiscal_year_start": 2002,
+      "psnb_gbp_m": 36402.0,
+      "psnd_gbp_m": 369200.0,
+      "nominal_gdp_gbp_m": 1209047.0,
+      "psnb_pct_of_gdp": 3.01,
+      "psnd_pct_of_gdp": 30.54
+    },
+    {
+      "fiscal_year_label": "2003-04",
+      "fiscal_year_start": 2003,
+      "psnb_gbp_m": 43695.0,
+      "psnd_gbp_m": 404500.0,
+      "nominal_gdp_gbp_m": 1275294.0,
+      "psnb_pct_of_gdp": 3.43,
+      "psnd_pct_of_gdp": 31.72
+    },
+    {
+      "fiscal_year_label": "2004-05",
+      "fiscal_year_start": 2004,
+      "psnb_gbp_m": 52548.0,
+      "psnd_gbp_m": 460900.0,
+      "nominal_gdp_gbp_m": 1342278.0,
+      "psnb_pct_of_gdp": 3.91,
+      "psnd_pct_of_gdp": 34.34
+    },
+    {
+      "fiscal_year_label": "2005-06",
+      "fiscal_year_start": 2005,
+      "psnb_gbp_m": 46110.0,
+      "psnd_gbp_m": 499400.0,
+      "nominal_gdp_gbp_m": 1420970.0,
+      "psnb_pct_of_gdp": 3.24,
+      "psnd_pct_of_gdp": 35.15
+    },
+    {
+      "fiscal_year_label": "2006-07",
+      "fiscal_year_start": 2006,
+      "psnb_gbp_m": 42172.0,
+      "psnd_gbp_m": 535200.0,
+      "nominal_gdp_gbp_m": 1487963.0,
+      "psnb_pct_of_gdp": 2.83,
+      "psnd_pct_of_gdp": 35.97
+    },
+    {
+      "fiscal_year_label": "2007-08",
+      "fiscal_year_start": 2007,
+      "psnb_gbp_m": 47125.0,
+      "psnd_gbp_m": 567200.0,
+      "nominal_gdp_gbp_m": 1567027.0,
+      "psnb_pct_of_gdp": 3.01,
+      "psnd_pct_of_gdp": 36.2
+    },
+    {
+      "fiscal_year_label": "2008-09",
+      "fiscal_year_start": 2008,
+      "psnb_gbp_m": 119372.0,
+      "psnd_gbp_m": 787200.0,
+      "nominal_gdp_gbp_m": 1583394.0,
+      "psnb_pct_of_gdp": 7.54,
+      "psnd_pct_of_gdp": 49.72
+    },
+    {
+      "fiscal_year_label": "2009-10",
+      "fiscal_year_start": 2009,
+      "psnb_gbp_m": 159906.0,
+      "psnd_gbp_m": 1027900.0,
+      "nominal_gdp_gbp_m": 1561331.0,
+      "psnb_pct_of_gdp": 10.24,
+      "psnd_pct_of_gdp": 65.83
+    },
+    {
+      "fiscal_year_label": "2010-11",
+      "fiscal_year_start": 2010,
+      "psnb_gbp_m": 141786.0,
+      "psnd_gbp_m": 1168700.0,
+      "nominal_gdp_gbp_m": 1630474.0,
+      "psnb_pct_of_gdp": 8.7,
+      "psnd_pct_of_gdp": 71.68
+    },
+    {
+      "fiscal_year_label": "2011-12",
+      "fiscal_year_start": 2011,
+      "psnb_gbp_m": 121290.0,
+      "psnd_gbp_m": 1261200.0,
+      "nominal_gdp_gbp_m": 1671352.0,
+      "psnb_pct_of_gdp": 7.26,
+      "psnd_pct_of_gdp": 75.46
+    },
+    {
+      "fiscal_year_label": "2012-13",
+      "fiscal_year_start": 2012,
+      "psnb_gbp_m": 123911.0,
+      "psnd_gbp_m": 1366200.0,
+      "nominal_gdp_gbp_m": 1726983.0,
+      "psnb_pct_of_gdp": 7.17,
+      "psnd_pct_of_gdp": 79.11
+    },
+    {
+      "fiscal_year_label": "2013-14",
+      "fiscal_year_start": 2013,
+      "psnb_gbp_m": 102465.0,
+      "psnd_gbp_m": 1461100.0,
+      "nominal_gdp_gbp_m": 1806096.0,
+      "psnb_pct_of_gdp": 5.67,
+      "psnd_pct_of_gdp": 80.9
+    },
+    {
+      "fiscal_year_label": "2014-15",
+      "fiscal_year_start": 2014,
+      "psnb_gbp_m": 96867.0,
+      "psnd_gbp_m": 1552900.0,
+      "nominal_gdp_gbp_m": 1875897.0,
+      "psnb_pct_of_gdp": 5.16,
+      "psnd_pct_of_gdp": 82.78
+    },
+    {
+      "fiscal_year_label": "2015-16",
+      "fiscal_year_start": 2015,
+      "psnb_gbp_m": 81516.0,
+      "psnd_gbp_m": 1599700.0,
+      "nominal_gdp_gbp_m": 1937570.0,
+      "psnb_pct_of_gdp": 4.21,
+      "psnd_pct_of_gdp": 82.56
+    },
+    {
+      "fiscal_year_label": "2016-17",
+      "fiscal_year_start": 2016,
+      "psnb_gbp_m": 54804.0,
+      "psnd_gbp_m": 1718000.0,
+      "nominal_gdp_gbp_m": 2022931.0,
+      "psnb_pct_of_gdp": 2.71,
+      "psnd_pct_of_gdp": 84.93
+    },
+    {
+      "fiscal_year_label": "2017-18",
+      "fiscal_year_start": 2017,
+      "psnb_gbp_m": 58916.0,
+      "psnd_gbp_m": 1757300.0,
+      "nominal_gdp_gbp_m": 2102925.0,
+      "psnb_pct_of_gdp": 2.8,
+      "psnd_pct_of_gdp": 83.56
+    },
+    {
+      "fiscal_year_label": "2018-19",
+      "fiscal_year_start": 2018,
+      "psnb_gbp_m": 44267.0,
+      "psnd_gbp_m": 1776900.0,
+      "nominal_gdp_gbp_m": 2177222.0,
+      "psnb_pct_of_gdp": 2.03,
+      "psnd_pct_of_gdp": 81.61
+    },
+    {
+      "fiscal_year_label": "2019-20",
+      "fiscal_year_start": 2019,
+      "psnb_gbp_m": 61453.0,
+      "psnd_gbp_m": 1815000.0,
+      "nominal_gdp_gbp_m": 2249423.0,
+      "psnb_pct_of_gdp": 2.73,
+      "psnd_pct_of_gdp": 80.69
+    },
+    {
+      "fiscal_year_label": "2020-21",
+      "fiscal_year_start": 2020,
+      "psnb_gbp_m": 312942.0,
+      "psnd_gbp_m": 2152900.0,
+      "nominal_gdp_gbp_m": 2085204.0,
+      "psnb_pct_of_gdp": 15.01,
+      "psnd_pct_of_gdp": 103.25
+    },
+    {
+      "fiscal_year_label": "2021-22",
+      "fiscal_year_start": 2021,
+      "psnb_gbp_m": 121091.0,
+      "psnd_gbp_m": 2381900.0,
+      "nominal_gdp_gbp_m": 2337907.0,
+      "psnb_pct_of_gdp": 5.18,
+      "psnd_pct_of_gdp": 101.88
+    },
+    {
+      "fiscal_year_label": "2022-23",
+      "fiscal_year_start": 2022,
+      "psnb_gbp_m": 139213.0,
+      "psnd_gbp_m": 2530400.0,
+      "nominal_gdp_gbp_m": 2525544.0,
+      "psnb_pct_of_gdp": 5.51,
+      "psnd_pct_of_gdp": 100.19
+    }
+  ]
+}
