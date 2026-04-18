@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology — Budget Galaxy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a0a0f;
+  --surface:#12121e;
+  --surface2:#1a1a2c;
+  --border:#282840;
+  --text:#e0e0e8;
+  --dim:#7a7a95;
+  --accent:#4fc3f7;
+  --accent2:#ff7043;
+  --green:#66bb6a;
+  --yellow:#ffd54f;
+  --red:#ef5350;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Inter',system-ui,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+  font-size:14px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.top-bar{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:14px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  position:sticky;
+  top:0;
+  z-index:10;
+  backdrop-filter:blur(8px);
+}
+.top-bar h1{
+  font-size:16px;
+  font-weight:700;
+  margin:0;
+  letter-spacing:.3px;
+}
+.top-bar h1 span{color:var(--accent)}
+.top-bar a.back{
+  font-size:12px;
+  color:var(--dim);
+  border:1px solid var(--border);
+  padding:6px 12px;
+  border-radius:5px;
+  transition:border-color .2s,color .2s;
+}
+.top-bar a.back:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.container{
+  max-width:820px;
+  margin:0 auto;
+  padding:48px 24px 80px;
+}
+h1.page-title{
+  font-size:32px;
+  font-weight:700;
+  margin:0 0 6px;
+  letter-spacing:-.3px;
+}
+.page-subtitle{
+  font-size:14px;
+  color:var(--dim);
+  margin-bottom:48px;
+}
+h2{
+  font-size:20px;
+  font-weight:700;
+  color:var(--text);
+  margin:48px 0 14px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+h3{
+  font-size:14px;
+  font-weight:700;
+  color:var(--accent);
+  margin:24px 0 6px;
+  text-transform:uppercase;
+  letter-spacing:.6px;
+}
+p{margin:0 0 12px;color:var(--text)}
+ul{margin:0 0 12px;padding-left:20px;color:var(--text)}
+li{margin-bottom:6px}
+.muted{color:var(--dim);font-size:13px}
+.label{
+  display:inline-block;
+  font-size:10px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+  padding:3px 8px;
+  border-radius:10px;
+  margin-right:6px;
+}
+.label-source{background:rgba(79,195,247,.12);color:var(--accent)}
+.label-licence{background:rgba(102,187,106,.12);color:var(--green)}
+.label-warn{background:rgba(255,213,79,.12);color:var(--yellow)}
+.source-block{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-left:3px solid var(--accent);
+  border-radius:6px;
+  padding:16px 20px;
+  margin:14px 0 22px;
+}
+.source-block .src-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  font-size:12px;
+  color:var(--dim);
+  margin-bottom:10px;
+}
+.source-block .src-row b{color:var(--text);font-weight:600;margin-right:4px}
+.source-block p{margin:6px 0;font-size:13px;line-height:1.6}
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin:16px 0 24px;
+  font-size:12px;
+}
+th,td{
+  text-align:left;
+  padding:9px 10px;
+  border-bottom:1px solid var(--border);
+}
+th{
+  background:var(--surface2);
+  color:var(--accent);
+  font-weight:600;
+  text-transform:uppercase;
+  font-size:10px;
+  letter-spacing:.5px;
+}
+td{color:var(--text)}
+td:first-child{font-weight:600}
+.callout{
+  background:rgba(255,213,79,.05);
+  border:1px solid rgba(255,213,79,.2);
+  border-radius:6px;
+  padding:12px 16px;
+  margin:14px 0;
+  font-size:13px;
+  color:var(--text);
+}
+.callout strong{color:var(--yellow)}
+.callout-info{
+  background:rgba(79,195,247,.05);
+  border:1px solid rgba(79,195,247,.2);
+  border-radius:6px;
+  padding:12px 16px;
+  margin:14px 0;
+  font-size:13px;
+  color:var(--text);
+}
+.callout-info strong{color:var(--accent)}
+hr{
+  border:none;
+  border-top:1px solid var(--border);
+  margin:48px 0 24px;
+}
+.bottom-footer{
+  text-align:center;
+  font-size:11px;
+  color:var(--dim);
+  padding:24px 0 0;
+}
+.bottom-footer a{color:var(--accent)}
+@media (max-width:600px){
+  .container{padding:32px 18px 60px}
+  h1.page-title{font-size:24px}
+  h2{font-size:17px}
+  table{font-size:11px}
+  th,td{padding:7px 6px}
+}
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <h1><span>Budget</span> Galaxy &middot; <span style="color:var(--dim);font-weight:500">Methodology</span></h1>
+  <a href="/" class="back">&larr; Back to app</a>
+</div>
+
+<div class="container">
+
+<h1 class="page-title">Methodology</h1>
+<div class="page-subtitle">How Budget Galaxy is built, what it covers, and where the data comes from.</div>
+
+<h2>1. What is Budget Galaxy?</h2>
+<p>
+Budget Galaxy visualizes federal and public sector budgets for Germany and the United Kingdom, built from official government data sources. It is an independent project with no government affiliation. Every figure shown is traceable to a specific published dataset, and every transformation applied to that data is documented in this page and in the project's source code.
+</p>
+
+<h2>2. Data Sources</h2>
+
+<h3>Germany &mdash; Federal Budget</h3>
+<div class="source-block">
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>bundeshaushalt.de</b> &middot; Federal Ministry of Finance (BMF)
+  </div>
+  <div class="src-row">
+    <span class="label label-licence">Licence</span>
+    Open Government Data <code>dl-de/by-2-0</code>
+  </div>
+  <p><b>Coverage:</b> Federal planned budget (Soll). 25 Einzelpl&auml;ne (ministerial chapters), approximately 4,388 Titel (line items). Years 2015&ndash;2024.</p>
+  <p><b>What it shows:</b> Planned budget, not actual spending (Ist).</p>
+  <p><b>Not included:</b> Off-budget Sonderverm&ouml;gen (the &euro;100B special defence fund, the &euro;60B climate fund, etc.) are not reflected in these figures.</p>
+</div>
+
+<h3>UK &mdash; Central Government (OSCAR)</h3>
+<div class="source-block">
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>HM Treasury OSCAR</b> via gov.uk
+  </div>
+  <div class="src-row">
+    <span class="label label-licence">Licence</span>
+    Open Government Licence v3
+  </div>
+  <p><b>Coverage:</b> 40 central government departments, 2015&ndash;2024.</p>
+  <p><b>What it shows:</b> Total Managed Expenditure &mdash; both DEL (departmental) and AME (pensions, welfare, etc.). Planned figures, not final outturn.</p>
+  <p><b>Note:</b> OSCAR schema changed significantly between 2019 (OSCAR I) and 2020 (OSCAR II), causing some year-on-year discontinuities visible in the 2018&ndash;2020 range. This is a feature of the source data, not a Budget Galaxy bug.</p>
+</div>
+
+<h3>UK &mdash; Supplier Data (Spend Over &pound;25,000)</h3>
+<div class="source-block">
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>gov.uk transparency data</b> &middot; 15 departments
+  </div>
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>UK Contracts Finder OCDS API</b> &middot; ~93,000 contracts
+  </div>
+  <p><b>Coverage:</b> FY 2024 only. 645,572 payment transactions across 15 departments.</p>
+  <p><b>What it shows:</b> Actual payments over &pound;25,000 made to external suppliers, grouped by department and supplier. Supplier descriptions come from publicly available sources; employee counts are approximate.</p>
+  <p><b>Not included:</b> Payments below the &pound;25,000 disclosure threshold.</p>
+</div>
+
+<h3>UK &mdash; NHS Provider Sector</h3>
+<div class="source-block">
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>NHS England Trust Accounts Consolidation (TAC)</b> &middot; 2022/23 and 2023/24
+  </div>
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>NHS ODS Spine API</b> for ICB commissioning relationships
+  </div>
+  <p><b>Coverage:</b> 206 trusts (2023/24) and 212 trusts (2022/23).</p>
+  <p><b>What it shows:</b> Total operating expenditure per trust (TAC subcode <code>EXP0390</code>, current year). Categorised as Staff Costs, Clinical Supplies &amp; Drugs, Premises &amp; Infrastructure, and Other Operating Costs. Each trust also shows its Integrated Care Board (ICB) commissioner, derived from the NHS ODS Spine REST API at <code>directory.spineservices.nhs.uk</code>.</p>
+  <div class="callout-info">
+    <strong>Important note on double-counting:</strong> NHS trusts receive funding from DHSC via NHS England &rarr; ICBs, then spend it on operations. Budget Galaxy shows both the commissioning side (under DHSC) and the provider side (under NHS Provider Sector), with the overlap netted out to avoid double-counting. The DHSC node shows only the residual not captured in TAC data. See section 4 below for the full methodology.
+  </div>
+  <p><b>Excluded trusts:</b> 3&ndash;5 trusts per year are excluded by NHS England because annual accounts had not been adopted at time of publication.</p>
+</div>
+
+<h3>UK &mdash; Local Government (England)</h3>
+<div class="source-block">
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>MHCLG Revenue Outturn Statistics</b>
+  </div>
+  <p><b>Coverage:</b> 401 English local authorities (2024/25), approximately 400 per year for 2017/18&ndash;2023/24.</p>
+  <p><b>What it shows:</b> Net current expenditure by service: Education, Adult Social Care, Children's Social Care, Public Health, Housing, Transport, Environment, Culture, Planning, Police, Fire &amp; Rescue, Central Services, and Other. Includes grants received from central government.</p>
+  <p><b>Not included:</b> Capital expenditure. Scotland, Wales and Northern Ireland have separate systems and are not in this dataset.</p>
+</div>
+
+<h3>UK &mdash; NHS ICB Allocations</h3>
+<div class="source-block">
+  <div class="src-row">
+    <span class="label label-source">Source</span>
+    <b>NHS England Annual Allocations</b>
+  </div>
+  <p><b>Coverage:</b> 42 Integrated Care Boards.</p>
+  <p><b>What it shows:</b> Primary commissioning budgets allocated by NHS England to each ICB. Shown as commissioning context metadata on each NHS trust node, not as separate tree nodes (to avoid double-counting with the NHS Provider Sector view).</p>
+</div>
+
+<h2>3. Coverage</h2>
+
+<table>
+<thead>
+<tr><th>Country</th><th>Sector</th><th>Source</th><th>Years</th><th>Detail</th></tr>
+</thead>
+<tbody>
+<tr><td>Germany</td><td>Federal govt</td><td>bundeshaushalt.de</td><td>2015&ndash;2024</td><td>L1&ndash;L4 (4,388 items)</td></tr>
+<tr><td>UK</td><td>Central govt</td><td>OSCAR HMT</td><td>2015&ndash;2024</td><td>L1&ndash;L4 (40 depts)</td></tr>
+<tr><td>UK</td><td>Supplier payments</td><td>Spend &gt;&pound;25k</td><td>2024</td><td>L5&ndash;L6 (645k transactions)</td></tr>
+<tr><td>UK</td><td>NHS providers</td><td>NHS TAC</td><td>2022/23, 2023/24</td><td>L5 (206/212 trusts)</td></tr>
+<tr><td>UK</td><td>Local govt</td><td>MHCLG Revenue Outturn</td><td>2017&ndash;2025</td><td>L5 (~400 councils/year)</td></tr>
+</tbody>
+</table>
+
+<p><b>UK public sector coverage (2024):</b> approximately 85% of Total Managed Expenditure (&pound;1.38T visualised).</p>
+
+<p><b>Not included:</b> Off-budget funds (UKEF, Network Rail), devolved governments (Scotland, Wales, Northern Ireland), NHS capital expenditure, local government capital.</p>
+
+<h2>4. Fiscal Consolidation and Double-Counting</h2>
+
+<p>
+Public sector finances contain extensive internal flows. The same money is often recorded multiple times: once when central government allocates it to an arm's-length body, once when that body passes it on to a delivery agent, and once when the delivery agent spends it. Naively summing all these views inflates the total significantly.
+</p>
+
+<p>
+Budget Galaxy applies surgical netting to remove these overlaps wherever they would distort the picture, while preserving both views in the tree where users can see them side by side. Three categories of consolidation are applied:
+</p>
+
+<h3>NHS Provider Sector vs DHSC</h3>
+<p>
+NHS trusts receive funding from DHSC via NHS England &rarr; ICBs, and report it as operating expenditure in their accounts. Both views are shown in Budget Galaxy: the commissioning side appears under the Department of Health, and the provider side appears as a separate top-level node "NHS Provider Sector". To prevent double-counting, the DHSC <em>NHS Trusts</em> sub-node is reduced to its residual after subtracting what TAC reports (capital expenditure plus a small set of non-operating items).
+</p>
+
+<h3>Local Government vs MHCLG</h3>
+<p>
+English local authorities receive grants from central government (recorded in MHCLG's central budget) and then spend them on services (recorded in MHCLG Revenue Outturn). Budget Galaxy uses the Revenue Outturn figures, which represent actual service delivery expenditure broken down by 13 functional categories. The OSCAR II "LOCAL GOVERNMENT ENGLAND" placeholder line that appears in 2020&ndash;2023 data is replaced by the Revenue Outturn detail.
+</p>
+
+<h3>OSCAR 2023 Data Quality Correction</h3>
+<div class="callout">
+<strong>Disclosed correction:</strong> The 2022/23 OSCAR data contained a &pound;114.07B "Non-patient-facing NHS expenditure" line inside DHSC&nbsp;&gt;&nbsp;NHS Trusts that does not appear in 2023/24 OSCAR. Cross-referencing against three independent published sources &mdash; the DHSC Annual Report 2022-23 (resource outturn &pound;177.1B), HM Treasury PSA July 2023 (DHSC total DEL &pound;181.7B), and the NHS England Annual Report 2022-23 (total expenditure &pound;155.1B) &mdash; confirmed that the OSCAR 2023 figure was approximately twice the published DHSC total. The artifact was removed via a documented surgical deduction. The exact value, the source of that value, and the resulting tree changes are recorded in the project's <code>intergovernmental_uk_2023.json</code> and in metadata fields on the affected node. This is the only place in Budget Galaxy where source data has been corrected; all other figures pass through unmodified.
+</div>
+
+<h2>5. Limitations</h2>
+<ul>
+<li>German data is <b>planned budget, not actual spending</b>. The Bundestag may approve supplementary budgets later in the year that are not yet reflected.</li>
+<li>UK OSCAR data is <b>planned budget, not final outturn</b>. Differences between plan and outturn can be material.</li>
+<li>UK Spend Over &pound;25k data <b>misses below-threshold payments</b>, which collectively represent a non-trivial share of departmental spending.</li>
+<li>Supplier names are published as-is &mdash; capitalisation, abbreviations and legal entity names are inconsistent across departments. Budget Galaxy applies normalization where possible but cannot perfectly reconcile every variant.</li>
+<li>UK Contracts Finder values are <b>full contract award values</b>, not annual or actual payment amounts. A &pound;1B 10-year contract appears as &pound;1B in the year it was awarded.</li>
+<li>NHS trust accounts <b>exclude 3&ndash;5 trusts per year</b> whose accounts had not been adopted at NHS England's publication date.</li>
+<li>OSCAR schema changed between OSCAR I (pre-2020) and OSCAR II (2020+), causing some <b>year-on-year discontinuities</b> in the 2018&ndash;2020 range visible in the Budget Evolution chart. These reflect data model changes, not real spending changes.</li>
+<li>Local government data: <b>some smaller district councils had not submitted data</b> at download time and are excluded from those years.</li>
+<li>The OSCAR 2023 NHS correction (section 4) leaves a residual of &pound;0.4B in the DHSC NHS Trusts node, compared to &pound;4.7B for 2024. This 0.3% vs 3.6% ratio difference suggests the 2023 fix may be slightly over-aggressive by &pound;4&ndash;5B, but cannot be resolved without TAC capital expenditure data for 2022/23.</li>
+</ul>
+
+<h2>6. Source Code and Data</h2>
+
+<p>All code and processed data files are available at <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank">github.com/JuanBlanco9/German-Budget-Galaxy</a>.</p>
+
+<p>
+<span class="label label-licence">Project Licence</span> MIT<br>
+<span class="label label-licence">Data Licence (UK)</span> Open Government Licence v3<br>
+<span class="label label-licence">Data Licence (DE)</span> Open Government Data <code>dl-de/by-2-0</code>
+</p>
+
+<p class="muted">
+This project has no affiliation with any government body. Original government data is used under the open government licences linked above. Where Budget Galaxy applies any transformation to that data, the transformation is documented in the project's source code and on this page.
+</p>
+
+<hr>
+
+<div class="bottom-footer">
+  &larr; <a href="/">Back to Budget Galaxy</a> &middot; <a href="https://github.com/JuanBlanco9/German-Budget-Galaxy" target="_blank">GitHub</a> &middot; MIT License
+</div>
+
+</div>
+
+</body>
+</html>

@@ -841,7 +841,7 @@ function processCouncilWithMapping(config) {
       if (service === '_excluded') continue;
       if (!patterns[patternKey] && service === 'Other Services') unmapped++;
 
-      if (!services[service]) services[service] = { suppliers: {}, total: 0, txCount: 0 };
+      if (!services[service]) services[service] = { suppliers: {}, purposes: {}, total: 0, txCount: 0 };
       services[service].total += amt;
       services[service].txCount++;
       const norm = normalizeSupplier(supplier);
@@ -850,6 +850,16 @@ function processCouncilWithMapping(config) {
       }
       services[service].suppliers[norm].amount += amt;
       services[service].suppliers[norm].count++;
+      // Track purpose breakdown: use dept+purpose compound label so that
+      // e.g. "Director Strategic Finance | Non-Domestic Rates" stays
+      // distinguishable from other "Non-Domestic Rates" entries. Empty purpose
+      // falls back to dept alone so label is never blank.
+      const purposeLabel = purpose ? (dept ? `${dept} — ${purpose}` : purpose) : (dept || '(unspecified)');
+      if (!services[service].purposes[purposeLabel]) {
+        services[service].purposes[purposeLabel] = { label: purposeLabel, amount: 0, count: 0 };
+      }
+      services[service].purposes[purposeLabel].amount += amt;
+      services[service].purposes[purposeLabel].count++;
       totalSpend += amt;
       totalRows++;
     }
@@ -880,11 +890,32 @@ function processCouncilWithMapping(config) {
         transactions: all.slice(TOP_N).reduce((s, x) => s + x.count, 0)
       });
     }
+    // Build top purposes (what's inside each service category, especially
+    // useful for "Other Services" which otherwise looks opaque). Top 10 by £
+    // plus a rollup of the remainder.
+    const allPurposes = Object.values(data.purposes || {}).sort((a, b) => b.amount - a.amount);
+    const TOP_P = 10;
+    const topPurposes = allPurposes.slice(0, TOP_P).map(p => ({
+      label: p.label,
+      amount: Math.round(p.amount),
+      pct: parseFloat((p.amount / data.total * 100).toFixed(1)),
+      transactions: p.count
+    }));
+    const otherPurposeAmt = allPurposes.slice(TOP_P).reduce((s, x) => s + x.amount, 0);
+    if (otherPurposeAmt > 0) {
+      topPurposes.push({
+        label: `Other (${allPurposes.length - TOP_P} purposes)`,
+        amount: Math.round(otherPurposeAmt),
+        pct: parseFloat((otherPurposeAmt / data.total * 100).toFixed(1)),
+        transactions: allPurposes.slice(TOP_P).reduce((s, x) => s + x.count, 0)
+      });
+    }
     out[svc] = {
       service_total_in_spend_data: Math.round(data.total),
       transaction_count: data.txCount,
       unique_suppliers: all.length,
-      top_suppliers: top
+      top_suppliers: top,
+      top_purposes: topPurposes
     };
   }
 
@@ -1381,8 +1412,8 @@ const LLM_COUNCILS = [
     source: 'London Borough of Tower Hamlets — 250 Spend (towerhamlets.gov.uk, filtered to £500+)' },
 
   { name: 'Barnet', code: 'E09000003', dir: path.join(SPEND_DIR, 'barnet'),
-    deptCol: 'Directorate', purposeCol: 'Expenditure Type', amountCol: 'Expenditure Amount (exc VAT)',
-    supplierCol: 'Vendor Name', sep: ',', encoding: 'utf8',
+    deptCol: 'Department', purposeCol: 'Expenditure Type', amountCol: 'Expenditure Amount (exc VAT)',
+    supplierCol: 'Vendor Name', sep: ',', encoding: 'latin1',
     mappingFile: path.join(SPEND_DIR, 'barnet_dept_mapping.json'),
     fyLabel: '2023/24',
     source: 'London Borough of Barnet — Expenditure Reporting (open.barnet.gov.uk CKAN)' },

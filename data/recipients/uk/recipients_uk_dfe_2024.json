@@ -1,0 +1,915 @@
+{
+  "dept": "Department for Education",
+  "dept_id": "uk_dfe",
+  "year": 2024,
+  "currency": "GBP",
+  "total_dept": 140300000000,
+  "total_spend25k": 111375682351,
+  "top100_coverage_pct": 51.7,
+  "top100_coverage_of_dept_pct": 41.1,
+  "recipients": [
+    {
+      "rank": 1,
+      "name": "Student Loans Company Ltd",
+      "type": "Contractor",
+      "amount": 21303634477,
+      "pct_of_dept": 15.18,
+      "transactions": 119,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 2,
+      "name": "The Office For Students",
+      "type": "Contractor",
+      "amount": 1647806272,
+      "pct_of_dept": 1.17,
+      "transactions": 12,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 3,
+      "name": "Hampshire County Council",
+      "type": "Local Authority",
+      "amount": 1207801009,
+      "pct_of_dept": 0.86,
+      "transactions": 884,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 4,
+      "name": "Lancashire County Council",
+      "type": "Local Authority",
+      "amount": 1202073814,
+      "pct_of_dept": 0.86,
+      "transactions": 218,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 5,
+      "name": "Kent County Council",
+      "type": "Local Authority",
+      "amount": 1138715513,
+      "pct_of_dept": 0.81,
+      "transactions": 941,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 6,
+      "name": "Birmingham City Council",
+      "type": "Local Authority",
+      "amount": 946308068,
+      "pct_of_dept": 0.67,
+      "transactions": 263,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 7,
+      "name": "Hertfordshire County Council",
+      "type": "Local Authority",
+      "amount": 897498173,
+      "pct_of_dept": 0.64,
+      "transactions": 303,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 8,
+      "name": "Essex County Council",
+      "type": "Local Authority",
+      "amount": 778917791,
+      "pct_of_dept": 0.56,
+      "transactions": 223,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 9,
+      "name": "Leeds City Council",
+      "type": "Local Authority",
+      "amount": 721843203,
+      "pct_of_dept": 0.51,
+      "transactions": 308,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 10,
+      "name": "Surrey County Council",
+      "type": "Local Authority",
+      "amount": 717029832,
+      "pct_of_dept": 0.51,
+      "transactions": 215,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 11,
+      "name": "West Sussex County Council",
+      "type": "Local Authority",
+      "amount": 643691139,
+      "pct_of_dept": 0.46,
+      "transactions": 609,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 12,
+      "name": "Various",
+      "type": "Contractor",
+      "amount": 566292071,
+      "pct_of_dept": 0.4,
+      "transactions": 12,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 13,
+      "name": "Derbyshire County Council",
+      "type": "Local Authority",
+      "amount": 535454565,
+      "pct_of_dept": 0.38,
+      "transactions": 210,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 14,
+      "name": "Liverpool City Council",
+      "type": "Local Authority",
+      "amount": 518178254,
+      "pct_of_dept": 0.37,
+      "transactions": 300,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 15,
+      "name": "Nottinghamshire County Council",
+      "type": "Local Authority",
+      "amount": 477261001,
+      "pct_of_dept": 0.34,
+      "transactions": 177,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 16,
+      "name": "Devon County Council",
+      "type": "Local Authority",
+      "amount": 453152359,
+      "pct_of_dept": 0.32,
+      "transactions": 165,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 17,
+      "name": "Manchester City Council",
+      "type": "Local Authority",
+      "amount": 448121516,
+      "pct_of_dept": 0.32,
+      "transactions": 124,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 18,
+      "name": "Norfolk County Council",
+      "type": "Local Authority",
+      "amount": 440145040,
+      "pct_of_dept": 0.31,
+      "transactions": 249,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 19,
+      "name": "London Borough Of Tower Hamlets",
+      "type": "Local Authority",
+      "amount": 425665781,
+      "pct_of_dept": 0.3,
+      "transactions": 255,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 20,
+      "name": "Buckinghamshire Council",
+      "type": "Local Authority",
+      "amount": 420382687,
+      "pct_of_dept": 0.3,
+      "transactions": 172,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 21,
+      "name": "Lincolnshire County Council",
+      "type": "Local Authority",
+      "amount": 418544290,
+      "pct_of_dept": 0.3,
+      "transactions": 227,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 22,
+      "name": "Ealing London Borough Council",
+      "type": "Local Authority",
+      "amount": 415853813,
+      "pct_of_dept": 0.3,
+      "transactions": 199,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 23,
+      "name": "Staffordshire County Council",
+      "type": "Local Authority",
+      "amount": 412574946,
+      "pct_of_dept": 0.29,
+      "transactions": 234,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 24,
+      "name": "Gloucestershire County Council",
+      "type": "Local Authority",
+      "amount": 398124825,
+      "pct_of_dept": 0.28,
+      "transactions": 234,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 25,
+      "name": "North Yorkshire County Council",
+      "type": "Local Authority",
+      "amount": 381968492,
+      "pct_of_dept": 0.27,
+      "transactions": 262,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 26,
+      "name": "Redbridge London Borough Council",
+      "type": "Local Authority",
+      "amount": 375386513,
+      "pct_of_dept": 0.27,
+      "transactions": 253,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 27,
+      "name": "Warwickshire County Council",
+      "type": "Local Authority",
+      "amount": 367204520,
+      "pct_of_dept": 0.26,
+      "transactions": 281,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 28,
+      "name": "Greater London Authority",
+      "type": "Contractor",
+      "amount": 363371046,
+      "pct_of_dept": 0.26,
+      "transactions": 11,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 29,
+      "name": "Cambridgeshire County Council",
+      "type": "Local Authority",
+      "amount": 362068848,
+      "pct_of_dept": 0.26,
+      "transactions": 221,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 30,
+      "name": "Durham County Council",
+      "type": "Local Authority",
+      "amount": 359161203,
+      "pct_of_dept": 0.26,
+      "transactions": 200,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 31,
+      "name": "Bradford City Council",
+      "type": "Local Authority",
+      "amount": 358491777,
+      "pct_of_dept": 0.26,
+      "transactions": 162,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 32,
+      "name": "Barking And Dagenham London Borough Council",
+      "type": "Local Authority",
+      "amount": 354841927,
+      "pct_of_dept": 0.25,
+      "transactions": 214,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 33,
+      "name": "Lewisham London Borough Council",
+      "type": "Local Authority",
+      "amount": 348470304,
+      "pct_of_dept": 0.25,
+      "transactions": 163,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 34,
+      "name": "Oxfordshire County Council",
+      "type": "Local Authority",
+      "amount": 344112629,
+      "pct_of_dept": 0.25,
+      "transactions": 306,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 35,
+      "name": "Barnet London Borough Council",
+      "type": "Local Authority",
+      "amount": 340724879,
+      "pct_of_dept": 0.24,
+      "transactions": 185,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 36,
+      "name": "Sheffield City Council",
+      "type": "Local Authority",
+      "amount": 338371904,
+      "pct_of_dept": 0.24,
+      "transactions": 193,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 37,
+      "name": "Sandwell Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 333089514,
+      "pct_of_dept": 0.24,
+      "transactions": 198,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 38,
+      "name": "Kirklees Metro Council",
+      "type": "Local Authority",
+      "amount": 330144893,
+      "pct_of_dept": 0.24,
+      "transactions": 133,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 39,
+      "name": "Suffolk County Council",
+      "type": "Local Authority",
+      "amount": 327887829,
+      "pct_of_dept": 0.23,
+      "transactions": 327,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 40,
+      "name": "Bowmer And Kirkland Limited",
+      "type": "Contractor",
+      "amount": 326809576,
+      "pct_of_dept": 0.23,
+      "transactions": 340,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 41,
+      "name": "Newham London Borough Council",
+      "type": "Local Authority",
+      "amount": 324691139,
+      "pct_of_dept": 0.23,
+      "transactions": 159,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 42,
+      "name": "East Sussex County Council",
+      "type": "Local Authority",
+      "amount": 324274754,
+      "pct_of_dept": 0.23,
+      "transactions": 356,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 43,
+      "name": "Leicester City Council",
+      "type": "Local Authority",
+      "amount": 322194058,
+      "pct_of_dept": 0.23,
+      "transactions": 153,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 44,
+      "name": "Greenwich London Borough Council",
+      "type": "Local Authority",
+      "amount": 319434069,
+      "pct_of_dept": 0.23,
+      "transactions": 167,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 45,
+      "name": "Wiltshire County Council",
+      "type": "Local Authority",
+      "amount": 319373397,
+      "pct_of_dept": 0.23,
+      "transactions": 169,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 46,
+      "name": "Enfield London Borough Council",
+      "type": "Local Authority",
+      "amount": 318237850,
+      "pct_of_dept": 0.23,
+      "transactions": 232,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 47,
+      "name": "Bristol City Council",
+      "type": "Local Authority",
+      "amount": 313767613,
+      "pct_of_dept": 0.22,
+      "transactions": 171,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 48,
+      "name": "Worcestershire County Council",
+      "type": "Local Authority",
+      "amount": 312947187,
+      "pct_of_dept": 0.22,
+      "transactions": 275,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 49,
+      "name": "Wigan Metropolitan Borough Council",
+      "type": "Local Authority",
+      "amount": 306961778,
+      "pct_of_dept": 0.22,
+      "transactions": 124,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 50,
+      "name": "Lambeth London Borough Council",
+      "type": "Local Authority",
+      "amount": 304493855,
+      "pct_of_dept": 0.22,
+      "transactions": 184,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 51,
+      "name": "Student Loans Co Ltd Invest To Save",
+      "type": "Contractor",
+      "amount": 301984417,
+      "pct_of_dept": 0.22,
+      "transactions": 22,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 52,
+      "name": "Somerset Council",
+      "type": "Local Authority",
+      "amount": 298944877,
+      "pct_of_dept": 0.21,
+      "transactions": 160,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 53,
+      "name": "Bolton Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 291818581,
+      "pct_of_dept": 0.21,
+      "transactions": 135,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 54,
+      "name": "Leicestershire County Council",
+      "type": "Local Authority",
+      "amount": 289521417,
+      "pct_of_dept": 0.21,
+      "transactions": 246,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 55,
+      "name": "Cheshire West And Chester Council",
+      "type": "Local Authority",
+      "amount": 287893618,
+      "pct_of_dept": 0.21,
+      "transactions": 193,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 56,
+      "name": "Hackney London Borough Council",
+      "type": "Local Authority",
+      "amount": 286634627,
+      "pct_of_dept": 0.2,
+      "transactions": 158,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 57,
+      "name": "Haringey London Borough Council",
+      "type": "Local Authority",
+      "amount": 284048700,
+      "pct_of_dept": 0.2,
+      "transactions": 152,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 58,
+      "name": "Southwark London Borough Council",
+      "type": "Local Authority",
+      "amount": 277971372,
+      "pct_of_dept": 0.2,
+      "transactions": 156,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 59,
+      "name": "Brent London Borough Council",
+      "type": "Local Authority",
+      "amount": 274213150,
+      "pct_of_dept": 0.2,
+      "transactions": 127,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 60,
+      "name": "Stockport Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 269896987,
+      "pct_of_dept": 0.19,
+      "transactions": 109,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 61,
+      "name": "Wirral Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 268144222,
+      "pct_of_dept": 0.19,
+      "transactions": 158,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 62,
+      "name": "Hounslow London Borough Council",
+      "type": "Local Authority",
+      "amount": 263829766,
+      "pct_of_dept": 0.19,
+      "transactions": 121,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 63,
+      "name": "Salford City Council",
+      "type": "Local Authority",
+      "amount": 257034264,
+      "pct_of_dept": 0.18,
+      "transactions": 171,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 64,
+      "name": "Waltham Forest London Borough Council",
+      "type": "Local Authority",
+      "amount": 252778102,
+      "pct_of_dept": 0.18,
+      "transactions": 143,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 65,
+      "name": "Walsall Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 252748470,
+      "pct_of_dept": 0.18,
+      "transactions": 142,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 66,
+      "name": "Cornwall Council",
+      "type": "Local Authority",
+      "amount": 252277579,
+      "pct_of_dept": 0.18,
+      "transactions": 200,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 67,
+      "name": "Coventry City Council",
+      "type": "Local Authority",
+      "amount": 247966394,
+      "pct_of_dept": 0.18,
+      "transactions": 135,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 68,
+      "name": "Croydon London Borough Council",
+      "type": "Local Authority",
+      "amount": 247738012,
+      "pct_of_dept": 0.18,
+      "transactions": 121,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 69,
+      "name": "East Riding Of Yorkshire Council",
+      "type": "Local Authority",
+      "amount": 244966232,
+      "pct_of_dept": 0.17,
+      "transactions": 188,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 70,
+      "name": "Brighton And Hove City Council",
+      "type": "Local Authority",
+      "amount": 244596198,
+      "pct_of_dept": 0.17,
+      "transactions": 142,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 71,
+      "name": "London Borough Of Hillingdon",
+      "type": "Local Authority",
+      "amount": 236006605,
+      "pct_of_dept": 0.17,
+      "transactions": 127,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 72,
+      "name": "Merton Borough Council",
+      "type": "Local Authority",
+      "amount": 234235523,
+      "pct_of_dept": 0.17,
+      "transactions": 160,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 73,
+      "name": "Rochdale Borough Council",
+      "type": "Local Authority",
+      "amount": 233738435,
+      "pct_of_dept": 0.17,
+      "transactions": 147,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 74,
+      "name": "Bam Construction Limited",
+      "type": "Contractor",
+      "amount": 232513977,
+      "pct_of_dept": 0.17,
+      "transactions": 226,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 75,
+      "name": "Cheshire East Council",
+      "type": "Local Authority",
+      "amount": 230296119,
+      "pct_of_dept": 0.16,
+      "transactions": 174,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 76,
+      "name": "Oldham Metropolitan Borough Council",
+      "type": "Local Authority",
+      "amount": 226758549,
+      "pct_of_dept": 0.16,
+      "transactions": 122,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 77,
+      "name": "Islington London Borough Council",
+      "type": "Local Authority",
+      "amount": 219625460,
+      "pct_of_dept": 0.16,
+      "transactions": 158,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 78,
+      "name": "Southampton City Council",
+      "type": "Local Authority",
+      "amount": 218652227,
+      "pct_of_dept": 0.16,
+      "transactions": 147,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 79,
+      "name": "Milton Keynes Council",
+      "type": "Local Authority",
+      "amount": 217128629,
+      "pct_of_dept": 0.15,
+      "transactions": 142,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 80,
+      "name": "Dudley Metropolitan Borough Council",
+      "type": "Local Authority",
+      "amount": 216998901,
+      "pct_of_dept": 0.15,
+      "transactions": 107,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 81,
+      "name": "Cumberland Council",
+      "type": "Local Authority",
+      "amount": 216252291,
+      "pct_of_dept": 0.15,
+      "transactions": 142,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 82,
+      "name": "Luton Borough Council",
+      "type": "Local Authority",
+      "amount": 213632297,
+      "pct_of_dept": 0.15,
+      "transactions": 147,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 83,
+      "name": "West Northamptonshire Council",
+      "type": "Local Authority",
+      "amount": 212636778,
+      "pct_of_dept": 0.15,
+      "transactions": 112,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 84,
+      "name": "North Tyneside Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 211141655,
+      "pct_of_dept": 0.15,
+      "transactions": 196,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 85,
+      "name": "Sefton Metropolitan Borough Council",
+      "type": "Local Authority",
+      "amount": 209682600,
+      "pct_of_dept": 0.15,
+      "transactions": 136,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 86,
+      "name": "Wandsworth Borough Council",
+      "type": "Local Authority",
+      "amount": 209328761,
+      "pct_of_dept": 0.15,
+      "transactions": 100,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 87,
+      "name": "Trafford Borough Council",
+      "type": "Local Authority",
+      "amount": 208849674,
+      "pct_of_dept": 0.15,
+      "transactions": 105,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 88,
+      "name": "Dorset Council",
+      "type": "Local Authority",
+      "amount": 208017236,
+      "pct_of_dept": 0.15,
+      "transactions": 186,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 89,
+      "name": "Camden London Borough Council",
+      "type": "Local Authority",
+      "amount": 207079412,
+      "pct_of_dept": 0.15,
+      "transactions": 174,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 90,
+      "name": "Wakefield City Council",
+      "type": "Local Authority",
+      "amount": 203826978,
+      "pct_of_dept": 0.15,
+      "transactions": 119,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 91,
+      "name": "Northumberland County Council",
+      "type": "Local Authority",
+      "amount": 203651582,
+      "pct_of_dept": 0.15,
+      "transactions": 148,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 92,
+      "name": "Tameside Metro Borough Council",
+      "type": "Local Authority",
+      "amount": 198608722,
+      "pct_of_dept": 0.14,
+      "transactions": 123,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 93,
+      "name": "Wolverhampton City Council",
+      "type": "Local Authority",
+      "amount": 197214919,
+      "pct_of_dept": 0.14,
+      "transactions": 118,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 94,
+      "name": "Havering London Borough Council",
+      "type": "Local Authority",
+      "amount": 196593826,
+      "pct_of_dept": 0.14,
+      "transactions": 110,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 95,
+      "name": "Harrow London Borough Council",
+      "type": "Local Authority",
+      "amount": 191712769,
+      "pct_of_dept": 0.14,
+      "transactions": 97,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 96,
+      "name": "South Gloucestershire Council",
+      "type": "Local Authority",
+      "amount": 190579678,
+      "pct_of_dept": 0.14,
+      "transactions": 131,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 97,
+      "name": "Central Bedfordshire Council",
+      "type": "Local Authority",
+      "amount": 189304322,
+      "pct_of_dept": 0.13,
+      "transactions": 163,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 98,
+      "name": "Derby City Council",
+      "type": "Local Authority",
+      "amount": 189172830,
+      "pct_of_dept": 0.13,
+      "transactions": 192,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 99,
+      "name": "Nottingham City Council",
+      "type": "Local Authority",
+      "amount": 185078878,
+      "pct_of_dept": 0.13,
+      "transactions": 148,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    },
+    {
+      "rank": 100,
+      "name": "Newcastle Upon Tyne City Council",
+      "type": "Local Authority",
+      "amount": 180455009,
+      "pct_of_dept": 0.13,
+      "transactions": 146,
+      "source": "UK Government Spending Over £25,000, Department for Education, Calendar Year 2024"
+    }
+  ],
+  "source": "UK Government Spending Over £25,000 (https://www.gov.uk/government/collections/spending-over-25-000)",
+  "note": "Only covers transactions over £25,000. Coverage of total departmental spending depends on the proportion of spend that occurs in transactions over £25k.",
+  "generated": "2026-04-08"
+}
